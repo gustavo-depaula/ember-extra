@@ -592,10 +592,6 @@
           ],
           "additionalProperties": false
         },
-        "dateSuffix": {
-          "type": "string",
-          "description": "Single-letter suffix when more than one Mass shares a date (e.g. 'Y', 'Z')."
-        },
         "movable": {
           "type": "boolean",
           "description": "True for movable feasts whose source day-id encodes a non-fixed position (Sunday after Trinity, etc.)."
@@ -703,12 +699,60 @@
           "additionalProperties": {
             "$ref": "#/$defs/Part"
           }
+        },
+        "alternatives": {
+          "description": "Additional celebrations sharing this date — different optional saints, alternative formularies of the same celebration (All Souls), or vigil/day pairs (Assumption). The root mass is the day's primary celebration; each entry here is a sibling option the priest may use instead.",
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/MassAlternative"
+          }
         }
       },
       "required": [
         "id",
         "group"
       ],
+      "additionalProperties": false
+    },
+    "MassAlternative": {
+      "description": "A sibling Mass option nested inside a parent Mass. Inherits id/group/date/scope from the parent; carries its own title, rank, color, prayers, and readings.",
+      "type": "object",
+      "properties": {
+        "key": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]*$",
+          "description": "Stable kebab-case slug for this alternative within its parent (e.g. 'sebastian'). When the parent and alternatives share a celebration, suffixed with '-form-2', '-form-3' (e.g. 'all-souls-form-2')."
+        },
+        "title": { "$ref": "#/$defs/Localized" },
+        "description": { "$ref": "#/$defs/Localized" },
+        "rank": {
+          "type": "string",
+          "enum": ["solemnity", "feast", "memorial", "optional-memorial"]
+        },
+        "rankLocalized": { "$ref": "#/$defs/Localized" },
+        "liturgicalColor": {
+          "type": "string",
+          "enum": ["white", "red", "green", "violet", "rose", "black"]
+        },
+        "entranceAntiphon": { "$ref": "#/$defs/Antiphon" },
+        "penitentialAct": { "$ref": "#/$defs/Prayer" },
+        "gloriaInstruction": { "$ref": "#/$defs/Prayer" },
+        "collect": { "$ref": "#/$defs/Prayer" },
+        "creedInstruction": { "$ref": "#/$defs/Prayer" },
+        "readings": { "$ref": "#/$defs/Readings" },
+        "prayerOverOfferings": { "$ref": "#/$defs/Prayer" },
+        "preface": {
+          "oneOf": [
+            { "$ref": "#/$defs/Prayer" },
+            { "$ref": "#/$defs/PrefaceRef" }
+          ]
+        },
+        "communionAntiphon": { "$ref": "#/$defs/Antiphon" },
+        "postcommunion": { "$ref": "#/$defs/Prayer" },
+        "prayerOverPeople": { "$ref": "#/$defs/Prayer" }
+      },
+      "required": ["key", "title"],
       "additionalProperties": false
     },
     "Preface": {

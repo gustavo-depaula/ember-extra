@@ -547,13 +547,20 @@ class TestCalendarMassesCrossRef:
             if f.name == "_index.json":
                 continue
             self.cal_entries.append(json.loads(f.read_text()))
+        # Mass ids include both standalone masses AND
+        # `<parent>.<alternative.key>` ids for nested alternatives.
         self.mass_ids = set()
         for f in (DATA / "masses").rglob("*.json"):
             if f.name == "_index.json":
                 continue
             d = json.loads(f.read_text())
-            if isinstance(d, dict) and d.get("id"):
+            if not isinstance(d, dict):
+                continue
+            if d.get("id"):
                 self.mass_ids.add(d["id"])
+                for alt in d.get("alternatives") or []:
+                    if alt.get("key"):
+                        self.mass_ids.add(f"{d['id']}.{alt['key']}")
 
     def test_all_tempore_calendar_entries_have_mass(self):
         for entry in self.cal_entries:

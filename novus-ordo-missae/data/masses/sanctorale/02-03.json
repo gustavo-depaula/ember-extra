@@ -244,5 +244,586 @@
     "fr": "Mémoire facultative",
     "de": "Nicht gebotener Gedenktag"
   },
-  "liturgicalColor": "red"
+  "liturgicalColor": "red",
+  "alternatives": [
+    {
+      "key": "ansgar",
+      "title": {
+        "la": "S. Ansgarii, episcopi",
+        "es": "San Óscar, obispo",
+        "en": "Saint Ansgar, bishop",
+        "pt-BR": "Santo Oscar, bispo",
+        "it": "SANT'ANSGARIO (OSCAR), vescovo",
+        "fr": "Saint Anschaire, évêque",
+        "de": "Hl. Ansgar, Bischof, Glaubensbote"
+      },
+      "description": {
+        "la": "Natus est in Gallia initio sǽculi IX et in monasterio Corbeiensi educatus. Anno 826 Daniam petiit ad fidem prædicandam, sed parvo cum fructu; tamen meliorem sortem habuit in Suecia. Episcopus Hamburgi electus et a Gregorio IV confirmatus, legatus deputatus est pro Dania et Suecia. Multas sustinuit difficultates in opere evangelizationis, sed forti animo eas superavit. Mortuus est anno 865.",
+        "es": "Nació en Francia a principios del siglo IX y fue educado en el monasterio de Corbie. El año 826 marchó a Dinamarca a predicar la fe cristiana, pero con poco fruto; en Suecia, en cambio, obtuvo mejores resultados. Fue elegido obispo de Hamburgo, y el papa Gregorio IV, después de confirmar su nombramiento, lo designó también legado pontificio para Dinamarca y Suecia. Tuvo que enfrentarse a una serie de dificultades en su obra evangelizadora, pero todas las superó su fortaleza de ánimo. Murió el año 865.",
+        "pt-BR": "Oscar (Bremen, Alemanha, 801 - 3 de fevereiro de 865) foi monge da abadia franca de Corbie e depois mestre na abadia de Korvey, na Saxônia. Tornou-se o grande evangelizador da Dinamarca e da Suécia, merecendo o título de \"Apóstolo do Norte\". Gregório IV nomeou-o seu delegado (831-832) junto aos dinamarqueses e suecos. Foi bispo de Hamburgo (831) e, em seguida, de Bremen (847).",
+        "it": "Ansgario (Germania, 801 - 3 febbraio 865), monaco dell'abbazia di Corbie (Francia), quindi maestro in quella di Corvey (Germania), promosse la diffusione del Vangelo in Danimarca e Svezia. Fu il primo vescovo di Amburgo (831), sede alla quale venne successivamente unita quella di Brema (848). Papa Gregorio IV lo nominò arcivescovo e legato papale per i Danesi e gli Svedesi.",
+        "fr": "Anschaire ou Oscar (801-865), moine de Corbie, fut envoyé vers 826 en Saxe, d'où il organisa la pénétration de l'Évangile au Danemark, en Schleswig et en Suède. Les papes en firent un évêque de Hambourg (821), puis de Brême (847) et leur légat pour tous les Pays scandinaves.",
+        "de": "Der Heilige wurde in Frankreich zu Beginn des 4. Jh. geboren und erhielt, nach dem Tod seiner Mutter, seine menschliche und religiöse Erziehung im Kloster Corbie. Im Jahr 826 reiste er nach Dänemark um dort den christlichen Glauben zu verkünden, hatte jedoch nur wenig Erfolg. In Schweden hingegen trug seine missionarische Tätigkeit mehr Frucht. Er wurde zum Bischof von Hamburg gewählt und erhielt später, durch Papst Gregor IV, die Ernennung zum päpstlichen Legaten für Dänemark und Schweden. Mit viel Starkmut überwand er eine Reihe von Schwierigkeiten in seiner apostolischen Arbeit und starb im Jahr 865."
+      },
+      "rank": "optional-memorial",
+      "rankLocalized": {
+        "la": "Memoria ad libitum",
+        "es": "Memoria libre",
+        "en": "Optional Memorial",
+        "pt-BR": "Memória facultativa",
+        "it": "Memoria facoltativa",
+        "fr": "Mémoire facultative",
+        "de": "Nicht gebotener Gedenktag"
+      },
+      "liturgicalColor": "white",
+      "collect": {
+        "body": {
+          "plain": {
+            "la": "Deus, qui ad multas illuminándas gentes beátum Ansgárium epíscopum míttere voluísti, eius nobis intercessióne concéde, ut in tuæ veritátis luce iúgiter ambulémus. Per Dóminum.",
+            "es": "Oh, Dios, que has querido enviar al obispo san Óscar para iluminar a numerosos pueblos, concédenos, por su intercesión, caminar siempre en la luz de tu verdad. Por nuestro Señor Jesucristo.",
+            "en": "O God, who willed to send the Bishop Saint Ansgar to enlighten many peoples, grant us, through his intercession, that we may always walk in the light of your truth. Through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, one God, for ever and ever.",
+            "pt-BR": "Ó Deus, que quisestes enviar o bispo Santo Oscar, para anunciar o Evangelho a muitos povos, concedei-nos, por sua intercessão, caminhar sempre à luz da vossa verdade. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus, e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
+            "it": "O Dio, che hai inviato il santo vescovo Oscar per illuminare molti popoli con l'annuncio del Vangelo, concedi a noi per sua intercessione di camminare sempre nella luce della tua verità. Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli.",
+            "fr": "Seigneur Dieu, tu as envoyé saint Anschaire, ton évêque, porter à de nombreux peuples la clarté de l'Évangile ; accorde-nous, par son intercession, de marcher toujours à la lumière de ta vérité. Par Jésus Christ, ton Fils, notre Seigneur, qui vit et règne avec toi dans l'unité du Saint-Esprit, Dieu, pour les siècles des siècles.",
+            "de": "Gott, du Heil der Menschen, du hast den heiligen Bischof Ansgar gesandt, den Völkern des Nordens das Evangelium zu verkünden. Höre auf seine Fürsprache und erhalte auch den Menschen unserer Zeit das Licht deiner Wahrheit. Darum bitten wir durch Jesus Christus."
+          },
+          "lines": {
+            "la": [
+              [
+                {
+                  "type": "text",
+                  "text": "Deus, qui ad multas illuminándas gentes beátum Ansgárium epíscopum míttere voluísti,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "eius nobis intercessióne concéde,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "ut in tuæ veritátis luce iúgiter ambulémus."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Per Dóminum."
+                }
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Oh, Dios,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "que has querido enviar al obispo san Óscar para iluminar a numerosos pueblos,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "concédenos, por su intercesión,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "caminar siempre en la luz de tu verdad."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Por nuestro Señor Jesucristo."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "O God, who willed to send the Bishop Saint Ansgar to enlighten many peoples,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "grant us, through his intercession,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "that we may always walk in the light of your truth. Through our Lord Jesus Christ, your Son,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "who lives and reigns with you in the unity of the Holy Spirit,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "one God, for ever and ever."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Ó Deus, que quisestes enviar o bispo Santo Oscar,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "para anunciar o Evangelho a muitos povos,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "concedei-nos, por sua intercessão,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "caminhar sempre à luz da vossa verdade."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "e convosco vive e reina, na unidade do Espírito Santo,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "por todos os séculos dos séculos."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "O Dio, che hai inviato il santo vescovo Oscar per illuminare molti popoli con l'annuncio del Vangelo, concedi a noi per sua intercessione di camminare sempre nella luce della tua verità. Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Seigneur Dieu,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "tu as envoyé saint Anschaire, ton évêque,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "porter à de nombreux peuples la clarté de l'Évangile ;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "accorde-nous, par son intercession,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "de marcher toujours à la lumière de ta vérité."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Par Jésus Christ, ton Fils, notre Seigneur,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "qui vit et règne avec toi dans l'unité du Saint-Esprit,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Dieu, pour les siècles des siècles."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Gott, du Heil der Menschen, du hast den heiligen Bischof Ansgar gesandt, den Völkern des Nordens das Evangelium zu verkünden. Höre auf seine Fürsprache und erhalte auch den Menschen unserer Zeit das Licht deiner Wahrheit. Darum bitten wir durch Jesus Christus."
+                }
+              ]
+            ]
+          }
+        }
+      },
+      "readings": {
+        "default": {
+          "firstReading": {
+            "label": {
+              "la": "Lectio prior",
+              "es": "Primera Lectura",
+              "en": "First Reading",
+              "pt-BR": "Primeira Leitura",
+              "it": "Prima lettura",
+              "fr": "Première lecture",
+              "de": "Erste Lesung"
+            },
+            "summary": {
+              "la": "Videbunt omnes fines terræ salutare Dei nostri.",
+              "es": "Verán los confines de la tierra la victoria de nuestro Dios",
+              "pt-BR": "Todos os confins da terra verão a salvação que vem do nosso Deus.",
+              "it": "Tutti i confini della terra vedranno la salvezza del nostro Dio."
+            },
+            "introduction": {
+              "la": "Léctio libri Isaíæ prophétæ",
+              "es": "Lectura del libro del profeta Isaías",
+              "en": "A reading from the book of Isaiah",
+              "pt-BR": "Leitura do Livro do Profeta Isaías",
+              "it": "Dal libro del profeta Isaia",
+              "fr": "Livre d'Isaïe",
+              "de": "Lesung aus dem Buch Jesája"
+            },
+            "body": {
+              "plain": {
+                "la": "Quam pulchri super montes pedes annuntiántis, prædicántis pacem, annuntiántis bonum, prædicántis salútem, dicéntis Sion: «Regnávit Deus tuus!». Vox speculatórum tuórum: levavérunt vocem, simul exsultábunt, quia óculo ad óculum vidébunt, cum redíerit Dóminus ad Sion. Gaudéte et exsultáte simul, desérta Ierúsalem, quia consolátus est Dóminus pópulum suum, redémit Ierúsalem. Nudávit Dóminus bráchium sanctum suum in óculis ómnium géntium; et vidébunt omnes fines terræ salutáre Dei nostri.",
+                "es": "Qué hermosos son sobre los montes los pies del mensajero que proclama la paz, que anuncia la buena noticia, que pregona la justicia, que dice a Sion: «¡Tu Dios reina!». Escucha: tus vigías gritan, cantan a coro, porque ven cara a cara al Señor, que vuelve a Sion. Romped a cantar a coro, ruinas de Jerusalén, porque el Señor ha consolado a su pueblo, ha rescatado a Jerusalén. Ha descubierto el Señor su santo brazo a los ojos de todas las naciones, y verán los confines de la tierra la salvación de nuestro Dios.",
+                "en": "How beautiful on the mountains, are the feet of one who brings good news, who heralds peace, brings happiness, proclaims salvation, and tells Zion, 'Your God is king!' Listen! Your watchmen raise their voices, they shout for joy together, for they see the Lord face to face, as he returns to Zion. Break into shouts of joy together, you ruins of Jerusalem; for the lord is consoling his people, redeeming Jerusalem. The Lord bares his holy arm in the sight of all the nations, and all the ends of the earth shall see the salvation of our God.",
+                "pt-BR": "Como são belos, andando sobre os montes, os pés de quem anuncia e prega a paz, de quem anuncia o bem e prega a salvação, e diz a Sião: \"Reina teu Deus!\" Ouve-se a voz de teus vigias, eles levantam a voz, estão exultantes de alegria, sabem que verão com os próprios olhos o Senhor voltar a Sião. Alegrai-vos e exultai ao mesmo tempo, ó ruínas de Jerusalém, o Senhor consolou seu povo e resgatou Jerusalém. O Senhor desnudou seu santo braço aos olhos de todas as nações; todos os confins da terra hão de ver a salvação que vem do nosso Deus.",
+                "it": "Come sono belli sui monti i piedi del messaggero che annuncia la pace, del messaggero di buone notizie che annuncia la salvezza, che dice a Sion: «Regna il tuo Dio». Una voce! Le tue sentinelle alzano la voce, insieme esultano, poiché vedono con gli occhi il ritorno del Signore a Sion. Prorompete insieme in canti di gioia, rovine di Gerusalemme, perché il Signore ha consolato il suo popolo, ha riscattato Gerusalemme. Il Signore ha snudato il suo santo braccio davanti a tutte le nazioni; tutti i confini della terra vedranno la salvezza del nostro Dio.",
+                "fr": "Comme ils sont beaux sur les montagnes, les pas du messager, celui qui annonce la paix, qui porte la bonne nouvelle, qui annonce le salut, et vient dire à Sion : \" Il règne, ton Dieu ! \" Écoutez la voix des guetteurs : ils élèvent la voix, tous ensemble ils crient de joie car, de leurs propres yeux, ils voient le Seigneur qui revient à Sion. Éclatez en cris de joie, vous, ruines de Jérusalem, car le Seigneur console son peuple, il rachète Jérusalem ! Le Seigneur a montré la sainteté de son bras aux yeux de toutes les nations. Tous les lointains de la terre ont vu le salut de notre Dieu.",
+                "de": "Wie willkommen sind auf den Bergen die Schritte des Freudenboten, der Frieden ankündigt, der eine frohe Botschaft bringt und Rettung verheißt, der zu Zion sagt: Dein Gott ist König. Horch, deine Wächter erheben die Stimme, sie beginnen alle zu jubeln. Denn sie sehen mit eigenen Augen, wie der Herr nach Zion zurückkehrt. Brecht in Jubel aus, jauchzt alle zusammen, ihr Trümmer Jerusalems! Denn der Herr tröstet sein Volk, er erlöst Jerusalem. Der Herr macht seinen heiligen Arm frei vor den Augen aller Völker. Alle Enden der Erde sehen das Heil unseres Gottes."
+              }
+            },
+            "conclusion": {
+              "la": "Verbum Dómini.",
+              "es": "Palabra de Dios.",
+              "en": "The Word of the Lord.",
+              "pt-BR": "Palavra do Senhor.",
+              "it": "Parola di Dio.",
+              "fr": "Parole du Seigneur.",
+              "de": "Wort des lebendigen Gottes."
+            },
+            "citation": {
+              "la": "Is 52, 7-10",
+              "es": "Is 52, 7-10",
+              "en": "Is 52:7-10",
+              "pt-BR": "Is 52, 7-10",
+              "it": "Is 52, 7-10",
+              "fr": "Is 52, 7-10",
+              "de": "Jes 52, 7-10"
+            },
+            "response": {
+              "body": {
+                "plain": {
+                  "la": "R/. Deo gratias.",
+                  "es": "R/. Te alabamos, Señor.",
+                  "en": "R/. Thanks be to God.",
+                  "pt-BR": "R/. Graças a Deus.",
+                  "it": "R/. Rendiamo grazie a Dio.",
+                  "fr": "R/. Nous rendons grâce à Dieu.",
+                  "de": "A: Dank sei Gott."
+                },
+                "lines": {
+                  "la": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "R/."
+                      },
+                      {
+                        "type": "text",
+                        "text": "Deo gratias."
+                      }
+                    ]
+                  ],
+                  "es": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "R/."
+                      },
+                      {
+                        "type": "text",
+                        "text": "Te alabamos, Señor."
+                      }
+                    ]
+                  ],
+                  "en": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "R/."
+                      },
+                      {
+                        "type": "text",
+                        "text": "Thanks be to God."
+                      }
+                    ]
+                  ],
+                  "pt-BR": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "R/."
+                      },
+                      {
+                        "type": "text",
+                        "text": "Graças a Deus."
+                      }
+                    ]
+                  ],
+                  "it": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "R/."
+                      },
+                      {
+                        "type": "text",
+                        "text": "Rendiamo grazie a Dio."
+                      }
+                    ]
+                  ],
+                  "fr": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "R/."
+                      },
+                      {
+                        "type": "text",
+                        "text": "Nous rendons grâce à Dieu."
+                      }
+                    ]
+                  ],
+                  "de": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "A:"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Dank sei Gott."
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          },
+          "gospel": {
+            "label": {
+              "la": "Evangelium",
+              "es": "Evangelio",
+              "en": "Gospel",
+              "pt-BR": "Evangelho",
+              "it": "Vangelo",
+              "fr": "Proclamation de l'Évangile",
+              "de": "Evangelium"
+            },
+            "summary": {
+              "la": "Faciam vos fieri piscatores hominum.",
+              "es": "Os haré pescadores de hombres",
+              "pt-BR": "Eu farei de vós pescadores de homens.",
+              "it": "Vi farò diventare pescatori di uomini."
+            },
+            "introduction": {
+              "la": "✠ Léctio sancti Evangélii secúndum Marcum",
+              "es": "✠ Lectura del santo Evangelio según san Marcos",
+              "en": "✠ A reading from the holy Gospel according to Mark",
+              "pt-BR": "✠ Proclamação do Evangelho de Jesus Cristo segundo Marcos",
+              "it": "✠ Dal Vangelo secondo Marco",
+              "fr": "✠ Évangile de Jésus-Christ selon saint Marc",
+              "de": "✠ Aus dem heiligen Evangelium nach Markus"
+            },
+            "body": {
+              "plain": {
+                "la": "Postquam tráditus est Ioánnes, venit Iesus in Galilæam prædicans Evangélium Dei et dicens: «Implétum est témpus, et appropinquávit regnum Dei; pænitémini et crédite Evangélio». Et prætériens secus mare Galilææ vidit Simónem et Andréam fratrem Simónis mitténtes in mare; erant enim piscatóres. Et dixit eis Iesus: «Veníte post me, et fáciam vos fíeri piscatóres hóminum». Et prótinus, relíctis rétibus, secúti sunt eum. Et progréssus pusíllum vidit Iacóbum Zebedæi et Ioánnem fratrem eius, et ipsos in navi componéntes rétia, et statim vocávit illos. Et, relícto patre suo Zebedæo in navi cum mercennáriis, abiérunt post eum.",
+                "es": "Después de que Juan fue entregado, Jesús se marchó a Galilea a proclamar el Evangelio de Dios; decía: «Se ha cumplido el tiempo y está cerca el reino de Dios. Convertíos y creed en el Evangelio». Pasando junto al mar de Galilea, vio a Simón y a Andrés, el hermano de Simón, echando las redes en el mar, pues eran pescadores. Jesús les dijo: «Venid en pos de mí y os haré pescadores de hombres». Inmediatamente dejaron las redes y lo siguieron. Un poco más adelante vio a Santiago, el de Zebedeo, y a su hermano Juan, que estaban en la barca repasando las redes. A continuación los llamó, dejaron a su padre Zebedeo en la barca con los jornaleros y se marcharon en pos de él.",
+                "en": "After John had been arrested, Jesus went into Galilee. There he proclaimed the Good News from God. 'The time has come' he said 'and the kingdom of God is close at hand. Repent, and believe the Good News.' As he was walking along by the Sea of Galileehe saw Simon and his brother Andrew casting a net in the lake - for they were fishermen. And Jesus said to them, 'Follow me and I will make you into fishers of men'. And at once they left their nets and followed him. Going on a little further, he saw James son of Zebedee and his brother John; they too were in their boat, mending their nets. He called them at once and, leaving their father Zebedee in the boat with the men he employed, they went after him.",
+                "pt-BR": "Depois que João Batista foi preso, Jesus foi para a Galiléia, pregando o Evangelo de Deus e dizendo: \"O tempo já se completou e o Reino de Deus está próximo. Convertei-vos e crede no Evangelho!\" E, passando a beira do mar da Galiléia, Jesus viu Simão e André, seu irmão que lançavam a rede ao mar, pois eram pescadores. Jesus lhes disse: \"Segui-me e eu afrei de vós pescadores de homens\". E eles, deixando imediatamente as redes, segiram Jesus. Caminhando mais um pouco, viu também Tiago e João, filhos do Zebedeu. Estavam na barca, consertando as redes; e logo os chamou. Eles deixaram seu pai Zebedeu na barca com os empregados, e partiram, seguindo Jesus.",
+                "it": "Dopo che Giovanni fu arrestato, Gesù andò nella Galilea, proclamando il Vangelo di Dio, e diceva: «Il tempo è compiuto e il regno di Dio è vicino; convertitevi e credete nel Vangelo». Passando lungo il mare di Galilea, vide Simone e Andrea, fratello di Simone, mentre gettavano le reti in mare; erano infatti pescatori. Gesù disse loro: «Venite dietro a me, vi farò diventare pescatori di uomini». E subito lasciarono le reti e lo seguirono. Andando un poco oltre, vide Giacomo, figlio di Zebedeo, e Giovanni suo fratello, mentre anch'essi nella barca riparavano le reti. E subito li chiamò. Ed essi lasciarono il loro padre Zebedeo nella barca con i garzoni e andarono dietro a lui.",
+                "fr": "Après l'arrestation de Jean, Jésus partit pour la Galilée proclamer l'Évangile de Dieu ; il disait : \" Les temps sont accomplis : le règne de Dieu est tout proche. Convertissez-vous et croyez à l'Évangile. \"\n\nPassant le long de la mer de Galilée, Jésus vit Simon et André, le frère de Simon, en train de jeter les filets dans la mer, car c'étaient des pêcheurs. Il leur dit : \" Venez à ma suite. Je vous ferai devenir pêcheurs d'hommes. \" Aussitôt, laissant leurs filets, ils le suivirent. Jésus avança un peu et il vit Jacques, fils de Zébédée, et son frère Jean, qui étaient dans la barque et réparaient les filets. Aussitôt, Jésus les appela. Alors, laissant dans la barque leur père Zébédée avec ses ouvriers, ils partirent à sa suite.",
+                "de": "Nachdem man Johannes den Täufer ins Gefängnis geworfen hatte, ging Jesus wieder nach Galiläa; er verkündete das Evangelium Gottes und sprach: Die Zeit ist erfüllt, das Reich Gottes ist nahe. Kehrt um, und glaubt an das Evangelium! Als Jesus am See von Galiläa entlangging, sah er Simon und Andreas, den Bruder des Simon, die auf dem See ihr Netz auswarfen; sie waren nämlich Fischer. Da sagte er zu ihnen: Kommt her, folgt mir nach! Ich werde euch zu Menschenfischern machen. Sogleich ließen sie ihre Netze liegen und folgten ihm. Als er ein Stück weiterging, sah er Jakobus, den Sohn des Zebedäus, und seinen Bruder Johannes; sie waren im Boot und richteten ihre Netze her. Sofort rief er sie, und sie ließen ihren Vater Zebedäus mit seinen Tagelöhnern im Boot zurück und folgten Jesus nach."
+              }
+            },
+            "conclusion": {
+              "la": "Verbum Dómini.",
+              "es": "Palabra del Señor.",
+              "en": "The Gospel of the Lord.",
+              "pt-BR": "Palavra da Salvação.",
+              "it": "Parola del Signore.",
+              "fr": "Acclamons la Parole de Dieu !",
+              "de": "Evangelium unseres Herrn Jesus Christus."
+            },
+            "citation": {
+              "la": "Mc 1, 14-20",
+              "es": "Mc 1, 14-20",
+              "en": "Mk 1:14-20",
+              "pt-BR": "Mc 1, 14-20",
+              "it": "Mc 1, 14-20",
+              "fr": "Mc 1, 14-20",
+              "de": "Mk 1, 14-20"
+            },
+            "response": {
+              "body": {
+                "plain": {
+                  "la": "R/. Laus tibi, Christe.",
+                  "es": "R/. Gloria a ti, Señor Jesús.",
+                  "en": "R/. Praise to you, Lord Jesus Christ.",
+                  "pt-BR": "R/. Glória a vós, Senhor.",
+                  "it": "R/. Lode a te, o Cristo.",
+                  "fr": "R/. Louange à toi, Seigneur Jésus !",
+                  "de": "A: Lob sei dir, Christus."
+                },
+                "lines": {
+                  "la": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "R/."
+                      },
+                      {
+                        "type": "text",
+                        "text": "Laus tibi, Christe."
+                      }
+                    ]
+                  ],
+                  "es": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "R/."
+                      },
+                      {
+                        "type": "text",
+                        "text": "Gloria a ti, Señor Jesús."
+                      }
+                    ]
+                  ],
+                  "en": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "R/."
+                      },
+                      {
+                        "type": "text",
+                        "text": "Praise to you, Lord Jesus Christ."
+                      }
+                    ]
+                  ],
+                  "pt-BR": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "R/."
+                      },
+                      {
+                        "type": "text",
+                        "text": "Glória a vós, Senhor."
+                      }
+                    ]
+                  ],
+                  "it": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "R/."
+                      },
+                      {
+                        "type": "text",
+                        "text": "Lode a te, o Cristo."
+                      }
+                    ]
+                  ],
+                  "fr": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "R/."
+                      },
+                      {
+                        "type": "text",
+                        "text": "Louange à toi, Seigneur Jésus !"
+                      }
+                    ]
+                  ],
+                  "de": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "A:"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Lob sei dir, Christus."
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      "preface": {
+        "prefaceRef": "preface.pf056",
+        "label": {
+          "la": "De sanctis pastoribus",
+          "es": "Santos Pastores",
+          "en": "HOLY PASTORS",
+          "pt-BR": "Dos Santos Pastores",
+          "it": "DEI SANTI PASTORI",
+          "fr": "Des Pasteurs",
+          "de": "HIRTEN DER KIRCHE"
+        },
+        "excerpt": {
+          "la": "Quia sic tríbuis Ecclésiam tuam sancti",
+          "es": "Porque nos concedes la alegría",
+          "en": "For, as on the festival of Saint",
+          "pt-BR": "Vós nos concedeis a alegria",
+          "it": "Tu doni alla tua Chiesa",
+          "fr": "Tu donnes à ton Église de se réjouir",
+          "de": "am Fest des heiligen N. deine Größe"
+        }
+      }
+    }
+  ]
 }

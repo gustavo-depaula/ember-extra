@@ -89,13 +89,13 @@ def test_all_scopes_lowercase_kebab():
             assert " " not in scope, f"Scope contains space: {m['id']} scope={scope!r}"
 
 
-def test_all_dateSuffix_lowercase():
+def test_no_dateSuffix_field():
+    """`dateSuffix` was removed when y/z masses were merged into `alternatives`.
+    No mass file or calendar/saint entry should still emit it."""
     if not DATA.exists():
         pytest.skip("data/ not generated")
     for m in _iter_masses():
-        ds = m.get("dateSuffix")
-        if ds:
-            assert ds == ds.lower(), f"dateSuffix not lowercase: {m['id']} dateSuffix={ds!r}"
+        assert "dateSuffix" not in m, f"{m.get('id')} still has dateSuffix"
 
 
 def test_reading_slot_canonical_order():
@@ -187,8 +187,15 @@ def test_calendar_entries_resolve_to_masses():
     cal_root = DATA / "calendar"
     if not DATA.exists() or not cal_root.exists():
         pytest.skip("data/calendar/ not generated")
-    mass_ids = {m["id"] for m in _iter_masses()}
-    # Triduum is a reference list — entries must already be in mass_ids.
+    # Mass ids include both standalone masses and `<parent>.<alt-key>` ids
+    # for nested alternatives.
+    mass_ids = set()
+    for m in _iter_masses():
+        if m.get("id"):
+            mass_ids.add(m["id"])
+            for alt in m.get("alternatives") or []:
+                if alt.get("key"):
+                    mass_ids.add(f"{m['id']}.{alt['key']}")
     for f in cal_root.rglob("*.json"):
         if f.name == "_index.json":
             continue

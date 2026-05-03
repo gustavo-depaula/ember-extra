@@ -3809,19 +3809,43 @@ def build_calendar(masses_by_group: dict[str, list[dict]]) -> dict[str, Any]:
             entry["liturgicalColor"] = m["liturgicalColor"]
         cal["tempore"].append(entry)
     for m in masses_by_group.get("sanctorale", []):
-        entry: dict[str, Any] = {"id": m["id"]}
-        if m.get("title"):
-            entry["title"] = m["title"]
-        if "date" in m:
-            entry["date"] = m["date"]
-        if "scope" in m:
-            entry["scope"] = m["scope"]
-        if m.get("rank"):
-            entry["rank"] = m["rank"]
-        if m.get("liturgicalColor"):
-            entry["liturgicalColor"] = m["liturgicalColor"]
-        cal["sanctorale"].append(entry)
+        # Primary entry from the parent mass.
+        primary = _build_sanctorale_calendar_entry(m["id"], m)
+        cal["sanctorale"].append(primary)
+        # Each alternative becomes its own calendar entry, id = parent.<key>.
+        for alt in m.get("alternatives") or []:
+            alt_entry = _build_sanctorale_calendar_entry(
+                f"{m['id']}.{alt['key']}", alt,
+                date=m.get("date"), scope=m.get("scope"),
+            )
+            cal["sanctorale"].append(alt_entry)
     return cal
+
+
+def _build_sanctorale_calendar_entry(
+    entry_id: str,
+    src: dict,
+    *,
+    date: Optional[dict] = None,
+    scope: Optional[str] = None,
+) -> dict:
+    """Project either a parent mass or an alternative into a calendar entry."""
+    entry: dict[str, Any] = {"id": entry_id}
+    if src.get("title"):
+        entry["title"] = src["title"]
+    if "date" in src:
+        entry["date"] = src["date"]
+    elif date is not None:
+        entry["date"] = date
+    if "scope" in src:
+        entry["scope"] = src["scope"]
+    elif scope is not None:
+        entry["scope"] = scope
+    if src.get("rank"):
+        entry["rank"] = src["rank"]
+    if src.get("liturgicalColor"):
+        entry["liturgicalColor"] = src["liturgicalColor"]
+    return entry
 
 
 # ---------------------------------------------------------------------------
@@ -3838,23 +3862,59 @@ def build_saints_catalog(sanctorale_masses: list[dict]) -> list[dict]:
     default to `optional-memorial` (the lowest celebration class) — that's the
     convention when the missal lists a saint without a higher rank tag.
     Regional / placeholder entries without a title are skipped.
+
+    When a mass has `alternatives`, each alternative whose title differs from
+    the parent's becomes its own catalog entry (different saint, same date).
+    Alternatives with the SAME title as the parent (All Souls' three
+    formularies) collapse into a single catalog entry — they're the same
+    celebration with multiple prayer choices, not separate saints.
     """
     catalog: list[dict] = []
     for m in sanctorale_masses:
-        # Skip empty placeholder entries: no title AND no description.
         title = m.get("title") or {}
         description = m.get("description") or {}
-        if not title and not description:
-            continue
-        entry: dict[str, Any] = {"id": m["id"]}
-        for k in ("date", "scope", "title", "rank", "rankLocalized", "description"):
-            if k in m:
-                entry[k] = m[k]
-        if not entry.get("rank"):
-            entry["rank"] = "optional-memorial"
-        catalog.append(entry)
+        if title or description:
+            catalog.append(_saint_entry_from_mass(m["id"], m))
+        for alt in m.get("alternatives") or []:
+            alt_title = alt.get("title") or {}
+            if not alt_title:
+                continue
+            # Same celebration with a different prayer formulary → no new
+            # saint entry. (All Souls.)
+            if alt_title.get("la") == title.get("la"):
+                continue
+            entry_id = f"{m['id']}.{alt['key']}"
+            entry = _saint_entry_from_mass(
+                entry_id, alt,
+                date=m.get("date"), scope=m.get("scope"),
+            )
+            catalog.append(entry)
     catalog.sort(key=lambda e: (e.get("date", {}).get("month", 13), e.get("date", {}).get("day", 32), e.get("scope", "")))
     return catalog
+
+
+def _saint_entry_from_mass(
+    entry_id: str,
+    src: dict,
+    *,
+    date: Optional[dict] = None,
+    scope: Optional[str] = None,
+) -> dict:
+    entry: dict[str, Any] = {"id": entry_id}
+    if "date" in src:
+        entry["date"] = src["date"]
+    elif date is not None:
+        entry["date"] = date
+    if "scope" in src:
+        entry["scope"] = src["scope"]
+    elif scope is not None:
+        entry["scope"] = scope
+    for k in ("title", "rank", "rankLocalized", "description"):
+        if k in src:
+            entry[k] = src[k]
+    if not entry.get("rank"):
+        entry["rank"] = "optional-memorial"
+    return entry
 
 
 # ---------------------------------------------------------------------------
@@ -7091,6 +7151,206 @@ def _apply_universal_text_fixes(payload: Any) -> None:
         _walk_lang_strings(payload, fn)
 
 
+# ---------------------------------------------------------------------------
+# Sanctorale alternatives merge
+# ---------------------------------------------------------------------------
+
+# Fields that identify the *parent* mass and don't belong inside an alternative.
+_PARENT_ONLY_FIELDS = (
+    "id", "group", "date", "dateSuffix", "scope", "subgroup",
+    "season", "weekIndex", "weekday",
+    "movable", "movableCode", "movableMonthAnchor", "undated", "ordinal",
+)
+
+# Slot keys an alternative may carry. Anything not listed here is dropped
+# from alternatives (e.g. parent-only fields, intermediate scratch fields).
+_ALTERNATIVE_FIELDS = (
+    "key", "title", "description", "rank", "rankLocalized", "liturgicalColor",
+    "entranceAntiphon", "penitentialAct", "gloriaInstruction",
+    "collect", "creedInstruction", "readings",
+    "prayerOverOfferings", "preface", "communionAntiphon",
+    "postcommunion", "prayerOverPeople",
+)
+
+_BODY_SLOTS_FOR_EMPTY_CHECK = (
+    "entranceAntiphon", "collect", "prayerOverOfferings", "preface",
+    "communionAntiphon", "postcommunion", "prayerOverPeople", "readings",
+    "description",
+)
+
+_SAINT_NAME_TRIM_RE = re.compile(
+    r"^(?:Saints?|Ss?\.?|S\.|Bl\.?|Blessed|The|Commemoration\s+of\s+(?:all|the))\s+",
+    re.IGNORECASE,
+)
+_SAINT_NAME_DROP_TAIL_RE = re.compile(
+    r"\s*[,;].*$"  # drop ", martyr" / "; bishop, doctor of the Church" tails
+)
+# Placeholder titles like "11 30z" or "01 01y" — bare day-ids with no real content.
+_PLACEHOLDER_TITLE_RE = re.compile(r"^\s*\d{1,2}[\s-]?\d{1,2}\s*[a-z]?\s*$", re.IGNORECASE)
+
+
+def _is_placeholder_title(text: str) -> bool:
+    return bool(text and _PLACEHOLDER_TITLE_RE.match(text.strip()))
+
+
+def _slugify_saint_name(text: str, *, max_words: int = 2) -> str:
+    """Compact kebab slug from a title. Takes the first `max_words` words after
+    stripping common leading particles, lowercased and ASCII-folded."""
+    if not text:
+        return ""
+    s = text.strip()
+    # Prefer a parenthetical nickname when present (e.g. "(All Souls' Day)").
+    paren = re.search(r"\(([^)]{2,40})\)", s)
+    if paren:
+        candidate = paren.group(1).strip()
+        # Skip parentheticals that are clearly metadata, not nicknames.
+        if not re.match(r"^\d|optional|memorial|feast|vigil|day|the\s|of\s",
+                        candidate, re.IGNORECASE):
+            s = candidate
+    # Iteratively strip leading particles ("The", "Commemoration of all", etc.).
+    for _ in range(4):
+        new = _SAINT_NAME_TRIM_RE.sub("", s).strip()
+        if new == s:
+            break
+        s = new
+    s = _SAINT_NAME_DROP_TAIL_RE.sub("", s)
+    # Take only the first few words so slugs like "all-souls" stay short rather
+    # than "commemoration-of-all-the-faithful-departed".
+    words = re.split(r"\s+", s, maxsplit=max_words)
+    s = " ".join(words[:max_words])
+    s = s.lower()
+    s = re.sub(r"[^a-z0-9]+", "-", s)
+    s = re.sub(r"-+", "-", s).strip("-")
+    # Drop trailing stop-words so "assumption-of" becomes "assumption".
+    s = re.sub(r"-(?:of|the|and|de|du|des|della|del)$", "", s).strip("-")
+    # Slugs must start with a letter (schema pattern).
+    if s and not s[0].isalpha():
+        s = "form-" + s
+    return s
+
+
+def _alternative_slug_from_title(title: dict) -> str:
+    """Best-effort kebab slug from a Mass title. Prefers English; falls back
+    to a normalized Latin (genitive root)."""
+    if not isinstance(title, dict):
+        return ""
+    en = title.get("en") or ""
+    slug = _slugify_saint_name(en)
+    if slug:
+        return slug
+    la = title.get("la") or ""
+    slug = _slugify_saint_name(la)
+    # Latin genitive endings
+    slug = re.sub(r"(?:i|is|orum|arum|ae|i-de|martyris|episcopi|presbyteri)$", "", slug).strip("-")
+    if slug and not slug[0].isalpha():
+        slug = "form-" + slug
+    return slug
+
+
+def _alternative_has_body(mass: dict) -> bool:
+    """A celebration has substantive content if it has at least one prayer slot
+    or a non-placeholder title. Pure-readings entries with garbage titles
+    (the `11-30z` ghost) don't count — readings alone don't make a celebration."""
+    title = mass.get("title") or {}
+    title_la = title.get("la") or ""
+    if _is_placeholder_title(title_la):
+        return False
+    prayer_slots = ("entranceAntiphon", "collect", "prayerOverOfferings",
+                    "preface", "communionAntiphon", "postcommunion",
+                    "prayerOverPeople", "description")
+    return any(mass.get(k) for k in prayer_slots)
+
+
+def _to_alternative(mass: dict, key: str) -> dict:
+    """Project a Mass dict into a MassAlternative shape. Drops parent-only
+    fields; keeps only slot fields plus the assigned `key`."""
+    alt: dict[str, Any] = {"key": key}
+    for k in _ALTERNATIVE_FIELDS:
+        if k == "key":
+            continue
+        if k in mass:
+            alt[k] = mass[k]
+    return alt
+
+
+def _suffix_sort_key(m: dict) -> tuple:
+    """Order base (no dateSuffix) first, then alphabetical y/z."""
+    suf = m.get("dateSuffix") or ""
+    return (1 if suf else 0, suf)
+
+
+def _collapse_sanctorale_alternatives(masses: list[dict]) -> list[dict]:
+    """Merge sanctorale masses sharing a (date, scope) into one mass with
+    `alternatives[]`. Anomalies handled here:
+      - Suffix-only buckets (no base): the suffixed mass is promoted to the
+        primary, with id/dateSuffix rewritten.
+      - Empty placeholder masses (no body) inside a multi-celebration bucket
+        are dropped (catches the `11 30z` ghost).
+    """
+    bucket_key = lambda m: (
+        (m.get("date") or {}).get("month"),
+        (m.get("date") or {}).get("day"),
+        m.get("scope") or "_universal",
+    )
+
+    by_bucket: dict[tuple, list[dict]] = {}
+    untouched: list[dict] = []
+    for m in masses:
+        d = m.get("date") or {}
+        if "month" in d and "day" in d:
+            by_bucket.setdefault(bucket_key(m), []).append(m)
+        else:
+            # Movable / undated saints aren't bucketed by date; pass through.
+            untouched.append(m)
+
+    out: list[dict] = list(untouched)
+    for key, ms in by_bucket.items():
+        ms = [m for m in ms if _alternative_has_body(m) or not m.get("dateSuffix")]
+        if not ms:
+            continue
+        ms.sort(key=_suffix_sort_key)
+        primary = ms[0]
+        # If the surviving primary still has a dateSuffix (no base existed in
+        # the source), strip it and rewrite the id to drop the suffix.
+        if primary.get("dateSuffix"):
+            d = primary.get("date") or {}
+            scope_seg = primary.get("scope")
+            base_id = f"sanctorale.{d['month']:02d}-{d['day']:02d}"
+            if scope_seg:
+                scope_slug = scope_seg.lower().replace(" ", "-")
+                base_id = f"{base_id}.{scope_slug}"
+            primary["id"] = base_id
+            primary.pop("dateSuffix", None)
+        else:
+            primary.pop("dateSuffix", None)
+
+        if len(ms) > 1:
+            alts: list[dict] = []
+            primary_title = primary.get("title") or {}
+            primary_slug = _alternative_slug_from_title(primary_title) or "form"
+            seen_slugs = {primary_slug}
+            for i, alt_mass in enumerate(ms[1:], start=2):
+                alt_title = alt_mass.get("title") or {}
+                same_celebration = bool(alt_title) and (
+                    alt_title.get("la") == primary_title.get("la")
+                )
+                if same_celebration:
+                    slug = f"{primary_slug}-form-{i}"
+                else:
+                    slug = _alternative_slug_from_title(alt_title) or f"form-{i}"
+                # Disambiguate slug collisions
+                base_slug = slug
+                n = 2
+                while slug in seen_slugs:
+                    slug = f"{base_slug}-{n}"
+                    n += 1
+                seen_slugs.add(slug)
+                alts.append(_to_alternative(alt_mass, slug))
+            primary["alternatives"] = alts
+        out.append(primary)
+    return out
+
+
 def _post_process_mass(mass: dict) -> Optional[dict]:
     if _drop_empty_mass(mass):
         return None
@@ -7448,14 +7708,16 @@ def main():
                             season=season)
                 print(f"  tempore/{season}: {len(ms)} masses")
         elif group == "sanctorale":
-            # Flat under data/masses/sanctorale/. Regional saints with id
-            # `sanctorale.<MM-DD>.<scope>` naturally land at
-            # `sanctorale/<MM-DD>/<scope>.json`.
+            # Collapse base/y/z masses sharing a date+scope into one parent
+            # mass with `alternatives[]`. Regional saints (with `scope`)
+            # bucket separately from universal saints.
+            masses = _collapse_sanctorale_alternatives(masses)
+            masses_by_group[group] = masses
             for m in masses:
                 write_json(id_to_path(m["id"], masses_root), m, post_process=False)
             write_index(masses_root / "sanctorale",
                         count=len(masses), ids=[m["id"] for m in masses])
-            print(f"  sanctorale: {len(masses)} masses")
+            print(f"  sanctorale: {len(masses)} masses (after alternatives merge)")
         elif group in ("common", "votive", "ritual"):
             by_sub: dict[str, list[dict]] = {}
             for m in masses:

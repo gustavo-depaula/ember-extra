@@ -652,6 +652,101 @@ class TestOrdinaryTimeFerials:
                     assert slot not in m, f"week-{week}.{day}: unexpected {slot}"
 
 
+# =============================================================================
+# Sanctorale alternatives (y/z merged inside one parent mass)
+# =============================================================================
+
+class TestSanctoraleAlternatives:
+    """Multi-celebration days are merged: the date's primary celebration sits
+    at the root of the mass file, additional optional celebrations live in
+    `alternatives[]` keyed by saint-name slug."""
+
+    @classmethod
+    def setup_class(cls):
+        import json
+        cls.SANCT = pathlib.Path(__file__).resolve().parent.parent / "data" / "masses" / "sanctorale"
+        cls.CAL_SANCT = pathlib.Path(__file__).resolve().parent.parent / "data" / "calendar" / "sanctorale"
+
+    def test_jan_20_has_sebastian_alternative(self):
+        """Jan 20 = Fabian (primary) or Sebastian (alternative)."""
+        import json
+        m = json.loads((self.SANCT / "01-20.json").read_text())
+        assert "Fabiani" in m["title"]["la"], f"primary should be St. Fabian, got {m['title']!r}"
+        alts = m.get("alternatives") or []
+        assert len(alts) == 1, f"expected 1 alternative, got {len(alts)}"
+        assert alts[0]["key"] == "sebastian"
+        assert "Sebastiani" in alts[0]["title"]["la"]
+        # Alternatives must NOT carry parent-only fields.
+        for forbidden in ("id", "group", "date", "dateSuffix", "scope"):
+            assert forbidden not in alts[0], f"alternative leaked {forbidden}"
+        # No legacy y/z mass file should remain.
+        assert not (self.SANCT / "01-20z.json").exists()
+
+    def test_all_souls_three_formularies(self):
+        """All Souls (Nov 2) has three prayer formularies of the same celebration.
+        Same title across all three → keys are 'all-souls-form-2', 'all-souls-form-3'."""
+        import json
+        m = json.loads((self.SANCT / "11-02.json").read_text())
+        assert "OMNIUM FIDELIUM DEFUNCTORUM" in m["title"]["la"].upper()
+        alts = m.get("alternatives") or []
+        assert len(alts) == 2, f"expected 2 alternative formularies, got {len(alts)}"
+        keys = sorted(a["key"] for a in alts)
+        for k in keys:
+            assert "form" in k, f"All Souls alternative key should mark formulary, got {k!r}"
+        # Each alt has its own collect (the formularies differ in prayers).
+        for a in alts:
+            assert "collect" in a, "All Souls alternative missing its own collect"
+
+    def test_assumption_vigil_at_root_day_as_alternative(self):
+        """Aug 15 has the Vigil at root and the Day Mass as the only alternative.
+        The Vigil keeps its 'IN VIGILIA' title marker; the Day Mass is keyed by saint slug."""
+        import json
+        m = json.loads((self.SANCT / "08-15.json").read_text())
+        assert "VIGILIA" in m["title"]["la"].upper(), f"primary should be Vigil, got {m['title']!r}"
+        alts = m.get("alternatives") or []
+        assert len(alts) == 1, f"expected 1 alternative (Day Mass), got {len(alts)}"
+        # Day Mass title doesn't say VIGIL/VIGILIA
+        assert "VIGILIA" not in alts[0]["title"]["la"].upper()
+
+    def test_no_dateSuffix_field_anywhere(self):
+        """`dateSuffix` was retired when y/z merged into alternatives."""
+        import json
+        for f in self.SANCT.rglob("*.json"):
+            if f.name == "_index.json":
+                continue
+            m = json.loads(f.read_text())
+            assert "dateSuffix" not in m, f"{f.relative_to(self.SANCT)}: dateSuffix should be gone"
+            for alt in m.get("alternatives") or []:
+                assert "dateSuffix" not in alt, f"{f.relative_to(self.SANCT)}#{alt.get('key')}: dateSuffix in alt"
+
+    def test_calendar_expands_alternatives(self):
+        """Calendar still surfaces every option: parent + alternatives are
+        emitted as separate calendar entries."""
+        assert (self.CAL_SANCT / "01-20.json").exists(), "Fabian calendar entry missing"
+        assert (self.CAL_SANCT / "01-20" / "sebastian.json").exists(), "Sebastian calendar entry missing"
+        assert (self.CAL_SANCT / "11-02.json").exists()
+
+    def test_05_22_promoted_to_base(self):
+        """Anomaly: source had only 05-22z (St. Rita) without a base. The
+        suffix-only entry is promoted to the universal base."""
+        import json
+        rita = self.SANCT / "05-22.json"
+        assert rita.exists(), "St. Rita should now be the universal base on 05-22"
+        m = json.loads(rita.read_text())
+        assert "Ritæ" in m["title"]["la"] or "Rita" in (m["title"].get("en") or "")
+        assert not (self.SANCT / "05-22z.json").exists()
+
+    def test_11_30_empty_placeholder_dropped(self):
+        """The empty 11-30z placeholder ('11 30z' with no body) is filtered out;
+        Nov 30 just keeps St. Andrew."""
+        import json
+        m = json.loads((self.SANCT / "11-30.json").read_text())
+        assert "ANDRE" in m["title"]["la"].upper()
+        # No alternative should be the junk placeholder.
+        for a in m.get("alternatives") or []:
+            assert a["title"].get("la") != "11 30z"
+
+
 if __name__ == "__main__":
     import pytest
     sys.exit(pytest.main([__file__, "-v"]))

@@ -384,5 +384,250 @@
     "fr": "Mémoire facultative",
     "de": "Nicht gebotener Gedenktag"
   },
-  "liturgicalColor": "red"
+  "liturgicalColor": "red",
+  "alternatives": [
+    {
+      "key": "pancras",
+      "title": {
+        "la": "S. Pancratii, martyris",
+        "es": "San Pancracio, mártir",
+        "en": "Saint Pancras, martyr",
+        "pt-BR": "São Pancrácio, mártir",
+        "it": "SAN PANCRAZIO, martire",
+        "fr": "Saint Pancrace, martyrs",
+        "de": "Hl. Pankratius, Märtyrer"
+      },
+      "description": {
+        "la": "Romæ martyr occubuit, probabiliter in persecutione Diocletiani. Eius sepulcrum asservatur via Aurelia, super quod Symmachus papa ecclesiam ædificavit.",
+        "es": "Fue martirizado en Roma, probablemente durante la persecución de Diocleciano. Su sepulcro se conserva en la vía Aurelia y sobre él se levanta una iglesia, edificada por el papa Símaco.",
+        "pt-BR": "Jovem mártir, com apenas catorze anos de idade, Pancrácio, segundo a tradição, preferiu morrer a renegar a fé em Cristo (304-305). Sua sepultura encontra-se em Roma, no cemitério da Via Aurélia, onde o Papa Símaco construiu uma basílica em sua honra. Seu sepultamento aos 12 de maio é comemorado no Martirológio Jeronimiano (séc. VI).",
+        "it": "Pancrazio (sec. III o IV), martire romano, fu sepolto nel cimitero di Ottavilla, sulla via Aurelia, come attestato dalla tradizione di culto, confermata da papa Simmaco (498-514) con l'erezione in quel luogo di una basilica in suo onore. Il più antico racconto del martirio descrive Pancrazio come giovanissimo, appena quattordicenne. È ricordato il 12 maggio nel Martirologio geronimiano (sec. V-VI).",
+        "fr": "Pancrace subit le martyre à Rome le même jour et peut-être la même année que les saints Nérée et Achille. La tradition veut qu'il ait été mis à mort à l'âge de quatorze ans. Pancrace, comme Agnès, n'hésita donc pas à sacrifier sa jeunesse pour demeurer fidèle au Christ.",
+        "de": "Er erlitt das Martyrium in Roma, vermutlich während der Christenverfolgung Diokletians. Über seinem Grab in der Via Aurelia ließ Papst Symmachus um 500 eine Kirche bauen."
+      },
+      "rank": "optional-memorial",
+      "rankLocalized": {
+        "la": "Memoria ad libitum",
+        "es": "Memoria libre",
+        "en": "Optional Memorial",
+        "pt-BR": "Memória facultativa",
+        "it": "Memoria facoltativa",
+        "fr": "Mémoire facultative",
+        "de": "Nicht gebotener Gedenktag"
+      },
+      "liturgicalColor": "red",
+      "collect": {
+        "body": {
+          "plain": {
+            "la": "Lætétur Ecclésia tua, Deus, beáti Pancrátii mártyris confísa suffrágiis, atque, eius précibus gloriósis, et devóta permáneat, et secúra consístat. Per Dóminum.",
+            "es": "Que se alegre tu Iglesia, oh, Dios, confiada en la protección del mártir san Pancracio, y por su intercesión gloriosa permanezca entregada a ti y se mantenga firme. Por nuestro Señor Jesucristo.",
+            "en": "May your Church rejoice, O God, confident in the intercession of the Martyr Saint Pancras, and by his glorious prayers may she persevere in devotion to you and stand ever firm. Through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, one God, for ever and ever.",
+            "pt-BR": "Alegre-se, ó Deus, a vossa Igreja, apoiada nos méritos do mártir São Pancrácio e, por suas preces gloriosas, permaneça em vosso serviço e goze de constante segurança. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus, e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
+            "it": "Si allieti, o Dio, la tua Chiesa, che si affida alle preghiere del santo martire Pancrazio, e per la sua gloriosa intercessione si consacri con serena fiducia al tuo servizio. Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli.",
+            "fr": "Que ton Église se réjouisse, Seigneur Dieu, elle qui se confie aux prières du bienheureux Pancrace, ton martyr ; par son intercession auprès de toi dans la gloire, qu'elle demeure fidèle et vive dans la paix. Par Jésus Christ, ton Fils, notre Seigneur, qui vit et règne avec toi dans l'unité du Saint-Esprit, Dieu, pour les siècles des siècles.",
+            "de": "Herr, unser Gott, höre auf die Fürsprache des heiligen Märtyrers Pankratius, dessen Gedenktag wir in Freude feiern. Schenke deiner Kirche Zuversicht und Gelassenheit, damit sie sich in der Bedrängnis nicht fürchte, sondern ausharre im Vertrauen auf Christus Jesus, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          },
+          "lines": {
+            "la": [
+              [
+                {
+                  "type": "text",
+                  "text": "Lætétur Ecclésia tua, Deus, beáti Pancrátii mártyris confísa suffrágiis,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "atque, eius précibus gloriósis, et devóta permáneat, et secúra consístat. Per Dóminum."
+                }
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Que se alegre tu Iglesia, oh, Dios,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "confiada en la protección del mártir san Pancracio,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "y por su intercesión gloriosa permanezca entregada a ti y se mantenga firme."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Por nuestro Señor Jesucristo."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "May your Church rejoice, O God,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "confident in the intercession of the Martyr Saint Pancras, and by his glorious prayers may she persevere in devotion to you and stand ever firm."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Through our Lord Jesus Christ,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "your Son,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "who lives and reigns with you in the unity of the Holy Spirit,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "one God, for ever and ever."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Alegre-se, ó Deus, a vossa Igreja,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "apoiada nos méritos do mártir São Pancrácio e, por suas preces gloriosas,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "permaneça em vosso serviço e goze de constante segurança."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "e convosco vive e reina, na unidade do Espírito Santo,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "por todos os séculos dos séculos."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Si allieti, o Dio, la tua Chiesa, che si affida alle preghiere del santo martire Pancrazio, e per la sua gloriosa intercessione si consacri con serena fiducia al tuo servizio. Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Que ton Église se réjouisse, Seigneur Dieu,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "elle qui se confie aux prières du bienheureux Pancrace, ton martyr ;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "par son intercession auprès de toi dans la gloire,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "qu'elle demeure fidèle et vive dans la paix."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Par Jésus Christ, ton Fils, notre Seigneur,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "qui vit et règne avec toi dans l'unité du Saint-Esprit,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Dieu, pour les siècles des siècles."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Herr, unser Gott, höre auf die Fürsprache des heiligen Märtyrers Pankratius,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "dessen Gedenktag wir in Freude feiern. Schenke deiner Kirche Zuversicht und Gelassenheit, damit sie sich in der Bedrängnis nicht fürchte, sondern ausharre im Vertrauen auf Christus Jesus, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+                }
+              ]
+            ]
+          }
+        }
+      },
+      "preface": {
+        "prefaceRef": "preface.pf054",
+        "alternativeRefs": [
+          "preface.pf055"
+        ],
+        "excerpt": {
+          "la": "Quóniam tu magnificáris in tuórum",
+          "es": "Porque tú eres ensalzado en la alabanza de tus santos",
+          "en": "For you are glorified when your Saints",
+          "pt-BR": "Vós sois exaltado quando celebramos os santos",
+          "it": "A imitazione del Cristo tuo Figlio",
+          "fr": "En louant tes saints martyrs,",
+          "de": "Im Martyrium des ( der ) heiligen N"
+        }
+      }
+    }
+  ]
 }

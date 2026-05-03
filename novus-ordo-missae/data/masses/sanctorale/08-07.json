@@ -405,5 +405,425 @@
     "fr": "Mémoire facultative",
     "de": "Nicht gebotener Gedenktag"
   },
-  "liturgicalColor": "red"
+  "liturgicalColor": "red",
+  "alternatives": [
+    {
+      "key": "cajetan",
+      "title": {
+        "la": "S. Caietani, presbyteri",
+        "es": "San Cayetano, presbítero",
+        "en": "Saint Cajetan, priest",
+        "pt-BR": "São Caetano, presbítero",
+        "it": "SAN GAETANO, presbitero",
+        "fr": "Saint Gaétan, prêtre",
+        "de": "Hl. Kajetan, Priester, Ordensgründer"
+      },
+      "description": {
+        "la": "Natus est Vicetiæ (Vicenza) anno 1480. Patavii studio iuris incubuit et, sacerdotio initiatus, Romæ ad apostolatum promovendum societatem instituit Clericorum regularium, quam et propagavit in dicione Veneta et in regno Neapolitano. Assiduus fuit in oratione et in caritáte erga proximum exercenda. Mortuus est Neapoli anno 1547.",
+        "es": "Nació en Vicenza el año 1480. Estudió derecho en Padua y, después de recibida la ordenación sacerdotal, instituyó en Roma la sociedad de Clérigos regulares o Teatinos, con el fin de promover el apostolado y la renovación espiritual del clero. Esta sociedad se propagó luego por el territorio de Venecia y el reino de Nápoles. San Cayetano se distinguió por su asiduidad en la oración y por la práctica de la caridad para con el prójimo. Murió en Nápoles el año 1547.",
+        "pt-BR": "Caetano de Thiene (Vicenza, Itália, outubro de 1480 - Nápoles, 7 de agosto de 1547), administrador apostólico de Júlio II, deixou sob Leão X a corte pontifícia, amadurecendo, especialmente no Oratório do Divino Amor, a experiência conjunta da oração e do serviço aos pobres e aos rejeitados. É restaurador da vida sacerdotal e religiosa, inspirada no sermão da montanha e no modelo da Igreja apostólica. Devoto do presépio e da paixão do Senhor, fundou em 1524 com João Pedro Carafa, bispo de Chieti (Teate), depois Paulo IV (1555-1559), os Clérigos Regulares Teatinos. Por sua ilimitada confiança em Deus, é venerado como o santo da Providência.",
+        "it": "Gaetano (Vicenza, 1480 - Napoli, 7 agosto 1547), della nobile famiglia dei Thiene, intraprese la carriera ecclesiastica nella curia romana, secondo lo stile tipico dei chierici di epoca rinascimentale. L'incontro con esponenti della Riforma cattolica e l'esperienza vissuta nell'Oratorio del Divino Amore lo spinsero a dedicarsi a iniziative di carità e al rinnovamento della vita del clero. Insieme a Gian Pietro Carafa, vescovo di Chieti (l'antica Teate) e futuro papa Paolo IV, fondò la più antica congregazione di chierici «regolari» (ossia raccolti a vita comune, seguendo una regola) che presero il nome di Teatini.",
+        "fr": "Gaétan de Thienne (1480-1547) était un prélat de la Curie romaine soucieux d'ajouter à ses tâches administratives le service des malades et de mener une vie de prière. Avec son ami Jean-Pierre Caraffa il fonda une société de clercs qui se consacraient à la prédication et au service liturgique. On les appela les Théatins, du nom du diocèse dont Caraffa devint évêque.",
+        "de": "Er wurde 1480 in Vicenza geboren, studierte Rechtswissenschaften in Padua und wurde danach zum Priester geweiht. Er gründete in Rom eine Kongregation von Regularklerikern, welche sich dem Apostolat und der geistlichen Erneuerung des Klerus widmeten. Diese Gemeinschaft breitete sich später auch auf das Gebiet von Venedig und Neapel aus. Der heilige Kajetan zeichnete sich besonders durch seinen Gebetseifer und die Ausübung der Nächstenliebe aus. Er starb in Neapel im Jahr 1547."
+      },
+      "rank": "optional-memorial",
+      "rankLocalized": {
+        "la": "Memoria ad libitum",
+        "es": "Memoria libre",
+        "en": "Optional Memorial",
+        "pt-BR": "Memória facultativa",
+        "it": "Memoria facoltativa",
+        "fr": "Mémoire facultative",
+        "de": "Nicht gebotener Gedenktag"
+      },
+      "liturgicalColor": "white",
+      "collect": {
+        "body": {
+          "plain": {
+            "la": "Deus, qui beáto Caietáno presbýtero apostólicam vivéndi formam imitári tribuísti, eius nobis exémplo et intercessióne concéde in te semper confídere, et regnum tuum indesinénter quǽrere. Per Dóminum.",
+            "es": "Oh, Dios, que concediste al presbítero san Cayetano imitar la forma de vida apostólica, concédenos, por su ejemplo e intercesión, poner en ti nuestra confianza y buscar incansablemente tu reino. Por nuestro Señor Jesucristo.",
+            "en": "O God, who endowed the Priest Saint Cajetan with the grace of imitating the apostolic way of life, grant us, through his example and intercession, to trust in you at all times and to seek unceasingly your Kingdom. Through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, one God, for ever and ever.",
+            "pt-BR": "Ó Deus, que destes ao presbítero São Caetano a graça de imitar a forma de vida dos Apóstolos, concedei-nos, por seu exemplo e suas preces, confiar sempre em vós e buscar sem esmorecer o vosso reino. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus, e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
+            "it": "O Dio, che hai concesso al santo presbitero Gaetano di imitare lo stile di vita degli apostoli, per il suo esempio e la sua intercessione concedi a noi di confidare sempre in te e di cercare con perseveranza il tuo regno. Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli.",
+            "fr": "Seigneur Dieu, tu inspiras au prêtre saint Gaétan de vivre à la manière des Apôtres ; accorde-nous, à son exemple et par son intercession, de mettre toujours en toi notre confiance, et de chercher sans relâche ton Royaume. Par Jésus Christ, ton Fils, notre Seigneur, qui vit et règne avec toi dans l'unité du Saint-Esprit, Dieu, pour les siècles des siècles.",
+            "de": "Herr, unser Gott, du hast den Priester und Ordensgründer Kajetan berufen, in frei gewählter Armut die Apostel nachzuahmen. Höre auf seine Fürsprache und hilf uns, nach seinem Beispiel auf dich allein zu vertrauen und unser Leben im Geist des Evangeliums zu erneuern. Darum bitten wir durch Jesus Christus."
+          },
+          "lines": {
+            "la": [
+              [
+                {
+                  "type": "text",
+                  "text": "Deus, qui beáto Caietáno presbýtero apostólicam vivéndi formam imitári tribuísti, eius nobis exémplo et intercessióne concéde in te semper confídere,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "et regnum tuum indesinénter quǽrere. Per Dóminum."
+                }
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Oh, Dios,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "que concediste al presbítero san Cayetano imitar la forma de vida apostólica,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "concédenos, por su ejemplo e intercesión,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "poner en ti nuestra confianza y buscar incansablemente tu reino."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Por nuestro Señor Jesucristo."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "O God, who endowed the Priest Saint Cajetan with the grace of imitating the apostolic way of life,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "grant us, through his example and intercession, to trust in you at all times and to seek unceasingly your Kingdom."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Through our Lord Jesus Christ, your Son,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "who lives and reigns with you in the unity of the Holy Spirit,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "one God, for ever and ever."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Ó Deus,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "que destes ao presbítero São Caetano a graça de imitar a forma de vida dos Apóstolos,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "concedei-nos, por seu exemplo e suas preces,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "confiar sempre em vós e buscar sem esmorecer o vosso reino."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "e convosco vive e reina, na unidade do Espírito Santo,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "por todos os séculos dos séculos."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "O Dio, che hai concesso al santo presbitero Gaetano di imitare lo stile di vita degli apostoli, per il suo esempio e la sua intercessione concedi a noi di confidare sempre in te e di cercare con perseveranza il tuo regno. Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "nell'unità dello Spirito Santo, per tutti i secoli dei secoli."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Seigneur Dieu,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "tu inspiras au prêtre saint Gaétan de vivre à la manière des Apôtres ;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "accorde-nous, à son exemple et par son intercession,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "de mettre toujours en toi notre confiance,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "et de chercher sans relâche ton Royaume."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Par Jésus Christ, ton Fils, notre Seigneur,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "qui vit et règne avec toi dans l'unité du Saint-Esprit,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Dieu, pour les siècles des siècles."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Herr, unser Gott, du hast den Priester und Ordensgründer Kajetan berufen, in frei gewählter Armut die Apostel nachzuahmen. Höre auf seine Fürsprache und hilf uns, nach seinem Beispiel auf dich allein zu vertrauen und unser Leben im Geist des Evangeliums zu erneuern. Darum bitten wir durch Jesus Christus."
+                }
+              ]
+            ]
+          }
+        }
+      },
+      "readings": {
+        "default": {
+          "firstReading": {
+            "label": {
+              "la": "Lectio prior",
+              "es": "Primera Lectura",
+              "pt-BR": "Primeira Leitura",
+              "it": "Prima lettura",
+              "fr": "Première lecture",
+              "de": "Erste Lesung"
+            },
+            "summary": {
+              "la": "Qui timetis Dóminum, credite, sperate, diligite.",
+              "es": "Los que teméis al Señor, confiad, esperad, amad",
+              "pt-BR": "Vós que temeis o Senhor, confiai nele, esperai, e amai-o.",
+              "it": "Voi che temete il Signore, confidate, sperate, amatelo."
+            },
+            "introduction": {
+              "la": "Léctio libri Ecclesiástici",
+              "es": "Lectura del libro del Eclesiástico",
+              "en": "A reading from the book of Sirach",
+              "pt-BR": "Laitura do Livro do Eclesiástico",
+              "it": "Dal libro del Siracide",
+              "fr": "Livre de Ben Sirac le Sage",
+              "de": "Lesung aus dem Buch Jesus Sirach"
+            },
+            "body": {
+              "plain": {
+                "la": "Metuéntes Dóminum, sustinéte misericórdiam eius et non deflectátis ab illo, ne cadátis. Qui timétis Dóminum, crédite illi, et non evacuábitur merces vestra. Qui timétis Dóminum, speráte in bona et in oblectatiónem ævi et in misericórdiam. Qui timétis Dóminum, dilígite illum, et illuminabúntur corda vestra. Respícite, fílii, generatiónes antíquas et vidéte: quis sperávit in Dómino et confúsus est? Aut quis permánsit in mandátis eius et derelíctus est? Aut quis invocávit eum, et despéxit illum?\n\nQuóniam pius et miséricors est Dóminus et remíttet in die tribulatiónis peccáta et protéctor est ómnibus exquiréntibus se in veritáte.",
+                "es": "Los que teméisal Señor, aguardad su misericordia y no os desvieis, no sea que caigais. Los que teméis al Señor, confiad en él, y no se retrasará vuestra recompensa. Los que teméis al Señor, esperad bienes, gozo eterno y misericordia. Los que teméis al Señor amadio, y vuestros corazones se llenarán de luz. Fijaos en las generaciones antiguas y ved: ¿Quién confió en el Señor y quedó defraudado?, o ¿quién perseveró en su temor y fue abandonado?, o ¿quién lo invocó y fue desatendido? Porque el Señor es compasivo y misericordioso, perdona los pecados y salva en tiempo de desgracia, y protege a aquellos que lo buscan sinceramente.",
+                "en": "You that fear the Lord, wait for his mercy, do not stray lest you fall. You that fear the Lord, trust in him, and your reward will not be lost. You that fear the Lord, hope for good things, for lasting joy and mercy. Consider the generations long past and see: has anyone trusted in the Lord and been disappointed? Has anyone persevered in his fear and been forsaken? has anyone called upon him and been ignored? For the Lord is compassionate and merciful; forgives sins and saves in time of trouble. Woe to timid hearts and drooping hands, to the sinner who walks a double path! Woe to the faint of heart! For they do not trust, and therefore have no shelter!",
+                "pt-BR": "Vós que temeis o Senhor, contai com a sua misericórdia e não vos desvieis, para não cair. Vós que temeis o Senhor, confiai nele, e a recompensa não vos faltará. Vós que temeis o Senhor, esperai coisas boas: alegria duradoura e misericórdia. Vós que temeis o Senhor, amai-o, e vossos corações ficarão iluminados. Considerai, filhos, as gerações passadas e vede: Quem confiou no Senhor e ficou desiludido? Qem permaneceu nos seus mandamentos e foi abandonado? Quem o invocou e foi por ele desprezado? Pois o Senhor é compassivo e misericordioso, perdoa os pecados no tempo da tribulação e protege a todos os que o procuram com sinceridade.",
+                "it": "Voi che temete il Signore, aspettate la sua misericordia e non deviate, per non cadere. Voi che temete il Signore, confidate in lui, e la vostra ricompensa non verrà meno. Voi che temete il Signore, sperate nei suoi benefici, nella felicità eterna e nella misericordia. Voi che temete il Signore, amatelo, e i vostri cuori saranno ricolmi di luce. Considerate le generazioni passate e riflettete: chi ha confidato nel Signore ed è rimasto deluso? O chi ha perseverato nel suo timore e fu abbandonato? O chi lo ha invocato e da lui è stato trascurato? Perché il Signore è clemente e misericordioso, perdona i peccati e salva al momento della tribolazione e protegge coloro che lo ricercano sinceramente.",
+                "fr": "Vous qui craignez le Seigneur, ayez confiance en lui, et votre récompense ne saurait vous échapper. Vous qui craignez le Seigneur, espérez le bonheur, la joie éternelle et la miséricorde : ce qu'il donne en retour est un don éternel, pour la joie. Considérez les générations passées et voyez : Celui qui a mis sa confiance dans le Seigneur, a-t-il été déçu ? Celui qui a persévéré dans la crainte du Seigneur, a-t-il été abandonné ? Celui qui l'a invoqué, a-t-il été méprisé ? Car le Seigneur est tendre et miséricordieux, il pardonne les péchés, et il sauve au moment de la détresse.",
+                "de": "Ihr, die ihr den Herrn fürchtet, hofft auf sein Erbarmen, weicht nicht ab, damit ihr nicht zu Fall kommt. Ihr, die ihr den Herrn fürchtet, vertraut auf ihn, und er wird euch den Lohn nicht vorenthalten. Ihr, die ihr den Herrn fürchtet, hofft auf Heil, auf immer währende Freude und auf Erbarmen! Schaut auf die früheren Generationen und seht: Wer hat auf den Herrn vertraut und ist dabei zuschanden geworden? Wer hoffte auf ihn und wurde verlassen? Wer rief ihn an, und er erhörte ihn nicht? Denn gnädig und barmherzig ist der Herr; er vergibt die Sünden und hilft zur Zeit der Not."
+              }
+            },
+            "conclusion": {
+              "la": "Verbum Dómini.",
+              "es": "Palabra de Dios.",
+              "en": "The Word of the Lord.",
+              "pt-BR": "Palavra do Senhor.",
+              "it": "Parola di Dio.",
+              "fr": "Parole du Seigneur.",
+              "de": "Wort des lebendigen Gottes."
+            },
+            "citation": {
+              "la": "Eccli 2, 7-13",
+              "es": "Sir 2, 7-13",
+              "en": "Sir 2:7-13",
+              "pt-BR": "Eclo 2, 7-13",
+              "it": "Sir 2, 7-13 (NV) [gr. 2, 7-11]",
+              "fr": "Si 2, 7-13",
+              "de": "Sir 2, 7-11 (7-13)"
+            },
+            "response": {
+              "body": {
+                "plain": {
+                  "la": "R/. Deo gratias.",
+                  "es": "R/. Te alabamos, Señor.",
+                  "en": "R/. Thanks be to God.",
+                  "pt-BR": "R/. Graças a Deus.",
+                  "it": "R/. Rendiamo grazie a Dio.",
+                  "fr": "R/. Nous rendons grâce à Dieu.",
+                  "de": "A: Dank sei Gott."
+                },
+                "lines": {
+                  "la": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "R/."
+                      },
+                      {
+                        "type": "text",
+                        "text": "Deo gratias."
+                      }
+                    ]
+                  ],
+                  "es": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "R/."
+                      },
+                      {
+                        "type": "text",
+                        "text": "Te alabamos, Señor."
+                      }
+                    ]
+                  ],
+                  "en": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "R/."
+                      },
+                      {
+                        "type": "text",
+                        "text": "Thanks be to God."
+                      }
+                    ]
+                  ],
+                  "pt-BR": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "R/."
+                      },
+                      {
+                        "type": "text",
+                        "text": "Graças a Deus."
+                      }
+                    ]
+                  ],
+                  "it": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "R/."
+                      },
+                      {
+                        "type": "text",
+                        "text": "Rendiamo grazie a Dio."
+                      }
+                    ]
+                  ],
+                  "fr": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "R/."
+                      },
+                      {
+                        "type": "text",
+                        "text": "Nous rendons grâce à Dieu."
+                      }
+                    ]
+                  ],
+                  "de": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "A:"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Dank sei Gott."
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      "preface": {
+        "prefaceRef": "preface.pf056",
+        "label": {
+          "la": "De sanctis pastoribus",
+          "es": "Santos Pastores",
+          "en": "HOLY PASTORS",
+          "pt-BR": "Dos Santos Pastores",
+          "it": "DEI SANTI PASTORI",
+          "fr": "Des Pasteurs",
+          "de": "HIRTEN DER KIRCHE"
+        },
+        "excerpt": {
+          "la": "Quia sic tríbuis Ecclésiam tuam sancti",
+          "es": "Porque nos concedes la alegría",
+          "en": "For, as on the festival of Saint",
+          "pt-BR": "Vós nos concedeis a alegria",
+          "it": "Tu doni alla tua Chiesa",
+          "fr": "Tu donnes à ton Église de se réjouir",
+          "de": "am Fest des heiligen N. deine Größe"
+        }
+      }
+    }
+  ]
 }
