@@ -233,54 +233,42 @@
       ],
       "additionalProperties": false
     },
-    "Reading": {
+    "ReadingOption": {
+      "description": "A single reading option (label, introduction, citation, body, conclusion, response). Used standalone for the common case and as an item inside `Reading.alternatives`.",
       "type": "object",
       "properties": {
-        "label": {
-          "$ref": "#/$defs/Localized",
-          "description": "e.g. \"First Reading\", \"Gospel\""
-        },
-        "introduction": {
-          "$ref": "#/$defs/Localized",
-          "description": "e.g. \"A reading from the Book of the Prophet Isaiah\""
-        },
-        "citation": {
-          "$ref": "#/$defs/Localized",
-          "description": "Scripture reference, e.g. \"2:1-5\""
-        },
-        "summary": {
-          "$ref": "#/$defs/Localized"
-        },
-        "body": {
-          "$ref": "#/$defs/RichText"
-        },
-        "conclusion": {
-          "$ref": "#/$defs/Localized",
-          "description": "e.g. \"The Word of the Lord\""
-        },
-        "response": {
-          "$ref": "#/$defs/Prayer",
-          "description": "e.g. \"Thanks be to God\""
-        }
+        "label": { "$ref": "#/$defs/Localized" },
+        "introduction": { "$ref": "#/$defs/Localized" },
+        "citation": { "$ref": "#/$defs/Localized" },
+        "summary": { "$ref": "#/$defs/Localized" },
+        "body": { "$ref": "#/$defs/RichText" },
+        "conclusion": { "$ref": "#/$defs/Localized" },
+        "response": { "$ref": "#/$defs/Prayer" }
       },
       "anyOf": [
-        {
-          "required": [
-            "body"
-          ]
-        },
-        {
-          "required": [
-            "citation"
-          ]
-        },
-        {
-          "required": [
-            "label"
-          ]
-        }
+        { "required": ["body"] },
+        { "required": ["citation"] },
+        { "required": ["label"] }
       ],
       "additionalProperties": false
+    },
+    "Reading": {
+      "description": "A reading slot (firstReading, secondReading, gospel). When the lectionary supplies a single form, the slot has body+citation directly. When multiple forms are supplied (e.g. brevior/longior gospel choices on Lent W5 Sunday A, Easter Sunday, common-of-saints Mass), all of them live inside `alternatives` and the slot carries no body — consumers iterate the array.",
+      "oneOf": [
+        { "$ref": "#/$defs/ReadingOption" },
+        {
+          "type": "object",
+          "properties": {
+            "alternatives": {
+              "type": "array",
+              "minItems": 2,
+              "items": { "$ref": "#/$defs/ReadingOption" }
+            }
+          },
+          "required": ["alternatives"],
+          "additionalProperties": false
+        }
+      ]
     },
     "ResponsorialPsalm": {
       "type": "object",

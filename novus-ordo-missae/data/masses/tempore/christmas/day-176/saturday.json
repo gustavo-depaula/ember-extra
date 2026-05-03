@@ -1994,158 +1994,470 @@
         }
       },
       "gospel": {
-        "label": {
-          "la": "Evangelium",
-          "es": "Evangelio",
-          "en": "Gospel",
-          "pt-BR": "Evangelho",
-          "it": "Vangelo",
-          "fr": "Proclamation de l'Évangile",
-          "de": "Evangelium"
-        },
-        "summary": {
-          "la": "Tu es Fílius meus dilectus; in te complacui.",
-          "es": "Tú eres mi Hijo amado, en ti me complazco",
-          "pt-BR": "Tu és meu Filho muito amado: em ti ponho meu bem-quer.",
-          "it": "Tu sei il Figlio mio, l'amato: in te ho posto il mio compiacimento."
-        },
-        "introduction": {
-          "la": "✠ Léctio sancti Evangélii secúndum Marcum",
-          "es": "✠ Lectura del santo Evangelio según san Marcos",
-          "en": "✠ A reading from the holy Gospel according to Mark",
-          "pt-BR": "✠ Proclamação do Evangelho de Jesus Cristo segundo Marcos",
-          "it": "✠ Dal vangelo secondo Marco",
-          "fr": "✠ Évangile de Jésus-Christ selon saint Marc",
-          "de": "✠ Aus dem heiligen Evangelium nach Markus"
-        },
-        "body": {
-          "plain": {
-            "la": "In illo témpore:\n\nPrædicábat Ioánnes dicens: «Venit fórtior me post me, cuius non sum dignus procúmbens sólvere corrígiam calceamentórum eius. Ego baptizávi vos aqua; ille vero baptizábit vos in Spíritu Sancto». Et factum est in diébus illis, venit Iesus a Názareth Galilǽæ et baptizátus est in Iordáne ab Ioánne. Et statim ascéndens de aqua vidit apértos cælos et Spíritum tamquam colúmbam descendéntem in ipsum; et vox facta est de cælis: «Tu es Fílius meus diléctus; in te complácui». In illo témpore, Iesus erat incípiens quasi annórum trigínta, ut putabátur, fílius Ioseph, qui fuit Heli, qui fuit Matthat, qui fuit Levi, qui fuit Melchi, qui fuit Iannæ, qui fuit Ioseph, qui fuit Matthathíæ, qui fuit Amos, qui fuit Nahum, qui fuit Esli, qui fuit Naggæ, qui fuit Maath, qui fuit Matthathíæ, qui fuit Sémei, qui fuit Iosech, qui fuit Ioda, qui fuit Ioánna, qui fuit Resa, qui fuit Zoróbabel, qui fuit Saláthiel, qui fuit Neri, qui fuit Melchi, qui fuit Addi, qui fuit Cosam, qui fuit Elmádam, qui fuit Her, qui fuit Iesu, qui fuit Eliézer, qui fuit Iorim, qui fuit Matthat, qui fuit Levi, qui fuit Símeon, qui fuit Iudæ, qui fuit Ioseph, qui fuit Iona, qui fuit Elíachim, qui fuit Mélea, qui fuit Menna, qui fuit Matthátha, qui fuit Nathan, qui fuit David, qui fuit Iesse, qui fuit Obed, qui fuit Booz, qui fuit Salmon, qui fuit Naásson, qui fuit Amínadab, qui fuit Admin, qui fuit Arni, qui fuit Esrom, qui fuit Phares, qui fuit Iudæ, qui fuit Iacob, qui fuit Isaac, qui fuit Abrahæ, qui fuit Thare, qui fuit Nachor, qui fuit Seruch, qui fuit Rágau, qui fuit Phaleg, qui fuit Heber, qui fuit Sala, qui fuit Cáinan, qui fuit Arpháxad, qui fuit Sem, qui fuit Noe, qui fuit Lamech, qui fuit Mathusála, qui fuit Henoch, qui fuit Iared, qui fuit Maláleel, qui fuit Cáinan, qui fuit Enos, qui fuit Seth, qui fuit Adam, qui fuit Dei. Et ipse Iesus erat incípiens quasi annórum trigínta, ut putabátur, fílius Ioseph, qui fuit Heli, qui fuit Mélea, qui fuit Menna, qui fuit Matthátha, qui fuit Nathan, qui fuit David, qui fuit Iesse, qui fuit Obed, qui fuit Booz, qui fuit Salmon, qui fuit Naásson, qui fuit Amínadab, qui fuit Admin, qui fuit Arni, qui fuit Esrom, qui fuit Phares, qui fuit Iudæ, qui fuit Iacob, qui fuit Isaac, qui fuit Abrahæ, qui fuit Thare, qui fuit Nachor, qui fuit Cáinan, qui fuit Arpháxad, qui fuit Sem, qui fuit Noe, qui fuit Lamech, qui fuit Enos, qui fuit Seth, qui fuit Adam, qui fuit Dei.",
-            "es": "En aquel tiempo, proclamaba Juan: «Detrás de mí viene el que es más fuerte que yo y no merezco agacharme para desatarle la correa de sus sandalias. Yo os he bautizado con agua, pero él os bautizará con Espíritu Santo». Y sucedió que por aquellos días llegó Jesús desde Nazaret de Galilea y fue bautizado por Juan en el Jordán. Apenas salió del agua, vio rasgarse los cielos y al Espíritu que bajaba hacia él como una paloma. Se oyó una voz desde los cielos: «Tú eres mi Hijo amado, en ti me complazco». En aquel tiempo, Jesús, al empezar, tenía unos treinta años, y se pensaba que era hijo de José, que a su vez era de Helí, de Matat, de Leví, de Melquí, de Jannaí, de José, de Matatías, de Amós, de Nahún, de Eslí, de Nagái, de Maat, de Matatías, de Semeín, de Josec, de Jodá, de Joanán, de Resá, de Zorobabel, de Salatiel, de Nerí, de Melquí, de Addí, de Cosán, de Elmadán, de Er, de Jesús, de Eliezer, de Jorín, de Matat, de Leví, de Simeón, de Judá, de José, de Jonán, de Eliacín, de Me-. leá, de Mená, de Matatá, de Natán, de David, de Jesé, de Jobed, de Booz, de Salá, de Naasón, de Aminadab, de Admín, de Arní, de Esrón, de Fares, de Judá, de Jacob, de Isaac, de Abrahán, de Tare, de Nacor, de Seruc, de Ragau, de Fálec, de Eber, de Salá, de Cainán, de Arfaxad, de Sem, de Noé, de Lámec, de Matusalén, de Henoc, de Járet, de Maleleel, de Cainán, de Enós, de Set, de Adán, de Dios. En aquel tiempo, Jesús, al empezar, tenía unos treinta años, y se pensaba que era hijo de José, que a su vez era de Helí, de Meleá, de Mená, de Matatá, de Natán, de David, de Jesé, de Jobed, de Booz, de Salá, de Naasón, de Aminadab, de Admín, de Arní, de Esrón, de Fares, de Judá, de Jacob, de Isaac, de Abrahán, de Tare, de Nacor, de Cainán, de Arfaxad, de Sem, de Noé, de Lámec, de Enós, de Set, de Adán, de Dios.",
-            "en": "In the course of his preaching John the Baptist said, 'Someone is following me, someone who is more powerful than I am, and I am not fit to kneel down and undo the strap of his sandals. I have baptised you with water, but he will baptise you with the Holy Spirit.' It was at this time that Jesus came from Nazareth in Galilee and was baptised in the Jordan by John. No sooner had he come up out of the water than he saw the heavens torn apart and the Spirit, like a dove, descending on him. And a voice came from heaven, 'You are my Son, the Beloved; my favour rests on you. When he started to teach, Jesus was about thirty years old, being the son, as it was thought, of Joseph son of Heli, son of Matthat, son of Levi, son of Melchi, son of Jannai, son of Joseph, son of Mattathias, son of Amos, son of Nahum, son of Esli, son of Naggai, son of Maath, son of Mattathias, son of Semein, son of Josech, son of Joda, son of Joanan, son of Rhesa, son of Zerubbabel, son of Shealtiel, son of Neri, son of Melchi, son of Addi, son of Cosam, son of Elmadam, son of Er, son of Joshua, son of Joshua, son of Eliezer, son of Jorim, son of Matthat, son of Levi son of Symeon, son of Judah, son of Joseph, son of Jonam, son of Eliakim, son of Melea, son of Menna, son of Mattatha, son of Nathan, son of David, son of Jesse, son of Obed, son of Boaz, son of Sala, son of Nahshon,3:33 son of Amminadab, son of Admin, son of Arni, son of Hezron, son of Perez, son of Judah, son of Jacob, son of Isaac, son of Abraham, son of Terah, son of Nahor, son of Serug, son of Reu, son of Peleg, son of Eber, son of Shelah, son of Cainan, son of Arphaxad, son of Shem, son of Noah, son of Lamech, son of Methuselah, son of Enoch, son of Jared, son of Mahalaleel, son of Cainan, son of Enos, son of Seth, son of Adam, son of God. When he started to teach, Jesus was about thirty years old, being the son, as it was thought, of Joseph son of Heli, son of Melea, son of Menna, son of Mattatha, son of Nathan, son of David, son of Jesse, son of Obed, son of Boaz, son of Sala, son of Nahshon, son of Amminadab, son of Admin, son of Arni, son of Hezron, son of Perez, son of Judah, son of Jacob, son of Isaac, son of Abraham, son of Terah, son of Nahor, son of Serug, son of Reu, son of Peleg, son of Eber, son of Shelah, son of Cainan, son of Arphaxad, son of Shem, son of Noah, son of Lamech, son of Enos, son of Seth, son of Adam, son of God.",
-            "pt-BR": "Naquele tempo, João pregava dizendo: “Depois de mim virá alguém mais forte do que eu. Eu nem sou digno de me abaixar para desamarrar suas sandálias. Eu vos batizei com água, mas ele vos batizará com o Espírito Santo”. Naqueles dias, Jesus veio de Nazaré da Galileia, e foi batizado por João no rio Jordão. E logo, ao sair da água, viu o céu se abrindo, e o Espírito, como pomba, descer sobre ele. E do céu veio uma voz: “Tu és o meu Filho amado, em ti ponho meu bem-querer\". Naquele tempo, ao iniciar o seu ministério, Jesus tinha uns trinta anos, filho, segundo se pensava, de José, de Heli, de Matat, de Levi, de Melqui, de Janai, de José, de Matatias, de Amós, de Naum, de Esli, de Nagai, de Maat, de Matatias, de Semein, de José, de Jodá, de Joanã, de Ressa, de Zorobabel, de Salatiel, filho de Neri, de Melqui, de Adi, de Cosã, de Elmadã, de Her, de Jesus, de Eliezer, de Jorim, de Matat, de Levi, de Simeão, de Judá, de José, de Jonã, de Eliacim, de Meleia, de Mená, de Matatá, de Natã, de David, de Jessé, de Obed, de Booz, de Salá, de Naasson, de Aminabad, de Admin, de Arni, de Esron, de Farés, de Judá, de Jacó, de Isaac, de Abraão, de Taré, de Nacor, de Seruc, de Ragau, de Faleg, de Eber, de Salá, de Cainã, de Arfaxad, de Sem, de Noé, de Lamec, de Matusalém, de Henoc, de Jared, de Maleleel, de Cainã, de Enós, de Set, de Adão, de Deus. Naquele tempo, Jesus, ao iniciar o seu ministério, Jesus tinha uns trinta anos, filho, segundo se pensava, de José, de Heli, de Meleia, de Mená, de Matatá, de Natã, de David, de Jessé, de Obed, de Booz, de Salá, de Naasson, de Aminabad, de Admin, de Arni, de Esron, de Farés, de Judá, de Jacob, de Isaac, de Abraão, de Taré, de Nacor, de Cainã, de Arfaxad, de Sem, de Noé, de Lamec, de Enós, de Set, de Adão, de Deus.",
-            "it": "In quel tempo, Giovanni proclamava: «Viene dopo di me colui che è più forte di me: io non sono degno di chinarmi per slegare i lacci dei suoi sandali. Io vi ho battezzato con acqua, ma egli vi battezzerà in Spirito Santo». Ed ecco, in quei giorni, Gesù venne da Nàzaret di Galilea e fu battezzato nel Giordano da Giovanni. E, subito, uscendo dall'acqua, vide squarciarsi i cieli e lo Spirito discendere verso di lui come una colomba. E venne una voce dal cielo: «Tu sei il Figlio mio, l'amato: in te ho posto il mio compiacimento». Gesù quando incominciò il suo ministero aveva circa trent'anni ed era figlio, come si credeva, di Giuseppe, figlio di Eli, figlio di Mattàt, figlio di Levi, figlio di Melchi, figlio di Innài, figlio di Giuseppe, figlio di Mattatìa, figlio di Amos, figlio di Naum, figlio di Esli, figlio di Naggài, figlio di Maat, figlio di Mattatìa, figlio di Semèin, figlio di Iosek, figlio di Ioda, figlio di Ioanan, figlio di Resa, figlio di Zorobabèle, figlio di Salatiel, figlio di Neri, figlio di Melchi, figlio di Addi, figlio di Cosam, figlio di Elmadàm, figlio di Er, figlio di Gesù, figlio di Elièzer, figlio di Iorim, figlio di Mattàt, figlio di Levi, figlio di Simeone, figlio di Giuda, figlio di Giuseppe, figlio di Ionam, figlio di Eliacim, figlio di Melèa, figlio di Menna, figlio di Mattatà, figlio di Natàm, figlio di Davide, figlio di Iesse, figlio di Obed, figlio di Booz, figlio di Sala, figlio di Naàsson, figlio di Aminadàb, figlio di Admin, figlio di Arni, figlio di Esrom, figlio di Fares, figlio di Giuda, figlio di Giacobbe, figlio di Isacco, figlio di Abramo, figlio di Tare, figlio di Nacor, figlio di Seruk, figlio di Ragau, figlio di Falek, figlio di Eber, figlio di Sala, figlio di Cainam, figlio di Arfàcsad, figlio di Sem, figlio di Noè, figlio di Lamech, figlio di Matusalemme, figlio di Enoch, figlio di Iaret, figlio di Malleèl, figlio di Cainam, figlio di Enos, figlio di Set, figlio di Adamo, figlio di Dio. Gesù quando incominciò il suo ministero aveva circa trent'anni ed era figlio, come si credeva, di Giuseppe, figlio di Eli, figlio di Melèa, figlio di Menna, figlio di Mattatà, figlio di Natàm, figlio di Davide, figlio di Iesse, figlio di Obed, figlio di Booz, figlio di Sala, figlio di Naàsson, figlio di Aminadàb, figlio di Admin, figlio di Arni, figlio di Esrom, figlio di Fares, figlio di Giuda, figlio di Giacobbe, figlio di Isacco, figlio di Abramo, figlio di Tare, figlio di Nacor, figlio di Seruk, figlio di Ragau, figlio di Falek, figlio di Eber, figlio di Sala, figlio di Cainam, figlio di Arfàcsad, figlio di Sem, figlio di Noè, figlio di Lamech, figlio di Enos, figlio di Set, figlio di Adamo, figlio di Dio.",
-            "fr": "En ce temps-là, Jean le Baptiste proclamait : \" Voici venir derrière moi celui qui est plus fort que moi ; je ne suis pas digne de m'abaisser pour défaire la courroie de ses sandales. Moi, je vous ai baptisés avec de l'eau ; lui vous baptisera dans l'Esprit Saint. \"\n\nEn ces jours-là, Jésus vint de Nazareth, ville de Galilée, et il fut baptisé par Jean dans le Jourdain. Et aussitôt, en remontant de l'eau, il vit les cieux se déchirer et l'Esprit descendre sur lui comme une colombe. Il y eut une voix venant des cieux : \" Tu es mon Fils bien-aimé ; en toi, je trouve ma joie. \"\n\nQuand il commença, Jésus avait environ trente ans ; il était, à ce que l'on pensait, fils de Joseph, fils d'Éli, fils de Matthate, fils de Lévi, fils de Melki, fils de Jannaï, fils de Joseph, fils de Mattathias, fils d'Amos, fils de Nahoum, fils de Hesli, fils de Naggaï, fils de Maath, fils de Mattathias, fils de Séméine, fils de Josek, fils de Joda, fils de Joanane, fils de Résa, fils de Zorobabel, fils de Salathiel, fils de Néri, fils de Melki, fils d'Addi, fils de Kosam, fils d'Elmadam, fils d'Er, fils de Jésus, fils d'Éliézer, fils de Jorim, fils de Matthate, fils de Lévi, fils de Syméon, fils de Juda, fils de Joseph, fils de Jonam, fils d'Éliakim, fils de Méléa, fils de Menna, fils de Mattatha, fils de Natham, fils de David, fils de Jessé, fils de Jobed, fils de Booz, fils de Sala, fils de Naassone, fils d'Aminadab, fils d'Admine, fils d'Arni, fils d'Esrom, fils de Pharès, fils de Juda, fils de Jacob, fils d'Isaac, fils d'Abraham, fils de Thara, fils de Nakor, fils de Sérouk, fils de Ragaou, fils de Phalek, fils d'Éber, fils de Sala, fils de Kaïnam, fils d'Arphaxad, fils de Sem, fils de Noé, fils de Lamek, fils de Mathusalem, fils de Hénok, fils de Jareth, fils de Maléléel, fils de Kaïnam, fils d'Énos, fils de Seth, fils d'Adam, fils de Dieu. En ce temps-là, quand il commença, Jésus avait environ trente ans ; il était, à ce que l'on pensait, fils de Joseph, fils d'Éli, fils de Méléa, fils de Menna, fils de Mattatha, fils de Natham, fils de David, fils de Jessé, fils de Jobed, fils de Booz, fils de Sala, fils de Naassone, fils d'Aminadab, fils d'Admine, fils d'Arni, fils d'Esrom, fils de Pharès, fils de Juda, fils de Jacob, fils d'Isaac, fils d'Abraham, fils de Thara, fils de Nakor, fils de Kaïnam, fils d'Arphaxad, fils de Sem, fils de Noé, fils de Lamek, fils d'Énos, fils de Seth, fils d'Adam, fils de Dieu.",
-            "de": "In jener Zeit verkündete Johannes der Täufer: Nach mir kommt einer, der ist stärker als ich; ich bin es nicht wert, mich zu bücken, um ihm die Schuhe aufzuschnüren. Ich habe euch nur mit Wasser getauft, er aber wird euch mit dem Heiligen Geist taufen. In jenen Tagen kam Jesus aus Nazaret in Galiläa und ließ sich von Johannes im Jordan taufen. Und als er aus dem Wasser stieg, sah er, dass der Himmel sich öffnete und der Geist wie eine Taube auf ihn herabkam. Und eine Stimme aus dem Himmel sprach: Du bist mein geliebter Sohn, an dir habe ich Gefallen gefunden. Jesus war etwa dreißig Jahre alt, als er zum ersten Mal öffentlich auftrat. Man hielt ihn für den Sohn Josefs. Die Vorfahren Josefs waren: Eli, Mattat, Levi, Melchi, Jánnai, Josef, Mattítja, Amos, Nahum, Hesli, Naggai, Mahat, Mattítja, Schimi, Josech, Joda, Jóhanan, Resa, Serubbábel, Scheáltiël, Neri, Melchi, Addi, Kosam, Élmadam, Er, Joschúa, Eliëser, Jorim, Mattat, Levi, Símeon, Juda, Josef, Jonam, Eljakim, Meléa, Menna, Mattáta, Natan, David, Ísai, Obed, Boas, Salmon, Nachschon, Amminádab, Admin, Arni, Hezron, Perez, Juda, Jakob, Isaak, Abraham, Terach, Nahor, Serug, Regu, Peleg, Eber, Schelach, Kenan, Árpachschad, Sem, Noach, Lamech, Metuschélach, Henoch, Jered, Mahálalel, Kenan, Enosch, Set, Adam; der stammte von Gott. Jesus war etwa dreißig Jahre alt, als er zum ersten Mal öffentlich auftrat. Man hielt ihn für den Sohn Josefs. Die Vorfahren Josefs waren: Eli, Meléa, Menna, Mattáta, Natan, David, Ísai, Obed, Boas, Salmon, Nachschon, Amminádab, Admin, Arni, Hezron, Perez, Juda, Jakob, Isaak, Abraham, Terach, Nahor, Kenan, Árpachschad, Sem, Noach, Lamech, Enosch, Set, Adam; der stammte von Gott."
-          }
-        },
-        "conclusion": {
-          "la": "Verbum Dómini.",
-          "es": "Palabra del Señor.",
-          "en": "The Gospel of the Lord.",
-          "pt-BR": "Palavra da Salvação.",
-          "it": "Parola del Signore.",
-          "fr": "Acclamons la Parole de Dieu !",
-          "de": "Evangelium unseres Herrn Jesus Christus."
-        },
-        "citation": {
-          "la": "Mc 1, 7-11",
-          "es": "Mc 1, 7-11",
-          "en": "Mk 1:7-11",
-          "pt-BR": "Mc 1, 7-11",
-          "it": "Mc 1,7-11",
-          "fr": "Mc 1, 7-11",
-          "de": "Mk 1, 7-11"
-        },
-        "response": {
-          "body": {
-            "plain": {
-              "la": "℟. Laus tibi, Christe.",
-              "es": "℟. Gloria a ti, Señor Jesús.",
-              "en": "℟. Praise to you, Lord Jesus Christ.",
-              "pt-BR": "℟. Glória a vós, Senhor.",
-              "it": "℟. Lode a te, o Cristo.",
-              "fr": "℟. Louange à toi, Seigneur Jésus !",
-              "de": "A: Lob sei dir, Christus."
+        "alternatives": [
+          {
+            "label": {
+              "la": "Evangelium",
+              "es": "Evangelio",
+              "en": "Gospel",
+              "pt-BR": "Evangelho",
+              "it": "Vangelo",
+              "fr": "Proclamation de l'Évangile",
+              "de": "Evangelium"
             },
-            "lines": {
-              "la": [
-                [
-                  {
-                    "type": "rubric",
-                    "text": "℟."
-                  },
-                  {
-                    "type": "text",
-                    "text": "Laus tibi, Christe."
-                  }
-                ]
-              ],
-              "es": [
-                [
-                  {
-                    "type": "rubric",
-                    "text": "℟."
-                  },
-                  {
-                    "type": "text",
-                    "text": "Gloria a ti, Señor Jesús."
-                  }
-                ]
-              ],
-              "en": [
-                [
-                  {
-                    "type": "rubric",
-                    "text": "℟."
-                  },
-                  {
-                    "type": "text",
-                    "text": "Praise to you, Lord Jesus Christ."
-                  }
-                ]
-              ],
-              "pt-BR": [
-                [
-                  {
-                    "type": "rubric",
-                    "text": "℟."
-                  },
-                  {
-                    "type": "text",
-                    "text": "Glória a vós, Senhor."
-                  }
-                ]
-              ],
-              "it": [
-                [
-                  {
-                    "type": "rubric",
-                    "text": "℟."
-                  },
-                  {
-                    "type": "text",
-                    "text": "Lode a te, o Cristo."
-                  }
-                ]
-              ],
-              "fr": [
-                [
-                  {
-                    "type": "rubric",
-                    "text": "℟."
-                  },
-                  {
-                    "type": "text",
-                    "text": "Louange à toi, Seigneur Jésus !"
-                  }
-                ]
-              ],
-              "de": [
-                [
-                  {
-                    "type": "rubric",
-                    "text": "A:"
-                  },
-                  {
-                    "type": "text",
-                    "text": "Lob sei dir, Christus."
-                  }
-                ]
-              ]
+            "summary": {
+              "la": "Tu es Fílius meus dilectus; in te complacui.",
+              "es": "Tú eres mi Hijo amado, en ti me complazco",
+              "pt-BR": "Tu és meu Filho muito amado: em ti ponho meu bem-quer.",
+              "it": "Tu sei il Figlio mio, l'amato: in te ho posto il mio compiacimento."
+            },
+            "introduction": {
+              "la": "✠ Léctio sancti Evangélii secúndum Marcum",
+              "es": "✠ Lectura del santo Evangelio según san Marcos",
+              "en": "✠ A reading from the holy Gospel according to Mark",
+              "pt-BR": "✠ Proclamação do Evangelho de Jesus Cristo segundo Marcos",
+              "it": "✠ Dal vangelo secondo Marco",
+              "fr": "✠ Évangile de Jésus-Christ selon saint Marc",
+              "de": "✠ Aus dem heiligen Evangelium nach Markus"
+            },
+            "body": {
+              "plain": {
+                "la": "In illo témpore:\n\nPrædicábat Ioánnes dicens: «Venit fórtior me post me, cuius non sum dignus procúmbens sólvere corrígiam calceamentórum eius. Ego baptizávi vos aqua; ille vero baptizábit vos in Spíritu Sancto». Et factum est in diébus illis, venit Iesus a Názareth Galilǽæ et baptizátus est in Iordáne ab Ioánne. Et statim ascéndens de aqua vidit apértos cælos et Spíritum tamquam colúmbam descendéntem in ipsum; et vox facta est de cælis: «Tu es Fílius meus diléctus; in te complácui».",
+                "es": "En aquel tiempo, proclamaba Juan: «Detrás de mí viene el que es más fuerte que yo y no merezco agacharme para desatarle la correa de sus sandalias. Yo os he bautizado con agua, pero él os bautizará con Espíritu Santo». Y sucedió que por aquellos días llegó Jesús desde Nazaret de Galilea y fue bautizado por Juan en el Jordán. Apenas salió del agua, vio rasgarse los cielos y al Espíritu que bajaba hacia él como una paloma. Se oyó una voz desde los cielos: «Tú eres mi Hijo amado, en ti me complazco».",
+                "en": "In the course of his preaching John the Baptist said, 'Someone is following me, someone who is more powerful than I am, and I am not fit to kneel down and undo the strap of his sandals. I have baptised you with water, but he will baptise you with the Holy Spirit.' It was at this time that Jesus came from Nazareth in Galilee and was baptised in the Jordan by John. No sooner had he come up out of the water than he saw the heavens torn apart and the Spirit, like a dove, descending on him. And a voice came from heaven, 'You are my Son, the Beloved; my favour rests on you.",
+                "pt-BR": "Naquele tempo, João pregava dizendo: “Depois de mim virá alguém mais forte do que eu. Eu nem sou digno de me abaixar para desamarrar suas sandálias. Eu vos batizei com água, mas ele vos batizará com o Espírito Santo”. Naqueles dias, Jesus veio de Nazaré da Galileia, e foi batizado por João no rio Jordão. E logo, ao sair da água, viu o céu se abrindo, e o Espírito, como pomba, descer sobre ele. E do céu veio uma voz: “Tu és o meu Filho amado, em ti ponho meu bem-querer\".",
+                "it": "In quel tempo, Giovanni proclamava: «Viene dopo di me colui che è più forte di me: io non sono degno di chinarmi per slegare i lacci dei suoi sandali. Io vi ho battezzato con acqua, ma egli vi battezzerà in Spirito Santo». Ed ecco, in quei giorni, Gesù venne da Nàzaret di Galilea e fu battezzato nel Giordano da Giovanni. E, subito, uscendo dall'acqua, vide squarciarsi i cieli e lo Spirito discendere verso di lui come una colomba. E venne una voce dal cielo: «Tu sei il Figlio mio, l'amato: in te ho posto il mio compiacimento».",
+                "fr": "En ce temps-là, Jean le Baptiste proclamait : \" Voici venir derrière moi celui qui est plus fort que moi ; je ne suis pas digne de m'abaisser pour défaire la courroie de ses sandales. Moi, je vous ai baptisés avec de l'eau ; lui vous baptisera dans l'Esprit Saint. \"\n\nEn ces jours-là, Jésus vint de Nazareth, ville de Galilée, et il fut baptisé par Jean dans le Jourdain. Et aussitôt, en remontant de l'eau, il vit les cieux se déchirer et l'Esprit descendre sur lui comme une colombe. Il y eut une voix venant des cieux : \" Tu es mon Fils bien-aimé ; en toi, je trouve ma joie. \"",
+                "de": "In jener Zeit verkündete Johannes der Täufer: Nach mir kommt einer, der ist stärker als ich; ich bin es nicht wert, mich zu bücken, um ihm die Schuhe aufzuschnüren. Ich habe euch nur mit Wasser getauft, er aber wird euch mit dem Heiligen Geist taufen. In jenen Tagen kam Jesus aus Nazaret in Galiläa und ließ sich von Johannes im Jordan taufen. Und als er aus dem Wasser stieg, sah er, dass der Himmel sich öffnete und der Geist wie eine Taube auf ihn herabkam. Und eine Stimme aus dem Himmel sprach: Du bist mein geliebter Sohn, an dir habe ich Gefallen gefunden."
+              }
+            },
+            "conclusion": {
+              "la": "Verbum Dómini.",
+              "es": "Palabra del Señor.",
+              "en": "The Gospel of the Lord.",
+              "pt-BR": "Palavra da Salvação.",
+              "it": "Parola del Signore.",
+              "fr": "Acclamons la Parole de Dieu !",
+              "de": "Evangelium unseres Herrn Jesus Christus."
+            },
+            "citation": {
+              "la": "1, 7-11",
+              "es": "1, 7-11",
+              "en": "1:7-11",
+              "pt-BR": "1, 7-11",
+              "it": "1,7-11",
+              "fr": "1, 7-11",
+              "de": "1, 7-11"
+            },
+            "response": {
+              "body": {
+                "plain": {
+                  "la": "℟. Laus tibi, Christe.",
+                  "es": "℟. Gloria a ti, Señor Jesús.",
+                  "en": "℟. Praise to you, Lord Jesus Christ.",
+                  "pt-BR": "℟. Glória a vós, Senhor.",
+                  "it": "℟. Lode a te, o Cristo.",
+                  "fr": "℟. Louange à toi, Seigneur Jésus !",
+                  "de": "A: Lob sei dir, Christus."
+                },
+                "lines": {
+                  "la": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "℟."
+                      },
+                      {
+                        "type": "text",
+                        "text": "Laus tibi, Christe."
+                      }
+                    ]
+                  ],
+                  "es": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "℟."
+                      },
+                      {
+                        "type": "text",
+                        "text": "Gloria a ti, Señor Jesús."
+                      }
+                    ]
+                  ],
+                  "en": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "℟."
+                      },
+                      {
+                        "type": "text",
+                        "text": "Praise to you, Lord Jesus Christ."
+                      }
+                    ]
+                  ],
+                  "pt-BR": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "℟."
+                      },
+                      {
+                        "type": "text",
+                        "text": "Glória a vós, Senhor."
+                      }
+                    ]
+                  ],
+                  "it": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "℟."
+                      },
+                      {
+                        "type": "text",
+                        "text": "Lode a te, o Cristo."
+                      }
+                    ]
+                  ],
+                  "fr": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "℟."
+                      },
+                      {
+                        "type": "text",
+                        "text": "Louange à toi, Seigneur Jésus !"
+                      }
+                    ]
+                  ],
+                  "de": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "A:"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Lob sei dir, Christus."
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "label": {
+              "la": "vel",
+              "es": "Evangelio",
+              "en": "Gospel",
+              "pt-BR": "Evangelho",
+              "it": "Vangelo",
+              "fr": "Ou bien",
+              "de": "Evangelium"
+            },
+            "summary": {
+              "la": "Genealogia Iesu Christi, filii Adam, filii Dei.",
+              "es": "Genealogía de Jesucristo, hijo de Adán, hijo de Dios",
+              "pt-BR": "Genealogia de Jesus Cristo, Filho de Adão, Fiho de Deus.",
+              "it": "Genealogia di Gesù Cristo, figlio di Adamo. figlio di Dio."
+            },
+            "introduction": {
+              "la": "✠ Léctio sancti Evangélii secúndum Lucam",
+              "es": "✠ Lectura del santo Evangelio según san Lucas",
+              "en": "✠ A reading from the holy Gospel according to Luke",
+              "pt-BR": "✠ Proclamação do Evangelho de Jesus Cristo segundo Lucas",
+              "it": "✠ Dal Vangelo secondo Luca",
+              "fr": "✠ Évangile de Jésus-Christ selon saint Luc",
+              "de": "✠ Aus dem heiligen Evangelium nach Lukas"
+            },
+            "body": {
+              "plain": {
+                "la": "In illo témpore, Iesus erat incípiens quasi annórum trigínta, ut putabátur, fílius Ioseph, qui fuit Heli, qui fuit Matthat, qui fuit Levi, qui fuit Melchi, qui fuit Iannæ, qui fuit Ioseph, qui fuit Matthathíæ, qui fuit Amos, qui fuit Nahum, qui fuit Esli, qui fuit Naggæ, qui fuit Maath, qui fuit Matthathíæ, qui fuit Sémei, qui fuit Iosech, qui fuit Ioda, qui fuit Ioánna, qui fuit Resa, qui fuit Zoróbabel, qui fuit Saláthiel, qui fuit Neri, qui fuit Melchi, qui fuit Addi, qui fuit Cosam, qui fuit Elmádam, qui fuit Her, qui fuit Iesu, qui fuit Eliézer, qui fuit Iorim, qui fuit Matthat, qui fuit Levi, qui fuit Símeon, qui fuit Iudæ, qui fuit Ioseph, qui fuit Iona, qui fuit Elíachim, qui fuit Mélea, qui fuit Menna, qui fuit Matthátha, qui fuit Nathan, qui fuit David, qui fuit Iesse, qui fuit Obed, qui fuit Booz, qui fuit Salmon, qui fuit Naásson, qui fuit Amínadab, qui fuit Admin, qui fuit Arni, qui fuit Esrom, qui fuit Phares, qui fuit Iudæ, qui fuit Iacob, qui fuit Isaac, qui fuit Abrahæ, qui fuit Thare, qui fuit Nachor, qui fuit Seruch, qui fuit Rágau, qui fuit Phaleg, qui fuit Heber, qui fuit Sala, qui fuit Cáinan, qui fuit Arpháxad, qui fuit Sem, qui fuit Noe, qui fuit Lamech, qui fuit Mathusála, qui fuit Henoch, qui fuit Iared, qui fuit Maláleel, qui fuit Cáinan, qui fuit Enos, qui fuit Seth, qui fuit Adam, qui fuit Dei.",
+                "es": "En aquel tiempo, Jesús, al empezar, tenía unos treinta años, y se pensaba que era hijo de José, que a su vez era de Helí, de Matat, de Leví, de Melquí, de Jannaí, de José, de Matatías, de Amós, de Nahún, de Eslí, de Nagái, de Maat, de Matatías, de Semeín, de Josec, de Jodá, de Joanán, de Resá, de Zorobabel, de Salatiel, de Nerí, de Melquí, de Addí, de Cosán, de Elmadán, de Er, de Jesús, de Eliezer, de Jorín, de Matat, de Leví, de Simeón, de Judá, de José, de Jonán, de Eliacín, de Me-. leá, de Mená, de Matatá, de Natán, de David, de Jesé, de Jobed, de Booz, de Salá, de Naasón, de Aminadab, de Admín, de Arní, de Esrón, de Fares, de Judá, de Jacob, de Isaac, de Abrahán, de Tare, de Nacor, de Seruc, de Ragau, de Fálec, de Eber, de Salá, de Cainán, de Arfaxad, de Sem, de Noé, de Lámec, de Matusalén, de Henoc, de Járet, de Maleleel, de Cainán, de Enós, de Set, de Adán, de Dios.",
+                "en": "When he started to teach, Jesus was about thirty years old, being the son, as it was thought, of Joseph son of Heli, son of Matthat, son of Levi, son of Melchi, son of Jannai, son of Joseph, son of Mattathias, son of Amos, son of Nahum, son of Esli, son of Naggai, son of Maath, son of Mattathias, son of Semein, son of Josech, son of Joda, son of Joanan, son of Rhesa, son of Zerubbabel, son of Shealtiel, son of Neri, son of Melchi, son of Addi, son of Cosam, son of Elmadam, son of Er, son of Joshua, son of Joshua, son of Eliezer, son of Jorim, son of Matthat, son of Levi son of Symeon, son of Judah, son of Joseph, son of Jonam, son of Eliakim, son of Melea, son of Menna, son of Mattatha, son of Nathan, son of David, son of Jesse, son of Obed, son of Boaz, son of Sala, son of Nahshon,3:33 son of Amminadab, son of Admin, son of Arni, son of Hezron, son of Perez, son of Judah, son of Jacob, son of Isaac, son of Abraham, son of Terah, son of Nahor, son of Serug, son of Reu, son of Peleg, son of Eber, son of Shelah, son of Cainan, son of Arphaxad, son of Shem, son of Noah, son of Lamech, son of Methuselah, son of Enoch, son of Jared, son of Mahalaleel, son of Cainan, son of Enos, son of Seth, son of Adam, son of God.",
+                "pt-BR": "Naquele tempo, ao iniciar o seu ministério, Jesus tinha uns trinta anos, filho, segundo se pensava, de José, de Heli, de Matat, de Levi, de Melqui, de Janai, de José, de Matatias, de Amós, de Naum, de Esli, de Nagai, de Maat, de Matatias, de Semein, de José, de Jodá, de Joanã, de Ressa, de Zorobabel, de Salatiel, filho de Neri, de Melqui, de Adi, de Cosã, de Elmadã, de Her, de Jesus, de Eliezer, de Jorim, de Matat, de Levi, de Simeão, de Judá, de José, de Jonã, de Eliacim, de Meleia, de Mená, de Matatá, de Natã, de David, de Jessé, de Obed, de Booz, de Salá, de Naasson, de Aminabad, de Admin, de Arni, de Esron, de Farés, de Judá, de Jacó, de Isaac, de Abraão, de Taré, de Nacor, de Seruc, de Ragau, de Faleg, de Eber, de Salá, de Cainã, de Arfaxad, de Sem, de Noé, de Lamec, de Matusalém, de Henoc, de Jared, de Maleleel, de Cainã, de Enós, de Set, de Adão, de Deus.",
+                "it": "Gesù quando incominciò il suo ministero aveva circa trent'anni ed era figlio, come si credeva, di Giuseppe, figlio di Eli, figlio di Mattàt, figlio di Levi, figlio di Melchi, figlio di Innài, figlio di Giuseppe, figlio di Mattatìa, figlio di Amos, figlio di Naum, figlio di Esli, figlio di Naggài, figlio di Maat, figlio di Mattatìa, figlio di Semèin, figlio di Iosek, figlio di Ioda, figlio di Ioanan, figlio di Resa, figlio di Zorobabèle, figlio di Salatiel, figlio di Neri, figlio di Melchi, figlio di Addi, figlio di Cosam, figlio di Elmadàm, figlio di Er, figlio di Gesù, figlio di Elièzer, figlio di Iorim, figlio di Mattàt, figlio di Levi, figlio di Simeone, figlio di Giuda, figlio di Giuseppe, figlio di Ionam, figlio di Eliacim, figlio di Melèa, figlio di Menna, figlio di Mattatà, figlio di Natàm, figlio di Davide, figlio di Iesse, figlio di Obed, figlio di Booz, figlio di Sala, figlio di Naàsson, figlio di Aminadàb, figlio di Admin, figlio di Arni, figlio di Esrom, figlio di Fares, figlio di Giuda, figlio di Giacobbe, figlio di Isacco, figlio di Abramo, figlio di Tare, figlio di Nacor, figlio di Seruk, figlio di Ragau, figlio di Falek, figlio di Eber, figlio di Sala, figlio di Cainam, figlio di Arfàcsad, figlio di Sem, figlio di Noè, figlio di Lamech, figlio di Matusalemme, figlio di Enoch, figlio di Iaret, figlio di Malleèl, figlio di Cainam, figlio di Enos, figlio di Set, figlio di Adamo, figlio di Dio.",
+                "fr": "Quand il commença, Jésus avait environ trente ans ; il était, à ce que l'on pensait, fils de Joseph, fils d'Éli, fils de Matthate, fils de Lévi, fils de Melki, fils de Jannaï, fils de Joseph, fils de Mattathias, fils d'Amos, fils de Nahoum, fils de Hesli, fils de Naggaï, fils de Maath, fils de Mattathias, fils de Séméine, fils de Josek, fils de Joda, fils de Joanane, fils de Résa, fils de Zorobabel, fils de Salathiel, fils de Néri, fils de Melki, fils d'Addi, fils de Kosam, fils d'Elmadam, fils d'Er, fils de Jésus, fils d'Éliézer, fils de Jorim, fils de Matthate, fils de Lévi, fils de Syméon, fils de Juda, fils de Joseph, fils de Jonam, fils d'Éliakim, fils de Méléa, fils de Menna, fils de Mattatha, fils de Natham, fils de David, fils de Jessé, fils de Jobed, fils de Booz, fils de Sala, fils de Naassone, fils d'Aminadab, fils d'Admine, fils d'Arni, fils d'Esrom, fils de Pharès, fils de Juda, fils de Jacob, fils d'Isaac, fils d'Abraham, fils de Thara, fils de Nakor, fils de Sérouk, fils de Ragaou, fils de Phalek, fils d'Éber, fils de Sala, fils de Kaïnam, fils d'Arphaxad, fils de Sem, fils de Noé, fils de Lamek, fils de Mathusalem, fils de Hénok, fils de Jareth, fils de Maléléel, fils de Kaïnam, fils d'Énos, fils de Seth, fils d'Adam, fils de Dieu.",
+                "de": "Jesus war etwa dreißig Jahre alt, als er zum ersten Mal öffentlich auftrat. Man hielt ihn für den Sohn Josefs. Die Vorfahren Josefs waren: Eli, Mattat, Levi, Melchi, Jánnai, Josef, Mattítja, Amos, Nahum, Hesli, Naggai, Mahat, Mattítja, Schimi, Josech, Joda, Jóhanan, Resa, Serubbábel, Scheáltiël, Neri, Melchi, Addi, Kosam, Élmadam, Er, Joschúa, Eliëser, Jorim, Mattat, Levi, Símeon, Juda, Josef, Jonam, Eljakim, Meléa, Menna, Mattáta, Natan, David, Ísai, Obed, Boas, Salmon, Nachschon, Amminádab, Admin, Arni, Hezron, Perez, Juda, Jakob, Isaak, Abraham, Terach, Nahor, Serug, Regu, Peleg, Eber, Schelach, Kenan, Árpachschad, Sem, Noach, Lamech, Metuschélach, Henoch, Jered, Mahálalel, Kenan, Enosch, Set, Adam; der stammte von Gott."
+              }
+            },
+            "conclusion": {
+              "la": "Verbum Dómini.",
+              "es": "Palabra del Señor.",
+              "en": "The Gospel of the Lord.",
+              "pt-BR": "Palavra da Salvação.",
+              "it": "Parola di Dio.",
+              "fr": "Acclamons la Parole de Dieu !",
+              "de": "Evangelium unseres Herrn Jesus Christus."
+            },
+            "citation": {
+              "la": "3, 23-38",
+              "es": "3, 23-38",
+              "en": "3:23-38",
+              "pt-BR": "3, 23-38",
+              "it": "3,23-38",
+              "fr": "3, 23-38",
+              "de": "3, 23-38"
+            },
+            "response": {
+              "body": {
+                "plain": {
+                  "la": "℟. Laus tibi, Christe.",
+                  "es": "℟. Gloria a ti, Señor Jesús.",
+                  "en": "℟. Praise to you, Lord Jesus Christ.",
+                  "pt-BR": "℟. Glória a vós, Senhor.",
+                  "it": "℟. Lode a te, o Cristo.",
+                  "fr": "℟. Louange à toi, Seigneur Jésus !",
+                  "de": "A: Lob sei dir, Christus."
+                },
+                "lines": {
+                  "la": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "℟."
+                      },
+                      {
+                        "type": "text",
+                        "text": "Laus tibi, Christe."
+                      }
+                    ]
+                  ],
+                  "es": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "℟."
+                      },
+                      {
+                        "type": "text",
+                        "text": "Gloria a ti, Señor Jesús."
+                      }
+                    ]
+                  ],
+                  "en": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "℟."
+                      },
+                      {
+                        "type": "text",
+                        "text": "Praise to you, Lord Jesus Christ."
+                      }
+                    ]
+                  ],
+                  "pt-BR": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "℟."
+                      },
+                      {
+                        "type": "text",
+                        "text": "Glória a vós, Senhor."
+                      }
+                    ]
+                  ],
+                  "it": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "℟."
+                      },
+                      {
+                        "type": "text",
+                        "text": "Lode a te, o Cristo."
+                      }
+                    ]
+                  ],
+                  "fr": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "℟."
+                      },
+                      {
+                        "type": "text",
+                        "text": "Louange à toi, Seigneur Jésus !"
+                      }
+                    ]
+                  ],
+                  "de": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "A:"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Lob sei dir, Christus."
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "label": {
+              "la": "vel brevior",
+              "es": "Evangelio",
+              "en": "Gospel",
+              "pt-BR": "Evangelho",
+              "it": "Vangelo",
+              "fr": "Ou bien",
+              "de": "Oder: Kurzfassung"
+            },
+            "summary": {
+              "la": "Genealogia Iesu Christi, filii Adam, filii Dei.",
+              "es": "Genealogía de Jesucristo, hijo de Adán, hijo de Dios",
+              "pt-BR": "Genealogia de Jesus Cristo, Filho de Adão, Fiho de Deus.",
+              "it": "Genealogia di Gesù Cristo, figlio di Adamo. figlio di Dio."
+            },
+            "introduction": {
+              "la": "✠ Léctio sancti Evangélii secúndum Lucam",
+              "es": "✠ Lectura del santo Evangelio según san Lucas",
+              "en": "✠ A reading from the holy Gospel according to Luke",
+              "pt-BR": "✠ Proclamação do Evangelho de Jesus Cristo segundo Lucas",
+              "it": "✠ Dal Vangelo secondo Luca",
+              "fr": "✠ Évangile de Jésus-Christ selon saint Luc",
+              "de": "✠ Aus dem heiligen Evangelium nach Lukas"
+            },
+            "body": {
+              "plain": {
+                "la": "Et ipse Iesus erat incípiens quasi annórum trigínta, ut putabátur, fílius Ioseph, qui fuit Heli, qui fuit Mélea, qui fuit Menna, qui fuit Matthátha, qui fuit Nathan, qui fuit David, qui fuit Iesse, qui fuit Obed, qui fuit Booz, qui fuit Salmon, qui fuit Naásson, qui fuit Amínadab, qui fuit Admin, qui fuit Arni, qui fuit Esrom, qui fuit Phares, qui fuit Iudæ, qui fuit Iacob, qui fuit Isaac, qui fuit Abrahæ, qui fuit Thare, qui fuit Nachor, qui fuit Cáinan, qui fuit Arpháxad, qui fuit Sem, qui fuit Noe, qui fuit Lamech, qui fuit Enos, qui fuit Seth, qui fuit Adam, qui fuit Dei.",
+                "es": "En aquel tiempo, Jesús, al empezar, tenía unos treinta años, y se pensaba que era hijo de José, que a su vez era de Helí, de Meleá, de Mená, de Matatá, de Natán, de David, de Jesé, de Jobed, de Booz, de Salá, de Naasón, de Aminadab, de Admín, de Arní, de Esrón, de Fares, de Judá, de Jacob, de Isaac, de Abrahán, de Tare, de Nacor, de Cainán, de Arfaxad, de Sem, de Noé, de Lámec, de Enós, de Set, de Adán, de Dios.",
+                "en": "When he started to teach, Jesus was about thirty years old, being the son, as it was thought, of Joseph son of Heli, son of Melea, son of Menna, son of Mattatha, son of Nathan, son of David, son of Jesse, son of Obed, son of Boaz, son of Sala, son of Nahshon, son of Amminadab, son of Admin, son of Arni, son of Hezron, son of Perez, son of Judah, son of Jacob, son of Isaac, son of Abraham, son of Terah, son of Nahor, son of Serug, son of Reu, son of Peleg, son of Eber, son of Shelah, son of Cainan, son of Arphaxad, son of Shem, son of Noah, son of Lamech, son of Enos, son of Seth, son of Adam, son of God.",
+                "pt-BR": "Naquele tempo, Jesus, ao iniciar o seu ministério, Jesus tinha uns trinta anos, filho, segundo se pensava, de José, de Heli, de Meleia, de Mená, de Matatá, de Natã, de David, de Jessé, de Obed, de Booz, de Salá, de Naasson, de Aminabad, de Admin, de Arni, de Esron, de Farés, de Judá, de Jacob, de Isaac, de Abraão, de Taré, de Nacor, de Cainã, de Arfaxad, de Sem, de Noé, de Lamec, de Enós, de Set, de Adão, de Deus.",
+                "it": "Gesù quando incominciò il suo ministero aveva circa trent'anni ed era figlio, come si credeva, di Giuseppe, figlio di Eli, figlio di Melèa, figlio di Menna, figlio di Mattatà, figlio di Natàm, figlio di Davide, figlio di Iesse, figlio di Obed, figlio di Booz, figlio di Sala, figlio di Naàsson, figlio di Aminadàb, figlio di Admin, figlio di Arni, figlio di Esrom, figlio di Fares, figlio di Giuda, figlio di Giacobbe, figlio di Isacco, figlio di Abramo, figlio di Tare, figlio di Nacor, figlio di Seruk, figlio di Ragau, figlio di Falek, figlio di Eber, figlio di Sala, figlio di Cainam, figlio di Arfàcsad, figlio di Sem, figlio di Noè, figlio di Lamech, figlio di Enos, figlio di Set, figlio di Adamo, figlio di Dio.",
+                "fr": "En ce temps-là, quand il commença, Jésus avait environ trente ans ; il était, à ce que l'on pensait, fils de Joseph, fils d'Éli, fils de Méléa, fils de Menna, fils de Mattatha, fils de Natham, fils de David, fils de Jessé, fils de Jobed, fils de Booz, fils de Sala, fils de Naassone, fils d'Aminadab, fils d'Admine, fils d'Arni, fils d'Esrom, fils de Pharès, fils de Juda, fils de Jacob, fils d'Isaac, fils d'Abraham, fils de Thara, fils de Nakor, fils de Kaïnam, fils d'Arphaxad, fils de Sem, fils de Noé, fils de Lamek, fils d'Énos, fils de Seth, fils d'Adam, fils de Dieu.",
+                "de": "Jesus war etwa dreißig Jahre alt, als er zum ersten Mal öffentlich auftrat. Man hielt ihn für den Sohn Josefs. Die Vorfahren Josefs waren: Eli, Meléa, Menna, Mattáta, Natan, David, Ísai, Obed, Boas, Salmon, Nachschon, Amminádab, Admin, Arni, Hezron, Perez, Juda, Jakob, Isaak, Abraham, Terach, Nahor, Kenan, Árpachschad, Sem, Noach, Lamech, Enosch, Set, Adam; der stammte von Gott."
+              }
+            },
+            "conclusion": {
+              "la": "Verbum Dómini.",
+              "es": "Palabra del Señor.",
+              "en": "The Gospel of the Lord.",
+              "pt-BR": "Palavra da Salvação.",
+              "it": "Parola di Dio.",
+              "fr": "Acclamons la Parole de Dieu !",
+              "de": "Evangelium unseres Herrn Jesus Christus."
+            },
+            "citation": {
+              "la": "3, 23. 31-34. 36",
+              "es": "3, 23. 31-34. 36",
+              "en": "3:23. 31-34. 36",
+              "pt-BR": "3, 23. 31-34. 36",
+              "it": "3,23. 31-34. 36",
+              "fr": "3, 23. 31-34. 36",
+              "de": "3, 23. 31-34. 36"
+            },
+            "response": {
+              "body": {
+                "plain": {
+                  "la": "℟. Laus tibi, Christe.",
+                  "es": "℟. Gloria a ti, Señor Jesús.",
+                  "en": "℟. Praise to you, Lord Jesus Christ.",
+                  "pt-BR": "℟. Glória a vós, Senhor.",
+                  "it": "℟. Lode a te, o Cristo.",
+                  "fr": "℟. Louange à toi, Seigneur Jésus !",
+                  "de": "A: Lob sei dir, Christus."
+                },
+                "lines": {
+                  "la": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "℟."
+                      },
+                      {
+                        "type": "text",
+                        "text": "Laus tibi, Christe."
+                      }
+                    ]
+                  ],
+                  "es": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "℟."
+                      },
+                      {
+                        "type": "text",
+                        "text": "Gloria a ti, Señor Jesús."
+                      }
+                    ]
+                  ],
+                  "en": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "℟."
+                      },
+                      {
+                        "type": "text",
+                        "text": "Praise to you, Lord Jesus Christ."
+                      }
+                    ]
+                  ],
+                  "pt-BR": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "℟."
+                      },
+                      {
+                        "type": "text",
+                        "text": "Glória a vós, Senhor."
+                      }
+                    ]
+                  ],
+                  "it": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "℟."
+                      },
+                      {
+                        "type": "text",
+                        "text": "Lode a te, o Cristo."
+                      }
+                    ]
+                  ],
+                  "fr": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "℟."
+                      },
+                      {
+                        "type": "text",
+                        "text": "Louange à toi, Seigneur Jésus !"
+                      }
+                    ]
+                  ],
+                  "de": [
+                    [
+                      {
+                        "type": "rubric",
+                        "text": "A:"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Lob sei dir, Christus."
+                      }
+                    ]
+                  ]
+                }
+              }
             }
           }
-        }
+        ]
       }
     }
   },

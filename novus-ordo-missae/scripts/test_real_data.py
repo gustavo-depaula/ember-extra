@@ -656,6 +656,33 @@ class TestOrdinaryTimeFerials:
 # Prayer alternatives shape (standardized across all prayer slots)
 # =============================================================================
 
+class TestReadingAlternativesShape:
+    """Reading slots can have multiple forms (brevior/longior). When present,
+    all forms live inside `alternatives[]`; consumers iterate the array."""
+
+    def test_lent_w5_sunday_a_gospel_has_long_and_short(self):
+        """Lent W5 Sunday cycle A (Lazarus) has both a longior gospel
+        (Jn 11:1-45) and a brevior gospel (Jn 11:3-7, 17, 20-27, 33b-45)
+        in the lectionary."""
+        import json
+        p = pathlib.Path(__file__).resolve().parent.parent / "data" / "masses" / "tempore" / "lent" / "week-5" / "sunday.json"
+        m = json.loads(p.read_text())
+        g = (m.get("readings") or {}).get("A", {}).get("gospel", {})
+        # Multi-form shape: only `alternatives` at the slot root.
+        assert "body" not in g
+        assert "citation" not in g
+        opts = g.get("alternatives") or []
+        assert len(opts) == 2, f"expected long + short, got {len(opts)}"
+        # First option = longior (full pericope ~6000+ chars)
+        # Second option = brevior (selective verses, shorter)
+        long_len = len((opts[0].get("body") or {}).get("plain", {}).get("la", ""))
+        short_len = len((opts[1].get("body") or {}).get("plain", {}).get("la", ""))
+        assert long_len > short_len, f"first option should be longer: {long_len} vs {short_len}"
+        # Both options carry the same response (R/. Gloria tibi, Domine.)
+        assert (opts[0].get("response") or {}).get("body"), "long form missing response"
+        assert (opts[1].get("response") or {}).get("body"), "short form missing response"
+
+
 class TestPrayerAlternativesShape:
     """The Prayer schema accepts either {body, citation, label} (single
     option) or {alternatives: [...]} (multi-option, no body/citation at

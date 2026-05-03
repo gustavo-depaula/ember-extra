@@ -1405,6 +1405,99 @@ _READING_CLASS_FIELD_MAP = {
 }
 
 
+# UI toggle-button text used by the source HTML to switch between brevior
+# and longior forms. These items are noise — they should be dropped, not
+# treated as reading content.
+_READING_FORM_TOGGLE_TEXTS = frozenset({
+    'brevior', 'longior',
+    'shorter', 'longer',
+    'shorter form', 'longer form',
+    'forma breve', 'forma larga', 'forma corta',
+    'forme brève', 'forme longue',
+    'forma più breve',
+    'kürzere form', 'längere form',
+})
+
+
+def _is_form_toggle_item(item: dict) -> bool:
+    """An item is a UI form-toggle button if its content (in any language)
+    is just one of the known toggle labels."""
+    for src, c in (item.get("content") or {}).items():
+        text = (c.get("text") or "").strip().lower()
+        if text and text in _READING_FORM_TOGGLE_TEXTS:
+            return True
+    return False
+
+
+def _is_reading_title_item(item: dict) -> bool:
+    """An item starts a new reading if its HTML carries one of the
+    reading-title classes (`Areadingfrom`, `ReadingGospelTitle`)."""
+    for src, c in (item.get("content") or {}).items():
+        html = c.get("html") or ""
+        if 'class="Areadingfrom"' in html or 'class="ReadingGospelTitle"' in html:
+            return True
+    return False
+
+
+def _split_reading_items(items: list[dict]) -> list[list[dict]]:
+    """Split items into groups when they contain multiple complete readings
+    (the source's brevior/longior toggle pattern). Drops UI toggle-button
+    items as noise. Returns a list of item-lists, one per form."""
+    sorted_items = sorted(items, key=lambda it: it.get("n", 0))
+    content = [it for it in sorted_items if not _is_form_toggle_item(it)]
+    title_indices = [i for i, it in enumerate(content) if _is_reading_title_item(it)]
+    if len(title_indices) <= 1:
+        return [content]
+    groups: list[list[dict]] = []
+    prev = 0
+    for idx in title_indices[1:]:
+        groups.append(content[prev:idx])
+        prev = idx
+    groups.append(content[prev:])
+    return groups
+
+
+def _reading_has_response(reading: dict) -> bool:
+    """True if a reading (single or alternatives-shape) already carries
+    a response somewhere."""
+    if "alternatives" in reading:
+        return any("response" in alt for alt in reading["alternatives"])
+    return "response" in reading
+
+
+def _attach_response(reading: dict, response: Optional[dict]) -> None:
+    """Attach the people's response (`R/. Thanks be to God` etc.) to a
+    reading. When the reading is a multi-form `{alternatives: [...]}`
+    shape, attach the response to each alternative — the response is
+    identical across long/short forms."""
+    if not response:
+        return
+    if "alternatives" in reading:
+        for alt in reading["alternatives"]:
+            alt["response"] = response
+    else:
+        reading["response"] = response
+
+
+def reading_with_alternatives_from_items(items: list[dict]) -> Optional[dict]:
+    """Wrapper over reading_from_items that handles multi-form readings:
+    when the source structure carries both a longior and a brevior gospel
+    (or first reading) under one slot, emit the two as
+    `{alternatives: [Reading, Reading]}` instead of collapsing them.
+
+    For single-form readings (the common case), delegate directly to
+    reading_from_items so the slot keeps its simple shape."""
+    groups = _split_reading_items(items)
+    if len(groups) <= 1:
+        return reading_from_items(items)
+    readings = [r for r in (reading_from_items(g) for g in groups) if r]
+    if not readings:
+        return None
+    if len(readings) == 1:
+        return readings[0]
+    return {"alternatives": readings}
+
+
 def reading_from_items(items: list[dict]) -> Optional[dict]:
     """Build a structured Reading by re-parsing the hijo HTML across all items.
 
@@ -1798,22 +1891,20 @@ def cycle_slots_to_reading_set(slots: list[dict]) -> dict[str, Any]:
         t = slot.get("type")
         items = slot.get("items") or []
         if t == "x_prim_lect":
-            r = reading_from_items(items)
+            r = reading_with_alternatives_from_items(items)
             if r:
-                if pending_response:
-                    r["response"] = pending_response
-                    pending_response = None
+                _attach_response(r, pending_response)
+                pending_response = None
                 rs["firstReading"] = r
         elif t == "x_salmo":
             r = psalm_from_items(items)
             if r:
                 rs["responsorialPsalm"] = r
         elif t == "x_seg_lect":
-            r = reading_from_items(items)
+            r = reading_with_alternatives_from_items(items)
             if r:
-                if pending_response:
-                    r["response"] = pending_response
-                    pending_response = None
+                _attach_response(r, pending_response)
+                pending_response = None
                 rs["secondReading"] = r
         elif t == "x_aleluya":
             # When the source lists multiple alternative gospel acclamations
@@ -1844,11 +1935,10 @@ def cycle_slots_to_reading_set(slots: list[dict]) -> dict[str, Any]:
                         r["citation"] = cit
                     rs["gospelAcclamation"] = r
         elif t == "x_evangelio":
-            r = reading_from_items(items)
+            r = reading_with_alternatives_from_items(items)
             if r:
-                if pending_response:
-                    r["response"] = pending_response
-                    pending_response = None
+                _attach_response(r, pending_response)
+                pending_response = None
                 rs["gospel"] = r
         elif t == "generic":
             # Only treat as a response if the content looks like an actual
@@ -1859,8 +1949,8 @@ def cycle_slots_to_reading_set(slots: list[dict]) -> dict[str, Any]:
             if response is None:
                 continue
             for key in ("gospel", "secondReading", "firstReading"):
-                if key in rs and "response" not in rs[key]:
-                    rs[key]["response"] = response
+                if key in rs and not _reading_has_response(rs[key]):
+                    _attach_response(rs[key], response)
                     break
             else:
                 pending_response = response
