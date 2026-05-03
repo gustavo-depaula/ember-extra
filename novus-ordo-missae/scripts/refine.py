@@ -4202,6 +4202,10 @@ def _scrub_string(s: str, lang: Optional[str]) -> str:
     if not isinstance(s, str) or not s:
         return s
     s = _INVISIBLE_CHARS_RE.sub('', s)
+    # Apply liturgical-character substitution AFTER invisible-char strip so
+    # source artifacts like "R/﻿." (BOM hiding inside the marker) are
+    # converted too.
+    s = _liturgical_markers(s)
     s = _HTML_INDENT_NOISE_RE.sub(' ', s)
     s = _LEADING_HYPHEN_RE.sub('', s)
     for ogonek_pair, replacement in _OGONEK_FIXES:
@@ -7153,6 +7157,45 @@ def _strip_preface_title_star_prefix(title: dict) -> None:
             title[lang] = value[2:]
 
 
+# Liturgical typography: replace ASCII shorthand with the proper Unicode
+# characters that appear in printed missals.
+#   R/.  →  ℟.   (U+211F  RESPONSE)
+#   V/.  →  ℣.   (U+2123  VERSICLE)
+# We match the literal three-character form, optionally with whitespace
+# between the letter and the slash, and only when the next char isn't
+# alphanumeric (avoids hits inside URLs, code, etc.). Idempotent: the
+# regex won't re-match its own output.
+_RESP_MARKER_RE = re.compile(r'\bR\s*/\s*\.')
+_VERS_MARKER_RE = re.compile(r'\bV\s*/\s*\.')
+
+
+def _liturgical_markers(text: str, lang: str = "") -> str:
+    if not isinstance(text, str) or not text:
+        return text
+    text = _RESP_MARKER_RE.sub('℟.', text)
+    text = _VERS_MARKER_RE.sub('℣.', text)
+    return text
+
+
+def _apply_liturgical_markers_to_doc(doc: Any) -> None:
+    """Walk a document and replace `R/.`/`V/.` shorthand with the proper
+    liturgical characters (℟. / ℣.) in every string. Used for IGMR and
+    sacerdotale passthrough documents which are not language-keyed (their
+    language is set at the document root, not on each branch)."""
+    if isinstance(doc, dict):
+        for k, v in list(doc.items()):
+            if isinstance(v, str):
+                doc[k] = _liturgical_markers(v)
+            else:
+                _apply_liturgical_markers_to_doc(v)
+    elif isinstance(doc, list):
+        for i, v in enumerate(doc):
+            if isinstance(v, str):
+                doc[i] = _liturgical_markers(v)
+            else:
+                _apply_liturgical_markers_to_doc(v)
+
+
 def _apply_universal_text_fixes(payload: Any) -> None:
     """Walk a payload tree and apply universal text-quality fixes to
     every string under a language-keyed branch (or under a `text` field
@@ -7166,6 +7209,7 @@ def _apply_universal_text_fixes(payload: Any) -> None:
         out = _straight_to_guillemets(out, lang)
         out = _french_space_before_punct(out, lang)
         out = _collapse_space_before_punct(out, lang)
+        out = _liturgical_markers(out, lang)
         if lang == 'it':
             out = _fix_italian_specific_scannos(out)
         return out
@@ -7413,6 +7457,7 @@ def _post_process_mass(mass: dict) -> Optional[dict]:
     _walk_lang_strings(mass, _apply_lang_specific_text_fixes)
     _walk_lang_strings(mass, lambda t, _l: _fix_doubled_preface_label(t))
     _walk_lang_strings(mass, lambda t, _l: _fix_n_bracket_spacing(t))
+    _walk_lang_strings(mass, _liturgical_markers)
     _clean_empty_rubric_segments_in_mass(mass)
     _normalize_citation_styles_in_mass(mass)
     _append_period_to_alleluia_end_in_mass(mass)
@@ -7836,6 +7881,7 @@ def main():
             src = d.get("language")
             if src and src in LANG_MAP:
                 d["language"] = LANG_MAP[src]
+            _apply_liturgical_markers_to_doc(d)
             write_json(V2_OUT / "igmr" / f"{LANG_MAP.get(src, src)}.json", d)
 
     # Sacerdotale passthrough — Priest's manual / appendices
@@ -7847,6 +7893,7 @@ def main():
             src = d.get("language")
             if src and src in LANG_MAP:
                 d["language"] = LANG_MAP[src]
+            _apply_liturgical_markers_to_doc(d)
             write_json(V2_OUT / "sacerdotale" / f"{LANG_MAP.get(src, src)}.json", d)
 
     # Note: devocionario.html (multilingual Rosary + devotions) and oracoes.html

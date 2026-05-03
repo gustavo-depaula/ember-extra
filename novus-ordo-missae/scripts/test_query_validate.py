@@ -226,20 +226,11 @@ class TestValidateCollectPrefaceIds:
 # =============================================================================
 
 class TestValidateMain:
-    def test_main_runs_clean_on_data(self):
-        if not DATA.exists():
-            pytest.skip("data/ not generated")
-        import os
-        old_cwd = pathlib.Path.cwd()
-        os.chdir(HERE.parent)
-        try:
-            # Reset module-level state
-            validate.errors = []
-            validate.warnings = []
-            rc = validate.main()
-            assert rc == 0, f"validate.main() returned {rc} with errors: {validate.errors}"
-        finally:
-            os.chdir(old_cwd)
+    def test_main_runs_clean_on_data(self, validate_result):
+        assert validate_result.returncode == 0, (
+            f"validate.main() returned {validate_result.returncode} "
+            f"with errors: {validate_result.errors}"
+        )
 
 
 if __name__ == "__main__":

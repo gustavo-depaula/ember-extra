@@ -42,10 +42,22 @@ class TestScrubString:
         assert R._scrub_string("Sa­cerdos", "la") == "Sacerdos"
 
     def test_strips_zero_width_space(self):
-        assert R._scrub_string("R/​.", "en") == "R/."
+        # `R/.` with a zero-width space hidden between `/` and `.`. The scrub
+        # strips invisibles, then converts the marker to its proper Unicode
+        # form (U+211F RESPONSE).
+        assert R._scrub_string("R/​.", "en") == "℟."
 
     def test_strips_zero_width_no_break(self):
-        assert R._scrub_string("R/﻿.", "en") == "R/."
+        # Same as above, BOM hidden inside the marker.
+        assert R._scrub_string("R/﻿.", "en") == "℟."
+
+    def test_replaces_response_marker(self):
+        # ASCII shorthand `R/.` becomes the proper liturgical character ℟.
+        assert R._scrub_string("R/. Amen.", "en") == "℟. Amen."
+
+    def test_replaces_versicle_marker(self):
+        # ASCII shorthand `V/.` becomes the proper liturgical character ℣.
+        assert R._scrub_string("V/. Dóminus vobiscum.", "la") == "℣. Dóminus vobiscum."
 
     def test_la_ocr_vitre_to_vitae(self):
         out = R._scrub_string("Deus, fons vitre, qui …", "la")

@@ -37,7 +37,7 @@ if [[ ! -x "$PY" ]]; then
   echo "  creating venv at $VENV"
   python3.11 -m venv "$VENV"
   "$VENV/bin/pip" install --quiet --upgrade pip
-  "$VENV/bin/pip" install --quiet beautifulsoup4 lxml jsonschema pytest
+  "$VENV/bin/pip" install --quiet beautifulsoup4 lxml jsonschema pytest pytest-xdist
 else
   echo "  $VENV present; skipping setup"
 fi
@@ -55,7 +55,7 @@ fi
 
 if [[ "$run_tests" == "1" ]]; then
   echo "==> Step 6: tests"
-  "$PY" -m pytest scripts/ -q
+  "$PY" -m pytest scripts/ -q -n auto
 fi
 
 echo "==> Done."

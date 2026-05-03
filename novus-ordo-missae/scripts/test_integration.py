@@ -213,33 +213,22 @@ class TestCorpusInvariants:
     """These run against the live data/ output. They verify properties the
     full pipeline (refine.py end-to-end) must hold."""
 
-    def setup_method(self):
-        if not (DATA / "masses").exists():
-            pytest.skip("data/ not generated")
-        # Cache mass listing for all tests
-        self.masses_by_file: dict[pathlib.Path, dict] = {}
-        for f in (DATA / "masses").rglob("*.json"):
-            if f.name == "_index.json":
-                continue
-            self.masses_by_file[f] = json.loads(f.read_text())
-        self.all_masses = list(self.masses_by_file.values())
-
-    def test_every_mass_has_id(self):
-        for m in self.all_masses:
+    def test_every_mass_has_id(self, all_masses):
+        for m in all_masses:
             assert isinstance(m.get("id"), str) and m["id"], f"mass missing id: {m!r}"
 
-    def test_every_mass_has_color(self):
+    def test_every_mass_has_color(self, all_masses):
         # Cycle 4 invariant: liturgicalColor must be set on all masses.
-        no_color = [m["id"] for m in self.all_masses if not m.get("liturgicalColor")]
+        no_color = [m["id"] for m in all_masses if not m.get("liturgicalColor")]
         assert not no_color, f"masses without liturgicalColor: {no_color[:5]}"
 
-    def test_color_values_in_enum(self):
+    def test_color_values_in_enum(self, all_masses):
         valid = {"white", "red", "green", "violet", "rose", "black"}
-        for m in self.all_masses:
+        for m in all_masses:
             c = m.get("liturgicalColor")
             assert c in valid, f"invalid color {c!r} on {m['id']}"
 
-    def test_no_title_prefix_pollution_anywhere(self):
+    def test_no_title_prefix_pollution_anywhere(self, all_masses):
         # Cycles 1+2+5+6+7+8 invariant: no mass title starts with a known
         # section-header pattern across any of the 7 languages.
         pollution = re.compile(
@@ -260,13 +249,13 @@ class TestCorpusInvariants:
             re.IGNORECASE,
         )
         bad = []
-        for m in self.all_masses:
+        for m in all_masses:
             for L, v in (m.get("title") or {}).items():
                 if isinstance(v, str) and pollution.match(v):
                     bad.append((m["id"], L, v[:60]))
         assert not bad, f"title pollution remaining: {bad[:5]}"
 
-    def test_no_double_period_endings_anywhere(self):
+    def test_no_double_period_endings_anywhere(self, all_masses):
         re_double = re.compile(r"\.{2,}$")
         bad = []
         def walk(node, mid):
@@ -277,11 +266,11 @@ class TestCorpusInvariants:
                 for v in node.values(): walk(v, mid)
             elif isinstance(node, list):
                 for v in node: walk(v, mid)
-        for m in self.all_masses:
+        for m in all_masses:
             walk(m, m["id"])
         assert not bad, f"trailing `..` strings: {bad[:5]}"
 
-    def test_no_html_indent_tabs_anywhere(self):
+    def test_no_html_indent_tabs_anywhere(self, all_masses):
         bad = []
         def walk(node, mid):
             if isinstance(node, str):
@@ -291,11 +280,11 @@ class TestCorpusInvariants:
                 for v in node.values(): walk(v, mid)
             elif isinstance(node, list):
                 for v in node: walk(v, mid)
-        for m in self.all_masses:
+        for m in all_masses:
             walk(m, m["id"])
         assert not bad, f"tab characters in mass strings: {bad[:5]}"
 
-    def test_no_invisible_unicode_anywhere(self):
+    def test_no_invisible_unicode_anywhere(self, all_masses):
         invisible = "­​‌‍﻿"  # soft-hyphen, ZWS, ZWJ, ZWJ, BOM
         bad = []
         def walk(node, mid):
@@ -306,11 +295,11 @@ class TestCorpusInvariants:
                 for v in node.values(): walk(v, mid)
             elif isinstance(node, list):
                 for v in node: walk(v, mid)
-        for m in self.all_masses:
+        for m in all_masses:
             walk(m, m["id"])
         assert not bad, f"invisible unicode: {bad[:5]}"
 
-    def test_no_la_ocr_scannos_anywhere(self):
+    def test_no_la_ocr_scannos_anywhere(self, all_masses):
         bad_words = re.compile(r"\b(vitre|quœsumus|sœculi|prœsta|prœstantíssimum|tuœ|suœ|meœ)\b", re.I)
         bad = []
         def walk(node, lang_hint, mid):
@@ -323,18 +312,18 @@ class TestCorpusInvariants:
                     walk(v, new_lang, mid)
             elif isinstance(node, list):
                 for v in node: walk(v, lang_hint, mid)
-        for m in self.all_masses:
+        for m in all_masses:
             walk(m, None, m["id"])
         assert not bad, f"Latin OCR scannos: {bad[:5]}"
 
-    def test_solemnity_masses_have_rankLocalized(self):
-        for m in self.all_masses:
+    def test_solemnity_masses_have_rankLocalized(self, all_masses):
+        for m in all_masses:
             if m.get("rank") == "solemnity":
                 rl = m.get("rankLocalized") or {}
                 assert isinstance(rl, dict) and any(rl.values()), \
                     f"{m['id']} has rank=solemnity but no rankLocalized"
 
-    def test_dec_17_24_are_advent_violet(self):
+    def test_dec_17_24_are_advent_violet(self, all_masses):
         late_advent_ids = {
             "tempore.christmas.day-117", "tempore.christmas.day-118",
             "tempore.christmas.day-119", "tempore.christmas.day-120.sunday",
@@ -342,7 +331,7 @@ class TestCorpusInvariants:
             "tempore.christmas.day-123.wednesday", "tempore.christmas.day-124.thursday",
         }
         seen = set()
-        for m in self.all_masses:
+        for m in all_masses:
             if m["id"] in late_advent_ids:
                 seen.add(m["id"])
                 assert m.get("season") == "advent", \
@@ -353,7 +342,7 @@ class TestCorpusInvariants:
                     f"{m['id']}: weekday is {m.get('weekday')!r}, should be None (date varies year-to-year)"
         assert seen == late_advent_ids, f"missing late-advent days: {late_advent_ids - seen}"
 
-    def test_holy_week_color_assignment(self):
+    def test_holy_week_color_assignment(self, all_masses):
         expected = {
             "tempore.holy-week.monday": "violet",
             "tempore.holy-week.tuesday": "violet",
@@ -364,33 +353,33 @@ class TestCorpusInvariants:
             "tempore.holy-week.good-friday": "red",
             "tempore.holy-week.easter-vigil": "white",
         }
-        for m in self.all_masses:
+        for m in all_masses:
             if m["id"] in expected:
                 exp = expected[m["id"]]
                 got = m.get("liturgicalColor")
                 assert got == exp, f"{m['id']}: color is {got!r}, expected {exp!r}"
 
-    def test_common_of_martyrs_is_red(self):
-        for m in self.all_masses:
+    def test_common_of_martyrs_is_red(self, all_masses):
+        for m in all_masses:
             if m["id"].startswith("common.martyrs."):
                 assert m.get("liturgicalColor") == "red", \
                     f"{m['id']}: martyr should be red, got {m.get('liturgicalColor')!r}"
 
-    def test_common_of_pastors_is_white(self):
-        for m in self.all_masses:
+    def test_common_of_pastors_is_white(self, all_masses):
+        for m in all_masses:
             if m["id"].startswith("common.pastors."):
                 assert m.get("liturgicalColor") == "white", \
                     f"{m['id']}: pastor should be white"
 
-    def test_for_the_dead_is_violet(self):
-        for m in self.all_masses:
+    def test_for_the_dead_is_violet(self, all_masses):
+        for m in all_masses:
             if m["id"].startswith("ritual.for-the-dead."):
                 assert m.get("liturgicalColor") == "violet", \
                     f"{m['id']}: should be violet, got {m.get('liturgicalColor')!r}"
 
-    def test_apostle_solemnities_are_red(self):
+    def test_apostle_solemnities_are_red(self, all_masses):
         # SS. Petri et Pauli (06-29), St. Andrew (11-30), etc.
-        for m in self.all_masses:
+        for m in all_masses:
             title = (m.get("title") or {}).get("la", "") or (m.get("title") or {}).get("en", "")
             if "APOSTOL" in title.upper() and m.get("rank") in ("feast", "solemnity"):
                 assert m.get("liturgicalColor") == "red", \
@@ -404,60 +393,40 @@ class TestCorpusInvariants:
 class TestCitationEnrichmentIntegration:
     """Verify all reading citations in the corpus have a book abbreviation."""
 
-    def setup_method(self):
-        if not (DATA / "masses").exists():
-            pytest.skip("data/ not generated")
-        self.all_readings: list[tuple[str, str, str, str]] = []
-        for f in (DATA / "masses").rglob("*.json"):
-            if f.name == "_index.json":
-                continue
-            m = json.loads(f.read_text())
-            if not isinstance(m, dict):
-                continue
-            for cyc, slots in (m.get("readings") or {}).items():
-                if not isinstance(slots, dict): continue
-                for slot in ("firstReading","secondReading","gospel"):
-                    r = slots.get(slot)
-                    if not isinstance(r, dict): continue
-                    cit = r.get("citation") or {}
-                    for L, v in cit.items():
-                        if isinstance(v, str) and v.strip():
-                            self.all_readings.append((m["id"], slot, L, v))
-
-    def test_all_citations_have_book_token_la(self):
+    def test_all_citations_have_book_token_la(self, all_readings):
         numbered = re.compile(r"^\d+\s+[A-Za-zÀ-ÿ]")
         bad = []
-        for mid, slot, L, v in self.all_readings:
+        for mid, slot, L, v in all_readings:
             if L != "la": continue
             first = v.lstrip()
             if first[:1].isdigit() and not numbered.match(first):
                 bad.append((mid, slot, v[:30]))
         assert not bad, f"Latin citations missing book abbrev: {bad[:5]}"
 
-    def test_all_citations_have_book_token_en(self):
+    def test_all_citations_have_book_token_en(self, all_readings):
         numbered = re.compile(r"^\d+\s+[A-Za-zÀ-ÿ]")
         bad = []
-        for mid, slot, L, v in self.all_readings:
+        for mid, slot, L, v in all_readings:
             if L != "en": continue
             first = v.lstrip()
             if first[:1].isdigit() and not numbered.match(first):
                 bad.append((mid, slot, v[:30]))
         assert not bad, f"English citations missing book abbrev: {bad[:5]}"
 
-    def test_all_citations_have_book_token_all_langs(self):
+    def test_all_citations_have_book_token_all_langs(self, all_readings):
         numbered = re.compile(r"^\d+\s+[A-Za-zÀ-ÿ]")
         by_lang: dict[str, list] = {}
-        for mid, slot, L, v in self.all_readings:
+        for mid, slot, L, v in all_readings:
             first = v.lstrip()
             if first[:1].isdigit() and not numbered.match(first):
                 by_lang.setdefault(L, []).append((mid, slot, v[:30]))
         assert not by_lang, f"citations missing book abbrev by lang: {by_lang}"
 
-    def test_lang_specific_book_abbrevs(self):
+    def test_lang_specific_book_abbrevs(self, all_readings):
         # John in pt-BR should be "Jo", in it "Gv", in de "Joh", in en "Jn"
         # Pick a known Matthew gospel mass for sanity. Iterate to find it.
         found = False
-        for mid, slot, L, v in self.all_readings:
+        for mid, slot, L, v in all_readings:
             if slot != "gospel": continue
             # If body contains "Jn 3" or similar in en, etc., we know this is John gospel
             # Just check the abbreviation matches the lang convention
@@ -485,24 +454,13 @@ class TestSchemaCompliance:
     """The validate.py script confirms the schema. This test runs it as a
     last-line-of-defense integration check."""
 
-    def setup_method(self):
-        if not (DATA).exists():
-            pytest.skip("data/ not generated")
-
-    def test_validate_returns_zero(self):
-        import subprocess
-        result = subprocess.run(
-            ["python3.11", "scripts/validate.py"],
-            cwd=str(HERE.parent),
-            capture_output=True,
-            text=True,
-            timeout=120,
-        )
-        # validate.py prints "errors: N" — extract count
-        match = re.search(r"errors:\s*(\d+)", result.stdout)
-        assert match, f"could not find errors count in: {result.stdout[-500:]}"
+    def test_validate_returns_zero(self, validate_result):
+        match = re.search(r"errors:\s*(\d+)", validate_result.stdout)
+        assert match, f"could not find errors count in: {validate_result.stdout[-500:]}"
         errors = int(match.group(1))
-        assert errors == 0, f"validate.py reports {errors} errors:\n{result.stdout[-2000:]}"
+        assert errors == 0, (
+            f"validate.py reports {errors} errors:\n{validate_result.stdout[-2000:]}"
+        )
 
 
 class TestIndexFileConsistency:
@@ -536,72 +494,71 @@ class TestIndexFileConsistency:
         assert self.idx["totals"]["eucharisticPrayers"] == self._count_items(DATA / "library" / "eucharistic-prayer")
 
 
+def _expanded_mass_ids(all_masses):
+    """Mass ids include both standalone masses AND
+    `<parent>.<alternative.key>` ids for nested alternatives."""
+    ids = set()
+    for d in all_masses:
+        if not isinstance(d, dict) or not d.get("id"):
+            continue
+        ids.add(d["id"])
+        for alt in d.get("alternatives") or []:
+            if alt.get("key"):
+                ids.add(f"{d['id']}.{alt['key']}")
+    return ids
+
+
+def _calendar_entries():
+    return [
+        json.loads(f.read_text())
+        for f in (DATA / "calendar").rglob("*.json")
+        if f.name != "_index.json"
+    ]
+
+
 class TestCalendarMassesCrossRef:
     """Every calendar entry must point to an existing mass."""
 
-    def setup_method(self):
+    def test_all_tempore_calendar_entries_have_mass(self, all_masses):
         if not (DATA / "calendar").exists():
-            pytest.skip("data/ not generated")
-        self.cal_entries = []
-        for f in (DATA / "calendar").rglob("*.json"):
-            if f.name == "_index.json":
-                continue
-            self.cal_entries.append(json.loads(f.read_text()))
-        # Mass ids include both standalone masses AND
-        # `<parent>.<alternative.key>` ids for nested alternatives.
-        self.mass_ids = set()
-        for f in (DATA / "masses").rglob("*.json"):
-            if f.name == "_index.json":
-                continue
-            d = json.loads(f.read_text())
-            if not isinstance(d, dict):
-                continue
-            if d.get("id"):
-                self.mass_ids.add(d["id"])
-                for alt in d.get("alternatives") or []:
-                    if alt.get("key"):
-                        self.mass_ids.add(f"{d['id']}.{alt['key']}")
-
-    def test_all_tempore_calendar_entries_have_mass(self):
-        for entry in self.cal_entries:
+            pytest.skip("data/calendar/ not generated")
+        mass_ids = _expanded_mass_ids(all_masses)
+        for entry in _calendar_entries():
             mid = entry.get("id")
             if mid and mid.startswith("tempore."):
-                assert mid in self.mass_ids, f"calendar tempore entry {mid} has no mass"
+                assert mid in mass_ids, f"calendar tempore entry {mid} has no mass"
 
-    def test_all_sanctorale_calendar_entries_have_mass(self):
-        for entry in self.cal_entries:
+    def test_all_sanctorale_calendar_entries_have_mass(self, all_masses):
+        if not (DATA / "calendar").exists():
+            pytest.skip("data/calendar/ not generated")
+        mass_ids = _expanded_mass_ids(all_masses)
+        for entry in _calendar_entries():
             mid = entry.get("id")
             if mid and mid.startswith("sanctorale."):
-                assert mid in self.mass_ids, f"calendar sanctorale entry {mid} has no mass"
+                assert mid in mass_ids, f"calendar sanctorale entry {mid} has no mass"
 
 
 class TestPrefaceCrossRef:
     """Every prefaceRef in masses must resolve to a library preface."""
 
-    def setup_method(self):
+    def test_no_dangling_preface_refs(self, all_masses):
         pref_dir = DATA / "library" / "preface"
         if not pref_dir.exists():
-            pytest.skip("data/ not generated")
-        self.preface_ids = set()
-        for f in pref_dir.rglob("*.json"):
-            if f.name == "_index.json":
-                continue
-            self.preface_ids.add(json.loads(f.read_text())["id"])
-
-    def test_no_dangling_preface_refs(self):
+            pytest.skip("data/library/preface/ not generated")
+        preface_ids = {
+            json.loads(f.read_text())["id"]
+            for f in pref_dir.rglob("*.json") if f.name != "_index.json"
+        }
         bad = []
-        for f in (DATA / "masses").rglob("*.json"):
-            if f.name == "_index.json":
-                continue
-            m = json.loads(f.read_text())
+        for m in all_masses:
             if not isinstance(m, dict): continue
             p = m.get("preface")
             if not isinstance(p, dict): continue
             ref = p.get("prefaceRef")
-            if isinstance(ref, str) and ref and ref not in self.preface_ids:
+            if isinstance(ref, str) and ref and ref not in preface_ids:
                 bad.append((m.get("id"), ref))
             for alt in p.get("alternativeRefs") or []:
-                if alt not in self.preface_ids:
+                if alt not in preface_ids:
                     bad.append((m.get("id"), alt))
         assert not bad, f"dangling preface refs: {bad[:5]}"
 
@@ -697,17 +654,10 @@ class TestSplitFileLayout:
     """Every per-item file lives at the path its id implies, and every bucket
     has an _index.json whose count matches the sibling file count."""
 
-    def setup_method(self):
-        if not (DATA / "masses").exists():
-            pytest.skip("data/ not generated")
-
-    def test_each_mass_file_path_matches_id(self):
+    def test_each_mass_file_path_matches_id(self, masses_by_file):
         masses_root = DATA / "masses"
         bad = []
-        for f in masses_root.rglob("*.json"):
-            if f.name == "_index.json":
-                continue
-            d = json.loads(f.read_text())
+        for f, d in masses_by_file.items():
             mid = d.get("id")
             if not mid:
                 bad.append((str(f.relative_to(DATA)), "no id"))
