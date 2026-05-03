@@ -1000,8 +1000,29 @@ def parse_temporal_day_id(day_id: str) -> dict[str, Any]:
         rest = day_id[2:]
         m = re.match(r"^(\d{2})$", rest)
         if m:
-            out["weekIndex"] = int(m.group(1))
+            week = int(m.group(1))
+            out["weekIndex"] = week
+            # OT01..OT34 are the Sunday formularies of Ordinary Time. The
+            # OT solemnities (OT51..OT54: Trinity, Corpus Christi, Sacred
+            # Heart, Christ the King) are remapped to tempore.solemnity.*
+            # downstream and don't surface this weekday tag.
+            if 1 <= week <= 34:
+                out["weekday"] = "sunday"
         return out
+
+    # Lecturas-style OT ferial day-id: O0WD[A-Z]? where WW=week (01..34)
+    # and D=weekday (1..6 = Mon..Sat). The trailing alpha is a structural
+    # suffix from the source HTML id, not a year-cycle marker — those
+    # live inside the day's slots as cicloI / cicloII.
+    if day_id.startswith("O") and not day_id.startswith("OT"):
+        m_otf = re.match(r"^O(\d{2})(\d)([A-Z]?)$", day_id)
+        if m_otf:
+            wd = int(m_otf.group(2))
+            out["seasonGroup"] = "ordinary-time"
+            out["weekIndex"] = int(m_otf.group(1))
+            if 1 <= wd <= 6:
+                out["weekday"] = WEEKDAY_NAMES[wd]
+            return out
 
     if day_id.startswith("SS"):
         out["seasonGroup"] = "holy-week"
@@ -3684,6 +3705,79 @@ def build_ordinary() -> list[dict]:
 
 
 # ---------------------------------------------------------------------------
+# OT ferial synthesis
+# ---------------------------------------------------------------------------
+
+
+_OT_FERIAL_DAY_RE = re.compile(r"^O(\d{2})(\d)([A-Z]?)$")
+
+
+def _title_from_lecturas_day(lec_day: dict) -> Optional[dict[str, str]]:
+    """Extract a localized title from the first level-2 heading segment of the
+    lecturas day's first slot, per language."""
+    slots = lec_day.get("slots") or []
+    if not slots:
+        return None
+    items = slots[0].get("items") or []
+    if not items:
+        return None
+    content = items[0].get("content") or {}
+    per_src: dict[str, str] = {}
+    for src, c in content.items():
+        for seg in c.get("segments") or []:
+            if seg.get("type") == "heading":
+                text = seg.get("text") or ""
+                if text:
+                    per_src[src] = text
+                    break
+    return localized(per_src) or None
+
+
+def synthesize_ot_ferial_masses(lec_idx: dict[str, str]) -> list[dict]:
+    """Emit mass shells for Ordinary Time ferials (Mon-Sat × 34 weeks).
+
+    The Roman Missal has no proper Mass formulary per OT ferial day, so the
+    tiempos source has nothing to extract. But the lecturas source has Year
+    I + Year II readings per day. We emit one mass shell per lecturas day,
+    populated with title + readings + season metadata. Prayer slots are
+    intentionally absent (consumers fall back to the Sunday formulary).
+    """
+    out: list[dict] = []
+    for day_id in sorted(lec_idx):
+        if day_id.startswith("OT"):
+            continue
+        m = _OT_FERIAL_DAY_RE.match(day_id)
+        if not m:
+            continue
+        wd_int = int(m.group(2))
+        if not (1 <= wd_int <= 6):
+            continue
+        week = int(m.group(1))
+        if not (1 <= week <= 34):
+            continue
+        weekday = WEEKDAY_NAMES[wd_int]
+        base = lec_idx[day_id]
+        lec_day = load_v1("lecturas", base, day_id)
+        if not lec_day:
+            continue
+        mass: dict[str, Any] = {
+            "id": f"tempore.ordinary-time.week-{week}.{weekday}",
+            "group": "tempore",
+            "season": "ordinary-time",
+            "weekIndex": week,
+            "weekday": weekday,
+        }
+        title_loc = _title_from_lecturas_day(lec_day)
+        if title_loc:
+            mass["title"] = title_loc
+        readings = build_readings(lec_day)
+        if readings:
+            mass["readings"] = readings
+        out.append(mass)
+    return out
+
+
+# ---------------------------------------------------------------------------
 # Calendar
 # ---------------------------------------------------------------------------
 
@@ -3929,7 +4023,7 @@ _TITLE_PREFIX_POLLUTION = [
     re.compile(r'^SACRUM TRIDUUM PASCHALE\s+', re.I),
     re.compile(r'^SAGRADO TR[IÍ]DUO PASCAL\s+', re.I),
     re.compile(r'^SAGRADO\s+TRÍDUO\s+PASCAL\s+', re.I),
-    re.compile(r'^Tempus\s+(?:Paschale|Adventus|Quadragesim(?:æ|ae|e)|per\s+annum|Nativitatis)\s+', re.I),
+    re.compile(r'^Tempus\s+(?:Paschale|Adventus|Quadragesim(?:æ|ae|e)|«?\s*per\s+annum\s*»?|Nativitatis)\s+', re.I),
     re.compile(r'^Tempo\s+(?:Pascal|do\s+Advento|da\s+Quaresma|do\s+Natal|Comum)\s+', re.I),
     re.compile(r'^TEMPO\s+(?:DI|DELLA|DEL|PASQUALE)\s+', re.I),
     re.compile(r'^TIEMPO\s+(?:DE|DEL|PASCUAL|ORDINARIO)\s+', re.I),
@@ -7231,6 +7325,18 @@ def main():
                     continue
                 masses_by_group.setdefault(mass["group"], []).append(mass)
                 provenance[mass["id"]] = f"misal_v2/m_<lang>/{category}/m_<lang>_{base}.html#{d_id}"
+
+    # Ordinary Time ferials (Mon-Sat × 34 weeks): no proper Mass formulary in
+    # source, but lecturas have Year I/II readings. Synthesize 204 mass shells
+    # (title + readings + season metadata) from the lecturas index.
+    print("Synthesizing OT ferial masses from lecturas…")
+    ot_ferials = synthesize_ot_ferial_masses(lec_idx)
+    for m in ot_ferials:
+        masses_by_group.setdefault("tempore", []).append(m)
+        provenance[m["id"]] = (
+            f"misal_v2/m_<lang>/lecturas/m_<lang>_lecturas_to_{m['weekIndex']:02d}.html"
+        )
+    print(f"  added {len(ot_ferials)} OT ferial mass shells")
 
     # Regional saints with content embedded directly in m_estructura/santos/*.html
     # (Brazil, USA, Germany, Spain, Argentina, Chile, Uruguay, Africa, Nigeria, etc.)

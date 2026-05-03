@@ -362,11 +362,22 @@ def first_slot_class(el: Tag) -> str | None:
     return None
 
 
+_CYCLE_CLASS_NORMALIZE = {
+    "cicloA": "cicloA",
+    "cicloB": "cicloB",
+    "cicloC": "cicloC",
+    "cicloI": "cicloI",
+    "cicloII": "cicloII",
+    # Ordinary Time ferial year-cycles spell I/II as annoprimo/annosecundo.
+    "annoprimo": "cicloI",
+    "annosecundo": "cicloII",
+}
+
+
 def first_cycle_class(el: Tag) -> str | None:
-    classes = el.get("class") or []
-    for c in classes:
-        if c in ("cicloA", "cicloB", "cicloC", "cicloI", "cicloII"):
-            return c
+    for c in el.get("class") or []:
+        if c in _CYCLE_CLASS_NORMALIZE:
+            return _CYCLE_CLASS_NORMALIZE[c]
     return None
 
 

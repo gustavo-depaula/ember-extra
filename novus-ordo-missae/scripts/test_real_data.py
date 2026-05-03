@@ -587,6 +587,66 @@ class TestCfNormalization:
         assert self._NORM.sub(r"Cf.\1", "Mt 5, 1 Cfr") == "Mt 5, 1 Cfr"
 
 
+# =============================================================================
+# Ordinary Time ferial coverage (synthesized from lecturas)
+# =============================================================================
+
+class TestOrdinaryTimeFerials:
+    """OT ferial weekday Masses are synthesized from lecturas (Mon-Sat × 34 weeks)."""
+
+    @classmethod
+    def setup_class(cls):
+        import json
+        ot_path = pathlib.Path(__file__).resolve().parent.parent / "data" / "masses" / "tempore" / "ordinary-time.json"
+        cls.bundle = json.loads(ot_path.read_text())
+        cls.by_id = {m["id"]: m for m in cls.bundle["masses"]}
+
+    def test_total_count_includes_ferials(self):
+        # 34 Sundays + 34 weeks × 6 ferials (Mon..Sat) = 238
+        assert self.bundle["count"] == 238
+        assert len(self.bundle["masses"]) == 238
+
+    def test_every_week_has_six_ferials(self):
+        for week in range(1, 35):
+            for day in ("monday", "tuesday", "wednesday", "thursday", "friday", "saturday"):
+                mid = f"tempore.ordinary-time.week-{week}.{day}"
+                assert mid in self.by_id, f"missing {mid}"
+
+    def test_week1_monday_shape(self):
+        m = self.by_id["tempore.ordinary-time.week-1.monday"]
+        assert m["season"] == "ordinary-time"
+        assert m["weekIndex"] == 1
+        assert m["weekday"] == "monday"
+        assert m["liturgicalColor"] == "green"
+        # Title is multilingual
+        title = m.get("title") or {}
+        assert "la" in title and "en" in title
+        # Source-prefix pollution must be stripped
+        assert not title["la"].startswith("Tempus")
+        # Both year cycles present in readings
+        readings = m.get("readings") or {}
+        assert "I" in readings, "Year I readings missing"
+        assert "II" in readings, "Year II readings missing"
+        assert "firstReading" in readings["I"]
+        assert "firstReading" in readings["II"]
+        # Cycle I week 1 Monday: Heb 1:1-6 ("Multifáriam et multis modis…")
+        first_la = readings["I"]["firstReading"].get("body", {}).get("plain", {}).get("la", "")
+        assert "Multifáriam" in first_la
+        # Cycle II week 1 Monday: 1 Sam 1:1-8 ("Fuit vir unus de Ramáthaim…")
+        first_la_ii = readings["II"]["firstReading"].get("body", {}).get("plain", {}).get("la", "")
+        assert "Ramáthaim" in first_la_ii or "Ramathaim" in first_la_ii
+
+    def test_ferials_have_no_prayer_slots(self):
+        # Source has no proper Mass formulary per OT ferial — prayer fields
+        # should be absent (consumers fall back to the Sunday formulary).
+        for week in (1, 17, 34):
+            for day in ("monday", "saturday"):
+                m = self.by_id[f"tempore.ordinary-time.week-{week}.{day}"]
+                for slot in ("collect", "entranceAntiphon", "communionAntiphon",
+                             "prayerOverOfferings", "postcommunion"):
+                    assert slot not in m, f"week-{week}.{day}: unexpected {slot}"
+
+
 if __name__ == "__main__":
     import pytest
     sys.exit(pytest.main([__file__, "-v"]))
