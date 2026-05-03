@@ -1,0 +1,887 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/your-org/missal-json/schema/missal.schema.json",
+  "title": "Missale Romanum corpus",
+  "description": "Domain-shaped JSON schema for the Roman Missal (Ordinary Form) extracted from pedropasinn/Missale_romanum. Languages: Latin (la), Castilian (es), English (en), Brazilian Portuguese (pt-BR), Italian (it), French (fr), German (de).",
+  "type": "object",
+  "$defs": {
+    "Language": {
+      "type": "string",
+      "enum": [
+        "la",
+        "es",
+        "en",
+        "pt-BR",
+        "it",
+        "fr",
+        "de"
+      ]
+    },
+    "Localized": {
+      "description": "A field localized into one or more BCP-47 language tags. All tags optional.",
+      "type": "object",
+      "properties": {
+        "la": {
+          "type": "string"
+        },
+        "es": {
+          "type": "string"
+        },
+        "en": {
+          "type": "string"
+        },
+        "pt-BR": {
+          "type": "string"
+        },
+        "it": {
+          "type": "string"
+        },
+        "fr": {
+          "type": "string"
+        },
+        "de": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "minProperties": 1
+    },
+    "SegmentType": {
+      "description": "Inline segment kind. Pure semantic taxonomy — no presentational types.",
+      "type": "string",
+      "enum": [
+        "text",
+        "rubric",
+        "reference",
+        "italic",
+        "response",
+        "signOfCross",
+        "dropCap"
+      ]
+    },
+    "Segment": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "$ref": "#/$defs/SegmentType"
+        },
+        "text": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "type"
+      ],
+      "additionalProperties": false
+    },
+    "Line": {
+      "description": "A single line in a prayer body. An ordered list of inline segments.",
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Segment"
+      },
+      "minItems": 1
+    },
+    "RichText": {
+      "description": "A localized rich-text body. `plain` is the joined text per language; `lines` is the line-broken segment structure per language.",
+      "type": "object",
+      "properties": {
+        "plain": {
+          "$ref": "#/$defs/Localized"
+        },
+        "lines": {
+          "description": "Per-language list of lines. Lines preserve the source's prayer-line formatting.",
+          "type": "object",
+          "properties": {
+            "la": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/Line"
+              }
+            },
+            "es": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/Line"
+              }
+            },
+            "en": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/Line"
+              }
+            },
+            "pt-BR": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/Line"
+              }
+            },
+            "it": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/Line"
+              }
+            },
+            "fr": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/Line"
+              }
+            },
+            "de": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/Line"
+              }
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false,
+      "anyOf": [
+        {
+          "required": [
+            "plain"
+          ]
+        },
+        {
+          "required": [
+            "lines"
+          ]
+        }
+      ]
+    },
+    "Antiphon": {
+      "type": "object",
+      "properties": {
+        "citation": {
+          "$ref": "#/$defs/Localized"
+        },
+        "body": {
+          "$ref": "#/$defs/RichText"
+        }
+      },
+      "anyOf": [
+        {
+          "required": [
+            "body"
+          ]
+        },
+        {
+          "required": [
+            "citation"
+          ]
+        }
+      ],
+      "additionalProperties": false
+    },
+    "Prayer": {
+      "type": "object",
+      "properties": {
+        "body": {
+          "$ref": "#/$defs/RichText"
+        },
+        "label": {
+          "$ref": "#/$defs/Localized"
+        },
+        "citation": {
+          "$ref": "#/$defs/Localized"
+        }
+      },
+      "required": [
+        "body"
+      ],
+      "additionalProperties": false
+    },
+    "PrefaceRef": {
+      "description": "A pointer to a preface in library/prefaces.json.",
+      "type": "object",
+      "properties": {
+        "prefaceRef": {
+          "type": "string",
+          "pattern": "^preface\\."
+        },
+        "alternativeRefs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^preface\\."
+          }
+        },
+        "label": {
+          "$ref": "#/$defs/Localized"
+        },
+        "excerpt": {
+          "$ref": "#/$defs/Localized"
+        }
+      },
+      "required": [
+        "prefaceRef"
+      ],
+      "additionalProperties": false
+    },
+    "Reading": {
+      "type": "object",
+      "properties": {
+        "label": {
+          "$ref": "#/$defs/Localized",
+          "description": "e.g. \"First Reading\", \"Gospel\""
+        },
+        "introduction": {
+          "$ref": "#/$defs/Localized",
+          "description": "e.g. \"A reading from the Book of the Prophet Isaiah\""
+        },
+        "citation": {
+          "$ref": "#/$defs/Localized",
+          "description": "Scripture reference, e.g. \"2:1-5\""
+        },
+        "summary": {
+          "$ref": "#/$defs/Localized"
+        },
+        "body": {
+          "$ref": "#/$defs/RichText"
+        },
+        "conclusion": {
+          "$ref": "#/$defs/Localized",
+          "description": "e.g. \"The Word of the Lord\""
+        },
+        "response": {
+          "$ref": "#/$defs/Prayer",
+          "description": "e.g. \"Thanks be to God\""
+        }
+      },
+      "anyOf": [
+        {
+          "required": [
+            "body"
+          ]
+        },
+        {
+          "required": [
+            "citation"
+          ]
+        },
+        {
+          "required": [
+            "label"
+          ]
+        }
+      ],
+      "additionalProperties": false
+    },
+    "ResponsorialPsalm": {
+      "type": "object",
+      "properties": {
+        "body": {
+          "$ref": "#/$defs/RichText"
+        },
+        "label": {
+          "$ref": "#/$defs/Localized"
+        },
+        "citation": {
+          "$ref": "#/$defs/Localized"
+        }
+      },
+      "required": [
+        "body"
+      ],
+      "additionalProperties": false
+    },
+    "ReadingSet": {
+      "type": "object",
+      "properties": {
+        "firstReading": {
+          "$ref": "#/$defs/Reading"
+        },
+        "responsorialPsalm": {
+          "$ref": "#/$defs/ResponsorialPsalm"
+        },
+        "secondReading": {
+          "$ref": "#/$defs/Reading"
+        },
+        "gospelAcclamation": {
+          "$ref": "#/$defs/Prayer"
+        },
+        "gospel": {
+          "$ref": "#/$defs/Reading"
+        }
+      },
+      "additionalProperties": false
+    },
+    "Readings": {
+      "description": "Tree by lectionary cycle: A/B/C for Sundays, I/II for weekdays, default when no cycle.",
+      "type": "object",
+      "properties": {
+        "A": {
+          "$ref": "#/$defs/ReadingSet"
+        },
+        "B": {
+          "$ref": "#/$defs/ReadingSet"
+        },
+        "C": {
+          "$ref": "#/$defs/ReadingSet"
+        },
+        "I": {
+          "$ref": "#/$defs/ReadingSet"
+        },
+        "II": {
+          "$ref": "#/$defs/ReadingSet"
+        },
+        "default": {
+          "$ref": "#/$defs/ReadingSet"
+        }
+      },
+      "minProperties": 1,
+      "additionalProperties": false
+    },
+    "Section": {
+      "description": "A node in a special-rite content tree. Either a sub-section (with heading) or a leaf block (with body).",
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "section"
+            },
+            "level": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 6
+            },
+            "heading": {
+              "$ref": "#/$defs/Localized"
+            },
+            "content": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/Section"
+              }
+            }
+          },
+          "required": [
+            "type",
+            "heading"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "block"
+            },
+            "body": {
+              "$ref": "#/$defs/RichText"
+            }
+          },
+          "required": [
+            "type",
+            "body"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "Part": {
+      "description": "A typed part of a special rite. Always has a heading and a content tree; some rites add typed sub-fields like `solemnIntercessions`, `oldTestamentReadings`, etc.",
+      "type": "object",
+      "properties": {
+        "heading": {
+          "$ref": "#/$defs/Localized"
+        },
+        "content": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Section"
+          }
+        },
+        "solemnIntercessions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/SolemnIntercession"
+          }
+        },
+        "oldTestamentReadings": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/OTReadingUnit"
+          }
+        },
+        "renewalOfBaptismalPromises": {
+          "$ref": "#/$defs/RenewalOfBaptismalPromises"
+        }
+      },
+      "required": [
+        "content"
+      ],
+      "additionalProperties": false
+    },
+    "SolemnIntercession": {
+      "description": "One of the ten Solemn Intercessions of Good Friday's Liturgy of the Word.",
+      "type": "object",
+      "properties": {
+        "type": {
+          "const": "solemn-intercession"
+        },
+        "ordinal": {
+          "type": "string",
+          "pattern": "^[IVX]+$"
+        },
+        "forWhom": {
+          "$ref": "#/$defs/Localized"
+        },
+        "invitation": {
+          "$ref": "#/$defs/Localized"
+        },
+        "silenceRubric": {
+          "$ref": "#/$defs/Localized"
+        },
+        "collect": {
+          "$ref": "#/$defs/Localized"
+        },
+        "response": {
+          "$ref": "#/$defs/Localized"
+        }
+      },
+      "required": [
+        "type",
+        "ordinal",
+        "forWhom"
+      ],
+      "additionalProperties": false
+    },
+    "OTReadingUnit": {
+      "description": "One of the seven Old Testament reading units of the Easter Vigil's Liturgy of the Word: a rubric describing the reading + the proper Collect (with optional alternative).",
+      "type": "object",
+      "properties": {
+        "type": {
+          "const": "ot-reading-unit"
+        },
+        "ordinal": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 7
+        },
+        "rubric": {
+          "$ref": "#/$defs/RichText"
+        },
+        "collect": {
+          "$ref": "#/$defs/RichText"
+        },
+        "alternativeCollect": {
+          "$ref": "#/$defs/RichText"
+        }
+      },
+      "required": [
+        "type",
+        "ordinal"
+      ],
+      "additionalProperties": false
+    },
+    "RenewalOfBaptismalPromises": {
+      "description": "The Q&A exchange of the Easter Vigil's Renewal of Baptismal Promises.",
+      "type": "object",
+      "properties": {
+        "questions": {
+          "description": "Ordered list of priest/people exchanges, per language.",
+          "type": "object",
+          "additionalProperties": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "role": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "role",
+                "text"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "required": [
+        "questions"
+      ],
+      "additionalProperties": false
+    },
+    "Mass": {
+      "description": "A Mass formulary or special-rite liturgy.",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]*(\\.[a-z0-9][a-z0-9-]*)+$"
+        },
+        "group": {
+          "type": "string",
+          "enum": [
+            "tempore",
+            "sanctorale",
+            "common",
+            "ritual",
+            "votive"
+          ]
+        },
+        "rite": {
+          "type": "string",
+          "enum": [
+            "mass",
+            "mass-with-procession",
+            "chrism-mass",
+            "lords-supper",
+            "celebration-of-the-passion",
+            "easter-vigil"
+          ]
+        },
+        "season": {
+          "type": "string",
+          "enum": [
+            "advent",
+            "christmas",
+            "lent",
+            "holy-week",
+            "easter",
+            "ordinary-time",
+            "solemnity"
+          ]
+        },
+        "weekIndex": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 34,
+          "description": "0 for the days from Ash Wednesday through the Saturday before the First Sunday of Lent."
+        },
+        "weekday": {
+          "type": "string",
+          "enum": [
+            "sunday",
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday",
+            "friday",
+            "saturday"
+          ]
+        },
+        "date": {
+          "type": "object",
+          "properties": {
+            "month": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 12
+            },
+            "day": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 31
+            }
+          },
+          "required": [
+            "month",
+            "day"
+          ],
+          "additionalProperties": false
+        },
+        "dateSuffix": {
+          "type": "string",
+          "description": "Single-letter suffix when more than one Mass shares a date (e.g. 'Y', 'Z')."
+        },
+        "movable": {
+          "type": "boolean",
+          "description": "True for movable feasts whose source day-id encodes a non-fixed position (Sunday after Trinity, etc.)."
+        },
+        "movableCode": {
+          "type": "string",
+          "description": "Original source day-id for movable feasts."
+        },
+        "movableMonthAnchor": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 99,
+          "description": "Month near which the movable feast typically falls. 99 = unanchored (entirely movable, e.g. Pentecost-relative)."
+        },
+        "undated": {
+          "type": "boolean"
+        },
+        "ordinal": {
+          "type": "string"
+        },
+        "scope": {
+          "type": "string",
+          "description": "Regional scope for sanctorale (e.g. 'Brazil', 'Argentina', 'Africa', 'France', 'Religious Orders')."
+        },
+        "subgroup": {
+          "type": "string",
+          "description": "Within common/ritual/votive groups (e.g. 'martyrs', 'for-the-dead')."
+        },
+        "title": {
+          "$ref": "#/$defs/Localized"
+        },
+        "description": {
+          "$ref": "#/$defs/Localized"
+        },
+        "rank": {
+          "type": "string",
+          "enum": [
+            "solemnity",
+            "feast",
+            "memorial",
+            "optional-memorial"
+          ]
+        },
+        "rankLocalized": {
+          "$ref": "#/$defs/Localized"
+        },
+        "liturgicalColor": {
+          "type": "string",
+          "enum": [
+            "white",
+            "red",
+            "green",
+            "violet",
+            "rose",
+            "black"
+          ]
+        },
+        "entranceAntiphon": {
+          "$ref": "#/$defs/Antiphon"
+        },
+        "penitentialAct": {
+          "$ref": "#/$defs/Prayer"
+        },
+        "gloriaInstruction": {
+          "$ref": "#/$defs/Prayer"
+        },
+        "collect": {
+          "$ref": "#/$defs/Prayer"
+        },
+        "creedInstruction": {
+          "$ref": "#/$defs/Prayer"
+        },
+        "readings": {
+          "$ref": "#/$defs/Readings"
+        },
+        "processionGospel": {
+          "$ref": "#/$defs/Readings",
+          "description": "Palm Sunday only — the Gospel of the Lord's Entrance into Jerusalem read at the procession, separate from the Passion Gospel of the Mass."
+        },
+        "prayerOverOfferings": {
+          "$ref": "#/$defs/Prayer"
+        },
+        "preface": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/Prayer"
+            },
+            {
+              "$ref": "#/$defs/PrefaceRef"
+            }
+          ]
+        },
+        "communionAntiphon": {
+          "$ref": "#/$defs/Antiphon"
+        },
+        "postcommunion": {
+          "$ref": "#/$defs/Prayer"
+        },
+        "prayerOverPeople": {
+          "$ref": "#/$defs/Prayer"
+        },
+        "parts": {
+          "description": "Special-rite typed parts (only present when rite ≠ \"mass\").",
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/$defs/Part"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "group"
+      ],
+      "additionalProperties": false
+    },
+    "Preface": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^preface\\."
+        },
+        "ordinal": {
+          "type": "string"
+        },
+        "title": {
+          "$ref": "#/$defs/Localized"
+        },
+        "body": {
+          "$ref": "#/$defs/RichText"
+        }
+      },
+      "required": [
+        "id",
+        "body"
+      ],
+      "additionalProperties": false
+    },
+    "EucharisticPrayer": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^eucharistic-prayer\\."
+        },
+        "title": {
+          "$ref": "#/$defs/Localized"
+        },
+        "body": {
+          "$ref": "#/$defs/RichText"
+        }
+      },
+      "required": [
+        "id",
+        "body"
+      ],
+      "additionalProperties": false
+    },
+    "OrdinaryPart": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^ordinary\\."
+        },
+        "title": {
+          "$ref": "#/$defs/Localized"
+        },
+        "body": {
+          "$ref": "#/$defs/RichText"
+        }
+      },
+      "required": [
+        "id",
+        "body"
+      ],
+      "additionalProperties": false
+    },
+    "SaintEntry": {
+      "description": "An entry in the focused saints catalog (saints.json). Subset of a Mass — date, title, rank, description; no prayer bodies.",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^sanctorale\\."
+        },
+        "date": {
+          "type": "object",
+          "properties": {
+            "month": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 12
+            },
+            "day": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 31
+            }
+          },
+          "required": [
+            "month",
+            "day"
+          ]
+        },
+        "scope": {
+          "type": "string"
+        },
+        "title": {
+          "$ref": "#/$defs/Localized"
+        },
+        "rank": {
+          "type": "string",
+          "enum": [
+            "solemnity",
+            "feast",
+            "memorial",
+            "optional-memorial"
+          ]
+        },
+        "rankLocalized": {
+          "$ref": "#/$defs/Localized"
+        },
+        "description": {
+          "$ref": "#/$defs/Localized"
+        }
+      },
+      "required": [
+        "id"
+      ],
+      "additionalProperties": false
+    },
+    "CalendarEntry": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "title": {
+          "$ref": "#/$defs/Localized"
+        },
+        "season": {
+          "type": "string"
+        },
+        "weekIndex": {
+          "type": "integer"
+        },
+        "weekday": {
+          "type": "string"
+        },
+        "date": {
+          "type": "object",
+          "properties": {
+            "month": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 12
+            },
+            "day": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 31
+            }
+          }
+        },
+        "scope": {
+          "type": "string"
+        },
+        "rank": {
+          "type": "string"
+        },
+        "liturgicalColor": {
+          "type": "string",
+          "enum": [
+            "white",
+            "red",
+            "green",
+            "violet",
+            "rose",
+            "black"
+          ]
+        }
+      },
+      "required": [
+        "id"
+      ]
+    }
+  }
+}

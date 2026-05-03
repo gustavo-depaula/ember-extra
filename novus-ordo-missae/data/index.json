@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "1.0.1",
+  "generatedAt": "2026-05-03T15:05:29.807051Z",
+  "languages": [
+    "la",
+    "es",
+    "en",
+    "pt-BR",
+    "it",
+    "fr",
+    "de"
+  ],
+  "languageNames": {
+    "la": "Latin",
+    "es": "Castilian Spanish",
+    "en": "English",
+    "pt-BR": "Brazilian Portuguese",
+    "it": "Italian",
+    "fr": "French",
+    "de": "German"
+  },
+  "groups": {
+    "tempore": 186,
+    "sanctorale": 394,
+    "common": 61,
+    "ritual": 112,
+    "votive": 24
+  },
+  "rites": [
+    "mass",
+    "mass-with-procession",
+    "chrism-mass",
+    "lords-supper",
+    "celebration-of-the-passion",
+    "easter-vigil"
+  ],
+  "totals": {
+    "masses": 777,
+    "saintsCatalog": 393,
+    "prefaces": 75,
+    "eucharisticPrayers": 10,
+    "ordinaryParts": 4
+  },
+  "files": {
+    "calendar": "calendar.json",
+    "saints": "saints.json",
+    "triduum": "triduum.json",
+    "provenance": "provenance.json",
+    "masses": "masses/<group>/<bucket>.json",
+    "library": "library/{prefaces,eucharistic-prayers,ordinary}.json",
+    "igmr": "igmr/<lang>.json",
+    "sacerdotale": "sacerdotale/<lang>.json"
+  }
+}
