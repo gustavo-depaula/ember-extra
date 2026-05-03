@@ -736,6 +736,38 @@ class TestSanctoraleAlternatives:
         assert "Ritæ" in m["title"]["la"] or "Rita" in (m["title"].get("en") or "")
         assert not (self.SANCT / "05-22z.json").exists()
 
+    def test_all_souls_gospel_acclamation_alternatives(self):
+        """All Souls (Nov 2) lists 11 alternative gospel acclamations in the
+        Lectionary. They should be split: the first lives at
+        readings.default.gospelAcclamation; the other 10 in
+        readings.default.gospelAcclamationAlternatives — NOT crammed into a
+        single body."""
+        import json
+        m = json.loads((self.SANCT / "11-02.json").read_text())
+        r = (m.get("readings") or {}).get("default") or {}
+        ga = r.get("gospelAcclamation") or {}
+        ga_la = (ga.get("body") or {}).get("plain", {}).get("la", "")
+        # Each individual acclamation is short (~100-200 chars)
+        assert len(ga_la) < 250, f"primary GA still bundled: {len(ga_la)} chars"
+        alts = r.get("gospelAcclamationAlternatives") or []
+        assert len(alts) >= 5, f"expected multiple GA alternatives, got {len(alts)}"
+        # Each alternative has its own citation
+        cits = [(a.get("citation") or {}).get("la") for a in alts]
+        assert all(cits), f"some alternatives missing citation: {cits}"
+        assert len(set(cits)) == len(cits), f"duplicate citations: {cits}"
+
+    def test_same_celebration_alternatives_drop_readings(self):
+        """All Souls' three formularies share their readings via the
+        Lectionary's 'Masses for the Dead' pool. Alternatives whose title
+        matches the parent must NOT carry their own `readings` field —
+        consumers fall back to the parent."""
+        import json
+        m = json.loads((self.SANCT / "11-02.json").read_text())
+        for alt in m.get("alternatives") or []:
+            assert "readings" not in alt, (
+                f"All Souls alt {alt.get('key')!r} should not duplicate readings"
+            )
+
     def test_11_30_empty_placeholder_dropped(self):
         """The empty 11-30z placeholder ('11 30z' with no body) is filtered out;
         Nov 30 just keeps St. Andrew."""

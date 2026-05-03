@@ -2501,13 +2501,13 @@
       "gospelAcclamation": {
         "body": {
           "plain": {
-            "la": "Sequentia Alleluia, allelúia. Veni, Sancte Spíritus, reple tuórum corda fidélium, et tui amóris in eis ignem accénde. Allelúia.",
-            "es": "Secuencia Aleluya, aleluya. Ven, Espíritu Santo, llena los corazones de tus fieles y enciende en ellos la llama de tu amor. Aleluya.",
-            "en": "Sequence Alleluia, alleluia. Come, Holy Spirit, fill the hearts of your faithful and kindle in them the fire of your love. Alleluia.",
-            "pt-BR": "Sequência Aclamação ao Evangelho Aleluia, aleluia. Vinde, Espírito Divino, enchei com vossos dons os corações dos fiéis; e acendei neles o amor com um fogo abrasador!. Aleluia.",
-            "it": "SEQUENZA Canto al Vangelo Alleluia, alleluia. Vieni, Santo Spirito, riempi i cuori dei tuoi fedeli e accendi in essi il fuoco del tuo amore. Alleluia.",
-            "fr": "Séquence Alléluia, alléluia. Viens, Esprit Saint ! Emplis le cœur de tes fidèles ! Allume en eux le feu de ton amour ! Alléluia.",
-            "de": "Sequenz Ruf vor dem Evangelium Halleluja. Halleluja. Komm, Heiliger Geist, erfülle die Herzen deiner Gläubigen, und entzünde in ihnen das Feuer deiner Liebe! Halleluja."
+            "la": "Sequentia",
+            "es": "Secuencia",
+            "en": "Sequence",
+            "pt-BR": "Sequência",
+            "it": "SEQUENZA",
+            "fr": "Séquence",
+            "de": "Sequenz"
           },
           "lines": {
             "la": [
@@ -2515,12 +2515,6 @@
                 {
                   "type": "rubric",
                   "text": "Sequentia"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, allelúia. Veni, Sancte Spíritus, reple tuórum corda fidélium, et tui amóris in eis ignem accénde. Allelúia."
                 }
               ]
             ],
@@ -2530,12 +2524,6 @@
                   "type": "rubric",
                   "text": "Secuencia"
                 }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya, aleluya. Ven, Espíritu Santo, llena los corazones de tus fieles y enciende en ellos la llama de tu amor. Aleluya."
-                }
               ]
             ],
             "en": [
@@ -2543,10 +2531,6 @@
                 {
                   "type": "rubric",
                   "text": "Sequence"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Come, Holy Spirit, fill the hearts of your faithful and kindle in them the fire of your love. Alleluia."
                 }
               ]
             ],
@@ -2556,12 +2540,6 @@
                   "type": "rubric",
                   "text": "Sequência"
                 }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho Aleluia, aleluia. Vinde, Espírito Divino, enchei com vossos dons os corações dos fiéis; e acendei neles o amor com um fogo abrasador!. Aleluia."
-                }
               ]
             ],
             "it": [
@@ -2569,12 +2547,6 @@
                 {
                   "type": "rubric",
                   "text": "SEQUENZA"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Vieni, Santo Spirito, riempi i cuori dei tuoi fedeli e accendi in essi il fuoco del tuo amore. Alleluia."
                 }
               ]
             ],
@@ -2584,12 +2556,6 @@
                   "type": "rubric",
                   "text": "Séquence"
                 }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia, alléluia. Viens, Esprit Saint ! Emplis le cœur de tes fidèles ! Allume en eux le feu de ton amour ! Alléluia."
-                }
               ]
             ],
             "de": [
@@ -2597,12 +2563,6 @@
                 {
                   "type": "rubric",
                   "text": "Sequenz"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium Halleluja. Halleluja. Komm, Heiliger Geist, erfülle die Herzen deiner Gläubigen, und entzünde in ihnen das Feuer deiner Liebe! Halleluja."
                 }
               ]
             ]
@@ -2762,7 +2722,80 @@
             }
           }
         }
-      }
+      },
+      "gospelAcclamationAlternatives": [
+        {
+          "body": {
+            "plain": {
+              "la": "Alleluia, allelúia. Veni, Sancte Spíritus, reple tuórum corda fidélium, et tui amóris in eis ignem accénde. Allelúia.",
+              "es": "Aleluya, aleluya. Ven, Espíritu Santo, llena los corazones de tus fieles y enciende en ellos la llama de tu amor. Aleluya.",
+              "en": "Alleluia, alleluia. Come, Holy Spirit, fill the hearts of your faithful and kindle in them the fire of your love. Alleluia.",
+              "pt-BR": "Aclamação ao Evangelho Aleluia, aleluia. Vinde, Espírito Divino, enchei com vossos dons os corações dos fiéis; e acendei neles o amor com um fogo abrasador!. Aleluia.",
+              "it": "Canto al Vangelo Alleluia, alleluia. Vieni, Santo Spirito, riempi i cuori dei tuoi fedeli e accendi in essi il fuoco del tuo amore. Alleluia.",
+              "fr": "Alléluia, alléluia. Viens, Esprit Saint ! Emplis le cœur de tes fidèles ! Allume en eux le feu de ton amour ! Alléluia",
+              "de": "Ruf vor dem Evangelium Halleluja. Halleluja. Komm, Heiliger Geist, erfülle die Herzen deiner Gläubigen, und entzünde in ihnen das Feuer deiner Liebe! Halleluja."
+            },
+            "lines": {
+              "la": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Alleluia, allelúia. Veni, Sancte Spíritus, reple tuórum corda fidélium, et tui amóris in eis ignem accénde. Allelúia."
+                  }
+                ]
+              ],
+              "es": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Aleluya, aleluya. Ven, Espíritu Santo, llena los corazones de tus fieles y enciende en ellos la llama de tu amor. Aleluya."
+                  }
+                ]
+              ],
+              "en": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Alleluia, alleluia. Come, Holy Spirit, fill the hearts of your faithful and kindle in them the fire of your love. Alleluia."
+                  }
+                ]
+              ],
+              "pt-BR": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Aclamação ao Evangelho Aleluia, aleluia. Vinde, Espírito Divino, enchei com vossos dons os corações dos fiéis; e acendei neles o amor com um fogo abrasador!. Aleluia."
+                  }
+                ]
+              ],
+              "it": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Canto al Vangelo Alleluia, alleluia. Vieni, Santo Spirito, riempi i cuori dei tuoi fedeli e accendi in essi il fuoco del tuo amore. Alleluia."
+                  }
+                ]
+              ],
+              "fr": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Alléluia, alléluia. Viens, Esprit Saint ! Emplis le cœur de tes fidèles ! Allume en eux le feu de ton amour ! Alléluia"
+                  }
+                ]
+              ],
+              "de": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Ruf vor dem Evangelium Halleluja. Halleluja. Komm, Heiliger Geist, erfülle die Herzen deiner Gläubigen, und entzünde in ihnen das Feuer deiner Liebe! Halleluja."
+                  }
+                ]
+              ]
+            }
+          }
+        }
+      ]
     }
   },
   "liturgicalColor": "red"

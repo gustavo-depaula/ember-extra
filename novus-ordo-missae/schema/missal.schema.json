@@ -304,6 +304,12 @@
         "gospelAcclamation": {
           "$ref": "#/$defs/Prayer"
         },
+        "gospelAcclamationAlternatives": {
+          "description": "Additional verse-before-the-Gospel options. The Roman Missal lists multiple acclamation choices on certain days (e.g. All Souls' 11 options, Sacred Heart's 2 cycle-B options). The first option lives at `gospelAcclamation`; the rest go here.",
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/Prayer" }
+        },
         "gospel": {
           "$ref": "#/$defs/Reading"
         }

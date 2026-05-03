@@ -1757,6 +1757,38 @@ def _looks_like_reading_response(items: list[dict]) -> bool:
     return False
 
 
+def _citation_from_item(item: dict) -> dict[str, str]:
+    """Extract a localized verse-before-the-Gospel citation from a single
+    aleluya item. Looks for a leading `reference` segment, falls back to
+    parsing one out of the title/text."""
+    out: dict[str, str] = {}
+    for src, c in (item.get("content") or {}).items():
+        if src not in LANG_MAP:
+            continue
+        iso = LANG_MAP[src]
+        if iso in out:
+            continue
+        for seg in c.get("segments") or []:
+            if seg.get("type") == "reference":
+                ref_text = clean_text(seg.get("text") or "")
+                if ref_text and re.search(r"\d", ref_text):
+                    out[iso] = ref_text
+                    break
+        if iso in out:
+            continue
+        title_text = ""
+        for seg in c.get("segments") or []:
+            if seg.get("type") in ("reading_title", "heading"):
+                title_text = seg.get("text") or ""
+                break
+        if not title_text:
+            title_text = c.get("text") or ""
+        cit, _ = _extract_citation_and_strip_from_text(title_text, iso)
+        if cit:
+            out[iso] = cit
+    return out
+
+
 def cycle_slots_to_reading_set(slots: list[dict]) -> dict[str, Any]:
     """Convert a cycle's slot list into a ReadingSet."""
     rs: dict[str, Any] = {}
@@ -1784,42 +1816,32 @@ def cycle_slots_to_reading_set(slots: list[dict]) -> dict[str, Any]:
                     pending_response = None
                 rs["secondReading"] = r
         elif t == "x_aleluya":
-            r = prayer_from_items(items)
-            if r:
-                # Extract verse-before-the-Gospel citation. Source has it as a
-                # standalone `reference` segment in some files, or embedded in
-                # a title text in others.
-                citations: dict[str, str] = {}
-                for it in items:
-                    for src, c in (it.get("content") or {}).items():
-                        if src not in LANG_MAP:
-                            continue
-                        iso = LANG_MAP[src]
-                        if iso in citations:
-                            continue
-                        # Try the first reference segment (most common case).
-                        for seg in c.get("segments") or []:
-                            if seg.get("type") == "reference":
-                                ref_text = clean_text(seg.get("text") or "")
-                                if ref_text and re.search(r"\d", ref_text):
-                                    citations[iso] = ref_text
-                                    break
-                        if iso in citations:
-                            continue
-                        # Fall back: extract from title-style text.
-                        title_text = ""
-                        for seg in c.get("segments") or []:
-                            if seg.get("type") in ("reading_title", "heading"):
-                                title_text = seg.get("text") or ""
-                                break
-                        if not title_text:
-                            title_text = c.get("text") or ""
-                        cit, _ = _extract_citation_and_strip_from_text(title_text, iso)
-                        if cit:
-                            citations[iso] = cit
-                if citations:
-                    r["citation"] = citations
-                rs["gospelAcclamation"] = r
+            # When the source lists multiple alternative gospel acclamations
+            # (e.g. All Souls Day's 11 options, Sacred Heart B/C's 2 options),
+            # each item is a separate `<div class="hijo">` carrying one
+            # citation + one verse. Emit the first as `gospelAcclamation`
+            # and the rest as `gospelAcclamationAlternatives`.
+            options: list[dict] = []
+            if len(items) > 1:
+                for item in items:
+                    opt = prayer_from_items([item])
+                    if not opt:
+                        continue
+                    cit = _citation_from_item(item)
+                    if cit:
+                        opt["citation"] = cit
+                    options.append(opt)
+            if options:
+                rs["gospelAcclamation"] = options[0]
+                if len(options) > 1:
+                    rs["gospelAcclamationAlternatives"] = options[1:]
+            else:
+                r = prayer_from_items(items)
+                if r:
+                    cit = _citation_from_item(items[0]) if items else {}
+                    if cit:
+                        r["citation"] = cit
+                    rs["gospelAcclamation"] = r
         elif t == "x_evangelio":
             r = reading_from_items(items)
             if r:
@@ -7261,12 +7283,20 @@ def _alternative_has_body(mass: dict) -> bool:
     return any(mass.get(k) for k in prayer_slots)
 
 
-def _to_alternative(mass: dict, key: str) -> dict:
+def _to_alternative(mass: dict, key: str, *, drop_readings: bool = False) -> dict:
     """Project a Mass dict into a MassAlternative shape. Drops parent-only
-    fields; keeps only slot fields plus the assigned `key`."""
+    fields; keeps only slot fields plus the assigned `key`.
+
+    `drop_readings=True` is set for same-celebration alternatives (e.g.
+    All Souls' three formularies share readings — they live on the parent;
+    duplicating them on each alternative would also duplicate per-formulary
+    extraction artifacts).
+    """
     alt: dict[str, Any] = {"key": key}
     for k in _ALTERNATIVE_FIELDS:
         if k == "key":
+            continue
+        if drop_readings and k == "readings":
             continue
         if k in mass:
             alt[k] = mass[k]
@@ -7345,7 +7375,7 @@ def _collapse_sanctorale_alternatives(masses: list[dict]) -> list[dict]:
                     slug = f"{base_slug}-{n}"
                     n += 1
                 seen_slugs.add(slug)
-                alts.append(_to_alternative(alt_mass, slug))
+                alts.append(_to_alternative(alt_mass, slug, drop_readings=same_celebration))
             primary["alternatives"] = alts
         out.append(primary)
     return out
