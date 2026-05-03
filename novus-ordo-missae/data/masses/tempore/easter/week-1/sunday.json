@@ -3474,7 +3474,80 @@
               ]
             ]
           }
-        }
+        },
+        "alternatives": [
+          {
+            "body": {
+              "plain": {
+                "la": "Alleluia, allelúia. Pascha nostrum immolátus est Christus, ítaque festa celebrémus in Dómino. Allelúia.",
+                "es": "Aleluya, aleluya. Ha sido inmolada nuestra víctima pascual: Cristo. Así, pues, celebremos la Pascua en el Señor. Aleluya.",
+                "en": "Christ, our passover, has been sacrificed; let us celebrate the feast then, in the Lord. Alleluia.",
+                "pt-BR": "Aclamação ao Evangelho Aleluia, aleluia. O nosso cordeiro pascal, Jesus Cristo, já foi imolado. Celebremos, assim, esta festa, na sinceridade e verdade. Aleluia.",
+                "it": "Canto al Vangelo Alleluia, alleluia. Cristo, nostra Pasqua, è stato immolato: facciamo festa nel Signore. Alleluia.",
+                "fr": "Alléluia, alléluia. Notre Pâque immolée, c'est le Christ ! Célébrons la Fête dans le Seigneur ! Alléluia.",
+                "de": "Ruf vor dem Evangelium Halleluja. Halleluja. Unser Paschalamm ist geopfert: Christus. So lasst uns das Festmahl feiern im Herrn. Halleluja."
+              },
+              "lines": {
+                "la": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "Alleluia, allelúia. Pascha nostrum immolátus est Christus, ítaque festa celebrémus in Dómino. Allelúia."
+                    }
+                  ]
+                ],
+                "es": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "Aleluya, aleluya. Ha sido inmolada nuestra víctima pascual: Cristo. Así, pues, celebremos la Pascua en el Señor. Aleluya."
+                    }
+                  ]
+                ],
+                "en": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "Christ, our passover, has been sacrificed; let us celebrate the feast then, in the Lord. Alleluia."
+                    }
+                  ]
+                ],
+                "pt-BR": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "Aclamação ao Evangelho Aleluia, aleluia. O nosso cordeiro pascal, Jesus Cristo, já foi imolado. Celebremos, assim, esta festa, na sinceridade e verdade. Aleluia."
+                    }
+                  ]
+                ],
+                "it": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "Canto al Vangelo Alleluia, alleluia. Cristo, nostra Pasqua, è stato immolato: facciamo festa nel Signore. Alleluia."
+                    }
+                  ]
+                ],
+                "fr": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "Alléluia, alléluia. Notre Pâque immolée, c'est le Christ ! Célébrons la Fête dans le Seigneur ! Alléluia."
+                    }
+                  ]
+                ],
+                "de": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "Ruf vor dem Evangelium Halleluja. Halleluja. Unser Paschalamm ist geopfert: Christus. So lasst uns das Festmahl feiern im Herrn. Halleluja."
+                    }
+                  ]
+                ]
+              }
+            }
+          }
+        ]
       },
       "gospel": {
         "label": {
@@ -3629,80 +3702,7 @@
             }
           }
         }
-      },
-      "gospelAcclamationAlternatives": [
-        {
-          "body": {
-            "plain": {
-              "la": "Alleluia, allelúia. Pascha nostrum immolátus est Christus, ítaque festa celebrémus in Dómino. Allelúia.",
-              "es": "Aleluya, aleluya. Ha sido inmolada nuestra víctima pascual: Cristo. Así, pues, celebremos la Pascua en el Señor. Aleluya.",
-              "en": "Christ, our passover, has been sacrificed; let us celebrate the feast then, in the Lord. Alleluia.",
-              "pt-BR": "Aclamação ao Evangelho Aleluia, aleluia. O nosso cordeiro pascal, Jesus Cristo, já foi imolado. Celebremos, assim, esta festa, na sinceridade e verdade. Aleluia.",
-              "it": "Canto al Vangelo Alleluia, alleluia. Cristo, nostra Pasqua, è stato immolato: facciamo festa nel Signore. Alleluia.",
-              "fr": "Alléluia, alléluia. Notre Pâque immolée, c'est le Christ ! Célébrons la Fête dans le Seigneur ! Alléluia.",
-              "de": "Ruf vor dem Evangelium Halleluja. Halleluja. Unser Paschalamm ist geopfert: Christus. So lasst uns das Festmahl feiern im Herrn. Halleluja."
-            },
-            "lines": {
-              "la": [
-                [
-                  {
-                    "type": "text",
-                    "text": "Alleluia, allelúia. Pascha nostrum immolátus est Christus, ítaque festa celebrémus in Dómino. Allelúia."
-                  }
-                ]
-              ],
-              "es": [
-                [
-                  {
-                    "type": "text",
-                    "text": "Aleluya, aleluya. Ha sido inmolada nuestra víctima pascual: Cristo. Así, pues, celebremos la Pascua en el Señor. Aleluya."
-                  }
-                ]
-              ],
-              "en": [
-                [
-                  {
-                    "type": "text",
-                    "text": "Christ, our passover, has been sacrificed; let us celebrate the feast then, in the Lord. Alleluia."
-                  }
-                ]
-              ],
-              "pt-BR": [
-                [
-                  {
-                    "type": "text",
-                    "text": "Aclamação ao Evangelho Aleluia, aleluia. O nosso cordeiro pascal, Jesus Cristo, já foi imolado. Celebremos, assim, esta festa, na sinceridade e verdade. Aleluia."
-                  }
-                ]
-              ],
-              "it": [
-                [
-                  {
-                    "type": "text",
-                    "text": "Canto al Vangelo Alleluia, alleluia. Cristo, nostra Pasqua, è stato immolato: facciamo festa nel Signore. Alleluia."
-                  }
-                ]
-              ],
-              "fr": [
-                [
-                  {
-                    "type": "text",
-                    "text": "Alléluia, alléluia. Notre Pâque immolée, c'est le Christ ! Célébrons la Fête dans le Seigneur ! Alléluia."
-                  }
-                ]
-              ],
-              "de": [
-                [
-                  {
-                    "type": "text",
-                    "text": "Ruf vor dem Evangelium Halleluja. Halleluja. Unser Paschalamm ist geopfert: Christus. So lasst uns das Festmahl feiern im Herrn. Halleluja."
-                  }
-                ]
-              ]
-            }
-          }
-        }
-      ]
+      }
     }
   },
   "rank": "solemnity",

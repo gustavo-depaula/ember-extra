@@ -188,6 +188,21 @@
         },
         "citation": {
           "$ref": "#/$defs/Localized"
+        },
+        "alternatives": {
+          "description": "Sibling options for this prayer slot — currently used by gospelAcclamation when the lectionary lists multiple verse-before-the-Gospel choices (All Souls' 11 options, Sacred Heart's 2 cycle-B options, etc.). Each alternative is a body+citation pair; alternatives don't nest further.",
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "properties": {
+              "body": { "$ref": "#/$defs/RichText" },
+              "label": { "$ref": "#/$defs/Localized" },
+              "citation": { "$ref": "#/$defs/Localized" }
+            },
+            "required": ["body"],
+            "additionalProperties": false
+          }
         }
       },
       "required": [
@@ -303,12 +318,6 @@
         },
         "gospelAcclamation": {
           "$ref": "#/$defs/Prayer"
-        },
-        "gospelAcclamationAlternatives": {
-          "description": "Additional verse-before-the-Gospel options. The Roman Missal lists multiple acclamation choices on certain days (e.g. All Souls' 11 options, Sacred Heart's 2 cycle-B options). The first option lives at `gospelAcclamation`; the rest go here.",
-          "type": "array",
-          "minItems": 1,
-          "items": { "$ref": "#/$defs/Prayer" }
         },
         "gospel": {
           "$ref": "#/$defs/Reading"

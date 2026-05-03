@@ -1820,7 +1820,7 @@ def cycle_slots_to_reading_set(slots: list[dict]) -> dict[str, Any]:
             # (e.g. All Souls Day's 11 options, Sacred Heart B/C's 2 options),
             # each item is a separate `<div class="hijo">` carrying one
             # citation + one verse. Emit the first as `gospelAcclamation`
-            # and the rest as `gospelAcclamationAlternatives`.
+            # with the rest nested under `gospelAcclamation.alternatives`.
             options: list[dict] = []
             if len(items) > 1:
                 for item in items:
@@ -1832,9 +1832,10 @@ def cycle_slots_to_reading_set(slots: list[dict]) -> dict[str, Any]:
                         opt["citation"] = cit
                     options.append(opt)
             if options:
-                rs["gospelAcclamation"] = options[0]
+                primary = options[0]
                 if len(options) > 1:
-                    rs["gospelAcclamationAlternatives"] = options[1:]
+                    primary["alternatives"] = options[1:]
+                rs["gospelAcclamation"] = primary
             else:
                 r = prayer_from_items(items)
                 if r:

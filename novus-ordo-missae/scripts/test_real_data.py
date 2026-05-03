@@ -739,9 +739,8 @@ class TestSanctoraleAlternatives:
     def test_all_souls_gospel_acclamation_alternatives(self):
         """All Souls (Nov 2) lists 11 alternative gospel acclamations in the
         Lectionary. They should be split: the first lives at
-        readings.default.gospelAcclamation; the other 10 in
-        readings.default.gospelAcclamationAlternatives — NOT crammed into a
-        single body."""
+        readings.default.gospelAcclamation; the other 10 nested inside it
+        as `alternatives` — NOT crammed into a single body."""
         import json
         m = json.loads((self.SANCT / "11-02.json").read_text())
         r = (m.get("readings") or {}).get("default") or {}
@@ -749,7 +748,7 @@ class TestSanctoraleAlternatives:
         ga_la = (ga.get("body") or {}).get("plain", {}).get("la", "")
         # Each individual acclamation is short (~100-200 chars)
         assert len(ga_la) < 250, f"primary GA still bundled: {len(ga_la)} chars"
-        alts = r.get("gospelAcclamationAlternatives") or []
+        alts = ga.get("alternatives") or []
         assert len(alts) >= 5, f"expected multiple GA alternatives, got {len(alts)}"
         # Each alternative has its own citation
         cits = [(a.get("citation") or {}).get("la") for a in alts]
