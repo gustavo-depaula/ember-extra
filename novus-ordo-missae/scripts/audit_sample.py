@@ -54,9 +54,10 @@ RESP_OK_RE = re.compile(
 def collect_all_masses():
     out = []
     for f in (ROOT / "masses").rglob("*.json"):
+        if f.name == "_index.json":
+            continue
         d = json.load(f.open())
-        for m in d.get("masses", []):
-            out.append((f, m))
+        out.append((f, d))
     return out
 
 
@@ -268,8 +269,11 @@ def _check_part_content(nodes, path, issues):
 
 
 def check_preface_refs(masses, issues):
-    pf = json.load((ROOT / "library" / "prefaces.json").open())
-    pref_ids = {p["id"] for p in pf.get("prefaces", [])}
+    pref_ids = set()
+    for f in (ROOT / "library" / "preface").glob("*.json"):
+        if f.name == "_index.json":
+            continue
+        pref_ids.add(json.load(f.open())["id"])
     for path, m in masses:
         p = m.get("preface")
         if isinstance(p, dict) and "prefaceRef" in p:

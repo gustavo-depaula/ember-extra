@@ -58,7 +58,13 @@ def test_audit_sample_runs_clean_for_seed_1():
 def _all_mass_files():
     if not (DATA / "masses").exists():
         return []
-    return [f for f in (DATA / "masses").rglob("*.json") if "index.json" not in str(f)]
+    return [f for f in (DATA / "masses").rglob("*.json") if f.name != "_index.json"]
+
+
+def _iter_masses():
+    """Yield each per-file mass dict."""
+    for f in _all_mass_files():
+        yield json.load(f.open())
 
 
 def test_no_duplicate_mass_ids():
@@ -66,61 +72,57 @@ def test_no_duplicate_mass_ids():
         pytest.skip("data/ not generated")
     seen = set()
     for f in _all_mass_files():
-        for m in json.load(f.open()).get("masses", []):
-            mid = m.get("id")
-            assert mid, f"Mass with no id in {f.name}"
-            assert mid not in seen, f"Duplicate mass id: {mid}"
-            seen.add(mid)
+        m = json.load(f.open())
+        mid = m.get("id")
+        assert mid, f"Mass with no id in {f.name}"
+        assert mid not in seen, f"Duplicate mass id: {mid}"
+        seen.add(mid)
 
 
 def test_all_scopes_lowercase_kebab():
     if not DATA.exists():
         pytest.skip("data/ not generated")
-    for f in _all_mass_files():
-        for m in json.load(f.open()).get("masses", []):
-            scope = m.get("scope")
-            if scope:
-                assert scope == scope.lower(), f"Scope not lowercase: {m['id']} scope={scope!r}"
-                assert " " not in scope, f"Scope contains space: {m['id']} scope={scope!r}"
+    for m in _iter_masses():
+        scope = m.get("scope")
+        if scope:
+            assert scope == scope.lower(), f"Scope not lowercase: {m['id']} scope={scope!r}"
+            assert " " not in scope, f"Scope contains space: {m['id']} scope={scope!r}"
 
 
 def test_all_dateSuffix_lowercase():
     if not DATA.exists():
         pytest.skip("data/ not generated")
-    for f in _all_mass_files():
-        for m in json.load(f.open()).get("masses", []):
-            ds = m.get("dateSuffix")
-            if ds:
-                assert ds == ds.lower(), f"dateSuffix not lowercase: {m['id']} dateSuffix={ds!r}"
+    for m in _iter_masses():
+        ds = m.get("dateSuffix")
+        if ds:
+            assert ds == ds.lower(), f"dateSuffix not lowercase: {m['id']} dateSuffix={ds!r}"
 
 
 def test_reading_slot_canonical_order():
     if not DATA.exists():
         pytest.skip("data/ not generated")
     canonical = ["firstReading", "responsorialPsalm", "secondReading", "gospelAcclamation", "gospel"]
-    for f in _all_mass_files():
-        for m in json.load(f.open()).get("masses", []):
-            for cy, slots in (m.get("readings") or {}).items():
-                if not isinstance(slots, dict):
-                    continue
-                relevant = [k for k in slots.keys() if k in canonical]
-                expected = [k for k in canonical if k in slots]
-                assert relevant == expected, (
-                    f"Out-of-order readings in {m['id']} cycle={cy}: {relevant}"
-                )
+    for m in _iter_masses():
+        for cy, slots in (m.get("readings") or {}).items():
+            if not isinstance(slots, dict):
+                continue
+            relevant = [k for k in slots.keys() if k in canonical]
+            expected = [k for k in canonical if k in slots]
+            assert relevant == expected, (
+                f"Out-of-order readings in {m['id']} cycle={cy}: {relevant}"
+            )
 
 
 def test_rank_and_localized_consistent():
     if not DATA.exists():
         pytest.skip("data/ not generated")
-    for f in _all_mass_files():
-        for m in json.load(f.open()).get("masses", []):
-            rank = m.get("rank")
-            rl = m.get("rankLocalized") or {}
-            # If one is present, the other must be present too.
-            if rank or rl:
-                assert rank, f"{m['id']} has rankLocalized but no rank"
-                assert rl, f"{m['id']} has rank={rank!r} but no rankLocalized"
+    for m in _iter_masses():
+        rank = m.get("rank")
+        rl = m.get("rankLocalized") or {}
+        # If one is present, the other must be present too.
+        if rank or rl:
+            assert rank, f"{m['id']} has rankLocalized but no rank"
+            assert rl, f"{m['id']} has rank={rank!r} but no rankLocalized"
 
 
 def test_no_html_torn_fragments_in_bodies():
@@ -129,21 +131,19 @@ def test_no_html_torn_fragments_in_bodies():
         pytest.skip("data/ not generated")
     import re
     TORN = re.compile(r"^[<>/]*\s*(?:p|br|span|div|font)?\s*[<>/]*$", re.IGNORECASE)
-    for f in _all_mass_files():
-        d = json.load(f.open())
-        for m in d.get("masses", []):
-            for field in ("entranceAntiphon", "collect", "prayerOverOfferings",
-                          "communionAntiphon", "postcommunion"):
-                v = m.get(field) or {}
-                lines_dict = (v.get("body") or {}).get("lines") or {}
-                for lang, lines in lines_dict.items():
-                    if not isinstance(lines, list):
-                        continue
-                    for line in lines:
-                        for seg in line:
-                            t = (seg.get("text") or "").strip()
-                            if t and len(t) <= 8 and any(c in t for c in "<>/") and TORN.match(t):
-                                pytest.fail(f"HTML torn fragment in {m['id']} {field} {lang}: {t!r}")
+    for m in _iter_masses():
+        for field in ("entranceAntiphon", "collect", "prayerOverOfferings",
+                      "communionAntiphon", "postcommunion"):
+            v = m.get(field) or {}
+            lines_dict = (v.get("body") or {}).get("lines") or {}
+            for lang, lines in lines_dict.items():
+                if not isinstance(lines, list):
+                    continue
+                for line in lines:
+                    for seg in line:
+                        t = (seg.get("text") or "").strip()
+                        if t and len(t) <= 8 and any(c in t for c in "<>/") and TORN.match(t):
+                            pytest.fail(f"HTML torn fragment in {m['id']} {field} {lang}: {t!r}")
 
 
 def test_no_untranslated_latin_leak_in_vernacular():
@@ -153,51 +153,48 @@ def test_no_untranslated_latin_leak_in_vernacular():
     import re
     def norm(s):
         return re.sub(r"\s+", " ", (s or "").strip()).lower()
-    for f in _all_mass_files():
-        d = json.load(f.open())
-        for m in d.get("masses", []):
-            for field in ("entranceAntiphon", "collect", "prayerOverOfferings",
-                          "communionAntiphon", "postcommunion"):
-                v = m.get(field) or {}
-                plain = (v.get("body") or {}).get("plain") or {}
-                la = norm(plain.get("la", ""))
-                if not la or len(la) < 30:
-                    continue
-                for lang in ("es", "en", "pt-BR", "it", "fr", "de"):
-                    other = norm(plain.get(lang, ""))
-                    if other and other == la:
-                        pytest.fail(f"Latin leak: {m['id']}.{field}.{lang} == .la")
+    for m in _iter_masses():
+        for field in ("entranceAntiphon", "collect", "prayerOverOfferings",
+                      "communionAntiphon", "postcommunion"):
+            v = m.get(field) or {}
+            plain = (v.get("body") or {}).get("plain") or {}
+            la = norm(plain.get("la", ""))
+            if not la or len(la) < 30:
+                continue
+            for lang in ("es", "en", "pt-BR", "it", "fr", "de"):
+                other = norm(plain.get(lang, ""))
+                if other and other == la:
+                    pytest.fail(f"Latin leak: {m['id']}.{field}.{lang} == .la")
 
 
 def test_all_prefaceRef_resolve():
-    if not DATA.exists() or not (DATA / "library" / "prefaces.json").exists():
-        pytest.skip("data/library/prefaces.json not generated")
-    preface_ids = {p["id"] for p in json.load((DATA / "library" / "prefaces.json").open())["prefaces"]}
-    for f in _all_mass_files():
-        for m in json.load(f.open()).get("masses", []):
-            p = m.get("preface")
-            if isinstance(p, dict) and "prefaceRef" in p:
-                ref = p["prefaceRef"]
-                assert ref in preface_ids, f"Broken prefaceRef in {m['id']}: {ref}"
+    pref_dir = DATA / "library" / "preface"
+    if not DATA.exists() or not pref_dir.exists():
+        pytest.skip("data/library/preface/ not generated")
+    preface_ids = set()
+    for f in pref_dir.glob("*.json"):
+        if f.name == "_index.json":
+            continue
+        preface_ids.add(json.load(f.open())["id"])
+    for m in _iter_masses():
+        p = m.get("preface")
+        if isinstance(p, dict) and "prefaceRef" in p:
+            ref = p["prefaceRef"]
+            assert ref in preface_ids, f"Broken prefaceRef in {m['id']}: {ref}"
 
 
 def test_calendar_entries_resolve_to_masses():
-    if not DATA.exists() or not (DATA / "calendar.json").exists():
-        pytest.skip("data/calendar.json not generated")
-    cal = json.load((DATA / "calendar.json").open())
-    mass_ids = set()
-    for f in _all_mass_files():
-        for m in json.load(f.open()).get("masses", []):
-            mass_ids.add(m["id"])
-    # Add triduum masses too
-    if (DATA / "triduum.json").exists():
-        for m in json.load((DATA / "triduum.json").open()).get("masses", []):
-            if m.get("id"):
-                mass_ids.add(m["id"])
-    for entry in cal.get("tempore", []):
-        assert entry["id"] in mass_ids, f"Calendar tempore entry has no mass: {entry['id']}"
-    for entry in cal.get("sanctorale", []):
-        assert entry["id"] in mass_ids, f"Calendar sanctorale entry has no mass: {entry['id']}"
+    cal_root = DATA / "calendar"
+    if not DATA.exists() or not cal_root.exists():
+        pytest.skip("data/calendar/ not generated")
+    mass_ids = {m["id"] for m in _iter_masses()}
+    # Triduum is a reference list — entries must already be in mass_ids.
+    for f in cal_root.rglob("*.json"):
+        if f.name == "_index.json":
+            continue
+        entry = json.load(f.open())
+        mid = entry.get("id")
+        assert mid in mass_ids, f"Calendar entry has no mass: {mid}"
 
 
 if __name__ == "__main__":

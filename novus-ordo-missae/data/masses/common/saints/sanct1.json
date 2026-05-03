@@ -1,0 +1,903 @@
+{
+  "id": "common.saints.sanct1",
+  "group": "common",
+  "subgroup": "saints",
+  "title": {
+    "la": "COMMUNE SANCTORUM ET SANCTARUM I. PRO OMNIBUS SANCTORUM ORDINIBUS A. Pro pluribus Sanctis 1",
+    "es": "COMÚN DE SANTOS Y SANTAS I. Para toda categoría de santos A. Para varios santos 1",
+    "en": "COMMON OF HOLY MEN AND WOMEN I. For All Categories of Saints A. For Several Saints 1",
+    "pt-BR": "COMUM DAS VIRGENS I. Para várias virgens",
+    "it": "COMUNE DEI SANTI E DELLE SANTE I. Per tutte le categorie di santi A. Per più santi 1",
+    "fr": "COMMUN DES SAINTS ET DES SAINTES I. POUR LES SAINTS DE TOUS ORDRES A. Pour plusieurs saints 1",
+    "de": "COMMUNE-TEXTE FÜR Hl. MÄNNER UND Hl. FRAUEN"
+  },
+  "entranceAntiphon": {
+    "body": {
+      "plain": {
+        "la": "Confiteántur tibi, Dómine, ómnia ópera tua, et Sancti tui benedícant tibi: glóriam regni tui dicent, et poténtiam tuam loquéntur (T. P. allelúia ).",
+        "es": "Que todas tus criaturas te den gracias, Señor; que te bendigan tus santos. Que proclamen la gloria de tu reinado, que hablen de tus hazañas (T. P. Aleluya )",
+        "en": "May all your works thank you, O Lord, and all your Holy ones bless you. They shall speak of the glory of your reign, and declare your mighty deeds (E. T. alleluia )",
+        "pt-BR": "Louvem as virgens o nome do Senhor, porque somente o seu nome é excelso. Sua glória resplandece sobre o céu e a terra ( T. P. aleluia ).",
+        "it": "Ti lodino, o Signore, le tue opere e ti benedicano i tuoi santi. Dicano la gloria del tuo regno e parlino della tua potenza ( T. P. Alleluia ).",
+        "fr": "Que tes œuvres, Seigneur, te rendent grâce et que tes fidèles te bénissent ! Ils diront la gloire de ton règne, ils parleront de tes exploits (T. P. alléluia ).",
+        "de": "Danken sollen dir, Herr, all deine Werke und deine Frommen dich preisen. Sie sollen von der Herrlichkeit deines Königtums reden, sollen sprechen von deiner Macht."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Confiteántur tibi, Dómine, ómnia ópera tua, et Sancti tui benedícant tibi:"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "glóriam regni tui dicent, et poténtiam tuam loquéntur"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "T. P."
+            },
+            {
+              "type": "text",
+              "text": "allelúia"
+            },
+            {
+              "type": "rubric",
+              "text": "."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Que todas tus criaturas te den gracias, Señor; que te bendigan tus santos."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Que proclamen la gloria de tu reinado, que hablen de tus hazañas"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "T. P."
+            },
+            {
+              "type": "text",
+              "text": "Aleluya"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "May all your works thank you, O Lord, and all your Holy ones bless you. They shall speak of the glory of your reign, and declare your mighty deeds"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "E. T."
+            },
+            {
+              "type": "text",
+              "text": "alleluia"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Louvem as virgens o nome do Senhor,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "porque somente o seu nome é excelso."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Sua glória resplandece sobre o céu e a terra"
+            },
+            {
+              "type": "rubric",
+              "text": "T. P."
+            },
+            {
+              "type": "text",
+              "text": "aleluia"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "Ti lodino, o Signore, le tue opere e ti benedicano i tuoi santi. Dicano la gloria del tuo regno e parlino della tua potenza"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "T. P."
+            },
+            {
+              "type": "text",
+              "text": "Alleluia"
+            },
+            {
+              "type": "rubric",
+              "text": "."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Que tes œuvres, Seigneur, te rendent grâce et que tes fidèles te bénissent !"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Ils diront la gloire de ton règne,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "ils parleront de tes exploits"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "T. P."
+            },
+            {
+              "type": "text",
+              "text": "alléluia"
+            },
+            {
+              "type": "rubric",
+              "text": "."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Danken sollen dir, Herr, all deine Werke und deine Frommen dich preisen. Sie sollen von der Herrlichkeit deines Königtums reden, sollen sprechen von deiner Macht."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "collect": {
+    "body": {
+      "plain": {
+        "la": "Omnípotens ætérne Deus, qui per glorificatiónem Sanctórum novíssima dilectiónis tuæ nobis arguménta largíris, concéde propítius, ut, ad Unigénitum tuum fidéliter imitándum, et ipsórum intercessióne commendémur, et incitémur exémplo. Per Dóminum.",
+        "es": "Dios todopoderoso y eterno, que en la glorificación de los santos nos das continuas pruebas de tu amor, concédenos en tu bondad encomendarnos a su intercesión y que nos sintamos estimulados por su ejemplo, para imitar fielmente a tu Unigénito. Él, que vive y reina contigo.",
+        "en": "Almighty and eternal God, who by glorifying the Saints, bestow on us fresh proofs of your love, graciously grant that, commended by their intercession and spurred on by their example, we may be faithful in imitating your Only Begotten Son. Who lives and reigns with you in the unity of the Holy Spirit, one God, for ever and ever.",
+        "pt-BR": "As virgens serão conduzidas à presença do Rei com alegria e exultação; serão apresentadas no templo ao Rei e Senhor (T. P. aleluia ).",
+        "it": "Dio onnipotente ed eterno, che nella gloria dei santi doni a noi segni sempre nuovi del tuo amore, fa' che la loro intercessione ci aiuti e il loro esempio ci spinga a imitare fedelmente il tuo unico Figlio. Egli è Dio, e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli.",
+        "fr": "Dieu éternel et tout-puissant, tu nous donnes des preuves toujours nouvelles de ton amour quand tu glorifies les saints dans le ciel ; accorde-nous dans ta bonté d'être soutenus par leur prière et encouragés par leur exemple pour imiter fidèlement ton Fils unique. Lui qui vit et règne avec toi dans l'unité du Saint-Esprit, Dieu, pour les siècles des siècles.",
+        "de": "Allmächtiger, ewiger Gott, du offenbarst deine Herrlichkeit in den Heiligen und gibst uns in ihnen immer neue Zeichen deiner Liebe. Gib, dass ihr Beispiel und ihre Fürsprache uns helfen, deinem Sohn in Treue nachzufolgen, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Omnípotens ætérne Deus, qui per glorificatiónem Sanctórum novíssima dilectiónis tuæ nobis arguménta largíris, concéde propítius, ut, ad Unigénitum tuum fidéliter imitándum, et ipsórum intercessióne commendémur, et incitémur exémplo. Per Dóminum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Dios todopoderoso y eterno,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "que en la glorificación de los santos nos das continuas pruebas de tu amor,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "concédenos en tu bondad encomendarnos a su intercesión y que nos sintamos estimulados por su ejemplo,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "para imitar fielmente a tu Unigénito."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Él, que vive y reina contigo."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "Almighty and eternal God, who by glorifying the Saints, bestow on us fresh proofs of your love, graciously grant that, commended by their intercession and spurred on by their example, we may be faithful in imitating your Only Begotten Son. Who lives and reigns with you in the unity of the Holy Spirit,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "one God, for ever and ever."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "As virgens serão conduzidas à presença do Rei com alegria e exultação;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "serão apresentadas no templo ao Rei e Senhor"
+            },
+            {
+              "type": "rubric",
+              "text": "T. P."
+            },
+            {
+              "type": "text",
+              "text": "aleluia"
+            },
+            {
+              "type": "rubric",
+              "text": "."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "Dio onnipotente ed eterno, che nella gloria dei santi doni a noi segni sempre nuovi del tuo amore, fa' che la loro intercessione ci aiuti e il loro esempio ci spinga a imitare fedelmente il tuo unico Figlio. Egli è Dio, e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Dieu éternel et tout-puissant,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "tu nous donnes des preuves toujours nouvelles de ton amour quand tu glorifies les saints dans le ciel ;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "accorde-nous dans ta bonté d'être soutenus par leur prière et encouragés par leur exemple pour imiter fidèlement ton Fils unique."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Lui qui vit et règne avec toi dans l'unité du Saint-Esprit,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Dieu, pour les siècles des siècles."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Allmächtiger, ewiger Gott, du offenbarst deine Herrlichkeit in den Heiligen und gibst uns in ihnen immer neue Zeichen deiner Liebe. Gib, dass ihr Beispiel und ihre Fürsprache uns helfen, deinem Sohn in Treue nachzufolgen, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "prayerOverOfferings": {
+    "body": {
+      "plain": {
+        "la": "Preces nostras, Dómine, quǽsumus, propitiátus admítte, et, ut digne tuis famulémur altáribus, Sanctórum tuórum nos intercessióne custódi. Per Christum.",
+        "es": "Señor, escucha con bondad nuestras súplicas y protégenos con la intercesión de tus santos, para que sirvamos dignamente en tu altar. Por Jesucristo, nuestro Señor.",
+        "en": "Give favorable hearing to our prayers, O Lord, we pray, and safeguard us through the intercession of your Saints, that we may give worthy service at your altar. Through Christ our Lord.",
+        "pt-BR": "Senhor, multiplicai sobre nós a vossa misericórdia e, como na festividade das santas virgens N. e N. nos alegramos com piedosa devoção, concedei-nos, por vossa graça, o seu eterno convívio. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus, e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
+        "it": "Accogli benigno, o Signore, le nostre preghiere e per l'intercessione dei tuoi santi donaci la tua protezione, perché siamo degni di servire al tuo altare. Per Cristo nostro Signore.",
+        "fr": "Nous te le demandons, Seigneur : sois favorable à nos prières, et pour nous rendre dignes de servir à ton autel, garde-nous par l'intercession des saints. Par le Christ, notre Seigneur.",
+        "de": "Allmächtiger Gott, höre auf die Fürsprache des heiligen N. und bewahre uns vor allem Bösen, damit wir deinem Altar würdig dienen. Darum bitten wir durch Christus, unseren Herrn."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Preces nostras, Dómine, quǽsumus, propitiátus admítte, et, ut digne tuis famulémur altáribus, Sanctórum tuórum nos intercessióne custódi. Per Christum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Señor, escucha con bondad nuestras súplicas y protégenos con la intercesión de tus santos,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "para que sirvamos dignamente en tu altar."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por Jesucristo, nuestro Señor."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "Give favorable hearing to our prayers, O Lord, we pray, and safeguard us through the intercession of your Saints, that we may give worthy service at your altar."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Through Christ our Lord."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Senhor, multiplicai sobre nós a vossa misericórdia e, como na festividade das santas virgens"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": "e"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": "nos alegramos com piedosa devoção,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "concedei-nos, por vossa graça, o seu eterno convívio."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "e convosco vive e reina, na unidade do Espírito Santo,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "por todos os séculos dos séculos."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "Accogli benigno, o Signore, le nostre preghiere e per l'intercessione dei tuoi santi donaci la tua protezione, perché siamo degni di servire al tuo altare."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Per Cristo nostro Signore."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Nous te le demandons, Seigneur :"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "sois favorable à nos prières,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "et pour nous rendre dignes de servir à ton autel,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "garde-nous par l'intercession des saints."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Par le Christ, notre Seigneur."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Allmächtiger Gott, höre auf die Fürsprache des heiligen"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": "und bewahre uns vor allem Bösen, damit wir deinem Altar würdig dienen. Darum bitten wir durch Christus, unseren Herrn."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "preface": {
+    "prefaceRef": "preface.pf052",
+    "alternativeRefs": [
+      "preface.pf053"
+    ],
+    "excerpt": {
+      "la": "Tu enim Sanctórum tuórum confessióne",
+      "es": "Porque mediante el testimonio admirable de tus santos",
+      "en": "For in the marvellous confession of",
+      "it": "Nella testimonianza di fede dei tuoi santi",
+      "fr": "Tu ne cesses de fortifier ton Église",
+      "de": "Denn in den Heiligen schenkst du der Kirche"
+    }
+  },
+  "communionAntiphon": {
+    "body": {
+      "plain": {
+        "la": "Beáti servi illi, quos, cum vénerit Dóminus, invénerit vigilántes. Amen dico vobis, quod præcínget se, et fáciet illos discúmbere, et tránsiens ministrábit illis (T. P. allelúia ).",
+        "es": "Bienaventurados aquellos criados a quienes el Señor, al llegar, los encuentre en vela; en verdad os digo que se ceñirá y los hará sentar a la mesa y, acercándose, les irá sirviendo (T. P. Aleluya )",
+        "en": "Blessed are those servants whom the lord finds vigilant on his arrival. Amen, I say to you: He will gird himself, seat them at table, and proceed to wait on them (E. T. alleluia )",
+        "pt-BR": "O noivo chegou, e as virgens que estavam preparadas entraram com ele para a festa do casamento (T. P. aleluia ).",
+        "it": "Beati quei servi che il padrone al suo ritorno troverà ancora svegli; in verità io vi dico, si stringerà le vesti ai fianchi, li farà mettere a tavola e passerà a servirli ( T. P. Alleluia ).",
+        "fr": "Heureux les serviteurs que le maître, à son arrivée, trouvera en train de veiller. Amen, je vous le dis : c'est lui qui, la ceinture autour des reins, les fera prendre place à table et passera pour les servir (T. P. alléluia ).",
+        "de": "Selig die Knechte, die der Herr wach findet, wenn er kommt. Amen, ich sage euch: Er wird sie am Tisch Platz nehmen lassen und sie alle bedienen."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Beáti servi illi, quos, cum vénerit Dóminus, invénerit vigilántes. Amen dico vobis, quod præcínget se, et fáciet illos discúmbere, et tránsiens ministrábit illis"
+            },
+            {
+              "type": "rubric",
+              "text": "T. P."
+            },
+            {
+              "type": "text",
+              "text": "allelúia"
+            },
+            {
+              "type": "rubric",
+              "text": "."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Bienaventurados aquellos criados a quienes el Señor, al llegar, los encuentre en vela; en verdad os digo que se ceñirá y los hará sentar a la mesa y,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "acercándose, les irá sirviendo"
+            },
+            {
+              "type": "rubric",
+              "text": "T. P."
+            },
+            {
+              "type": "text",
+              "text": "Aleluya"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "Blessed are those servants whom the lord finds vigilant on his arrival. Amen,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "I say to you: He will gird himself, seat them at table, and proceed to wait on them"
+            },
+            {
+              "type": "rubric",
+              "text": "E. T."
+            },
+            {
+              "type": "text",
+              "text": "alleluia"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "O noivo chegou,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "e as virgens que estavam preparadas entraram com ele para a festa do casamento"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "T. P."
+            },
+            {
+              "type": "text",
+              "text": "aleluia"
+            },
+            {
+              "type": "rubric",
+              "text": "."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "Beati quei servi che il padrone al suo ritorno troverà ancora svegli; in verità io vi dico, si stringerà le vesti ai fianchi, li farà mettere a tavola e passerà a servirli"
+            },
+            {
+              "type": "rubric",
+              "text": "T. P."
+            },
+            {
+              "type": "text",
+              "text": "Alleluia"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Heureux les serviteurs que le maître, à son arrivée,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "trouvera en train de veiller."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Amen, je vous le dis : c'est lui qui, la ceinture autour des reins,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "les fera prendre place à table et passera pour les servir"
+            },
+            {
+              "type": "rubric",
+              "text": "T. P."
+            },
+            {
+              "type": "text",
+              "text": "alléluia"
+            },
+            {
+              "type": "rubric",
+              "text": "."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Selig die Knechte, die der Herr wach findet, wenn er kommt. Amen, ich sage euch: Er wird sie am Tisch Platz nehmen lassen und sie alle bedienen."
+            }
+          ]
+        ]
+      }
+    },
+    "citation": {
+      "la": "Lc 12, 37",
+      "es": "Lc 12, 37",
+      "en": "Lk 12: 37",
+      "it": "Lc 12, 37",
+      "fr": "Lc 12, 37"
+    }
+  },
+  "postcommunion": {
+    "body": {
+      "plain": {
+        "la": "Omnípotens sempitérne Deus, Pater totíus consolatiónis et pacis, præsta famíliæ tuæ in celebritáte Sanctórum ad laudem tui nóminis congregátæ, ut, per Unigéniti tui sumpta mystéria, pignus accípiat redemptiónis ætérnæ. Per Christum.",
+        "es": "Dios todopoderoso y eterno, Padre del consuelo y de la paz, concede a tu familia, reunida en la fiesta de los santos para alabar tu nombre, recibir la prenda de la salvación eterna en la comunión del sacramento de tu Unigénito. Él, que vive y reina por los siglos de los siglos.",
+        "en": "Almighty ever-living God, Father of all consolation and peace, grant your family, gathered to praise your name in celebration of the Saints, that through the mysteries of your Only Begotten Son, which they have here received, they may obtain the pledge of eternal redemption. Through Christ our Lord.",
+        "pt-BR": "Quem me ama, será amado por meu Pai, e nós viremos e faremos nele a nossa morada ( T. P. aleluia ).",
+        "it": "Dio onnipotente ed eterno, Padre di ogni consolazione e pace, guarda questa tua famiglia riunita per la lode del tuo nome nella festa dei santi [N. e N.] e per la partecipazione ai misteri del tuo Figlio unigenito, donale il pegno della redenzione eterna. Per Cristo nostro Signore.",
+        "fr": "Dieu éternel et tout-puissant, Père de tout réconfort et de toute paix, accorde à ta famille, assemblée pour la louange de ton nom en cette fête des saints, de recueillir dans sa communion à ton Fils unique le gage de l'éternelle rédemption. Par le Christ, notre Seigneur.",
+        "de": "Allmächtiger, ewiger Gott, Vater des Erbarmens und Gott allen Trostes, am Gedenktag des heiligen N. haben wir uns zum Lob deines Namens versammelt. Schenke uns durch den Leib und das Blut deines Sohnes das Unterpfand jener Vollendung, die allen verheißen ist, die dich lieben. Darum bitten wir durch Christus, unseren Herrn."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Omnípotens sempitérne Deus, Pater totíus consolatiónis et pacis, præsta famíliæ tuæ in celebritáte Sanctórum ad laudem tui nóminis congregátæ, ut, per Unigéniti tui sumpta mystéria, pignus accípiat redemptiónis ætérnæ. Per Christum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Dios todopoderoso y eterno,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Padre del consuelo y de la paz,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "concede a tu familia,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "reunida en la fiesta de los santos para alabar tu nombre,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "recibir la prenda de la salvación eterna en la comunión del sacramento de tu Unigénito."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Él, que vive y reina por los siglos de los siglos."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "Almighty ever-living God, Father of all consolation and peace, grant your family, gathered to praise your name in celebration of the Saints, that through the mysteries of your Only Begotten Son, which they have here received, they may obtain the pledge of eternal redemption."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Through Christ our Lord."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Quem me ama, será amado por meu Pai,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "e nós viremos e faremos nele a nossa morada"
+            },
+            {
+              "type": "rubric",
+              "text": "T. P."
+            },
+            {
+              "type": "text",
+              "text": "aleluia"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "Dio onnipotente ed eterno, Padre di ogni consolazione e pace, guarda questa tua famiglia riunita per la lode del tuo nome nella festa dei santi"
+            },
+            {
+              "type": "rubric",
+              "text": "[N."
+            },
+            {
+              "type": "text",
+              "text": "e"
+            },
+            {
+              "type": "rubric",
+              "text": "N.]"
+            },
+            {
+              "type": "text",
+              "text": "e per la partecipazione ai misteri del tuo Figlio unigenito, donale il pegno della redenzione eterna. Per Cristo nostro Signore."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Dieu éternel et tout-puissant,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Père de tout réconfort et de toute paix,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "accorde à ta famille,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "assemblée pour la louange de ton nom en cette fête des saints,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "de recueillir dans sa communion à ton Fils unique le gage de l'éternelle rédemption."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Par le Christ, notre Seigneur."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Allmächtiger, ewiger Gott, Vater des Erbarmens und Gott allen Trostes, am Gedenktag des heiligen"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": "haben wir uns zum Lob deines Namens versammelt. Schenke uns durch den Leib und das Blut deines Sohnes das Unterpfand jener Vollendung, die allen verheißen ist, die dich lieben. Darum bitten wir durch Christus, unseren Herrn."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "liturgicalColor": "white"
+}

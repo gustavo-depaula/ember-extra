@@ -104,9 +104,14 @@ class TestQueryLoadAndLookups:
         os.chdir(self._old_cwd)
 
     def test_load_calendar(self):
-        result = query.load("calendar.json")
-        assert "tempore" in result
-        assert "sanctorale" in result
+        # Calendar split layout: walk data/calendar/{tempore,sanctorale}/**/*.json
+        cal_root = DATA / "calendar"
+        assert (cal_root / "tempore" / "_index.json").exists()
+        assert (cal_root / "sanctorale" / "_index.json").exists()
+        # Spot-check at least one entry per group resolves
+        entries = [p for p in cal_root.rglob("*.json") if p.name != "_index.json"]
+        assert any(p.parts[-2:][0].startswith("tempore") or "tempore" in p.parts for p in entries)
+        assert any("sanctorale" in p.parts for p in entries)
 
     def test_all_masses_returns_list(self):
         masses = query.all_masses()
@@ -203,8 +208,8 @@ class TestValidateCollectMassIds:
 
 class TestValidateCollectPrefaceIds:
     def test_collects_preface_ids(self):
-        if not DATA.exists() or not (DATA / "library" / "prefaces.json").exists():
-            pytest.skip("data/library/prefaces.json not generated")
+        if not DATA.exists() or not (DATA / "library" / "preface").exists():
+            pytest.skip("data/library/preface/ not generated")
         import os
         old_cwd = pathlib.Path.cwd()
         os.chdir(HERE.parent)

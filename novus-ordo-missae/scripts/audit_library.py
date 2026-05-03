@@ -59,15 +59,25 @@ def walk_localized(node, path, errors):
             walk_localized(v, f"{path}[{i}]", errors)
 
 
+def _walk_split(root, label, errors):
+    """Walk every per-item *.json under `root`, skipping _index.json sentinels."""
+    for f in root.rglob("*.json"):
+        if f.name == "_index.json":
+            continue
+        d = json.load(f.open())
+        rel = f.relative_to(root).with_suffix("")
+        walk_localized(d, f"{label}.{rel.as_posix().replace('/', '.')}", errors)
+
+
 def main():
     errors = []
-    for f in (ROOT / "library").glob("*.json"):
-        d = json.load(f.open())
-        walk_localized(d, f.stem, errors)
-
-    walk_localized(json.load((ROOT/"saints.json").open()), "saints", errors)
-    walk_localized(json.load((ROOT/"calendar.json").open()), "calendar", errors)
-    walk_localized(json.load((ROOT/"triduum.json").open()), "triduum", errors)
+    if (ROOT / "library").exists():
+        _walk_split(ROOT / "library", "library", errors)
+    if (ROOT / "saints").exists():
+        _walk_split(ROOT / "saints", "saints", errors)
+    if (ROOT / "calendar").exists():
+        _walk_split(ROOT / "calendar", "calendar", errors)
+    # triduum/_index.json is a reference list (no localized content); skip walk.
 
     for f in (ROOT/"igmr").glob("*.json"):
         d = json.load(f.open())

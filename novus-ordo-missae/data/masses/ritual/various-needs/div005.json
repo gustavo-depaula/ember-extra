@@ -1,0 +1,889 @@
+{
+  "id": "ritual.various-needs.div005",
+  "group": "ritual",
+  "subgroup": "various-needs",
+  "title": {
+    "la": "I. PRO SANCTA ECCLESIA 1. PRO ECCLESIA E Pro Ecclésia particulari",
+    "es": "I. POR LA SANTA IGLESIA 1. POR LA IGLESIA E Por la Iglesia local",
+    "en": "I. FOR HOLY CHURCH 1. FOR CHURCH E For the particular church",
+    "pt-BR": "I. PELA SANTA IGREJA 1. PELA IGREJA E Pela Igreja particular",
+    "it": "I. PER LA SANTA CHIESA 1. Per la Santa Chiesa E. Per la Chiesa particolare",
+    "fr": "I. POUR LA SAINTE ÉGLISE 1. POUR L'ÉGLISE E Pour une Église particulière",
+    "de": "I. FÜR DIE HEILIGE KIRCHE 1. FÜR DIE HEILIGE KIRCHE E Für das Bistum"
+  },
+  "entranceAntiphon": {
+    "body": {
+      "plain": {
+        "la": "Iesu Christo, qui diléxit nos, et lavit nos a peccátis nostris in sánguine suo, et fecit nos regnum et sacerdótes Deo et Patri suo: ipsi glória et impérium in sǽcula sæculórum. Amen.",
+        "es": "Jesucristo, que nos ama, nos ha librado de nuestros pecados por su sangre, y nos ha hecho reino y sacerdotes para Dios, su Padre; a él la gloria y el poder por los siglos de los siglos. Amén.",
+        "en": "To Jesus Christ who loves us and has washed us clean of our sins by his Blood, who has made us into a kingdom, priests for his God and Father. to him be glory and power for ever and ever. Amen.",
+        "pt-BR": "A Jesus, que nos ama, que por seu sangue nos libertou dos nossos pecados e que fez de nós um reino, sacerdotes para seu Deus e Pai, a ele a glória e poder, em eternidade. Amém.",
+        "it": "Cristo ci ama e ci ha liberati dai nostri peccati con il suo sangue, e ha fatto di noi un regno, sacerdoti per il suo Dio e Padre: a lui la gloria e la potenza nei secoli dei secoli. Amen.",
+        "fr": "À celui qui nous aime, Jésus Christ, qui nous a lavés de nos péchés par son sang, qui a fait de nous un royaume et des prêtres pour son Dieu et Père, à lui, la gloire et la souveraineté pour les siècles des siècles. Amen.",
+        "de": "Jesus Christus liebt uns und hat uns von unseren Sünden erlöst durch sein Blut; er hat uns zu Königen gemacht und zu Priestern vor Gott, seinem Vater. Ihm sei die Herrlichkeit und die Macht in alle Ewigkeit."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Iesu Christo, qui diléxit nos, et lavit nos a peccátis nostris in sánguine suo, et fecit nos regnum et sacerdótes Deo et Patri suo: ipsi glória et impérium in sǽcula sæculórum. Amen."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Jesucristo, que nos ama, nos ha librado de nuestros pecados por su sangre, y nos ha hecho reino y sacerdotes para Dios, su Padre; a él la gloria y el poder por los siglos de los siglos. Amén."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "To Jesus Christ who loves us and has washed us clean of our sins by his Blood,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "who has made us into a kingdom, priests for his God and Father. to him be glory and power for ever and ever. Amen."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "A Jesus, que nos ama,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "que por seu sangue nos libertou dos nossos pecados e que fez de nós um reino,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "sacerdotes para seu Deus e Pai,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "a ele a glória e poder, em eternidade. Amém."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "Cristo ci ama e ci ha liberati dai nostri peccati con il suo sangue, e ha fatto di noi un regno, sacerdoti per il suo Dio e Padre: a lui la gloria e la potenza nei secoli dei secoli. Amen."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "À celui qui nous aime, Jésus Christ,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "qui nous a lavés de nos péchés par son sang,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "qui a fait de nous un royaume et des prêtres pour son Dieu et Père,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "à lui, la gloire et la souveraineté pour les siècles des siècles. Amen."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Jesus Christus liebt uns und hat uns von unseren Sünden erlöst durch sein Blut; er hat uns zu Königen gemacht und zu Priestern vor Gott, seinem Vater."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Ihm sei die Herrlichkeit und die Macht in alle Ewigkeit."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "collect": {
+    "body": {
+      "plain": {
+        "la": "Deus, qui in síngulis Ecclésiis per orbem peregrínis unam, sanctam, cathólicam et apostólicam maniféstas Ecclésiam, plebi tuæ concéde benígnus ita pastóri suo adunári atque per Evangélium et Eucharístiam congregári in Spíritu Sancto, ut universitátem pópuli tui digne váleat repræsentáre, et signum fiat atque præséntiæ Christi in mundo instruméntum. Qui tecum.",
+        "es": "Oh, Dios, que en cada una de las Iglesias que peregrinan por el mundo manifiestas la Iglesia, una, santa, católica y apostólica, haz que tu familia se una de tal modo a su pastor que, congregada en el Espíritu Santo por el Evangelio y la Eucaristía, manifieste la universalidad de tu pueblo y sea signo e instrumento de la presencia de Cristo en el mundo. Él, que vive y reina contigo.",
+        "en": "O God, who in each pilgrim Church throughout the world make visible the one, holy, catholic and apostolic Church, graciously grant that your faithful may be so united to their shepherd and gathered together in the Holy Spirit through the Gospel and the eucharist, as to worthily embody the universality of your people and become a sign and instrument in the world of the presence of Christ. Who lives and reigns with you in the unity of the Holy Spirit, one God, for ever and ever.",
+        "pt-BR": "Ó Deus, em cada uma das Igrejas que peregrinam pela terra, manifestais a vossa Igreja una, santa, católica e apostólica. Concedei benigno à vossa família permanecer unida ao seu pastor, e, pelo Evangelho e pela Eucaristia, ser congregada no Espírito Santo de tal modo que expresse dignamente a universalidade do vosso povo, e se torne no mundo sinal e instrumento da presença de Cristo. Ele, que é Deus, e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
+        "it": "O Dio, che nelle singole Chiese, pellegrine sulla terra, manifesti la tua Chiesa, una, santa, cattolica e apostolica, concedi a questa tua famiglia, raccolta intorno al suo pastore, di crescere mediante il Vangelo e l'Eucaristia nella comunione dello Spirito Santo, perché divenga immagine autentica del tuo popolo diffuso su tutta la terra, segno e strumento della presenza di Cristo nel mondo. Egli è Dio, e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli.",
+        "fr": "Seigneur Dieu, dans chacune des Églises en pèlerinage sur la terre, tu rends visible l'Église, une, sainte, catholique et apostolique ; en ta bonté accorde à ton peuple d'être uni à son pasteur, et d'être rassemblé dans l'Esprit Saint par l'Évangile et l'Eucharistie, de sorte qu'il représente vraiment ton Église universelle et soit dans le monde signe et instrument de la présence du Christ. Lui qui vit et règne avec toi dans l'unité du Saint-Esprit, Dieu, pour les siècles des siècles.",
+        "de": "Gott, unser Vater, in der Gemeinschaft eines jeden Bistums offenbarst du die eine, heilige, katholische und apostolische Kirche. Bewahre die Kirche von N. in der Gemeinschaft mit ihrem Bischof. Lass sie durch Wort und Sakrament eins sein im Heiligen Geist. Hilf ihr, die Gesamtheit deines Volkes würdig darzustellen und mache sie für die Welt zum Zeichen und Werkzeug der Gegenwart Christi, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Deus, qui in síngulis Ecclésiis per orbem peregrínis unam, sanctam, cathólicam et apostólicam maniféstas Ecclésiam, plebi tuæ concéde benígnus ita pastóri suo adunári atque per Evangélium et Eucharístiam congregári in Spíritu Sancto,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "ut universitátem pópuli tui digne váleat repræsentáre, et signum fiat atque præséntiæ Christi in mundo instruméntum. Qui tecum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Oh, Dios,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "que en cada una de las Iglesias que peregrinan por el mundo manifiestas la Iglesia,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "una, santa, católica y apostólica,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "haz que tu familia se una de tal modo a su pastor que, congregada en el Espíritu Santo por el Evangelio y la Eucaristía,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "manifieste la universalidad de tu pueblo y sea signo e instrumento de la presencia de Cristo en el mundo."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Él, que vive y reina contigo."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "O God, who in each pilgrim Church throughout the world make visible the one,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "holy, catholic and apostolic Church, graciously grant that your faithful may be so united to their shepherd and gathered together in the Holy Spirit through the Gospel and the eucharist,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "as to worthily embody the universality of your people and become a sign and instrument in the world of the presence of Christ."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Who lives and reigns with you in the unity of the Holy Spirit,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "one God, for ever and ever."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Ó Deus, em cada uma das Igrejas que peregrinam pela terra,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "manifestais a vossa Igreja una, santa, católica e apostólica."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Concedei benigno à vossa família permanecer unida ao seu pastor,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "e, pelo Evangelho e pela Eucaristia,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "ser congregada no Espírito Santo de tal modo que expresse dignamente a universalidade do vosso povo,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "e se torne no mundo sinal e instrumento da presença de Cristo."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Ele, que é Deus, e convosco vive e reina,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "na unidade do Espírito Santo,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "por todos os séculos dos séculos."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "O Dio, che nelle singole Chiese, pellegrine sulla terra, manifesti la tua Chiesa, una, santa, cattolica e apostolica, concedi a questa tua famiglia,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "raccolta intorno al suo pastore, di crescere mediante il Vangelo e l'Eucaristia nella comunione dello Spirito Santo, perché divenga immagine autentica del tuo popolo diffuso su tutta la terra, segno e strumento della presenza di Cristo nel mondo. Egli è Dio, e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Seigneur Dieu,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "dans chacune des Églises en pèlerinage sur la terre,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "tu rends visible l'Église, une, sainte, catholique et apostolique ;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "en ta bonté accorde à ton peuple d'être uni à son pasteur,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "et d'être rassemblé dans l'Esprit Saint par l'Évangile et l'Eucharistie,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "de sorte qu'il représente vraiment ton Église universelle et soit dans le monde signe et instrument de la présence du Christ."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Lui qui vit et règne avec toi dans l'unité du Saint-Esprit,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Dieu, pour les siècles des siècles."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Gott, unser Vater, in der Gemeinschaft eines jeden Bistums offenbarst du die eine, heilige, katholische und apostolische Kirche. Bewahre die Kirche von N. in der Gemeinschaft mit ihrem Bischof. Lass sie durch Wort und Sakrament eins sein im Heiligen Geist. Hilf ihr, die Gesamtheit deines Volkes würdig darzustellen und mache sie für die Welt zum Zeichen und Werkzeug der Gegenwart Christi, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "prayerOverOfferings": {
+    "body": {
+      "plain": {
+        "la": "Imménsæ Fílii tui caritátis memoriále celebrántes, te, Dómine, supplíciter exorámus, ut eiúsdem salutáris óperis fructus, per Ecclésiæ tuæ ministérium, ad totíus mundi profíciat salútem. Per Christum.",
+        "es": "Al celebrar el memorial del amor infinito de tu Hijo, te suplicamos, Señor, que los frutos de su acción salvadora Sirvan, por el ministerio de tu Iglesia, para la salvación de todo el mundo. Por Jesucristo, nuestro Señor.",
+        "en": "Celebrating the memorial of your Son's boundless love, we humbly beseech you, O Lord, that through the ministry of your Church the fruits of his saving work may advance the salvation of all the world. Through Christ our Lord.",
+        "pt-BR": "Ao celebrar o memorial do imenso amor do vosso Filho, rogamos humildemente, Senhor, que, pelo ministério da vossa Igreja, o fruto da obra redentora sirva para a salvação do mundo inteiro. Por Cristo, nosso Senhor.",
+        "it": "Per questo memoriale dell'immenso amore del tuo Figlio, ti chiediamo umilmente, o Padre, che il frutto della sua opera redentrice, per il ministero della tua Chiesa, giovi alla salvezza del mondo intero. Per Cristo nostro Signore.",
+        "fr": "En célébrant le mémorial de l'amour infini de ton Fils, nous te supplions humblement, Seigneur : que son œuvre de salut porte du fruit, par le ministère de ton Église, afin que soit sauvé le monde entier. Par le Christ, notre Seigneur.",
+        "de": "Herr, unser Gott, am Altar gedenken wir der unermesslichen Liebe deines Sohnes. Lass sein Erlösungswerk durch den Dienst der Kirche für die ganze Welt fruchtbar werden. Darum bitten wir durch Christus, unseren Herrn."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Imménsæ Fílii tui caritátis memoriále celebrántes, te, Dómine, supplíciter exorámus, ut eiúsdem salutáris óperis fructus, per Ecclésiæ tuæ ministérium,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "ad totíus mundi profíciat salútem. Per Christum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Al celebrar el memorial del amor infinito de tu Hijo,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "te suplicamos,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Señor,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "que los frutos de su acción salvadora Sirvan,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "por el ministerio de tu Iglesia,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "para la salvación de todo el mundo."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por Jesucristo, nuestro Señor."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "Celebrating the memorial of your Son's boundless love, we humbly beseech you,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "O Lord,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "that through the ministry of your Church the fruits of his saving work may advance the salvation of all the world."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Through Christ our Lord."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Ao celebrar o memorial do imenso amor do vosso Filho,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "rogamos humildemente, Senhor,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "que, pelo ministério da vossa Igreja,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "o fruto da obra redentora sirva para a salvação do mundo inteiro."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por Cristo, nosso Senhor."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "Per questo memoriale dell'immenso amore del tuo Figlio, ti chiediamo umilmente, o Padre, che il frutto della sua opera redentrice, per il ministero della tua Chiesa, giovi alla salvezza del mondo intero. Per Cristo nostro Signore."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "En célébrant le mémorial de l'amour infini de ton Fils,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "nous te supplions humblement, Seigneur :"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "que son œuvre de salut porte du fruit,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "par le ministère de ton Église,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "afin que soit sauvé le monde entier."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Par le Christ, notre Seigneur."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Herr, unser Gott, am Altar gedenken wir der unermesslichen Liebe deines Sohnes. Lass sein Erlösungswerk durch den Dienst der Kirche für die ganze Welt fruchtbar werden. Darum bitten wir durch Christus, unseren Herrn."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "preface": {
+    "prefaceRef": "preface.pf031",
+    "label": {
+      "la": "Præfatio VIII de dominicis «per annum»",
+      "fr": "Préface VIII des dimanches"
+    }
+  },
+  "communionAntiphon": {
+    "body": {
+      "plain": {
+        "la": "Ecce sto ad óstium et pulso, dicit Dóminus; si quis audíerit vocem meam et aperúerit mihi iánuam, intrábo ad illum, et cenábo cum illo, et ipse mecum.",
+        "es": "Mira, estoy de pie a la puerta y llamo. Si alguien escucha mi voz y abre la puerta, entraré en su casa y cenaré con él y él conmigo, dice el Señor.",
+        "en": "Behold, I stand at the door and knock, says the Lord. if anyone hears my voice and opens the door to me, I will enter his house and dine with him, and he with me.",
+        "pt-BR": "Eis que estou à porta e bato, diz o Senhor; se alguém ouvir minha voz e abrir a porta, eu entrarei na sua casa e tomaremos a refeição, eu com ele e ele comigo.",
+        "it": "Ecco: sto alla porta e busso. Se qualcuno ascolta la mia voce e mi apre la porta, io verrò da lui, cenerò con lui ed egli con me.",
+        "fr": "Voici que je me tiens à la porte et je frappe, dit le Seigneur. Si quelqu'un entend ma voix et m'ouvre la porte, j'entrerai chez lui, je prendrai mon repas avec lui, et lui avec moi.",
+        "de": "So spricht der Herr: Ich stehe vor der Tür und klopfe an. Wer meine Stimme hört und die Tür öffnet, bei dem werde ich eintreten, und wir werden Mahl halten, ich mit ihm und er mit mir."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Ecce sto ad óstium et pulso, dicit Dóminus; si quis audíerit vocem meam et aperúerit mihi iánuam, intrábo ad illum, et cenábo cum illo, et ipse mecum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Mira, estoy de pie a la puerta y llamo. Si alguien escucha mi voz y abre la puerta, entraré en su casa y cenaré con él y él conmigo, dice el Señor."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "Behold, I stand at the door and knock, says the Lord."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "if anyone hears my voice and opens the door to me,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "I will enter his house and dine with him,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "and he with me."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Eis que estou à porta e bato, diz o Senhor;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "se alguém ouvir minha voz e abrir a porta,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "eu entrarei na sua casa e tomaremos a refeição,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "eu com ele e ele comigo."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "Ecco: sto alla porta e busso. Se qualcuno ascolta la mia voce e mi apre la porta, io verrò da lui, cenerò con lui ed egli con me."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Voici que je me tiens à la porte et je frappe, dit le Seigneur."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Si quelqu'un entend ma voix et m'ouvre la porte,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "j'entrerai chez lui, je prendrai mon repas avec lui, et lui avec moi."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "So spricht der Herr: Ich stehe vor der Tür und klopfe an. Wer meine Stimme hört und die Tür öffnet, bei dem werde ich eintreten, und wir werden Mahl halten, ich mit ihm und er mit mir."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "postcommunion": {
+    "body": {
+      "plain": {
+        "la": "Vígeat in hac Ecclésia tua, Dómine, et usque in finem persevéret fídei intégritas, morum sánctitas, fratérna cáritas et munda relígio, et, quam Fílii tui Córpore et verbo tuo páscere non désinis, eam quoque tuis non cesses gubernáre præsídiis. Per Christum.",
+        "es": "Te rogamos, Señor, que florezcan con toda su fuerza y perseveren hasta el fin en esta Iglesia tuya la integridad de la fe, la santidad de las costumbres, la caridad fraterna y la devoción sincera, y a la que no dejas de alimentar con tu palabra y con el Cuerpo de tu Hijo, no ceses tampoco de conducirla bajo tu protección. Por Jesucristo, nuestro Señor.",
+        "en": "In this your Church, O Lord, may integrity of faith, holiness of life, fraternal charity and pure religion flourish and abide until the end, and, as you do not fail to feed her with the Body of your Son and with your word, so also never cease, we pray, to guide her under your protection. Through Christ our Lord.",
+        "pt-BR": "Floresçam, Senhor, nesta vossa Igreja, e perdurem até o fim, a integridade da fé, a santidade dos costumes, o amor fraterno e a piedade autêntica; e não deixeis de conduzir com vossa proteção esta Igreja que sempre alimentais com a vossa Palavra e o Corpo do vosso Filho. Que vive e reina pelos séculos dos séculos.",
+        "it": "Fioriscano in questa tua Chiesa, o Padre, fino alla venuta di Cristo suo Sposo, l'integrità della fede, la santità della vita, la carità fraterna e la pietà autentica: tu, che ci nutri incessantemente con il Corpo del tuo Figlio e con la tua parola, non privarci mai della tua guida e protezione. Per Cristo nostro Signore.",
+        "fr": "Que se fortifient, Seigneur, dans ton Église de N. , et se maintiennent jusqu'au bout l'intégrité de la foi et la sainteté de vie, la charité fraternelle et un vrai comportement religieux ; puisque tu ne cesses de la nourrir du Corps de ton Fils et de ta Parole, conduis-la et protège-la toujours. Par le Christ, notre Seigneur.",
+        "de": "Allmächtiger Gott; du nährst deine Kirche allezeit mit deinem Wort und dem Brot des Lebens. Begleite sie mit deinem Schutz, erhalte in ihr die Unversehrtheit des Glaubens und die Heiligkeit der Sitten lebendig, die brüderliche Liebe und die wahre Frömmigkeit. Darum bitten wir durch Christus, unseren Herrn."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Vígeat in hac Ecclésia tua, Dómine, et usque in finem persevéret fídei intégritas, morum sánctitas, fratérna cáritas et munda relígio, et, quam Fílii tui Córpore et verbo tuo páscere non désinis, eam quoque tuis non cesses gubernáre præsídiis. Per Christum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Te rogamos, Señor,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "que florezcan con toda su fuerza y perseveren hasta el fin en esta Iglesia tuya la integridad de la fe,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "la santidad de las costumbres,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "la caridad fraterna y la devoción sincera,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "y a la que no dejas de alimentar con tu palabra y con el Cuerpo de tu Hijo,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "no ceses tampoco de conducirla bajo tu protección."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por Jesucristo, nuestro Señor."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "In this your Church, O Lord,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "may integrity of faith, holiness of life,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "fraternal charity and pure religion flourish and abide until the end,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "and, as you do not fail to feed her with the Body of your Son and with your word,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "so also never cease, we pray,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "to guide her under your protection."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Through Christ our Lord."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Floresçam, Senhor, nesta vossa Igreja,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "e perdurem até o fim,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "a integridade da fé, a santidade dos costumes,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "o amor fraterno e a piedade autêntica;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "e não deixeis de conduzir com vossa proteção esta Igreja que sempre alimentais com a vossa Palavra e o Corpo do vosso Filho."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Que vive e reina pelos séculos dos séculos."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "Fioriscano in questa tua Chiesa, o Padre, fino alla venuta di Cristo suo Sposo, l'integrità della fede, la santità della vita, la carità fraterna e la pietà autentica: tu, che ci nutri incessantemente con il Corpo del tuo Figlio e con la tua parola, non privarci mai della tua guida e protezione. Per Cristo nostro Signore."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Que se fortifient, Seigneur, dans ton Église de"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": ","
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "et se maintiennent jusqu'au bout l'intégrité de la foi et la sainteté de vie,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "la charité fraternelle et un vrai comportement religieux ;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "puisque tu ne cesses de la nourrir du Corps de ton Fils et de ta Parole,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "conduis-la et protège-la toujours."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Par le Christ, notre Seigneur."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Allmächtiger Gott; du nährst deine Kirche allezeit mit deinem Wort und dem Brot des Lebens. Begleite sie mit deinem Schutz, erhalte in ihr die Unversehrtheit des Glaubens und die Heiligkeit der Sitten lebendig, die brüderliche Liebe und die wahre Frömmigkeit. Darum bitten wir durch Christus,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "unseren Herrn."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "liturgicalColor": "green"
+}

@@ -1,0 +1,2036 @@
+{
+  "id": "tempore.advent.week-3.thursday",
+  "group": "tempore",
+  "season": "advent",
+  "weekIndex": 3,
+  "weekday": "thursday",
+  "title": {
+    "la": "Hebdomada III Feria quinta",
+    "es": "Adviento Jueves de la III Semana",
+    "en": "Advent Season 3rd Week: Thursday",
+    "pt-BR": "Terceira semana Quinta-feira",
+    "it": "Avvento III SETTIMANA Giovedì",
+    "fr": "3e semaine Jeudi",
+    "de": "DONNERSTAG der dritten Adventswoche"
+  },
+  "entranceAntiphon": {
+    "body": {
+      "plain": {
+        "la": "Prope es tu, Dómine, et omnes viæ tuæ véritas; inítio cognóvi de testimóniis tuis, quia in ætérnum tu es.",
+        "es": "Tú, Señor, estás cerca y todos tus caminos son verdaderos; hace tiempo comprendí tus preceptos, porque tú eres eterno.",
+        "en": "You, O Lord, are close, and all your ways are truth. From of old I have known of your decrees, for you are eternal.",
+        "pt-BR": "Estais perto, Senhor, e todos os vossos caminhos são verdade. Desde sempre conheci vossa palavra porque existis eternamente.",
+        "it": "Tu sei vicino, o Signore, e tutte le tue vie sono verità; fin dal principio, dalle tue testimonianze ho conosciuto che in eterno tu sei.",
+        "fr": "Toi, Seigneur, tu es proche, tout dans tes ordres est vérité. Depuis longtemps je le sais : tu as fondé pour toujours tes exigences.",
+        "de": "Nahe bist du, Herr, und alles, was du sagst, ist Wahrheit. Deine Worte werden nicht vergehen, sie bleiben für immer und ewig."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Prope es tu, Dómine, et omnes viæ tuæ véritas; inítio cognóvi de testimóniis tuis, quia in ætérnum tu es."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Tú, Señor, estás cerca y todos tus caminos son verdaderos; hace tiempo comprendí tus preceptos, porque tú eres eterno."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "You, O Lord, are close, and all your ways are truth."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "From of old I have known of your decrees, for you are eternal."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Estais perto, Senhor,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "e todos os vossos caminhos são verdade."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Desde sempre conheci vossa palavra porque existis eternamente."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "Tu sei vicino, o Signore, e tutte le tue vie sono verità; fin dal principio,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "dalle tue testimonianze ho conosciuto che in eterno tu sei."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Toi, Seigneur,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "tu es proche,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "tout dans tes ordres est vérité."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Depuis longtemps je le sais :"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "tu as fondé pour toujours tes exigences."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Nahe bist du, Herr, und alles, was du sagst, ist Wahrheit. Deine Worte werden nicht vergehen, sie bleiben für immer und ewig."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "collect": {
+    "body": {
+      "plain": {
+        "la": "Indígnos, quǽsumus, Dómine, nos fámulos tuos, quos actiónis própriæ culpa contrístat, Unigéniti tui advéntu salutári lætífica. Qui tecum.",
+        "es": "Te pedimos, Señor, que nosotros, indignos siervos tuyos, afligidos por las propias culpas, nos alegremos en la venida salvadora de tu Unigénito. Él, que vive y reina contigo.",
+        "en": "Unworthy servants that we are, O Lord, grieved by the guilt of our deeds, we pray that you may gladden us by the saving advent of your Only Begotten Son. Who lives and reigns with you in the unity of the Holy Spirit, one God, for ever and ever.",
+        "pt-BR": "Senhor, somos servos indignos e reconhecemos com tristeza as nossas faltas. Dai-nos a alegria do advento do vosso Filho Unigênito, que vem para nos salvar. Ele, que é Deus, e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
+        "it": "La coscienza della nostra colpa, o Padre, ci rattrista e ci fa sentire indegni di servirti; donaci la tua gioia e salvaci con la venuta del tuo Figlio unigenito. Egli è Dio, e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli.",
+        "fr": "Seigneur, nous sommes pour toi des serviteurs indignes, attristés par la conscience de nos fautes ; nous t'en prions : réjouis-nous par l'avènement de ton Fils unique, qui apporte le salut. Lui qui vit et règne avec toi dans l'unité du Saint-Esprit, Dieu, pour les siècles des siècles.",
+        "de": "Heiliger Gott, wir sind vor dir schuldig geworden, und die Sünde belastet uns. Schenke deinen unwürdigen Dienern die Freude wieder durch die heilbringende Ankunft deines Sohnes, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Indígnos, quǽsumus, Dómine, nos fámulos tuos, quos actiónis própriæ culpa contrístat, Unigéniti tui advéntu salutári lætífica. Qui tecum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Te pedimos, Señor,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "que nosotros, indignos siervos tuyos,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "afligidos por las propias culpas,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "nos alegremos en la venida salvadora de tu Unigénito."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Él, que vive y reina contigo."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "Unworthy servants that we are, O Lord,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "grieved by the guilt of our deeds,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "we pray that you may gladden us by the saving advent of your Only Begotten Son."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Who lives and reigns with you in the unity of the Holy Spirit,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "one God, for ever and ever."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Senhor, somos servos indignos e reconhecemos com tristeza as nossas faltas."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Dai-nos a alegria do advento do vosso Filho Unigênito,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "que vem para nos salvar."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Ele, que é Deus, e convosco vive e reina,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "na unidade do Espírito Santo,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "por todos os séculos dos séculos."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "La coscienza della nostra colpa, o Padre, ci rattrista e ci fa sentire indegni di servirti; donaci la tua gioia e salvaci con la venuta del tuo Figlio unigenito. Egli è Dio, e vive e regna con te, nell'unità dello Spirito Santo,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "per tutti i secoli dei secoli."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Seigneur, nous sommes pour toi des serviteurs indignes,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "attristés par la conscience de nos fautes ;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "nous t'en prions :"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "réjouis-nous par l'avènement de ton Fils unique,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "qui apporte le salut."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Lui qui vit et règne avec toi dans l'unité du Saint-Esprit,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Dieu, pour les siècles des siècles."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Heiliger Gott, wir sind vor dir schuldig geworden, und die Sünde belastet uns."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Schenke deinen unwürdigen Dienern die Freude wieder durch die heilbringende Ankunft deines Sohnes, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "prayerOverOfferings": {
+    "body": {
+      "plain": {
+        "la": "Súscipe, quǽsumus, Dómine, múnera, quæ de tuis offérimus colláta benefíciis, et, quod nostræ devotióni concédis éffici temporáli, tuæ nobis fiat prǽmium redemptiónis ætérnæ. Per Christum.",
+        "es": "Acepta, Señor, los dones que te ofrecemos, escogidos de los bienes que hemos recibido de ti, y lo que nos concedes celebrar con devoción durante nuestra vida mortal sea para nosotros premio de tu redención eterna. Por Jesucristo, nuestro Señor.",
+        "en": "Accept, we pray, O Lord, these offerings we make, gathered from among your gifts to us, and may what you grant us to celebrate devoutly here below gain for us the prize of eternal redemption. Through Christ our Lord.",
+        "pt-BR": "Aceitai, Senhor, os dons que vos oferecemos dentre os bens que nos destes; e os santos mistérios, que nos dais celebrar no tempo, se convertam para nós em prêmio de redenção eterna. Por Cristo, nosso Senhor.",
+        "it": "Accogli, o Signore, il pane e il vino, dono della tua benevolenza, e concedi che il nostro sacrificio spirituale compiuto nel tempo sia per noi pegno della redenzione eterna. Per Cristo nostro Signore.",
+        "fr": "Nous t'offrons, Seigneur, ces dons prélevés sur les bienfaits reçus de toi : nous t'en prions, accueille-les ; puisse la célébration fervente, que tu nous donnes d'accomplir dans le temps présent, nous obtenir la rédemption éternelle. Par le Christ, notre Seigneur.",
+        "de": "Allmächtiger Gott, alles, was wir haben, kommt von dir. Nimm die Gaben an, die wir darbringen. Mache sie für uns in diesem Leben zum Sakrament der Erlösung und rufe uns an deinen Tisch im kommenden Reich. Darum bitten wir durch Christus, unseren Herrn."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Súscipe, quǽsumus, Dómine, múnera, quæ de tuis offérimus colláta benefíciis,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "et, quod nostræ devotióni concédis éffici temporáli, tuæ nobis fiat prǽmium redemptiónis ætérnæ. Per Christum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Acepta, Señor,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "los dones que te ofrecemos,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "escogidos de los bienes que hemos recibido de ti,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "y lo que nos concedes celebrar con devoción durante nuestra vida mortal sea para nosotros premio de tu redención eterna."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por Jesucristo, nuestro Señor."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "Accept, we pray, O Lord, these offerings we make, gathered from among your gifts to us,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "and may what you grant us to celebrate devoutly here below gain for us the prize of eternal redemption."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Through Christ our Lord."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Aceitai, Senhor,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "os dons que vos oferecemos dentre os bens que nos destes;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "e os santos mistérios, que nos dais celebrar no tempo,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "se convertam para nós em prêmio de redenção eterna."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por Cristo, nosso Senhor."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "Accogli, o Signore, il pane e il vino, dono della tua benevolenza, e concedi che il nostro sacrificio spirituale compiuto nel tempo sia per noi pegno della redenzione eterna. Per Cristo nostro Signore."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Nous t'offrons,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Seigneur, ces dons prélevés sur les bienfaits reçus de toi :"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "nous t'en prions, accueille-les ;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "puisse la célébration fervente,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "que tu nous donnes d'accomplir dans le temps présent,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "nous obtenir la rédemption éternelle."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Par le Christ, notre Seigneur."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Allmächtiger Gott, alles, was wir haben, kommt von dir. Nimm die Gaben an, die wir darbringen. Mache sie für uns in diesem Leben zum Sakrament der Erlösung und rufe uns an deinen Tisch im kommenden Reich. Darum bitten wir durch Christus, unseren Herrn."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "preface": {
+    "prefaceRef": "preface.pf001",
+    "alternativeRefs": [
+      "preface.pf003"
+    ],
+    "label": {
+      "es": "I",
+      "it": "I"
+    },
+    "excerpt": {
+      "es": "Tú nos has ocultado el día y la hora",
+      "it": "Tu ci hai nascosto il giorno e l'ora"
+    }
+  },
+  "communionAntiphon": {
+    "body": {
+      "plain": {
+        "la": "Iuste et pie vivámus in hoc sǽculo, exspectántes beátam spem et advéntum glóriæ magni Dei.",
+        "es": "Llevemos ya desde ahora una vida sobria, justa y piadosa, aguardando la dicha que esperamos y la manifestación de la gloria del gran Dios.",
+        "en": "Let us live justly and devoutly in this age, as we await the blessed hope and the coming of the glory of our great God.",
+        "pt-BR": "Vivamos neste mundo com justiça e piedade, aguardando a feliz esperança e o advento da glória do grande Deus.",
+        "it": "Viviamo in questo mondo con giustizia e pietà, nell'attesa che si compia la beata speranza e venga nella gloria il nostro Dio.",
+        "fr": "Vivons dans le temps présent avec justice et piété, attendant que se réalise la bienheureuse espérance : la manifestation de la gloire de notre grand Dieu.",
+        "de": "Lasst uns besonnen, gerecht und fromm in dieser Welt leben und auf die selige Erfüllung unserer Hoffnung warten, auf das Erscheinen der Herrlichkeit unseres großen Gottes und Retters Christus Jesus."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Iuste et pie vivámus in hoc sǽculo, exspectántes beátam spem et advéntum glóriæ magni Dei."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Llevemos ya desde ahora una vida sobria, justa y piadosa, aguardando la dicha que esperamos y la manifestación de la gloria del gran Dios."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "Let us live justly and devoutly in this age,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "as we await the blessed hope and the coming of the glory of our great God."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Vivamos neste mundo com justiça e piedade,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "aguardando a feliz esperança e o advento da glória do grande Deus."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "Viviamo in questo mondo con giustizia e pietà, nell'attesa che si compia la beata speranza e venga nella gloria il nostro Dio."
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "Oppure: Lc 7, 28"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Non vi è alcuno più grande di Giovanni, ma il più piccolo nel regno di Dio è più grande di lui."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Vivons dans le temps présent avec justice et piété,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "attendant que se réalise la bienheureuse espérance :"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "la manifestation de la gloire de notre grand Dieu."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Lasst uns besonnen, gerecht und fromm in dieser Welt leben und auf die selige Erfüllung unserer Hoffnung warten, auf das Erscheinen der Herrlichkeit unseres großen Gottes und Retters Christus Jesus."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "postcommunion": {
+    "body": {
+      "plain": {
+        "la": "Prosint nobis, quǽsumus, Dómine, frequentáta mystéria, quibus nos, inter prætereúntia ambulántes, iam nunc instítuis amáre cæléstia et inhærére mansúris. Per Christum.",
+        "es": "Fructifique en nosotros, Señor, la celebración de estos sacramentos, con los que tú nos enseñas, ya en este mundo que pasa, a descubrir el valor de los bienes del cielo y a poner en ellos nuestro corazón. Por Jesucristo, nuestro Señor.",
+        "en": "May these mysteries, O Lord, in which we have participated, profit us, we pray, for even now, as we walk amid passing things, you teach us by them to love the things of heaven and hold fast to what endures. Through Christ our Lord.",
+        "pt-BR": "Fazei frutificar em nós, Senhor, a participação nos vossos mistérios; eles nos levem a amar desde agora os bens do céu e, caminhando entre as coisas que passam, abraçar as que não passam. Por Cristo, nosso Senhor.",
+        "it": "La partecipazione a questo sacramento, che a noi pellegrini sulla terra rivela il senso cristiano della vita, ci sostenga, o Signore, nel nostro cammino e ci guidi ai beni eterni. Per Cristo nostro Signore.",
+        "fr": "Nous t'en prions, Seigneur, fais fructifier en nous les mystères que nous avons célébrés : tandis que nous marchons dans ce monde qui passe, tu nous enseignes par eux à aimer dès maintenant les biens du ciel, et à nous attacher à ceux qui demeurent. Par le Christ, notre Seigneur.",
+        "de": "Herr, unser Gott, du hast uns an deinem Tisch mit neuer Kraft gestärkt. Zeige uns den rechten Weg durch diese vergängliche Welt und lenke unseren Blick auf das Unvergängliche, damit wir in allem dein Reich suchen. Darum bitten wir durch Christus, unseren Herrn."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Prosint nobis, quǽsumus, Dómine, frequentáta mystéria, quibus nos, inter prætereúntia ambulántes, iam nunc instítuis amáre cæléstia et inhærére mansúris. Per Christum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Fructifique en nosotros, Señor,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "la celebración de estos sacramentos,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "con los que tú nos enseñas,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "ya en este mundo que pasa,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "a descubrir el valor de los bienes del cielo y a poner en ellos nuestro corazón."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por Jesucristo, nuestro Señor."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "May these mysteries, O Lord,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "in which we have participated,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "profit us, we pray,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "for even now, as we walk amid passing things, you teach us by them to love the things of heaven and hold fast to what endures."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Through Christ our Lord."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Fazei frutificar em nós, Senhor,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "a participação nos vossos mistérios;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "eles nos levem a amar desde agora os bens do céu e, caminhando entre as coisas que passam,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "abraçar as que não passam."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por Cristo, nosso Senhor."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "La partecipazione a questo sacramento, che a noi pellegrini sulla terra rivela il senso cristiano della vita, ci sostenga, o Signore, nel nostro cammino e ci guidi ai beni eterni. Per Cristo nostro Signore."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Nous t'en prions, Seigneur,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "fais fructifier en nous les mystères que nous avons célébrés :"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "tandis que nous marchons dans ce monde qui passe,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "tu nous enseignes par eux à aimer dès maintenant les biens du ciel,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "et à nous attacher à ceux qui demeurent."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Par le Christ, notre Seigneur."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Herr, unser Gott, du hast uns an deinem Tisch mit neuer Kraft gestärkt. Zeige uns den rechten Weg durch diese vergängliche Welt und lenke unseren Blick auf das Unvergängliche, damit wir in allem dein Reich suchen. Darum bitten wir durch Christus, unseren Herrn."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "readings": {
+    "default": {
+      "firstReading": {
+        "label": {
+          "la": "Lectio prior",
+          "es": "Primera Lectura",
+          "en": "First Reading",
+          "pt-BR": "Primeira Leitura",
+          "it": "Prima lettura",
+          "fr": "Première lecture",
+          "de": "Erste Lesung"
+        },
+        "summary": {
+          "la": "Ut mulierem derelictam vocavit te Dóminus.",
+          "es": "Como a mujer abandonada te llama el Señor",
+          "pt-BR": "Como a mulher abandonada o Senhor te chamou.",
+          "it": "Come una donna abbandonata ti ha richiamata il Signore."
+        },
+        "introduction": {
+          "la": "Léctio libri Isaíæ prophétæ",
+          "es": "Lectura del libro del profeta Isaías",
+          "en": "A reading from the book of Isaiah",
+          "pt-BR": "Leitura do Livro do Profeta Isaías",
+          "it": "Dal libro del profeta Isaia",
+          "fr": "Livre d'Isaïe",
+          "de": "Lesung aus dem Buch Jesája"
+        },
+        "body": {
+          "plain": {
+            "la": "Exsúlta, stérilis, quæ non peperísti, lætáre, gaude, quæ non parturísti, quóniam multi sunt fílii desértæ magis quam fílii nuptæ, dicit Dóminus. Diláta locum tentórii tui et pelles tabernaculórum tuórum exténde, ne parcas; longos fac funículos tuos et clavos tuos consólida. Ad déxteram enim et ad lævam penetrábis, et semen tuum hereditábit gentes, quæ civitátes desértas inhabitábunt. Noli timére, quia non confundéris, neque erubéscas, quia non te pudébit; nam confusiónis adulescéntiæ tuæ obliviscéris et oppróbrii viduitátis tuæ non recordáberis ámplius. Qui enim fecit te, erit sponsus tuus, Dóminus exercítuum nomen eius; et redémptor tuus Sanctus Israel, Deus omnis terræ vocábitur. Quia ut mulíerem derelíctam et mæréntem spíritu vocávit te Dóminus, et uxórem ab adulescéntia abiéctam dixit Deus tuus. Ad punctum in módico derelíqui te et in miseratiónibus magnis congregábo te. In moménto indignatiónis abscóndi fáciem meam parúmper a te et in misericórdia sempitérna misértus sum tui, dixit redémptor tuus Dóminus. Sicut in diébus Noe istud mihi est, cui iurávi, ne indúcerem aquas Noe ultra supra terram; sic iurávi, ut non iráscar tibi et non íncrepem te. Montes enim recédent, et colles movebúntur, misericórdia autem mea non recédet a te, et fœdus pacis meæ non movébitur, dixit miserátor tuus Dóminus.",
+            "es": "Exulta, estéril, que no dabas a luz; rompe a cantar, alégrate, tú que no tenías dolores de parto: porque la abandonada tendrá más hijos que la casada —dice el Señor— Ensancha el espacio de tu tienda, despliega los toldos de tu morada, no los restrinjas, alarga tus cuerdas, afianza tus estacas, porque te extenderás de derecha a izquierda. Tu estirpe heredará las naciones y poblará ciudades desiertas. No temas, no tendrás que avergonzarte, no te sientas ultrajada, porque no deberás sonrojarte. Olvidarás la vergüenza de tu soltería, no recordarás la afrenta de tu viudez. Quien te desposa es tu Hacedor: su nombre es Señor todopoderoso. Tu libertador es el Santo de Israel: se llama «Dios de toda la tierra». Como a mujer abandonada y abatida te llama el Señor; como a esposa de juventud, repudiada —dice tu Dios—. Por un instante te abandoné, pero con gran cariño te reuniré. En un arrebato de ira, por un instante te escondí mi rostro, pero con amor eterno te quiero —dice el Señor, tu libertador—. Me sucede como en los días de Noé: juré que las aguas de Noé no volverían a cubrir la tierra; así juro no irritarme contra ti ni amenazarte. Aunque los montes cambiasen y vacilaran las colinas, no cambiaría mi amor, ni vacilaría mi alianza de paz —dice el Señor que te quiere—.",
+            "en": "Shout for joy, you barren women who bore no children! Break into cries of joy and gladness, you who were never in labour! For the sons of the forsaken one are more in number than the sons of the wedded wife, says the Lord. Widen the space of your tent, stretch out your hangings freely, lengthen your ropes, make your pegs firm; for you will burst out to right and to left. Your race will take possession of the nations, and people the abandoned cities. Do not be afraid, you will not be put to shame, do not be dismayed, you will not be disgraced; for you will forget the shame of your youth and no longer remember the curse of your widowhood. For now your creator will be your husband, his name, the Lord of hosts; your redeemer will be 'the Holy One of Israel, he is called the God of the whole earth. Yes, like a forsaken wife, distressed in spirit, the Lord calls you back. Does a man cast off the wife of his youth? says your God. I did forsake you for a brief moment, but with great love will I take you back. In excess of anger, for a moment I hid my face from you. But with everlasting love I have taken pity on you, says the Lord, your redeemer. I am now as I was in the days of Noah when I swore that Noah's waters should never flood the world again. So now I swear concerning my anger with you and the threats I made against you; for the mountains may depart, the hills be shaken, but my love for you will never leave you and my covenant of peace with you will never be shaken, says the Lord who takes pity on you.",
+            "pt-BR": "Alegra-te, ó estéril, que nunca foste mãe, exulta e regozija-te, tu que nunca deste à luz; os filhos da mulher abandonada são mais numerososdo que os filhos da bem-casada, diz o Senhor. Alarga o espaço de tua tenda e distende bastante as peles das tuas barracas; usa cordas bem longas e finca as estacas com segurança. Farás expansão para um lado e para outro e tua posteridade receberá em herança as nações que povoarão cidades abandonadas. Não tenhas medo, pois não sofrerás afronta alguma; nem te perturbes, pois não tens de que te envergonhar; esquecerás a vergonha sofrida na juventude e não te recordarás mais da humilhação da viuvez. Teu esposo é aquele que te criou, seu nome é Senhor dos exércitos; teu redentor, o Santo de Israel, chama-se Deus de toda a terra. O Senhor te chamou, como a mulher abandonada e de alma aflita; como a esposa repudiada na mocidade, falou o teu Deus. Por um breve instante eu te abandonei, mas com imensa compaixão volto a acolher-te. Num momento de indignação, por um pouco ocultei de ti minha face, mas com misericórdia eterna compadeci-me de ti, diz teu salvador, o Senhor. Como fiz nos dias de Noé, a quem jurei nunca mais inundar a terra, assim juro que não me irritarei contra ti nem te farei ameaças. Podem os montes recuar e as colinas abalar-se, mas minha misericórdia não se apartará de ti, nada fará mudar a aliança de minha paz, diz o teu misericordioso Senhor.",
+            "it": "Esulta, o sterile che non hai partorito, prorompi in grida di giubilo e di gioia, tu che non hai provato i dolori, perché più numerosi sono i figli dell'abbandonata che i figli della maritata, dice il Signore. Allarga lo spazio della tua tenda, stendi i teli della tua dimora senza risparmio, allunga le cordicelle, rinforza i tuoi paletti, poiché ti allargherai a destra e a sinistra e la tua discendenza possederà le nazioni, popolerà le città un tempo deserte. Non temere, perché non dovrai più arrossire; non vergognarti, perché non sarai più disonorata; anzi, dimenticherai la vergogna della tua giovinezza e non ricorderai più il disonore della tua vedovanza. Poiché tuo sposo è il tuo creatore, Signore degli eserciti è il suo nome; tuo redentore è il Santo d'Israele, è chiamato Dio di tutta la terra. Come una donna abbandonata e con l'animo afflitto, ti ha richiamata il Signore. Viene forse ripudiata la donna sposata in gioventù? - dice il tuo Dio. Per un breve istante ti ho abbandonata, ma ti raccoglierò con immenso amore. In un impeto di collera ti ho nascosto per un poco il mio volto; ma con affetto perenne ho avuto pietà di te, dice il tuo redentore, il Signore. Ora è per me come ai giorni di Noè, quando giurai che non avrei più riversato le acque di Noè sulla terra; così ora giuro di non più adirarmi con te e di non più minacciarti. Anche se i monti si spostassero e i colli vacillassero, non si allontanerebbe da te il mio affetto, né vacillerebbe la mia alleanza di pace, dice il Signore che ti usa misericordia.",
+            "fr": "Crie de joie, femme stérile, toi qui n'as pas enfanté ; jubile, éclate en cris de joie, toi qui n'as pas connu les douleurs ! Car les fils de la délaissée seront plus nombreux que les fils de l'épouse, – dit le Seigneur. Élargis l'espace de ta tente, déploie sans hésiter la toile de ta demeure, allonge tes cordages, renforce tes piquets ! Car tu vas te répandre au nord et au midi. Ta descendance dépossédera les nations, elle peuplera des villes désertées. Ne crains pas, tu ne connaîtras plus la honte ; ne tiens pas compte des outrages, tu n'auras plus à rougir, tu oublieras la honte de ta jeunesse, tu ne te rappelleras plus le déshonneur de ton veuvage. Car ton époux, c'est Celui qui t'a faite, son nom est « Le Seigneur de l'univers ». Ton rédempteur, c'est le Saint d'Israël, il s'appelle « Dieu de toute la terre ». Oui, comme une femme abandonnée, accablée, le Seigneur te rappelle. Est-ce qu'on rejette la femme de sa jeunesse ? – dit ton Dieu. Un court instant, je t'avais abandonnée, mais dans ma grande tendresse, je te ramènerai. Quand ma colère a débordé, un instant, je t'avais caché ma face. Mais dans mon éternelle fidélité, je te montre ma tendresse, – dit le Seigneur, ton rédempteur. Je ferai comme au temps de Noé, quand j'ai juré que les eaux ne submergeraient plus la terre : de même, je jure de ne plus m'irriter contre toi, et de ne plus te menacer. Même si les montagnes s'écartaient, si les collines s'ébranlaient, ma fidélité ne s'écarterait pas de toi, mon alliance de paix ne serait pas ébranlée, – dit le Seigneur, qui te montre sa tendresse.",
+            "de": "Freu dich, du Unfruchtbare, die nie gebar, du, die nie in Wehen lag, brich in Jubel aus und jauchze! Denn die Einsame hat jetzt viel mehr Söhne als die Vermählte, spricht der Herr. Mach den Raum deines Zeltes weit, spann deine Zelttücher aus, ohne zu sparen. Mach die Stricke lang und die Pflöcke fest! Denn nach rechts und links breitest du dich aus. Deine Nachkommen werden Völker beerben und verödete Städte besiedeln. Fürchte dich nicht, du wirst nicht beschämt; schäme dich nicht, du wirst nicht enttäuscht. Denn die Schande in deiner Jugend wirst du vergessen, an die Schmach deiner Witwenschaft wirst du nicht mehr denken. Denn dein Schöpfer ist dein Gemahl, „Herr der Heere“ ist sein Name. Der Heilige Israels ist dein Erlöser, „Gott der ganzen Erde“ wird er genannt. Ja, der Herr hat dich gerufen als verlassene, bekümmerte Frau. Kann man denn die Frau verstoßen, die man in der Jugend geliebt hat?, spricht dein Gott. Nur für eine kleine Weile habe ich dich verlassen, doch mit großem Erbarmen hole ich dich heim. Einen Augenblick nur verbarg ich vor dir mein Gesicht in aufwallendem Zorn; aber mit ewiger Huld habe ich Erbarmen mit dir, spricht dein Erlöser, der Herr. Wie in den Tagen Noachs soll es für mich sein: So wie ich damals schwor, dass die Flut Noachs die Erde nie mehr überschwemmen wird, so schwöre ich jetzt, dir nie mehr zu zürnen und dich nie mehr zu schelten. Auch wenn die Berge von ihrem Platz weichen und die Hügel zu wanken beginnen - meine Huld wird nie von dir weichen und der Bund meines Friedens nicht wanken, spricht der Herr, der Erbarmen hat mit dir."
+          }
+        },
+        "conclusion": {
+          "la": "Verbum Dómini.",
+          "en": "The Word of the Lord.",
+          "pt-BR": "Palavra do Senhor.",
+          "it": "Parola di Dio.",
+          "fr": "Parole du Seigneur.",
+          "de": "Wort des lebendigen Gottes."
+        },
+        "citation": {
+          "la": "Is 54, 1-10",
+          "es": "Is 54, 1-10",
+          "en": "Is 54:1-10",
+          "pt-BR": "Is 54, 1-10",
+          "it": "Is 54, 1-10",
+          "fr": "Is 54, 1-10",
+          "de": "Jes 54, 1-10"
+        },
+        "response": {
+          "body": {
+            "plain": {
+              "la": "R/. Deo gratias.",
+              "es": "R/. Te alabamos, Señor.",
+              "en": "R/. Thanks be to God.",
+              "pt-BR": "R/. Graças a Deus.",
+              "it": "R/. Rendiamo grazie a Dio.",
+              "fr": "R/. Nous rendons grâce à Dieu.",
+              "de": "A: Dank sei Gott."
+            },
+            "lines": {
+              "la": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Deo gratias."
+                  }
+                ]
+              ],
+              "es": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Te alabamos, Señor."
+                  }
+                ]
+              ],
+              "en": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Thanks be to God."
+                  }
+                ]
+              ],
+              "pt-BR": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Graças a Deus."
+                  }
+                ]
+              ],
+              "it": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Rendiamo grazie a Dio."
+                  }
+                ]
+              ],
+              "fr": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Nous rendons grâce à Dieu."
+                  }
+                ]
+              ],
+              "de": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "A:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Dank sei Gott."
+                  }
+                ]
+              ]
+            }
+          }
+        }
+      },
+      "responsorialPsalm": {
+        "body": {
+          "plain": {
+            "la": "R/. Exaltábo te, Dómine, quóniam extraxísti me. Exaltábo te, Dómine, quóniam extraxísti me, nec delectásti inimícos meos super me. Dómine, eduxísti ab inférno ánimam meam, vivificásti me, ut non descénderem in lacum. R/. Exaltábo te, Dómine, quóniam extraxísti me. Psállite Dómino, sancti eius, et confitémini memóriæ sanctitátis eius. Quóniam ad moméntum indignátio eius, et per vitam volúntas eius. Ad vésperum demorátur fletus, ad matutínum lætítia. R/. Exaltábo te, Dómine, quóniam extraxísti me. Audi, Dómine, et miserére mei, Dómine, esto mihi adiútor. Convertísti planctum meum in choros mihi. Dómine Deus meus, in ætérnum confitébor tibi. R/. Exaltábo te, Dómine, quóniam extraxísti me.",
+            "es": "R/. Te ensalzaré, Señor, porque me has librado. Te ensalzaré, Señor, porque me has librado y no has dejado que mis enemigos se rían de mí. Señor, sacaste mi vida del abismo, me hiciste revivir cuando bajaba a la fosa. R/. Te ensalzaré, Señor, porque me has librado. Tañed para el Señor, fieles suyos, celebrad el recuerdo de su nombre santo; su cólera dura un instante; su bondad, de por vida; al atardecer nos visita el llanto; por la mañana, el júbilo. R/. Te ensalzaré, Señor, porque me has librado. Escucha, Señor, y ten piedad de mí; Señor, socórreme. Cambiaste mi luto en danzas. Señor, Dios mío, te daré gracias por siempre. R/. Te ensalzaré, Señor, porque me has librado.",
+            "en": "R/. I will praise you, Lord, for you have rescued me. I will praise you, Lord, you have rescued me and have not let my enemies rejoice over me. O Lord, you have raised my soul from the dead, restored me to life from those who sink into the grave. R/. I will praise you, Lord, for you have rescued me. Sing psalms to the Lord, you who love him, give thanks to his holy name. His anger lasts but a moment; his favor through life. At night there are tears, but joy comes with dawn. R/. I will praise you, Lord, for you have rescued me. The Lord listened and had pity. The Lord came to my help. For me you have changed my mourning into dancing, O Lord my God, I will thank you for ever. R/. I will praise you, Lord, for you have rescued me.",
+            "pt-BR": "R/. Eu vos exalto, ó Senhor, porque vós me livrastes! Eu vos exalto, ó Senhor, pois me livrastes, e não deixastes rir de mim meus inimigos! Vós tirastes minha alma dos abismos e me salvastes, quando estava já morrendo! R/. Eu vos exalto, ó Senhor, porque vós me livrastes! Cantai salmos ao Senhor, povo fiel, dai-lhe graças e invocai seu santo nome! Pois sua ira dura apenas um momento, mas sua bondade permanece a vida inteira; se à tarde vem o pranto visitar-nos, de manhã vem saudar-nos a alegria. R/. Eu vos exalto, ó Senhor, porque vós me livrastes! Escutai-me, Senhor Deus, tende piedade! Sede, Senhor, o meu abrigo protetor! Transformastes o meu pranto em uma festa, Senhor meu Deus, eternamente hei de louvar-vos! R/. Eu vos exalto, ó Senhor, porque vós me livrastes!",
+            "it": "R/. Ti esalterò, Signore, perché mi hai risollevato. Ti esalterò, Signore, perché mi hai risollevato. Ti esalterò, Signore, perché mi hai risollevato, non hai permesso ai miei nemici di gioire su di me. Signore, hai fatto risalire la mia vita dagli inferi, mi hai fatto rivivere perché non scendessi nella fossa. R/. Ti esalterò, Signore, perché mi hai risollevato. Cantate inni al Signore, o suoi fedeli, della sua santità celebrate il ricordo, perché la sua collera dura un istante, la sua bontà per tutta la vita. Alla sera è ospite il pianto e al mattino la gioia. R/. Ti esalterò, Signore, perché mi hai risollevato. Ascolta, Signore, abbi pietà di me, Signore, vieni in mio aiuto! Hai mutato il mio lamento in danza, Signore, mio Dio, ti renderò grazie per sempre. R/. Ti esalterò, Signore, perché mi hai risollevato.",
+            "fr": "R/. Je t'exalte, Seigneur : tu m'as relevé. Je t'exalte, Seigneur : tu m'as relevé. Quand j'ai crié vers toi, tu m'as guéri. Seigneur, tu m'as fait remonter de l'abîme et revivre quand je descendais à la fosse. R/. Je t'exalte, Seigneur : tu m'as relevé. Fêtez le Seigneur, vous, ses fidèles, rendez grâce en rappelant son nom très saint. Sa colère ne dure qu'un instant, sa bonté, toute la vie ; avec le soir, viennent les larmes, mais au matin, les cris de joie. R/. Je t'exalte, Seigneur : tu m'as relevé. Et j'ai crié vers toi, Seigneur, j'ai supplié mon Dieu. Tu as changé mon deuil en une danse, que sans fin, Seigneur, mon Dieu, je te rende grâce ! R/. Je t'exalte, Seigneur : tu m'as relevé.",
+            "de": "R/. Herr, du zogst mich empor aus der Tiefe; ich will dich rühmen in Ewigkeit. Ich will dich rühmen, Herr, denn du hast mich aus der Tiefe gezogen und lässt meine Feinde nicht über mich triumphieren. Herr, du hast mich herausgeholt aus dem Reich des Todes, aus der Schar der Todgeweihten mich zum Leben gerufen. R/. Herr, du zogst mich empor aus der Tiefe; ich will dich rühmen in Ewigkeit. Singt und spielt dem Herrn, ihr seine Frommen, preist seinen heiligen Namen! Denn sein Zorn dauert nur einen Augenblick, doch seine Güte ein Leben lang. R/. Herr, du zogst mich empor aus der Tiefe; ich will dich rühmen in Ewigkeit. Wenn man am Abend auch weint, am Morgen herrscht wieder Jubel. Du hast mein Klagen in Tanzen verwandelt, Herr, mein Gott, ich will dir danken in Ewigkeit. R/. Herr, du zogst mich empor aus der Tiefe; ich will dich rühmen in Ewigkeit."
+          },
+          "lines": {
+            "la": [
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Exaltábo te, Dómine, quóniam extraxísti me."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Exaltábo te, Dómine, quóniam extraxísti me,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "nec delectásti inimícos meos super me."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Dómine, eduxísti ab inférno ánimam meam,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "vivificásti me,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "ut non descénderem in lacum."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Exaltábo te, Dómine, quóniam extraxísti me."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Psállite Dómino, sancti eius,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "et confitémini memóriæ sanctitátis eius."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Quóniam ad moméntum indignátio eius,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "et per vitam volúntas eius."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Ad vésperum demorátur fletus,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "ad matutínum lætítia."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Exaltábo te, Dómine, quóniam extraxísti me."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Audi, Dómine, et miserére mei,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Dómine, esto mihi adiútor."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Convertísti planctum meum in choros mihi."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Dómine Deus meus, in ætérnum confitébor tibi."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Exaltábo te, Dómine, quóniam extraxísti me."
+                }
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Te ensalzaré, Señor, porque me has librado."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Te ensalzaré, Señor, porque me has librado y no has dejado que mis enemigos se rían de mí."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Señor, sacaste mi vida del abismo,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "me hiciste revivir cuando bajaba a la fosa."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Te ensalzaré, Señor, porque me has librado."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Tañed para el Señor, fieles suyos,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "celebrad el recuerdo de su nombre santo;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "su cólera dura un instante; su bondad, de por vida;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "al atardecer nos visita el llanto;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "por la mañana, el júbilo."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Te ensalzaré, Señor, porque me has librado."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Escucha, Señor, y ten piedad de mí;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Señor, socórreme."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Cambiaste mi luto en danzas."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Señor, Dios mío, te daré gracias por siempre."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Te ensalzaré, Señor, porque me has librado."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "I will praise you, Lord, for you have rescued me."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "I will praise you, Lord, you have rescued me and have not let my enemies rejoice over me. O Lord, you have raised my soul from the dead, restored me to life from those who sink into the grave."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "I will praise you, Lord, for you have rescued me."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Sing psalms to the Lord, you who love him, give thanks to his holy name. His anger lasts but a moment; his favor through life. At night there are tears,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "but joy comes with dawn."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "I will praise you, Lord, for you have rescued me."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "The Lord listened and had pity. The Lord came to my help. For me you have changed my mourning into dancing, O Lord my God, I will thank you for ever."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "I will praise you, Lord, for you have rescued me."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Eu vos exalto, ó Senhor, porque vós me livrastes!"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Eu vos exalto, ó Senhor, pois me livrastes,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "e não deixastes rir de mim meus inimigos!"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Vós tirastes minha alma dos abismos e me salvastes,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "quando estava já morrendo!"
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Eu vos exalto, ó Senhor, porque vós me livrastes!"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Cantai salmos ao Senhor, povo fiel,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "dai-lhe graças e invocai seu santo nome!"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Pois sua ira dura apenas um momento,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "mas sua bondade permanece a vida inteira;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "se à tarde vem o pranto visitar-nos,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "de manhã vem saudar-nos a alegria."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Eu vos exalto, ó Senhor, porque vós me livrastes!"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Escutai-me, Senhor Deus, tende piedade!"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Sede, Senhor, o meu abrigo protetor!"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Transformastes o meu pranto em uma festa,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Senhor meu Deus,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "eternamente hei de louvar-vos!"
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Eu vos exalto, ó Senhor, porque vós me livrastes!"
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Ti esalterò, Signore, perché mi hai risollevato."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Ti esalterò, Signore, perché mi hai risollevato."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Ti esalterò,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Signore, perché mi hai risollevato,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "non hai permesso ai miei nemici di gioire su di me."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Signore, hai fatto risalire la mia vita dagli inferi,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "mi hai fatto rivivere perché non scendessi nella fossa."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Ti esalterò, Signore, perché mi hai risollevato."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Cantate inni al Signore, o suoi fedeli,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "della sua santità celebrate il ricordo,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "perché la sua collera dura un istante,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "la sua bontà per tutta la vita."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Alla sera è ospite il pianto e al mattino la gioia."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Ti esalterò, Signore, perché mi hai risollevato."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Ascolta, Signore, abbi pietà di me,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Signore, vieni in mio aiuto!"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Hai mutato il mio lamento in danza,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Signore, mio Dio, ti renderò grazie per sempre."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Ti esalterò, Signore, perché mi hai risollevato."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Je t'exalte, Seigneur : tu m'as relevé."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Je t'exalte, Seigneur : tu m'as relevé."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Quand j'ai crié vers toi, tu m'as guéri."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Seigneur, tu m'as fait remonter de l'abîme et revivre quand je descendais à la fosse."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Je t'exalte, Seigneur : tu m'as relevé."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Fêtez le Seigneur, vous, ses fidèles,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "rendez grâce en rappelant son nom très saint."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Sa colère ne dure qu'un instant, sa bonté, toute la vie ;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "avec le soir, viennent les larmes,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "mais au matin, les cris de joie."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Je t'exalte, Seigneur : tu m'as relevé."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Et j'ai crié vers toi, Seigneur,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "j'ai supplié mon Dieu."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Tu as changé mon deuil en une danse,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "que sans fin, Seigneur, mon Dieu, je te rende grâce !"
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Je t'exalte, Seigneur : tu m'as relevé."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Herr, du zogst mich empor aus der Tiefe; ich will dich rühmen in Ewigkeit."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Ich will dich rühmen, Herr,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "denn du hast mich aus der Tiefe gezogen und lässt meine Feinde nicht über mich triumphieren."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Herr, du hast mich herausgeholt aus dem Reich des Todes,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "aus der Schar der Todgeweihten mich zum Leben gerufen."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Herr, du zogst mich empor aus der Tiefe; ich will dich rühmen in Ewigkeit."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Singt und spielt dem Herrn, ihr seine Frommen,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "preist seinen heiligen Namen!"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Denn sein Zorn dauert nur einen Augenblick,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "doch seine Güte ein Leben lang."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Herr, du zogst mich empor aus der Tiefe; ich will dich rühmen in Ewigkeit."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Wenn man am Abend auch weint,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "am Morgen herrscht wieder Jubel."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Du hast mein Klagen in Tanzen verwandelt,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Herr, mein Gott, ich will dir danken in Ewigkeit."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Herr, du zogst mich empor aus der Tiefe; ich will dich rühmen in Ewigkeit."
+                }
+              ]
+            ]
+          }
+        },
+        "citation": {
+          "la": "Ps 29, 2 et 4. 5-6. 11-12a et 13b",
+          "es": "Sal 29, 2 et 4. 5-6. 11-12a et 13b",
+          "en": "Ps 29:2 and 4, 5-6, 11-12a and 13b",
+          "pt-BR": "Sl 29",
+          "de": "Ps 30",
+          "it": "Sal 29, 2 et 4. 5-6. 11-12a et 13b",
+          "fr": "Ps 29, 2 et 4. 5-6. 11-12a et 13b"
+        }
+      },
+      "gospelAcclamation": {
+        "body": {
+          "plain": {
+            "la": "Alleluia, allelúia. Paráte viam Dómini, rectas fácite sémitas eius; vidébit omnis caro salutáre Dei. Allelúia.",
+            "es": "Aleluya, aleluya. Preparad el camino del Señor, allanad sus senderos. Toda carne verá la salvación de Dios. Aleluya.",
+            "en": "Alleluia, alleluia. Prepare the way for the Lord, make straight his paths: all mankind shall see the salvation of God. Alleluia.",
+            "pt-BR": "Aclamação ao Evangelho Aleluia, aleluia. Preparai o caminho do Senhor, endireitai suas veredas Toda carne há de ver a salvação que vem de Deus. Aleluia.",
+            "it": "Canto al Vangelo (Cf. Lc 3,4.6) Alleluia, alleluia. Preparate la via del Signore, raddrizzate i suoi sentieri! Ogni uomo vedrà la salvezza di Dio. Alleluia.",
+            "fr": "Alléluia, alléluia. Alléluia. Préparez le chemin du Seigneur, rendez droits ses sentiers : tout être vivant verra le salut de Dieu. Alléluia.",
+            "de": "Ruf vor dem Evangelium Lk 3, 4. 6 Halleluja. Halleluja. Bereitet dem Herrn den Weg! Ebnet ihm die Straßen! Und alle Menschen werden das Heil sehen, das von Gott kommt. Halleluja."
+          },
+          "lines": {
+            "la": [
+              [
+                {
+                  "type": "text",
+                  "text": "Alleluia, allelúia. Paráte viam Dómini, rectas fácite sémitas eius; vidébit omnis caro salutáre Dei. Allelúia."
+                }
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Aleluya, aleluya. Preparad el camino del Señor, allanad sus senderos. Toda carne verá la salvación de Dios. Aleluya."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "Alleluia, alleluia. Prepare the way for the Lord, make straight his paths: all mankind shall see the salvation of God. Alleluia."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Aclamação ao Evangelho Aleluia, aleluia. Preparai o caminho do Senhor, endireitai suas veredas Toda carne há de ver a salvação que vem de Deus. Aleluia."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Canto al Vangelo"
+                },
+                {
+                  "type": "reference",
+                  "text": "(Cf. Lc 3,4.6)"
+                },
+                {
+                  "type": "text",
+                  "text": "Alleluia, alleluia. Preparate la via del Signore, raddrizzate i suoi sentieri! Ogni uomo vedrà la salvezza di Dio. Alleluia."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Alléluia, alléluia. Alléluia. Préparez le chemin du Seigneur, rendez droits ses sentiers : tout être vivant verra le salut de Dieu. Alléluia."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Ruf vor dem Evangelium"
+                },
+                {
+                  "type": "reference",
+                  "text": "Lk 3, 4. 6"
+                },
+                {
+                  "type": "text",
+                  "text": "Halleluja. Halleluja. Bereitet dem Herrn den Weg! Ebnet ihm die Straßen! Und alle Menschen werden das Heil sehen, das von Gott kommt. Halleluja."
+                }
+              ]
+            ]
+          }
+        },
+        "citation": {
+          "it": "(Cf. Lc 3,4.6)",
+          "de": "Lk 3, 4. 6"
+        }
+      },
+      "gospel": {
+        "label": {
+          "la": "Evangelium",
+          "es": "Evangelio",
+          "en": "Gospel",
+          "pt-BR": "Evangelho",
+          "it": "Vangelo",
+          "fr": "Proclamation de l'Évangile",
+          "de": "Evangelium"
+        },
+        "summary": {
+          "la": "Ioannes est angelus qui præparat viam Dómini",
+          "es": "Juan es el mensajero que prepara el camino del Señor",
+          "pt-BR": "João é o mensageiro que prepara o caminho do Senhor.",
+          "it": "Giovanni è il messaggero che prepara la via al Signore."
+        },
+        "introduction": {
+          "la": "✠ Léctio sancti Evangélii secúndum Lucam",
+          "es": "✠ Lectura del santo Evangelio según san Lucas",
+          "en": "✠ A reading from the holy Gospel according to Luke",
+          "pt-BR": "✠ Proclamação do Evangelho de Jesus Cristo segundo Lucas",
+          "it": "✠ Dal vangelo secondo Luca",
+          "fr": "✠ Évangile de Jésus-Christ selon saint Luc",
+          "de": "✠ Aus dem heiligen Evangelium nach Lukas"
+        },
+        "body": {
+          "plain": {
+            "la": "Cum discessíssent núntii Ioánnis, cœpit Iesus dícere de Ioánne ad turbas:\n\n«Quid exístis in desértum vidére? Arúndinem vento movéri? Sed quid exístis vidére? Hóminem móllibus vestiméntis indútum? Ecce, qui in veste pretiósa sunt et delíciis, in dómibus regum sunt. Sed quid exístis vidére? Prophétam? Utique, dico vobis, et plus quam prophétam. Hic est, de quo scriptum est: “Ecce mitto ángelum meum ante fáciem tuam, qui præparábit viam tuam ante te”. Dico vobis: maior inter natos mulíerum Ioánne nemo est; qui autem minor est in regno Dei, maior est illo». Et omnis pópulus áudiens et publicáni iustificavérunt Deum, baptizáti baptísmo Ioánnis; pharisǽi autem et legis períti consílium Dei sprevérunt in semetípsos, non baptizáti ab eo.",
+            "es": "Cuando se marcharon los mensajeros de Juan, Jesús se puso a hablar a la gente acerca de Juan: «¿Qué salisteis a contemplar en el desierto? ¿Una caña sacudida por el viento? Pues ¿qué salisteis a ver? ¿Un hombre vestido con ropas finas? Mirad, los que se visten fastuosamente y viven entre placeres están en los palacios reales. Entonces, ¿qué salisteis a ver? ¿Un profeta? Sí, os digo, y más que profeta. Este es de quien está escrito: “Yo envío mi mensajero delante de ti, el cual preparará tu camino ante ti”. Porque os digo, entre los nacidos de mujer no hay nadie mayor que Juan. Aunque el más pequeño en el reino de Dios es mayor que él». Al oír a Juan, todo el pueblo, incluso los publicanos, recibiendo el bautismo de Juan, proclamaron que Dios es justo. Pero los fariseos y los maestros de la ley, que no habían aceptado su bautismo, frustraron el designio de Dios para con ellos.",
+            "en": "When John's messengers had gone Jesus began to talk to the people about John, 'What did you go out into the wilderness to see? A reed swaying in the breeze? No? Then what did you go out to see? A man dressed in fine clothes? Oh no, those who go in for fine clothes and live luxuriously are to be found at court! Then what did you go out to see? A prophet? Yes, I tell you, and much more than a prophet: he is the one of whom scripture says: See, I am going to send my messenger before you; he will prepare the way before you. 'I tell you, of all the children born of women, there is no one greater than John; yet the least in the kingdom of God is greater than he is'. All the people who heard him, and the tax collectors too, acknowledged God's plan by accepting baptism from John; but by refusing baptism from him the Pharisees and the lawyers had thwarted what God had in mind for them.",
+            "pt-BR": "Depois que os mensageiros de João partiram, Jesus começou a falar sobre João às multidões. \"Que fostes ver no deserto? Um caniço agitado pelo vento? O que fostes ver? Um homem vestido com roupas finas? Ora, os que se vestem com roupas preciosas e vivem no luxo estão nos palácios dos reis. Então, o que fostes ver? Um profeta? Eu vos afirmo que sim, e alguém que é mais do que um profeta. É de João que está escrito: 'Eis que eu envio o meu mensageiro à tua frente; ele vai preparar o meu caminho diante de ti'. Eu vos digo: entre os nascidos de mulher, ninguém é maior do que João. No entanto, o menor no Reino de Deus é maior do que ele. Todo o povo ouviu e até mesmo os cobradores de impostos reconheceram a justiça de Deus, e receberam o batismo de João. Mas os fariseus e os mestres da Lei, rejeitando o batismo de João, tornaram inútil para si mesmos o projeto de Deus\".",
+            "it": "Quando gli inviati di Giovanni furono partiti, Gesù si mise a parlare di Giovanni alle folle: «Che cosa siete andati a vedere nel deserto? Una canna sbattuta dal vento? Allora, che cosa siete andati a vedere? Un uomo vestito con abiti di lusso? Ecco, quelli che portano vesti sontuose e vivono nel lusso stanno nei palazzi dei re. Ebbene, che cosa siete andati a vedere? Un profeta? Sì, io vi dico, anzi, più che un profeta. Egli è colui del quale sta scritto: \"Ecco, dinanzi a te mando il mio messaggero, davanti a te egli preparerà la tua via\". Io vi dico: fra i nati da donna non vi è alcuno più grande di Giovanni, ma il più piccolo nel regno di Dio è più grande di lui. Tutto il popolo che lo ascoltava, e anche i pubblicani, ricevendo il battesimo di Giovanni, hanno riconosciuto che Dio è giusto. Ma i farisei e i dottori della Legge, non facendosi battezzare da lui, hanno reso vano il disegno di Dio su di loro».",
+            "fr": "Après le départ des messagers de Jean le Baptiste, Jésus se mit à dire aux foules à propos de Jean : « Qu'êtes-vous allés regarder au désert ? un roseau agité par le vent ? Alors, qu'êtes-vous allés voir ? un homme habillé de vêtements raffinés ? Mais ceux qui portent des vêtements somptueux et qui vivent dans le luxe sont dans les palais royaux. Alors, qu'êtes-vous allés voir ? un prophète ? Oui, je vous le dis ; et bien plus qu'un prophète ! C'est de lui qu'il est écrit : Voici que j'envoie mon messager en avant de toi, pour préparer le chemin devant toi. Je vous le dis : Parmi ceux qui sont nés d'une femme, personne n'est plus grand que Jean ; et cependant le plus petit dans le royaume de Dieu est plus grand que lui. Tout le peuple qui a écouté Jean, y compris les publicains, en recevant de lui le baptême, a reconnu que Dieu était juste. Mais les pharisiens et les docteurs de la Loi, en ne recevant pas son baptême, ont rejeté le dessein que Dieu avait sur eux. »",
+            "de": "Als die Boten des Johannes weggegangen waren, begann Jesus zu der Menge über Johannes zu reden; er sagte: Was habt ihr denn sehen wollen, als ihr in die Wüste hinausgegangen seid? Ein Schilfrohr, das im Wind schwankt? Oder was habt ihr sehen wollen, als ihr hinausgegangen seid? Einen Mann in feiner Kleidung? Leute, die vornehm gekleidet sind und üppig leben, findet man in den Palästen der Könige. Oder was habt ihr sehen wollen, als ihr hinausgegangen seid? Einen Propheten? Ja, ich sage euch: Ihr habt sogar mehr gesehen als einen Propheten. Er ist der, von dem es in der Schrift heißt: Ich sende meinen Boten vor dir her; er soll den Weg für dich bahnen. Ich sage euch: Unter allen Menschen gibt es keinen größeren als Johannes; doch der Kleinste im Reich Gottes ist größer als er. Das ganze Volk, das Johannes hörte, selbst die Zöllner, sie alle haben den Willen Gottes anerkannt und sich von Johannes taufen lassen. Doch die Pharisäer und die Gesetzeslehrer haben den Willen Gottes missachtet und sich von Johannes nicht taufen lassen."
+          }
+        },
+        "conclusion": {
+          "la": "Verbum Dómini.",
+          "es": "Palabra del Señor.",
+          "en": "The Gospel of the Lord.",
+          "pt-BR": "Palavra da Salvação.",
+          "it": "Parola del Signore.",
+          "fr": "Acclamons la Parole de Dieu !",
+          "de": "Evangelium unseres Herrn Jesus Christus."
+        },
+        "citation": {
+          "la": "Lc 7, 24-30",
+          "es": "Lc 7, 24-30",
+          "en": "Lk 7:24-30",
+          "pt-BR": "Lc 7, 24-30",
+          "it": "Lc 7, 24-30",
+          "fr": "Lc 7, 24-30",
+          "de": "Lk 7, 24-30"
+        },
+        "response": {
+          "body": {
+            "plain": {
+              "la": "R/. Laus tibi, Christe.",
+              "es": "R/. Gloria a ti, Señor Jesús.",
+              "en": "R/. Praise to you, Lord Jesus Christ.",
+              "pt-BR": "R/. Glória a vós, Senhor.",
+              "it": "R/. Lode a te, o Cristo.",
+              "fr": "R/. Louange à toi, Seigneur Jésus !",
+              "de": "A: Lob sei dir, Christus."
+            },
+            "lines": {
+              "la": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Laus tibi, Christe."
+                  }
+                ]
+              ],
+              "es": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Gloria a ti, Señor Jesús."
+                  }
+                ]
+              ],
+              "en": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Praise to you, Lord Jesus Christ."
+                  }
+                ]
+              ],
+              "pt-BR": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Glória a vós, Senhor."
+                  }
+                ]
+              ],
+              "it": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Lode a te, o Cristo."
+                  }
+                ]
+              ],
+              "fr": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Louange à toi, Seigneur Jésus !"
+                  }
+                ]
+              ],
+              "de": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "A:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Lob sei dir, Christus."
+                  }
+                ]
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "liturgicalColor": "violet"
+}

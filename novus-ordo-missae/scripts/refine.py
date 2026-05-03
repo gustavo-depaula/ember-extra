@@ -19,6 +19,7 @@ from __future__ import annotations
 
 import json
 import re
+import shutil
 from pathlib import Path
 from typing import Any, Optional
 
@@ -819,13 +820,15 @@ _PREFACE_LIB_INDEX: Optional[dict[str, str]] = None  # built once on first use
 
 
 def _build_preface_lib_index() -> dict[str, str]:
-    """Build a normalized-title → preface-id map from the library."""
+    """Build a normalized-title → preface-id map from the split library layout."""
     out: dict[str, str] = {}
-    pref_path = V2_OUT / "library" / "prefaces.json"
-    if not pref_path.exists():
+    pref_dir = V2_OUT / "library" / "preface"
+    if not pref_dir.exists():
         return out
-    prefs = json.load(pref_path.open()).get("prefaces", [])
-    for p in prefs:
+    for p_path in pref_dir.glob("*.json"):
+        if p_path.name == "_index.json":
+            continue
+        p = json.loads(p_path.read_text())
         for lang, t in (p.get("title") or {}).items():
             key = _normalize_pref_label(t)
             if key:
@@ -3045,10 +3048,13 @@ def _build_embedded_mass(dia: Tag, day_id: str, basename: str,
 
     # Canonical ID
     if parsed and "month" in parsed:
-        base = f"sanctorale.{parsed['month']:02d}-{parsed['day']:02d}"
+        # Date suffix joins the date segment with no separator, so dots-as-slashes
+        # doesn't produce single-letter sub-folders (sanctorale.07-20.z.<scope>
+        # would otherwise nest as saints/07-20/z/<scope>.json).
+        date_seg = f"{parsed['month']:02d}-{parsed['day']:02d}"
         if parsed.get("suffix"):
-            base += f".{parsed['suffix'].lower()}"
-        mass["id"] = f"{base}.{region}"
+            date_seg += parsed["suffix"].lower()
+        mass["id"] = f"sanctorale.{date_seg}.{region}"
     elif parsed and parsed.get("movableCode"):
         mass["id"] = f"sanctorale.movable.{parsed['movableMonthAnchor']:02d}-{parsed['movableCode'][2:]}.{region}"
     else:
@@ -3481,9 +3487,13 @@ def canonical_id(category: str, basename: str, day_id: Optional[str]) -> str:
         if day_id:
             d = parse_sanctorale_day_id(day_id)
             if d and "month" in d:
-                base = f"sanctorale.{d['month']:02d}-{d['day']:02d}"
+                # Date suffix (e.g. alternative observance "z") joins the
+                # date segment with a hyphen so dots-as-slashes doesn't
+                # produce single-letter sub-folders like sanctorale/07-20/z/.
+                date_seg = f"{d['month']:02d}-{d['day']:02d}"
                 if d.get("suffix"):
-                    base += f".{d['suffix'].lower()}"
+                    date_seg += d["suffix"].lower()
+                base = f"sanctorale.{date_seg}"
                 if scope_slug:
                     return f"{base}.{scope_slug}"
                 return base
@@ -5939,8 +5949,8 @@ _SOLEMNITY_IDS = {
     'tempore.easter.week-6.thursday.a',           # alt Ascension
     'tempore.easter.week-8.sunday',               # Pentecost (canonically a solemnity)
     'sanctorale.11-02',                           # All Souls
-    'sanctorale.11-02.y',
-    'sanctorale.11-02.z',
+    'sanctorale.11-02y',
+    'sanctorale.11-02z',
 }
 
 _SOLEMNITY_LOCALIZED = {
@@ -7283,11 +7293,38 @@ def _post_process_payload(payload: Any) -> Any:
 # ---------------------------------------------------------------------------
 
 
-def write_json(path: Path, payload: Any) -> None:
+def write_json(path: Path, payload: Any, *, post_process: bool = True) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    payload = _post_process_payload(payload)
+    if post_process:
+        payload = _post_process_payload(payload)
     with path.open("w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
+
+
+_WEEKDAY_ORDER = {"sunday": 0, "monday": 1, "tuesday": 2, "wednesday": 3,
+                  "thursday": 4, "friday": 5, "saturday": 6}
+
+
+def id_to_path(item_id: str, root: Path, *, suffix: str = ".json") -> Path:
+    """Map a dotted id to a per-item file path under `root`.
+
+    `tempore.ordinary-time.week-1.sunday` → root/tempore/ordinary-time/week-1/sunday.json
+    `sanctorale.04-02`                    → root/sanctorale/04-02.json
+    """
+    parts = item_id.split(".")
+    return root.joinpath(*parts[:-1], parts[-1] + suffix)
+
+
+def write_index(bucket_dir: Path, *, count: int, ids: list[str], **discriminators) -> None:
+    """Emit `<bucket_dir>/_index.json` with sorted ids + bucket metadata."""
+    payload: dict[str, Any] = {"count": count, **discriminators, "ids": sorted(ids)}
+    write_json(bucket_dir / "_index.json", payload)
+
+
+def reset_dir(path: Path) -> None:
+    """Wipe a directory tree so a fresh build doesn't leave stale per-item files."""
+    if path.exists():
+        shutil.rmtree(path)
 
 
 # (devocionario.html and oracoes.html are intentionally not converted — see README.)
@@ -7302,8 +7339,15 @@ def main():
     # against it during assembly.
     print("Building prefaces library (early, for label resolution)…")
     prefs = build_prefaces()
-    write_json(V2_OUT / "library" / "prefaces.json",
-               {"count": len(prefs), "prefaces": prefs})
+    pref_root = V2_OUT / "library" / "preface"
+    reset_dir(pref_root)
+    # Apply universal text fixes once across the list, then skip the per-write
+    # post-process pass — that's where the slowdown is on large per-item runs.
+    for p in prefs:
+        _apply_universal_text_fixes(p)
+        _strip_preface_title_star_prefix(p.get("title") or {})
+        write_json(id_to_path(p["id"], V2_OUT / "library"), p, post_process=False)
+    write_index(pref_root, count=len(prefs), ids=[p["id"] for p in prefs])
 
     print("Indexing lecturas…")
     lec_idx = index_lecturas()
@@ -7380,71 +7424,112 @@ def main():
     if dropped_count:
         print(f"  dropped {dropped_count} empty mass shells")
 
-    # Write per-group bundles
+    # Per-mass file layout: id IS the path, with one _index.json per bucket.
+    masses_root = V2_OUT / "masses"
+    reset_dir(masses_root)
     for group, masses in masses_by_group.items():
-        # Bucket by season (tempore) / month (sanctorale) / subgroup (commons/votive/ritual)
         if group == "tempore":
+            # Bucket by the id's structural season segment so the _index.json
+            # matches the actual filesystem layout. (m["season"] can differ
+            # from the id prefix — e.g. late-Advent days Dec 17-24 have
+            # id `tempore.christmas.day-1XX` but season metadata "advent".)
             by_bucket: dict[str, list[dict]] = {}
             for m in masses:
-                by_bucket.setdefault(m.get("season") or "unspecified", []).append(m)
+                parts = m["id"].split(".")
+                season_seg = parts[1] if len(parts) >= 2 else (m.get("season") or "unspecified")
+                by_bucket.setdefault(season_seg, []).append(m)
             for season, ms in by_bucket.items():
-                ms.sort(key=lambda x: (x.get("weekIndex", 99), {
-                    "sunday": 0, "monday": 1, "tuesday": 2, "wednesday": 3, "thursday": 4, "friday": 5, "saturday": 6
-                }.get(x.get("weekday"), 7)))
-                write_json(V2_OUT / "masses" / "tempore" / f"{season}.json", {"season": season, "count": len(ms), "masses": ms})
+                ms.sort(key=lambda x: (x.get("weekIndex", 99),
+                                       _WEEKDAY_ORDER.get(x.get("weekday"), 7)))
+                for m in ms:
+                    write_json(id_to_path(m["id"], masses_root), m, post_process=False)
+                write_index(masses_root / "tempore" / season,
+                            count=len(ms), ids=[m["id"] for m in ms],
+                            season=season)
                 print(f"  tempore/{season}: {len(ms)} masses")
         elif group == "sanctorale":
-            # Bucket by month for universal calendar; by region for regional propers.
-            # Movable feasts bucket into their anchoring month.
-            by_bucket: dict[str, list[dict]] = {}
+            # Flat under data/masses/sanctorale/. Regional saints with id
+            # `sanctorale.<MM-DD>.<scope>` naturally land at
+            # `sanctorale/<MM-DD>/<scope>.json`.
             for m in masses:
-                scope = m.get("scope")
-                if scope:
-                    key = scope.lower().replace(" ", "-")
-                else:
-                    month = (m.get("date") or {}).get("month") or m.get("movableMonthAnchor")
-                    if month:
-                        key = f"{month:02d}"
-                    else:
-                        key = "undated"
-                by_bucket.setdefault(key, []).append(m)
-            for k, ms in by_bucket.items():
-                ms.sort(key=lambda x: (x.get("date", {}).get("month", 13), x.get("date", {}).get("day", 32)))
-                write_json(V2_OUT / "masses" / "sanctorale" / f"{k}.json", {"bucket": k, "count": len(ms), "masses": ms})
-                print(f"  sanctorale/{k}: {len(ms)} masses")
+                write_json(id_to_path(m["id"], masses_root), m, post_process=False)
+            write_index(masses_root / "sanctorale",
+                        count=len(masses), ids=[m["id"] for m in masses])
+            print(f"  sanctorale: {len(masses)} masses")
         elif group in ("common", "votive", "ritual"):
             by_sub: dict[str, list[dict]] = {}
             for m in masses:
                 by_sub.setdefault(m.get("subgroup", "misc"), []).append(m)
             for sub, ms in by_sub.items():
-                write_json(V2_OUT / "masses" / group / f"{sub}.json", {"group": group, "subgroup": sub, "count": len(ms), "masses": ms})
+                for m in ms:
+                    write_json(id_to_path(m["id"], masses_root), m, post_process=False)
+                write_index(masses_root / group / sub,
+                            count=len(ms), ids=[m["id"] for m in ms],
+                            group=group, subgroup=sub)
                 print(f"  {group}/{sub}: {len(ms)} masses")
 
     # Libraries (prefaces already written early; just write the rest now).
     print("Libraries…")
     eps = build_eucharistic_prayers()
-    write_json(V2_OUT / "library" / "eucharistic-prayers.json",
-               {"count": len(eps), "eucharisticPrayers": eps})
-    ord_parts = build_ordinary()
-    write_json(V2_OUT / "library" / "ordinary.json",
-               {"count": len(ord_parts), "parts": ord_parts})
+    ep_root = V2_OUT / "library" / "eucharistic-prayer"
+    reset_dir(ep_root)
+    for ep in eps:
+        _apply_universal_text_fixes(ep)
+        write_json(id_to_path(ep["id"], V2_OUT / "library"), ep, post_process=False)
+    write_index(ep_root, count=len(eps), ids=[ep["id"] for ep in eps])
 
-    # Calendar
+    ord_parts = build_ordinary()
+    ord_root = V2_OUT / "library" / "ordinary"
+    reset_dir(ord_root)
+    for op in ord_parts:
+        _apply_universal_text_fixes(op)
+        write_json(id_to_path(op["id"], V2_OUT / "library"), op, post_process=False)
+    write_index(ord_root, count=len(ord_parts), ids=[op["id"] for op in ord_parts])
+
+    # Calendar — per-entry files mirroring mass id paths
     print("Calendar…")
     cal = build_calendar(masses_by_group)
-    write_json(V2_OUT / "calendar.json", cal)
+    cal_root = V2_OUT / "calendar"
+    reset_dir(cal_root)
+    # Calendar entries are derived projections (id/title/season/...) and
+    # carry already-fixed strings from the masses they were copied from.
+    for entry in cal["tempore"]:
+        write_json(id_to_path(entry["id"], cal_root), entry, post_process=False)
+    write_index(cal_root / "tempore",
+                count=len(cal["tempore"]),
+                ids=[e["id"] for e in cal["tempore"]])
+    for entry in cal["sanctorale"]:
+        write_json(id_to_path(entry["id"], cal_root), entry, post_process=False)
+    write_index(cal_root / "sanctorale",
+                count=len(cal["sanctorale"]),
+                ids=[e["id"] for e in cal["sanctorale"]])
 
-    # Saints catalog
+    # Saints catalog — per-saint projection under data/saints/<MM-DD>[/<scope>].json
     print("Saints catalog…")
     catalog = build_saints_catalog(masses_by_group.get("sanctorale", []))
-    write_json(V2_OUT / "saints.json", {"count": len(catalog), "saints": catalog})
+    saints_root = V2_OUT / "saints"
+    reset_dir(saints_root)
+    for s in catalog:
+        _apply_universal_text_fixes(s)
+        _drop_vernacular_la_leak(s, "title")
+        _drop_vernacular_la_leak(s, "description")
+        _backfill_rank_localized(s)
+        # Saint ids start with `sanctorale.`; drop that prefix so the file lives
+        # under data/saints/, not data/saints/sanctorale/.
+        tail = s["id"].split(".", 1)[1] if s["id"].startswith("sanctorale.") else s["id"]
+        write_json(id_to_path(tail, saints_root), s, post_process=False)
+    write_index(saints_root, count=len(catalog), ids=[s["id"] for s in catalog])
 
-    # Triduum bundle — every Mass with rite != "mass" plus the three weekdays.
+    # Triduum — pure reference list. The actual mass payloads live under
+    # data/masses/...; consumers resolve via id.
     print("Triduum bundle…")
     triduum_ids = set(SPECIAL_DAY_ID_OVERRIDES.values())
     triduum_masses = [m for m in masses_by_group.get("tempore", []) if m["id"] in triduum_ids]
-    triduum_masses.sort(key=lambda m: m["id"])
-    write_json(V2_OUT / "triduum.json", {"count": len(triduum_masses), "masses": triduum_masses})
+    triduum_root = V2_OUT / "triduum"
+    reset_dir(triduum_root)
+    write_index(triduum_root,
+                count=len(triduum_masses),
+                ids=[m["id"] for m in triduum_masses])
 
     # Provenance
     write_json(V2_OUT / "provenance.json", provenance)
@@ -7500,14 +7585,14 @@ def main():
             "ordinaryParts": 4,
         },
         "files": {
-            "calendar": "calendar.json",
-            "saints": "saints.json",
-            "triduum": "triduum.json",
-            "provenance": "provenance.json",
-            "masses": "masses/<group>/<bucket>.json",
-            "library": "library/{prefaces,eucharistic-prayers,ordinary}.json",
+            "masses": "masses/<group>/<id-as-path>.json (per-mass; _index.json per bucket)",
+            "library": "library/{preface,eucharistic-prayer,ordinary}/<id-tail>.json",
+            "saints": "saints/<MM-DD>[/<scope>].json",
+            "calendar": "calendar/<group>/<id-as-path>.json",
+            "triduum": "triduum/_index.json (reference list of mass ids)",
             "igmr": "igmr/<lang>.json",
             "sacerdotale": "sacerdotale/<lang>.json",
+            "provenance": "provenance.json",
         },
     }
     write_json(V2_OUT / "index.json", index)

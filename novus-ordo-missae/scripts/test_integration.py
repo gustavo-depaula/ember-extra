@@ -217,11 +217,12 @@ class TestCorpusInvariants:
         if not (DATA / "masses").exists():
             pytest.skip("data/ not generated")
         # Cache mass listing for all tests
-        self.masses_by_file: dict[pathlib.Path, list[dict]] = {}
+        self.masses_by_file: dict[pathlib.Path, dict] = {}
         for f in (DATA / "masses").rglob("*.json"):
-            d = json.loads(f.read_text())
-            self.masses_by_file[f] = d.get("masses", [])
-        self.all_masses = [m for ms in self.masses_by_file.values() for m in ms if isinstance(m, dict)]
+            if f.name == "_index.json":
+                continue
+            self.masses_by_file[f] = json.loads(f.read_text())
+        self.all_masses = list(self.masses_by_file.values())
 
     def test_every_mass_has_id(self):
         for m in self.all_masses:
@@ -408,18 +409,20 @@ class TestCitationEnrichmentIntegration:
             pytest.skip("data/ not generated")
         self.all_readings: list[tuple[str, str, str, str]] = []
         for f in (DATA / "masses").rglob("*.json"):
-            d = json.loads(f.read_text())
-            for m in d.get("masses", []):
-                if not isinstance(m, dict): continue
-                for cyc, slots in (m.get("readings") or {}).items():
-                    if not isinstance(slots, dict): continue
-                    for slot in ("firstReading","secondReading","gospel"):
-                        r = slots.get(slot)
-                        if not isinstance(r, dict): continue
-                        cit = r.get("citation") or {}
-                        for L, v in cit.items():
-                            if isinstance(v, str) and v.strip():
-                                self.all_readings.append((m["id"], slot, L, v))
+            if f.name == "_index.json":
+                continue
+            m = json.loads(f.read_text())
+            if not isinstance(m, dict):
+                continue
+            for cyc, slots in (m.get("readings") or {}).items():
+                if not isinstance(slots, dict): continue
+                for slot in ("firstReading","secondReading","gospel"):
+                    r = slots.get(slot)
+                    if not isinstance(r, dict): continue
+                    cit = r.get("citation") or {}
+                    for L, v in cit.items():
+                        if isinstance(v, str) and v.strip():
+                            self.all_readings.append((m["id"], slot, L, v))
 
     def test_all_citations_have_book_token_la(self):
         numbered = re.compile(r"^\d+\s+[A-Za-zÀ-ÿ]")
@@ -510,58 +513,58 @@ class TestIndexFileConsistency:
             pytest.skip("data/index.json not generated")
         self.idx = json.loads((DATA / "index.json").read_text())
 
+    @staticmethod
+    def _count_items(root):
+        return sum(1 for f in root.rglob("*.json") if f.name != "_index.json")
+
     def test_total_masses_matches_files(self):
-        actual = 0
-        for f in (DATA / "masses").rglob("*.json"):
-            d = json.loads(f.read_text())
-            actual += len(d.get("masses", []))
-        assert self.idx["totals"]["masses"] == actual
+        assert self.idx["totals"]["masses"] == self._count_items(DATA / "masses")
 
     def test_groups_count_matches(self):
         groups = self.idx.get("groups", {})
         for g, expected in groups.items():
-            actual = 0
-            for f in (DATA / "masses" / g).rglob("*.json"):
-                d = json.loads(f.read_text())
-                actual += len(d.get("masses", []))
+            actual = self._count_items(DATA / "masses" / g)
             assert actual == expected, f"group {g}: index says {expected}, found {actual}"
 
     def test_saints_count_matches(self):
-        saints_data = json.loads((DATA / "saints.json").read_text())
-        assert self.idx["totals"]["saintsCatalog"] == len(saints_data.get("saints", []))
+        assert self.idx["totals"]["saintsCatalog"] == self._count_items(DATA / "saints")
 
     def test_prefaces_count_matches(self):
-        prefaces_data = json.loads((DATA / "library" / "prefaces.json").read_text())
-        assert self.idx["totals"]["prefaces"] == len(prefaces_data.get("prefaces", []))
+        assert self.idx["totals"]["prefaces"] == self._count_items(DATA / "library" / "preface")
 
     def test_eucharistic_prayers_count_matches(self):
-        eps_data = json.loads((DATA / "library" / "eucharistic-prayers.json").read_text())
-        assert self.idx["totals"]["eucharisticPrayers"] == len(eps_data.get("eucharisticPrayers", []))
+        assert self.idx["totals"]["eucharisticPrayers"] == self._count_items(DATA / "library" / "eucharistic-prayer")
 
 
 class TestCalendarMassesCrossRef:
     """Every calendar entry must point to an existing mass."""
 
     def setup_method(self):
-        if not (DATA / "calendar.json").exists():
+        if not (DATA / "calendar").exists():
             pytest.skip("data/ not generated")
-        self.cal = json.loads((DATA / "calendar.json").read_text())
+        self.cal_entries = []
+        for f in (DATA / "calendar").rglob("*.json"):
+            if f.name == "_index.json":
+                continue
+            self.cal_entries.append(json.loads(f.read_text()))
         self.mass_ids = set()
         for f in (DATA / "masses").rglob("*.json"):
+            if f.name == "_index.json":
+                continue
             d = json.loads(f.read_text())
-            for m in d.get("masses", []):
-                if isinstance(m, dict): self.mass_ids.add(m["id"])
+            if isinstance(d, dict) and d.get("id"):
+                self.mass_ids.add(d["id"])
 
     def test_all_tempore_calendar_entries_have_mass(self):
-        for entry in self.cal.get("tempore", []):
-            mid = entry.get("id") if isinstance(entry, dict) else None
-            if mid:
+        for entry in self.cal_entries:
+            mid = entry.get("id")
+            if mid and mid.startswith("tempore."):
                 assert mid in self.mass_ids, f"calendar tempore entry {mid} has no mass"
 
     def test_all_sanctorale_calendar_entries_have_mass(self):
-        for entry in self.cal.get("sanctorale", []):
-            mid = entry.get("id") if isinstance(entry, dict) else None
-            if mid:
+        for entry in self.cal_entries:
+            mid = entry.get("id")
+            if mid and mid.startswith("sanctorale."):
                 assert mid in self.mass_ids, f"calendar sanctorale entry {mid} has no mass"
 
 
@@ -569,25 +572,30 @@ class TestPrefaceCrossRef:
     """Every prefaceRef in masses must resolve to a library preface."""
 
     def setup_method(self):
-        if not (DATA / "library" / "prefaces.json").exists():
+        pref_dir = DATA / "library" / "preface"
+        if not pref_dir.exists():
             pytest.skip("data/ not generated")
-        prefaces_data = json.loads((DATA / "library" / "prefaces.json").read_text())
-        self.preface_ids = {p["id"] for p in prefaces_data.get("prefaces", [])}
+        self.preface_ids = set()
+        for f in pref_dir.rglob("*.json"):
+            if f.name == "_index.json":
+                continue
+            self.preface_ids.add(json.loads(f.read_text())["id"])
 
     def test_no_dangling_preface_refs(self):
         bad = []
         for f in (DATA / "masses").rglob("*.json"):
-            d = json.loads(f.read_text())
-            for m in d.get("masses", []):
-                if not isinstance(m, dict): continue
-                p = m.get("preface")
-                if not isinstance(p, dict): continue
-                ref = p.get("prefaceRef")
-                if isinstance(ref, str) and ref and ref not in self.preface_ids:
-                    bad.append((m["id"], ref))
-                for alt in p.get("alternativeRefs") or []:
-                    if alt not in self.preface_ids:
-                        bad.append((m["id"], alt))
+            if f.name == "_index.json":
+                continue
+            m = json.loads(f.read_text())
+            if not isinstance(m, dict): continue
+            p = m.get("preface")
+            if not isinstance(p, dict): continue
+            ref = p.get("prefaceRef")
+            if isinstance(ref, str) and ref and ref not in self.preface_ids:
+                bad.append((m.get("id"), ref))
+            for alt in p.get("alternativeRefs") or []:
+                if alt not in self.preface_ids:
+                    bad.append((m.get("id"), alt))
         assert not bad, f"dangling preface refs: {bad[:5]}"
 
 
@@ -667,6 +675,78 @@ class TestFixInteractions:
         mass = {"id": "empty.shell", "title": {}}
         out = R._post_process_mass(mass)
         assert out is None
+
+
+# =============================================================================
+# Per-item file layout: id IS the path
+# =============================================================================
+
+def _id_to_path(item_id, root, suffix=".json"):
+    parts = item_id.split(".")
+    return root.joinpath(*parts[:-1], parts[-1] + suffix)
+
+
+class TestSplitFileLayout:
+    """Every per-item file lives at the path its id implies, and every bucket
+    has an _index.json whose count matches the sibling file count."""
+
+    def setup_method(self):
+        if not (DATA / "masses").exists():
+            pytest.skip("data/ not generated")
+
+    def test_each_mass_file_path_matches_id(self):
+        masses_root = DATA / "masses"
+        bad = []
+        for f in masses_root.rglob("*.json"):
+            if f.name == "_index.json":
+                continue
+            d = json.loads(f.read_text())
+            mid = d.get("id")
+            if not mid:
+                bad.append((str(f.relative_to(DATA)), "no id"))
+                continue
+            expected = _id_to_path(mid, masses_root)
+            if f != expected:
+                bad.append((mid, str(f.relative_to(DATA)), str(expected.relative_to(DATA))))
+        assert not bad, f"path-id mismatches: {bad[:5]}"
+
+    def test_each_index_count_matches_siblings(self):
+        # For every _index.json, the `count` field equals the number of *.json
+        # siblings (recursive within the bucket dir, excluding nested _index.json).
+        bad = []
+        for idx in DATA.rglob("_index.json"):
+            payload = json.loads(idx.read_text())
+            siblings = sum(1 for f in idx.parent.rglob("*.json")
+                           if f.name != "_index.json")
+            if payload.get("count") != siblings:
+                bad.append((str(idx.relative_to(DATA)), payload.get("count"), siblings))
+        # Exception: triduum/_index.json is a reference list — its `count`
+        # tracks ids[], not files (no triduum/<id>.json files exist).
+        bad = [b for b in bad if not b[0].startswith("triduum/")]
+        assert not bad, f"_index.count mismatches: {bad}"
+
+    def test_triduum_index_is_reference_only(self):
+        idx_path = DATA / "triduum" / "_index.json"
+        if not idx_path.exists():
+            pytest.skip("triduum not generated")
+        idx = json.loads(idx_path.read_text())
+        assert "ids" in idx and idx["count"] == len(idx["ids"])
+        # No other files in data/triduum/.
+        siblings = [p.name for p in (DATA / "triduum").iterdir()]
+        assert siblings == ["_index.json"], f"unexpected triduum files: {siblings}"
+
+    def test_no_legacy_bundle_files(self):
+        # The old bundle layout shouldn't reappear.
+        legacy = [
+            DATA / "calendar.json",
+            DATA / "saints.json",
+            DATA / "triduum.json",
+            DATA / "library" / "prefaces.json",
+            DATA / "library" / "eucharistic-prayers.json",
+            DATA / "library" / "ordinary.json",
+        ]
+        existing = [str(p.relative_to(DATA)) for p in legacy if p.exists()]
+        assert not existing, f"legacy bundles still present: {existing}"
 
 
 if __name__ == "__main__":

@@ -1,0 +1,865 @@
+{
+  "id": "ritual.various-needs.div016",
+  "group": "ritual",
+  "subgroup": "various-needs",
+  "title": {
+    "la": "I. PRO SANCTA ECCLESIA 10. PRO LAICIS",
+    "es": "I. POR LA SANTA IGLESIA 10. POR LOS LAICOS",
+    "en": "I. FOR HOLY CHURCH 10. FOR THE LAITY",
+    "pt-BR": "I. PELA SANTA IGREJA 10. PELOS LEIGOS",
+    "it": "I. PER LA SANTA CHIESA 10. PER I LAICI",
+    "fr": "I. POUR LA SAINTE ÉGLISE 10. POUR LES LAÏCS",
+    "de": "I. FÜR DIE HEILIGE KIRCHE 10. FÜR DIE LAIEN"
+  },
+  "entranceAntiphon": {
+    "body": {
+      "plain": {
+        "la": "Símile est regnum cælórum ferménto, quod accéptum múlier abscóndit in farínæ satis tribus, donec fermentátum est totum.",
+        "es": "El reino de los cielos se parece a la levadura; una mujer la amasa con tres medidas de harina, hasta que todo fermenta.",
+        "en": "The Kingdom of heaven is like yeast that a woman took and mixed with three measures of wheat flour, until the whole batch was leavened.",
+        "pt-BR": "O reino dos céus é como o fermento que uma mulher pega e mistura com três porções de farinha, até que tudo fique fermentado,",
+        "it": "Il regno dei cieli è simile al lievito, che una donna prese e mescolò in tre misure di farina, finché non fu tutta lievitata.",
+        "fr": "Le royaume des Cieux est comparable au levain qu'une femme a pris et qu'elle a enfoui dans trois mesures de farine, jusqu'à ce que toute la pâte ait levé.",
+        "de": "Mit dem Himmelreich ist es wie mit dem Sauerteig, den eine Frau unter einen großen Trog Mehl mischte, bis das Ganze durchsäuert war."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Símile est regnum cælórum ferménto, quod accéptum múlier abscóndit in farínæ satis tribus, donec fermentátum est totum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "El reino de los cielos se parece a la levadura; una mujer la amasa con tres medidas de harina, hasta que todo fermenta."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "The Kingdom of heaven is like yeast that a woman took and mixed with three measures of wheat flour,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "until the whole batch was leavened."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "O reino dos céus é como o fermento que uma mulher pega e mistura com três porções de farinha,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "até que tudo fique fermentado,"
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "Il regno dei cieli è simile al lievito, che una donna prese e mescolò in tre misure di farina, finché non fu tutta lievitata."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Le royaume des Cieux est comparable au levain qu'une femme a pris et qu'elle a enfoui dans trois mesures de farine,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "jusqu'à ce que toute la pâte ait levé."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Mit dem Himmelreich ist es wie mit dem Sauerteig, den eine Frau unter einen großen Trog Mehl mischte, bis das Ganze durchsäuert war."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "collect": {
+    "body": {
+      "plain": {
+        "la": "Deus, qui Evangélii virtútem véluti ferméntum in mundum misísti, concéde fidélibus tuis, quos in médio mundi negotiorúmque sæculárium vitam ágere vocásti, ut, spíritu christiáno fervéntes, per temporália quæ gerunt múnera, regnum tuum iúgiter instáurent. Per Dóminum.",
+        "es": "Oh, Dios, que enviaste al mundo, como fermento, la fuerza del Evangelio, concede a tus fieles, llamados a vivir en medio del mundo y de los afanes terrenos, que, encendidos de espíritu cristiano, instauren sin cesar tu reino mediante la gestión de los asuntos temporales. Por nuestro Señor Jesucristo.",
+        "en": "O God, who have sent the power of the Gospel like leaven into the world, grant that your faithful, whom you have called to live amid the world and its affairs, may be fervent with the Christian spirit and, through the tasks they carry out in this present age, may constantly build up your Kingdom. Through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, one God, for ever and ever.",
+        "pt-BR": "Ó Deus, que enviastes ao mundo a força do Evangelho como fermento, concedei aos vossos fiéis, chamados a viver no meio do mundo e das ocupações nas realidades terrestres, que, animados de espírito cristão, instaurem sem cessar o vosso reino, por seus afazeres temporais. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus, e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
+        "it": "O Dio, che hai infuso come lievito nell'umanità la forza del Vangelo, concedi ai tuoi fedeli, chiamati a vivere il loro impegno nel mondo, di operare sempre nelle realtà temporali con il fervore dello spirito cristiano, per l'edificazione del tuo regno. Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli.",
+        "fr": "Seigneur Dieu, tu as envoyé dans le monde la puissance de l'Évangile à la manière d'un ferment ; accorde à tes fidèles que tu as appelés à vivre et à agir au milieu du monde d'être animés de l'esprit chrétien, pour qu'en accomplissant leurs tâches temporelles, ils contribuent sans cesse à l'avènement de ton Règne. Par Jésus Christ, ton Fils, notre Seigneur, qui vit et règne avec toi dans l'unité du Saint-Esprit, Dieu, pour les siècles des siècles.",
+        "de": "Gott, du hast der Welt das Evangelium geschenkt, damit es sie wie ein Sauerteig durchdringe. Sei allen Christen nahe, die du berufen hast, ein Leben mitten in der Welt zu führen. Schenke ihnen den wahren christlichen Geist, damit sie durch die rechte Erfüllung ihrer weltlichen Aufgaben am Aufbau deines Reiches mitarbeiten. Darum bitten wir durch Jesus Christus."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Deus, qui Evangélii virtútem véluti ferméntum in mundum misísti, concéde fidélibus tuis, quos in médio mundi negotiorúmque sæculárium vitam ágere vocásti, ut, spíritu christiáno fervéntes, per temporália quæ gerunt múnera,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "regnum tuum iúgiter instáurent. Per Dóminum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Oh, Dios,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "que enviaste al mundo, como fermento,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "la fuerza del Evangelio,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "concede a tus fieles, llamados a vivir en medio del mundo y de los afanes terrenos,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "que, encendidos de espíritu cristiano,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "instauren sin cesar tu reino mediante la gestión de los asuntos temporales."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por nuestro Señor Jesucristo."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "O God, who have sent the power of the Gospel like leaven into the world,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "grant that your faithful,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "whom you have called to live amid the world and its affairs, may be fervent with the Christian spirit and,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "through the tasks they carry out in this present age,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "may constantly build up your Kingdom."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Through our Lord Jesus Christ, your Son,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "who lives and reigns with you in the unity of the Holy Spirit,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "one God, for ever and ever."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Ó Deus, que enviastes ao mundo a força do Evangelho como fermento,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "concedei aos vossos fiéis,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "chamados a viver no meio do mundo e das ocupações nas realidades terrestres,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "que, animados de espírito cristão,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "instaurem sem cessar o vosso reino,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "por seus afazeres temporais."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "e convosco vive e reina, na unidade do Espírito Santo,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "por todos os séculos dos séculos."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "O Dio, che hai infuso come lievito nell'umanità la forza del Vangelo, concedi ai tuoi fedeli, chiamati a vivere il loro impegno nel mondo, di operare sempre nelle realtà temporali con il fervore dello spirito cristiano, per l'edificazione del tuo regno. Per il nostro Signore Gesù Cristo, tuo Figlio,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "che è Dio, e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Seigneur Dieu,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "tu as envoyé dans le monde la puissance de l'Évangile à la manière d'un ferment ;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "accorde à tes fidèles que tu as appelés à vivre et à agir au milieu du monde d'être animés de l'esprit chrétien,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "pour qu'en accomplissant leurs tâches temporelles,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "ils contribuent sans cesse à l'avènement de ton Règne."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Par Jésus Christ, ton Fils, notre Seigneur,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "qui vit et règne avec toi dans l'unité du Saint-Esprit,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Dieu, pour les siècles des siècles."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Gott, du hast der Welt das Evangelium geschenkt, damit es sie wie ein Sauerteig durchdringe. Sei allen Christen nahe, die du berufen hast, ein Leben mitten in der Welt zu führen. Schenke ihnen den wahren christlichen Geist,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "damit sie durch die rechte Erfüllung ihrer weltlichen Aufgaben am Aufbau deines Reiches mitarbeiten. Darum bitten wir durch Jesus Christus."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "prayerOverOfferings": {
+    "body": {
+      "plain": {
+        "la": "Deus, qui Fílii tui sacrifício cunctum voluísti mundum salváre, per huius oblatiónis virtútem concéde, ut fámuli tui, quos étiam in statu laicáli ad apostolátum vocáre non désinis, et mundum spíritu ímbuant Christi, et eius sint sanctificatiónis ferméntum. Per Christum.",
+        "es": "Oh, Dios, que quisiste salvar al mundo entero por el sacrificio de tu Hijo, haz que, por la eficacia de esta ofrenda, tus siervos, a los que no dejas de llamar al apostolado, impregnen el mundo del espíritu de Cristo y sean el fermento de su santificación. Por Jesucristo, nuestro Señor.",
+        "en": "O God, who willed to save the whole world by the sacrifice of your Son, grant through the power of this oblation that your servants living in the lay state, whom you do not cease to call to the apostolate, may imbue the world with the spirit of Christ and be the leaven of its sanctification. Through Christ our Lord.",
+        "pt-BR": "Ó Deus, por meio do sacrifício de vosso Filho, quisestes salvar o mundo inteiro. Pelo poder desta oblação, concedei aos vossos servos, chamados ao apostolado como leigos, impregnar o mundo com o espírito de Cristo e ser fermento de sua santificação. Por Cristo, nosso Senhor.",
+        "it": "O Dio, che hai voluto salvare il mondo intero con il sacrificio del tuo Figlio, per la forza di questa offerta dona ai fedeli laici, che continui a chiamare all'apostolato, di diffondere nell'umanità lo spirito di Cristo e di essere fermento di santificazione. Per Cristo nostro Signore.",
+        "fr": "Seigneur Dieu, tu as voulu sauver le monde entier par le sacrifice de ton Fils, et tu ne cesses d'appeler aussi à l'apostolat les laïcs, tes serviteurs ; fais que, par la force de cette offrande, ils imprègnent le monde de l'esprit du Christ et y soient un ferment de sainteté. Par Jésus Christ, ton Fils, notre Seigneur, qui vit et règne avec toi dans l'unité du Saint-Esprit, Dieu, pour les siècles des siècles.",
+        "de": "Gott, du hast deinen Sohn für das Heil der Welt dahingegeben. Befähige durch die Kraft des heiligen Opfers alle Glieder deines Volkes zum Zeugnis für Christus, damit sie zum Sauerteig werden, der die Welt durchdringt und heiligt. Darum bitten wir durch Christus, unseren Herrn."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Deus, qui Fílii tui sacrifício cunctum voluísti mundum salváre, per huius oblatiónis virtútem concéde, ut fámuli tui, quos étiam in statu laicáli ad apostolátum vocáre non désinis, et mundum spíritu ímbuant Christi, et eius sint sanctificatiónis ferméntum. Per Christum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Oh, Dios,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "que quisiste salvar al mundo entero por el sacrificio de tu Hijo,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "haz que, por la eficacia de esta ofrenda,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "tus siervos, a los que no dejas de llamar al apostolado,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "impregnen el mundo del espíritu de Cristo y sean el fermento de su santificación."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por Jesucristo, nuestro Señor."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "O God, who willed to save the whole world by the sacrifice of your Son,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "grant through the power of this oblation that your servants living in the lay state,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "whom you do not cease to call to the apostolate,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "may imbue the world with the spirit of Christ and be the leaven of its sanctification."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Through Christ our Lord."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Ó Deus, por meio do sacrifício de vosso Filho,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "quisestes salvar o mundo inteiro."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Pelo poder desta oblação,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "concedei aos vossos servos,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "chamados ao apostolado como leigos,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "impregnar o mundo com o espírito de Cristo e ser fermento de sua santificação."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por Cristo, nosso Senhor."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "O Dio, che hai voluto salvare il mondo intero con il sacrificio del tuo Figlio, per la forza di questa offerta dona ai fedeli laici, che continui a chiamare all'apostolato, di diffondere nell'umanità lo spirito di Cristo e di essere fermento di santificazione. Per Cristo nostro Signore."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Seigneur Dieu,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "tu as voulu sauver le monde entier par le sacrifice de ton Fils,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "et tu ne cesses d'appeler aussi à l'apostolat les laïcs, tes serviteurs ;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "fais que, par la force de cette offrande,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "ils imprègnent le monde de l'esprit du Christ et y soient un ferment de sainteté."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Par Jésus Christ, ton Fils, notre Seigneur,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "qui vit et règne avec toi dans l'unité du Saint-Esprit,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Dieu, pour les siècles des siècles."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Gott, du hast deinen Sohn für das Heil der Welt dahingegeben. Befähige durch die Kraft des heiligen Opfers alle Glieder deines Volkes zum Zeugnis für Christus, damit sie zum Sauerteig werden, der die Welt durchdringt und heiligt. Darum bitten wir durch Christus, unseren Herrn."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "communionAntiphon": {
+    "body": {
+      "plain": {
+        "la": "In hoc clarificátus est Pater meus, ut fructum plúrimum afferátis et efficiámini mei discípuli, dicit Dóminus.",
+        "es": "Con esto recibe gloria mi Padre, con que deis fruto abundante; así seréis discípulos míos, dice el Señor.",
+        "en": "By this is my father glorified, that you bear much fruit and become my disciples, says the Lord.",
+        "pt-BR": "Nisto meu Pai é glorificado: que deis muito fruto e vos torneis meus discípulos, diz o Senhor.",
+        "it": "In questo è glorificato il Padre mio: che portiate molto frutto e diventiate miei discepoli.",
+        "fr": "Ce qui fait la gloire de mon Père, dit le Seigneur, c'est que vous portiez beaucoup de fruit et que vous soyez pour moi des disciples.",
+        "de": "So spricht der Herr: Mein Vater wird dadurch verherrlicht, dass ihr reiche Frucht bringt und meine Jünger werdet."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "In hoc clarificátus est Pater meus, ut fructum plúrimum afferátis et efficiámini mei discípuli, dicit Dóminus."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Con esto recibe gloria mi Padre, con que deis fruto abundante; así seréis discípulos míos, dice el Señor."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "By this is my father glorified,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "that you bear much fruit and become my disciples, says the Lord."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Nisto meu Pai é glorificado:"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "que deis muito fruto e vos torneis meus discípulos, diz o Senhor."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "In questo è glorificato il Padre mio: che portiate molto frutto e diventiate miei discepoli."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Ce qui fait la gloire de mon Père, dit le Seigneur,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "c'est que vous portiez beaucoup de fruit et que vous soyez pour moi des disciples."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "So spricht der Herr: Mein Vater wird dadurch verherrlicht, dass ihr reiche Frucht bringt und meine Jünger werdet."
+            }
+          ]
+        ]
+      }
+    },
+    "citation": {
+      "la": "Io 15, 8",
+      "es": "Io 15, 8",
+      "en": "Jn 15: 8",
+      "pt-BR": "Jo 15, 8",
+      "it": "Gv 15, 8",
+      "fr": "Jn 15, 8",
+      "de": "Joh 15, 8"
+    }
+  },
+  "postcommunion": {
+    "body": {
+      "plain": {
+        "la": "De plenitúdine grátiæ tuæ suméntes, quǽsumus, Dómine, ut, eucharístici convívii fortitúdine roboráti, fidéles tui, quos rebus sæculáribus déditos esse voluísti, strénui sint evangélicæ testes veritátis, et Ecclésiam tuam in rebus temporálibus præséntem iúgiter reddant et actuósam. Per Christum.",
+        "es": "Después de participar de la plenitud de tu gracia, te pedimos, Señor, que tus fieles, que quisiste que se dedicaran a las cosas temporales, fortalecidos con el vigor del banquete eucarístico, sean testigos valientes de la verdad evangélica y transformen tu Iglesia, presente y activa siempre en las realidades terrenas. Por Jesucristo, nuestro Señor.",
+        "en": "As we draw upon the fullness of your grace, we pray, O Lord, that your faithful, who by your will are engaged in the things of this world, may be strengthened by the power of the eucharistic Banquet, to be tireless witnesses to the truth of the Gospel and may ever make your Church present and active amid the affairs of this age. Through Christ our Lord.",
+        "pt-BR": "Saciados da plenitude da vossa graça, nós vos pedimos, Senhor, que vossos fiéis, por vós chamados às tarefas temporais, revigorados pela força do banquete eucarístico, sejam testemunhas valorosas da verdade do Evangelho e tornem vossa Igreja sempre mais presente e ativa nas realidades terrestres. Por Cristo, nosso Senhor.",
+        "it": "Ricolmi della pienezza della tua grazia, ti chiediamo, o Signore, che i fedeli da te chiamati a impegnarsi nelle realtà del mondo, sostenuti dalla forza del convito eucaristico, siano coraggiosi testimoni della verità del Vangelo e, nel nostro tempo, rendano sempre presente e operante la tua Chiesa. Per Cristo nostro Signore.",
+        "fr": "Nous qui avons part à la plénitude de ta grâce, nous te prions, Seigneur, pour tes fidèles engagés dans le monde selon ta volonté ; ils viennent d'être réconfortés par le banquet eucharistique : fais qu'ils soient des témoins ardents de la vérité de l'Évangile et rendent ton Église toujours plus présente et active dans les réalités temporelles. Par le Christ, notre Seigneur.",
+        "de": "Gütiger Gott, wir danken dir, dass du uns aus der Fülle deiner Gnade das heilige Mahl geschenkt hast. Stärke durch diese Speise alle, denen du einen Auftrag in der Welt zugewiesen hast. Hilf ihnen, Zeugnis zu geben für das Evangelium, und mache durch ihr Wirken deine Kirche in der Welt gegenwärtig. Darum bitten wir durch Christus, unseren Herrn."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "De plenitúdine grátiæ tuæ suméntes, quǽsumus, Dómine, ut, eucharístici convívii fortitúdine roboráti, fidéles tui, quos rebus sæculáribus déditos esse voluísti, strénui sint evangélicæ testes veritátis, et Ecclésiam tuam in rebus temporálibus præséntem iúgiter reddant et actuósam. Per Christum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Después de participar de la plenitud de tu gracia,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "te pedimos, Señor, que tus fieles,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "que quisiste que se dedicaran a las cosas temporales,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "fortalecidos con el vigor del banquete eucarístico,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "sean testigos valientes de la verdad evangélica y transformen tu Iglesia,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "presente y activa siempre en las realidades terrenas."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por Jesucristo, nuestro Señor."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "As we draw upon the fullness of your grace,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "we pray, O Lord,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "that your faithful,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "who by your will are engaged in the things of this world,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "may be strengthened by the power of the eucharistic Banquet, to be tireless witnesses to the truth of the Gospel and may ever make your Church present and active amid the affairs of this age."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Through Christ our Lord."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Saciados da plenitude da vossa graça,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "nós vos pedimos, Senhor,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "que vossos fiéis, por vós chamados às tarefas temporais,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "revigorados pela força do banquete eucarístico,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "sejam testemunhas valorosas da verdade do Evangelho e tornem vossa Igreja sempre mais presente e ativa nas realidades terrestres."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por Cristo, nosso Senhor."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "Ricolmi della pienezza della tua grazia, ti chiediamo, o Signore, che i fedeli da te chiamati a impegnarsi nelle realtà del mondo, sostenuti dalla forza del convito eucaristico, siano coraggiosi testimoni della verità del Vangelo e,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "nel nostro tempo, rendano sempre presente e operante la tua Chiesa. Per Cristo nostro Signore."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Nous qui avons part à la plénitude de ta grâce,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "nous te prions, Seigneur, pour tes fidèles engagés dans le monde selon ta volonté ;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "ils viennent d'être réconfortés par le banquet eucharistique :"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "fais qu'ils soient des témoins ardents de la vérité de l'Évangile et rendent ton Église toujours plus présente et active dans les réalités temporelles."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Par le Christ, notre Seigneur."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Gütiger Gott, wir danken dir, dass du uns aus der Fülle deiner Gnade das heilige Mahl geschenkt hast. Stärke durch diese Speise alle, denen du einen Auftrag in der Welt zugewiesen hast. Hilf ihnen, Zeugnis zu geben für das Evangelium, und mache durch ihr Wirken deine Kirche in der Welt gegenwärtig."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Darum bitten wir durch Christus, unseren Herrn."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "liturgicalColor": "green"
+}

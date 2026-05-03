@@ -1,0 +1,50 @@
+{
+  "id": "sanctorale.movable.99-99.france",
+  "group": "sanctorale",
+  "scope": "france",
+  "movable": true,
+  "movableMonthAnchor": 99,
+  "movableCode": "9999",
+  "title": {
+    "la": "france"
+  },
+  "rank": "solemnity",
+  "rankLocalized": {
+    "fr": "Solemnidad"
+  },
+  "collect": {
+    "body": {
+      "plain": {
+        "fr": "(Collecte) ."
+      },
+      "lines": {
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "(Collecte) ."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "preface": {
+    "body": {
+      "plain": {
+        "fr": "Préface ."
+      },
+      "lines": {
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Préface ."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "liturgicalColor": "white"
+}

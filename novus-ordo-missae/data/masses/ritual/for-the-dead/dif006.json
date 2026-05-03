@@ -1,0 +1,688 @@
+{
+  "id": "ritual.for-the-dead.dif006",
+  "group": "ritual",
+  "subgroup": "for-the-dead",
+  "title": {
+    "la": "I. IN EXSEQUIIS E. IN EXSEQUIIS PARVULI BAPTIZATI 2 Aliæ orationes",
+    "es": "I. EN LAS EXEQUIAS E. En las exequias de un niño bautizado 2",
+    "en": "I. FOR THE FUNERAL E. For the Funeral of a Baptized Child 2 Other Prayers",
+    "pt-BR": "1. NAS EXÉQUIAS E. Nas exéquias de uma criança batizada 2 Outras orações",
+    "it": "I. IN EXSEQUIIS E. Nelle esequie di un bambino battezzato 2. Altre orazioni",
+    "fr": "I. MESSE DES FUNÉRAILLES E. AUX FUNÉRAILLES D'UN ENFANT BAPTISÉ 2 Autres oraisons",
+    "de": "I. AM BEGRÄBNISTAG EINES KINDES E. Weitere Orationen 2"
+  },
+  "entranceAntiphon": {
+    "body": {
+      "plain": {
+        "la": "Scio quod Redémptor meus vivit, et in novíssimo die de terra surrectúrus sum, et in carne mea vidébo Deum meum.",
+        "es": "Sé que mi Redentor vive, y que en el último día me alzaré de la tierra y en mi propia carne veré a mi Dios.",
+        "en": "I know that my redeemer lives, and that he will at last stand forth upon the dust; and from my flesh i shall see god.",
+        "pt-BR": "Eu sei que o meu Redentor está vivo e que, por último, se levantará sobre o pó; e, na minha carne, verei a Deus.",
+        "fr": "Je sais que mon Rédempteur est vivant et qu'au dernier jour je surgirai de la terre ; dans ma propre chair, je verrai mon Dieu.",
+        "de": "Ich weiß, dass mein Erlöser lebt, darum werde ich auferstehn am Letzten Tag und Gott anschauen in meinem Leib."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Scio quod Redémptor meus vivit, et in novíssimo die de terra surrectúrus sum,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "et in carne mea vidébo Deum meum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Sé que mi Redentor vive, y que en el último día me alzaré de la tierra y en mi propia carne veré a mi Dios."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "I know that my redeemer lives,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "and that he will at last stand forth upon the dust; and from my flesh i shall see god."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Eu sei que o meu Redentor está vivo e que, por último, se levantará sobre o pó; e, na minha carne, verei a Deus."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Je sais que mon Rédempteur est vivant et qu'au dernier jour je surgirai de la terre ;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "dans ma propre chair, je verrai mon Dieu."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Ich weiß, dass mein Erlöser lebt, darum werde ich auferstehn am Letzten Tag und Gott anschauen in meinem Leib."
+            }
+          ]
+        ]
+      }
+    },
+    "citation": {
+      "la": "Iob 19, 25",
+      "es": "Jb 19, 25",
+      "en": "Job 19: 25",
+      "pt-BR": "Jó 19, 25",
+      "fr": "Iob 19, 25"
+    }
+  },
+  "collect": {
+    "body": {
+      "plain": {
+        "la": "Deus, qui mæróre scis corda nostra cómprimi propter huius infántis excéssum, præsta, ut, quem iam hac vita defúnctum, te disponénte, deflémus, ætérnam in cælo sedem credámus adéptum. Per Dóminum.",
+        "es": "Oh, Dios, tú sabes que nuestros corazones están sumidos en la tristeza por la muerte de este niño; concede a quienes lloramos al que ha dejado ya esta vida, creer que ha sido recibido, según tu designio, en la eterna morada del cielo. Por nuestro Señor Jesucristo.",
+        "en": "O God, who know that our hearts are weighed down by grief at the death of this young child, grant that, while we weep for him ( her ) , who at your bidding has departed this life so soon, we may have faith that he ( she ) has gained an eternal home in heaven. Through our lord Jesus Christ, your son, who lives and reigns with you in the unity of the Holy Spirit, one God, for ever and ever.",
+        "pt-BR": "Ó Pai, vós conheceis a dor do nosso coração pela morte desta criança; a nós que choramos a partida de N. que, em vosso desígnio, foi chamado desta vida, concedei-nos crer que ele já vive na glória do céu. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus, e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
+        "it": "O Dio, che conosci la grande sofferenza del nostro cuore per la perdita del piccolo [ della piccola ] N. , concedi a noi, che piangiamo la sua morte, di credere che egli [ella] vive accanto a te in paradiso. Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli.",
+        "fr": "Seigneur Dieu, tu vois combien nos cœurs sont tristes devant la mort de cet enfant ; alors que nous pleurons celui (celle) qui a déjà quitté cette vie, accorde-nous de croire que, par ta grâce, il (elle) a trouvé sa place à jamais dans le ciel. Par Jésus Christ, ton Fils, notre Seigneur, qui vit et règne avec toi dans l'unité du Saint-Esprit, Dieu, pour les siècles des siècles.",
+        "de": "O Gott, wir sind voll Trauer über den Tod des Kindes, das so früh zu dir heimgegangen ist. Tröste uns durch die gläubige Zuversicht, dass dieses Kind im Himmel das ewige Vaterhaus gefunden hat. Darum bitten wir durch Jesus Christus."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Deus, qui mæróre scis corda nostra cómprimi propter huius infántis excéssum,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "præsta, ut, quem iam hac vita defúnctum, te disponénte, deflémus, ætérnam in cælo sedem credámus adéptum. Per Dóminum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Oh, Dios,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "tú sabes que nuestros corazones están sumidos en la tristeza por la muerte de este niño;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "concede a quienes lloramos al que ha dejado ya esta vida,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "creer que ha sido recibido, según tu designio,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "en la eterna morada del cielo."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por nuestro Señor Jesucristo."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "O God, who know that our hearts are weighed down by grief at the death of this young child,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "grant that, while we weep for him"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": "her"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": ","
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "who at your bidding has departed this life so soon, we may have faith that he"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": "she"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": "has gained an eternal home in heaven."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Through our lord Jesus Christ, your son,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "who lives and reigns with you in the unity of the Holy Spirit,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "one God, for ever and ever."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Ó Pai, vós conheceis a dor do nosso coração pela morte desta criança; a nós que choramos a partida de"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": "que, em vosso desígnio, foi chamado desta vida, concedei-nos crer que ele já vive na glória do céu. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "O Dio, che conosci la grande sofferenza del nostro cuore per la perdita del piccolo"
+            },
+            {
+              "type": "rubric",
+              "text": "["
+            },
+            {
+              "type": "text",
+              "text": "della piccola"
+            },
+            {
+              "type": "rubric",
+              "text": "] N."
+            },
+            {
+              "type": "text",
+              "text": ","
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "concedi a noi, che piangiamo la sua morte, di credere che egli [ella] vive accanto a te in paradiso. Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Seigneur Dieu,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "tu vois combien nos cœurs sont tristes devant la mort de cet enfant ;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "alors que nous pleurons celui (celle) qui a déjà quitté cette vie,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "accorde-nous de croire que, par ta grâce,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "il (elle) a trouvé sa place à jamais dans le ciel."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Par Jésus Christ, ton Fils, notre Seigneur,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "qui vit et règne avec toi dans l'unité du Saint-Esprit,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Dieu, pour les siècles des siècles."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "O Gott, wir sind voll Trauer über den Tod des Kindes, das so früh zu dir heimgegangen ist. Tröste uns durch die gläubige Zuversicht, dass dieses Kind im Himmel das ewige Vaterhaus gefunden hat. Darum bitten wir durch Jesus Christus."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "prayerOverOfferings": {
+    "body": {
+      "plain": {
+        "la": "Hanc oblatiónem, Deus, dignáre in nostræ signum devotiónis excípere, ut, qui tuæ providéntiæ consíliis submíttimur confidéntes, tuæ quoque pietátis dulcédine sublevémur. Per Christum.",
+        "es": "Dígnate, Señor, recibir esta ofrenda como signo de nuestra entrega, y, a quienes nos sometemos confiadamente a los designios de tu providencia, confórtanos con la dulzura de tu bondad. Por Jesucristo, nuestro Señor.",
+        "en": "Graciously accept this offering, O God, as a sign of our devotion, so that, trusting in the designs of your providence, we may be raised up by your gentle and fatherly care. Through Christ our Lord.",
+        "pt-BR": "Dignai-vos, ó Deus, aceitar esta oferenda, sinal da nossa devoção, para que, submetendo-nos confiantes aos desígnios da vossa providência, sejamos também confortados pela ternura de vossa paterna bondade. Por Cristo1 nosso Senhor.",
+        "it": "Accogli, o Dio, questa offerta come segno della nostra devozione, e fa' che, accettando con fede il misterioso disegno della tua provvidenza, siamo consolati dalla dolcezza del tuo amore. Per Cristo nostro Signore.",
+        "fr": "Seigneur Dieu, accueille cette offrande que nous te présentons pour t'exprimer notre attachement ; puisque, dans la confiance, nous en remettons au mystère de ta providence, soutiens-nous par la douceur de ton amour. Par le Christ, notre Seigneur.",
+        "de": "Allmächtiger Gott, wir bringen dir diese Gaben dar als Zeichen dafür, dass wir uns in den Ratschluss deiner Vorsehung ergeben. Richte uns auf in unserer Trauer und gib, dass wir auch in dieser Prüfung an deine Güte glauben. Darum bitten wir durch Christus, unseren Herrn."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Hanc oblatiónem, Deus, dignáre in nostræ signum devotiónis excípere, ut, qui tuæ providéntiæ consíliis submíttimur confidéntes, tuæ quoque pietátis dulcédine sublevémur. Per Christum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Dígnate, Señor,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "recibir esta ofrenda como signo de nuestra entrega,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "y,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "a quienes nos sometemos confiadamente a los designios de tu providencia,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "confórtanos con la dulzura de tu bondad."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por Jesucristo, nuestro Señor."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "Graciously accept this offering, O God,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "as a sign of our devotion,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "so that, trusting in the designs of your providence, we may be raised up by your gentle and fatherly care."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Through Christ our Lord."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Dignai-vos, ó Deus, aceitar esta oferenda, sinal da nossa devoção, para que,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "submetendo-nos confiantes aos desígnios da vossa providência, sejamos também confortados pela ternura de vossa paterna bondade. Por Cristo1 nosso Senhor."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "Accogli, o Dio, questa offerta come segno della nostra devozione, e fa' che,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "accettando con fede il misterioso disegno della tua provvidenza, siamo consolati dalla dolcezza del tuo amore. Per Cristo nostro Signore."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Seigneur Dieu,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "accueille cette offrande que nous te présentons pour t'exprimer notre attachement ;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "puisque, dans la confiance,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "nous en remettons au mystère de ta providence,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "soutiens-nous par la douceur de ton amour."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Par le Christ, notre Seigneur."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Allmächtiger Gott, wir bringen dir diese Gaben dar als Zeichen dafür, dass wir uns in den Ratschluss deiner Vorsehung ergeben. Richte uns auf in unserer Trauer und gib, dass wir auch in dieser Prüfung an deine Güte glauben. Darum bitten wir durch Christus, unseren Herrn."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "preface": {
+    "prefaceRef": "preface.pf067",
+    "alternativeRefs": [
+      "preface.pf068",
+      "preface.pf069",
+      "preface.pf070",
+      "preface.pf071"
+    ],
+    "label": {
+      "la": "I",
+      "es": "I",
+      "en": "I",
+      "pt-BR": "I",
+      "it": "I",
+      "fr": "I",
+      "de": "I"
+    },
+    "excerpt": {
+      "la": "Quia, etsi nostri est mériti quod",
+      "es": "Porque el ser llamados de nuevo a la vida",
+      "en": "For even though by our own fault we perish,",
+      "pt-BR": "Pois, embora mereçamos morrer",
+      "it": "La morte è comune eredità di tutti,",
+      "fr": "Même si nous sommes destinés à mourir,",
+      "de": "Durch die Sünde kam der Tod in die Welt,"
+    }
+  },
+  "postcommunion": {
+    "body": {
+      "plain": {
+        "la": "Divíno múnere satiáti, te, Dómine, deprecámur, ut, qui hunc infántem ad mensam tríbuis regni cæléstis accúmbere, eándem et nos participáre concédas. Per Christum.",
+        "es": "Señor, tú que has concedido a este niño sentarse a la mesa de tu reino celestial, concédenos también participar en ella a los que has alimentado con el don divino. Por Jesucristo, nuestro Señor.",
+        "en": "Nourished by your divine gifts, we pray, O Lord, that, just as you have given this little child a place at the table in your heavenly Kingdom, we, too, may find a place there. Through Christ our Lord.",
+        "pt-BR": "Alimentados por estes dons divinos, nós vos pedimos, Senhor: concedei-nos sentar um dia à mesa do vosso reino ao qual chamastes esta criança. Por Cristo, nosso Senhor.",
+        "it": "Saziati con i tuoi santi doni, ti preghiamo, o Signore: tu, che hai chiamato il piccolo [ alla nostra sorella ] N. a sedere alla mensa del tuo regno, concedi anche a noi di partecipare un giorno con lui [lei] allo stesso convito. Per Cristo nostro Signore.",
+        "fr": "Après avoir reçu cet aliment divin, nous t'implorons, Seigneur : toi qui accueilles cet enfant à la table de ton Royaume, accorde-nous d'y trouver aussi notre place. Par le Christ, notre Seigneur.",
+        "de": "Gott, unser Vater, wir haben die heilige Gabe empfangen. Erhöre unser Gebet: Wie du das Kind, um das wir trauern, schon jetzt zum Tisch in deinem Reich gerufen hast, so lass auch uns einst am himmlischen Gastmahl teilnehmen. Darum bitten wir durch Christus, unseren Herrn."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Divíno múnere satiáti, te, Dómine, deprecámur, ut, qui hunc infántem ad mensam tríbuis regni cæléstis accúmbere, eándem et nos participáre concédas. Per Christum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Señor, tú que has concedido a este niño sentarse a la mesa de tu reino celestial,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "concédenos también participar en ella a los que has alimentado con el don divino."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por Jesucristo, nuestro Señor."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "Nourished by your divine gifts,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "we pray, O Lord,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "that, just as you have given this little child a place at the table in your heavenly Kingdom, we, too, may find a place there."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Through Christ our Lord."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Alimentados por estes dons divinos, nós vos pedimos, Senhor: concedei-nos sentar um dia à mesa do vosso reino ao qual chamastes esta criança. Por Cristo, nosso Senhor."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "Saziati con i tuoi santi doni, ti preghiamo, o Signore: tu, che hai chiamato il piccolo"
+            },
+            {
+              "type": "rubric",
+              "text": "["
+            },
+            {
+              "type": "text",
+              "text": "alla nostra sorella"
+            },
+            {
+              "type": "rubric",
+              "text": "] N."
+            },
+            {
+              "type": "text",
+              "text": "a sedere alla mensa del tuo regno, concedi anche a noi di partecipare un giorno con lui [lei] allo stesso convito. Per Cristo nostro Signore."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Après avoir reçu cet aliment divin,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "nous t'implorons, Seigneur :"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "toi qui accueilles cet enfant à la table de ton Royaume,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "accorde-nous d'y trouver aussi notre place."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Par le Christ, notre Seigneur."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Gott, unser Vater, wir haben die heilige Gabe empfangen. Erhöre unser Gebet:"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Wie du das Kind, um das wir trauern, schon jetzt zum Tisch in deinem Reich gerufen hast, so lass auch uns einst am himmlischen Gastmahl teilnehmen. Darum bitten wir durch Christus, unseren Herrn."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "liturgicalColor": "violet"
+}

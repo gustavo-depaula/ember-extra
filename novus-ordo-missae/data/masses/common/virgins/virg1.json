@@ -1,0 +1,974 @@
+{
+  "id": "common.virgins.virg1",
+  "group": "common",
+  "subgroup": "virgins",
+  "title": {
+    "la": "COMMUNE VIRGINUM II. PRO UNA VIRGINE 1",
+    "es": "COMÚN DE VÍRGENES II. Para una virgen 1",
+    "en": "COMMON OF VIRGINS II. For One Virgin 1",
+    "pt-BR": "COMUM DAS VIRGENS",
+    "it": "COMUNE DELLE VERGINI II. Per una vergine 1.",
+    "fr": "COMMUN DES VIERGES II. POUR UNE VIERGE 1",
+    "de": "COMMUNE-TEXTE FÜR JUNGFRAUEN"
+  },
+  "entranceAntiphon": {
+    "body": {
+      "plain": {
+        "la": "O quam pulchra es, virgo Christi, quæ corónam Dómini digna fuísti accípere, corónam perpétuæ virginitátis ( T. P. allelúia ).",
+        "es": "Qué hermosa eres, virgen de Cristo, que fuiste digna de recibir la corona del Señor, la corona de la perpetua virginidad (T. P. Aleluya )",
+        "en": "How beautiful you are, O virgin of Christ, who were worthy to receive the Lord's crown, the crown of perpetual virginity (E. T. alleluia )",
+        "it": "Come sei bella, o vergine di Cristo, degna di ricevere la corona del Signore, la corona della verginità eterna (T. P. Alleluia )",
+        "fr": "Que tu es belle, vierge du Christ ! Tu as mérité de recevoir la couronne du Seigneur, la couronne de la virginité à jamais ( T. P. alléluia )."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "O quam pulchra es, virgo Christi, quæ corónam Dómini digna fuísti accípere,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "corónam perpétuæ virginitátis"
+            },
+            {
+              "type": "rubric",
+              "text": "T. P."
+            },
+            {
+              "type": "text",
+              "text": "allelúia"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Qué hermosa eres, virgen de Cristo, que fuiste digna de recibir la corona del Señor, la corona de la perpetua virginidad"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "T. P."
+            },
+            {
+              "type": "text",
+              "text": "Aleluya"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "How beautiful you are, O virgin of Christ, who were worthy to receive the Lord's crown, the crown of perpetual virginity"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "E. T."
+            },
+            {
+              "type": "text",
+              "text": "alleluia"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "Come sei bella, o vergine di Cristo, degna di ricevere la corona del Signore,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "la corona della verginità eterna"
+            },
+            {
+              "type": "rubric",
+              "text": "T. P."
+            },
+            {
+              "type": "text",
+              "text": "Alleluia"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Que tu es belle, vierge du Christ !"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Tu as mérité de recevoir la couronne du Seigneur,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "la couronne de la virginité à jamais"
+            },
+            {
+              "type": "rubric",
+              "text": "T. P."
+            },
+            {
+              "type": "text",
+              "text": "alléluia"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "collect": {
+    "body": {
+      "plain": {
+        "la": "Exáudi nos, Deus, salutáris noster, ut, sicut de beátæ N. vírginis commemoratióne gaudémus, ita piæ devotiónis erudiámur afféctu. Per Dóminum.",
+        "es": "Escúchanos, Dios, Salvador nuestro, para que, alegres en la fiesta de santa N. , virgen, aprendamos a servirte con amor. Por nuestro Señor Jesucristo.",
+        "en": "Hear us, God our Savior, that, as we rejoice in commemorating the Virgin blessed N. , we may be instructed by her loving devotion. Through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, one God, for ever and ever.",
+        "pt-BR": "Deus e Salvador nosso, ouvi a nossa súplica, para que, alegrando-nos com a festa da virgem santa N. aprendamos a vos servir com amor. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
+        "it": "O Dio, nostra salvezza, esaudisci la preghiera della tua Chiesa, perché celebrando con gioia la memoria della santa vergine N. , impariamo a servirti con amore. Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli.",
+        "fr": "Exauce nos prières, Dieu notre Sauveur, afin qu'en célébrant dans la joie la mémoire de la vierge sainte N. , nous apprenions à te servir avec un amour sincère. Par Jésus Christ, ton Fils, notre Seigneur, qui vit et règne avec toi dans l'unité du Saint-Esprit, Dieu, pour les siècles des siècles.",
+        "de": "Gott, unser Heil, wir feiern heute den Gedenktag der heiligen Jungfrau N. Erhöre unser Gebet und mache uns bereit, dir mit jener Hingabe zu dienen, die wir an dieser Heiligen bewundern. Darum bitten wir durch Jesus Christus."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Exáudi nos, Deus, salutáris noster, ut, sicut de beátæ"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": "vírginis commemoratióne gaudémus, ita piæ devotiónis erudiámur afféctu. Per Dóminum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Escúchanos, Dios, Salvador nuestro,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "para que, alegres en la fiesta de santa"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": ", virgen,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "aprendamos a servirte con amor."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por nuestro Señor Jesucristo."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "Hear us, God our Savior, that, as we rejoice in commemorating the Virgin blessed"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": ", we may be instructed by her loving devotion."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Through our Lord Jesus Christ, your Son,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "who lives and reigns with you in the unity of the Holy Spirit,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "one God, for ever and ever."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Deus e Salvador nosso, ouvi a nossa súplica, para que, alegrando-nos com a festa da virgem santa"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": "aprendamos a vos servir com amor. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "O Dio, nostra salvezza, esaudisci la preghiera della tua Chiesa, perché celebrando con gioia la memoria della santa vergine"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": ", impariamo a servirti con amore. Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Exauce nos prières, Dieu notre Sauveur,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "afin qu'en célébrant dans la joie la mémoire de la vierge sainte"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": ","
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "nous apprenions à te servir avec un amour sincère."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Par Jésus Christ, ton Fils, notre Seigneur,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "qui vit et règne avec toi dans l'unité du Saint-Esprit,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Dieu, pour les siècles des siècles."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Gott, unser Heil, wir feiern heute den Gedenktag der heiligen Jungfrau"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": "Erhöre unser Gebet und mache uns bereit, dir mit jener Hingabe zu dienen, die wir an dieser Heiligen bewundern. Darum bitten wir durch Jesus Christus."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "prayerOverOfferings": {
+    "body": {
+      "plain": {
+        "la": "In beáta vírgine N. te, Dómine, mirábilem prædicántes, maiestátem tuam supplíciter exorámus, ut, sicut eius tibi grata sunt mérita, sic nostræ servitútis accépta reddántur offícia. Per Christum.",
+        "es": "Señor, al proclamarte admirable en santa N. , virgen, suplicamos humildemente a tu majestad que, así como te agradaron sus méritos, aceptes de igual modo nuestro servicio. Por Jesucristo, nuestro Señor.",
+        "en": "As we proclaim your wonders, O Lord, in the Virgin blessed N. , we humbly implore your majesty that, as her merits are pleasing to you, so, too, our dutiful service may find favor in your sight. Through Christ our Lord.",
+        "pt-BR": "Ó Deus, ouvi as nossas preces, ao proclamarmos as vossas maravilhas em santa N. , e, assim como vos agradou por sua vida, seja de vosso agrado o nosso culto. Por Cristo, nosso Senhor.",
+        "it": "O Dio, mirabile nei tuoi santi, accogli questi doni che ti presentiamo nel ricordo di santa N. e come ti fu gradita la sua testimonianza verginale, ti sia ben accetta l'offerta del nostro sacrificio. Per Cristo nostro Signore.",
+        "fr": "Nous proclamons tes merveilles, accomplies en la bienheureuse vierge, sainte N. , Seigneur, Dieu de majesté, et nous te supplions humblement : toi qui appréciais les mérites de sa vie, accepte l'hommage de notre service. Par le Christ, notre Seigneur.",
+        "de": "Wir preisen dich, Herr, denn du bist groß in deinen Heiligen. Das Leben der heiligen Jungfrau N. hat dir wohlgefallen. Nimm mit diesen Gaben auch unseren Dienst an. Darum bitten wir durch Christus, unseren Herrn."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "In beáta vírgine"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": "te, Dómine, mirábilem prædicántes, maiestátem tuam supplíciter exorámus, ut, sicut eius tibi grata sunt mérita, sic nostræ servitútis accépta reddántur offícia. Per Christum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Señor,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "al proclamarte admirable en santa"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": ","
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "virgen,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "suplicamos humildemente a tu majestad que, así como te agradaron sus méritos,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "aceptes de igual modo nuestro servicio."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por Jesucristo, nuestro Señor."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "As we proclaim your wonders, O Lord, in the Virgin blessed"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": ", we humbly implore your majesty that, as her merits are pleasing to you, so, too, our dutiful service may find favor in your sight."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Through Christ our Lord."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Ó Deus, ouvi as nossas preces, ao proclamarmos as vossas maravilhas em santa"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": ", e, assim como vos agradou por sua vida, seja de vosso agrado o nosso culto. Por Cristo, nosso Senhor."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "O Dio, mirabile nei tuoi santi, accogli questi doni che ti presentiamo nel ricordo di santa"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": "e come ti fu gradita la sua testimonianza verginale, ti sia ben accetta l'offerta del nostro sacrificio."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Per Cristo nostro Signore."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Nous proclamons tes merveilles,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "accomplies en la bienheureuse vierge, sainte"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": ","
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Seigneur, Dieu de majesté,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "et nous te supplions humblement :"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "toi qui appréciais les mérites de sa vie,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "accepte l'hommage de notre service."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Par le Christ, notre Seigneur."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Wir preisen dich, Herr, denn du bist groß in deinen Heiligen. Das Leben der heiligen Jungfrau"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": "hat dir wohlgefallen. Nimm mit diesen Gaben auch unseren Dienst an. Darum bitten wir durch Christus, unseren Herrn."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "preface": {
+    "prefaceRef": "preface.pf057",
+    "label": {
+      "la": "De sanctis virginibus et religiosis",
+      "es": "Santas Vírgenes y Religiosos",
+      "en": "HOLY VIRGINS AND RELIGIOUS",
+      "pt-BR": "SANTAS VIRGENS E RELIGIOSOS",
+      "it": "DELLE SANTE VERGINI E DEI SANTI RELIGIOSI",
+      "fr": "Des saintes vierges, et des saints religieux ou religieuses",
+      "de": "HEILIGEN JUNGFRAUEN UND ORDENSLEUTEN"
+    },
+    "excerpt": {
+      "la": "In Sanctis enim, qui Christo se dedicavérunt",
+      "es": "Porque celebramos tu providencia admirable",
+      "en": "For in the Saints who consecrated themselves",
+      "pt-BR": "Neles, chamais novamente os fiéis",
+      "it": "Nei tuoi santi, che per il regno",
+      "fr": "Nous célébrons les prévenances de ton amour",
+      "de": "Inmitten der Kirche berufst du Menschen"
+    }
+  },
+  "communionAntiphon": {
+    "body": {
+      "plain": {
+        "la": "Unum pétii a Dómino, hoc requíram: ut inhábitem in domo Dómini ómnibus diébus vitæ meæ (T. P. allelúia ).",
+        "es": "Una cosa pido al Señor, eso buscaré: habitar en la casa del Señor por los días de mi vida (T. P. Aleluya )",
+        "en": "There is one thing I ask of the Lord, only this do I seek: to live in the house of the Lord all the days of my life (E. T. alleluia )",
+        "it": "Una cosa ho chiesto al Signore, questa sola io cerco: abitare nella casa del Signore tutti i giorni della mia vita (T. P. Alleluia )",
+        "fr": "J'ai demandé une chose au Seigneur, la seule que je cherche : habiter la maison du Seigneur tous les jours de ma vi (T. P. alléluia )."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Unum pétii a Dómino, hoc requíram: ut inhábitem in domo Dómini ómnibus diébus vitæ meæ"
+            },
+            {
+              "type": "rubric",
+              "text": "T. P."
+            },
+            {
+              "type": "text",
+              "text": "allelúia"
+            },
+            {
+              "type": "rubric",
+              "text": "."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Una cosa pido al Señor, eso buscaré: habitar en la casa del Señor por los días de mi vida"
+            },
+            {
+              "type": "rubric",
+              "text": "T. P."
+            },
+            {
+              "type": "text",
+              "text": "Aleluya"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "There is one thing I ask of the Lord, only this do I seek: to live in the house of the Lord all the days of my life"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "E. T."
+            },
+            {
+              "type": "text",
+              "text": "alleluia"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "Una cosa ho chiesto al Signore, questa sola io cerco: abitare nella casa del Signore tutti i giorni della mia vita"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "T. P."
+            },
+            {
+              "type": "text",
+              "text": "Alleluia"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "J'ai demandé une chose au Seigneur,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "la seule que je cherche :"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "habiter la maison du Seigneur tous les jours de ma vi"
+            },
+            {
+              "type": "rubric",
+              "text": "T. P."
+            },
+            {
+              "type": "text",
+              "text": "alléluia"
+            },
+            {
+              "type": "rubric",
+              "text": "."
+            }
+          ]
+        ]
+      }
+    },
+    "citation": {
+      "la": "Cf. Ps 26, 4",
+      "es": "Sal 26,4",
+      "en": "Ps 27 (26): 4",
+      "it": "Sal 26,4",
+      "fr": "Cf. Ps 26, 4"
+    }
+  },
+  "postcommunion": {
+    "body": {
+      "plain": {
+        "la": "Divíni múneris participatióne refécti, quǽsumus, Dómine Deus noster, ut, exémplo beátæ N. , mortificatiónem Iesu in córpore nostro circumferéntes, tibi soli adhærére studeámus. Per Christum.",
+        "es": "Señor, Dios nuestro, alimentados por la participación en estos dones divinos, te pedimos que, a ejemplo de santa N. , llevando en nuestro cuerpo la muerte de Jesús, nos esforcemos por unirnos solamente a ti. Por Jesucristo, nuestro Señor.",
+        "en": "Renewed by partaking of this divine gift, we pray, O Lord our God, that by the example of the blessed N. , bearing in our body the Death of Jesus, we may strive to hold fast to you alone. Through Christ our Lord.",
+        "pt-BR": "Senhor nosso Deus, fortalecidos pela participação nesta Eucaristia, fazei que, a exemplo de santa N. , nos esforcemos por servir unicamente a vós, trazendo em nosso corpo os sinais dos sofrimentos de Jesus. Que vive e reina para sempre.",
+        "it": "Rinvigoriti dalla partecipazione ai santi doni, ti preghiamo, Signore Dio nostro: fa' che sull'esempio di santa N. portiamo nel nostro corpo la passione di Cristo Gesù, per aderire a te, unico e sommo bene. Per Cristo nostro Signore.",
+        "fr": "En participant au don que tu nous as fait, Seigneur notre Dieu, nous avons renouvelé nos forces, et nous te supplions encore : qu'à l'exemple de sainte N. , portant dans notre corps la mort de Jésus, nous cherchions à nous attacher à toi seul. Par le Christ, notre Seigneur.",
+        "de": "Herr, unser Gott, du hast uns gestärkt durch die Teilnahme am heiligen Mahl. Da wir das Todesleiden Jesu an unserem Leibe tragen, lehre uns nach dem Vorbild der heiligen Jungfrau N. , dir unser ganzes Leben als ungeteilten Dienst zu weihen. Darum bitten wir durch Christus, unseren Herrn."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Divíni múneris participatióne refécti, quǽsumus, Dómine Deus noster, ut,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "exémplo beátæ"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": ", mortificatiónem Iesu in córpore nostro circumferéntes, tibi soli adhærére studeámus. Per Christum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Señor, Dios nuestro,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "alimentados por la participación en estos dones divinos,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "te pedimos que, a ejemplo de santa"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": ","
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "llevando en nuestro cuerpo la muerte de Jesús,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "nos esforcemos por unirnos solamente a ti."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por Jesucristo,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "nuestro Señor."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "Renewed by partaking of this divine gift, we pray, O Lord our God, that by the example of the blessed"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": ", bearing in our body the Death of Jesus, we may strive to hold fast to you alone."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Through Christ our Lord."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Senhor nosso Deus, fortalecidos pela participação nesta Eucaristia, fazei que,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "a exemplo de santa"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": ", nos esforcemos por servir unicamente a vós, trazendo em nosso corpo os sinais dos sofrimentos de Jesus."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Que vive e reina para sempre."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "Rinvigoriti dalla partecipazione ai santi doni, ti preghiamo, Signore Dio nostro: fa' che sull'esempio di santa"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": "portiamo nel nostro corpo la passione di Cristo Gesù, per aderire a te, unico e sommo bene."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Per Cristo nostro Signore."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "En participant au don que tu nous as fait,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Seigneur notre Dieu,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "nous avons renouvelé nos forces,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "et nous te supplions encore :"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "qu'à l'exemple de sainte"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": ","
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "portant dans notre corps la mort de Jésus,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "nous cherchions à nous attacher à toi seul."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Par le Christ, notre Seigneur."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Herr, unser Gott, du hast uns gestärkt durch die Teilnahme am heiligen Mahl."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Da wir das Todesleiden Jesu an unserem Leibe tragen, lehre uns nach dem Vorbild der heiligen Jungfrau"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": ", dir unser ganzes Leben als ungeteilten Dienst zu weihen. Darum bitten wir durch Christus,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "unseren Herrn."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "liturgicalColor": "white"
+}

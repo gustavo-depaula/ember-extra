@@ -1,0 +1,661 @@
+{
+  "id": "common.blessed-virgin-mary.bmvpas",
+  "group": "common",
+  "subgroup": "blessed-virgin-mary",
+  "title": {
+    "la": "COMMUNE BEATÆ MARIÆ VIRGINIS IV. TEMPORE PASCHALI 1",
+    "es": "COMÚN DE LA BIENAVENTURADA VIRGEN MARÍA IV. En tiempo pascual 1",
+    "en": "COMMON OF THE BLESSED VIRGIN MARY IV. In Easter Time 1",
+    "pt-BR": "COMUM DA BEM-AVENTURADA VIRGEM MARIA IV. No Tempo Pascal 1",
+    "it": "COMUNE DELLA BEATA VERGINE MARIA",
+    "fr": "COMMUN DE LA VIERGE MARIE IV. Temps de Pâques 1",
+    "de": "COMMUNE-TEXTE: MARIENMESSEN 6. In der Osterzeit"
+  },
+  "entranceAntiphon": {
+    "body": {
+      "plain": {
+        "la": "Erant discípuli perseverántes unanímiter in oratióne cum María matre Iesu. Alleluia.",
+        "es": "Los discípulos perseveraban unánimes en la oración con María, la madre de Jesús. Aleluya.",
+        "en": "The disciples were constantly at prayer together, with Mary the mother of Jesus, alleluia.",
+        "pt-BR": "Os discípulos perseveraram unânimes em oração com Maria, a Mãe de Jesus, aleluia.",
+        "it": "Hai mutato il mio lamento in danza, o Signore, e mi hai rivestito di gioia. Alleluia.",
+        "fr": "Tu as changé mon deuil en une danse ; Seigneur, tu m'as comblée de joie, alléluia.",
+        "de": "Die Jünger verharrten einmütig im Gebet, zusammen mit Maria, der Mutter Jesu. Halleluja."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Erant discípuli perseverántes unanímiter in oratióne cum María matre Iesu."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Alleluia."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Los discípulos perseveraban unánimes en la oración con María, la madre de Jesús. Aleluya."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "The disciples were constantly at prayer together, with Mary the mother of Jesus, alleluia."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Os discípulos perseveraram unânimes em oração com Maria, a Mãe de Jesus, aleluia."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "Hai mutato il mio lamento in danza, o Signore, e mi hai rivestito di gioia."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Alleluia."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Tu as changé mon deuil en une danse ;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Seigneur, tu m'as comblée de joie, alléluia."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Die Jünger verharrten einmütig im Gebet, zusammen mit Maria, der Mutter Jesu."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Halleluja."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "collect": {
+    "body": {
+      "plain": {
+        "la": "Deus, qui, per resurrectiónem Fílii tui Dómini nostri Iesu Christi, mundum lætificáre dignátus es, præsta, quǽsumus, ut, per eius Genetrícem Vírginem Maríam, perpétuæ capiámus gáudia vitæ. Per Dóminum.",
+        "es": "Oh Dios, que por la resurrección de tu Hijo, nuestro Señor Jesucristo, has llenado el mundo de alegría, concédenos, por intercesión de su Madre, la Virgen María, llegar a alcanzar los gozos eternos. Por nuestro Señor Jesucristo. O bien: Dios todopoderoso, que derramaste el Espíritu Santo sobre los apóstoles, reunidos en oración con María, la Madre de Jesús, concédenos, por intercesión de la Virgen, entregarnos fielmente a tu servicio y proclamar la gloria de tu nombre con testimonio de palabra y de vida. Por nuestro Señor Jesucristo.",
+        "en": "God our Father, you give joy to the world by the resurrection of your Son, our Lord Jesus Christ. Through the prayers of his mother, the Virgin Mary, bring us to the happiness of eternal life.",
+        "pt-BR": "Ó Deus, que destes o Espírito Santo aos vossos Apóstolos reunidos em oração com Maria, Mãe de Jesus, concedei-nos, por sua intercessão, que possamos vos servir fielmente e difundir a glória do vosso nome por palavras e exemplos. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus, e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
+        "it": "O Dio, che nella risurrezione del tuo Figlio, il Signore nostro Gesù Cristo, hai donato al mondo la gioia, per intercessione della Vergine Maria, sua Madre, concedi a noi di godere la felicità della vita senza fine. Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli.",
+        "fr": "Seigneur Dieu, par la résurrection de ton Fils, notre Seigneur Jésus, le Christ, tu as voulu donner la joie au monde : accorde-nous, par sa Mère, la Vierge Marie, d'obtenir le bonheur de la vie éternelle. Par Jésus Christ, ton Fils, notre Seigneur, qui vit et règne avec toi dans l'unité du Saint-Esprit, Dieu, pour les siècles des siècles.",
+        "de": "Allmächtiger Gott, durch die Auferstehung deines Sohnes, unseres Herrn Jesus Christus, hast du die Welt mit Jubel erfüllt. Lass uns durch seine jungfräuliche Mutter Maria zur unvergänglichen Osterfreude gelangen. Darum bitten wir durch ihn, Jesus Christus."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Deus, qui, per resurrectiónem Fílii tui Dómini nostri Iesu Christi, mundum lætificáre dignátus es, præsta, quǽsumus, ut, per eius Genetrícem Vírginem Maríam, perpétuæ capiámus gáudia vitæ. Per Dóminum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Oh Dios, que por la resurrección de tu Hijo, nuestro Señor Jesucristo, has llenado el mundo de alegría, concédenos, por intercesión de su Madre, la Virgen María, llegar a alcanzar los gozos eternos. Por nuestro Señor Jesucristo."
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "O bien:"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Dios todopoderoso, que derramaste el Espíritu Santo sobre los apóstoles, reunidos en oración con María, la Madre de Jesús, concédenos, por intercesión de la Virgen,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "entregarnos fielmente a tu servicio y proclamar la gloria de tu nombre con testimonio de palabra y de vida. Por nuestro Señor Jesucristo."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "God our Father, you give joy to the world by the resurrection of your Son, our Lord Jesus Christ. Through the prayers of his mother, the Virgin Mary, bring us to the happiness of eternal life."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Ó Deus,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "que destes o Espírito Santo aos vossos Apóstolos reunidos em oração com Maria, Mãe de Jesus,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "concedei-nos, por sua intercessão,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "que possamos vos servir fielmente e difundir a glória do vosso nome por palavras e exemplos."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "e convosco vive e reina, na unidade do Espírito Santo,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "por todos os séculos dos séculos."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "O Dio, che nella risurrezione del tuo Figlio, il Signore nostro Gesù Cristo,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "hai donato al mondo la gioia, per intercessione della Vergine Maria, sua Madre, concedi a noi di godere la felicità della vita senza fine. Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "nell'unità dello Spirito Santo, per tutti i secoli dei secoli."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Seigneur Dieu,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "par la résurrection de ton Fils, notre Seigneur Jésus, le Christ,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "tu as voulu donner la joie au monde :"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "accorde-nous, par sa Mère, la Vierge Marie,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "d'obtenir le bonheur de la vie éternelle."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Par Jésus Christ, ton Fils, notre Seigneur,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "qui vit et règne avec toi dans l'unité du Saint-Esprit,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Dieu, pour les siècles des siècles."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Allmächtiger Gott, durch die Auferstehung deines Sohnes, unseres Herrn Jesus Christus, hast du die Welt mit Jubel erfüllt. Lass uns durch seine jungfräuliche Mutter Maria zur unvergänglichen Osterfreude gelangen. Darum bitten wir durch ihn, Jesus Christus."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "prayerOverOfferings": {
+    "body": {
+      "plain": {
+        "la": "Súscipe, sancte Pater, oblatiónem humilitátis nostræ, quam tibi læti exhibémus, commemoratiónem beátæ Maríæ Vírginis celebrántes, et præsta, ut nobis, sacrifício Christi sociátis, temporális fiat consolátio et ætérna salvátio. Per Christum.",
+        "es": "Al celebrar la fiesta de santa María, siempre Virgen, te presentamos, Señor, nuestras ofrendas y te suplicamos que tu Hijo Jesucristo, sacerdote y víctima en el altar de la cruz, nos socorra siempre con su gracia. Por Jesucristo nuestro Señor.",
+        "en": "Father, as we celebrate the memory of the Virgin Mary, we offer you our gifts and prayers. Sustain us by the love of Christ, who offered himself as a perfect sacrifice on the cross, and is Lord for ever and ever.",
+        "pt-BR": "Senhor, em vossa benevolência, concedei, por intercessão da Bem-aventurada Virgem Maria, que esta nossa oblação obtenha para a vossa Igreja a graça de crescer em número de fiéis e sempre resplandecer pela abundância de virtudes. Por Cristo, nosso Senhor.",
+        "it": "Accogli, Padre santo, l'umile offerta che ti presentiamo con gioia celebrando la memoria della beata Vergine Maria: fa' che, uniti al sacrificio di Cristo, otteniamo consolazione nel tempo presente e salvezza nella vita eterna. Per Cristo nostro Signore.",
+        "fr": "Reçois, Père très saint, l'humble offrande que nous te présentons dans la joie, en célébrant la mémoire de la bienheureuse Vierge Marie ; fais qu'en nous unissant au sacrifice du Christ, nous recevions la consolation dès maintenant et le salut pour l'éternité. Par le Christ, notre Seigneur.",
+        "de": "Herr, unser Gott, am Fest (Gedenktag) der seligen Jungfrau Maria (beim Gedenken an die selige Jungfrau Maria) bringen wir unsere Gaben dar. Komm uns zu Hilfe durch deinen Sohn, der Mensch geworden ist und sich für uns am Kreuz als makelloses Opfer dargebracht hat. Darum bitten wir durch ihn, Christus, unseren Herrn."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Súscipe, sancte Pater, oblatiónem humilitátis nostræ, quam tibi læti exhibémus, commemoratiónem beátæ Maríæ Vírginis celebrántes, et præsta, ut nobis, sacrifício Christi sociátis, temporális fiat consolátio et ætérna salvátio. Per Christum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Al celebrar la fiesta de santa María, siempre Virgen, te presentamos, Señor,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "nuestras ofrendas y te suplicamos que tu Hijo Jesucristo, sacerdote y víctima en el altar de la cruz, nos socorra siempre con su gracia. Por Jesucristo nuestro Señor."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "Father, as we celebrate the memory of the Virgin Mary, we offer you our gifts and prayers. Sustain us by the love of Christ, who offered himself as a perfect sacrifice on the cross, and is Lord for ever and ever."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Senhor, em vossa benevolência,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "concedei, por intercessão da Bem-aventurada Virgem Maria,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "que esta nossa oblação obtenha para a vossa Igreja a graça de crescer em número de fiéis e sempre resplandecer pela abundância de virtudes."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por Cristo, nosso Senhor."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "Accogli, Padre santo, l'umile offerta che ti presentiamo con gioia celebrando la memoria della beata Vergine Maria: fa' che, uniti al sacrificio di Cristo,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "otteniamo consolazione nel tempo presente e salvezza nella vita eterna. Per Cristo nostro Signore."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Reçois, Père très saint, l'humble offrande que nous te présentons dans la joie,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "en célébrant la mémoire de la bienheureuse Vierge Marie ;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "fais qu'en nous unissant au sacrifice du Christ,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "nous recevions la consolation dès maintenant et le salut pour l'éternité."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Par le Christ, notre Seigneur."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Herr, unser Gott, am Fest (Gedenktag) der seligen Jungfrau Maria (beim Gedenken an die selige Jungfrau Maria) bringen wir unsere Gaben dar. Komm uns zu Hilfe durch deinen Sohn, der Mensch geworden ist und sich für uns am Kreuz als makelloses Opfer dargebracht hat. Darum bitten wir durch ihn, Christus,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "unseren Herrn."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "preface": {
+    "prefaceRef": "preface.pf043",
+    "alternativeRefs": [
+      "preface.pf044",
+      "preface.pf045",
+      "preface.pf046",
+      "preface.pf047"
+    ],
+    "label": {
+      "en": "I"
+    },
+    "excerpt": {
+      "la": "Vere namque in omnes terræ fines magna",
+      "es": "Porque en esta etapa final de la historia",
+      "en": "For truly even to earth's ends",
+      "pt-BR": "e proclamar-vos admirável",
+      "it": "Tu hai rivelato nella pienezza dei tempi",
+      "fr": "Oui, tu as fait des merveilles",
+      "de": "Du hast an der ganzen Schöpfung Großes"
+    }
+  },
+  "communionAntiphon": {
+    "body": {
+      "plain": {
+        "la": "Lætáre, Virgo Mater, quia surréxit Christus de sepúlcro, allelúia.",
+        "es": "Alégrate, Virgen Madre, porque Cristo ha resucitado del sepulcro. Aleluya.",
+        "en": "Rejoice, virgin mother, for Christ has risen from his grave, alleluia.",
+        "pt-BR": "Feliz o ventre que trouxe o Cristo Senhor; felizes sobretudo os que ouvem a palavra de Deus e a colocam em prática, aleluia.",
+        "it": "Rallegrati, Vergine Maria: Cristo è risorto dal sepolcro. Alleluia.",
+        "fr": "Réjouis-toi, Vierge Mère, car le Christ s'est relevé du tombeau, alléluia.",
+        "de": "Freu dich, Jungfrau und Mutter, denn der Herr ist aus dem Grab erstanden. Halleluja."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Lætáre, Virgo Mater, quia surréxit Christus de sepúlcro, allelúia."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Alégrate, Virgen Madre, porque Cristo ha resucitado del sepulcro. Aleluya."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "Rejoice, virgin mother, for Christ has risen from his grave, alleluia."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Feliz o ventre que trouxe o Cristo Senhor;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "felizes sobretudo os que ouvem a palavra de Deus e a colocam em prática, aleluia."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "Rallegrati, Vergine Maria: Cristo è risorto dal sepolcro. Alleluia."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Réjouis-toi, Vierge Mère,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "car le Christ s'est relevé du tombeau, alléluia."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Freu dich, Jungfrau und Mutter, denn der Herr ist aus dem Grab erstanden."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Halleluja."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "postcommunion": {
+    "body": {
+      "plain": {
+        "la": "Paschálibus sacraméntis refécti, quǽsumus, Dómine, ut, qui Genetrícis Fílii tui memóriam recólimus, vitam Iesu in carne nostra mortáli manifestémus. Per Christum.",
+        "es": "Dios todopoderoso, confírmanos en la fe de estos misterios que hemos celebrado, y pues confesamos a tu Hijo Jesucristo, nacido de la Virgen, Dios y hombre Verdadero, te rogamos que por la fuerza salvadora de su resurrección merezcamos llegar a las alegrías eternas. Por Jesucristo nuestro Señor.",
+        "en": "Lord, may this sacrament strengthen the faith in our hearts. May Mary's Son, Jesus Christ, whom we proclaim to be God and man, bring us to eternal life by the saving power of his resurrection, for he is Lord for ever and ever.",
+        "pt-BR": "Senhor, fortalecidos com os sacramentos pascais, concedei aos que celebramos a memória da Mãe do vosso Filho, testemunhar, em nossa carne mortal, a vida de Jesus. Que vive e reina pelos séculos dos séculos.",
+        "it": "O Padre, che ci hai nutriti dei sacramenti pasquali nella memoria della Madre del tuo Figlio, fa' che manifestiamo la vita di Gesù nella nostra carne mortale. Egli vive e regna nei secoli dei secoli.",
+        "fr": "Réconfortés par les sacrements de Pâques, nous t'en prions, Seigneur : fais que, célébrant la mémoire de la Mère de ton Fils, nous manifestions dans notre chair vouée à la mort la vie de Jésus. Lui qui vit et règne pour les siècles des siècles.",
+        "de": "Ewiger Gott, bewahre, was du uns im Sakrament des Glaubens geschenkt hast. Lass uns festhalten am Bekenntnis, dass dein Sohn, den die Jungfrau empfangen hat, wahrer Gott und wahrer Mensch ist, und führe uns in der Kraft seiner Auferstehung zur ewigen Freude. Darum bitten wir durch ihn, Christus, unseren Herrn."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Paschálibus sacraméntis refécti, quǽsumus, Dómine, ut, qui Genetrícis Fílii tui memóriam recólimus, vitam Iesu in carne nostra mortáli manifestémus. Per Christum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Dios todopoderoso, confírmanos en la fe de estos misterios que hemos celebrado, y pues confesamos a tu Hijo Jesucristo, nacido de la Virgen, Dios y hombre Verdadero, te rogamos que por la fuerza salvadora de su resurrección merezcamos llegar a las alegrías eternas. Por Jesucristo nuestro Señor."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "Lord, may this sacrament strengthen the faith in our hearts. May Mary's Son,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Jesus Christ, whom we proclaim to be God and man, bring us to eternal life by the saving power of his resurrection, for he is Lord for ever and ever."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Senhor,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "fortalecidos com os sacramentos pascais,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "concedei aos que celebramos a memória da Mãe do vosso Filho,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "testemunhar, em nossa carne mortal, a vida de Jesus."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Que vive e reina pelos séculos dos séculos."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "O Padre, che ci hai nutriti dei sacramenti pasquali nella memoria della Madre del tuo Figlio, fa' che manifestiamo la vita di Gesù nella nostra carne mortale. Egli vive e regna nei secoli dei secoli."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Réconfortés par les sacrements de Pâques,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "nous t'en prions, Seigneur :"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "fais que, célébrant la mémoire de la Mère de ton Fils,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "nous manifestions dans notre chair vouée à la mort la vie de Jésus."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Lui qui vit et règne pour les siècles des siècles."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Ewiger Gott, bewahre, was du uns im Sakrament des Glaubens geschenkt hast."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Lass uns festhalten am Bekenntnis, dass dein Sohn, den die Jungfrau empfangen hat, wahrer Gott und wahrer Mensch ist, und führe uns in der Kraft seiner Auferstehung zur ewigen Freude. Darum bitten wir durch ihn, Christus, unseren Herrn."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "liturgicalColor": "white"
+}

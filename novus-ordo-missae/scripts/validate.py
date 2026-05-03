@@ -122,30 +122,49 @@ def find_scaffolding(node: Any, path: str = "") -> None:
 # ---------------------------------------------------------------------------
 
 
+def iter_item_files(root: Path):
+    """Yield every per-item *.json under root, skipping _index.json sentinels."""
+    for jf in root.rglob("*.json"):
+        if jf.name == "_index.json":
+            continue
+        yield jf
+
+
+def id_to_path(item_id: str, root: Path, *, suffix: str = ".json") -> Path:
+    """Mirror of refine.id_to_path — used to verify each file lives where its id says."""
+    parts = item_id.split(".")
+    return root.joinpath(*parts[:-1], parts[-1] + suffix)
+
+
 def collect_mass_ids() -> dict[str, str]:
     """Return {mass_id: source_file_path}."""
     out: dict[str, str] = {}
-    for jf in (DATA / "masses").rglob("*.json"):
+    masses_root = DATA / "masses"
+    for jf in iter_item_files(masses_root):
         d = load_json(jf)
-        for m in d.get("masses", []):
-            mid = m.get("id")
-            if not mid:
-                err(f"Mass missing id in {jf.relative_to(DATA)}")
-                continue
-            if mid in out:
-                err(f"Duplicate mass id {mid!r}: in {out[mid]} and {jf.relative_to(DATA)}")
-            else:
-                out[mid] = str(jf.relative_to(DATA))
+        mid = d.get("id")
+        if not mid:
+            err(f"Mass missing id in {jf.relative_to(DATA)}")
+            continue
+        if mid in out:
+            err(f"Duplicate mass id {mid!r}: in {out[mid]} and {jf.relative_to(DATA)}")
+        else:
+            out[mid] = str(jf.relative_to(DATA))
+        # Path-matches-id check: catches mis-routed writes.
+        expected = id_to_path(mid, masses_root)
+        if jf != expected:
+            err(f"Mass {mid!r} at {jf.relative_to(DATA)} does not match id-derived path {expected.relative_to(DATA)}")
     return out
 
 
 def collect_preface_ids() -> set[str]:
-    pf = load_json(DATA / "library" / "prefaces.json")
     ids = set()
-    for p in pf.get("prefaces", []):
+    pref_root = DATA / "library" / "preface"
+    for jf in iter_item_files(pref_root):
+        p = load_json(jf)
         pid = p.get("id")
         if not pid:
-            err("Preface missing id")
+            err(f"Preface missing id in {jf.relative_to(DATA)}")
             continue
         if pid in ids:
             err(f"Duplicate preface id {pid!r}")
@@ -155,17 +174,16 @@ def collect_preface_ids() -> set[str]:
 
 def validate_preface_refs(preface_ids: set[str]) -> None:
     """Walk every Mass and ensure every prefaceRef resolves."""
-    for jf in (DATA / "masses").rglob("*.json"):
-        d = load_json(jf)
-        for m in d.get("masses", []):
-            preface = m.get("preface") or {}
-            ref = preface.get("prefaceRef") if isinstance(preface, dict) else None
-            if ref:
-                if ref not in preface_ids:
-                    err(f"Mass {m.get('id')}: prefaceRef {ref!r} not in library")
-            for alt in (preface.get("alternativeRefs") if isinstance(preface, dict) else None) or []:
-                if alt not in preface_ids:
-                    err(f"Mass {m.get('id')}: alternativeRef {alt!r} not in library")
+    for jf in iter_item_files(DATA / "masses"):
+        m = load_json(jf)
+        preface = m.get("preface") or {}
+        ref = preface.get("prefaceRef") if isinstance(preface, dict) else None
+        if ref:
+            if ref not in preface_ids:
+                err(f"Mass {m.get('id')}: prefaceRef {ref!r} not in library")
+        for alt in (preface.get("alternativeRefs") if isinstance(preface, dict) else None) or []:
+            if alt not in preface_ids:
+                err(f"Mass {m.get('id')}: alternativeRef {alt!r} not in library")
 
 
 # ---------------------------------------------------------------------------
@@ -188,37 +206,38 @@ def main() -> int:
 
     print("→ Validating individual mass files against schema…")
     mass_count = 0
-    for jf in sorted((DATA / "masses").rglob("*.json")):
-        d = load_json(jf)
-        for m in d.get("masses", []):
-            mass_count += 1
-            validate_against_schema(schema, "Mass", m, f"{jf.relative_to(DATA)}#{m.get('id')}")
-            find_html_residue(m, f"{m.get('id')}")
-            find_disallowed_lang_keys(m, f"{m.get('id')}")
-            find_scaffolding(m, f"{m.get('id')}")
+    for jf in sorted(iter_item_files(DATA / "masses")):
+        m = load_json(jf)
+        mass_count += 1
+        validate_against_schema(schema, "Mass", m, f"{jf.relative_to(DATA)}#{m.get('id')}")
+        find_html_residue(m, f"{m.get('id')}")
+        find_disallowed_lang_keys(m, f"{m.get('id')}")
+        find_scaffolding(m, f"{m.get('id')}")
 
     print(f"  validated {mass_count} mass formularies")
 
     print("→ Validating libraries…")
-    pf = load_json(DATA / "library" / "prefaces.json")
-    for p in pf.get("prefaces", []):
+    for jf in iter_item_files(DATA / "library" / "preface"):
+        p = load_json(jf)
         validate_against_schema(schema, "Preface", p, f"prefaces#{p.get('id')}")
         find_html_residue(p, p.get("id", "?"))
-    ep = load_json(DATA / "library" / "eucharistic-prayers.json")
-    for e in ep.get("eucharisticPrayers", []):
+    for jf in iter_item_files(DATA / "library" / "eucharistic-prayer"):
+        e = load_json(jf)
         validate_against_schema(schema, "EucharisticPrayer", e, f"eps#{e.get('id')}")
-    ord_data = load_json(DATA / "library" / "ordinary.json")
-    for op in ord_data.get("parts", []):
+    for jf in iter_item_files(DATA / "library" / "ordinary"):
+        op = load_json(jf)
         validate_against_schema(schema, "OrdinaryPart", op, f"ordinary#{op.get('id')}")
 
     print("→ Validating saints catalog…")
-    saints = load_json(DATA / "saints.json")
-    for s in saints.get("saints", []):
+    saint_count = 0
+    for jf in iter_item_files(DATA / "saints"):
+        s = load_json(jf)
+        saint_count += 1
         validate_against_schema(schema, "SaintEntry", s, f"saints#{s.get('id')}")
 
     print("→ Validating calendar…")
-    cal = load_json(DATA / "calendar.json")
-    for entry in cal.get("tempore", []) + cal.get("sanctorale", []):
+    for jf in iter_item_files(DATA / "calendar"):
+        entry = load_json(jf)
         validate_against_schema(schema, "CalendarEntry", entry, f"calendar#{entry.get('id')}")
 
     print("→ Cross-references (preface refs)…")
@@ -231,8 +250,8 @@ def main() -> int:
     if expected.get("masses") and expected["masses"] != mass_count:
         err(f"index.json totals.masses = {expected['masses']} but found {mass_count}")
     expected_saints = expected.get("saintsCatalog")
-    if expected_saints and expected_saints != len(saints.get("saints", [])):
-        err(f"index.json totals.saintsCatalog = {expected_saints} but found {len(saints.get('saints', []))}")
+    if expected_saints and expected_saints != saint_count:
+        err(f"index.json totals.saintsCatalog = {expected_saints} but found {saint_count}")
 
     print()
     print(f"masses: {mass_count}")

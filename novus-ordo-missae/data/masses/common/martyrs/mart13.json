@@ -1,0 +1,980 @@
+{
+  "id": "common.martyrs.mart13",
+  "group": "common",
+  "subgroup": "martyrs",
+  "title": {
+    "la": "COMMUNE MARTYRUM IV. PRO VIRGINE MARTYRE",
+    "es": "COMÚN DE MÁRTIRES IV. Para una virgen mártir",
+    "en": "COMMON OF MARTYRS IV. For a Virgin Martyr",
+    "pt-BR": "COMUM DOS MÁRTIRES IV. PARA UMA VIRGEM MÁRTIR",
+    "it": "COMUNE DEI MARTIRI IV. Per una vergine martire",
+    "fr": "COMMUN DES MARTYRS IV. POUR UNE VIERGE MARTYRE",
+    "de": "COMMUNE-TEXTE FÜR MÄRTYRER"
+  },
+  "entranceAntiphon": {
+    "body": {
+      "plain": {
+        "la": "Beáta virgo, quæ ábnegans semetípsam et tollens crucem suam, Dóminum æmuláta est, vírginum sponsum martyrúmque príncipem ( T. P. allelúia ).",
+        "es": "Esta es la virgen dichosa que, negándose a sí misma y abrazando su cruz, siguió al Señor, esposo de las vírgenes y príncipe de los mártires (T. P. Aleluya )",
+        "en": "Blessed is the virgin who by denying herself and taking up her cross imitated the Lord, the spouse of virgins and prince of martyrs (E. T. alleluia )",
+        "pt-BR": "Feliz a virgem que, renunciando a si mesma e tomando sua cruz, imitou o Senhor, o esposo das virgens e príncipe dos mártires (T. P. aleluia )",
+        "fr": "Bienheureuse vierge, renonçant à elle-même et portant sa croix, elle a imité le Seigneur, époux des vierges et prince des martyrs ( T. P. alléluia )."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Beáta virgo, quæ ábnegans semetípsam et tollens crucem suam, Dóminum æmuláta est, vírginum sponsum martyrúmque príncipem"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "rubric",
+              "text": "T. P."
+            },
+            {
+              "type": "text",
+              "text": "allelúia"
+            },
+            {
+              "type": "rubric",
+              "text": "."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Esta es la virgen dichosa que, negándose a sí misma y abrazando su cruz,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "siguió al Señor, esposo de las vírgenes y príncipe de los mártires"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "T. P."
+            },
+            {
+              "type": "text",
+              "text": "Aleluya"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "Blessed is the virgin who by denying herself and taking up her cross imitated the Lord, the spouse of virgins and prince of martyrs"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "E. T."
+            },
+            {
+              "type": "text",
+              "text": "alleluia"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Feliz a virgem que, renunciando a si mesma e tomando sua cruz, imitou o Senhor,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "o esposo das virgens e príncipe dos mártires"
+            },
+            {
+              "type": "rubric",
+              "text": "T. P."
+            },
+            {
+              "type": "text",
+              "text": "aleluia"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Bienheureuse vierge,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "renonçant à elle-même et portant sa croix,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "elle a imité le Seigneur, époux des vierges et prince des martyrs"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "rubric",
+              "text": "T. P."
+            },
+            {
+              "type": "text",
+              "text": "alléluia"
+            },
+            {
+              "type": "rubric",
+              "text": "."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "collect": {
+    "body": {
+      "plain": {
+        "la": "Deus, qui nos hódie beátæ N. ánnua commemoratióne lætíficas, concéde propítius, ut eius adiuvémur méritis, cuius castitátis et fortitúdinis irradiámur exémplis. Per Dóminum.",
+        "es": "Oh, Dios, que nos alegras hoy con la conmemoración anual de santa N. , concede la ayuda de sus méritos a cuantos hemos sido iluminados con el ejemplo de su virginidad y fortaleza. Por nuestro Señor Jesucristo.",
+        "en": "O God, who gladden us today with the annual commemoration of blessed N. , graciously grant that we may be helped by her merits, just as our lives are lit up by the splendor of her example of chastity and fortitude. Through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, one God, for ever and ever.",
+        "pt-BR": "Ó Deus, que hoje nos alegrais com a anual comemoração de Santa N. , concedei propício que nos ajudem os méritos daquela cujos exemplos de castidade e firmeza nos iluminam. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus, e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
+        "it": "O Dio, che ogni anno ci allieti nel ricordo di santa N. concedi anche a noi, illuminati e sorretti dal suo esempio di castità e fortezza, di seguire Cristo sulla via della croce. Egli è Dio, e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli.",
+        "fr": "Seigneur Dieu, tu nous réjouis en ce jour anniversaire où nous commémorons sainte N. ; accorde-nous l'appui de ses mérites, puisqu'elle est pour nous un modèle rayonnant de chasteté et de force d'âme. Par Jésus Christ, ton Fils, notre Seigneur, qui vit et règne avec toi dans l'unité du Saint-Esprit, Dieu, pour les siècles des siècles.",
+        "de": "Gott, am heutigen Tag gedenken wir der heiligen Jungfrau und Märtyrin N. Du stellst uns das leuchtende Beispiel ihrer Keuschheit und ihrer tapferen Treue vor Augen. Sieh auf ihr heiliges Leben und Sterben und gib auch uns die Kraft, entschlossen den Weg des Glaubens zu gehen. Darum bitten wir durch Jesus Christus."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Deus, qui nos hódie beátæ"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": "ánnua commemoratióne lætíficas, concéde propítius, ut eius adiuvémur méritis, cuius castitátis et fortitúdinis irradiámur exémplis. Per Dóminum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Oh, Dios,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "que nos alegras hoy con la conmemoración anual de santa"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": ","
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "concede la ayuda de sus méritos a cuantos hemos sido iluminados con el ejemplo de su virginidad y fortaleza."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por nuestro Señor Jesucristo."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "O God, who gladden us today with the annual commemoration of blessed"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": ", graciously grant that we may be helped by her merits, just as our lives are lit up by the splendor of her example of chastity and fortitude."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Through our Lord Jesus Christ, your Son,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "who lives and reigns with you in the unity of the Holy Spirit,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "one God, for ever and ever."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Ó Deus, que hoje nos alegrais com a anual comemoração de Santa"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": ","
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "concedei propício que nos ajudem os méritos daquela cujos exemplos de castidade e firmeza nos iluminam."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "e convosco vive e reina, na unidade do Espírito Santo,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "por todos os séculos dos séculos."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "O Dio, che ogni anno ci allieti nel ricordo di santa"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": "concedi anche a noi, illuminati e sorretti dal suo esempio di castità e fortezza, di seguire Cristo sulla via della croce. Egli è Dio, e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Seigneur Dieu,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "tu nous réjouis en ce jour anniversaire où nous commémorons sainte"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": ";"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "accorde-nous l'appui de ses mérites,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "puisqu'elle est pour nous un modèle rayonnant de chasteté et de force d'âme."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Par Jésus Christ, ton Fils, notre Seigneur,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "qui vit et règne avec toi dans l'unité du Saint-Esprit,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Dieu, pour les siècles des siècles."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Gott, am heutigen Tag gedenken wir der heiligen Jungfrau und Märtyrin"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": "Du stellst uns das leuchtende Beispiel ihrer Keuschheit und ihrer tapferen Treue vor Augen. Sieh auf ihr heiliges Leben und Sterben und gib auch uns die Kraft, entschlossen den Weg des Glaubens zu gehen. Darum bitten wir durch Jesus Christus."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "prayerOverOfferings": {
+    "body": {
+      "plain": {
+        "la": "Múnera, quǽsumus, Dómine, quæ in celebritáte beátæ N. deférimus, ita grátiæ tuæ efficiántur accépta, sicut eius tibi plácitum éxstitit passiónis certámen. Per Christum.",
+        "es": "Señor, que los dones que te presentamos en la fiesta de santa N. sean tan agradables a tu bondad como lo fue para ti el combate de su martirio. Por Jesucristo, nuestro Señor.",
+        "en": "May the offerings we bring in celebration of blessed N. win your gracious acceptance, O Lord, we pray, just as the struggle of her suffering and passion was pleasing to you. Through Christ our Lord.",
+        "pt-BR": "Senhor, os dons que vos apresentamos na celebração de Santa N. sejam do vosso agrado, como vos foi precioso o combate do vosso martírio. Por Cristo, nosso Senhor.",
+        "it": "I doni che ti presentiamo nel glorioso ricordo di santa N. ti siano graditi, o Signore, come fu preziosa ai tuoi occhi l'offerta della sua vita. Per Cristo nostro Signore.",
+        "fr": "Seigneur, nous te présentons ces offrandes en célébrant sainte N. : accepte-les avec bienveillance, nous t'en prions, comme tu as accueilli le combat de son martyre. Par le Christ, notre Seigneur.",
+        "de": "Allmächtiger Gott, du hast das Lebensopfer der heiligen N. angenommen. Nimm auch unsere Gaben an und mache uns zu einem Opfer, das dir wohlgefällt. Darum bitten wir durch Chrstius, unseren Herrn."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Múnera, quǽsumus, Dómine, quæ in celebritáte beátæ"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": "deférimus, ita grátiæ tuæ efficiántur accépta,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "sicut eius tibi plácitum éxstitit passiónis certámen. Per Christum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Señor, que los dones que te presentamos en la fiesta de santa"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "N."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "sean tan agradables a tu bondad como lo fue para ti el combate de su martirio."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por Jesucristo, nuestro Señor."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "May the offerings we bring in celebration of blessed"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": "win your gracious acceptance, O Lord, we pray,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "just as the struggle of her suffering and passion was pleasing to you."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Through Christ our Lord."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Senhor, os dons que vos apresentamos na celebração de Santa"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": "sejam do vosso agrado,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "como vos foi precioso o combate do vosso martírio."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por Cristo, nosso Senhor."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "I doni che ti presentiamo nel glorioso ricordo di santa"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": "ti siano graditi, o Signore, come fu preziosa ai tuoi occhi l'offerta della sua vita. Per Cristo nostro Signore."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Seigneur, nous te présentons ces offrandes en célébrant sainte"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": ":"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "accepte-les avec bienveillance, nous t'en prions,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "comme tu as accueilli le combat de son martyre."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Par le Christ, notre Seigneur."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Allmächtiger Gott, du hast das Lebensopfer der heiligen"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": "angenommen. Nimm auch unsere Gaben an und mache uns zu einem Opfer, das dir wohlgefällt. Darum bitten wir durch Chrstius,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "unseren Herrn."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "preface": {
+    "prefaceRef": "preface.pf057",
+    "label": {
+      "la": "De sanctis virginibus et religiosis",
+      "es": "Santas Vírgenes y Religiosos",
+      "en": "HOLY VIRGINS AND RELIGIOUS",
+      "pt-BR": "Das Santas Virgens e Religiosos",
+      "it": "DELLE SANTE VERGINI E DEI SANTI RELIGIOSI",
+      "fr": "De sanctis virginibus et religiosis",
+      "de": "HEILIGEN JUNGFRAUEN UND ORDENSLEUTEN"
+    },
+    "excerpt": {
+      "la": "In Sanctis enim, qui Christo se dedicavérunt",
+      "es": "Porque celebramos tu providencia admirable",
+      "en": "For in the Saints who consecrated themselves",
+      "pt-BR": "Recordando os Santos e Santas",
+      "it": "Nei tuoi santi, che per il regno",
+      "fr": "Nous célébrons les prévenances de ton amour",
+      "de": "Inmitten der Kirche berufst du Menschen"
+    }
+  },
+  "communionAntiphon": {
+    "body": {
+      "plain": {
+        "la": "Agnus, qui in médio throni est, dedúcet eos ad vitæ fontes aquárum (T. P. allelúia ).",
+        "es": "El Cordero que está delante del trono los conducirá hacia fuentes de aguas vivas (T. P. Aleluya )",
+        "en": "The Lamb who is at the center of the throne will lead them to the springs of the waters of life (E. T. alleluia )",
+        "pt-BR": "O Cordeiro, que está no meio do trono, os conduzirá às fontes da água da vida (T. P. aleluia )",
+        "it": "L'Agnello assiso sul trono li guiderà alle sorgenti della vita (T. P. Alleluia ).",
+        "fr": "L'Agneau qui se tient au milieu du Trône les conduira aux sources des eaux de la vie (T. P. alléluia )."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Agnus, qui in médio throni est, dedúcet eos ad vitæ fontes aquárum"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "T. P."
+            },
+            {
+              "type": "text",
+              "text": "allelúia"
+            },
+            {
+              "type": "rubric",
+              "text": "."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "El Cordero que está delante del trono los conducirá hacia fuentes de aguas vivas"
+            },
+            {
+              "type": "rubric",
+              "text": "T. P."
+            },
+            {
+              "type": "text",
+              "text": "Aleluya"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "The Lamb who is at the center of the throne will lead them to the springs of the waters of life"
+            },
+            {
+              "type": "rubric",
+              "text": "E. T."
+            },
+            {
+              "type": "text",
+              "text": "alleluia"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "O Cordeiro, que está no meio do trono,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "os conduzirá às fontes da água da vida"
+            },
+            {
+              "type": "rubric",
+              "text": "T. P."
+            },
+            {
+              "type": "text",
+              "text": "aleluia"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "L'Agnello assiso sul trono li guiderà alle sorgenti della vita"
+            },
+            {
+              "type": "rubric",
+              "text": "T. P."
+            },
+            {
+              "type": "text",
+              "text": "Alleluia"
+            },
+            {
+              "type": "rubric",
+              "text": "."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "L'Agneau qui se tient au milieu du Trône les conduira aux sources des eaux de la vie"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "T. P."
+            },
+            {
+              "type": "text",
+              "text": "alléluia"
+            },
+            {
+              "type": "rubric",
+              "text": "."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "postcommunion": {
+    "body": {
+      "plain": {
+        "la": "Deus, qui beátam N. pro gémina virginitátis et martýrii victória inter Sanctos coronásti, da, quǽsumus, per huius virtútem sacraménti, ut, omne malum fórtiter superántes, cæléstem glóriam consequámur. Per Christum.",
+        "es": "Oh, Dios, que coronaste a la bienaventurada N. entre los santos con el doble triunfo de la virginidad y del martirio, concédenos en virtud de este sacramento, vencer con fortaleza toda maldad y alcanzar la gloria del cielo. Por Jesucristo, nuestro Señor.",
+        "en": "O God, who bestowed on blessed N. a crown among the Saints for her twofold triumph of virginity and martyrdom, grant, we pray, through the power of this Sacrament, that, bravely overcoming every evil, we may attain the glory of heaven. Through Christ our Lord.",
+        "pt-BR": "Ó Deus, que coroastes Santa N. entre os santos pela dupla vitória da virgindade e do martírio, concedei-nos, pela força deste sacramento, superar com firmeza todo mal e alcançar a glória celeste. Por Cristo, nosso Senhor.",
+        "it": "O Dio, che hai glorificato tra i santi la beata N. con la duplice corona della verginità e del martirio, per la potenza di questo sacramento donaci di superare con forza ogni male, per raggiungere la gloria del cielo. Per Cristo nostro Signore.",
+        "fr": "Seigneur Dieu, tu as donné à sainte N. d'être couronnée parmi les saints, au double titre de vierge et de martyre ; par la force de ce sacrement, rends-nous forts pour surmonter le mal et obtenir ainsi la gloire du ciel. Par le Christ, notre Seigneur.",
+        "de": "Barmherziger Gott, die heilige N. hat durch ihr jungfräuliches Leben und ihr Martyrium einen zweifachen Sieg errungen. Hilf uns durch die Kraft des heiligen Sakramentes, dass auch wir alles Böse überwinden und die ewige Herrlichkeit empfangen. Darum bitten wir durch Christus, unseren Herrn."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Deus, qui beátam"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": "pro gémina virginitátis et martýrii victória inter Sanctos coronásti, da, quǽsumus, per huius virtútem sacraménti, ut, omne malum fórtiter superántes, cæléstem glóriam consequámur."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Per Christum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Oh, Dios,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "que coronaste a la bienaventurada"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": "entre los santos con el doble triunfo de la virginidad y del martirio,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "concédenos en virtud de este sacramento,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "vencer con fortaleza toda maldad y alcanzar la gloria del cielo."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por Jesucristo, nuestro Señor."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "O God, who bestowed on blessed"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": "a crown among the Saints for her twofold triumph of virginity and martyrdom, grant, we pray,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "through the power of this Sacrament, that, bravely overcoming every evil, we may attain the glory of heaven."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Through Christ our Lord."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Ó Deus, que coroastes Santa"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": "entre os santos pela dupla vitória da virgindade e do martírio,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "concedei-nos, pela força deste sacramento,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "superar com firmeza todo mal e alcançar a glória celeste."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por Cristo, nosso Senhor."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "O Dio, che hai glorificato tra i santi la beata"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": "con la duplice corona della verginità e del martirio, per la potenza di questo sacramento donaci di superare con forza ogni male, per raggiungere la gloria del cielo. Per Cristo nostro Signore."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Seigneur Dieu,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "tu as donné à sainte"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": "d'être couronnée parmi les saints,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "au double titre de vierge et de martyre ;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "par la force de ce sacrement,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "rends-nous forts pour surmonter le mal et obtenir ainsi la gloire du ciel."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Par le Christ, notre Seigneur."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Barmherziger Gott, die heilige"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": "hat durch ihr jungfräuliches Leben und ihr Martyrium einen zweifachen Sieg errungen. Hilf uns durch die Kraft des heiligen Sakramentes, dass auch wir alles Böse überwinden und die ewige Herrlichkeit empfangen. Darum bitten wir durch Christus, unseren Herrn."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "liturgicalColor": "red"
+}

@@ -1,0 +1,807 @@
+{
+  "id": "ritual.for-the-dead.dif007",
+  "group": "ritual",
+  "subgroup": "for-the-dead",
+  "title": {
+    "la": "I. IN EXSEQUIIS F. IN EXSEQUIIS PARVULI NONDUM BAPTIZATI",
+    "es": "I. EN LAS EXEQUIAS DE LOS NIÑOS F. En las exequias de un niño aún no bautizado",
+    "en": "I. FOR THE FUNERAL F. For the Funeral of a Child Who Died before Baptism",
+    "pt-BR": "1. NAS EXÉQUIAS F. Nas exéquias de uma criança ainda não batizada",
+    "it": "F. NELLE ESEQUIE DI UN BAMBINO NON ANCORA BATTEZZATO",
+    "fr": "I. MESSE DES FUNÉRAILLES F. AUX FUNÉRAILLES D'UN ENFANT NON ENCORE BAPTISÉ",
+    "de": "V. AM BEGRÄBNISTAG EINES KINDES 2. Für ein Kind, das die Taufe nicht empfangen konnte"
+  },
+  "entranceAntiphon": {
+    "body": {
+      "plain": {
+        "la": "Abstérget Deus omnem lácrimam ab óculis eórum, et mors ultra non erit, neque luctus, neque clamor, neque dolor erit ultra, quia prima transiérunt.",
+        "es": "Dios enjugará toda lágrima de sus ojos, y ya no habrá más muerte, ni duelo, ni llanto ni dolor, porque lo primero ha desaparecido.",
+        "en": "God will wipe every tear from their eyes, and there shall be no more death or mourning, crying or pain, for former things have passed away.",
+        "pt-BR": "Deus enxugará toda lágrima dos seus olhos. A morte não existirá mais, e não haverá mais luto, nem choro, nem dor, porque passou o que havia antes.",
+        "it": "Dio asciugherà ogni lacrima dai loro occhi e non vi sarà più la morte né lutto né lamento né affanno, perché le cose di prima sono passate.",
+        "fr": "Dieu essuiera toute larme de leurs yeux, et la mort ne sera plus, et il n'y aura plus ni deuil, ni cri, ni douleur : ce qui existait en premier s'en est allé.",
+        "de": "Der Herr wird jede Träne aus ihren Augen wischen; der Tod wird nicht mehr sein, nicht Trauer noch Klage, noch Mühsal; denn die alte Welt ist vergangen."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Abstérget Deus omnem lácrimam ab óculis eórum, et mors ultra non erit, neque luctus, neque clamor, neque dolor erit ultra, quia prima transiérunt."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Dios enjugará toda lágrima de sus ojos, y ya no habrá más muerte, ni duelo, ni llanto ni dolor, porque lo primero ha desaparecido."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "God will wipe every tear from their eyes, and there shall be no more death or mourning, crying or pain,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "for former things have passed away."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Deus enxugará toda lágrima dos seus olhos. A morte não existirá mais, e não haverá mais luto, nem choro, nem dor, porque passou o que havia antes."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "Dio asciugherà ogni lacrima dai loro occhi e non vi sarà più la morte né lutto né lamento né affanno, perché le cose di prima sono passate."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Dieu essuiera toute larme de leurs yeux,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "et la mort ne sera plus,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "et il n'y aura plus ni deuil, ni cri, ni douleur :"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "ce qui existait en premier s'en est allé."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Der Herr wird jede Träne aus ihren Augen wischen; der Tod wird nicht mehr sein, nicht Trauer noch Klage, noch Mühsal; denn die alte Welt ist vergangen."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "collect": {
+    "body": {
+      "plain": {
+        "la": "Scrutátor córdium, Deus, et piíssime consolátor, qui horum paréntum fidem novísti, præsta, ut infántem suum, quem plorant hac vita defúnctum, tuæ séntiant divínæ pietáti commíssum. Per Dóminum.",
+        "es": "Oh, Dios, lleno de piedad, que penetras los corazones y eres su mejor consuelo, tú conoces la fe de estos padres; hazles sentir que su hijo, al que lloran porque ha dejado esta vida, está en manos de tu divina misericordia. Por nuestro Señor Jesucristo.",
+        "en": "O God, searcher of hearts and most loving consoler, who know the faith of these parents, grant that, as they mourn their child, now departed from this life, they may be assured that he ( she ) has been entrusted to your divine compassio N. Through our lord Jesus Christ, your son, who lives and reigns with you in the unity of the Holy Spirit, one God, for ever and ever.",
+        "pt-BR": "Ó Deus, fonte de toda consolação, que sondais os corações e conheceis a fé dos pais de N. , concedei-lhes sentir que seu filhinho, cuja morte choram, vive no seio de vossa divina misericórdia. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus, e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
+        "it": "O Dio, che vedi i segreti dei cuori e conosci la fede di questi genitori, tu, che sei fonte di ogni consolazione, dona loro la consapevolezza che il figlio [ la figlia ] che li ha lasciati è affidato[ [ a ] al tuo amore misericordioso. Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli.",
+        "fr": "Seigneur, toi qui nous aimes et nous consoles, tu lis au fond des cœurs et tu connais la foi de ces parents ; nous t'en prions, donne-leur de ressentir que l'enfant dont ils pleurent la mort est confié à ta divine tendresse. Par Jésus Christ, ton Fils, notre Seigneur, qui vit et règne avec toi dans l'unité du Saint-Esprit, Dieu, pour les siècles des siècles.",
+        "de": "Herr, gütiger Vater, du allein gibst uns Trost und Frieden. Du kennst den Glauben dieser Eltern. Tröste sie durch die Gewissheit, dass ihr Kind in deiner Liebe geborgen ist. Darum bitten wir durch Jesus Christus."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Scrutátor córdium, Deus, et piíssime consolátor, qui horum paréntum fidem novísti, præsta, ut infántem suum, quem plorant hac vita defúnctum, tuæ séntiant divínæ pietáti commíssum. Per Dóminum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Oh, Dios,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "lleno de piedad,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "que penetras los corazones y eres su mejor consuelo,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "tú conoces la fe de estos padres;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "hazles sentir que su hijo,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "al que lloran porque ha dejado esta vida,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "está en manos de tu divina misericordia."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por nuestro Señor Jesucristo."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "O God, searcher of hearts and most loving consoler, who know the faith of these parents,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "grant that, as they mourn their child,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "now departed from this life,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "they may be assured that he"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": "she"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": "has been entrusted to your divine compassio"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": "Through our lord Jesus Christ, your son,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "who lives and reigns with you in the unity of the Holy Spirit,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "one God, for ever and ever."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Ó Deus, fonte de toda consolação, que sondais os corações e conheceis a fé dos pais de"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": ", concedei-lhes sentir que seu filhinho,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "cuja morte choram, vive no seio de vossa divina misericórdia. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus, e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "O Dio, che vedi i segreti dei cuori e conosci la fede di questi genitori, tu,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "che sei fonte di ogni consolazione, dona loro la consapevolezza che il figlio"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "["
+            },
+            {
+              "type": "text",
+              "text": "la figlia"
+            },
+            {
+              "type": "rubric",
+              "text": "]"
+            },
+            {
+              "type": "text",
+              "text": "che li ha lasciati è affidato["
+            },
+            {
+              "type": "rubric",
+              "text": "["
+            },
+            {
+              "type": "text",
+              "text": "a"
+            },
+            {
+              "type": "rubric",
+              "text": "]"
+            },
+            {
+              "type": "text",
+              "text": "al tuo amore misericordioso. Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Seigneur, toi qui nous aimes et nous consoles,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "tu lis au fond des cœurs et tu connais la foi de ces parents ;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "nous t'en prions, donne-leur de ressentir que l'enfant dont ils pleurent la mort est confié à ta divine tendresse."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Par Jésus Christ, ton Fils, notre Seigneur,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "qui vit et règne avec toi dans l'unité du Saint-Esprit,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Dieu, pour les siècles des siècles."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Herr, gütiger Vater, du allein gibst uns Trost und Frieden. Du kennst den Glauben dieser Eltern. Tröste sie durch die Gewissheit, dass ihr Kind in deiner Liebe geborgen ist. Darum bitten wir durch Jesus Christus."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "prayerOverOfferings": {
+    "body": {
+      "plain": {
+        "la": "Hanc oblatiónem, Deus, dignáre in nostræ signum devotiónis excípere, ut, qui tuæ providéntiæ consíliis submíttimur confidéntes, tuæ quoque pietátis dulcédine sublevémur. Per Christum.",
+        "es": "Dígnate, Señor, recibir esta ofrenda como signo de nuestra entrega, y, a quienes nos sometemos confiadamente a los designios de tu providencia, confórtanos con la dulzura de tu bondad. Por Jesucristo, nuestro Señor.",
+        "en": "Graciously accept this offering, O God, as a sign of our devotion, so that, trusting in the designs of your providence, we may be raised up by your gentle and fatherly care. Through Christ our Lord.",
+        "pt-BR": "Dignai-vos, ó Deus, aceitar esta oferenda, sinal da nossa devoção, para que, submetendo-nos confiantes aos desígnios da vossa providência, sejamos também confortados pela ternura de vossa paterna bondade. Por Cristo, nosso Senhor.",
+        "it": "Accogli, o Dio, questa offerta come segno della nostra devozione e fa' che, accettando con fede il misterioso disegno della tua provvidenza, siamo consolati dalla dolcezza del tuo amore. Per Cristo nostro Signore.",
+        "fr": "Seigneur Dieu, accueille cette offrande que nous te présentons pour t'exprimer notre attachement ; puisque, dans la confiance, nous en remettons au mystère de ta providence, soutiens-nous par la douceur de ton amour. Par le Christ, notre Seigneur.",
+        "de": "Allmächtiger Gott, wir bringen dir diese Gaben dar als Zeichen dafür, dass wir uns in den Ratschluss deiner Vorsehung ergeben. Richte uns auf in unserer Trauer und gib, dass wir auch in dieser Prüfung an deine Güte glauben. Darum bitten wir durch Christus, unseren Herrn."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Hanc oblatiónem, Deus, dignáre in nostræ signum devotiónis excípere, ut, qui tuæ providéntiæ consíliis submíttimur confidéntes, tuæ quoque pietátis dulcédine sublevémur. Per Christum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Dígnate, Señor,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "recibir esta ofrenda como signo de nuestra entrega,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "y,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "a quienes nos sometemos confiadamente a los designios de tu providencia,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "confórtanos con la dulzura de tu bondad."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por Jesucristo, nuestro Señor."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "Graciously accept this offering, O God,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "as a sign of our devotion,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "so that, trusting in the designs of your providence, we may be raised up by your gentle and fatherly care."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Through Christ our Lord."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Dignai-vos, ó Deus, aceitar esta oferenda, sinal da nossa devoção, para que,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "submetendo-nos confiantes aos desígnios da vossa providência, sejamos também confortados pela ternura de vossa paterna bondade. Por Cristo, nosso Senhor."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "Accogli, o Dio, questa offerta come segno della nostra devozione e fa' che,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "accettando con fede il misterioso disegno della tua provvidenza, siamo consolati dalla dolcezza del tuo amore. Per Cristo nostro Signore."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Seigneur Dieu,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "accueille cette offrande que nous te présentons pour t'exprimer notre attachement ;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "puisque, dans la confiance,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "nous en remettons au mystère de ta providence,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "soutiens-nous par la douceur de ton amour."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Par le Christ, notre Seigneur."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Allmächtiger Gott, wir bringen dir diese Gaben dar als Zeichen dafür, dass wir uns in den Ratschluss deiner Vorsehung ergeben. Richte uns auf in unserer Trauer und gib, dass wir auch in dieser Prüfung an deine Güte glauben. Darum bitten wir durch Christus, unseren Herrn."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "preface": {
+    "prefaceRef": "preface.pf067",
+    "alternativeRefs": [
+      "preface.pf068",
+      "preface.pf069",
+      "preface.pf070",
+      "preface.pf071"
+    ],
+    "label": {
+      "la": "I",
+      "es": "I",
+      "en": "I",
+      "pt-BR": "I",
+      "it": "I",
+      "fr": "I",
+      "de": "I"
+    },
+    "excerpt": {
+      "la": "Quia, etsi nostri est mériti quod",
+      "es": "Porque el ser llamados de nuevo a la vida",
+      "en": "For even though by our own fault we perish,",
+      "pt-BR": "Pois, embora mereçamos morrer",
+      "it": "La morte è comune eredità di tutti,",
+      "fr": "Même si nous sommes destinés à mourir,",
+      "de": "Durch die Sünde kam der Tod in die Welt,"
+    }
+  },
+  "communionAntiphon": {
+    "body": {
+      "plain": {
+        "la": "Præcipitábit Dóminus mortem in sempitérnum, et áuferet Deus lácrimam ab omni fácie.",
+        "es": "El Señor aniquilará la muerte para siempre y Dios enjugará las lágrimas de todos los rostros.",
+        "en": "The Lord God will destroy death for ever. he will wipe away the tears from every cheek.",
+        "pt-BR": "O Senhor Deus eliminará para sempre a morte e enxugará as lágrimas de todas as faces.",
+        "it": "Il Signore eliminerà la morte per sempre e asciugherà le lacrime su ogni volto.",
+        "fr": "Le Seigneur fera disparaître la mort pour toujours ; Dieu essuiera les larmes sur tous les visages.",
+        "de": "Der Herr wird den Tod auf immer vernichten, und er wischt die Tränen ab von jedem Gesicht."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Præcipitábit Dóminus mortem in sempitérnum, et áuferet Deus lácrimam ab omni fácie."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "El Señor aniquilará la muerte para siempre y Dios enjugará las lágrimas de todos los rostros."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "The Lord God will destroy death for ever."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "he will wipe away the tears from every cheek."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "O Senhor Deus eliminará para sempre a morte e enxugará as lágrimas de todas as faces."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "Il Signore eliminerà la morte per sempre e asciugherà le lacrime su ogni volto."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Le Seigneur fera disparaître la mort pour toujours ;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Dieu essuiera les larmes sur tous les visages."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Der Herr wird den Tod auf immer vernichten, und er wischt die Tränen ab von jedem Gesicht."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "postcommunion": {
+    "body": {
+      "plain": {
+        "la": "Córporis, Dómine, et Sánguinis Fílii tui communióne percépta, te fidéliter deprecámur, ut, quos in spem vitæ ætérnæ sacris dignátus es nutríre mystériis, in huius tríbuas vitæ mæróribus confortári. Per Christum.",
+        "es": "Señor, después de recibir la comunión del Cuerpo y la Sangre de tu Hijo, te rogamos con fe, que, en medio de las tristezas de esta vida, fortalezcas con la esperanza de la vida eterna a los que has alimentado en estos sagrados misterios. Por Jesucristo, nuestro Señor.",
+        "en": "Having received the Communion of your son's Body and Blood, O Lord, we ask you faithfully to comfort amid the sorrows of this life those whom you have graciously nourished by these sacred mysteries, so as to strengthen their hope of life eternal. Through Christ our Lord.",
+        "pt-BR": "Senhor, pela comunhão do Corpo e Sangue do vosso Filho, alimentastes a nossa esperança na vida eterna; fazei que a participação nestes santos mistérios nos sirva de conforto nas tristezas desta vida. Por Cristo, nosso Senhor.",
+        "it": "Nutriti dalla comunione al Corpo e Sangue del tuo Figlio, ti preghiamo con fiducia, o Padre: tu, che nella partecipazione ai santi misteri alimenti in noi la speranza della vita eterna, donaci la tua consolazione nelle prove della vita presente. Per Cristo nostro Signore.",
+        "fr": "Après avoir communié au corps et au sang de ton Fils, nous te prions avec foi, Seigneur : accorde à ceux que tu as nourris par cette eucharistie, dans l'espérance de la vie éternelle, d'être réconfortés au milieu des tristesses de la vie présente. Par le Christ, notre Seigneur.",
+        "de": "Gott, unser Vater, wir haben den Leib und das Blut deines Sohnes empfangen. Erhöre unser Gebet für alle, die um den verstorbenen ( die verstorbene ) N. trauern. Diese heilige Speise schenke ihnen Hoffnung auf ewiges Leben und sei ihnen Stärke und Trost in ihrem Leid. Darum bitten wir durch Christus, unseren Herrn."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Córporis, Dómine, et Sánguinis Fílii tui communióne percépta, te fidéliter deprecámur, ut, quos in spem vitæ ætérnæ sacris dignátus es nutríre mystériis,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "in huius tríbuas vitæ mæróribus confortári. Per Christum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Señor, después de recibir la comunión del Cuerpo y la Sangre de tu Hijo,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "te rogamos con fe,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "que, en medio de las tristezas de esta vida,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "fortalezcas con la esperanza de la vida eterna a los que has alimentado en estos sagrados misterios."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por Jesucristo, nuestro Señor."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "Having received the Communion of your son's Body and Blood, O Lord,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "we ask you faithfully to comfort amid the sorrows of this life those whom you have graciously nourished by these sacred mysteries,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "so as to strengthen their hope of life eternal."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Through Christ our Lord."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Senhor, pela comunhão do Corpo e Sangue do vosso Filho, alimentastes a nossa esperança na vida eterna; fazei que a participação nestes santos mistérios nos sirva de conforto nas tristezas desta vida. Por Cristo, nosso Senhor."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "Nutriti dalla comunione al Corpo e Sangue del tuo Figlio, ti preghiamo con fiducia, o Padre: tu, che nella partecipazione ai santi misteri alimenti in noi la speranza della vita eterna, donaci la tua consolazione nelle prove della vita presente. Per Cristo nostro Signore."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Après avoir communié au corps et au sang de ton Fils,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "nous te prions avec foi, Seigneur :"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "accorde à ceux que tu as nourris par cette eucharistie,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "dans l'espérance de la vie éternelle,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "d'être réconfortés au milieu des tristesses de la vie présente."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Par le Christ, notre Seigneur."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Gott, unser Vater, wir haben den Leib und das Blut deines Sohnes empfangen."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Erhöre unser Gebet für alle, die um den verstorbenen"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": "die verstorbene"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": "trauern. Diese heilige Speise schenke ihnen Hoffnung auf ewiges Leben und sei ihnen Stärke und Trost in ihrem Leid. Darum bitten wir durch Christus, unseren Herrn."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "liturgicalColor": "violet"
+}

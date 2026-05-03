@@ -1,0 +1,4031 @@
+{
+  "id": "tempore.holy-week.chrism-mass",
+  "group": "tempore",
+  "season": "holy-week",
+  "title": {
+    "la": "FERIA V HEBDOMADÆ SANCTÆ",
+    "es": "JUEVES SANTO",
+    "en": "THURSDAY OF HOLY WEEK [HOLY THURSDAY]",
+    "pt-BR": "Semana Santa QUINTA-FEIRA DA SEMANA SANTA",
+    "it": "Giovedì della Settimana Santa",
+    "fr": "Semaine Sainte JEUDI SAINT",
+    "de": "GRÜNDONNERSTAG [HOHER DONNERSTAG]"
+  },
+  "entranceAntiphon": {
+    "body": {
+      "plain": {
+        "la": "Iesus Christus fecit nos regnum et sacerdótes Deo et Patri suo: ipsi glória et impérium in sǽcula sæculórum. Amen.",
+        "es": "Jesucristo nos ha hecho reino y sacerdotes para Dios, su Padre. A él, la gloria y el poder por los siglos de los siglos. Amén.",
+        "en": "Jesus Christ has made us into a kingdom, priests for his God and Father. To him be glory and power for ever and ever. Amen.",
+        "pt-BR": "Jesus Cristo fez de nós um reino, sacerdotes para seu Deus e Pai, a ele a glória e o poder, em eternidade. Amém.",
+        "it": "Gesù Cristo ha fatto di noi un regno, sacerdoti per il suo Dio e Padre; a lui gloria e potenza nei secoli dei secoli. Amen.",
+        "fr": "Jésus Christ a fait de nous un royaume et des prêtres pour Dieu son Père : à lui, la gloire et la souveraineté pour les siècles des siècles.",
+        "de": "Jesus Christus hat uns die Würde von Königen gegeben und uns zu Priestern gemacht für den Dienst vor seinem Gott und Vater. Ihm sei die Herrlichkeit und die Herrschermacht in Ewigkeit. Amen."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Iesus Christus fecit nos regnum et sacerdótes Deo et Patri suo: ipsi glória et impérium in sǽcula sæculórum. Amen."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Jesucristo nos ha hecho reino y sacerdotes para Dios, su Padre. A él, la gloria y el poder por los siglos de los siglos. Amén."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "Jesus Christ has made us into a kingdom, priests for his God and Father."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "To him be glory and power for ever and ever. Amen."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Jesus Cristo fez de nós um reino,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "sacerdotes para seu Deus e Pai,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "a ele a glória e o poder, em eternidade. Amém."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "Gesù Cristo ha fatto di noi un regno, sacerdoti per il suo Dio e Padre; a lui gloria e potenza nei secoli dei secoli. Amen."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Jésus Christ a fait de nous un royaume et des prêtres pour Dieu son Père :"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "à lui, la gloire et la souveraineté pour les siècles des siècles."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Jesus Christus hat uns die Würde von Königen gegeben und uns zu Priestern gemacht für den Dienst vor seinem Gott und Vater. Ihm sei die Herrlichkeit und die Herrschermacht in Ewigkeit. Amen."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "gloriaInstruction": {
+    "body": {
+      "plain": {
+        "la": "Dicitur Glória in excelsis",
+        "es": "Se dice Gloria",
+        "pt-BR": "Diz-se o Glória",
+        "it": "Si dice il Gloria",
+        "fr": "On récite le Gloria",
+        "de": "Gloria."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "rubric",
+              "text": "Dicitur"
+            },
+            {
+              "type": "italic",
+              "text": "Glória in excelsis"
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "rubric",
+              "text": "Se dice"
+            },
+            {
+              "type": "italic",
+              "text": "Gloria"
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "rubric",
+              "text": "Diz-se o"
+            },
+            {
+              "type": "italic",
+              "text": "Glória"
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "rubric",
+              "text": "Si dice il"
+            },
+            {
+              "type": "italic",
+              "text": "Gloria"
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "rubric",
+              "text": "On récite le"
+            },
+            {
+              "type": "italic",
+              "text": "Gloria"
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "italic",
+              "text": "Gloria."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "collect": {
+    "body": {
+      "plain": {
+        "la": "Deus, qui Unigénitum Fílium tuum unxísti Spíritu Sancto Christúmque Dóminum constituísti, concéde propítius, ut, eiúsdem consecratiónis partícipes effécti, testes Redemptiónis inveniámur in mundo. Per Dóminum.",
+        "es": "Oh, Dios, que por la unción del Espíritu Santo constituiste a tu Hijo Mesías y Señor, concede, propicio, a quienes hiciste partícipes de su consagración, ser testigos de la redención en el mundo. Por nuestro Señor Jesucristo.",
+        "en": "O God, who anointed your Only Begotten Son with the Holy Spirit and made him Christ and Lord, graciously grant that, being made sharers in his consecration, we may bear witness to your Redemption in the world. Through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, one God, for ever and ever.",
+        "pt-BR": "Ó Deus, que ungistes o vosso Filho único com o Espírito Santo e o constituístes Cristo e Senhor, concedei que, participando da sua consagração, sejamos no mundo testemunhas da redenção que ele nos trouxe. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus, e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
+        "it": "O Padre, che hai consacrato il tuo unigenito Figlio con l'unzione dello Spirito Santo e lo hai costituito Messia e Signore, concedi a noi, resi partecipi della sua consacrazione, di essere testimoni nel mondo della sua opera di salvezza. Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli.",
+        "fr": "Seigneur Dieu, tu as donné l'onction de l'Esprit Saint à ton Fils unique et l'as établi Christ et Seigneur ; nous t'en prions : puisque tu nous fais participer à sa consécration, accorde-nous d'être dans le monde les témoins de la Rédemption. Par Jésus Christ, ton Fils, notre Seigneur, qui vit et règne avec toi dans l'unité du Saint-Esprit, Dieu, pour les siècles des siècles.",
+        "de": "Allmächtiger, ewiger Gott, du hast deinen eingeborenen Sohn mit dem Heiligen Geiste gesalbt und ihn zum Herrn und Christus gemacht. Uns aber hast du Anteil an seiner Würde geschenkt. Hilf uns, in der Welt Zeugen der Erlösung zu sein. Darum bitten wir durch ihn, Jesus Christus."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Deus, qui Unigénitum Fílium tuum unxísti Spíritu Sancto Christúmque Dóminum constituísti, concéde propítius, ut, eiúsdem consecratiónis partícipes effécti, testes Redemptiónis inveniámur in mundo. Per Dóminum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Oh, Dios, que por la unción del Espíritu Santo constituiste a tu Hijo Mesías y Señor, concede, propicio, a quienes hiciste partícipes de su consagración, ser testigos de la redención en el mundo."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por nuestro Señor Jesucristo."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "O God, who anointed your Only Begotten Son with the Holy Spirit and made him Christ and Lord,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "graciously grant that, being made sharers in his consecration,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "we may bear witness to your Redemption in the world."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Through our Lord Jesus Christ, your Son,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "who lives and reigns with you in the unity of the Holy Spirit,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "one God, for ever and ever."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Ó Deus, que ungistes o vosso Filho único com o Espírito Santo e o constituístes Cristo e Senhor,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "concedei que, participando da sua consagração,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "sejamos no mundo testemunhas da redenção que ele nos trouxe."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "e convosco vive e reina, na unidade do Espírito Santo,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "por todos os séculos dos séculos."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "O Padre, che hai consacrato il tuo unigenito Figlio con l'unzione dello Spirito Santo e lo hai costituito Messia e Signore, concedi a noi, resi partecipi della sua consacrazione, di essere testimoni nel mondo della sua opera di salvezza. Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Seigneur Dieu,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "tu as donné l'onction de l'Esprit Saint à ton Fils unique et l'as établi Christ et Seigneur ;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "nous t'en prions :"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "puisque tu nous fais participer à sa consécration,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "accorde-nous d'être dans le monde les témoins de la Rédemption."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Par Jésus Christ, ton Fils, notre Seigneur,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "qui vit et règne avec toi dans l'unité du Saint-Esprit,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Dieu, pour les siècles des siècles."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Allmächtiger, ewiger Gott, du hast deinen eingeborenen Sohn mit dem Heiligen Geiste gesalbt und ihn zum Herrn und Christus gemacht. Uns aber hast du Anteil an seiner Würde geschenkt. Hilf uns, in der Welt Zeugen der Erlösung zu sein."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Darum bitten wir durch ihn, Jesus Christus."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "creedInstruction": {
+    "body": {
+      "plain": {
+        "la": "Sequitur oratio universalis. Non dicitur Credo",
+        "es": "No se dice Credo ni oración de los fieles.",
+        "en": "10. The Creed is not said.",
+        "pt-BR": "Omite-se a oração dos fiéis, pois a mesma já foi realizada na conclusão da Renovação das promessas sacerdotais. Não se diz o Creio",
+        "it": "Non si dice il Credo",
+        "fr": "Vient ensuite la prière universelle. On ne dit pas le Credo",
+        "de": "Kein Credo. Die Fürbitten entfallen."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "rubric",
+              "text": "Sequitur oratio universalis. Non dicitur"
+            },
+            {
+              "type": "text",
+              "text": "Credo"
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "rubric",
+              "text": "No se dice"
+            },
+            {
+              "type": "text",
+              "text": "Credo"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "ni oración de los fieles."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "rubric",
+              "text": "10. The Creed is not said."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "rubric",
+              "text": "Omite-se a oração dos fiéis, pois a mesma já foi realizada na conclusão da Renovação das promessas sacerdotais. Não se diz o"
+            },
+            {
+              "type": "text",
+              "text": "Creio"
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "rubric",
+              "text": "Non si dice il"
+            },
+            {
+              "type": "text",
+              "text": "Credo"
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "rubric",
+              "text": "Vient ensuite la prière universelle. On ne dit pas le"
+            },
+            {
+              "type": "text",
+              "text": "Credo"
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "rubric",
+              "text": "Kein"
+            },
+            {
+              "type": "text",
+              "text": "Credo."
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "Die Fürbitten entfallen."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "prayerOverOfferings": {
+    "body": {
+      "plain": {
+        "la": "Huius sacrifícii poténtia, Dómine, quǽsumus, et vetustátem nostram cleménter abstérgat, et novitátem nobis áugeat et salútem. Per Christum.",
+        "es": "Te pedimos, Señor, que la eficacia de este sacrificio nos purifique de la vieja condición de pecado y acreciente en nosotros la vida nueva y la salvación. Por Jesucristo, nuestro Señor.",
+        "en": "May the power of this sacrifice, O Lord, we pray, mercifully wipe away what is old in us and increase in us grace of salvation and newness of life. Through Christ our Lord.",
+        "pt-BR": "Nós vos pedimos, Senhor de bondade, que a força deste sacrifício apague a nossa antiga culpa, renove nossa vida e nos traga a salvação. Por Cristo, nosso Senhor.",
+        "it": "La potenza di questo sacrificio, o Signore, cancelli l'antica schiavitù del peccato e faccia germogliare in noi novità di vita e salvezza. Per Cristo nostro Signore.",
+        "fr": "Dans ta bienveillance, Seigneur, fais que la puissance de ce sacrifice purifie tout ce qui vieillit en nous : qu'elle fasse grandir la vie nouvelle et nous apporte le salut.",
+        "de": "Herr, unser Gott, dieses heilige Opfer helfe uns, dass wir den alten Menschen ablegen und den neuen anziehen, der nach deinem Bild geschaffen ist. Darum bitten wir durch Christus, unseren Herrn."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Huius sacrifícii poténtia, Dómine, quǽsumus, et vetustátem nostram cleménter abstérgat, et novitátem nobis áugeat et salútem. Per Christum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Te pedimos, Señor, que la eficacia de este sacrificio nos purifique de la vieja condición de pecado y acreciente en nosotros la vida nueva y la salvación."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por Jesucristo, nuestro Señor."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "May the power of this sacrifice, O Lord, we pray, mercifully wipe away what is old in us and increase in us grace of salvation and newness of life."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Through Christ our Lord."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Nós vos pedimos, Senhor de bondade,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "que a força deste sacrifício apague a nossa antiga culpa,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "renove nossa vida e nos traga a salvação."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por Cristo, nosso Senhor."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "La potenza di questo sacrificio, o Signore, cancelli l'antica schiavitù del peccato e faccia germogliare in noi novità di vita e salvezza. Per Cristo nostro Signore."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Dans ta bienveillance, Seigneur,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "fais que la puissance de ce sacrifice purifie tout ce qui vieillit en nous :"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "qu'elle fasse grandir la vie nouvelle et nous apporte le salut."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Herr, unser Gott, dieses heilige Opfer helfe uns, dass wir den alten Menschen ablegen und den neuen anziehen, der nach deinem Bild geschaffen ist. Darum bitten wir durch Christus, unseren Herrn."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "preface": {
+    "body": {
+      "plain": {
+        "la": "De sacerdotio Christi et de ministerio sacerdotum. Vere dignum et iustum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte Pater, omnípotens ætérne Deus: Qui Unigénitum tuum Sancti Spíritus unctióne novi et ætérni testaménti constituísti Pontíficem, et ineffábili dignátus es dispositióne sancíre, ut únicum eius sacerdótium in Ecclésia servarétur. Ipse enim non solum regáli sacerdótio pópulum acquisitiónis exórnat, sed étiam fratérna hómines éligit bonitáte, ut sacri sui ministérii fiant mánuum impositióne partícipes. Qui sacrifícium rénovent, eius nómine, redemptiónis humánæ, tuis apparántes fíliis paschále convívium, et plebem tuam sanctam caritáte prævéniant, verbo nútriant, refíciant sacraméntis. Qui, vitam pro te fratrúmque salúte tradéntes, ad ipsíus Christi nitántur imáginem conformári, et constánter tibi fidem amorémque testéntur. Unde et nos, Dómine, cum Angelis et Sanctis univérsis tibi confitémur, in exsultatióne dicéntes:",
+        "es": "El sacerdocio de Cristo y el ministerio de los sacerdotes En verdad es justo y necesario, es nuestro deber y salvación darte gracias siempre y en todo lugar, Señor, Padre santo, Dios todopoderoso y eterno. Que constituiste a tu único Hijo Pontífice de la Alianza nueva y eterna por la unción del Espíritu Santo, y determinaste, en tu designio salvífico, perpetuar en la Iglesia su único sacerdocio. Él no sólo confiere el honor del sacerdocio real a todo su pueblo santo, sino también, con amor de hermano, elige a hombres de este pueblo, para que, por la imposición de las manos, participen de su sagrada misión. Ellos renuevan en nombre de Cristo el sacrificio de la redención, preparan a tus hijos el banquete pascual, presiden a tu pueblo santo en el amor, lo alimentan con tu palabra y lo fortalecen con los sacramentos. Tus sacerdotes, Señor, al entregar su vida por ti y por la salvación de los hermanos, van configurándose a Cristo, y han de darte así testimonio constante de fidelidad y amor. Por eso, nosotros, Señor, con los ángeles y los santos cantamos tu gloria diciendo:",
+        "en": "The Priesthood of Christ and the Ministry of Priests. It is truly right and just, our duty and our salvation, always and everywhere to give you thanks, Lord, holy Father, almighty and eternal God. For by the anointing of the Holy Spirit you made your Only Begotten Son High Priest of the new and eternal covenant, and by your wondrous design were pleased to decree that his one Priesthood should continue in the Church. For Christ not only adorns with a royal priesthood the people he has made his own, but with a brother's kindness he also chooses men to become sharers in his sacred ministry through the laying on of hands. They are to renew in his name the sacrifice of human redemption, to set before your children the paschal banquet, to lead your holy people in charity, to nourish them with the word and strengthen them with the Sacraments. As they give up their lives for you and for the salvation of their brothers and sisters, they strive to be conformed to the image of Christ himself and offer you a constant witness of faith and love. And so, Lord, with all the Angels and Saints, we, too, give you thanks as in exultation we acclaim:",
+        "pt-BR": "O sacerdócio de Cristo e o ministério dos sacerdotes Na verdade, é digno e justo, é nosso dever e salvação dar-vos graças, sempre e em todo lugar, Senhor, Pai santo, Deus eterno e todo-poderoso. Pela unção do Espírito Santo, constituístes vosso Filho Unigênito Pontífice da nova e eterna aliança, e estabelecestes em vosso inefável desígnio que seu único sacerdócio se perpetuasse na Igreja. Por isso, vosso Filho, Jesus Cristo, não somente enriquece a Igreja com um sacerdócio real, mas também, com bondade fraterna, escolhe homens que, pela imposição das mãos, participem do seu ministério sagrado. Em nome de Cristo, renovam o sacrifício da redenção humana, servindo aos fiéis o banquete da Páscoa, precedem o povo na caridade, alimentam-no com a palavra e o restauram com os sacramentos. Dando a vida por vós e pela salvação dos irmãos, procurem assemelhar-se à imagem do próprio Cristo, e testemunhem, constantes, diante de vós, a fé e o amor. Por isso, Senhor, com os anjos e todos os santos vos exaltamos, cantando ( dizendo ) jubilosos a uma só voz:",
+        "it": "Il sacerdozio di Cristo e il ministero dei sacerdoti sacerdotiÈ veramente cosa buona e giusta, nostro dovere e fonte di salvezza, rendere grazie sempre e in ogni luogo a te, Signore, Padre santo, Dio onnipotente ed eterno. Con l'unzione dello Spirito Santo hai costituito il tuo Figlio unigenito mediatore della nuova ed eterna alleanza, e con disegno mirabile hai voluto che il suo unico sacerdozio fosse perpetuato nella Chiesa. Egli comunica il sacerdozio regale a tutto il popolo dei redenti. Nel suo amore per i fratelli sceglie alcuni che, mediante l'imposizione delle mani, rende partecipi del suo ministero di salvezza, perché rinnovino nel suo nome il sacrificio redentore e preparino ai tuoi figli il convito pasquale. Servi premurosi del tuo popolo, lo nutrano con la Parola e lo santifichino con i sacramenti; donando la vita per te e per la salvezza dei fratelli, si conformino all'immagine di Cristo, e ti rendano sempre testimonianza di fede e di amore. E noi, o Signore, insieme con tutti gli angeli e i santi, cantiamo con esultanza l'inno della tua lode:",
+        "fr": "Le sacerdoce du Christ et le ministère du prêtre. Vraiment, il est juste et bon, pour ta gloire et notre salut, de t'offrir notre action de grâce, toujours et en tout lieu, Seigneur, Père très saint, Dieu éternel et tout-puissant. Par l'onction de l'Esprit Saint, tu as établi ton Fils unique grand prêtre de l'Alliance nouvelle et éternelle ; et, dans ton admirable providence, tu as voulu que son unique sacerdoce demeure à jamais dans l'Église. C'est lui, le Christ, qui donne au peuple racheté la dignité du sacerdoce royal ; et, dans son amour fraternel, il choisit aussi des hommes qui, en recevant l'imposition des mains, auront part à son ministère. En son nom, ils renouvellent le sacrifice rédempteur, ils dressent pour tes fils la table du banquet pascal ; par la charité, ils montrent la voie à ton peuple saint, par la parole, ils le nourrissent, et par les sacrements, ils le fortifient. En livrant leur vie pour toi et pour le salut de leurs frères, ils s'efforceront d'être conformes à l'image du Christ, et te donneront avec constance la preuve de leur foi et de leur amour. C'est pourquoi, avec les anges et tous les saints, nous te louons, Seigneur, et nous exultons de joie en proclamant :",
+        "de": "Das Priestertum des Neuen Bundes In Wahrheit ist es würdig und recht, dir, Herr, heiliger Vater, allmächtiger, ewiger Gott, immer und überall zu danken. Du hast deinen eingeborenen Sohn gesalbt mit dem Heiligen Geist und ihn bestellt zum Hohenpriester des Neuen und Ewigen Bundes; du hast bestimmt, dass dieses eine Priestertum fortlebe in deiner Kirche. Denn Christus hat dein ganzes Volk ausgezeichnet mit der Würde seines königlichen Priestertums, aus ihm hat er in brüderlicher Liebe Menschen erwählt, die durch Auflegung der Hände teilhaben an seinem priesterlichen Dienste. In seinem Namen feiern sie immer neu das Opfer, durch das er die Menschen erlöst hat, und bereiten deinen Kindern das Ostermahl. Sie dienen deinem Volke in Werken der Liebe, sie nähren es durch das Wort und stärken es durch die Sakramente. Ihr Leben sollen sie einsetzen für dich und das Heil der Menschen, dem Vorbild Christi folgen und dir ihre Liebe und ihren Glauben in Treue bezeugen. Darum preisen wir dich mit allen Chören der Engel und singen vereint mit ihnen das Lob deiner Herrlichkeit:"
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "rubric",
+              "text": "De sacerdotio Christi et de ministerio sacerdotum."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Vere dignum et iustum est,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "æquum et salutáre,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "nos tibi semper et ubíque grátias ágere:"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Dómine, sancte Pater,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "omnípotens ætérne Deus:"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Qui Unigénitum tuum Sancti Spíritus unctióne novi et ætérni testaménti constituísti Pontíficem,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "et ineffábili dignátus es dispositióne sancíre,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "ut únicum eius sacerdótium in Ecclésia servarétur."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Ipse enim non solum regáli sacerdótio pópulum acquisitiónis exórnat,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "sed étiam fratérna hómines éligit bonitáte,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "ut sacri sui ministérii fiant mánuum impositióne partícipes."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Qui sacrifícium rénovent,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "eius nómine, redemptiónis humánæ,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "tuis apparántes fíliis paschále convívium,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "et plebem tuam sanctam caritáte prævéniant,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "verbo nútriant, refíciant sacraméntis."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Qui, vitam pro te fratrúmque salúte tradéntes,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "ad ipsíus Christi nitántur imáginem conformári,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "et constánter tibi fidem amorémque testéntur."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Unde et nos, Dómine,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "cum Angelis et Sanctis univérsis tibi confitémur,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "in exsultatióne dicéntes:"
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "rubric",
+              "text": "El sacerdocio de Cristo y el ministerio de los sacerdotes"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "En verdad es justo y necesario,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "es nuestro deber y salvación darte gracias siempre y en todo lugar,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Señor, Padre santo,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Dios todopoderoso y eterno."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Que constituiste a tu único Hijo Pontífice de la Alianza nueva y eterna por la unción del Espíritu Santo,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "y determinaste, en tu designio salvífico,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "perpetuar en la Iglesia su único sacerdocio."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Él no sólo confiere el honor del sacerdocio real a todo su pueblo santo,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "sino también, con amor de hermano,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "elige a hombres de este pueblo,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "para que, por la imposición de las manos,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "participen de su sagrada misión."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Ellos renuevan en nombre de Cristo el sacrificio de la redención,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "preparan a tus hijos el banquete pascual,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "presiden a tu pueblo santo en el amor,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "lo alimentan con tu palabra y lo fortalecen con los sacramentos."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Tus sacerdotes, Señor, al entregar su vida por ti y por la salvación de los hermanos,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "van configurándose a Cristo,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "y han de darte así testimonio constante de fidelidad y amor."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por eso,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "nosotros, Señor,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "con los ángeles y los santos cantamos tu gloria diciendo:"
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "rubric",
+              "text": "The Priesthood of Christ and the Ministry of Priests."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "It is truly right and just, our duty and our salvation, always and everywhere to give you thanks,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Lord, holy Father, almighty and eternal God."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "For by the anointing of the Holy Spirit you made your Only Begotten Son High Priest of the new and eternal covenant,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "and by your wondrous design were pleased to decree that his one Priesthood should continue in the Church."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "For Christ not only adorns with a royal priesthood the people he has made his own,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "but with a brother's kindness he also chooses men to become sharers in his sacred ministry through the laying on of hands."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "They are to renew in his name the sacrifice of human redemption,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "to set before your children the paschal banquet,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "to lead your holy people in charity,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "to nourish them with the word and strengthen them with the Sacraments."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "As they give up their lives for you and for the salvation of their brothers and sisters,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "they strive to be conformed to the image of Christ himself and offer you a constant witness of faith and love."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "And so, Lord, with all the Angels and Saints,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "we, too, give you thanks as in exultation we acclaim:"
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "rubric",
+              "text": "O sacerdócio de Cristo e o ministério dos sacerdotes"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Na verdade, é digno e justo,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "é nosso dever e salvação dar-vos graças,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "sempre e em todo lugar,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Senhor, Pai santo,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Deus eterno e todo-poderoso."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Pela unção do Espírito Santo,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "constituístes vosso Filho Unigênito Pontífice da nova e eterna aliança,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "e estabelecestes em vosso inefável desígnio que seu único sacerdócio se perpetuasse na Igreja."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por isso, vosso Filho, Jesus Cristo,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "não somente enriquece a Igreja com um sacerdócio real,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "mas também, com bondade fraterna, escolhe homens que,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "pela imposição das mãos, participem do seu ministério sagrado."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Em nome de Cristo, renovam o sacrifício da redenção humana,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "servindo aos fiéis o banquete da Páscoa,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "precedem o povo na caridade, alimentam-no com a palavra e o restauram com os sacramentos."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Dando a vida por vós e pela salvação dos irmãos,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "procurem assemelhar-se à imagem do próprio Cristo,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "e testemunhem, constantes, diante de vós, a fé e o amor."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por isso, Senhor, com os anjos e todos os santos vos exaltamos, cantando"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": "dizendo"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": "jubilosos a uma só voz:"
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "rubric",
+              "text": "Il sacerdozio di Cristo e il ministero dei sacerdoti"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "sacerdotiÈ veramente cosa buona e giusta, nostro dovere e fonte di salvezza,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "rendere grazie sempre e in ogni luogo a te, Signore, Padre santo, Dio onnipotente ed eterno."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Con l'unzione dello Spirito Santo hai costituito il tuo Figlio unigenito mediatore della nuova ed eterna alleanza, e con disegno mirabile hai voluto che il suo unico sacerdozio fosse perpetuato nella Chiesa."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Egli comunica il sacerdozio regale a tutto il popolo dei redenti."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Nel suo amore per i fratelli sceglie alcuni che, mediante l'imposizione delle mani, rende partecipi del suo ministero di salvezza, perché rinnovino nel suo nome il sacrificio redentore e preparino ai tuoi figli il convito pasquale."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Servi premurosi del tuo popolo, lo nutrano con la Parola e lo santifichino con i sacramenti; donando la vita per te e per la salvezza dei fratelli, si conformino all'immagine di Cristo, e ti rendano sempre testimonianza di fede e di amore."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "E noi, o Signore, insieme con tutti gli angeli e i santi, cantiamo con esultanza l'inno della tua lode:"
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "rubric",
+              "text": "Le sacerdoce du Christ et le ministère du prêtre."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Vraiment, il est juste et bon,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "pour ta gloire et notre salut,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "de t'offrir notre action de grâce,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "toujours et en tout lieu,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Seigneur, Père très saint,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Dieu éternel et tout-puissant."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Par l'onction de l'Esprit Saint,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "tu as établi ton Fils unique grand prêtre de l'Alliance nouvelle et éternelle ;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "et, dans ton admirable providence,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "tu as voulu que son unique sacerdoce demeure à jamais dans l'Église."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "C'est lui, le Christ, qui donne au peuple racheté la dignité du sacerdoce royal ;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "et, dans son amour fraternel,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "il choisit aussi des hommes qui, en recevant l'imposition des mains,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "auront part à son ministère."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "En son nom, ils renouvellent le sacrifice rédempteur,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "ils dressent pour tes fils la table du banquet pascal ;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "par la charité, ils montrent la voie à ton peuple saint,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "par la parole, ils le nourrissent,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "et par les sacrements, ils le fortifient."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "En livrant leur vie pour toi et pour le salut de leurs frères,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "ils s'efforceront d'être conformes à l'image du Christ,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "et te donneront avec constance la preuve de leur foi et de leur amour."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "C'est pourquoi,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "avec les anges et tous les saints,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "nous te louons, Seigneur,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "et nous exultons de joie en proclamant :"
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "rubric",
+              "text": "Das Priestertum des Neuen Bundes"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "In Wahrheit ist es würdig und recht, dir, Herr, heiliger Vater,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "allmächtiger, ewiger Gott, immer und überall zu danken."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Du hast deinen eingeborenen Sohn gesalbt mit dem Heiligen Geist und ihn bestellt zum Hohenpriester des Neuen und Ewigen Bundes; du hast bestimmt, dass dieses eine Priestertum fortlebe in deiner Kirche."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Denn Christus hat dein ganzes Volk ausgezeichnet mit der Würde seines königlichen Priestertums, aus ihm hat er in brüderlicher Liebe Menschen erwählt, die durch Auflegung der Hände teilhaben an seinem priesterlichen Dienste. In seinem Namen feiern sie immer neu das Opfer, durch das er die Menschen erlöst hat, und bereiten deinen Kindern das Ostermahl."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Sie dienen deinem Volke in Werken der Liebe, sie nähren es durch das Wort und stärken es durch die Sakramente. Ihr Leben sollen sie einsetzen für dich und das Heil der Menschen, dem Vorbild Christi folgen und dir ihre Liebe und ihren Glauben in Treue bezeugen."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Darum preisen wir dich mit allen Chören der Engel und singen vereint mit ihnen das Lob deiner Herrlichkeit:"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "communionAntiphon": {
+    "body": {
+      "plain": {
+        "la": "Misericórdias Dómini in ætérnum cantábo; in generatiónem et generatiónem annuntiábo veritátem tuam in ore meo.",
+        "es": "Cantaré eternamente las misericordias del Señor, anunciaré tu fidelidad por todas las edades.",
+        "en": "I will sing for ever of your mercies, O Lord; through all ages my mouth will proclaim your fidelity.",
+        "pt-BR": "Cantarei eternamente as misericórdias do Senhor; de geração em geração anunciarei vossa verdade.",
+        "it": "Canterò in eterno l'amore del Signore, di generazione in generazione farò conoscere con la mia bocca la tua fedeltà Oppure: Lc 4, 18 Lo Spirito del Signore è sopra di me; mi ha mandato a portare ai poveri il lieto annuncio.",
+        "fr": "L'amour du Seigneur, sans fin je le chante ; ta fidélité, je l'annonce d'âge en âge.",
+        "de": "Von den Taten deiner Huld, Herr, will ich ewig singen, bis zum fernsten Geschlecht laut deine Treue verkünden."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Misericórdias Dómini in ætérnum cantábo; in generatiónem et generatiónem annuntiábo veritátem tuam in ore meo."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Cantaré eternamente las misericordias del Señor, anunciaré tu fidelidad por todas las edades."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "I will sing for ever of your mercies, O Lord;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "through all ages my mouth will proclaim your fidelity."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Cantarei eternamente as misericórdias do Senhor;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "de geração em geração anunciarei vossa verdade."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "Canterò in eterno l'amore del Signore, di generazione in generazione farò conoscere con la mia bocca la tua fedeltà"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "Oppure: Lc 4, 18"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Lo Spirito del Signore è sopra di me; mi ha mandato a portare ai poveri il lieto annuncio."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "L'amour du Seigneur, sans fin je le chante ;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "ta fidélité, je l'annonce d'âge en âge."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Von den Taten deiner Huld, Herr, will ich ewig singen, bis zum fernsten Geschlecht laut deine Treue verkünden."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "postcommunion": {
+    "body": {
+      "plain": {
+        "la": "Súpplices te rogámus, omnípotens Deus, ut, quos tuis réficis sacraméntis, Christi bonus odor éffici mereántur. Qui vivit et regnat in sǽcula sæculórum.",
+        "es": "Concédenos, Dios todopoderoso, que quienes han participado en tus sacramentos, sean en el mundo buen olor de Cristo. Él, que vive y reina por los siglos de los siglos.",
+        "en": "We beseech you, almighty God, that those you renew by your Sacraments may merit to become the pleasing fragrance of Christ. Who lives and reigns for ever and ever.",
+        "pt-BR": "Nós vos suplicamos, Deus todo-poderoso, que, renovados pelos vossos sacramentos, possamos nos tornar o bom odor de Cristo. Ele, que vive e reina pelos séculos dos séculos.",
+        "it": "Concedi, Dio onnipotente, che, rinnovati dai santi misteri, diffondiamo nel mondo il buon profumo di Cristo. Egli vive e regna nei secoli dei secoli.",
+        "fr": "Nous t'en supplions, Dieu tout-puissant : donne à ceux que tu as fortifiés par tes sacrements d'être au milieu du monde la bonne odeur du Christ. Lui qui vit et règne pour les siècles des siècles.",
+        "de": "Allmächtiger Gott, durch deine Sakramente schenkst du uns die Kraft zu einem neuen Leben. Gib, dass wir in der Welt den Geist Christi verbreiten und seine Liebe bezeugen. Darum bitten wir durch Christus, unseren Herrn."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Súpplices te rogámus, omnípotens Deus, ut, quos tuis réficis sacraméntis,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Christi bonus odor éffici mereántur. Qui vivit et regnat in sǽcula sæculórum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Concédenos, Dios todopoderoso, que quienes han participado en tus sacramentos,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "sean en el mundo buen olor de Cristo."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Él, que vive y reina por los siglos de los siglos."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "We beseech you, almighty God,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "that those you renew by your Sacraments may merit to become the pleasing fragrance of Christ. Who lives and reigns for ever and ever."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Nós vos suplicamos, Deus todo-poderoso,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "que, renovados pelos vossos sacramentos,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "possamos nos tornar o bom odor de Cristo."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Ele, que vive e reina pelos séculos dos séculos."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "Concedi, Dio onnipotente, che, rinnovati dai santi misteri, diffondiamo nel mondo il buon profumo di Cristo. Egli vive e regna nei secoli dei secoli."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Nous t'en supplions, Dieu tout-puissant :"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "donne à ceux que tu as fortifiés par tes sacrements d'être au milieu du monde la bonne odeur du Christ."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Lui qui vit et règne pour les siècles des siècles."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Allmächtiger Gott, durch deine Sakramente schenkst du uns die Kraft zu einem neuen Leben. Gib, dass wir in der Welt den Geist Christi verbreiten und seine Liebe bezeugen. Darum bitten wir durch Christus, unseren Herrn."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "readings": {
+    "default": {
+      "firstReading": {
+        "label": {
+          "la": "Lectio prior",
+          "es": "Primera Lectura",
+          "en": "First Reading",
+          "pt-BR": "Primeira Leitura",
+          "it": "Prima lettura",
+          "fr": "Première lecture",
+          "de": "Erste Lesung"
+        },
+        "summary": {
+          "la": "Unxit me Dóminus et evangelizare pauperibus misit me, et dare eis oleum gaudii",
+          "es": "El Señor me ha ungido y me ha enviado para dar la buena noticia a los pobres, y darles un perfume de fiesta",
+          "pt-BR": "O Senhor me ungiu e enviou-me para dar a boa-nova aos humildes"
+        },
+        "introduction": {
+          "la": "Léctio libri Isaíæ prophétæ",
+          "es": "Lectura del libro del profeta Isaías",
+          "en": "A reading from the Book of the Prophet Isaiah",
+          "pt-BR": "Leitura do Livro de Isaías",
+          "it": "Dal libro del profeta Isaìa",
+          "fr": "Livre d'Isaïe",
+          "de": "Lesung aus dem Buch Jesaja"
+        },
+        "body": {
+          "plain": {
+            "la": "Spíritus Dómini Dei super me, eo quod únxerit Dóminus me; ad annuntiándum læta mansuétis misit me, ut medérer contrítis corde et prædicárem captívis liberatiónem et clausis apertiónem; ut prædicárem annum placábilem Dómino et diem ultiónis Deo nostro; ut consolárer omnes lugéntes, ut pónerem lugéntibus Sion et darem eis corónam pro cínere, óleum gáudii pro luctu, pállium laudis pro spíritu mæróris. Vos autem Sacerdótes Dómini vocabímini, Minístri Dei nostri dicétur vobis. Dabo opus eórum in veritáte et fœdus perpétuum fériam eis. Et sciétur in géntibus semen eórum, et germen eórum in médio populórum; omnes, qui víderint eos, cognóscent illos, quia isti sunt semen, cui benedíxit Dóminus.",
+            "es": "El Espíritu del Señor está sobre mí, porque el Señor me ha ungido. Me ha enviado para dar la buena noticia a los pobres, para curar los corazones desgarrados, proclamar la amnistía a los cautivos, y a los prisioneros la libertad; para proclamar un año de gracia del Señor, un día de venganza de nuestro Dios, para consolar a los afligidos, para dar a los afligidos de Sion una diadema en lugar de cenizas, perfume de fiesta en lugar de duelo, un vestido de alabanza en lugar de un espíritu abatido. Vosotros os llamaréis «Sacerdotes del Señor», dirán de vosotros: «Ministros de nuestro Dios». Les daré su salario fielmente y haré con ellos un pacto perpetuo. Su estirpe será célebre entre las naciones, y sus vástagos entre los pueblos. Los que los vean reconocerán que son la estirpe que bendijo el Señor.",
+            "en": "The spirit of the Lord has been given to me, for the Lord has anointed me. He has sent me to bring good news to the poor, to bind up hearts that are broken; to proclaim liberty to captives, freedom to those in prison; to proclaim a year of favour from the Lord, a day of vengeance for our God, to comfort all those who mourn and to give them for ashes a garland; for mourning robe the oil of gladness, for despondency, praise. But you, you will be named 'priests of the Lord', they will call you 'ministers of our God'. I reward them faithfully and make an everlasting covenant with them. Their race will be famous throughout the nations, their descendants throughout the peoples. All who see them will admit that they are a race whom the Lord has blessed.",
+            "pt-BR": "O espírito do Senhor Deus está sobre mim, porque o Senhor me ungiu; enviou-me para dar a boa-nova aos humildes, curar as feridas da alma, pregar a redenção para os cativos e a liberdade para os que estão presos; para proclamar o tempo da graça do Senhor e o dia da vingança do nosso Deus; para consolar todos os que choram, apara reservar e dar aos que sofrem por Sião uma coroa, em vez de cinza, o óleo da alegria, em vez da aflição. a Vós sois os sacerdotes do Senhor, chamados \"ministros de nosso Deus\". beu os recompensarei por suas obras segundo a verdade, e farei com eles uma aliança perpétua. Sua descendência será conhecida entre as nações, e seus filhos se fixarão no meio dos povos; quem os vir há de reconhecê-los como descendentes abençoados por Deus.",
+            "it": "Lo spirito del Signore Dio è su di me, perché il Signore mi ha consacrato con l'unzione; mi ha mandato a portare il lieto annuncio ai miseri, a fasciare le piaghe dei cuori spezzati, a proclamare la libertà degli schiavi, la scarcerazione dei prigionieri, a promulgare l'anno di grazia del Signore, il giorno di vendetta del nostro Dio, per consolare tutti gli afflitti, per dare agli afflitti di Sion una corona invece della cenere, olio di letizia invece dell'abito da lutto, veste di lode invece di uno spirito mesto. Voi sarete chiamati sacerdoti del Signore, ministri del nostro Dio sarete detti. Io darò loro fedelmente il salario, concluderò con loro un'alleanza eterna. Sarà famosa tra le genti la loro stirpe, la loro discendenza in mezzo ai popoli. Coloro che li vedranno riconosceranno che essi sono la stirpe benedetta dal Signore.",
+            "fr": "L'esprit du Seigneur Dieu est sur moi parce que le Seigneur m'a consacré par l'onction. Il m'a envoyé annoncer la bonne nouvelle aux humbles, guérir ceux qui ont le cœur brisé, proclamer aux captifs leur délivrance, aux prisonniers leur libération, proclamer une année de bienfaits accordée par le Seigneur, et un jour de vengeance pour notre Dieu, consoler tous ceux qui sont en deuil, ceux qui sont en deuil dans Sion, mettre le diadème sur leur tête au lieu de la cendre, l'huile de joie au lieu du deuil, un habit de fête au lieu d'un esprit abattu. Vous serez appelés \" Prêtres du Seigneur \" ; on vous dira \" Servants de notre Dieu \". Loyalement, je vous donnerai la récompense, je conclurai avec vous une alliance éternelle. Vos descendants seront connus parmi les nations, et votre postérité, au milieu des peuples. Qui les verra pourra reconnaître la descendance bénie du Seigneur.",
+            "de": "Der Geist Gottes, des Herrn, ruht auf mir; denn der Herr hat mich gesalbt. Er hat mich gesandt, damit ich den Armen eine frohe Botschaft bringe und alle heile, deren Herz zerbrochen ist, damit ich den Gefangenen die Entlassung verkünde und den Gefesselten die Befreiung, damit ich ein Gnadenjahr des Herrn ausrufe, einen Tag der Vergeltung unseres Gottes, damit ich alle Trauernden tröste, die Trauernden Zions erfreue, ihnen Schmuck bringe anstelle von Schmutz, Freudenöl statt Trauergewand, Jubel statt der Verzweiflung. Ihr alle aber werdet „Priester des Herrn“ genannt, man sagt zu euch „Diener unseres Gottes“. Ich bin treu und gebe ihnen den Lohn, ich schließe mit ihnen einen ewigen Bund. Ihre Nachkommen werden bei allen Nationen bekannt sein und ihre Kinder in allen Völkern. Jeder, der sie sieht, wird erkennen: Das sind die Nachkommen, die der Herr gesegnet hat."
+          }
+        },
+        "conclusion": {
+          "la": "Verbum Dómini.",
+          "es": "Palabra de Dios.",
+          "en": "The Word of the Lord.",
+          "pt-BR": "Palavra do Senhor.",
+          "it": "Parola di Dio.",
+          "fr": "Parole du Seigneur.",
+          "de": "Wort des lebendigen Gottes."
+        },
+        "citation": {
+          "la": "Is 61, 1-3a.6a.8b-9",
+          "es": "Is 61, 1-3a.6a.8b-9",
+          "en": "Is 61:1-3.6.8-9",
+          "pt-BR": "Is 61, 1-3a.6a.8b-9",
+          "it": "Is 61,1-3.6.8-9",
+          "fr": "Is 61, 1-3a.6a.8b-9",
+          "de": "Jes 61, 1-3a.6a.8b-9"
+        },
+        "response": {
+          "body": {
+            "plain": {
+              "la": "R/. Deo gratias.",
+              "es": "R/. Te alabamos, Señor.",
+              "en": "R/. Thanks be to God.",
+              "pt-BR": "R/. Graças a Deus.",
+              "it": "R/. Rendiamo grazie a Dio.",
+              "fr": "R/. Nous rendons grâce à Dieu.",
+              "de": "A: Dank sei Gott."
+            },
+            "lines": {
+              "la": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Deo gratias."
+                  }
+                ]
+              ],
+              "es": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Te alabamos, Señor."
+                  }
+                ]
+              ],
+              "en": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Thanks be to God."
+                  }
+                ]
+              ],
+              "pt-BR": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Graças a Deus."
+                  }
+                ]
+              ],
+              "it": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Rendiamo grazie a Dio."
+                  }
+                ]
+              ],
+              "fr": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Nous rendons grâce à Dieu."
+                  }
+                ]
+              ],
+              "de": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "A:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Dank sei Gott."
+                  }
+                ]
+              ]
+            }
+          }
+        }
+      },
+      "responsorialPsalm": {
+        "body": {
+          "plain": {
+            "la": "R/. Misericordias tuas, Dómine, in ætérnum cantabo. Invéni David servum meum; óleo sancto meo unxi eum. Manus enim mea firma erit cum eo, et bráchium meum confortábit eum. R/. Misericordias tuas, Dómine, in ætérnum cantabo. Et véritas mea et misericórdia mea cum ipso et in nómine meo exaltábitur cornu eius. Ipse invocábit me: Pater meus es tu, Deus meus et refúgium salútis meæ. R/. Misericordias tuas, Dómine, in ætérnum cantabo.",
+            "es": "R/. Cantaré eternamente tus misericordias, Señor. Encontré a David, mi siervo, y lo he ungido con óleo sagrado; para que mi mano esté siempre con él y mi brazo lo haga valeroso. R/. Cantaré eternamente tus misericordias, Señor. Mi fidelidad y misericordia lo acompañarán, por mi nombre crecerá su poder. Él me invocará: «Tú eres mi padre, mi Dios, mi Roca salvadora». R/. Cantaré eternamente tus misericordias, Señor.",
+            "en": "R/. For ever I will sing the goodness of the Lord. I have found David my servant and with my holy oil anointed him. My hand shall always be with him and my arm shall make him strong. R/. For ever I will sing the goodness of the Lord. My truth and my love shall be with him; by my name his might shall be exalted. He will say to me: 'You are my father, my God, the rock who saves me.' R/. For ever I will sing the goodness of the Lord.",
+            "pt-BR": "R/. Senhor, eu cantarei eternamente o vosso amor. Encontrei e escolhi a Davi, meu servidor, e o ungi, para ser rei, com meu óleo consagrado. Estará sempre com ele minha mão onipotente, e meu braço poderoso há de ser a sua força. R/. Senhor, eu cantarei eternamente o vosso amor. Minha verdade e meu amor estarão sempre com ele, sua força e seu poder por meu nome crescerão. Ele, então, me invocará: \"Ó Senhor, vós sois meu Pai, sois meu Deus, sois meu Rochedo onde encontro a salvação\"!. R/. Senhor, eu cantarei eternamente o vosso amor.",
+            "it": "R/. Canterò per sempre l'amore del Signore. Ho trovato Davide, mio servo, con il mio santo olio l'ho consacrato; la mia mano è il suo sostegno, il mio braccio è la sua forza. R/. Canterò per sempre l'amore del Signore. La mia fedeltà e il mio amore saranno con lui e nel mio nome s'innalzerà la sua fronte. Egli mi invocherà: «Tu sei mio padre, mio Dio e roccia della mia salvezza». R/. Canterò per sempre l'amore del Signore.",
+            "fr": "R/. Ton amour, Seigneur, sans fin je le chante ! Autrefois, tu as parlé à tes amis, dans une vision tu leur as dit : \" J'ai trouvé David, mon serviteur, je l'ai sacré avec mon huile sainte. R/. Ton amour, Seigneur, sans fin je le chante ! \" Ma main sera pour toujours avec lui, mon bras fortifiera son courage. Mon amour et ma fidélité sont avec lui, mon nom accroît sa vigueur. \" Il me dira : \"Tu es mon Père, mon Dieu, mon roc et mon salut !\" Sans fin je lui garderai mon amour, mon alliance avec lui sera fidèle. \" R/. Ton amour, Seigneur, sans fin je le chante !",
+            "de": "R/. Von den Taten deiner Huld, Herr, will ich ewig singen. Einst hast du in einer Vision zu deinen Frommen gesprochen: «Ich habe David, meinen Knecht, gefunden und ihn mit meinem heiligen Öl ihn gesalbt. Beständig wird meine Hand ihn halten und mein Arm ihn stärken. R/. Von den Taten deiner Huld, Herr, will ich ewig singen. Meine Treue und meine Huld begleiten ihn, und in meinem Namen erhebt er sein Haupt. Er wird zu mir rufen: Mein Vater bist du, mein Gott, der Fels meines Heils!» R/. Von den Taten deiner Huld, Herr, will ich ewig singen."
+          },
+          "lines": {
+            "la": [
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Misericordias tuas, Dómine, in ætérnum cantabo."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Invéni David servum meum;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "óleo sancto meo unxi eum."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Manus enim mea firma erit cum eo,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "et bráchium meum confortábit eum."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Misericordias tuas, Dómine, in ætérnum cantabo."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Et véritas mea et misericórdia mea cum ipso et in nómine meo exaltábitur cornu eius."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Ipse invocábit me: Pater meus es tu,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Deus meus et refúgium salútis meæ."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Misericordias tuas, Dómine, in ætérnum cantabo."
+                }
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Cantaré eternamente tus misericordias, Señor."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Encontré a David, mi siervo,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "y lo he ungido con óleo sagrado;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "para que mi mano esté siempre con él y mi brazo lo haga valeroso."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Cantaré eternamente tus misericordias, Señor."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Mi fidelidad y misericordia lo acompañarán,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "por mi nombre crecerá su poder."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Él me invocará: «Tú eres mi padre,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "mi Dios, mi Roca salvadora»."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Cantaré eternamente tus misericordias, Señor."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "For ever I will sing the goodness of the Lord."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "I have found David my servant and with my holy oil anointed him. My hand shall always be with him and my arm shall make him strong."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "For ever I will sing the goodness of the Lord."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "My truth and my love shall be with him; by my name his might shall be exalted."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "He will say to me: 'You are my father, my God, the rock who saves me.'"
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "For ever I will sing the goodness of the Lord."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Senhor, eu cantarei eternamente o vosso amor."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Encontrei e escolhi a Davi, meu servidor,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "e o ungi, para ser rei, com meu óleo consagrado."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Estará sempre com ele minha mão onipotente,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "e meu braço poderoso há de ser a sua força."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Senhor, eu cantarei eternamente o vosso amor."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Minha verdade e meu amor estarão sempre com ele,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "sua força e seu poder por meu nome crescerão."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Ele, então, me invocará: \"Ó Senhor, vós sois meu Pai,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "sois meu Deus, sois meu Rochedo onde encontro a salvação\"!."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Senhor, eu cantarei eternamente o vosso amor."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Canterò per sempre l'amore del Signore."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Ho trovato Davide, mio servo,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "con il mio santo olio l'ho consacrato;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "la mia mano è il suo sostegno,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "il mio braccio è la sua forza."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Canterò per sempre l'amore del Signore."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "La mia fedeltà e il mio amore saranno con lui e nel mio nome s'innalzerà la sua fronte."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Egli mi invocherà: «Tu sei mio padre,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "mio Dio e roccia della mia salvezza»."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Canterò per sempre l'amore del Signore."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Ton amour, Seigneur, sans fin je le chante !"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Autrefois, tu as parlé à tes amis,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "dans une vision tu leur as dit :"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "\" J'ai trouvé David, mon serviteur,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "je l'ai sacré avec mon huile sainte."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Ton amour, Seigneur, sans fin je le chante !"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "\" Ma main sera pour toujours avec lui,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "mon bras fortifiera son courage."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Mon amour et ma fidélité sont avec lui,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "mon nom accroît sa vigueur."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "\" Il me dira : \"Tu es mon Père,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "mon Dieu, mon roc et mon salut !\""
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Sans fin je lui garderai mon amour,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "mon alliance avec lui sera fidèle. \""
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Ton amour, Seigneur, sans fin je le chante !"
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Von den Taten deiner Huld, Herr, will ich ewig singen."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Einst hast du in einer Vision zu deinen Frommen gesprochen:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "«Ich habe David, meinen Knecht, gefunden und ihn mit meinem heiligen Öl ihn gesalbt."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Beständig wird meine Hand ihn halten und mein Arm ihn stärken."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Von den Taten deiner Huld, Herr, will ich ewig singen."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Meine Treue und meine Huld begleiten ihn,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "und in meinem Namen erhebt er sein Haupt."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Er wird zu mir rufen: Mein Vater bist du,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "mein Gott, der Fels meines Heils!»"
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Von den Taten deiner Huld, Herr, will ich ewig singen."
+                }
+              ]
+            ]
+          }
+        },
+        "citation": {
+          "la": "Ps 89, 21-22. 25 et 27",
+          "es": "Sal 89, 21-22.25 y 27",
+          "it": "Sal 88",
+          "en": "Ps 89:21-22, 25 and 27",
+          "pt-BR": "Sl 89, 21-22.25 et 27",
+          "fr": "Ps 89, 21-22.25 et 27",
+          "de": "Ps 89, 21-22.25 et 27"
+        }
+      },
+      "secondReading": {
+        "label": {
+          "la": "Lectio Secunda",
+          "es": "Segunda Lectura",
+          "en": "Second Reading",
+          "pt-BR": "Segunda Leitura",
+          "it": "Seconda lettura",
+          "fr": "Deuxième lecture",
+          "de": "Zweite Lesung"
+        },
+        "summary": {
+          "la": "Fecit nos regnum, sacerdotes Deo et Patri",
+          "es": "Nos ha hecho reino y sacerdotes para Dios Padre",
+          "pt-BR": "Fez de nós um reino, sacerdotes para seu Deus e Pai"
+        },
+        "introduction": {
+          "la": "Léctio libri Apocalýpsis beáti Ioánnis apóstoli",
+          "es": "Lectura del libro del Apocalipsis",
+          "en": "A reading from the Book of Revelation",
+          "pt-BR": "Leitura do Apocalipse de São João",
+          "it": "Dal libro dell'Apocalisse di san Giovanni apostolo",
+          "fr": "Livre de l'Apocalypse de saint Jean",
+          "de": "Lesung aus der Offenbarung des Johannes"
+        },
+        "body": {
+          "plain": {
+            "la": "[Grátia vobis et pax] ab Iesu Christo, qui est testis fidélis, primogénitus mortuórum et princeps regum terræ. Ei, qui díligit nos et solvit nos a peccátis nostris in sánguine suo et fecit nos regnum, sacerdótes Deo et Patri suo, ipsi glória et impérium in sǽcula sæculórum. Amen. Ecce venit cum núbibus, et vidébit eum omnis óculus et qui eum pupugérunt, et plangent se super eum omnes tribus terræ. Etiam, amen. Ego sum Alpha et Omega, dicit Dóminus Deus, qui est et qui erat et qui ventúrus est, Omnípotens.",
+            "es": "Gracia y paz a vosotros de parte de Jesucristo, el testigo fiel, el primogénito de entre los muertos, el príncipe de los reyes de la tierra. Al que nos ama, y nos ha librado de nuestros pecados con su sangre, y nos ha hecho reino y sacerdotes para Dios, su Padre. A él, la gloria y el poder por los siglos de los siglos. Amén. Mirad: viene entre las nubes. Todo ojo lo verá, también los que lo traspasaron. Por él se lamentarán todos los pueblos de la tierra. Sí, amén. Dice el Señor Dios: «Yo soy el Alfa y la Omega, el que es, el que era y ha de venir, el todopoderoso».",
+            "en": "Grace and peace to you from Jesus Christ, the faithful witness, the First-born from the dead, the Ruler of the kings of the earth. He loves us and has washed away our sins with his blood, and made us a line of kings, priests to serve his God and Father; to him, then, be glory and power for ever and ever. Amen. It is he who is coming on the clouds; everyone will see him, even those who pierced him, and all the races of the earth will mourn over him. This is the truth. Amen. 'I am the Alpha and the Omega' says the Lord God, who is, who was, and who is to come, the Almighty.",
+            "pt-BR": "A vós graça e paz da parte de Jesus Cristo, a testemunha fiel, o primeiro a ressuscitar dentre os mortos, o soberano dos reis da terra. A Jesus, que nos ama, que por seu sangue nos libertou dos nossos pecados e que fez de nós um reino, sacerdotes para seu Deus e Pai, a ele a glória e o poder, em eternidade. Amém. Olhai! Ele vem com as nuvens, e todos os olhos o verão - também aqueles que o traspassaram. Todas as tribos da terra baterão no peito por causa dele. Sim. Amém! \"Eu sou o Alfa e o ômega\", diz o Senhor Deus, \"aquele que é, que era e que vem, o Todo-poderoso\".",
+            "it": "Grazia a voi e pace da Gesù Cristo, il testimone fedele, il primogenito dei morti e il sovrano dei re della terra. A Colui che ci ama e ci ha liberati dai nostri peccati con il suo sangue, che ha fatto di noi un regno, sacerdoti per il suo Dio e Padre, a lui la gloria e la potenza nei secoli dei secoli. Amen. Ecco, viene con le nubi e ogni occhio lo vedrà, anche quelli che lo trafissero, e per lui tutte le tribù della terra si batteranno il petto. Sì, Amen! Dice il Signore Dio: io sono l'Alfa e l'Omèga, Colui che è, che era e che viene, l'Onnipotente!",
+            "fr": "Que la grâce et la paix vous soient données de la part de Jésus Christ, le témoin fidèle, le premier-né des morts, le prince des rois de la terre. À lui qui nous aime, qui nous a délivrés de nos péchés par son sang, qui a fait de nous un royaume et des prêtres pour son Dieu et Père, à lui, la gloire et la souveraineté pour les siècles des siècles. Amen. Voici qu'il vient avec les nuées, tout œil le verra, ils le verront, ceux qui l'ont transpercé ; et sur lui se lamenteront toutes les tribus de la terre. Oui ! Amen !\n\nMoi, je suis l'Alpha et l'Oméga, dit le Seigneur Dieu, Celui qui est, qui était et qui vient, le Souverain de l'univers. Spíritu Dómini super me; evangelizáre paupéribus misit me.",
+            "de": "Gnade sei mit euch und Friede von Jesus Christus; er ist der treue Zeuge, der Erstgeborene der Toten, der Herrscher über die Könige der Erde. Er liebt uns und hat uns von unseren Sünden erlöst durch sein Blut; er hat uns zu Königen gemacht und zu Priestern vor Gott, seinem Vater. Ihm sei die Herrlichkeit und die Macht in alle Ewigkeit. Amen. Siehe, er kommt mit den Wolken, und jedes Auge wird ihn sehen, auch alle, die ihn durchbohrt haben; und alle Völker der Erde werden seinetwegen jammern und klagen. Ja, amen. Ich bin das Alpha und das Omega, spricht Gott, der Herr, der ist und der war und der kommt, der Herrscher über die ganze Schöpfung."
+          }
+        },
+        "conclusion": {
+          "la": "Verbum Dómini.",
+          "es": "Palabra de Dios.",
+          "en": "The Word of the Lord.",
+          "pt-BR": "Palavra do Senhor.",
+          "it": "Parola di Dio.",
+          "fr": "Parole du Seigneur.",
+          "de": "Wort des lebendigen Gottes."
+        },
+        "citation": {
+          "la": "Io 1, 5-8",
+          "es": "Ap 1, 5-8",
+          "en": "Rev 1:5-8",
+          "pt-BR": "Jo 1, 5-8",
+          "it": "Ap 1,5-8",
+          "fr": "Ap 1, 5-8",
+          "de": "Offb 1, 5-8"
+        },
+        "response": {
+          "body": {
+            "plain": {
+              "la": "R/. Deo gratias.",
+              "es": "R/. Te alabamos, Señor.",
+              "en": "R/. Thanks be to God.",
+              "pt-BR": "R/. Graças a Deus.",
+              "it": "R/. Rendiamo grazie a Dio.",
+              "fr": "R/. Nous rendons grâce à Dieu.",
+              "de": "A: Dank sei Gott."
+            },
+            "lines": {
+              "la": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Deo gratias."
+                  }
+                ]
+              ],
+              "es": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Te alabamos, Señor."
+                  }
+                ]
+              ],
+              "en": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Thanks be to God."
+                  }
+                ]
+              ],
+              "pt-BR": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Graças a Deus."
+                  }
+                ]
+              ],
+              "it": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Rendiamo grazie a Dio."
+                  }
+                ]
+              ],
+              "fr": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Nous rendons grâce à Dieu."
+                  }
+                ]
+              ],
+              "de": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "A:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Dank sei Gott."
+                  }
+                ]
+              ]
+            }
+          }
+        }
+      },
+      "gospelAcclamation": {
+        "body": {
+          "plain": {
+            "la": "Versus ante Evangelium Is 61, 1 (Lc 4, 18) Spíritus Dómini super me; evangelizare pauperibus misit me.",
+            "es": "Aleluya Is 61, 1 (Lc 4, 18) El Espíritu del Señor está sobre mí: me ha enviado a evangelizar a los pobres.",
+            "en": "The Spirit of the Lord is upon me; he sent me to bring Good News to the poor.",
+            "pt-BR": "Aclamação ao Evangelho Is 61, 1 (Lc 4, 18) O Espírito do Senhor está sobre mim: Ele me enviou a anunciar a boa nova aos pobres.",
+            "it": "Canto al Vangelo Is 61,1 Gloria e lode a te, Cristo Signore! Lo Spirito del Signore è su di me: mi ha mandato a portare il lieto annunzio ai poveri. Gloria e lode a te, Cristo Signore!",
+            "fr": "Verset avant l'Évangile Is 61, 1 (Lc 4, 18) Gloire et louange à toi, Seigneur Jésus ! L'Esprit du Seigneur est sur moi : il m'a envoyé porter la Bonne Nouvelle aux pauvres. Gloire et louange à toi, Seigneur Jésus !",
+            "de": "Herr Jesus, dir sei Ruhm und Ehre! Der Geist Gottes ruht auf mir: Er hat mich gesandt, den Armen die Frohe Botschaft zu bringen."
+          },
+          "lines": {
+            "la": [
+              [
+                {
+                  "type": "text",
+                  "text": "Versus ante Evangelium"
+                },
+                {
+                  "type": "reference",
+                  "text": "Is 61, 1 (Lc 4, 18)"
+                },
+                {
+                  "type": "text",
+                  "text": "Spíritus Dómini super me; evangelizare pauperibus misit me."
+                }
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Aleluya"
+                },
+                {
+                  "type": "reference",
+                  "text": "Is 61, 1 (Lc 4, 18)"
+                },
+                {
+                  "type": "text",
+                  "text": "El Espíritu del Señor está sobre mí: me ha enviado a evangelizar a los pobres."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "The Spirit of the Lord is upon me; he sent me to bring Good News to the poor."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Aclamação ao Evangelho"
+                },
+                {
+                  "type": "reference",
+                  "text": "Is 61, 1 (Lc 4, 18)"
+                },
+                {
+                  "type": "text",
+                  "text": "O Espírito do Senhor está sobre mim: Ele me enviou a anunciar a boa nova aos pobres."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Canto al Vangelo"
+                },
+                {
+                  "type": "reference",
+                  "text": "Is 61,1"
+                },
+                {
+                  "type": "text",
+                  "text": "Gloria e lode a te, Cristo Signore! Lo Spirito del Signore è su di me: mi ha mandato a portare il lieto annunzio ai poveri. Gloria e lode a te, Cristo Signore!"
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Verset avant l'Évangile"
+                },
+                {
+                  "type": "reference",
+                  "text": "Is 61, 1 (Lc 4, 18)"
+                },
+                {
+                  "type": "text",
+                  "text": "Gloire et louange à toi, Seigneur Jésus ! L'Esprit du Seigneur est sur moi : il m'a envoyé porter la Bonne Nouvelle aux pauvres. Gloire et louange à toi, Seigneur Jésus !"
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Herr Jesus, dir sei Ruhm und Ehre! Der Geist Gottes ruht auf mir: Er hat mich gesandt, den Armen die Frohe Botschaft zu bringen."
+                }
+              ]
+            ]
+          }
+        },
+        "citation": {
+          "la": "Is 61, 1 (Lc 4, 18)",
+          "es": "Is 61, 1 (Lc 4, 18)",
+          "pt-BR": "Is 61, 1 (Lc 4, 18)",
+          "it": "Is 61,1",
+          "fr": "Is 61, 1 (Lc 4, 18)"
+        }
+      },
+      "gospel": {
+        "label": {
+          "la": "Evangelium",
+          "es": "Evangelio",
+          "en": "Gospel",
+          "pt-BR": "Evangelho",
+          "it": "Vangelo",
+          "fr": "Proclamation de l'Évangile",
+          "de": "Evangelium"
+        },
+        "summary": {
+          "la": "Spíritus Dómini super me; propter quod unxit me",
+          "es": "El Espíritu del Señor está sobre m porque él me ha ungido",
+          "en": "Spíritus Dómini super me: evangelizáre paupéribus misit me.",
+          "pt-BR": "O Espírito do Senhor está sobre mim"
+        },
+        "introduction": {
+          "la": "✠ Léctio sancti Evangélii secúndum Lucam",
+          "es": "✠ Lectura del santo Evangelio según san Lucas",
+          "en": "✠ A reading from the holy Gospel according to Luke",
+          "pt-BR": "✠ Evangelho de Nosso Senhor Jesus Cristo segundo São Lucas",
+          "it": "✠ Dal vangelo secondo Luca",
+          "fr": "✠ Évangile de Jésus-Christ selon saint Luc",
+          "de": "✠ Aus dem heiligen Evangelium nach Lukas"
+        },
+        "body": {
+          "plain": {
+            "la": "In illo témpore:\n\nVenit Iesus Názareth, ubi erat nutrítus, et intrávit secúndum consuetúdinem suam die sábbati in synagógam et surréxit légere. Et tráditus est illi liber prophétæ Isaíæ; et ut revólvit librum, invénit locum, ubi scriptum erat:\n\n«Spíritus Dómini super me; propter quod unxit me evangelizáre paupéribus, misit me prædicáre captívis remissiónem et cæcis visum, dimíttere confráctos in remissióne, prædicáre annum Dómini accéptum». Et cum plicuísset librum, réddidit minístro et sedit; et ómnium in synagóga óculi erant intendéntes in eum. Cœpit autem dícere ad illos: «Hódie impléta est hæc Scriptúra in áuribus vestris».",
+            "es": "En aquel tiempo, Jesús fue a Nazaret, donde se había criado, entró en la sinagoga, como era su costumbre los sábados, y se puso en pie para hacer la lectura. Le entregaron el rollo del profeta Isaías y, desenrollándolo, encontró el pasaje donde estaba escrito: «El Espíritu del Señor está sobre mí, porque él me ha ungido. Me ha enviado a evangelizar a los pobres, a proclamar a los cautivos la libertad, y a los ciegos, la vista; a poner en libertad a los oprimidos; a proclamar el año de gracia del Señor». Y, enrollando el rollo y devolviéndolo al que lo ayudaba, se sentó. Toda la sinagoga tenía los ojos clavados en él. Y él comenzó a decirles: «Hoy se ha cumplido esta Escritura que acabáis de oír».",
+            "en": "Jesus came to Nazara, where he had been brought up, and went into the synagogue on the sabbath day as he usually did. He stood up to read and they handed him the scroll of the prophet Isaiah. Unrolling the scroll he found the place where it is written: The spirit of the Lord has been given to me, for he has anointed me. He has sent me to bring the good news to the poor, to proclaim liberty to captives and to the blind new sight, to set the downtrodden free, to proclaim the Lord's year of favour. He then rolled up the scroll, gave it back to the assistant and sat down. And all eyes in the synagogue were fixed on him. Then he began to speak to them, 'This text is being fulfilled today even as you listen'.",
+            "pt-BR": "Naquele tempo: Jesus veio à cidade de Nazaré, onde se tinha criado. Conforme seu costume, entrou na sinagoga no sábado, e levantou-se para fazer a leitura. Deram-lhe o livro do profeta Isaías. Abrindo o livro, Jesus achou a passagem em que está escrito: \"O Espírito do Senhor está sobre mim, porque ele me consagrou com a unção para anunciar a Boa Nova aos pobres; enviou-me para proclamar a libertação aos cativos e aos cegos a recuperação da vista; para libertar os oprimidos e para proclamar um ano da graça do Senhor\". Depois fechou o livro, entregou-o ao ajudante, e sentou-se. Todos os que estavam na sinagoga tinham os olhos fixos nele. Então começou a dizer-lhes: \"Hoje se cumpriu esta passagem da Escritura que acabastes de ouvir\".",
+            "it": "In quel tempo, Gesù venne a Nàzaret, dove era cresciuto, e secondo il suo solito, di sabato, entrò nella sinagoga e si alzò a leggere. Gli fu dato il rotolo del profeta Isaìa; aprì il rotolo e trovò il passo dove era scritto: «Lo Spirito del Signore è sopra di me; per questo mi ha consacrato con l'unzione e mi ha mandato a portare ai poveri il lieto annuncio, a proclamare ai prigionieri la liberazione e ai ciechi la vista; a rimettere in libertà gli oppressi e proclamare l'anno di grazia del Signore». Riavvolse il rotolo, lo riconsegnò all'inserviente e sedette. Nella sinagoga, gli occhi di tutti erano fissi su di lui. Allora cominciò a dire loro: «Oggi si è compiuta questa Scrittura che voi avete ascoltato».",
+            "fr": "En ce temps-là, Jésus vint à Nazareth, où il avait été élevé. Selon son habitude, il entra dans la synagogue le jour du sabbat, et il se leva pour faire la lecture. On lui remit le livre du prophète Isaïe. Il ouvrit le livre et trouva le passage où il est écrit : L'Esprit du Seigneur est sur moi parce que le Seigneur m'a consacré par l'onction. Il m'a envoyé porter la Bonne Nouvelle aux pauvres, annoncer aux captifs leur libération, et aux aveugles qu'ils retrouveront la vue, remettre en liberté les opprimés, annoncer une année favorable accordée par le Seigneur. Jésus referma le livre, le rendit au servant et s'assit. Tous, dans la synagogue, avaient les yeux fixés sur lui. Alors il se mit à leur dire : \" Aujourd'hui s'accomplit ce passage de l'Écriture que vous venez d'entendre. \"",
+            "de": "In jener Zeit kam Jesus nach Nazaret, wo er aufgewachsen war, und ging, wie gewohnt, am Sabbat in die Synagoge. Als er aufstand, um aus der Schrift vorzulesen, reichte man ihm das Buch des Propheten Jesaja. Er schlug das Buch auf und fand die Stelle, wo es heißt: Der Geist des Herrn ruht auf mir; denn der Herr hat mich gesalbt. Er hat mich gesandt, damit ich den Armen eine gute Nachricht bringe; damit ich den Gefangenen die Entlassung verkünde und den Blinden das Augenlicht; damit ich die Zerschlagenen in Freiheit setze und ein Gnadenjahr des Herrn ausrufe. Dann schloss er das Buch, gab es dem Synagogendiener und setzte sich. Die Augen aller in der Synagoge waren auf ihn gerichtet. Da begann er, ihnen darzulegen: Heute hat sich das Schriftwort, das ihr eben gehört habt, erfüllt."
+          }
+        },
+        "conclusion": {
+          "la": "Verbum Dómini.",
+          "es": "Palabra del Señor.",
+          "en": "The Gospel of the Lord.",
+          "pt-BR": "Palavra da Salvação.",
+          "it": "Parola del Signore.",
+          "fr": "Acclamons la Parole de Dieu !",
+          "de": "Evangelium unseres Herrn Jesus Christus."
+        },
+        "citation": {
+          "la": "Lc 4, 16-21",
+          "es": "Lc 4, 16-21",
+          "en": "Lk 4:16-21",
+          "pt-BR": "Lc 4, 16-21",
+          "it": "Lc 4, 16-21",
+          "fr": "Lc 4, 16-21",
+          "de": "Lk 4, 16-21"
+        },
+        "response": {
+          "body": {
+            "plain": {
+              "la": "R/. Laus tibi, Christe.",
+              "es": "R/. Gloria a ti, Señor Jesús.",
+              "en": "R/. Praise to you, Lord Jesus Christ.",
+              "pt-BR": "R/. Glória a vós, Senhor.",
+              "it": "R/. Lode a te, o Cristo.",
+              "fr": "R/. Louange à toi, Seigneur Jésus !",
+              "de": "A: Lob sei dir, Christus."
+            },
+            "lines": {
+              "la": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Laus tibi, Christe."
+                  }
+                ]
+              ],
+              "es": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Gloria a ti, Señor Jesús."
+                  }
+                ]
+              ],
+              "en": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Praise to you, Lord Jesus Christ."
+                  }
+                ]
+              ],
+              "pt-BR": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Glória a vós, Senhor."
+                  }
+                ]
+              ],
+              "it": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Lode a te, o Cristo."
+                  }
+                ]
+              ],
+              "fr": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Louange à toi, Seigneur Jésus !"
+                  }
+                ]
+              ],
+              "de": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "A:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Lob sei dir, Christus."
+                  }
+                ]
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rite": "chrism-mass",
+  "parts": {
+    "renewalOfPriestlyPromises": {
+      "heading": {
+        "la": "Renovatio promissionum sacerdotalium",
+        "es": "Renovación de las promesas sacerdotales",
+        "en": "Renewal of Priestly Promises",
+        "pt-BR": "Renovação das promessas sacerdotais",
+        "it": "Rinnovo delle promesse sacerdotali",
+        "fr": "Rénovation des promesses sacerdotales",
+        "de": "Erneuerung der Bereitschaftserklärung zum priesterlichen Dienst"
+      },
+      "content": [
+        {
+          "type": "block",
+          "body": {
+            "plain": {
+              "la": "Homilia expleta, Episcopus, his vel similibus verbis, cum presbyteris colloquitur: Fílii caríssimi, ánnua redeúnte memória diéi, qua Christus Dóminus sacerdótium suum cum Apóstolis nobísque communicávit, vultis olim factas promissiónes coram Epíscopo vestro et pópulo sancto Dei renováre? Presbyteri, una simul, respondent: Volo. Vultis Dómino Iesu árctius coniúngi et conformári, vobismetípsis abrenuntiántes atque promíssa confirmántes sacrórum officiórum, quæ, Christi amóre indúcti, erga eius Ecclésiam, sacerdotális vestræ ordinatiónis die, cum gáudio suscepístis? Presbyteri: Volo. Vultis fidéles esse dispensatóres mysteriórum Dei per sanctam Eucharístiam ceterásque litúrgicas actiónes, atque sacrum docéndi munus, Christum Caput atque Pastórem sectándo, fidéliter implére, non bonórum cúpidi, sed animárum zelo tantum indúcti? Presbyteri: Volo. Deinde, ad pópulum conversus, Episcopus prosequitur: Vos autem, fílii dilectíssimi, pro presbýteris vestris oráte, ut Dóminus super eos bona sua abundánter effúndat, quátenus fidéles minístri Christi, Summi Sacerdótis, vos ad eum perdúcant, qui fons est salútis. Populus: Christe, audi nos. Christe, exáudi nos. Et pro me étiam oráte, ut fidélis sim múneri apostólico humilitáti meæ commísso, et inter vos effíciar viva et perféctior in dies imágo Christi Sacerdótis, Boni Pastóris, Magístri et ómnium Servi. Populus: Christe, audi nos. Christe, exáudi nos. Dóminus nos omnes in sua caritáte custódiat, et ipse nos univérsos, pastóres et oves, ad vitam perdúcat ætérnam. Omnes: Amen.",
+              "es": "Acabada la homilía, el obispo dialoga con los presbíteros con estas o semejantes palabras: Obispo: Hijos amadísimos: En esta conmemoración anual del día en que Cristo confirió su sacerdocio a los apóstoles y a nosotros, ¿queréis renovar las promesas que hicisteis un día ante vuestro obispo y ante el pueblo santo de Dios? Los presbíteros, conjuntamente, responden a la vez: Sí, quiero. Obispo: ¿Queréis uniros más fuertemente a Cristo y configuraros con él, renunciando a vosotros mismos y reafirmando la promesa de cumplir los sagrados deberes que, por amor a Cristo, aceptasteis gozosos el día de vuestra ordenación para el servicio de la Iglesia? Presbíteros: Sí, quiero. Obispo: ¿Deseáis permanecer como fieles dispensadores de los misterios de Dios en la celebración eucarística y en las demás acciones litúrgicas, y desempeñar fielmente el ministerio de la predicación como seguidores de Cristo, cabeza y pastor, sin pretender los bienes temporales, sino movidos únicamente por el celo de las almas? Presbíteros: Sí, quiero. Seguidamente, dirigiéndose al pueblo, el obispo prosigue: Y ahora vosotros, hijos muy queridos, orad por vuestros presbíteros, para que el Señor derrame abundantemente sobre ellos sus bendiciones; que sean ministros fieles de Cristo sumo sacerdote, y os conduzcan a él, única fuente de salvación. Pueblo: Cristo, óyenos. Cristo, escúchanos. Obispo: Y rezad también por mí, para que sea fiel al ministerio apostólico confiado a mi humilde persona y sea imagen, cada vez más viva y perfecta, de Cristo sacerdote, buen pastor, maestro y siervo de todos. Pueblo: Cristo, óyenos. Cristo, escúchanos. Obispo: El Señor nos guarde en su caridad y nos conduzca a todos, pastores y grey, a la vida eterna. Todos: Amén.",
+              "en": "After the Homily, the Bishop speaks with the Priests in these or similar words. Beloved sons, on the anniversary of that day when Christ our Lord conferred his priesthood on his Apostles and on us, are you resolved to renew in the presence of your Bishop and God's holy people, the promises you once made? The Priests, all together, respond: I am. Are you resolved to be more united with the Lord Jesus and more closely conformed to him, denying yourselves and confirming those promises about sacred duties towards Christ's Church which, prompted by love of him, you willingly and joyfully pledged on the day of your priestly ordination? Priests: I am. Are you resolved to be faithful stewards of the mysteries of God in the Holy Eucharist and the other liturgical rites and to discharge faithfully the sacred office of teaching, following Christ the Head and Shepherd, not seeking any gain, but moved only by zeal for souls? Priests: I am. Then, turned towards the people, the Bishop continues: As for you, dearest sons and daughters, pray for your Priests, that the Lord may pour out his gifts abundantly upon them, and keep them faithful as ministers of Christ, the High Priest, so that they may lead you to him, who is the source of salvation. People: Christ, hear us. Christ, graciously hear us. And pray also for me, that I may be faithful to the apostolic office entrusted to me in my lowliness and that in your midst I may be made day by day a living and more perfect image of Christ, the Priest, the Good Shepherd, the Teacher and the Servant of all. People: Christ, hear us. Christ, graciously hear us. May the Lord keep us all in his charity and lead all of us, shepherds and flock, to eternal life. All: Amen.",
+              "pt-BR": "Terminada a homilia, o Bispo dirige-se aos presbíteros usando estas palavras ou outras semelhantes: Filhos caríssimos, celebrando a cada ano o dia em que o Senhor Jesus comunicou o seu sacerdócio aos Apóstolos e a nós, quereis renovar as promessas que um dia fizestes perante o vosso Bispo e o povo santo de Deus? Os presbíteros respondem juntos: Quero. Quereis unir-vos e conformar-vos mais estreitamente ao Senhor Jesus, renunciando a vós mesmos e confirmando os compromissos do sagrado ministério que, levados pelo amor do Cristo, alegremente assumistes com a Igreja, no dia da vossa ordenação presbiteral? Os presbíteros: Quero. Quereis ser fiéis dispensadores dos mistérios de Deus pela celebração da Eucaristia e demais ações litúrgicas, cumprir com fidelidade a missão de ensinar e seguir o Cristo Cabeça e Pastor, não levados pela ambição de bens materiais, mas apenas pelo amor aos irmãos e irmãs? Os presbíteros: Quero. Em seguida, voltando-se para a assembleia, o Bispo prossegue: E vós, caríssimos filhos e filhas, rezai pelos vossos presbíteros, para que o Senhor derrame copiosamente sobre eles os seus dons, e, como fiéis ministros do Cristo, Sumo Sacerdote, vos conduzam àquele que é a fonte da salvação. A assembleia: Cristo, ouvi-nos. Cristo, atendei-nos. Orai também por mim, para que eu seja fiel à missão apostólica confiada à minha fraqueza e me torne entre vós imagem viva e cada dia mais perfeita do Cristo Sacerdote, Bom Pastor, Mestre e Servo de todos. A assembleia: Cristo, ouvi-nos. Cristo, atendei-nos. Deus nos guarde a todos em seu amor, e nos conduza, todos juntos, pastores e ovelhas, à vida eterna. Todos: Amém.",
+              "it": "Terminata l'omelia, il vescovo, con queste o con altre simili parole, si rivolge ai presbiteri: Figli carissimi, nella memoria annuale del giorno in cui Cristo Signore comunicò agli apostoli e a noi il suo sacerdozio, volete rinnovare le promesse a suo tempo fatte davanti al vostro vescovo e al popolo santo di Dio? Insieme, i presbiteri rispondono: Sì, lo voglio. Volete unirvi e conformarvi intimamente al Signore Gesù, rinunciando a voi stessi e rinnovando i sacri impegni che, spinti dall'amore di Cristo, avete assunto con gioia verso la sua Chiesa nel giorno della vostra ordinazione sacerdotale? I presbiteri: Sì, lo voglio. Volete essere fedeli dispensatori dei misteri di Dio per mezzo della santa Eucaristia e delle altre azioni liturgiche, e adempiere fedelmente il ministero della parola di salvezza, sull'esempio di Cristo, capo e pastore, lasciandovi guidare non da interessi umani, ma dall'amore per i vostri fratelli? I presbiteri: Sì, lo voglio. Quindi, il vescovo prosegue, rivolgendosi al popolo: E voi, figli carissimi, pregate per i vostri sacerdoti. Il Signore effonda su di loro l'abbondanza dei suoi doni perché siano fedeli ministri di Cristo, Sommo Sacerdote, e vi conducano a lui, unica fonte di salvezza. ★ Il diacono: Per tutti i nostri sacerdoti, preghiamo. Tutti: Ascoltaci, Signore. E pregate anche per me, perché sia fedele al servizio apostolico, affidato alla mia umile persona, e tra voi io diventi ogni giorno di più immagine viva e autentica di Cristo sacerdote, buon pastore, maestro e servo di tutti. ★ Il diacono: Per il nostro vescovo N., preghiamo. Tutti: Ascoltaci, Signore. Il Signore ci custodisca nel suo amore e conduca tutti noi, pastori e gregge, alla vita eterna. Tutti: Amen.",
+              "fr": "À la fin de son homélie, l'évêque engage le dialogue avec les prêtres, en ces termes ou d'autres semblables : Fils très chers, en cet anniversaire du jour où le Christ fit participer ses Apôtres et chacun d'entre nous à son sacerdoce, voulez-vous, devant votre évêque et le peuple saint de Dieu, renouveler les engagements que vous avez pris autrefois ? Les prêtres répondent ensemble : Oui, je le veux. Voulez-vous vivre toujours plus unis au Seigneur Jésus et chercher à lui ressembler, en renonçant à vous-mêmes, en étant fidèles aux engagements attachés à la charge ministérielle que vous avez reçue avec joie, par amour du Christ et pour le service de son Église, au jour de votre ordination sacerdotale ? Les prêtres : Oui, je le veux. Voulez-vous être les fidèles intendants des mystères de Dieu par la sainte eucharistie et les autres célébrations liturgiques, et assurer fidèlement la charge sainte de l'enseignement, à la suite du Christ, notre Tête et notre Pasteur, avec désintéressement et souci des âmes ? Les prêtres : Oui, je le veux. Ensuite, tourné vers le peuple, l'évêque poursuit : Et vous, frères et sœurs bien-aimés, priez pour vos prêtres : que le Seigneur répande sur eux ses dons en abondance, afin qu'ils soient les fidèles ministres du Christ, le Souverain Prêtre, et vous conduisent à lui, la source du salut. Le peuple : Ô Christ, écoute-nous ; ô Christ, exauce-nous. Priez aussi pour moi, votre évêque : que je sois fidèle à la charge apostolique qui m'a été confiée, malgré ma faiblesse ; que je reflète parmi vous une image vivante et toujours plus parfaite du Christ Prêtre, Bon Pasteur, Maître et Serviteur de tous. Le peuple : Ô Christ, écoute-nous ; ô Christ, exauce-nous. Que le Seigneur nous garde les uns et les autres dans son amour ; que lui-même nous conduise, pasteurs et brebis, jusqu'à la vie éternelle. Tous : Amen.",
+              "de": "Nach der Homilie wendet sich der Bischof mit etwa folgenden Worten an die teilnehmenden Priester: Liebe Brüder! Bei eurer Priesterweihe habt ihr vor eurem Bischof und dem ganzen Volk Gottes eure Bereitschaft erklärt, das priesterliche Amt mit all seinen Verpflichtungen auf euch zu nehmen. Heute, am Tag, da unser Herr Jesus Christus seine Aposteln und damit uns allen Anteil an seinem Priestertum gegeben hat, frage ich euch: Seid ihr bereit, das Priesteramt als getreue Mitarbeiter des Bischofs auszuüben und so unter der Führung des Heiligen Geistes die Herde Christi gewissenhaft zu leiten? Die Priester antworten gemeinsam: Ich bin bereit. Bischof: Seid ihr bereit, gemäß der kirchlichen Überlieferung die Mysterien Christi in gläubiger Ehrfurcht zu feiern zum Lobe Gottes und zum Heil seines Volkes? Priester: Ich bin bereit. Bischof: Seid ihr bereit, dem Wort Gottes im Bewusstsein eurer Verantwortung zu dienen, wenn ihr die Frohe Botschaft verkündet und den katholischen Glauben auslegt? Priester: Ich bin bereit. Bischof: Seid ihr bereit, den Armen und Kranken beizustehen, Heimatlosen und Notleidenden zu helfen? Priester: Ich bin bereit. Bischof: Seid ihr bereit, euch mit Christus, unserem Hohenpriester, täglich enger zu verbinden und mit ihm Opfergabe zur Ehre Gottes und zum Heil der Menschen zu werden? Priester: Mit Gottes Hilfe bin ich bereit. Der Bischof wendet sich an alle Gläubigen: Euch alle aber, die ihr hier anwesend seid, bitte ich, für mich und alle eure Priester zu Gott, dem allmächtigen Vater, zu beten, er möge das gute Werk, das er in uns begonnen hat, vollenden, und uns, die er zu Priestern erwählt hat, Gnade und Segen schenken."
+            },
+            "lines": {
+              "la": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Homilia expleta, Episcopus, his vel similibus verbis, cum presbyteris colloquitur:"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Fílii caríssimi, ánnua redeúnte memória diéi, qua Christus Dóminus sacerdótium suum cum Apóstolis nobísque communicávit, vultis olim factas promissiónes coram Epíscopo vestro et pópulo sancto Dei renováre?"
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Presbyteri, una simul, respondent:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Volo."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Vultis Dómino Iesu árctius coniúngi et conformári, vobismetípsis abrenuntiántes atque promíssa confirmántes sacrórum officiórum, quæ, Christi amóre indúcti, erga eius Ecclésiam, sacerdotális vestræ ordinatiónis die, cum gáudio suscepístis?"
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Presbyteri:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Volo."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Vultis fidéles esse dispensatóres mysteriórum Dei per sanctam Eucharístiam ceterásque litúrgicas actiónes, atque sacrum docéndi munus,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Christum Caput atque Pastórem sectándo, fidéliter implére, non bonórum cúpidi,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "sed animárum zelo tantum indúcti?"
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Presbyteri:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Volo."
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Deinde, ad pópulum conversus, Episcopus prosequitur:"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Vos autem, fílii dilectíssimi, pro presbýteris vestris oráte, ut Dóminus super eos bona sua abundánter effúndat, quátenus fidéles minístri Christi, Summi Sacerdótis, vos ad eum perdúcant, qui fons est salútis."
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Populus:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Christe, audi nos. Christe, exáudi nos."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Et pro me étiam oráte, ut fidélis sim múneri apostólico humilitáti meæ commísso, et inter vos effíciar viva et perféctior in dies imágo Christi Sacerdótis, Boni Pastóris, Magístri et ómnium Servi."
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Populus:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Christe, audi nos."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Christe, exáudi nos."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Dóminus nos omnes in sua caritáte custódiat, et ipse nos univérsos, pastóres et oves, ad vitam perdúcat ætérnam."
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Omnes:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Amen."
+                  }
+                ]
+              ],
+              "es": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Acabada la homilía, el obispo dialoga con los presbíteros con estas o semejantes palabras:"
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Obispo:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Hijos amadísimos: En esta conmemoración anual del día en que Cristo confirió su sacerdocio a los apóstoles y a nosotros, ¿queréis renovar las promesas que hicisteis un día ante vuestro obispo y ante el pueblo santo de Dios?"
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Los presbíteros, conjuntamente, responden a la vez:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Sí,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "quiero."
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Obispo:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "¿Queréis uniros más fuertemente a Cristo y configuraros con él, renunciando a vosotros mismos y reafirmando la promesa de cumplir los sagrados deberes que, por amor a Cristo,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "aceptasteis gozosos el día de vuestra ordenación para el servicio de la Iglesia?"
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Presbíteros:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Sí, quiero."
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Obispo:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "¿Deseáis permanecer como fieles dispensadores de los misterios de Dios en la celebración eucarística y en las demás acciones litúrgicas, y desempeñar fielmente el ministerio de la predicación como seguidores de Cristo, cabeza y pastor, sin pretender los bienes temporales, sino movidos únicamente por el celo de las almas?"
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Presbíteros:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Sí,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "quiero."
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Seguidamente, dirigiéndose al pueblo, el obispo prosigue:"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Y ahora vosotros, hijos muy queridos, orad por vuestros presbíteros, para que el Señor derrame abundantemente sobre ellos sus bendiciones; que sean ministros fieles de Cristo sumo sacerdote, y os conduzcan a él, única fuente de salvación."
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Pueblo:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Cristo, óyenos. Cristo,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "escúchanos."
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Obispo:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Y rezad también por mí, para que sea fiel al ministerio apostólico confiado a mi humilde persona y sea imagen, cada vez más viva y perfecta, de Cristo sacerdote, buen pastor,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "maestro y siervo de todos."
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Pueblo:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Cristo,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "óyenos. Cristo, escúchanos."
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Obispo:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "El Señor nos guarde en su caridad y nos conduzca a todos, pastores y grey, a la vida eterna."
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Todos:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Amén."
+                  }
+                ]
+              ],
+              "en": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "After the Homily, the Bishop speaks with the Priests in these or similar words."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Beloved sons,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "on the anniversary of that day when Christ our Lord conferred his priesthood on his Apostles and on us,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "are you resolved to renew in the presence of your Bishop and God's holy people,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "the promises you once made?"
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "The Priests, all together, respond:"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "I am."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Are you resolved to be more united with the Lord Jesus and more closely conformed to him,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "denying yourselves and confirming those promises about sacred duties towards Christ's Church which, prompted by love of him,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "you willingly and joyfully pledged on the day of your priestly ordination?"
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Priests:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "I am."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Are you resolved to be faithful stewards of the mysteries of God in the Holy Eucharist and the other liturgical rites and to discharge faithfully the sacred office of teaching, following Christ the Head and Shepherd,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "not seeking any gain,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "but moved only by zeal for souls?"
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Priests:"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "I am."
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Then, turned towards the people, the Bishop continues:"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "As for you, dearest sons and daughters,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "pray for your Priests,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "that the Lord may pour out his gifts abundantly upon them, and keep them faithful as ministers of Christ, the High Priest, so that they may lead you to him,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "who is the source of salvation."
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "People:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Christ, hear us. Christ, graciously hear us."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "And pray also for me,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "that I may be faithful to the apostolic office entrusted to me in my lowliness and that in your midst I may be made day by day a living and more perfect image of Christ,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "the Priest, the Good Shepherd,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "the Teacher and the Servant of all."
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "People:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Christ, hear us. Christ,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "graciously hear us."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "May the Lord keep us all in his charity and lead all of us,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "shepherds and flock,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "to eternal life."
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "All:"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Amen."
+                  }
+                ]
+              ],
+              "pt-BR": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Terminada a homilia, o Bispo dirige-se aos presbíteros usando estas palavras ou outras semelhantes:"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Filhos caríssimos,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "celebrando a cada ano o dia em que o Senhor Jesus comunicou o seu sacerdócio aos Apóstolos e a nós,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "quereis renovar as promessas que um dia fizestes perante o vosso Bispo e o povo santo de Deus?"
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Os presbíteros respondem juntos:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Quero."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Quereis unir-vos e conformar-vos mais estreitamente ao Senhor Jesus,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "renunciando a vós mesmos e confirmando os compromissos do sagrado ministério que, levados pelo amor do Cristo,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "alegremente assumistes com a Igreja,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "no dia da vossa ordenação presbiteral?"
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Os presbíteros:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Quero."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Quereis ser fiéis dispensadores dos mistérios de Deus pela celebração da Eucaristia e demais ações litúrgicas,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "cumprir com fidelidade a missão de ensinar e seguir o Cristo Cabeça e Pastor,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "não levados pela ambição de bens materiais,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "mas apenas pelo amor aos irmãos e irmãs?"
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Os presbíteros:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Quero."
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Em seguida, voltando-se para a assembleia, o Bispo prossegue:"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "E vós, caríssimos filhos e filhas,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "rezai pelos vossos presbíteros,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "para que o Senhor derrame copiosamente sobre eles os seus dons,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "e, como fiéis ministros do Cristo, Sumo Sacerdote,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "vos conduzam àquele que é a fonte da salvação."
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "A assembleia:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Cristo, ouvi-nos. Cristo,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "atendei-nos."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Orai também por mim,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "para que eu seja fiel à missão apostólica confiada à minha fraqueza e me torne entre vós imagem viva e cada dia mais perfeita do Cristo Sacerdote,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Bom Pastor, Mestre e Servo de todos."
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "A assembleia:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Cristo, ouvi-nos. Cristo,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "atendei-nos."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Deus nos guarde a todos em seu amor,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "e nos conduza, todos juntos, pastores e ovelhas,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "à vida eterna."
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Todos:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Amém."
+                  }
+                ]
+              ],
+              "it": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Terminata l'omelia, il vescovo, con queste o con altre simili parole, si rivolge ai presbiteri:"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Figli carissimi, nella memoria annuale del giorno in cui Cristo Signore comunicò agli apostoli e a noi il suo sacerdozio, volete rinnovare le promesse a suo tempo fatte davanti al vostro vescovo e al popolo santo di Dio?"
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Insieme, i presbiteri rispondono:"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Sì, lo voglio."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Volete unirvi e conformarvi intimamente al Signore Gesù, rinunciando a voi stessi e rinnovando i sacri impegni che, spinti dall'amore di Cristo, avete assunto con gioia verso la sua Chiesa nel giorno della vostra ordinazione sacerdotale?"
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "I presbiteri:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Sì, lo voglio."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Volete essere fedeli dispensatori dei misteri di Dio per mezzo della santa Eucaristia e delle altre azioni liturgiche, e adempiere fedelmente il ministero della parola di salvezza, sull'esempio di Cristo, capo e pastore, lasciandovi guidare non da interessi umani, ma dall'amore per i vostri fratelli?"
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "I presbiteri:"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Sì, lo voglio."
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Quindi, il vescovo prosegue, rivolgendosi al popolo:"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "E voi, figli carissimi, pregate per i vostri sacerdoti. Il Signore effonda su di loro l'abbondanza dei suoi doni perché siano fedeli ministri di Cristo, Sommo Sacerdote, e vi conducano a lui, unica fonte di salvezza."
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "★ Il diacono:"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Per tutti i nostri sacerdoti, preghiamo."
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Tutti:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Ascoltaci, Signore."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "E pregate anche per me, perché sia fedele al servizio apostolico, affidato alla mia umile persona, e tra voi io diventi ogni giorno di più immagine viva e autentica di Cristo sacerdote, buon pastore, maestro e servo di tutti."
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "★ Il diacono:"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Per il nostro vescovo"
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "N.,"
+                  },
+                  {
+                    "type": "text",
+                    "text": "preghiamo."
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Tutti:"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Ascoltaci, Signore."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Il Signore ci custodisca nel suo amore e conduca tutti noi, pastori e gregge,"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "alla vita eterna."
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Tutti:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Amen."
+                  }
+                ]
+              ],
+              "fr": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "À la fin de son homélie, l'évêque engage le dialogue avec les prêtres, en ces termes ou d'autres semblables :"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Fils très chers, en cet anniversaire du jour où le Christ fit participer ses Apôtres et chacun d'entre nous à son sacerdoce, voulez-vous, devant votre évêque et le peuple saint de Dieu, renouveler les engagements que vous avez pris autrefois ?"
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Les prêtres répondent ensemble :"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Oui, je le veux."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Voulez-vous vivre toujours plus unis au Seigneur Jésus et chercher à lui ressembler, en renonçant à vous-mêmes, en étant fidèles aux engagements attachés à la charge ministérielle que vous avez reçue avec joie, par amour du Christ et pour le service de son Église, au jour de votre ordination sacerdotale ?"
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Les prêtres :"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Oui, je le veux."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Voulez-vous être les fidèles intendants des mystères de Dieu par la sainte eucharistie et les autres célébrations liturgiques, et assurer fidèlement la charge sainte de l'enseignement, à la suite du Christ, notre Tête et notre Pasteur, avec désintéressement et souci des âmes ?"
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Les prêtres :"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Oui, je le veux."
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Ensuite, tourné vers le peuple, l'évêque poursuit :"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Et vous, frères et sœurs bien-aimés, priez pour vos prêtres : que le Seigneur répande sur eux ses dons en abondance, afin qu'ils soient les fidèles ministres du Christ, le Souverain Prêtre, et vous conduisent à lui, la source du salut."
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Le peuple :"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Ô Christ, écoute-nous ; ô Christ, exauce-nous."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Priez aussi pour moi, votre évêque : que je sois fidèle à la charge apostolique qui m'a été confiée, malgré ma faiblesse ; que je reflète parmi vous une image vivante et toujours plus parfaite du Christ Prêtre, Bon Pasteur, Maître et Serviteur de tous."
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Le peuple :"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Ô Christ, écoute-nous ; ô Christ, exauce-nous."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Que le Seigneur nous garde les uns et les autres dans son amour ; que lui-même nous conduise, pasteurs et brebis, jusqu'à la vie éternelle."
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Tous :"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Amen."
+                  }
+                ]
+              ],
+              "de": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Nach der Homilie wendet sich der Bischof mit etwa folgenden Worten an die teilnehmenden Priester:"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Liebe Brüder!"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Bei eurer Priesterweihe habt ihr vor eurem Bischof und dem ganzen Volk Gottes eure Bereitschaft erklärt, das priesterliche Amt mit all seinen Verpflichtungen auf euch zu nehmen. Heute, am Tag, da unser Herr Jesus Christus seine Aposteln und damit uns allen Anteil an seinem Priestertum gegeben hat, frage ich euch:"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Seid ihr bereit, das Priesteramt als getreue Mitarbeiter des Bischofs auszuüben und so unter der Führung des Heiligen Geistes die Herde Christi gewissenhaft zu leiten?"
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Die Priester antworten gemeinsam:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Ich bin bereit."
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Bischof:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Seid ihr bereit, gemäß der kirchlichen Überlieferung die Mysterien Christi in gläubiger Ehrfurcht zu feiern zum Lobe Gottes und zum Heil seines Volkes?"
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Priester:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Ich bin bereit."
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Bischof:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Seid ihr bereit, dem Wort Gottes im Bewusstsein eurer Verantwortung zu dienen, wenn ihr die Frohe Botschaft verkündet und den katholischen Glauben auslegt?"
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Priester:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Ich bin bereit."
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Bischof:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Seid ihr bereit, den Armen und Kranken beizustehen, Heimatlosen und Notleidenden zu helfen?"
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Priester:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Ich bin bereit."
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Bischof:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Seid ihr bereit, euch mit Christus, unserem Hohenpriester, täglich enger zu verbinden und mit ihm Opfergabe zur Ehre Gottes und zum Heil der Menschen zu werden?"
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Priester:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Mit Gottes Hilfe bin ich bereit."
+                  }
+                ],
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Der Bischof wendet sich an alle Gläubigen:"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Euch alle aber, die ihr hier anwesend seid, bitte ich, für mich und alle eure Priester zu Gott, dem allmächtigen Vater, zu beten, er möge das gute Werk, das er in uns begonnen hat, vollenden, und uns, die er zu Priestern erwählt hat, Gnade und Segen schenken."
+                  }
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "type": "block",
+          "body": {
+            "plain": {
+              "la": "15. Receptio sacrorum oleorum fieri potest in singulis parociis vel ante celebrationem Missæ vespertinæ in Cena Dómini, vel alio témpore, quod opportunius videbitur.",
+              "es": "15. La recepción de los santos óleos en cada parroquia puede hacerse antes de la celebración de la misa vespertina de la Cena del Señor o en otro momento oportuno.",
+              "en": "15. The reception of the Holy Oils may take place in individual parishes either before the celebration of the Evening Mass of the Lord's Supper or at another time that seems more appropriate.",
+              "pt-BR": "15. Os santos óleos podem ser recebidos em cada paróquia, ou antes da Missa vespertina da Ceia do Senhor, ou em outro momento mais oportuno.",
+              "it": "L'accoglienza degli oli santi nelle singole parrocchie può essere fatta durante la celebrazione della Messa vespertina «Cena del Signore», o in un altro momento, secondo l'opportunità. ★ Il presbitero o i ministri portano le ampolle degli oli benedetti durante la processione d'ingresso e, giunti all'altare, le depongono sulla mensa. Il presbitero che presiede, secondo l'opportunità, le incensa insieme all'altare stesso. Quindi, dopo il saluto, prima di introdurre la liturgia del giorno, dice alcune brevi parole sull'avvenuta benedizione degli oli e sul suo significato, e poi depone le ampolle nel luogo adatto loro riservato. La Messa prosegue come al solito.",
+              "fr": "15. La réception des saintes huiles peut se faire dans chaque paroisse avant la célébration de la messe du soir de la Cène du Seigneur, ou à un autre moment qui semblera plus opportun."
+            },
+            "lines": {
+              "la": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Receptio sacrorum oleorum fieri potest in singulis parociis vel ante celebrationem Missæ vespertinæ in Cena Dómini, vel alio témpore, quod opportunius videbitur."
+                  }
+                ]
+              ],
+              "es": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "La recepción de los santos óleos en cada parroquia puede hacerse antes de la celebración de la misa vespertina de la Cena del Señor o en otro momento oportuno."
+                  }
+                ]
+              ],
+              "en": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "15. The reception of the Holy Oils may take place in individual parishes either before the celebration of the Evening Mass of the Lord's Supper or at another time that seems more appropriate."
+                  }
+                ]
+              ],
+              "pt-BR": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Os santos óleos podem ser recebidos em cada paróquia, ou antes da Missa vespertina da Ceia do Senhor, ou em outro momento mais oportuno."
+                  }
+                ]
+              ],
+              "it": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "L'accoglienza degli oli santi nelle singole parrocchie può essere fatta durante la celebrazione della Messa vespertina «Cena del Signore», o in un altro momento, secondo l'opportunità. ★ Il presbitero o i ministri portano le ampolle degli oli benedetti durante la processione d'ingresso e, giunti all'altare, le depongono sulla mensa. Il presbitero che presiede, secondo l'opportunità, le incensa insieme all'altare stesso. Quindi, dopo il saluto, prima di introdurre la liturgia del giorno, dice alcune brevi parole sull'avvenuta benedizione degli oli e sul suo significato, e poi depone le ampolle nel luogo adatto loro riservato. La Messa prosegue come al solito."
+                  }
+                ]
+              ],
+              "fr": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "La réception des saintes huiles peut se faire dans chaque paroisse avant la célébration de la messe du soir de la Cène du Seigneur, ou à un autre moment qui semblera plus opportun."
+                  }
+                ]
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "preamble": {
+      "heading": {
+        "en": "Preamble",
+        "la": "Praenotanda",
+        "es": "Preámbulo",
+        "pt-BR": "Preâmbulo",
+        "it": "Preambolo",
+        "fr": "Préambule",
+        "de": "Vorbemerkung"
+      },
+      "content": [
+        {
+          "type": "block",
+          "body": {
+            "plain": {
+              "la": "Post lectionem Evangelii Episcopus homiliam habet, in qua, initium sumens e textu lectionum quæ in liturgia verbi lectæ sunt, pópulum atque suos presbyteros de sacerdotali unctione alloquitur hortans presbyteros ad fidelitatem in suo munere servandam, eosque invitans ad promissiones suas sacerdotales publice renovandas.",
+              "es": "8. Una vez proclamado el Evangelio, el obispo pronuncia la homilía, en la cual, a partir del texto de las lecturas de la liturgia de la Palabra, instruye al pueblo sobre la unción sacerdotal, exhorta a los presbíteros a conservar la fidelidad a su ministerio y les invita a renovar públicamente sus promesas sacerdotales.",
+              "en": "8. After the reading of the Gospel, the Bishop preaches the Homily in which, taking his starting point from the text of the readings proclaimed in the Liturgy of the Word, he speaks to the people and to his Priests about priestly anointing, urging the Priests to be faithful in their office and calling on them to renew publicly their priestly promises.",
+              "pt-BR": "Depois da leitura do Evangelho, o Bispo faz a homilia a partir dos textos proclamados na Liturgia da Palavra. Explica ao povo e aos presbíteros a unção sacerdotal, exortando os presbíteros a serem fiéis em sua missão e os convida a renovar publicamente suas promessas sacerdotais.",
+              "it": "Dopo la proclamazione del Vangelo, il vescovo tiene l'omelia, nella quale, partendo dal testo delle letture proclamate nella Liturgia della Parola, parla al popolo e ai suoi presbiteri dell'unzione sacerdotale, invitando i presbiteri a perseverare nella fedeltà al loro servizio e al rinnovo pubblico delle promesse sacerdotali.",
+              "fr": "Après la lecture de l'évangile, l'évêque fait une homélie, dans laquelle, partant du texte des lectures qui ont été proclamées dans la liturgie de la Parole, il parle au peuple et à ses prêtres de l'onction reçue lors de l'ordination sacerdotale ; il exhorte les prêtres à garder la fidélité dans leur fonction et les invite à renouveler publiquement leurs promesses sacerdotales."
+            },
+            "lines": {
+              "la": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Post lectionem Evangelii Episcopus homiliam habet, in qua, initium sumens e textu lectionum quæ in liturgia verbi lectæ sunt, pópulum atque suos presbyteros de sacerdotali unctione alloquitur hortans presbyteros ad fidelitatem in suo munere servandam, eosque invitans ad promissiones suas sacerdotales publice renovandas."
+                  }
+                ]
+              ],
+              "es": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "8. Una vez proclamado el Evangelio, el obispo pronuncia la homilía, en la cual, a partir del texto de las lecturas de la liturgia de la Palabra, instruye al pueblo sobre la unción sacerdotal, exhorta a los presbíteros a conservar la fidelidad a su ministerio y les invita a renovar públicamente sus promesas sacerdotales."
+                  }
+                ]
+              ],
+              "en": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "8. After the reading of the Gospel, the Bishop preaches the Homily in which, taking his starting point from the text of the readings proclaimed in the Liturgy of the Word, he speaks to the people and to his Priests about priestly anointing, urging the Priests to be faithful in their office and calling on them to renew publicly their priestly promises."
+                  }
+                ]
+              ],
+              "pt-BR": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Depois da leitura do Evangelho, o Bispo faz a homilia a partir dos textos proclamados na Liturgia da Palavra. Explica ao povo e aos presbíteros a unção sacerdotal, exortando os presbíteros a serem fiéis em sua missão e os convida a renovar publicamente suas promessas sacerdotais."
+                  }
+                ]
+              ],
+              "it": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Dopo la proclamazione del Vangelo, il vescovo tiene l'omelia, nella quale, partendo dal testo delle letture proclamate nella Liturgia della Parola, parla al popolo e ai suoi presbiteri dell'unzione sacerdotale, invitando i presbiteri a perseverare nella fedeltà al loro servizio e al rinnovo pubblico delle promesse sacerdotali."
+                  }
+                ]
+              ],
+              "fr": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "Après la lecture de l'évangile, l'évêque fait une homélie, dans laquelle, partant du texte des lectures qui ont été proclamées dans la liturgie de la Parole, il parle au peuple et à ses prêtres de l'onction reçue lors de l'ordination sacerdotale ; il exhorte les prêtres à garder la fidélité dans leur fonction et les invite à renouveler publiquement leurs promesses sacerdotales."
+                  }
+                ]
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "liturgicalColor": "white"
+}

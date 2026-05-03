@@ -1,0 +1,3453 @@
+{
+  "id": "tempore.easter.week-1.wednesday",
+  "group": "tempore",
+  "season": "easter",
+  "weekIndex": 1,
+  "weekday": "wednesday",
+  "title": {
+    "la": "FERIA IV INFRA OCTAVAM PASCHÆ",
+    "es": "MIÉRCOLES DE LA OCTAVA DE PASCUA",
+    "en": "Easter Season WEDNESDAY WITHIN THE OCTAVE OF EASTER",
+    "pt-BR": "QUARTA-FEIRA NA OITAVA DA PÁSCOA",
+    "it": "OTTAVA DI PASQUA Mercoledì fra l'ottava di Pasqua",
+    "fr": "MERCREDI DE LA 1e SEMAINE",
+    "de": "MITTWOCH der Osteroktav"
+  },
+  "entranceAntiphon": {
+    "body": {
+      "plain": {
+        "la": "Veníte, benedícti Patris mei, percípite regnum, quod vobis parátum est ab orígine mundi, allelúia.",
+        "es": "Venid vosotros, benditos de mi Padre; heredad el reino preparado para vosotros desde la creación del mundo. Aleluya.",
+        "en": "Come, you blessed of my Father; receive the kingdom prepared for you from the foundation of the world, alleluia.",
+        "pt-BR": "Vinde, benditos do meu Pai: tomai posse do reino preparado para vós desde a origem do mundo, aleluia.",
+        "it": "Venite, benedetti del Padre mio, ricevete in eredità il regno preparato per voi fin dalla creazione del mondo. Alleluia.",
+        "fr": "Venez les bénis de mon Père, recevez en héritage le Royaume préparé pour vous depuis la fondation du monde, alléluia.",
+        "de": "Kommt her, ihr, die ihr von meinem Vater gesegnet seid, nehmt das Reich in Besitz, das seit Anfang der Welt für euch bestimmt ist. Halleluja."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Veníte, benedícti Patris mei, percípite regnum,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "quod vobis parátum est ab orígine mundi, allelúia."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Venid vosotros, benditos de mi Padre; heredad el reino preparado para vosotros desde la creación del mundo. Aleluya."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "Come, you blessed of my Father;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "receive the kingdom prepared for you from the foundation of the world, alleluia."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Vinde, benditos do meu Pai:"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "tomai posse do reino preparado para vós desde a origem do mundo, aleluia."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "Venite, benedetti del Padre mio, ricevete in eredità il regno preparato per voi fin dalla creazione del mondo. Alleluia."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Venez les bénis de mon Père,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "recevez en héritage le Royaume préparé pour vous depuis la fondation du monde, alléluia."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Kommt her, ihr, die ihr von meinem Vater gesegnet seid, nehmt das Reich in Besitz, das seit Anfang der Welt für euch bestimmt ist. Halleluja."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "gloriaInstruction": {
+    "body": {
+      "plain": {
+        "la": "Dicitur Glória in excelsis",
+        "es": "Se dice Gloria",
+        "pt-BR": "Diz-se o Glória",
+        "it": "Si dice il Gloria",
+        "fr": "On récite le Gloria",
+        "de": "Gloria"
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "rubric",
+              "text": "Dicitur"
+            },
+            {
+              "type": "italic",
+              "text": "Glória in excelsis"
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "rubric",
+              "text": "Se dice"
+            },
+            {
+              "type": "italic",
+              "text": "Gloria"
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "rubric",
+              "text": "Diz-se o"
+            },
+            {
+              "type": "italic",
+              "text": "Glória"
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "rubric",
+              "text": "Si dice il"
+            },
+            {
+              "type": "italic",
+              "text": "Gloria"
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "rubric",
+              "text": "On récite le"
+            },
+            {
+              "type": "italic",
+              "text": "Gloria"
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "italic",
+              "text": "Gloria"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "collect": {
+    "body": {
+      "plain": {
+        "la": "Deus, qui nos resurrectiónis domínicæ ánnua sollemnitáte lætíficas, concede propítius, ut, per temporália festa quæ ágimus, perveníre ad gáudia ætérna mereámur. Per Dóminum.",
+        "es": "Oh, Dios, que todos los años nos alegras con la solemnidad de la resurrección del Señor, concédenos propicio llegar a la alegría eterna mediante las fiestas que celebramos en el tiempo. Por nuestro Señor Jesucristo.",
+        "en": "O God, who gladden us year by year with the solemnity of the Lord's Resurrection, graciously grant, that, by celebrating these present festivities, we may merit through them to reach eternal joys. Through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, one God, for ever and ever.",
+        "pt-BR": "Ó Deus, todos os anos nos alegrais com a solenidade da ressurreição do Senhor; concedei-nos em vossa bondade que, pelas festas que celebramos na terra, mereçamos chegar às alegrias eternas. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus, e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
+        "it": "O Dio, che ci dai la gioia di rivivere ogni anno la risurrezione del Signore, fa' che mediante la liturgia pasquale che celebriamo nel tempo possiamo giungere alla gioia eterna. Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli.",
+        "fr": "Seigneur Dieu, tu nous donnes chaque année la joie de fêter la résurrection du Seigneur ; à travers ces fêtes d'ici-bas, accorde-nous, dans ta bonté, de parvenir aux joies éternelles. Par Jésus Christ, ton Fils, notre Seigneur, qui vit et règne avec toi dans l'unité du Saint-Esprit, Dieu, pour les siècles des siècles.",
+        "de": "Gnädiger Gott, du schenkst deinem Volk jedes Jahr die österliche Freude durch das hohe Fest der Auferstehung Christi. Führe uns durch die Feier, die wir auf Erden begehen, zur unvergänglichen Freude im Himmel. Darum bitten wir durch Jesus Christus."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Deus, qui nos resurrectiónis domínicæ ánnua sollemnitáte lætíficas,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "concede propítius, ut, per temporália festa quæ ágimus,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "perveníre ad gáudia ætérna mereámur."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Per Dóminum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Oh, Dios,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "que todos los años nos alegras con la solemnidad de la resurrección del Señor,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "concédenos propicio llegar a la alegría eterna mediante las fiestas que celebramos en el tiempo."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por nuestro Señor Jesucristo."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "O God, who gladden us year by year with the solemnity of the Lord's Resurrection,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "graciously grant,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "that, by celebrating these present festivities,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "we may merit through them to reach eternal joys."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Through our Lord Jesus Christ, your Son,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "who lives and reigns with you in the unity of the Holy Spirit,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "one God, for ever and ever."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Ó Deus, todos os anos nos alegrais com a solenidade da ressurreição do Senhor;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "concedei-nos em vossa bondade que, pelas festas que celebramos na terra,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "mereçamos chegar às alegrias eternas."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "e convosco vive e reina, na unidade do Espírito Santo,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "por todos os séculos dos séculos."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "O Dio, che ci dai la gioia di rivivere ogni anno la risurrezione del Signore,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "fa' che mediante la liturgia pasquale che celebriamo nel tempo possiamo giungere alla gioia eterna. Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Seigneur Dieu,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "tu nous donnes chaque année la joie de fêter la résurrection du Seigneur ;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "à travers ces fêtes d'ici-bas,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "accorde-nous, dans ta bonté,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "de parvenir aux joies éternelles."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Par Jésus Christ, ton Fils, notre Seigneur,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "qui vit et règne avec toi dans l'unité du Saint-Esprit,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Dieu, pour les siècles des siècles."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Gnädiger Gott, du schenkst deinem Volk jedes Jahr die österliche Freude durch das hohe Fest der Auferstehung Christi. Führe uns durch die Feier, die wir auf Erden begehen, zur unvergänglichen Freude im Himmel. Darum bitten wir durch Jesus Christus."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "prayerOverOfferings": {
+    "body": {
+      "plain": {
+        "la": "Súscipe, quǽsumus, Dómine, hóstias redemptiónis humánæ, et salútem nobis mentis et córporis operáre placátus. Per Christum.",
+        "es": "Acepta, Señor, las ofrendas de la redención humana y concédenos, complacido, la salud del alma y del cuerpo. Por Jesucristo, nuestro Señor.",
+        "en": "Receive, we pray, O Lord, the sacrifice which has redeemed the human race, and be pleased to accomplish in us salvation of mind and body. Through Christ our Lord.",
+        "pt-BR": "Aceitai, Senhor, o sacrifício da redenção da humanidade e concedei benigno a salvação da alma e do corpo. Por Cristo, nosso Senhor.",
+        "it": "Accogli, o Signore, il sacrificio della nostra redenzione e nella tua misericordia opera in noi la salvezza del corpo e dello spirito. Per Cristo nostro Signore.",
+        "fr": "Accueille, nous t'en prions, Seigneur, le sacrifice qui rachète l'humanité, et dans ta bienveillance, réalise en nous le salut de l'esprit et du corps. Par le Christ, notre Seigneur.",
+        "de": "Barmherziger Gott, nimm die Opfergaben für das Heil der Menschen gnädig an und mache uns gesund an Leib und Seele. Darum bitten wir durch Christus, unseren Herrn."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Súscipe, quǽsumus, Dómine,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "hóstias redemptiónis humánæ,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "et salútem nobis mentis et córporis operáre placátus."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Per Christum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Acepta, Señor, las ofrendas de la redención humana y concédenos,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "complacido,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "la salud del alma y del cuerpo."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por Jesucristo, nuestro Señor."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "Receive, we pray, O Lord,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "the sacrifice which has redeemed the human race, and be pleased to accomplish in us salvation of mind and body."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Through Christ our Lord."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Aceitai, Senhor,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "o sacrifício da redenção da humanidade e concedei benigno a salvação da alma e do corpo."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por Cristo, nosso Senhor."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "Accogli, o Signore, il sacrificio della nostra redenzione e nella tua misericordia opera in noi la salvezza del corpo e dello spirito. Per Cristo nostro Signore."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Accueille, nous t'en prions, Seigneur,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "le sacrifice qui rachète l'humanité,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "et dans ta bienveillance,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "réalise en nous le salut de l'esprit et du corps."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Par le Christ, notre Seigneur."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Barmherziger Gott, nimm die Opfergaben für das Heil der Menschen gnädig an und mache uns gesund an Leib und Seele. Darum bitten wir durch Christus, unseren Herrn."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "preface": {
+    "body": {
+      "plain": {
+        "la": "Præfatio paschalis I ( in hac potíssimum die ). Quando adhibetur Canon romanus, dicuntur Communicántes et Hanc ígitur propria.",
+        "es": "Prefacio Pascual I : en este día Cuando se utiliza el Canon romano, se dice Reunidos en comunión y Acepta Señor en tu bondad propios.",
+        "en": "Preface of Easter I (on this Easter Day). When the Roman Canon is used, the proper forms of the Communicantes (In communion with those) and Hanc igitur (Therefore, Lord, we pray) are said.",
+        "pt-BR": "Prefácio da Páscoa I (neste dia). Quando se usa o Cânon Romano, dizem-se o Em comunhão e Aceitai, ó Pai próprios.",
+        "it": "Prefazio pasquale I (in questo giorno). Nel Canone Romano si dicono il Communicántes e l' Hanc ígitur propri. ★ Nelle Preghiere Eucaristiche II e III si fa il ricordo proprio della Pasqua e dei neo-battezzati.",
+        "fr": "Préface de pâques I ( en ces jours )."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "rubric",
+              "text": "Præfatio paschalis I ( in hac potíssimum die ). Quando adhibetur Canon romanus, dicuntur"
+            },
+            {
+              "type": "text",
+              "text": "Communicántes"
+            },
+            {
+              "type": "rubric",
+              "text": "et"
+            },
+            {
+              "type": "text",
+              "text": "Hanc ígitur"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "propria."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "rubric",
+              "text": "Prefacio Pascual I :"
+            },
+            {
+              "type": "text",
+              "text": "en este día"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "Cuando se utiliza el Canon romano, se dice"
+            },
+            {
+              "type": "text",
+              "text": "Reunidos en comunión"
+            },
+            {
+              "type": "rubric",
+              "text": "y"
+            },
+            {
+              "type": "text",
+              "text": "Acepta Señor en tu bondad propios."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "rubric",
+              "text": "Preface of Easter I (on this Easter Day). When the Roman Canon is used, the proper forms of the Communicantes (In communion with those) and Hanc igitur (Therefore, Lord, we pray) are said."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "rubric",
+              "text": "Prefácio da Páscoa I (neste dia). Quando se usa o Cânon Romano, dizem-se o"
+            },
+            {
+              "type": "text",
+              "text": "Em comunhão"
+            },
+            {
+              "type": "rubric",
+              "text": "e"
+            },
+            {
+              "type": "text",
+              "text": "Aceitai, ó Pai"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "próprios."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "rubric",
+              "text": "Prefazio pasquale I (in questo giorno). Nel Canone Romano si dicono il"
+            },
+            {
+              "type": "text",
+              "text": "Communicántes"
+            },
+            {
+              "type": "rubric",
+              "text": "e l'"
+            },
+            {
+              "type": "text",
+              "text": "Hanc ígitur"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "propri. ★ Nelle Preghiere Eucaristiche II e III si fa il ricordo proprio della Pasqua e dei neo-battezzati."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "rubric",
+              "text": "Préface de pâques I ( en ces jours )."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "communionAntiphon": {
+    "body": {
+      "plain": {
+        "la": "Cognovérunt discípuli Dóminum Iesum in fractióne panis, allelúia.",
+        "pt-BR": "Os discípulos reconheceram o Senhor Jesus na fração do pão, aleluia.",
+        "it": "I discepoli riconobbero Gesù, il Signore, nello spezzare il pane. Alleluia."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Cognovérunt discípuli Dóminum Iesum in fractióne panis, allelúia."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Os discípulos reconheceram o Senhor Jesus na fração do pão, aleluia."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "I discepoli riconobbero Gesù, il Signore, nello spezzare il pane. Alleluia."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "postcommunion": {
+    "body": {
+      "plain": {
+        "la": "Ab omni nos, quǽsumus, Dómine, vetustáte purgátos, sacraménti Fílii tui veneránda percéptio in novam tránsferat creatúram. Per Christum.",
+        "es": "Liberados de la vieja condición de pecado, te pedimos, Señor, que la devota participación en el sacramento de tu Hijo nos transforme en nuevas criaturas. Por Jesucristo, nuestro Señor.",
+        "en": "We pray, O Lord, that the reverent reception of the Sacrament of your Son may cleanse us from our old ways and transform us into a new creation. Through Christ our Lord.",
+        "pt-BR": "Purificados de toda antiga culpa, nós vos pedimos, Senhor, que a sagrada comunhão no sacramento do vosso Filho nos transforme em nova criatura. Por Cristo, nosso Senhor.",
+        "it": "O Dio, nostro Padre, questa partecipazione al mistero pasquale del tuo Figlio ci liberi dai fermenti dell'antico peccato e ci trasformi in nuove creature. Per Cristo nostro Signore.",
+        "fr": "Après avoir été purifiés de tout ce qui reste en nous de l'homme ancien, nous te prions, Seigneur : que le sacrement de ton Fils, reçu avec ferveur, nous fasse entrer dans la création nouvelle. Par le Christ, notre Seigneur.",
+        "de": "Allmächtiger Gott, das Sakrament, das wir empfangen haben, tilge unsere alte Schuld und mache uns zu einer neuen Schöpfung. Darum bitten wir durch Christus, unseren Herrn."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Ab omni nos, quǽsumus, Dómine, vetustáte purgátos,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "sacraménti Fílii tui veneránda percéptio in novam tránsferat creatúram."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Per Christum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Liberados de la vieja condición de pecado,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "te pedimos, Señor,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "que la devota participación en el sacramento de tu Hijo nos transforme en nuevas criaturas."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por Jesucristo, nuestro Señor."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "We pray, O Lord,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "that the reverent reception of the Sacrament of your Son may cleanse us from our old ways and transform us into a new creation."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Through Christ our Lord."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Purificados de toda antiga culpa,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "nós vos pedimos, Senhor,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "que a sagrada comunhão no sacramento do vosso Filho nos transforme em nova criatura."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por Cristo, nosso Senhor."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "O Dio, nostro Padre, questa partecipazione al mistero pasquale del tuo Figlio ci liberi dai fermenti dell'antico peccato e ci trasformi in nuove creature."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Per Cristo nostro Signore."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Après avoir été purifiés de tout ce qui reste en nous de l'homme ancien,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "nous te prions, Seigneur :"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "que le sacrement de ton Fils, reçu avec ferveur,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "nous fasse entrer dans la création nouvelle."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Par le Christ, notre Seigneur."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Allmächtiger Gott, das Sakrament, das wir empfangen haben, tilge unsere alte Schuld und mache uns zu einer neuen Schöpfung. Darum bitten wir durch Christus, unseren Herrn."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "readings": {
+    "default": {
+      "firstReading": {
+        "label": {
+          "la": "Lectio prior",
+          "es": "Primera Lectura",
+          "en": "First Reading",
+          "pt-BR": "Primeira Leitura",
+          "it": "Prima lettura",
+          "fr": "Première lecture",
+          "de": "Erste Lesung"
+        },
+        "summary": {
+          "la": "Quod habeo, hoc tibi do: In nomine Iesu surge et ambula!",
+          "es": "Te doy lo que tengo: en nombre de Jesús, levántate y anda",
+          "pt-BR": "O que tenho eu te dou: em nome de Jesus, levanta-te e anda!",
+          "it": "Quello che ho te lo dò: nel nome di Gesù, cammina!"
+        },
+        "introduction": {
+          "la": "Léctio Actuum Apostolórum",
+          "es": "Lectura del libro de los Hechos de los apóstoles",
+          "en": "A reading from the Acts of the Apostles",
+          "pt-BR": "Leitura dos Atos dos Apóstolos",
+          "it": "Dagli Atti degli Apostoli",
+          "fr": "Livre des Actes des Apôtres",
+          "de": "Lesung aus der Apostelgeschichte"
+        },
+        "body": {
+          "plain": {
+            "la": "In diébus illis:\n\nPetrus et Ioánnes ascendébant in templum ad horam oratiónis nonam. Et quidam vir, qui erat claudus ex útero matris suæ, baiulabátur; quem ponébant cotídie ad portam templi, quæ dícitur Speciósa, ut péteret eleemósynam ab introeúntibus in templum; is cum vidísset Petrum et Ioánnem incipiéntes introíre in templum, rogábat, ut eleemósynam accíperet. Intuens autem in eum Petrus cum Ioánne dixit: «Réspice in nos». At ille intendébat in eos, sperans se áliquid acceptúrum ab eis. Petrus autem dixit: «Argéntum et aurum non est mihi; quod autem hábeo, hoc tibi do: In nómine Iesu Christi Nazaréni surge et ámbula!». Et apprehénsa ei manu déxtera, allevávit eum; et prótinus consolidátæ sunt bases eius et tali, et exsíliens stetit et ambulábat; et intrávit cum illis in templum, ámbulans et exsíliens et laudans Deum. Et vidit omnis pópulus eum ambulántem et laudántem Deum; cognoscébant autem illum quóniam ipse erat, qui ad eleemósynam sedébat ad Speciósam portam templi, et impléti sunt stupóre et éxstasi in eo, quod contígerat illi.",
+            "es": "En aquellos días, Pedro y Juan subían al templo, a la oración de la hora de nona, cuando vieron traer a cuestas a un lisiado de nacimiento. Solían colocarlo todos los días en la puerta del templo llamada «Hermosa», para que pidiera limosna a los que entraban. Al ver entrar en el templo a Pedro y a Juan, les pidió limosna. Pedro, con Juan a su lado, se quedó mirándolo y le dijo: «Míranos». Clavó los ojos en ellos, esperando que le darían algo. Pero Pedro le dijo: «No tengo plata ni oro, pero te doy lo que tengo: en nombre de Jesucristo Nazareno, levántate y anda». Y agarrándolo de la mano derecha lo incorporó. Al instante se le fortalecieron los pies y los tobillos, se puso en pie de un salto, echó a andar y entró con ellos en el templo por su pie, dando brincos y alabando a Dios. Todo el pueblo lo vio andando y alabando a Dios, y, al caer en la cuenta de que era el mismo que pedía limosna sentado en la puerta Hermosa del templo, quedaron estupefactos y desconcertados ante lo que le había sucedido.",
+            "en": "Once, when Peter and John were going up to the Temple for the prayers at the ninth hour, it happened that there was a man being carried past. He was a cripple from birth; and they used to put him down every day near the Temple entrance called the Beautiful Gate so that he could beg from the people going in. When this man saw Peter and John on their way into the Temple he begged from them. Both Peter and John looked straight at him and said, 'Look at us'. He turned to them expectantly, hoping to get something from them, but Peter said, 'I have neither silver nor gold, but I will give you what I have: in the name of Jesus Christ the Nazarene, walk!' Peter then took him by the hand and helped him to stand up. Instantly his feet and ankles became firm, he jumped up, stood, and began to walk, and he went with them into the Temple, walking and jumping and praising God. Everyone could see him walking and praising God, and they recognised him as the man who used to sit begging at the Beautiful Gate of the Temple. They were all astonished and unable to explain what had happened to him.",
+            "pt-BR": "Naqueles dias: Pedro e João subiram ao Templo para a oração das três horas da tarde. Então trouxeram um homem, coxo de nascença, que costumavam colocar todos os dias na porta do Templo, chamada Formosa, a fim de que pedisse esmolas aos que entravam. Quando viu Pedro e João entrando no Templo, o homem pediu uma esmola. Os dois olharam bem para ele e Pedro disse: \"Olha para nós!\" O homem fitou neles o olhar, esperando receber alguma coisa. Pedro então lhe disse: \"Não tenho ouro nem prata, mas o que tenho eu te dou: em nome de Jesus Cristo, o Nazareno, levanta-te e anda!\" E pegando-lhe a mão direita, Pedro o levantou. Na mesma hora, os pés e os tornozelos do homem ficaram firmes. Então ele deu um pulo, ficou de pé e começou a andar. E entrou no Templo junto com Pedro e João, andando, pulando e louvando a Deus. O povo todo viu o homem andando e louvando a Deus. E reconheceram que era ele o mesmo que pedia esmolas, sentado na porta Formosa do Templo. E ficaram admirados e espantados com o que havia acontecido com ele.",
+            "it": "In quei giorni, Pietro e Giovanni salivano al tempio per la preghiera delle tre del pomeriggio. Qui di solito veniva portato un uomo, storpio fin dalla nascita; lo ponevano ogni giorno presso la porta del tempio detta Bella, per chiedere l'elemosina a coloro che entravano nel tempio. Costui, vedendo Pietro e Giovanni che stavano per entrare nel tempio, li pregava per avere un'elemosina. Allora, fissando lo sguardo su di lui, Pietro insieme a Giovanni disse: «Guarda verso di noi». Ed egli si volse a guardarli, sperando di ricevere da loro qualche cosa. Pietro gli disse: «Non possiedo né argento né oro, ma quello che ho te lo do: nel nome di Gesù Cristo, il Nazareno, alzati e cammina!». Lo prese per la mano destra e lo sollevò. Di colpo i suoi piedi e le caviglie si rinvigorirono e, balzato in piedi, si mise a camminare; ed entrò con loro nel tempio camminando, saltando e lodando Dio. Tutto il popolo lo vide camminare e lodare Dio e riconoscevano che era colui che sedeva a chiedere l'elemosina alla porta Bella del tempio, e furono ricolmi di meraviglia e stupore per quello che gli era accaduto.",
+            "fr": "En ces jours-là,\n\nPierre et Jean montaient au Temple pour la prière de l'après-midi, à la neuvième heure. On y amenait alors un homme, infirme de naissance, que l'on installait chaque jour à la porte du Temple, appelée la « Belle-Porte », pour qu'il demande l'aumône à ceux qui entraient. Voyant Pierre et Jean qui allaient entrer dans le Temple, il leur demanda l'aumône. Alors Pierre, ainsi que Jean, fixa les yeux sur lui, et il dit : « Regarde-nous ! » L'homme les observait, s'attendant à recevoir quelque chose de leur part. Pierre déclara : « De l'argent et de l'or, je n'en ai pas ; mais ce que j'ai, je te le donne : au nom de Jésus Christ le Nazaréen, lève-toi et marche. » Alors, le prenant par la main droite, il le releva et, à l'instant même, ses pieds et ses chevilles s'affermirent. D'un bond, il fut debout et il marchait. Entrant avec eux dans le Temple, il marchait, bondissait, et louait Dieu. Et tout le peuple le vit marcher et louer Dieu. On le reconnaissait : c'est bien lui qui était assis à la « Belle-Porte » du Temple pour demander l'aumône. Et les gens étaient frappés de stupeur et désorientés devant ce qui lui était arrivé.",
+            "de": "In jenen Tagen gingen Petrus und Johannes um die neunte Stunde zum Gebet in den Tempel hinauf. Da wurde ein Mann herbeigetragen, der von Geburt an gelähmt war. Man setzte ihn täglich an das Tor des Tempels, das man die Schöne Pforte nennt; dort sollte er bei denen, die in den Tempel gingen, um Almosen betteln. Als er nun Petrus und Johannes in den Tempel gehen sah, bat er sie um ein Almosen. Petrus und Johannes blickten ihn an, und Petrus sagte: Sieh uns an! Da wandte er sich ihnen zu und erwartete, etwas von ihnen zu bekommen. Petrus aber sagte: Silber und Gold besitze ich nicht. Doch was ich habe, das gebe ich dir: Im Namen Jesu Christi, des Nazoräers, geh umher! Und er fasste ihn an der rechten Hand und richtete ihn auf. Sogleich kam Kraft in seine Füße und Gelenke; er sprang auf, konnte stehen und ging umher. Dann ging er mit ihnen in den Tempel, lief und sprang umher und lobte Gott. Alle Leute sahen ihn umhergehen und Gott loben. Sie erkannten ihn als den, der gewöhnlich an der Schönen Pforte des Tempels saß und bettelte. Und sie waren voll Verwunderung und Staunen über das, was mit ihm geschehen war."
+          }
+        },
+        "conclusion": {
+          "la": "Verbum Dómini.",
+          "es": "Palabra de Dios.",
+          "en": "The Word of the Lord.",
+          "pt-BR": "Palavra do Senhor.",
+          "it": "Parola di Dio.",
+          "fr": "Parole du Seigneur.",
+          "de": "Wort des lebendigen Gottes."
+        },
+        "citation": {
+          "la": "Act 3, 1-10",
+          "es": "Hch 3, 1-10",
+          "en": "Acts 3:1–10",
+          "pt-BR": "At 3, 1-10",
+          "it": "At 3,1-10",
+          "fr": "Ac 3, 1-10",
+          "de": "Apg 3, 1-10"
+        },
+        "response": {
+          "body": {
+            "plain": {
+              "la": "R/. Deo gratias.",
+              "es": "R/. Te alabamos, Señor.",
+              "en": "R/. Thanks be to God.",
+              "pt-BR": "R/. Graças a Deus.",
+              "it": "R/. Rendiamo grazie a Dio.",
+              "fr": "R/. Nous rendons grâce à Dieu.",
+              "de": "A: Dank sei Gott."
+            },
+            "lines": {
+              "la": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Deo gratias."
+                  }
+                ]
+              ],
+              "es": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Te alabamos, Señor."
+                  }
+                ]
+              ],
+              "en": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Thanks be to God."
+                  }
+                ]
+              ],
+              "pt-BR": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Graças a Deus."
+                  }
+                ]
+              ],
+              "it": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Rendiamo grazie a Dio."
+                  }
+                ]
+              ],
+              "fr": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Nous rendons grâce à Dieu."
+                  }
+                ]
+              ],
+              "de": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "A:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Dank sei Gott."
+                  }
+                ]
+              ]
+            }
+          }
+        }
+      },
+      "responsorialPsalm": {
+        "body": {
+          "plain": {
+            "la": "R/. Laetétur cor quaeréntium Dóminum. vel Allelúia. Confitémini Dómino et invocáte nomen eius, annuntiáte inter gentes ópera eius. Cantáte ei et psállite ei, meditámini in ómnibus mirabílibus eius. R/. Laetétur cor quaeréntium Dóminum. vel Allelúia. Laudámini in nómine sancto eius, lætétur cor quæréntium Dóminum. Quǽrite Dóminum et poténtiam eius, quǽrite fáciem eius semper. R/. Laetétur cor quaeréntium Dóminum. vel Allelúia. Semen Abraham, servi eius, fílii Iacob, elécti eius. Ipse Dóminus Deus noster; in univérsa terra iudícia eius. R/. Laetétur cor quaeréntium Dóminum. vel Allelúia. Memor fuit in sǽculum testaménti sui, verbi quod mandávit in mille generatiónes, quod dispósuit cum Abraham, et iuraménti sui ad Isaac. R/. Laetétur cor quaeréntium Dóminum. vel Allelúia.",
+            "es": "R/. Que se alegren los que buscan al Señor. o bien: Aleluya. Dad gracias al Señor, invocad su nombre, dad a conocer sus hazañas a los pueblos. Cantadle al son de instrumentos, hablad de sus maravillas. R/. Que se alegren los que buscan al Señor. o bien: Aleluya. Gloriaos de su nombre santo, que se alegren los que buscan al Señor. Recurrid al Señor y a su poder, buscad continuamente su rostro. R/. Que se alegren los que buscan al Señor. o bien: Aleluya. ¡Estirpe de Abrahán, su siervo; hijos de Jacob, su elegido! El Señor es nuestro Dios, él gobierna toda la tierra. R/. Que se alegren los que buscan al Señor. o bien: Aleluya. Se acuerda de su alianza eternamente, de la palabra dada, por mil generaciones; de la alianza sellada con Abrahán, del juramento hecho a Isaac. R/. Que se alegren los que buscan al Señor. o bien: Aleluya.",
+            "en": "R/. Rejoice, O hearts that seek the Lord. Or: Alleluia. Give thanks to the Lord, tell his name, make known his deeds among the peoples. O sing to him, sing his praise; tell all his wonderful works! R/. Rejoice, O hearts that seek the Lord. Or: Alleluia. Be proud of his holy name, let the hearts that seek the Lord rejoice. Consider the Lord and his strength; constantly seek his face. R/. Rejoice, O hearts that seek the Lord. Or: Alleluia. O children of Abraham, his servant, O sons of the Jacob he chose. He, the Lord, is our God: his judgments prevail in all the earth. R/. Rejoice, O hearts that seek the Lord. Or: Alleluia. He remembers his covenant for ever, his promise for a thousand generations, the covenant he made with Abraham, the oath he swore to Isaac R/. Rejoice, O hearts that seek the Lord. Or: Alleluia.",
+            "pt-BR": "R/. Exulte o coração dos que buscam o Senhor. Ou: Aleluia. Dai graças ao Senhor, gritai seu nome, anunciai entre as nações seus grandes feitos! Cantai, entoai salmos para ele, publicai todas as suas maravilhas!. R/. Exulte o coração dos que buscam o Senhor. Ou: Aleluia. Gloriai-vos em seu nome que é santo, exulte o coração que busca a Deus! Procurai o Senhor Deus e seu poder, buscai constantemente a sua face!. R/. Exulte o coração dos que buscam o Senhor. Ou: Aleluia. Descendentes de Abraão, seu servidor, e filhos de Jacó, seu escolhido, ele mesmo, o Senhor, é nosso Deus, vigoram suas leis em toda a terra. R/. Exulte o coração dos que buscam o Senhor. Ou: Aleluia. Ele sempre se recorda da Aliança, promulgada a incontáveis gerações; da Aliança que ele fez com Abraão, e do seu santo juramento a Isaac. R/. Exulte o coração dos que buscam o Senhor. Ou: Aleluia.",
+            "it": "R/. Gioisca il cuore di chi cerca il Signore. Oppure: Alleluia. Rendete grazie al Signore e invocate il suo nome, proclamate fra i popoli le sue opere. A lui cantate, a lui inneggiate, meditate tutte le sue meraviglie. R/. Gioisca il cuore di chi cerca il Signore. Oppure: Alleluia. Gloriatevi del suo santo nome: gioisca il cuore di chi cerca il Signore. Cercate il Signore e la sua potenza, ricercate sempre il suo volto. R/. Gioisca il cuore di chi cerca il Signore. Oppure: Alleluia. Voi, stirpe di Abramo, suo servo, figli di Giacobbe, suo eletto. È lui il Signore, nostro Dio; su tutta la terra i suoi giudizi. R/. Gioisca il cuore di chi cerca il Signore. Oppure: Alleluia. Si è sempre ricordato della sua alleanza, parola data per mille generazioni, dell'alleanza stabilita con Abramo e del suo giuramento a Isacco. R/. Gioisca il cuore di chi cerca il Signore. Oppure: Alleluia.",
+            "fr": "R/. Joie pour les cœurs qui cherchent Dieu ! ou Alléluia ! Rendez grâce au Seigneur, proclamez son nom, annoncez parmi les peuples ses hauts faits ; chantez et jouez pour lui, redites sans fin ses merveilles. R/. Joie pour les cœurs qui cherchent Dieu ! ou Alléluia ! Glorifiez-vous de son nom très saint : joie pour les cœurs qui cherchent Dieu ! Cherchez le Seigneur et sa puissance, recherchez sans trêve sa face. R/. Joie pour les cœurs qui cherchent Dieu ! ou Alléluia ! Vous, la race d'Abraham son serviteur, les fils de Jacob, qu'il a choisis. Le Seigneur, c'est lui notre Dieu : ses jugements font loi pour l'univers. R/. Joie pour les cœurs qui cherchent Dieu ! ou Alléluia ! Il s'est toujours souvenu de son alliance, parole édictée pour mille générations : promesse faite à Abraham, garantie par serment à Isaac. R/. Joie pour les cœurs qui cherchent Dieu ! ou Alléluia !",
+            "de": "R/. Die den Herrn suchen, sollen sich von Herzen freuen. Oder: Halleluja. Dankt dem Herrn! Ruft seinen Namen an! Macht unter den Völkern seine Taten bekannt! Singt ihm und spielt ihm, sinnt nach über all seine Wunder! R/. Die den Herrn suchen, sollen sich von Herzen freuen. Oder: Halleluja. Rühmt euch seines heiligen Namens! Alle, die den Herrn suchen, sollen sich von Herzen freuen! Fragt nach dem Herrn und seiner Macht; sucht sein Antlitz allezeit! R/. Die den Herrn suchen, sollen sich von Herzen freuen. Oder: Halleluja. Bedenkt es, ihr Nachkommen seines Knechtes Abraham, ihr Kinder Jakobs, die er erwählt hat. Er, der Herr, ist unser Gott. Seine Herrschaft umgreift die Erde. R/. Die den Herrn suchen, sollen sich von Herzen freuen. Oder: Halleluja. Ewig denkt er an seinen Bund, an das Wort, das er gegeben hat für tausend Geschlechter, an den Bund, den er mit Abraham geschlossen, an den Eid, den er Isaak geschworen hat. R/. Die den Herrn suchen, sollen sich von Herzen freuen. Oder: Halleluja."
+          },
+          "lines": {
+            "la": [
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Laetétur cor quaeréntium Dóminum."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "vel"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Allelúia."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Confitémini Dómino et invocáte nomen eius,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "annuntiáte inter gentes ópera eius."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Cantáte ei et psállite ei,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "meditámini in ómnibus mirabílibus eius."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Laetétur cor quaeréntium Dóminum."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "vel"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Allelúia."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Laudámini in nómine sancto eius,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "lætétur cor quæréntium Dóminum."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Quǽrite Dóminum et poténtiam eius,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "quǽrite fáciem eius semper."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Laetétur cor quaeréntium Dóminum."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "vel"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Allelúia."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Semen Abraham, servi eius,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "fílii Iacob, elécti eius."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Ipse Dóminus Deus noster;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "in univérsa terra iudícia eius."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Laetétur cor quaeréntium Dóminum."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "vel"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Allelúia."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Memor fuit in sǽculum testaménti sui,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "verbi quod mandávit in mille generatiónes,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "quod dispósuit cum Abraham,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "et iuraménti sui ad Isaac."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Laetétur cor quaeréntium Dóminum."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "vel"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Allelúia."
+                }
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Que se alegren los que buscan al Señor."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "o bien:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Aleluya."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Dad gracias al Señor, invocad su nombre,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "dad a conocer sus hazañas a los pueblos."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Cantadle al son de instrumentos,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "hablad de sus maravillas."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Que se alegren los que buscan al Señor."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "o bien:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Aleluya."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Gloriaos de su nombre santo,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "que se alegren los que buscan al Señor."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Recurrid al Señor y a su poder,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "buscad continuamente su rostro."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Que se alegren los que buscan al Señor."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "o bien:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Aleluya."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "¡Estirpe de Abrahán, su siervo;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "hijos de Jacob, su elegido!"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "El Señor es nuestro Dios,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "él gobierna toda la tierra."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Que se alegren los que buscan al Señor."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "o bien:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Aleluya."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Se acuerda de su alianza eternamente,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "de la palabra dada, por mil generaciones;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "de la alianza sellada con Abrahán,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "del juramento hecho a Isaac."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Que se alegren los que buscan al Señor."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "o bien:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Aleluya."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Rejoice, O hearts that seek the Lord."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "Or:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Alleluia."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Give thanks to the Lord, tell his name,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "make known his deeds among the peoples."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "O sing to him, sing his praise;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "tell all his wonderful works!"
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Rejoice, O hearts that seek the Lord."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "Or:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Alleluia."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Be proud of his holy name,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "let the hearts that seek the Lord rejoice."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Consider the Lord and his strength;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "constantly seek his face."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Rejoice, O hearts that seek the Lord."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "Or:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Alleluia."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "O children of Abraham, his servant,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "O sons of the Jacob he chose."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "He,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "the Lord, is our God: his judgments prevail in all the earth."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Rejoice, O hearts that seek the Lord."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "Or:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Alleluia."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "He remembers his covenant for ever,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "his promise for a thousand generations,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "the covenant he made with Abraham,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "the oath he swore to Isaac"
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Rejoice, O hearts that seek the Lord."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "Or:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Alleluia."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Exulte o coração dos que buscam o Senhor."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "Ou:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Aleluia."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Dai graças ao Senhor, gritai seu nome,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "anunciai entre as nações seus grandes feitos!"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Cantai, entoai salmos para ele,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "publicai todas as suas maravilhas!."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Exulte o coração dos que buscam o Senhor."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "Ou:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Aleluia."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Gloriai-vos em seu nome que é santo,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "exulte o coração que busca a Deus!"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Procurai o Senhor Deus e seu poder,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "buscai constantemente a sua face!."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Exulte o coração dos que buscam o Senhor."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "Ou:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Aleluia."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Descendentes de Abraão, seu servidor,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "e filhos de Jacó, seu escolhido,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "ele mesmo, o Senhor, é nosso Deus,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "vigoram suas leis em toda a terra."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Exulte o coração dos que buscam o Senhor."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "Ou:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Aleluia."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Ele sempre se recorda da Aliança,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "promulgada a incontáveis gerações;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "da Aliança que ele fez com Abraão,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "e do seu santo juramento a Isaac."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Exulte o coração dos que buscam o Senhor."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "Ou:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Aleluia."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Gioisca il cuore di chi cerca il Signore."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "Oppure:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Alleluia."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Rendete grazie al Signore e invocate il suo nome,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "proclamate fra i popoli le sue opere."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "A lui cantate, a lui inneggiate,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "meditate tutte le sue meraviglie."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Gioisca il cuore di chi cerca il Signore."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "Oppure:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Alleluia."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Gloriatevi del suo santo nome:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "gioisca il cuore di chi cerca il Signore."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Cercate il Signore e la sua potenza,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "ricercate sempre il suo volto."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Gioisca il cuore di chi cerca il Signore."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "Oppure:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Alleluia."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Voi, stirpe di Abramo, suo servo,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "figli di Giacobbe, suo eletto."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "È lui il Signore, nostro Dio;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "su tutta la terra i suoi giudizi."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Gioisca il cuore di chi cerca il Signore."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "Oppure:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Alleluia."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Si è sempre ricordato della sua alleanza,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "parola data per mille generazioni,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "dell'alleanza stabilita con Abramo e del suo giuramento a Isacco."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Gioisca il cuore di chi cerca il Signore."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "Oppure:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Alleluia."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Joie pour les cœurs qui cherchent Dieu !"
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "ou"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Alléluia !"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Rendez grâce au Seigneur, proclamez son nom,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "annoncez parmi les peuples ses hauts faits ;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "chantez et jouez pour lui,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "redites sans fin ses merveilles."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Joie pour les cœurs qui cherchent Dieu !"
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "ou"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Alléluia !"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Glorifiez-vous de son nom très saint :"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "joie pour les cœurs qui cherchent Dieu !"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Cherchez le Seigneur et sa puissance,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "recherchez sans trêve sa face."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Joie pour les cœurs qui cherchent Dieu !"
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "ou"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Alléluia !"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Vous, la race d'Abraham son serviteur,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "les fils de Jacob, qu'il a choisis."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Le Seigneur, c'est lui notre Dieu :"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "ses jugements font loi pour l'univers."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Joie pour les cœurs qui cherchent Dieu !"
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "ou"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Alléluia !"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Il s'est toujours souvenu de son alliance,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "parole édictée pour mille générations :"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "promesse faite à Abraham,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "garantie par serment à Isaac."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Joie pour les cœurs qui cherchent Dieu !"
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "ou"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Alléluia !"
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Die den Herrn suchen, sollen sich von Herzen freuen."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "Oder:"
+                },
+                {
+                  "type": "response",
+                  "text": "Halleluja."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Dankt dem Herrn! Ruft seinen Namen an!"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Macht unter den Völkern seine Taten bekannt!"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Singt ihm und spielt ihm,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "sinnt nach über all seine Wunder!"
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Die den Herrn suchen, sollen sich von Herzen freuen."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "Oder:"
+                },
+                {
+                  "type": "response",
+                  "text": "Halleluja."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Rühmt euch seines heiligen Namens!"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Alle, die den Herrn suchen, sollen sich von Herzen freuen!"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Fragt nach dem Herrn und seiner Macht;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "sucht sein Antlitz allezeit!"
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Die den Herrn suchen, sollen sich von Herzen freuen."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "Oder:"
+                },
+                {
+                  "type": "response",
+                  "text": "Halleluja."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Bedenkt es, ihr Nachkommen seines Knechtes Abraham,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "ihr Kinder Jakobs,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "die er erwählt hat."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Er, der Herr, ist unser Gott."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Seine Herrschaft umgreift die Erde."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Die den Herrn suchen, sollen sich von Herzen freuen."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "Oder:"
+                },
+                {
+                  "type": "response",
+                  "text": "Halleluja."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Ewig denkt er an seinen Bund,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "an das Wort, das er gegeben hat für tausend Geschlechter,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "an den Bund, den er mit Abraham geschlossen,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "an den Eid, den er Isaak geschworen hat."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Die den Herrn suchen, sollen sich von Herzen freuen."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "Oder:"
+                },
+                {
+                  "type": "response",
+                  "text": "Halleluja."
+                }
+              ]
+            ]
+          }
+        },
+        "citation": {
+          "la": "Ps 105, 1-2. 3-4. 6-7. 8-9",
+          "es": "Sal 105, 1-2. 3-4. 6-7. 8-9",
+          "pt-BR": "Sl 104",
+          "it": "Sal 104",
+          "de": "Ps 105",
+          "en": "Ps 105:1-2, 3-4, 6-7, 8-9",
+          "fr": "Ps 105, 1-2. 3-4. 6-7. 8-9"
+        }
+      },
+      "gospelAcclamation": {
+        "body": {
+          "plain": {
+            "la": "Víctimæ pascháli laudes ímmolent Christiáni. Agnus redémit oves: Christus ínnocens Patri reconciliávit peccatóres. Mors et vita duéllo conflixére mirándo: dux vitæ mórtuus regnat vivus. Dic nobis, María, quid vidísti in via? Sepúlcrum Christi vivéntis, et glóriam vidi resurgéntis, Angélicos testes, sudárium et vestes. Surréxit Christus spes mea: præcédet suos in Galilǽam. Scimus Christum surrexísse a mórtuis vere: tu nobis, victor Rex, miserére. Alleluia, allelúia. Hæc est dies quam fecit Dóminus; exsultémus et lætémur in ea. Allelúia.",
+            "es": "Ofrezcan los cristianos ofrendas de alabanza a gloria de la Víctima propicia de la Pascua. Cordero sin pecado que a las ovejas salva, a Dios y a los culpables unió con nueva alianza. Lucharon vida y muerte en singular batalla, y, muerto el que es la Vida, triunfante se levanta. «¿Qué has visto de camino, María en la mañana?» «A mi Señor glorioso, la tumba abandonada, los ángeles testigos sudario y mortaja ¡Resucitó de veras mi amor y mi esperanza! Venid a Galilea, allí el Señor aguarda; allí veréis los suyos la gloria de la Pascua». Primicia de los muertos, sabemos por tu gracia que estás resucitado; la muerte en ti no manda. Rey vencedor, apiádate de la miseria humana y da a tus fieles parte en tu victoria santa. Aleluya, aleluya. Este es el día que hizo el Señor; sea nuestra alegría y nuestro gozo. Aleluya.",
+            "en": "Christians, to the Paschal Victim Offer sacrifice and praise. The sheep are ransomed by the Lamb; and Christ, the undefiled, hath sinners to his Father reconciled. Death with life contended: combat strangely ended! Life's own Champion, slain, yet lives to reign. Tell us, Mary: say what thou didst see upon the way. The tomb the Living did enclose; I saw Christ's glory as he rose! The angels there attesting; shroud with grave-clothes resting. Christ, my hope, has risen: he goes before you into Galilee. That Christ is truly risen from the dead we know. Victorious king, thy mercy show! Alleluia, alleluia. This day was made by the Lord; we rejoice and are glad Alleluia.",
+            "pt-BR": "Cantai, cristãos, afinal: “Salve, ó vítima pascal!” Cordeiro inocente, o Cristo abriu-nos do Pai o aprisco. Por toda ovelha imolado, do mundo lava o pecado. Duelam forte e mais forte: é a vida que enfrenta a morte. O Rei da vida, cativo, foi morto, mas reina vivo!. Responde, pois, ó Maria: no teu caminho o que havia? “Vi Cristo ressuscitado, o túmulo abandonado. Os anjos da cor do sol, dobrado ao chão o lençol”. O Cristo que leva aos céus, caminha à frente dos seus! Ressuscitou, de verdade! Ó Rei, Ó Cristo, piedade. Aclamação ao Evangelho Aleluia, aleluia. Este é o dia que o Senhor fez para nós, alegremo-nos e nele exultemos! Aleluia.",
+            "it": "Alla vittima pasquale, s'innalzi oggi il sacrificio di lode. L'Agnello ha redento il suo gregge, l'Innocente ha riconciliato noi peccatori col Padre. Morte e Vita si sono affrontate in un prodigioso duello. Il Signore della vita era morto; ma ora, vivo, trionfa. «Raccontaci, Maria: che hai visto sulla via?». «La tomba del Cristo vivente, la gloria del Cristo risorto, e gli angeli suoi testimoni, il sudario e le sue vesti. Cristo, mia speranza, è risorto: precede i suoi in Galilea». Sì, ne siamo certi: Cristo è davvero risorto. Tu, Re vittorioso, abbi pietà di noi. Canto al Vangelo Alleluia, alleluia. Questo è il giorno fatto dal Signore: rallegriamoci ed esultiamo. Alleluia.",
+            "fr": "À la Victime pascale, chrétiens, offrez le sacrifice de louange. L'Agneau a racheté les brebis ; le Christ innocent a réconcilié l'homme pécheur avec le Père. La mort et la vie s'affrontèrent en un duel prodigieux. Le Maître de la vie mourut ; vivant, il règne. « Dis-nous, Marie Madeleine, qu'as-tu vu en chemin ? » « J'ai vu le sépulcre du Christ vivant, j'ai vu la gloire du Ressuscité. J'ai vu les anges ses témoins, le suaire et les vêtements. Le Christ, mon espérance, est ressuscité ! Il vous précédera en Galilée. » Nous le savons : le Christ est vraiment ressuscité des morts. Roi victorieux, prends-nous tous en pitié ! Amen. Alléluia, alléluia. Alléluia. Voici le jour que fit le Seigneur, qu'il soit pour nous jour de fête et de joie ! Alléluia.",
+            "de": "Singt das Lob dem Osterlamme, bringt es ihm dar, ihr Christen. Das Lamm erlöst‘ die Schafe: Christus, der ohne Schuld war, versöhnte die Sünder mit dem Vater. Tod und Leben, die kämpften unbegreiflichen Zweikampf; des Lebens Fürst, der starb, herrscht nun lebend. Maria Magdalena, sag uns, was du gesehen. Sah Engel in dem Grabe, die Binden und das Linnen. Das Grab sah ich offen und Christus von Gottes Glanz umflossen. Er lebt, der Herr, meine Hoffnung, er geht euch voran nach Galiläa. Lasst uns glauben, was Maria den Jüngern verkündet. Sie sah den Herren, den Auferstandnen. Ja, der Herr ist auferstanden, ist wahrhaft erstanden. Du Sieger, König, Herr, hab Erbarmen! Ruf vor dem Evangelium Halleluja. Halleluja. Das ist der Tag, den der Herr gemacht; lasst uns jubeln und seiner uns freuen. Halleluja."
+          },
+          "lines": {
+            "la": [
+              [
+                {
+                  "type": "text",
+                  "text": "Víctimæ pascháli laudes ímmolent Christiáni."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Agnus redémit oves:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Christus ínnocens Patri reconciliávit peccatóres."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Mors et vita duéllo conflixére mirándo:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "dux vitæ mórtuus regnat vivus."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Dic nobis, María,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "quid vidísti in via?"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Sepúlcrum Christi vivéntis,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "et glóriam vidi resurgéntis,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Angélicos testes,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "sudárium et vestes."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Surréxit Christus spes mea:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "præcédet suos in Galilǽam."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Scimus Christum surrexísse a mórtuis vere:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "tu nobis, victor Rex,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "miserére."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Alleluia, allelúia. Hæc est dies quam fecit Dóminus; exsultémus et lætémur in ea. Allelúia."
+                }
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Ofrezcan los cristianos ofrendas de alabanza a gloria de la Víctima propicia de la Pascua."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Cordero sin pecado que a las ovejas salva,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "a Dios y a los culpables unió con nueva alianza."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Lucharon vida y muerte en singular batalla,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "y, muerto el que es la Vida,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "triunfante se levanta."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "«¿Qué has visto de camino,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "María en la mañana?»"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "«A mi Señor glorioso,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "la tumba abandonada,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "los ángeles testigos sudario y mortaja ¡Resucitó de veras mi amor y mi esperanza!"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Venid a Galilea,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "allí el Señor aguarda;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "allí veréis los suyos la gloria de la Pascua»."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Primicia de los muertos,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "sabemos por tu gracia que estás resucitado;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "la muerte en ti no manda."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Rey vencedor, apiádate de la miseria humana y da a tus fieles parte en tu victoria santa."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Aleluya, aleluya. Este es el día que hizo el Señor; sea nuestra alegría y nuestro gozo. Aleluya."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "Christians, to the Paschal Victim Offer sacrifice and praise."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "The sheep are ransomed by the Lamb;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "and Christ, the undefiled,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "hath sinners to his Father reconciled."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Death with life contended: combat strangely ended!"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Life's own Champion, slain, yet lives to reign."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Tell us, Mary: say what thou didst see upon the way."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "The tomb the Living did enclose;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "I saw Christ's glory as he rose!"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "The angels there attesting;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "shroud with grave-clothes resting."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Christ, my hope, has risen: he goes before you into Galilee."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "That Christ is truly risen from the dead we know."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Victorious king, thy mercy show!"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Alleluia, alleluia. This day was made by the Lord; we rejoice and are glad Alleluia."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Cantai, cristãos, afinal:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "“Salve, ó vítima pascal!” Cordeiro inocente, o Cristo abriu-nos do Pai o aprisco."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Por toda ovelha imolado, do mundo lava o pecado."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Duelam forte e mais forte:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "é a vida que enfrenta a morte."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "O Rei da vida, cativo, foi morto, mas reina vivo!."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Responde, pois, ó Maria: no teu caminho o que havia?"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "“Vi Cristo ressuscitado, o túmulo abandonado."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Os anjos da cor do sol,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "dobrado ao chão o lençol”."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "O Cristo que leva aos céus, caminha à frente dos seus!"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Ressuscitou, de verdade! Ó Rei, Ó Cristo, piedade."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Aclamação ao Evangelho Aleluia, aleluia. Este é o dia que o Senhor fez para nós, alegremo-nos e nele exultemos! Aleluia."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Alla vittima pasquale,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "s'innalzi oggi il sacrificio di lode."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "L'Agnello ha redento il suo gregge,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "l'Innocente ha riconciliato noi peccatori col Padre."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Morte e Vita si sono affrontate in un prodigioso duello."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Il Signore della vita era morto;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "ma ora, vivo, trionfa."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "«Raccontaci, Maria:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "che hai visto sulla via?»."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "«La tomba del Cristo vivente,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "la gloria del Cristo risorto,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "e gli angeli suoi testimoni,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "il sudario e le sue vesti."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Cristo, mia speranza, è risorto:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "precede i suoi in Galilea»."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Sì, ne siamo certi:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Cristo è davvero risorto."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Tu, Re vittorioso,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "abbi pietà di noi."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Canto al Vangelo Alleluia, alleluia. Questo è il giorno fatto dal Signore: rallegriamoci ed esultiamo. Alleluia."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "À la Victime pascale,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "chrétiens, offrez le sacrifice de louange."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "L'Agneau a racheté les brebis ;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "le Christ innocent a réconcilié l'homme pécheur avec le Père."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "La mort et la vie s'affrontèrent en un duel prodigieux."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Le Maître de la vie mourut ; vivant, il règne."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "« Dis-nous, Marie Madeleine,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "qu'as-tu vu en chemin ? »"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "« J'ai vu le sépulcre du Christ vivant,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "j'ai vu la gloire du Ressuscité."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "J'ai vu les anges ses témoins,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "le suaire et les vêtements."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Le Christ, mon espérance, est ressuscité !"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Il vous précédera en Galilée. »"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Nous le savons : le Christ est vraiment ressuscité des morts."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Roi victorieux,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "prends-nous tous en pitié !"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Amen."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Alléluia, alléluia. Alléluia. Voici le jour que fit le Seigneur, qu'il soit pour nous jour de fête et de joie ! Alléluia."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Singt das Lob dem Osterlamme,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "bringt es ihm dar, ihr Christen."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Das Lamm erlöst‘ die Schafe:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Christus, der ohne Schuld war,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "versöhnte die Sünder mit dem Vater."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Tod und Leben, die kämpften unbegreiflichen Zweikampf;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "des Lebens Fürst, der starb, herrscht nun lebend."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Maria Magdalena,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "sag uns, was du gesehen."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Sah Engel in dem Grabe,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "die Binden und das Linnen."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Das Grab sah ich offen und Christus von Gottes Glanz umflossen."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Er lebt, der Herr, meine Hoffnung,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "er geht euch voran nach Galiläa."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Lasst uns glauben, was Maria den Jüngern verkündet."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Sie sah den Herren,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "den Auferstandnen."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Ja, der Herr ist auferstanden, ist wahrhaft erstanden."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Du Sieger, König, Herr, hab Erbarmen!"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Ruf vor dem Evangelium Halleluja. Halleluja. Das ist der Tag, den der Herr gemacht; lasst uns jubeln und seiner uns freuen. Halleluja."
+                }
+              ]
+            ]
+          }
+        }
+      },
+      "gospel": {
+        "label": {
+          "la": "Evangelium",
+          "es": "Evangelio",
+          "en": "Gospel",
+          "pt-BR": "Evangelho",
+          "it": "Vangelo",
+          "fr": "Proclamation de l'Évangile",
+          "de": "Evangelium"
+        },
+        "summary": {
+          "la": "Cognoverunt eum in fractione panis",
+          "es": "Lo reconocieron al partir el pan",
+          "pt-BR": "Reconheceram-no ao partir o pão",
+          "it": "Riconobbero Gesù nello spezzare il pane."
+        },
+        "introduction": {
+          "la": "✠ Léctio sancti Evangélii secúndum Lucam",
+          "es": "✠ Lectura del santo Evangelio según san Lucas",
+          "en": "✠ A reading from the holy Gospel according to Luke",
+          "pt-BR": "✠ Proclamação do Evangelho de Jesus Cristo segundo Lucas",
+          "it": "✠ Dal vangelo secondo Luca",
+          "fr": "✠ Évangile de Jésus-Christ selon saint Luc",
+          "de": "✠ Aus dem heiligen Evangelium nach Lukas"
+        },
+        "body": {
+          "plain": {
+            "la": "Ecce duo ex discípulis Iesu ibant ipsa die [prima sabbatórum] in castéllum, quod erat in spátio stadiórum sexagínta ab Ierúsalem nómine Emmaus; et ipsi loquebántur ad ínvicem de his ómnibus, quæ accíderant. Et factum est, dum fabularéntur et secum quǽrerent, et ipse Iesus appropínquans ibat cum illis; óculi autem illórum tenebántur, ne eum agnóscerent. Et ait ad illos: «Qui sunt hi sermónes, quos confértis ad ínvicem ambulántes?». Et stetérunt tristes. Et respóndens unus, cui nomen Cléopas, dixit ei: «Tu solus peregrínus es in Ierúsalem et non cognovísti, quæ facta sunt in illa his diébus?». Quibus ille dixit: «Quæ?». Et illi dixérunt ei: «De Iesu Nazaréno, qui fuit vir prophéta, potens in ópere et sermóne coram Deo et omni pópulo; et quómodo eum tradidérunt summi sacerdótes et príncipes nostri in damnatiónem mortis et crucifixérunt eum. Nos autem sperabámus, quia ipse esset redemptúrus Israel; at nunc super hæc ómnia tértia dies hódie quod hæc facta sunt. Sed et mulíeres quædam ex nostris terruérunt nos, quæ ante lucem fuérunt ad monuméntum et, non invénto córpore eius, venérunt dicéntes se étiam visiónem angelórum vidísse, qui dicunt eum vívere. Et abiérunt quidam ex nostris ad monuméntum et ita invenérunt, sicut mulíeres dixérunt, ipsum vero non vidérunt». Et ipse dixit ad eos: «O stulti et tardi corde ad credéndum in ómnibus, quæ locúti sunt Prophétæ! Nonne hæc opórtuit pati Christum et intráre in glóriam suam?». Et incípiens a Móyse et ómnibus Prophétis interpretabátur illis in ómnibus Scriptúris, quæ de ipso erant. Et appropinquavérunt castéllo, quo ibant, et ipse se finxit lóngius ire. Et coegérunt illum dicéntes: «Mane nobíscum, quóniam advesperáscit, et inclináta est iam dies». Et intrávit, ut manéret cum illis. Et factum est, dum recúmberet cum illis, accépit panem et benedíxit ac fregit et porrigébat illis. Et apérti sunt óculi eórum, et cognovérunt eum; et ipse evánuit ab eis. Et dixérunt ad ínvicem: «Nonne cor nostrum ardens erat in nobis, dum loquerétur nobis in via et aperíret nobis Scriptúras?». Et surgéntes eádem hora regréssi sunt in Ierúsalem et invenérunt congregátos Undecim et eos, qui cum ipsis erant, dicéntes: «Surréxit Dóminus vere et appáruit Simóni». Et ipsi narrábant, quæ gesta erant in via, et quómodo cognovérunt eum in fractióne panis.",
+            "es": "Aquel mismo día, el primero de la semana, dos de los discípulos de Jesús iban caminando a una aldea llamada Emaús, distante de Jerusalén unos sesenta estadios; iban conversando entre ellos de todo lo que había sucedido. Mientras conversaban y discutían, Jesús en persona se acercó y se puso a caminar con ellos. Pero sus ojos no eran capaces de reconocerlo. Él les dijo: «¿Qué conversación es esa que traéis mientras vais de camino?». Ellos se detuvieron con aire entristecido, y uno de ellos, que se llamaba Cleofás, le respondió: «¿Eres tú el único forastero en Jerusalén que no sabe lo que ha pasado allí estos días?». Él les dijo: «¿Qué?». Ellos le contestaron: «Lo de Jesús el Nazareno, que fue un profeta poderoso en obras y palabras, ante Dios y ante todo el pueblo; cómo lo entregaron los sumos sacerdotes y nuestros jefes para que lo condenaran a muerte, y lo crucificaron. Nosotros esperábamos que él iba a liberar a Israel, pero, con todo esto, ya estamos en el tercer día desde que esto sucedió. Es verdad que algunas mujeres de nuestro grupo nos han sobresaltado, pues habiendo ido muy de mañana al sepulcro, y no habiendo encontrado su cuerpo, vinieron diciendo que incluso habían visto una aparición de ángeles, que dicen que está vivo. Algunos de los nuestros fueron también al sepulcro y lo encontraron como habían dicho las mujeres; pero a él no lo vieron». Entonces él les dijo: «¡Qué necios y torpes sois para creer lo que dijeron los profetas! ¿No era necesario que el Mesías padeciera esto y entrara así en su gloria?». Y, comenzando por Moisés y siguiendo por todos los profetas, les explicó lo que se refería a él en todas las Escrituras. Llegaron cerca de la aldea adonde iban y él simuló que iba a seguir caminando; pero ellos lo apremiaron, diciendo: «Quédate con nosotros, porque atardece y el día va de caída». Y entró para quedarse con ellos. Sentado a la mesa con ellos, tomó el pan, pronunció la bendición, lo partió y se lo iba dando. A ellos se les abrieron los ojos y lo reconocieron. Pero él desapareció de su vista. Y se dijeron el uno al otro: «¿No ardía nuestro corazón mientras nos hablaba por el camino y nos explicaba las Escrituras?». Y, levantándose en aquel momento, se volvieron a Jerusalén, donde encontraron reunidos a los Once con sus compañeros, que estaban diciendo: «Era verdad, ha resucitado el Señor y se ha aparecido a Simón». Y ellos contaron lo que les había pasado por el camino y cómo lo habían reconocido al partir el pan.",
+            "en": "Two of the disciples of Jesus were on their way to a village called Emmaus, seven miles from Jerusalem, and they were talking together about all that had happened. Now as they talked this over, Jesus himself came up and walked by their side; but something prevented them from recognising him. He said to them, 'What matters are you discussing as you walk along?' They stopped short, their faces downcast. Then one of them, called Cleopas, answered him, 'You must be the only person staying in Jerusalem who does not know the things that have been happening there these last few days'. 'What things?' he asked. 'All about Jesus of Nazareth' they answered 'who proved he was a great prophet by the things he said and did in the sight of God and of the whole people; and how our chief priests and our leaders handed him over to be sentenced to death, and had him crucified. Our own hope had been that he would be the one to set Israel free. And this is not all: two whole days have gone by since it all happened; and some women from our group have astounded us: they went to the tomb in the early morning, and when they did not find the body, they came back to tell us they had seen a vision of angels who declared he was alive. Some of our friends went to the tomb and found everything exactly as the women had reported, but of him they saw nothing.' Then he said to them, 'You foolish men! So slow to believe the full message of the prophets! Was it not ordained that the Christ should suffer and so enter into his glory?' Then, starting with Moses and going through all the prophets, he explained to them the passages throughout the scriptures that were about himself. When they drew near to the village to which they were going, he made as if to go on; but they pressed him to stay with them. 'It is nearly evening' they said 'and the day is almost over.' So he went in to stay with them. Now while he was with them at table, he took the bread and said the blessing; then he broke it and handed it to them. And their eyes were opened and they recognised him; but he had vanished from their sight. Then they said to each other, 'Did not our hearts burn within us as he talked to us on the road and explained the scriptures to us?' They set out that instant and returned to Jerusalem. There they found the Eleven assembled together with their companions, who said to them, 'Yes, it is true. The Lord has risen and has appeared to Simon.' Then they told their story of what had happened on the road and how they had recognised him at the breaking of bread.",
+            "pt-BR": "Naquele mesmo dia, o primeiro da semana, dois dos discípulos de Jesus iam para um povoado, chamado Emaús, distante onze quilômetros de Jerusalém. Conversavam sobre todas as coisas que tinham acontecido. Enquanto conversavam e discutiam, o próprio Jesus se aproximou e começou a caminhar com eles. Os discípulos, porém, estavam como que cegos, e não o reconheceram. Então Jesus perguntou: \"O que ides conversando pelo caminho?\" Eles pararam, com o rosto triste, e um deles, chamado Cléofas, lhe disse: \"Tu és o único peregrino em Jerusalém que não sabe o que lá aconteceu nestes últimos dias?\" Ele perguntou: \"O que foi?\" Os discípulos responderam: \"O que aconteceu com Jesus, o Nazareno, que foi um profeta poderoso em obras e palavras, diante de Deus e diante de todo o povo. Nossos sumos sacerdotes e nossos chefes o entregaram para ser condenado à morte e o crucificaram. Nós esperávamos que ele fosse libertar Israel, mas, apesar de tudo isso, já faz três dias que todas essas coisas aconteceram! É verdade que algumas mulheres do nosso grupo nos deram um susto. Elas foram de madrugada ao túmulo e não encontraram o corpo dele. Então voltaram, dizendo que tinham visto anjos e que estes afirmaram que Jesus está vivo. Alguns dos nossos foram ao túmulo e encontraram as coisas como as mulheres tinham dito. A ele, porém, ninguém o viu\". Então Jesus lhes disse: \"Como sois sem inteligência e lentos para crer em tudo o que os profetas falaram! Será que o Cristo não devia sofrer tudo isso para entrar na sua glória?\" E, começando por Moisés e passando pelos Profetas, explicava aos discípulos todas as passagens da Escritura que falavam a respeito dele. Quando chegaram perto do povoado para onde iam, Jesus fez de conta que ia mais adiante. Eles, porém, insistiram com Jesus, dizendo: \"Fica conosco, pois já é tarde e a noite vem chegando!\" Jesus entrou para ficar com eles. Quando se sentou à mesa com eles, tomou o pão, abençoou-o, partiu-o e lhes distribuía. Nisso os olhos dos discípulos se abriram e eles reconheceram Jesus. Jesus, porém, desapareceu da frente deles. Então um disse ao outro: \"Não estava ardendo o nosso coração quando ele nos falava pelo caminho, e nos explicava as Escrituras?\" Naquela mesma hora, eles se levantaram e voltaram para Jerusalém onde encontraram os Onze reunidos com os outros. E estes confirmaram: \"Realmente, o Senhor ressuscitou e apareceu a Simão!\" Então os dois contaram o que tinha acontecido no caminho, e como tinham reconhecido Jesus ao partir o pão.",
+            "it": "Ed ecco, in quello stesso giorno, [il primo della settimana,] due [dei discepoli] erano in cammino per un villaggio di nome Emmaus, distante circa undici chilometri da Gerusalemme, e conversavano tra loro di tutto quello che era accaduto. Mentre conversavano e discutevano insieme, Gesù in persona si avvicinò e camminava con loro. Ma i loro occhi erano impediti a riconoscerlo. Ed egli disse loro: «Che cosa sono questi discorsi che state facendo tra voi lungo il cammino?». Si fermarono, col volto triste; uno di loro, di nome Clèopa, gli rispose: «Solo tu sei forestiero a Gerusalemme! Non sai ciò che vi è accaduto in questi giorni?». Domandò loro: «Che cosa?». Gli risposero: «Ciò che riguarda Gesù, il Nazareno, che fu profeta potente in opere e in parole, davanti a Dio e a tutto il popolo; come i capi dei sacerdoti e le nostre autorità lo hanno consegnato per farlo condannare a morte e lo hanno crocifisso. Noi speravamo che egli fosse colui che avrebbe liberato Israele; con tutto ciò, sono passati tre giorni da quando queste cose sono accadute. Ma alcune donne, delle nostre, ci hanno sconvolti; si sono recate al mattino alla tomba e, non avendo trovato il suo corpo, sono venute a dirci di aver avuto anche una visione di angeli, i quali affermano che egli è vivo. Alcuni dei nostri sono andati alla tomba e hanno trovato come avevano detto le donne, ma lui non l'hanno visto». Disse loro: «Stolti e lenti di cuore a credere in tutto ciò che hanno detto i profeti! Non bisognava che il Cristo patisse queste sofferenze per entrare nella sua gloria?». E, cominciando da Mosè e da tutti i profeti, spiegò loro in tutte le Scritture ciò che si riferiva a lui. Quando furono vicini al villaggio dove erano diretti, egli fece come se dovesse andare più lontano. Ma essi insistettero: «Resta con noi, perché si fa sera e il giorno è ormai al tramonto». Egli entrò per rimanere con loro. Quando fu a tavola con loro, prese il pane, recitò la benedizione, lo spezzò e lo diede loro. Allora si aprirono loro gli occhi e lo riconobbero. Ma egli sparì dalla loro vista. Ed essi dissero l'un l'altro: «Non ardeva forse in noi il nostro cuore mentre egli conversava con noi lungo la via, quando ci spiegava le Scritture?». Partirono senza indugio e fecero ritorno a Gerusalemme, dove trovarono riuniti gli Undici e gli altri che erano con loro, i quali dicevano: «Davvero il Signore è risorto ed è apparso a Simone!». Ed essi narravano ciò che era accaduto lungo la via e come l'avevano riconosciuto nello spezzare il pane.",
+            "fr": "Le même jour (c'est-à-dire le premier jour de la semaine), deux disciples faisaient route vers un village appelé Emmaüs, à deux heures de marche de Jérusalem, et ils parlaient entre eux de tout ce qui s'était passé. Or, tandis qu'ils s'entretenaient et s'interrogeaient, Jésus lui-même s'approcha, et il marchait avec eux. Mais leurs yeux étaient empêchés de le reconnaître. Jésus leur dit : « De quoi discutez-vous en marchant ? » Alors, ils s'arrêtèrent, tout tristes. L'un des deux, nommé Cléophas, lui répondit : « Tu es bien le seul étranger résidant à Jérusalem qui ignore les événements de ces jours-ci. » Il leur dit : « Quels événements ? » Ils lui répondirent : « Ce qui est arrivé à Jésus de Nazareth, cet homme qui était un prophète puissant par ses actes et ses paroles devant Dieu et devant tout le peuple : comment les grands prêtres et nos chefs l'ont livré, ils l'ont fait condamner à mort et ils l'ont crucifié. Nous, nous espérions que c'était lui qui allait délivrer Israël. Mais avec tout cela, voici déjà le troisième jour qui passe depuis que c'est arrivé. À vrai dire, des femmes de notre groupe nous ont remplis de stupeur. Quand, dès l'aurore, elles sont allées au tombeau, elles n'ont pas trouvé son corps ; elles sont venues nous dire qu'elles avaient même eu une vision : des anges, qui disaient qu'il est vivant. Quelques-uns de nos compagnons sont allés au tombeau, et ils ont trouvé les choses comme les femmes l'avaient dit ; mais lui, ils ne l'ont pas vu. » Il leur dit alors : « Esprits sans intelligence ! Comme votre cœur est lent à croire tout ce que les prophètes ont dit ! Ne fallait-il pas que le Christ souffrît cela pour entrer dans sa gloire ? » Et, partant de Moïse et de tous les Prophètes, il leur interpréta, dans toute l'Écriture, ce qui le concernait. Quand ils approchèrent du village où ils se rendaient, Jésus fit semblant d'aller plus loin. Mais ils s'efforcèrent de le retenir : « Reste avec nous, car le soir approche et déjà le jour baisse. » Il entra donc pour rester avec eux. Quand il fut à table avec eux, ayant pris le pain, il prononça la bénédiction et, l'ayant rompu, il le leur donna. Alors leurs yeux s'ouvrirent, et ils le reconnurent, mais il disparut à leurs regards. Ils se dirent l'un à l'autre : « Notre cœur n'était-il pas brûlant en nous, tandis qu'il nous parlait sur la route et nous ouvrait les Écritures ? » À l'instant même, ils se levèrent et retournèrent à Jérusalem. Ils y trouvèrent réunis les onze Apôtres et leurs compagnons, qui leur dirent : « Le Seigneur est réellement ressuscité : il est apparu à Simon-Pierre. » À leur tour, ils racontaient ce qui s'était passé sur la route, et comment le Seigneur s'était fait reconnaître par eux à la fraction du pain.",
+            "de": "Am ersten Tag der Woche waren zwei von den Jüngern Jesu auf dem Weg in ein Dorf namens Emmaus, das sechzig Stadien von Jerusalem entfernt ist. Sie sprachen miteinander über all das, was sich ereignet hatte. Während sie redeten und ihre Gedanken austauschten, kam Jesus hinzu und ging mit ihnen. Doch sie waren wie mit Blindheit geschlagen, so dass sie ihn nicht erkannten. Er fragte sie: Was sind das für Dinge, über die ihr auf eurem Weg miteinander redet? Da blieben sie traurig stehen, und der eine von ihnen - er hieß Kleopas - antwortete ihm: Bist du so fremd in Jerusalem, dass du als Einziger nicht weißt, was in diesen Tagen dort geschehen ist? Er fragte sie: Was denn? Sie antworteten ihm: Das mit Jesus aus Nazaret. Er war ein Prophet, mächtig in Wort und Tat vor Gott und dem ganzen Volk. Doch unsere Hohenpriester und Führer haben ihn zum Tod verurteilen und ans Kreuz schlagen lassen. Wir aber hatten gehofft, dass er der sei, der Israel erlösen werde. Und dazu ist heute schon der dritte Tag, seitdem das alles geschehen ist. Aber nicht nur das: Auch einige Frauen aus unserem Kreis haben uns in große Aufregung versetzt. Sie waren in der Frühe beim Grab, fanden aber seinen Leichnam nicht. Als sie zurückkamen, erzählten sie, es seien ihnen Engel erschienen und hätten gesagt, er lebe. Einige von uns gingen dann zum Grab und fanden alles so, wie die Frauen gesagt hatten; ihn selbst aber sahen sie nicht. Da sagte er zu ihnen: Begreift ihr denn nicht? Wie schwer fällt es euch, alles zu glauben, was die Propheten gesagt haben. Musste nicht der Messias all das erleiden, um so in seine Herrlichkeit zu gelangen? Und er legte ihnen dar, ausgehend von Mose und allen Propheten, was in der gesamten Schrift über ihn geschrieben steht. So erreichten sie das Dorf, zu dem sie unterwegs waren. Jesus tat, als wolle er weitergehen, aber sie drängten ihn und sagten: Bleib doch bei uns; denn es wird bald Abend, der Tag hat sich schon geneigt. Da ging er mit hinein, um bei ihnen zu bleiben. Und als er mit ihnen bei Tisch war, nahm er das Brot, sprach den Lobpreis, brach das Brot und gab es ihnen. Da gingen ihnen die Augen auf, und sie erkannten ihn; dann sahen sie ihn nicht mehr. Und sie sagten zueinander: Brannte uns nicht das Herz in der Brust, als er unterwegs mit uns redete und uns den Sinn der Schrift erschloss? Noch in derselben Stunde brachen sie auf und kehrten nach Jerusalem zurück, und sie fanden die Elf und die anderen Jünger versammelt. Diese sagten: Der Herr ist wirklich auferstanden und ist dem Simon erschienen. Da erzählten auch sie, was sie unterwegs erlebt und wie sie ihn erkannt hatten, als er das Brot brach."
+          }
+        },
+        "conclusion": {
+          "la": "Verbum Dómini.",
+          "es": "Palabra del Señor.",
+          "en": "The Gospel of the Lord.",
+          "pt-BR": "Palavra da Salvação.",
+          "it": "Parola del Signore.",
+          "fr": "Acclamons la Parole de Dieu !",
+          "de": "Evangelium unseres Herrn Jesus Christus."
+        },
+        "citation": {
+          "la": "Lc 24, 13-35",
+          "es": "Lc 24, 13-35",
+          "en": "Lk 24:13–35",
+          "pt-BR": "Lc 24, 13-35",
+          "it": "Lc 24, 13-35",
+          "fr": "Lc 24, 13-35",
+          "de": "Lk 24, 13-35"
+        },
+        "response": {
+          "body": {
+            "plain": {
+              "la": "R/. Laus tibi, Christe.",
+              "es": "R/. Gloria a ti, Señor Jesús.",
+              "en": "R/. Praise to you, Lord Jesus Christ.",
+              "pt-BR": "R/. Glória a vós, Senhor.",
+              "it": "R/. Lode a te, o Cristo.",
+              "fr": "R/. Louange à toi, Seigneur Jésus !",
+              "de": "A: Lob sei dir, Christus."
+            },
+            "lines": {
+              "la": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Laus tibi, Christe."
+                  }
+                ]
+              ],
+              "es": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Gloria a ti, Señor Jesús."
+                  }
+                ]
+              ],
+              "en": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Praise to you, Lord Jesus Christ."
+                  }
+                ]
+              ],
+              "pt-BR": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Glória a vós, Senhor."
+                  }
+                ]
+              ],
+              "it": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Lode a te, o Cristo."
+                  }
+                ]
+              ],
+              "fr": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Louange à toi, Seigneur Jésus !"
+                  }
+                ]
+              ],
+              "de": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "A:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Lob sei dir, Christus."
+                  }
+                ]
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "liturgicalColor": "white"
+}

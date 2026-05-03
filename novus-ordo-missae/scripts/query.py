@@ -38,16 +38,31 @@ def load(rel: str) -> Any:
         return json.load(f)
 
 
+def iter_items(root: Path):
+    """Yield each per-item *.json under root, skipping _index.json sentinels."""
+    for f in root.rglob("*.json"):
+        if f.name == "_index.json":
+            continue
+        with f.open() as fp:
+            yield json.load(fp)
+
+
 def all_masses() -> list[dict]:
-    out: list[dict] = []
-    for f in (DATA / "masses").rglob("*.json"):
-        d = load(f.relative_to(DATA).as_posix())
-        out.extend(d.get("masses", []))
-    return out
+    return list(iter_items(DATA / "masses"))
+
+
+def _id_to_path(item_id: str, root: Path, *, suffix: str = ".json") -> Path:
+    parts = item_id.split(".")
+    return root.joinpath(*parts[:-1], parts[-1] + suffix)
 
 
 def find_mass(mid: str) -> dict | None:
-    return next((m for m in all_masses() if m["id"] == mid), None)
+    p = _id_to_path(mid, DATA / "masses")
+    if p.exists():
+        with p.open() as f:
+            return json.load(f)
+    # fallback: walk in case of an unexpected layout
+    return next((m for m in all_masses() if m.get("id") == mid), None)
 
 
 def filter_lang(node: Any, lang: str) -> Any:
@@ -81,27 +96,29 @@ def cmd_mass(args):
 
 
 def cmd_preface(args):
-    pf = load("library/prefaces.json")
-    p = next((p for p in pf["prefaces"] if p["id"] == args.id), None)
-    if p is None:
+    p_path = _id_to_path(f"preface.{args.id}" if not args.id.startswith("preface.") else args.id,
+                         DATA / "library")
+    if not p_path.exists():
         sys.exit(f"no preface with id {args.id!r}")
+    p = json.loads(p_path.read_text())
     if args.lang:
         p = filter_lang(p, args.lang)
     print_output(p, args)
 
 
 def cmd_ep(args):
-    ep = load("library/eucharistic-prayers.json")
-    e = next((e for e in ep["eucharisticPrayers"] if e["id"] == args.id), None)
-    if e is None:
+    eid = args.id if args.id.startswith("eucharistic-prayer.") else f"eucharistic-prayer.{args.id}"
+    e_path = _id_to_path(eid, DATA / "library")
+    if not e_path.exists():
         sys.exit(f"no eucharistic prayer with id {args.id!r}")
+    e = json.loads(e_path.read_text())
     if args.lang:
         e = filter_lang(e, args.lang)
     print_output(e, args)
 
 
 def cmd_saints(args):
-    saints = load("saints.json")["saints"]
+    saints = list(iter_items(DATA / "saints"))
     if args.month is not None:
         saints = [s for s in saints if (s.get("date") or {}).get("month") == args.month]
     if args.rank is not None:
@@ -121,8 +138,7 @@ def cmd_saints(args):
 
 
 def cmd_calendar(args):
-    cal = load("calendar.json")
-    entries = cal["tempore"] + cal["sanctorale"]
+    entries = list(iter_items(DATA / "calendar"))
     if args.season:
         entries = [e for e in entries if e.get("season") == args.season]
     if args.lang:
@@ -131,10 +147,17 @@ def cmd_calendar(args):
 
 
 def cmd_triduum(args):
-    d = load("triduum.json")
+    """Resolve the reference list in data/triduum/_index.json against the masses tree."""
+    idx = json.loads((DATA / "triduum" / "_index.json").read_text())
+    masses = []
+    for mid in idx.get("ids", []):
+        p = _id_to_path(mid, DATA / "masses")
+        if p.exists():
+            masses.append(json.loads(p.read_text()))
+    out = {"count": len(masses), "masses": masses}
     if args.lang:
-        d = filter_lang(d, args.lang)
-    print_output(d, args)
+        out = filter_lang(out, args.lang)
+    print_output(out, args)
 
 
 def cmd_search(args):

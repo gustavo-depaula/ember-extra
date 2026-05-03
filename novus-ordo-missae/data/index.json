@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.1",
-  "generatedAt": "2026-05-03T16:42:26.709124Z",
+  "generatedAt": "2026-05-03T18:26:10.778100Z",
   "languages": [
     "la",
     "es",
@@ -42,13 +42,13 @@
     "ordinaryParts": 4
   },
   "files": {
-    "calendar": "calendar.json",
-    "saints": "saints.json",
-    "triduum": "triduum.json",
-    "provenance": "provenance.json",
-    "masses": "masses/<group>/<bucket>.json",
-    "library": "library/{prefaces,eucharistic-prayers,ordinary}.json",
+    "masses": "masses/<group>/<id-as-path>.json (per-mass; _index.json per bucket)",
+    "library": "library/{preface,eucharistic-prayer,ordinary}/<id-tail>.json",
+    "saints": "saints/<MM-DD>[/<scope>].json",
+    "calendar": "calendar/<group>/<id-as-path>.json",
+    "triduum": "triduum/_index.json (reference list of mass ids)",
     "igmr": "igmr/<lang>.json",
-    "sacerdotale": "sacerdotale/<lang>.json"
+    "sacerdotale": "sacerdotale/<lang>.json",
+    "provenance": "provenance.json"
   }
 }

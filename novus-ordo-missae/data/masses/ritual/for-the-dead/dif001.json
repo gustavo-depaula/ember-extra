@@ -1,0 +1,1383 @@
+{
+  "id": "ritual.for-the-dead.dif001",
+  "group": "ritual",
+  "subgroup": "for-the-dead",
+  "title": {
+    "la": "I. IN EXSEQUIIS A. EXTRA TEMPUS PASCHALE",
+    "es": "I. EN LAS EXEQUIAS A. Fuera del tiempo pascual",
+    "en": "I. FOR THE FUNERAL A. Outside Easter Time",
+    "pt-BR": "1. NAS EXÉQUIAS A. Fora do Tempo Pascal",
+    "it": "I. NELLE ESEQUIE A. Fuori del tempo pasquale",
+    "fr": "I. MESSE DES FUNÉRAILLES A. HORS DU TEMPS PASCAL",
+    "de": "I. AM BEGRÄBNISTAG A. Außerhalb der Osterzeit"
+  },
+  "entranceAntiphon": {
+    "body": {
+      "plain": {
+        "la": "Réquiem ætérnam dona eis, Dómine, et lux perpétua lúceat eis.",
+        "es": "Señor, dales el descanso eterno y brille sobre ellos la luz eterna.",
+        "en": "Eternal rest grant unto them ( him her ) , o Lord, and let perpetual light shine upon them ( him her )",
+        "pt-BR": "Dai-lhes, Senhor, o descanso eterno e brilhe para eles a vossa luz.",
+        "it": "L'eterno riposo dona loro, o Signore, e splenda ad essi la luce perpetua.",
+        "fr": "À nos frères défunts, accorde, Seigneur, l'éternel repos ; et que brille à leurs yeux la lumière sans déclin.",
+        "de": "Herr, gib ihnen die ewige Ruhe, und das ewige Licht leuchte ihnen. Oder: Herr, nimm die Heimgegangenen auf in deinen Frieden, lass sie wohnen im Licht deiner Herrlichkeit."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Réquiem ætérnam dona eis, Dómine, et lux perpétua lúceat eis."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Señor, dales el descanso eterno y brille sobre ellos la luz eterna."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "Eternal rest grant unto them"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": "him"
+            },
+            {
+              "type": "text",
+              "text": "her"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": ", o Lord, and let perpetual light shine upon them"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": "him"
+            },
+            {
+              "type": "text",
+              "text": "her"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Dai-lhes, Senhor, o descanso eterno e brilhe para eles a vossa luz."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "L'eterno riposo dona loro, o Signore, e splenda ad essi la luce perpetua."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "À nos frères défunts, accorde, Seigneur, l'éternel repos ;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "et que brille à leurs yeux la lumière sans déclin."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Herr, gib ihnen die ewige Ruhe, und das ewige Licht leuchte ihnen."
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "Oder:"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Herr, nimm die Heimgegangenen auf in deinen Frieden, lass sie wohnen im Licht deiner Herrlichkeit."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "collect": {
+    "body": {
+      "plain": {
+        "la": "Deus, cui próprium est miseréri semper et párcere, te súpplices exorámus pro fámulo tuo N. , quem ( hódie ) ad te migráre iussísti, ut, quia in te sperávit et crédidit, concédas eum ad veram pátriam perdúci, et gáudiis pérfrui sempitérnis. Per Dóminum.",
+        "es": "Oh, Dios, siempre dispuesto a la misericordia y al perdón, escucha nuestras súplicas por tu siervo N. , a quien has llamado [ hoy ] a tu presencia, y, porque en ti creyó y esperó, condúcelo a la patria verdadera para que goce contigo de las alegrías eternas. Por nuestro Señor Jesucristo.",
+        "en": "O God, whose nature is always to forgive and to show mercy, we humbly implore you for your servant N. , whom you have called ( this day ) to journey to you, and, since he ( she ) hoped and believed in you, grant that he ( she ) may be led to our true homeland to delight in its everlasting joys. Through our lord Jesus Christ, your son, who lives and reigns with you in the unity of the Holy Spirit, one God, for ever and ever.",
+        "pt-BR": "Ó Deus, que sempre estais disposto a ter compaixão e a perdoar, nós vos suplicamos em favor do vosso servo N. que ( hoje ) chamastes à vossa presença; porque esperou e acreditou em vós, concedei-lhe ser conduzido à verdadeira pátria e gozar das alegrias eternas. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus, e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
+        "it": "O Dio, che sempre usi misericordia e perdoni, ascolta le preghiere che ti rivolgiamo per il nostro fratello [ alla nostra sorella ] N. che [ oggi ] hai fatto passare a te da questo mondo, e poiché in te ha sperato e creduto, conducilo [ a ] alla patria del cielo e donagli [ donale ] la gioia senza fine. Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli.",
+        "fr": "Seigneur, n'oublie pas ce que tu es pour les tiens : un Père qui aime à pardonner, un ami qui ne ferme jamais son cœur. Écoute-nous quand nous t'implorons pour ton serviteur N. , notre frère, que tu viens d'appeler à toi. Tant qu'il a vécu au milieu de nous, tu as été son espérance et sa foi : Maintenant, reçois-le dans ta maison à la place que tu as préparée ; Ouvre-lui tes bras, et donne-lui le bonheur que rien ne peut détruire. Par Jésus Christ.",
+        "de": "Gott, du allein bist gut und allezeit barmherzig. Wir bitten dich für unseren Bruder ( unsere Schwester ) N. , den ( die ) du (heute) zu dir gerufen hast. An dich hat er ( sie ) geglaubt und auf dich gehofft; führe ihn ( sie ) zur wahren Heimat, lass ihn ( sie ) die ewige Freude genießen und in deinem Frieden geborgen sein. Darum bitten wir durch Jesus Christus."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Deus, cui próprium est miseréri semper et párcere, te súpplices exorámus pro fámulo tuo"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": ", quem"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": "hódie"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": "ad te migráre iussísti, ut, quia in te sperávit et crédidit, concédas eum ad veram pátriam perdúci, et gáudiis pérfrui sempitérnis. Per Dóminum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Oh, Dios,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "siempre dispuesto a la misericordia y al perdón,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "escucha nuestras súplicas por tu siervo"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": ","
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "a quien has llamado"
+            },
+            {
+              "type": "rubric",
+              "text": "["
+            },
+            {
+              "type": "text",
+              "text": "hoy"
+            },
+            {
+              "type": "rubric",
+              "text": "]"
+            },
+            {
+              "type": "text",
+              "text": "a tu presencia,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "y, porque en ti creyó y esperó,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "condúcelo a la patria verdadera para que goce contigo de las alegrías eternas."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por nuestro Señor Jesucristo."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "O God, whose nature is always to forgive and to show mercy,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "we humbly implore you for your servant"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": ","
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "whom you have called"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": "this day"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": "to journey to you,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "and, since he"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": "she"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": "hoped and believed in you,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "grant that he"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": "she"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": "may be led to our true homeland to delight in its everlasting joys."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Through our lord Jesus Christ, your son,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "who lives and reigns with you in the unity of the Holy Spirit,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "one God, for ever and ever."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Ó Deus, que sempre estais disposto a ter compaixão e a perdoar, nós vos suplicamos em favor do vosso servo"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": "que"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": "hoje"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": "chamastes à vossa presença; porque esperou e acreditou em vós, concedei-lhe ser conduzido à verdadeira pátria e gozar das alegrias eternas. Por nosso Senhor Jesus Cristo,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "vosso Filho, que é Deus, e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "O Dio, che sempre usi misericordia e perdoni, ascolta le preghiere che ti rivolgiamo per il nostro fratello"
+            },
+            {
+              "type": "rubric",
+              "text": "["
+            },
+            {
+              "type": "text",
+              "text": "alla nostra sorella"
+            },
+            {
+              "type": "rubric",
+              "text": "] N."
+            },
+            {
+              "type": "text",
+              "text": "che"
+            },
+            {
+              "type": "rubric",
+              "text": "["
+            },
+            {
+              "type": "text",
+              "text": "oggi"
+            },
+            {
+              "type": "rubric",
+              "text": "]"
+            },
+            {
+              "type": "text",
+              "text": "hai fatto passare a te da questo mondo, e poiché in te ha sperato e creduto,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "conducilo"
+            },
+            {
+              "type": "rubric",
+              "text": "["
+            },
+            {
+              "type": "text",
+              "text": "a"
+            },
+            {
+              "type": "rubric",
+              "text": "]"
+            },
+            {
+              "type": "text",
+              "text": "alla patria del cielo e donagli"
+            },
+            {
+              "type": "rubric",
+              "text": "["
+            },
+            {
+              "type": "text",
+              "text": "donale"
+            },
+            {
+              "type": "rubric",
+              "text": "]"
+            },
+            {
+              "type": "text",
+              "text": "la gioia senza fine. Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Seigneur, n'oublie pas ce que tu es pour les tiens :"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "un Père qui aime à pardonner,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "un ami qui ne ferme jamais son cœur."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Écoute-nous quand nous t'implorons pour ton serviteur"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": ", notre frère,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "que tu viens d'appeler à toi."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Tant qu'il a vécu au milieu de nous,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "tu as été son espérance et sa foi :"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Maintenant, reçois-le dans ta maison à la place que tu as préparée ;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Ouvre-lui tes bras, et donne-lui le bonheur que rien ne peut détruire."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Par Jésus Christ"
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Gott, du allein bist gut und allezeit barmherzig. Wir bitten dich für unseren Bruder"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": "unsere Schwester"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": ", den"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": "die"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": "du (heute) zu dir gerufen hast. An dich hat er"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": "sie"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": "geglaubt und auf dich gehofft; führe ihn"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": "sie"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": "zur wahren Heimat, lass ihn"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": "sie"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": "die ewige Freude genießen und in deinem Frieden geborgen sein. Darum bitten wir durch Jesus Christus."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "prayerOverOfferings": {
+    "body": {
+      "plain": {
+        "la": "Pro fámuli tui N. salúte hóstias tibi, Dómine, supplíciter offérimus tuam cleméntiam deprecántes, ut, qui Fílium tuum pium Salvatórem esse non dubitávit, misericórdem Iúdicem invéniat. Qui vivit et regnat in sǽcula sæculórum.",
+        "es": "Te presentamos, Señor, estas ofrendas implorando de tu bondad la salvación de tu siervo N. ; concédele que tu Hijo Jesucristo, del que no dudó fuese su Salvador, sea para él Juez misericordioso. Por Jesucristo, nuestro Señor.",
+        "en": "As we humbly present to you these sacrificial offerings, o lord, for the salvation of your servant N. , we beseech your mercy, that he ( she ) , who did not doubt your son to be a loving savior, may find in him a merciful Judge. Who lives and reigns for ever and ever.",
+        "pt-BR": "Senhor, implorando a vossa compaixão, humildemente vos oferecemos este sacrifício pela salvação do vosso servo N. ; e, porque jamais duvidou da bondade do Salvador, encontre em vosso Filho um Juiz misericordioso. Que vive e reina pelos séculos dos séculos.",
+        "it": "Ti offriamo, o Padre, questo sacrificio per la salvezza del nostro fratello [ alla nostra sorella ] N. , e supplichiamo la tua clemenza perché possa incontrare come giudice misericordioso il tuo Figlio, che nella fede ha riconosciuto suo salvatore. Egli vive e regna nei secoli dei secoli.",
+        "fr": "En te présentant, Seigneur, cette offrande pour le salut de ton serviteur N. , nous faisons appel à ton amour : N. a toujours vu en ton Fils, un Sauveur plein de bonté ; Fais qu'il trouve maintenant en lui le juge dont il n'a rien à craindre. Par Jésus.",
+        "de": "Barmherziger Gott, wir bringen unsere Gaben dar für deinen Diener ( deine Dienerin ) N. In seinem (ihren) Leben hat er (sie) an Christus, unseren Erlöser und Heiland, geglaubt; darum sei ihm (ihr) Christus auch ein gnädiger Richter. Er, der mit dir lebt und herrscht in alle Ewigkeit."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Pro fámuli tui"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": "salúte hóstias tibi, Dómine,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "supplíciter offérimus tuam cleméntiam deprecántes, ut, qui Fílium tuum pium Salvatórem esse non dubitávit, misericórdem Iúdicem invéniat. Qui vivit et regnat in sǽcula sæculórum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Te presentamos, Señor, estas ofrendas implorando de tu bondad la salvación de tu siervo"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": ";"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "concédele que tu Hijo Jesucristo,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "del que no dudó fuese su Salvador,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "sea para él Juez misericordioso."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por Jesucristo, nuestro Señor."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "As we humbly present to you these sacrificial offerings, o lord,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "for the salvation of your servant"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": ","
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "we beseech your mercy,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "that he"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": "she"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": ", who did not doubt your son to be a loving savior,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "may find in him a merciful Judge."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Who lives and reigns for ever and ever."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Senhor, implorando a vossa compaixão, humildemente vos oferecemos este sacrifício pela salvação do vosso servo"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": "; e, porque jamais duvidou da bondade do Salvador, encontre em vosso Filho um Juiz misericordioso. Que vive e reina pelos séculos dos séculos."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "Ti offriamo, o Padre, questo sacrificio per la salvezza del nostro fratello"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "["
+            },
+            {
+              "type": "text",
+              "text": "alla nostra sorella"
+            },
+            {
+              "type": "rubric",
+              "text": "] N."
+            },
+            {
+              "type": "text",
+              "text": ", e supplichiamo la tua clemenza perché possa incontrare come giudice misericordioso il tuo Figlio, che nella fede ha riconosciuto suo salvatore."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Egli vive e regna nei secoli dei secoli."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "En te présentant,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Seigneur, cette offrande pour le salut de ton serviteur"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": ","
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "nous faisons appel à ton amour :"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "N. a toujours vu en ton Fils,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "un Sauveur plein de bonté ;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Fais qu'il trouve maintenant en lui le juge dont il n'a rien à craindre."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Par Jésus."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Barmherziger Gott, wir bringen unsere Gaben dar für deinen Diener"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": "deine Dienerin"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": "In seinem (ihren) Leben hat er (sie) an Christus, unseren Erlöser und Heiland,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "geglaubt; darum sei ihm (ihr) Christus auch ein gnädiger Richter. Er, der mit dir lebt und herrscht in alle Ewigkeit."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "preface": {
+    "prefaceRef": "preface.pf067",
+    "alternativeRefs": [
+      "preface.pf068",
+      "preface.pf069",
+      "preface.pf070",
+      "preface.pf071"
+    ],
+    "label": {
+      "la": "I",
+      "es": "I",
+      "en": "I",
+      "pt-BR": "I",
+      "it": "I",
+      "fr": "I",
+      "de": "I"
+    },
+    "excerpt": {
+      "la": "Quia, etsi nostri est mériti quod",
+      "es": "Porque el ser llamados de nuevo a la vida",
+      "en": "For even though by our own fault we perish,",
+      "pt-BR": "Pois, embora mereçamos morrer",
+      "it": "La morte è comune eredità di tutti,",
+      "fr": "Même si nous sommes destinés à mourir,",
+      "de": "Durch die Sünde kam der Tod in die Welt,"
+    }
+  },
+  "communionAntiphon": {
+    "body": {
+      "plain": {
+        "la": "Lux ætérna lúceat eis, Dómine, cum Sanctis tuis in ætérnum, quia pius es. Réquiem ætérnam dona eis, Dómine, et lux perpétua lúceat eis, cum Sanctis tuis in ætérnum, quia pius es.",
+        "es": "Brille, Señor, sobre ellos la luz eterna; vivan con tus santos por siempre, porque tú eres compasivo. Señor, dales el descanso eterno y brille sobre ellos la luz eterna; vivan con tus santos por siempre, porque tú eres compasivo.",
+        "en": "Let perpetual light shine upon them ( him her ) , with your Saints for ever, for you are merciful. eternal rest grant unto them ( him her ) , O Lord, and let perpetual light shine upon them ( him her ) , with your Saints for ever, for you are merciful.",
+        "pt-BR": "Brilhe para eles a vossa luz, ó Senhor, no convívio dos vossos santos, porque sois bom. Dai-lhes, Senhor, o descanso eterno e brilhe para eles a vossa luz, no convívio dos vossos santos, porque sois bom.",
+        "it": "Splenda ad essi la luce perpetua, insieme ai tuoi santi, in eterno, o Signore, perché tu sei buono. L'eterno riposo dona loro, o Signore, e splenda ad essi la luce perpetua, insieme ai tuoi santi, in eterno, o Signore, perché tu sei buono.",
+        "fr": "Fais briller sur nos frères, Seigneur, ta lumière éternelle ; qu'ils entrent dans ta joie en compagnie des saints, car tu es bon.",
+        "de": "Das ewige Licht leuchte ihnen, o Herr, bei deinen Heiligen in Ewigkeit; denn du bist unser Vater. Herr, gib ihnen das ewige Leben, und das ewige Licht leuchte ihnen; denn du bist unser Vater."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Lux ætérna lúceat eis, Dómine, cum Sanctis tuis in ætérnum, quia pius es."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Réquiem ætérnam dona eis, Dómine, et lux perpétua lúceat eis, cum Sanctis tuis in ætérnum, quia pius es."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Brille, Señor, sobre ellos la luz eterna; vivan con tus santos por siempre,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "porque tú eres compasivo. Señor, dales el descanso eterno y brille sobre ellos la luz eterna; vivan con tus santos por siempre, porque tú eres compasivo."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "Let perpetual light shine upon them"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": "him"
+            },
+            {
+              "type": "text",
+              "text": "her"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": ","
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "with your Saints for ever, for you are merciful. eternal rest grant unto them"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": "him"
+            },
+            {
+              "type": "text",
+              "text": "her"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": ", O Lord,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "and let perpetual light shine upon them"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": "him"
+            },
+            {
+              "type": "text",
+              "text": "her"
+            },
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": ","
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "with your Saints for ever, for you are merciful."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Brilhe para eles a vossa luz, ó Senhor, no convívio dos vossos santos, porque sois bom. Dai-lhes, Senhor, o descanso eterno e brilhe para eles a vossa luz,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "no convívio dos vossos santos, porque sois bom."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "Splenda ad essi la luce perpetua, insieme ai tuoi santi, in eterno, o Signore,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "perché tu sei buono. L'eterno riposo dona loro, o Signore, e splenda ad essi la luce perpetua, insieme ai tuoi santi, in eterno, o Signore, perché tu sei buono."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Fais briller sur nos frères, Seigneur, ta lumière éternelle ;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "qu'ils entrent dans ta joie en compagnie des saints,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "car tu es bon."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Das ewige Licht leuchte ihnen, o Herr, bei deinen Heiligen in Ewigkeit; denn du bist unser Vater. Herr, gib ihnen das ewige Leben, und das ewige Licht leuchte ihnen; denn du bist unser Vater."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "postcommunion": {
+    "body": {
+      "plain": {
+        "la": "Dómine Deus, cuius Fílius in sacraménto Córporis sui viáticum nobis relíquit, concéde propítius, ut per hoc frater noster N. ad ipsam Christi pervéniat mensam ætérnam. Qui vivit et regnat in sǽcula sæculórum.",
+        "es": "Señor y Dios, por el sacramento del Cuerpo de tu Hijo que nos dejó como viático, te pedimos en tu bondad que nuestro hermano N. llegue a la mesa eterna de Cristo. Él, que vive y reina por los siglos de los siglos.",
+        "en": "Lord God, whose son left us, in the sacrament of his Body, food for the journey, mercifully grant that, strengthened by it, our brother ( sister ) N. may come to the eternal table of Christ. Who lives and reigns for ever and ever.",
+        "pt-BR": "Senhor nosso Deus, no sacramento do seu Corpo, vosso Filho nos deixou o alimento dos que partem desta vida; concedei benigno ao nosso irmão N. , chegar, pela força deste viático, à mesa eterna de Cristo. Que vive e reina pelos séculos dos séculos.",
+        "it": "Signore Dio nostro, il tuo Figlio ci ha lasciato il sacramento del suo Corpo come viatico nel pellegrinaggio terreno: concedi benigno che per la sua potenza il nostro fratello [ alla nostra sorella ] N. giunga al convito eterno di Cristo. Egli vive e regna nei secoli dei secoli.",
+        "fr": "Ton Fils nous a donné, Seigneur, dans le sacrement de son corps et de son sang les vivres dont nous avons besoin pour la route qui mène jusqu'à toi ; Que cette eucharistie permette à notre frère de parvenir à la table préparée dans ta maison. Par Jésus.",
+        "de": "Barmherziger, gütiger Gott, in diesem Sakrament hat uns Christus seinen Leib als Wegzehrung hinterlassen. Führe unseren verstorbenen Bruder ( unsere verstorbene Schwester ) N. durch die Kraft dieser Speise (die er [ sie ] vor seinem [ ihrem ] Hinscheiden empfangen hat) zum ewigen Gastmahl in deinem Reich. Darum bitten wir durch Christus, unseren Herrn."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Dómine Deus, cuius Fílius in sacraménto Córporis sui viáticum nobis relíquit,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "concéde propítius, ut per hoc frater noster"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": "ad ipsam Christi pervéniat mensam ætérnam. Qui vivit et regnat in sǽcula sæculórum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Señor y Dios,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "por el sacramento del Cuerpo de tu Hijo que nos dejó como viático,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "te pedimos en tu bondad que nuestro hermano"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "N."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "llegue a la mesa eterna de Cristo."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Él,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "que vive y reina por los siglos de los siglos."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "Lord God, whose son left us,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "in the sacrament of his Body,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "food for the journey,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "mercifully grant that, strengthened by it, our brother"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": "sister"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": "may come to the eternal table of Christ."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Who lives and reigns for ever and ever."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Senhor nosso Deus, no sacramento do seu Corpo, vosso Filho nos deixou o alimento dos que partem desta vida; concedei benigno ao nosso irmão"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": ", chegar, pela força deste viático, à mesa eterna de Cristo. Que vive e reina pelos séculos dos séculos."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "Signore Dio nostro, il tuo Figlio ci ha lasciato il sacramento del suo Corpo come viatico nel pellegrinaggio terreno: concedi benigno che per la sua potenza il nostro fratello"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "["
+            },
+            {
+              "type": "text",
+              "text": "alla nostra sorella"
+            },
+            {
+              "type": "rubric",
+              "text": "] N."
+            },
+            {
+              "type": "text",
+              "text": "giunga al convito eterno di Cristo. Egli vive e regna nei secoli dei secoli."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Ton Fils nous a donné, Seigneur,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "dans le sacrement de son corps et de son sang les vivres dont nous avons besoin pour la route qui mène jusqu'à toi ;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Que cette eucharistie permette à notre frère de parvenir à la table préparée dans ta maison."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Par Jésus."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Barmherziger, gütiger Gott, in diesem Sakrament hat uns Christus seinen Leib als Wegzehrung hinterlassen. Führe unseren verstorbenen Bruder"
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": ""
+            },
+            {
+              "type": "text",
+              "text": "unsere verstorbene Schwester"
+            },
+            {
+              "type": "rubric",
+              "text": "N."
+            },
+            {
+              "type": "text",
+              "text": "durch die Kraft dieser Speise die er"
+            },
+            {
+              "type": "rubric",
+              "text": "["
+            },
+            {
+              "type": "text",
+              "text": "sie"
+            },
+            {
+              "type": "rubric",
+              "text": "]"
+            },
+            {
+              "type": "text",
+              "text": "vor seinem"
+            },
+            {
+              "type": "rubric",
+              "text": "["
+            },
+            {
+              "type": "text",
+              "text": "ihrem"
+            },
+            {
+              "type": "rubric",
+              "text": "]"
+            },
+            {
+              "type": "text",
+              "text": "Hinscheiden empfangen hat zum ewigen Gastmahl in deinem Reich. Darum bitten wir durch Christus, unseren Herrn."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "liturgicalColor": "violet"
+}

@@ -1,0 +1,2239 @@
+{
+  "id": "sanctorale.movable.05-34",
+  "group": "sanctorale",
+  "movable": true,
+  "movableMonthAnchor": 5,
+  "movableCode": "0534",
+  "entranceAntiphon": {
+    "body": {
+      "plain": {
+        "la": "Diléxit nos Christus, et lavit nos a peccátis nostris in sánguine suo, et fecit nos regnum et sacerdótes Deo et Patri suo, allelúia.",
+        "fr": "Diléxit nos Christus, et lavit nos a peccátis nostris in sánguine suo, et fecit nos regnum et sacerdótes Deo et Patri suo, alléluia.",
+        "de": "Christus liebt uns und hat uns durch sein Blut befreit von unseren Sünden; er hat uns die Würde von Königen gegeben und uns zu Priestern gemacht für den Dienst vor seinem Gott und Vater. Halleluja."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Diléxit nos Christus, et lavit nos a peccátis nostris in sánguine suo, et fecit nos regnum et sacerdótes Deo et Patri suo, allelúia."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Diléxit nos Christus, et lavit nos a peccátis nostris in sánguine suo, et fecit nos regnum et sacerdótes Deo et Patri suo, alléluia."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Christus liebt uns und hat uns durch sein Blut befreit von unseren Sünden; er hat uns die Würde von Königen gegeben und uns zu Priestern gemacht für den Dienst vor seinem Gott und Vater. Halleluja."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "gloriaInstruction": {
+    "body": {
+      "plain": {
+        "la": "Dicitur Glória in excelsis",
+        "pt-BR": "Diz-se o Glória",
+        "fr": "On récite le Gloria",
+        "de": "Gloria"
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "rubric",
+              "text": "Dicitur"
+            },
+            {
+              "type": "italic",
+              "text": "Glória in excelsis"
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "rubric",
+              "text": "Diz-se o"
+            },
+            {
+              "type": "italic",
+              "text": "Glória"
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "rubric",
+              "text": "On récite le"
+            },
+            {
+              "type": "italic",
+              "text": "Gloria"
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "italic",
+              "text": "Gloria"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "preface": {
+    "prefaceRef": "preface.pf031",
+    "excerpt": {
+      "la": "Quia fílios, quos longe peccáti crimen abstúlerat",
+      "pt-BR": "Pois, pelo sangue do vosso Filho",
+      "fr": "Quia fílios, quos longe peccáti crimen abstúlerat",
+      "de": "Die Sünde hatte die Menschen von dir getrennt"
+    }
+  },
+  "communionAntiphon": {
+    "body": {
+      "plain": {
+        "la": "Cum vénerit Spíritus veritátis, docébit vos omnem veritátem, dicit Dóminus, allelúia.",
+        "pt-BR": "Cum vénerit Spíritus veritátis, docébit vos omnem veritátem, dicit Dóminus, aleluia.",
+        "fr": "Cum vénerit Spíritus veritátis, docébit vos omnem veritátem, dicit Dóminus, alléluia.",
+        "de": "Wenn der Geist der Wahrheit kommt, wird er euch in die volle Wahrheit einführen. Halleluja."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Cum vénerit Spíritus veritátis, docébit vos omnem veritátem, dicit Dóminus,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "allelúia."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Cum vénerit Spíritus veritátis, docébit vos omnem veritátem, dicit Dóminus,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "aleluia."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Cum vénerit Spíritus veritátis, docébit vos omnem veritátem, dicit Dóminus,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "alléluia."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Wenn der Geist der Wahrheit kommt, wird er euch in die volle Wahrheit einführen. Halleluja."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "readings": {
+    "A": {
+      "firstReading": {
+        "label": {
+          "la": "Lectio prior",
+          "fr": "Première lecture",
+          "de": "Erste Lesung"
+        },
+        "introduction": {
+          "la": "Léctio Actuum Apostolórum",
+          "fr": "Livre des Actes des Apôtres",
+          "de": "Lesung aus der Apostelgeschichte"
+        },
+        "body": {
+          "plain": {
+            "la": "Apériens autem Petrus os dixit: «In veritáte compério quóniam non est personárum accéptor Deus, sed in omni gente, qui timet eum et operátur iustítiam, accéptus est illi. Et præcépit nobis prædicáre pópulo et testificári quia ipse est, qui constitútus est a Deo iudex vivórum et mortuórum. Huic omnes Prophétæ testimónium pérhibent remissiónem peccatórum accípere per nomen eius omnes, qui credunt in eum». Adhuc loquénte Petro, cécidit Spíritus Sanctus super omnes, qui audiébant verbum. Et obstupuérunt, qui ex circumcisióne fidéles, qui vénerant cum Petro, quia et in natiónes grátia Spíritus Sancti effúsa est; audiébant enim illos loquéntes línguis et magnificántes Deum. Tunc respóndit Petrus: «Numquid aquam quis prohibére potest, ut non baptizéntur hi, qui Spíritum Sanctum accepérunt sicut et nos?». Et iussit eos in nómine Iesu Christi baptizári. Factum est verbum Dómini ad me dicens: «Fili hóminis, domus Israel habitavérunt in humo sua et polluérunt eam in viis suis et in opéribus suis. Et effúdi indignatiónem meam super eos pro sánguine, quem fudérunt super terram, et in idólis suis polluérunt eam. Et dispérsi eos in gentes, et ventiláti sunt in terras; iuxta vias eórum et iuxta ópera eórum iudicávi eos. Et ingréssi sunt ad gentes, ad quas introiérunt, et polluérunt nomen sanctum meum, cum dicerétur de eis: «Pópulus Dómini iste est, et de terra eius egréssi sunt». Et pepérci nómini meo sancto, quod pollúerat domus Israel in géntibus, ad quas ingréssi sunt. Idcírco dices dómui Israel: Hæc dicit Dóminus Deus: Non propter vos ego fáciam, domus Israel, sed propter nomen sanctum meum, quod polluístis in géntibus, ad quas intrástis; et sanctificábo nomen meum magnum, quod pollútum est inter gentes, quod polluístis in médio eárum, ut sciant gentes quia ego Dóminus, ait Dóminus Deus, cum sanctificátus fúero in vobis coram eis. Tollam quippe vos de géntibus et congregábo vos de univérsis terris et addúcam vos in terram vestram; et effúndam super vos aquam mundam, et mundabímini ab ómnibus inquinaméntis vestris, et ab univérsis idólis vestris mundábo vos. Et dabo vobis cor novum et spíritum novum ponam in médio vestri et áuferam cor lapídeum de carne vestra et dabo vobis cor cárneum; et spíritum meum ponam in médio vestri et fáciam, ut in præcéptis meis ambulétis et iudícia mea custodiátis et operémini. Et habitábitis in terra, quam dedi pátribus vestris, et éritis mihi in pópulum, et ego ero vobis in Deum».",
+            "de": "In jenen Tagen begann Petrus zu reden und sagte: Wahrhaftig, jetzt begreife ich, dass Gott nicht auf die Person sieht, sondern dass ihm in jedem Volk willkommen ist, wer ihn fürchtet und tut, was recht ist. Er hat uns geboten, dem Volk zu verkündigen und zu bezeugen: Das ist der von Gott eingesetzte Richter der Lebenden und der Toten. Von ihm bezeugen alle Propheten, dass jeder, der an ihn glaubt, durch seinen Namen die Vergebung der Sünden empfängt. Noch während Petrus dies sagte, kam der Heilige Geist auf alle herab, die das Wort hörten. Die gläubig gewordenen Juden, die mit Petrus gekommen waren, konnten es nicht fassen, dass auch auf die Heiden die Gabe des Heiligen Geistes ausgegossen wurde. Denn sie hörten sie in Zungen reden und Gott preisen. Petrus aber sagte: Kann jemand denen das Wasser zur Taufe verweigern, die ebenso wie wir den Heiligen Geist empfangen haben? Und er ordnete an, sie im Namen Jesu Christi zu taufen. Das Wort des Herrn erging an mich: Hör zu, Menschensohn! Als Israel in seinem Land wohnte, machten sie das Land durch ihr Verhalten und ihre Taten unrein. Da goss ich meinen Zorn über sie aus, weil sie Blut vergossen im Land und das Land mit ihren Götzen befleckten. Ich zerstreute sie unter die Völker; in alle Länder wurden sie vertrieben. Nach ihrem Verhalten und nach ihren Taten habe ich sie gerichtet. Als sie aber zu den Völkern kamen, entweihten sie überall, wohin sie kamen, meinen heiligen Namen; denn man sagte von ihnen: Das ist das Volk Jahwes, und doch mussten sie sein Land verlassen. Da tat mir mein heiliger Name leid, den das Haus Israel bei den Völkern entweihte, wohin es auch kam. Darum sag zum Haus Israel: So spricht Gott, der Herr: Nicht euretwegen handle ich, Haus Israel, sondern um meines heiligen Namens willen, den ihr bei den Völkern entweiht habt, wohin ihr auch gekommen seid. Meinen großen, bei den Völkern entweihten Namen, den ihr mitten unter ihnen entweiht habt, werde ich wieder heiligen. Und die Völker - Spruch Gottes, des Herrn - werden erkennen, dass ich der Herr bin, wenn ich mich an euch vor ihren Augen als heilig erweise. Ich hole euch heraus aus den Völkern, ich sammle euch aus allen Ländern und bringe euch in euer Land. Ich gieße reines Wasser über euch aus, dann werdet ihr rein. Ich reinige euch von aller Unreinheit und von allen euren Götzen. Ich schenke euch ein neues Herz und lege einen neuen Geist in euch. Ich nehme das Herz von Stein aus eurer Brust und gebe euch ein Herz von Fleisch. Ich lege meinen Geist in euch und bewirke, dass ihr meinen Gesetzen folgt und auf meine Gebote achtet und sie erfüllt. Dann werdet ihr in dem Land wohnen, das ich euren Vätern gab. Ihr werdet mein Volk sein, und ich werde euer Gott sein."
+          }
+        },
+        "conclusion": {
+          "la": "Verbum Dómini.",
+          "fr": "Parole du Seigneur.",
+          "de": "Wort des lebendigen Gottes."
+        },
+        "citation": {
+          "la": "Act 10, 34–35. 42–48a",
+          "fr": "Ac 10, 34–35. 42–48a",
+          "de": "Apg 10, 34-35. 42-48a"
+        },
+        "response": {
+          "body": {
+            "plain": {
+              "la": "R/. Deo gratias.",
+              "fr": "R/. Nous rendons grâce à Dieu.",
+              "de": "A: Dank sei Gott."
+            },
+            "lines": {
+              "la": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Deo gratias."
+                  }
+                ]
+              ],
+              "fr": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Nous rendons grâce à Dieu."
+                  }
+                ]
+              ],
+              "de": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "A:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Dank sei Gott."
+                  }
+                ]
+              ]
+            }
+          }
+        }
+      },
+      "responsorialPsalm": {
+        "body": {
+          "plain": {
+            "la": "R/. Éritis mihi testes usque ad últimum terræ. vel Allelúia. Laudáte Dóminum, omnes gentes, collaudate eum, omnes pópuli. Quóniam confirmáta est super nos misericórdia eius, et véritas Dómini manet in ætérnum. R/. Éritis mihi testes usque ad últimum terræ. vel Allelúia.",
+            "fr": "R/. Éritis mihi testes usque ad últimum terræ. ou: Alléluia Laudáte Dóminum, omnes gentes, collaudate eum, omnes pópuli. Quóniam confirmáta est super nos misericórdia eius, et véritas Dómini manet in ætérnum. R/. Éritis mihi testes usque ad últimum terræ. ou: Alléluia",
+            "de": "R/. Ihr werdet meine Zeugen sein bis an die Grenzen der Erde. Oder: Halleluja. Lobet den Herrn, alle Völker, preist ihn, alle Nationen! Denn mächtig waltet über uns seine Huld, die Treue des Herrn währt in Ewigkeit. R/. Ihr werdet meine Zeugen sein bis an die Grenzen der Erde. Oder: Halleluja."
+          },
+          "lines": {
+            "la": [
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Éritis mihi testes usque ad últimum terræ."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "vel"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Allelúia."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Laudáte Dóminum, omnes gentes,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "collaudate eum, omnes pópuli."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Quóniam confirmáta est super nos misericórdia eius,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "et véritas Dómini manet in ætérnum."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Éritis mihi testes usque ad últimum terræ."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "vel"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Allelúia."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Éritis mihi testes usque ad últimum terræ."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "ou:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Alléluia Laudáte Dóminum, omnes gentes,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "collaudate eum, omnes pópuli."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Quóniam confirmáta est super nos misericórdia eius,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "et véritas Dómini manet in ætérnum."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Éritis mihi testes usque ad últimum terræ."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "ou:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Alléluia"
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Ihr werdet meine Zeugen sein bis an die Grenzen der Erde."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "Oder:"
+                },
+                {
+                  "type": "response",
+                  "text": "Halleluja."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Lobet den Herrn, alle Völker,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "preist ihn, alle Nationen!"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Denn mächtig waltet über uns seine Huld,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "die Treue des Herrn währt in Ewigkeit."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Ihr werdet meine Zeugen sein bis an die Grenzen der Erde."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "Oder:"
+                },
+                {
+                  "type": "response",
+                  "text": "Halleluja."
+                }
+              ]
+            ]
+          }
+        },
+        "citation": {
+          "la": "Ps 116, 1-2",
+          "de": "Ps 117",
+          "en": "Ps 116:1-2",
+          "es": "Sal 116, 1-2",
+          "pt-BR": "Sl 116, 1-2",
+          "it": "Sal 116, 1-2",
+          "fr": "Ps 116, 1-2"
+        }
+      },
+      "secondReading": {
+        "label": {
+          "la": "Lectio secunda",
+          "fr": "Deuxième lecture",
+          "de": "Zweite Lesung"
+        },
+        "introduction": {
+          "la": "Léctio Epístolæ beáti Pauli apóstoli ad Ephésios",
+          "de": "Lesung aus dem Brief des Apostels Paulus an die Epheser"
+        },
+        "body": {
+          "plain": {
+            "la": "Fratres: Óbsecro vos, ut digne ambulétis vocatióne, qua vocáti estis, cum omni humilitáte et mansuetúdine, cum longanimitáte, supportántes ínvicem in caritáte, sollíciti serváre unitátem spíritus in vínculo pacis; unum corpus et unus Spíritus, sicut et vocáti estis in una spe vocatiónis vestræ; unus Dóminus, una fides, unum baptísma; unus Deus et Pater ómnium, qui super omnes et per ómnia et in ómnibus.",
+            "de": "Brüder! Führt ein Leben, das des Rufes würdig ist, der an euch erging. Seid demütig, friedfertig und geduldig, ertragt einander in Liebe, und bemüht euch, die Einheit des Geistes zu wahren durch den Frieden, der euch zusammenhält. E i n Leib und e i n Geist, wie euch durch eure Berufung auch e i n e gemeinsame Hoffnung gegeben ist; e i n Herr, e i n Glaube, e i n e Taufe, e i n Gott und Vater aller, der über allem und durch alles und in allem ist."
+          }
+        },
+        "conclusion": {
+          "la": "Verbum Dómini.",
+          "fr": "Parole du Seigneur.",
+          "de": "Wort des lebendigen Gottes."
+        },
+        "citation": {
+          "la": "Eph 4, 1b-6",
+          "fr": "Ep 4, 1b-6",
+          "de": "Eph 4, 1b-6"
+        },
+        "response": {
+          "body": {
+            "plain": {
+              "la": "R/. Deo gratias.",
+              "fr": "R/. Nous rendons grâce à Dieu.",
+              "de": "A: Dank sei Gott."
+            },
+            "lines": {
+              "la": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Deo gratias."
+                  }
+                ]
+              ],
+              "fr": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Nous rendons grâce à Dieu."
+                  }
+                ]
+              ],
+              "de": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "A:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Dank sei Gott."
+                  }
+                ]
+              ]
+            }
+          }
+        }
+      },
+      "gospelAcclamation": {
+        "body": {
+          "plain": {
+            "la": "Alleluia, allelúia. Veni, Sancte Spíritus, reple tuórum corda fidélium; et tui amóris in eis ignem accénde. Allelúia.",
+            "fr": "Alléluia, alléluia. Veni, Sancte Spíritus, reple tuórum corda fidélium; et tui amóris in eis ignem accénde. Alléluia.",
+            "de": "Ruf vor dem Evangelium Halleluja. Halleluja. Komm, Heiliger Geist, erfülle die Herzen deiner Gläubigen, und entzünde in ihnen das Feuer deiner Liebe! Halleluja."
+          },
+          "lines": {
+            "la": [
+              [
+                {
+                  "type": "text",
+                  "text": "Alleluia, allelúia. Veni, Sancte Spíritus, reple tuórum corda fidélium; et tui amóris in eis ignem accénde. Allelúia."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Alléluia, alléluia. Veni, Sancte Spíritus, reple tuórum corda fidélium; et tui amóris in eis ignem accénde. Alléluia."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Ruf vor dem Evangelium Halleluja. Halleluja. Komm, Heiliger Geist, erfülle die Herzen deiner Gläubigen, und entzünde in ihnen das Feuer deiner Liebe! Halleluja."
+                }
+              ]
+            ]
+          }
+        }
+      },
+      "gospel": {
+        "label": {
+          "la": "Evangelium",
+          "fr": "Proclamation de l'Évangile",
+          "de": "Evangelium"
+        },
+        "introduction": {
+          "la": "✠ Léctio sancti Evangélii secúndum Ioánnem",
+          "fr": "✠ Évangile de Jésus-Christ selon saint Jean",
+          "de": "✠ Aus dem heiligen Evangelium nach Johannes"
+        },
+        "body": {
+          "plain": {
+            "la": "In illo témpore: Dixit Iesus discípulis suis: «Cum autem vénerit Paráclitus, quem ego mittam vobis a Patre, Spíritum veritátis, qui a Patre procédit, ille testimónium perhibébit de me; sed et vos testimónium perhibétis, quia ab inítio mecum estis. Hæc locútus sum vobis, ut non scandalizémini. Absque synagógis fácient vos; sed venit hora, ut omnis, qui intérficit vos, arbitrétur obséquium se præstáre Deo. Et hæc fácient, quia non novérunt Patrem neque me. Adhuc multa hábeo vobis dícere, sed non potéstis portáre modo. Cum autem vénerit ille, Spíritus veritátis, dedúcet vos in omnem veritátem; non enim loquétur a semetípso, sed quæcúmque áudiet, loquétur et, quæ ventúra sunt, annuntiábit vobis. Ille me clarificábit, quia de meo accípiet et annuntiábit vobis. Ómnia, quæcúmque habet Pater, mea sunt; proptérea dixi quia de meo áccipit et annuntiábit vobis».",
+            "de": "In jener Zeit sprach Jesus zu seinen Jüngern: Wenn der Beistand kommt, den ich euch vom Vater aus senden werde, der Geist der Wahrheit, der vom Vater ausgeht, dann wird er Zeugnis für mich ablegen. Und auch ihr sollt Zeugnis ablegen, weil ihr von Anfang an bei mir seid. Das habe ich euch gesagt, damit ihr keinen Anstoß nehmt. Sie werden euch aus der Synagoge ausstoßen, ja es kommt die Stunde, in der jeder, der euch tötet, meint, Gott einen heiligen Dienst zu leisten. Das werden sie tun, weil sie weder den Vater noch mich erkannt haben. Noch vieles habe ich euch zu sagen, aber ihr könnt es jetzt nicht tragen. Wenn aber jener kommt, der Geist der Wahrheit, wird er euch in die ganze Wahrheit führen. Denn er wird nicht aus sich selbst heraus reden, sondern er wird sagen, was er hört, und euch verkünden, was kommen wird. Er wird mich verherrlichen; denn er wird von dem, was mein ist, nehmen und es euch verkünden. Alles, was der Vater hat, ist mein; darum habe ich gesagt: Er nimmt von dem, was mein ist, und wird es euch verkünden."
+          }
+        },
+        "conclusion": {
+          "la": "Verbum Dómini.",
+          "fr": "Acclamons la Parole de Dieu !",
+          "de": "Evangelium unseres Herrn Jesus Christus."
+        },
+        "citation": {
+          "la": "Io 15, 26 - 16, 3. 12-15",
+          "fr": "Jn 15, 26 - 16, 3. 12-15",
+          "de": "Joh 15, 26 - 16, 3. 12-15"
+        }
+      }
+    },
+    "B": {
+      "firstReading": {
+        "label": {
+          "la": "Lectio prior",
+          "fr": "Première lecture",
+          "de": "Erste Lesung"
+        },
+        "introduction": {
+          "la": "Léctio Actuum Apostolórum",
+          "fr": "Livre des Actes des Apôtres",
+          "de": "Lesung aus der Apostelgeschichte"
+        },
+        "body": {
+          "plain": {
+            "la": "Facta est in illa die persecútio magna in Ecclésiam, quæ erat Hierosólymis; et omnes dispérsi sunt per regiónes Iudǽæ et Samaríæ præter apóstolos. Ígitur qui dispérsi erant, pertransiérunt evangelizántes verbum. Cum autem audíssent apóstoli, qui erant Hierosólymis, quia recépit Samaría verbum Dei, misérunt ad illos Petrum et Ioánnem; qui cum descendíssent, oravérunt pro ipsis, ut accíperent Spíritum Sanctum: nondum enim super quemquam illórum vénerat, sed baptizáti tantum erant in nómine Dómini Iesu. Tunc imposuérunt manus super illos, et accipiébant Spíritum Sanctum. Facta est super me manus Dómini et edúxit me in spíritu Dómini et pósuit me in médio campi, qui erat plenus óssibus, et circumdúxit me per ea in gyro: erant autem multa valde super fáciem campi siccáque veheménter. Et dixit ad me: «Fili hóminis, putásne vivent ossa ista?». Et dixi: «Dómine, tu nosti». Et dixit ad me: «Vaticináre super ossa ista et dices eis: Ossa árida, audíte verbum Dómini. Hæc dicit Dóminus Deus óssibus his: Ecce ego intromíttam in vos spíritum, et vivétis, et dabo super vos nervos et succréscere fáciam super vos carnes et superexténdam in vobis cutem et dabo vobis spíritum, et vivétis et sciétis quia ego Dóminus». Et prophetávi, sicut præcéperat mihi. Factus est autem sónitus, prophetánte me, et ecce commótio; et accessérunt ossa ad ossa, unumquódque ad iunctúram suam. Et vidi: et ecce super ea nervi et carnes ascendérunt, et exténta est in eis cutis désuper, sed spíritum non habébant. Et dixit ad me: «Vaticináre ad spíritum; vaticináre, fili hóminis, et dices ad spíritum: Hæc dicit Dóminus Deus: A quáttuor ventis veni, spíritus, et insúffla super interféctos istos, ut revivíscant». Et prophetávi, sicut præcéperat mihi, et ingréssus est in ea spíritus; et vixérunt steterúntque super pedes suos, exércitus grandis nimis valde. Et dixit ad me: «Fili hóminis, ossa hæc univérsa domus Israel est. Ipsi dicunt: „Aruérunt ossa nostra, et périit spes nostra, et abscíssi sumus”. Proptérea vaticináre et dices ad eos: Hæc dicit Dóminus Deus: Ecce ego apériam túmulos vestros et edúcam vos de sepúlcris vestris, pópulus meus, et indúcam vos in terram Ísrael; et sciétis quia ego Dóminus, cum aperúero sepúlcra vestra et edúxero vos de túmulis vestris, pópulus meus. Et dabo spíritum meum in vobis, et vivétis, et collocábo vos super humum vestram, et sciétis quia ego Dóminus. Locútus sum et fácio», ait Dóminus Deus.",
+            "de": "An jenem Tag brach eine schwere Verfolgung über die Kirche in Jerusalem herein. Alle wurden in die Gegenden von Judäa und Samarien zerstreut, mit Ausnahme der Apostel. Die Gläubigen, die zerstreut worden waren, zogen umher und verkündeten das Wort. Als die Apostel in Jerusalem hörten, dass Samarien das Wort Gottes angenommen hatte, schickten sie Petrus und Johannes dorthin. Diese zogen hinab und beteten für sie, sie möchten den Heiligen Geist empfangen. Denn er war noch auf keinen von ihnen herabgekommen; sie waren nur auf den Namen Jesu, des Herrn, getauft. Dann legten sie ihnen die Hände auf, und sie empfingen den Heiligen Geist. Die Hand des Herrn legte sich auf mich, und der Herr brachte mich im Geist hinaus und versetzte mich mitten in die Ebene. Sie war voll von Gebeinen. Er führte mich ringsum an ihnen vorüber, und ich sah sehr viele über die Ebene verstreut liegen; sie waren ganz ausgetrocknet. Er fragte mich: Menschensohn, können diese Gebeine wieder lebendig werden? Ich antwortete: Herr und Gott, das weißt nur du. Da sagte er zu mir: Sprich als Prophet über diese Gebeine, und sag zu ihnen: Ihr ausgetrockneten Gebeine, hört das Wort des Herrn! So spricht Gott, der Herr, zu diesen Gebeinen: Ich selbst bringe Geist in euch, dann werdet ihr lebendig. Ich spanne Sehnen über euch und umgebe euch mit Fleisch; ich überziehe euch mit Haut und bringe Geist in euch, dann werdet ihr lebendig. Dann werdet ihr erkennen, dass ich der Herr bin. Da sprach ich als Prophet, wie mir befohlen war; und noch während ich redete, hörte ich auf einmal ein Geräusch: Die Gebeine rückten zusammen, Bein an Bein. Und als ich hinsah, waren plötzlich Sehnen auf ihnen, und Fleisch umgab sie, und Haut überzog sie. Aber es war noch kein Geist in ihnen. Da sagte er zu mir: Rede als Prophet zum Geist, rede, Menschensohn, sag zum Geist: So spricht Gott, der Herr: Geist, komm herbei von den vier Winden! Hauch diese Erschlagenen an, damit sie lebendig werden. Da sprach ich als Prophet, wie er mir befohlen hatte, und es kam Geist in sie. Sie wurden lebendig und standen auf - ein großes, gewaltiges Heer. Er sagte zu mir: Menschensohn, diese Gebeine sind das ganze Haus Israel. Jetzt sagt Israel: Ausgetrocknet sind unsere Gebeine, unsere Hoffnung ist untergegangen, wir sind verloren. Deshalb tritt als Prophet auf, und sag zu ihnen: So spricht Gott, der Herr: Ich öffne eure Gräber und hole euch, mein Volk, aus euren Gräbern herauf. Ich bringe euch zurück in das Land Israel. Wenn ich eure Gräber öffne und euch, mein Volk, aus euren Gräbern heraufhole, dann werdet ihr erkennen, dass ich der Herr bin. Ich hauche euch meinen Geist ein, dann werdet ihr lebendig, und ich bringe euch wieder in euer Land. Dann werdet ihr erkennen, dass ich der Herr bin. Ich habe gesprochen, und ich führe es aus - Spruch des Herrn."
+          }
+        },
+        "conclusion": {
+          "la": "Verbum Dómini.",
+          "fr": "Parole du Seigneur.",
+          "de": "Wort des lebendigen Gottes."
+        },
+        "citation": {
+          "la": "Act 8, 1b. 4. 14-17",
+          "fr": "Ac 8, 1b. 4. 14-17",
+          "de": "Apg 8, 1b. 4. 14-17"
+        },
+        "response": {
+          "body": {
+            "plain": {
+              "la": "R/. Deo gratias.",
+              "fr": "R/. Nous rendons grâce à Dieu.",
+              "de": "A: Dank sei Gott."
+            },
+            "lines": {
+              "la": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Deo gratias."
+                  }
+                ]
+              ],
+              "fr": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Nous rendons grâce à Dieu."
+                  }
+                ]
+              ],
+              "de": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "A:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Dank sei Gott."
+                  }
+                ]
+              ]
+            }
+          }
+        }
+      },
+      "responsorialPsalm": {
+        "body": {
+          "plain": {
+            "la": "R/. Narrábo nomen tuum frátribus meis. vel Allelúia. Narrábo nomen tuum frátribus meis, in médio ecclésiæ laudábo te. Qui timétis Dóminum, laudáte eum; univérsum semen Iacob, glorificáte eum. Métuat eum omne semen Ísrael. R/. Narrábo nomen tuum frátribus meis. vel Allelúia. Vota mea reddam in conspéctu timéntium eum. Edent páuperes, et saturabúntur, et laudábunt Dóminum qui requírunt eum: «Vivant corda eórum in sǽculum sǽculi». R/. Narrábo nomen tuum frátribus meis. vel Allelúia. Reminiscéntur et converténtur ad Dóminum univérsi fines terræ, et adorábunt in conspéctu eius univérsæ famíliæ géntium. Narrábitur de Dómino generatióni ventúræ, et annuntiábunt iustítiam eius pópulo qui nascétur: «Hæc fecit Dóminus». R/. Narrábo nomen tuum frátribus meis. vel Allelúia.",
+            "fr": "R/. Narrábo nomen tuum frátribus meis. ou: Alléluia Narrábo nomen tuum frátribus meis, in médio ecclésiæ laudábo te. Qui timétis Dóminum, laudáte eum; univérsum semen Iacob, glorificáte eum. Métuat eum omne semen Ísrael. R/. Narrábo nomen tuum frátribus meis. ou: Alléluia Vota mea reddam in conspéctu timéntium eum. Edent páuperes, et saturabúntur, et laudábunt Dóminum qui requírunt eum: «Vivant corda eórum in sǽculum sǽculi». R/. Narrábo nomen tuum frátribus meis. ou: Alléluia Reminiscéntur et converténtur ad Dóminum univérsi fines terræ, et adorábunt in conspéctu eius univérsæ famíliæ géntium. Narrábitur de Dómino generatióni ventúræ, et annuntiábunt iustítiam eius pópulo qui nascétur: «Hæc fecit Dóminus». R/. Narrábo nomen tuum frátribus meis. ou: Alléluia",
+            "de": "R/. Deinen Namen will ich meinen Brüdern verkünden. Oder: Halleluja. Ich will deinen Namen, Herr, meinen Brüdern verkünden, inmitten der Gemeinde dich preisen. Die ihr den Herrn fürchtet, preist ihn, ihr alle vom Stamm Jakobs, rühmt ihn; erschauert alle vor ihm, ihr Nachkommen Israels! R/. Deinen Namen will ich meinen Brüdern verkünden. Oder: Halleluja. Deine Treue preise ich in großer Gemeinde; ich erfülle meine Gelübde vor denen, die Gott fürchten. Die Armen sollen essen und sich sättigen; den Herrn sollen preisen, die ihn suchen. Aufleben soll euer Herz für immer. R/. Deinen Namen will ich meinen Brüdern verkünden. Oder: Halleluja. Alle Enden der Erde sollen daran denken und werden umkehren zum Herrn: Vor ihm werfen sich alle Stämme der Völker nieder. Vom Herrn wird man dem künftigen Geschlecht erzählen, seine Heilstat verkündet man dem kommenden Volk; denn er hat das Werk getan. R/. Deinen Namen will ich meinen Brüdern verkünden. Oder: Halleluja."
+          },
+          "lines": {
+            "la": [
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Narrábo nomen tuum frátribus meis."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "vel"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Allelúia."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Narrábo nomen tuum frátribus meis,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "in médio ecclésiæ laudábo te."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Qui timétis Dóminum, laudáte eum;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "univérsum semen Iacob, glorificáte eum."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Métuat eum omne semen Ísrael."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Narrábo nomen tuum frátribus meis."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "vel"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Allelúia."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Vota mea reddam in conspéctu timéntium eum."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Edent páuperes, et saturabúntur,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "et laudábunt Dóminum qui requírunt eum:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "«Vivant corda eórum in sǽculum sǽculi»."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Narrábo nomen tuum frátribus meis."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "vel"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Allelúia."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Reminiscéntur et converténtur ad Dóminum univérsi fines terræ,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "et adorábunt in conspéctu eius univérsæ famíliæ géntium."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Narrábitur de Dómino generatióni ventúræ,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "et annuntiábunt iustítiam eius pópulo qui nascétur:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "«Hæc fecit Dóminus»."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Narrábo nomen tuum frátribus meis."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "vel"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Allelúia."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Narrábo nomen tuum frátribus meis."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "ou:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Alléluia Narrábo nomen tuum frátribus meis,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "in médio ecclésiæ laudábo te."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Qui timétis Dóminum, laudáte eum;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "univérsum semen Iacob, glorificáte eum."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Métuat eum omne semen Ísrael."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Narrábo nomen tuum frátribus meis."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "ou:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Alléluia Vota mea reddam in conspéctu timéntium eum."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Edent páuperes, et saturabúntur,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "et laudábunt Dóminum qui requírunt eum:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "«Vivant corda eórum in sǽculum sǽculi»."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Narrábo nomen tuum frátribus meis."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "ou:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Alléluia Reminiscéntur et converténtur ad Dóminum univérsi fines terræ,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "et adorábunt in conspéctu eius univérsæ famíliæ géntium."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Narrábitur de Dómino generatióni ventúræ,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "et annuntiábunt iustítiam eius pópulo qui nascétur:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "«Hæc fecit Dóminus»."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Narrábo nomen tuum frátribus meis."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "ou:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Alléluia"
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Deinen Namen will ich meinen Brüdern verkünden."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "Oder:"
+                },
+                {
+                  "type": "response",
+                  "text": "Halleluja."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Ich will deinen Namen, Herr, meinen Brüdern verkünden,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "inmitten der Gemeinde dich preisen."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Die ihr den Herrn fürchtet, preist ihn,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "ihr alle vom Stamm Jakobs, rühmt ihn;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "erschauert alle vor ihm, ihr Nachkommen Israels!"
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Deinen Namen will ich meinen Brüdern verkünden."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "Oder:"
+                },
+                {
+                  "type": "response",
+                  "text": "Halleluja."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Deine Treue preise ich in großer Gemeinde;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "ich erfülle meine Gelübde vor denen, die Gott fürchten."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Die Armen sollen essen und sich sättigen;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "den Herrn sollen preisen, die ihn suchen."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Aufleben soll euer Herz für immer."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Deinen Namen will ich meinen Brüdern verkünden."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "Oder:"
+                },
+                {
+                  "type": "response",
+                  "text": "Halleluja."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Alle Enden der Erde sollen daran denken und werden umkehren zum Herrn:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Vor ihm werfen sich alle Stämme der Völker nieder."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Vom Herrn wird man dem künftigen Geschlecht erzählen,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "seine Heilstat verkündet man dem kommenden Volk;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "denn er hat das Werk getan."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Deinen Namen will ich meinen Brüdern verkünden."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "Oder:"
+                },
+                {
+                  "type": "response",
+                  "text": "Halleluja."
+                }
+              ]
+            ]
+          }
+        },
+        "citation": {
+          "la": "Ps 21, 23-24. 26-27. 28 et 31b-32",
+          "de": "Ps 22",
+          "en": "Ps 21:23-24, 26-27, 28 and 31b-32",
+          "es": "Sal 21, 23-24. 26-27. 28 et 31b-32",
+          "pt-BR": "Sl 21, 23-24. 26-27. 28 et 31b-32",
+          "it": "Sal 21, 23-24. 26-27. 28 et 31b-32",
+          "fr": "Ps 21, 23-24. 26-27. 28 et 31b-32"
+        }
+      },
+      "secondReading": {
+        "label": {
+          "la": "Lectio secunda",
+          "fr": "Deuxième lecture",
+          "de": "Zweite Lesung"
+        },
+        "introduction": {
+          "la": "Léctio Epístolæ beáti Pauli apóstoli ad Ephésios",
+          "de": "Lesung aus dem Brief des Apostels Paulus an die Epheser"
+        },
+        "body": {
+          "plain": {
+            "la": "Benedíctus Deus et Pater Dómini nostri Iesu Christi, qui elégit nos in ipso ante mundi constitutiónem. In quo et vos cum audissétis verbum veritátis, Evangélium salútis vestræ, in quo et credéntes signáti estis Spíritu promissiónis Sancto, qui est árrabo hereditátis nostræ in redemptiónem acquisitiónis, in laudem glóriæ ipsíus. Proptérea et ego áudiens fidem vestram, quæ est in Dómino Iesu, et dilectiónem in omnes sanctos, non cesso grátias agens pro vobis memóriam fáciens in oratiónibus meis, ut Deus Dómini nostri Iesu Christi, Pater glóriæ, det vobis Spíritum sapiéntiæ et revelatiónis in agnitióne eius, illuminátos óculos cordis vestri, ut sciátis quæ sit spes vocatiónis eius, quæ divítiæ glóriæ hereditátis eius in sanctis, et quæ sit superéminens magnitúdo virtútis eius in nos.",
+            "de": "Gepriesen sei der Gott und Vater unseres Herrn Jesus Christus: In ihm hat er uns erwählt vor der Erschaffung der Welt. Durch ihn habt auch ihr das Wort der Wahrheit gehört, das Evangelium von eurer Rettung; durch ihn habt ihr das Siegel des verheißenen Heiligen Geistes empfangen, als ihr den Glauben annahmt. Der Geist ist der erste Anteil des Erbes, das wir erhalten sollen, der Erlösung, durch die wir Gottes Eigentum werden, zum Lob seiner Herrlichkeit. Darum höre ich nicht auf, für euch zu danken, wenn ich in meinen Gebeten an euch denke; denn ich habe von eurem Glauben an Jesus, den Herrn, und von eurer Liebe zu allen Heiligen gehört. Der Gott Jesu Christi, unseres Herrn, der Vater der Herrlichkeit, gebe euch den Geist der Weisheit und Offenbarung, damit ihr ihn erkennt. Er erleuchte die Augen eures Herzens, damit ihr versteht, zu welcher Hoffnung ihr durch ihn berufen seid, welchen Reichtum die Herrlichkeit seines Erbes den Heiligen schenkt und wie überragend groß seine Macht sich an uns, den Gläubigen, erweist."
+          }
+        },
+        "conclusion": {
+          "la": "Verbum Dómini.",
+          "fr": "Parole du Seigneur.",
+          "de": "Wort des lebendigen Gottes."
+        },
+        "citation": {
+          "la": "Eph 1, 3a. 4a. 13-19a",
+          "fr": "Ep 1, 3a. 4a. 13-19a",
+          "de": "Eph 1, 3a. 4a. 13-19a"
+        },
+        "response": {
+          "body": {
+            "plain": {
+              "la": "R/. Deo gratias.",
+              "fr": "R/. Nous rendons grâce à Dieu.",
+              "de": "A: Dank sei Gott."
+            },
+            "lines": {
+              "la": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Deo gratias."
+                  }
+                ]
+              ],
+              "fr": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Nous rendons grâce à Dieu."
+                  }
+                ]
+              ],
+              "de": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "A:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Dank sei Gott."
+                  }
+                ]
+              ]
+            }
+          }
+        }
+      },
+      "gospelAcclamation": {
+        "body": {
+          "plain": {
+            "la": "Alleluia, allelúia. Veni, Sancte Spíritus, reple tuórum corda fidélium; et tui amóris in eis ignem accénde. Allelúia.",
+            "fr": "Alléluia, alléluia. Veni, Sancte Spíritus, reple tuórum corda fidélium; et tui amóris in eis ignem accénde. Alléluia.",
+            "de": "Ruf vor dem Evangelium Halleluja. Halleluja. Komm, Heiliger Geist, erfülle die Herzen deiner Gläubigen, und entzünde in ihnen das Feuer deiner Liebe! Halleluja."
+          },
+          "lines": {
+            "la": [
+              [
+                {
+                  "type": "text",
+                  "text": "Alleluia, allelúia. Veni, Sancte Spíritus, reple tuórum corda fidélium; et tui amóris in eis ignem accénde. Allelúia."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Alléluia, alléluia. Veni, Sancte Spíritus, reple tuórum corda fidélium; et tui amóris in eis ignem accénde. Alléluia."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Ruf vor dem Evangelium Halleluja. Halleluja. Komm, Heiliger Geist, erfülle die Herzen deiner Gläubigen, und entzünde in ihnen das Feuer deiner Liebe! Halleluja."
+                }
+              ]
+            ]
+          }
+        }
+      },
+      "gospel": {
+        "label": {
+          "la": "Evangelium",
+          "fr": "Proclamation de l'Évangile",
+          "de": "Evangelium"
+        },
+        "introduction": {
+          "la": "✠ Léctio sancti Evangélii secúndum Lucam",
+          "fr": "✠ Évangile de Jésus-Christ selon saint Luc",
+          "de": "✠ Aus dem heiligen Evangelium nach Lukas"
+        },
+        "body": {
+          "plain": {
+            "la": "In illa hora exsultávit Iesus Spíritu Sancto et dixit: «Confíteor tibi, Pater, Dómine cæli et terræ, quod abscondísti hæc a sapiéntibus et prudéntibus et revelásti ea párvulis; étiam, Pater, quia sic plácuit ante te. Ómnia mihi trádita sunt a Patre meo; et nemo scit qui sit Fílius, nisi Pater, et qui sit Pater, nisi Fílius et cui volúerit Fílius reveláre». Et convérsus ad discípulos seórsum dixit: «Beáti óculi, qui vident, quæ vidétis. Dico enim vobis: Multi prophétæ et reges voluérunt vidére, quæ vos vidétis, et non vidérunt, et audíre, quæ audítis, et non audiérunt».",
+            "de": "In jener Stunde rief Jesus, vom Heiligen Geist erfüllt, voll Freude aus: Ich preise dich, Vater, Herr des Himmels und der Erde, weil du all das den Weisen und Klugen verborgen, den Unmündigen aber offenbart hast. Ja, Vater, so hat es dir gefallen. Mir ist von meinem Vater alles übergeben worden; niemand weiß, wer der Sohn ist, nur der Vater, und niemand weiß, wer der Vater ist, nur der Sohn und der, dem es der Sohn offenbaren will. Jesus wandte sich an die Jünger und sagte zu ihnen allein: Selig sind die, deren Augen sehen, was ihr seht. Ich sage euch: Viele Propheten und Könige wollten sehen, was ihr seht, und haben es nicht gesehen, und wollten hören, was ihr hört, und haben es nicht gehört."
+          }
+        },
+        "conclusion": {
+          "la": "Verbum Dómini.",
+          "fr": "Acclamons la Parole de Dieu !",
+          "de": "Evangelium unseres Herrn Jesus Christus."
+        },
+        "citation": {
+          "la": "Lc 10, 21-24",
+          "fr": "Lc 10, 21-24",
+          "de": "Lk 10, 21-24"
+        }
+      }
+    },
+    "C": {
+      "firstReading": {
+        "label": {
+          "la": "Lectio prior",
+          "fr": "Première lecture",
+          "de": "Erste Lesung"
+        },
+        "introduction": {
+          "la": "Léctio Actuum Apostolórum",
+          "fr": "Livre des Actes des Apôtres",
+          "de": "Lesung aus der Apostelgeschichte"
+        },
+        "body": {
+          "plain": {
+            "la": "Factum est, ut Paulus veníret Ephesum et inveníret quosdam discípulos; dixítque ad eos: «Si Spíritum Sanctum accepístis credéntes?». At illi ad eum: «Sed neque, si Spíritus Sanctus est, audívimus». Ille vero ait: «In quo ergo baptizáti estis?». Qui dixérunt: «In Ioánnis baptísmate». Dixit autem Paulus: «Ioánnes baptizávit baptísma pæniténtiæ, pópulo dicens in eum, qui ventúrus esset post ipsum ut créderent, hoc est in Iesum». His audítis, baptizáti sunt in nómine Dómini Iesu; et cum imposuísset illis manus Paulus, venit Spíritus Sanctus super eos. Hæc dicit Dóminus: «Effúndam spíritum meum super omnem carnem, et prophetábunt fílii vestri et fíliæ vestræ, senes vestri sómnia somniábunt, et iúvenes vestri visiónes vidébunt; sed et super servos meos et ancíllas in diébus illis effúndam spíritum meum. Et dabo prodígia in cælo et in terra, sánguinem et ignem et colúmnas fumi; sol convertétur in ténebras, et luna in sánguinem, ántequam véniat dies Dómini magnus et horríbilis. Et erit: omnis, qui invocáverit nomen Dómini, salvus erit, quia in monte Sion et in Ierúsalem erit salvátio, sicut dixit Dóminus, et in resíduis, quos Dóminus vocáverit».",
+            "de": "Paulus kam nach Ephesus hinab. Er traf einige Jünger und fragte sie: Habt ihr den Heiligen Geist empfangen, als ihr gläubig wurdet? Sie antworteten ihm: Wir haben noch nicht einmal gehört, dass es einen Heiligen Geist gibt. Da fragte er sie: Mit welcher Taufe seid ihr denn getauft worden? Sie antworteten: Mit der Taufe des Johannes. Paulus sagte: Johannes hat mit der Taufe der Umkehr getauft und das Volk gelehrt, sie sollten an den glauben, der nach ihm komme: an Jesus. Als sie das hörten, ließen sie sich auf den Namen Jesu, des Herrn, taufen. Paulus legte ihnen die Hände auf, und der Heilige Geist kam auf sie herab. So spricht Gott, der Herr: Es wird geschehen, dass ich meinen Geist ausgieße über alles Fleisch. Eure Söhne und Töchter werden Propheten sein, eure Alten werden Träume haben, und eure jungen Männer haben Visionen. Auch über Knechte und Mägde werde ich meinen Geist ausgießen in jenen Tagen. Ich werde wunderbare Zeichen wirken am Himmel und auf der Erde: Blut und Feuer und Rauchsäulen. Die Sonne wird sich in Finsternis verwandeln und der Mond in Blut, ehe der Tag des Herrn kommt, der große und schreckliche Tag. Und es wird geschehen: Wer den Namen des Herrn anruft, wird gerettet. Denn auf dem Berg Zion und in Jerusalem gibt es Rettung, wie der Herr gesagt hat, und wen der Herr ruft, der wird entrinnen."
+          }
+        },
+        "conclusion": {
+          "la": "Verbum Dómini.",
+          "fr": "Parole du Seigneur.",
+          "de": "Wort des lebendigen Gottes."
+        },
+        "citation": {
+          "la": "Act 19, 1b-6a",
+          "fr": "Ac 19, 1b-6a",
+          "de": "Apg 19, 1b-6a"
+        },
+        "response": {
+          "body": {
+            "plain": {
+              "la": "R/. Deo gratias.",
+              "fr": "R/. Nous rendons grâce à Dieu.",
+              "de": "A: Dank sei Gott."
+            },
+            "lines": {
+              "la": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Deo gratias."
+                  }
+                ]
+              ],
+              "fr": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Nous rendons grâce à Dieu."
+                  }
+                ]
+              ],
+              "de": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "A:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Dank sei Gott."
+                  }
+                ]
+              ]
+            }
+          }
+        }
+      },
+      "responsorialPsalm": {
+        "body": {
+          "plain": {
+            "la": "R/. Benedícam nómini tuo, Dómine, in ætérnum. vel Allelúia. Per síngulos dies benedícam tibi, et laudábo nomen tuum in sǽculum sǽculi. Magnus Dóminus et laudábilis nimis, et magnitúdinis eius non est investigátio. R/. Benedícam nómini tuo, Dómine, in ætérnum. vel Allelúia. Generátio generatióni laudábit ópera tua, et poténtiam tuam pronuntiábunt. Magnificéntiam glóriæ maiestátis tuæ loquéntur, et mirabília tua enarrábunt. R/. Benedícam nómini tuo, Dómine, in ætérnum. vel Allelúia. Miserátor et miséricors Dóminus, longánimis et multæ misericórdiæ. Suávis Dóminus univérsis, et miseratiónes eius super ómnia ópera eius. R/. Benedícam nómini tuo, Dómine, in ætérnum. vel Allelúia. Confiteántur tibi, Dómine, ómnia ópera tua; et sancti tui benedícant tibi. Glóriam regni tui dicant, et poténtiam tuam loquántur. R/. Benedícam nómini tuo, Dómine, in ætérnum. vel Allelúia. Óculi ómnium in te sperant, et tu das illis escam in témpore opportúno. Áperis tu manum tuam, et imples omne ánimal in beneplácito. R/. Benedícam nómini tuo, Dómine, in ætérnum. vel Allelúia.",
+            "fr": "R/. Benedícam nómini tuo, Dómine, in ætérnum. ou: Alléluia Per síngulos dies benedícam tibi, et laudábo nomen tuum in sǽculum sǽculi. Magnus Dóminus et laudábilis nimis, et magnitúdinis eius non est investigátio. R/. Benedícam nómini tuo, Dómine, in ætérnum. ou: Alléluia Generátio generatióni laudábit ópera tua, et poténtiam tuam pronuntiábunt. Magnificéntiam glóriæ maiestátis tuæ loquéntur, et mirabília tua enarrábunt. R/. Benedícam nómini tuo, Dómine, in ætérnum. ou: Alléluia Miserátor et miséricors Dóminus, longánimis et multæ misericórdiæ. Suávis Dóminus univérsis, et miseratiónes eius super ómnia ópera eius. R/. Benedícam nómini tuo, Dómine, in ætérnum. ou: Alléluia Confiteántur tibi, Dómine, ómnia ópera tua; et sancti tui benedícant tibi. Glóriam regni tui dicant, et poténtiam tuam loquántur. R/. Benedícam nómini tuo, Dómine, in ætérnum. ou: Alléluia Óculi ómnium in te sperant, et tu das illis escam in témpore opportúno. Áperis tu manum tuam, et imples omne ánimal in beneplácito. R/. Benedícam nómini tuo, Dómine, in ætérnum.",
+            "de": "R/. Herr, deinen Namen will ich loben immer und ewig. Oder: Halleluja. Ich will dich preisen Tag für Tag und deinen Namen loben immer und ewig. Groß ist der Herr und hoch zu loben, seine Größe ist unerforschlich. R/. Herr, deinen Namen will ich loben immer und ewig. Oder: Halleluja. Ein Geschlecht verkünde dem andern den Ruhm deiner Werke und erzähle von deinen gewaltigen Taten. Sie sollen vom herrlichen Glanz deiner Hoheit reden; ich will deine Wunder besingen. R/. Herr, deinen Namen will ich loben immer und ewig. Oder: Halleluja. Der Herr ist gnädig und barmherzig, langmütig und reich an Gnade. Der Herr ist gütig zu allen, sein Erbarmen waltet über all seinen Werken. R/. Herr, deinen Namen will ich loben immer und ewig. Oder: Halleluja. Danken sollen dir, Herr, all deine Werke und deine Frommen dich preisen. Sie sollen von der Herrlichkeit deines Königtums reden, sollen sprechen von deiner Macht. R/. Herr, deinen Namen will ich loben immer und ewig. Oder: Halleluja. Aller Augen warten auf dich, und du gibst ihnen Speise zur rechten Zeit. Du öffnest deine Hand und sättigst alles, was lebt, nach deinem Gefallen. R/. Herr, deinen Namen will ich loben immer und ewig. Oder: Halleluja."
+          },
+          "lines": {
+            "la": [
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Benedícam nómini tuo, Dómine, in ætérnum."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "vel"
+                },
+                {
+                  "type": "response",
+                  "text": "Allelúia."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Per síngulos dies benedícam tibi,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "et laudábo nomen tuum in sǽculum sǽculi."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Magnus Dóminus et laudábilis nimis,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "et magnitúdinis eius non est investigátio."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Benedícam nómini tuo, Dómine, in ætérnum."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "vel"
+                },
+                {
+                  "type": "response",
+                  "text": "Allelúia."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Generátio generatióni laudábit ópera tua,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "et poténtiam tuam pronuntiábunt."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Magnificéntiam glóriæ maiestátis tuæ loquéntur,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "et mirabília tua enarrábunt."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Benedícam nómini tuo, Dómine, in ætérnum."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "vel"
+                },
+                {
+                  "type": "response",
+                  "text": "Allelúia."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Miserátor et miséricors Dóminus,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "longánimis et multæ misericórdiæ."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Suávis Dóminus univérsis,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "et miseratiónes eius super ómnia ópera eius."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Benedícam nómini tuo, Dómine, in ætérnum."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "vel"
+                },
+                {
+                  "type": "response",
+                  "text": "Allelúia."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Confiteántur tibi, Dómine, ómnia ópera tua;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "et sancti tui benedícant tibi."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Glóriam regni tui dicant,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "et poténtiam tuam loquántur."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Benedícam nómini tuo, Dómine, in ætérnum."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "vel"
+                },
+                {
+                  "type": "response",
+                  "text": "Allelúia."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Óculi ómnium in te sperant,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "et tu das illis escam in témpore opportúno."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Áperis tu manum tuam,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "et imples omne ánimal in beneplácito."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Benedícam nómini tuo, Dómine, in ætérnum."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "vel"
+                },
+                {
+                  "type": "response",
+                  "text": "Allelúia."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Benedícam nómini tuo, Dómine, in ætérnum."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "ou:"
+                },
+                {
+                  "type": "text",
+                  "text": "Alléluia Per síngulos dies benedícam tibi,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "et laudábo nomen tuum in sǽculum sǽculi."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Magnus Dóminus et laudábilis nimis,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "et magnitúdinis eius non est investigátio."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Benedícam nómini tuo, Dómine, in ætérnum."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "ou:"
+                },
+                {
+                  "type": "text",
+                  "text": "Alléluia Generátio generatióni laudábit ópera tua,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "et poténtiam tuam pronuntiábunt."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Magnificéntiam glóriæ maiestátis tuæ loquéntur,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "et mirabília tua enarrábunt."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Benedícam nómini tuo, Dómine, in ætérnum."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "ou:"
+                },
+                {
+                  "type": "text",
+                  "text": "Alléluia Miserátor et miséricors Dóminus,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "longánimis et multæ misericórdiæ."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Suávis Dóminus univérsis,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "et miseratiónes eius super ómnia ópera eius."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Benedícam nómini tuo, Dómine, in ætérnum."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "ou:"
+                },
+                {
+                  "type": "text",
+                  "text": "Alléluia Confiteántur tibi, Dómine, ómnia ópera tua;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "et sancti tui benedícant tibi."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Glóriam regni tui dicant,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "et poténtiam tuam loquántur."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Benedícam nómini tuo, Dómine, in ætérnum."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "ou:"
+                },
+                {
+                  "type": "text",
+                  "text": "Alléluia Óculi ómnium in te sperant,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "et tu das illis escam in témpore opportúno."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Áperis tu manum tuam,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "et imples omne ánimal in beneplácito."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Benedícam nómini tuo, Dómine, in ætérnum."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Herr, deinen Namen will ich loben immer und ewig."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "Oder:"
+                },
+                {
+                  "type": "response",
+                  "text": "Halleluja."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Ich will dich preisen Tag für Tag und deinen Namen loben immer und ewig."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Groß ist der Herr und hoch zu loben,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "seine Größe ist unerforschlich."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Herr, deinen Namen will ich loben immer und ewig."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "Oder:"
+                },
+                {
+                  "type": "response",
+                  "text": "Halleluja."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Ein Geschlecht verkünde dem andern den Ruhm deiner Werke und erzähle von deinen gewaltigen Taten."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Sie sollen vom herrlichen Glanz deiner Hoheit reden;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "ich will deine Wunder besingen."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Herr, deinen Namen will ich loben immer und ewig."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "Oder:"
+                },
+                {
+                  "type": "response",
+                  "text": "Halleluja."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Der Herr ist gnädig und barmherzig,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "langmütig und reich an Gnade."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Der Herr ist gütig zu allen,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "sein Erbarmen waltet über all seinen Werken."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Herr, deinen Namen will ich loben immer und ewig."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "Oder:"
+                },
+                {
+                  "type": "response",
+                  "text": "Halleluja."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Danken sollen dir, Herr, all deine Werke und deine Frommen dich preisen."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Sie sollen von der Herrlichkeit deines Königtums reden,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "sollen sprechen von deiner Macht."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Herr, deinen Namen will ich loben immer und ewig."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "Oder:"
+                },
+                {
+                  "type": "response",
+                  "text": "Halleluja."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Aller Augen warten auf dich,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "und du gibst ihnen Speise zur rechten Zeit."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Du öffnest deine Hand und sättigst alles, was lebt, nach deinem Gefallen."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "R/."
+                },
+                {
+                  "type": "text",
+                  "text": "Herr, deinen Namen will ich loben immer und ewig."
+                }
+              ],
+              [
+                {
+                  "type": "rubric",
+                  "text": "Oder:"
+                },
+                {
+                  "type": "response",
+                  "text": "Halleluja."
+                }
+              ]
+            ]
+          }
+        },
+        "citation": {
+          "la": "Ps 144, 2-3. 4-5. 8-9. 10-11. 15-16",
+          "de": "Ps 145",
+          "en": "Ps 144:2-3, 4-5, 8-9, 10-11, 15-16",
+          "es": "Sal 144, 2-3. 4-5. 8-9. 10-11. 15-16",
+          "pt-BR": "Sl 144, 2-3. 4-5. 8-9. 10-11. 15-16",
+          "it": "Sal 144, 2-3. 4-5. 8-9. 10-11. 15-16",
+          "fr": "Ps 144, 2-3. 4-5. 8-9. 10-11. 15-16"
+        }
+      },
+      "secondReading": {
+        "label": {
+          "la": "Lectio secunda",
+          "fr": "Deuxième lecture",
+          "de": "Zweite Lesung"
+        },
+        "introduction": {
+          "la": "Léctio Epístolæ beáti Pauli apóstoli ad Romános",
+          "fr": "Lettre de saint Paul Apôtre aux Romains",
+          "de": "Lesung aus dem Brief des Apostels Paulus an die Römer"
+        },
+        "body": {
+          "plain": {
+            "la": "Fratres: Quicúmque enim Spíritu Dei agúntur, hi fílii Dei sunt. Non enim accepístis spíritum servitútis íterum in timórem, sed accepístis Spíritum adoptiónis filiórum, in quo clamámus: «Abba, Pater!». Ipse Spíritus testimónium reddit una cum spíritu nostro, quod sumus fílii Dei. Si autem fílii, et herédes: herédes quidem Dei, coherédes autem Christi, si tamen compátimur, ut et conglorificémur.",
+            "de": "Brüder! Alle, die sich vom Geist Gottes leiten lassen, sind Söhne Gottes. Denn ihr habt nicht einen Geist empfangen, der euch zu Sklaven macht, so dass ihr euch immer noch fürchten müsstet, sondern ihr habt den Geist empfangen, der euch zu Söhnen macht, den Geist, in dem wir rufen: Abba, Vater! So bezeugt der Geist selber unserem Geist, dass wir Kinder Gottes sind. Sind wir aber Kinder, dann auch Erben; wir sind Erben Gottes und sind Miterben Christi, wenn wir mit ihm leiden, um mit ihm auch verherrlicht zu werden."
+          }
+        },
+        "conclusion": {
+          "la": "Verbum Dómini.",
+          "fr": "Parole du Seigneur.",
+          "de": "Wort des lebendigen Gottes."
+        },
+        "citation": {
+          "la": "Rom 8, 14-17",
+          "fr": "Rm 8, 14-17",
+          "de": "Röm 8, 14-17"
+        },
+        "response": {
+          "body": {
+            "plain": {
+              "la": "R/. Deo gratias.",
+              "fr": "R/. Nous rendons grâce à Dieu.",
+              "de": "A: Dank sei Gott."
+            },
+            "lines": {
+              "la": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Deo gratias."
+                  }
+                ]
+              ],
+              "fr": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "R/."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Nous rendons grâce à Dieu."
+                  }
+                ]
+              ],
+              "de": [
+                [
+                  {
+                    "type": "rubric",
+                    "text": "A:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Dank sei Gott."
+                  }
+                ]
+              ]
+            }
+          }
+        }
+      },
+      "gospelAcclamation": {
+        "body": {
+          "plain": {
+            "la": "Alleluia, allelúia. Veni, Sancte Spíritus, reple tuórum corda fidélium; et tui amóris in eis ignem accénde. Allelúia.",
+            "fr": "Alléluia, alléluia. Veni, Sancte Spíritus, reple tuórum corda fidélium; et tui amóris in eis ignem accénde. Alléluia.",
+            "de": "Ruf vor dem Evangelium Halleluja. Halleluja. Komm, Heiliger Geist, erfülle die Herzen deiner Gläubigen, und entzünde in ihnen das Feuer deiner Liebe! Halleluja."
+          },
+          "lines": {
+            "la": [
+              [
+                {
+                  "type": "text",
+                  "text": "Alleluia, allelúia. Veni, Sancte Spíritus, reple tuórum corda fidélium; et tui amóris in eis ignem accénde. Allelúia."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Alléluia, alléluia. Veni, Sancte Spíritus, reple tuórum corda fidélium; et tui amóris in eis ignem accénde. Alléluia."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Ruf vor dem Evangelium Halleluja. Halleluja. Komm, Heiliger Geist, erfülle die Herzen deiner Gläubigen, und entzünde in ihnen das Feuer deiner Liebe! Halleluja."
+                }
+              ]
+            ]
+          }
+        }
+      },
+      "gospel": {
+        "label": {
+          "la": "Evangelium",
+          "fr": "Proclamation de l'Évangile",
+          "de": "Evangelium"
+        },
+        "introduction": {
+          "la": "✠ Léctio sancti Evangélii secúndum Ioánnem",
+          "fr": "✠ Évangile de Jésus-Christ selon saint Jean",
+          "de": "✠ Aus dem heiligen Evangelium nach Johannes"
+        },
+        "body": {
+          "plain": {
+            "la": "Sic diléxit Deus mundum, ut Fílium suum unigénitum daret, ut omnis, qui credit in eum, non péreat, sed hábeat vitam ætérnam. Non enim misit Deus Fílium in mundum, ut iúdicet mundum, sed ut salvétur mundus per ipsum. Qui credit in eum, non iudicátur; qui autem non credit, iam iudicátus est, quia non crédidit in nomen Unigéniti Fílii Dei. Hoc est autem iudícium: Lux venit in mundum, et dilexérunt hómines magis ténebras quam lucem; erant enim eórum mala ópera. Ómnis enim, qui mala agit, odit lucem et non venit ad lucem, ut non arguántur ópera eius; qui autem facit veritátem, venit ad lucem, ut manifesténtur eius ópera, quia in Deo sunt facta.",
+            "de": "Gott hat die Welt so sehr geliebt, dass er seinen einzigen Sohn hingab, damit jeder, der an ihn glaubt, nicht zugrunde geht, sondern das ewige Leben hat. Denn Gott hat seinen Sohn nicht in die Welt gesandt, damit er die Welt richtet, sondern damit die Welt durch ihn gerettet wird. Wer an ihn glaubt, wird nicht gerichtet; wer nicht glaubt, ist schon gerichtet, weil er an den Namen des einzigen Sohnes Gottes nicht geglaubt hat. Denn mit dem Gericht verhält es sich so: Das Licht kam in die Welt, und die Menschen liebten die Finsternis mehr als das Licht; denn ihre Taten waren böse. Jeder, der Böses tut, hasst das Licht und kommt nicht zum Licht, damit seine Taten nicht aufgedeckt werden. Wer aber die Wahrheit tut, kommt zum Licht, damit offenbar wird, dass seine Taten in Gott vollbracht sind."
+          }
+        },
+        "conclusion": {
+          "la": "Verbum Dómini.",
+          "fr": "Acclamons la Parole de Dieu !",
+          "de": "Evangelium unseres Herrn Jesus Christus."
+        },
+        "citation": {
+          "la": "Io 3, 16-21",
+          "fr": "Jn 3, 16-21",
+          "de": "Joh 3, 16-21"
+        }
+      }
+    }
+  },
+  "liturgicalColor": "white"
+}

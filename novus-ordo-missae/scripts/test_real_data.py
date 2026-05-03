@@ -597,14 +597,19 @@ class TestOrdinaryTimeFerials:
     @classmethod
     def setup_class(cls):
         import json
-        ot_path = pathlib.Path(__file__).resolve().parent.parent / "data" / "masses" / "tempore" / "ordinary-time.json"
-        cls.bundle = json.loads(ot_path.read_text())
-        cls.by_id = {m["id"]: m for m in cls.bundle["masses"]}
+        ot_root = pathlib.Path(__file__).resolve().parent.parent / "data" / "masses" / "tempore" / "ordinary-time"
+        cls.by_id = {}
+        for f in ot_root.rglob("*.json"):
+            if f.name == "_index.json":
+                continue
+            d = json.loads(f.read_text())
+            cls.by_id[d["id"]] = d
+        cls.index = json.loads((ot_root / "_index.json").read_text())
 
     def test_total_count_includes_ferials(self):
         # 34 Sundays + 34 weeks × 6 ferials (Mon..Sat) = 238
-        assert self.bundle["count"] == 238
-        assert len(self.bundle["masses"]) == 238
+        assert self.index["count"] == 238
+        assert len(self.by_id) == 238
 
     def test_every_week_has_six_ferials(self):
         for week in range(1, 35):

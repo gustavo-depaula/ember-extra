@@ -83,10 +83,11 @@ Naming: `_fix_<defect>` for the unit, `_<thing>_in_mass` for the orchestrator wr
 - Mass IDs are dotted: `tempore.advent.week-1.sunday`, `sanctorale.01-02`, `tempore.holy-week.easter-vigil`.
 - Localized fields are dicts: `{la, en, es, pt-BR, it, fr, de}`. Not all langs are filled for every field — partial localization is normal.
 - Rich text comes in pairs: `body.plain.<lang>` (string) and `body.lines.<lang>` (segment array of `{type, text}`). Segment types: `text`, `rubric`, `reference`, `italic`, `response`, `signOfCross`, `dropCap`.
-- Reading cycles: `A`/`B`/`C` for Sundays + solemnities; `default` for proper-season weekdays and fixed feasts. (`I`/`II` ferial cycles are not yet extracted — gap, not a feature.)
-- Mass formularies are bundled per file: `data/masses/<group>/<bucket>.json`, each holding 30–60 masses inside `{season, count, masses[]}`. (Refactor to per-mass files is planned but not yet executed.)
-- Library docs (`prefaces.json`, `eucharistic-prayers.json`, `ordinary.json`) live under `data/library/`. Already keyed by canonical ID.
-- `data/calendar.json`, `data/saints.json`, `data/triduum.json`, `data/index.json`, `data/provenance.json` are derived/index files at the corpus root.
+- Reading cycles: `A`/`B`/`C` for Sundays + solemnities; `default` for proper-season weekdays and fixed feasts. `I`/`II` ferial cycles cover Ordinary Time weekdays (synthesized from lecturas).
+- **File layout: dotted id IS the path.** Each item lives at `<root>/<id-segments-as-folders>/<last-segment>.json`. Example: `tempore.ordinary-time.week-1.sunday` → `data/masses/tempore/ordinary-time/week-1/sunday.json`. Saint catalog drops the `sanctorale.` prefix: `sanctorale.04-02` → `data/saints/04-02.json`. Library folders are singular: `data/library/preface/<id>.json`, `eucharistic-prayer/`, `ordinary/`.
+- **Per-bucket `_index.json`**: each leaf bucket has one with `{count, <discriminator>, ids[]}` (e.g. `data/masses/tempore/ordinary-time/_index.json`). Walk the tree skipping `_index.json` to enumerate items.
+- **Triduum is a reference list**: `data/triduum/_index.json` only — no per-mass files (the actual mass payloads live under `data/masses/...` and the index points at their ids).
+- `data/index.json`, `data/provenance.json` stay as single top-level files. `data/igmr/<lang>.json` and `data/sacerdotale/<lang>.json` stay per-language.
 
 ## Conventions
 
