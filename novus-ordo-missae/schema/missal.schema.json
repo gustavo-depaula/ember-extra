@@ -177,38 +177,34 @@
       ],
       "additionalProperties": false
     },
-    "Prayer": {
+    "PrayerOption": {
+      "description": "A single body+citation option for a prayer slot. Used both standalone (most slots) and as an item inside `Prayer.alternatives`.",
       "type": "object",
       "properties": {
-        "body": {
-          "$ref": "#/$defs/RichText"
-        },
-        "label": {
-          "$ref": "#/$defs/Localized"
-        },
-        "citation": {
-          "$ref": "#/$defs/Localized"
-        },
-        "alternatives": {
-          "description": "Sibling options for this prayer slot — currently used by gospelAcclamation when the lectionary lists multiple verse-before-the-Gospel choices (All Souls' 11 options, Sacred Heart's 2 cycle-B options, etc.). Each alternative is a body+citation pair; alternatives don't nest further.",
-          "type": "array",
-          "minItems": 1,
-          "items": {
-            "type": "object",
-            "properties": {
-              "body": { "$ref": "#/$defs/RichText" },
-              "label": { "$ref": "#/$defs/Localized" },
-              "citation": { "$ref": "#/$defs/Localized" }
-            },
-            "required": ["body"],
-            "additionalProperties": false
-          }
-        }
+        "body": { "$ref": "#/$defs/RichText" },
+        "label": { "$ref": "#/$defs/Localized" },
+        "citation": { "$ref": "#/$defs/Localized" }
       },
-      "required": [
-        "body"
-      ],
+      "required": ["body"],
       "additionalProperties": false
+    },
+    "Prayer": {
+      "description": "A prayer slot — collect, postcommunion, gospelAcclamation, etc. When the missal supplies a single option (the common case), the slot has body+citation directly. When multiple options are supplied (e.g. All Souls' 11 gospel acclamations, Sacred Heart's 2 cycle-B options), all of them live inside `alternatives` and the slot itself carries no body — consumers iterate the array.",
+      "oneOf": [
+        { "$ref": "#/$defs/PrayerOption" },
+        {
+          "type": "object",
+          "properties": {
+            "alternatives": {
+              "type": "array",
+              "minItems": 2,
+              "items": { "$ref": "#/$defs/PrayerOption" }
+            }
+          },
+          "required": ["alternatives"],
+          "additionalProperties": false
+        }
+      ]
     },
     "PrefaceRef": {
       "description": "A pointer to a preface in library/prefaces.json.",

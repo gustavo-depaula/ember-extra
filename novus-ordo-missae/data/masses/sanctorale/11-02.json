@@ -803,120 +803,122 @@
   "readings": {
     "default": {
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Cf. Mt 11, 25 Allelúia. Benedíctus es, Pater, Dómine cæli et terræ, quia mystéria regni párvulis revelásti. Allelúia.",
-            "es": "Cf. Mt 11, 25 Aleluya. Bendito seas, Padre, Señor de cielo y tierra, porque has revelado los secretos del reino a la gente sencilla. Aleluya.",
-            "en": "Alleluia, alleluia. Blessed are you, Father, Lord of heaven and earth; for revealing the mysteries of the kingdom to mere children. Alleluia.",
-            "pt-BR": "Cf. Mt 11, 25 Aleluia, aleluia. Bendito sejais, ó Pai, Senhor do céu e da terra, porque revelastes aos humildes os mistérios do reino. Aleluia.",
-            "it": "Cf. Mt 11, 25 Alleluia, alleluia. Ti rendo lode, Padre, Signore del cielo e della terra, perché ai piccoli hai rivelato i misteri del Regno. Alleluia.",
-            "fr": "Cf. Mt 11, 25 Alléluia Benedíctus es, Pater, Dómine cæli et terræ, quia mystéria regni párvulis revelásti. Alléluia.",
-            "de": "Vgl. Mt 11, 25 Halleluja. Halleluja. Sei gepriesen, Vater, Herr des Himmels und der Erde; du hast die Geheimnisse des Reiches den Unmündigen offenbart. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "reference",
-                  "text": "Cf. Mt 11, 25"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Benedíctus es, Pater, Dómine cæli et terræ, quia mystéria regni párvulis revelásti. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "reference",
-                  "text": "Cf. Mt 11, 25"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Bendito seas, Padre, Señor de cielo y tierra, porque has revelado los secretos del reino a la gente sencilla. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Blessed are you, Father, Lord of heaven and earth; for revealing the mysteries of the kingdom to mere children. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "reference",
-                  "text": "Cf. Mt 11, 25"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Bendito sejais, ó Pai, Senhor do céu e da terra, porque revelastes aos humildes os mistérios do reino. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "reference",
-                  "text": "Cf. Mt 11, 25"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Ti rendo lode, Padre, Signore del cielo e della terra, perché ai piccoli hai rivelato i misteri del Regno. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "reference",
-                  "text": "Cf. Mt 11, 25"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia Benedíctus es, Pater, Dómine cæli et terræ, quia mystéria regni párvulis revelásti. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "reference",
-                  "text": "Vgl. Mt 11, 25"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Sei gepriesen, Vater, Herr des Himmels und der Erde; du hast die Geheimnisse des Reiches den Unmündigen offenbart. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
-        "citation": {
-          "la": "Cf. Mt 11, 25",
-          "es": "Cf. Mt 11, 25",
-          "pt-BR": "Cf. Mt 11, 25",
-          "it": "Cf. Mt 11, 25",
-          "fr": "Cf. Mt 11, 25",
-          "de": "Vgl. Mt 11, 25"
-        },
         "alternatives": [
+          {
+            "body": {
+              "plain": {
+                "la": "Cf. Mt 11, 25 Allelúia. Benedíctus es, Pater, Dómine cæli et terræ, quia mystéria regni párvulis revelásti. Allelúia.",
+                "es": "Cf. Mt 11, 25 Aleluya. Bendito seas, Padre, Señor de cielo y tierra, porque has revelado los secretos del reino a la gente sencilla. Aleluya.",
+                "en": "Alleluia, alleluia. Blessed are you, Father, Lord of heaven and earth; for revealing the mysteries of the kingdom to mere children. Alleluia.",
+                "pt-BR": "Cf. Mt 11, 25 Aleluia, aleluia. Bendito sejais, ó Pai, Senhor do céu e da terra, porque revelastes aos humildes os mistérios do reino. Aleluia.",
+                "it": "Cf. Mt 11, 25 Alleluia, alleluia. Ti rendo lode, Padre, Signore del cielo e della terra, perché ai piccoli hai rivelato i misteri del Regno. Alleluia.",
+                "fr": "Cf. Mt 11, 25 Alléluia Benedíctus es, Pater, Dómine cæli et terræ, quia mystéria regni párvulis revelásti. Alléluia",
+                "de": "Vgl. Mt 11, 25 Halleluja. Halleluja. Sei gepriesen, Vater, Herr des Himmels und der Erde; du hast die Geheimnisse des Reiches den Unmündigen offenbart. Halleluja."
+              },
+              "lines": {
+                "la": [
+                  [
+                    {
+                      "type": "reference",
+                      "text": "Cf. Mt 11, 25"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Allelúia. Benedíctus es, Pater, Dómine cæli et terræ, quia mystéria regni párvulis revelásti. Allelúia."
+                    }
+                  ]
+                ],
+                "es": [
+                  [
+                    {
+                      "type": "reference",
+                      "text": "Cf. Mt 11, 25"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Aleluya. Bendito seas, Padre, Señor de cielo y tierra, porque has revelado los secretos del reino a la gente sencilla. Aleluya."
+                    }
+                  ]
+                ],
+                "en": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "Alleluia, alleluia. Blessed are you, Father, Lord of heaven and earth; for revealing the mysteries of the kingdom to mere children. Alleluia."
+                    }
+                  ]
+                ],
+                "pt-BR": [
+                  [
+                    {
+                      "type": "reference",
+                      "text": "Cf. Mt 11, 25"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Aleluia, aleluia. Bendito sejais, ó Pai, Senhor do céu e da terra, porque revelastes aos humildes os mistérios do reino. Aleluia."
+                    }
+                  ]
+                ],
+                "it": [
+                  [
+                    {
+                      "type": "reference",
+                      "text": "Cf. Mt 11, 25"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Alleluia, alleluia. Ti rendo lode, Padre, Signore del cielo e della terra, perché ai piccoli hai rivelato i misteri del Regno. Alleluia."
+                    }
+                  ]
+                ],
+                "fr": [
+                  [
+                    {
+                      "type": "reference",
+                      "text": "Cf. Mt 11, 25"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Alléluia Benedíctus es, Pater, Dómine cæli et terræ, quia mystéria regni párvulis revelásti. Alléluia"
+                    }
+                  ]
+                ],
+                "de": [
+                  [
+                    {
+                      "type": "reference",
+                      "text": "Vgl. Mt 11, 25"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Halleluja. Halleluja. Sei gepriesen, Vater, Herr des Himmels und der Erde; du hast die Geheimnisse des Reiches den Unmündigen offenbart. Halleluja."
+                    }
+                  ]
+                ]
+              }
+            },
+            "citation": {
+              "la": "Cf. Mt 11, 25",
+              "es": "Cf. Mt 11, 25",
+              "pt-BR": "Cf. Mt 11, 25",
+              "it": "Cf. Mt 11, 25",
+              "fr": "Cf. Mt 11, 25",
+              "de": "Vgl. Mt 11, 25"
+            }
+          },
           {
             "body": {
               "plain": {

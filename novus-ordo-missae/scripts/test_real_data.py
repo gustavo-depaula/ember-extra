@@ -653,6 +653,56 @@ class TestOrdinaryTimeFerials:
 
 
 # =============================================================================
+# Prayer alternatives shape (standardized across all prayer slots)
+# =============================================================================
+
+class TestPrayerAlternativesShape:
+    """The Prayer schema accepts either {body, citation, label} (single
+    option) or {alternatives: [...]} (multi-option, no body/citation at
+    root). The same shape is available on every prayer slot — collect,
+    postcommunion, gospelAcclamation, etc. — even if today only
+    gospelAcclamation populates it."""
+
+    def test_schema_accepts_single_prayer(self):
+        import json, jsonschema
+        schema = json.loads((pathlib.Path(__file__).resolve().parent.parent / "schema" / "missal.schema.json").read_text())
+        v = jsonschema.Draft202012Validator({
+            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "$ref": "#/$defs/Prayer", "$defs": schema["$defs"],
+        })
+        single = {"body": {"plain": {"la": "Per Christum."},
+                            "lines": {"la": [[{"type": "text", "text": "Per Christum."}]]}}}
+        assert not list(v.iter_errors(single))
+
+    def test_schema_accepts_alternatives_only(self):
+        import json, jsonschema
+        schema = json.loads((pathlib.Path(__file__).resolve().parent.parent / "schema" / "missal.schema.json").read_text())
+        v = jsonschema.Draft202012Validator({
+            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "$ref": "#/$defs/Prayer", "$defs": schema["$defs"],
+        })
+        multi = {"alternatives": [
+            {"body": {"plain": {"la": "A"}, "lines": {"la": [[{"type": "text", "text": "A"}]]}},
+             "citation": {"la": "Mt 1"}},
+            {"body": {"plain": {"la": "B"}, "lines": {"la": [[{"type": "text", "text": "B"}]]}},
+             "citation": {"la": "Mt 2"}},
+        ]}
+        assert not list(v.iter_errors(multi))
+
+    def test_schema_rejects_mixed(self):
+        """A slot can't have BOTH body at root AND alternatives — pick one shape."""
+        import json, jsonschema
+        schema = json.loads((pathlib.Path(__file__).resolve().parent.parent / "schema" / "missal.schema.json").read_text())
+        v = jsonschema.Draft202012Validator({
+            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "$ref": "#/$defs/Prayer", "$defs": schema["$defs"],
+        })
+        both = {"body": {"plain": {"la": "X"}, "lines": {"la": [[{"type": "text", "text": "X"}]]}},
+                "alternatives": []}
+        assert list(v.iter_errors(both)), "schema should reject mixed shape"
+
+
+# =============================================================================
 # Sanctorale alternatives (y/z merged inside one parent mass)
 # =============================================================================
 
@@ -738,21 +788,25 @@ class TestSanctoraleAlternatives:
 
     def test_all_souls_gospel_acclamation_alternatives(self):
         """All Souls (Nov 2) lists 11 alternative gospel acclamations in the
-        Lectionary. They should be split: the first lives at
-        readings.default.gospelAcclamation; the other 10 nested inside it
-        as `alternatives` — NOT crammed into a single body."""
+        Lectionary. When a slot has multiple options the slot itself carries
+        ONLY `alternatives: [...]` (no primary body/citation at the root) —
+        every option lives inside the array as an equal-status entry."""
         import json
         m = json.loads((self.SANCT / "11-02.json").read_text())
         r = (m.get("readings") or {}).get("default") or {}
         ga = r.get("gospelAcclamation") or {}
-        ga_la = (ga.get("body") or {}).get("plain", {}).get("la", "")
-        # Each individual acclamation is short (~100-200 chars)
-        assert len(ga_la) < 250, f"primary GA still bundled: {len(ga_la)} chars"
-        alts = ga.get("alternatives") or []
-        assert len(alts) >= 5, f"expected multiple GA alternatives, got {len(alts)}"
-        # Each alternative has its own citation
-        cits = [(a.get("citation") or {}).get("la") for a in alts]
-        assert all(cits), f"some alternatives missing citation: {cits}"
+        # Multi-option slot: only `alternatives`, no body/citation at root
+        assert "body" not in ga, "multi-option slot must not carry root body"
+        assert "citation" not in ga, "multi-option slot must not carry root citation"
+        opts = ga.get("alternatives") or []
+        assert len(opts) >= 10, f"expected ~11 GA options, got {len(opts)}"
+        # Each option is short (one acclamation, not the bundled blob)
+        for o in opts:
+            body_la = (o.get("body") or {}).get("plain", {}).get("la", "")
+            assert 0 < len(body_la) < 250, f"option body unexpected size: {len(body_la)}"
+        # Each option has its own citation, all distinct
+        cits = [(o.get("citation") or {}).get("la") for o in opts]
+        assert all(cits), f"some options missing citation: {cits}"
         assert len(set(cits)) == len(cits), f"duplicate citations: {cits}"
 
     def test_same_celebration_alternatives_drop_readings(self):

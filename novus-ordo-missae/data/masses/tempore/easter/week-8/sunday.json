@@ -2670,76 +2670,78 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Sequentia",
-            "es": "Secuencia",
-            "en": "Sequence",
-            "pt-BR": "Sequência",
-            "it": "SEQUENZA",
-            "fr": "Séquence",
-            "de": "Sequenz"
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "Sequentia"
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "Secuencia"
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "Sequence"
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "Sequência"
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "SEQUENZA"
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "Séquence"
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "Sequenz"
-                }
-              ]
-            ]
-          }
-        },
         "alternatives": [
+          {
+            "body": {
+              "plain": {
+                "la": "Sequentia",
+                "es": "Secuencia",
+                "en": "Sequence",
+                "pt-BR": "Sequência",
+                "it": "SEQUENZA",
+                "fr": "Séquence",
+                "de": "Sequenz"
+              },
+              "lines": {
+                "la": [
+                  [
+                    {
+                      "type": "rubric",
+                      "text": "Sequentia"
+                    }
+                  ]
+                ],
+                "es": [
+                  [
+                    {
+                      "type": "rubric",
+                      "text": "Secuencia"
+                    }
+                  ]
+                ],
+                "en": [
+                  [
+                    {
+                      "type": "rubric",
+                      "text": "Sequence"
+                    }
+                  ]
+                ],
+                "pt-BR": [
+                  [
+                    {
+                      "type": "rubric",
+                      "text": "Sequência"
+                    }
+                  ]
+                ],
+                "it": [
+                  [
+                    {
+                      "type": "rubric",
+                      "text": "SEQUENZA"
+                    }
+                  ]
+                ],
+                "fr": [
+                  [
+                    {
+                      "type": "rubric",
+                      "text": "Séquence"
+                    }
+                  ]
+                ],
+                "de": [
+                  [
+                    {
+                      "type": "rubric",
+                      "text": "Sequenz"
+                    }
+                  ]
+                ]
+              }
+            }
+          },
           {
             "body": {
               "plain": {
