@@ -7481,7 +7481,9 @@ def _fix_oeuvre_ligature(text, lang):
 
 # Cycle 29 — Italian `E'` (capital E + straight apostrophe) is a typographic
 # surrogate for `È` (E with grave accent). 110 hits in EP preface dialogues.
-_IT_E_APOS_RE = re.compile(r"\bE['’](?=\s)")
+# Cycle 39 — also matches standalone `E'` (e.g. when the segment text is
+# just the dropCap glyph with no following space).
+_IT_E_APOS_RE = re.compile(r"\bE['’](?=\s|$)")
 
 
 def _fix_italian_e_apostrophe(text, lang):
