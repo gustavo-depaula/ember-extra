@@ -5670,18 +5670,95 @@ def _clean_empty_rubric_segments(body: dict) -> None:
             if not isinstance(line, list):
                 new_lines.append(line)
                 continue
-            # Strip trailing empty rubric segments
-            while line and (
-                isinstance(line[-1], dict)
-                and line[-1].get('type') == 'rubric'
-                and not (line[-1].get('text') or '').strip()
-            ):
-                line.pop()
+            # Drop EVERY empty rubric segment (cycle 27): leading, terminal,
+            # and separators between text segments. Empty rubrics are
+            # residual markers from stripped italic/parenthetical formatting.
+            cleaned = [
+                seg for seg in line
+                if not (
+                    isinstance(seg, dict)
+                    and seg.get('type') == 'rubric'
+                    and not (seg.get('text') or '').strip()
+                )
+            ]
             # Drop entirely-empty lines (no content after trim)
-            if not line:
+            if not cleaned:
                 continue
-            new_lines.append(line)
+            new_lines.append(cleaned)
         lines[lang] = new_lines
+
+
+def _merge_adjacent_segments(body: dict) -> None:
+    """Merge adjacent same-type segments inside each Line[]. Cycle-27 audit
+    found 700+ punctuation-only segments (`","`, `";"`, etc.) sandwiched
+    between text segments after italic-marker cleanup, plus 13 cases of
+    legitimate adjacent same-type text segments. Joining produces the
+    natural reading order.
+
+    Joining rules:
+    - Adjacent segs of the same `type` merge.
+    - If the right side starts with a punctuation char, no inserted space.
+    - If left ends with whitespace OR right starts with whitespace,
+      simple concat (no extra space).
+    - Otherwise insert a single space (avoids gluing word-tokens).
+    """
+    if not isinstance(body, dict):
+        return
+    lines = body.get('lines')
+    if not isinstance(lines, dict):
+        return
+    PUNCT_CONTINUE = {',', '.', ';', ':', '!', '?', ')', ']', '»', "'", '"', '…'}
+    for lang, line_arr in list(lines.items()):
+        if not isinstance(line_arr, list):
+            continue
+        for li, line in enumerate(line_arr):
+            if not isinstance(line, list) or len(line) < 2:
+                continue
+            merged = [line[0]]
+            for seg in line[1:]:
+                last = merged[-1]
+                if (
+                    isinstance(last, dict)
+                    and isinstance(seg, dict)
+                    and last.get('type') == seg.get('type')
+                    and isinstance(last.get('text'), str)
+                    and isinstance(seg.get('text'), str)
+                ):
+                    a = last['text']
+                    b = seg['text']
+                    if not a:
+                        last['text'] = b
+                        continue
+                    if not b:
+                        continue
+                    first_b = b.lstrip()[:1]
+                    last_a = a.rstrip()[-1:]
+                    if first_b in PUNCT_CONTINUE:
+                        sep = ''
+                    elif a.endswith(' ') or b.startswith(' '):
+                        sep = ''
+                    elif last_a in '([«' or last_a == '':
+                        sep = ''
+                    else:
+                        sep = ' '
+                    last['text'] = a + sep + b
+                else:
+                    merged.append(seg)
+            line_arr[li] = merged
+
+
+def _merge_adjacent_segments_in_mass(mass: dict) -> None:
+    """Walk a tree applying _merge_adjacent_segments to every body block."""
+    def walk(node):
+        if isinstance(node, dict):
+            if 'lines' in node and isinstance(node.get('lines'), dict):
+                _merge_adjacent_segments(node)
+            for v in node.values():
+                walk(v)
+        elif isinstance(node, list):
+            for item in node:
+                walk(item)
+    walk(mass)
 
 
 def _clean_empty_rubric_segments_in_mass(mass: dict) -> None:
@@ -7666,7 +7743,6 @@ def _post_process_mass(mass: dict) -> Optional[dict]:
     _walk_lang_strings(mass, lambda t, _l: _collapse_doubled_comma(t))
     _fix_citation_strings_in_payload(mass)
     _walk_lang_strings(mass, _liturgical_markers)
-    _clean_empty_rubric_segments_in_mass(mass)
     _normalize_citation_styles_in_mass(mass)
     _append_period_to_alleluia_end_in_mass(mass)
     _reorder_triduum_parts_preamble_first(mass)
@@ -7680,7 +7756,15 @@ def _post_process_mass(mass: dict) -> Optional[dict]:
     _drop_vernacular_la_leak(mass, 'title')
     _drop_vernacular_la_leak(mass, 'description')
     _assign_liturgical_color(mass)
-    return _scrub_tree(mass, None)
+    out = _scrub_tree(mass, None)
+    # Cycle 27: scrub_tree → _balance_parens drops orphan `(` and `)` from
+    # rubric segments, leaving empty rubric strings behind. Run the empty-
+    # rubric cleanup AND the adjacent-segment merge AFTER the scrub pass so
+    # those new empties are caught. Also covers any other transformer that
+    # might empty out a segment.
+    _clean_empty_rubric_segments_in_mass(out)
+    _merge_adjacent_segments_in_mass(out)
+    return out
 
 
 def _post_process_masses_list(masses: list) -> list:

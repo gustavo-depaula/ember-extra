@@ -3377,6 +3377,140 @@ class TestFixNumericRangeBreakInCitation:
         assert once == twice
 
 
+class TestMergeAdjacentSameTypeSegments:
+    """After dropping empty rubrics, lines often have adjacent same-type
+    segments that should be one. `[text("a") text("b")]` → `[text("a b")]`
+    when the first has a trailing space or the second has a leading space,
+    or when the join makes a natural punctuation join (`text("a") text(",")`
+    → `text("a,")`)."""
+
+    def test_merges_adjacent_text_with_punct(self):
+        body = {"lines": {"es": [[
+            {"type": "text", "text": "bautizados"},
+            {"type": "text", "text": ","},
+            {"type": "text", "text": " para que"},
+        ]]}}
+        R._merge_adjacent_segments(body)
+        assert body["lines"]["es"][0] == [
+            {"type": "text", "text": "bautizados, para que"},
+        ]
+
+    def test_merges_two_text_segments(self):
+        body = {"lines": {"la": [[
+            {"type": "text", "text": "honoráre"},
+            {"type": "text", "text": " paréntibus"},
+        ]]}}
+        R._merge_adjacent_segments(body)
+        assert body["lines"]["la"][0] == [
+            {"type": "text", "text": "honoráre paréntibus"},
+        ]
+
+    def test_does_not_merge_different_types(self):
+        body = {"lines": {"la": [[
+            {"type": "text", "text": "Per"},
+            {"type": "rubric", "text": "Or"},
+            {"type": "text", "text": "Christum"},
+        ]]}}
+        R._merge_adjacent_segments(body)
+        assert len(body["lines"]["la"][0]) == 3
+
+    def test_inserts_space_when_neither_has_one(self):
+        body = {"lines": {"la": [[
+            {"type": "text", "text": "honoráre"},
+            {"type": "text", "text": "paréntibus"},
+        ]]}}
+        R._merge_adjacent_segments(body)
+        # Tight-merge (no space) when neither side has whitespace and
+        # neither is punctuation: this creates words. To avoid creating
+        # broken tokens, we add a single space.
+        assert body["lines"]["la"][0] == [
+            {"type": "text", "text": "honoráre paréntibus"},
+        ]
+
+    def test_no_extra_space_when_punctuation(self):
+        body = {"lines": {"es": [[
+            {"type": "text", "text": "ad rem"},
+            {"type": "text", "text": "."},
+        ]]}}
+        R._merge_adjacent_segments(body)
+        assert body["lines"]["es"][0] == [
+            {"type": "text", "text": "ad rem."},
+        ]
+
+
+class TestDropEmptyRubricSegmentsAnywhere:
+    """`_clean_empty_rubric_segments` should drop EVERY empty rubric segment
+    in a Line[], not just trailing ones. The cycle-1 audit found 470
+    separator and 296 terminal empty-rubric defects. Pattern is
+    `text("foo") rubric("") text("bar")` from stripped italic markers."""
+
+    def test_drops_separator_empty_rubric(self):
+        body = {"lines": {"la": [[
+            {"type": "text", "text": "honoráre"},
+            {"type": "rubric", "text": ""},
+            {"type": "text", "text": "paréntibus"},
+        ]]}}
+        R._clean_empty_rubric_segments(body)
+        # After drop: two text segs
+        assert body["lines"]["la"][0] == [
+            {"type": "text", "text": "honoráre"},
+            {"type": "text", "text": "paréntibus"},
+        ]
+
+    def test_drops_leading_empty_rubric(self):
+        body = {"lines": {"en": [[
+            {"type": "rubric", "text": ""},
+            {"type": "text", "text": "Per Christum"},
+        ]]}}
+        R._clean_empty_rubric_segments(body)
+        assert body["lines"]["en"][0] == [{"type": "text", "text": "Per Christum"}]
+
+    def test_drops_multiple_empty_rubrics(self):
+        body = {"lines": {"la": [[
+            {"type": "text", "text": "a"},
+            {"type": "rubric", "text": ""},
+            {"type": "text", "text": "b"},
+            {"type": "rubric", "text": ""},
+            {"type": "text", "text": "c"},
+        ]]}}
+        R._clean_empty_rubric_segments(body)
+        assert body["lines"]["la"][0] == [
+            {"type": "text", "text": "a"},
+            {"type": "text", "text": "b"},
+            {"type": "text", "text": "c"},
+        ]
+
+    def test_keeps_non_empty_rubric(self):
+        body = {"lines": {"la": [[
+            {"type": "text", "text": "a"},
+            {"type": "rubric", "text": "and"},
+            {"type": "text", "text": "b"},
+        ]]}}
+        R._clean_empty_rubric_segments(body)
+        assert len(body["lines"]["la"][0]) == 3
+
+    def test_drops_whitespace_only_rubric(self):
+        body = {"lines": {"la": [[
+            {"type": "text", "text": "a"},
+            {"type": "rubric", "text": "   "},
+            {"type": "text", "text": "b"},
+        ]]}}
+        R._clean_empty_rubric_segments(body)
+        assert body["lines"]["la"][0] == [
+            {"type": "text", "text": "a"},
+            {"type": "text", "text": "b"},
+        ]
+
+    def test_drops_line_that_becomes_empty(self):
+        body = {"lines": {"la": [[
+            {"type": "rubric", "text": ""},
+            {"type": "rubric", "text": ""},
+        ]]}}
+        R._clean_empty_rubric_segments(body)
+        # Whole line drops
+        assert body["lines"]["la"] == []
+
+
 class TestLatinExtendedDiacriticWords:
     """High-confidence Latin diacritic restorations from cycle-25 audit.
 
