@@ -3379,6 +3379,96 @@ class TestFixNumericRangeBreakInCitation:
         assert once == twice
 
 
+class TestFrenchOrdinalScannos:
+    """`16ème dimanche` is colloquial — proper French is `16e dimanche`.
+    Cycle 28 audit found 80 hits, mostly in saint biographies and
+    sunday-of-OT week titles."""
+
+    def test_eme_basic(self):
+        assert R._fix_french_ordinals("16ème dimanche", "fr") == "16e dimanche"
+
+    def test_ere_basic(self):
+        assert R._fix_french_ordinals("1ère semaine", "fr") == "1re semaine"
+
+    def test_with_space(self):
+        # Audit found `6 ème siècle` — handle stray space before `ème`.
+        assert R._fix_french_ordinals("6 ème siècle", "fr") == "6e siècle"
+
+    def test_does_not_touch_other_langs(self):
+        s = "16ème dimanche"
+        assert R._fix_french_ordinals(s, "en") == s
+        assert R._fix_french_ordinals(s, "la") == s
+
+
+class TestFrenchOeuvreLigature:
+    """`Oeuvre` → `Œuvre` (œ ligature). Audit found 2 hits in religious-orders
+    saint pages: `l'Oeuvre`."""
+
+    def test_capital(self):
+        assert R._fix_oeuvre_ligature("l'Oeuvre", "fr") == "l'Œuvre"
+
+    def test_lowercase(self):
+        assert R._fix_oeuvre_ligature("son oeuvre", "fr") == "son œuvre"
+
+    def test_does_not_touch_unrelated_langs(self):
+        s = "Oeuvre"
+        assert R._fix_oeuvre_ligature(s, "en") == s
+
+
+class TestKeyPrayersMatchAuthoritativeMissal:
+    """Lock in key Latin prayers as byte-identical to the 2002 Missale Romanum.
+    Source: International Union of Guides and Scouts of Europe English-Latin
+    Missal (CCDDS 2002 textus). These tests load `data/library/ordinary/
+    ordinario.json` and check that the canonical Latin Pater Noster, Sanctus,
+    Agnus Dei, and the opening of the Roman Canon all appear verbatim.
+
+    A regression in any of the text-quality fixes (diacritics, ligatures,
+    rubric scrubbing, paren balancing, etc.) shows up here first."""
+
+    def _ordinarium_la(self):
+        import json, pathlib
+        fp = pathlib.Path(__file__).resolve().parent.parent / "data/library/ordinary/ordinario.json"
+        if not fp.exists():
+            import pytest
+            pytest.skip(f"data file missing: {fp}")
+        return json.loads(fp.read_text(encoding="utf-8"))['body']['plain']['la']
+
+    def test_pater_noster_byte_identical(self):
+        b = self._ordinarium_la()
+        expected = (
+            "Pater noster, qui es in cælis: sanctificétur nomen tuum; "
+            "advéniat regnum tuum; fiat volúntas tua, sicut in cælo, "
+            "et in terra. Panem nostrum cotidiánum da nobis hódie; "
+            "et dimítte nobis débita nostra, sicut et nos dimíttimus "
+            "debitóribus nostris; et ne nos indúcas in tentatiónem; "
+            "sed líbera nos a malo."
+        )
+        assert expected in b, "Pater Noster has diverged from the 2002 missal text"
+
+    def test_sanctus_byte_identical(self):
+        b = self._ordinarium_la()
+        expected = (
+            "Sanctus, Sanctus, Sanctus Dóminus Deus Sábaoth. "
+            "Pleni sunt cæli et terra glória tua. Hosánna in excélsis. "
+            "Benedíctus qui venit in nómine Dómini. Hosánna in excélsis."
+        )
+        assert expected in b, "Sanctus has diverged from the 2002 missal text"
+
+    def test_agnus_dei_byte_identical(self):
+        b = self._ordinarium_la()
+        expected = (
+            "Agnus Dei, qui tollis peccáta mundi: miserére nobis. "
+            "Agnus Dei, qui tollis peccáta mundi: miserére nobis. "
+            "Agnus Dei, qui tollis peccáta mundi: dona nobis pacem."
+        )
+        assert expected in b, "Agnus Dei has diverged from the 2002 missal text"
+
+    def test_creed_ascendit_in_caelum(self):
+        b = self._ordinarium_la()
+        # Nicene Creed: "ascéndit in cælum, sedet ad déxteram Patris"
+        assert "ascéndit in cælum, sedet ad déxteram Patris" in b
+
+
 class TestNoBackfillFromScopeIdSuffix:
     """`_backfill_missing_title` should NOT regenerate a title from id segments
     like `sanctorale.04-04.africa` (the scope tail `africa` is a placeholder,

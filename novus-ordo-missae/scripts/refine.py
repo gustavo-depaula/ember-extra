@@ -7369,6 +7369,36 @@ def _fix_holy_x_spirit(text):
     return text.replace('holyXspirit', 'Holy Spirit')
 
 
+# Cycle 28 — French ordinal scannos. Standard French uses `2e`, `17e`, `1re`,
+# NOT `2ème`, `17ème`, `1ère`. The `ème`/`ère` forms are colloquial and not
+# typographically correct. Convert in fr only.
+_FR_ORDINAL_EME_RE = re.compile(r'(\d+)\s*ème\b')
+_FR_ORDINAL_ERE_RE = re.compile(r'(\d+)\s*ère\b')
+
+
+def _fix_french_ordinals(text, lang):
+    if lang != 'fr' or not isinstance(text, str):
+        return text
+    out = _FR_ORDINAL_EME_RE.sub(r'\1e', text)
+    out = _FR_ORDINAL_ERE_RE.sub(r'\1re', out)
+    return out
+
+
+# Cycle 28 — `Oeuvre` should be `Œuvre` (œ ligature). Specific to French/Latin.
+_OEUVRE_RE = re.compile(r'\bOeuvre\b')
+_OEUVRE_LOWER_RE = re.compile(r'\boeuvre\b')
+
+
+def _fix_oeuvre_ligature(text, lang):
+    if lang not in ('fr', 'la') or not isinstance(text, str):
+        return text
+    if 'euvre' not in text.lower():
+        return text
+    out = _OEUVRE_RE.sub('Œuvre', text)
+    out = _OEUVRE_LOWER_RE.sub('œuvre', out)
+    return out
+
+
 def _collapse_padded_parens(text):
     if not isinstance(text, str):
         return text
@@ -7476,6 +7506,49 @@ def _apply_liturgical_markers_to_doc(doc: Any) -> None:
                 _apply_liturgical_markers_to_doc(v)
 
 
+def _apply_universal_text_fixes_to_doc(doc: Any, lang: Optional[str]) -> None:
+    """Walk a single-language document (igmr, sacerdotale) and apply
+    the same text-quality fixes used on language-keyed payloads. The
+    document's language lives at the root, not on every branch — so
+    we pass `lang` through explicitly."""
+
+    def fn(text: str) -> str:
+        if not isinstance(text, str):
+            return text
+        out = text
+        out = _curly_apostrophe(out, lang or "")
+        out = _straight_to_guillemets(out, lang or "")
+        out = _french_space_before_punct(out, lang or "")
+        out = _collapse_space_before_punct(out, lang)
+        out = _collapse_padded_parens(out)
+        out = _collapse_doubled_period(out)
+        out = _collapse_doubled_comma(out)
+        out = _fix_holy_x_spirit(out)
+        out = _fix_french_ordinals(out, lang or "")
+        out = _fix_oeuvre_ligature(out, lang or "")
+        out = _liturgical_markers(out, lang or "")
+        if lang == 'la':
+            for pat, rep in _LA_OCR_FIXES:
+                out = pat.sub(rep, out)
+            out = _fix_la_diacritics(out, 'la')
+        if lang == 'it':
+            out = _fix_italian_specific_scannos(out)
+        return out
+
+    if isinstance(doc, dict):
+        for k, v in list(doc.items()):
+            if isinstance(v, str):
+                doc[k] = fn(v)
+            else:
+                _apply_universal_text_fixes_to_doc(v, lang)
+    elif isinstance(doc, list):
+        for i, v in enumerate(doc):
+            if isinstance(v, str):
+                doc[i] = fn(v)
+            else:
+                _apply_universal_text_fixes_to_doc(v, lang)
+
+
 def _apply_universal_text_fixes(payload: Any) -> None:
     """Walk a payload tree and apply universal text-quality fixes to
     every string under a language-keyed branch (or under a `text` field
@@ -7493,6 +7566,8 @@ def _apply_universal_text_fixes(payload: Any) -> None:
         out = _collapse_doubled_period(out)
         out = _collapse_doubled_comma(out)
         out = _fix_holy_x_spirit(out)
+        out = _fix_french_ordinals(out, lang)
+        out = _fix_oeuvre_ligature(out, lang)
         out = _liturgical_markers(out, lang)
         if lang == 'la':
             for pat, rep in _LA_OCR_FIXES:
@@ -7767,11 +7842,16 @@ def _post_process_mass(mass: dict) -> Optional[dict]:
     # `_apply_universal_text_fixes`. Masses are written with `post_process=False`
     # so they need the same pass here (otherwise padded parens, doubled punct,
     # space-before-punct, etc. survive in mass JSON).
+    _walk_lang_strings(mass, _curly_apostrophe)
+    _walk_lang_strings(mass, _straight_to_guillemets)
     _walk_lang_strings(mass, _french_space_before_punct)
     _walk_lang_strings(mass, _collapse_space_before_punct)
     _walk_lang_strings(mass, lambda t, _l: _collapse_padded_parens(t))
     _walk_lang_strings(mass, lambda t, _l: _collapse_doubled_period(t))
     _walk_lang_strings(mass, lambda t, _l: _collapse_doubled_comma(t))
+    _walk_lang_strings(mass, lambda t, _l: _fix_holy_x_spirit(t))
+    _walk_lang_strings(mass, _fix_french_ordinals)
+    _walk_lang_strings(mass, _fix_oeuvre_ligature)
     _fix_citation_strings_in_payload(mass)
     _walk_lang_strings(mass, _liturgical_markers)
     _normalize_citation_styles_in_mass(mass)
@@ -7895,6 +7975,43 @@ def _expand_igmr_blocks(blocks: list) -> list:
     return out
 
 
+# Cycle 28 — IGMR widget cruft. Source HTML carried a `<span class="float-right
+# wrapper">` containing a "▼︎" arrow + the Spanish UI string "Aquí se coloca el
+# símbolo "+"" (a select-widget label). Drop that wrapper group entirely from
+# every IGMR doc.
+_IGMR_WIDGET_TEXT_TOKENS = ('▼︎', 'Aquí se coloca el símbolo')
+
+
+def _is_igmr_widget_block(b: dict) -> bool:
+    if not isinstance(b, dict):
+        return False
+    classes = b.get('classes') or []
+    if isinstance(classes, list) and 'wrapper' in classes and 'float-right' in classes:
+        return True
+    text = b.get('text') or ''
+    if any(tok in text for tok in _IGMR_WIDGET_TEXT_TOKENS):
+        return True
+    return False
+
+
+def _strip_igmr_widget_blocks(blocks: list) -> list:
+    """Drop the source-side select-widget wrapper plus its two children
+    (arrow + Spanish UI string) at every level of the IGMR block tree."""
+    out: list = []
+    for b in blocks:
+        if isinstance(b, dict):
+            if _is_igmr_widget_block(b):
+                continue  # drop wrapper
+            for child_key in ('blocks', 'content'):
+                children = b.get(child_key)
+                if isinstance(children, list):
+                    b[child_key] = _strip_igmr_widget_blocks(children)
+            out.append(b)
+        else:
+            out.append(b)
+    return out
+
+
 def _post_process_igmr_payload(payload: dict) -> dict:
     """Split merged-section blocks in IGMR docs (esp. pt-BR) so each
     numbered section is its own addressable block."""
@@ -7902,6 +8019,9 @@ def _post_process_igmr_payload(payload: dict) -> dict:
         return payload
     blocks = payload.get('blocks')
     if isinstance(blocks, list):
+        # Cycle 28: drop the source-side select-widget cruft (▼ arrow + Spanish
+        # UI string) before re-shaping the rest.
+        blocks = _strip_igmr_widget_blocks(blocks)
         payload['blocks'] = _expand_igmr_blocks(blocks)
         payload['blockCount'] = len(payload['blocks'])
     return payload
@@ -8204,6 +8324,8 @@ def main():
             src = d.get("language")
             if src and src in LANG_MAP:
                 d["language"] = LANG_MAP[src]
+            doc_lang = d.get("language")
+            _apply_universal_text_fixes_to_doc(d, doc_lang)
             _apply_liturgical_markers_to_doc(d)
             write_json(V2_OUT / "igmr" / f"{LANG_MAP.get(src, src)}.json", d)
 
@@ -8216,6 +8338,8 @@ def main():
             src = d.get("language")
             if src and src in LANG_MAP:
                 d["language"] = LANG_MAP[src]
+            doc_lang = d.get("language")
+            _apply_universal_text_fixes_to_doc(d, doc_lang)
             _apply_liturgical_markers_to_doc(d)
             write_json(V2_OUT / "sacerdotale" / f"{LANG_MAP.get(src, src)}.json", d)
 
