@@ -696,6 +696,26 @@ def merge_blocks_to_rich_text(blocks: list[dict[str, dict]]) -> Optional[dict]:
 # ---------------------------------------------------------------------------
 
 
+# Lowercase rank-keyword fragments shared with normalize_rank() (defined later).
+# Duplicated here because parse_title_html runs at extraction time, before
+# RANK_KEYWORDS is referenced. Keep these two lists in sync.
+_RANK_KEYWORD_FRAGMENTS = (
+    "solemnitas", "sollemnitas", "solemnidad", "solemnity", "solenidade",
+    "solennità", "solennita", "solennité", "hochfest",
+    "festum", "fiesta", "feast", "festa", "fête", "fest",
+    "memoria", "memorial", "memória", "mémoire", "gedenktag",
+)
+
+
+def _h3_contains_rank_keyword(text: str) -> bool:
+    low = text.lower()
+    return any(kw in low for kw in _RANK_KEYWORD_FRAGMENTS)
+
+
+def _h3_looks_like_long_rubric(text: str) -> bool:
+    return len(text) > 25 and text.rstrip().endswith((".", "!"))
+
+
 def parse_title_html(html_per_source: dict[str, str]) -> dict[str, Any]:
     """Parse a saint/Mass title hijo HTML across languages.
 
@@ -738,26 +758,29 @@ def parse_title_html(html_per_source: dict[str, str]) -> dict[str, Any]:
                 out["title"][iso] = " ".join(cleaned) if cleaned else clean_text(h2.get_text(" ", strip=True))
 
         # Rank from h3 (Memória, Festa, Solenidade, ...) — first h3 only.
-        # If h3 looks like a numbered subtitle (e.g. "1. PRO ECCLESIA B" in
-        # various-needs masses) instead of a rank, append it to the title
-        # so we don't lose it. The post-processor strips redundant section
-        # prefixes from the merged title.
+        # h3 is one of three things:
+        #   (a) A real rank word (Memoria/Festum/Sollemnitas/...) → store as rank.
+        #   (b) A title supplement: numbered subtitle like "2. PRO PAPA",
+        #       formula letter like "A", or a phrase like "IN TEMPORE
+        #       UNIVERSALIS CONTAGII" / "37-2. MISSA PRO CUSTODIA
+        #       CREATIONIS" → append to title so the distinguishing name
+        #       isn't lost.
+        #   (c) A long rubric sentence (ends with "." and >25 chars) → drop
+        #       (the rubric body lives in <span class="red"> elsewhere).
         h3 = soup.find("h3")
         if h3:
             rank_text = clean_text(h3.get_text(" ", strip=True))
             if rank_text:  # skip empty <h3></h3>
-                # Numbered subtitle pattern: "1. X", "I. X", "A. X", or just
-                # a single letter (e.g. "A", "B", "C") with optional sub-text.
-                # Used in commons + ritual + votive masses to identify which
-                # formula/option this mass represents.
-                if re.match(r"^(?:\d+|[IVX]+|[A-Z])(?:\.\s+|\s+)[A-ZÀ-Ýa-zà-ÿ]", rank_text) or re.match(r"^[A-Z]$", rank_text):
+                if _h3_contains_rank_keyword(rank_text):
+                    out["rank"][iso] = rank_text
+                elif _h3_looks_like_long_rubric(rank_text):
+                    pass  # drop
+                else:
                     base_title = out["title"].get(iso, "")
                     if base_title and rank_text not in base_title:
                         out["title"][iso] = f"{base_title} {rank_text}"
                     elif not base_title:
                         out["title"][iso] = rank_text
-                else:
-                    out["rank"][iso] = rank_text
 
         # Description from italic divs (`<div style="font-style: italic">`)
         bio_paragraphs = []

@@ -4024,6 +4024,79 @@ class TestPostProcessMassEndToEnd:
         assert "quǽsumus" in body
 
 
+# =============================================================================
+# H3 title-supplement preservation
+# =============================================================================
+# Cycle 41: source HTML title blocks have <h2>section header</h2><h3>subtitle</h3>.
+# Some entries have h3 = "37-2. MISSA PRO CUSTODIA CREATIONIS" or
+# "IN TEMPORE UNIVERSALIS CONTAGII" — these are mass titles that should be
+# appended to the h2 section header, not classified as ranks (and then dropped).
+# Without this, div067 (Mass for the Care of Creation) and div070 (Mass in Time
+# of Pandemic) lose their distinguishing names.
+
+class TestH3TitleSupplement:
+    def test_numbered_subtitle_appended(self):
+        """h3 like '2. PRO PAPA' must append to h2 section header (regression check)."""
+        html_per_src = {
+            "latin": "<h2>I. PRO SANCTA ECCLESIA</h2><h3>2. PRO PAPA</h3>",
+        }
+        out = R.parse_title_html(html_per_src)
+        assert out["title"]["la"] == "I. PRO SANCTA ECCLESIA 2. PRO PAPA"
+        assert "rank" not in out
+
+    def test_letter_subtitle_appended(self):
+        """h3 like 'A' (formula letter) must append to title (regression check)."""
+        html_per_src = {
+            "latin": "<h2>I. PRO SANCTA ECCLESIA 1. PRO ECCLESIA</h2><h3>A</h3>",
+        }
+        out = R.parse_title_html(html_per_src)
+        assert "A" in out["title"]["la"]
+
+    def test_pandemic_mass_title_preserved(self):
+        """h3 'IN TEMPORE UNIVERSALIS CONTAGII' (no number, all caps) must reach title."""
+        html_per_src = {
+            "latin": "<h2>II. PRO CIRCUMSTANTIIS PUBLICIS</h2><h3>IN TEMPORE UNIVERSALIS CONTAGII</h3>",
+        }
+        out = R.parse_title_html(html_per_src)
+        assert "IN TEMPORE UNIVERSALIS CONTAGII" in out["title"]["la"]
+
+    def test_creation_mass_title_preserved(self):
+        """h3 '37-2. MISSA PRO CUSTODIA CREATIONIS' (dash-numbered) must reach title."""
+        html_per_src = {
+            "latin": "<h2>II. PRO CIRCUMSTANTIIS PUBLICIS</h2><h3>37-2. MISSA PRO CUSTODIA CREATIONIS</h3>",
+        }
+        out = R.parse_title_html(html_per_src)
+        assert "MISSA PRO CUSTODIA CREATIONIS" in out["title"]["la"]
+
+    def test_rank_word_still_recognized(self):
+        """h3 'Memoria' must still be classified as rank, not appended to title."""
+        html_per_src = {
+            "latin": "<h2>S. Adalberti, episcopi et martyris</h2><h3>Memoria</h3>",
+        }
+        out = R.parse_title_html(html_per_src)
+        assert out["title"]["la"] == "S. Adalberti, episcopi et martyris"
+        assert "Memoria" not in out["title"]["la"]
+        assert out.get("rank", {}).get("la") == "Memoria"
+
+    def test_solemnitas_rank_recognized(self):
+        """h3 'Sollemnitas' must be classified as rank."""
+        html_per_src = {
+            "latin": "<h2>SANCTISSIMÆ TRINITATIS</h2><h3>Sollemnitas</h3>",
+        }
+        out = R.parse_title_html(html_per_src)
+        assert "Sollemnitas" not in out["title"]["la"]
+        assert out.get("rank", {}).get("la") == "Sollemnitas"
+
+    def test_idempotent_double_run(self):
+        """Running parse_title_html twice on the same HTML yields the same output."""
+        html_per_src = {
+            "latin": "<h2>II. PRO CIRCUMSTANTIIS PUBLICIS</h2><h3>IN TEMPORE UNIVERSALIS CONTAGII</h3>",
+        }
+        out1 = R.parse_title_html(html_per_src)
+        out2 = R.parse_title_html(html_per_src)
+        assert out1 == out2
+
+
 if __name__ == "__main__":
     import pytest
     sys.exit(pytest.main([__file__, "-v"]))
