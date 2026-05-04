@@ -5741,6 +5741,42 @@ def _clean_empty_rubric_segments(body: dict) -> None:
         lines[lang] = new_lines
 
 
+# Cycle 39 — response segments should end with terminal punctuation. Most do;
+# audit found 1 outlier (`'Signore, pietà'` next to a sibling `'Signore, pietà.'`).
+def _ensure_response_terminal(body: dict) -> None:
+    if not isinstance(body, dict):
+        return
+    lines = body.get('lines')
+    if not isinstance(lines, dict):
+        return
+    for L, langlines in lines.items():
+        if not isinstance(langlines, list):
+            continue
+        for line in langlines:
+            if not isinstance(line, list):
+                continue
+            for seg in line:
+                if (isinstance(seg, dict)
+                        and seg.get('type') == 'response'
+                        and isinstance(seg.get('text'), str)):
+                    t = seg['text'].rstrip()
+                    if len(t) >= 5 and t[-1].isalpha():
+                        seg['text'] = t + '.'
+
+
+def _ensure_response_terminal_in_mass(mass: dict) -> None:
+    def walk(node):
+        if isinstance(node, dict):
+            if 'lines' in node and isinstance(node.get('lines'), dict):
+                _ensure_response_terminal(node)
+            for v in node.values():
+                walk(v)
+        elif isinstance(node, list):
+            for item in node:
+                walk(item)
+    walk(mass)
+
+
 def _merge_adjacent_segments(body: dict) -> None:
     """Merge adjacent same-type segments inside each Line[]. Cycle-27 audit
     found 700+ punctuation-only segments (`","`, `";"`, etc.) sandwiched
@@ -7958,6 +7994,7 @@ def _apply_universal_text_fixes(payload: Any) -> None:
     if isinstance(payload, dict):
         _walk_lang_strings(payload, fn)
         _fix_citation_strings_in_payload(payload)
+        _ensure_response_terminal_in_mass(payload)
 
 
 # Cycle 36 — responsorial-psalm and reading citation backfill. When one
@@ -8384,6 +8421,8 @@ def _post_process_mass(mass: dict) -> Optional[dict]:
     # over each body's lines.fr in source order; plain.fr toggled
     # independently).
     _fr_quote_state_machine_in_payload(out)
+    # Cycle 39: ensure response segments end with terminal punctuation.
+    _ensure_response_terminal_in_mass(out)
     return out
 
 
