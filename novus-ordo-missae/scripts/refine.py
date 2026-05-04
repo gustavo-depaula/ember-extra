@@ -4477,7 +4477,9 @@ def _ensure_terminal_period(s: str) -> str:
     if len(stripped) < 20:
         return s
     last = stripped[-1]
-    if last.isalpha():
+    # Cycle 38: also add period after digit (year/number endings, like
+    # "uccisi tra il 1915 e il 1937" or "Er starb 1226").
+    if last.isalpha() or last.isdigit():
         return stripped + '.'
     return s
 
@@ -8864,6 +8866,14 @@ def main():
         _drop_vernacular_la_leak(s, "title")
         _drop_vernacular_la_leak(s, "description")
         _backfill_rank_localized(s)
+        # Cycle 38: ensure description bodies end with terminal punctuation.
+        # The bundled-write code path runs this in _post_process_payload; the
+        # per-saint write path here skipped it.
+        desc = s.get("description")
+        if isinstance(desc, dict):
+            for L, v in list(desc.items()):
+                if isinstance(v, str) and v.strip():
+                    desc[L] = _ensure_terminal_period(v.strip())
         # Saint ids start with `sanctorale.`; drop that prefix so the file lives
         # under data/saints/, not data/saints/sanctorale/.
         tail = s["id"].split(".", 1)[1] if s["id"].startswith("sanctorale.") else s["id"]
