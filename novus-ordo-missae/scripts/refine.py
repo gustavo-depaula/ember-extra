@@ -7369,6 +7369,20 @@ def _fix_holy_x_spirit(text):
     return text.replace('holyXspirit', 'Holy Spirit')
 
 
+# Cycle 28 — internal path leak in sacerdotale/it.json. The Italian
+# benediction text reads "si fa d'./misal_todo in domenica" — `./misal_todo`
+# is a source-side relative path that leaked into prose. Drop it.
+_MISAL_TODO_LEAK_RE = re.compile(r"d['’]\./misal_todo\s+", re.I)
+
+
+def _fix_misal_todo_path_leak(text):
+    if not isinstance(text, str) or 'misal_todo' not in text:
+        return text
+    # Replace `d'./misal_todo ` with empty (the surrounding text already
+    # reads naturally without it).
+    return _MISAL_TODO_LEAK_RE.sub('', text)
+
+
 # Cycle 28 — French ordinal scannos. Standard French uses `2e`, `17e`, `1re`,
 # NOT `2ème`, `17ème`, `1ère`. The `ème`/`ère` forms are colloquial and not
 # typographically correct. Convert in fr only.
@@ -7524,6 +7538,7 @@ def _apply_universal_text_fixes_to_doc(doc: Any, lang: Optional[str]) -> None:
         out = _collapse_doubled_period(out)
         out = _collapse_doubled_comma(out)
         out = _fix_holy_x_spirit(out)
+        out = _fix_misal_todo_path_leak(out)
         out = _fix_french_ordinals(out, lang or "")
         out = _fix_oeuvre_ligature(out, lang or "")
         out = _liturgical_markers(out, lang or "")
@@ -7566,6 +7581,7 @@ def _apply_universal_text_fixes(payload: Any) -> None:
         out = _collapse_doubled_period(out)
         out = _collapse_doubled_comma(out)
         out = _fix_holy_x_spirit(out)
+        out = _fix_misal_todo_path_leak(out)
         out = _fix_french_ordinals(out, lang)
         out = _fix_oeuvre_ligature(out, lang)
         out = _liturgical_markers(out, lang)
@@ -7850,6 +7866,7 @@ def _post_process_mass(mass: dict) -> Optional[dict]:
     _walk_lang_strings(mass, lambda t, _l: _collapse_doubled_period(t))
     _walk_lang_strings(mass, lambda t, _l: _collapse_doubled_comma(t))
     _walk_lang_strings(mass, lambda t, _l: _fix_holy_x_spirit(t))
+    _walk_lang_strings(mass, lambda t, _l: _fix_misal_todo_path_leak(t))
     _walk_lang_strings(mass, _fix_french_ordinals)
     _walk_lang_strings(mass, _fix_oeuvre_ligature)
     _fix_citation_strings_in_payload(mass)
@@ -8012,6 +8029,36 @@ def _strip_igmr_widget_blocks(blocks: list) -> list:
     return out
 
 
+# Cycle 28 — empty paragraphs from `<p>\xa0</p>` HTML noise. Drops 510+ empty
+# paragraph blocks from IGMR and sacerdotale documents.
+def _is_empty_paragraph(b: dict) -> bool:
+    if not isinstance(b, dict):
+        return False
+    if b.get('type') != 'paragraph':
+        return False
+    text = b.get('text')
+    return not isinstance(text, str) or not text.strip()
+
+
+def _strip_empty_paragraph_blocks(blocks: list) -> list:
+    """Recursively drop paragraph blocks whose text is empty/whitespace-only.
+    Operates on IGMR/sacerdotale doc blocks (not on Mass body lines, which
+    have their own emptiness rules)."""
+    out: list = []
+    for b in blocks:
+        if isinstance(b, dict):
+            if _is_empty_paragraph(b):
+                continue
+            for child_key in ('blocks', 'content'):
+                children = b.get(child_key)
+                if isinstance(children, list):
+                    b[child_key] = _strip_empty_paragraph_blocks(children)
+            out.append(b)
+        else:
+            out.append(b)
+    return out
+
+
 def _post_process_igmr_payload(payload: dict) -> dict:
     """Split merged-section blocks in IGMR docs (esp. pt-BR) so each
     numbered section is its own addressable block."""
@@ -8022,6 +8069,8 @@ def _post_process_igmr_payload(payload: dict) -> dict:
         # Cycle 28: drop the source-side select-widget cruft (▼ arrow + Spanish
         # UI string) before re-shaping the rest.
         blocks = _strip_igmr_widget_blocks(blocks)
+        # Cycle 28: drop empty paragraph blocks (`<p>\xa0</p>` noise).
+        blocks = _strip_empty_paragraph_blocks(blocks)
         payload['blocks'] = _expand_igmr_blocks(blocks)
         payload['blockCount'] = len(payload['blocks'])
     return payload
@@ -8341,6 +8390,10 @@ def main():
             doc_lang = d.get("language")
             _apply_universal_text_fixes_to_doc(d, doc_lang)
             _apply_liturgical_markers_to_doc(d)
+            # Cycle 28: drop empty paragraphs in sacerdotale docs (same as IGMR)
+            if isinstance(d.get('blocks'), list):
+                d['blocks'] = _strip_empty_paragraph_blocks(d['blocks'])
+                d['blockCount'] = len(d['blocks'])
             write_json(V2_OUT / "sacerdotale" / f"{LANG_MAP.get(src, src)}.json", d)
 
     # Note: devocionario.html (multilingual Rosary + devotions) and oracoes.html
