@@ -8012,7 +8012,12 @@ def _collapse_sanctorale_alternatives(masses: list[dict], provenance: Optional[d
                     alt_title.get("la") == primary_title.get("la")
                 )
                 if same_celebration:
-                    slug = f"{primary_slug}-form-{i}"
+                    # Cycle 31: when primary_slug is the default 'form'
+                    # placeholder, don't double it up — just `form-2` etc.
+                    if primary_slug == 'form':
+                        slug = f"form-{i}"
+                    else:
+                        slug = f"{primary_slug}-form-{i}"
                 else:
                     slug = _alternative_slug_from_title(alt_title) or f"form-{i}"
                 # Disambiguate slug collisions
@@ -8253,6 +8258,42 @@ def _is_empty_paragraph(b: dict) -> bool:
     return not isinstance(text, str) or not text.strip()
 
 
+# Cycle 31 — IGMR paragraph numbers occasionally lost their period:
+# `1 Nella preparazione…` or `1) Nella preparazione…` should be
+# `1. Nella preparazione…`. Fix at the start of the paragraph AND at
+# internal section boundaries (where a merged paragraph contains multiple
+# sections). The internal fix only fires after `. ` to avoid touching
+# narrative numbers like "the 7 Sacraments". The `\)?\s+` allows for
+# `1)` style numbering (which `_balance_parens` would otherwise strip
+# to `1 ` and drop the period anchor).
+_IGMR_LOST_DOT_START_RE = re.compile(r'^(\d{1,3})\)?\s+([A-ZÀ-ÝŒÆ])')
+_IGMR_LOST_DOT_INTERNAL_RE = re.compile(r'(\.\s)(\d{1,3})\)?\s+([A-ZÀ-ÝŒÆ])')
+
+
+def _fix_igmr_paragraph_number_dot(blocks: list) -> list:
+    """Insert the missing `.` after paragraph-leading digit runs that lost
+    it during HTML→JSON conversion. Handles both the leading section number
+    and any internal section boundaries inside a merged paragraph."""
+    out: list = []
+    for b in blocks:
+        if isinstance(b, dict):
+            if b.get('type') == 'paragraph':
+                text = b.get('text')
+                if isinstance(text, str):
+                    new = _IGMR_LOST_DOT_START_RE.sub(r'\1. \2', text)
+                    new = _IGMR_LOST_DOT_INTERNAL_RE.sub(r'\1\2. \3', new)
+                    if new != text:
+                        b['text'] = new
+            for child_key in ('blocks', 'content'):
+                children = b.get(child_key)
+                if isinstance(children, list):
+                    b[child_key] = _fix_igmr_paragraph_number_dot(children)
+            out.append(b)
+        else:
+            out.append(b)
+    return out
+
+
 def _strip_empty_paragraph_blocks(blocks: list) -> list:
     """Recursively drop paragraph blocks whose text is empty/whitespace-only.
     Operates on IGMR/sacerdotale doc blocks (not on Mass body lines, which
@@ -8284,6 +8325,9 @@ def _post_process_igmr_payload(payload: dict) -> dict:
         blocks = _strip_igmr_widget_blocks(blocks)
         # Cycle 28: drop empty paragraph blocks (`<p>\xa0</p>` noise).
         blocks = _strip_empty_paragraph_blocks(blocks)
+        # Cycle 31: insert missing `.` in paragraph numbers (10 hits across
+        # it/fr/es/pt-BR).
+        blocks = _fix_igmr_paragraph_number_dot(blocks)
         payload['blocks'] = _expand_igmr_blocks(blocks)
         payload['blockCount'] = len(payload['blocks'])
     return payload
