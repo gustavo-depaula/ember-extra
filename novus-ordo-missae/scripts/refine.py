@@ -7427,6 +7427,18 @@ def _fix_misal_todo_path_leak(text):
     return _MISAL_TODO_LEAK_RE.sub('', text)
 
 
+# Cycle 37 — pt-BR OCR junk `é\S ` between two words ("águia estendeu é\S
+# suas asas"). The `é\S ` is stray formatting; the surrounding sentence
+# reads cleanly without it.
+_PTBR_E_BACKSLASH_S_RE = re.compile(r' é\\S ')
+
+
+def _fix_ptbr_backslash_s_leak(text):
+    if not isinstance(text, str) or '\\S' not in text:
+        return text
+    return _PTBR_E_BACKSLASH_S_RE.sub(' ', text)
+
+
 # Cycle 28 — French ordinal scannos. Standard French uses `2e`, `17e`, `1re`,
 # NOT `2ème`, `17ème`, `1ère`. The `ème`/`ère` forms are colloquial and not
 # typographically correct. Convert in fr only.
@@ -7867,6 +7879,7 @@ def _apply_universal_text_fixes_to_doc(doc: Any, lang: Optional[str]) -> None:
         out = _collapse_doubled_comma(out)
         out = _fix_holy_x_spirit(out)
         out = _fix_misal_todo_path_leak(out)
+        out = _fix_ptbr_backslash_s_leak(out)
         out = _fix_pua_chars(out)
         out = _fix_newline_artifacts(out)
         out = _fix_period_no_space(out)
@@ -7918,6 +7931,7 @@ def _apply_universal_text_fixes(payload: Any) -> None:
         out = _collapse_doubled_comma(out)
         out = _fix_holy_x_spirit(out)
         out = _fix_misal_todo_path_leak(out)
+        out = _fix_ptbr_backslash_s_leak(out)
         out = _fix_pua_chars(out)
         out = _fix_newline_artifacts(out)
         out = _fix_period_no_space(out)
@@ -8320,6 +8334,7 @@ def _post_process_mass(mass: dict) -> Optional[dict]:
     _walk_lang_strings(mass, lambda t, _l: _collapse_doubled_comma(t))
     _walk_lang_strings(mass, lambda t, _l: _fix_holy_x_spirit(t))
     _walk_lang_strings(mass, lambda t, _l: _fix_misal_todo_path_leak(t))
+    _walk_lang_strings(mass, lambda t, _l: _fix_ptbr_backslash_s_leak(t))
     _walk_lang_strings(mass, lambda t, _l: _fix_pua_chars(t))
     _walk_lang_strings(mass, lambda t, _l: _fix_newline_artifacts(t))
     _walk_lang_strings(mass, lambda t, _l: _fix_period_no_space(t))
