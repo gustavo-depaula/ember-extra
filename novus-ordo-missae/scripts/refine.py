@@ -7938,14 +7938,16 @@ def _suffix_sort_key(m: dict) -> tuple:
     return (1 if suf else 0, suf)
 
 
-def _collapse_sanctorale_alternatives(masses: list[dict]) -> list[dict]:
+def _collapse_sanctorale_alternatives(masses: list[dict], provenance: Optional[dict] = None) -> list[dict]:
     """Merge sanctorale masses sharing a (date, scope) into one mass with
     `alternatives[]`. Anomalies handled here:
       - Suffix-only buckets (no base): the suffixed mass is promoted to the
         primary, with id/dateSuffix rewritten.
       - Empty placeholder masses (no body) inside a multi-celebration bucket
         are dropped (catches the `11 30z` ghost).
-    """
+
+    If `provenance` is provided, source-id keys (including y/z variants) are
+    remapped to the new merged ids so consumers don't see orphan keys."""
     bucket_key = lambda m: (
         (m.get("date") or {}).get("month"),
         (m.get("date") or {}).get("day"),
@@ -7964,11 +7966,15 @@ def _collapse_sanctorale_alternatives(masses: list[dict]) -> list[dict]:
 
     out: list[dict] = list(untouched)
     for key, ms in by_bucket.items():
+        # Remember every source-mass id that fed into this bucket (for
+        # provenance remapping), including those dropped as empty.
+        bucket_source_ids = [m["id"] for m in ms]
         ms = [m for m in ms if _alternative_has_body(m) or not m.get("dateSuffix")]
         if not ms:
             continue
         ms.sort(key=_suffix_sort_key)
         primary = ms[0]
+        primary_original_id = primary["id"]
         # If the surviving primary still has a dateSuffix (no base existed in
         # the source), strip it and rewrite the id to drop the suffix.
         if primary.get("dateSuffix"):
@@ -7982,6 +7988,18 @@ def _collapse_sanctorale_alternatives(masses: list[dict]) -> list[dict]:
             primary.pop("dateSuffix", None)
         else:
             primary.pop("dateSuffix", None)
+        # Cycle 31: remap provenance keys for every source id in this bucket
+        # to the new merged primary id (including the primary's own original
+        # id if it was rewritten above).
+        if isinstance(provenance, dict):
+            new_id = primary["id"]
+            primary_prov = provenance.get(new_id) or provenance.get(primary_original_id)
+            for sid in bucket_source_ids:
+                if sid != new_id and sid in provenance:
+                    primary_prov = primary_prov or provenance[sid]
+                    provenance.pop(sid, None)
+            if primary_prov and new_id not in provenance:
+                provenance[new_id] = primary_prov
 
         if len(ms) > 1:
             alts: list[dict] = []
@@ -8474,7 +8492,7 @@ def main():
             # Collapse base/y/z masses sharing a date+scope into one parent
             # mass with `alternatives[]`. Regional saints (with `scope`)
             # bucket separately from universal saints.
-            masses = _collapse_sanctorale_alternatives(masses)
+            masses = _collapse_sanctorale_alternatives(masses, provenance)
             masses_by_group[group] = masses
             for m in masses:
                 write_json(id_to_path(m["id"], masses_root), m, post_process=False)
@@ -8557,6 +8575,15 @@ def main():
                 ids=[m["id"] for m in triduum_masses])
 
     # Provenance
+    # Cycle 31: prune provenance to only contain entries whose id resolves
+    # to a written mass. Catches stale entries from regional saints whose id
+    # changed after assembly without provenance being remapped.
+    valid_ids = {m["id"] for ms in masses_by_group.values() for m in ms}
+    stale = [k for k in provenance if k not in valid_ids]
+    for k in stale:
+        provenance.pop(k, None)
+    if stale:
+        print(f"  pruned {len(stale)} stale provenance entries")
     write_json(V2_OUT / "provenance.json", provenance)
 
     # IGMR passthrough — already document-shaped
