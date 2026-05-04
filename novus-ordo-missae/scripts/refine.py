@@ -7535,6 +7535,63 @@ def _fix_coel_to_cael(text, lang):
     return _COE_TO_CAE_RE.sub(lambda m: 'cæ' + m.group(1), text)
 
 
+# Cycle 30 — vernacular accent scannos. Per-language word-list of common
+# OCR holdouts where the canonical form has a diacritic. Cross-checked
+# against authoritative dictionaries / wiktionary for each entry.
+_VERNACULAR_DIACRITICS = {
+    'it': {
+        'pero': 'però',  # adverb "however" (vs. pera "pear" without accent)
+        "PIU'": 'PIÙ',   # all-caps with apostrophe surrogate for grave
+        "PIU’": 'PIÙ',
+    },
+    'es': {
+        'oracion': 'oración',
+        'salvacion': 'salvación',
+        'ultimo': 'último',
+        'comunion': 'comunión',
+    },
+    'pt-BR': {
+        'espirito': 'espírito',
+        'Espirito': 'Espírito',
+        'tambem': 'também',
+        'Tambem': 'Também',
+    },
+    'fr': {
+        'voila': 'voilà',
+        'Voila': 'Voilà',
+    },
+}
+
+def _fix_vernacular_diacritics(text, lang):
+    if lang not in _VERNACULAR_DIACRITICS or not isinstance(text, str):
+        return text
+    table = _VERNACULAR_DIACRITICS[lang]
+    out = text
+    for k, v in table.items():
+        if k in out:
+            # For all-letter keys use word-boundary; for keys with non-letters
+            # (e.g. "PIU'"), use literal replace.
+            if k.isalpha():
+                out = re.sub(r'\b' + re.escape(k) + r'\b', v, out)
+            else:
+                out = out.replace(k, v)
+    return out
+
+
+# Cycle 30 — Italian doubled ASCII apostrophe `''` (typographic surrogate
+# for `”` close curly quote) in a few gospel readings. Pair with `''` open
+# variants if any. Conservative: only collapse when not adjacent to other
+# quote characters.
+_IT_DOUBLED_APOS_RE = re.compile(r"''")
+
+
+def _fix_italian_doubled_apostrophe(text, lang):
+    if lang != 'it' or not isinstance(text, str) or "''" not in text:
+        return text
+    # Replace `''` with `”` (close curly quote). Idempotent.
+    return _IT_DOUBLED_APOS_RE.sub('”', text)
+
+
 # Cycle 24 — doubled-period collapse. `..` → `.` but preserve `...` (ellipsis)
 # and `....` (ellipsis + sentence period). Negative lookbehind/lookahead.
 _DOUBLED_PERIOD_RE = re.compile(r'(?<!\.)\.\.(?!\.)')
@@ -7660,6 +7717,8 @@ def _apply_universal_text_fixes_to_doc(doc: Any, lang: Optional[str]) -> None:
         out = _fix_french_ordinals(out, lang or "")
         out = _fix_oeuvre_ligature(out, lang or "")
         out = _fix_italian_e_apostrophe(out, lang or "")
+        out = _fix_italian_doubled_apostrophe(out, lang or "")
+        out = _fix_vernacular_diacritics(out, lang or "")
         out = _fix_coel_to_cael(out, lang or "")
         out = _liturgical_markers(out, lang or "")
         if lang == 'la':
@@ -7709,6 +7768,8 @@ def _apply_universal_text_fixes(payload: Any) -> None:
         out = _fix_french_ordinals(out, lang)
         out = _fix_oeuvre_ligature(out, lang)
         out = _fix_italian_e_apostrophe(out, lang)
+        out = _fix_italian_doubled_apostrophe(out, lang)
+        out = _fix_vernacular_diacritics(out, lang)
         out = _fix_coel_to_cael(out, lang)
         out = _liturgical_markers(out, lang)
         if lang == 'la':
@@ -8000,6 +8061,8 @@ def _post_process_mass(mass: dict) -> Optional[dict]:
     _walk_lang_strings(mass, _fix_french_ordinals)
     _walk_lang_strings(mass, _fix_oeuvre_ligature)
     _walk_lang_strings(mass, _fix_italian_e_apostrophe)
+    _walk_lang_strings(mass, _fix_italian_doubled_apostrophe)
+    _walk_lang_strings(mass, _fix_vernacular_diacritics)
     _walk_lang_strings(mass, _fix_coel_to_cael)
     _fix_citation_strings_in_payload(mass)
     _walk_lang_strings(mass, _liturgical_markers)
