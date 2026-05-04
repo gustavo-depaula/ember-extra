@@ -3496,6 +3496,68 @@ class TestFixPUAChars:
         assert R._fix_pua_chars(s) == "see § 200"
 
 
+class TestBackfillTruncatedCitation:
+    """When pt-BR/it citation is just `Sl 41` while sister langs have
+    `Ps 41, 2-3; 42, 3. 4`, copy the verse spec onto the destination's
+    book abbreviation. Cycle 36."""
+
+    def test_backfills_pt_br_from_la(self):
+        cit = {
+            'la': 'Ps 41, 2-3; 42, 3. 4',
+            'es': 'Sal 41, 2-3; 42, 3. 4',
+            'pt-BR': 'Sl 41',
+            'it': 'Sal 41, 2-3; 42, 3. 4',
+            'fr': 'Ps 41, 2-3; 42, 3. 4',
+        }
+        R._backfill_truncated_citation(cit)
+        assert cit['pt-BR'] == 'Sl 41, 2-3; 42, 3. 4'
+
+    def test_does_not_touch_de(self):
+        # DE uses Hebrew numbering — different chapter — skip even if truncated.
+        cit = {
+            'la': 'Ps 41, 2-3; 42, 3. 4',
+            'de': 'Ps 42',
+        }
+        R._backfill_truncated_citation(cit)
+        assert cit['de'] == 'Ps 42'  # unchanged
+
+    def test_does_not_touch_en(self):
+        # EN uses `:` separator — different style — skip.
+        cit = {
+            'la': 'Ps 41, 2-3; 42, 3. 4',
+            'en': 'Ps 41',
+        }
+        R._backfill_truncated_citation(cit)
+        # EN is not in the safe-lang list; should not change.
+        assert cit['en'] == 'Ps 41'
+
+    def test_idempotent(self):
+        cit = {
+            'la': 'Ps 41, 2-3; 42, 3. 4',
+            'pt-BR': 'Sl 41, 2-3; 42, 3. 4',
+        }
+        R._backfill_truncated_citation(cit)
+        assert cit['pt-BR'] == 'Sl 41, 2-3; 42, 3. 4'
+
+    def test_chapter_mismatch_skipped(self):
+        # Don't backfill if dest chapter differs from donor.
+        cit = {
+            'la': 'Ps 41, 2-3; 42, 3. 4',
+            'pt-BR': 'Sl 50',  # different chapter
+        }
+        R._backfill_truncated_citation(cit)
+        assert cit['pt-BR'] == 'Sl 50'
+
+    def test_no_donor_to_use(self):
+        # If all citations are truncated, no backfill possible.
+        cit = {
+            'la': 'Ps 41',
+            'pt-BR': 'Sl 41',
+        }
+        R._backfill_truncated_citation(cit)
+        assert cit['pt-BR'] == 'Sl 41'
+
+
 class TestFrenchQuoteStateMachine:
     """`Le Seigneur m'a dit : " Tu es mon fils ;` → `… : « Tu es mon fils ;`,
     `tu les briseras… "` → `… »`. Open/close state propagates across

@@ -7942,6 +7942,92 @@ def _apply_universal_text_fixes(payload: Any) -> None:
         _fix_citation_strings_in_payload(payload)
 
 
+# Cycle 36 — responsorial-psalm and reading citation backfill. When one
+# language's citation is just `<book> <chapter>` while sister langs have a
+# detailed verse spec, copy the verse part from the most-detailed sister
+# (preserving the destination language's book abbreviation).
+
+# Per-language book abbreviation patterns (allow common variants).
+_BOOK_ABBREV_RE = {
+    'la': re.compile(r'^([A-Z][a-zA-Zé]{1,5})\s'),
+    'es': re.compile(r'^([A-Z][a-zA-Zé]{1,6})\s'),
+    'en': re.compile(r'^(\d?\s*[A-Z][a-zA-Z]{1,5})\s'),
+    'pt-BR': re.compile(r'^([A-Z][a-zA-Zé]{1,5})\s'),
+    'it': re.compile(r'^([A-Z][a-zA-Zà-ÿ]{1,6})\s'),
+    'fr': re.compile(r'^([A-Z][a-zA-Zà-ÿ]{1,5})\s'),
+    'de': re.compile(r'^([A-Z][a-zA-Zä-üß]{1,6})\s'),
+}
+
+# A citation is "truncated" if it's just `<book> <number>` (chapter only).
+_TRUNCATED_CITATION_RE = re.compile(r'^[A-Z][a-zA-ZÀ-ÿ]{1,6}\s+\d+\s*$')
+
+
+def _backfill_truncated_citation(citation: dict) -> None:
+    """In-place: for each truncated lang, copy verse spec from a fuller sister.
+
+    Skips DE (different psalm-numbering scheme — Hebrew vs Vulgate, off by 1)
+    and EN (uses `:` instead of `,` for verse separator). For other langs
+    (la/es/pt-BR/it/fr) which all use comma-separated verse spec, take any
+    sister with a richer citation and graft its verse spec onto the
+    destination's book abbreviation."""
+    if not isinstance(citation, dict):
+        return
+
+    # Identify truncated langs and richer sisters (only la/es/pt-BR/it/fr).
+    safe_langs = ('la', 'es', 'pt-BR', 'it', 'fr')
+    truncated = []
+    rich = []
+    for L in safe_langs:
+        v = citation.get(L)
+        if not isinstance(v, str) or not v.strip():
+            continue
+        if _TRUNCATED_CITATION_RE.match(v.strip()):
+            truncated.append(L)
+        elif ',' in v:
+            rich.append(L)
+
+    if not truncated or not rich:
+        return
+
+    # Use the longest rich citation as the donor.
+    donor_lang = max(rich, key=lambda L: len(citation[L]))
+    donor = citation[donor_lang].strip()
+
+    # Find donor's verse spec — everything after the first chapter number.
+    m = re.match(r'^([A-Z][a-zA-Zà-ÿ]{1,6})\s+(\d+)(.*)$', donor)
+    if not m:
+        return
+    donor_book, donor_chap, donor_rest = m.group(1), m.group(2), m.group(3)
+    if not donor_rest.strip():
+        return  # donor itself is just chapter — nothing to backfill
+
+    for L in truncated:
+        target = citation[L].strip()
+        m2 = re.match(r'^([A-Z][a-zA-Zà-ÿ]{1,6})\s+(\d+)\s*$', target)
+        if not m2:
+            continue
+        tgt_book, tgt_chap = m2.group(1), m2.group(2)
+        # Only backfill when the chapter numbers match — avoids grafting
+        # Vulgate verses onto a Hebrew-numbered citation.
+        if tgt_chap != donor_chap:
+            continue
+        citation[L] = f"{tgt_book} {tgt_chap}{donor_rest}"
+
+
+def _backfill_truncated_citations_in_payload(payload: Any) -> None:
+    """Walk the payload and apply citation-backfill to every `citation`
+    dict directly under reading-shaped slots."""
+    if isinstance(payload, dict):
+        for k, v in list(payload.items()):
+            if k == 'citation' and isinstance(v, dict):
+                _backfill_truncated_citation(v)
+            else:
+                _backfill_truncated_citations_in_payload(v)
+    elif isinstance(payload, list):
+        for item in payload:
+            _backfill_truncated_citations_in_payload(item)
+
+
 def _fix_citation_strings_in_payload(payload: Any) -> None:
     """Walk the payload and apply citation-scoped fixes (e.g. numeric range
     break collapse) to every `citation` field. Citation fields are dicts
@@ -8245,6 +8331,7 @@ def _post_process_mass(mass: dict) -> Optional[dict]:
     _walk_lang_strings(mass, _fix_vernacular_diacritics)
     _walk_lang_strings(mass, _fix_coel_to_cael)
     _fix_citation_strings_in_payload(mass)
+    _backfill_truncated_citations_in_payload(mass)
     _walk_lang_strings(mass, _liturgical_markers)
     _normalize_citation_styles_in_mass(mass)
     _append_period_to_alleluia_end_in_mass(mass)
