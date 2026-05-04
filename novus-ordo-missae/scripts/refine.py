@@ -4547,7 +4547,10 @@ def _strip_bare_number_segments(mass: dict) -> None:
     """Remove text segments inside body.lines that are just bare digits —
     these are page/verse markers that leaked into the prayer text stream.
     Also drops lines that become empty as a result, so the schema's
-    non-empty-list invariant for line entries holds."""
+    non-empty-list invariant for line entries holds. Cycle 35 also strips
+    bare-digit `plain.<L>` orphans (one-character section numbers that
+    became the only content for a language while siblings carry full
+    paragraphs)."""
     # Bare digit optionally trailed by 1-3 dots — covers verse markers ("21"),
     # source-PDF paragraph numbers ("15."), and OCR'd doubled periods ("19..").
     bare_digits = re.compile(r'^\d{1,4}\.{0,3}$')
@@ -4568,6 +4571,13 @@ def _strip_bare_number_segments(mass: dict) -> None:
                                                and bare_digits.match(seg['text'].strip()))]
                         v[L] = [line for line in langlines
                                 if isinstance(line, list) and line]
+                elif k == 'plain' and isinstance(v, dict):
+                    # Cycle 35: drop plain.<L> entries that are just a bare
+                    # digit (section-number residue, no real content).
+                    for L in list(v.keys()):
+                        val = v[L]
+                        if isinstance(val, str) and bare_digits.match(val.strip()):
+                            v.pop(L, None)
                 else:
                     walk(v)
         elif isinstance(node, list):
@@ -5980,21 +5990,29 @@ def _strip_rubric_markers_from_text(mass: dict) -> None:
 
 
 def _fix_empty_lines(mass: dict) -> None:
-    """If a body has populated `plain` but `lines` is an empty dict, build
-    minimal lines (a single text segment per language) so the schema's
-    per-language invariant holds."""
+    """If a body has populated `plain` but `lines` is an empty dict — or if
+    `plain.<L>` is set but `lines.<L>` is missing — build minimal lines
+    (a single text segment per missing language) so plain/lines stay in
+    sync per language."""
     def walk(node):
         if isinstance(node, dict):
             plain = node.get('plain')
             lines = node.get('lines')
-            if (isinstance(plain, dict) and isinstance(lines, dict)
-                    and not lines and any(isinstance(v, str) and v.strip()
-                                          for v in plain.values())):
-                rebuilt = {}
-                for L, txt in plain.items():
-                    if isinstance(txt, str) and txt.strip():
-                        rebuilt[L] = [[{"type": "text", "text": txt}]]
-                node['lines'] = rebuilt
+            if isinstance(plain, dict) and isinstance(lines, dict):
+                # Case 1: empty `lines` dict, populated plain.
+                if not lines and any(isinstance(v, str) and v.strip()
+                                     for v in plain.values()):
+                    rebuilt = {}
+                    for L, txt in plain.items():
+                        if isinstance(txt, str) and txt.strip():
+                            rebuilt[L] = [[{"type": "text", "text": txt}]]
+                    node['lines'] = rebuilt
+                # Cycle 35: case 2 — per-lang gap (plain.es set but no lines.es).
+                else:
+                    for L, txt in plain.items():
+                        if (isinstance(txt, str) and txt.strip()
+                                and L not in lines):
+                            lines[L] = [[{"type": "text", "text": txt}]]
             for v in node.values():
                 walk(v)
         elif isinstance(node, list):
