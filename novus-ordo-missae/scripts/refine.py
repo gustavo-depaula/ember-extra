@@ -4192,6 +4192,13 @@ _LA_DIACRITIC_WORDS = [
     ('beatae', 'beátæ'), ('Beatae', 'Beátæ'),
     ('Mariae', 'Maríæ'), ('mariae', 'maríæ'),
     ('sanctae', 'sánctæ'), ('Sanctae', 'Sánctæ'),
+    # Cycle 24 — caelum forms. Cross-checked against the 2002 Missale Romanum
+    # Pater Noster ("qui es in cælis", "sicut in cælo"). Corpus already has
+    # 1500+ ligated occurrences vs ~22 plain holdouts.
+    ('caeli', 'cæli'), ('caelis', 'cælis'), ('caelo', 'cælo'),
+    ('caelórum', 'cælórum'), ('caelorum', 'cælórum'),
+    ('caeléstis', 'cæléstis'), ('caelestis', 'cæléstis'),
+    ('Caelestis', 'Cæléstis'), ('Caeléstis', 'Cæléstis'),
 ]
 
 _LA_DIACRITIC_RE = re.compile(
@@ -7365,6 +7372,10 @@ def _apply_universal_text_fixes(payload: Any) -> None:
         out = _collapse_doubled_period(out)
         out = _collapse_doubled_comma(out)
         out = _liturgical_markers(out, lang)
+        if lang == 'la':
+            for pat, rep in _LA_OCR_FIXES:
+                out = pat.sub(rep, out)
+            out = _fix_la_diacritics(out, 'la')
         if lang == 'it':
             out = _fix_italian_specific_scannos(out)
         return out

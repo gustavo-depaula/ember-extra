@@ -3375,6 +3375,41 @@ class TestFixNumericRangeBreakInCitation:
         assert once == twice
 
 
+class TestLatinCaeliLigatures:
+    """`caeli/caelis/caelo/caelórum/caeléstis` → `cæli/cælis/cælo/cælórum/cæléstis`.
+    The corpus's dominant form is the ligated one (e.g. cæli 471 vs caeli 8);
+    these entries clean up OCR holdouts. Cross-checked against the 2002
+    Missale Romanum Latin Pater Noster: `qui es in cælis`, `sicut in cælo`."""
+
+    def test_caelis_to_caelis(self):
+        assert R._fix_la_diacritics("qui es in caelis", "la") == "qui es in cælis"
+
+    def test_caelo_to_caelo(self):
+        assert R._fix_la_diacritics("sicut in caelo", "la") == "sicut in cælo"
+
+    def test_caeli_to_caeli(self):
+        assert R._fix_la_diacritics("Pleni sunt caeli et terra", "la") == "Pleni sunt cæli et terra"
+
+    def test_caelorum_to_caelorum(self):
+        assert R._fix_la_diacritics("regnum caelórum", "la") == "regnum cælórum"
+
+    def test_caelestis_with_accent(self):
+        # `caeléstis` (already has acute on é) — only ligate ae→æ
+        assert R._fix_la_diacritics("Rex caeléstis", "la") == "Rex cæléstis"
+
+    def test_caelestis_unaccented(self):
+        # `caelestis` (no accent) → `cæléstis` (acute + ligature)
+        assert R._fix_la_diacritics("caelestis Pater", "la") == "cæléstis Pater"
+
+    def test_pater_noster_full_round_trip(self):
+        """The full Pater Noster opening should match the 2002 Missale Romanum
+        text after the diacritic pass. Reference: International Union of Guides
+        and Scouts of Europe English-Latin Missal (CCDDS 2002 source)."""
+        ours = "Pater noster, qui es in caelis: sanctificétur nomen tuum; advéniat regnum tuum; fiat volúntas tua, sicut in caelo, et in terra."
+        expected = "Pater noster, qui es in cælis: sanctificétur nomen tuum; advéniat regnum tuum; fiat volúntas tua, sicut in cælo, et in terra."
+        assert R._fix_la_diacritics(ours, "la") == expected
+
+
 class TestScrubStripTrailingDotsConsumesSpace:
     """Trailing `...` (or `..`) collapse should also eat any preceding
     whitespace so `verehren wir ...` becomes `verehren wir.` (no orphan

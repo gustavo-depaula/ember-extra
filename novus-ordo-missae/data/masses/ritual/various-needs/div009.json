@@ -465,10 +465,29 @@
     }
   },
   "preface": {
-    "prefaceRef": "preface.pf082",
-    "label": {
-      "la": "Præfatio II de Spíritu Sancto",
-      "fr": "Préface II du Saint-Esprit"
+    "body": {
+      "plain": {
+        "la": "Præfatio II de Spíritu Sancto.",
+        "fr": "Préface II du Saint-Esprit."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "rubric",
+              "text": "Præfatio II de Spíritu Sancto."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "rubric",
+              "text": "Préface II du Saint-Esprit."
+            }
+          ]
+        ]
+      }
     }
   },
   "communionAntiphon": {
