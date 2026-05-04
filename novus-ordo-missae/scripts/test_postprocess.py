@@ -2233,14 +2233,15 @@ class TestFixSpecificScannos:
 
 
 class TestEnStPeriodNormalization:
-    """English St (no period) should become St."""
-    def test_st_without_period_gets_period(self):
+    """English `St ` and `St. ` both normalize to `Saint ` (cycle 40 — corpus
+    convention is 178 'Saint ' vs 5 'St. ' outliers)."""
+    def test_st_without_period_gets_normalized(self):
         out = R._normalize_en_st_abbrev("St Josephine Bakhita")
-        assert out == "St. Josephine Bakhita"
+        assert out == "Saint Josephine Bakhita"
 
-    def test_st_with_period_unchanged(self):
+    def test_st_with_period_gets_normalized(self):
         out = R._normalize_en_st_abbrev("St. Joseph, Husband")
-        assert out == "St. Joseph, Husband"
+        assert out == "Saint Joseph, Husband"
 
     def test_does_not_touch_saint_full(self):
         out = R._normalize_en_st_abbrev("Saint Joseph")

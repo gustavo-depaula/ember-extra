@@ -6786,13 +6786,17 @@ def _titlecase_sanctorale_titles(mass: dict) -> None:
 
 
 def _normalize_en_st_abbrev(text: str) -> str:
-    """`St ` -> `St.` when followed by a capitalized name (avoid touching
-    words like 'Stephen' or 'Stanislaus'). Targets the abbreviation only."""
+    """`St ` -> `St. ` then `St. ` -> `Saint ` when followed by a capitalized
+    name (avoid touching words like 'Stephen' or 'Stanislaus'). Targets the
+    abbreviation only. Cycle 40: also normalize 'St.' to 'Saint' since the
+    corpus convention is 'Saint ' (178 entries) vs 'St. ' (5 outliers)."""
     if not isinstance(text, str) or not text:
         return text
-    # Match `St ` (no period) followed by a capitalized name OR `Saint`.
-    # The pattern: word boundary, `St`, space, then [A-Z][a-z] (a name).
-    return re.sub(r'\bSt (?=[A-Z][a-zàáâäéèêëíîïóôöúûüçñ])', 'St. ', text)
+    # First pass: insert missing period after bare `St`.
+    out = re.sub(r'\bSt (?=[A-Z][a-zàáâäéèêëíîïóôöúûüçñ])', 'St. ', text)
+    # Second pass: normalize `St.` to `Saint` for the dominant corpus style.
+    out = re.sub(r'\bSt\. (?=[A-Z][a-zàáâäéèêëíîïóôöúûüçñ])', 'Saint ', out)
+    return out
 
 
 def _normalize_en_st_abbrev_in_mass(mass: dict) -> None:
@@ -8914,6 +8918,11 @@ def main():
         _drop_vernacular_la_leak(s, "title")
         _drop_vernacular_la_leak(s, "description")
         _backfill_rank_localized(s)
+        # Cycle 40: normalize EN `St.` to `Saint` (matches the corpus
+        # dominant convention).
+        title = s.get("title")
+        if isinstance(title, dict) and isinstance(title.get("en"), str):
+            title["en"] = _normalize_en_st_abbrev(title["en"])
         # Cycle 38: ensure description bodies end with terminal punctuation.
         # The bundled-write code path runs this in _post_process_payload; the
         # per-saint write path here skipped it.
