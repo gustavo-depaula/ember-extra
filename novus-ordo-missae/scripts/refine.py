@@ -7592,6 +7592,102 @@ def _fix_italian_doubled_apostrophe(text, lang):
     return _IT_DOUBLED_APOS_RE.sub('”', text)
 
 
+# Cycle 32 — French straight ASCII quotes `"…"` → guillemets `«…»`. Quote
+# pairs often span multiple segments within a body, so a single-string fix
+# can't see the boundary. This pass walks each body (the dict containing
+# `plain.fr` and `lines.fr`) as a unit:
+#   - For `plain.fr`: alternating replacement based on a fresh local toggle.
+#   - For `lines.fr`: walk all segments in source order, propagating the
+#     open/close state across line and segment boundaries.
+# Reset state between bodies so a malformed quote count in one body doesn't
+# leak into the next.
+
+def _convert_quotes_in_body_fr(body: dict) -> None:
+    """In-place conversion of straight `"` to `«`/`»` in a single body's
+    `plain.fr` and `lines.fr`. Skips bodies that already mix `«` with `"`
+    (let those be hand-cleaned to avoid clobbering existing structure)."""
+    if not isinstance(body, dict):
+        return
+    plain = body.get('plain') or {}
+    lines = body.get('lines') or {}
+    p_fr = plain.get('fr') if isinstance(plain, dict) else None
+    l_fr = lines.get('fr') if isinstance(lines, dict) else None
+
+    def has_mixed(text: str) -> bool:
+        return ('«' in text or '»' in text) and '"' in text
+
+    # Skip if any plain or any segment text mixes guillemets and ascii quotes.
+    if isinstance(p_fr, str) and has_mixed(p_fr):
+        return
+    if isinstance(l_fr, list):
+        for line in l_fr:
+            if not isinstance(line, list):
+                continue
+            for seg in line:
+                if isinstance(seg, dict) and isinstance(seg.get('text'), str) and has_mixed(seg['text']):
+                    return
+
+    def toggle_replace(text: str, state: list[bool]) -> str:
+        # state is [open?] mutable — single-element list as sentinel.
+        out = []
+        for ch in text:
+            if ch == '"':
+                if not state[0]:
+                    out.append('«')
+                    state[0] = True
+                else:
+                    out.append('»')
+                    state[0] = False
+            else:
+                out.append(ch)
+        return ''.join(out)
+
+    # plain.fr: independent toggle (doesn't share state with lines).
+    if isinstance(p_fr, str) and '"' in p_fr:
+        # Only convert if even count (balanced) — otherwise we'd leave an
+        # orphan glyph that's hard to repair.
+        if p_fr.count('"') % 2 == 0:
+            plain['fr'] = toggle_replace(p_fr, [False])
+
+    # lines.fr: walk in source order; only convert if total `"` count across
+    # all segments is even.
+    if isinstance(l_fr, list):
+        total = 0
+        for line in l_fr:
+            if not isinstance(line, list):
+                continue
+            for seg in line:
+                if isinstance(seg, dict) and isinstance(seg.get('text'), str):
+                    total += seg['text'].count('"')
+        if total > 0 and total % 2 == 0:
+            state = [False]
+            for line in l_fr:
+                if not isinstance(line, list):
+                    continue
+                for seg in line:
+                    if isinstance(seg, dict) and isinstance(seg.get('text'), str) and '"' in seg['text']:
+                        seg['text'] = toggle_replace(seg['text'], state)
+
+
+def _fr_quote_state_machine_in_payload(payload: Any) -> None:
+    """Walk a payload tree and apply the FR quote-pair state-machine to
+    every body block (anything with a `lines` AND/OR `plain` field of
+    `lang->X` shape)."""
+    if isinstance(payload, dict):
+        # A "body" is a dict that has at least one of plain/lines as a Localized.
+        is_body = (
+            isinstance(payload.get('plain'), dict)
+            or isinstance(payload.get('lines'), dict)
+        )
+        if is_body:
+            _convert_quotes_in_body_fr(payload)
+        for v in payload.values():
+            _fr_quote_state_machine_in_payload(v)
+    elif isinstance(payload, list):
+        for v in payload:
+            _fr_quote_state_machine_in_payload(v)
+
+
 # Cycle 24 — doubled-period collapse. `..` → `.` but preserve `...` (ellipsis)
 # and `....` (ellipsis + sentence period). Negative lookbehind/lookahead.
 _DOUBLED_PERIOD_RE = re.compile(r'(?<!\.)\.\.(?!\.)')
@@ -8110,6 +8206,10 @@ def _post_process_mass(mass: dict) -> Optional[dict]:
     # might empty out a segment.
     _clean_empty_rubric_segments_in_mass(out)
     _merge_adjacent_segments_in_mass(out)
+    # Cycle 32: French straight-quote → guillemet pairs (state machine
+    # over each body's lines.fr in source order; plain.fr toggled
+    # independently).
+    _fr_quote_state_machine_in_payload(out)
     return out
 
 

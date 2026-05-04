@@ -3496,6 +3496,54 @@ class TestFixPUAChars:
         assert R._fix_pua_chars(s) == "see § 200"
 
 
+class TestFrenchQuoteStateMachine:
+    """`Le Seigneur m'a dit : " Tu es mon fils ;` → `… : « Tu es mon fils ;`,
+    `tu les briseras… "` → `… »`. Open/close state propagates across
+    segments and lines. Cycle 32."""
+
+    def test_balanced_in_plain(self):
+        body = {"plain": {"fr": 'Il dit : " bonjour " et part.'}, "lines": {}}
+        import refine as R
+        R._convert_quotes_in_body_fr(body)
+        assert body["plain"]["fr"] == 'Il dit : « bonjour » et part.'
+
+    def test_balanced_across_segments(self):
+        import refine as R
+        body = {
+            "plain": {"fr": ""},
+            "lines": {"fr": [
+                [{"type": "text", "text": 'Il dit : "'}],
+                [{"type": "text", "text": 'bonjour'}],
+                [{"type": "text", "text": '"'}],
+            ]},
+        }
+        R._convert_quotes_in_body_fr(body)
+        assert body["lines"]["fr"][0][0]["text"] == 'Il dit : «'
+        assert body["lines"]["fr"][2][0]["text"] == '»'
+
+    def test_does_not_touch_unbalanced(self):
+        # Single `"` with no closer — leave alone (don't create orphan glyph).
+        import refine as R
+        body = {"plain": {"fr": 'Il dit : " bonjour'}, "lines": {}}
+        R._convert_quotes_in_body_fr(body)
+        assert body["plain"]["fr"] == 'Il dit : " bonjour'
+
+    def test_does_not_touch_already_mixed(self):
+        # If body already has `«` AND `"` — skip it (handcleaning territory).
+        import refine as R
+        body = {"plain": {"fr": 'Il dit : « salut " bonjour »'}, "lines": {}}
+        original = body["plain"]["fr"]
+        R._convert_quotes_in_body_fr(body)
+        assert body["plain"]["fr"] == original
+
+    def test_idempotent(self):
+        import refine as R
+        body = {"plain": {"fr": 'Il dit : « bonjour » et part.'}, "lines": {}}
+        original = body["plain"]["fr"]
+        R._convert_quotes_in_body_fr(body)
+        assert body["plain"]["fr"] == original
+
+
 class TestKeyPrayersMatchAuthoritativeMissal:
     """Lock in key Latin prayers as byte-identical to the 2002 Missale Romanum.
     Source: International Union of Guides and Scouts of Europe English-Latin
