@@ -8362,6 +8362,13 @@ def _post_process_mass(mass: dict) -> Optional[dict]:
     _backfill_sanctorale_rank(mass)
     _drop_vernacular_la_leak(mass, 'title')
     _drop_vernacular_la_leak(mass, 'description')
+    # Cycle 38: ensure mass description bodies end with terminal punct
+    # (matching the saints catalog write path).
+    desc = mass.get('description')
+    if isinstance(desc, dict):
+        for L, v in list(desc.items()):
+            if isinstance(v, str) and v.strip():
+                desc[L] = _ensure_terminal_period(v.strip())
     _assign_liturgical_color(mass)
     out = _scrub_tree(mass, None)
     # Cycle 27: scrub_tree → _balance_parens drops orphan `(` and `)` from
