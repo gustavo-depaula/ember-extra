@@ -3415,6 +3415,87 @@ class TestFrenchOeuvreLigature:
         assert R._fix_oeuvre_ligature(s, "en") == s
 
 
+class TestFixPeriodNoSpace:
+    """`Per Dóminum.Per Christum.` → `Per Dóminum. Per Christum.`. Lang-agnostic."""
+
+    def test_basic(self):
+        assert R._fix_period_no_space("foo.Bar baz") == "foo. Bar baz"
+
+    def test_la_chained(self):
+        assert R._fix_period_no_space("Per Dóminum.Per Christum.") == "Per Dóminum. Per Christum."
+
+    def test_does_not_touch_url(self):
+        # No alpha-then-uppercase-alpha across the period.
+        s = "see https://example.com/foo for more"
+        assert R._fix_period_no_space(s) == s
+
+    def test_does_not_touch_abbreviation(self):
+        # `e.g.` and similar — period followed by lowercase, then space-then-letter
+        s = "etc. and so on"
+        assert R._fix_period_no_space(s) == s
+
+    def test_idempotent(self):
+        assert R._fix_period_no_space("foo. Bar") == "foo. Bar"
+
+
+class TestFixCommaNoSpace:
+    """`bautizados,para` → `bautizados, para`. Lang-agnostic."""
+
+    def test_basic(self):
+        assert R._fix_comma_no_space("foo,bar baz") == "foo, bar baz"
+
+    def test_does_not_touch_numeric(self):
+        # Verse references like `Mt 5,17` keep no space (Bible-citation style).
+        s = "Mt 5,17 said"
+        assert R._fix_comma_no_space(s) == s
+
+    def test_idempotent(self):
+        assert R._fix_comma_no_space("foo, bar") == "foo, bar"
+
+    def test_chained(self):
+        assert R._fix_comma_no_space("a,b,c,d") == "a, b, c, d"
+
+
+class TestFixItalianEApostrophe:
+    """`E'` (E + straight apos) → `È` for Italian. Common preface dialogue."""
+
+    def test_basic(self):
+        assert R._fix_italian_e_apostrophe("R. E' cosa buona", "it") == "R. È cosa buona"
+
+    def test_with_curly_apos(self):
+        assert R._fix_italian_e_apostrophe("E’ veramente", "it") == "È veramente"
+
+    def test_does_not_apply_to_other_langs(self):
+        s = "E' cosa"
+        assert R._fix_italian_e_apostrophe(s, "en") == s
+        assert R._fix_italian_e_apostrophe(s, "fr") == s
+
+
+class TestFixCoeurSoeurLigature:
+    """Extend Œ ligature fix to `coeur/soeur` (originally only `oeuvre`)."""
+
+    def test_coeur(self):
+        assert R._fix_oeuvre_ligature("le coeur de Jésus", "fr") == "le cœur de Jésus"
+
+    def test_soeur(self):
+        assert R._fix_oeuvre_ligature("Soeur Marie", "fr") == "Sœur Marie"
+
+    def test_oeuvre_still_works(self):
+        assert R._fix_oeuvre_ligature("son oeuvre", "fr") == "son œuvre"
+
+
+class TestFixPUAChars:
+    """Source HTML used Private Use Area code points for `—` and `§`. Map them."""
+
+    def test_em_dash(self):
+        s = "the Mass" + "" + "that is"
+        assert R._fix_pua_chars(s) == "the Mass—that is"
+
+    def test_section_mark(self):
+        s = "see " + "" + " 200"
+        assert R._fix_pua_chars(s) == "see § 200"
+
+
 class TestKeyPrayersMatchAuthoritativeMissal:
     """Lock in key Latin prayers as byte-identical to the 2002 Missale Romanum.
     Source: International Union of Guides and Scouts of Europe English-Latin

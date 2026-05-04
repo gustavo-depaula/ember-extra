@@ -4218,6 +4218,17 @@ _LA_DIACRITIC_WORDS = [
     ('fidelium', 'fidélium'), ('fidelibus', 'fidélibus'),
     ('orationem', 'oratiónem'), ('orationes', 'oratiónes'),
     ('orationis', 'oratiónis'), ('oratione', 'oratióne'),
+    # Cycle 29: more ae→æ ligature stragglers (corpus-dominant ratio ≥40:1).
+    # Cross-checked: `quae` (relative pronoun fem. sg/pl), `tuae` (gen),
+    # `terrae`, `meae`, `vitae` — all canonically ligated in modern missals.
+    ('quae', 'quæ'),
+    ('tuae', 'tuæ'),  # already in list as direct OCR fix; redundant entries are
+                       # safe (dict.update keeps last) but listed here for the
+                       # corpus-survey-driven justification trail.
+    ('terrae', 'terræ'),
+    ('meae', 'meæ'),
+    ('vitae', 'vitæ'),
+    ('haec', 'hæc'),
 ]
 
 _LA_DIACRITIC_RE = re.compile(
@@ -7398,18 +7409,94 @@ def _fix_french_ordinals(text, lang):
     return out
 
 
-# Cycle 28 — `Oeuvre` should be `Œuvre` (œ ligature). Specific to French/Latin.
-_OEUVRE_RE = re.compile(r'\bOeuvre\b')
-_OEUVRE_LOWER_RE = re.compile(r'\boeuvre\b')
+# Cycle 28/29 — French œ ligatures: Oeuvre/oeuvre/Coeur/coeur/Soeur/soeur
+# all canonically use œ. Limited to fr (la also gets Oeuvre).
+_OE_LIGATURE_PAIRS = [
+    (re.compile(r'\bOeuvre\b'), 'Œuvre'),
+    (re.compile(r'\boeuvre\b'), 'œuvre'),
+    (re.compile(r'\bCoeur\b'), 'Cœur'),
+    (re.compile(r'\bcoeur\b'), 'cœur'),
+    (re.compile(r'\bSoeur\b'), 'Sœur'),
+    (re.compile(r'\bsoeur\b'), 'sœur'),
+]
 
 
 def _fix_oeuvre_ligature(text, lang):
     if lang not in ('fr', 'la') or not isinstance(text, str):
         return text
-    if 'euvre' not in text.lower():
+    if 'euvre' not in text.lower() and 'oeur' not in text.lower():
         return text
-    out = _OEUVRE_RE.sub('Œuvre', text)
-    out = _OEUVRE_LOWER_RE.sub('œuvre', out)
+    out = text
+    for pat, rep in _OE_LIGATURE_PAIRS:
+        out = pat.sub(rep, out)
+    return out
+
+
+# Cycle 29 — Italian `E'` (capital E + straight apostrophe) is a typographic
+# surrogate for `È` (E with grave accent). 110 hits in EP preface dialogues.
+_IT_E_APOS_RE = re.compile(r"\bE['’](?=\s)")
+
+
+def _fix_italian_e_apostrophe(text, lang):
+    if lang != 'it' or not isinstance(text, str) or 'E' not in text:
+        return text
+    return _IT_E_APOS_RE.sub('È', text)
+
+
+# Cycle 29 — missing space after period before capital letter, e.g.
+# `Per Dóminum.Per Christum.` → `Per Dóminum. Per Christum.`. Lang-agnostic.
+# Guard against common abbreviations and URLs by requiring an alpha-then-alpha
+# context AND a lowercase-letter-or-accented-letter on the left.
+_PERIOD_NO_SPACE_RE = re.compile(
+    r'([a-záéíóúàèìòùçñãõâêîôûäëïöü])\.([A-ZÁÉÍÓÚÀÈÌÒÙÑÃÕÂÊÎÔÛÄËÏÖÜ][a-záéíóúàèìòùçñãõâêîôûäëïöü])'
+)
+
+
+def _fix_period_no_space(text):
+    if not isinstance(text, str) or '.' not in text:
+        return text
+    # Apply iteratively to handle chained cases
+    prev = None
+    out = text
+    while prev != out:
+        prev = out
+        out = _PERIOD_NO_SPACE_RE.sub(r'\1. \2', out)
+    return out
+
+
+# Cycle 29 — missing space after comma. Lang-agnostic.
+_COMMA_NO_SPACE_RE = re.compile(
+    r'([a-záéíóúàèìòùçñãõâêîôûäëïöü]),([a-záéíóúàèìòùçñãõâêîôûäëïöü])'
+)
+
+
+def _fix_comma_no_space(text):
+    if not isinstance(text, str) or ',' not in text:
+        return text
+    prev = None
+    out = text
+    while prev != out:
+        prev = out
+        out = _COMMA_NO_SPACE_RE.sub(r'\1, \2', out)
+    return out
+
+
+# Cycle 29 — IGMR PUA character mapping. The source HTML used Private Use Area
+# code points for `—` (em-dash) and `§` (section mark). Map them.
+_PUA_CHAR_MAP = {
+    '': '—',
+    '': '§',
+}
+
+
+def _fix_pua_chars(text):
+    if not isinstance(text, str):
+        return text
+    if '' not in text and '' not in text:
+        return text
+    out = text
+    for ch, rep in _PUA_CHAR_MAP.items():
+        out = out.replace(ch, rep)
     return out
 
 
@@ -7539,8 +7626,12 @@ def _apply_universal_text_fixes_to_doc(doc: Any, lang: Optional[str]) -> None:
         out = _collapse_doubled_comma(out)
         out = _fix_holy_x_spirit(out)
         out = _fix_misal_todo_path_leak(out)
+        out = _fix_pua_chars(out)
+        out = _fix_period_no_space(out)
+        out = _fix_comma_no_space(out)
         out = _fix_french_ordinals(out, lang or "")
         out = _fix_oeuvre_ligature(out, lang or "")
+        out = _fix_italian_e_apostrophe(out, lang or "")
         out = _liturgical_markers(out, lang or "")
         if lang == 'la':
             for pat, rep in _LA_OCR_FIXES:
@@ -7582,8 +7673,12 @@ def _apply_universal_text_fixes(payload: Any) -> None:
         out = _collapse_doubled_comma(out)
         out = _fix_holy_x_spirit(out)
         out = _fix_misal_todo_path_leak(out)
+        out = _fix_pua_chars(out)
+        out = _fix_period_no_space(out)
+        out = _fix_comma_no_space(out)
         out = _fix_french_ordinals(out, lang)
         out = _fix_oeuvre_ligature(out, lang)
+        out = _fix_italian_e_apostrophe(out, lang)
         out = _liturgical_markers(out, lang)
         if lang == 'la':
             for pat, rep in _LA_OCR_FIXES:
@@ -7867,8 +7962,12 @@ def _post_process_mass(mass: dict) -> Optional[dict]:
     _walk_lang_strings(mass, lambda t, _l: _collapse_doubled_comma(t))
     _walk_lang_strings(mass, lambda t, _l: _fix_holy_x_spirit(t))
     _walk_lang_strings(mass, lambda t, _l: _fix_misal_todo_path_leak(t))
+    _walk_lang_strings(mass, lambda t, _l: _fix_pua_chars(t))
+    _walk_lang_strings(mass, lambda t, _l: _fix_period_no_space(t))
+    _walk_lang_strings(mass, lambda t, _l: _fix_comma_no_space(t))
     _walk_lang_strings(mass, _fix_french_ordinals)
     _walk_lang_strings(mass, _fix_oeuvre_ligature)
+    _walk_lang_strings(mass, _fix_italian_e_apostrophe)
     _fix_citation_strings_in_payload(mass)
     _walk_lang_strings(mass, _liturgical_markers)
     _normalize_citation_styles_in_mass(mass)
