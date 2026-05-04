@@ -4196,6 +4196,7 @@ _LA_DIACRITIC_WORDS = [
     # Pater Noster ("qui es in cælis", "sicut in cælo"). Corpus already has
     # 1500+ ligated occurrences vs ~22 plain holdouts.
     ('caeli', 'cæli'), ('caelis', 'cælis'), ('caelo', 'cælo'),
+    ('caelum', 'cælum'), ('caelos', 'cælos'),
     ('caelórum', 'cælórum'), ('caelorum', 'cælórum'),
     ('caeléstis', 'cæléstis'), ('caelestis', 'cæléstis'),
     ('Caelestis', 'Cæléstis'), ('Caeléstis', 'Cæléstis'),
@@ -4213,6 +4214,10 @@ _LA_DIACRITIC_WORDS = [
     ('saecula', 'sǽcula'), ('saeculi', 'sǽculi'),
     ('saeculo', 'sǽculo'), ('saeculorum', 'sæculórum'),
     ('saeculórum', 'sæculórum'),
+    # Cycle 27 additions: corpus-dominant accented forms.
+    ('fidelium', 'fidélium'), ('fidelibus', 'fidélibus'),
+    ('orationem', 'oratiónem'), ('orationes', 'oratiónes'),
+    ('orationis', 'oratiónis'), ('oratione', 'oratióne'),
 ]
 
 _LA_DIACRITIC_RE = re.compile(
@@ -5595,6 +5600,12 @@ _PLACEHOLDER_TITLES = {
     # Slug fragments that leaked from id paths into title.la (cycle 23):
     'africa', 'chile', 'spain', 'germany', 'argentina', 'uruguay',
     'france', 'italy', 'usa', 'brazil',
+    # Cycle 27: complete the regional-scope token list.
+    'nigeria', 'argentina-chile', 'argentina chile',
+    'german-speaking', 'german speaking',
+    'spanish-speaking', 'spanish speaking',
+    'religious-orders', 'religious orders',
+    'united-states', 'united states',
 }
 
 # Slug-pattern detection: very short tokens like `z`, `y`, or `000c` that
@@ -5605,7 +5616,9 @@ _SLUG_PATTERN_RE = re.compile(r'^[a-z]$|^\d{3,}[a-z]?$')
 
 def _drop_placeholder_titles(mass: dict) -> None:
     """Drop title-language entries whose value is a placeholder (San Fulano
-    style — Spanish "John Doe" leaked from the source template)."""
+    style — Spanish "John Doe" leaked from the source template). If the
+    title becomes entirely empty, delete the title key (the schema requires
+    Localized to have at least one language)."""
     title = mass.get('title')
     if not isinstance(title, dict):
         return
@@ -5616,6 +5629,8 @@ def _drop_placeholder_titles(mass: dict) -> None:
         low = s.lower()
         if low in _PLACEHOLDER_TITLES or _SLUG_PATTERN_RE.match(s):
             title.pop(L, None)
+    if not title:
+        mass.pop('title', None)
 
 
 # Cycle 23 — `Prefacio Prefacio:` / `Prefácio Prefácio:` doubled-label scanno.
@@ -5797,6 +5812,12 @@ def _backfill_missing_title(mass: dict) -> None:
     # Skip if pretty is purely numeric/separators — that's a placeholder, not
     # a meaningful name. Better to leave the title absent.
     if pretty and not re.match(r'^[\d\s-]+$', pretty):
+        # Cycle 27: don't backfill scope-token tails (`africa`, `chile`, etc.)
+        # — these come from regional `sanctorale.04-04.africa`-style ids and
+        # would re-introduce the placeholder pollution that `_drop_placeholder_titles`
+        # just cleaned up.
+        if pretty.lower() in _PLACEHOLDER_TITLES or _SLUG_PATTERN_RE.match(pretty):
+            return
         mass['title'] = {'la': pretty}
 
 
@@ -7339,6 +7360,15 @@ _PADDED_PAREN_OPEN_RE = re.compile(r'\(\s+')
 _PADDED_PAREN_CLOSE_RE = re.compile(r'\s+\)')
 
 
+# Cycle 27 — `holyXspirit` OCR scanno where a sign-of-cross glyph (✠ or +)
+# was misread as a capital X and glued into the adjacent words. Fix only the
+# specific phrase to avoid touching legitimate uses of "X".
+def _fix_holy_x_spirit(text):
+    if not isinstance(text, str) or 'holyXspirit' not in text:
+        return text
+    return text.replace('holyXspirit', 'Holy Spirit')
+
+
 def _collapse_padded_parens(text):
     if not isinstance(text, str):
         return text
@@ -7462,6 +7492,7 @@ def _apply_universal_text_fixes(payload: Any) -> None:
         out = _collapse_padded_parens(out)
         out = _collapse_doubled_period(out)
         out = _collapse_doubled_comma(out)
+        out = _fix_holy_x_spirit(out)
         out = _liturgical_markers(out, lang)
         if lang == 'la':
             for pat, rep in _LA_OCR_FIXES:

@@ -1110,7 +1110,9 @@ class TestPlaceholderTitleStrip:
                 "rank": "solemnity",
                 "title": {"fr": "San Fulano"}}
         R._drop_placeholder_titles(mass)
-        assert "fr" not in mass["title"] or mass["title"]["fr"] != "San Fulano"
+        # If only language was placeholder, the title key is removed entirely
+        # (an empty Localized dict violates the schema's minProperties: 1).
+        assert "title" not in mass or "San Fulano" not in mass["title"].values()
 
     def test_keeps_legit_san_titles(self):
         # "San Fulano" is the placeholder; "San Pedro" is a real title.
@@ -3375,6 +3377,74 @@ class TestFixNumericRangeBreakInCitation:
         once = R._fix_numeric_range_break_in_citation(s)
         twice = R._fix_numeric_range_break_in_citation(once)
         assert once == twice
+
+
+class TestNoBackfillFromScopeIdSuffix:
+    """`_backfill_missing_title` should NOT regenerate a title from id segments
+    like `sanctorale.04-04.africa` (the scope tail `africa` is a placeholder,
+    not a meaningful name). Cycle-27 fix."""
+
+    def test_does_not_backfill_africa(self):
+        mass = {
+            "id": "sanctorale.04-04.africa",
+            "collect": {"body": {"plain": {"la": "..."}}},
+        }
+        R._backfill_missing_title(mass)
+        # Should NOT add title — it's a scope tail
+        assert mass.get("title") in (None, {})
+
+    def test_does_not_backfill_argentina(self):
+        mass = {
+            "id": "sanctorale.08-16.argentina",
+            "collect": {"body": {"plain": {"la": "..."}}},
+        }
+        R._backfill_missing_title(mass)
+        assert mass.get("title") in (None, {})
+
+    def test_does_not_backfill_united_states(self):
+        mass = {
+            "id": "sanctorale.07-04.united-states",
+            "collect": {"body": {"plain": {"la": "..."}}},
+        }
+        R._backfill_missing_title(mass)
+        assert mass.get("title") in (None, {})
+
+    def test_does_backfill_real_name(self):
+        mass = {
+            "id": "sanctorale.04-04.isidore",
+            "collect": {"body": {"plain": {"la": "..."}}},
+        }
+        R._backfill_missing_title(mass)
+        # Should backfill, since "isidore" is a real saint slug
+        assert mass.get("title") == {"la": "isidore"}
+
+
+class TestLatinAdditionalCorpusWordEntries:
+    """Cycle-27 audit identified more high-confidence Latin word entries:
+    `caelum/caelos → cælum/cælos` (Apostles' Creed and Nicene Creed),
+    plus `fidelium → fidélium` and `orationem → oratiónem`."""
+
+    def test_caelum_in_creed(self):
+        # "ascéndit in caelum" (Nicene) — should ligate.
+        assert R._fix_la_diacritics("ascéndit in caelum", "la") == "ascéndit in cælum"
+
+    def test_caelos_in_creed(self):
+        # "ascéndit ad caelos" (Apostles') — should ligate.
+        assert R._fix_la_diacritics("ascéndit ad caelos", "la") == "ascéndit ad cælos"
+
+    def test_fidelium(self):
+        # "fidélium animæ" — accented form is corpus-dominant.
+        assert R._fix_la_diacritics("orationes fidelium", "la") == "oratiónes fidélium"
+
+
+class TestOCRScannoHolyXspirit:
+    """`holyXspirit` → `Holy Spirit` — the X is a stray cross glyph leaked
+    from a sign-of-cross marker."""
+
+    def test_basic(self):
+        s = "the Son, ✠ and the holyXspirit"
+        out = R._fix_holy_x_spirit(s)
+        assert out == "the Son, ✠ and the Holy Spirit"
 
 
 class TestMergeAdjacentSameTypeSegments:
