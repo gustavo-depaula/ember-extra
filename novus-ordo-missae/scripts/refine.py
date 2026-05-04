@@ -4165,7 +4165,7 @@ _LA_OCR_FIXES = [
     (re.compile(r'\bmeœ\b'), 'meæ'),
     # Triple-f scanno (audit cycle 23):
     (re.compile(r'\bdifffícile\b'), 'diffícile'),
-    # Cycle 24 — single-occurrence OCR scannos.
+    # single-occurrence OCR scannos.
     # `1Omaii` is OCR'd `10 Maii` (May 10) — digit-zero glued to capital-M.
     (re.compile(r'\b1Omaii\b'), '10 Maii'),
     # `gratìs` (grave accent) — Latin uses acute only. The word is `grátis`
@@ -4174,7 +4174,7 @@ _LA_OCR_FIXES = [
 ]
 
 
-# Cycle 23 — Latin diacritic word-list. Restores diacritic-marked forms in
+# Latin diacritic word-list. Restores diacritic-marked forms in
 # Latin liturgical words that were OCR'd as plain ASCII. Operates only when
 # `lang == 'la'`. Each entry: (unaccented_form, accented_form). Word boundaries
 # matched via `\b...\b`. Already-accented forms don't match the ASCII pattern,
@@ -4215,7 +4215,7 @@ _LA_DIACRITIC_WORDS = [
     ('beatae', 'beátæ'), ('Beatae', 'Beátæ'),
     ('Mariae', 'Maríæ'), ('mariae', 'maríæ'),
     ('sanctae', 'sánctæ'), ('Sanctae', 'Sánctæ'),
-    # Cycle 24 — caelum forms. Cross-checked against the 2002 Missale Romanum
+    # caelum forms. Cross-checked against the 2002 Missale Romanum
     # Pater Noster ("qui es in cælis", "sicut in cælo"). Corpus already has
     # 1500+ ligated occurrences vs ~22 plain holdouts.
     ('caeli', 'cæli'), ('caelis', 'cælis'), ('caelo', 'cælo'),
@@ -4223,7 +4223,7 @@ _LA_DIACRITIC_WORDS = [
     ('caelórum', 'cælórum'), ('caelorum', 'cælórum'),
     ('caeléstis', 'cæléstis'), ('caelestis', 'cæléstis'),
     ('Caelestis', 'Cæléstis'), ('Caeléstis', 'Cæléstis'),
-    # Cycle 25 — high-frequency liturgical words missing accents.
+    # high-frequency liturgical words missing accents.
     # All cross-checked against the 2002 Missale Romanum text (cf. pages
     # 14, 26 for "per ómnia sǽcula"; page 9 for "in nómine Dómini";
     # page 6 for "óperis"; standard Latin antepenult-stress orthography).
@@ -4237,23 +4237,17 @@ _LA_DIACRITIC_WORDS = [
     ('saecula', 'sǽcula'), ('saeculi', 'sǽculi'),
     ('saeculo', 'sǽculo'), ('saeculorum', 'sæculórum'),
     ('saeculórum', 'sæculórum'),
-    # Cycle 27 additions: corpus-dominant accented forms.
     ('fidelium', 'fidélium'), ('fidelibus', 'fidélibus'),
     ('orationem', 'oratiónem'), ('orationes', 'oratiónes'),
     ('orationis', 'oratiónis'), ('oratione', 'oratióne'),
-    # Cycle 29: more ae→æ ligature stragglers (corpus-dominant ratio ≥40:1).
-    # Cross-checked: `quae` (relative pronoun fem. sg/pl), `tuae` (gen),
-    # `terrae`, `meae`, `vitae` — all canonically ligated in modern missals.
+    # ae→æ ligature stragglers (corpus-dominant ratio ≥40:1).
     ('quae', 'quæ'),
-    ('tuae', 'tuæ'),  # already in list as direct OCR fix; redundant entries are
-                       # safe (dict.update keeps last) but listed here for the
-                       # corpus-survey-driven justification trail.
     ('terrae', 'terræ'),
     ('meae', 'meæ'),
     ('vitae', 'vitæ'),
     ('haec', 'hæc'),
-    # Cycle 34: more accent-dominant pairs from audit (ratio >=10:1).
-    # Mostly responsorial-psalm response stragglers next to accented verse text.
+    # Responsorial-psalm response stragglers (ratio ≥10:1, mostly the
+    # response refrain typed alongside accented verse text).
     ('hominis', 'hóminis'), ('Hominis', 'Hóminis'),
     ('eorum', 'eórum'),
     ('Ierusalem', 'Ierúsalem'),
@@ -4266,7 +4260,7 @@ _LA_DIACRITIC_WORDS = [
     ('filium', 'fílium'), ('Filium', 'Fílium'),
     ('faciet', 'fáciet'), ('Faciet', 'Fáciet'),
     ('Beatus', 'Beátus'), ('beatus', 'beátus'),
-    ('Benedictus', 'Benedíctus'), ('benedictus', 'benedíctus'),
+    ('Benedictus', 'Benedíctus'),
 ]
 
 _LA_DIACRITIC_RE = re.compile(
@@ -4500,7 +4494,7 @@ def _ensure_terminal_period(s: str) -> str:
     if len(stripped) < 20:
         return s
     last = stripped[-1]
-    # Cycle 38: also add period after digit (year/number endings, like
+    # also add period after digit (year/number endings, like
     # "uccisi tra il 1915 e il 1937" or "Er starb 1226").
     if last.isalpha() or last.isdigit():
         return stripped + '.'
@@ -4597,7 +4591,7 @@ def _strip_bare_number_segments(mass: dict) -> None:
                         v[L] = [line for line in langlines
                                 if isinstance(line, list) and line]
                 elif k == 'plain' and isinstance(v, dict):
-                    # Cycle 35: drop plain.<L> entries that are just a bare
+                    # drop plain.<L> entries that are just a bare
                     # digit (section-number residue, no real content).
                     for L in list(v.keys()):
                         val = v[L]
@@ -5661,7 +5655,7 @@ _PLACEHOLDER_TITLES = {
     # Slug fragments that leaked from id paths into title.la (cycle 23):
     'africa', 'chile', 'spain', 'germany', 'argentina', 'uruguay',
     'france', 'italy', 'usa', 'brazil',
-    # Cycle 27: complete the regional-scope token list.
+    # complete the regional-scope token list.
     'nigeria', 'argentina-chile', 'argentina chile',
     'german-speaking', 'german speaking',
     'spanish-speaking', 'spanish speaking',
@@ -5694,7 +5688,7 @@ def _drop_placeholder_titles(mass: dict) -> None:
         mass.pop('title', None)
 
 
-# Cycle 23 — `Prefacio Prefacio:` / `Prefácio Prefácio:` doubled-label scanno.
+# `Prefacio Prefacio:` / `Prefácio Prefácio:` doubled-label scanno.
 _DOUBLED_PREFACE_LABEL_RE = re.compile(
     r'\b(Prefacio|Prefácio|Préface|Prefazio|Praefatio|Preface|Vorbereitungsgebet)\s+\1\b\s*[:.]?',
     re.I,
@@ -5712,7 +5706,7 @@ def _fix_doubled_preface_label(text: str) -> str:
     return out
 
 
-# Cycle 23 — `difffícile` (triple-f) scanno surfaced in audit. Limited to
+# `difffícile` (triple-f) scanno surfaced in audit. Limited to
 # specific spelling. Other triple-letter scannos handled separately.
 def _fix_difficile(text: str) -> str:
     if not isinstance(text, str) or 'difffí' not in text:
@@ -5720,7 +5714,7 @@ def _fix_difficile(text: str) -> str:
     return text.replace('difffícile', 'diffícile')
 
 
-# Cycle 23 — `N.[` → `N. [` (placeholder followed by bracket without space).
+# `N.[` → `N. [` (placeholder followed by bracket without space).
 _N_BRACKET_RE = re.compile(r'\bN\.\[')
 
 
@@ -5730,7 +5724,7 @@ def _fix_n_bracket_spacing(text: str) -> str:
     return _N_BRACKET_RE.sub('N. [', text)
 
 
-# Cycle 23 — clean trailing empty `rubric` segments at end of `lines.<lang>[i]`,
+# clean trailing empty `rubric` segments at end of `lines.<lang>[i]`,
 # and drop entirely-empty rubric lines.
 def _clean_empty_rubric_segments(body: dict) -> None:
     if not isinstance(body, dict):
@@ -5764,7 +5758,7 @@ def _clean_empty_rubric_segments(body: dict) -> None:
         lines[lang] = new_lines
 
 
-# Cycle 39 — response segments should end with terminal punctuation. Most do;
+# response segments should end with terminal punctuation. Most do;
 # audit found 1 outlier (`'Signore, pietà'` next to a sibling `'Signore, pietà.'`).
 def _ensure_response_terminal(body: dict) -> None:
     if not isinstance(body, dict):
@@ -5909,7 +5903,7 @@ def _backfill_missing_title(mass: dict) -> None:
     # Skip if pretty is purely numeric/separators — that's a placeholder, not
     # a meaningful name. Better to leave the title absent.
     if pretty and not re.match(r'^[\d\s-]+$', pretty):
-        # Cycle 27: don't backfill scope-token tails (`africa`, `chile`, etc.)
+        # don't backfill scope-token tails (`africa`, `chile`, etc.)
         # — these come from regional `sanctorale.04-04.africa`-style ids and
         # would re-introduce the placeholder pollution that `_drop_placeholder_titles`
         # just cleaned up.
@@ -6068,7 +6062,7 @@ def _fix_empty_lines(mass: dict) -> None:
                         if isinstance(txt, str) and txt.strip():
                             rebuilt[L] = [[{"type": "text", "text": txt}]]
                     node['lines'] = rebuilt
-                # Cycle 35: case 2 — per-lang gap (plain.es set but no lines.es).
+                # case 2 — per-lang gap (plain.es set but no lines.es).
                 else:
                     for L, txt in plain.items():
                         if (isinstance(txt, str) and txt.strip()
@@ -7213,7 +7207,7 @@ def _backfill_subsection_headings_in_mass(mass: dict) -> None:
         walk(p)
 
 
-# Cycle 21 — additional text-quality fixes surfaced by the audit.
+# additional text-quality fixes surfaced by the audit.
 
 # `$anto` / `$anta` — `$` is an OCR misread of capital `S`. Limited to the
 # specific `$` + lowercase `S<word>` pattern occurring at word start so we
@@ -7401,7 +7395,7 @@ def _dedupe_heading_as_first_rubric_in_mass(mass: dict) -> None:
         walk(p)
 
 
-# Cycle 22 — universal text-quality fixes (apostrophes, quotes, FR spacing).
+# universal text-quality fixes (apostrophes, quotes, FR spacing).
 
 # Replace ASCII straight `'` with curly U+2019 between two letters in
 # French and Italian text, where the apostrophe represents an elision.
@@ -7463,13 +7457,13 @@ def _collapse_space_before_punct(text: str, lang: Optional[str]) -> str:
     return re.sub(r' +([,.;:])(?!\.)', r'\1', text)
 
 
-# Cycle 24 — padded parentheses from OCR/source. `( foo )` → `(foo)`.
+# padded parentheses from OCR/source. `( foo )` → `(foo)`.
 # Idempotent: regex doesn't re-match its own output.
 _PADDED_PAREN_OPEN_RE = re.compile(r'\(\s+')
 _PADDED_PAREN_CLOSE_RE = re.compile(r'\s+\)')
 
 
-# Cycle 27 — `holyXspirit` OCR scanno where a sign-of-cross glyph (✠ or +)
+# `holyXspirit` OCR scanno where a sign-of-cross glyph (✠ or +)
 # was misread as a capital X and glued into the adjacent words. Fix only the
 # specific phrase to avoid touching legitimate uses of "X".
 def _fix_holy_x_spirit(text):
@@ -7478,7 +7472,7 @@ def _fix_holy_x_spirit(text):
     return text.replace('holyXspirit', 'Holy Spirit')
 
 
-# Cycle 28 — internal path leak in sacerdotale/it.json. The Italian
+# internal path leak in sacerdotale/it.json. The Italian
 # benediction text reads "si fa d'./misal_todo in domenica" — `./misal_todo`
 # is a source-side relative path that leaked into prose. Drop it.
 _MISAL_TODO_LEAK_RE = re.compile(r"d['’]\./misal_todo\s+", re.I)
@@ -7492,7 +7486,7 @@ def _fix_misal_todo_path_leak(text):
     return _MISAL_TODO_LEAK_RE.sub('', text)
 
 
-# Cycle 37 — pt-BR OCR junk `é\S ` between two words ("águia estendeu é\S
+# pt-BR OCR junk `é\S ` between two words ("águia estendeu é\S
 # suas asas"). The `é\S ` is stray formatting; the surrounding sentence
 # reads cleanly without it.
 _PTBR_E_BACKSLASH_S_RE = re.compile(r' é\\S ')
@@ -7504,7 +7498,7 @@ def _fix_ptbr_backslash_s_leak(text):
     return _PTBR_E_BACKSLASH_S_RE.sub(' ', text)
 
 
-# Cycle 28 — French ordinal scannos. Standard French uses `2e`, `17e`, `1re`,
+# French ordinal scannos. Standard French uses `2e`, `17e`, `1re`,
 # NOT `2ème`, `17ème`, `1ère`. The `ème`/`ère` forms are colloquial and not
 # typographically correct. Convert in fr only.
 _FR_ORDINAL_EME_RE = re.compile(r'(\d+)\s*ème\b')
@@ -7519,7 +7513,7 @@ def _fix_french_ordinals(text, lang):
     return out
 
 
-# Cycle 28/29 — French œ ligatures: Oeuvre/oeuvre/Coeur/coeur/Soeur/soeur
+# French œ ligatures: Oeuvre/oeuvre/Coeur/coeur/Soeur/soeur
 # all canonically use œ. Limited to fr (la also gets Oeuvre).
 _OE_LIGATURE_PAIRS = [
     (re.compile(r'\bOeuvre\b'), 'Œuvre'),
@@ -7542,9 +7536,9 @@ def _fix_oeuvre_ligature(text, lang):
     return out
 
 
-# Cycle 29 — Italian `E'` (capital E + straight apostrophe) is a typographic
+# Italian `E'` (capital E + straight apostrophe) is a typographic
 # surrogate for `È` (E with grave accent). 110 hits in EP preface dialogues.
-# Cycle 39 — also matches standalone `E'` (e.g. when the segment text is
+# also matches standalone `E'` (e.g. when the segment text is
 # just the dropCap glyph with no following space).
 _IT_E_APOS_RE = re.compile(r"\bE['’](?=\s|$)")
 
@@ -7555,7 +7549,7 @@ def _fix_italian_e_apostrophe(text, lang):
     return _IT_E_APOS_RE.sub('È', text)
 
 
-# Cycle 29 — missing space after period before capital letter, e.g.
+# missing space after period before capital letter, e.g.
 # `Per Dóminum.Per Christum.` → `Per Dóminum. Per Christum.`. Lang-agnostic.
 # Guard against common abbreviations and URLs by requiring an alpha-then-alpha
 # context AND a lowercase-letter-or-accented-letter on the left.
@@ -7567,7 +7561,8 @@ _PERIOD_NO_SPACE_RE = re.compile(
 def _fix_period_no_space(text):
     if not isinstance(text, str) or '.' not in text:
         return text
-    # Apply iteratively to handle chained cases
+    # Iterate to fixed point: the regex consumes one char after the period,
+    # so chained `foo.Bar.Baz` style patterns need multiple passes.
     prev = None
     out = text
     while prev != out:
@@ -7576,7 +7571,7 @@ def _fix_period_no_space(text):
     return out
 
 
-# Cycle 29 — missing space after comma. Lang-agnostic.
+# Missing space after comma. Lang-agnostic.
 _COMMA_NO_SPACE_RE = re.compile(
     r'([a-záéíóúàèìòùçñãõâêîôûäëïöü]),([a-záéíóúàèìòùçñãõâêîôûäëïöü])'
 )
@@ -7585,6 +7580,8 @@ _COMMA_NO_SPACE_RE = re.compile(
 def _fix_comma_no_space(text):
     if not isinstance(text, str) or ',' not in text:
         return text
+    # Iterate to fixed point: re.sub consumes one char after the comma,
+    # so `a,b,c,d` needs multiple passes to fix every gap.
     prev = None
     out = text
     while prev != out:
@@ -7593,7 +7590,7 @@ def _fix_comma_no_space(text):
     return out
 
 
-# Cycle 29 — IGMR PUA character mapping. The source HTML used Private Use Area
+# IGMR PUA character mapping. The source HTML used Private Use Area
 # code points for `—` (em-dash) and `§` (section mark). Map them.
 _PUA_CHAR_MAP = {
     '': '—',
@@ -7620,22 +7617,22 @@ def _collapse_padded_parens(text):
     return out
 
 
-# Cycle 30 — literal `\n` and `\n\n` artifacts that leaked through from the
-# upstream HTML→JSON conversion. They appear inside body.plain.<lang>.
-# Collapse runs of newlines to a single space so the surrounding sentence
-# reads naturally. 3266 occurrences corpus-wide.
+# Literal `\n` and `\n\n` artifacts that leaked through from the upstream
+# HTML→JSON conversion. They appear inside body.plain.<lang>. Collapse runs
+# of newlines (and the resulting double spaces) to a single space.
 _NEWLINE_RUN_RE = re.compile(r'\n+')
+_DOUBLE_SPACE_RUN_RE = re.compile(r'  +')
 
 
 def _fix_newline_artifacts(text):
     if not isinstance(text, str) or '\n' not in text:
         return text
     out = _NEWLINE_RUN_RE.sub(' ', text)
-    out = re.sub(r'  +', ' ', out)
+    out = _DOUBLE_SPACE_RUN_RE.sub(' ', out)
     return out
 
 
-# Cycle 30 — Latin `coel*` (variant ligature direction) → `cæl*`. The existing
+# Latin `coel*` (variant ligature direction) → `cæl*`. The existing
 # `caelum` family handled `cae*` variants; this catches the alternate `coe*`
 # spelling (e.g. `Dóminus in coelo` should be `Dóminus in cælo`).
 _COE_TO_CAE_RE = re.compile(r'\bcoe(li|lo|lis|lum|los|léstis|lestis)\b')
@@ -7647,7 +7644,7 @@ def _fix_coel_to_cael(text, lang):
     return _COE_TO_CAE_RE.sub(lambda m: 'cæ' + m.group(1), text)
 
 
-# Cycle 30 — vernacular accent scannos. Per-language word-list of common
+# vernacular accent scannos. Per-language word-list of common
 # OCR holdouts where the canonical form has a diacritic. Cross-checked
 # against authoritative dictionaries / wiktionary for each entry.
 _VERNACULAR_DIACRITICS = {
@@ -7661,7 +7658,7 @@ _VERNACULAR_DIACRITICS = {
         'salvacion': 'salvación',
         'ultimo': 'último',
         'comunion': 'comunión',
-        # Cycle 33: ES `Amen` (mostly in Easter Vigil) and `Jesus`.
+        # ES `Amen` (mostly in Easter Vigil) and `Jesus`.
         'Amen': 'Amén',
         'Jesus': 'Jesús',
     },
@@ -7670,7 +7667,7 @@ _VERNACULAR_DIACRITICS = {
         'Espirito': 'Espírito',
         'tambem': 'também',
         'Tambem': 'Também',
-        # Cycle 33: corpus-confirmed accented siblings dominate.
+        # corpus-confirmed accented siblings dominate.
         'misericordia': 'misericórdia',
         'Misericordia': 'Misericórdia',
         'Moises': 'Moisés',
@@ -7681,32 +7678,47 @@ _VERNACULAR_DIACRITICS = {
     'fr': {
         'voila': 'voilà',
         'Voila': 'Voilà',
-        # Cycle 33: section-heading `APOTRE` (12 hits) → `APÔTRE`.
+        # section-heading `APOTRE` (12 hits) → `APÔTRE`.
         'APOTRE': 'APÔTRE',
     },
     'la': {
-        # Cycle 33: 4 stragglers in ordinario.json next to 88+ accented siblings.
+        # 4 stragglers in ordinario.json next to 88+ accented siblings.
         'Kyrie': 'Kýrie',
     },
 }
 
+
+# Pre-compile the per-language word-boundary regexes (for letter-only keys)
+# at module load. Non-letter keys ("PIU'") use plain str.replace. The
+# combined regex per lang is what matters for hot-path performance.
+def _compile_vernacular(table):
+    word_keys = [k for k in table if k.isalpha()]
+    literal_keys = [k for k in table if not k.isalpha()]
+    pat = (re.compile(r'\b(' + '|'.join(re.escape(k) for k in word_keys) + r')\b')
+           if word_keys else None)
+    return pat, literal_keys
+
+
+_VERNACULAR_DIACRITICS_RE = {
+    lang: _compile_vernacular(table)
+    for lang, table in _VERNACULAR_DIACRITICS.items()
+}
+
+
 def _fix_vernacular_diacritics(text, lang):
-    if lang not in _VERNACULAR_DIACRITICS or not isinstance(text, str):
+    entry = _VERNACULAR_DIACRITICS_RE.get(lang)
+    if entry is None or not isinstance(text, str):
         return text
+    pat, literal_keys = entry
     table = _VERNACULAR_DIACRITICS[lang]
-    out = text
-    for k, v in table.items():
+    out = pat.sub(lambda m: table[m.group(1)], text) if pat else text
+    for k in literal_keys:
         if k in out:
-            # For all-letter keys use word-boundary; for keys with non-letters
-            # (e.g. "PIU'"), use literal replace.
-            if k.isalpha():
-                out = re.sub(r'\b' + re.escape(k) + r'\b', v, out)
-            else:
-                out = out.replace(k, v)
+            out = out.replace(k, table[k])
     return out
 
 
-# Cycle 30 — Italian doubled ASCII apostrophe `''` (typographic surrogate
+# Italian doubled ASCII apostrophe `''` (typographic surrogate
 # for `”` close curly quote) in a few gospel readings. Pair with `''` open
 # variants if any. Conservative: only collapse when not adjacent to other
 # quote characters.
@@ -7720,7 +7732,7 @@ def _fix_italian_doubled_apostrophe(text, lang):
     return _IT_DOUBLED_APOS_RE.sub('”', text)
 
 
-# Cycle 32 — French straight ASCII quotes `"…"` → guillemets `«…»`. Quote
+# French straight ASCII quotes `"…"` → guillemets `«…»`. Quote
 # pairs often span multiple segments within a body, so a single-string fix
 # can't see the boundary. This pass walks each body (the dict containing
 # `plain.fr` and `lines.fr`) as a unit:
@@ -7816,7 +7828,7 @@ def _fr_quote_state_machine_in_payload(payload: Any) -> None:
             _fr_quote_state_machine_in_payload(v)
 
 
-# Cycle 24 — doubled-period collapse. `..` → `.` but preserve `...` (ellipsis)
+# doubled-period collapse. `..` → `.` but preserve `...` (ellipsis)
 # and `....` (ellipsis + sentence period). Negative lookbehind/lookahead.
 _DOUBLED_PERIOD_RE = re.compile(r'(?<!\.)\.\.(?!\.)')
 
@@ -7827,7 +7839,7 @@ def _collapse_doubled_period(text):
     return _DOUBLED_PERIOD_RE.sub('.', text)
 
 
-# Cycle 24 — doubled (or more) comma collapse. `,,` → `,`. Idempotent.
+# doubled (or more) comma collapse. `,,` → `,`. Idempotent.
 _DOUBLED_COMMA_RE = re.compile(r',{2,}')
 
 
@@ -7837,7 +7849,7 @@ def _collapse_doubled_comma(text):
     return _DOUBLED_COMMA_RE.sub(',', text)
 
 
-# Cycle 24 — broken verse-range like `Sir 17, 20- 28` → `Sir 17, 20-28`.
+# broken verse-range like `Sir 17, 20- 28` → `Sir 17, 20-28`.
 # Scoped to citation fields only (call via `_fix_citation_strings_in_mass`)
 # because date ranges in body prose (`Roma, 1384- 9 de março de 1440`) need
 # different treatment (em-dash + spaces, not hyphen no-space).
@@ -7915,7 +7927,7 @@ def _apply_liturgical_markers_to_doc(doc: Any) -> None:
                 _apply_liturgical_markers_to_doc(v)
 
 
-# Cycle 35 — collapse tab/whitespace runs in `html` field strings of
+# collapse tab/whitespace runs in `html` field strings of
 # IGMR/sacerdotale (source HTML preserved them as a 4-8 tab indent).
 def _collapse_whitespace_runs(text):
     if not isinstance(text, str):
@@ -7980,68 +7992,71 @@ def _apply_universal_text_fixes_to_doc(doc: Any, lang: Optional[str]) -> None:
                 _apply_universal_text_fixes_to_doc(v, lang)
 
 
+def _apply_per_string_fixes(text: str, lang: str) -> str:
+    """All per-string text-quality fixes in dependency order. Used by both
+    `_post_process_mass` (one walk over the mass tree) and
+    `_apply_universal_text_fixes` (one walk over a payload tree).
+
+    Order matters: tilde-nbsp before space-collapse, doubled-quote collapse
+    before guillemet conversion, etc."""
+    if not isinstance(text, str):
+        return text
+    text = _collapse_doubled_quotes(text)
+    text = _fix_tilde_nbsp(text)
+    text = _fix_colon_no_space(text)
+    text = _fix_midword_cap_scannos(text, lang)
+    text = _apply_lang_specific_text_fixes(text, lang)
+    text = _fix_doubled_preface_label(text)
+    text = _fix_n_bracket_spacing(text)
+    text = _curly_apostrophe(text, lang)
+    text = _straight_to_guillemets(text, lang)
+    text = _french_space_before_punct(text, lang)
+    text = _collapse_space_before_punct(text, lang)
+    text = _collapse_padded_parens(text)
+    text = _collapse_doubled_period(text)
+    text = _collapse_doubled_comma(text)
+    text = _fix_holy_x_spirit(text)
+    text = _fix_misal_todo_path_leak(text)
+    text = _fix_ptbr_backslash_s_leak(text)
+    text = _fix_pua_chars(text)
+    text = _fix_newline_artifacts(text)
+    text = _fix_period_no_space(text)
+    text = _fix_comma_no_space(text)
+    text = _fix_french_ordinals(text, lang)
+    text = _fix_oeuvre_ligature(text, lang)
+    text = _fix_italian_e_apostrophe(text, lang)
+    text = _fix_italian_doubled_apostrophe(text, lang)
+    text = _fix_vernacular_diacritics(text, lang)
+    text = _fix_coel_to_cael(text, lang)
+    text = _liturgical_markers(text, lang)
+    if lang == 'la':
+        for pat, rep in _LA_OCR_FIXES:
+            text = pat.sub(rep, text)
+        text = _fix_la_diacritics(text, 'la')
+    if lang == 'it':
+        text = _fix_italian_specific_scannos(text)
+    return text
+
+
 def _apply_universal_text_fixes(payload: Any) -> None:
-    """Walk a payload tree and apply universal text-quality fixes to
-    every string under a language-keyed branch (or under a `text` field
-    inside a language-keyed segment list)."""
-
-    def fn(text: str, lang: str) -> str:
-        if not isinstance(text, str):
-            return text
-        out = text
-        out = _curly_apostrophe(out, lang)
-        out = _straight_to_guillemets(out, lang)
-        out = _french_space_before_punct(out, lang)
-        out = _collapse_space_before_punct(out, lang)
-        out = _collapse_padded_parens(out)
-        out = _collapse_doubled_period(out)
-        out = _collapse_doubled_comma(out)
-        out = _fix_holy_x_spirit(out)
-        out = _fix_misal_todo_path_leak(out)
-        out = _fix_ptbr_backslash_s_leak(out)
-        out = _fix_pua_chars(out)
-        out = _fix_newline_artifacts(out)
-        out = _fix_period_no_space(out)
-        out = _fix_comma_no_space(out)
-        out = _fix_french_ordinals(out, lang)
-        out = _fix_oeuvre_ligature(out, lang)
-        out = _fix_italian_e_apostrophe(out, lang)
-        out = _fix_italian_doubled_apostrophe(out, lang)
-        out = _fix_vernacular_diacritics(out, lang)
-        out = _fix_coel_to_cael(out, lang)
-        out = _liturgical_markers(out, lang)
-        if lang == 'la':
-            for pat, rep in _LA_OCR_FIXES:
-                out = pat.sub(rep, out)
-            out = _fix_la_diacritics(out, 'la')
-        if lang == 'it':
-            out = _fix_italian_specific_scannos(out)
-        return out
-
+    """Walk a payload tree and apply per-string text fixes + citation/response
+    cleanup. Library payloads (prefaces, eucharistic-prayers, ordinary, saints,
+    sacerdotale-via-universal) all share this entry point."""
     if isinstance(payload, dict):
-        _walk_lang_strings(payload, fn)
+        _walk_lang_strings(payload, _apply_per_string_fixes)
         _fix_citation_strings_in_payload(payload)
         _ensure_response_terminal_in_mass(payload)
 
 
-# Cycle 36 — responsorial-psalm and reading citation backfill. When one
+# responsorial-psalm and reading citation backfill. When one
 # language's citation is just `<book> <chapter>` while sister langs have a
 # detailed verse spec, copy the verse part from the most-detailed sister
 # (preserving the destination language's book abbreviation).
 
-# Per-language book abbreviation patterns (allow common variants).
-_BOOK_ABBREV_RE = {
-    'la': re.compile(r'^([A-Z][a-zA-Zé]{1,5})\s'),
-    'es': re.compile(r'^([A-Z][a-zA-Zé]{1,6})\s'),
-    'en': re.compile(r'^(\d?\s*[A-Z][a-zA-Z]{1,5})\s'),
-    'pt-BR': re.compile(r'^([A-Z][a-zA-Zé]{1,5})\s'),
-    'it': re.compile(r'^([A-Z][a-zA-Zà-ÿ]{1,6})\s'),
-    'fr': re.compile(r'^([A-Z][a-zA-Zà-ÿ]{1,5})\s'),
-    'de': re.compile(r'^([A-Z][a-zA-Zä-üß]{1,6})\s'),
-}
-
 # A citation is "truncated" if it's just `<book> <number>` (chapter only).
 _TRUNCATED_CITATION_RE = re.compile(r'^[A-Z][a-zA-ZÀ-ÿ]{1,6}\s+\d+\s*$')
+_BOOK_CHAP_RE = re.compile(r'^([A-Z][a-zA-Zà-ÿ]{1,6})\s+(\d+)(.*)$')
+_BOOK_CHAP_ONLY_RE = re.compile(r'^([A-Z][a-zA-Zà-ÿ]{1,6})\s+(\d+)\s*$')
 
 
 def _backfill_truncated_citation(citation: dict) -> None:
@@ -8075,8 +8090,7 @@ def _backfill_truncated_citation(citation: dict) -> None:
     donor_lang = max(rich, key=lambda L: len(citation[L]))
     donor = citation[donor_lang].strip()
 
-    # Find donor's verse spec — everything after the first chapter number.
-    m = re.match(r'^([A-Z][a-zA-Zà-ÿ]{1,6})\s+(\d+)(.*)$', donor)
+    m = _BOOK_CHAP_RE.match(donor)
     if not m:
         return
     donor_book, donor_chap, donor_rest = m.group(1), m.group(2), m.group(3)
@@ -8085,7 +8099,7 @@ def _backfill_truncated_citation(citation: dict) -> None:
 
     for L in truncated:
         target = citation[L].strip()
-        m2 = re.match(r'^([A-Z][a-zA-Zà-ÿ]{1,6})\s+(\d+)\s*$', target)
+        m2 = _BOOK_CHAP_ONLY_RE.match(target)
         if not m2:
             continue
         tgt_book, tgt_chap = m2.group(1), m2.group(2)
@@ -8313,7 +8327,7 @@ def _collapse_sanctorale_alternatives(masses: list[dict], provenance: Optional[d
             primary.pop("dateSuffix", None)
         else:
             primary.pop("dateSuffix", None)
-        # Cycle 31: remap provenance keys for every source id in this bucket
+        # remap provenance keys for every source id in this bucket
         # to the new merged primary id (including the primary's own original
         # id if it was rewritten above).
         if isinstance(provenance, dict):
@@ -8337,7 +8351,7 @@ def _collapse_sanctorale_alternatives(masses: list[dict], provenance: Optional[d
                     alt_title.get("la") == primary_title.get("la")
                 )
                 if same_celebration:
-                    # Cycle 31: when primary_slug is the default 'form'
+                    # when primary_slug is the default 'form'
                     # placeholder, don't double it up — just `form-2` etc.
                     if primary_slug == 'form':
                         slug = f"form-{i}"
@@ -8382,40 +8396,9 @@ def _post_process_mass(mass: dict) -> Optional[dict]:
     _fix_doubled_alleluia_in_mass(mass)
     _fix_double_period_before_marker_in_mass(mass)
     _fix_text_scannos_in_mass(mass)
-    _walk_lang_strings(mass, lambda t, _l: _collapse_doubled_quotes(t))
-    _walk_lang_strings(mass, lambda t, _l: _fix_tilde_nbsp(t))
-    _walk_lang_strings(mass, lambda t, _l: _fix_colon_no_space(t))
-    _walk_lang_strings(mass, _fix_midword_cap_scannos)
-    _walk_lang_strings(mass, _apply_lang_specific_text_fixes)
-    _walk_lang_strings(mass, lambda t, _l: _fix_doubled_preface_label(t))
-    _walk_lang_strings(mass, lambda t, _l: _fix_n_bracket_spacing(t))
-    # Cycle 24 — universal text-quality fixes the libraries already get via
-    # `_apply_universal_text_fixes`. Masses are written with `post_process=False`
-    # so they need the same pass here (otherwise padded parens, doubled punct,
-    # space-before-punct, etc. survive in mass JSON).
-    _walk_lang_strings(mass, _curly_apostrophe)
-    _walk_lang_strings(mass, _straight_to_guillemets)
-    _walk_lang_strings(mass, _french_space_before_punct)
-    _walk_lang_strings(mass, _collapse_space_before_punct)
-    _walk_lang_strings(mass, lambda t, _l: _collapse_padded_parens(t))
-    _walk_lang_strings(mass, lambda t, _l: _collapse_doubled_period(t))
-    _walk_lang_strings(mass, lambda t, _l: _collapse_doubled_comma(t))
-    _walk_lang_strings(mass, lambda t, _l: _fix_holy_x_spirit(t))
-    _walk_lang_strings(mass, lambda t, _l: _fix_misal_todo_path_leak(t))
-    _walk_lang_strings(mass, lambda t, _l: _fix_ptbr_backslash_s_leak(t))
-    _walk_lang_strings(mass, lambda t, _l: _fix_pua_chars(t))
-    _walk_lang_strings(mass, lambda t, _l: _fix_newline_artifacts(t))
-    _walk_lang_strings(mass, lambda t, _l: _fix_period_no_space(t))
-    _walk_lang_strings(mass, lambda t, _l: _fix_comma_no_space(t))
-    _walk_lang_strings(mass, _fix_french_ordinals)
-    _walk_lang_strings(mass, _fix_oeuvre_ligature)
-    _walk_lang_strings(mass, _fix_italian_e_apostrophe)
-    _walk_lang_strings(mass, _fix_italian_doubled_apostrophe)
-    _walk_lang_strings(mass, _fix_vernacular_diacritics)
-    _walk_lang_strings(mass, _fix_coel_to_cael)
+    _walk_lang_strings(mass, _apply_per_string_fixes)
     _fix_citation_strings_in_payload(mass)
     _backfill_truncated_citations_in_payload(mass)
-    _walk_lang_strings(mass, _liturgical_markers)
     _normalize_citation_styles_in_mass(mass)
     _append_period_to_alleluia_end_in_mass(mass)
     _reorder_triduum_parts_preamble_first(mass)
@@ -8428,7 +8411,7 @@ def _post_process_mass(mass: dict) -> Optional[dict]:
     _backfill_sanctorale_rank(mass)
     _drop_vernacular_la_leak(mass, 'title')
     _drop_vernacular_la_leak(mass, 'description')
-    # Cycle 38: ensure mass description bodies end with terminal punct
+    # ensure mass description bodies end with terminal punct
     # (matching the saints catalog write path).
     desc = mass.get('description')
     if isinstance(desc, dict):
@@ -8437,18 +8420,18 @@ def _post_process_mass(mass: dict) -> Optional[dict]:
                 desc[L] = _ensure_terminal_period(v.strip())
     _assign_liturgical_color(mass)
     out = _scrub_tree(mass, None)
-    # Cycle 27: scrub_tree → _balance_parens drops orphan `(` and `)` from
+    # scrub_tree → _balance_parens drops orphan `(` and `)` from
     # rubric segments, leaving empty rubric strings behind. Run the empty-
     # rubric cleanup AND the adjacent-segment merge AFTER the scrub pass so
     # those new empties are caught. Also covers any other transformer that
     # might empty out a segment.
     _clean_empty_rubric_segments_in_mass(out)
     _merge_adjacent_segments_in_mass(out)
-    # Cycle 32: French straight-quote → guillemet pairs (state machine
+    # French straight-quote → guillemet pairs (state machine
     # over each body's lines.fr in source order; plain.fr toggled
     # independently).
     _fr_quote_state_machine_in_payload(out)
-    # Cycle 39: ensure response segments end with terminal punctuation.
+    # ensure response segments end with terminal punctuation.
     _ensure_response_terminal_in_mass(out)
     return out
 
@@ -8550,7 +8533,7 @@ def _expand_igmr_blocks(blocks: list) -> list:
     return out
 
 
-# Cycle 28 — IGMR widget cruft. Source HTML carried a `<span class="float-right
+# IGMR widget cruft. Source HTML carried a `<span class="float-right
 # wrapper">` containing a "▼︎" arrow + the Spanish UI string "Aquí se coloca el
 # símbolo "+"" (a select-widget label). Drop that wrapper group entirely from
 # every IGMR doc.
@@ -8587,7 +8570,7 @@ def _strip_igmr_widget_blocks(blocks: list) -> list:
     return out
 
 
-# Cycle 28 — empty paragraphs from `<p>\xa0</p>` HTML noise. Drops 510+ empty
+# empty paragraphs from `<p>\xa0</p>` HTML noise. Drops 510+ empty
 # paragraph blocks from IGMR and sacerdotale documents.
 def _is_empty_paragraph(b: dict) -> bool:
     if not isinstance(b, dict):
@@ -8598,7 +8581,7 @@ def _is_empty_paragraph(b: dict) -> bool:
     return not isinstance(text, str) or not text.strip()
 
 
-# Cycle 31 — IGMR paragraph numbers occasionally lost their period:
+# IGMR paragraph numbers occasionally lost their period:
 # `1 Nella preparazione…` or `1) Nella preparazione…` should be
 # `1. Nella preparazione…`. Fix at the start of the paragraph AND at
 # internal section boundaries (where a merged paragraph contains multiple
@@ -8660,12 +8643,12 @@ def _post_process_igmr_payload(payload: dict) -> dict:
         return payload
     blocks = payload.get('blocks')
     if isinstance(blocks, list):
-        # Cycle 28: drop the source-side select-widget cruft (▼ arrow + Spanish
+        # drop the source-side select-widget cruft (▼ arrow + Spanish
         # UI string) before re-shaping the rest.
         blocks = _strip_igmr_widget_blocks(blocks)
-        # Cycle 28: drop empty paragraph blocks (`<p>\xa0</p>` noise).
+        # drop empty paragraph blocks (`<p>\xa0</p>` noise).
         blocks = _strip_empty_paragraph_blocks(blocks)
-        # Cycle 31: insert missing `.` in paragraph numbers (10 hits across
+        # insert missing `.` in paragraph numbers (10 hits across
         # it/fr/es/pt-BR).
         blocks = _fix_igmr_paragraph_number_dot(blocks)
         payload['blocks'] = _expand_igmr_blocks(blocks)
@@ -8941,12 +8924,12 @@ def main():
         _drop_vernacular_la_leak(s, "title")
         _drop_vernacular_la_leak(s, "description")
         _backfill_rank_localized(s)
-        # Cycle 40: normalize EN `St.` to `Saint` (matches the corpus
+        # normalize EN `St.` to `Saint` (matches the corpus
         # dominant convention).
         title = s.get("title")
         if isinstance(title, dict) and isinstance(title.get("en"), str):
             title["en"] = _normalize_en_st_abbrev(title["en"])
-        # Cycle 38: ensure description bodies end with terminal punctuation.
+        # ensure description bodies end with terminal punctuation.
         # The bundled-write code path runs this in _post_process_payload; the
         # per-saint write path here skipped it.
         desc = s.get("description")
@@ -8972,7 +8955,7 @@ def main():
                 ids=[m["id"] for m in triduum_masses])
 
     # Provenance
-    # Cycle 31: prune provenance to only contain entries whose id resolves
+    # prune provenance to only contain entries whose id resolves
     # to a written mass. Catches stale entries from regional saints whose id
     # changed after assembly without provenance being remapped.
     valid_ids = {m["id"] for ms in masses_by_group.values() for m in ms}
@@ -9009,7 +8992,7 @@ def main():
             doc_lang = d.get("language")
             _apply_universal_text_fixes_to_doc(d, doc_lang)
             _apply_liturgical_markers_to_doc(d)
-            # Cycle 28: drop empty paragraphs in sacerdotale docs (same as IGMR)
+            # drop empty paragraphs in sacerdotale docs (same as IGMR)
             if isinstance(d.get('blocks'), list):
                 d['blocks'] = _strip_empty_paragraph_blocks(d['blocks'])
                 d['blockCount'] = len(d['blocks'])

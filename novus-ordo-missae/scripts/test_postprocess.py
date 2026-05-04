@@ -4027,7 +4027,7 @@ class TestPostProcessMassEndToEnd:
 # =============================================================================
 # H3 title-supplement preservation
 # =============================================================================
-# Cycle 41: source HTML title blocks have <h2>section header</h2><h3>subtitle</h3>.
+# source HTML title blocks have <h2>section header</h2><h3>subtitle</h3>.
 # Some entries have h3 = "37-2. MISSA PRO CUSTODIA CREATIONIS" or
 # "IN TEMPORE UNIVERSALIS CONTAGII" — these are mass titles that should be
 # appended to the h2 section header, not classified as ranks (and then dropped).
