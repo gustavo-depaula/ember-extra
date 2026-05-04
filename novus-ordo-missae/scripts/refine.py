@@ -4090,7 +4090,9 @@ def strip_empty(d: Any) -> Any:
 # defects that are unambiguously wrong in the rendered missal.
 # ---------------------------------------------------------------------------
 
-_DOUBLE_PERIOD_END_RE = re.compile(r'\.{2,}$')
+# Match trailing 2+ periods (with any preceding whitespace) so that
+# `verehren wir ...` collapses to `verehren wir.` (no orphan space-period).
+_DOUBLE_PERIOD_END_RE = re.compile(r'\s*\.{2,}$')
 _INVISIBLE_CHARS_RE = re.compile(r'[­​‌‍﻿]')
 # Comma immediately followed by an uppercase letter — bug pattern from the
 # source where a space was lost. Numeric "5,1-2" is preserved because we
@@ -4140,6 +4142,12 @@ _LA_OCR_FIXES = [
     (re.compile(r'\bmeœ\b'), 'meæ'),
     # Triple-f scanno (audit cycle 23):
     (re.compile(r'\bdifffícile\b'), 'diffícile'),
+    # Cycle 24 — single-occurrence OCR scannos.
+    # `1Omaii` is OCR'd `10 Maii` (May 10) — digit-zero glued to capital-M.
+    (re.compile(r'\b1Omaii\b'), '10 Maii'),
+    # `gratìs` (grave accent) — Latin uses acute only. The word is `grátis`
+    # (adverb, "freely"); the grave is an OCR misread of the acute.
+    (re.compile(r'\bgratìs\b'), 'grátis'),
 ]
 
 
@@ -7214,7 +7222,7 @@ def _french_space_before_punct(text: str, lang: str) -> str:
     return _FR_PUNCT_NO_SPACE_RE.sub(lambda m: f"{m.group(1)} {m.group(2)}", text)
 
 
-# Collapse `<space><,;.>` -> `<,;.>` for non-French langs and FR `,.`.
+# Collapse `<space><,;.:>` -> `<,;.:>` for non-French langs and FR `,.`.
 # French `:;!?` keep their preceding space (handled separately above).
 def _collapse_space_before_punct(text: str, lang: Optional[str]) -> str:
     if not isinstance(text, str) or ' ' not in text:
@@ -7223,8 +7231,62 @@ def _collapse_space_before_punct(text: str, lang: Optional[str]) -> str:
         # FR: only collapse space before `,` and `.` (not `:;!?`).
         out = re.sub(r' +([,.])(?!\.)', r'\1', text)
         return out
-    # Other langs: collapse space before `, . ;` (don't touch `... ` ellipsis).
-    return re.sub(r' +([,.;])(?!\.)', r'\1', text)
+    # Other langs: collapse space before `, . ; :` (don't touch `... ` ellipsis).
+    return re.sub(r' +([,.;:])(?!\.)', r'\1', text)
+
+
+# Cycle 24 — padded parentheses from OCR/source. `( foo )` → `(foo)`.
+# Idempotent: regex doesn't re-match its own output.
+_PADDED_PAREN_OPEN_RE = re.compile(r'\(\s+')
+_PADDED_PAREN_CLOSE_RE = re.compile(r'\s+\)')
+
+
+def _collapse_padded_parens(text):
+    if not isinstance(text, str):
+        return text
+    out = _PADDED_PAREN_OPEN_RE.sub('(', text)
+    out = _PADDED_PAREN_CLOSE_RE.sub(')', out)
+    return out
+
+
+# Cycle 24 — doubled-period collapse. `..` → `.` but preserve `...` (ellipsis)
+# and `....` (ellipsis + sentence period). Negative lookbehind/lookahead.
+_DOUBLED_PERIOD_RE = re.compile(r'(?<!\.)\.\.(?!\.)')
+
+
+def _collapse_doubled_period(text):
+    if not isinstance(text, str):
+        return text
+    return _DOUBLED_PERIOD_RE.sub('.', text)
+
+
+# Cycle 24 — doubled (or more) comma collapse. `,,` → `,`. Idempotent.
+_DOUBLED_COMMA_RE = re.compile(r',{2,}')
+
+
+def _collapse_doubled_comma(text):
+    if not isinstance(text, str):
+        return text
+    return _DOUBLED_COMMA_RE.sub(',', text)
+
+
+# Cycle 24 — broken verse-range like `Sir 17, 20- 28` → `Sir 17, 20-28`.
+# Scoped to citation fields only (call via `_fix_citation_strings_in_mass`)
+# because date ranges in body prose (`Roma, 1384- 9 de março de 1440`) need
+# different treatment (em-dash + spaces, not hyphen no-space).
+_VERSE_RANGE_BREAK_RE = re.compile(r'(\d)-\s+(\d)')
+
+
+def _fix_numeric_range_break_in_citation(text):
+    if not isinstance(text, str):
+        return text
+    # Iterate to handle chained occurrences like `1- 3- 5` if any.
+    prev = None
+    out = text
+    while prev != out:
+        prev = out
+        out = _VERSE_RANGE_BREAK_RE.sub(r'\1-\2', out)
+    return out
 
 
 # Italian-specific scannos found in eucharistic-prayers.json.
@@ -7299,6 +7361,9 @@ def _apply_universal_text_fixes(payload: Any) -> None:
         out = _straight_to_guillemets(out, lang)
         out = _french_space_before_punct(out, lang)
         out = _collapse_space_before_punct(out, lang)
+        out = _collapse_padded_parens(out)
+        out = _collapse_doubled_period(out)
+        out = _collapse_doubled_comma(out)
         out = _liturgical_markers(out, lang)
         if lang == 'it':
             out = _fix_italian_specific_scannos(out)
@@ -7306,6 +7371,24 @@ def _apply_universal_text_fixes(payload: Any) -> None:
 
     if isinstance(payload, dict):
         _walk_lang_strings(payload, fn)
+        _fix_citation_strings_in_payload(payload)
+
+
+def _fix_citation_strings_in_payload(payload: Any) -> None:
+    """Walk the payload and apply citation-scoped fixes (e.g. numeric range
+    break collapse) to every `citation` field. Citation fields are dicts
+    `{lang: str}` directly under reading/antiphon/responsorialPsalm slots."""
+    if isinstance(payload, dict):
+        for k, v in list(payload.items()):
+            if k == 'citation' and isinstance(v, dict):
+                for lang, val in list(v.items()):
+                    if isinstance(val, str):
+                        v[lang] = _fix_numeric_range_break_in_citation(val)
+            else:
+                _fix_citation_strings_in_payload(v)
+    elif isinstance(payload, list):
+        for item in payload:
+            _fix_citation_strings_in_payload(item)
 
 
 # ---------------------------------------------------------------------------
@@ -7547,6 +7630,16 @@ def _post_process_mass(mass: dict) -> Optional[dict]:
     _walk_lang_strings(mass, _apply_lang_specific_text_fixes)
     _walk_lang_strings(mass, lambda t, _l: _fix_doubled_preface_label(t))
     _walk_lang_strings(mass, lambda t, _l: _fix_n_bracket_spacing(t))
+    # Cycle 24 — universal text-quality fixes the libraries already get via
+    # `_apply_universal_text_fixes`. Masses are written with `post_process=False`
+    # so they need the same pass here (otherwise padded parens, doubled punct,
+    # space-before-punct, etc. survive in mass JSON).
+    _walk_lang_strings(mass, _french_space_before_punct)
+    _walk_lang_strings(mass, _collapse_space_before_punct)
+    _walk_lang_strings(mass, lambda t, _l: _collapse_padded_parens(t))
+    _walk_lang_strings(mass, lambda t, _l: _collapse_doubled_period(t))
+    _walk_lang_strings(mass, lambda t, _l: _collapse_doubled_comma(t))
+    _fix_citation_strings_in_payload(mass)
     _walk_lang_strings(mass, _liturgical_markers)
     _clean_empty_rubric_segments_in_mass(mass)
     _normalize_citation_styles_in_mass(mass)

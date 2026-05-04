@@ -3256,6 +3256,163 @@ class TestFixNBracketSpacing:
         assert R._fix_n_bracket_spacing(s) == s
 
 
+class TestCollapsePaddedParens:
+    """`( foo )` → `(foo)` — padded parentheses from OCR. 2827 hits across
+    the corpus. Idempotent. All langs."""
+
+    def test_basic_open_padding(self):
+        assert R._collapse_padded_parens("( foo)") == "(foo)"
+
+    def test_basic_close_padding(self):
+        assert R._collapse_padded_parens("(foo )") == "(foo)"
+
+    def test_both_sides(self):
+        assert R._collapse_padded_parens("( foo )") == "(foo)"
+
+    def test_multiple_in_string(self):
+        s = "( eat ) and ( drink )"
+        assert R._collapse_padded_parens(s) == "(eat) and (drink)"
+
+    def test_does_not_touch_balanced_no_padding(self):
+        s = "(eat) and (drink)"
+        assert R._collapse_padded_parens(s) == s
+
+    def test_does_not_touch_orphan_paren(self):
+        # single `(` mid-text with space following (e.g. "see ( etc.")
+        # the regex still collapses, which is fine for the audit-found defects
+        s = "no parens here"
+        assert R._collapse_padded_parens(s) == s
+
+    def test_collapses_multi_space(self):
+        assert R._collapse_padded_parens("(   foo   )") == "(foo)"
+
+    def test_idempotent(self):
+        s = "( eat ) and ( drink )"
+        once = R._collapse_padded_parens(s)
+        assert R._collapse_padded_parens(once) == once
+
+    def test_preserves_non_string(self):
+        assert R._collapse_padded_parens(None) is None
+        assert R._collapse_padded_parens(42) == 42
+
+
+class TestCollapseDoubledPeriod:
+    """`..` → `.` (but not `...` ellipsis). 33 hits. Idempotent."""
+
+    def test_basic(self):
+        assert R._collapse_doubled_period("Lord hear us..") == "Lord hear us."
+
+    def test_preserves_ellipsis(self):
+        assert R._collapse_doubled_period("wait...") == "wait..."
+
+    def test_preserves_four_dots(self):
+        # 4 dots = ellipsis + period at end of sentence (rare). Don't touch.
+        s = "wait...."
+        assert R._collapse_doubled_period(s) == s
+
+    def test_mid_string(self):
+        assert R._collapse_doubled_period("foo.. bar") == "foo. bar"
+
+    def test_idempotent(self):
+        assert R._collapse_doubled_period("foo..") == "foo."
+        assert R._collapse_doubled_period("foo.") == "foo."
+
+
+class TestCollapseDoubledComma:
+    """`,,` → `,`. 5 hits, all Italian. Idempotent."""
+
+    def test_basic(self):
+        assert R._collapse_doubled_comma("Kýrie, eléison,, se non") == "Kýrie, eléison, se non"
+
+    def test_triple(self):
+        # extreme but should still collapse
+        assert R._collapse_doubled_comma("foo,,, bar") == "foo, bar"
+
+    def test_idempotent(self):
+        assert R._collapse_doubled_comma("foo, bar") == "foo, bar"
+
+
+class TestCollapseSpaceBeforeColonNonFrench:
+    """Extend `_collapse_space_before_punct` to also collapse space before
+    `:` for non-French langs. French keeps the space (different typography)."""
+
+    def test_collapse_colon_en(self):
+        assert R._collapse_space_before_punct("foo : bar", "en") == "foo: bar"
+
+    def test_collapse_colon_es(self):
+        assert R._collapse_space_before_punct("dijo : Tú que", "es") == "dijo: Tú que"
+
+    def test_collapse_colon_it(self):
+        assert R._collapse_space_before_punct("liturgico. : ℣.", "it") == "liturgico.: ℣."
+
+    def test_collapse_colon_la(self):
+        assert R._collapse_space_before_punct("dicens : Ego sum", "la") == "dicens: Ego sum"
+
+    def test_french_colon_keeps_space(self):
+        s = "le mot : autre"
+        assert R._collapse_space_before_punct(s, "fr") == s
+
+
+class TestFixNumericRangeBreakInCitation:
+    """Inside citation fields, `Sir 17, 20- 28` → `Sir 17, 20-28`. The
+    fix is scoped to citation slots to avoid mangling date ranges in body
+    prose (e.g. `Roma, 1384- 9 de março de 1440`)."""
+
+    def test_basic_range_break(self):
+        assert R._fix_numeric_range_break_in_citation("Sir 17, 20- 28") == "Sir 17, 20-28"
+
+    def test_already_correct(self):
+        s = "Sir 17, 20-28"
+        assert R._fix_numeric_range_break_in_citation(s) == s
+
+    def test_compound_psalm_citation(self):
+        assert R._fix_numeric_range_break_in_citation("Ps 86, 1-3. 4-5. 6- 7") == "Ps 86, 1-3. 4-5. 6-7"
+
+    def test_idempotent(self):
+        s = "Sir 17, 20- 28"
+        once = R._fix_numeric_range_break_in_citation(s)
+        twice = R._fix_numeric_range_break_in_citation(once)
+        assert once == twice
+
+
+class TestScrubStripTrailingDotsConsumesSpace:
+    """Trailing `...` (or `..`) collapse should also eat any preceding
+    whitespace so `verehren wir ...` becomes `verehren wir.` (no orphan
+    space-period). Regression for cycle-24."""
+
+    def test_trailing_three_dots_with_space(self):
+        assert R._scrub_string("verehren wir ...", "de") == "verehren wir."
+
+    def test_trailing_two_dots_with_space(self):
+        assert R._scrub_string("verehren wir ..", "de") == "verehren wir."
+
+    def test_trailing_two_dots_no_space(self):
+        assert R._scrub_string("Per Christum..", "la") == "Per Christum."
+
+    def test_does_not_strip_inner_spaces(self):
+        # Mid-string content untouched, only trailing dots & whitespace.
+        s = "foo bar... baz."
+        assert R._scrub_string(s, "en") == "foo bar... baz."
+
+
+class TestFixLatinOCRNewEntries:
+    """New _LA_OCR_FIXES entries for cycle 24:
+    - `1Omaii` → `10 Maii` (digit-letter glue OCR scanno)
+    - `gratìs` → `grátis` (wrong-direction grave accent → acute)"""
+
+    def test_one_omaii(self):
+        assert R._scrub_string("die 1Omaii 1569 in Dómino", "la") == "die 10 Maii 1569 in Dómino"
+
+    def test_gratis_grave_to_acute(self):
+        # The Latin word is `grátis` (acute on the first a). Grave is OCR error.
+        assert R._scrub_string("neque gratìs panem manducávimus", "la") == "neque grátis panem manducávimus"
+
+    def test_gratis_does_not_apply_outside_la(self):
+        # `gratìs` would be Italian-Spanish-style if it existed; never apply outside la.
+        s = "italian gratìs text"
+        assert R._scrub_string(s, "it") == s
+
+
 class TestPostProcessMassEndToEnd:
     def test_returns_none_for_empty_mass(self):
         assert R._post_process_mass({"id": "x", "title": {}}) is None
