@@ -3549,6 +3549,28 @@ class TestKeyPrayersMatchAuthoritativeMissal:
         # Nicene Creed: "ascéndit in cælum, sedet ad déxteram Patris"
         assert "ascéndit in cælum, sedet ad déxteram Patris" in b
 
+    def test_nicene_creed_opening(self):
+        b = self._ordinarium_la()
+        # Opening line of the Nicene-Constantinopolitan Creed.
+        assert "Credo in unum Deum, Patrem omnipoténtem, factórem cæli et terræ" in b
+
+    def test_nicene_creed_consubstantialem(self):
+        b = self._ordinarium_la()
+        # 2002 missal phrasing: "consubstantiálem Patri"
+        assert "consubstantiálem Patri" in b
+
+    def test_roman_canon_opening(self):
+        import json, pathlib
+        fp = pathlib.Path(__file__).resolve().parent.parent / "data/library/eucharistic-prayer/1.json"
+        if not fp.exists():
+            import pytest
+            pytest.skip(f"data file missing: {fp}")
+        b = json.loads(fp.read_text(encoding="utf-8"))['body']['plain']['la']
+        # Authoritative: "Te ígitur, clementíssime Pater, per Iesum Christum,
+        # Fílium tuum, Dóminum nostrum, súpplices rogámus ac pétimus..."
+        assert "Te ígitur, clementíssime Pater, per Iesum Christum" in b
+        assert "Fílium tuum, Dóminum nostrum, súpplices rogámus ac pétimus" in b
+
 
 class TestNoBackfillFromScopeIdSuffix:
     """`_backfill_missing_title` should NOT regenerate a title from id segments
