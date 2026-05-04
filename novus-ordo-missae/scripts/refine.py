@@ -4229,6 +4229,21 @@ _LA_DIACRITIC_WORDS = [
     ('meae', 'meæ'),
     ('vitae', 'vitæ'),
     ('haec', 'hæc'),
+    # Cycle 34: more accent-dominant pairs from audit (ratio >=10:1).
+    # Mostly responsorial-psalm response stragglers next to accented verse text.
+    ('hominis', 'hóminis'), ('Hominis', 'Hóminis'),
+    ('eorum', 'eórum'),
+    ('Ierusalem', 'Ierúsalem'),
+    ('quoniam', 'quóniam'), ('Quoniam', 'Quóniam'),
+    ('secundum', 'secúndum'), ('Secundum', 'Secúndum'),
+    ('faciem', 'fáciem'),
+    ('medio', 'médio'),
+    ('facere', 'fácere'), ('Facere', 'Fácere'),
+    ('mortuis', 'mórtuis'),
+    ('filium', 'fílium'), ('Filium', 'Fílium'),
+    ('faciet', 'fáciet'), ('Faciet', 'Fáciet'),
+    ('Beatus', 'Beátus'), ('beatus', 'beátus'),
+    ('Benedictus', 'Benedíctus'), ('benedictus', 'benedíctus'),
 ]
 
 _LA_DIACRITIC_RE = re.compile(
