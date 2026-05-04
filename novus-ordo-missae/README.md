@@ -200,7 +200,7 @@ Canonical IDs are kebab-case dotted, lowercase:
 
 ## Languages
 
-BCP-47 codes throughout: `la`, `es`, `en`, `pt-BR`, `it`, `fr`, `de`. German is partially translated in the upstream source — expect gaps on minor saints' days.
+BCP-47 codes throughout: `la`, `es`, `en`, `pt-BR`, `it`, `fr`, `de`. Coverage varies by language — Spanish and Latin are most complete; German is partially translated in the upstream source (expect gaps on minor saints' days); English is fully covered for universal-calendar saint titles + prayers (200/201) but the upstream HTML lacks English biographical sketches for almost all saints (only 2 of 378 are present in source) and does not include English versions of regional/scope-specific saints (Argentine, Brazilian, Spanish, etc.). For sanctorale: ~99% of universal saints have English title + collect; ~58% have English preface; antiphons (entrance/communion) are present for ~24% of universal saints. These gaps reflect the upstream `pedropasinn/Missale_romanum` HTML — they are not extractor bugs. Importing the missing English content would require a separate authoritative source (e.g., USCCB English Roman Missal).
 
 ## Build pipeline
 
