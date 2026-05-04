@@ -7818,6 +7818,17 @@ def _apply_liturgical_markers_to_doc(doc: Any) -> None:
                 _apply_liturgical_markers_to_doc(v)
 
 
+# Cycle 35 — collapse tab/whitespace runs in `html` field strings of
+# IGMR/sacerdotale (source HTML preserved them as a 4-8 tab indent).
+def _collapse_whitespace_runs(text):
+    if not isinstance(text, str):
+        return text
+    if '\t' not in text and '  ' not in text:
+        return text
+    # Collapse runs of any whitespace (tabs, multi-spaces) to a single space.
+    return re.sub(r'\s{2,}', ' ', text)
+
+
 def _apply_universal_text_fixes_to_doc(doc: Any, lang: Optional[str]) -> None:
     """Walk a single-language document (igmr, sacerdotale) and apply
     the same text-quality fixes used on language-keyed payloads. The
@@ -7828,6 +7839,7 @@ def _apply_universal_text_fixes_to_doc(doc: Any, lang: Optional[str]) -> None:
         if not isinstance(text, str):
             return text
         out = text
+        out = _collapse_whitespace_runs(out)
         out = _curly_apostrophe(out, lang or "")
         out = _straight_to_guillemets(out, lang or "")
         out = _french_space_before_punct(out, lang or "")
