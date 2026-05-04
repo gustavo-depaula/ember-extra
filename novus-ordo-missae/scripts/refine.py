@@ -7508,6 +7508,33 @@ def _collapse_padded_parens(text):
     return out
 
 
+# Cycle 30 — literal `\n` and `\n\n` artifacts that leaked through from the
+# upstream HTML→JSON conversion. They appear inside body.plain.<lang>.
+# Collapse runs of newlines to a single space so the surrounding sentence
+# reads naturally. 3266 occurrences corpus-wide.
+_NEWLINE_RUN_RE = re.compile(r'\n+')
+
+
+def _fix_newline_artifacts(text):
+    if not isinstance(text, str) or '\n' not in text:
+        return text
+    out = _NEWLINE_RUN_RE.sub(' ', text)
+    out = re.sub(r'  +', ' ', out)
+    return out
+
+
+# Cycle 30 — Latin `coel*` (variant ligature direction) → `cæl*`. The existing
+# `caelum` family handled `cae*` variants; this catches the alternate `coe*`
+# spelling (e.g. `Dóminus in coelo` should be `Dóminus in cælo`).
+_COE_TO_CAE_RE = re.compile(r'\bcoe(li|lo|lis|lum|los|léstis|lestis)\b')
+
+
+def _fix_coel_to_cael(text, lang):
+    if lang != 'la' or not isinstance(text, str) or 'coe' not in text:
+        return text
+    return _COE_TO_CAE_RE.sub(lambda m: 'cæ' + m.group(1), text)
+
+
 # Cycle 24 — doubled-period collapse. `..` → `.` but preserve `...` (ellipsis)
 # and `....` (ellipsis + sentence period). Negative lookbehind/lookahead.
 _DOUBLED_PERIOD_RE = re.compile(r'(?<!\.)\.\.(?!\.)')
@@ -7627,11 +7654,13 @@ def _apply_universal_text_fixes_to_doc(doc: Any, lang: Optional[str]) -> None:
         out = _fix_holy_x_spirit(out)
         out = _fix_misal_todo_path_leak(out)
         out = _fix_pua_chars(out)
+        out = _fix_newline_artifacts(out)
         out = _fix_period_no_space(out)
         out = _fix_comma_no_space(out)
         out = _fix_french_ordinals(out, lang or "")
         out = _fix_oeuvre_ligature(out, lang or "")
         out = _fix_italian_e_apostrophe(out, lang or "")
+        out = _fix_coel_to_cael(out, lang or "")
         out = _liturgical_markers(out, lang or "")
         if lang == 'la':
             for pat, rep in _LA_OCR_FIXES:
@@ -7674,11 +7703,13 @@ def _apply_universal_text_fixes(payload: Any) -> None:
         out = _fix_holy_x_spirit(out)
         out = _fix_misal_todo_path_leak(out)
         out = _fix_pua_chars(out)
+        out = _fix_newline_artifacts(out)
         out = _fix_period_no_space(out)
         out = _fix_comma_no_space(out)
         out = _fix_french_ordinals(out, lang)
         out = _fix_oeuvre_ligature(out, lang)
         out = _fix_italian_e_apostrophe(out, lang)
+        out = _fix_coel_to_cael(out, lang)
         out = _liturgical_markers(out, lang)
         if lang == 'la':
             for pat, rep in _LA_OCR_FIXES:
@@ -7963,11 +7994,13 @@ def _post_process_mass(mass: dict) -> Optional[dict]:
     _walk_lang_strings(mass, lambda t, _l: _fix_holy_x_spirit(t))
     _walk_lang_strings(mass, lambda t, _l: _fix_misal_todo_path_leak(t))
     _walk_lang_strings(mass, lambda t, _l: _fix_pua_chars(t))
+    _walk_lang_strings(mass, lambda t, _l: _fix_newline_artifacts(t))
     _walk_lang_strings(mass, lambda t, _l: _fix_period_no_space(t))
     _walk_lang_strings(mass, lambda t, _l: _fix_comma_no_space(t))
     _walk_lang_strings(mass, _fix_french_ordinals)
     _walk_lang_strings(mass, _fix_oeuvre_ligature)
     _walk_lang_strings(mass, _fix_italian_e_apostrophe)
+    _walk_lang_strings(mass, _fix_coel_to_cael)
     _fix_citation_strings_in_payload(mass)
     _walk_lang_strings(mass, _liturgical_markers)
     _normalize_citation_styles_in_mass(mass)
