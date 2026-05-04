@@ -4199,6 +4199,20 @@ _LA_DIACRITIC_WORDS = [
     ('caelórum', 'cælórum'), ('caelorum', 'cælórum'),
     ('caeléstis', 'cæléstis'), ('caelestis', 'cæléstis'),
     ('Caelestis', 'Cæléstis'), ('Caeléstis', 'Cæléstis'),
+    # Cycle 25 — high-frequency liturgical words missing accents.
+    # All cross-checked against the 2002 Missale Romanum text (cf. pages
+    # 14, 26 for "per ómnia sǽcula"; page 9 for "in nómine Dómini";
+    # page 6 for "óperis"; standard Latin antepenult-stress orthography).
+    ('omnia', 'ómnia'), ('omnium', 'ómnium'), ('omnibus', 'ómnibus'),
+    ('nomine', 'nómine'), ('nominis', 'nóminis'),
+    ('opera', 'ópera'),
+    ('gentibus', 'géntibus'), ('gentium', 'géntium'),
+    # ae → æ ligature + accent for sǽculum forms (when the OCR flattened
+    # both at once: `saecula` → `sǽcula`). Equivalent ligated-only forms
+    # `sǽcula/sǽculi/sǽculo/sǽculórum` already dominate the corpus.
+    ('saecula', 'sǽcula'), ('saeculi', 'sǽculi'),
+    ('saeculo', 'sǽculo'), ('saeculorum', 'sæculórum'),
+    ('saeculórum', 'sæculórum'),
 ]
 
 _LA_DIACRITIC_RE = re.compile(

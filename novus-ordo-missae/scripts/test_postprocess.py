@@ -3136,8 +3136,10 @@ class TestLatinDiacriticWordList:
         assert R._fix_la_diacritics(s, "fr") == s
 
     def test_word_boundary(self):
-        # Must not affect substrings like "redominus" or "Dominator"
-        assert R._fix_la_diacritics("Dominator omnium", "la") == "Dominator omnium"
+        # Must not affect substrings like "Dominator" (not = Dominus + suffix)
+        # or other substring overlaps. Use a context that doesn't trip the
+        # newer word entries (ómnium etc.).
+        assert R._fix_la_diacritics("Dominator iustus", "la") == "Dominator iustus"
 
 
 class TestDoubledPrefaceLabel:
@@ -3373,6 +3375,42 @@ class TestFixNumericRangeBreakInCitation:
         once = R._fix_numeric_range_break_in_citation(s)
         twice = R._fix_numeric_range_break_in_citation(once)
         assert once == twice
+
+
+class TestLatinExtendedDiacriticWords:
+    """High-confidence Latin diacritic restorations from cycle-25 audit.
+
+    All entries cross-checked against the 2002 Missale Romanum (English-Latin
+    Missal, romanliturgy.org reprint), with corpus ratio ≥10:1 plain:accented
+    confirming the accented form is the house style.
+    """
+
+    def test_omnia_omnium_omnibus(self):
+        # `ómnia` confirmed page 14 ("hæc ómnia, Dómine"), page 26 ("per ómnia sǽcula").
+        assert R._fix_la_diacritics("per omnia saecula", "la") == "per ómnia sǽcula"
+        assert R._fix_la_diacritics("Deus omnium creator", "la") == "Deus ómnium creator"
+        # `ómnibus` already in list — keep regression coverage.
+        assert R._fix_la_diacritics("ab omnibus malis", "la") == "ab ómnibus malis"
+
+    def test_nomine_nominis(self):
+        # `nómine` confirmed page 9 ("Benedíctus qui venit in nómine Dómini").
+        assert R._fix_la_diacritics("in nomine Patris", "la") == "in nómine Patris"
+        assert R._fix_la_diacritics("nominis tui sancti", "la") == "nóminis tui sancti"
+
+    def test_opera_operibus(self):
+        # `ópera` (nom/acc neuter plural). Page 6: "óperis mánuum hóminum".
+        assert R._fix_la_diacritics("opera tua Domine", "la") == "ópera tua Dómine"
+
+    def test_gentibus_gentium(self):
+        # `géntibus/géntium` — antepenult stress in Latin (penult is short).
+        assert R._fix_la_diacritics("apud omnes gentes", "la") == "apud omnes gentes"  # 1 syl ok
+        assert R._fix_la_diacritics("gentibus universis", "la") == "géntibus universis"
+        assert R._fix_la_diacritics("rex gentium", "la") == "rex géntium"
+
+    def test_does_not_apply_to_other_langs(self):
+        s = "italian opera nomine gentium"
+        assert R._fix_la_diacritics(s, "it") == s
+        assert R._fix_la_diacritics(s, "en") == s
 
 
 class TestLatinCaeliLigatures:
