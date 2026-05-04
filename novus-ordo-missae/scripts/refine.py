@@ -7549,16 +7549,32 @@ _VERNACULAR_DIACRITICS = {
         'salvacion': 'salvación',
         'ultimo': 'último',
         'comunion': 'comunión',
+        # Cycle 33: ES `Amen` (mostly in Easter Vigil) and `Jesus`.
+        'Amen': 'Amén',
+        'Jesus': 'Jesús',
     },
     'pt-BR': {
         'espirito': 'espírito',
         'Espirito': 'Espírito',
         'tambem': 'também',
         'Tambem': 'Também',
+        # Cycle 33: corpus-confirmed accented siblings dominate.
+        'misericordia': 'misericórdia',
+        'Misericordia': 'Misericórdia',
+        'Moises': 'Moisés',
+        'porem': 'porém',
+        'Porem': 'Porém',
+        'prodigios': 'prodígios',
     },
     'fr': {
         'voila': 'voilà',
         'Voila': 'Voilà',
+        # Cycle 33: section-heading `APOTRE` (12 hits) → `APÔTRE`.
+        'APOTRE': 'APÔTRE',
+    },
+    'la': {
+        # Cycle 33: 4 stragglers in ordinario.json next to 88+ accented siblings.
+        'Kyrie': 'Kýrie',
     },
 }
 
