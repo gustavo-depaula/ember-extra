@@ -2248,6 +2248,23 @@ class TestSynthesizeFerialTitle:
         R._synthesize_ferial_title_in_mass(mass)
         assert mass["title"]["pt-BR"] == first_pt
 
+    def test_skips_ranked_solemnity_on_weekday(self):
+        # Ascension is a solemnity that lands on a Thursday in Easter Week 6.
+        # The mass carries rank=solemnity AND season+weekIndex+weekday — but
+        # synth must NOT overwrite its proper title.
+        mass = {
+            "id": "tempore.easter.week-6.thursday.b",
+            "season": "easter",
+            "weekIndex": 6,
+            "weekday": "thursday",
+            "rank": "solemnity",
+            "title": {"pt-BR": "Ascensão do Senhor",
+                      "en": "The Ascension of the Lord"},
+        }
+        R._synthesize_ferial_title_in_mass(mass)
+        assert mass["title"]["pt-BR"] == "Ascensão do Senhor"
+        assert mass["title"]["en"] == "The Ascension of the Lord"
+
 
 class TestDisambiguateNativityTitles:
     """The four Christmas Day Masses share `Natal do Senhor` / `The Nativity

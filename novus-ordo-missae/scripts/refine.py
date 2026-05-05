@@ -6879,7 +6879,11 @@ def _synthesize_ferial_title_in_mass(mass: dict) -> None:
     Terça-feira"` / `"Easter Season TUESDAY WITHIN THE OCTAVE OF EASTER"`)
     that consumers were re-formatting at render time. Latin preserves its
     canonical Missal form. Sundays and unrelated seasons (Christmas season
-    weekdays use date-keyed IDs, not week-N.weekday) are not touched."""
+    weekdays use date-keyed IDs, not week-N.weekday) are not touched.
+    Any ranked mass (Ascension landing on Thursday week-6 of Easter, etc.)
+    keeps its proper title — synthesis only targets unranked ferials."""
+    if mass.get('rank'):
+        return
     season = mass.get('season')
     week = mass.get('weekIndex')
     weekday = mass.get('weekday')
