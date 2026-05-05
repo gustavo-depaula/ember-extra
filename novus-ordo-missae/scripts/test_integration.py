@@ -93,15 +93,16 @@ class TestEndToEndPostProcessing:
         assert "DOMINICA infra" not in out["title"]["la"]
         assert "S. FAMILIÆ" in out["title"]["la"]
         assert "Domingo na oitava" not in out["title"]["pt-BR"]
-        assert "SAGRADA FAMÍLIA" in out["title"]["pt-BR"]
+        # pt-BR title-cased post-strip (was SAGRADA FAMÍLIA, all-caps).
+        assert "Sagrada Família" in out["title"]["pt-BR"]
         assert "Domenica fra" not in out["title"]["it"]
         assert "SANTA FAMIGLIA" in out["title"]["it"]
         assert "Dimanche dans" not in out["title"]["fr"]
         assert "LA SAINTE FAMILLE" in out["title"]["fr"]
         assert "SONNTAG in der" not in out["title"]["de"]
         assert "FEST DER HEILIGEN FAMILIE" in out["title"]["de"]
-        # English title was already clean — preserved
-        assert out["title"]["en"] == "THE HOLY FAMILY OF JESUS, MARY AND JOSEPH"
+        # English title-cased from THE HOLY FAMILY OF JESUS, MARY AND JOSEPH.
+        assert out["title"]["en"] == "The Holy Family of Jesus, Mary and Joseph"
         # Color: white (christmas season + feast rank)
         assert out["liturgicalColor"] == "white"
 

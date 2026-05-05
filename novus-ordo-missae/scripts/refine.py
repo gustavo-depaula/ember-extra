@@ -6813,11 +6813,12 @@ def _titlecase_saint_title(title: str, lang: str) -> str:
     return ' '.join(out)
 
 
-def _titlecase_sanctorale_titles(mass: dict) -> None:
-    """Apply Title-Case conversion only to sanctorale entries' EN/PT-BR titles."""
-    mid = mass.get('id') or ''
-    if not isinstance(mid, str) or not mid.startswith('sanctorale.'):
-        return
+def _titlecase_titles(mass: dict) -> None:
+    """Apply Title-Case conversion to EN/PT-BR titles across all masses (sanctorale
+    AND tempore). Source HTML ships ~40% of pt-BR solemnity titles ALL-CAPS
+    (`NATAL DO SENHOR`) — runtime consumers shouldn't have to re-case at render
+    time. Latin/Italian preserve their canonical ALL-CAPS form (handled by
+    `_titlecase_saint_title` which gates on lang)."""
     title = mass.get('title')
     if not isinstance(title, dict):
         return
@@ -6825,6 +6826,123 @@ def _titlecase_sanctorale_titles(mass: dict) -> None:
         v = title.get(L)
         if isinstance(v, str):
             title[L] = _titlecase_saint_title(v, L)
+
+
+_ROMAN_NUMERALS = (
+    (1000, 'M'), (900, 'CM'), (500, 'D'), (400, 'CD'),
+    (100, 'C'), (90, 'XC'), (50, 'L'), (40, 'XL'),
+    (10, 'X'), (9, 'IX'), (5, 'V'), (4, 'IV'), (1, 'I'),
+)
+
+
+def _to_roman(n: int) -> str:
+    out = []
+    for value, sym in _ROMAN_NUMERALS:
+        while n >= value:
+            out.append(sym)
+            n -= value
+    return ''.join(out)
+
+
+_FERIAL_WEEKDAY_NAMES = {
+    'pt-BR': {
+        'monday': 'Segunda-feira', 'tuesday': 'Terça-feira',
+        'wednesday': 'Quarta-feira', 'thursday': 'Quinta-feira',
+        'friday': 'Sexta-feira', 'saturday': 'Sábado',
+    },
+    'en': {
+        'monday': 'Monday', 'tuesday': 'Tuesday', 'wednesday': 'Wednesday',
+        'thursday': 'Thursday', 'friday': 'Friday', 'saturday': 'Saturday',
+    },
+}
+
+_FERIAL_SEASON_PHRASE = {
+    'pt-BR': {
+        'advent':        'do Advento',
+        'lent':          'da Quaresma',
+        'easter':        'da Páscoa',
+        'ordinary-time': 'do Tempo Comum',
+    },
+    'en': {
+        'advent':        'of Advent',
+        'lent':          'of Lent',
+        'easter':        'of Easter',
+        'ordinary-time': 'in Ordinary Time',
+    },
+}
+
+
+def _synthesize_ferial_title_in_mass(mass: dict) -> None:
+    """Override pt-BR/en titles for ferial (Mon-Sat) Masses with a clean
+    synthesized form built from `season` + `weekIndex` + `weekday`. Source
+    HTML titles for these are awkward concatenations (`"Quinta semana
+    Terça-feira"` / `"Easter Season TUESDAY WITHIN THE OCTAVE OF EASTER"`)
+    that consumers were re-formatting at render time. Latin preserves its
+    canonical Missal form. Sundays and unrelated seasons (Christmas season
+    weekdays use date-keyed IDs, not week-N.weekday) are not touched."""
+    season = mass.get('season')
+    week = mass.get('weekIndex')
+    weekday = mass.get('weekday')
+    if not (season and isinstance(week, int) and weekday):
+        return
+    if weekday == 'sunday':
+        return
+    if season not in _FERIAL_SEASON_PHRASE['pt-BR']:
+        return
+    title = mass.get('title')
+    if not isinstance(title, dict):
+        title = {}
+        mass['title'] = title
+    week_roman = _to_roman(week)
+    for L in ('pt-BR', 'en'):
+        weekday_name = _FERIAL_WEEKDAY_NAMES[L][weekday]
+        season_phrase = _FERIAL_SEASON_PHRASE[L][season]
+        if L == 'pt-BR':
+            title[L] = f'{weekday_name} da {week_roman} Semana {season_phrase}'
+        else:
+            title[L] = f'{weekday_name} of the {week_roman} Week {season_phrase}'
+
+
+_NATIVITY_VARIANT_SUFFIX = {
+    'tempore.christmas.nativity-vigil': {
+        'pt-BR': 'Missa da Vigília',
+        'en':    'Mass at the Vigil',
+    },
+    'tempore.christmas.nativity-night': {
+        'pt-BR': 'Missa da Noite',
+        'en':    'Mass during the Night',
+    },
+    'tempore.christmas.nativity-dawn': {
+        'pt-BR': 'Missa da Aurora',
+        'en':    'Mass at Dawn',
+    },
+    'tempore.christmas.nativity-day': {
+        'pt-BR': 'Missa do Dia',
+        'en':    'Mass during the Day',
+    },
+}
+
+
+def _disambiguate_nativity_titles_in_mass(mass: dict) -> None:
+    """The four Christmas Day Masses (Vigil/Night/Dawn/Day) share `Natal do
+    Senhor` / `The Nativity of the Lord` in pt-BR/en. Append a time-of-day
+    variant so calendar pickers can tell them apart without inspecting the ID.
+    Latin/de/fr already disambiguate in source; leave them alone."""
+    mid = mass.get('id') or ''
+    if mid not in _NATIVITY_VARIANT_SUFFIX:
+        return
+    title = mass.get('title')
+    if not isinstance(title, dict):
+        return
+    suffixes = _NATIVITY_VARIANT_SUFFIX[mid]
+    for L, suffix in suffixes.items():
+        base = title.get(L)
+        if not isinstance(base, str) or not base.strip():
+            continue
+        # Idempotency: already-disambiguated titles pass through unchanged.
+        if suffix in base:
+            continue
+        title[L] = f'{base} — {suffix}'
 
 
 def _normalize_en_st_abbrev(text: str) -> str:
@@ -8428,7 +8546,9 @@ def _post_process_mass(mass: dict) -> Optional[dict]:
     _dedupe_heading_as_first_rubric_in_mass(mass)
     _backfill_preamble_heading(mass)
     _backfill_subsection_headings_in_mass(mass)
-    _titlecase_sanctorale_titles(mass)
+    _synthesize_ferial_title_in_mass(mass)
+    _titlecase_titles(mass)
+    _disambiguate_nativity_titles_in_mass(mass)
     _normalize_en_st_abbrev_in_mass(mass)
     _promote_known_solemnities(mass)
     _backfill_sanctorale_rank(mass)
