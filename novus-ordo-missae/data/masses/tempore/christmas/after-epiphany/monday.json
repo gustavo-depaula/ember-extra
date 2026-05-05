@@ -1,0 +1,769 @@
+{
+  "id": "tempore.christmas.after-epiphany.monday",
+  "group": "tempore",
+  "season": "christmas",
+  "weekday": "monday",
+  "title": {
+    "la": "Feria secunda",
+    "es": "Lunes",
+    "en": "Monday",
+    "pt-BR": "Segunda-feira",
+    "it": "lunedi",
+    "fr": "Féries Lundi",
+    "de": "Montag oder 2./8. Januar"
+  },
+  "entranceAntiphon": {
+    "body": {
+      "plain": {
+        "la": "Dies sanctificátus illúxit nobis: veníte, gentes, et adoráte Dóminum, quia descéndit lux magna super terram.",
+        "es": "Nos ha amanecido un día sagrado: venid, naciones, adorad al Señor, porque una gran luz ha bajado a la tierra.",
+        "en": "A holy day has dawned upon us: Come, you nations, and adore the Lord, for a great light has come down upon the earth.",
+        "pt-BR": "Raiou para nós um dia de bênção; vinde, nações, e adorai o Senhor, porque grande luz desceu sobre a terra.",
+        "it": "Un giorno santo risplende per noi: venite, genti, adorate il Signore, una grande luce è discesa sulla terra.",
+        "fr": "Un jour très saint a brillé à nos yeux : nations, venez toutes adorer le Seigneur, car une grande lumière est descendue sur la terre.",
+        "de": "Ein heiliger Tag strahlt über uns auf. Kommt, betet an den Herrn, denn ein großes Licht ist auf die Erde herabgekommen."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Dies sanctificátus illúxit nobis: veníte, gentes, et adoráte Dóminum, quia descéndit lux magna super terram."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Nos ha amanecido un día sagrado: venid, naciones, adorad al Señor, porque una gran luz ha bajado a la tierra."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "A holy day has dawned upon us:"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Come, you nations, and adore the Lord,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "for a great light has come down upon the earth."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Raiou para nós um dia de bênção;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "vinde, nações, e adorai o Senhor,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "porque grande luz desceu sobre a terra."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "Un giorno santo risplende per noi: venite, genti, adorate il Signore, una grande luce è discesa sulla terra."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Un jour très saint a brillé à nos yeux :"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "nations, venez toutes adorer le Seigneur,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "car une grande lumière est descendue sur la terre."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Ein heiliger Tag strahlt über uns auf. Kommt, betet an den Herrn, denn ein großes Licht ist auf die Erde herabgekommen."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "collect": {
+    "body": {
+      "plain": {
+        "la": "Deus, cuius Verbi ætérnitas cæli fáciem decorávit, et ex María Vírgine carnis nostræ fragilitátem suscépit, quǽsumus, ut qui splendor veritátis in nobis appáruit, pro mundi redemptióne in plenitúdine potestátis procédat. Qui tecum.",
+        "es": "Oh, Dios, cuyo Verbo eterno embelleció la faz del cielo y recibió de la Virgen María la fragilidad de nuestra carne, te pedimos que actúe con la plenitud de su poder para la redención del mundo aquel que apareció entre nosotros como esplendor de la verdad. Por nuestro Señor Jesucristo.",
+        "en": "O God, whose eternal Word adorns the face of the heavens yet accepted from the Virgin Mary the frailty of our flesh, grant, we pray, that he who appeared among us as the splendor of truth may go forth in the fullness of power for the redemption of the world. Who lives and reigns with you in the unity of the Holy Spirit, one God, for ever and ever.",
+        "pt-BR": "Ó Deus, o vosso Verbo eterno ornou a face do céu e assumiu da Virgem Maria a fragilidade da nossa carne. Nós vos pedimos: aquele que, como esplendor da verdade, apareceu entre nós, manifeste a plenitude do seu poder para a redenção do mundo. Ele, que é Deus, e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
+        "it": "O Dio, il tuo Verbo dall’eternità riveste il cielo di bellezza e dalla Vergine Maria ha assunto la nostra fragile carne: apparso tra noi come splendore della verità, nella pienezza della sua potenza porti a compimento la redenzione del mondo. Egli è Dio, e vive e regna con te, nell’unità dello Spirito Santo, per tutti i secoli dei secoli.",
+        "fr": "Seigneur Dieu, ton Verbe, dont l’éternité fait resplendir la beauté du ciel, a pris, de la Vierge Marie, la faiblesse de notre chair ; nous t’en prions : puisqu’il nous est apparu dans la splendeur de la vérité, qu’il s’avance aussi, dans la plénitude de sa puissance, pour la rédemption du monde. Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, Dieu, pour les siècles des siècles.",
+        "de": "Gütiger Gott, wir gehen durch eine Welt voll Zwielicht und Schatten. Lass dein Licht in unseren Herzen aufstrahlen und führe uns durch das Dunkel dieses Lebens in deine unvergängliche Klarheit. Darum bitten wir durch Jesus Christus."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Deus, cuius Verbi ætérnitas cæli fáciem decorávit, et ex María Vírgine carnis nostræ fragilitátem suscépit, quǽsumus, ut qui splendor veritátis in nobis appáruit, pro mundi redemptióne in plenitúdine potestátis procédat. Qui tecum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Oh, Dios,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "cuyo Verbo eterno embelleció la faz del cielo y recibió de la Virgen María la fragilidad de nuestra carne,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "te pedimos que actúe con la plenitud de su poder para la redención del mundo aquel que apareció entre nosotros como esplendor de la verdad."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por nuestro Señor Jesucristo."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "O God, whose eternal Word adorns the face of the heavens yet accepted from the Virgin Mary the frailty of our flesh, grant, we pray,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "that he who appeared among us as the splendor of truth may go forth in the fullness of power for the redemption of the world."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Who lives and reigns with you in the unity of the Holy Spirit,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "one God, for ever and ever."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Ó Deus,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "o vosso Verbo eterno ornou a face do céu e assumiu da Virgem Maria a fragilidade da nossa carne."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Nós vos pedimos:"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "aquele que, como esplendor da verdade,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "apareceu entre nós,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "manifeste a plenitude do seu poder para a redenção do mundo."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Ele, que é Deus, e convosco vive e reina,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "na unidade do Espírito Santo,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "por todos os séculos dos séculos."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "O Dio, il tuo Verbo dall’eternità riveste il cielo di bellezza e dalla Vergine Maria ha assunto la nostra fragile carne: apparso tra noi come splendore della verità, nella pienezza della sua potenza porti a compimento la redenzione del mondo. Egli è Dio, e vive e regna con te, nell’unità dello Spirito Santo, per tutti i secoli dei secoli."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Seigneur Dieu,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "ton Verbe, dont l’éternité fait resplendir la beauté du ciel,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "a pris, de la Vierge Marie, la faiblesse de notre chair ;"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "nous t’en prions :"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "puisqu’il nous est apparu dans la splendeur de la vérité,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "qu’il s’avance aussi, dans la plénitude de sa puissance,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "pour la rédemption du monde."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Lui qui vit et règne avec toi dans l’unité du Saint-Esprit,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Dieu, pour les siècles des siècles."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Gütiger Gott, wir gehen durch eine Welt voll Zwielicht und Schatten. Lass dein Licht in unseren Herzen aufstrahlen und führe uns durch das Dunkel dieses Lebens in deine unvergängliche Klarheit. Darum bitten wir durch Jesus Christus."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "prayerOverOfferings": {
+    "body": {
+      "plain": {
+        "la": "Súscipe, Dómine, múnera nostra, quibus exercéntur commércia gloriósa, ut, offeréntes quæ dedísti, teípsum mereámur accípere. Per Christum.",
+        "es": "Acepta, Señor, nuestras ofrendas en las que vas a realizar un admirable intercambio, para que, al ofrecerte lo que tú nos diste, merezcamos recibirte a ti mismo. Por Jesucristo, nuestro Señor.",
+        "en": "Receive our oblation, O Lord, by which is brought about a glorious exchange, that, by offering what you have given, we may merit to receive your very self. Through Christ our Lord.",
+        "pt-BR": "Aceitai, Senhor, as nossas oferendas nesta admirável troca de dons, para que, oferecendo-vos o que nos destes, mereçamos acolher-vos em nós. Por Cristo, nosso Senhor.",
+        "it": "Accogli, o Signore, i nostri doni in questo misterioso incontro tra la nostra povertà e la tua grandezza: noi ti offriamo le cose che ci hai dato, tu donaci in cambio te stesso. Per Cristo nostro Signore.",
+        "fr": "Accueille, Seigneur, ce que nous présentons pour cette eucharistie où s’accomplit un admirable échange : en offrant ce que tu nous as donné, puissions-nous te recevoir toi-même. Par le Christ, notre Seigneur.",
+        "de": "Herr, wir bringen unsere Gaben dar für die Feier, in der sich ein heiliger Tausch vollzieht. Nimm sie in Gnaden an und schenke uns dich selbst in deinem Sohn Jesus Christus, der mit dir lebt und herrscht in alle Ewigkeit."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Súscipe, Dómine, múnera nostra, quibus exercéntur commércia gloriósa, ut,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "offeréntes quæ dedísti, teípsum mereámur accípere. Per Christum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Acepta, Señor,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "nuestras ofrendas en las que vas a realizar un admirable intercambio,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "para que, al ofrecerte lo que tú nos diste,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "merezcamos recibirte a ti mismo."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por Jesucristo, nuestro Señor."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "Receive our oblation, O Lord,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "by which is brought about a glorious exchange, that, by offering what you have given,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "we may merit to receive your very self."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Through Christ our Lord."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Aceitai, Senhor, as nossas oferendas nesta admirável troca de dons,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "para que, oferecendo-vos o que nos destes,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "mereçamos acolher-vos em nós."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por Cristo, nosso Senhor."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "Accogli, o Signore, i nostri doni in questo misterioso incontro tra la nostra povertà e la tua grandezza: noi ti offriamo le cose che ci hai dato, tu donaci in cambio te stesso. Per Cristo nostro Signore."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Accueille,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Seigneur,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "ce que nous présentons pour cette eucharistie où s’accomplit un admirable échange :"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "en offrant ce que tu nous as donné,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "puissions-nous te recevoir toi-même."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Par le Christ, notre Seigneur."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Herr, wir bringen unsere Gaben dar für die Feier, in der sich ein heiliger Tausch vollzieht. Nimm sie in Gnaden an und schenke uns dich selbst in deinem Sohn Jesus Christus, der mit dir lebt und herrscht in alle Ewigkeit."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "preface": {
+    "prefaceRef": "preface.pf005",
+    "alternativeRefs": [
+      "preface.pf006",
+      "preface.pf007",
+      "preface.pf008"
+    ],
+    "label": {
+      "la": "I",
+      "es": "I",
+      "en": "I",
+      "pt-BR": "I",
+      "it": "I",
+      "fr": "I",
+      "de": "I"
+    },
+    "excerpt": {
+      "la": "Quia ipsum in Christo salútis nostræ",
+      "es": "Porque hoy has revelado en Cristo,",
+      "en": "For today you have revealed",
+      "pt-BR": "Pois, em Cristo, para iluminar",
+      "it": "In Cristo luce del mondo",
+      "fr": "Aujourd’hui, tu as dévoilé dans le Christ",
+      "de": "Denn heute enthüllst du das Geheimnis"
+    }
+  },
+  "communionAntiphon": {
+    "body": {
+      "plain": {
+        "la": "Vídimus glóriam eius, glóriam quasi Unigéniti a Patre, plenum grátiæ et veritátis.",
+        "es": "Hemos contemplado su gloria: gloria como del Unigénito del Padre, lleno de gracia y de verdad.",
+        "en": "We have seen his glory, the glory of an only Son coming from the Father, filled with grace and truth.",
+        "pt-BR": "Contemplamos a sua glória, glória que recebe do Pai como Filho unigênito, cheio de graça e de verdade.",
+        "it": "Noi abbiamo contemplato la sua gloria, gloria come del Figlio unigenito che viene dal Padre, pieno di grazia e di verità.",
+        "fr": "Nous avons vu la gloire du Verbe fait chair, gloire qu’il tient de son Père comme Fils unique, plein de grâce et de vérité.",
+        "de": "Wir haben seine Herrlichkeit geschaut, die Herrlichkeit des einzigen Sohnes vom Vater, voll Gnade und Wahrheit."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Vídimus glóriam eius, glóriam quasi Unigéniti a Patre, plenum grátiæ et veritátis."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Hemos contemplado su gloria: gloria como del Unigénito del Padre, lleno de gracia y de verdad."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "We have seen his glory, the glory of an only Son coming from the Father,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "filled with grace and truth."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Contemplamos a sua glória,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "glória que recebe do Pai como Filho unigênito,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "cheio de graça e de verdade."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "Noi abbiamo contemplato la sua gloria, gloria come del Figlio unigenito che viene dal Padre, pieno di grazia e di verità."
+            }
+          ],
+          [
+            {
+              "type": "rubric",
+              "text": "Oppure: Gv 1, 26-27"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "★ Oppure: Gv 1, 26-27 In mezzo a voi sta uno che voi non conoscete: a lui io non sono degno di slegare il laccio del sandalo."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Nous avons vu la gloire du Verbe fait chair,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "gloire qu’il tient de son Père comme Fils unique,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "plein de grâce et de vérité."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Wir haben seine Herrlichkeit geschaut, die Herrlichkeit des einzigen Sohnes vom Vater, voll Gnade und Wahrheit."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "postcommunion": {
+    "body": {
+      "plain": {
+        "la": "Da, quǽsumus, omnípotens Deus, ut, mysteriórum virtúte sanctórum, iúgiter vita nostra firmétur. Per Christum.",
+        "es": "Concédenos, Dios todopoderoso, que, por la eficacia de estos santos misterios, se fortalezca constantemente nuestra vida. Por Jesucristo, nuestro Señor.",
+        "en": "Grant, we pray, almighty God, that, by the power of these holy mysteries, our life may be constantly sustained. Through Christ our Lord.",
+        "pt-BR": "Nós vos pedimos, ó Deus todo-poderoso, que a nossa vida seja sempre sustentada pela força dos vossos santos mistérios. Por Cristo, nosso Senhor.",
+        "it": "Dio onnipotente, fa' che la forza inesauribile di questi santi misteri ci sostenga in ogni momento della nostra vita. Per Cristo nostro Signore.",
+        "fr": "Dieu tout-puissant, nous t’en prions : fais que la force de tes saints mystères soutienne constamment notre vie. Par le Christ, notre Seigneur.",
+        "de": "Allmächtiger Gott, wir danken dir für das Brot des Lebens, das du uns gereicht hast. Gib uns durch dieses Sakrament Kraft für unseren Weg zu dir und schütze uns in deiner nie versagenden Liebe. Darum bitten wir durch Christus, unseren Herrn."
+      },
+      "lines": {
+        "la": [
+          [
+            {
+              "type": "text",
+              "text": "Da, quǽsumus, omnípotens Deus, ut, mysteriórum virtúte sanctórum, iúgiter vita nostra firmétur. Per Christum."
+            }
+          ]
+        ],
+        "es": [
+          [
+            {
+              "type": "text",
+              "text": "Concédenos, Dios todopoderoso,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "que, por la eficacia de estos santos misterios,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "se fortalezca constantemente nuestra vida."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por Jesucristo, nuestro Señor."
+            }
+          ]
+        ],
+        "en": [
+          [
+            {
+              "type": "text",
+              "text": "Grant, we pray, almighty God,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "that, by the power of these holy mysteries,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "our life may be constantly sustained."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Through Christ our Lord."
+            }
+          ]
+        ],
+        "pt-BR": [
+          [
+            {
+              "type": "text",
+              "text": "Nós vos pedimos,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "ó Deus todo-poderoso,"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "que a nossa vida seja sempre sustentada pela força dos vossos santos mistérios."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Por Cristo, nosso Senhor."
+            }
+          ]
+        ],
+        "it": [
+          [
+            {
+              "type": "text",
+              "text": "Dio onnipotente, fa' che la forza inesauribile di questi santi misteri ci sostenga in ogni momento della nostra vita. Per Cristo nostro Signore."
+            }
+          ]
+        ],
+        "fr": [
+          [
+            {
+              "type": "text",
+              "text": "Dieu tout-puissant, nous t’en prions :"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "fais que la force de tes saints mystères soutienne constamment notre vie."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Par le Christ, notre Seigneur."
+            }
+          ]
+        ],
+        "de": [
+          [
+            {
+              "type": "text",
+              "text": "Allmächtiger Gott, wir danken dir für das Brot des Lebens, das du uns gereicht hast. Gib uns durch dieses Sakrament Kraft für unseren Weg zu dir und schütze uns in deiner nie versagenden Liebe. Darum bitten wir durch Christus, unseren Herrn."
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "liturgicalColor": "white"
+}

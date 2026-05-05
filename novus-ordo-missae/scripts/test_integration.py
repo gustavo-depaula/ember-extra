@@ -75,7 +75,7 @@ class TestEndToEndPostProcessing:
         # Holy Family has rubric prefix in EVERY language; each gets stripped
         # by its own pattern.
         mass = {
-            "id": "tempore.christmas.day-140.sunday",
+            "id": "tempore.christmas.holy-family",
             "season": "christmas",
             "rank": "feast",
             "title": {
@@ -128,12 +128,12 @@ class TestEndToEndPostProcessing:
         assert "CHRISTKÖNIG" in out["title"]["de"]
 
     def test_late_advent_full_processing(self):
-        # Dec 17-24: title prefix in all langs, season needs reclassification,
-        # weekday should be cleared, color = violet.
+        # Dec 17-24 ferias live under tempore.advent.* with season=advent and
+        # no weekday (fixed dates fall on different weekdays each year).
+        # _post_process_mass should strip the title rubric and assign violet.
         mass = {
-            "id": "tempore.christmas.day-120.sunday",
-            "season": "christmas",
-            "weekday": "sunday",
+            "id": "tempore.advent.dec-20",
+            "season": "advent",
             "title": {
                 "la": "IN FERIIS ADVENTUS a Die 17 ad diem 24 decembris Die 20 decembris",
                 "en": "Weekdays of Advent December 17 to December 24 20 December",
@@ -142,16 +142,12 @@ class TestEndToEndPostProcessing:
             },
         }
         out = R._post_process_mass(mass)
-        # Title rubric stripped
         assert out["title"]["la"] == "Die 20 decembris"
         assert out["title"]["en"] == "20 December"
         assert out["title"]["es"] == "20 de diciembre"
         assert out["title"]["it"] == "20 dicembre"
-        # Season reclassified to advent
         assert out["season"] == "advent"
-        # Weekday cleared (Dec 20 isn't always Sunday)
         assert out.get("weekday") is None
-        # Color: violet (advent)
         assert out["liturgicalColor"] == "violet"
 
     def test_pentecost_solemnity_full_processing(self):
@@ -324,12 +320,7 @@ class TestCorpusInvariants:
                     f"{m['id']} has rank=solemnity but no rankLocalized"
 
     def test_dec_17_24_are_advent_violet(self, all_masses):
-        late_advent_ids = {
-            "tempore.christmas.day-117", "tempore.christmas.day-118",
-            "tempore.christmas.day-119", "tempore.christmas.day-120.sunday",
-            "tempore.christmas.day-121.monday", "tempore.christmas.day-122.tuesday",
-            "tempore.christmas.day-123.wednesday", "tempore.christmas.day-124.thursday",
-        }
+        late_advent_ids = {f"tempore.advent.dec-{n}" for n in range(17, 25)}
         seen = set()
         for m in all_masses:
             if m["id"] in late_advent_ids:

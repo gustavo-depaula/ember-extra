@@ -1105,6 +1105,49 @@ def split_advent_christmas(day_id: str) -> str:
     return "advent" if m.group(1) == "0" else "christmas"
 
 
+# Christmas-block A1xx / A8xx codes don't fit the Sunday-cycle week-N pattern —
+# they're fixed dates, octave days, or movable feasts. Map each to a canonical
+# liturgical slug + season + (optional) weekday, replacing the leaked f"day-{NNN}"
+# fallback. Codes 117–124 are the late-Advent strip (Dec 17–24) and live under
+# `tempore.advent` so the path matches the season metadata. The .sunday/.monday
+# suffixes the upstream parser produces for fixed-date entries (A120–A124,
+# A130–A131, A141) are calendrically stale (one specific year) and are dropped.
+CHRISTMAS_BLOCK_DAY_MAP: dict[str, tuple[str, str, Optional[str]]] = {
+    "117": ("advent", "dec-17", None),
+    "118": ("advent", "dec-18", None),
+    "119": ("advent", "dec-19", None),
+    "120": ("advent", "dec-20", None),
+    "121": ("advent", "dec-21", None),
+    "122": ("advent", "dec-22", None),
+    "123": ("advent", "dec-23", None),
+    "124": ("advent", "dec-24", None),
+    "129": ("christmas", "dec-29", None),
+    "130": ("christmas", "dec-30", None),
+    "131": ("christmas", "dec-31", None),
+    "140": ("christmas", "holy-family", None),
+    "141": ("christmas", "mary-mother-of-god", None),
+    "160": ("christmas", "second-sunday-after-christmas", None),
+    "170": ("christmas", "epiphany", None),
+    "171": ("christmas", "after-epiphany", "monday"),
+    "172": ("christmas", "after-epiphany", "tuesday"),
+    "173": ("christmas", "after-epiphany", "wednesday"),
+    "174": ("christmas", "after-epiphany", "thursday"),
+    "175": ("christmas", "after-epiphany", "friday"),
+    "176": ("christmas", "after-epiphany", "saturday"),
+    "810": ("christmas", "baptism-of-the-lord", None),
+}
+
+
+def lookup_christmas_block(day_id: str) -> Optional[tuple[str, str, Optional[str]]]:
+    """Return (season, slug, weekday_or_None) for A-prefixed christmas-block
+    codes that don't fit the Sunday-cycle pattern. None for everything else
+    (including A0WD Sunday-cycle Advent days)."""
+    m = re.match(r"^A(\d{3})$", day_id)
+    if not m:
+        return None
+    return CHRISTMAS_BLOCK_DAY_MAP.get(m.group(1))
+
+
 def parse_sanctorale_day_id(day_id: str) -> Optional[dict[str, Any]]:
     """MMDD or MMDDS where S is a single-letter suffix; or 000X for undated.
 
@@ -3518,6 +3561,13 @@ def classify_mass_group(category: str, basename: str, day_id: Optional[str]) -> 
     if category == "tiempos":
         meta: dict[str, Any] = {}
         if day_id:
+            block_hit = lookup_christmas_block(day_id)
+            if block_hit is not None:
+                season, _slug, weekday = block_hit
+                meta["season"] = season
+                if weekday:
+                    meta["weekday"] = weekday
+                return "tempore", meta
             parsed = parse_temporal_day_id(day_id)
             sg = parsed.get("seasonGroup")
             if sg == "advent_christmas":
@@ -3594,13 +3644,19 @@ def canonical_id(category: str, basename: str, day_id: Optional[str]) -> str:
     """Build a clean canonical Mass ID."""
     if category == "tiempos":
         if day_id:
+            block_hit = lookup_christmas_block(day_id)
+            if block_hit is not None:
+                season, slug, weekday = block_hit
+                parts = ["tempore", season, slug]
+                if weekday:
+                    parts.append(weekday)
+                return ".".join(parts)
             parsed = parse_temporal_day_id(day_id)
             season = parsed.get("seasonGroup", "unknown")
             if season == "advent_christmas":
                 season = split_advent_christmas(day_id)
             week = parsed.get("weekIndex")
             weekday = parsed.get("weekday")
-            block = parsed.get("block")
             suf = parsed.get("suffix")
             parts = [f"tempore", season]
             code = parsed.get("code")
@@ -3608,8 +3664,6 @@ def canonical_id(category: str, basename: str, day_id: Optional[str]) -> str:
                 parts.append(f"week-{week}")
             elif season in ("advent", "lent", "easter") and week is not None:
                 parts.append(f"week-{week}")
-            elif season == "christmas" and not code:
-                parts.append(f"day-{day_id[1:]}")
             if code:
                 parts.append(code.lower())
             if weekday:
@@ -6180,35 +6234,6 @@ def _title_blob(mass: dict) -> str:
     return ' '.join(v for v in t.values() if isinstance(v, str)).lower()
 
 
-_LATE_ADVENT_DAY_IDS = {
-    'tempore.christmas.day-117',
-    'tempore.christmas.day-118',
-    'tempore.christmas.day-119',
-    'tempore.christmas.day-120.sunday',
-    'tempore.christmas.day-121.monday',
-    'tempore.christmas.day-122.tuesday',
-    'tempore.christmas.day-123.wednesday',
-    'tempore.christmas.day-124.thursday',
-}
-
-
-def _reclassify_late_advent_season(mass: dict) -> None:
-    """Dec 17-24 weekdays are still Advent (violet), not Christmas (white).
-    The upstream HTML grouped them under `tempore.christmas.*` for its own
-    pagination but liturgically they remain in Advent."""
-    if mass.get('id') in _LATE_ADVENT_DAY_IDS:
-        mass['season'] = 'advent'
-
-
-def _clear_late_advent_weekday(mass: dict) -> None:
-    """Dec 17-24 are fixed-date ferias whose weekday changes year-to-year.
-    The id suffix (`.sunday`, `.monday`...) is from one specific year of the
-    upstream HTML and is calendrically wrong as a stable property — clear it
-    so consumers don't trust a stale weekday."""
-    if mass.get('id') in _LATE_ADVENT_DAY_IDS:
-        mass.pop('weekday', None)
-
-
 def _assign_liturgical_color(mass: dict) -> None:
     if mass.get('liturgicalColor'):
         return
@@ -6345,7 +6370,7 @@ def _drop_french_rubric_latin_leak(mass: dict) -> None:
 # Tempore solemnities that should always carry rank=solemnity — explicit
 # whitelist rather than heuristic so we don't accidentally promote ferials.
 _SOLEMNITY_IDS = {
-    'tempore.christmas.day-141.monday',           # Mary, Mother of God (Jan 1)
+    'tempore.christmas.mary-mother-of-god',       # Jan 1
     'tempore.christmas.nativity-vigil',
     'tempore.easter.week-1.sunday',               # Easter Sunday
     'tempore.holy-week.easter-vigil',             # Easter Vigil (Triduum apex)
@@ -8380,8 +8405,6 @@ def _post_process_mass(mass: dict) -> Optional[dict]:
     _backfill_missing_title(mass)
     _mark_known_vigil_masses(mass)
     _set_weekday_from_id(mass)
-    _reclassify_late_advent_season(mass)
-    _clear_late_advent_weekday(mass)
     _enrich_mass_reading_citations(mass)
     _strip_bare_number_segments(mass)
     _strip_rubric_markers_from_text(mass)
@@ -8838,9 +8861,7 @@ def main():
     for group, masses in masses_by_group.items():
         if group == "tempore":
             # Bucket by the id's structural season segment so the _index.json
-            # matches the actual filesystem layout. (m["season"] can differ
-            # from the id prefix — e.g. late-Advent days Dec 17-24 have
-            # id `tempore.christmas.day-1XX` but season metadata "advent".)
+            # matches the actual filesystem layout (id IS the path).
             by_bucket: dict[str, list[dict]] = {}
             for m in masses:
                 parts = m["id"].split(".")

@@ -755,22 +755,45 @@ class TestDropStrandedLectioLabels:
 # French rubric latin-leak
 # =============================================================================
 
-class TestDropFixedDateAdventWeekday:
-    """Dec 17-24 ferias have fixed dates that fall on different weekdays
-    in different years. The `.sunday`/`.monday` suffix in the id is a
-    parser artifact from one specific year — clear it."""
+class TestChristmasBlockDayMap:
+    """A1xx / A8xx codes don't fit the Sunday-cycle week-N pattern. They map
+    to canonical liturgical slugs via CHRISTMAS_BLOCK_DAY_MAP, with stale
+    upstream weekdays (one specific year) dropped from fixed-date ids."""
 
-    def test_clears_weekday_for_late_advent_dec_20(self):
-        mass = {"id": "tempore.christmas.day-120.sunday",
-                "season": "advent", "weekday": "sunday"}
-        R._clear_late_advent_weekday(mass)
-        assert mass.get("weekday") is None
+    def test_late_advent_id_uses_advent_path_with_date_slug(self):
+        # A120 has trailing digit 0 (sunday in upstream); strip the stale weekday.
+        assert R.canonical_id("tiempos", "advnav", "A120") == "tempore.advent.dec-20"
 
-    def test_keeps_weekday_for_normal_advent_mass(self):
-        mass = {"id": "tempore.advent.week-2.monday",
-                "season": "advent", "weekday": "monday"}
-        R._clear_late_advent_weekday(mass)
-        assert mass["weekday"] == "monday"
+    def test_late_advent_meta_drops_weekday_and_uses_advent_season(self):
+        _group, meta = R.classify_mass_group("tiempos", "advnav", "A120")
+        assert meta["season"] == "advent"
+        assert "weekday" not in meta
+
+    def test_octave_fixed_date_drops_weekday(self):
+        # A130 is Dec 30; upstream weekday digit is 0 (sunday) — stale.
+        assert R.canonical_id("tiempos", "advnav", "A130") == "tempore.christmas.dec-30"
+        _g, meta = R.classify_mass_group("tiempos", "advnav", "A130")
+        assert meta["season"] == "christmas"
+        assert "weekday" not in meta
+
+    def test_mary_mother_of_god_uses_named_slug(self):
+        assert R.canonical_id("tiempos", "advnav", "A141") == "tempore.christmas.mary-mother-of-god"
+        _g, meta = R.classify_mass_group("tiempos", "advnav", "A141")
+        assert meta["season"] == "christmas"
+        assert "weekday" not in meta
+
+    def test_baptism_of_the_lord_uses_named_slug(self):
+        assert R.canonical_id("tiempos", "advnav", "A810") == "tempore.christmas.baptism-of-the-lord"
+
+    def test_after_epiphany_keeps_weekday_segment(self):
+        assert R.canonical_id("tiempos", "advnav", "A172") == "tempore.christmas.after-epiphany.tuesday"
+        _g, meta = R.classify_mass_group("tiempos", "advnav", "A172")
+        assert meta["season"] == "christmas"
+        assert meta["weekday"] == "tuesday"
+
+    def test_normal_advent_sunday_unaffected(self):
+        # A010 = Advent week 1 Sunday — outside the block map; keeps Sunday-cycle path.
+        assert R.canonical_id("tiempos", "advnav", "A010") == "tempore.advent.week-1.sunday"
 
 
 class TestSetWeekdayFromId:
@@ -954,21 +977,13 @@ class TestAssignLiturgicalColor:
         assert mass["liturgicalColor"] == "white"
 
     def test_dec_17_24_late_advent_violet(self):
-        # day-117 through day-124 are Dec 17-24 late-Advent weekdays —
-        # parser tagged them christmas season but they're still Advent.
-        for did in ('day-117','day-118','day-119','day-120.sunday',
-                    'day-121.monday','day-122.tuesday','day-123.wednesday',
-                    'day-124.thursday'):
-            mass = {"id": f"tempore.christmas.{did}", "season": "christmas",
+        # Dec 17-24 ferias live under tempore.advent.* with season=advent;
+        # _assign_liturgical_color picks violet from the advent default.
+        for slug in ('dec-17','dec-18','dec-19','dec-20','dec-21','dec-22','dec-23','dec-24'):
+            mass = {"id": f"tempore.advent.{slug}", "season": "advent",
                     "title": {"la": "IN FERIIS ADVENTUS a Die 17 ad diem 24 decembris"}}
-            R._reclassify_late_advent_season(mass)
-            assert mass["season"] == "advent", f"{did} should be advent"
-
-    def test_dec_25_christmas_unchanged(self):
-        mass = {"id": "tempore.christmas.nativity-day", "season": "christmas",
-                "title": {"la": "IN NATIVITATE DOMINI"}}
-        R._reclassify_late_advent_season(mass)
-        assert mass["season"] == "christmas"
+            R._assign_liturgical_color(mass)
+            assert mass["liturgicalColor"] == "violet", f"{slug} should be violet"
 
     def test_lords_supper_white(self):
         mass = {"id": "tempore.holy-week.lords-supper", "season": "holy-week",
@@ -1879,7 +1894,7 @@ class TestPromoteKnownSolemnities:
         assert mass["rankLocalized"]["en"] == "Solemnity"
 
     def test_promotes_mary_mother_of_god(self):
-        mass = {"id": "tempore.christmas.day-141.monday", "rank": None}
+        mass = {"id": "tempore.christmas.mary-mother-of-god", "rank": None}
         R._promote_known_solemnities(mass)
         assert mass["rank"] == "solemnity"
 
