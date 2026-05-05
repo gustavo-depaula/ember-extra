@@ -47,8 +47,10 @@ export interface Prayer {
 
 /** A reference to a preface in `library/prefaces.json`. */
 export interface PrefaceRef {
-  prefaceRef: string;        // e.g. "preface.pf056"
-  alternativeRefs?: string[];
+  /** Ordered preface IDs: proper first, then alternatives. The Roman Missal
+   * lets the priest pick from any of these on a given day (e.g. all 5
+   * paschal prefaces are usable on Easter weekdays). */
+  prefaceRefs: string[];     // e.g. ["preface.pf016", "preface.pf017"]
   label?: Localized;
   excerpt?: Localized;
 }
@@ -79,6 +81,10 @@ export interface ReadingSet {
   firstReading?: Reading;
   responsorialPsalm?: ResponsorialPsalm;
   secondReading?: Reading;
+  /** Easter Sunday and Pentecost only: Victimae Paschali laudes /
+   * Veni Sancte Spiritus. Falls between the second reading and the
+   * gospel acclamation in the rite. */
+  sequentia?: Reading;
   gospelAcclamation?: Prayer;
   gospel?: Reading;
 }

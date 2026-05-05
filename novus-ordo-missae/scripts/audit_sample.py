@@ -276,9 +276,10 @@ def check_preface_refs(masses, issues):
         pref_ids.add(json.load(f.open())["id"])
     for path, m in masses:
         p = m.get("preface")
-        if isinstance(p, dict) and "prefaceRef" in p:
-            if p["prefaceRef"] not in pref_ids:
-                issues.append(("P", m["id"], f"unresolved {p['prefaceRef']}"))
+        if isinstance(p, dict):
+            for ref in p.get("prefaceRefs") or []:
+                if ref not in pref_ids:
+                    issues.append(("P", m["id"], f"unresolved {ref}"))
 
 
 def main():

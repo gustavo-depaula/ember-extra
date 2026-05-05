@@ -938,7 +938,7 @@ def label_only_preface_to_ref(prayer: dict) -> Optional[dict]:
         return None
     # Keep the localized labels for display.
     return strip_empty({
-        "prefaceRef": pref_id,
+        "prefaceRefs": [pref_id],
         "label": {lang: t.strip(". ") for lang, t in label_texts.items()},
     })
 
@@ -978,14 +978,14 @@ def extract_preface_ref(html_per_source: dict[str, str]) -> Optional[dict[str, A
     if not refs:
         return None
 
-    # Canonical preface ID
-    seen = []
+    # Canonical preface IDs (proper first, alternatives after) as a single
+    # ordered array. Consumers iterate this directly — no need to merge a
+    # singular `prefaceRef` with a separate `alternativeRefs` list.
+    seen: list[str] = []
     for r in refs:
         if r not in seen:
             seen.append(r)
-    out: dict[str, Any] = {"prefaceRef": f"preface.{seen[0]}"}
-    if len(seen) > 1:
-        out["alternativeRefs"] = [f"preface.{r}" for r in seen[1:]]
+    out: dict[str, Any] = {"prefaceRefs": [f"preface.{r}" for r in seen]}
     if label:
         out["label"] = label
     if excerpt:
@@ -1948,6 +1948,131 @@ def _citation_from_item(item: dict) -> dict[str, str]:
     return out
 
 
+_SEQUENCE_LABEL_RE = re.compile(
+    r"^(?:Sequentia|Secuencia|Sequence|Sequência|Sequenza|Séquence|Sequenz)\b",
+    re.IGNORECASE,
+)
+
+
+def _is_sequence_item(item: dict) -> bool:
+    """Detect a Sequentia (Easter Sunday / Pentecost) item by its leading
+    label segment across the seven source languages. Easter Sunday ships
+    label + body in a single padre under `reading_title`; Pentecost's
+    label and body live in two adjacent padres (the label is `rubric`)."""
+    for src, c in (item.get("content") or {}).items():
+        if src not in LANG_MAP:
+            continue
+        for seg in (c.get("segments") or [])[:3]:
+            t = seg.get("type")
+            if t in ("reading_title", "rubric"):
+                text = (seg.get("text") or "").strip()
+                if _SEQUENCE_LABEL_RE.match(text):
+                    return True
+                if text:
+                    # First labeled segment is something else; not a sequence.
+                    break
+    return False
+
+
+def _is_acclamation_item(item: dict) -> bool:
+    """Return True if the item looks like a gospel acclamation (alleluia
+    verse) rather than the continuation of a sequence body. Used to bound
+    where a label-only sequence absorbs its follow-on body."""
+    for src, c in (item.get("content") or {}).items():
+        if src not in LANG_MAP:
+            continue
+        for seg in (c.get("segments") or [])[:6]:
+            t = seg.get("type")
+            if t in ("reference", "psalm_verse", "reading_title"):
+                return True
+            if t == "text":
+                text = (seg.get("text") or "").strip()
+                if text and re.match(r"^All?el", text, re.IGNORECASE):
+                    return True
+    return False
+
+
+def _split_aleluya_items(items: list[dict]) -> tuple[list[dict], list[dict]]:
+    """Partition x_aleluya items into (sequence_items, acclamation_items).
+    A label-only sequence (Pentecost) absorbs subsequent items until the
+    first item that looks like an alleluia acclamation."""
+    seq_start = None
+    for i, it in enumerate(items):
+        if _is_sequence_item(it):
+            seq_start = i
+            break
+    if seq_start is None:
+        return [], items
+    seq_end = seq_start + 1
+    while seq_end < len(items) and not _is_acclamation_item(items[seq_end]):
+        seq_end += 1
+    sequence_items = items[seq_start:seq_end]
+    acclamation_items = items[:seq_start] + items[seq_end:]
+    return sequence_items, acclamation_items
+
+
+_SEQUENCE_LABEL_LEADING_RE = re.compile(
+    r"^\s*(?:Sequentia|Secuencia|Sequence|Sequência|Sequenza|Séquence|Sequenz)"
+    r"(?:\s*\([^)]*\))?\s*[\.:]?\s*",
+    re.IGNORECASE,
+)
+
+
+def _strip_sequence_label_from_body(reading: dict) -> None:
+    """Drop the leading `Sequentia`/`Sequência`/etc. label from each
+    language's body. The label is liturgical metadata (which is what
+    the sequentia slot itself carries) — it shouldn't appear at the
+    start of the actual sequence text."""
+    body = reading.get("body") if isinstance(reading, dict) else None
+    if not isinstance(body, dict):
+        return
+    plain = body.get("plain")
+    if isinstance(plain, dict):
+        for lang, v in list(plain.items()):
+            if isinstance(v, str):
+                stripped = _SEQUENCE_LABEL_LEADING_RE.sub("", v, count=1)
+                if stripped != v:
+                    plain[lang] = stripped
+    lines_map = body.get("lines")
+    if isinstance(lines_map, dict):
+        for lang, lines in list(lines_map.items()):
+            if not isinstance(lines, list) or not lines:
+                continue
+            # Drop the leading line if it consists of only the label.
+            first = lines[0] if isinstance(lines[0], list) else None
+            if first is None:
+                continue
+            joined = "".join(s.get("text") or "" for s in first if isinstance(s, dict))
+            if joined and _SEQUENCE_LABEL_LEADING_RE.fullmatch(joined.strip() + " "):
+                lines_map[lang] = lines[1:]
+                continue
+            # Otherwise, strip the label from the leading text segment.
+            for seg in first:
+                if not isinstance(seg, dict):
+                    continue
+                t = seg.get("text") or ""
+                stripped = _SEQUENCE_LABEL_LEADING_RE.sub("", t, count=1)
+                if stripped != t:
+                    seg["text"] = stripped
+                    break
+
+
+def _reading_body_is_empty(reading: dict) -> bool:
+    """A Reading whose `body.plain` is empty or only contains the
+    sequence label across every language. Used to detect when the
+    class-driven reading parser failed to capture the body text."""
+    body = reading.get("body") if isinstance(reading, dict) else None
+    if not isinstance(body, dict):
+        return True
+    plain = body.get("plain") or {}
+    if not plain:
+        return True
+    for v in plain.values():
+        if isinstance(v, str) and not _SEQUENCE_LABEL_RE.match(v.strip()) and len(v.strip()) > 20:
+            return False
+    return True
+
+
 def cycle_slots_to_reading_set(slots: list[dict]) -> dict[str, Any]:
     """Convert a cycle's slot list into a ReadingSet."""
     rs: dict[str, Any] = {}
@@ -1973,6 +2098,27 @@ def cycle_slots_to_reading_set(slots: list[dict]) -> dict[str, Any]:
                 pending_response = None
                 rs["secondReading"] = r
         elif t == "x_aleluya":
+            # On Easter Sunday and Pentecost the source ships the Sequence
+            # (Victimae Paschali / Veni Sancte Spiritus) inside the
+            # x_aleluya block, before the alleluia verse — same parent
+            # `<div>`, just an extra item with a `Sequentia` label. Split
+            # those out into their own `sequentia` slot so consumers don't
+            # have to detect the sequence by inspecting acclamation
+            # alternatives.
+            sequence_items, accl_items = _split_aleluya_items(items)
+            if sequence_items:
+                seq = reading_from_items(sequence_items)
+                # Pentecost's source nests the body padre inside the label
+                # padre with no `Incipit-oneline` class anchor, so the
+                # class-driven reading parser only finds the label and
+                # leaves an empty body. Fall back to a plain-prayer build
+                # in that case so the Veni Sancte Spiritus text lands.
+                if not seq or _reading_body_is_empty(seq):
+                    seq = prayer_from_items(sequence_items)
+                if seq:
+                    _strip_sequence_label_from_body(seq)
+                    rs["sequentia"] = seq
+
             # When the source lists multiple alternative gospel acclamations
             # (e.g. All Souls Day's 11 options, Sacred Heart B/C's 2 options),
             # each item is a separate `<div class="hijo">` carrying one
@@ -1980,8 +2126,8 @@ def cycle_slots_to_reading_set(slots: list[dict]) -> dict[str, Any]:
             # with all options inside (no primary at the root). For
             # single-option days, keep the simple body+citation shape.
             options: list[dict] = []
-            if len(items) > 1:
-                for item in items:
+            if len(accl_items) > 1:
+                for item in accl_items:
                     opt = prayer_from_items([item])
                     if not opt:
                         continue
@@ -1994,9 +2140,9 @@ def cycle_slots_to_reading_set(slots: list[dict]) -> dict[str, Any]:
             elif options:
                 rs["gospelAcclamation"] = options[0]
             else:
-                r = prayer_from_items(items)
+                r = prayer_from_items(accl_items)
                 if r:
-                    cit = _citation_from_item(items[0]) if items else {}
+                    cit = _citation_from_item(accl_items[0]) if accl_items else {}
                     if cit:
                         r["citation"] = cit
                     rs["gospelAcclamation"] = r
@@ -2021,11 +2167,14 @@ def cycle_slots_to_reading_set(slots: list[dict]) -> dict[str, Any]:
             else:
                 pending_response = response
 
-    # Reorder cycle slots to canonical liturgical sequence.
+    # Reorder cycle slots to canonical liturgical sequence. Sequentia falls
+    # between the second reading and the gospel acclamation (it precedes the
+    # alleluia in the actual rite on the two days where it occurs).
     canonical_order = [
         "firstReading",
         "responsorialPsalm",
         "secondReading",
+        "sequentia",
         "gospelAcclamation",
         "gospel",
     ]

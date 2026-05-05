@@ -343,7 +343,9 @@ def collect_slots(scope: Tag) -> list[dict[str, Any]]:
             seen_padres.add(padre_idx)
             if extras:
                 slot.setdefault("padre_classes", {})[str(padre_idx)] = extras
-            return
+            # Pentecost's `<div padre_41><div PsalmAlleluiaVerse padre_42/></div>`
+            # nests the sequence body inside the sequence label. Without
+            # descending here, the inner padre (the actual body) is dropped.
         # Nested? descend looking for more padres/groups.
         for sub in child.children:
             collect_inside_slot(sub, slot)
