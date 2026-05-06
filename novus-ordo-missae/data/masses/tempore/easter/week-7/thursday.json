@@ -1810,125 +1810,181 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 17, 21 Allelúia. Ut omnes unum sint, sicut tu Pater in me, et ego in te, ut credat mundus quia tu me misisti, dicit Dóminus. Allelúia.",
-            "es": "Aleluya Jn 17, 21 Aleluya. Que todos sean uno —dice el Señor—, como tú, Padre, en mí, y yo en ti, para que el mundo crea que tú me has enviado. Aleluya.",
-            "en": "Alleluia, alleluia. With me in them and you in me, may they be so completely one that the world will realise that it was you who sent me, says the Lord.",
-            "pt-BR": "Aclamação ao Evangelho Jo 17, 21 Aleluia, aleluia. Para que todos sejam um, diz o Senhor, como tu estás em mim e eu em ti, para que o mundo possa crer que me enviaste. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Siano tutti una cosa sola, come tu, Padre, sei in me e io in te, perché il mondo creda che tu mi hai mandato. Alleluia.",
-            "fr": "Alléluia Io 17, 21 Alléluia Que tous soient un, comme toi, Père, tu es en moi, et moi en toi, pour que le monde croie que tu m’as envoyé. Alléluia.",
-            "de": "Ruf vor dem Evangelium Joh 17, 21 Halleluja. Halleluja. (So spricht der Herr:) Alle sollen eins sein: Wie du, Vater, in mir bist und ich in dir bin, sollen auch sie in uns sein, damit die Welt glaubt, dass du mich gesandt hast. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 17, 21"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Ut omnes unum sint, sicut tu Pater in me, et ego in te, ut credat mundus quia tu me misisti, dicit Dóminus. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 17, 21"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Que todos sean uno —dice el Señor—, como tú, Padre, en mí, y yo en ti, para que el mundo crea que tú me has enviado. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. With me in them and you in me, may they be so completely one that the world will realise that it was you who sent me, says the Lord."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 17, 21"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Para que todos sejam um, diz o Senhor, como tu estás em mim e eu em ti, para que o mundo possa crer que me enviaste. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Siano tutti una cosa sola, come tu, Padre, sei in me e io in te, perché il mondo creda che tu mi hai mandato. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 17, 21"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Que tous soient un, comme toi, Père, tu es en moi, et moi en toi, pour que le monde croie que tu m’as envoyé. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joh 17, 21"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Alle sollen eins sein: Wie du, Vater, in mir bist und ich in dir bin, sollen auch sie in uns sein, damit die Welt glaubt, dass du mich gesandt hast. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 17, 21",
           "es": "Jn 17, 21",
           "pt-BR": "Jo 17, 21",
           "fr": "Io 17, 21",
           "de": "Joh 17, 21"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Ut omnes unum sint, sicut tu Pater in me, et ego in te, ut credat mundus quia tu me misisti, dicit Dóminus."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Que todos sean uno —dice el Señor—, como tú, Padre, en mí, y yo en ti, para que el mundo crea que tú me has enviado."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "With me in them and you in me, may they be so completely one that the world will realise that it was you who sent me, says the Lord."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Para que todos sejam um, diz o Senhor, como tu estás em mim e eu em ti, para que o mundo possa crer que me enviaste."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Siano tutti una cosa sola, come tu, Padre, sei in me e io in te, perché il mondo creda che tu mi hai mandato."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Que tous soient un, comme toi, Père, tu es en moi, et moi en toi, pour que le monde croie que tu m’as envoyé."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Alle sollen eins sein: Wie du, Vater, in mir bist und ich in dir bin, sollen auch sie in uns sein, damit die Welt glaubt, dass du mich gesandt hast."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

@@ -1529,127 +1529,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Mt 1, 21 Allelúia. Páriet fílium, et vocábis nomen eius Iesum: ipse enim salvum fáciet pópulum suum a peccátis eórum. Allelúia.",
-            "es": "Aleluya Mt 1, 21 Aleluya. Dará a luz un hijo, y le pondrás por nombre Jesús, porque él salvará a su pueblo de sus pecados. Aleluya.",
-            "en": "Alleluia, alleluia. She will bear a Son, and call his name Jesus, for he will save his people from their sins. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Mt 1, 21 Aleluia, aleluia. O que nela se gerou é fruto do Espírito Santo; Ela dará à luz um filho e tu pôr-Lhe-ás o nome de Jesus. Aleluia.",
-            "it": "Canto al Vangelo Mt 1, 20b.21a Alleluia, alleluia. Il bambino che è generato in Maria viene dallo Spirito Santo; ella darà alla luce un figlio e tu lo chiamerai Gesù. Alleluia.",
-            "fr": "Alléluia Mt 1, 21 Alléluia L’enfant qui est engendré en Marie vient de l’Esprit-Saint ; elle enfantera un fils, et tu lui donneras le nom de Jésus. Alléluia.",
-            "de": "Ruf vor dem Evangelium Mt 1, 20d. 21ab Halleluja. Halleluja. Das Kind, das sie erwartet, ist vom Heiligen Geist. Sie wird einen Sohn gebären; ihm sollst du den Namen Jesus geben. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 1, 21"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Páriet fílium, et vocábis nomen eius Iesum: ipse enim salvum fáciet pópulum suum a peccátis eórum. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 1, 21"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Dará a luz un hijo, y le pondrás por nombre Jesús, porque él salvará a su pueblo de sus pecados. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. She will bear a Son, and call his name Jesus, for he will save his people from their sins. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 1, 21"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. O que nela se gerou é fruto do Espírito Santo; Ela dará à luz um filho e tu pôr-Lhe-ás o nome de Jesus. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 1, 20b.21a"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Il bambino che è generato in Maria viene dallo Spirito Santo; ella darà alla luce un figlio e tu lo chiamerai Gesù. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 1, 21"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia L’enfant qui est engendré en Marie vient de l’Esprit-Saint ; elle enfantera un fils, et tu lui donneras le nom de Jésus. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 1, 20d. 21ab"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Das Kind, das sie erwartet, ist vom Heiligen Geist. Sie wird einen Sohn gebären; ihm sollst du den Namen Jesus geben. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mt 1, 21",
           "es": "Mt 1, 21",
@@ -1657,6 +1536,179 @@
           "it": "Mt 1, 20b.21a",
           "fr": "Mt 1, 21",
           "de": "Mt 1, 20d. 21ab"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Páriet fílium, et vocábis nomen eius Iesum: ipse enim salvum fáciet pópulum suum a peccátis eórum."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Dará a luz un hijo, y le pondrás por nombre Jesús, porque él salvará a su pueblo de sus pecados."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "She will bear a Son, and call his name Jesus, for he will save his people from their sins."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "O que nela se gerou é fruto do Espírito Santo; Ela dará à luz um filho e tu pôr-Lhe-ás o nome de Jesus."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Il bambino che è generato in Maria viene dallo Spirito Santo; ella darà alla luce un figlio e tu lo chiamerai Gesù."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "L’enfant qui est engendré en Marie vient de l’Esprit-Saint ; elle enfantera un fils, et tu lui donneras le nom de Jésus."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Das Kind, das sie erwartet, ist vom Heiligen Geist. Sie wird einen Sohn gebären; ihm sollst du den Namen Jesus geben."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

@@ -619,127 +619,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Ap 2, 10c Allelúia. Esto fidélis usque ad mortem, dicit Dóminus, et dabo tibi corónam vitæ. Allelúia.",
-            "es": "Aleluya Ap 2, 10c Aleluya. Sé fiel hasta la muerte —dice el Señor— y te daré la corona de la vida. Aleluya.",
-            "en": "Alleluia, alleluia. Be faithful until death says the Lord, and I will give you the crown of life. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Ap 2, 10c Aleluia, aleluia. Permanece fiel até à morte, e a coroa da vida eu te darei! Aleluia.",
-            "it": "Canto al Vangelo Ap 2,10c Alleluia, alleluia. Sii fedele fino alla morte, dice il Signore, e ti darò la corona della vita. Alleluia.",
-            "fr": "Alléluia Ap 2, 10c Alléluia Sois fidèle jusqu’à la mort, dit le Seigneur, et je te donnerai la couronne de la vie. Alléluia.",
-            "de": "Ruf vor dem Evangelium Offb 2, 8b. 10c Halleluja. Halleluja. (So spricht Er, der Erste und der Letzte:) Sei treu bis in den Tod; dann werde ich dir den Kranz des Lebens geben. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ap 2, 10c"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Esto fidélis usque ad mortem, dicit Dóminus, et dabo tibi corónam vitæ. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ap 2, 10c"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Sé fiel hasta la muerte —dice el Señor— y te daré la corona de la vida. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Be faithful until death says the Lord, and I will give you the crown of life. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ap 2, 10c"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Permanece fiel até à morte, e a coroa da vida eu te darei! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ap 2,10c"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Sii fedele fino alla morte, dice il Signore, e ti darò la corona della vita. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ap 2, 10c"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Sois fidèle jusqu’à la mort, dit le Seigneur, et je te donnerai la couronne de la vie. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Offb 2, 8b. 10c"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht Er, der Erste und der Letzte:) Sei treu bis in den Tod; dann werde ich dir den Kranz des Lebens geben. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Ap 2, 10c",
           "es": "Ap 2, 10c",
@@ -747,6 +626,179 @@
           "it": "Ap 2,10c",
           "fr": "Ap 2, 10c",
           "de": "Offb 2, 8b. 10c"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Esto fidélis usque ad mortem, dicit Dóminus, et dabo tibi corónam vitæ."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Sé fiel hasta la muerte —dice el Señor— y te daré la corona de la vida."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Be faithful until death says the Lord, and I will give you the crown of life."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Permanece fiel até à morte, e a coroa da vida eu te darei!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Sii fedele fino alla morte, dice il Signore, e ti darò la corona della vita."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Sois fidèle jusqu’à la mort, dit le Seigneur, et je te donnerai la couronne de la vie."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht Er, der Erste und der Letzte:) Sei treu bis in den Tod; dann werde ich dir den Kranz des Lebens geben."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -1835,127 +1887,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Ap 2, 10c Allelúia. Esto fidélis usque ad mortem, dicit Dóminus, et dabo tibi corónam vitæ. Allelúia.",
-            "es": "Aleluya Ap 2, 10c Aleluya. Sé fiel hasta la muerte —dice el Señor— y te daré la corona de la vida. Aleluya.",
-            "en": "Alleluia, alleluia. Be faithful until death says the Lord, and I will give you the crown of life. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Ap 2, 10c Aleluia, aleluia. Permanece fiel até à morte, e a coroa da vida eu te darei! Aleluia.",
-            "it": "Canto al Vangelo Ap 2,10c Alleluia, alleluia. Sii fedele fino alla morte, dice il Signore, e ti darò la corona della vita. Alleluia.",
-            "fr": "Alléluia Ap 2, 10c Alléluia Sois fidèle jusqu’à la mort, dit le Seigneur, et je te donnerai la couronne de la vie. Alléluia.",
-            "de": "Ruf vor dem Evangelium Offb 2, 8b. 10c Halleluja. Halleluja. (So spricht Er, der Erste und der Letzte:) Sei treu bis in den Tod; dann werde ich dir den Kranz des Lebens geben. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ap 2, 10c"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Esto fidélis usque ad mortem, dicit Dóminus, et dabo tibi corónam vitæ. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ap 2, 10c"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Sé fiel hasta la muerte —dice el Señor— y te daré la corona de la vida. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Be faithful until death says the Lord, and I will give you the crown of life. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ap 2, 10c"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Permanece fiel até à morte, e a coroa da vida eu te darei! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ap 2,10c"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Sii fedele fino alla morte, dice il Signore, e ti darò la corona della vita. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ap 2, 10c"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Sois fidèle jusqu’à la mort, dit le Seigneur, et je te donnerai la couronne de la vie. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Offb 2, 8b. 10c"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht Er, der Erste und der Letzte:) Sei treu bis in den Tod; dann werde ich dir den Kranz des Lebens geben. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Ap 2, 10c",
           "es": "Ap 2, 10c",
@@ -1963,6 +1894,179 @@
           "it": "Ap 2,10c",
           "fr": "Ap 2, 10c",
           "de": "Offb 2, 8b. 10c"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Esto fidélis usque ad mortem, dicit Dóminus, et dabo tibi corónam vitæ."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Sé fiel hasta la muerte —dice el Señor— y te daré la corona de la vida."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Be faithful until death says the Lord, and I will give you the crown of life."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Permanece fiel até à morte, e a coroa da vida eu te darei!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Sii fedele fino alla morte, dice il Signore, e ti darò la corona della vita."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Sois fidèle jusqu’à la mort, dit le Seigneur, et je te donnerai la couronne de la vie."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht Er, der Erste und der Letzte:) Sei treu bis in den Tod; dann werde ich dir den Kranz des Lebens geben."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

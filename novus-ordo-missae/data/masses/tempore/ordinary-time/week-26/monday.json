@@ -891,127 +891,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Mc 10, 45 Allelúia. Fílius hóminis venit ut ministráret, et daret ánimam suam redemptiónem pro multis. Allelúia.",
-            "es": "Aleluya Mc 10, 45 Aleluya. El Hijo del hombre ha venido a servir y dar su vida en rescate por muchos. Aleluya.",
-            "en": "Alleluia, alleluia. The Son of Man came to save and to give his life as a ransom for all. Alleluia.",
-            "pt-BR": "Aclamação ao Evanglho Mc 10, 45 Aleluia, aleluia. Veio o Filho do Homem a fim de servir e dar sua vida em resgate por muitos. Aleluia.",
-            "it": "Canto al Vangelo Mc 10,45 Alleluia, alleluia. Il Figlio dell’uomo è venuto per servire e dare la propria vita in riscatto per molti. Alleluia.",
-            "fr": "Alléluia Mc 10, 45 Alléluia Le Fils de l’homme est venu pour servir, et donner sa vie en rançon pour la multitude. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Mk 10, 45 Halleluja. Halleluja. Der Menschensohn ist gekommen, um zu dienen und sein Leben hinzugeben als Lösepreis für viele. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 10, 45"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Fílius hóminis venit ut ministráret, et daret ánimam suam redemptiónem pro multis. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 10, 45"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. El Hijo del hombre ha venido a servir y dar su vida en rescate por muchos. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. The Son of Man came to save and to give his life as a ransom for all. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evanglho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 10, 45"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Veio o Filho do Homem a fim de servir e dar sua vida em resgate por muitos. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 10,45"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Il Figlio dell’uomo è venuto per servire e dare la propria vita in riscatto per molti. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 10, 45"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Le Fils de l’homme est venu pour servir, et donner sa vie en rançon pour la multitude. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Mk 10, 45"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Der Menschensohn ist gekommen, um zu dienen und sein Leben hinzugeben als Lösepreis für viele. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mc 10, 45",
           "es": "Mc 10, 45",
@@ -1019,6 +898,179 @@
           "it": "Mc 10,45",
           "fr": "Mc 10, 45",
           "de": "vgl. Mk 10, 45"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Fílius hóminis venit ut ministráret, et daret ánimam suam redemptiónem pro multis."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "El Hijo del hombre ha venido a servir y dar su vida en rescate por muchos."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "The Son of Man came to save and to give his life as a ransom for all."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "ao Evanglho"
+              },
+              {
+                "type": "text",
+                "text": "Aleluia, aleluia. Veio o Filho do Homem a fim de servir e dar sua vida em resgate por muitos."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Il Figlio dell’uomo è venuto per servire e dare la propria vita in riscatto per molti."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Le Fils de l’homme est venu pour servir, et donner sa vie en rançon pour la multitude."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Der Menschensohn ist gekommen, um zu dienen und sein Leben hinzugeben als Lösepreis für viele."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -2051,127 +2103,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Mc 10, 45 Allelúia. Fílius hóminis venit ut ministráret, et daret ánimam suam redemptiónem pro multis. Allelúia.",
-            "es": "Aleluya Mc 10, 45 Aleluya. El Hijo del hombre ha venido a servir y dar su vida en rescate por muchos. Aleluya.",
-            "en": "Alleluia, alleluia. The Son of Man came to save and to give his life as a ransom for all. Alleluia.",
-            "pt-BR": "Aclamação ao Evanglho Mc 10, 45 Aleluia, aleluia. Veio o Filho do Homem a fim de servir e dar sua vida em resgate por muitos. Aleluia.",
-            "it": "Canto al Vangelo Mc 10,45 Alleluia, alleluia. Il Figlio dell’uomo è venuto per servire e dare la propria vita in riscatto per molti. Alleluia.",
-            "fr": "Alléluia Mc 10, 45 Alléluia Le Fils de l’homme est venu pour servir, et donner sa vie en rançon pour la multitude. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Mk 10, 45 Halleluja. Halleluja. Der Menschensohn ist gekommen, um zu dienen und sein Leben hinzugeben als Lösepreis für viele. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 10, 45"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Fílius hóminis venit ut ministráret, et daret ánimam suam redemptiónem pro multis. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 10, 45"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. El Hijo del hombre ha venido a servir y dar su vida en rescate por muchos. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. The Son of Man came to save and to give his life as a ransom for all. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evanglho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 10, 45"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Veio o Filho do Homem a fim de servir e dar sua vida em resgate por muitos. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 10,45"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Il Figlio dell’uomo è venuto per servire e dare la propria vita in riscatto per molti. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 10, 45"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Le Fils de l’homme est venu pour servir, et donner sa vie en rançon pour la multitude. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Mk 10, 45"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Der Menschensohn ist gekommen, um zu dienen und sein Leben hinzugeben als Lösepreis für viele. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mc 10, 45",
           "es": "Mc 10, 45",
@@ -2179,6 +2110,179 @@
           "it": "Mc 10,45",
           "fr": "Mc 10, 45",
           "de": "vgl. Mk 10, 45"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Fílius hóminis venit ut ministráret, et daret ánimam suam redemptiónem pro multis."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "El Hijo del hombre ha venido a servir y dar su vida en rescate por muchos."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "The Son of Man came to save and to give his life as a ransom for all."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "ao Evanglho"
+              },
+              {
+                "type": "text",
+                "text": "Aleluia, aleluia. Veio o Filho do Homem a fim de servir e dar sua vida em resgate por muitos."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Il Figlio dell’uomo è venuto per servire e dare la propria vita in riscatto per molti."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Le Fils de l’homme est venu pour servir, et donner sa vie en rançon pour la multitude."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Der Menschensohn ist gekommen, um zu dienen und sein Leben hinzugeben als Lösepreis für viele."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

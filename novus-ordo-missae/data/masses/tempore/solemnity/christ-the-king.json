@@ -2560,127 +2560,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Mc 11, 9b-10a Allelúia. Benedíctus, qui venit in nómine Dómini! Benedíctum quod venit regnum patris nostri David! Allelúia.",
-            "es": "Aleluya Mc 11, 9b-10a Aleluya. ¡Bendito el que viene en nombre del Señor! ¡Bendito el reino que llega, el de nuestro padre David! Aleluya.",
-            "en": "Alleluia, alleluia. Blessed is he who inherits the kingdom of David our Father. Blessed is he who comes in the name of the Lord. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Mc 11, 9b-10a Aleluia, aleluia. É bendito aquele que vem vindo, que vem vindo em nome do Senhor; e o Reino que vem, seja bendito, ao que vem e a seu Reino, o louvor! Aleluia.",
-            "it": "Canto al Vangelo Mc 11,9.10 Alleluia, alleluia. Benedetto colui che viene nel nome del Signore! benedetto il Regno che viene, del nostro padre Davide! Alleluia.",
-            "fr": "Alléluia Mc 11, 9b-10a Alléluia Béni soit celui qui vient au nom du Seigneur ! Béni soit le Règne qui vient, celui de David notre père. Alléluia.",
-            "de": "Ruf vor dem Evangelium Mk 11, 9. Halleluja. Halleluja. Gesegnet sei, der kommt im Namen des Herrn! Gesegnet sei das Reich unseres Vaters David, das nun kommt. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 11, 9b-10a"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Benedíctus, qui venit in nómine Dómini! Benedíctum quod venit regnum patris nostri David! Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 11, 9b-10a"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. ¡Bendito el que viene en nombre del Señor! ¡Bendito el reino que llega, el de nuestro padre David! Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Blessed is he who inherits the kingdom of David our Father. Blessed is he who comes in the name of the Lord. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 11, 9b-10a"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. É bendito aquele que vem vindo, que vem vindo em nome do Senhor; e o Reino que vem, seja bendito, ao que vem e a seu Reino, o louvor! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 11,9.10"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Benedetto colui che viene nel nome del Signore! benedetto il Regno che viene, del nostro padre Davide! Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 11, 9b-10a"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Béni soit celui qui vient au nom du Seigneur ! Béni soit le Règne qui vient, celui de David notre père. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mk 11, 9."
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Gesegnet sei, der kommt im Namen des Herrn! Gesegnet sei das Reich unseres Vaters David, das nun kommt. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mc 11, 9b-10a",
           "es": "Mc 11, 9b-10a",
@@ -2688,6 +2567,179 @@
           "it": "Mc 11,9.10",
           "fr": "Mc 11, 9b-10a",
           "de": "Mk 11, 9"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Benedíctus, qui venit in nómine Dómini! Benedíctum quod venit regnum patris nostri David!"
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "¡Bendito el que viene en nombre del Señor! ¡Bendito el reino que llega, el de nuestro padre David!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Blessed is he who inherits the kingdom of David our Father. Blessed is he who comes in the name of the Lord."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "É bendito aquele que vem vindo, que vem vindo em nome do Senhor; e o Reino que vem, seja bendito, ao que vem e a seu Reino, o louvor!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Benedetto colui che viene nel nome del Signore! benedetto il Regno che viene, del nostro padre Davide!"
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Béni soit celui qui vient au nom du Seigneur ! Béni soit le Règne qui vient, celui de David notre père."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Gesegnet sei, der kommt im Namen des Herrn! Gesegnet sei das Reich unseres Vaters David, das nun kommt."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -3626,127 +3678,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Mc 11, 9b-10a Allelúia. Benedíctus, qui venit in nómine Dómini! Benedíctum quod venit regnum patris nostri David! Allelúia.",
-            "es": "Aleluya Mc 11, 9b-10a Aleluya. ¡Bendito el que viene en nombre del Señor! ¡Bendito el reino que llega, el de nuestro padre David! Aleluya.",
-            "en": "Alleluia, alleluia. Blessed is he who inherits the kingdom of David our Father. Blessed is he who comes in the name of the Lord. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Mc 11, 9b-10a Aleluia, aleluia. É bendito aquele que vem vindo, que vem vindo em nome do Senhor, e o Reino que vem, seja bendito, ao que vem e a seu Reino, o louvor! Aleluia.",
-            "it": "Canto al Vangelo Mc 11,9.10 Alleluia, alleluia. Benedetto colui che viene nel nome del Signore! benedetto il Regno che viene, del nostro padre Davide! Alleluia.",
-            "fr": "Alléluia Mc 11, 9b-10a Alléluia Béni soit celui qui vient au nom du Seigneur ! Béni soit le Règne qui vient, celui de David, notre père. Alléluia.",
-            "de": "Ruf vor dem Evangelium Mk 11, 9. Halleluja. Halleluja. Gesegnet sei, der kommt im Namen des Herrn! Gesegnet sei das Reich unseres Vaters David, das nun kommt. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 11, 9b-10a"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Benedíctus, qui venit in nómine Dómini! Benedíctum quod venit regnum patris nostri David! Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 11, 9b-10a"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. ¡Bendito el que viene en nombre del Señor! ¡Bendito el reino que llega, el de nuestro padre David! Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Blessed is he who inherits the kingdom of David our Father. Blessed is he who comes in the name of the Lord. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 11, 9b-10a"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. É bendito aquele que vem vindo, que vem vindo em nome do Senhor, e o Reino que vem, seja bendito, ao que vem e a seu Reino, o louvor! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 11,9.10"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Benedetto colui che viene nel nome del Signore! benedetto il Regno che viene, del nostro padre Davide! Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 11, 9b-10a"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Béni soit celui qui vient au nom du Seigneur ! Béni soit le Règne qui vient, celui de David, notre père. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mk 11, 9."
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Gesegnet sei, der kommt im Namen des Herrn! Gesegnet sei das Reich unseres Vaters David, das nun kommt. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mc 11, 9b-10a",
           "es": "Mc 11, 9b-10a",
@@ -3754,6 +3685,179 @@
           "it": "Mc 11,9.10",
           "fr": "Mc 11, 9b-10a",
           "de": "Mk 11, 9"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Benedíctus, qui venit in nómine Dómini! Benedíctum quod venit regnum patris nostri David!"
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "¡Bendito el que viene en nombre del Señor! ¡Bendito el reino que llega, el de nuestro padre David!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Blessed is he who inherits the kingdom of David our Father. Blessed is he who comes in the name of the Lord."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "É bendito aquele que vem vindo, que vem vindo em nome do Senhor, e o Reino que vem, seja bendito, ao que vem e a seu Reino, o louvor!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Benedetto colui che viene nel nome del Signore! benedetto il Regno che viene, del nostro padre Davide!"
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Béni soit celui qui vient au nom du Seigneur ! Béni soit le Règne qui vient, celui de David, notre père."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Gesegnet sei, der kommt im Namen des Herrn! Gesegnet sei das Reich unseres Vaters David, das nun kommt."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -4684,127 +4788,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Mc 11, 9b-10a Allelúia. Benedíctus, qui venit in nómine Dómini! Benedíctum quod venit regnum patris nostri David! Allelúia.",
-            "es": "Aleluya Mc 11, 9b-10a Aleluya. ¡Bendito el que viene en nombre del Señor! ¡Bendito el reino que llega, el de nuestro padre David! Aleluya.",
-            "en": "Alleluia, alleluia. Blessed is he who inherits the kingdom of David our Father. Blessed is he who comes in the name of the Lord. Alleluia.",
-            "pt-BR": "Aclamação do Evangelho Mc 11, 9b-10a Aleluia, aleluia. É bendito aquele que vem vindo. que vem vindo, em nome do Senhor! E o Reino que vem, seja bendito, ao que vem e a seu Reino, o louvor! Aleluia.",
-            "it": "Canto al Vangelo Mc 11,9.10 Alleluia, alleluia. Benedetto colui che viene nel nome del Signore! benedetto il Regno che viene, del nostro padre Davide! Alleluia.",
-            "fr": "Alléluia Mc 11, 9b-10a Alléluia Béni soit celui qui vient au nom du Seigneur ! Béni soit le Règne qui vient, celui de David notre père. Alléluia.",
-            "de": "Ruf vor dem Evangelium Mk 11, 9. Halleluja. Halleluja. Gesegnet sei, der kommt im Namen des Herrn! Gesegnet sei das Reich unseres Vaters David. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 11, 9b-10a"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Benedíctus, qui venit in nómine Dómini! Benedíctum quod venit regnum patris nostri David! Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 11, 9b-10a"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. ¡Bendito el que viene en nombre del Señor! ¡Bendito el reino que llega, el de nuestro padre David! Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Blessed is he who inherits the kingdom of David our Father. Blessed is he who comes in the name of the Lord. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação do Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 11, 9b-10a"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. É bendito aquele que vem vindo. que vem vindo, em nome do Senhor! E o Reino que vem, seja bendito, ao que vem e a seu Reino, o louvor! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 11,9.10"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Benedetto colui che viene nel nome del Signore! benedetto il Regno che viene, del nostro padre Davide! Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 11, 9b-10a"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Béni soit celui qui vient au nom du Seigneur ! Béni soit le Règne qui vient, celui de David notre père. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mk 11, 9."
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Gesegnet sei, der kommt im Namen des Herrn! Gesegnet sei das Reich unseres Vaters David. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mc 11, 9b-10a",
           "es": "Mc 11, 9b-10a",
@@ -4812,6 +4795,179 @@
           "it": "Mc 11,9.10",
           "fr": "Mc 11, 9b-10a",
           "de": "Mk 11, 9"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Benedíctus, qui venit in nómine Dómini! Benedíctum quod venit regnum patris nostri David!"
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "¡Bendito el que viene en nombre del Señor! ¡Bendito el reino que llega, el de nuestro padre David!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Blessed is he who inherits the kingdom of David our Father. Blessed is he who comes in the name of the Lord."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "do Evangelho"
+              },
+              {
+                "type": "text",
+                "text": "Aleluia, aleluia. É bendito aquele que vem vindo. que vem vindo, em nome do Senhor! E o Reino que vem, seja bendito, ao que vem e a seu Reino, o louvor!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Benedetto colui che viene nel nome del Signore! benedetto il Regno che viene, del nostro padre Davide!"
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Béni soit celui qui vient au nom du Seigneur ! Béni soit le Règne qui vient, celui de David notre père."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Gesegnet sei, der kommt im Namen des Herrn! Gesegnet sei das Reich unseres Vaters David."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

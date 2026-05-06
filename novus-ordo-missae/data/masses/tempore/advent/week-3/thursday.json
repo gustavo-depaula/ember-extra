@@ -1597,106 +1597,182 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia, allelúia. Paráte viam Dómini, rectas fácite sémitas eius; vidébit omnis caro salutáre Dei. Allelúia.",
-            "es": "Aleluya, aleluya. Preparad el camino del Señor, allanad sus senderos. Toda carne verá la salvación de Dios. Aleluya.",
-            "en": "Alleluia, alleluia. Prepare the way for the Lord, make straight his paths: all mankind shall see the salvation of God. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Aleluia, aleluia. Preparai o caminho do Senhor, endireitai suas veredas Toda carne há de ver a salvação que vem de Deus. Aleluia.",
-            "it": "Canto al Vangelo (Cf. Lc 3,4.6) Alleluia, alleluia. Preparate la via del Signore, raddrizzate i suoi sentieri! Ogni uomo vedrà la salvezza di Dio. Alleluia.",
-            "fr": "Alléluia, alléluia. Alléluia. Préparez le chemin du Seigneur, rendez droits ses sentiers : tout être vivant verra le salut de Dieu. Alléluia.",
-            "de": "Ruf vor dem Evangelium Lk 3, 4. 6 Halleluja. Halleluja. Bereitet dem Herrn den Weg! Ebnet ihm die Straßen! Und alle Menschen werden das Heil sehen, das von Gott kommt. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Paráte viam Dómini, rectas fácite sémitas eius; vidébit omnis caro salutáre Dei. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Preparad el camino del Señor, allanad sus senderos. Toda carne verá la salvación de Dios. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Prepare the way for the Lord, make straight his paths: all mankind shall see the salvation of God. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho Aleluia, aleluia. Preparai o caminho do Senhor, endireitai suas veredas Toda carne há de ver a salvação que vem de Deus. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Cf. Lc 3,4.6)"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Preparate la via del Signore, raddrizzate i suoi sentieri! Ogni uomo vedrà la salvezza di Dio. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia, alléluia. Alléluia. Préparez le chemin du Seigneur, rendez droits ses sentiers : tout être vivant verra le salut de Dieu. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lk 3, 4. 6"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Bereitet dem Herrn den Weg! Ebnet ihm die Straßen! Und alle Menschen werden das Heil sehen, das von Gott kommt. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "it": "(Cf. Lc 3,4.6)",
           "de": "Lk 3, 4. 6"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Paráte viam Dómini, rectas fácite sémitas eius; vidébit omnis caro salutáre Dei."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Preparad el camino del Señor, allanad sus senderos. Toda carne verá la salvación de Dios."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Prepare the way for the Lord, make straight his paths: all mankind shall see the salvation of God."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Preparai o caminho do Senhor, endireitai suas veredas Toda carne há de ver a salvação que vem de Deus."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Preparate la via del Signore, raddrizzate i suoi sentieri! Ogni uomo vedrà la salvezza di Dio."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Alléluia. Préparez le chemin du Seigneur, rendez droits ses sentiers : tout être vivant verra le salut de Dieu."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Bereitet dem Herrn den Weg! Ebnet ihm die Straßen! Und alle Menschen werden das Heil sehen, das von Gott kommt."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

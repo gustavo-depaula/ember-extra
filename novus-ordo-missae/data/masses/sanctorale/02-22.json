@@ -1744,123 +1744,185 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia vel Versus ante Evangelium Mt 16, 18 (Alleluia.) Tu es Petrus, et super hanc petram ædificábo Ecclésiam meam, et portæ ínferi non prævalébunt advérsum eam. (Alleluia.)",
-            "es": "Aleluya Mt 16, 18 Aleluya. Tú eres Pedro, y sobre esta piedra edificaré mi Iglesia, y el poder del infierno no la derrotará. Aleluya.",
-            "en": "Alleluia, alleluia. You are Peter, the rock on which I will build my Church; the gates of hell will not hold out against it. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Mt 16, 18 Aleluia, aleluia. Tu és Pedro e sobre esta pedra edificarei a minha Igreja e as portas do inferno não irão derrotá-la. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Tu sei Pietro, e su questa pietra edificherò la mia Chiesa. Alleluia.",
-            "fr": "Alléluia vel Verset avant l’Évangile Mt 16, 18 (Alléluia) Tu es Pierre, et sur cette pierre je bâtirai mon Église ; et la puissance de la Mort ne l’emportera pas sur elle. (Alléluia)",
-            "de": "Ruf vor dem Evangelium Mt 16, 18 Halleluja. Halleluja. Du bist Petrus – der Fels -, und auf diesen Felsen werde ich meine Kirche bauen, und die Mächte der Unterwelt werden sie nicht überwältigen. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia vel Versus ante Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 16, 18"
-                },
-                {
-                  "type": "text",
-                  "text": "(Alleluia.) Tu es Petrus, et super hanc petram ædificábo Ecclésiam meam, et portæ ínferi non prævalébunt advérsum eam. (Alleluia.)"
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 16, 18"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Tú eres Pedro, y sobre esta piedra edificaré mi Iglesia, y el poder del infierno no la derrotará. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. You are Peter, the rock on which I will build my Church; the gates of hell will not hold out against it. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 16, 18"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Tu és Pedro e sobre esta pedra edificarei a minha Igreja e as portas do inferno não irão derrotá-la. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Tu sei Pietro, e su questa pietra edificherò la mia Chiesa. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia vel Verset avant l’Évangile"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 16, 18"
-                },
-                {
-                  "type": "text",
-                  "text": "(Alléluia) Tu es Pierre, et sur cette pierre je bâtirai mon Église ; et la puissance de la Mort ne l’emportera pas sur elle. (Alléluia)"
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 16, 18"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Du bist Petrus – der Fels -, und auf diesen Felsen werde ich meine Kirche bauen, und die Mächte der Unterwelt werden sie nicht überwältigen. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mt 16, 18",
           "es": "Mt 16, 18",
           "pt-BR": "Mt 16, 18",
           "fr": "Mt 16, 18",
           "de": "Mt 16, 18"
+        },
+        "mode": "alleluia-or-versus",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "(Alleluia.)"
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "(Alléluia)"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "(Alleluia.)"
+              },
+              {
+                "type": "text",
+                "text": "Tu es Petrus, et super hanc petram ædificábo Ecclésiam meam, et portæ ínferi non prævalébunt advérsum eam."
+              },
+              {
+                "type": "response",
+                "text": "(Alleluia.)"
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Tú eres Pedro, y sobre esta piedra edificaré mi Iglesia, y el poder del infierno no la derrotará."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "You are Peter, the rock on which I will build my Church; the gates of hell will not hold out against it."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Tu és Pedro e sobre esta pedra edificarei a minha Igreja e as portas do inferno não irão derrotá-la."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Tu sei Pietro, e su questa pietra edificherò la mia Chiesa."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "(Alléluia)"
+              },
+              {
+                "type": "text",
+                "text": "Tu es Pierre, et sur cette pierre je bâtirai mon Église ; et la puissance de la Mort ne l’emportera pas sur elle."
+              },
+              {
+                "type": "response",
+                "text": "(Alléluia)"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Du bist Petrus – der Fels -, und auf diesen Felsen werde ich meine Kirche bauen, und die Mächte der Unterwelt werden sie nicht überwältigen."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

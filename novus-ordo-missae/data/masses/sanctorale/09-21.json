@@ -1338,86 +1338,178 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia, allelúia. Te Deum laudámus, te Dóminum confitémur; Te gloriósus apostolórum chorus laudat, Dómine. Allelúia.",
-            "es": "Aleluya, aleluya. A ti, oh, Dios, te alabamos, a ti, Señor, te reconocemos; a ti te ensalza el glorioso coro de los apóstoles, Señor. Aleluya.",
-            "en": "Alleluia, alleluia. You are God: we praise you; you are the Lord: we acclaim you; the glorious company of apostles praise you. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Aleluia, aleluia. A vós, ó Deus, louvamos, a vós, Senhor, cantamos, a vós, ó Senhor, o coro dos apóstolos. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Noi ti lodiamo, Dio, ti proclamiamo Signore; ti acclama il coro degli apostoli. Alleluia.",
-            "fr": "Alléluia, alléluia. À toi, Dieu, notre louange ! Toi que les Apôtres glorifient, nous t’acclamons : tu es Seigneur ! Alléluia.",
-            "de": "Ruf vor dem Evangelium Halleluja. Halleluja. Dich, Gott, loben wir, dich, Herr, preisen wir; dich preist der glorreiche Chor der Apostel. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Te Deum laudámus, te Dóminum confitémur; Te gloriósus apostolórum chorus laudat, Dómine. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. A ti, oh, Dios, te alabamos, a ti, Señor, te reconocemos; a ti te ensalza el glorioso coro de los apóstoles, Señor. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. You are God: we praise you; you are the Lord: we acclaim you; the glorious company of apostles praise you. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho Aleluia, aleluia. A vós, ó Deus, louvamos, a vós, Senhor, cantamos, a vós, ó Senhor, o coro dos apóstolos. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Noi ti lodiamo, Dio, ti proclamiamo Signore; ti acclama il coro degli apostoli. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia, alléluia. À toi, Dieu, notre louange ! Toi que les Apôtres glorifient, nous t’acclamons : tu es Seigneur ! Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium Halleluja. Halleluja. Dich, Gott, loben wir, dich, Herr, preisen wir; dich preist der glorreiche Chor der Apostel. Halleluja."
-                }
-              ]
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
             ]
-          }
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Te Deum laudámus, te Dóminum confitémur; Te gloriósus apostolórum chorus laudat, Dómine."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "A ti, oh, Dios, te alabamos, a ti, Señor, te reconocemos; a ti te ensalza el glorioso coro de los apóstoles, Señor."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "You are God: we praise you; you are the Lord: we acclaim you; the glorious company of apostles praise you."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "A vós, ó Deus, louvamos, a vós, Senhor, cantamos, a vós, ó Senhor, o coro dos apóstolos."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Noi ti lodiamo, Dio, ti proclamiamo Signore; ti acclama il coro degli apostoli."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              },
+              {
+                "type": "text",
+                "text": "À toi, Dieu, notre louange ! Toi que les Apôtres glorifient, nous t’acclamons : tu es Seigneur !"
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Dich, Gott, loben wir, dich, Herr, preisen wir; dich preist der glorreiche Chor der Apostel."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

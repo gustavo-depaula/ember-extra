@@ -2016,125 +2016,185 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Ps 84, 8 Allelúia. Osténde nobis, Dómine, misericórdiam tuam, et salutáre tuum da nobis. Allelúia.",
-            "es": "Aleluya Sal 84, 8 Aleluya. Muéstranos, Señor, tu misericordia y danos tu salvación. Aleluya.",
-            "en": "Alleluia, alleluia. Lord, let us see your kindness, and grant us your salvation. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Salmo 84, 8 Aleluia, aleluia. Mostrai-nos, Senhor, a vossa bondade e a vossa salvação nos concedei! Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Mostraci, Signore, la tua misericordia e donaci la tua salvezza. Alleluia.",
-            "fr": "Alléluia Ps 84, 8 Alléluia. Alléluia. Fais-nous voir, Seigneur, ton amour, et donne-nous ton salut. Alléluia.",
-            "de": "Ruf vor dem Evangelium Ps 85 (84), 8 Halleluja. Halleluja. Erweise uns, Herr, deine Huld, und gewähre uns dein Heil! Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 84, 8"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Osténde nobis, Dómine, misericórdiam tuam, et salutáre tuum da nobis. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Sal 84, 8"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Muéstranos, Señor, tu misericordia y danos tu salvación. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Lord, let us see your kindness, and grant us your salvation. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Salmo 84, 8"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Mostrai-nos, Senhor, a vossa bondade e a vossa salvação nos concedei! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Mostraci, Signore, la tua misericordia e donaci la tua salvezza. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 84, 8"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia. Alléluia. Fais-nous voir, Seigneur, ton amour, et donne-nous ton salut. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 85 (84), 8"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Erweise uns, Herr, deine Huld, und gewähre uns dein Heil! Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Ps 84, 8",
           "es": "Sal 84, 8",
           "pt-BR": "Salmo 84, 8",
           "fr": "Ps 84, 8",
           "de": "Ps 85 (84), 8"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia. Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Osténde nobis, Dómine, misericórdiam tuam, et salutáre tuum da nobis."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Muéstranos, Señor, tu misericordia y danos tu salvación."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Lord, let us see your kindness, and grant us your salvation."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Mostrai-nos, Senhor, a vossa bondade e a vossa salvação nos concedei!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Mostraci, Signore, la tua misericordia e donaci la tua salvezza."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia. Alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Fais-nous voir, Seigneur, ton amour, et donne-nous ton salut."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Erweise uns, Herr, deine Huld, und gewähre uns dein Heil!"
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -3187,125 +3247,185 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Ps 84, 8 Allelúia. Osténde nobis, Dómine, misericórdiam tuam, et salutáre tuum da nobis. Allelúia.",
-            "es": "Aleluya Sal 84, 8 Aleluya. Muéstranos, Señor, tu misericordia y danos tu salvación. Aleluya.",
-            "en": "Alleluia, alleluia. Lord, let us see your kindness, and grant us your salvation. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Salmo 84 (85), 8 Aleluia, aleluia. Mostrai-nos, ó Senhor, vossa bondade, e a vossa salvação nos concedei! Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Mostraci, Signore, la tua misericordia e donaci la tua salvezza. Alleluia.",
-            "fr": "Alléluia Ps 84, 8 Alléluia. Alléluia. Fais-nous voir, Seigneur, ton amour, et donne-nous ton salut. tuum da nobis. Alléluia.",
-            "de": "Ruf vor dem Evangelium Ps 85 (84), 8 Halleluja. Halleluja. Erweise uns, Herr, deine Huld, und gewähre uns dein Heil! Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 84, 8"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Osténde nobis, Dómine, misericórdiam tuam, et salutáre tuum da nobis. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Sal 84, 8"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Muéstranos, Señor, tu misericordia y danos tu salvación. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Lord, let us see your kindness, and grant us your salvation. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Salmo 84 (85), 8"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Mostrai-nos, ó Senhor, vossa bondade, e a vossa salvação nos concedei! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Mostraci, Signore, la tua misericordia e donaci la tua salvezza. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 84, 8"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia. Alléluia. Fais-nous voir, Seigneur, ton amour, et donne-nous ton salut. tuum da nobis. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 85 (84), 8"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Erweise uns, Herr, deine Huld, und gewähre uns dein Heil! Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Ps 84, 8",
           "es": "Sal 84, 8",
           "pt-BR": "Salmo 84 (85), 8",
           "fr": "Ps 84, 8",
           "de": "Ps 85 (84), 8"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia. Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Osténde nobis, Dómine, misericórdiam tuam, et salutáre tuum da nobis."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Muéstranos, Señor, tu misericordia y danos tu salvación."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Lord, let us see your kindness, and grant us your salvation."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Mostrai-nos, ó Senhor, vossa bondade, e a vossa salvação nos concedei!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Mostraci, Signore, la tua misericordia e donaci la tua salvezza."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia. Alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Fais-nous voir, Seigneur, ton amour, et donne-nous ton salut. tuum da nobis."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Erweise uns, Herr, deine Huld, und gewähre uns dein Heil!"
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -4296,125 +4416,181 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Ps 84, 8 Allelúia. Osténde nobis, Dómine, misericórdiam tuam, et salutáre tuum da nobis. Allelúia.",
-            "es": "Aleluya Sal 84, 8 Aleluya. Muéstranos, Señor, tu misericordia y danos tu salvación. Aleluya.",
-            "en": "Alleluia, alleluia. Lord, let us see your kindness, and grant us your salvation. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Salmo 84, 8 Aleluya. Mostrai-nos, ó Senhor, vossa bondade e a vossa salvação nos concedei! Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Mostraci, Signore, la tua misericordia e donaci la tua salvezza. Alleluia.",
-            "fr": "Alléluia Ps 84, 8 Alléluia. Alléluia Fais-nous voir, Seigneur, ton amour, et donne-nous ton salut. Alléluia.",
-            "de": "Ruf vor dem Evangelium Ps 85 (84), 8 Halleluja. Halleluja. Erweise uns, Herr, deine Huld, und gewähre uns dein Heil. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 84, 8"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Osténde nobis, Dómine, misericórdiam tuam, et salutáre tuum da nobis. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Sal 84, 8"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Muéstranos, Señor, tu misericordia y danos tu salvación. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Lord, let us see your kindness, and grant us your salvation. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Salmo 84, 8"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluya. Mostrai-nos, ó Senhor, vossa bondade e a vossa salvação nos concedei! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Mostraci, Signore, la tua misericordia e donaci la tua salvezza. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 84, 8"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia. Alléluia Fais-nous voir, Seigneur, ton amour, et donne-nous ton salut. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 85 (84), 8"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Erweise uns, Herr, deine Huld, und gewähre uns dein Heil. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Ps 84, 8",
           "es": "Sal 84, 8",
           "pt-BR": "Salmo 84, 8",
           "fr": "Ps 84, 8",
           "de": "Ps 85 (84), 8"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia. Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Osténde nobis, Dómine, misericórdiam tuam, et salutáre tuum da nobis."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Muéstranos, Señor, tu misericordia y danos tu salvación."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Lord, let us see your kindness, and grant us your salvation."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "Aleluya. Mostrai-nos, ó Senhor, vossa bondade e a vossa salvação nos concedei!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Mostraci, Signore, la tua misericordia e donaci la tua salvezza."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia. Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Fais-nous voir, Seigneur, ton amour, et donne-nous ton salut."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Erweise uns, Herr, deine Huld, und gewähre uns dein Heil."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

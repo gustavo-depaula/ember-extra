@@ -1645,127 +1645,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. Act 16, 14b Allelúia. Aperi, Dómine, cor nostrum, ut intendámus verbis Fílii tui. Allelúia.",
-            "es": "Aleluya Cf. Hch 16, 14b Aleluya. Abre, Señor, nuestro corazón, para que aceptemos las palabras de tu Hijo. Aleluya.",
-            "en": "Alleluia, alleluia. Open our hearts, O Lord, to listen to the words of your Son. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Cf. Hch 16, 14b Aleluia, aleluia. Vinde abrir o nosso coração, Senhor, ó Senhor, abri o nosso coração, e, então, do vosso Filho a palavra, poderemos acolher com muito amor. Aleluia.",
-            "it": "Canto al Vangelo Cfr. At 16,14b Alleluia, alleluia. Apri, Signore, il nostro cuore e accoglieremo le parole del Figlio tuo. Alleluia.",
-            "fr": "Alléluia Cf. Act 16, 14b Alléluia La bonté du Seigneur est pour tous, sa tendresse, pour toutes ses œuvres : tous acclameront sa justice. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Apg 16, 14b Halleluja. Halleluja. Herr, öffne uns das Herz, dass wir auf die Worte deines Sohnes hören. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Act 16, 14b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Aperi, Dómine, cor nostrum, ut intendámus verbis Fílii tui. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Hch 16, 14b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Abre, Señor, nuestro corazón, para que aceptemos las palabras de tu Hijo. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Open our hearts, O Lord, to listen to the words of your Son. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Hch 16, 14b"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Vinde abrir o nosso coração, Senhor, ó Senhor, abri o nosso coração, e, então, do vosso Filho a palavra, poderemos acolher com muito amor. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cfr. At 16,14b"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Apri, Signore, il nostro cuore e accoglieremo le parole del Figlio tuo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Act 16, 14b"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia La bonté du Seigneur est pour tous, sa tendresse, pour toutes ses œuvres : tous acclameront sa justice. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Apg 16, 14b"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Herr, öffne uns das Herz, dass wir auf die Worte deines Sohnes hören. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Act 16, 14b",
           "es": "Cf. Hch 16, 14b",
@@ -1773,6 +1652,179 @@
           "it": "Cfr. At 16,14b",
           "fr": "Cf. Act 16, 14b",
           "de": "vgl. Apg 16, 14b"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Aperi, Dómine, cor nostrum, ut intendámus verbis Fílii tui."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Abre, Señor, nuestro corazón, para que aceptemos las palabras de tu Hijo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Open our hearts, O Lord, to listen to the words of your Son."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Vinde abrir o nosso coração, Senhor, ó Senhor, abri o nosso coração, e, então, do vosso Filho a palavra, poderemos acolher com muito amor."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Apri, Signore, il nostro cuore e accoglieremo le parole del Figlio tuo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "La bonté du Seigneur est pour tous, sa tendresse, pour toutes ses œuvres : tous acclameront sa justice."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Herr, öffne uns das Herz, dass wir auf die Worte deines Sohnes hören."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -2807,127 +2859,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. 2 Th 2, 14 Allelúia. Deus vocávit nos per Evangélium, in acquisitiónem glóriæ Dómini nostri Iesu Christi. Allelúia.",
-            "es": "Aleluya Cf. 2 Th 2, 14 Aleluya. Dios nos llamó por medio del Evangelio para que sea nuestra la gloria de nuestro Señor Jesucristo. Aleluya.",
-            "en": "Alleluia, alleluia. God has called us with the gospel, the people won for him by Jesus Christ our Lord. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Cf. 2 Th 2, 14 Aleluia, aleluia. Pelo Evangelho o Pai nos chamou, a fim de alcançarmos a glória do Nosso Senhor Jesus Cristo. Aleluia.",
-            "it": "Canto al Vangelo Cfr. 2Ts 2,14 Alleluia, alleluia. Dio ci ha chiamati mediante il Vangelo, per entrare in possesso della gloria del Signore nostro Gesù Cristo. Alleluia.",
-            "fr": "Alléluia Cf. 2 Th 2, 14 Alléluia Par l’annonce de l’Évangile, Dieu nous appelle à partager la gloire de notre Seigneur Jésus Christ. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. 2 Thess 2, 14 Halleluja. Halleluja. Durch das Evangelium hat Gott uns berufen zur Herrlichkeit Jesu Christi, unseres Herrn. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. 2 Th 2, 14"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Deus vocávit nos per Evangélium, in acquisitiónem glóriæ Dómini nostri Iesu Christi. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. 2 Th 2, 14"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Dios nos llamó por medio del Evangelio para que sea nuestra la gloria de nuestro Señor Jesucristo. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. God has called us with the gospel, the people won for him by Jesus Christ our Lord. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. 2 Th 2, 14"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Pelo Evangelho o Pai nos chamou, a fim de alcançarmos a glória do Nosso Senhor Jesus Cristo. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cfr. 2Ts 2,14"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Dio ci ha chiamati mediante il Vangelo, per entrare in possesso della gloria del Signore nostro Gesù Cristo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. 2 Th 2, 14"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Par l’annonce de l’Évangile, Dieu nous appelle à partager la gloire de notre Seigneur Jésus Christ. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. 2 Thess 2, 14"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Durch das Evangelium hat Gott uns berufen zur Herrlichkeit Jesu Christi, unseres Herrn. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. 2 Th 2, 14",
           "es": "Cf. 2 Th 2, 14",
@@ -2935,6 +2866,179 @@
           "it": "Cfr. 2Ts 2,14",
           "fr": "Cf. 2 Th 2, 14",
           "de": "vgl. 2 Thess 2, 14"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Deus vocávit nos per Evangélium, in acquisitiónem glóriæ Dómini nostri Iesu Christi."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Dios nos llamó por medio del Evangelio para que sea nuestra la gloria de nuestro Señor Jesucristo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "God has called us with the gospel, the people won for him by Jesus Christ our Lord."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Pelo Evangelho o Pai nos chamou, a fim de alcançarmos a glória do Nosso Senhor Jesus Cristo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Dio ci ha chiamati mediante il Vangelo, per entrare in possesso della gloria del Signore nostro Gesù Cristo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Par l’annonce de l’Évangile, Dieu nous appelle à partager la gloire de notre Seigneur Jésus Christ."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Durch das Evangelium hat Gott uns berufen zur Herrlichkeit Jesu Christi, unseres Herrn."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -3975,127 +4079,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia 2 Cor 8, 9 Allelúia. Iesus Christus egénus factus est, cum esset dives, ut illíus inópia vos dívites essétis. Allelúia.",
-            "es": "Aleluya 2 Cor 8, 9 Aleluya. Jesucristo, siendo rico, se hizo pobre para enriqueceros con su pobreza. Aleluya.",
-            "en": "Alleluia, alleluia. Jesus Christ was rich but he became poor, to make you rich out of his poverty. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho 2 Cor 8, 9 Aleluia, aleluia. Jesus Cristo, sendo rico, se fez pobre, por amor; para que sua pobreza nos, assim, enriquecesse. Aleluia.",
-            "it": "Canto al Vangelo 2Cor 8,9 Alleluia, alleluia. Gesù Cristo da ricco che era, si è fatto povero per voi, perché voi diventaste ricchi per mezzo della sua povertà. Alleluia.",
-            "fr": "Alléluia 2 Cor 8, 9 Alléluia Jésus Christ s’est fait pauvre, lui qui était riche, pour que vous deveniez riches par sa pauvreté. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. 2 Kor 8, 9 Halleluja. Halleluja. Jesus Christus, der reich war, wurde aus Liebe arm. Und durch seine Armut hat er uns reich gemacht. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "2 Cor 8, 9"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Iesus Christus egénus factus est, cum esset dives, ut illíus inópia vos dívites essétis. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "2 Cor 8, 9"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Jesucristo, siendo rico, se hizo pobre para enriqueceros con su pobreza. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Jesus Christ was rich but he became poor, to make you rich out of his poverty. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "2 Cor 8, 9"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Jesus Cristo, sendo rico, se fez pobre, por amor; para que sua pobreza nos, assim, enriquecesse. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "2Cor 8,9"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Gesù Cristo da ricco che era, si è fatto povero per voi, perché voi diventaste ricchi per mezzo della sua povertà. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "2 Cor 8, 9"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Jésus Christ s’est fait pauvre, lui qui était riche, pour que vous deveniez riches par sa pauvreté. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. 2 Kor 8, 9"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Jesus Christus, der reich war, wurde aus Liebe arm. Und durch seine Armut hat er uns reich gemacht. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "2 Cor 8, 9",
           "es": "2 Cor 8, 9",
@@ -4103,6 +4086,179 @@
           "it": "2Cor 8,9",
           "fr": "2 Cor 8, 9",
           "de": "vgl. 2 Kor 8, 9"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Iesus Christus egénus factus est, cum esset dives, ut illíus inópia vos dívites essétis."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Jesucristo, siendo rico, se hizo pobre para enriqueceros con su pobreza."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Jesus Christ was rich but he became poor, to make you rich out of his poverty."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Jesus Cristo, sendo rico, se fez pobre, por amor; para que sua pobreza nos, assim, enriquecesse."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Gesù Cristo da ricco che era, si è fatto povero per voi, perché voi diventaste ricchi per mezzo della sua povertà."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Jésus Christ s’est fait pauvre, lui qui était riche, pour que vous deveniez riches par sa pauvreté."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Jesus Christus, der reich war, wurde aus Liebe arm. Und durch seine Armut hat er uns reich gemacht."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

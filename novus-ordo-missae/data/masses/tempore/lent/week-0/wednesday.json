@@ -2206,123 +2206,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Versus ante Evangelium Cf. Ps 94, 8 Hódie, nolíte obduráre corda vestra, sed vocem Dómini audíte.",
-            "es": "Versículo antes del Evangelio Cf. Sal 94, 8 No endurezcáis hoy vuestro corazón; escuchad la voz del Señor.",
-            "en": "If today you hear his voice, harden not your hearts.",
-            "pt-BR": "Aclamação ao Evangelho cf. Salmo 94, 8ab Oxalá ouvísseis hoje a sua voz: Não fecheis os corações como em Meriba!",
-            "it": "Canto al Vangelo (Cfr. Sal 94,8) Lode a te, o Cristo, re di eterna gloria! Oggi non indurite il vostro cuore, ma ascoltate la voce del Signore. Lode a te, o Cristo, re di eterna gloria!",
-            "fr": "Verset avant l’Évangile Cf. Ps 94, 8 Ta Parole, Seigneur, est vérité, et ta loi, délivrance. Aujourd’hui, ne fermez pas votre cœur, mais écoutez la voix du Seigneur. Ta Parole, Seigneur, est vérité, et ta loi, délivrance.",
-            "de": "Ruf vor dem Evangelium Ps 95 (94), 7b. 8a Herr Jesus, dir sei Ruhm und Ehre! Wenn ihr heute seine Stimme hört, verhärtet nicht euer Herz! Herr Jesus, dir sei Ruhm und Ehre!"
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versus ante Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Ps 94, 8"
-                },
-                {
-                  "type": "text",
-                  "text": "Hódie, nolíte obduráre corda vestra, sed vocem Dómini audíte."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versículo antes del Evangelio"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Sal 94, 8"
-                },
-                {
-                  "type": "text",
-                  "text": "No endurezcáis hoy vuestro corazón; escuchad la voz del Señor."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "If today you hear his voice, harden not your hearts."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "cf. Salmo 94, 8ab"
-                },
-                {
-                  "type": "text",
-                  "text": "Oxalá ouvísseis hoje a sua voz: Não fecheis os corações como em Meriba!"
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Cfr. Sal 94,8)"
-                },
-                {
-                  "type": "text",
-                  "text": "Lode a te, o Cristo, re di eterna gloria! Oggi non indurite il vostro cuore, ma ascoltate la voce del Signore. Lode a te, o Cristo, re di eterna gloria!"
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Verset avant l’Évangile"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Ps 94, 8"
-                },
-                {
-                  "type": "text",
-                  "text": "Ta Parole, Seigneur, est vérité, et ta loi, délivrance. Aujourd’hui, ne fermez pas votre cœur, mais écoutez la voix du Seigneur. Ta Parole, Seigneur, est vérité, et ta loi, délivrance."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 95 (94), 7b. 8a"
-                },
-                {
-                  "type": "text",
-                  "text": "Herr Jesus, dir sei Ruhm und Ehre! Wenn ihr heute seine Stimme hört, verhärtet nicht euer Herz! Herr Jesus, dir sei Ruhm und Ehre!"
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Ps 94, 8",
           "es": "Cf. Sal 94, 8",
@@ -2330,6 +2213,65 @@
           "it": "(Cfr. Sal 94,8)",
           "fr": "Cf. Ps 94, 8",
           "de": "Ps 95 (94), 7b. 8a"
+        },
+        "mode": "versus-ante-evangelium",
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "text",
+                "text": "Hódie, nolíte obduráre corda vestra, sed vocem Dómini audíte."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "text",
+                "text": "No endurezcáis hoy vuestro corazón; escuchad la voz del Señor."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "text",
+                "text": "If today you hear his voice, harden not your hearts."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "Oxalá ouvísseis hoje a sua voz: Não fecheis os corações como em Meriba!"
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "Lode a te, o Cristo, re di eterna gloria! Oggi non indurite il vostro cuore, ma ascoltate la voce del Signore. Lode a te, o Cristo, re di eterna gloria!"
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Ta Parole, Seigneur, est vérité, et ta loi, délivrance. Aujourd’hui, ne fermez pas votre cœur, mais écoutez la voix du Seigneur. Ta Parole, Seigneur, est vérité, et ta loi, délivrance."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "text",
+                "text": "Herr Jesus, dir sei Ruhm und Ehre! Wenn ihr heute seine Stimme hört, verhärtet nicht euer Herz! Herr Jesus, dir sei Ruhm und Ehre!"
+              }
+            ]
+          ]
         }
       },
       "gospel": {

@@ -1676,121 +1676,71 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Versus ante Evangelium Ioel 2, 12a. 13c Nunc ergo, dicit Dóminus, convertímini ad me in toto corde vestro, quia benígnus et miséricors sum.",
-            "es": "Versículo antes del Evangelio Joel 2, 12a. 13c Ahora —dice del Señor—, convertíos a mí de todo corazón, porque soy compasivo y misericordioso.",
-            "en": "With all your heart turn to me for I am tender and compassionate.",
-            "pt-BR": "Aclamação ao Evangelho Joel 2, 12-13 Voltai ao Senhor, vosso Deus, ele é bom, compassivo e clemente.",
-            "it": "Canto al Vangelo (Cfr. Gl 2,12-13) Gloria e lode a te, o Cristo! Ritornate a me con tutto il cuore, dice il Signore, perché sono misericordioso e pietoso. Gloria e lode a te, o Cristo!",
-            "fr": "Verset avant l’Évangile Gloire à toi, Seigneur, honneur, puissance et majesté ! Maintenant, dit le Seigneur, revenez à moi de tout votre cœur, car je suis tendre et miséricordieux. Gloire à toi, Seigneur, honneur, puissance et majesté !",
-            "de": "Ruf vor dem Evangelium Joël 2, 12. Lob dir, Christus, König und Erlöser! Kehrt um zum Herrn von ganzem Herzen; denn er ist gnädig und barmherzig, voll Langmut und reich an Güte. Lob dir, Christus, König und Erlöser!"
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versus ante Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ioel 2, 12a. 13c"
-                },
-                {
-                  "type": "text",
-                  "text": "Nunc ergo, dicit Dóminus, convertímini ad me in toto corde vestro, quia benígnus et miséricors sum."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versículo antes del Evangelio"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joel 2, 12a. 13c"
-                },
-                {
-                  "type": "text",
-                  "text": "Ahora —dice del Señor—, convertíos a mí de todo corazón, porque soy compasivo y misericordioso."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "With all your heart turn to me for I am tender and compassionate."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joel 2, 12-13"
-                },
-                {
-                  "type": "text",
-                  "text": "Voltai ao Senhor, vosso Deus, ele é bom, compassivo e clemente."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Cfr. Gl 2,12-13)"
-                },
-                {
-                  "type": "text",
-                  "text": "Gloria e lode a te, o Cristo! Ritornate a me con tutto il cuore, dice il Signore, perché sono misericordioso e pietoso. Gloria e lode a te, o Cristo!"
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Verset avant l’Évangile Gloire à toi, Seigneur, honneur, puissance et majesté ! Maintenant, dit le Seigneur, revenez à moi de tout votre cœur, car je suis tendre et miséricordieux. Gloire à toi, Seigneur, honneur, puissance et majesté !"
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joël 2, 12."
-                },
-                {
-                  "type": "text",
-                  "text": "Lob dir, Christus, König und Erlöser! Kehrt um zum Herrn von ganzem Herzen; denn er ist gnädig und barmherzig, voll Langmut und reich an Güte. Lob dir, Christus, König und Erlöser!"
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Ioel 2, 12a. 13c",
           "es": "Joel 2, 12a. 13c",
           "pt-BR": "Joel 2, 12-13",
           "it": "(Cfr. Gl 2,12-13)",
           "de": "Joël 2, 12"
+        },
+        "mode": "versus-ante-evangelium",
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "text",
+                "text": "Nunc ergo, dicit Dóminus, convertímini ad me in toto corde vestro, quia benígnus et miséricors sum."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "text",
+                "text": "Ahora —dice del Señor—, convertíos a mí de todo corazón, porque soy compasivo y misericordioso."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "text",
+                "text": "With all your heart turn to me for I am tender and compassionate."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "Voltai ao Senhor, vosso Deus, ele é bom, compassivo e clemente."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "Gloria e lode a te, o Cristo! Ritornate a me con tutto il cuore, dice il Signore, perché sono misericordioso e pietoso. Gloria e lode a te, o Cristo!"
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Gloire à toi, Seigneur, honneur, puissance et majesté ! Maintenant, dit le Seigneur, revenez à moi de tout votre cœur, car je suis tendre et miséricordieux. Gloire à toi, Seigneur, honneur, puissance et majesté !"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "text",
+                "text": "Lob dir, Christus, König und Erlöser! Kehrt um zum Herrn von ganzem Herzen; denn er ist gnädig und barmherzig, voll Langmut und reich an Güte. Lob dir, Christus, König und Erlöser!"
+              }
+            ]
+          ]
         }
       },
       "gospel": {

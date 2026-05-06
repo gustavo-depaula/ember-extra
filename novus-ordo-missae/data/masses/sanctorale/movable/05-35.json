@@ -2135,86 +2135,166 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia, allelúia. O felix Virgo, quæ Dóminum genuísti; o beáta Mater Ecclésiæ, quæ in nobis foves Spíritum Fílii tui Iesu Christi! Allelúia.",
-            "es": "Aleluya, aleluya. ¡Oh, feliz Virgen que engendraste al Señor! ¡Oh, Bienaventurada Madre de la Iglesia, que infundes en nosotros el Espíritu de tu Hijo Jesucristo! Aleluya.",
-            "en": "Alleluia, alleluia. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Aleluia, aleluia. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Vergine felice, che hai generato il Signore; beata Madre della Chiesa che fai ardere in noi lo Spirito del tuo Figlio Gesù Cristo. Alleluia.",
-            "fr": "Alléluia, alléluia. Heureuse es-tu, sainte Vierge Marie, toi qui as engendré le Seigneur. Tu entretiens en nous l’Esprit de ton Fils Jésus Christ ! Alléluia.",
-            "de": "Ruf vor dem Evangelium Halleluja. Halleluja. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. O felix Virgo, quæ Dóminum genuísti; o beáta Mater Ecclésiæ, quæ in nobis foves Spíritum Fílii tui Iesu Christi! Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. ¡Oh, feliz Virgen que engendraste al Señor! ¡Oh, Bienaventurada Madre de la Iglesia, que infundes en nosotros el Espíritu de tu Hijo Jesucristo! Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho Aleluia, aleluia. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Vergine felice, che hai generato il Signore; beata Madre della Chiesa che fai ardere in noi lo Spirito del tuo Figlio Gesù Cristo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia, alléluia. Heureuse es-tu, sainte Vierge Marie, toi qui as engendré le Seigneur. Tu entretiens en nous l’Esprit de ton Fils Jésus Christ ! Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium Halleluja. Halleluja. Halleluja."
-                }
-              ]
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
             ]
-          }
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "O felix Virgo, quæ Dóminum genuísti; o beáta Mater Ecclésiæ, quæ in nobis foves Spíritum Fílii tui Iesu Christi!"
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "¡Oh, feliz Virgen que engendraste al Señor! ¡Oh, Bienaventurada Madre de la Iglesia, que infundes en nosotros el Espíritu de tu Hijo Jesucristo!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Vergine felice, che hai generato il Signore; beata Madre della Chiesa che fai ardere in noi lo Spirito del tuo Figlio Gesù Cristo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Heureuse es-tu, sainte Vierge Marie, toi qui as engendré le Seigneur. Tu entretiens en nous l’Esprit de ton Fils Jésus Christ !"
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

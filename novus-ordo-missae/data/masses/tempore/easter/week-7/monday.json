@@ -1620,125 +1620,181 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Col 3, 1 Allelúia. Si consurrexístis cum Christo, quæ sursum sunt, quǽrite, ubi Christus est in déxtera Dei sedens. Allelúia.",
-            "es": "Aleluya Col 3, 1 Aleluya. Si habéis resucitado con Cristo, buscad los bienes de allá arriba, donde Cristo está sentado a la derecha de Dios. Aleluya.",
-            "en": "Alleluia, alleluia. Since you have been brought back to true life with Christ, you must look for the things that are in heaven where Christ is, sitting at God's right hand.",
-            "pt-BR": "Aclamação ao Evangelho Col 3, 1 Aleluia, aleluia. Se com Cristo ressurgistes, procurai o que é o do alto, onde Cristo está sentado à direita de Deus Pai. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Se siete risorti con Cristo, cercate le cose di lassù, dove è Cristo, seduto alla destra di Dio. Alleluia.",
-            "fr": "Alléluia Col 3, 1 Alléluia Si vous êtes ressuscités avec le Christ, recherchez les réalités d’en haut : c’est là qu’est le Christ, assis à la droite de Dieu. Alléluia.",
-            "de": "Ruf vor dem Evangelium Kol 3, 1 Halleluja. Halleluja. Ihr seid mit Christus auferweckt; darum strebt nach dem, was im Himmel ist, wo Christus zur Rechten Gottes sitzt. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Col 3, 1"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Si consurrexístis cum Christo, quæ sursum sunt, quǽrite, ubi Christus est in déxtera Dei sedens. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Col 3, 1"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Si habéis resucitado con Cristo, buscad los bienes de allá arriba, donde Cristo está sentado a la derecha de Dios. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Since you have been brought back to true life with Christ, you must look for the things that are in heaven where Christ is, sitting at God's right hand."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Col 3, 1"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Se com Cristo ressurgistes, procurai o que é o do alto, onde Cristo está sentado à direita de Deus Pai. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Se siete risorti con Cristo, cercate le cose di lassù, dove è Cristo, seduto alla destra di Dio. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Col 3, 1"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Si vous êtes ressuscités avec le Christ, recherchez les réalités d’en haut : c’est là qu’est le Christ, assis à la droite de Dieu. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Kol 3, 1"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Ihr seid mit Christus auferweckt; darum strebt nach dem, was im Himmel ist, wo Christus zur Rechten Gottes sitzt. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Col 3, 1",
           "es": "Col 3, 1",
           "pt-BR": "Col 3, 1",
           "fr": "Col 3, 1",
           "de": "Kol 3, 1"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Si consurrexístis cum Christo, quæ sursum sunt, quǽrite, ubi Christus est in déxtera Dei sedens."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Si habéis resucitado con Cristo, buscad los bienes de allá arriba, donde Cristo está sentado a la derecha de Dios."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Since you have been brought back to true life with Christ, you must look for the things that are in heaven where Christ is, sitting at God's right hand."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Se com Cristo ressurgistes, procurai o que é o do alto, onde Cristo está sentado à direita de Deus Pai."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Se siete risorti con Cristo, cercate le cose di lassù, dove è Cristo, seduto alla destra di Dio."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Si vous êtes ressuscités avec le Christ, recherchez les réalités d’en haut : c’est là qu’est le Christ, assis à la droite de Dieu."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Ihr seid mit Christus auferweckt; darum strebt nach dem, was im Himmel ist, wo Christus zur Rechten Gottes sitzt."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

@@ -825,127 +825,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Ps 118, 105 Allelúia. Lucérna pédibus meis verbum tuum, et lumen sémitis meis. Allelúia.",
-            "es": "Aleluya Sal 118, 105 Aleluya. Lámpara es tu palabra para mis pasos, luz en mi sendero. Aleluya.",
-            "en": "Alleluia, alleluia. Your word is a lamp for my feet, and a light on my path. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Salmo 118 (119), 105 Aleluia, aleluia. A vossa palavra é uma luz para os meus passos, e uma lâmpada luzente em meu caminho. Aleluia.",
-            "it": "Canto al Vangelo (Sal 118,105) Alleluia, alleluia. Lampada per i miei passi è la tua parola, luce sul mio cammino. Alleluia.",
-            "fr": "Alléluia Ps 118, 105 Alléluia Ta parole est la lumière de mes pas, la lampe de ma route. Alléluia.",
-            "de": "Ruf vor dem Evangelium Ps 119 (118), 105 Halleluja. Halleluja. Dein Wort, o Herr, ist meinem Fuß eine Leuchte, ein Licht für meine Pfade. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 118, 105"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Lucérna pédibus meis verbum tuum, et lumen sémitis meis. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Sal 118, 105"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Lámpara es tu palabra para mis pasos, luz en mi sendero. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Your word is a lamp for my feet, and a light on my path. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Salmo 118 (119), 105"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. A vossa palavra é uma luz para os meus passos, e uma lâmpada luzente em meu caminho. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Sal 118,105)"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Lampada per i miei passi è la tua parola, luce sul mio cammino. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 118, 105"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Ta parole est la lumière de mes pas, la lampe de ma route. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 119 (118), 105"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Dein Wort, o Herr, ist meinem Fuß eine Leuchte, ein Licht für meine Pfade. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Ps 118, 105",
           "es": "Sal 118, 105",
@@ -953,6 +832,179 @@
           "it": "(Sal 118,105)",
           "fr": "Ps 118, 105",
           "de": "Ps 119 (118), 105"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Lucérna pédibus meis verbum tuum, et lumen sémitis meis."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Lámpara es tu palabra para mis pasos, luz en mi sendero."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Your word is a lamp for my feet, and a light on my path."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "A vossa palavra é uma luz para os meus passos, e uma lâmpada luzente em meu caminho."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Lampada per i miei passi è la tua parola, luce sul mio cammino."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Ta parole est la lumière de mes pas, la lampe de ma route."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Dein Wort, o Herr, ist meinem Fuß eine Leuchte, ein Licht für meine Pfade."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -2247,127 +2299,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Ps 118, 105 Allelúia. Lucérna pédibus meis verbum tuum, et lumen sémitis meis. Allelúia.",
-            "es": "Aleluya Sal 118, 105 Aleluya. Lámpara es tu palabra para mis pasos, luz en mi sendero. Aleluya.",
-            "en": "Alleluia, alleluia. Your word is a lamp for my feet, and a light on my path. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Salmo 118 (119), 105 Aleluia, aleluia. A vossa palavra é uma luz para os meus passos, e uma lâmpada luzente em meu caminho. Aleluia.",
-            "it": "Canto al Vangelo (Sal 118,105) Alleluia, alleluia. Lampada per i miei passi è la tua parola, luce sul mio cammino. Alleluia.",
-            "fr": "Alléluia Ps 118, 105 Alléluia Ta parole est la lumière de mes pas, la lampe de ma route. Alléluia.",
-            "de": "Ruf vor dem Evangelium Ps 119 (118), 105 Halleluja. Halleluja. Dein Wort, o Herr, ist meinem Fuß eine Leuchte, ein Licht für meine Pfade. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 118, 105"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Lucérna pédibus meis verbum tuum, et lumen sémitis meis. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Sal 118, 105"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Lámpara es tu palabra para mis pasos, luz en mi sendero. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Your word is a lamp for my feet, and a light on my path. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Salmo 118 (119), 105"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. A vossa palavra é uma luz para os meus passos, e uma lâmpada luzente em meu caminho. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Sal 118,105)"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Lampada per i miei passi è la tua parola, luce sul mio cammino. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 118, 105"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Ta parole est la lumière de mes pas, la lampe de ma route. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 119 (118), 105"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Dein Wort, o Herr, ist meinem Fuß eine Leuchte, ein Licht für meine Pfade. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Ps 118, 105",
           "es": "Sal 118, 105",
@@ -2375,6 +2306,179 @@
           "it": "(Sal 118,105)",
           "fr": "Ps 118, 105",
           "de": "Ps 119 (118), 105"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Lucérna pédibus meis verbum tuum, et lumen sémitis meis."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Lámpara es tu palabra para mis pasos, luz en mi sendero."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Your word is a lamp for my feet, and a light on my path."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "A vossa palavra é uma luz para os meus passos, e uma lâmpada luzente em meu caminho."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Lampada per i miei passi è la tua parola, luce sul mio cammino."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Ta parole est la lumière de mes pas, la lampe de ma route."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Dein Wort, o Herr, ist meinem Fuß eine Leuchte, ein Licht für meine Pfade."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

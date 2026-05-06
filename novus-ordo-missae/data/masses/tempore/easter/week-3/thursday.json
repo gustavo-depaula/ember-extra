@@ -1635,86 +1635,174 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia, allelúia. Ego sum panis vivus, qui de cælo descéndi, dicit Dóminus; si quis manducáverit ex hoc pane, vivet in aetérnum. Allelúia.",
-            "es": "Aleluya, aleluya. Yo soy el pan vivo que ha bajado del cielo —dice el Señor—; el que coma de este pan vivirá para siempre. Aleluya.",
-            "en": "Alleluia, alleluia. I am the living bread which has come down from heaven, says the Lord. Anyone who eats this bread will live for ever.",
-            "pt-BR": "Aclamação ao Evangelho Aleluia, aleluia. Eu sou o pão vivo descido do Céu, quem deste pão comer, sempre há de viver. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Io sono il pane vivo, disceso dal cielo, dice il Signore. Se uno mangia di questo pane vivrà in eterno. Alleluia.",
-            "fr": "Alléluia, alléluia. Moi, je suis le pain vivant qui est descendu du ciel, dit le Seigneur ; si quelqu’un mange de ce pain, il vivra éternellement. Alléluia.",
-            "de": "Ruf vor dem Evangelium Halleluja. Halleluja. (So spricht der Herr:) Ich bin das lebendige Brot, das vom Himmel gekommen ist. Wer dieses Brot isst, wird in Ewigkeit leben. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Ego sum panis vivus, qui de cælo descéndi, dicit Dóminus; si quis manducáverit ex hoc pane, vivet in aetérnum. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Yo soy el pan vivo que ha bajado del cielo —dice el Señor—; el que coma de este pan vivirá para siempre. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. I am the living bread which has come down from heaven, says the Lord. Anyone who eats this bread will live for ever."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho Aleluia, aleluia. Eu sou o pão vivo descido do Céu, quem deste pão comer, sempre há de viver. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Io sono il pane vivo, disceso dal cielo, dice il Signore. Se uno mangia di questo pane vivrà in eterno. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia, alléluia. Moi, je suis le pain vivant qui est descendu du ciel, dit le Seigneur ; si quelqu’un mange de ce pain, il vivra éternellement. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium Halleluja. Halleluja. (So spricht der Herr:) Ich bin das lebendige Brot, das vom Himmel gekommen ist. Wer dieses Brot isst, wird in Ewigkeit leben. Halleluja."
-                }
-              ]
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
             ]
-          }
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Ego sum panis vivus, qui de cælo descéndi, dicit Dóminus; si quis manducáverit ex hoc pane, vivet in aetérnum."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Yo soy el pan vivo que ha bajado del cielo —dice el Señor—; el que coma de este pan vivirá para siempre."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "I am the living bread which has come down from heaven, says the Lord. Anyone who eats this bread will live for ever."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Eu sou o pão vivo descido do Céu, quem deste pão comer, sempre há de viver."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Io sono il pane vivo, disceso dal cielo, dice il Signore. Se uno mangia di questo pane vivrà in eterno."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Moi, je suis le pain vivant qui est descendu du ciel, dit le Seigneur ; si quelqu’un mange de ce pain, il vivra éternellement."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Ich bin das lebendige Brot, das vom Himmel gekommen ist. Wer dieses Brot isst, wird in Ewigkeit leben."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

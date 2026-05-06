@@ -759,127 +759,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Lc 7, 16 Allelúia. Prophéta magnus surréxit in nobis, et Deus visitávit plebem suam. Allelúia.",
-            "es": "Aleluya Lc 7, 16 Aleluya. Un gran Profeta ha surgido entre nosotros. Dios ha visitado a su pueblo. Aleluya.",
-            "en": "Alleluia, alleluia. A great prophet has appeared among us; God has visited his people. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Lc 7, 16 Aleluia, aleluia. Um grande profeta surgiu entre nós e Deus visitou o seu povo. Aleluia.",
-            "it": "Canto al Vangelo Lc 7,16 Alleluia, alleluia. Un grande profeta è sorto tra noi, Dio ha visitato il suo popolo. Alleluia.",
-            "fr": "Alléluia Lc 7, 16 Alléluia Un grand prophète s’est levé parmi nous, et Dieu a visité son peuple. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Lk 7, 16 Halleluja. Halleluja. Ein großer Prophet trat unter uns auf: Gott nahm sich seines Volkes an. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 7, 16"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Prophéta magnus surréxit in nobis, et Deus visitávit plebem suam. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 7, 16"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Un gran Profeta ha surgido entre nosotros. Dios ha visitado a su pueblo. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. A great prophet has appeared among us; God has visited his people. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 7, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Um grande profeta surgiu entre nós e Deus visitou o seu povo. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 7,16"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Un grande profeta è sorto tra noi, Dio ha visitato il suo popolo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 7, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Un grand prophète s’est levé parmi nous, et Dieu a visité son peuple. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Lk 7, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Ein großer Prophet trat unter uns auf: Gott nahm sich seines Volkes an. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Lc 7, 16",
           "es": "Lc 7, 16",
@@ -887,6 +766,179 @@
           "it": "Lc 7,16",
           "fr": "Lc 7, 16",
           "de": "vgl. Lk 7, 16"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Prophéta magnus surréxit in nobis, et Deus visitávit plebem suam."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Un gran Profeta ha surgido entre nosotros. Dios ha visitado a su pueblo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "A great prophet has appeared among us; God has visited his people."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Um grande profeta surgiu entre nós e Deus visitou o seu povo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Un grande profeta è sorto tra noi, Dio ha visitato il suo popolo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Un grand prophète s’est levé parmi nous, et Dieu a visité son peuple."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Ein großer Prophet trat unter uns auf: Gott nahm sich seines Volkes an."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -1993,127 +2045,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Lc 7, 16 Allelúia. Prophéta magnus surréxit in nobis, et Deus visitávit plebem suam. Allelúia.",
-            "es": "Aleluya Lc 7, 16 Aleluya. Un gran Profeta ha surgido entre nosotros. Dios ha visitado a su pueblo. Aleluya.",
-            "en": "Alleluia, alleluia. A great prophet has appeared among us; God has visited his people. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Lc 7, 16 Aleluia, aleluia. Um grande profeta surgiu entre nós e Deus visitou o seu povo. Aleluia.",
-            "it": "Canto al Vangelo Lc 7,16 Alleluia, alleluia. Un grande profeta è sorto tra noi, Dio ha visitato il suo popolo. Alleluia.",
-            "fr": "Alléluia Lc 7, 16 Alléluia Un grand prophète s’est levé parmi nous, et Dieu a visité son peuple. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Lk 7, 16 Halleluja. Halleluja. Ein großer Prophet trat unter uns auf: Gott nahm sich seines Volkes an. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 7, 16"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Prophéta magnus surréxit in nobis, et Deus visitávit plebem suam. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 7, 16"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Un gran Profeta ha surgido entre nosotros. Dios ha visitado a su pueblo. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. A great prophet has appeared among us; God has visited his people. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 7, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Um grande profeta surgiu entre nós e Deus visitou o seu povo. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 7,16"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Un grande profeta è sorto tra noi, Dio ha visitato il suo popolo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 7, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Un grand prophète s’est levé parmi nous, et Dieu a visité son peuple. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Lk 7, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Ein großer Prophet trat unter uns auf: Gott nahm sich seines Volkes an. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Lc 7, 16",
           "es": "Lc 7, 16",
@@ -2121,6 +2052,179 @@
           "it": "Lc 7,16",
           "fr": "Lc 7, 16",
           "de": "vgl. Lk 7, 16"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Prophéta magnus surréxit in nobis, et Deus visitávit plebem suam."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Un gran Profeta ha surgido entre nosotros. Dios ha visitado a su pueblo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "A great prophet has appeared among us; God has visited his people."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Um grande profeta surgiu entre nós e Deus visitou o seu povo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Un grande profeta è sorto tra noi, Dio ha visitato il suo popolo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Un grand prophète s’est levé parmi nous, et Dieu a visité son peuple."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Ein großer Prophet trat unter uns auf: Gott nahm sich seines Volkes an."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

@@ -1697,80 +1697,64 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Versus ante Evangelium Ave, Rex noster: tu solus es miserátus erróres.",
-            "es": "Aleluya Salve, Rey nuestro, solo tú te has compadecido de nuestros errores.",
-            "en": "Let us greet our king; he alone showed mercy for our sins.",
-            "pt-BR": "Aclamação ao Evangelho Salve, nosso Rei, somente vós tendes compaixão dos nossos erros.",
-            "it": "Canto al Vangelo Lode e onore a te, Signore Gesù! Salve, nostro Re: tu solo hai compassione di noi peccatori. Lode e onore a te, Signore Gesù!",
-            "fr": "Verset avant l’Évangile Louange à toi, Seigneur, Roi d’éternelle gloire ! Salut, ô Christ, notre Roi : toi seul as pris en pitié nos égarements. Louange à toi, Seigneur, Roi d’éternelle gloire !",
-            "de": "Lob sei dir, Herr, König der ewigen Herrlichkeit! Sei gegrüßt, du unser König: Als wir in die Irre gingen, nahmst du allein dich unser an."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versus ante Evangelium Ave, Rex noster: tu solus es miserátus erróres."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Salve, Rey nuestro, solo tú te has compadecido de nuestros errores."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Let us greet our king; he alone showed mercy for our sins."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho Salve, nosso Rei, somente vós tendes compaixão dos nossos erros."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Lode e onore a te, Signore Gesù! Salve, nostro Re: tu solo hai compassione di noi peccatori. Lode e onore a te, Signore Gesù!"
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Verset avant l’Évangile Louange à toi, Seigneur, Roi d’éternelle gloire ! Salut, ô Christ, notre Roi : toi seul as pris en pitié nos égarements. Louange à toi, Seigneur, Roi d’éternelle gloire !"
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Lob sei dir, Herr, König der ewigen Herrlichkeit! Sei gegrüßt, du unser König: Als wir in die Irre gingen, nahmst du allein dich unser an."
-                }
-              ]
+        "mode": "versus-ante-evangelium",
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "text",
+                "text": "Ave, Rex noster: tu solus es miserátus erróres."
+              }
             ]
-          }
+          ],
+          "es": [
+            [
+              {
+                "type": "text",
+                "text": "Salve, Rey nuestro, solo tú te has compadecido de nuestros errores."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "text",
+                "text": "Let us greet our king; he alone showed mercy for our sins."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "Salve, nosso Rei, somente vós tendes compaixão dos nossos erros."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "Lode e onore a te, Signore Gesù! Salve, nostro Re: tu solo hai compassione di noi peccatori. Lode e onore a te, Signore Gesù!"
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Louange à toi, Seigneur, Roi d’éternelle gloire ! Salut, ô Christ, notre Roi : toi seul as pris en pitié nos égarements. Louange à toi, Seigneur, Roi d’éternelle gloire !"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "text",
+                "text": "Lob sei dir, Herr, König der ewigen Herrlichkeit! Sei gegrüßt, du unser König: Als wir in die Irre gingen, nahmst du allein dich unser an."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

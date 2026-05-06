@@ -987,127 +987,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 16, 13a; 14, 26d Allelúia. Cum vénerit Spíritus veritátis, dedúcet vos in omnem veritátem, et súggeret vobis ómnia quæ dixi vobis. Allelúia.",
-            "es": "Aleluya Jn 16, 13a; 14, 26d Aleluya. Cuando venga el Espíritu de la verdad, os guiará hasta la verdad plena, y os irá recordando todo lo que os he dicho. Aleluya.",
-            "en": "Alleluia, alleluia. When the Spirit of truth comes, he will teach you all truth and bring to your mind all I have told you. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 16, 13a; 14, 26d Aleluia, aleluia. Quando o Paráclito vier, o Espírito da verdade, Ele vos conduzirá a toda a verdade, lembrar-vos-á de tudo o que eu tenho falado. Aleluia.",
-            "it": "Canto al Vangelo Gv 16,13a; 14,26d Alleluia, alleluia. Quando verrà lo Spirito della verità, vi guiderà a tutta la verità, e vi ricorderà tutto ciò che io vi ho detto. Alleluia.",
-            "fr": "Alléluia Io 16, 13a ; 14, 26d Alléluia Quand il viendra, lui, l’Esprit de vérité, il vous conduira dans la vérité tout entière et il vous fera souvenir de tout ce que je vous ai dit. Alléluia.",
-            "de": "Ruf vor dem Evangelium Joh 16, 13ab; 14, 26d Halleluja. Halleluja. Wenn der Geist der Wahrheit kommt, wird er euch in die ganze Wahrheit führen und euch an alles erinnern, was ich euch gesagt habe. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 16, 13a; 14, 26d"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Cum vénerit Spíritus veritátis, dedúcet vos in omnem veritátem, et súggeret vobis ómnia quæ dixi vobis. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 16, 13a; 14, 26d"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Cuando venga el Espíritu de la verdad, os guiará hasta la verdad plena, y os irá recordando todo lo que os he dicho. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. When the Spirit of truth comes, he will teach you all truth and bring to your mind all I have told you. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 16, 13a; 14, 26d"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Quando o Paráclito vier, o Espírito da verdade, Ele vos conduzirá a toda a verdade, lembrar-vos-á de tudo o que eu tenho falado. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gv 16,13a; 14,26d"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Quando verrà lo Spirito della verità, vi guiderà a tutta la verità, e vi ricorderà tutto ciò che io vi ho detto. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 16, 13a ; 14, 26d"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Quand il viendra, lui, l’Esprit de vérité, il vous conduira dans la vérité tout entière et il vous fera souvenir de tout ce que je vous ai dit. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joh 16, 13ab; 14, 26d"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Wenn der Geist der Wahrheit kommt, wird er euch in die ganze Wahrheit führen und euch an alles erinnern, was ich euch gesagt habe. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 16, 13a; 14, 26d",
           "es": "Jn 16, 13a; 14, 26d",
@@ -1115,6 +994,179 @@
           "it": "Gv 16,13a; 14,26d",
           "fr": "Io 16, 13a ; 14, 26d",
           "de": "Joh 16, 13ab; 14, 26d"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Cum vénerit Spíritus veritátis, dedúcet vos in omnem veritátem, et súggeret vobis ómnia quæ dixi vobis."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Cuando venga el Espíritu de la verdad, os guiará hasta la verdad plena, y os irá recordando todo lo que os he dicho."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "When the Spirit of truth comes, he will teach you all truth and bring to your mind all I have told you."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Quando o Paráclito vier, o Espírito da verdade, Ele vos conduzirá a toda a verdade, lembrar-vos-á de tudo o que eu tenho falado."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Quando verrà lo Spirito della verità, vi guiderà a tutta la verità, e vi ricorderà tutto ciò che io vi ho detto."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Quand il viendra, lui, l’Esprit de vérité, il vous conduira dans la vérité tout entière et il vous fera souvenir de tout ce que je vous ai dit."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Wenn der Geist der Wahrheit kommt, wird er euch in die ganze Wahrheit führen und euch an alles erinnern, was ich euch gesagt habe."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -2262,127 +2314,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 16, 13a; 14, 26d Allelúia. Cum vénerit Spíritus veritátis, dedúcet vos in omnem veritátem, et súggeret vobis ómnia quæ dixi vobis. Allelúia.",
-            "es": "Aleluya Jn 16, 13a; 14, 26d Aleluya. Cuando venga el Espíritu de la verdad, os guiará hasta la verdad plena, y os irá recordando todo lo que os he dicho. Aleluya.",
-            "en": "Alleluia, alleluia. When the Spirit of truth comes, he will teach you all truth and bring to your mind all I have told you. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 16, 13a; 14, 26d Aleluia, aleluia. Quando o Paráclito vier, o Espírito da verdade, Ele vos conduzirá a toda a verdade, lembrar-vos-á de tudo o que eu tenho falado. Aleluia.",
-            "it": "Canto al Vangelo Gv 16,13a; 14,26d Alleluia, alleluia. Quando verrà lo Spirito della verità, vi guiderà a tutta la verità, e vi ricorderà tutto ciò che io vi ho detto. Alleluia.",
-            "fr": "Alléluia Io 16, 13a ; 14, 26d Alléluia Quand il viendra, lui, l’Esprit de vérité, il vous conduira dans la vérité tout entière et il vous fera souvenir de tout ce que je vous ai dit. Alléluia.",
-            "de": "Ruf vor dem Evangelium Joh 16, 13ab; 14, 26d Halleluja. Halleluja. Wenn der Geist der Wahrheit kommt, wird er euch in die ganze Wahrheit führen und euch an alles erinnern, was ich euch gesagt habe. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 16, 13a; 14, 26d"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Cum vénerit Spíritus veritátis, dedúcet vos in omnem veritátem, et súggeret vobis ómnia quæ dixi vobis. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 16, 13a; 14, 26d"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Cuando venga el Espíritu de la verdad, os guiará hasta la verdad plena, y os irá recordando todo lo que os he dicho. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. When the Spirit of truth comes, he will teach you all truth and bring to your mind all I have told you. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 16, 13a; 14, 26d"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Quando o Paráclito vier, o Espírito da verdade, Ele vos conduzirá a toda a verdade, lembrar-vos-á de tudo o que eu tenho falado. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gv 16,13a; 14,26d"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Quando verrà lo Spirito della verità, vi guiderà a tutta la verità, e vi ricorderà tutto ciò che io vi ho detto. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 16, 13a ; 14, 26d"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Quand il viendra, lui, l’Esprit de vérité, il vous conduira dans la vérité tout entière et il vous fera souvenir de tout ce que je vous ai dit. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joh 16, 13ab; 14, 26d"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Wenn der Geist der Wahrheit kommt, wird er euch in die ganze Wahrheit führen und euch an alles erinnern, was ich euch gesagt habe. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 16, 13a; 14, 26d",
           "es": "Jn 16, 13a; 14, 26d",
@@ -2390,6 +2321,179 @@
           "it": "Gv 16,13a; 14,26d",
           "fr": "Io 16, 13a ; 14, 26d",
           "de": "Joh 16, 13ab; 14, 26d"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Cum vénerit Spíritus veritátis, dedúcet vos in omnem veritátem, et súggeret vobis ómnia quæ dixi vobis."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Cuando venga el Espíritu de la verdad, os guiará hasta la verdad plena, y os irá recordando todo lo que os he dicho."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "When the Spirit of truth comes, he will teach you all truth and bring to your mind all I have told you."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Quando o Paráclito vier, o Espírito da verdade, Ele vos conduzirá a toda a verdade, lembrar-vos-á de tudo o que eu tenho falado."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Quando verrà lo Spirito della verità, vi guiderà a tutta la verità, e vi ricorderà tutto ciò che io vi ho detto."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Quand il viendra, lui, l’Esprit de vérité, il vous conduira dans la vérité tout entière et il vous fera souvenir de tout ce que je vous ai dit."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Wenn der Geist der Wahrheit kommt, wird er euch in die ganze Wahrheit führen und euch an alles erinnern, was ich euch gesagt habe."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

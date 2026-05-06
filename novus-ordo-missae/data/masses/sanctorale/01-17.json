@@ -1612,127 +1612,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 8, 31b-32 Allelúia. Si manséritis in sermóne meo, vere discípuli mei estis, et cognoscétis veritátem, dicit Dóminus. Allelúia.",
-            "es": "Aleluya Jn 8, 31b-32 Aleluya. Si permanecéis en mi palabra —dice el Señor—, seréis de verdad discípulos míos, y conoceréis la verdad. Aleluya.",
-            "en": "Alleluia, alleluia. If you stay in my word, you will indeed be my disciples, and you will know the truth, says the Lord. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 8, 31b-32 Aleluia, aleluia. Se guardais minha palavra, diz Jesus, realmente, vós sereis os meus discípulos. Aleluia.",
-            "it": "Canto al Vangelo Cf Gv 8, 31b-32 Alleluia, alleluia. Se rimanete nella mia parola, siete davvero miei discepoli, dice il Signore, e conoscerete la verità. Alleluia.",
-            "fr": "Alléluia Io 8, 31b-32 Alléluia Si vous demeurez fidèles à ma parole, vous êtes vraiment mes disciples ; alors vous connaîtrez la vérité, dit le Seigneur. Alléluia.",
-            "de": "Ruf vor dem Evangelium Joh 8, 31b-32 Halleluja. Halleluja. (So spricht der Herr:) Wenn ihr in meinem Wort bleibt; seid ihr wirklich meine Jünger. Dann werdet ihr die Wahrheit erkennen, und die Wahrheit wird euch befreien. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 8, 31b-32"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Si manséritis in sermóne meo, vere discípuli mei estis, et cognoscétis veritátem, dicit Dóminus. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 8, 31b-32"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Si permanecéis en mi palabra —dice el Señor—, seréis de verdad discípulos míos, y conoceréis la verdad. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. If you stay in my word, you will indeed be my disciples, and you will know the truth, says the Lord. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 8, 31b-32"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Se guardais minha palavra, diz Jesus, realmente, vós sereis os meus discípulos. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf Gv 8, 31b-32"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Se rimanete nella mia parola, siete davvero miei discepoli, dice il Signore, e conoscerete la verità. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 8, 31b-32"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Si vous demeurez fidèles à ma parole, vous êtes vraiment mes disciples ; alors vous connaîtrez la vérité, dit le Seigneur. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joh 8, 31b-32"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Wenn ihr in meinem Wort bleibt; seid ihr wirklich meine Jünger. Dann werdet ihr die Wahrheit erkennen, und die Wahrheit wird euch befreien. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 8, 31b-32",
           "es": "Jn 8, 31b-32",
@@ -1740,6 +1619,179 @@
           "it": "Cf Gv 8, 31b-32",
           "fr": "Io 8, 31b-32",
           "de": "Joh 8, 31b-32"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Si manséritis in sermóne meo, vere discípuli mei estis, et cognoscétis veritátem, dicit Dóminus."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Si permanecéis en mi palabra —dice el Señor—, seréis de verdad discípulos míos, y conoceréis la verdad."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "If you stay in my word, you will indeed be my disciples, and you will know the truth, says the Lord."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Se guardais minha palavra, diz Jesus, realmente, vós sereis os meus discípulos."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Se rimanete nella mia parola, siete davvero miei discepoli, dice il Signore, e conoscerete la verità."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Si vous demeurez fidèles à ma parole, vous êtes vraiment mes disciples ; alors vous connaîtrez la vérité, dit le Seigneur."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Wenn ihr in meinem Wort bleibt; seid ihr wirklich meine Jünger. Dann werdet ihr die Wahrheit erkennen, und die Wahrheit wird euch befreien."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

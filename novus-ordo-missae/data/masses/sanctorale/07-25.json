@@ -1674,120 +1674,184 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. Io 15, 16 Allelúia. Ego vos elégi de mundo, ut eátis et fructum afferátis, et fructus vester máneat, dicit Dóminus. Allelúia.",
-            "es": "Aleluya, aleluya. Yo os he elegido y os he destinado para que vayáis y deis fruto, y vuestro fruto permanezca. Aleluya.",
-            "en": "Alleluia, alleluia. I have chosen you from the world, says the Lord, to go and bear fruit that will last. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 15:16 Aleluia, aleluia. Eu vos designei, para que vades e deis frutos, e o vosso fruto permaneça, assim disse o Senhor. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Chi è il più grande tra voi diventi come il più piccolo; ecco, io sto in mezzo a voi come colui che serve, dice il Signore. Alleluia.",
-            "fr": "Alléluia Cf. Io 15, 16 Alléluia C’est moi qui vous ai choisis du milieu du monde, afin que vous alliez, que vous portiez du fruit, et que votre fruit demeure, dit le Seigneur. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Joh 15, 16 Halleluja. Halleluja. (So spricht der Herr:) Ich habe euch erwählt und dazu bestimmt, dass ihr Frucht bringt und dass eure Frucht bleibt. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Io 15, 16"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Ego vos elégi de mundo, ut eátis et fructum afferátis, et fructus vester máneat, dicit Dóminus. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Yo os he elegido y os he destinado para que vayáis y deis fruto, y vuestro fruto permanezca. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. I have chosen you from the world, says the Lord, to go and bear fruit that will last. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 15:16"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Eu vos designei, para que vades e deis frutos, e o vosso fruto permaneça, assim disse o Senhor. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Chi è il più grande tra voi diventi come il più piccolo; ecco, io sto in mezzo a voi come colui che serve, dice il Signore. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Io 15, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia C’est moi qui vous ai choisis du milieu du monde, afin que vous alliez, que vous portiez du fruit, et que votre fruit demeure, dit le Seigneur. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Joh 15, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Ich habe euch erwählt und dazu bestimmt, dass ihr Frucht bringt und dass eure Frucht bleibt. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Io 15, 16",
           "pt-BR": "Jo 15:16",
           "fr": "Cf. Io 15, 16",
           "de": "vgl. Joh 15, 16"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Ego vos elégi de mundo, ut eátis et fructum afferátis, et fructus vester máneat, dicit Dóminus."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Yo os he elegido y os he destinado para que vayáis y deis fruto, y vuestro fruto permanezca."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "I have chosen you from the world, says the Lord, to go and bear fruit that will last."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Eu vos designei, para que vades e deis frutos, e o vosso fruto permaneça, assim disse o Senhor."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Chi è il più grande tra voi diventi come il più piccolo; ecco, io sto in mezzo a voi come colui che serve, dice il Signore."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "C’est moi qui vous ai choisis du milieu du monde, afin que vous alliez, que vous portiez du fruit, et que votre fruit demeure, dit le Seigneur."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Ich habe euch erwählt und dazu bestimmt, dass ihr Frucht bringt und dass eure Frucht bleibt."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

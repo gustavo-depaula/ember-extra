@@ -1807,123 +1807,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Versus ante Evangelium Mt 4, 4b Non in pane solo vivet homo, sed in omni verbo quod procédit de ore Dei.",
-            "es": "Versículo antes del Evangelio Mt 4, 4b No solo de pan vive el hombre, sino de toda palabra que sale de la boca de Dios.",
-            "en": "Man does not live on bread alone, but on every word that comes from the mouth of God.",
-            "pt-BR": "Aclamação ao Evangelho Mt 4, 4b O homem não vive somente de pão, mas de toda palavra da boca de Deus.",
-            "it": "Canto al Vangelo (Mt 4,4b) ode a te, o Cristo, re di eterna gloria! Non di solo pane vivrà l’uomo, ma di ogni parola che esce dalla bocca di Dio. Lode a te, o Cristo, re di eterna gloria!",
-            "fr": "Verset avant l’Évangile Mt 4, 4b Ta Parole, Seigneur, est vérité, et ta loi, délivrance. L’homme ne vit pas seulement de pain, mais de toute parole qui sort de la bouche de Dieu. Ta Parole, Seigneur, est vérité, et ta loi, délivrance.",
-            "de": "Ruf vor dem Evangelium vgl. Mt 4, 4b Herr Jesus, dir sei Ruhm und Ehre! Nicht nur von Brot lebt der Mensch, sondern von jedem Wort aus Gottes Mund. Herr Jesus, dir sei Ruhm und Ehre!"
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versus ante Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 4, 4b"
-                },
-                {
-                  "type": "text",
-                  "text": "Non in pane solo vivet homo, sed in omni verbo quod procédit de ore Dei."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versículo antes del Evangelio"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 4, 4b"
-                },
-                {
-                  "type": "text",
-                  "text": "No solo de pan vive el hombre, sino de toda palabra que sale de la boca de Dios."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Man does not live on bread alone, but on every word that comes from the mouth of God."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 4, 4b"
-                },
-                {
-                  "type": "text",
-                  "text": "O homem não vive somente de pão, mas de toda palavra da boca de Deus."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Mt 4,4b)"
-                },
-                {
-                  "type": "text",
-                  "text": "ode a te, o Cristo, re di eterna gloria! Non di solo pane vivrà l’uomo, ma di ogni parola che esce dalla bocca di Dio. Lode a te, o Cristo, re di eterna gloria!"
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Verset avant l’Évangile"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 4, 4b"
-                },
-                {
-                  "type": "text",
-                  "text": "Ta Parole, Seigneur, est vérité, et ta loi, délivrance. L’homme ne vit pas seulement de pain, mais de toute parole qui sort de la bouche de Dieu. Ta Parole, Seigneur, est vérité, et ta loi, délivrance."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Mt 4, 4b"
-                },
-                {
-                  "type": "text",
-                  "text": "Herr Jesus, dir sei Ruhm und Ehre! Nicht nur von Brot lebt der Mensch, sondern von jedem Wort aus Gottes Mund. Herr Jesus, dir sei Ruhm und Ehre!"
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mt 4, 4b",
           "es": "Mt 4, 4b",
@@ -1931,6 +1814,65 @@
           "it": "(Mt 4,4b)",
           "fr": "Mt 4, 4b",
           "de": "vgl. Mt 4, 4b"
+        },
+        "mode": "versus-ante-evangelium",
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "text",
+                "text": "Non in pane solo vivet homo, sed in omni verbo quod procédit de ore Dei."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "text",
+                "text": "No solo de pan vive el hombre, sino de toda palabra que sale de la boca de Dios."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "text",
+                "text": "Man does not live on bread alone, but on every word that comes from the mouth of God."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "O homem não vive somente de pão, mas de toda palavra da boca de Deus."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "ode a te, o Cristo, re di eterna gloria! Non di solo pane vivrà l’uomo, ma di ogni parola che esce dalla bocca di Dio. Lode a te, o Cristo, re di eterna gloria!"
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Ta Parole, Seigneur, est vérité, et ta loi, délivrance. L’homme ne vit pas seulement de pain, mais de toute parole qui sort de la bouche de Dieu. Ta Parole, Seigneur, est vérité, et ta loi, délivrance."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "text",
+                "text": "Herr Jesus, dir sei Ruhm und Ehre! Nicht nur von Brot lebt der Mensch, sondern von jedem Wort aus Gottes Mund. Herr Jesus, dir sei Ruhm und Ehre!"
+              }
+            ]
+          ]
         }
       },
       "gospel": {

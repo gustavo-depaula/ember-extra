@@ -1857,127 +1857,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. Io 15, 16 Allelúia. Ego vos elegi de mundo, ut eátis et fructum afferátis, et fructus vester máneat, dicit Dóminus. Allelúia.",
-            "es": "Aleluya Cf. Jn 15, 16 Aleluya. Yo os he elegido del mundo —dice el Señor— para que vayáis y deis fruto, y vuestro fruto permanezca. Aleluya.",
-            "en": "Alleluia, alleluia. I have chosen you from the world, says the Lord, to go and bear fruit that will last. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Cf. Jo 15, 16 Aleluia, aleluia. Eu vos escolhi, foi do meio do mundo, a fim de que deis um fruto que dure. Eu vos escolhi, foi do meio do mundo, Amém! Aleluia.",
-            "it": "Canto al Vangelo Cfr. Gv 15,16 Alleluia, alleluia. Io ho scelto voi, dice il Signore, perché andiate e portiate frutto e il vostro frutto rimanga. Alleluia.",
-            "fr": "Alléluia Cf. Io 15, 16 Alléluia C’est moi qui vous ai choisis, afin que vous alliez, que vous portiez du fruit, et que votre fruit demeure, dit le Seigneur. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Joh 15, 16 Halleluja. Halleluja. (So spricht der Herr:) Ich habe euch erwählt und dazu bestimmt, dass ihr Frucht bringt und dass eure Frucht bleibt. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Io 15, 16"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Ego vos elegi de mundo, ut eátis et fructum afferátis, et fructus vester máneat, dicit Dóminus. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Jn 15, 16"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Yo os he elegido del mundo —dice el Señor— para que vayáis y deis fruto, y vuestro fruto permanezca. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. I have chosen you from the world, says the Lord, to go and bear fruit that will last. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Jo 15, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Eu vos escolhi, foi do meio do mundo, a fim de que deis um fruto que dure. Eu vos escolhi, foi do meio do mundo, Amém! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cfr. Gv 15,16"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Io ho scelto voi, dice il Signore, perché andiate e portiate frutto e il vostro frutto rimanga. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Io 15, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia C’est moi qui vous ai choisis, afin que vous alliez, que vous portiez du fruit, et que votre fruit demeure, dit le Seigneur. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Joh 15, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Ich habe euch erwählt und dazu bestimmt, dass ihr Frucht bringt und dass eure Frucht bleibt. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Io 15, 16",
           "es": "Cf. Jn 15, 16",
@@ -1985,6 +1864,179 @@
           "it": "Cfr. Gv 15,16",
           "fr": "Cf. Io 15, 16",
           "de": "vgl. Joh 15, 16"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Ego vos elegi de mundo, ut eátis et fructum afferátis, et fructus vester máneat, dicit Dóminus."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Yo os he elegido del mundo —dice el Señor— para que vayáis y deis fruto, y vuestro fruto permanezca."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "I have chosen you from the world, says the Lord, to go and bear fruit that will last."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Eu vos escolhi, foi do meio do mundo, a fim de que deis um fruto que dure. Eu vos escolhi, foi do meio do mundo, Amém!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Io ho scelto voi, dice il Signore, perché andiate e portiate frutto e il vostro frutto rimanga."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "C’est moi qui vous ai choisis, afin que vous alliez, que vous portiez du fruit, et que votre fruit demeure, dit le Seigneur."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Ich habe euch erwählt und dazu bestimmt, dass ihr Frucht bringt und dass eure Frucht bleibt."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -3009,127 +3061,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia 1 Io 4, 12 Allelúia. Si diligámus ínvicem, Deus in nobis manet, et cáritas eius in nobis consummáta est. Allelúia.",
-            "es": "Aleluya 1 Jn 4, 12 Aleluya. Si nos amamos unos a otros, Dios permanece en nosotros y su amor ha llegado en nosotros a su plenitud. Aleluya.",
-            "en": "Alleluia, alleluia. If we love one another, God will live in us in perfect love. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho 1 Jo 4, 12 Aleluia, aleluia. Se amarmos uns aos outros, Deus em nós há de estar; e o seu amor em nós se aperfeiçoará. Aleluia.",
-            "it": "Canto al Vangelo 1Gv 4,12 Alleluia, alleluia. Se ci amiamo gli uni gli altri, Dio rimane in noi e l’amore di lui è perfetto in noi. Alleluia.",
-            "fr": "Alléluia 1 Io 4, 12 Alléluia Si nous aimons les uns les autres, Dieu demeure en nous, et, en nous, son amour atteint la perfection. Alléluia.",
-            "de": "Ruf vor dem Evangelium 1 Joh 4, 12b Halleluja. Halleluja. Wenn wir einander lieben, bleibt Gott in uns, und seine Liebe ist in uns vollendet. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Io 4, 12"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Si diligámus ínvicem, Deus in nobis manet, et cáritas eius in nobis consummáta est. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Jn 4, 12"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Si nos amamos unos a otros, Dios permanece en nosotros y su amor ha llegado en nosotros a su plenitud. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. If we love one another, God will live in us in perfect love. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Jo 4, 12"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Se amarmos uns aos outros, Deus em nós há de estar; e o seu amor em nós se aperfeiçoará. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "1Gv 4,12"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Se ci amiamo gli uni gli altri, Dio rimane in noi e l’amore di lui è perfetto in noi. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Io 4, 12"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Si nous aimons les uns les autres, Dieu demeure en nous, et, en nous, son amour atteint la perfection. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Joh 4, 12b"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Wenn wir einander lieben, bleibt Gott in uns, und seine Liebe ist in uns vollendet. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "1 Io 4, 12",
           "es": "1 Jn 4, 12",
@@ -3137,6 +3068,179 @@
           "it": "1Gv 4,12",
           "fr": "1 Io 4, 12",
           "de": "1 Joh 4, 12b"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Si diligámus ínvicem, Deus in nobis manet, et cáritas eius in nobis consummáta est."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Si nos amamos unos a otros, Dios permanece en nosotros y su amor ha llegado en nosotros a su plenitud."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "If we love one another, God will live in us in perfect love."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Se amarmos uns aos outros, Deus em nós há de estar; e o seu amor em nós se aperfeiçoará."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Se ci amiamo gli uni gli altri, Dio rimane in noi e l’amore di lui è perfetto in noi."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Si nous aimons les uns les autres, Dieu demeure en nous, et, en nous, son amour atteint la perfection."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Wenn wir einander lieben, bleibt Gott in uns, und seine Liebe ist in uns vollendet."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -4413,127 +4517,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia 1 Petr 1, 25 Allelúia. Verbum Dómini manet in ætérnum; hoc est autem verbum quod evangelizátum est in vos. Allelúia.",
-            "es": "Aleluya 1 P 1, 25 Aleluya. La palabra del Señor permanece para siempre; esta es la palabra del Evangelio que os ha sido anunciada. Aleluya.",
-            "en": "Alleluia, alleluia. The word of the Lord stands for ever; it is the word given to you, the Good News. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho 1 P 1, 25 Aleluia, aleluia. A palavra do Senhor permanece para sempre; e esta é a Palavra que vos foi anunciada. Aleluia.",
-            "it": "Canto al Vangelo 1Pt 1,25 Alleluia, alleluia. La parola del Signore rimane in eterno: e questa è la parola del Vangelo che vi è stato annunciato. Alleluia.",
-            "fr": "Alléluia 1 Petr 1, 25 Alléluia La parole du Seigneur demeure pour toujours ; c’est la Bonne Nouvelle qui vous a été annoncée. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. 1 Petr 1, 25 Halleluja. Halleluja. Das Wort des Herrn bleibt in Ewigkeit, das Evangelium, das euch verkündet wird. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Petr 1, 25"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Verbum Dómini manet in ætérnum; hoc est autem verbum quod evangelizátum est in vos. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 P 1, 25"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. La palabra del Señor permanece para siempre; esta es la palabra del Evangelio que os ha sido anunciada. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. The word of the Lord stands for ever; it is the word given to you, the Good News. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 P 1, 25"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. A palavra do Senhor permanece para sempre; e esta é a Palavra que vos foi anunciada. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "1Pt 1,25"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. La parola del Signore rimane in eterno: e questa è la parola del Vangelo che vi è stato annunciato. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Petr 1, 25"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia La parole du Seigneur demeure pour toujours ; c’est la Bonne Nouvelle qui vous a été annoncée. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. 1 Petr 1, 25"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Das Wort des Herrn bleibt in Ewigkeit, das Evangelium, das euch verkündet wird. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "1 Petr 1, 25",
           "es": "1 P 1, 25",
@@ -4541,6 +4524,179 @@
           "it": "1Pt 1,25",
           "fr": "1 Petr 1, 25",
           "de": "vgl. 1 Petr 1, 25"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Verbum Dómini manet in ætérnum; hoc est autem verbum quod evangelizátum est in vos."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "La palabra del Señor permanece para siempre; esta es la palabra del Evangelio que os ha sido anunciada."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "The word of the Lord stands for ever; it is the word given to you, the Good News."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "A palavra do Senhor permanece para sempre; e esta é a Palavra que vos foi anunciada."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "La parola del Signore rimane in eterno: e questa è la parola del Vangelo che vi è stato annunciato."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "La parole du Seigneur demeure pour toujours ; c’est la Bonne Nouvelle qui vous a été annoncée."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Das Wort des Herrn bleibt in Ewigkeit, das Evangelium, das euch verkündet wird."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

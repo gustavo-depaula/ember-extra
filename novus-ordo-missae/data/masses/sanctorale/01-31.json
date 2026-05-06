@@ -432,127 +432,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Mt 23, 11. 12b Allelúia. Qui maior est vestrum, erit miníster vester, dicit Dóminus; qui autem se humiliáverit, exaltábitur. Allelúia.",
-            "es": "Aleluya Mt 23, 11. 12b Aleluya. El primero entre vosotros será vuestro servidor —dice el Señor—. El que se humilla será enaltecido. Aleluya.",
-            "en": "Alleluia, alleluia. The greatest among you must be your servant, says the Lord; anyone who humbles himself will be exalted. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Mt 23, 11. 12b Aleluia, aleluia. O maior dentre vós será vosso servo, diz o Senhor; e quem se humilha será exaltado. Aleluia.",
-            "it": "Canto al Vangelo Mt 23, 11.12b Alleluia, alleluia. Chi tra voi è più grande, sarà vostro servo, dice il Signore, chi si umilierà sarà esaltato. Alleluia.",
-            "fr": "Alléluia Mt 23, 11. 12b Alléluia Le plus grand parmi vous sera votre serviteur, dit le Seigneur, qui s’abaissera sera élevé. Alléluia.",
-            "de": "Ruf vor dem Evangelium Mt 23, 11. 12b Halleluja. Halleluja. (So spricht der Herr:) Der Größte von euch soll euer Diener sein. Und wer sich selbst erniedrigt, der wird erhöht werden. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 23, 11. 12b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Qui maior est vestrum, erit miníster vester, dicit Dóminus; qui autem se humiliáverit, exaltábitur. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 23, 11. 12b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. El primero entre vosotros será vuestro servidor —dice el Señor—. El que se humilla será enaltecido. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. The greatest among you must be your servant, says the Lord; anyone who humbles himself will be exalted. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 23, 11. 12b"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. O maior dentre vós será vosso servo, diz o Senhor; e quem se humilha será exaltado. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 23, 11.12b"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Chi tra voi è più grande, sarà vostro servo, dice il Signore, chi si umilierà sarà esaltato. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 23, 11. 12b"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Le plus grand parmi vous sera votre serviteur, dit le Seigneur, qui s’abaissera sera élevé. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 23, 11. 12b"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Der Größte von euch soll euer Diener sein. Und wer sich selbst erniedrigt, der wird erhöht werden. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mt 23, 11. 12b",
           "es": "Mt 23, 11. 12b",
@@ -560,6 +439,179 @@
           "it": "Mt 23, 11.12b",
           "fr": "Mt 23, 11. 12b",
           "de": "Mt 23, 11. 12b"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Qui maior est vestrum, erit miníster vester, dicit Dóminus; qui autem se humiliáverit, exaltábitur."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "El primero entre vosotros será vuestro servidor —dice el Señor—. El que se humilla será enaltecido."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "The greatest among you must be your servant, says the Lord; anyone who humbles himself will be exalted."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "O maior dentre vós será vosso servo, diz o Senhor; e quem se humilha será exaltado."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Chi tra voi è più grande, sarà vostro servo, dice il Signore, chi si umilierà sarà esaltato."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Le plus grand parmi vous sera votre serviteur, dit le Seigneur, qui s’abaissera sera élevé."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Der Größte von euch soll euer Diener sein. Und wer sich selbst erniedrigt, der wird erhöht werden."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

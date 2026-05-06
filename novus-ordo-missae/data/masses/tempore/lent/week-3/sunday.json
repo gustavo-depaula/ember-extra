@@ -2039,121 +2039,71 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Versus ante Evangelium Cf. Io 4, 42. Dómine, tu es vere Salvátor mundi; da mihi aquam vivam, ut non sítiam.",
-            "es": "Versículo antes del Evangelio Cf. Jn 4, 42. Señor, tú eres de verdad el Salvador del mundo; dame agua viva, así no tendré más sed.",
-            "en": "Lord, you are truly the Savior of the world; give me living water, that I may never thirst again.",
-            "pt-BR": "Aclamação ao Evangelho Cf. Jo 4, 42. Na verdade, sois Senhor, o Salvador do mundo. Senhor, dai-me água viva, a fim de eu não ter sede!",
-            "it": "Canto al Vangelo Lode a te, o Cristo, re di eterna gloria! Signore, tu sei veramente il salvatore del mondo; dammi dell’acqua viva perché io non abbia più sete. Cfr. Gv 4,42.15 Lode a te, o Cristo, re di eterna gloria!",
-            "fr": "Verset avant l’Évangile Cf. Io 4, 42. Gloire au Christ, Sagesse éternelle du Dieu vivant. Gloire à toi, Seigneur. Tu es vraiment le Sauveur du monde, Seigneur ! Donne-moi de l’eau vive : que je n’aie plus soif. Gloire au Christ, Sagesse éternelle du Dieu vivant. Gloire à toi, Seigneur.",
-            "de": "Ruf vor dem Evangelium vgl. Joh 4, 42. Herr Jesus, dir sei Lob und Ehre! Herr, du bist der Retter der Welt. Gib mir lebendiges Wasser, damit mich nie mehr dürstet. Herr Jesus, dir sei Lob und Ehre!"
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versus ante Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Io 4, 42."
-                },
-                {
-                  "type": "text",
-                  "text": "Dómine, tu es vere Salvátor mundi; da mihi aquam vivam, ut non sítiam."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versículo antes del Evangelio"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Jn 4, 42."
-                },
-                {
-                  "type": "text",
-                  "text": "Señor, tú eres de verdad el Salvador del mundo; dame agua viva, así no tendré más sed."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Lord, you are truly the Savior of the world; give me living water, that I may never thirst again."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Jo 4, 42."
-                },
-                {
-                  "type": "text",
-                  "text": "Na verdade, sois Senhor, o Salvador do mundo. Senhor, dai-me água viva, a fim de eu não ter sede!"
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Lode a te, o Cristo, re di eterna gloria! Signore, tu sei veramente il salvatore del mondo; dammi dell’acqua viva perché io non abbia più sete. Cfr. Gv 4,42.15 Lode a te, o Cristo, re di eterna gloria!"
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Verset avant l’Évangile"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Io 4, 42."
-                },
-                {
-                  "type": "text",
-                  "text": "Gloire au Christ, Sagesse éternelle du Dieu vivant. Gloire à toi, Seigneur. Tu es vraiment le Sauveur du monde, Seigneur ! Donne-moi de l’eau vive : que je n’aie plus soif. Gloire au Christ, Sagesse éternelle du Dieu vivant. Gloire à toi, Seigneur."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Joh 4, 42."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr Jesus, dir sei Lob und Ehre! Herr, du bist der Retter der Welt. Gib mir lebendiges Wasser, damit mich nie mehr dürstet. Herr Jesus, dir sei Lob und Ehre!"
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Io 4, 42",
           "es": "Cf. Jn 4, 42",
           "pt-BR": "Cf. Jo 4, 42",
           "fr": "Cf. Io 4, 42",
           "de": "vgl. Joh 4, 42"
+        },
+        "mode": "versus-ante-evangelium",
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "text",
+                "text": "Dómine, tu es vere Salvátor mundi; da mihi aquam vivam, ut non sítiam."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "text",
+                "text": "Señor, tú eres de verdad el Salvador del mundo; dame agua viva, así no tendré más sed."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "text",
+                "text": "Lord, you are truly the Savior of the world; give me living water, that I may never thirst again."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "Na verdade, sois Senhor, o Salvador do mundo. Senhor, dai-me água viva, a fim de eu não ter sede!"
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "Lode a te, o Cristo, re di eterna gloria! Signore, tu sei veramente il salvatore del mondo; dammi dell’acqua viva perché io non abbia più sete. Cfr. Gv 4,42.15 Lode a te, o Cristo, re di eterna gloria!"
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Gloire au Christ, Sagesse éternelle du Dieu vivant. Gloire à toi, Seigneur. Tu es vraiment le Sauveur du monde, Seigneur ! Donne-moi de l’eau vive : que je n’aie plus soif. Gloire au Christ, Sagesse éternelle du Dieu vivant. Gloire à toi, Seigneur."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "text",
+                "text": "Herr Jesus, dir sei Lob und Ehre! Herr, du bist der Retter der Welt. Gib mir lebendiges Wasser, damit mich nie mehr dürstet. Herr Jesus, dir sei Lob und Ehre!"
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -3384,121 +3334,71 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Versus ante Evangelium Io 3, 16 Sic enim diléxit Deus mundum, ut Fílium suum unigénitum daret; omnis qui credit in eum habet vitam ætérnam.",
-            "es": "Versículo antes del Evangelio Jn 3, 16 Tanto amó Dios al mundo, que entregó a su Unigénito; todo el que cree en él tiene vida eterna.",
-            "en": "God loved the world so much, he gave us his only Son, that all who believe in him might have eternal life.",
-            "pt-BR": "Aclamação ao Evangelho Jo 3, 16 Tanto Deus amou o mundo, que lhe deuseu Filho único; todo aquele que crer nele há de ter a vida eterna.",
-            "it": "Canto al Vangelo Lode e onore a te, Signore Gesù! Dio ha tanto amato il mondo da dare il Figlio unigenito; chiunque crede in lui ha la vita eterna. (Cfr. Gv 3,16) Lode e onore a te, Signore Gesù!",
-            "fr": "Verset avant l’Évangile Io 3, 16 Gloire au Christ, Sagesse éternelle du Dieu vivant. Gloire à toi, Seigneur. Dieu a tellement aimé le monde qu’il a donné son Fils unique, afin que ceux qui croient en lui aient la vie éternelle. Gloire au Christ, Sagesse éternelle du Dieu vivant. Gloire à toi, Seigneur.",
-            "de": "Ruf vor dem Evangelium vgl. Joh 3, 16a. Lob dir, Christus, König und Erlöser! So sehr hat Gott die Welt geliebt, dass er seinen einzigen Sohn hingab, damit jeder, der glaubt, in ihm das ewige Leben hat. Lob dir, Christus, König und Erlöser!"
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versus ante Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 3, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Sic enim diléxit Deus mundum, ut Fílium suum unigénitum daret; omnis qui credit in eum habet vitam ætérnam."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versículo antes del Evangelio"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 3, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Tanto amó Dios al mundo, que entregó a su Unigénito; todo el que cree en él tiene vida eterna."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "God loved the world so much, he gave us his only Son, that all who believe in him might have eternal life."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 3, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Tanto Deus amou o mundo, que lhe deuseu Filho único; todo aquele que crer nele há de ter a vida eterna."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Lode e onore a te, Signore Gesù! Dio ha tanto amato il mondo da dare il Figlio unigenito; chiunque crede in lui ha la vita eterna. (Cfr. Gv 3,16) Lode e onore a te, Signore Gesù!"
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Verset avant l’Évangile"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 3, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Gloire au Christ, Sagesse éternelle du Dieu vivant. Gloire à toi, Seigneur. Dieu a tellement aimé le monde qu’il a donné son Fils unique, afin que ceux qui croient en lui aient la vie éternelle. Gloire au Christ, Sagesse éternelle du Dieu vivant. Gloire à toi, Seigneur."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Joh 3, 16a."
-                },
-                {
-                  "type": "text",
-                  "text": "Lob dir, Christus, König und Erlöser! So sehr hat Gott die Welt geliebt, dass er seinen einzigen Sohn hingab, damit jeder, der glaubt, in ihm das ewige Leben hat. Lob dir, Christus, König und Erlöser!"
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 3, 16",
           "es": "Jn 3, 16",
           "pt-BR": "Jo 3, 16",
           "fr": "Io 3, 16",
           "de": "vgl. Joh 3, 16a"
+        },
+        "mode": "versus-ante-evangelium",
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "text",
+                "text": "Sic enim diléxit Deus mundum, ut Fílium suum unigénitum daret; omnis qui credit in eum habet vitam ætérnam."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "text",
+                "text": "Tanto amó Dios al mundo, que entregó a su Unigénito; todo el que cree en él tiene vida eterna."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "text",
+                "text": "God loved the world so much, he gave us his only Son, that all who believe in him might have eternal life."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "Tanto Deus amou o mundo, que lhe deuseu Filho único; todo aquele que crer nele há de ter a vida eterna."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "Lode e onore a te, Signore Gesù! Dio ha tanto amato il mondo da dare il Figlio unigenito; chiunque crede in lui ha la vita eterna. (Cfr. Gv 3,16) Lode e onore a te, Signore Gesù!"
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Gloire au Christ, Sagesse éternelle du Dieu vivant. Gloire à toi, Seigneur. Dieu a tellement aimé le monde qu’il a donné son Fils unique, afin que ceux qui croient en lui aient la vie éternelle. Gloire au Christ, Sagesse éternelle du Dieu vivant. Gloire à toi, Seigneur."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "text",
+                "text": "Lob dir, Christus, König und Erlöser! So sehr hat Gott die Welt geliebt, dass er seinen einzigen Sohn hingab, damit jeder, der glaubt, in ihm das ewige Leben hat. Lob dir, Christus, König und Erlöser!"
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -4679,121 +4579,71 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Versus ante Evangelium Mt 4, 17 Pæniténtiam ágite, dicit Dóminus; appropinquávit regnum cælórum.",
-            "es": "Versículo antes del Evangelio Mt 4, 17 Convertíos —dice el Señor—, porque está cerca el reino de los cielos.",
-            "en": "Repent, says the Lord; the kingdom of heaven is at hand.",
-            "pt-BR": "Aclamação ao Evangelho Mt 4, 17 Convertei-vos, nos diz o Senhor, porque o reino dos Céus está perto.",
-            "it": "Canto al Vangelo (Cfr Mt 4,17) Lode e onore a te, Signore Gesù! Convertitevi, dice il Signore, il regno dei cieli è vicino. Lode e onore a te, Signore Gesù!",
-            "fr": "Verset avant l’Évangile Gloire au Christ, Sagesse éternelle du Dieu vivant. Gloire à toi, Seigneur. Convertissez-vous, dit le Seigneur, car le royaume des Cieux est tout proche. Gloire au Christ, Sagesse éternelle du Dieu vivant. Gloire à toi, Seigneur.",
-            "de": "Ruf vor dem Evangelium Mt 4, 17 Christus, du ewiges Wort des Vaters, Ehre sei dir! (So spricht der Herr:) Kehrt um! Denn das Himmelreich ist nahe. Christus, du ewiges Wort des Vaters, Ehre sei dir!"
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versus ante Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 4, 17"
-                },
-                {
-                  "type": "text",
-                  "text": "Pæniténtiam ágite, dicit Dóminus; appropinquávit regnum cælórum."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versículo antes del Evangelio"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 4, 17"
-                },
-                {
-                  "type": "text",
-                  "text": "Convertíos —dice el Señor—, porque está cerca el reino de los cielos."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Repent, says the Lord; the kingdom of heaven is at hand."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 4, 17"
-                },
-                {
-                  "type": "text",
-                  "text": "Convertei-vos, nos diz o Senhor, porque o reino dos Céus está perto."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Cfr Mt 4,17)"
-                },
-                {
-                  "type": "text",
-                  "text": "Lode e onore a te, Signore Gesù! Convertitevi, dice il Signore, il regno dei cieli è vicino. Lode e onore a te, Signore Gesù!"
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Verset avant l’Évangile Gloire au Christ, Sagesse éternelle du Dieu vivant. Gloire à toi, Seigneur. Convertissez-vous, dit le Seigneur, car le royaume des Cieux est tout proche. Gloire au Christ, Sagesse éternelle du Dieu vivant. Gloire à toi, Seigneur."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 4, 17"
-                },
-                {
-                  "type": "text",
-                  "text": "Christus, du ewiges Wort des Vaters, Ehre sei dir! (So spricht der Herr:) Kehrt um! Denn das Himmelreich ist nahe. Christus, du ewiges Wort des Vaters, Ehre sei dir!"
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mt 4, 17",
           "es": "Mt 4, 17",
           "pt-BR": "Mt 4, 17",
           "it": "(Cfr Mt 4,17)",
           "de": "Mt 4, 17"
+        },
+        "mode": "versus-ante-evangelium",
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "text",
+                "text": "Pæniténtiam ágite, dicit Dóminus; appropinquávit regnum cælórum."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "text",
+                "text": "Convertíos —dice el Señor—, porque está cerca el reino de los cielos."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "text",
+                "text": "Repent, says the Lord; the kingdom of heaven is at hand."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "Convertei-vos, nos diz o Senhor, porque o reino dos Céus está perto."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "Lode e onore a te, Signore Gesù! Convertitevi, dice il Signore, il regno dei cieli è vicino. Lode e onore a te, Signore Gesù!"
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Gloire au Christ, Sagesse éternelle du Dieu vivant. Gloire à toi, Seigneur. Convertissez-vous, dit le Seigneur, car le royaume des Cieux est tout proche. Gloire au Christ, Sagesse éternelle du Dieu vivant. Gloire à toi, Seigneur."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "text",
+                "text": "Christus, du ewiges Wort des Vaters, Ehre sei dir! (So spricht der Herr:) Kehrt um! Denn das Himmelreich ist nahe. Christus, du ewiges Wort des Vaters, Ehre sei dir!"
+              }
+            ]
+          ]
         }
       },
       "gospel": {

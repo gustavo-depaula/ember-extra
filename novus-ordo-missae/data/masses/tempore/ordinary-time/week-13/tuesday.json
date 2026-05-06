@@ -795,127 +795,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Ps 129, 5 Allelúia. Spero in Dóminum, spero in verbum eius. Allelúia.",
-            "es": "Aleluya Ps 129, 5 Aleluya. Espero en el Señor, espero en su palabra. Aleluya.",
-            "en": "Alleluia, alleluia. I hope in the Lord, I trust in his word. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Ps 129, 5 Aleluia, aleluia. No Senhor ponho a minha esperança, espero em sua palavra. Aleluia.",
-            "it": "Canto al Vangelo Cfr. Sal 129,5 Alleluia, alleluia. Io spero, Signore. Spera l’anima mia, attendo la sua parola. Alleluia.",
-            "fr": "Alléluia Ps 129, 5 Alléluia J’espère le Seigneur, et j’attends sa parole. Alléluia.",
-            "de": "Ruf vor dem Evangelium Ps 130 (129), 5 Halleluja. Halleluja. Ich hoffe auf den Herrn; ich warte voll Vertrauen auf sein Wort. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 129, 5"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Spero in Dóminum, spero in verbum eius. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 129, 5"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Espero en el Señor, espero en su palabra. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. I hope in the Lord, I trust in his word. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 129, 5"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. No Senhor ponho a minha esperança, espero em sua palavra. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cfr. Sal 129,5"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Io spero, Signore. Spera l’anima mia, attendo la sua parola. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 129, 5"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia J’espère le Seigneur, et j’attends sa parole. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 130 (129), 5"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Ich hoffe auf den Herrn; ich warte voll Vertrauen auf sein Wort. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Ps 129, 5",
           "es": "Ps 129, 5",
@@ -923,6 +802,179 @@
           "it": "Cfr. Sal 129,5",
           "fr": "Ps 129, 5",
           "de": "Ps 130 (129), 5"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Spero in Dóminum, spero in verbum eius."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Espero en el Señor, espero en su palabra."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "I hope in the Lord, I trust in his word."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "No Senhor ponho a minha esperança, espero em sua palavra."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Io spero, Signore. Spera l’anima mia, attendo la sua parola."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "J’espère le Seigneur, et j’attends sa parole."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Ich hoffe auf den Herrn; ich warte voll Vertrauen auf sein Wort."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -1835,127 +1887,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Ps 129, 5 Allelúia. Spero in Dóminum, spero in verbum eius. Allelúia.",
-            "es": "Aleluya Ps 129, 5 Aleluya. Espero en el Señor, espero en su palabra. Aleluya.",
-            "en": "Alleluia, alleluia. I hope in the Lord, I trust in his word. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Ps 129, 5 Aleluia, aleluia. No Senhor ponho a minha esperança, espero em sua palavra. Aleluia.",
-            "it": "Canto al Vangelo Cfr. Sal 129,5 Alleluia, alleluia. Io spero, Signore. Spera l’anima mia, attendo la sua parola. Alleluia.",
-            "fr": "Alléluia Ps 129, 5 Alléluia J’espère le Seigneur, et j’attends sa parole. Alléluia.",
-            "de": "Ruf vor dem Evangelium Ps 130 (129), 5 Halleluja. Halleluja. Ich hoffe auf den Herrn; ich warte voll Vertrauen auf sein Wort. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 129, 5"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Spero in Dóminum, spero in verbum eius. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 129, 5"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Espero en el Señor, espero en su palabra. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. I hope in the Lord, I trust in his word. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 129, 5"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. No Senhor ponho a minha esperança, espero em sua palavra. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cfr. Sal 129,5"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Io spero, Signore. Spera l’anima mia, attendo la sua parola. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 129, 5"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia J’espère le Seigneur, et j’attends sa parole. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 130 (129), 5"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Ich hoffe auf den Herrn; ich warte voll Vertrauen auf sein Wort. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Ps 129, 5",
           "es": "Ps 129, 5",
@@ -1963,6 +1894,179 @@
           "it": "Cfr. Sal 129,5",
           "fr": "Ps 129, 5",
           "de": "Ps 130 (129), 5"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Spero in Dóminum, spero in verbum eius."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Espero en el Señor, espero en su palabra."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "I hope in the Lord, I trust in his word."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "No Senhor ponho a minha esperança, espero em sua palavra."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Io spero, Signore. Spera l’anima mia, attendo la sua parola."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "J’espère le Seigneur, et j’attends sa parole."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Ich hoffe auf den Herrn; ich warte voll Vertrauen auf sein Wort."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

@@ -816,21 +816,27 @@ class TestSanctoraleAlternatives:
     def test_all_souls_gospel_acclamation_alternatives(self):
         """All Souls (Nov 2) lists 11 alternative gospel acclamations in the
         Lectionary. When a slot has multiple options the slot itself carries
-        ONLY `alternatives: [...]` (no primary body/citation at the root) —
+        ONLY `alternatives: [...]` (no primary verse/citation at the root) —
         every option lives inside the array as an equal-status entry."""
         import json
         m = json.loads((self.SANCT / "11-02.json").read_text())
         r = (m.get("readings") or {}).get("default") or {}
         ga = r.get("gospelAcclamation") or {}
-        # Multi-option slot: only `alternatives`, no body/citation at root
-        assert "body" not in ga, "multi-option slot must not carry root body"
+        # Multi-option slot: only `alternatives`, no verse/citation at root
+        assert "verse" not in ga, "multi-option slot must not carry root verse"
+        assert "body" not in ga, "legacy body should be gone"
         assert "citation" not in ga, "multi-option slot must not carry root citation"
         opts = ga.get("alternatives") or []
         assert len(opts) >= 10, f"expected ~11 GA options, got {len(opts)}"
         # Each option is short (one acclamation, not the bundled blob)
         for o in opts:
-            body_la = (o.get("body") or {}).get("plain", {}).get("la", "")
-            assert 0 < len(body_la) < 250, f"option body unexpected size: {len(body_la)}"
+            verse_la = (o.get("verse") or {}).get("la") or []
+            text_len = sum(
+                len(s.get("text") or "")
+                for line in verse_la for s in line
+                if isinstance(s, dict)
+            )
+            assert 0 < text_len < 250, f"option verse unexpected size: {text_len}"
         # Each option has its own citation, all distinct
         cits = [(o.get("citation") or {}).get("la") for o in opts]
         assert all(cits), f"some options missing citation: {cits}"

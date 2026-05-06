@@ -941,127 +941,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Lc 4, 18cd Allelúia. Spíritus Dómini super me; evangelizáre paupéribus misit me. Allelúia.",
-            "es": "Aleluya Lc 4, 18cd Aleluya. El Espíritu del Señor está sobre mí; me ha enviado a evangelizar a los pobres. Aleluya.",
-            "en": "Alleluia, alleluia. The Spirit of the Lord is upon me; he sent me to bring Good News to the poor. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Lc 4, 18cd Aleluia, aleluia. O Espírito do Senhor repousa sobre mim; e enviou-me a anunciar aos pobres o Evangelho. Aleluia.",
-            "it": "Canto al Vangelo Lc 4,18 Alleluia, alleluia. Lo Spirito del Signore è sopra di me; mi ha mandato a portare ai poveri il lieto annuncio. Alleluia.",
-            "fr": "Alléluia Lc 4, 18cd Alléluia L’Esprit du Seigneur est sur moi : il m’a envoyé porter la Bonne Nouvelle aux pauvres. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Jes 61, 1 (Lk 4, 18) Halleluja. Halleluja. Der Geist des Herrn ruht auf mir. Der Herr hat mich gesandt, den Armen die Frohe Botschaft zu bringen. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 4, 18cd"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Spíritus Dómini super me; evangelizáre paupéribus misit me. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 4, 18cd"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. El Espíritu del Señor está sobre mí; me ha enviado a evangelizar a los pobres. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. The Spirit of the Lord is upon me; he sent me to bring Good News to the poor. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 4, 18cd"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. O Espírito do Senhor repousa sobre mim; e enviou-me a anunciar aos pobres o Evangelho. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 4,18"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Lo Spirito del Signore è sopra di me; mi ha mandato a portare ai poveri il lieto annuncio. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 4, 18cd"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia L’Esprit du Seigneur est sur moi : il m’a envoyé porter la Bonne Nouvelle aux pauvres. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Jes 61, 1 (Lk 4, 18)"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Der Geist des Herrn ruht auf mir. Der Herr hat mich gesandt, den Armen die Frohe Botschaft zu bringen. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Lc 4, 18cd",
           "es": "Lc 4, 18cd",
@@ -1069,6 +948,179 @@
           "it": "Lc 4,18",
           "fr": "Lc 4, 18cd",
           "de": "vgl. Jes 61, 1 (Lk 4, 18)"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Spíritus Dómini super me; evangelizáre paupéribus misit me."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "El Espíritu del Señor está sobre mí; me ha enviado a evangelizar a los pobres."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "The Spirit of the Lord is upon me; he sent me to bring Good News to the poor."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "O Espírito do Senhor repousa sobre mim; e enviou-me a anunciar aos pobres o Evangelho."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Lo Spirito del Signore è sopra di me; mi ha mandato a portare ai poveri il lieto annuncio."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "L’Esprit du Seigneur est sur moi : il m’a envoyé porter la Bonne Nouvelle aux pauvres."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Der Geist des Herrn ruht auf mir. Der Herr hat mich gesandt, den Armen die Frohe Botschaft zu bringen."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -2149,127 +2201,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Lc 4, 18cd Allelúia. Spíritus Dómini super me; evangelizáre paupéribus misit me. Allelúia.",
-            "es": "Aleluya Lc 4, 18cd Aleluya. El Espíritu del Señor está sobre mí; me ha enviado a evangelizar a los pobres. Aleluya.",
-            "en": "Alleluia, alleluia. The Spirit of the Lord is upon me; he sent me to bring Good News to the poor. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Lc 4, 18cd Aleluia, aleluia. O Espírito do Senhor repousa sobre mim; e enviou-me a anunciar aos pobres o Evangelho. Aleluia.",
-            "it": "Canto al Vangelo Lc 4,18 Alleluia, alleluia. Lo Spirito del Signore è sopra di me; mi ha mandato a portare ai poveri il lieto annuncio. Alleluia.",
-            "fr": "Alléluia Lc 4, 18cd Alléluia L’Esprit du Seigneur est sur moi : il m’a envoyé porter la Bonne Nouvelle aux pauvres. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Jes 61, 1 (Lk 4, 18) Halleluja. Halleluja. Der Geist des Herrn ruht auf mir. Der Herr hat mich gesandt, den Armen die Frohe Botschaft zu bringen. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 4, 18cd"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Spíritus Dómini super me; evangelizáre paupéribus misit me. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 4, 18cd"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. El Espíritu del Señor está sobre mí; me ha enviado a evangelizar a los pobres. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. The Spirit of the Lord is upon me; he sent me to bring Good News to the poor. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 4, 18cd"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. O Espírito do Senhor repousa sobre mim; e enviou-me a anunciar aos pobres o Evangelho. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 4,18"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Lo Spirito del Signore è sopra di me; mi ha mandato a portare ai poveri il lieto annuncio. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 4, 18cd"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia L’Esprit du Seigneur est sur moi : il m’a envoyé porter la Bonne Nouvelle aux pauvres. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Jes 61, 1 (Lk 4, 18)"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Der Geist des Herrn ruht auf mir. Der Herr hat mich gesandt, den Armen die Frohe Botschaft zu bringen. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Lc 4, 18cd",
           "es": "Lc 4, 18cd",
@@ -2277,6 +2208,179 @@
           "it": "Lc 4,18",
           "fr": "Lc 4, 18cd",
           "de": "vgl. Jes 61, 1 (Lk 4, 18)"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Spíritus Dómini super me; evangelizáre paupéribus misit me."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "El Espíritu del Señor está sobre mí; me ha enviado a evangelizar a los pobres."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "The Spirit of the Lord is upon me; he sent me to bring Good News to the poor."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "O Espírito do Senhor repousa sobre mim; e enviou-me a anunciar aos pobres o Evangelho."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Lo Spirito del Signore è sopra di me; mi ha mandato a portare ai poveri il lieto annuncio."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "L’Esprit du Seigneur est sur moi : il m’a envoyé porter la Bonne Nouvelle aux pauvres."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Der Geist des Herrn ruht auf mir. Der Herr hat mich gesandt, den Armen die Frohe Botschaft zu bringen."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

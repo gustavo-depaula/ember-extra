@@ -777,127 +777,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Iac 1, 18 Allelúia. Voluntárie génuit nos Pater verbo veritátis, ut simus primítiæ quædam creatúræ eius. Allelúia.",
-            "es": "Aleluya St 1, 18 Aleluya. Por propia iniciativa el Padre nos engendró con la palabra de la verdad, para que seamos como una primicia de sus criaturas. Aleluya.",
-            "en": "Alleluia, alleluia. The Father gave us birth by his message of truth, that we might be as the first fruits of his creation. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho St 1, 18 Aleluia, aleluia. Deus nos gerou pela palavra da verdade, como as primícias de suas criaturas. Aleluia.",
-            "it": "Canto al Vangelo Gc 1,18 Alleluia, alleluia. Per sua volontà il Padre ci ha generati per mezzo della parola di verità, per essere una primizia delle sue creature. Alleluia.",
-            "fr": "Alléluia Iac 1, 18 Alléluia Le Père a voulu nous engendrer par sa parole de vérité, pour faire de nous comme les prémices de ses créatures. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Jak 1, 18 Halleluja. Halleluja. Durch das Wort der Wahrheit hat uns der Vater das Leben geschenkt und uns zu Erstlingen seiner Schöpfung gemacht. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Iac 1, 18"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Voluntárie génuit nos Pater verbo veritátis, ut simus primítiæ quædam creatúræ eius. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "St 1, 18"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Por propia iniciativa el Padre nos engendró con la palabra de la verdad, para que seamos como una primicia de sus criaturas. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. The Father gave us birth by his message of truth, that we might be as the first fruits of his creation. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "St 1, 18"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Deus nos gerou pela palavra da verdade, como as primícias de suas criaturas. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gc 1,18"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Per sua volontà il Padre ci ha generati per mezzo della parola di verità, per essere una primizia delle sue creature. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Iac 1, 18"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Le Père a voulu nous engendrer par sa parole de vérité, pour faire de nous comme les prémices de ses créatures. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Jak 1, 18"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Durch das Wort der Wahrheit hat uns der Vater das Leben geschenkt und uns zu Erstlingen seiner Schöpfung gemacht. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Iac 1, 18",
           "es": "St 1, 18",
@@ -905,6 +784,179 @@
           "it": "Gc 1,18",
           "fr": "Iac 1, 18",
           "de": "vgl. Jak 1, 18"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Voluntárie génuit nos Pater verbo veritátis, ut simus primítiæ quædam creatúræ eius."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Por propia iniciativa el Padre nos engendró con la palabra de la verdad, para que seamos como una primicia de sus criaturas."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "The Father gave us birth by his message of truth, that we might be as the first fruits of his creation."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Deus nos gerou pela palavra da verdade, como as primícias de suas criaturas."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Per sua volontà il Padre ci ha generati per mezzo della parola di verità, per essere una primizia delle sue creature."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Le Père a voulu nous engendrer par sa parole de vérité, pour faire de nous comme les prémices de ses créatures."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Durch das Wort der Wahrheit hat uns der Vater das Leben geschenkt und uns zu Erstlingen seiner Schöpfung gemacht."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -1862,127 +1914,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Iac 1, 18 Allelúia. Voluntárie génuit nos Pater verbo veritátis, ut simus primítiæ quædam creatúræ eius. Allelúia.",
-            "es": "Aleluya St 1, 18 Aleluya. Por propia iniciativa el Padre nos engendró con la palabra de la verdad, para que seamos como una primicia de sus criaturas. Aleluya.",
-            "en": "Alleluia, alleluia. The Father gave us birth by his message of truth, that we might be as the first fruits of his creation. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho St 1, 18 Aleluia, aleluia. Deus nos gerou pela palavra da verdade, como as primícias de suas criaturas. Aleluia.",
-            "it": "Canto al Vangelo Gc 1,18 Alleluia, alleluia. Per sua volontà il Padre ci ha generati per mezzo della parola di verità, per essere una primizia delle sue creature. Alleluia.",
-            "fr": "Alléluia Iac 1, 18 Alléluia Le Père a voulu nous engendrer par sa parole de vérité, pour faire de nous comme les prémices de ses créatures. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Jak 1, 18 Halleluja. Halleluja. Durch das Wort der Wahrheit hat uns der Vater das Leben geschenkt und uns zu Erstlingen seiner Schöpfung gemacht. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Iac 1, 18"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Voluntárie génuit nos Pater verbo veritátis, ut simus primítiæ quædam creatúræ eius. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "St 1, 18"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Por propia iniciativa el Padre nos engendró con la palabra de la verdad, para que seamos como una primicia de sus criaturas. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. The Father gave us birth by his message of truth, that we might be as the first fruits of his creation. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "St 1, 18"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Deus nos gerou pela palavra da verdade, como as primícias de suas criaturas. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gc 1,18"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Per sua volontà il Padre ci ha generati per mezzo della parola di verità, per essere una primizia delle sue creature. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Iac 1, 18"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Le Père a voulu nous engendrer par sa parole de vérité, pour faire de nous comme les prémices de ses créatures. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Jak 1, 18"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Durch das Wort der Wahrheit hat uns der Vater das Leben geschenkt und uns zu Erstlingen seiner Schöpfung gemacht. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Iac 1, 18",
           "es": "St 1, 18",
@@ -1990,6 +1921,179 @@
           "it": "Gc 1,18",
           "fr": "Iac 1, 18",
           "de": "vgl. Jak 1, 18"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Voluntárie génuit nos Pater verbo veritátis, ut simus primítiæ quædam creatúræ eius."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Por propia iniciativa el Padre nos engendró con la palabra de la verdad, para que seamos como una primicia de sus criaturas."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "The Father gave us birth by his message of truth, that we might be as the first fruits of his creation."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Deus nos gerou pela palavra da verdade, como as primícias de suas criaturas."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Per sua volontà il Padre ci ha generati per mezzo della parola di verità, per essere una primizia delle sue creature."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Le Père a voulu nous engendrer par sa parole de vérité, pour faire de nous comme les prémices de ses créatures."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Durch das Wort der Wahrheit hat uns der Vater das Leben geschenkt und uns zu Erstlingen seiner Schöpfung gemacht."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

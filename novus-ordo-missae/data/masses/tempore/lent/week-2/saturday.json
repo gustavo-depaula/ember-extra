@@ -1765,123 +1765,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Versus ante Evangelium Lc 15, 18 Surgam et ibo ad patrem meum et dicam illi: Pater, peccávi in cælum et coram te.",
-            "es": "Versículo antes del Evangelio Lc 15, 18 Me levantaré, me pondré en camino adonde está mi padre, y le diré: Padre, he pecado contra el cielo y contra ti.",
-            "en": "I will rise and go to my father and tell him: Father, I have sinned against heaven and against you.",
-            "pt-BR": "Aclamação ao Evangelho Lc 15, 18 Vou voltar e encontrar o meu pai e direi: meu pai, pequei contra o céu e contra ti.",
-            "it": "Canto al Vangelo (Lc 15,18) Lode e onore a te, Signore Gesù! Mi alzerò, andrò da mio padre e gli dirò: Padre, ho peccato verso il cielo e davanti a te. Lode e onore a te, Signore Gesù!",
-            "fr": "Verset avant l’Évangile Lc 15, 18 Ta parole, Seigneur, est vérité, et ta loi, délivrance. Je me lèverai, j’irai vers mon père, et je lui dirai : Père, j’ai péché contre le ciel et envers toi. Ta parole, Seigneur, est vérité, et ta loi, délivrance.",
-            "de": "Ruf vor dem Evangelium Lk 15, 18 Christus, du ewiges Wort des Vaters, Ehre sei dir! Ich will zu meinem Vater gehen und ihm sagen: Vater, ich habe mich versündigt gegen den Himmel und gegen dich. Christus, du ewiges Wort des Vaters, Ehre sei dir!"
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versus ante Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 15, 18"
-                },
-                {
-                  "type": "text",
-                  "text": "Surgam et ibo ad patrem meum et dicam illi: Pater, peccávi in cælum et coram te."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versículo antes del Evangelio"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 15, 18"
-                },
-                {
-                  "type": "text",
-                  "text": "Me levantaré, me pondré en camino adonde está mi padre, y le diré: Padre, he pecado contra el cielo y contra ti."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "I will rise and go to my father and tell him: Father, I have sinned against heaven and against you."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 15, 18"
-                },
-                {
-                  "type": "text",
-                  "text": "Vou voltar e encontrar o meu pai e direi: meu pai, pequei contra o céu e contra ti."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Lc 15,18)"
-                },
-                {
-                  "type": "text",
-                  "text": "Lode e onore a te, Signore Gesù! Mi alzerò, andrò da mio padre e gli dirò: Padre, ho peccato verso il cielo e davanti a te. Lode e onore a te, Signore Gesù!"
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Verset avant l’Évangile"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 15, 18"
-                },
-                {
-                  "type": "text",
-                  "text": "Ta parole, Seigneur, est vérité, et ta loi, délivrance. Je me lèverai, j’irai vers mon père, et je lui dirai : Père, j’ai péché contre le ciel et envers toi. Ta parole, Seigneur, est vérité, et ta loi, délivrance."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lk 15, 18"
-                },
-                {
-                  "type": "text",
-                  "text": "Christus, du ewiges Wort des Vaters, Ehre sei dir! Ich will zu meinem Vater gehen und ihm sagen: Vater, ich habe mich versündigt gegen den Himmel und gegen dich. Christus, du ewiges Wort des Vaters, Ehre sei dir!"
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Lc 15, 18",
           "es": "Lc 15, 18",
@@ -1889,6 +1772,65 @@
           "it": "(Lc 15,18)",
           "fr": "Lc 15, 18",
           "de": "Lk 15, 18"
+        },
+        "mode": "versus-ante-evangelium",
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "text",
+                "text": "Surgam et ibo ad patrem meum et dicam illi: Pater, peccávi in cælum et coram te."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "text",
+                "text": "Me levantaré, me pondré en camino adonde está mi padre, y le diré: Padre, he pecado contra el cielo y contra ti."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "text",
+                "text": "I will rise and go to my father and tell him: Father, I have sinned against heaven and against you."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "Vou voltar e encontrar o meu pai e direi: meu pai, pequei contra o céu e contra ti."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "Lode e onore a te, Signore Gesù! Mi alzerò, andrò da mio padre e gli dirò: Padre, ho peccato verso il cielo e davanti a te. Lode e onore a te, Signore Gesù!"
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Ta parole, Seigneur, est vérité, et ta loi, délivrance. Je me lèverai, j’irai vers mon père, et je lui dirai : Père, j’ai péché contre le ciel et envers toi. Ta parole, Seigneur, est vérité, et ta loi, délivrance."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "text",
+                "text": "Christus, du ewiges Wort des Vaters, Ehre sei dir! Ich will zu meinem Vater gehen und ihm sagen: Vater, ich habe mich versündigt gegen den Himmel und gegen dich. Christus, du ewiges Wort des Vaters, Ehre sei dir!"
+              }
+            ]
+          ]
         }
       },
       "gospel": {

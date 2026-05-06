@@ -729,127 +729,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Mc 1, 15 Allelúia. Appropinquávit regnum Dei; pænitémini et crédite Evangélio. Allelúia.",
-            "es": "Aleluya Mc 1, 15 Aleluya. Está cerca el reino de Dios; convertíos y creed en el Evangelio. Aleluya.",
-            "en": "Alleluia, alleluia. The kingdom of God is near, says the Lord; repent and believe in the Good News! Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Mc 1, 15 Aleluia, aleluia. Convertei-vos e crede no Evangelho, pois, o Reino de Deus está chegando!. Aleluia.",
-            "it": "Canto al Vangelo (Mc 1,15) Alleluia, alleluia. Il regno di Dio è vicino, dice il Signore: convertitevi e credete nel Vangelo. Alleluia.",
-            "fr": "Alléluia Mc 1, 15 Alléluia Le règne de Dieu est tout proche. Convertissez-vous et croyez à l’Évangile. Alléluia.",
-            "de": "Ruf vor dem Evangelium 1 Sam 3, 9; Joh 6, 68c Halleluja. Halleluja. Rede, Herr, dein Diener hört. Du hast Worte des ewigen Lebens. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 1, 15"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Appropinquávit regnum Dei; pænitémini et crédite Evangélio. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 1, 15"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Está cerca el reino de Dios; convertíos y creed en el Evangelio. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. The kingdom of God is near, says the Lord; repent and believe in the Good News! Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 1, 15"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Convertei-vos e crede no Evangelho, pois, o Reino de Deus está chegando!. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Mc 1,15)"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Il regno di Dio è vicino, dice il Signore: convertitevi e credete nel Vangelo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 1, 15"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Le règne de Dieu est tout proche. Convertissez-vous et croyez à l’Évangile. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Sam 3, 9; Joh 6, 68c"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Rede, Herr, dein Diener hört. Du hast Worte des ewigen Lebens. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mc 1, 15",
           "es": "Mc 1, 15",
@@ -857,6 +736,179 @@
           "it": "(Mc 1,15)",
           "fr": "Mc 1, 15",
           "de": "1 Sam 3, 9; Joh 6, 68c"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Appropinquávit regnum Dei; pænitémini et crédite Evangélio."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Está cerca el reino de Dios; convertíos y creed en el Evangelio."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "The kingdom of God is near, says the Lord; repent and believe in the Good News!"
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Convertei-vos e crede no Evangelho, pois, o Reino de Deus está chegando!."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Il regno di Dio è vicino, dice il Signore: convertitevi e credete nel Vangelo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Le règne de Dieu est tout proche. Convertissez-vous et croyez à l’Évangile."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Rede, Herr, dein Diener hört. Du hast Worte des ewigen Lebens."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -1769,127 +1821,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Mc 1, 15 Allelúia. Appropinquávit regnum Dei; pænitémini et crédite Evangélio. Allelúia.",
-            "es": "Aleluya Mc 1, 15 Aleluya. Está cerca el reino de Dios; convertíos y creed en el Evangelio. Aleluya.",
-            "en": "Alleluia, alleluia. The kingdom of God is near, says the Lord; repent and believe in the Good News! Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Mc 1, 15 Aleluia, aleluia. Convertei-vos e crede no Evangelho, pois, o Reino de Deus está chegando!. Aleluia.",
-            "it": "Canto al Vangelo (Mc 1,15) Alleluia, alleluia. Il regno di Dio è vicino, dice il Signore: convertitevi e credete nel Vangelo. Alleluia.",
-            "fr": "Alléluia Mc 1, 15 Alléluia Le règne de Dieu est tout proche. Convertissez-vous et croyez à l’Évangile. Alléluia.",
-            "de": "Ruf vor dem Evangelium 1 Sam 3, 9; Joh 6, 68c Halleluja. Halleluja. Rede, Herr, dein Diener hört. Du hast Worte des ewigen Lebens. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 1, 15"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Appropinquávit regnum Dei; pænitémini et crédite Evangélio. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 1, 15"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Está cerca el reino de Dios; convertíos y creed en el Evangelio. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. The kingdom of God is near, says the Lord; repent and believe in the Good News! Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 1, 15"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Convertei-vos e crede no Evangelho, pois, o Reino de Deus está chegando!. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Mc 1,15)"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Il regno di Dio è vicino, dice il Signore: convertitevi e credete nel Vangelo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 1, 15"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Le règne de Dieu est tout proche. Convertissez-vous et croyez à l’Évangile. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Sam 3, 9; Joh 6, 68c"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Rede, Herr, dein Diener hört. Du hast Worte des ewigen Lebens. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mc 1, 15",
           "es": "Mc 1, 15",
@@ -1897,6 +1828,179 @@
           "it": "(Mc 1,15)",
           "fr": "Mc 1, 15",
           "de": "1 Sam 3, 9; Joh 6, 68c"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Appropinquávit regnum Dei; pænitémini et crédite Evangélio."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Está cerca el reino de Dios; convertíos y creed en el Evangelio."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "The kingdom of God is near, says the Lord; repent and believe in the Good News!"
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Convertei-vos e crede no Evangelho, pois, o Reino de Deus está chegando!."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Il regno di Dio è vicino, dice il Signore: convertitevi e credete nel Vangelo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Le règne de Dieu est tout proche. Convertissez-vous et croyez à l’Évangile."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Rede, Herr, dein Diener hört. Du hast Worte des ewigen Lebens."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

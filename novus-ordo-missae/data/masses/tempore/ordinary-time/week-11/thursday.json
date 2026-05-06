@@ -783,127 +783,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Rom 8, 15bc Allelúia. Accepístis Spíritum adoptiónis filiórum, in quo clamámus: «Abba, Pater!». Allelúia.",
-            "es": "Aleluya Rom 8, 15bc Aleluya. Habéis recibido un Espíritu de hijos de adopción, en el que clamamos: «“Abba”, Padre». Aleluya.",
-            "en": "Alleluia, alleluia. You have received the Spirit which makes us God's children, and in that Spirit we call God our Father. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Rom 8, 15bc Aleluia, aleluia. Recebestes um espírito de adoção no qual clamamos Aba! Pai! Aleluia.",
-            "it": "Canto al Vangelo Rm 8,15bc Alleluia, alleluia. Avete ricevuto lo Spirito che rende figli adottivi, per mezzo del quale gridiamo: «Abbà! Padre!». Alleluia.",
-            "fr": "Alléluia Rom 8, 15bc Alléluia Vous avez reçu un Esprit qui fait de vous des fils ; c’est en lui que nous crions « Abba », Père. Alléluia.",
-            "de": "Ruf vor dem Evangelium Röm 8, 15bc Halleluja. Halleluja. Ihr habt den Geist empfangen, der euch zu Söhnen macht, den Geist, in dem wir rufen: Abba, Vater! Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Rom 8, 15bc"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Accepístis Spíritum adoptiónis filiórum, in quo clamámus: «Abba, Pater!». Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Rom 8, 15bc"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Habéis recibido un Espíritu de hijos de adopción, en el que clamamos: «“Abba”, Padre». Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. You have received the Spirit which makes us God's children, and in that Spirit we call God our Father. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Rom 8, 15bc"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Recebestes um espírito de adoção no qual clamamos Aba! Pai! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Rm 8,15bc"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Avete ricevuto lo Spirito che rende figli adottivi, per mezzo del quale gridiamo: «Abbà! Padre!». Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Rom 8, 15bc"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Vous avez reçu un Esprit qui fait de vous des fils ; c’est en lui que nous crions « Abba », Père. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Röm 8, 15bc"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Ihr habt den Geist empfangen, der euch zu Söhnen macht, den Geist, in dem wir rufen: Abba, Vater! Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Rom 8, 15bc",
           "es": "Rom 8, 15bc",
@@ -911,6 +790,179 @@
           "it": "Rm 8,15bc",
           "fr": "Rom 8, 15bc",
           "de": "Röm 8, 15bc"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Accepístis Spíritum adoptiónis filiórum, in quo clamámus: «Abba, Pater!»."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Habéis recibido un Espíritu de hijos de adopción, en el que clamamos: «“Abba”, Padre»."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "You have received the Spirit which makes us God's children, and in that Spirit we call God our Father."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Recebestes um espírito de adoção no qual clamamos Aba! Pai!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Avete ricevuto lo Spirito che rende figli adottivi, per mezzo del quale gridiamo: «Abbà! Padre!»."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Vous avez reçu un Esprit qui fait de vous des fils ; c’est en lui que nous crions « Abba », Père."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Ihr habt den Geist empfangen, der euch zu Söhnen macht, den Geist, in dem wir rufen: Abba, Vater!"
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -2023,127 +2075,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Rom 8, 15bc Allelúia. Accepístis Spíritum adoptiónis filiórum, in quo clamámus: «Abba, Pater!». Allelúia.",
-            "es": "Aleluya Rom 8, 15bc Aleluya. Habéis recibido un Espíritu de hijos de adopción, en el que clamamos: «“Abba”, Padre». Aleluya.",
-            "en": "Alleluia, alleluia. You have received the Spirit which makes us God's children, and in that Spirit we call God our Father. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Rom 8, 15bc Aleluia, aleluia. Recebestes um espírito de adoção no qual clamamos Aba! Pai! Aleluia.",
-            "it": "Canto al Vangelo Rm 8,15bc Alleluia, alleluia. Avete ricevuto lo Spirito che rende figli adottivi, per mezzo del quale gridiamo: «Abbà! Padre!». Alleluia.",
-            "fr": "Alléluia Rom 8, 15bc Alléluia Vous avez reçu un Esprit qui fait de vous des fils ; c’est en lui que nous crions « Abba », Père. Alléluia.",
-            "de": "Ruf vor dem Evangelium Röm 8, 15bc Halleluja. Halleluja. Ihr habt den Geist empfangen, der euch zu Söhnen macht, den Geist, in dem wir rufen: Abba, Vater! Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Rom 8, 15bc"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Accepístis Spíritum adoptiónis filiórum, in quo clamámus: «Abba, Pater!». Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Rom 8, 15bc"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Habéis recibido un Espíritu de hijos de adopción, en el que clamamos: «“Abba”, Padre». Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. You have received the Spirit which makes us God's children, and in that Spirit we call God our Father. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Rom 8, 15bc"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Recebestes um espírito de adoção no qual clamamos Aba! Pai! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Rm 8,15bc"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Avete ricevuto lo Spirito che rende figli adottivi, per mezzo del quale gridiamo: «Abbà! Padre!». Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Rom 8, 15bc"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Vous avez reçu un Esprit qui fait de vous des fils ; c’est en lui que nous crions « Abba », Père. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Röm 8, 15bc"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Ihr habt den Geist empfangen, der euch zu Söhnen macht, den Geist, in dem wir rufen: Abba, Vater! Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Rom 8, 15bc",
           "es": "Rom 8, 15bc",
@@ -2151,6 +2082,179 @@
           "it": "Rm 8,15bc",
           "fr": "Rom 8, 15bc",
           "de": "Röm 8, 15bc"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Accepístis Spíritum adoptiónis filiórum, in quo clamámus: «Abba, Pater!»."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Habéis recibido un Espíritu de hijos de adopción, en el que clamamos: «“Abba”, Padre»."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "You have received the Spirit which makes us God's children, and in that Spirit we call God our Father."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Recebestes um espírito de adoção no qual clamamos Aba! Pai!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Avete ricevuto lo Spirito che rende figli adottivi, per mezzo del quale gridiamo: «Abbà! Padre!»."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Vous avez reçu un Esprit qui fait de vous des fils ; c’est en lui que nous crions « Abba », Père."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Ihr habt den Geist empfangen, der euch zu Söhnen macht, den Geist, in dem wir rufen: Abba, Vater!"
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

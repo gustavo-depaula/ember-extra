@@ -1633,127 +1633,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia 2 Cor 5, 19 Allelúia. Deus erat in Christo mundum reconcílians sibi, et pósuit in nobis verbum reconciliatiónis. Allelúia.",
-            "es": "Aleluya 2 Cor 5, 19 Aleluya. Dios estaba en Cristo reconciliando al mundo consigo, y ha puesto en nosotros el mensaje de la reconciliación. Aleluya.",
-            "en": "Alleluia, alleluia. God was in Christ, to reconcile the world to himself; and the Good News of reconciliation he has entrusted to us. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho 2 Cor 5, 19 Aleluia, aleluia. O Senhor reconciliou o mundo em Cristo, confiando-nos a sua Palavra da reconciliação a Palavra que hoje, aqui, nos salva. Aleluia.",
-            "it": "Canto al Vangelo Cfr. 2Cor 5,19 Alleluia, alleluia. Dio ha riconciliato a sé il mondo in Cristo, affidando a noi la parola della riconciliazione. Alleluia.",
-            "fr": "Alléluia 2 Cor 5, 19 Alléluia Dans le Christ, Dieu réconciliait le monde avec lui : il a mis dans notre bouche la parole de la réconciliation. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. 2 Kor 5, 19 Halleluja. Halleluja. Gott hat in Christus die Welt mit sich versöhnt und uns das Wort von der Versöhnung anvertraut. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "2 Cor 5, 19"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Deus erat in Christo mundum reconcílians sibi, et pósuit in nobis verbum reconciliatiónis. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "2 Cor 5, 19"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Dios estaba en Cristo reconciliando al mundo consigo, y ha puesto en nosotros el mensaje de la reconciliación. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. God was in Christ, to reconcile the world to himself; and the Good News of reconciliation he has entrusted to us. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "2 Cor 5, 19"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. O Senhor reconciliou o mundo em Cristo, confiando-nos a sua Palavra da reconciliação a Palavra que hoje, aqui, nos salva. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cfr. 2Cor 5,19"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Dio ha riconciliato a sé il mondo in Cristo, affidando a noi la parola della riconciliazione. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "2 Cor 5, 19"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Dans le Christ, Dieu réconciliait le monde avec lui : il a mis dans notre bouche la parole de la réconciliation. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. 2 Kor 5, 19"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Gott hat in Christus die Welt mit sich versöhnt und uns das Wort von der Versöhnung anvertraut. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "2 Cor 5, 19",
           "es": "2 Cor 5, 19",
@@ -1761,6 +1640,179 @@
           "it": "Cfr. 2Cor 5,19",
           "fr": "2 Cor 5, 19",
           "de": "vgl. 2 Kor 5, 19"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Deus erat in Christo mundum reconcílians sibi, et pósuit in nobis verbum reconciliatiónis."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Dios estaba en Cristo reconciliando al mundo consigo, y ha puesto en nosotros el mensaje de la reconciliación."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "God was in Christ, to reconcile the world to himself; and the Good News of reconciliation he has entrusted to us."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "O Senhor reconciliou o mundo em Cristo, confiando-nos a sua Palavra da reconciliação a Palavra que hoje, aqui, nos salva."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Dio ha riconciliato a sé il mondo in Cristo, affidando a noi la parola della riconciliazione."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Dans le Christ, Dieu réconciliait le monde avec lui : il a mis dans notre bouche la parole de la réconciliation."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Gott hat in Christus die Welt mit sich versöhnt und uns das Wort von der Versöhnung anvertraut."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -2801,127 +2853,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. Mt 4, 23 Allelúia. Prædicábat Iesus Evangélium regni, et sanábat omnem infirmitátem in pópulo. Allelúia.",
-            "es": "Aleluya Cf. Mt 4, 23 Aleluya. Jesús proclamaba el evangelio del reino, y curaba toda dolencia del pueblo. Aleluya.",
-            "en": "Alleluia, alleluia. Jesus preached the Good News of the Kingdom and healed all who were sick. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Cf. Mt 4, 23 Aleluia, aleluia. Jesus pregava o Evangelho, a boa notícia do Reino e curava seu povo doente de todos os males, sua gente! Aleluia.",
-            "it": "Canto al Vangelo Cfr. Mt 4,23 Alleluia, alleluia. Gesù annunciava il vangelo del Regno e guariva ogni sorta di infermità nel popolo. Alleluia.",
-            "fr": "Alléluia Cf. Mt 4, 23 Alléluia Jésus proclamait l’Évangile du Royaume et guérissait toute maladie dans le peuple. Alléluia.",
-            "de": "Ruf vor dem Evangelium Mt 4, 23b Halleluja. Halleluja. Jesus verkündete das Evangelium vom Reich und heilte im Volk alle Krankheiten und Leiden. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Mt 4, 23"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Prædicábat Iesus Evangélium regni, et sanábat omnem infirmitátem in pópulo. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Mt 4, 23"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Jesús proclamaba el evangelio del reino, y curaba toda dolencia del pueblo. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Jesus preached the Good News of the Kingdom and healed all who were sick. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Mt 4, 23"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Jesus pregava o Evangelho, a boa notícia do Reino e curava seu povo doente de todos os males, sua gente! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cfr. Mt 4,23"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Gesù annunciava il vangelo del Regno e guariva ogni sorta di infermità nel popolo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Mt 4, 23"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Jésus proclamait l’Évangile du Royaume et guérissait toute maladie dans le peuple. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 4, 23b"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Jesus verkündete das Evangelium vom Reich und heilte im Volk alle Krankheiten und Leiden. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Mt 4, 23",
           "es": "Cf. Mt 4, 23",
@@ -2929,6 +2860,179 @@
           "it": "Cfr. Mt 4,23",
           "fr": "Cf. Mt 4, 23",
           "de": "Mt 4, 23b"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Prædicábat Iesus Evangélium regni, et sanábat omnem infirmitátem in pópulo."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Jesús proclamaba el evangelio del reino, y curaba toda dolencia del pueblo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Jesus preached the Good News of the Kingdom and healed all who were sick."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Jesus pregava o Evangelho, a boa notícia do Reino e curava seu povo doente de todos os males, sua gente!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Gesù annunciava il vangelo del Regno e guariva ogni sorta di infermità nel popolo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Jésus proclamait l’Évangile du Royaume et guérissait toute maladie dans le peuple."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Jesus verkündete das Evangelium vom Reich und heilte im Volk alle Krankheiten und Leiden."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -4181,127 +4285,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Ps 118, 135 Allelúia. Fáciem tuam illúmina super servum tuum, et doce me iustificatiónes tuas. Allelúia.",
-            "es": "Aleluya Sal 118, 135 Aleluya. Haz brillar tu rostro sobre tu siervo, enséñame tus decretos. Aleluya.",
-            "en": "Alleluia, alleluia. Let your face shine on your servant, and teach me your laws. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Sal 118, 135 Aleluia, aleluia. Fazei brilhar vosso semblante ao vosso servo e ensinai-me vossas leis e mandamentos! Aleluia.",
-            "it": "Canto al Vangelo Sal 118, 135 Alleluia, alleluia. Fa' risplendere il tuo volto sul tuo servo e insegnami i tuoi decreti. Alleluia.",
-            "fr": "Alléluia Ps 118, 135 Alléluia Pour ton serviteur, que ton visage s’illumine : apprends-moi tes commandements. Alléluia.",
-            "de": "Ruf vor dem Evangelium Ps 119 (118), 135 Halleluja. Halleluja. Lass dein Angesicht leuchten über deinem Knecht, und lehre mich deine Gesetze. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 118, 135"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Fáciem tuam illúmina super servum tuum, et doce me iustificatiónes tuas. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Sal 118, 135"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Haz brillar tu rostro sobre tu siervo, enséñame tus decretos. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Let your face shine on your servant, and teach me your laws. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Sal 118, 135"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Fazei brilhar vosso semblante ao vosso servo e ensinai-me vossas leis e mandamentos! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Sal 118, 135"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Fa' risplendere il tuo volto sul tuo servo e insegnami i tuoi decreti. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 118, 135"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Pour ton serviteur, que ton visage s’illumine : apprends-moi tes commandements. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 119 (118), 135"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Lass dein Angesicht leuchten über deinem Knecht, und lehre mich deine Gesetze. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Ps 118, 135",
           "es": "Sal 118, 135",
@@ -4309,6 +4292,179 @@
           "it": "Sal 118, 135",
           "fr": "Ps 118, 135",
           "de": "Ps 119 (118), 135"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Fáciem tuam illúmina super servum tuum, et doce me iustificatiónes tuas."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Haz brillar tu rostro sobre tu siervo, enséñame tus decretos."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Let your face shine on your servant, and teach me your laws."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Fazei brilhar vosso semblante ao vosso servo e ensinai-me vossas leis e mandamentos!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Fa' risplendere il tuo volto sul tuo servo e insegnami i tuoi decreti."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Pour ton serviteur, que ton visage s’illumine : apprends-moi tes commandements."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Lass dein Angesicht leuchten über deinem Knecht, und lehre mich deine Gesetze."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

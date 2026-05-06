@@ -759,127 +759,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. 2 Tim 1, 10 Allelúia. Salvátor noster Iesus Christus destrúxit mortem, et illuminávit vitam per Evangelium Allelúia.",
-            "es": "Aleluya Cf. 2 Tim 1, 10 Aleluya. Nuestro Salvador, Cristo Jesús, destruyó la muerte, e hizo brillar la vida por medio del Evangelio. Aleluya.",
-            "en": "Alleluia, alleluia. Our Saviour Jesus Christ has done away with death, and brought us life through his gospel. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Cf. 2 Tim 1, 10 Aleluia, aleluia. Jesus Cristo Salvador destruiu o mal e a morte; fez brilhar pelo Evangelho a luz e a vida imperecíveis. Aleluia.",
-            "it": "Canto al Vangelo Cfr. 2Tm 1,10 Alleluia, alleluia. Il salvatore nostro Cristo Gesù ha vinto la morte e ha fatto risplendere la vita per mezzo del Vangelo. Alleluia.",
-            "fr": "Alléluia Cf. 2 Tim 1, 10 Alléluia Notre Sauveur, le Christ Jésus, a détruit la mort ; il a fait resplendir la vie par l’Évangile. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. 2 Tim 1, 10 Halleluja. Halleluja. Unser Retter Jesus Christus hat dem Tod die Macht genommen und uns das Licht des Lebens gebracht durch das Evangelium. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. 2 Tim 1, 10"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Salvátor noster Iesus Christus destrúxit mortem, et illuminávit vitam per Evangelium Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. 2 Tim 1, 10"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Nuestro Salvador, Cristo Jesús, destruyó la muerte, e hizo brillar la vida por medio del Evangelio. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Our Saviour Jesus Christ has done away with death, and brought us life through his gospel. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. 2 Tim 1, 10"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Jesus Cristo Salvador destruiu o mal e a morte; fez brilhar pelo Evangelho a luz e a vida imperecíveis. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cfr. 2Tm 1,10"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Il salvatore nostro Cristo Gesù ha vinto la morte e ha fatto risplendere la vita per mezzo del Vangelo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. 2 Tim 1, 10"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Notre Sauveur, le Christ Jésus, a détruit la mort ; il a fait resplendir la vie par l’Évangile. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. 2 Tim 1, 10"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Unser Retter Jesus Christus hat dem Tod die Macht genommen und uns das Licht des Lebens gebracht durch das Evangelium. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. 2 Tim 1, 10",
           "es": "Cf. 2 Tim 1, 10",
@@ -887,6 +766,179 @@
           "it": "Cfr. 2Tm 1,10",
           "fr": "Cf. 2 Tim 1, 10",
           "de": "vgl. 2 Tim 1, 10"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Salvátor noster Iesus Christus destrúxit mortem, et illuminávit vitam per Evangelium"
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Nuestro Salvador, Cristo Jesús, destruyó la muerte, e hizo brillar la vida por medio del Evangelio."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Our Saviour Jesus Christ has done away with death, and brought us life through his gospel."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Jesus Cristo Salvador destruiu o mal e a morte; fez brilhar pelo Evangelho a luz e a vida imperecíveis."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Il salvatore nostro Cristo Gesù ha vinto la morte e ha fatto risplendere la vita per mezzo del Vangelo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Notre Sauveur, le Christ Jésus, a détruit la mort ; il a fait resplendir la vie par l’Évangile."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Unser Retter Jesus Christus hat dem Tod die Macht genommen und uns das Licht des Lebens gebracht durch das Evangelium."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -1877,127 +1929,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. 2 Tim 1, 10 Allelúia. Salvátor noster Iesus Christus destrúxit mortem, et illuminávit vitam per Evangelium Allelúia.",
-            "es": "Aleluya Cf. 2 Tim 1, 10 Aleluya. Nuestro Salvador, Cristo Jesús, destruyó la muerte, e hizo brillar la vida por medio del Evangelio. Aleluya.",
-            "en": "Alleluia, alleluia. Our Saviour Jesus Christ has done away with death, and brought us life through his gospel. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Cf. 2 Tim 1, 10 Aleluia, aleluia. Jesus Cristo Salvador destruiu o mal e a morte; fez brilhar pelo Evangelho a luz e a vida imperecíveis. Aleluia.",
-            "it": "Canto al Vangelo Cfr. 2Tm 1,10 Alleluia, alleluia. Il salvatore nostro Cristo Gesù ha vinto la morte e ha fatto risplendere la vita per mezzo del Vangelo. Alleluia.",
-            "fr": "Alléluia Cf. 2 Tim 1, 10 Alléluia Notre Sauveur, le Christ Jésus, a détruit la mort ; il a fait resplendir la vie par l’Évangile. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. 2 Tim 1, 10 Halleluja. Halleluja. Unser Retter Jesus Christus hat dem Tod die Macht genommen und uns das Licht des Lebens gebracht durch das Evangelium. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. 2 Tim 1, 10"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Salvátor noster Iesus Christus destrúxit mortem, et illuminávit vitam per Evangelium Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. 2 Tim 1, 10"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Nuestro Salvador, Cristo Jesús, destruyó la muerte, e hizo brillar la vida por medio del Evangelio. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Our Saviour Jesus Christ has done away with death, and brought us life through his gospel. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. 2 Tim 1, 10"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Jesus Cristo Salvador destruiu o mal e a morte; fez brilhar pelo Evangelho a luz e a vida imperecíveis. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cfr. 2Tm 1,10"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Il salvatore nostro Cristo Gesù ha vinto la morte e ha fatto risplendere la vita per mezzo del Vangelo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. 2 Tim 1, 10"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Notre Sauveur, le Christ Jésus, a détruit la mort ; il a fait resplendir la vie par l’Évangile. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. 2 Tim 1, 10"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Unser Retter Jesus Christus hat dem Tod die Macht genommen und uns das Licht des Lebens gebracht durch das Evangelium. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. 2 Tim 1, 10",
           "es": "Cf. 2 Tim 1, 10",
@@ -2005,6 +1936,179 @@
           "it": "Cfr. 2Tm 1,10",
           "fr": "Cf. 2 Tim 1, 10",
           "de": "vgl. 2 Tim 1, 10"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Salvátor noster Iesus Christus destrúxit mortem, et illuminávit vitam per Evangelium"
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Nuestro Salvador, Cristo Jesús, destruyó la muerte, e hizo brillar la vida por medio del Evangelio."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Our Saviour Jesus Christ has done away with death, and brought us life through his gospel."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Jesus Cristo Salvador destruiu o mal e a morte; fez brilhar pelo Evangelho a luz e a vida imperecíveis."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Il salvatore nostro Cristo Gesù ha vinto la morte e ha fatto risplendere la vita per mezzo del Vangelo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Notre Sauveur, le Christ Jésus, a détruit la mort ; il a fait resplendir la vie par l’Évangile."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Unser Retter Jesus Christus hat dem Tod die Macht genommen und uns das Licht des Lebens gebracht durch das Evangelium."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

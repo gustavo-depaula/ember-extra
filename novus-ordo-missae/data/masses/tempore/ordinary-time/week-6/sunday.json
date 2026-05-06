@@ -1635,125 +1635,185 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. Mt 11, 25 Allelúia. Benedíctus es, Pater, Dómine cæli et terræ, quia mystéria regni párvulis revelásti. Allelúia.",
-            "es": "Aleluya Cf. Mt 11, 25 Aleluya. Bendito seas, Padre, Señor del cielo y de la tierra, porque has revelado los misterios del reino a los pequeños. Aleluya.",
-            "en": "Alleluia, alleluia. Blessed are you, Father, Lord of heaven and earth; you have revealed to little ones the mysteries of the kingdom. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Cf. Mt 11, 25 Aleluia, aleluia. Eu te louvo, ó Pai santo, Deus do céu, Senhor da os mistérios do teu Reino aos pequenos, Pai, revelas. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Ti rendo lode, Padre, Signore del cielo e della terra, perché ai piccoli hai rivelato i misteri del Regno. Alleluia.",
-            "fr": "Alléluia Cf. Mt 11, 25 Alléluia Tu es béni, Père, Seigneur du ciel et de la terre, tu as révélé aux tout-petits les mystères du Royaume ! Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Mt 11, 25 Halleluja. Halleluja. Sei gepriesen, Vater, Herr des Himmels und der Erde; du hast die Geheimnisse des Reiches den Unmündigen offenbart. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Mt 11, 25"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Benedíctus es, Pater, Dómine cæli et terræ, quia mystéria regni párvulis revelásti. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Mt 11, 25"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Bendito seas, Padre, Señor del cielo y de la tierra, porque has revelado los misterios del reino a los pequeños. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Blessed are you, Father, Lord of heaven and earth; you have revealed to little ones the mysteries of the kingdom. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Mt 11, 25"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Eu te louvo, ó Pai santo, Deus do céu, Senhor da os mistérios do teu Reino aos pequenos, Pai, revelas. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Ti rendo lode, Padre, Signore del cielo e della terra, perché ai piccoli hai rivelato i misteri del Regno. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Mt 11, 25"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Tu es béni, Père, Seigneur du ciel et de la terre, tu as révélé aux tout-petits les mystères du Royaume ! Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Mt 11, 25"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Sei gepriesen, Vater, Herr des Himmels und der Erde; du hast die Geheimnisse des Reiches den Unmündigen offenbart. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Mt 11, 25",
           "es": "Cf. Mt 11, 25",
           "pt-BR": "Cf. Mt 11, 25",
           "fr": "Cf. Mt 11, 25",
           "de": "vgl. Mt 11, 25"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Benedíctus es, Pater, Dómine cæli et terræ, quia mystéria regni párvulis revelásti."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Bendito seas, Padre, Señor del cielo y de la tierra, porque has revelado los misterios del reino a los pequeños."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Blessed are you, Father, Lord of heaven and earth; you have revealed to little ones the mysteries of the kingdom."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Eu te louvo, ó Pai santo, Deus do céu, Senhor da os mistérios do teu Reino aos pequenos, Pai, revelas."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Ti rendo lode, Padre, Signore del cielo e della terra, perché ai piccoli hai rivelato i misteri del Regno."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Tu es béni, Père, Seigneur du ciel et de la terre, tu as révélé aux tout-petits les mystères du Royaume !"
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Sei gepriesen, Vater, Herr des Himmels und der Erde; du hast die Geheimnisse des Reiches den Unmündigen offenbart."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -2873,127 +2933,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Lc 7, 16 Allelúia. Prophéta magnus surréxit in nobis, et Deus visitávit plebem suam. Allelúia.",
-            "es": "Aleluya Lc 7, 16 Aleluya. Un gran Profeta ha surgido entre nosotros. Dios ha visitado a su pueblo. Aleluya.",
-            "en": "Alleluia, alleluia. A great prophet has appeared among us; God has visited his people. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Lc 7, 16 Aleluia, aleluia. Um grande profeta sugiu, surgiu e entre nós se mostou; é Deus que seu povo visita, seu povo, meu Deus visitou! Aleluia.",
-            "it": "Canto al Vangelo Lc 7,16 Alleluia, alleluia. Un grande profeta è sorto tra noi, e Dio ha visitato il suo popolo. Alleluia.",
-            "fr": "Alléluia Lc 7, 16 Alléluia Un grand prophète s’est levé parmi nous, et Dieu a visité son peuple. Alléluia.",
-            "de": "Ruf vor dem Evangelium Lk 7, 16 Halleluja. Halleluja. Ein großer Prophet trat unter uns auf: Gott nahm sich seines Volkes an. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 7, 16"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Prophéta magnus surréxit in nobis, et Deus visitávit plebem suam. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 7, 16"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Un gran Profeta ha surgido entre nosotros. Dios ha visitado a su pueblo. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. A great prophet has appeared among us; God has visited his people. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 7, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Um grande profeta sugiu, surgiu e entre nós se mostou; é Deus que seu povo visita, seu povo, meu Deus visitou! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 7,16"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Un grande profeta è sorto tra noi, e Dio ha visitato il suo popolo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 7, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Un grand prophète s’est levé parmi nous, et Dieu a visité son peuple. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lk 7, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Ein großer Prophet trat unter uns auf: Gott nahm sich seines Volkes an. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Lc 7, 16",
           "es": "Lc 7, 16",
@@ -3001,6 +2940,179 @@
           "it": "Lc 7,16",
           "fr": "Lc 7, 16",
           "de": "Lk 7, 16"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Prophéta magnus surréxit in nobis, et Deus visitávit plebem suam."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Un gran Profeta ha surgido entre nosotros. Dios ha visitado a su pueblo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "A great prophet has appeared among us; God has visited his people."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Um grande profeta sugiu, surgiu e entre nós se mostou; é Deus que seu povo visita, seu povo, meu Deus visitou!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Un grande profeta è sorto tra noi, e Dio ha visitato il suo popolo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Un grand prophète s’est levé parmi nous, et Dieu a visité son peuple."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Ein großer Prophet trat unter uns auf: Gott nahm sich seines Volkes an."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -4053,125 +4165,185 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Lc 6, 23ab Allelúia. Gaudéte in illa die et exsultáte, dicit Dóminus; ecce enim merces vestra multa in cælo. Allelúia.",
-            "es": "Aleluya Lc 6, 23ab Aleluya. Alegraos y saltad de gozo —dice el Señor—, porque vuestra recompensa será grande en el cielo. Aleluya.",
-            "en": "Alleluia, alleluia. Rejoice and be glad; your reward will be great in heaven. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Lc 6, 23ab Aleluia, aleluia. Ficai muito alegres, saltai de alegria, pois tendes um prêmo bem grande nos céus. Ficai muito alegres, saltai de alegria. Amém! Aleluia, Aleluia!. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Rallegratevi ed esultate, dice il Signore, perché, ecco, la vostra ricompensa è grande nel cielo. Alleluia.",
-            "fr": "Alléluia Lc 6, 23ab Alléluia Réjouissez-vous, tressaillez de joie, dit le Seigneur, car votre récompense est grande dans le ciel. Alléluia.",
-            "de": "Ruf vor dem Evangelium Lk 6, 23ab Halleluja. Halleluja. (So spricht der Herr:) Freut euch und jubelt! Euer Lohn im Himmel wird groß sein. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 6, 23ab"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Gaudéte in illa die et exsultáte, dicit Dóminus; ecce enim merces vestra multa in cælo. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 6, 23ab"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Alegraos y saltad de gozo —dice el Señor—, porque vuestra recompensa será grande en el cielo. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Rejoice and be glad; your reward will be great in heaven. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 6, 23ab"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Ficai muito alegres, saltai de alegria, pois tendes um prêmo bem grande nos céus. Ficai muito alegres, saltai de alegria. Amém! Aleluia, Aleluia!. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Rallegratevi ed esultate, dice il Signore, perché, ecco, la vostra ricompensa è grande nel cielo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 6, 23ab"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Réjouissez-vous, tressaillez de joie, dit le Seigneur, car votre récompense est grande dans le ciel. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lk 6, 23ab"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Freut euch und jubelt! Euer Lohn im Himmel wird groß sein. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Lc 6, 23ab",
           "es": "Lc 6, 23ab",
           "pt-BR": "Lc 6, 23ab",
           "fr": "Lc 6, 23ab",
           "de": "Lk 6, 23ab"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Gaudéte in illa die et exsultáte, dicit Dóminus; ecce enim merces vestra multa in cælo."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Alegraos y saltad de gozo —dice el Señor—, porque vuestra recompensa será grande en el cielo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Rejoice and be glad; your reward will be great in heaven."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Ficai muito alegres, saltai de alegria, pois tendes um prêmo bem grande nos céus. Ficai muito alegres, saltai de alegria. Amém! Aleluia, Aleluia!."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Rallegratevi ed esultate, dice il Signore, perché, ecco, la vostra ricompensa è grande nel cielo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Réjouissez-vous, tressaillez de joie, dit le Seigneur, car votre récompense est grande dans le ciel."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Freut euch und jubelt! Euer Lohn im Himmel wird groß sein."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

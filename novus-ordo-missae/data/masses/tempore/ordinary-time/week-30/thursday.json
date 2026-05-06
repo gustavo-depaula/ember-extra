@@ -831,127 +831,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. Lc 19, 38; 2, 14 Allelúia. Benedíctus qui venit rex in nómine Dómini; pax in cælo et glória in excélsis. Allelúia.",
-            "es": "Aleluya Cf. Lc 19, 38; 2, 14 Aleluya. Bendito el rey que viene en nombre del Señor; paz en el cielo y gloria en las alturas. Aleluya.",
-            "en": "Alleluia, alleluia. Blessed is he who comes as king in the name of the Lord, peace in heaven and glory in the highest! Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Cf. Lc 19, 38; 2, 14 Aleluia, aleluia. Bendito é o Rei que vem em nome do Senhor! Glória a Deus nos altos céus e na terra paz aos homens! Aleluia.",
-            "it": "Canto al Vangelo Cfr. Lc 19,38 Alleluia, alleluia. Benedetto colui che viene, il re, nel nome del Signore. Pace in cielo e gloria nel più alto dei cieli. Alleluia.",
-            "fr": "Alléluia Cf. Lc 19, 38; 2, 14 Alléluia Béni soit notre roi, celui qui vient au nom du Seigneur. Paix dans le ciel et gloire au plus haut des cieux ! Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Lk 19, 38 Halleluja. Halleluja. Gepriesen sei der König, der kommt im Namen des Herrn. Im Himmel Friede und Herrlichkeit in der Höhe! Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Lc 19, 38; 2, 14"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Benedíctus qui venit rex in nómine Dómini; pax in cælo et glória in excélsis. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Lc 19, 38; 2, 14"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Bendito el rey que viene en nombre del Señor; paz en el cielo y gloria en las alturas. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Blessed is he who comes as king in the name of the Lord, peace in heaven and glory in the highest! Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Lc 19, 38; 2, 14"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Bendito é o Rei que vem em nome do Senhor! Glória a Deus nos altos céus e na terra paz aos homens! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cfr. Lc 19,38"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Benedetto colui che viene, il re, nel nome del Signore. Pace in cielo e gloria nel più alto dei cieli. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Lc 19, 38; 2, 14"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Béni soit notre roi, celui qui vient au nom du Seigneur. Paix dans le ciel et gloire au plus haut des cieux ! Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Lk 19, 38"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Gepriesen sei der König, der kommt im Namen des Herrn. Im Himmel Friede und Herrlichkeit in der Höhe! Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Lc 19, 38; 2, 14",
           "es": "Cf. Lc 19, 38; 2, 14",
@@ -959,6 +838,179 @@
           "it": "Cfr. Lc 19,38",
           "fr": "Cf. Lc 19, 38; 2, 14",
           "de": "vgl. Lk 19, 38"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Benedíctus qui venit rex in nómine Dómini; pax in cælo et glória in excélsis."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Bendito el rey que viene en nombre del Señor; paz en el cielo y gloria en las alturas."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Blessed is he who comes as king in the name of the Lord, peace in heaven and glory in the highest!"
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Bendito é o Rei que vem em nome do Senhor! Glória a Deus nos altos céus e na terra paz aos homens!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Benedetto colui che viene, il re, nel nome del Signore. Pace in cielo e gloria nel più alto dei cieli."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Béni soit notre roi, celui qui vient au nom du Seigneur. Paix dans le ciel et gloire au plus haut des cieux !"
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Gepriesen sei der König, der kommt im Namen des Herrn. Im Himmel Friede und Herrlichkeit in der Höhe!"
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -1887,127 +1939,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. Lc 19, 38; 2, 14 Allelúia. Benedíctus qui venit rex in nómine Dómini; pax in cælo et glória in excélsis. Allelúia.",
-            "es": "Aleluya Cf. Lc 19, 38; 2, 14 Aleluya. Bendito el rey que viene en nombre del Señor; paz en el cielo y gloria en las alturas. Aleluya.",
-            "en": "Alleluia, alleluia. Blessed is he who comes as king in the name of the Lord, peace in heaven and glory in the highest! Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Cf. Lc 19, 38; 2, 14 Aleluia, aleluia. Bendito é o Rei que vem em nome do Senhor! Glória a Deus nos altos céus e na terra paz aos homens! Aleluia.",
-            "it": "Canto al Vangelo Cfr. Lc 19,38 Alleluia, alleluia. Benedetto colui che viene, il re, nel nome del Signore. Pace in cielo e gloria nel più alto dei cieli. Alleluia.",
-            "fr": "Alléluia Cf. Lc 19, 38; 2, 14 Alléluia Béni soit notre roi, celui qui vient au nom du Seigneur. Paix dans le ciel et gloire au plus haut des cieux ! Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Lk 19, 38 Halleluja. Halleluja. Gepriesen sei der König, der kommt im Namen des Herrn. Im Himmel Friede und Herrlichkeit in der Höhe! Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Lc 19, 38; 2, 14"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Benedíctus qui venit rex in nómine Dómini; pax in cælo et glória in excélsis. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Lc 19, 38; 2, 14"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Bendito el rey que viene en nombre del Señor; paz en el cielo y gloria en las alturas. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Blessed is he who comes as king in the name of the Lord, peace in heaven and glory in the highest! Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Lc 19, 38; 2, 14"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Bendito é o Rei que vem em nome do Senhor! Glória a Deus nos altos céus e na terra paz aos homens! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cfr. Lc 19,38"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Benedetto colui che viene, il re, nel nome del Signore. Pace in cielo e gloria nel più alto dei cieli. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Lc 19, 38; 2, 14"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Béni soit notre roi, celui qui vient au nom du Seigneur. Paix dans le ciel et gloire au plus haut des cieux ! Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Lk 19, 38"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Gepriesen sei der König, der kommt im Namen des Herrn. Im Himmel Friede und Herrlichkeit in der Höhe! Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Lc 19, 38; 2, 14",
           "es": "Cf. Lc 19, 38; 2, 14",
@@ -2015,6 +1946,179 @@
           "it": "Cfr. Lc 19,38",
           "fr": "Cf. Lc 19, 38; 2, 14",
           "de": "vgl. Lk 19, 38"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Benedíctus qui venit rex in nómine Dómini; pax in cælo et glória in excélsis."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Bendito el rey que viene en nombre del Señor; paz en el cielo y gloria en las alturas."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Blessed is he who comes as king in the name of the Lord, peace in heaven and glory in the highest!"
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Bendito é o Rei que vem em nome do Senhor! Glória a Deus nos altos céus e na terra paz aos homens!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Benedetto colui che viene, il re, nel nome del Signore. Pace in cielo e gloria nel più alto dei cieli."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Béni soit notre roi, celui qui vient au nom du Seigneur. Paix dans le ciel et gloire au plus haut des cieux !"
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Gepriesen sei der König, der kommt im Namen des Herrn. Im Himmel Friede und Herrlichkeit in der Höhe!"
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

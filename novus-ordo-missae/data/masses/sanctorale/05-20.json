@@ -404,127 +404,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 8, 12 Allelúia. Ego sum lux mundi, dicit Dóminus; qui séquitur me habébit lucem vitæ. Allelúia.",
-            "es": "Aleluya Jn 8, 12b Aleluya. Yo soy la luz del mundo —dice el Señor—; el que me sigue tendrá la luz de la vida. Aleluya.",
-            "en": "Alleluia, alleluia. I am the light of the world, says the Lord: the man who follows me will have the light of life. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 8, 12b Aleluia, aleluia. Eu sou a luz do mundo, aquele que me segue não caminha entre as trevas, mas terá a luz da vida. Aleluia.",
-            "it": "Canto al Vangelo Cf. Gv 8, 12 Alleluia, alleluia. Io sono la luce del mondo, dice il Signore; chi segue me, avrà la luce della vita. Alleluia.",
-            "fr": "Alléluia Io 8, 12 Alléluia Moi, je suis la lumière du monde, dit le Seigneur. Celui qui me suit aura la lumière de la vie. Alléluia.",
-            "de": "Ruf vor dem Evangelium Joh 8, 12 Halleluja. Halleluja. (So spricht der Herr:) Ich bin das Licht der Welt. Wer mir nachfolgt, hat das Licht des Lebens. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 8, 12"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Ego sum lux mundi, dicit Dóminus; qui séquitur me habébit lucem vitæ. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 8, 12b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Yo soy la luz del mundo —dice el Señor—; el que me sigue tendrá la luz de la vida. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. I am the light of the world, says the Lord: the man who follows me will have the light of life. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 8, 12b"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Eu sou a luz do mundo, aquele que me segue não caminha entre as trevas, mas terá a luz da vida. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Gv 8, 12"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Io sono la luce del mondo, dice il Signore; chi segue me, avrà la luce della vita. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 8, 12"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Moi, je suis la lumière du monde, dit le Seigneur. Celui qui me suit aura la lumière de la vie. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joh 8, 12"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Ich bin das Licht der Welt. Wer mir nachfolgt, hat das Licht des Lebens. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 8, 12",
           "es": "Jn 8, 12b",
@@ -532,6 +411,179 @@
           "it": "Cf. Gv 8, 12",
           "fr": "Io 8, 12",
           "de": "Joh 8, 12"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Ego sum lux mundi, dicit Dóminus; qui séquitur me habébit lucem vitæ."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Yo soy la luz del mundo —dice el Señor—; el que me sigue tendrá la luz de la vida."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "I am the light of the world, says the Lord: the man who follows me will have the light of life."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Eu sou a luz do mundo, aquele que me segue não caminha entre as trevas, mas terá a luz da vida."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Io sono la luce del mondo, dice il Signore; chi segue me, avrà la luce della vita."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Moi, je suis la lumière du monde, dit le Seigneur. Celui qui me suit aura la lumière de la vie."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Ich bin das Licht der Welt. Wer mir nachfolgt, hat das Licht des Lebens."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

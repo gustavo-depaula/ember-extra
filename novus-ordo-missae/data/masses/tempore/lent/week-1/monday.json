@@ -1711,123 +1711,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Versus ante Evangelium 2 Cor 6, 2b Ecce nunc témpus acceptábile, ecce nunc dies salútis.",
-            "es": "Versículo antes del Evangelio 2 Cor 6, 2b Ahora es el tiempo favorable, ahora es el día de la salvación.",
-            "en": "This is the favorable time, this is the day of salvation.",
-            "pt-BR": "Aclamação ao Evangelho 2 Cor 6, 2b Eis o tempo de conversão eis o dia da salvação.",
-            "it": "Canto al Vangelo (2 Cor 6,2) Lode a te, o Cristo, re di eterna gloria! Ecco ora il momento favorevole, ecco ora il giorno della salvezza! Lode a te, o Cristo, re di eterna gloria!",
-            "fr": "Verset avant l’Évangile 2 Cor 6, 2b Louange à toi, Seigneur, Roi d’éternelle gloire ! Voici maintenant le moment favorable, voici maintenant le jour du salut. Louange à toi, Seigneur, Roi d’éternelle gloire !",
-            "de": "Ruf vor dem Evangelium 2 Kor 6, 2b Herr Jesus, dir sei Ruhm und Ehre! Jetzt ist sie da, die Zeit der Gnade; jetzt ist er da, der Tag der Rettung. Herr Jesus, dir sei Ruhm und Ehre!"
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versus ante Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "2 Cor 6, 2b"
-                },
-                {
-                  "type": "text",
-                  "text": "Ecce nunc témpus acceptábile, ecce nunc dies salútis."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versículo antes del Evangelio"
-                },
-                {
-                  "type": "reference",
-                  "text": "2 Cor 6, 2b"
-                },
-                {
-                  "type": "text",
-                  "text": "Ahora es el tiempo favorable, ahora es el día de la salvación."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "This is the favorable time, this is the day of salvation."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "2 Cor 6, 2b"
-                },
-                {
-                  "type": "text",
-                  "text": "Eis o tempo de conversão eis o dia da salvação."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(2 Cor 6,2)"
-                },
-                {
-                  "type": "text",
-                  "text": "Lode a te, o Cristo, re di eterna gloria! Ecco ora il momento favorevole, ecco ora il giorno della salvezza! Lode a te, o Cristo, re di eterna gloria!"
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Verset avant l’Évangile"
-                },
-                {
-                  "type": "reference",
-                  "text": "2 Cor 6, 2b"
-                },
-                {
-                  "type": "text",
-                  "text": "Louange à toi, Seigneur, Roi d’éternelle gloire ! Voici maintenant le moment favorable, voici maintenant le jour du salut. Louange à toi, Seigneur, Roi d’éternelle gloire !"
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "2 Kor 6, 2b"
-                },
-                {
-                  "type": "text",
-                  "text": "Herr Jesus, dir sei Ruhm und Ehre! Jetzt ist sie da, die Zeit der Gnade; jetzt ist er da, der Tag der Rettung. Herr Jesus, dir sei Ruhm und Ehre!"
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "2 Cor 6, 2b",
           "es": "2 Cor 6, 2b",
@@ -1835,6 +1718,65 @@
           "it": "(2 Cor 6,2)",
           "fr": "2 Cor 6, 2b",
           "de": "2 Kor 6, 2b"
+        },
+        "mode": "versus-ante-evangelium",
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "text",
+                "text": "Ecce nunc témpus acceptábile, ecce nunc dies salútis."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "text",
+                "text": "Ahora es el tiempo favorable, ahora es el día de la salvación."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "text",
+                "text": "This is the favorable time, this is the day of salvation."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "Eis o tempo de conversão eis o dia da salvação."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "Lode a te, o Cristo, re di eterna gloria! Ecco ora il momento favorevole, ecco ora il giorno della salvezza! Lode a te, o Cristo, re di eterna gloria!"
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Louange à toi, Seigneur, Roi d’éternelle gloire ! Voici maintenant le moment favorable, voici maintenant le jour du salut. Louange à toi, Seigneur, Roi d’éternelle gloire !"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "text",
+                "text": "Herr Jesus, dir sei Ruhm und Ehre! Jetzt ist sie da, die Zeit der Gnade; jetzt ist er da, der Tag der Rettung. Herr Jesus, dir sei Ruhm und Ehre!"
+              }
+            ]
+          ]
         }
       },
       "gospel": {

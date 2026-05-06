@@ -873,127 +873,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. Ps 94, 8 Allelúia. Hódie, nolíte obduráre corda vestra, sed vocem Dómini audíte. Allelúia.",
-            "es": "Aleluya Cf. Ps 94, 8 Aleluya. No endurezcáis hoy vuestro corazón; escuchad la voz del Señor. Aleluya.",
-            "en": "Alleluia, alleluia. If today you hear his voice, harden not your hearts. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Cf. Ps 94, 8 Aleluia, aleluia. Oxalá ouvisseis hoje a sua voz. Não feheis os corações como em Mariba! Aleluia.",
-            "it": "Canto al Vangelo Cfr. Sal 94, 8ab Alleluia, alleluia. Oggi non indurite il vostro cuore, ma ascoltate la voce del Signore. Alleluia.",
-            "fr": "Alléluia Cf. Ps 94, 8 Alléluia Aujourd’hui, ne fermez pas votre cœur, mais écoutez la voix du Seigneur. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Ps 95 (94), 7d. 8a Halleluja. Halleluja. Wenn ihr heute seine Stimme hört, verhärtet nicht euer Herz! Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Ps 94, 8"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Hódie, nolíte obduráre corda vestra, sed vocem Dómini audíte. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Ps 94, 8"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. No endurezcáis hoy vuestro corazón; escuchad la voz del Señor. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. If today you hear his voice, harden not your hearts. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Ps 94, 8"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Oxalá ouvisseis hoje a sua voz. Não feheis os corações como em Mariba! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cfr. Sal 94, 8ab"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Oggi non indurite il vostro cuore, ma ascoltate la voce del Signore. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Ps 94, 8"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Aujourd’hui, ne fermez pas votre cœur, mais écoutez la voix du Seigneur. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Ps 95 (94), 7d. 8a"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Wenn ihr heute seine Stimme hört, verhärtet nicht euer Herz! Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Ps 94, 8",
           "es": "Cf. Ps 94, 8",
@@ -1001,6 +880,179 @@
           "it": "Cfr. Sal 94, 8ab",
           "fr": "Cf. Ps 94, 8",
           "de": "vgl. Ps 95 (94), 7d. 8a"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Hódie, nolíte obduráre corda vestra, sed vocem Dómini audíte."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "No endurezcáis hoy vuestro corazón; escuchad la voz del Señor."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "If today you hear his voice, harden not your hearts."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Oxalá ouvisseis hoje a sua voz. Não feheis os corações como em Mariba!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Oggi non indurite il vostro cuore, ma ascoltate la voce del Signore."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Aujourd’hui, ne fermez pas votre cœur, mais écoutez la voix du Seigneur."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Wenn ihr heute seine Stimme hört, verhärtet nicht euer Herz!"
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -2173,127 +2225,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. Ps 94, 8 Allelúia. Hódie, nolíte obduráre corda vestra, sed vocem Dómini audíte. Allelúia.",
-            "es": "Aleluya Cf. Ps 94, 8 Aleluya. No endurezcáis hoy vuestro corazón; escuchad la voz del Señor. Aleluya.",
-            "en": "Alleluia, alleluia. If today you hear his voice, harden not your hearts. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Cf. Ps 94, 8 Aleluia, aleluia. Oxalá ouvisseis hoje a sua voz. Não feheis os corações como em Mariba! Aleluia.",
-            "it": "Canto al Vangelo Cfr. Sal 94, 8ab Alleluia, alleluia. Oggi non indurite il vostro cuore, ma ascoltate la voce del Signore. Alleluia.",
-            "fr": "Alléluia Cf. Ps 94, 8 Alléluia Aujourd’hui, ne fermez pas votre cœur, mais écoutez la voix du Seigneur. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Ps 95 (94), 7d. 8a Halleluja. Halleluja. Wenn ihr heute seine Stimme hört, verhärtet nicht euer Herz! Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Ps 94, 8"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Hódie, nolíte obduráre corda vestra, sed vocem Dómini audíte. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Ps 94, 8"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. No endurezcáis hoy vuestro corazón; escuchad la voz del Señor. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. If today you hear his voice, harden not your hearts. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Ps 94, 8"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Oxalá ouvisseis hoje a sua voz. Não feheis os corações como em Mariba! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cfr. Sal 94, 8ab"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Oggi non indurite il vostro cuore, ma ascoltate la voce del Signore. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Ps 94, 8"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Aujourd’hui, ne fermez pas votre cœur, mais écoutez la voix du Seigneur. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Ps 95 (94), 7d. 8a"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Wenn ihr heute seine Stimme hört, verhärtet nicht euer Herz! Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Ps 94, 8",
           "es": "Cf. Ps 94, 8",
@@ -2301,6 +2232,179 @@
           "it": "Cfr. Sal 94, 8ab",
           "fr": "Cf. Ps 94, 8",
           "de": "vgl. Ps 95 (94), 7d. 8a"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Hódie, nolíte obduráre corda vestra, sed vocem Dómini audíte."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "No endurezcáis hoy vuestro corazón; escuchad la voz del Señor."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "If today you hear his voice, harden not your hearts."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Oxalá ouvisseis hoje a sua voz. Não feheis os corações como em Mariba!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Oggi non indurite il vostro cuore, ma ascoltate la voce del Signore."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Aujourd’hui, ne fermez pas votre cœur, mais écoutez la voix du Seigneur."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Wenn ihr heute seine Stimme hört, verhärtet nicht euer Herz!"
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

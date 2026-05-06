@@ -801,131 +801,185 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Ps 118, 36a. 29b Allelúia. Inclína cor meum, Deus, in testimónia tua; et legem tuam da mihi benígne. Allelúia.",
-            "es": "Aleluya Sal 118, 36a. 29b Aleluya. Inclina mi corazón, oh, Dios, a tus preceptos; y dame la gracia de tu ley. Aleluya.",
-            "en": "Alleluia, alleluia. Turn my heart to do your will; teach me your law, O God. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Sal 118, 36a. 29b Aleluia, aleluia. Inclinai o meu coração às vossas advertências, e dai-me a vossa lei como um presente valioso!. Aleluia.",
-            "it": "Canto al Vangelo (Sal 118,36.29b) Alleluia, alleluia. Piega il mio cuore, o Dio, verso i tuoi insegnamenti; donami la grazia della tua legge. Alleluia.",
-            "fr": "Alléluia Ps 118, 36a. 29b Alléluia Incline mon cœur vers tes exigences ; fais-moi la grâce de ta loi, Seigneur. Alléluia.",
-            "de": "Ruf vor dem Evangelium Ps 119 (118), 36a. 29b Halleluja. Halleluja. Deinen Vorschriften neige mein Herz zu, Herr, begnade mich mit deiner Weisung! Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 118, 36a. 29b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Inclína cor meum, Deus, in testimónia tua; et legem tuam da mihi benígne. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Sal 118, 36a. 29b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Inclina mi corazón, oh, Dios, a tus preceptos; y dame la gracia de tu ley. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Turn my heart to do your will; teach me your law, O God. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Sal 118, 36a. 29b"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Inclinai o meu coração às vossas advertências, e dai-me a vossa lei como um presente valioso!. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo (Sal 118,36.29b)"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Piega il mio cuore, o Dio, verso i tuoi insegnamenti; donami la grazia della tua legge. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 118, 36a. 29b"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Incline mon cœur vers tes exigences ; fais-moi la grâce de ta loi, Seigneur. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 119 (118), 36a. 29b"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Deinen Vorschriften neige mein Herz zu, Herr, begnade mich mit deiner Weisung! Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Ps 118, 36a. 29b",
           "es": "Sal 118, 36a. 29b",
           "pt-BR": "Sal 118, 36a. 29b",
           "fr": "Ps 118, 36a. 29b",
           "de": "Ps 119 (118), 36a. 29b"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Inclína cor meum, Deus, in testimónia tua; et legem tuam da mihi benígne."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Inclina mi corazón, oh, Dios, a tus preceptos; y dame la gracia de tu ley."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Turn my heart to do your will; teach me your law, O God."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Inclinai o meu coração às vossas advertências, e dai-me a vossa lei como um presente valioso!."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "(Sal 118,36.29b)"
+              },
+              {
+                "type": "text",
+                "text": "Alleluia, alleluia. Piega il mio cuore, o Dio, verso i tuoi insegnamenti; donami la grazia della tua legge."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Incline mon cœur vers tes exigences ; fais-moi la grâce de ta loi, Seigneur."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Deinen Vorschriften neige mein Herz zu, Herr, begnade mich mit deiner Weisung!"
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -1984,131 +2038,185 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Ps 118, 36a. 29b Allelúia. Inclína cor meum, Deus, in testimónia tua; et legem tuam da mihi benígne. Allelúia.",
-            "es": "Aleluya Sal 118, 36a. 29b Aleluya. Inclina mi corazón, oh, Dios, a tus preceptos; y dame la gracia de tu ley. Aleluya.",
-            "en": "Alleluia, alleluia. Turn my heart to do your will; teach me your law, O God. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Sal 118, 36a. 29b Aleluia, aleluia. Inclinai o meu coração às vossas advertências, e dai-me a vossa lei como um presente valioso!. Aleluia.",
-            "it": "Canto al Vangelo (Sal 118,36.29b) Alleluia, alleluia. Piega il mio cuore, o Dio, verso i tuoi insegnamenti; donami la grazia della tua legge. Alleluia.",
-            "fr": "Alléluia Ps 118, 36a. 29b Alléluia Incline mon cœur vers tes exigences ; fais-moi la grâce de ta loi, Seigneur. Alléluia.",
-            "de": "Ruf vor dem Evangelium Ps 119 (118), 36a. 29b Halleluja. Halleluja. Deinen Vorschriften neige mein Herz zu, Herr, begnade mich mit deiner Weisung! Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 118, 36a. 29b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Inclína cor meum, Deus, in testimónia tua; et legem tuam da mihi benígne. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Sal 118, 36a. 29b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Inclina mi corazón, oh, Dios, a tus preceptos; y dame la gracia de tu ley. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Turn my heart to do your will; teach me your law, O God. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Sal 118, 36a. 29b"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Inclinai o meu coração às vossas advertências, e dai-me a vossa lei como um presente valioso!. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo (Sal 118,36.29b)"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Piega il mio cuore, o Dio, verso i tuoi insegnamenti; donami la grazia della tua legge. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 118, 36a. 29b"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Incline mon cœur vers tes exigences ; fais-moi la grâce de ta loi, Seigneur. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 119 (118), 36a. 29b"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Deinen Vorschriften neige mein Herz zu, Herr, begnade mich mit deiner Weisung! Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Ps 118, 36a. 29b",
           "es": "Sal 118, 36a. 29b",
           "pt-BR": "Sal 118, 36a. 29b",
           "fr": "Ps 118, 36a. 29b",
           "de": "Ps 119 (118), 36a. 29b"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Inclína cor meum, Deus, in testimónia tua; et legem tuam da mihi benígne."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Inclina mi corazón, oh, Dios, a tus preceptos; y dame la gracia de tu ley."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Turn my heart to do your will; teach me your law, O God."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Inclinai o meu coração às vossas advertências, e dai-me a vossa lei como um presente valioso!."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "(Sal 118,36.29b)"
+              },
+              {
+                "type": "text",
+                "text": "Alleluia, alleluia. Piega il mio cuore, o Dio, verso i tuoi insegnamenti; donami la grazia della tua legge."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Incline mon cœur vers tes exigences ; fais-moi la grâce de ta loi, Seigneur."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Deinen Vorschriften neige mein Herz zu, Herr, begnade mich mit deiner Weisung!"
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

@@ -789,127 +789,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Ap 1, 5 Allelúia. Iesu Christe, testis es fidélis, primogénitus mortuórum, dilexísti nos, et lavásti peccáta nostra in sánguine tuo. Allelúia.",
-            "es": "Aleluya Ap 1, 5 Aleluya. Jesucristo, eres el testigo fiel, el primogénito de entre los muertos; nos amaste y nos has librado de nuestros pecados con tu sangre. Aleluya.",
-            "en": "Alleluia, alleluia. Jesus Christ, you are the faithful witness, the first born from the dead; you have made us a kingdom of priests to serve our God and Father. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Ap 1, 5ab Aleluia, aleluia. Jesus Cristo, a fiel Testemunha, o Primogênito dos mortos, nos amou e do pecado nos lavou em seu sangue derramado. Aleluia.",
-            "it": "Canto al Vangelo (Cfr. Ap 1,5) Alleluia, alleluia. Gesù Cristo, testimone fedele, primogenito dei morti, tu ci hai amati e hai lavato i nostri peccati nel tuo sangue. Alleluia.",
-            "fr": "Alléluia Ap 1, 5 Alléluia Jésus Christ, témoin fidèle, premier-né d’entre les morts, tu nous aimes, et par ton sang tu nous délivres du péché. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Offb 1, 5ab Halleluja. Halleluja. Jesus Christus, du bist der treue Zeuge, der Erstgeborene der Toten. Du liebst uns und hast uns von unseren Sünden erlöst durch dein Blut. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ap 1, 5"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Iesu Christe, testis es fidélis, primogénitus mortuórum, dilexísti nos, et lavásti peccáta nostra in sánguine tuo. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ap 1, 5"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Jesucristo, eres el testigo fiel, el primogénito de entre los muertos; nos amaste y nos has librado de nuestros pecados con tu sangre. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Jesus Christ, you are the faithful witness, the first born from the dead; you have made us a kingdom of priests to serve our God and Father. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ap 1, 5ab"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Jesus Cristo, a fiel Testemunha, o Primogênito dos mortos, nos amou e do pecado nos lavou em seu sangue derramado. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Cfr. Ap 1,5)"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Gesù Cristo, testimone fedele, primogenito dei morti, tu ci hai amati e hai lavato i nostri peccati nel tuo sangue. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ap 1, 5"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Jésus Christ, témoin fidèle, premier-né d’entre les morts, tu nous aimes, et par ton sang tu nous délivres du péché. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Offb 1, 5ab"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Jesus Christus, du bist der treue Zeuge, der Erstgeborene der Toten. Du liebst uns und hast uns von unseren Sünden erlöst durch dein Blut. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Ap 1, 5",
           "es": "Ap 1, 5",
@@ -917,6 +796,179 @@
           "it": "(Cfr. Ap 1,5)",
           "fr": "Ap 1, 5",
           "de": "vgl. Offb 1, 5ab"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Iesu Christe, testis es fidélis, primogénitus mortuórum, dilexísti nos, et lavásti peccáta nostra in sánguine tuo."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Jesucristo, eres el testigo fiel, el primogénito de entre los muertos; nos amaste y nos has librado de nuestros pecados con tu sangre."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Jesus Christ, you are the faithful witness, the first born from the dead; you have made us a kingdom of priests to serve our God and Father."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Jesus Cristo, a fiel Testemunha, o Primogênito dos mortos, nos amou e do pecado nos lavou em seu sangue derramado."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Gesù Cristo, testimone fedele, primogenito dei morti, tu ci hai amati e hai lavato i nostri peccati nel tuo sangue."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Jésus Christ, témoin fidèle, premier-né d’entre les morts, tu nous aimes, et par ton sang tu nous délivres du péché."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Jesus Christus, du bist der treue Zeuge, der Erstgeborene der Toten. Du liebst uns und hast uns von unseren Sünden erlöst durch dein Blut."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -1847,127 +1899,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Ap 1, 5 Allelúia. Iesu Christe, testis es fidélis, primogénitus mortuórum, dilexísti nos, et lavásti peccáta nostra in sánguine tuo. Allelúia.",
-            "es": "Aleluya Ap 1, 5 Aleluya. Jesucristo, eres el testigo fiel, el primogénito de entre los muertos; nos amaste y nos has librado de nuestros pecados con tu sangre. Aleluya.",
-            "en": "Alleluia, alleluia. Jesus Christ, you are the faithful witness, the first born from the dead; you have made us a kingdom of priests to serve our God and Father. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Ap 1, 5ab Aleluia, aleluia. Jesus Cristo, a fiel Testemunha, o Primogênito dos mortos, nos amou e do pecado nos lavou em seu sangue derramado. Aleluia.",
-            "it": "Canto al Vangelo (Cfr. Ap 1,5) Alleluia, alleluia. Gesù Cristo, testimone fedele, primogenito dei morti, tu ci hai amati e hai lavato i nostri peccati nel tuo sangue. Alleluia.",
-            "fr": "Alléluia Ap 1, 5 Alléluia Jésus Christ, témoin fidèle, premier-né d’entre les morts, tu nous aimes, et par ton sang tu nous délivres du péché. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Offb 1, 5ab Halleluja. Halleluja. Jesus Christus, du bist der treue Zeuge, der Erstgeborene der Toten. Du liebst uns und hast uns von unseren Sünden erlöst durch dein Blut. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ap 1, 5"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Iesu Christe, testis es fidélis, primogénitus mortuórum, dilexísti nos, et lavásti peccáta nostra in sánguine tuo. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ap 1, 5"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Jesucristo, eres el testigo fiel, el primogénito de entre los muertos; nos amaste y nos has librado de nuestros pecados con tu sangre. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Jesus Christ, you are the faithful witness, the first born from the dead; you have made us a kingdom of priests to serve our God and Father. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ap 1, 5ab"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Jesus Cristo, a fiel Testemunha, o Primogênito dos mortos, nos amou e do pecado nos lavou em seu sangue derramado. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Cfr. Ap 1,5)"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Gesù Cristo, testimone fedele, primogenito dei morti, tu ci hai amati e hai lavato i nostri peccati nel tuo sangue. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ap 1, 5"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Jésus Christ, témoin fidèle, premier-né d’entre les morts, tu nous aimes, et par ton sang tu nous délivres du péché. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Offb 1, 5ab"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Jesus Christus, du bist der treue Zeuge, der Erstgeborene der Toten. Du liebst uns und hast uns von unseren Sünden erlöst durch dein Blut. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Ap 1, 5",
           "es": "Ap 1, 5",
@@ -1975,6 +1906,179 @@
           "it": "(Cfr. Ap 1,5)",
           "fr": "Ap 1, 5",
           "de": "vgl. Offb 1, 5ab"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Iesu Christe, testis es fidélis, primogénitus mortuórum, dilexísti nos, et lavásti peccáta nostra in sánguine tuo."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Jesucristo, eres el testigo fiel, el primogénito de entre los muertos; nos amaste y nos has librado de nuestros pecados con tu sangre."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Jesus Christ, you are the faithful witness, the first born from the dead; you have made us a kingdom of priests to serve our God and Father."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Jesus Cristo, a fiel Testemunha, o Primogênito dos mortos, nos amou e do pecado nos lavou em seu sangue derramado."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Gesù Cristo, testimone fedele, primogenito dei morti, tu ci hai amati e hai lavato i nostri peccati nel tuo sangue."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Jésus Christ, témoin fidèle, premier-né d’entre les morts, tu nous aimes, et par ton sang tu nous délivres du péché."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Jesus Christus, du bist der treue Zeuge, der Erstgeborene der Toten. Du liebst uns und hast uns von unseren Sünden erlöst durch dein Blut."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

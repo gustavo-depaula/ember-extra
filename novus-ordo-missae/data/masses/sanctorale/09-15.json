@@ -1919,86 +1919,162 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia, allelúia. Felix est beáta María Virgo, quæ sine morte méruit martýrii palmam sub cruce Dómini. Allelúia.",
-            "es": "Aleluya, aleluya. Dichosa es la bienaventurada Virgen María, que, sin morir, mereció la palma del martirio junto a la cruz del Señor. Aleluya.",
-            "en": "Alleluia, alleluia. Happy are you, O Blessed Virgin Mary, without dying you won the martyr's crown beside the cross of the Lord. Alleluia.",
-            "pt-BR": "Evangelho Mãe entre todas bendita, do Filho único aflita, a imensa dor assstia. ✠ Proclamação do Evangelho de Jesus Cristo segundo João 17, 1-9",
-            "it": "Canto al Vangelo Alleluia, alleluia. Beata la Vergine Maria, perché senza morire meritò, sotto la croce, la palma del martirio. Alleluia.",
-            "fr": "Alléluia, alléluia. Bienheureuse Vierge Marie ! Près de la croix du Seigneur, sans connaître la mort elle a mérité la gloire du martyre. Alléluia.",
-            "de": "Ruf vor dem Evangelium Halleluja. Halleluja. Selig bist du, Jungfrau Maria! Ohne den Tod zu erleiden, hast du die Palme des Martyriums verdient unter dem Kreuz des Herrn. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Felix est beáta María Virgo, quæ sine morte méruit martýrii palmam sub cruce Dómini. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Dichosa es la bienaventurada Virgen María, que, sin morir, mereció la palma del martirio junto a la cruz del Señor. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Happy are you, O Blessed Virgin Mary, without dying you won the martyr's crown beside the cross of the Lord. Alleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Beata la Vergine Maria, perché senza morire meritò, sotto la croce, la palma del martirio. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia, alléluia. Bienheureuse Vierge Marie ! Près de la croix du Seigneur, sans connaître la mort elle a mérité la gloire du martyre. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium Halleluja. Halleluja. Selig bist du, Jungfrau Maria! Ohne den Tod zu erleiden, hast du die Palme des Martyriums verdient unter dem Kreuz des Herrn. Halleluja."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Evangelho Mãe entre todas bendita, do Filho único aflita, a imensa dor assstia. ✠ Proclamação do Evangelho de Jesus Cristo segundo João 17, 1-9"
-                }
-              ]
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
             ]
-          }
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Felix est beáta María Virgo, quæ sine morte méruit martýrii palmam sub cruce Dómini."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Dichosa es la bienaventurada Virgen María, que, sin morir, mereció la palma del martirio junto a la cruz del Señor."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Happy are you, O Blessed Virgin Mary, without dying you won the martyr's crown beside the cross of the Lord."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Beata la Vergine Maria, perché senza morire meritò, sotto la croce, la palma del martirio."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Bienheureuse Vierge Marie ! Près de la croix du Seigneur, sans connaître la mort elle a mérité la gloire du martyre."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Selig bist du, Jungfrau Maria! Ohne den Tod zu erleiden, hast du die Palme des Martyriums verdient unter dem Kreuz des Herrn."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "Evangelho Mãe entre todas bendita, do Filho único aflita, a imensa dor assstia. ✠ Proclamação do Evangelho de Jesus Cristo segundo João 17, 1-9"
+              }
+            ]
+          ]
         }
       },
       "gospel": {

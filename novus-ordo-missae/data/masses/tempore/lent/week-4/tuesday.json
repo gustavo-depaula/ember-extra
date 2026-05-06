@@ -1595,123 +1595,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Versus ante Evangelium Ps 50, 12a. 14a Cor mundum crea in me, Deus. Redde mihi lætítiam salutáris tui.",
-            "es": "Versículo antes del Evangelio Ps 50, 12a. 14a Oh, Dios, crea en mí un corazón puro; y devuélveme la alegría de tu salvación.",
-            "en": "Create a clean heart in me, O God; give back to me the joy of your salvation.",
-            "pt-BR": "Aclamação ao Evangelho Salmo 50 (51), 12a.14a Criai em mim um coração que seja puro, dai-me de novo a alegria de ser salvo!",
-            "it": "Canto al Vangelo (Sal 50,12a.14a) Crea in me, o Dio un cuore puro; rendimi la gioia della tua salvezza. Gloria e lode a te, o Cristo, Verbo di Dio!",
-            "fr": "Verset avant l’Évangile Ps 50, 12a. 14a Gloire et louange à toi, Seigneur Jésus ! Crée en moi un cœur pur, ô mon Dieu ; rends-moi la joie d’être sauvé. Gloire et louange à toi, Seigneur Jésus !",
-            "de": "Ruf vor dem Evangelium Ps 51 (50), 12a. 14a Herr Jesus, dir sei Ruhm und Ehre! Erschaffe mir, Gott, ein reines Herz, mach mich wieder froh mit deinem Heil! Herr Jesus, dir sei Ruhm und Ehre!"
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versus ante Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 50, 12a. 14a"
-                },
-                {
-                  "type": "text",
-                  "text": "Cor mundum crea in me, Deus. Redde mihi lætítiam salutáris tui."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versículo antes del Evangelio"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 50, 12a. 14a"
-                },
-                {
-                  "type": "text",
-                  "text": "Oh, Dios, crea en mí un corazón puro; y devuélveme la alegría de tu salvación."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Create a clean heart in me, O God; give back to me the joy of your salvation."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Salmo 50 (51), 12a.14a"
-                },
-                {
-                  "type": "text",
-                  "text": "Criai em mim um coração que seja puro, dai-me de novo a alegria de ser salvo!"
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Sal 50,12a.14a)"
-                },
-                {
-                  "type": "text",
-                  "text": "Crea in me, o Dio un cuore puro; rendimi la gioia della tua salvezza. Gloria e lode a te, o Cristo, Verbo di Dio!"
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Verset avant l’Évangile"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 50, 12a. 14a"
-                },
-                {
-                  "type": "text",
-                  "text": "Gloire et louange à toi, Seigneur Jésus ! Crée en moi un cœur pur, ô mon Dieu ; rends-moi la joie d’être sauvé. Gloire et louange à toi, Seigneur Jésus !"
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 51 (50), 12a. 14a"
-                },
-                {
-                  "type": "text",
-                  "text": "Herr Jesus, dir sei Ruhm und Ehre! Erschaffe mir, Gott, ein reines Herz, mach mich wieder froh mit deinem Heil! Herr Jesus, dir sei Ruhm und Ehre!"
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Ps 50, 12a. 14a",
           "es": "Ps 50, 12a. 14a",
@@ -1719,6 +1602,65 @@
           "it": "(Sal 50,12a.14a)",
           "fr": "Ps 50, 12a. 14a",
           "de": "Ps 51 (50), 12a. 14a"
+        },
+        "mode": "versus-ante-evangelium",
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "text",
+                "text": "Cor mundum crea in me, Deus. Redde mihi lætítiam salutáris tui."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "text",
+                "text": "Oh, Dios, crea en mí un corazón puro; y devuélveme la alegría de tu salvación."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "text",
+                "text": "Create a clean heart in me, O God; give back to me the joy of your salvation."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "Criai em mim um coração que seja puro, dai-me de novo a alegria de ser salvo!"
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "Crea in me, o Dio un cuore puro; rendimi la gioia della tua salvezza. Gloria e lode a te, o Cristo, Verbo di Dio!"
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Gloire et louange à toi, Seigneur Jésus ! Crée en moi un cœur pur, ô mon Dieu ; rends-moi la joie d’être sauvé. Gloire et louange à toi, Seigneur Jésus !"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "text",
+                "text": "Herr Jesus, dir sei Ruhm und Ehre! Erschaffe mir, Gott, ein reines Herz, mach mich wieder froh mit deinem Heil! Herr Jesus, dir sei Ruhm und Ehre!"
+              }
+            ]
+          ]
         }
       },
       "gospel": {

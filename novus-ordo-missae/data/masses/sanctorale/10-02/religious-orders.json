@@ -2347,125 +2347,185 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Ps 102, 21 Allelúia. Benedícite Dómino, omnes virtútes eius, minístri eius qui fácitis voluntátem eius. Allelúia.",
-            "es": "Aleluya Sal 102, 21 Aleluya. Bendecid al Señor, ejércitos suyos, servidores que cumplís sus deseos. Aleluya.",
-            "en": "Alleluia, alleluia. Bless the Lord, all you his angels, his ministers who do his will. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Sal 102, 21 Aleluia, aleluia. Bendizei ao Senhor Deus, os seus poderes, seus ministros que fazeis sua vontade! Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Benedite il Signore voi tutti suoi angeli, suoi ministri, che fate il suo volere. Alleluia.",
-            "fr": "Alléluia Ps 102, 21 Alléluia Tous les anges du Seigneur, bénissez le Seigneur : À lui, haute gloire, louange éternelle ! Alléluia.",
-            "de": "Ruf vor dem Evangelium Ps 103 (102), 21 Halleluja. Halleluja. Lobt den Herr, all seine Scharen, seine Diener, die seinen Willen vollziehen! Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 102, 21"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Benedícite Dómino, omnes virtútes eius, minístri eius qui fácitis voluntátem eius. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Sal 102, 21"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Bendecid al Señor, ejércitos suyos, servidores que cumplís sus deseos. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Bless the Lord, all you his angels, his ministers who do his will. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Sal 102, 21"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Bendizei ao Senhor Deus, os seus poderes, seus ministros que fazeis sua vontade! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Benedite il Signore voi tutti suoi angeli, suoi ministri, che fate il suo volere. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 102, 21"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Tous les anges du Seigneur, bénissez le Seigneur : À lui, haute gloire, louange éternelle ! Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 103 (102), 21"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Lobt den Herr, all seine Scharen, seine Diener, die seinen Willen vollziehen! Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Ps 102, 21",
           "es": "Sal 102, 21",
           "pt-BR": "Sal 102, 21",
           "fr": "Ps 102, 21",
           "de": "Ps 103 (102), 21"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Benedícite Dómino, omnes virtútes eius, minístri eius qui fácitis voluntátem eius."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Bendecid al Señor, ejércitos suyos, servidores que cumplís sus deseos."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Bless the Lord, all you his angels, his ministers who do his will."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Bendizei ao Senhor Deus, os seus poderes, seus ministros que fazeis sua vontade!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Benedite il Signore voi tutti suoi angeli, suoi ministri, che fate il suo volere."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Tous les anges du Seigneur, bénissez le Seigneur : À lui, haute gloire, louange éternelle !"
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Lobt den Herr, all seine Scharen, seine Diener, die seinen Willen vollziehen!"
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

@@ -693,127 +693,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Iac 1, 21bc Allelúia. In mansuetúdine suscípite ínsitum verbum, quod potest salváre ánimas vestras. Allelúia.",
-            "es": "Aleluya St 1, 21bc Aleluya. Acoged con docilidad la palabra, que ha sido injertada en vosotros y es capaz de salvar vuestras vidas. Aleluya.",
-            "en": "Alleluia, alleluia. Receive and submit to the word planted in you; it can save your souls. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Tg 1, 21bc Aleluia, aleluia. Acolhei docilmente a Palavra semeada em vós, meus irmãos; ela pode salvar vossas vidas! Aleluia.",
-            "it": "Canto al Vangelo (Gc 1,21b) Alleluia, alleluia. Accogliete con docilità la Parola che è stata piantata in voi e può portarvi alla salvezza. Alleluia.",
-            "fr": "Alléluia Iac 1, 21bc Alléluia Accueillez dans la douceur la Parole semée en nous : c’est elle qui peut vous sauver. Alléluia.",
-            "de": "Ruf vor dem Evangelium Jak 1, 21bc Halleluja. Halleluja. Nehmt euch das Wort zu Herzen, das in euch eingepflanzt worden ist und das die Macht hat, euch zu retten. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Iac 1, 21bc"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. In mansuetúdine suscípite ínsitum verbum, quod potest salváre ánimas vestras. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "St 1, 21bc"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Acoged con docilidad la palabra, que ha sido injertada en vosotros y es capaz de salvar vuestras vidas. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Receive and submit to the word planted in you; it can save your souls. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Tg 1, 21bc"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Acolhei docilmente a Palavra semeada em vós, meus irmãos; ela pode salvar vossas vidas! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Gc 1,21b)"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Accogliete con docilità la Parola che è stata piantata in voi e può portarvi alla salvezza. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Iac 1, 21bc"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Accueillez dans la douceur la Parole semée en nous : c’est elle qui peut vous sauver. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jak 1, 21bc"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Nehmt euch das Wort zu Herzen, das in euch eingepflanzt worden ist und das die Macht hat, euch zu retten. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Iac 1, 21bc",
           "es": "St 1, 21bc",
@@ -821,6 +700,179 @@
           "it": "(Gc 1,21b)",
           "fr": "Iac 1, 21bc",
           "de": "Jak 1, 21bc"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "In mansuetúdine suscípite ínsitum verbum, quod potest salváre ánimas vestras."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Acoged con docilidad la palabra, que ha sido injertada en vosotros y es capaz de salvar vuestras vidas."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Receive and submit to the word planted in you; it can save your souls."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Acolhei docilmente a Palavra semeada em vós, meus irmãos; ela pode salvar vossas vidas!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Accogliete con docilità la Parola che è stata piantata in voi e può portarvi alla salvezza."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Accueillez dans la douceur la Parole semée en nous : c’est elle qui peut vous sauver."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Nehmt euch das Wort zu Herzen, das in euch eingepflanzt worden ist und das die Macht hat, euch zu retten."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -1777,127 +1829,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Iac 1, 21bc Allelúia. In mansuetúdine suscípite ínsitum verbum, quod potest salváre ánimas vestras. Allelúia.",
-            "es": "Aleluya St 1, 21bc Aleluya. Acoged con docilidad la palabra, que ha sido injertada en vosotros y es capaz de salvar vuestras vidas. Aleluya.",
-            "en": "Alleluia, alleluia. Receive and submit to the word planted in you; it can save your souls. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Tg 1, 21bc Aleluia, aleluia. Acolhei docilmente a Palavra semeada em vós, meus irmãos; ela pode salvar vossas vidas! Aleluia.",
-            "it": "Canto al Vangelo (Gc 1,21b) Alleluia, alleluia. Accogliete con docilità la Parola che è stata piantata in voi e può portarvi alla salvezza. Alleluia.",
-            "fr": "Alléluia Iac 1, 21bc Alléluia Accueillez dans la douceur la Parole semée en nous : c’est elle qui peut vous sauver. Alléluia.",
-            "de": "Ruf vor dem Evangelium Jak 1, 21bc Halleluja. Halleluja. Nehmt euch das Wort zu Herzen, das in euch eingepflanzt worden ist und das die Macht hat, euch zu retten. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Iac 1, 21bc"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. In mansuetúdine suscípite ínsitum verbum, quod potest salváre ánimas vestras. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "St 1, 21bc"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Acoged con docilidad la palabra, que ha sido injertada en vosotros y es capaz de salvar vuestras vidas. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Receive and submit to the word planted in you; it can save your souls. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Tg 1, 21bc"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Acolhei docilmente a Palavra semeada em vós, meus irmãos; ela pode salvar vossas vidas! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Gc 1,21b)"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Accogliete con docilità la Parola che è stata piantata in voi e può portarvi alla salvezza. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Iac 1, 21bc"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Accueillez dans la douceur la Parole semée en nous : c’est elle qui peut vous sauver. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jak 1, 21bc"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Nehmt euch das Wort zu Herzen, das in euch eingepflanzt worden ist und das die Macht hat, euch zu retten. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Iac 1, 21bc",
           "es": "St 1, 21bc",
@@ -1905,6 +1836,179 @@
           "it": "(Gc 1,21b)",
           "fr": "Iac 1, 21bc",
           "de": "Jak 1, 21bc"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "In mansuetúdine suscípite ínsitum verbum, quod potest salváre ánimas vestras."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Acoged con docilidad la palabra, que ha sido injertada en vosotros y es capaz de salvar vuestras vidas."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Receive and submit to the word planted in you; it can save your souls."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Acolhei docilmente a Palavra semeada em vós, meus irmãos; ela pode salvar vossas vidas!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Accogliete con docilità la Parola che è stata piantata in voi e può portarvi alla salvezza."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Accueillez dans la douceur la Parole semée en nous : c’est elle qui peut vous sauver."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Nehmt euch das Wort zu Herzen, das in euch eingepflanzt worden ist und das die Macht hat, euch zu retten."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

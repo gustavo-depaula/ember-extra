@@ -1476,86 +1476,178 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia, allelúia. Radix Iesse, stans in signum populórum: veni ad liberándum nos, iam noli tardáre. Allelúia.",
-            "es": "Aleluya, aleluya. Raíz de Jesé, que te alzas como un signo para los pueblos, ven a librarnos, no tardes más. Aleluya.",
-            "en": "Alleluia, alleluia. Come, Flower of Jesse's stem, sign of God's love for all his people: save us without delay! Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Aleluia, aleluia. Ó Raiz de Jessé, sinal das nações: oh, vinde livrar-nos, e não tardeis mais! Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. O Radice di Iesse, che t’innalzi come segno per i popoli: vieni a liberarci, non tardare. Alleluia.",
-            "fr": "Alléluia, alléluia. Alléluia. Viens, Rameau de Jessé, étendard dressé à la face des nations ! Délivre-nous, ne tarde plus. Alléluia.",
-            "de": "Ruf vor dem Evangelium Halleluja. Halleluja. Du Spross aus Ísais Wurzel, gesetzt zum Zeichen für die Völker: Komm und errette uns, erhebe dich, säume nicht länger! Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Radix Iesse, stans in signum populórum: veni ad liberándum nos, iam noli tardáre. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Raíz de Jesé, que te alzas como un signo para los pueblos, ven a librarnos, no tardes más. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Come, Flower of Jesse's stem, sign of God's love for all his people: save us without delay! Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho Aleluia, aleluia. Ó Raiz de Jessé, sinal das nações: oh, vinde livrar-nos, e não tardeis mais! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. O Radice di Iesse, che t’innalzi come segno per i popoli: vieni a liberarci, non tardare. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia, alléluia. Alléluia. Viens, Rameau de Jessé, étendard dressé à la face des nations ! Délivre-nous, ne tarde plus. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium Halleluja. Halleluja. Du Spross aus Ísais Wurzel, gesetzt zum Zeichen für die Völker: Komm und errette uns, erhebe dich, säume nicht länger! Halleluja."
-                }
-              ]
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
             ]
-          }
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Radix Iesse, stans in signum populórum: veni ad liberándum nos, iam noli tardáre."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Raíz de Jesé, que te alzas como un signo para los pueblos, ven a librarnos, no tardes más."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Come, Flower of Jesse's stem, sign of God's love for all his people: save us without delay!"
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Ó Raiz de Jessé, sinal das nações: oh, vinde livrar-nos, e não tardeis mais!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "O Radice di Iesse, che t’innalzi come segno per i popoli: vieni a liberarci, non tardare."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Alléluia. Viens, Rameau de Jessé, étendard dressé à la face des nations ! Délivre-nous, ne tarde plus."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Du Spross aus Ísais Wurzel, gesetzt zum Zeichen für die Völker: Komm und errette uns, erhebe dich, säume nicht länger!"
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

@@ -1779,121 +1779,71 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Versus ante Evangelium Mt 4, 17 Pæniténtiam ágite, dicit Dóminus; appropinquávit regnum cælórum.",
-            "es": "Versículo antes del Evangelio Mt 4, 17 Convertíos —dice el Señor—, porque está cerca el reino de los cielos.",
-            "en": "Repent, says the Lord; the kingdom of heaven is at hand.",
-            "pt-BR": "Aclamação ao Evangelho Mt 4, 17 Convertei-vos, nos diz o Senhor, está próximo o Reino de Deus!",
-            "it": "Canto al Vangelo (Mt 4,17) Gloria e lode a te, o Cristo! Convertitevi, dice il Signore, perché il regno dei cieli è vicino. Gloria e lode a te, o Cristo!",
-            "fr": "Verset avant l’Évangile Ta parole, Seigneur, est vérité, et ta loi, délivrance. Convertissez-vous, dit le Seigneur, car le royaume des Cieux est tout proche. Ta parole, Seigneur, est vérité, et ta loi, délivrance.",
-            "de": "Ruf vor dem Evangelium Mt 4, 17 Christus, du ewiges Wort des Vaters, Ehre sei dir! (So spricht der Herr:) Kehrt um! Denn das Himmelreich ist nahe. Christus, du ewiges Wort des Vaters, Ehre sei dir!"
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versus ante Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 4, 17"
-                },
-                {
-                  "type": "text",
-                  "text": "Pæniténtiam ágite, dicit Dóminus; appropinquávit regnum cælórum."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versículo antes del Evangelio"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 4, 17"
-                },
-                {
-                  "type": "text",
-                  "text": "Convertíos —dice el Señor—, porque está cerca el reino de los cielos."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Repent, says the Lord; the kingdom of heaven is at hand."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 4, 17"
-                },
-                {
-                  "type": "text",
-                  "text": "Convertei-vos, nos diz o Senhor, está próximo o Reino de Deus!"
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Mt 4,17)"
-                },
-                {
-                  "type": "text",
-                  "text": "Gloria e lode a te, o Cristo! Convertitevi, dice il Signore, perché il regno dei cieli è vicino. Gloria e lode a te, o Cristo!"
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Verset avant l’Évangile Ta parole, Seigneur, est vérité, et ta loi, délivrance. Convertissez-vous, dit le Seigneur, car le royaume des Cieux est tout proche. Ta parole, Seigneur, est vérité, et ta loi, délivrance."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 4, 17"
-                },
-                {
-                  "type": "text",
-                  "text": "Christus, du ewiges Wort des Vaters, Ehre sei dir! (So spricht der Herr:) Kehrt um! Denn das Himmelreich ist nahe. Christus, du ewiges Wort des Vaters, Ehre sei dir!"
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mt 4, 17",
           "es": "Mt 4, 17",
           "pt-BR": "Mt 4, 17",
           "it": "(Mt 4,17)",
           "de": "Mt 4, 17"
+        },
+        "mode": "versus-ante-evangelium",
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "text",
+                "text": "Pæniténtiam ágite, dicit Dóminus; appropinquávit regnum cælórum."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "text",
+                "text": "Convertíos —dice el Señor—, porque está cerca el reino de los cielos."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "text",
+                "text": "Repent, says the Lord; the kingdom of heaven is at hand."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "Convertei-vos, nos diz o Senhor, está próximo o Reino de Deus!"
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "Gloria e lode a te, o Cristo! Convertitevi, dice il Signore, perché il regno dei cieli è vicino. Gloria e lode a te, o Cristo!"
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Ta parole, Seigneur, est vérité, et ta loi, délivrance. Convertissez-vous, dit le Seigneur, car le royaume des Cieux est tout proche. Ta parole, Seigneur, est vérité, et ta loi, délivrance."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "text",
+                "text": "Christus, du ewiges Wort des Vaters, Ehre sei dir! (So spricht der Herr:) Kehrt um! Denn das Himmelreich ist nahe. Christus, du ewiges Wort des Vaters, Ehre sei dir!"
+              }
+            ]
+          ]
         }
       },
       "gospel": {

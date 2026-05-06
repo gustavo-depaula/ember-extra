@@ -1507,127 +1507,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Mt 23, 9b. 10b Allelúia. Unus est Pater vester, cæléstis; et Magíster vester unus est, Christus. Allelúia.",
-            "es": "Aleluya Mt 23, 9b. 10b Aleluya. Uno solo es vuestro Padre, el del cielo; y uno solo es vuestro maestro, el Mesías. Aleluya.",
-            "en": "Alleluia, alleluia. You have one Father, your Father in heaven; you have one teacher: the Lord Jesus Christ. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Mt 23, 9b. 10b Aleluia, aleluia. Só um é o vosso Pai, o vosso Pai celeste. Um só é o vosso Guia, Jesus Cristo, o Messias! Aleluia.",
-            "it": "Canto al Vangelo Mt 23,9b.10b Alleluia, alleluia. Uno solo è il Padre vostro, quello celeste e una sola è la vostra Guida, il Cristo. Alleluia.",
-            "fr": "Alléluia Mt 23, 9b. 10b Alléluia Vous n’avez qu’un seul Père, celui qui est aux cieux ; vous n’avez qu’un seul maître, le Christ. Alléluia.",
-            "de": "Ruf vor dem Evangelium Mt 23, 9b. 10b Halleluja. Halleluja. Einer ist euer Vater, der im Himmel. Einer ist euer Lehrer, Christus. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 23, 9b. 10b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Unus est Pater vester, cæléstis; et Magíster vester unus est, Christus. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 23, 9b. 10b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Uno solo es vuestro Padre, el del cielo; y uno solo es vuestro maestro, el Mesías. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. You have one Father, your Father in heaven; you have one teacher: the Lord Jesus Christ. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 23, 9b. 10b"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Só um é o vosso Pai, o vosso Pai celeste. Um só é o vosso Guia, Jesus Cristo, o Messias! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 23,9b.10b"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Uno solo è il Padre vostro, quello celeste e una sola è la vostra Guida, il Cristo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 23, 9b. 10b"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Vous n’avez qu’un seul Père, celui qui est aux cieux ; vous n’avez qu’un seul maître, le Christ. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 23, 9b. 10b"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Einer ist euer Vater, der im Himmel. Einer ist euer Lehrer, Christus. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mt 23, 9b. 10b",
           "es": "Mt 23, 9b. 10b",
@@ -1635,6 +1514,179 @@
           "it": "Mt 23,9b.10b",
           "fr": "Mt 23, 9b. 10b",
           "de": "Mt 23, 9b. 10b"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Unus est Pater vester, cæléstis; et Magíster vester unus est, Christus."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Uno solo es vuestro Padre, el del cielo; y uno solo es vuestro maestro, el Mesías."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "You have one Father, your Father in heaven; you have one teacher: the Lord Jesus Christ."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Só um é o vosso Pai, o vosso Pai celeste. Um só é o vosso Guia, Jesus Cristo, o Messias!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Uno solo è il Padre vostro, quello celeste e una sola è la vostra Guida, il Cristo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Vous n’avez qu’un seul Père, celui qui est aux cieux ; vous n’avez qu’un seul maître, le Christ."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Einer ist euer Vater, der im Himmel. Einer ist euer Lehrer, Christus."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -2639,127 +2691,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 14, 23 Allelúia. Si quis díligit me, sermónem meum servábit, dicit Dóminus, et Pater meus díliget eum, et ad eum veniémus. Allelúia.",
-            "es": "Aleluya Jn 14, 23 Aleluya. El que me ama guardará mi palabra —dice el Señor—, y mi Padre lo amará, y vendremos a él. Aleluya.",
-            "en": "Alleluia, alleluia. If anyone loves me, he will hold to my words and my Father will love him, and we will come to him. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 14, 23 Aleluia, aleluia. Quem me ama realmente guardará minha palavra, e meu Pai o amará, e a ele nós viremos. Aleluia.",
-            "it": "Canto al Vangelo Gv 14,23 Alleluia, alleluia. Se uno mi ama, osserverà la mia parola, dice il Signore, e il Padre mio lo amerà e noi verremo a lui. Alleluia.",
-            "fr": "Alléluia Io 14, 23 Alléluia Ssi quelqu’un m’aime, il gardera ma parole, dit le Seigneur ; mon Père l’aimera, et nous viendrons vers lui. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Joh 14, 23 Halleluja. Halleluja. (So spricht der Herr:) Wer mich liebt, hält fest an meinem Wort. Mein Vater wird ihn lieben, und wir werden bei ihm wohnen. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 14, 23"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Si quis díligit me, sermónem meum servábit, dicit Dóminus, et Pater meus díliget eum, et ad eum veniémus. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 14, 23"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. El que me ama guardará mi palabra —dice el Señor—, y mi Padre lo amará, y vendremos a él. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. If anyone loves me, he will hold to my words and my Father will love him, and we will come to him. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 14, 23"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Quem me ama realmente guardará minha palavra, e meu Pai o amará, e a ele nós viremos. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gv 14,23"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Se uno mi ama, osserverà la mia parola, dice il Signore, e il Padre mio lo amerà e noi verremo a lui. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 14, 23"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Ssi quelqu’un m’aime, il gardera ma parole, dit le Seigneur ; mon Père l’aimera, et nous viendrons vers lui. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Joh 14, 23"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Wer mich liebt, hält fest an meinem Wort. Mein Vater wird ihn lieben, und wir werden bei ihm wohnen. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 14, 23",
           "es": "Jn 14, 23",
@@ -2767,6 +2698,179 @@
           "it": "Gv 14,23",
           "fr": "Io 14, 23",
           "de": "vgl. Joh 14, 23"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Si quis díligit me, sermónem meum servábit, dicit Dóminus, et Pater meus díliget eum, et ad eum veniémus."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "El que me ama guardará mi palabra —dice el Señor—, y mi Padre lo amará, y vendremos a él."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "If anyone loves me, he will hold to my words and my Father will love him, and we will come to him."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Quem me ama realmente guardará minha palavra, e meu Pai o amará, e a ele nós viremos."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Se uno mi ama, osserverà la mia parola, dice il Signore, e il Padre mio lo amerà e noi verremo a lui."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Ssi quelqu’un m’aime, il gardera ma parole, dit le Seigneur ; mon Père l’aimera, et nous viendrons vers lui."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Wer mich liebt, hält fest an meinem Wort. Mein Vater wird ihn lieben, und wir werden bei ihm wohnen."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -3923,127 +4027,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 3, 16 Allelúia. Sic enim diléxit Deus mundum, ut Fílium suum unigénitum daret; omnis qui credit in eum habet vitam ætérnam. Allelúia.",
-            "es": "Aleluya Jn 3, 16 Aleluya. Tanto amó Dios al mundo, que entregó a su Unigénito; todo el que cree en él tiene vida eterna. Aleluya.",
-            "en": "Alleluia, alleluia. God loved the world so much that he gave us his only Son, that all who believe in him might have eternal life. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 3, 16 Aleluia, aleluia. Deus amou tanto o mundo, que seu Filho entregou! Quem no Filho crê e confia, nele encontra eterna vida! Aleluia.",
-            "it": "Canto al Vangelo Gv 3,16 Alleluia, alleluia. Dio ha tanto amato il mondo da dare il Figlio unigenito; chiunque crede in lui ha la vita eterna. Alleluia.",
-            "fr": "Alléluia Io 3, 16 Alléluia Dieu a tellement aimé le monde qu’il a donné son Fils unique, afin que ceux qui croient en lui aient la vie éternelle. Alléluia.",
-            "de": "Ruf vor dem Evangelium Joh 3, 16 Halleluja. Halleluja. So sehr hat Gott die Welt geliebt, dass er seinen einzigen Sohn hingab, damit jeder, der an ihn glaubt, in ihm das ewige Leben hat. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 3, 16"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Sic enim diléxit Deus mundum, ut Fílium suum unigénitum daret; omnis qui credit in eum habet vitam ætérnam. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 3, 16"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Tanto amó Dios al mundo, que entregó a su Unigénito; todo el que cree en él tiene vida eterna. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. God loved the world so much that he gave us his only Son, that all who believe in him might have eternal life. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 3, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Deus amou tanto o mundo, que seu Filho entregou! Quem no Filho crê e confia, nele encontra eterna vida! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gv 3,16"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Dio ha tanto amato il mondo da dare il Figlio unigenito; chiunque crede in lui ha la vita eterna. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 3, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Dieu a tellement aimé le monde qu’il a donné son Fils unique, afin que ceux qui croient en lui aient la vie éternelle. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joh 3, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. So sehr hat Gott die Welt geliebt, dass er seinen einzigen Sohn hingab, damit jeder, der an ihn glaubt, in ihm das ewige Leben hat. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 3, 16",
           "es": "Jn 3, 16",
@@ -4051,6 +4034,179 @@
           "it": "Gv 3,16",
           "fr": "Io 3, 16",
           "de": "Joh 3, 16"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Sic enim diléxit Deus mundum, ut Fílium suum unigénitum daret; omnis qui credit in eum habet vitam ætérnam."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Tanto amó Dios al mundo, que entregó a su Unigénito; todo el que cree en él tiene vida eterna."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "God loved the world so much that he gave us his only Son, that all who believe in him might have eternal life."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Deus amou tanto o mundo, que seu Filho entregou! Quem no Filho crê e confia, nele encontra eterna vida!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Dio ha tanto amato il mondo da dare il Figlio unigenito; chiunque crede in lui ha la vita eterna."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Dieu a tellement aimé le monde qu’il a donné son Fils unique, afin que ceux qui croient en lui aient la vie éternelle."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "So sehr hat Gott die Welt geliebt, dass er seinen einzigen Sohn hingab, damit jeder, der an ihn glaubt, in ihm das ewige Leben hat."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

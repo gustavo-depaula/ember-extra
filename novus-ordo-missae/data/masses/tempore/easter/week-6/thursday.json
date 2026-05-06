@@ -1557,125 +1557,181 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 14, 18 Allelúia. Non vos relínquam órphanos, dicit Dóminus: vado et vénio ad vos, et gaudébit cor vestrum. Allelúia.",
-            "es": "Aleluya Jn 14, 18 Aleluya. No os dejaré huérfanos —dice el Señor—; me voy y vuelvo a vuestro lado, y se alegrará vuestro corazón. Aleluya.",
-            "en": "Alleluia, alleluia. The Lord said: I will not leave you orphans. I will come back to you, and your hearts will rejoice.",
-            "pt-BR": "Aclamação ao Evangelho Jo 14, 18 Aleluia, aleluia. Não vos deixarei órfãos:eu irei, mas voltarei, e o vosso coração muito há de se alegrar. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Non vi lascerò orfani, dice il Signore; vado e ritorno a voi, e il vostro cuore sarà nella gioia. Alleluia.",
-            "fr": "Alléluia Io 14, 18 Alléluia Je ne vous laisserai pas orphelins, dit le Seigneur ; je reviens vers vous, et votre cœur se réjouira. Alléluia.",
-            "de": "Ruf vor dem Evangelium Joh 14, 18; 16, 22b Halleluja. Halleluja. (So spricht der Herr:) Ich lasse euch nicht als Waisen zurück. Ich komme wieder zu euch. Dann wird euer Herz sich freuen. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 14, 18"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Non vos relínquam órphanos, dicit Dóminus: vado et vénio ad vos, et gaudébit cor vestrum. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 14, 18"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. No os dejaré huérfanos —dice el Señor—; me voy y vuelvo a vuestro lado, y se alegrará vuestro corazón. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. The Lord said: I will not leave you orphans. I will come back to you, and your hearts will rejoice."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 14, 18"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Não vos deixarei órfãos:eu irei, mas voltarei, e o vosso coração muito há de se alegrar. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Non vi lascerò orfani, dice il Signore; vado e ritorno a voi, e il vostro cuore sarà nella gioia. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 14, 18"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Je ne vous laisserai pas orphelins, dit le Seigneur ; je reviens vers vous, et votre cœur se réjouira. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joh 14, 18; 16, 22b"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Ich lasse euch nicht als Waisen zurück. Ich komme wieder zu euch. Dann wird euer Herz sich freuen. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 14, 18",
           "es": "Jn 14, 18",
           "pt-BR": "Jo 14, 18",
           "fr": "Io 14, 18",
           "de": "Joh 14, 18; 16, 22b"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Non vos relínquam órphanos, dicit Dóminus: vado et vénio ad vos, et gaudébit cor vestrum."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "No os dejaré huérfanos —dice el Señor—; me voy y vuelvo a vuestro lado, y se alegrará vuestro corazón."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "The Lord said: I will not leave you orphans. I will come back to you, and your hearts will rejoice."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Não vos deixarei órfãos:eu irei, mas voltarei, e o vosso coração muito há de se alegrar."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Non vi lascerò orfani, dice il Signore; vado e ritorno a voi, e il vostro cuore sarà nella gioia."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Je ne vous laisserai pas orphelins, dit le Seigneur ; je reviens vers vous, et votre cœur se réjouira."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Ich lasse euch nicht als Waisen zurück. Ich komme wieder zu euch. Dann wird euer Herz sich freuen."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

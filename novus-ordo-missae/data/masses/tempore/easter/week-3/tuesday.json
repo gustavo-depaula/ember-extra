@@ -1647,86 +1647,174 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia, allelúia. Ego sum panis vitæ, dicit Dóminus; qui venit ad me non esúriet. Allelúia.",
-            "es": "Aleluya, aleluya. Yo soy el pan de vida —dice el Señor—; el que viene a mí no tendrá hambre. Aleluya.",
-            "en": "Alleluia, alleluia. I am the bread of life, says the Lord. He who comes to me will never be hungry; he who believes in me will never thirst.",
-            "pt-BR": "Aclamação ao Evangelho Aleluia, aleluia. Eu sou o pão da vida, quem vem a mim não terá fome; assim nos fala o Senhor Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Io sono il pane della vita, dice il Signore: chi viene a me non avrà fame. Alleluia.",
-            "fr": "Alléluia, alléluia. Moi, je suis le pain de la vie, dit le Seigneur, celui qui vient à moi n’aura jamais faim. Alléluia.",
-            "de": "Ruf vor dem Evangelium Halleluja. Halleluja. (So spricht der Herr:) Ich bin das Brot des Lebens; wer zu mir kommt, wird nie mehr hungern. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Ego sum panis vitæ, dicit Dóminus; qui venit ad me non esúriet. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Yo soy el pan de vida —dice el Señor—; el que viene a mí no tendrá hambre. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. I am the bread of life, says the Lord. He who comes to me will never be hungry; he who believes in me will never thirst."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho Aleluia, aleluia. Eu sou o pão da vida, quem vem a mim não terá fome; assim nos fala o Senhor Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Io sono il pane della vita, dice il Signore: chi viene a me non avrà fame. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia, alléluia. Moi, je suis le pain de la vie, dit le Seigneur, celui qui vient à moi n’aura jamais faim. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium Halleluja. Halleluja. (So spricht der Herr:) Ich bin das Brot des Lebens; wer zu mir kommt, wird nie mehr hungern. Halleluja."
-                }
-              ]
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
             ]
-          }
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Ego sum panis vitæ, dicit Dóminus; qui venit ad me non esúriet."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Yo soy el pan de vida —dice el Señor—; el que viene a mí no tendrá hambre."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "I am the bread of life, says the Lord. He who comes to me will never be hungry; he who believes in me will never thirst."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Eu sou o pão da vida, quem vem a mim não terá fome; assim nos fala o Senhor"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Io sono il pane della vita, dice il Signore: chi viene a me non avrà fame."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Moi, je suis le pain de la vie, dit le Seigneur, celui qui vient à moi n’aura jamais faim."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Ich bin das Brot des Lebens; wer zu mir kommt, wird nie mehr hungern."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

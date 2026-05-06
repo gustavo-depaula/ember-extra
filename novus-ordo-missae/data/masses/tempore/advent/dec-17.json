@@ -1592,86 +1592,174 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia, allelúia. Sapiéntia Altíssimi, fórtiter suavitérque dispónens ómnia: veni ad docéndum nos viam prudéntiæ. Allelúia.",
-            "es": "Aleluya, aleluya. Sabiduría del Altísimo, que lo dispones todo con firmeza y suavidad, ven para mostrarnos el camino de la prudencia. Aleluya.",
-            "en": "Alleluia, alleluia. Come, Wisdom of our God Most High, guiding creation with power and love: teach us to walk in the paths of knowledge. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Aleluia, aleluia. Ó Sabedoria do Altíssimo, que tudo determina, com doçura e com vig",
-            "it": "Canto al Vangelo Alleluia, alleluia. O Sapienza dell’Altissimo, che tutto disponi con forza e dolcezza: vieni ad insegnarci la via della saggezza. Alleluia.",
-            "fr": "Alléluia, alléluia. Alléluia. Viens, sagesse du Très-Haut ! Toi qui régis l’univers avec force et douceur, enseigne-nous le chemin de vérité. Alléluia.",
-            "de": "Ruf vor dem Evangelium Halleluja. Halleluja. Du Weisheit des Höchsten, in Kraft und Milde ordnest du alles: komm und offenbare uns den Weg der Weisheit und Einsicht! Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Sapiéntia Altíssimi, fórtiter suavitérque dispónens ómnia: veni ad docéndum nos viam prudéntiæ. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Sabiduría del Altísimo, que lo dispones todo con firmeza y suavidad, ven para mostrarnos el camino de la prudencia. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Come, Wisdom of our God Most High, guiding creation with power and love: teach us to walk in the paths of knowledge. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho Aleluia, aleluia. Ó Sabedoria do Altíssimo, que tudo determina, com doçura e com vig"
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. O Sapienza dell’Altissimo, che tutto disponi con forza e dolcezza: vieni ad insegnarci la via della saggezza. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia, alléluia. Alléluia. Viens, sagesse du Très-Haut ! Toi qui régis l’univers avec force et douceur, enseigne-nous le chemin de vérité. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium Halleluja. Halleluja. Du Weisheit des Höchsten, in Kraft und Milde ordnest du alles: komm und offenbare uns den Weg der Weisheit und Einsicht! Halleluja."
-                }
-              ]
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
             ]
-          }
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Sapiéntia Altíssimi, fórtiter suavitérque dispónens ómnia: veni ad docéndum nos viam prudéntiæ."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Sabiduría del Altísimo, que lo dispones todo con firmeza y suavidad, ven para mostrarnos el camino de la prudencia."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Come, Wisdom of our God Most High, guiding creation with power and love: teach us to walk in the paths of knowledge."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Ó Sabedoria do Altíssimo, que tudo determina, com doçura e com vig"
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "O Sapienza dell’Altissimo, che tutto disponi con forza e dolcezza: vieni ad insegnarci la via della saggezza."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Alléluia. Viens, sagesse du Très-Haut ! Toi qui régis l’univers avec force et douceur, enseigne-nous le chemin de vérité."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Du Weisheit des Höchsten, in Kraft und Milde ordnest du alles: komm und offenbare uns den Weg der Weisheit und Einsicht!"
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

@@ -1564,86 +1564,178 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia, allelúia. Ecce Dóminus noster cum virtúte véniet, et illuminábit óculos servórum suórum. Allelúia.",
-            "es": "Aleluya, aleluya. Mirad, el Señor llega con poder e iluminará los ojos de sus siervos. Aleluya.",
-            "en": "Alleluia, alleluia. Behold, our Lord shall come with power; he will enlighten the eyes of his servants. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Aleluia, aleluia. Eis que virá o nosso Deus com poder e majestade. E ele há de iluminar os olhos dos seus servos. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Ecco, viene il Signore nostro Dio con potenza grande, illuminerà gli occhi dei suoi servi. Alleluia.",
-            "fr": "Alléluia, alléluia. Alléluia Voici qu’il vient avec puissance, notre Seigneur, pour éclairer les yeux de ses serviteurs. Alléluia.",
-            "de": "Ruf vor dem Evangelium Halleluja. Halleluja. Seht, unser Herr kommt mit Macht; die Augen seiner Knechte schauen das Licht. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Ecce Dóminus noster cum virtúte véniet, et illuminábit óculos servórum suórum. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Mirad, el Señor llega con poder e iluminará los ojos de sus siervos. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Behold, our Lord shall come with power; he will enlighten the eyes of his servants. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho Aleluia, aleluia. Eis que virá o nosso Deus com poder e majestade. E ele há de iluminar os olhos dos seus servos. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Ecco, viene il Signore nostro Dio con potenza grande, illuminerà gli occhi dei suoi servi. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia, alléluia. Alléluia Voici qu’il vient avec puissance, notre Seigneur, pour éclairer les yeux de ses serviteurs. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium Halleluja. Halleluja. Seht, unser Herr kommt mit Macht; die Augen seiner Knechte schauen das Licht. Halleluja."
-                }
-              ]
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
             ]
-          }
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Ecce Dóminus noster cum virtúte véniet, et illuminábit óculos servórum suórum."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Mirad, el Señor llega con poder e iluminará los ojos de sus siervos."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Behold, our Lord shall come with power; he will enlighten the eyes of his servants."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Eis que virá o nosso Deus com poder e majestade. E ele há de iluminar os olhos dos seus servos."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Ecco, viene il Signore nostro Dio con potenza grande, illuminerà gli occhi dei suoi servi."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Alléluia Voici qu’il vient avec puissance, notre Seigneur, pour éclairer les yeux de ses serviteurs."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Seht, unser Herr kommt mit Macht; die Augen seiner Knechte schauen das Licht."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

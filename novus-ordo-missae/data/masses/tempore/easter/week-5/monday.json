@@ -1737,97 +1737,177 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia, allelúia. Spíritus Sanctus vos docébit ómnia; súggeret vobis ómnia quæcúmque díxero vobis. Allelúia.",
-            "es": "Aleluya, aleluya. El Espíritu Santo será quien os lo enseñe todo y os vaya recordando todo lo que os he dicho. Aleluya.",
-            "en": "Alleluia, alleluia. The Holy Spirit will teach you everything and remind you of all I have said to you",
-            "pt-BR": "Aclamação ao Evangelho Aleluia, aleluia. O Espírito Santo, o Paráclito, haverá de lembrar-vos de tudo o que tenho falado. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Lo Spirito Santo vi insegnerà ogni cosa, dice il Signore, e vi ricorderà tutto ciò che vi ho detto. Alleluia.",
-            "fr": "Alléluia, alléluia. L’Esprit Saint vous enseignera tout, et il vous fera souvenir de tout ce que je vous ai dit. Alléluia.",
-            "de": "Ruf vor dem Evangelium Joh 14, 26 Halleluja. Halleluja. Der Heilige Geist wird euch alles lehren und euch an alles erinnern, was ich euch gesagt habe. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Spíritus Sanctus vos docébit ómnia; súggeret vobis ómnia quæcúmque díxero vobis. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. El Espíritu Santo será quien os lo enseñe todo y os vaya recordando todo lo que os he dicho. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. The Holy Spirit will teach you everything and remind you of all I have said to you"
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho Aleluia, aleluia. O Espírito Santo, o Paráclito, haverá de lembrar-vos de tudo o que tenho falado. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Lo Spirito Santo vi insegnerà ogni cosa, dice il Signore, e vi ricorderà tutto ciò che vi ho detto. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia, alléluia. L’Esprit Saint vous enseignera tout, et il vous fera souvenir de tout ce que je vous ai dit. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joh 14, 26"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Der Heilige Geist wird euch alles lehren und euch an alles erinnern, was ich euch gesagt habe. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "de": "Joh 14, 26"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Spíritus Sanctus vos docébit ómnia; súggeret vobis ómnia quæcúmque díxero vobis."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "El Espíritu Santo será quien os lo enseñe todo y os vaya recordando todo lo que os he dicho."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "The Holy Spirit will teach you everything and remind you of all I have said to you"
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "O Espírito Santo, o Paráclito, haverá de lembrar-vos de tudo o que tenho falado."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Lo Spirito Santo vi insegnerà ogni cosa, dice il Signore, e vi ricorderà tutto ciò che vi ho detto."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              },
+              {
+                "type": "text",
+                "text": "L’Esprit Saint vous enseignera tout, et il vous fera souvenir de tout ce que je vous ai dit."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Der Heilige Geist wird euch alles lehren und euch an alles erinnern, was ich euch gesagt habe."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

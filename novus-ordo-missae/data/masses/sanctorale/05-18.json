@@ -404,127 +404,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 15, 15b Allelúia. Vos dixi amícos, dicit Dóminus, quia ómnia quæ audívi a Patre meo nota feci vobis. Allelúia.",
-            "es": "Aleluya Jn 15, 15b Aleluya. A vosotros os llamo amigos —dice el Señor—, porque todo lo que he oído a mi Padre os lo he dado a conocer. Aleluya.",
-            "en": "Alleluia, alleluia. I call you my friends, says the Lord, for I have made known to you all what the Father has told me. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 15, 15b Aleluia, aleluia. Eu vos chamo amigos, pois vos dei a conhecer o que o Pai me revelou. Aleluia.",
-            "it": "Canto al Vangelo Gv 15, 15b Alleluia, alleluia. Vi ho chiamato amici, dice il Signore, perché tutto ciò che ho udito dal Padre mio l’ho fatto conoscere a voi. Alleluia.",
-            "fr": "Alléluia Io 15, 15b Alléluia Je vous appelle mes amis, dit le Seigneur, car tout ce que j’ai entendu de mon Père, je vous l’ai fait connaître. Alléluia.",
-            "de": "Ruf vor dem Evangelium Joh 15, 15b Halleluja. Halleluja. (So spricht der Herr:) Ich habe euch Freunde genannt; denn ich habe euch alles mitgeteilt, was ich gehört habe von meinem Vater. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 15, 15b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Vos dixi amícos, dicit Dóminus, quia ómnia quæ audívi a Patre meo nota feci vobis. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 15, 15b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. A vosotros os llamo amigos —dice el Señor—, porque todo lo que he oído a mi Padre os lo he dado a conocer. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. I call you my friends, says the Lord, for I have made known to you all what the Father has told me. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 15, 15b"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Eu vos chamo amigos, pois vos dei a conhecer o que o Pai me revelou. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gv 15, 15b"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Vi ho chiamato amici, dice il Signore, perché tutto ciò che ho udito dal Padre mio l’ho fatto conoscere a voi. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 15, 15b"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Je vous appelle mes amis, dit le Seigneur, car tout ce que j’ai entendu de mon Père, je vous l’ai fait connaître. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joh 15, 15b"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Ich habe euch Freunde genannt; denn ich habe euch alles mitgeteilt, was ich gehört habe von meinem Vater. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 15, 15b",
           "es": "Jn 15, 15b",
@@ -532,6 +411,179 @@
           "it": "Gv 15, 15b",
           "fr": "Io 15, 15b",
           "de": "Joh 15, 15b"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Vos dixi amícos, dicit Dóminus, quia ómnia quæ audívi a Patre meo nota feci vobis."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "A vosotros os llamo amigos —dice el Señor—, porque todo lo que he oído a mi Padre os lo he dado a conocer."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "I call you my friends, says the Lord, for I have made known to you all what the Father has told me."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Eu vos chamo amigos, pois vos dei a conhecer o que o Pai me revelou."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Vi ho chiamato amici, dice il Signore, perché tutto ciò che ho udito dal Padre mio l’ho fatto conoscere a voi."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Je vous appelle mes amis, dit le Seigneur, car tout ce que j’ai entendu de mon Père, je vous l’ai fait connaître."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Ich habe euch Freunde genannt; denn ich habe euch alles mitgeteilt, was ich gehört habe von meinem Vater."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

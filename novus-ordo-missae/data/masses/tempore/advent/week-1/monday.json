@@ -2142,125 +2142,185 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. Ps 79, 4 Allelúia. Veni ad liberándum nos, Dómine Deus noster; osténde fáciem tuam, et salvi érimus. Allelúia.",
-            "es": "Aleluya Cf. Sal 79, 4 Aleluya. Ven a librarnos, Señor, Dios nuestro, que brille tu rostro y nos salve. Aleluya.",
-            "en": "Alleluia, alleluia. Come and save us, Lord our God; let us see your face, and we shall be saved. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Cf. Salmo 79, 4 Aleluia, aleluia. Ó vinde libertar-nos, Senhor e nosso Deus; mostrai a vossa face e nós seremos salvos! Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Signore, nostro Dio, vieni a liberarci: fa' splendere il tuo volto e noi saremo salvi. Alleluia.",
-            "fr": "Alléluia Cf. Ps 79, 4 Alléluia. Alléluia. Viens, Seigneur, notre Dieu, délivre-nous. Montre-nous ton visage et nous serons sauvés. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Ps 80 (79), 3. 4 Halleluja. Halleluja. Komm uns zu Hilfe, Herr, unser Gott! Lass dein Angesicht leuchten, dann sind wir gerettet. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Ps 79, 4"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Veni ad liberándum nos, Dómine Deus noster; osténde fáciem tuam, et salvi érimus. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Sal 79, 4"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Ven a librarnos, Señor, Dios nuestro, que brille tu rostro y nos salve. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Come and save us, Lord our God; let us see your face, and we shall be saved. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Salmo 79, 4"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Ó vinde libertar-nos, Senhor e nosso Deus; mostrai a vossa face e nós seremos salvos! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Signore, nostro Dio, vieni a liberarci: fa' splendere il tuo volto e noi saremo salvi. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Ps 79, 4"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia. Alléluia. Viens, Seigneur, notre Dieu, délivre-nous. Montre-nous ton visage et nous serons sauvés. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Ps 80 (79), 3. 4"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Komm uns zu Hilfe, Herr, unser Gott! Lass dein Angesicht leuchten, dann sind wir gerettet. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Ps 79, 4",
           "es": "Cf. Sal 79, 4",
           "pt-BR": "Cf. Salmo 79, 4",
           "fr": "Cf. Ps 79, 4",
           "de": "vgl. Ps 80 (79), 3. 4"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia. Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Veni ad liberándum nos, Dómine Deus noster; osténde fáciem tuam, et salvi érimus."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Ven a librarnos, Señor, Dios nuestro, que brille tu rostro y nos salve."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Come and save us, Lord our God; let us see your face, and we shall be saved."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Ó vinde libertar-nos, Senhor e nosso Deus; mostrai a vossa face e nós seremos salvos!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Signore, nostro Dio, vieni a liberarci: fa' splendere il tuo volto e noi saremo salvi."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia. Alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Viens, Seigneur, notre Dieu, délivre-nous. Montre-nous ton visage et nous serons sauvés."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Komm uns zu Hilfe, Herr, unser Gott! Lass dein Angesicht leuchten, dann sind wir gerettet."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

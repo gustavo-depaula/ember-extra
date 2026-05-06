@@ -2544,125 +2544,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia vel Versus ante Evangelium Io 1, 14ab (Alleluia.) Verbum caro factum est et habitávit in nobis, et vídimus glóriam eius. (Alleluia.)",
-            "es": "Aleluya Jn 1, 14ab (Aleluya, aleluya.) El Verbo se hizo carne y habitó entre nosotros, y hemos contemplado su gloria. (Aleluya.)",
-            "en": "Alleluia, alleluia. The Word of God became flesh, and dwelt among us; and we saw his glory. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 1, 14ab (Aleluia, aleluia.) A Palavra se fez carne e habitou entre nós. E nós vimos a sua glória, que recebe de Deus Pai. (Aleluya.)",
-            "it": "Canto al Vangelo Gv 1, 14ab Alleluia, alleluia. Il Verbo si fece carne e venne ad abitare in mezzo a noi; e noi abbiamo contemplato la sua gloria. Alleluia.",
-            "fr": "Alléluia vel Verset avant l’Évangile Io 1, 14ab (Alléluia) Le Verbe s’est fait chair, il a habité parmi nous et nous avons vu sa gloire. (Alléluia)",
-            "de": "Ruf vor dem Evangelium vgl. Joh 1, 14ab (Halleluja. Halleluja.) Das Wort ist Fleisch geworden und hat unter uns gewohnt, und wir haben seine Herrlichkeit geschaut. (Halleluja.)"
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia vel Versus ante Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 1, 14ab"
-                },
-                {
-                  "type": "text",
-                  "text": "(Alleluia.) Verbum caro factum est et habitávit in nobis, et vídimus glóriam eius. (Alleluia.)"
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 1, 14ab"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "(Aleluya, aleluya.) El Verbo se hizo carne y habitó entre nosotros, y hemos contemplado su gloria. (Aleluya.)"
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. The Word of God became flesh, and dwelt among us; and we saw his glory. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 1, 14ab"
-                },
-                {
-                  "type": "text",
-                  "text": "(Aleluia, aleluia.) A Palavra se fez carne e habitou entre nós. E nós vimos a sua glória, que recebe de Deus Pai. (Aleluya.)"
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gv 1, 14ab"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Il Verbo si fece carne e venne ad abitare in mezzo a noi; e noi abbiamo contemplato la sua gloria. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia vel Verset avant l’Évangile"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 1, 14ab"
-                },
-                {
-                  "type": "text",
-                  "text": "(Alléluia) Le Verbe s’est fait chair, il a habité parmi nous et nous avons vu sa gloire. (Alléluia)"
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Joh 1, 14ab"
-                },
-                {
-                  "type": "text",
-                  "text": "(Halleluja. Halleluja.) Das Wort ist Fleisch geworden und hat unter uns gewohnt, und wir haben seine Herrlichkeit geschaut. (Halleluja.)"
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 1, 14ab",
           "es": "Jn 1, 14ab",
@@ -2670,6 +2551,175 @@
           "it": "Gv 1, 14ab",
           "fr": "Io 1, 14ab",
           "de": "vgl. Joh 1, 14ab"
+        },
+        "mode": "alleluia-or-versus",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "(Alleluia.)"
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "(Aleluya, aleluya.)"
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "(Aleluia, aleluia.)"
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "(Alléluia)"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "(Halleluja. Halleluja.)"
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "(Alleluia.)"
+              },
+              {
+                "type": "text",
+                "text": "Verbum caro factum est et habitávit in nobis, et vídimus glóriam eius."
+              },
+              {
+                "type": "response",
+                "text": "(Alleluia.)"
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "(Aleluya, aleluya.)"
+              },
+              {
+                "type": "text",
+                "text": "El Verbo se hizo carne y habitó entre nosotros, y hemos contemplado su gloria."
+              },
+              {
+                "type": "response",
+                "text": "(Aleluya.)"
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "The Word of God became flesh, and dwelt among us; and we saw his glory."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "(Aleluia, aleluia.)"
+              },
+              {
+                "type": "text",
+                "text": "A Palavra se fez carne e habitou entre nós. E nós vimos a sua glória, que recebe de Deus Pai. (Aleluya.)"
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Il Verbo si fece carne e venne ad abitare in mezzo a noi; e noi abbiamo contemplato la sua gloria."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "(Alléluia)"
+              },
+              {
+                "type": "text",
+                "text": "Le Verbe s’est fait chair, il a habité parmi nous et nous avons vu sa gloire."
+              },
+              {
+                "type": "response",
+                "text": "(Alléluia)"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "(Halleluja. Halleluja.)"
+              },
+              {
+                "type": "text",
+                "text": "Das Wort ist Fleisch geworden und hat unter uns gewohnt, und wir haben seine Herrlichkeit geschaut."
+              },
+              {
+                "type": "response",
+                "text": "(Halleluja.)"
+              }
+            ]
+          ]
         }
       },
       "gospel": {

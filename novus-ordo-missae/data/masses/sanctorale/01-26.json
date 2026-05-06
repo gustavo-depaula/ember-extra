@@ -1704,127 +1704,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Lc 4, 18 Allelúia. Evangelizáre paupéribus misit me, Dóminus, prædicáre captívis remissiónem. Allelúia.",
-            "es": "Aleluya Lc 4, 18 Aleluya. El Señor me ha enviado a evangelizar a los pobres, a proclamar a los cautivos la libertad. Aleluya.",
-            "en": "Alleluia, alleluia. The Lord sent me to bring Good News to the poor and freedom to prisoners. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Lc 4, 18 Aleluia, aleluia. O Espírito do Senhor repousa sobre mim e enviou-me a anunciar aos pobres o Evangelho. Aleluia.",
-            "it": "Canto al Vangelo Cf. Lc 4, 18 Alleluia, alleluia. Lo Spirito del Signore è sopra di me: mi ha mandato a portare ai poveri il lieto annuncio. Alleluia.",
-            "fr": "Alléluia Lc 4, 18 Alléluia Le Seigneur m’a envoyé porter la Bonne Nouvelle aux pauvres, annoncer aux captifs leur libération. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Lk 4, 18 Halleluja. Halleluja. Der Herr hat mich gesandt, den Armen die Frohe Botschaft zu bringen und den Gefangenen die Freiheit zu verkünden. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 4, 18"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Evangelizáre paupéribus misit me, Dóminus, prædicáre captívis remissiónem. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 4, 18"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. El Señor me ha enviado a evangelizar a los pobres, a proclamar a los cautivos la libertad. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. The Lord sent me to bring Good News to the poor and freedom to prisoners. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 4, 18"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. O Espírito do Senhor repousa sobre mim e enviou-me a anunciar aos pobres o Evangelho. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Lc 4, 18"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Lo Spirito del Signore è sopra di me: mi ha mandato a portare ai poveri il lieto annuncio. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 4, 18"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Le Seigneur m’a envoyé porter la Bonne Nouvelle aux pauvres, annoncer aux captifs leur libération. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Lk 4, 18"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Der Herr hat mich gesandt, den Armen die Frohe Botschaft zu bringen und den Gefangenen die Freiheit zu verkünden. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Lc 4, 18",
           "es": "Lc 4, 18",
@@ -1832,6 +1711,179 @@
           "it": "Cf. Lc 4, 18",
           "fr": "Lc 4, 18",
           "de": "vgl. Lk 4, 18"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Evangelizáre paupéribus misit me, Dóminus, prædicáre captívis remissiónem."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "El Señor me ha enviado a evangelizar a los pobres, a proclamar a los cautivos la libertad."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "The Lord sent me to bring Good News to the poor and freedom to prisoners."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "O Espírito do Senhor repousa sobre mim e enviou-me a anunciar aos pobres o Evangelho."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Lo Spirito del Signore è sopra di me: mi ha mandato a portare ai poveri il lieto annuncio."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Le Seigneur m’a envoyé porter la Bonne Nouvelle aux pauvres, annoncer aux captifs leur libération."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Der Herr hat mich gesandt, den Armen die Frohe Botschaft zu bringen und den Gefangenen die Freiheit zu verkünden."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       }
     }

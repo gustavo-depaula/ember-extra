@@ -1831,125 +1831,185 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 15, 26b-27a Allelúia. Spíritus veritátis testimónium perhibébit de me, dicit Dóminus; et vos testimónium perhibétis. Allelúia.",
-            "es": "Aleluya Jn 15, 26b-27a Aleluya. El Espíritu de la verdad dará testimonio de mí —dice el Señor—; y vosotros daréis testimonio. Aleluya.",
-            "en": "Alleluia, alleluia. The Spirit of truth will bear witness to me, says the Lord, and you also will be my witnesses. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 15, 26b-27a Aleluia, aleluia. O Espírito Santo a Verdade de mim irá testemunhar, e vós minhas testemunhas sereis em todo lugar. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Lo Spirito della verità darà testimonianza di me, dice il Signore, e anche voi date testimonianza. Alleluia.",
-            "fr": "Alléluia Io 15, 26b-27a Alléluia L’Esprit de vérité rendra témoignage en ma faveur, dit le Seigneur. Et vous aussi, vous allez rendre témoignage. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Joh 15, 26b. 27a Halleluja. Halleluja. (So spricht der Herr:) Der Geist der Wahrheit wird Zeugnis geben für mich; und auch ihr sollt Zeugen sein. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 15, 26b-27a"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Spíritus veritátis testimónium perhibébit de me, dicit Dóminus; et vos testimónium perhibétis. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 15, 26b-27a"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. El Espíritu de la verdad dará testimonio de mí —dice el Señor—; y vosotros daréis testimonio. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. The Spirit of truth will bear witness to me, says the Lord, and you also will be my witnesses. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 15, 26b-27a"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. O Espírito Santo a Verdade de mim irá testemunhar, e vós minhas testemunhas sereis em todo lugar. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Lo Spirito della verità darà testimonianza di me, dice il Signore, e anche voi date testimonianza. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 15, 26b-27a"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia L’Esprit de vérité rendra témoignage en ma faveur, dit le Seigneur. Et vous aussi, vous allez rendre témoignage. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Joh 15, 26b. 27a"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Der Geist der Wahrheit wird Zeugnis geben für mich; und auch ihr sollt Zeugen sein. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 15, 26b-27a",
           "es": "Jn 15, 26b-27a",
           "pt-BR": "Jo 15, 26b-27a",
           "fr": "Io 15, 26b-27a",
           "de": "vgl. Joh 15, 26b. 27a"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Spíritus veritátis testimónium perhibébit de me, dicit Dóminus; et vos testimónium perhibétis."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "El Espíritu de la verdad dará testimonio de mí —dice el Señor—; y vosotros daréis testimonio."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "The Spirit of truth will bear witness to me, says the Lord, and you also will be my witnesses."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "O Espírito Santo a Verdade de mim irá testemunhar, e vós minhas testemunhas sereis em todo lugar."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Lo Spirito della verità darà testimonianza di me, dice il Signore, e anche voi date testimonianza."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "L’Esprit de vérité rendra témoignage en ma faveur, dit le Seigneur. Et vous aussi, vous allez rendre témoignage."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Der Geist der Wahrheit wird Zeugnis geben für mich; und auch ihr sollt Zeugen sein."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -3094,127 +3154,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 15, 26b-27a Allelúia. Prophéta magnus surréxit in nobis, et Deus visitábit plebem suam. Allelúia.",
-            "es": "Aleluya Jn 15, 26b-27a Aleluya. Un gran Profeta ha surgido entre nosotros. Dios ha visitado a su pueblo. Aleluya.",
-            "en": "Alleluia, alleluia. A great prophet has appeared among us; God has visited his people. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 15, 26b-27a Aleluia, aleluia. Um grande profeta surgiu, surgiu e entre nós se mostrou, é Deus que seu povo visita, seu povo, meu Deus visitou. Aleluia.",
-            "it": "Canto al Vangelo Lc 7, 16 Alleluia, alleluia. Un grande profeta è sorto tra noi, e Dio ha visitato il suo popolo. Alleluia.",
-            "fr": "Alléluia Io 15, 26b-27a Alléluia Un grand prophète s’est levé parmi nous, et Dieu a visité son peuple. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Lk 7, 16 Halleluja. Halleluja. Ein großer Prophet trat unter uns auf: Gott nahm sich seines Volkes an. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 15, 26b-27a"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Prophéta magnus surréxit in nobis, et Deus visitábit plebem suam. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 15, 26b-27a"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Un gran Profeta ha surgido entre nosotros. Dios ha visitado a su pueblo. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. A great prophet has appeared among us; God has visited his people. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 15, 26b-27a"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Um grande profeta surgiu, surgiu e entre nós se mostrou, é Deus que seu povo visita, seu povo, meu Deus visitou. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 7, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Un grande profeta è sorto tra noi, e Dio ha visitato il suo popolo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 15, 26b-27a"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Un grand prophète s’est levé parmi nous, et Dieu a visité son peuple. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Lk 7, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Ein großer Prophet trat unter uns auf: Gott nahm sich seines Volkes an. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 15, 26b-27a",
           "es": "Jn 15, 26b-27a",
@@ -3222,6 +3161,179 @@
           "it": "Lc 7, 16",
           "fr": "Io 15, 26b-27a",
           "de": "vgl. Lk 7, 16"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Prophéta magnus surréxit in nobis, et Deus visitábit plebem suam."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Un gran Profeta ha surgido entre nosotros. Dios ha visitado a su pueblo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "A great prophet has appeared among us; God has visited his people."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Um grande profeta surgiu, surgiu e entre nós se mostrou, é Deus que seu povo visita, seu povo, meu Deus visitou."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Un grande profeta è sorto tra noi, e Dio ha visitato il suo popolo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Un grand prophète s’est levé parmi nous, et Dieu a visité son peuple."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Ein großer Prophet trat unter uns auf: Gott nahm sich seines Volkes an."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -4414,127 +4526,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 10, 27 Allelúia. Oves meæ vocem meam áudiunt, dicit Dóminus, et ego cognósco eas, et sequúntur me. Allelúia.",
-            "es": "Aleluya Jn 10, 27 Aleluya. Mis ovejas escuchan mi voz —dice el Señor—, y yo las conozco, y ellas me siguen. Aleluya.",
-            "en": "Alleluia, alleluia. My sheep listen to my voice, says the Lord; I know them, and they follow me. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 10, 27 Aleluia, aleluia. Minhas ovelhas escutam minha voz. Minha voz estão elas a escutar; eu conheço, então, minhas ovelhas, que me seguem comigo a caminha. Aleluia.",
-            "it": "Canto al Vangelo Gv 10,27 Alleluia, alleluia. Le mie pecore ascoltano la mia voce, dice il Signore, e io le conosco ed esse mi seguono. Alleluia.",
-            "fr": "Alléluia Io 10, 27 Alléluia Mes brebis écoutent ma voix, dit le Seigneur ; moi, je les connais, et elles me suivent. Alléluia.",
-            "de": "Ruf vor dem Evangelium Joh 10, 27 Halleluja. Halleluja. (So spricht der Herr:) Meine Schafe hören auf meine Stimme; ich kenne sie, und sie folgen mir. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 10, 27"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Oves meæ vocem meam áudiunt, dicit Dóminus, et ego cognósco eas, et sequúntur me. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 10, 27"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Mis ovejas escuchan mi voz —dice el Señor—, y yo las conozco, y ellas me siguen. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. My sheep listen to my voice, says the Lord; I know them, and they follow me. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 10, 27"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Minhas ovelhas escutam minha voz. Minha voz estão elas a escutar; eu conheço, então, minhas ovelhas, que me seguem comigo a caminha. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gv 10,27"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Le mie pecore ascoltano la mia voce, dice il Signore, e io le conosco ed esse mi seguono. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 10, 27"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Mes brebis écoutent ma voix, dit le Seigneur ; moi, je les connais, et elles me suivent. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joh 10, 27"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Meine Schafe hören auf meine Stimme; ich kenne sie, und sie folgen mir. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 10, 27",
           "es": "Jn 10, 27",
@@ -4542,6 +4533,179 @@
           "it": "Gv 10,27",
           "fr": "Io 10, 27",
           "de": "Joh 10, 27"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Oves meæ vocem meam áudiunt, dicit Dóminus, et ego cognósco eas, et sequúntur me."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Mis ovejas escuchan mi voz —dice el Señor—, y yo las conozco, y ellas me siguen."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "My sheep listen to my voice, says the Lord; I know them, and they follow me."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Minhas ovelhas escutam minha voz. Minha voz estão elas a escutar; eu conheço, então, minhas ovelhas, que me seguem comigo a caminha."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Le mie pecore ascoltano la mia voce, dice il Signore, e io le conosco ed esse mi seguono."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Mes brebis écoutent ma voix, dit le Seigneur ; moi, je les connais, et elles me suivent."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Meine Schafe hören auf meine Stimme; ich kenne sie, und sie folgen mir."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

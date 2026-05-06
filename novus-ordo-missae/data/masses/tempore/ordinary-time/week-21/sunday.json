@@ -1657,127 +1657,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Mt 16, 18 Allelúia. Tu es Petrus, et super hanc petram ædificábo Ecclésiam meam; et portæ ínferi non prævalébunt advérsum eam. Allelúia.",
-            "es": "Aleluya Mt 16, 18 Aleluya. Tú eres Pedro, y sobre esta piedra edificaré mi Iglesia, y el poder del infierno no la derrotará. Aleluya.",
-            "en": "Alleluia, alleluia. You are Peter, the rock on which I will build my Church; the gates of hell will not hold out against it. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Mt 16, 18 Aleluia, aleluia. Tu és Pedro, e sobre esta pedra edificarei a minha Igreja; e os poderes do reino das trevas jamais poderão contra ela! Aleluia.",
-            "it": "Canto al Vangelo Mt 16,18 Alleluia, alleluia. Tu sei Pietro e su questa pietra edificherò la mia Chiesa e le potenze degli inferi non prevarranno su di essa. Alleluia.",
-            "fr": "Alléluia Mt 16, 18 Alléluia Tu es Pierre, et sur cette pierre je bâtirai mon Église ; et la puissance de la Mort ne l’emportera pas sur elle. Alléluia.",
-            "de": "Ruf vor dem Evangelium Mt 16, 18 Halleluja. Halleluja. Du bist Petrus - der Fels -, und auf diesen Felsen werde ich meine Kirche bauen, und die Mächte der Unterwelt werden sie nicht überwältigen. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 16, 18"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Tu es Petrus, et super hanc petram ædificábo Ecclésiam meam; et portæ ínferi non prævalébunt advérsum eam. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 16, 18"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Tú eres Pedro, y sobre esta piedra edificaré mi Iglesia, y el poder del infierno no la derrotará. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. You are Peter, the rock on which I will build my Church; the gates of hell will not hold out against it. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 16, 18"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Tu és Pedro, e sobre esta pedra edificarei a minha Igreja; e os poderes do reino das trevas jamais poderão contra ela! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 16,18"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Tu sei Pietro e su questa pietra edificherò la mia Chiesa e le potenze degli inferi non prevarranno su di essa. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 16, 18"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Tu es Pierre, et sur cette pierre je bâtirai mon Église ; et la puissance de la Mort ne l’emportera pas sur elle. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 16, 18"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Du bist Petrus - der Fels -, und auf diesen Felsen werde ich meine Kirche bauen, und die Mächte der Unterwelt werden sie nicht überwältigen. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mt 16, 18",
           "es": "Mt 16, 18",
@@ -1785,6 +1664,179 @@
           "it": "Mt 16,18",
           "fr": "Mt 16, 18",
           "de": "Mt 16, 18"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Tu es Petrus, et super hanc petram ædificábo Ecclésiam meam; et portæ ínferi non prævalébunt advérsum eam."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Tú eres Pedro, y sobre esta piedra edificaré mi Iglesia, y el poder del infierno no la derrotará."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "You are Peter, the rock on which I will build my Church; the gates of hell will not hold out against it."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Tu és Pedro, e sobre esta pedra edificarei a minha Igreja; e os poderes do reino das trevas jamais poderão contra ela!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Tu sei Pietro e su questa pietra edificherò la mia Chiesa e le potenze degli inferi non prevarranno su di essa."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Tu es Pierre, et sur cette pierre je bâtirai mon Église ; et la puissance de la Mort ne l’emportera pas sur elle."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Du bist Petrus - der Fels -, und auf diesen Felsen werde ich meine Kirche bauen, und die Mächte der Unterwelt werden sie nicht überwältigen."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -3030,127 +3082,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. Io 6, 63c. 68c Allelúia. Verba tua, Dómine, Spíritus sunt et vita sunt; verba vitæ ætérnæ habes. Allelúia.",
-            "es": "Aleluya Cf. Jn 6, 63c. 68c Aleluya. Tus palabras, Señor, son espíritu y vida; tú tienes palabras de vida eterna. Aleluya.",
-            "en": "Alleluia, alleluia. Your words, Lord, are spirit and life, you have the words of everlasting life. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Cf. Jo 6, 63c. 68c Aleluia, aleluia. Ó Senhor, vossas palavras são espírito e vida; as palavras que dizeis, bem que são de eterna vida. Aleluia.",
-            "it": "Canto al Vangelo Cfr. Gv 6, 63c.68c Alleluia, alleluia. Le tue parole, Signore, sono spirito e vita; tu hai parole di vita eterna. Alleluia.",
-            "fr": "Alléluia Cf. Io 6, 63c. 68c Alléluia Tes paroles, Seigneur, sont esprit et elles sont vie. Tu as les paroles de la vie éternelle. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Joh 6, 63b. 68c Halleluja. Halleluja. Deine Worte, Herr, sind Geist und Leben. Du hast Worte des ewigen Lebens. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Io 6, 63c. 68c"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Verba tua, Dómine, Spíritus sunt et vita sunt; verba vitæ ætérnæ habes. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Jn 6, 63c. 68c"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Tus palabras, Señor, son espíritu y vida; tú tienes palabras de vida eterna. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Your words, Lord, are spirit and life, you have the words of everlasting life. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Jo 6, 63c. 68c"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Ó Senhor, vossas palavras são espírito e vida; as palavras que dizeis, bem que são de eterna vida. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cfr. Gv 6, 63c.68c"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Le tue parole, Signore, sono spirito e vita; tu hai parole di vita eterna. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Io 6, 63c. 68c"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Tes paroles, Seigneur, sont esprit et elles sont vie. Tu as les paroles de la vie éternelle. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Joh 6, 63b. 68c"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Deine Worte, Herr, sind Geist und Leben. Du hast Worte des ewigen Lebens. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Io 6, 63c. 68c",
           "es": "Cf. Jn 6, 63c. 68c",
@@ -3158,6 +3089,179 @@
           "it": "Cfr. Gv 6, 63c.68c",
           "fr": "Cf. Io 6, 63c. 68c",
           "de": "vgl. Joh 6, 63b. 68c"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Verba tua, Dómine, Spíritus sunt et vita sunt; verba vitæ ætérnæ habes."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Tus palabras, Señor, son espíritu y vida; tú tienes palabras de vida eterna."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Your words, Lord, are spirit and life, you have the words of everlasting life."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Ó Senhor, vossas palavras são espírito e vida; as palavras que dizeis, bem que são de eterna vida."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Le tue parole, Signore, sono spirito e vita; tu hai parole di vita eterna."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Tes paroles, Seigneur, sont esprit et elles sont vie. Tu as les paroles de la vie éternelle."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Deine Worte, Herr, sind Geist und Leben. Du hast Worte des ewigen Lebens."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -3890,127 +3994,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 14, 6 Allelúia. Ego sum via et véritas et vita, dicit Dóminus; nemo venit ad Patrem nisi per me. Allelúia.",
-            "es": "Aleluya Jn 14, 6 Aleluya. Yo soy el camino y la verdad y la vida —dice el Señor—; nadie va al Padre sino por mí. Aleluya.",
-            "en": "Alleluia, alleluia. I am the way, the truth, and the life, says the Lord; no one comes to the Father, except through me. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 14, 6 Aleluia, aleluia. Eu sou o Caminho, a Verdade e a Vida, ninguém chega ao Pai senão por mim. Aleluia.",
-            "it": "Canto al Vangelo Gv 14,6 Alleluia, alleluia. Io sono la via, la verità e la vita, dice il Signore; nessuno viene al Padre se non per mezzo di me. Alleluia.",
-            "fr": "Alléluia Io 14, 6 Alléluia Moi, je suis le Chemin, la Vérité et la Vie, dit le Seigneur. Personne ne va vers le Père sans passer par moi. Alléluia.",
-            "de": "Ruf vor dem Evangelium Joh 14, 6 Halleluja. Halleluja. (So spricht der Herr:) Ich bin der Weg und die Wahrheit und das Leben. Niemand kommt zum Vater außer durch mich. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 14, 6"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Ego sum via et véritas et vita, dicit Dóminus; nemo venit ad Patrem nisi per me. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 14, 6"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Yo soy el camino y la verdad y la vida —dice el Señor—; nadie va al Padre sino por mí. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. I am the way, the truth, and the life, says the Lord; no one comes to the Father, except through me. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 14, 6"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Eu sou o Caminho, a Verdade e a Vida, ninguém chega ao Pai senão por mim. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gv 14,6"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Io sono la via, la verità e la vita, dice il Signore; nessuno viene al Padre se non per mezzo di me. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 14, 6"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Moi, je suis le Chemin, la Vérité et la Vie, dit le Seigneur. Personne ne va vers le Père sans passer par moi. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joh 14, 6"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Ich bin der Weg und die Wahrheit und das Leben. Niemand kommt zum Vater außer durch mich. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 14, 6",
           "es": "Jn 14, 6",
@@ -4018,6 +4001,179 @@
           "it": "Gv 14,6",
           "fr": "Io 14, 6",
           "de": "Joh 14, 6"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Ego sum via et véritas et vita, dicit Dóminus; nemo venit ad Patrem nisi per me."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Yo soy el camino y la verdad y la vida —dice el Señor—; nadie va al Padre sino por mí."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "I am the way, the truth, and the life, says the Lord; no one comes to the Father, except through me."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Eu sou o Caminho, a Verdade e a Vida, ninguém chega ao Pai senão por mim."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Io sono la via, la verità e la vita, dice il Signore; nessuno viene al Padre se non per mezzo di me."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Moi, je suis le Chemin, la Vérité et la Vie, dit le Seigneur. Personne ne va vers le Père sans passer par moi."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Ich bin der Weg und die Wahrheit und das Leben. Niemand kommt zum Vater außer durch mich."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

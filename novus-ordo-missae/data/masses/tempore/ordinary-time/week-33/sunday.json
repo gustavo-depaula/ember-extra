@@ -1555,127 +1555,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 15, 4a. 5b Manéte in me, et ego in vobis, dicit Dóminus; qui manet in me, fert fructum multum. Allelúia.",
-            "es": "Aleluya Jn 15, 4a. 5b Aleluya. Permaneced en mí, y yo en vosotros —dice el Señor—; el que permanece en mí da fruto abundante. Aleluya.",
-            "en": "Alleluia, alleluia. Live in me and let me live in you, says the Lord; my branches bear much fruit. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 15, 4a. 5b Aleluia, aleluia. Ficai em mim e eu em vós hei de ficar, diz o Senhor; quem em mim permanece, esse dá muito fruto. Aleluia.",
-            "it": "Canto al Vangelo Gv 15,4a.5b Alleluia, alleluia. Rimanete in me e io in voi, dice il Signore, chi rimane in me porta molto frutto. Alleluia.",
-            "fr": "Alléluia Io 15, 4a. 5b Alléluia Demeurez en moi, comme moi en vous, dit le Seigneur ; celui qui demeure en moi porte beaucoup de fruit. Alléluia.",
-            "de": "Ruf vor dem Evangelium Joh 15, 4a. 5b Halleluja. Halleluja. (So spricht der Herr:) Bleibt in mir, dann bleibe ich in euch. Wer in mir bleibt, der bringt reiche Frucht. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 15, 4a. 5b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Manéte in me, et ego in vobis, dicit Dóminus; qui manet in me, fert fructum multum. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 15, 4a. 5b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Permaneced en mí, y yo en vosotros —dice el Señor—; el que permanece en mí da fruto abundante. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Live in me and let me live in you, says the Lord; my branches bear much fruit. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 15, 4a. 5b"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Ficai em mim e eu em vós hei de ficar, diz o Senhor; quem em mim permanece, esse dá muito fruto. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gv 15,4a.5b"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Rimanete in me e io in voi, dice il Signore, chi rimane in me porta molto frutto. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 15, 4a. 5b"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Demeurez en moi, comme moi en vous, dit le Seigneur ; celui qui demeure en moi porte beaucoup de fruit. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joh 15, 4a. 5b"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Bleibt in mir, dann bleibe ich in euch. Wer in mir bleibt, der bringt reiche Frucht. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 15, 4a. 5b",
           "es": "Jn 15, 4a. 5b",
@@ -1683,6 +1562,175 @@
           "it": "Gv 15,4a.5b",
           "fr": "Io 15, 4a. 5b",
           "de": "Joh 15, 4a. 5b"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "text",
+                "text": "Manéte in me, et ego in vobis, dicit Dóminus; qui manet in me, fert fructum multum."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Permaneced en mí, y yo en vosotros —dice el Señor—; el que permanece en mí da fruto abundante."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Live in me and let me live in you, says the Lord; my branches bear much fruit."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Ficai em mim e eu em vós hei de ficar, diz o Senhor; quem em mim permanece, esse dá muito fruto."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Rimanete in me e io in voi, dice il Signore, chi rimane in me porta molto frutto."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Demeurez en moi, comme moi en vous, dit le Seigneur ; celui qui demeure en moi porte beaucoup de fruit."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Bleibt in mir, dann bleibe ich in euch. Wer in mir bleibt, der bringt reiche Frucht."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -2875,127 +2923,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Lc 21, 36 Allelúia. Vigiláte, omni témpore orántes, ut possítis stare ante Fílium hóminis. Allelúia.",
-            "es": "Aleluya Lc 21, 36 Aleluya. Estad despiertos en todo tiempo, pidiendo manteneros en pie ante el Hijo del hombre. Aleluya.",
-            "en": "Alleluia, alleluia. Be watchful, pray constantly, that you may be worthy to stand before the Son of Man. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Lc 21, 36 Aleluia, aleluia. É preciso vigiar e ficar de prontidão; em que dia o Senhor há de vir, não sabeis não! Aleluia.",
-            "it": "Canto al Vangelo Lc 21,36 Alleluia, alleluia. Vegliate in ogni momento pregando, perché abbiate la forza di comparire davanti al Figlio dell’uomo. Alleluia.",
-            "fr": "Alléluia Lc 21, 36 Alléluia Restez éveillés et priez en tout temps : ainsi vous pourrez vous tenir debout devant le Fils de l’homme. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Lk 21, 36 Halleluja. Halleluja. Wacht und betet allezeit, damit ihr hintreten könnt vor den Menschensohn. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 21, 36"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Vigiláte, omni témpore orántes, ut possítis stare ante Fílium hóminis. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 21, 36"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Estad despiertos en todo tiempo, pidiendo manteneros en pie ante el Hijo del hombre. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Be watchful, pray constantly, that you may be worthy to stand before the Son of Man. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 21, 36"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. É preciso vigiar e ficar de prontidão; em que dia o Senhor há de vir, não sabeis não! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 21,36"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Vegliate in ogni momento pregando, perché abbiate la forza di comparire davanti al Figlio dell’uomo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 21, 36"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Restez éveillés et priez en tout temps : ainsi vous pourrez vous tenir debout devant le Fils de l’homme. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Lk 21, 36"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Wacht und betet allezeit, damit ihr hintreten könnt vor den Menschensohn. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Lc 21, 36",
           "es": "Lc 21, 36",
@@ -3003,6 +2930,179 @@
           "it": "Lc 21,36",
           "fr": "Lc 21, 36",
           "de": "vgl. Lk 21, 36"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Vigiláte, omni témpore orántes, ut possítis stare ante Fílium hóminis."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Estad despiertos en todo tiempo, pidiendo manteneros en pie ante el Hijo del hombre."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Be watchful, pray constantly, that you may be worthy to stand before the Son of Man."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "É preciso vigiar e ficar de prontidão; em que dia o Senhor há de vir, não sabeis não!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Vegliate in ogni momento pregando, perché abbiate la forza di comparire davanti al Figlio dell’uomo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Restez éveillés et priez en tout temps : ainsi vous pourrez vous tenir debout devant le Fils de l’homme."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Wacht und betet allezeit, damit ihr hintreten könnt vor den Menschensohn."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -3971,127 +4071,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Lc 21, 28 Allelúia. Respícite et leváte cápita vestra, quóniam appropínquat redémptio vestra. Allelúia.",
-            "es": "Aleluya Lc 21, 28 Aleluya. Levantaos, alzad la cabeza: se acerca vuestra liberación. Aleluya.",
-            "en": "Alleluia, alleluia. Lift up your heads and see; your redemption is near at hand. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Lc 21, 28 Aleluia, aleluia. Levantai vossa cabeça e olhai, pois a vossa redenção se aproxima! Aleluia.",
-            "it": "Canto al Vangelo Lc 21,28 Alleluia, alleluia. Risollevate e alzate il capo, perché la vostra liberazione è vicina. Alleluia.",
-            "fr": "Alléluia Lc 21, 28 Alléluia Redressez-vous et relevez la tête, car votre rédemption approche. Alléluia.",
-            "de": "Ruf vor dem Evangelium Lk 21, 28 Halleluja. Halleluja. Richtet euch auf, und erhebt euer Haupt; denn eure Erlösung ist nahe. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 21, 28"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Respícite et leváte cápita vestra, quóniam appropínquat redémptio vestra. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 21, 28"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Levantaos, alzad la cabeza: se acerca vuestra liberación. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Lift up your heads and see; your redemption is near at hand. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 21, 28"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Levantai vossa cabeça e olhai, pois a vossa redenção se aproxima! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 21,28"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Risollevate e alzate il capo, perché la vostra liberazione è vicina. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 21, 28"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Redressez-vous et relevez la tête, car votre rédemption approche. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lk 21, 28"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Richtet euch auf, und erhebt euer Haupt; denn eure Erlösung ist nahe. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Lc 21, 28",
           "es": "Lc 21, 28",
@@ -4099,6 +4078,179 @@
           "it": "Lc 21,28",
           "fr": "Lc 21, 28",
           "de": "Lk 21, 28"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Respícite et leváte cápita vestra, quóniam appropínquat redémptio vestra."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Levantaos, alzad la cabeza: se acerca vuestra liberación."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Lift up your heads and see; your redemption is near at hand."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Levantai vossa cabeça e olhai, pois a vossa redenção se aproxima!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Risollevate e alzate il capo, perché la vostra liberazione è vicina."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Redressez-vous et relevez la tête, car votre rédemption approche."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Richtet euch auf, und erhebt euer Haupt; denn eure Erlösung ist nahe."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

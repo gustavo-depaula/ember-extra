@@ -2351,125 +2351,185 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. Lc 1, 28 Allelúia. Ave, María, grátia plena, Dóminus tecum, benedícta tu in muliéribus. Allelúia.",
-            "es": "Aleluya Lc 1, 28 Aleluya. Alégrate, María, llena de gracia, el Señor está contigo, bendita tú entre las mujeres. Aleluya.",
-            "en": "Alleluia, alleluia. Hail, Mary, full of grace, the Lord is with you; blessed are you among women. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Lc 1, 28 Aleluia, aleluia. Maria, alegra-te, ó cheia de graça, o Senhor é contigo! Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Ave, o Maria, piena di grazia, il Signore è con te: tu sei benedetta tra tutte le donne. Alleluia.",
-            "fr": "Alléluia Cf. Lc 1, 28 Alléluia Je te salue, Marie, Comblée de grâce : le Seigneur est avec toi, tu es bénie entre les femmes. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Lk 1, 28 Halleluja. Halleluja. Gegrüßet seist du, Maria, voll der Gnade, der Herr ist mit dir, du bist gebenedeit unter den Frauen. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Lc 1, 28"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Ave, María, grátia plena, Dóminus tecum, benedícta tu in muliéribus. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 1, 28"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Alégrate, María, llena de gracia, el Señor está contigo, bendita tú entre las mujeres. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Hail, Mary, full of grace, the Lord is with you; blessed are you among women. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 1, 28"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Maria, alegra-te, ó cheia de graça, o Senhor é contigo! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Ave, o Maria, piena di grazia, il Signore è con te: tu sei benedetta tra tutte le donne. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Lc 1, 28"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Je te salue, Marie, Comblée de grâce : le Seigneur est avec toi, tu es bénie entre les femmes. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Lk 1, 28"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Gegrüßet seist du, Maria, voll der Gnade, der Herr ist mit dir, du bist gebenedeit unter den Frauen. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Lc 1, 28",
           "es": "Lc 1, 28",
           "pt-BR": "Lc 1, 28",
           "fr": "Cf. Lc 1, 28",
           "de": "vgl. Lk 1, 28"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Ave, María, grátia plena, Dóminus tecum, benedícta tu in muliéribus."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Alégrate, María, llena de gracia, el Señor está contigo, bendita tú entre las mujeres."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Hail, Mary, full of grace, the Lord is with you; blessed are you among women."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Maria, alegra-te, ó cheia de graça, o Senhor é contigo!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Ave, o Maria, piena di grazia, il Signore è con te: tu sei benedetta tra tutte le donne."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Je te salue, Marie, Comblée de grâce : le Seigneur est avec toi, tu es bénie entre les femmes."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Gegrüßet seist du, Maria, voll der Gnade, der Herr ist mit dir, du bist gebenedeit unter den Frauen."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

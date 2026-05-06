@@ -1444,86 +1444,178 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia, allelúia. Felix es, sacra Virgo María, et omni laude digníssima; quia ex te ortus est sol iustitiæ, Christus Deus noster. Allelúia.",
-            "es": "Aleluya, aleluya. Dichosa eres, santa Virgen María, y muy digna de toda alabanza: porque de ti salió el sol de justicia, Cristo, nuestro Dios. Aleluya.",
-            "en": "Alleluia, alleluia. Happy are you, holy Virgin Mary, deserving of all praise; from you rose the sun of justice, Christ the Lord. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Aleluia, aleluia. Sois feliz, Virgem Maria; e mereceis todo louvor; pois de vós se levantou o Sol brilhante da justiça, que é Cristo, nosso Deus, pelo qual nós fomos salvos! Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Beata sei tu, o Vergine Maria, e degna d’ogni lode: da te è nato il Sole di giustizia, Cristo Dio nostro. Alleluia.",
-            "fr": "Alléluia, alléluia. Heureuse es-tu, sainte Vierge Marie, tu es digne de toute louange : de toi s’est levé le soleil de justice, le Christ notre Dieu. Alléluia.",
-            "de": "Ruf vor dem Evangelium Halleluja. Halleluja. Selig bist du, Jungfrau Maria, und allen Lobes überaus würdig. Denn aus dir ging hervor die Sonne der Gerechtigkeit, Christus, unser Gott. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Felix es, sacra Virgo María, et omni laude digníssima; quia ex te ortus est sol iustitiæ, Christus Deus noster. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Dichosa eres, santa Virgen María, y muy digna de toda alabanza: porque de ti salió el sol de justicia, Cristo, nuestro Dios. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Happy are you, holy Virgin Mary, deserving of all praise; from you rose the sun of justice, Christ the Lord. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho Aleluia, aleluia. Sois feliz, Virgem Maria; e mereceis todo louvor; pois de vós se levantou o Sol brilhante da justiça, que é Cristo, nosso Deus, pelo qual nós fomos salvos! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Beata sei tu, o Vergine Maria, e degna d’ogni lode: da te è nato il Sole di giustizia, Cristo Dio nostro. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia, alléluia. Heureuse es-tu, sainte Vierge Marie, tu es digne de toute louange : de toi s’est levé le soleil de justice, le Christ notre Dieu. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium Halleluja. Halleluja. Selig bist du, Jungfrau Maria, und allen Lobes überaus würdig. Denn aus dir ging hervor die Sonne der Gerechtigkeit, Christus, unser Gott. Halleluja."
-                }
-              ]
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
             ]
-          }
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Felix es, sacra Virgo María, et omni laude digníssima; quia ex te ortus est sol iustitiæ, Christus Deus noster."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Dichosa eres, santa Virgen María, y muy digna de toda alabanza: porque de ti salió el sol de justicia, Cristo, nuestro Dios."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Happy are you, holy Virgin Mary, deserving of all praise; from you rose the sun of justice, Christ the Lord."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Sois feliz, Virgem Maria; e mereceis todo louvor; pois de vós se levantou o Sol brilhante da justiça, que é Cristo, nosso Deus, pelo qual nós fomos salvos!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Beata sei tu, o Vergine Maria, e degna d’ogni lode: da te è nato il Sole di giustizia, Cristo Dio nostro."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Heureuse es-tu, sainte Vierge Marie, tu es digne de toute louange : de toi s’est levé le soleil de justice, le Christ notre Dieu."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Selig bist du, Jungfrau Maria, und allen Lobes überaus würdig. Denn aus dir ging hervor die Sonne der Gerechtigkeit, Christus, unser Gott."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

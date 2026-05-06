@@ -2332,121 +2332,71 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Versus ante Evangelium Mt 17, 5 In splendénti nube, patérna vox audíta est: Hic est Fílius meus diléctus; ipsum audíte.",
-            "es": "Versículo antes del Evangelio Mt 17, 5 En el esplendor de la nube se oyó la voz del Padre: «Este es mi Hijo, el Elegido, escuchadlo».",
-            "en": "From the shining cloud the Father's voice is heard: this is my beloved Son; hear him.",
-            "pt-BR": "Aclamação ao Evangelho Mt 17, 5 Numa nuvem resplendente fez ouvir a voz do Pai: Eis meu Filho muito amado, escutai-o, todos vós.",
-            "it": "Canto al Vangelo (Cfr. Mc 9,7) Lode e onore a te, Signore Gesù! Dalla nube luminosa, si udì la voce del Padre: «Questi è il mio Figlio, l’amato: ascoltatelo!». Lode e onore a te, Signore Gesù!",
-            "fr": "Verset avant l’Évangile Mt 17, 5 Gloire au Christ, Parole éternelle du Dieu vivant. Gloire à toi, Seigneur. De la nuée lumineuse, la voix du Père a retenti : « Celui-ci est mon Fils bien-aimé, écoutez-le ! » Gloire au Christ, Parole éternelle du Dieu vivant. Gloire à toi, Seigneur.",
-            "de": "Ruf vor dem Evangelium Herr Jesus, dir sei Ruhm und Ehre! Aus der leuchtenden Wolke rief die Stimme des Vaters: Das ist mein geliebter Sohn; auf ihn sollt ihr hören. Herr Jesus, dir sei Ruhm und Ehre!"
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versus ante Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 17, 5"
-                },
-                {
-                  "type": "text",
-                  "text": "In splendénti nube, patérna vox audíta est: Hic est Fílius meus diléctus; ipsum audíte."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versículo antes del Evangelio"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 17, 5"
-                },
-                {
-                  "type": "text",
-                  "text": "En el esplendor de la nube se oyó la voz del Padre: «Este es mi Hijo, el Elegido, escuchadlo»."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "From the shining cloud the Father's voice is heard: this is my beloved Son; hear him."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 17, 5"
-                },
-                {
-                  "type": "text",
-                  "text": "Numa nuvem resplendente fez ouvir a voz do Pai: Eis meu Filho muito amado, escutai-o, todos vós."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Cfr. Mc 9,7)"
-                },
-                {
-                  "type": "text",
-                  "text": "Lode e onore a te, Signore Gesù! Dalla nube luminosa, si udì la voce del Padre: «Questi è il mio Figlio, l’amato: ascoltatelo!». Lode e onore a te, Signore Gesù!"
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Verset avant l’Évangile"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 17, 5"
-                },
-                {
-                  "type": "text",
-                  "text": "Gloire au Christ, Parole éternelle du Dieu vivant. Gloire à toi, Seigneur. De la nuée lumineuse, la voix du Père a retenti : « Celui-ci est mon Fils bien-aimé, écoutez-le ! » Gloire au Christ, Parole éternelle du Dieu vivant. Gloire à toi, Seigneur."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium Herr Jesus, dir sei Ruhm und Ehre! Aus der leuchtenden Wolke rief die Stimme des Vaters: Das ist mein geliebter Sohn; auf ihn sollt ihr hören. Herr Jesus, dir sei Ruhm und Ehre!"
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mt 17, 5",
           "es": "Mt 17, 5",
           "pt-BR": "Mt 17, 5",
           "it": "(Cfr. Mc 9,7)",
           "fr": "Mt 17, 5"
+        },
+        "mode": "versus-ante-evangelium",
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "text",
+                "text": "In splendénti nube, patérna vox audíta est: Hic est Fílius meus diléctus; ipsum audíte."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "text",
+                "text": "En el esplendor de la nube se oyó la voz del Padre: «Este es mi Hijo, el Elegido, escuchadlo»."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "text",
+                "text": "From the shining cloud the Father's voice is heard: this is my beloved Son; hear him."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "Numa nuvem resplendente fez ouvir a voz do Pai: Eis meu Filho muito amado, escutai-o, todos vós."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "Lode e onore a te, Signore Gesù! Dalla nube luminosa, si udì la voce del Padre: «Questi è il mio Figlio, l’amato: ascoltatelo!». Lode e onore a te, Signore Gesù!"
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Gloire au Christ, Parole éternelle du Dieu vivant. Gloire à toi, Seigneur. De la nuée lumineuse, la voix du Père a retenti : « Celui-ci est mon Fils bien-aimé, écoutez-le ! » Gloire au Christ, Parole éternelle du Dieu vivant. Gloire à toi, Seigneur."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "text",
+                "text": "Herr Jesus, dir sei Ruhm und Ehre! Aus der leuchtenden Wolke rief die Stimme des Vaters: Das ist mein geliebter Sohn; auf ihn sollt ihr hören. Herr Jesus, dir sei Ruhm und Ehre!"
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -3450,121 +3400,71 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Versus ante Evangelium Mt 17, 5 In splendénti nube, patérna vox audíta est: Hic est Fílius meus diléctus; ipsum audíte.",
-            "es": "Versículo antes del Evangelio Mt 17, 5 En el esplendor de la nube se oyó la voz del Padre: «Éste es mi Hijo, el Elegido, escuchadlo».",
-            "en": "From the shining cloud the Father's voice is heard: this is my beloved Son; hear him.",
-            "pt-BR": "Aclamação ao Evangelho Mt 17, 5 Numa nuvem resplendente fez ouvir a voz do Pai: Eis meu Filho muito amado, escutai-o, todos vós.",
-            "it": "Canto al Vangelo (Cfr. Mc 9,7) Lode e onore a te, Signore Gesù! Dalla nube luminosa si udì la voce del Padre: «Questi è il mio Figlio, l’amato: ascoltatelo!» Lode e onore a te, Signore Gesù!",
-            "fr": "Verset avant l’Évangile Mt 17, 5 Gloire au Christ, Parole éternelle du Dieu vivant. Gloire à toi, Seigneur. De la nuée lumineuse, la voix du Père a retenti : « Celui-ci est mon Fils bien-aimé, écoutez-le ! ». Gloire au Christ, Parole éternelle du Dieu vivant. Gloire à toi, Seigneur.",
-            "de": "Ruf vor dem Evangelium Lob dir, Christus, König und Erlöser! Aus der leuchtenden Wolke rief die Stimme des Vaters: Das ist mein geliebter Sohn; auf ihn sollt ihr hören. Lob dir, Christus, König und Erlöser!"
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versus ante Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 17, 5"
-                },
-                {
-                  "type": "text",
-                  "text": "In splendénti nube, patérna vox audíta est: Hic est Fílius meus diléctus; ipsum audíte."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versículo antes del Evangelio"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 17, 5"
-                },
-                {
-                  "type": "text",
-                  "text": "En el esplendor de la nube se oyó la voz del Padre: «Éste es mi Hijo, el Elegido, escuchadlo»."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "From the shining cloud the Father's voice is heard: this is my beloved Son; hear him."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 17, 5"
-                },
-                {
-                  "type": "text",
-                  "text": "Numa nuvem resplendente fez ouvir a voz do Pai: Eis meu Filho muito amado, escutai-o, todos vós."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Cfr. Mc 9,7)"
-                },
-                {
-                  "type": "text",
-                  "text": "Lode e onore a te, Signore Gesù! Dalla nube luminosa si udì la voce del Padre: «Questi è il mio Figlio, l’amato: ascoltatelo!» Lode e onore a te, Signore Gesù!"
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Verset avant l’Évangile"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 17, 5"
-                },
-                {
-                  "type": "text",
-                  "text": "Gloire au Christ, Parole éternelle du Dieu vivant. Gloire à toi, Seigneur. De la nuée lumineuse, la voix du Père a retenti : « Celui-ci est mon Fils bien-aimé, écoutez-le ! ». Gloire au Christ, Parole éternelle du Dieu vivant. Gloire à toi, Seigneur."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium Lob dir, Christus, König und Erlöser! Aus der leuchtenden Wolke rief die Stimme des Vaters: Das ist mein geliebter Sohn; auf ihn sollt ihr hören. Lob dir, Christus, König und Erlöser!"
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mt 17, 5",
           "es": "Mt 17, 5",
           "pt-BR": "Mt 17, 5",
           "it": "(Cfr. Mc 9,7)",
           "fr": "Mt 17, 5"
+        },
+        "mode": "versus-ante-evangelium",
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "text",
+                "text": "In splendénti nube, patérna vox audíta est: Hic est Fílius meus diléctus; ipsum audíte."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "text",
+                "text": "En el esplendor de la nube se oyó la voz del Padre: «Éste es mi Hijo, el Elegido, escuchadlo»."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "text",
+                "text": "From the shining cloud the Father's voice is heard: this is my beloved Son; hear him."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "Numa nuvem resplendente fez ouvir a voz do Pai: Eis meu Filho muito amado, escutai-o, todos vós."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "Lode e onore a te, Signore Gesù! Dalla nube luminosa si udì la voce del Padre: «Questi è il mio Figlio, l’amato: ascoltatelo!» Lode e onore a te, Signore Gesù!"
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Gloire au Christ, Parole éternelle du Dieu vivant. Gloire à toi, Seigneur. De la nuée lumineuse, la voix du Père a retenti : « Celui-ci est mon Fils bien-aimé, écoutez-le ! ». Gloire au Christ, Parole éternelle du Dieu vivant. Gloire à toi, Seigneur."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "text",
+                "text": "Lob dir, Christus, König und Erlöser! Aus der leuchtenden Wolke rief die Stimme des Vaters: Das ist mein geliebter Sohn; auf ihn sollt ihr hören. Lob dir, Christus, König und Erlöser!"
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -4744,112 +4644,70 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Versus ante Evangelium Mt 17, 5 In splendénti nube, patérna vox audíta est: Hic est Fílius meus diléctus; ipsum audíte.",
-            "es": "Versículo antes del Evangelio Mt 17, 5 En el esplendor de la nube se oyó la voz del Padre: «Este es mi Hijo amado, escuchadlo».",
-            "en": "From the shining cloud the Father's voice is heard: this is my beloved Son; hear him.",
-            "pt-BR": "Aclamação ao Evangelho Mt 17, 5 Numa nuvem resplendente fez ouvir a voz do Pai: Eis meu Filho muito amado, escutai-o, todos vós!",
-            "it": "Canto al Vangelo Lode e onore a te, Signore Gesù! Dalla nube luminosa, si udì la voce del Padre: «Questi è il mio Figlio, l’amato: ascoltatelo!». Lode e onore a te, Signore Gesù!",
-            "fr": "Verset avant l’Évangile Mt 17, 5 Gloire au Christ, Parole éternelle du Dieu vivant. Gloire à toi, Seigneur. De la nuée lumineuse, la voix du Père a retenti : « Celui-ci est mon Fils bien-aimé, écoutez-le ! » Gloire au Christ, Parole éternelle du Dieu vivant. Gloire à toi, Seigneur.",
-            "de": "Ruf vor dem Evangelium Christus, du ewiges Wort des Vaters, Ehre sei dir! Aus der leuchtenden Wolke rief die Stimme des Vaters: Das ist mein geliebter Sohn; auf ihn sollt ihr hören. Christus, du ewiges Wort des Vaters, Ehre sei dir!"
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versus ante Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 17, 5"
-                },
-                {
-                  "type": "text",
-                  "text": "In splendénti nube, patérna vox audíta est: Hic est Fílius meus diléctus; ipsum audíte."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versículo antes del Evangelio"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 17, 5"
-                },
-                {
-                  "type": "text",
-                  "text": "En el esplendor de la nube se oyó la voz del Padre: «Este es mi Hijo amado, escuchadlo»."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "From the shining cloud the Father's voice is heard: this is my beloved Son; hear him."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 17, 5"
-                },
-                {
-                  "type": "text",
-                  "text": "Numa nuvem resplendente fez ouvir a voz do Pai: Eis meu Filho muito amado, escutai-o, todos vós!"
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Lode e onore a te, Signore Gesù! Dalla nube luminosa, si udì la voce del Padre: «Questi è il mio Figlio, l’amato: ascoltatelo!». Lode e onore a te, Signore Gesù!"
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Verset avant l’Évangile"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 17, 5"
-                },
-                {
-                  "type": "text",
-                  "text": "Gloire au Christ, Parole éternelle du Dieu vivant. Gloire à toi, Seigneur. De la nuée lumineuse, la voix du Père a retenti : « Celui-ci est mon Fils bien-aimé, écoutez-le ! » Gloire au Christ, Parole éternelle du Dieu vivant. Gloire à toi, Seigneur."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium Christus, du ewiges Wort des Vaters, Ehre sei dir! Aus der leuchtenden Wolke rief die Stimme des Vaters: Das ist mein geliebter Sohn; auf ihn sollt ihr hören. Christus, du ewiges Wort des Vaters, Ehre sei dir!"
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mt 17, 5",
           "es": "Mt 17, 5",
           "pt-BR": "Mt 17, 5",
           "fr": "Mt 17, 5"
+        },
+        "mode": "versus-ante-evangelium",
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "text",
+                "text": "In splendénti nube, patérna vox audíta est: Hic est Fílius meus diléctus; ipsum audíte."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "text",
+                "text": "En el esplendor de la nube se oyó la voz del Padre: «Este es mi Hijo amado, escuchadlo»."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "text",
+                "text": "From the shining cloud the Father's voice is heard: this is my beloved Son; hear him."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "Numa nuvem resplendente fez ouvir a voz do Pai: Eis meu Filho muito amado, escutai-o, todos vós!"
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "Lode e onore a te, Signore Gesù! Dalla nube luminosa, si udì la voce del Padre: «Questi è il mio Figlio, l’amato: ascoltatelo!». Lode e onore a te, Signore Gesù!"
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Gloire au Christ, Parole éternelle du Dieu vivant. Gloire à toi, Seigneur. De la nuée lumineuse, la voix du Père a retenti : « Celui-ci est mon Fils bien-aimé, écoutez-le ! » Gloire au Christ, Parole éternelle du Dieu vivant. Gloire à toi, Seigneur."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "text",
+                "text": "Christus, du ewiges Wort des Vaters, Ehre sei dir! Aus der leuchtenden Wolke rief die Stimme des Vaters: Das ist mein geliebter Sohn; auf ihn sollt ihr hören. Christus, du ewiges Wort des Vaters, Ehre sei dir!"
+              }
+            ]
+          ]
         }
       },
       "gospel": {

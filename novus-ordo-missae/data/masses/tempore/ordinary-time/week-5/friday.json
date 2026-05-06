@@ -815,131 +815,185 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. Act 16, 14b Allelúia. Aperi, Dómine, cor nostrum, ut intendámus verbis Fílii tui. Allelúia.",
-            "es": "Aleluya Cf. Hch 16, 14b Aleluya. Abre, Señor, nuestro corazón, para que aceptemos las palabras de tu Hijo. Aleluya.",
-            "en": "Alleluia, alleluia. Open our hearts, O Lord, to listen to the words of your Son. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Cf. Actos 16, 14b Aleluia, aleluia. Abri-nos, ó Senhor, o coração, para ouvirmos a palavra de Jesus!. Aleluia.",
-            "it": "Canto al Vangelo (Cfr. At16,14b) Alleluia, alleluia. Apri, Signore, il nostro cuore e accoglieremo le parole del Figlio tuo. Alleluia.",
-            "fr": "Alléluia Cf. Act 16, 14b Alléluia Seigneur, ouvre notre cœur pour nous rendre attentifs aux paroles de ton Fils. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Apg 16, 14b Halleluja. Halleluja. Herr, öffne uns das Herz, dass wir auf die Worte deines Sohnes hören. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Act 16, 14b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Aperi, Dómine, cor nostrum, ut intendámus verbis Fílii tui. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Hch 16, 14b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Abre, Señor, nuestro corazón, para que aceptemos las palabras de tu Hijo. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Open our hearts, O Lord, to listen to the words of your Son. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Actos 16, 14b"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Abri-nos, ó Senhor, o coração, para ouvirmos a palavra de Jesus!. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo (Cfr. At16,14b)"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Apri, Signore, il nostro cuore e accoglieremo le parole del Figlio tuo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Act 16, 14b"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Seigneur, ouvre notre cœur pour nous rendre attentifs aux paroles de ton Fils. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Apg 16, 14b"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Herr, öffne uns das Herz, dass wir auf die Worte deines Sohnes hören. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Act 16, 14b",
           "es": "Cf. Hch 16, 14b",
           "pt-BR": "Cf. Actos 16, 14b",
           "fr": "Cf. Act 16, 14b",
           "de": "vgl. Apg 16, 14b"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Aperi, Dómine, cor nostrum, ut intendámus verbis Fílii tui."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Abre, Señor, nuestro corazón, para que aceptemos las palabras de tu Hijo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Open our hearts, O Lord, to listen to the words of your Son."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Abri-nos, ó Senhor, o coração, para ouvirmos a palavra de Jesus!."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "(Cfr. At16,14b)"
+              },
+              {
+                "type": "text",
+                "text": "Alleluia, alleluia. Apri, Signore, il nostro cuore e accoglieremo le parole del Figlio tuo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Seigneur, ouvre notre cœur pour nous rendre attentifs aux paroles de ton Fils."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Herr, öffne uns das Herz, dass wir auf die Worte deines Sohnes hören."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -1889,131 +1943,185 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. Act 16, 14b Allelúia. Aperi, Dómine, cor nostrum, ut intendámus verbis Fílii tui. Allelúia.",
-            "es": "Aleluya Cf. Hch 16, 14b Aleluya. Abre, Señor, nuestro corazón, para que aceptemos las palabras de tu Hijo. Aleluya.",
-            "en": "Alleluia, alleluia. Open our hearts, O Lord, to listen to the words of your Son. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Cf. Actos 16, 14b Aleluia, aleluia. Abri-nos, ó Senhor, o coração, para ouvirmos a palavra de Jesus!. Aleluia.",
-            "it": "Canto al Vangelo (Cfr. At16,14b) Alleluia, alleluia. Apri, Signore, il nostro cuore e accoglieremo le parole del Figlio tuo. Alleluia.",
-            "fr": "Alléluia Cf. Act 16, 14b Alléluia Seigneur, ouvre notre cœur pour nous rendre attentifs aux paroles de ton Fils. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Apg 16, 14b Halleluja. Halleluja. Herr, öffne uns das Herz, dass wir auf die Worte deines Sohnes hören. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Act 16, 14b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Aperi, Dómine, cor nostrum, ut intendámus verbis Fílii tui. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Hch 16, 14b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Abre, Señor, nuestro corazón, para que aceptemos las palabras de tu Hijo. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Open our hearts, O Lord, to listen to the words of your Son. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Actos 16, 14b"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Abri-nos, ó Senhor, o coração, para ouvirmos a palavra de Jesus!. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo (Cfr. At16,14b)"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Apri, Signore, il nostro cuore e accoglieremo le parole del Figlio tuo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Act 16, 14b"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Seigneur, ouvre notre cœur pour nous rendre attentifs aux paroles de ton Fils. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Apg 16, 14b"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Herr, öffne uns das Herz, dass wir auf die Worte deines Sohnes hören. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Act 16, 14b",
           "es": "Cf. Hch 16, 14b",
           "pt-BR": "Cf. Actos 16, 14b",
           "fr": "Cf. Act 16, 14b",
           "de": "vgl. Apg 16, 14b"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Aperi, Dómine, cor nostrum, ut intendámus verbis Fílii tui."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Abre, Señor, nuestro corazón, para que aceptemos las palabras de tu Hijo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Open our hearts, O Lord, to listen to the words of your Son."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Abri-nos, ó Senhor, o coração, para ouvirmos a palavra de Jesus!."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "(Cfr. At16,14b)"
+              },
+              {
+                "type": "text",
+                "text": "Alleluia, alleluia. Apri, Signore, il nostro cuore e accoglieremo le parole del Figlio tuo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Seigneur, ouvre notre cœur pour nous rendre attentifs aux paroles de ton Fils."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Herr, öffne uns das Herz, dass wir auf die Worte deines Sohnes hören."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

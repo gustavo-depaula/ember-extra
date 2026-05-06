@@ -1450,125 +1450,185 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Is 33, 22 Allelúia. Dóminus iudex noster, légifer noster, rex noster: ipse salvábit nos. Allelúia.",
-            "es": "Aleluya Is 33, 22 Aleluya. El Señor nos gobierna, nos da leyes, es nuestro rey, él es nuestra salvación. Aleluya.",
-            "en": "Alleluia, alleluia. The Lord will judge us by his law; he is our King and Savior. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Is 33, 22 Aleluia, aleluia. É o Senhor nosso juiz e nosso Rei. O Senhor legislador nos salvará. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Il Signore è nostro giudice, nostro legislatore, nostro re: egli ci salverà. Alleluia.",
-            "fr": "Alléluia Is 33, 22 Alléluia. Alléluia. Le Seigneur est notre juge, il nous donne des lois, le Seigneur est notre roi : c’est lui qui nous sauve. Alléluia.",
-            "de": "Ruf vor dem Evangelium Jes 33, 22 Halleluja. Halleluja. Der Herr ist unser Richter, der Herr gibt uns Gesetze; der Herr ist unser König, er wird uns retten. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Is 33, 22"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Dóminus iudex noster, légifer noster, rex noster: ipse salvábit nos. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Is 33, 22"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. El Señor nos gobierna, nos da leyes, es nuestro rey, él es nuestra salvación. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. The Lord will judge us by his law; he is our King and Savior. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Is 33, 22"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. É o Senhor nosso juiz e nosso Rei. O Senhor legislador nos salvará. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Il Signore è nostro giudice, nostro legislatore, nostro re: egli ci salverà. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Is 33, 22"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia. Alléluia. Le Seigneur est notre juge, il nous donne des lois, le Seigneur est notre roi : c’est lui qui nous sauve. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jes 33, 22"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Der Herr ist unser Richter, der Herr gibt uns Gesetze; der Herr ist unser König, er wird uns retten. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Is 33, 22",
           "es": "Is 33, 22",
           "pt-BR": "Is 33, 22",
           "fr": "Is 33, 22",
           "de": "Jes 33, 22"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia. Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Dóminus iudex noster, légifer noster, rex noster: ipse salvábit nos."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "El Señor nos gobierna, nos da leyes, es nuestro rey, él es nuestra salvación."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "The Lord will judge us by his law; he is our King and Savior."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "É o Senhor nosso juiz e nosso Rei. O Senhor legislador nos salvará."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Il Signore è nostro giudice, nostro legislatore, nostro re: egli ci salverà."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia. Alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Le Seigneur est notre juge, il nous donne des lois, le Seigneur est notre roi : c’est lui qui nous sauve."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Der Herr ist unser Richter, der Herr gibt uns Gesetze; der Herr ist unser König, er wird uns retten."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

@@ -1605,86 +1605,174 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia, allelúia. Omnis qui credit in Fílium habet vitam ætérnam; et ego resuscitábo eum in novíssimo die, dicit Dóminus. Allelúia.",
-            "es": "Aleluya, aleluya. Todo el que cree en el Hijo tiene vida eterna —dice el Señor—; y yo lo resucitaré en el último día. Aleluya.",
-            "en": "Alleluia, alleluia. It is my Father's will, says the Lord, that whoever believes in the Son shall have eternal life, and that I shall raise him up on the last day.",
-            "pt-BR": "Aclamação ao Evangelho Aleluia, aleluia. Quem vê o Filho e nele crê, este tem a vida eterna, e Eu o farei ressuscitar no último dia, diz Jesus Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Chi crede nel Figlio ha la vita eterna, dice il Signore, e io lo risusciterò nell’ultimo giorno. Alleluia.",
-            "fr": "Alléluia, alléluia. Celui qui voit le Fils et croit en lui a la vie éternelle, dit le Seigneur ; et moi, je le ressusciterai au dernier jour. Alléluia.",
-            "de": "Ruf vor dem Evangelium Halleluja. Halleluja. (So spricht der Herr:) Jeder, der an den Sohn glaubt, hat das ewige Leben, und ich werde ihn auferwecken am Letzten Tag. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Omnis qui credit in Fílium habet vitam ætérnam; et ego resuscitábo eum in novíssimo die, dicit Dóminus. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Todo el que cree en el Hijo tiene vida eterna —dice el Señor—; y yo lo resucitaré en el último día. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. It is my Father's will, says the Lord, that whoever believes in the Son shall have eternal life, and that I shall raise him up on the last day."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho Aleluia, aleluia. Quem vê o Filho e nele crê, este tem a vida eterna, e Eu o farei ressuscitar no último dia, diz Jesus Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Chi crede nel Figlio ha la vita eterna, dice il Signore, e io lo risusciterò nell’ultimo giorno. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia, alléluia. Celui qui voit le Fils et croit en lui a la vie éternelle, dit le Seigneur ; et moi, je le ressusciterai au dernier jour. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium Halleluja. Halleluja. (So spricht der Herr:) Jeder, der an den Sohn glaubt, hat das ewige Leben, und ich werde ihn auferwecken am Letzten Tag. Halleluja."
-                }
-              ]
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
             ]
-          }
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Omnis qui credit in Fílium habet vitam ætérnam; et ego resuscitábo eum in novíssimo die, dicit Dóminus."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Todo el que cree en el Hijo tiene vida eterna —dice el Señor—; y yo lo resucitaré en el último día."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "It is my Father's will, says the Lord, that whoever believes in the Son shall have eternal life, and that I shall raise him up on the last day."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Quem vê o Filho e nele crê, este tem a vida eterna, e Eu o farei ressuscitar no último dia, diz Jesus"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Chi crede nel Figlio ha la vita eterna, dice il Signore, e io lo risusciterò nell’ultimo giorno."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Celui qui voit le Fils et croit en lui a la vie éternelle, dit le Seigneur ; et moi, je le ressusciterai au dernier jour."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Jeder, der an den Sohn glaubt, hat das ewige Leben, und ich werde ihn auferwecken am Letzten Tag."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

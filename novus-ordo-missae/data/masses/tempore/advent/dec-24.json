@@ -1470,74 +1470,174 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Allelúia. Oriens, splendor lucis ætérnæ et sol iustítiæ: veni et illúmina sedéntes in ténebris et umbra mortis. Allelúia.",
-            "es": "Aleluya. Sol que naces de lo alto, resplandor de la luz eterna, sol de justicia, ven ahora a iluminar a los que viven en tinieblas y en sombra de muerte. Aleluya.",
-            "en": "Alleluia, alleluia. Come, Radiant Dawn, splendor of eternal light, sun of justice: shine on those lost in the darkness of death! Alleluia.",
-            "pt-BR": "Aleluia, aleluia. Ó Sol da manhã, o Sol de justiça, de eterna luz esplend",
-            "it": "Canto al Vangelo Alleluia, alleluia. O Astro che sorgi, splendore della luce eterna, sole di giustizia: vieni, illumina chi giace nelle tenebre e nell’ombra di morte. Alleluia.",
-            "fr": "Alléluia. Alléluia. Viens, Soleil levant, splendeur de justice et lumière éternelle ! Illumine ceux qui habitent les ténèbres et l’ombre de la mort. Alléluia.",
-            "de": "Ruf vor dem Evangelium Halleluja. Halleluja. Du Morgenstern, Glanz des unversehrten Lichtes, der Gerechtigkeit strahlende Sonne: komm und erleuchte, die da sitzen in Finsternis und im Schatten des Todes! Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Oriens, splendor lucis ætérnæ et sol iustítiæ: veni et illúmina sedéntes in ténebris et umbra mortis. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Sol que naces de lo alto, resplandor de la luz eterna, sol de justicia, ven ahora a iluminar a los que viven en tinieblas y en sombra de muerte. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Come, Radiant Dawn, splendor of eternal light, sun of justice: shine on those lost in the darkness of death! Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Ó Sol da manhã, o Sol de justiça, de eterna luz esplend"
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. O Astro che sorgi, splendore della luce eterna, sole di giustizia: vieni, illumina chi giace nelle tenebre e nell’ombra di morte. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia. Alléluia. Viens, Soleil levant, splendeur de justice et lumière éternelle ! Illumine ceux qui habitent les ténèbres et l’ombre de la mort. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium Halleluja. Halleluja. Du Morgenstern, Glanz des unversehrten Lichtes, der Gerechtigkeit strahlende Sonne: komm und erleuchte, die da sitzen in Finsternis und im Schatten des Todes! Halleluja."
-                }
-              ]
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
             ]
-          }
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia. Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Oriens, splendor lucis ætérnæ et sol iustítiæ: veni et illúmina sedéntes in ténebris et umbra mortis."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Sol que naces de lo alto, resplandor de la luz eterna, sol de justicia, ven ahora a iluminar a los que viven en tinieblas y en sombra de muerte."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Come, Radiant Dawn, splendor of eternal light, sun of justice: shine on those lost in the darkness of death!"
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Ó Sol da manhã, o Sol de justiça, de eterna luz esplend"
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "O Astro che sorgi, splendore della luce eterna, sole di giustizia: vieni, illumina chi giace nelle tenebre e nell’ombra di morte."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia. Alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Viens, Soleil levant, splendeur de justice et lumière éternelle ! Illumine ceux qui habitent les ténèbres et l’ombre de la mort."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Du Morgenstern, Glanz des unversehrten Lichtes, der Gerechtigkeit strahlende Sonne: komm und erleuchte, die da sitzen in Finsternis und im Schatten des Todes!"
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

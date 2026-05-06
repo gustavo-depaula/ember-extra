@@ -1794,127 +1794,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Lc 2, 10-11 Allelúia. Evangelízo vobis gáudium magnum: natus est nobis hódie Salvátor, Christus Dóminus. Allelúia.",
-            "es": "Aleluya Lc 2, 10-11 Aleluya. Os anuncio una buena noticia: hoy nos ha nacido un Salvador, el Mesías, el Señor. Aleluya.",
-            "en": "Alleluia, alleluia. Good News and great joy to all the world: today is born our Savior, Christ the Lord. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Lc 2, 10-11 Aleluia, aleluia. Eu vos trago a boa nova de uma grande alegria: é que hoje vos nasceu o Salvador, Cristo, o Senhor. Aleluia.",
-            "it": "Canto al Vangelo Lc 2,10-11 Alleluia, alleluia. Vi annuncio una grande gioia: oggi è nato per voi un Salvatore, Cristo Signore. Alleluia.",
-            "fr": "Alléluia Lc 2, 10-11 Alléluia. Alléluia. Je vous annonce une grande joie : Aujourd’hui vous est né un Sauveur qui est le Christ, le Seigneur !. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Lk 2, 10-11 Halleluja. Halleluja. Ich verkünde euch eine große Freude: Heute ist uns der Retter geboren; er ist der Messias, der Herr. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 2, 10-11"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Evangelízo vobis gáudium magnum: natus est nobis hódie Salvátor, Christus Dóminus. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 2, 10-11"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Os anuncio una buena noticia: hoy nos ha nacido un Salvador, el Mesías, el Señor. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Good News and great joy to all the world: today is born our Savior, Christ the Lord. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 2, 10-11"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Eu vos trago a boa nova de uma grande alegria: é que hoje vos nasceu o Salvador, Cristo, o Senhor. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 2,10-11"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Vi annuncio una grande gioia: oggi è nato per voi un Salvatore, Cristo Signore. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 2, 10-11"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia. Alléluia. Je vous annonce une grande joie : Aujourd’hui vous est né un Sauveur qui est le Christ, le Seigneur !. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Lk 2, 10-11"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Ich verkünde euch eine große Freude: Heute ist uns der Retter geboren; er ist der Messias, der Herr. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Lc 2, 10-11",
           "es": "Lc 2, 10-11",
@@ -1922,6 +1801,179 @@
           "it": "Lc 2,10-11",
           "fr": "Lc 2, 10-11",
           "de": "vgl. Lk 2, 10-11"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia. Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Evangelízo vobis gáudium magnum: natus est nobis hódie Salvátor, Christus Dóminus."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Os anuncio una buena noticia: hoy nos ha nacido un Salvador, el Mesías, el Señor."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Good News and great joy to all the world: today is born our Savior, Christ the Lord."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Eu vos trago a boa nova de uma grande alegria: é que hoje vos nasceu o Salvador, Cristo, o Senhor."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Vi annuncio una grande gioia: oggi è nato per voi un Salvatore, Cristo Signore."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia. Alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Je vous annonce une grande joie : Aujourd’hui vous est né un Sauveur qui est le Christ, le Seigneur !."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Ich verkünde euch eine große Freude: Heute ist uns der Retter geboren; er ist der Messias, der Herr."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

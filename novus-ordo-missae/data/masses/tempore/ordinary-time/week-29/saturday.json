@@ -789,127 +789,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Ez 33, 11 Allelúia. Nolo mortem ímpii, dicit Dóminus, sed ut revertátur a via sua et vivat. Allelúia.",
-            "es": "Aleluya Ez 33, 11 Aleluya. No me complazco en la muerte del malvado —dice el Señor—, sino en que se convierta y viva. Aleluya.",
-            "en": "Alleluia, alleluia. I do not wish the sinner to die, says the Lord, but to turn to me and live. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Ez 33, 11 Aleluia, aleluia. Não quero a morte do pecador, diz o Senhor, mas que ele volte, se converta e tenha viva. Aleluia.",
-            "it": "Canto al Vangelo Ez 33,11 Alleluia, alleluia. Io non godo della morte del malvagio, dice il Signore, ma che si converta dalla sua malvagità e viva. Alleluia.",
-            "fr": "Alléluia Ez 33, 11 Alléluia Je ne prends pas plaisir à la mort du méchant, dit le Seigneur. Qu’il se détourne de sa conduite, et qu’il vive ! Alléluia.",
-            "de": "Ruf vor dem Evangelium Ez 33, 11 Halleluja. Halleluja. (So spricht Gott, der Herr:) Ich habe kein Gefallen am Tod des Schuldigen, sondern daran, dass er umkehrt auf seinem Weg und am Leben bleibt. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ez 33, 11"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Nolo mortem ímpii, dicit Dóminus, sed ut revertátur a via sua et vivat. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ez 33, 11"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. No me complazco en la muerte del malvado —dice el Señor—, sino en que se convierta y viva. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. I do not wish the sinner to die, says the Lord, but to turn to me and live. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ez 33, 11"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Não quero a morte do pecador, diz o Senhor, mas que ele volte, se converta e tenha viva. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ez 33,11"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Io non godo della morte del malvagio, dice il Signore, ma che si converta dalla sua malvagità e viva. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ez 33, 11"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Je ne prends pas plaisir à la mort du méchant, dit le Seigneur. Qu’il se détourne de sa conduite, et qu’il vive ! Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ez 33, 11"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht Gott, der Herr:) Ich habe kein Gefallen am Tod des Schuldigen, sondern daran, dass er umkehrt auf seinem Weg und am Leben bleibt. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Ez 33, 11",
           "es": "Ez 33, 11",
@@ -917,6 +796,179 @@
           "it": "Ez 33,11",
           "fr": "Ez 33, 11",
           "de": "Ez 33, 11"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Nolo mortem ímpii, dicit Dóminus, sed ut revertátur a via sua et vivat."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "No me complazco en la muerte del malvado —dice el Señor—, sino en que se convierta y viva."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "I do not wish the sinner to die, says the Lord, but to turn to me and live."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Não quero a morte do pecador, diz o Senhor, mas que ele volte, se converta e tenha viva."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Io non godo della morte del malvagio, dice il Signore, ma che si converta dalla sua malvagità e viva."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Je ne prends pas plaisir à la mort du méchant, dit le Seigneur. Qu’il se détourne de sa conduite, et qu’il vive !"
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht Gott, der Herr:) Ich habe kein Gefallen am Tod des Schuldigen, sondern daran, dass er umkehrt auf seinem Weg und am Leben bleibt."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -1835,127 +1887,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Ez 33, 11 Allelúia. Nolo mortem ímpii, dicit Dóminus, sed ut revertátur a via sua et vivat. Allelúia.",
-            "es": "Aleluya Ez 33, 11 Aleluya. No me complazco en la muerte del malvado —dice el Señor—, sino en que se convierta y viva. Aleluya.",
-            "en": "Alleluia, alleluia. I do not wish the sinner to die, says the Lord, but to turn to me and live. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Ez 33, 11 Aleluia, aleluia. Não quero a morte do pecador, diz o Senhor, mas que ele volte, se converta e tenha viva. Aleluia.",
-            "it": "Canto al Vangelo Ez 33,11 Alleluia, alleluia. Io non godo della morte del malvagio, dice il Signore, ma che si converta dalla sua malvagità e viva. Alleluia.",
-            "fr": "Alléluia Ez 33, 11 Alléluia Je ne prends pas plaisir à la mort du méchant, dit le Seigneur. Qu’il se détourne de sa conduite, et qu’il vive ! Alléluia.",
-            "de": "Ruf vor dem Evangelium Ez 33, 11 Halleluja. Halleluja. (So spricht Gott, der Herr:) Ich habe kein Gefallen am Tod des Schuldigen, sondern daran, dass er umkehrt auf seinem Weg und am Leben bleibt. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ez 33, 11"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Nolo mortem ímpii, dicit Dóminus, sed ut revertátur a via sua et vivat. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ez 33, 11"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. No me complazco en la muerte del malvado —dice el Señor—, sino en que se convierta y viva. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. I do not wish the sinner to die, says the Lord, but to turn to me and live. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ez 33, 11"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Não quero a morte do pecador, diz o Senhor, mas que ele volte, se converta e tenha viva. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ez 33,11"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Io non godo della morte del malvagio, dice il Signore, ma che si converta dalla sua malvagità e viva. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ez 33, 11"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Je ne prends pas plaisir à la mort du méchant, dit le Seigneur. Qu’il se détourne de sa conduite, et qu’il vive ! Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ez 33, 11"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht Gott, der Herr:) Ich habe kein Gefallen am Tod des Schuldigen, sondern daran, dass er umkehrt auf seinem Weg und am Leben bleibt. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Ez 33, 11",
           "es": "Ez 33, 11",
@@ -1963,6 +1894,179 @@
           "it": "Ez 33,11",
           "fr": "Ez 33, 11",
           "de": "Ez 33, 11"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Nolo mortem ímpii, dicit Dóminus, sed ut revertátur a via sua et vivat."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "No me complazco en la muerte del malvado —dice el Señor—, sino en que se convierta y viva."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "I do not wish the sinner to die, says the Lord, but to turn to me and live."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Não quero a morte do pecador, diz o Senhor, mas que ele volte, se converta e tenha viva."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Io non godo della morte del malvagio, dice il Signore, ma che si converta dalla sua malvagità e viva."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Je ne prends pas plaisir à la mort du méchant, dit le Seigneur. Qu’il se détourne de sa conduite, et qu’il vive !"
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht Gott, der Herr:) Ich habe kein Gefallen am Tod des Schuldigen, sondern daran, dass er umkehrt auf seinem Weg und am Leben bleibt."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

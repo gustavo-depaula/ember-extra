@@ -2091,86 +2091,178 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia, allelúia. Dómine Iesu, áperi nobis Scriptúras; fac cor nostrum ardens dum lóqueris nobis. Allelúia.",
-            "es": "Aleluya, aleluya. Señor Jesús, explícanos las Escrituras; haz que arda nuestro corazón mientras nos hablas. Aleluya.",
-            "en": "Alleluia, alleluia. Lord Jesus, explain the Scriptures to us; make our hearts burn within us as you talk to us. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Aleluia, aleluia. Senhor Jesus, revelai-nos o sentido da Escritura; fazei o nosso coração arder, quando falardes. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Signore Gesù, facci comprendere le Scritture; arde il nostro cuore mentre ci parli. Alleluia.",
-            "fr": "Alléluia, alléluia. Seigneur Jésus, ouvre-nous les Écritures ! Que notre cœur devienne brûlant tandis que tu nous parles. Alléluia.",
-            "de": "Ruf vor dem Evangelium Halleluja. Halleluja. Herr Jesus, erschließ uns die Schrift! Lass unser Herz entbrennen, wenn du zu uns redest. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Dómine Iesu, áperi nobis Scriptúras; fac cor nostrum ardens dum lóqueris nobis. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Señor Jesús, explícanos las Escrituras; haz que arda nuestro corazón mientras nos hablas. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Lord Jesus, explain the Scriptures to us; make our hearts burn within us as you talk to us. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho Aleluia, aleluia. Senhor Jesus, revelai-nos o sentido da Escritura; fazei o nosso coração arder, quando falardes. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Signore Gesù, facci comprendere le Scritture; arde il nostro cuore mentre ci parli. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia, alléluia. Seigneur Jésus, ouvre-nous les Écritures ! Que notre cœur devienne brûlant tandis que tu nous parles. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium Halleluja. Halleluja. Herr Jesus, erschließ uns die Schrift! Lass unser Herz entbrennen, wenn du zu uns redest. Halleluja."
-                }
-              ]
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
             ]
-          }
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Dómine Iesu, áperi nobis Scriptúras; fac cor nostrum ardens dum lóqueris nobis."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Señor Jesús, explícanos las Escrituras; haz que arda nuestro corazón mientras nos hablas."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Lord Jesus, explain the Scriptures to us; make our hearts burn within us as you talk to us."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Senhor Jesus, revelai-nos o sentido da Escritura; fazei o nosso coração arder, quando falardes."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Signore Gesù, facci comprendere le Scritture; arde il nostro cuore mentre ci parli."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Seigneur Jésus, ouvre-nous les Écritures ! Que notre cœur devienne brûlant tandis que tu nous parles."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Herr Jesus, erschließ uns die Schrift! Lass unser Herz entbrennen, wenn du zu uns redest."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -3279,86 +3371,174 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia, allelúia, allelúia. Dómine Iesu, áperi nobis Scriptúras; fac cor nostrum ardens dum lóqueris nobis. Allelúia.",
-            "es": "Aleluya, aleluya. Señor Jesús, explícanos las Escrituras; haz que arda nuestro corazón mientras nos hablas. Aleluya.",
-            "en": "Alleluia, alleluia. Lord Jesus, explain the Scriptures to us; make our hearts burn within us as you talk to us. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Aleluia, aleluia. Senhor Jesus revelai-nos o sentido da Escritura, fazei o nosso coração arder, quando nos falardes. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Signore Gesù, facci comprendere le Scritture; arde il nostro cuore mentre ci parli. Alleluia.",
-            "fr": "Alléluia, alléluia, alléluia. Seigneur Jésus, ouvre-nous les Écritures ! Que notre cœur devienne brûlant tandis que tu nous parles. Alléluia.",
-            "de": "Ruf vor dem Evangelium Halleluja. Halleluja. Herr Jesus, erschließ uns die Schrift! Lass unser Herz entbrennen, wenn du zu uns redest. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia, allelúia. Dómine Iesu, áperi nobis Scriptúras; fac cor nostrum ardens dum lóqueris nobis. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Señor Jesús, explícanos las Escrituras; haz que arda nuestro corazón mientras nos hablas. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Lord Jesus, explain the Scriptures to us; make our hearts burn within us as you talk to us. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho Aleluia, aleluia. Senhor Jesus revelai-nos o sentido da Escritura, fazei o nosso coração arder, quando nos falardes. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Signore Gesù, facci comprendere le Scritture; arde il nostro cuore mentre ci parli. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia, alléluia, alléluia. Seigneur Jésus, ouvre-nous les Écritures ! Que notre cœur devienne brûlant tandis que tu nous parles. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium Halleluja. Halleluja. Herr Jesus, erschließ uns die Schrift! Lass unser Herz entbrennen, wenn du zu uns redest. Halleluja."
-                }
-              ]
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia, allelúia."
+              }
             ]
-          }
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia, allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Dómine Iesu, áperi nobis Scriptúras; fac cor nostrum ardens dum lóqueris nobis."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Señor Jesús, explícanos las Escrituras; haz que arda nuestro corazón mientras nos hablas."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Lord Jesus, explain the Scriptures to us; make our hearts burn within us as you talk to us."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Senhor Jesus revelai-nos o sentido da Escritura, fazei o nosso coração arder, quando nos falardes."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Signore Gesù, facci comprendere le Scritture; arde il nostro cuore mentre ci parli."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Alléluia, alléluia, alléluia. Seigneur Jésus, ouvre-nous les Écritures ! Que notre cœur devienne brûlant tandis que tu nous parles."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Herr Jesus, erschließ uns die Schrift! Lass unser Herz entbrennen, wenn du zu uns redest."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -4573,86 +4753,174 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia, allelúia. Surréxit Christus, qui creávit ómnia et misértus est humáno géneri. Allelúia.",
-            "es": "Aleluya, aleluya. Ha resucitado Cristo, que creó todas las cosas, y se ha compadecido del género humano. Aleluya.",
-            "en": "Alleluia, alleluia. Christ has risen: he who created all things, and has granted his mercy to men.",
-            "pt-BR": "Aclamação ao Evangelho Aleluia, aleluia. Jesus Cristo ressurgiu, por quem tudo foi criado; ele teve compaixão do gênero humano. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Cristo è risorto, lui che ha creato il mondo, e ha salvato gli uomini nella sua misericordia. Alleluia.",
-            "fr": "Alléluia, alléluia. Le Christ est ressuscité, le Créateur de l’univers, le Sauveur des hommes. Alléluia.",
-            "de": "Ruf vor dem Evangelium Halleluja. Halleluja. Christus ist auferstanden. Er, der Schöpfer des Alls, hat sich aller Menschen erbarmt. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Surréxit Christus, qui creávit ómnia et misértus est humáno géneri. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Ha resucitado Cristo, que creó todas las cosas, y se ha compadecido del género humano. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Christ has risen: he who created all things, and has granted his mercy to men."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho Aleluia, aleluia. Jesus Cristo ressurgiu, por quem tudo foi criado; ele teve compaixão do gênero humano. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Cristo è risorto, lui che ha creato il mondo, e ha salvato gli uomini nella sua misericordia. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia, alléluia. Le Christ est ressuscité, le Créateur de l’univers, le Sauveur des hommes. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium Halleluja. Halleluja. Christus ist auferstanden. Er, der Schöpfer des Alls, hat sich aller Menschen erbarmt. Halleluja."
-                }
-              ]
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
             ]
-          }
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Surréxit Christus, qui creávit ómnia et misértus est humáno géneri."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Ha resucitado Cristo, que creó todas las cosas, y se ha compadecido del género humano."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Christ has risen: he who created all things, and has granted his mercy to men."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Jesus Cristo ressurgiu, por quem tudo foi criado; ele teve compaixão do gênero humano."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Cristo è risorto, lui che ha creato il mondo, e ha salvato gli uomini nella sua misericordia."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Le Christ est ressuscité, le Créateur de l’univers, le Sauveur des hommes."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Christus ist auferstanden. Er, der Schöpfer des Alls, hat sich aller Menschen erbarmt."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

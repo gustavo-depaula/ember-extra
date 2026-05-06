@@ -1557,86 +1557,178 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia, allelúia. Semen est verbum Dei, sator autem Christus; omnis qui ínvenit eum, manébit in ætérnum. Allelúia.",
-            "es": "Aleluya, aleluya. La semilla es la palabra de Dios, y el sembrador es Cristo; todo el que lo encuentra vive para siempre. Aleluya.",
-            "en": "Alleluia, alleluia. The seed is the word of God, Christ is the sower; all who come to him will live for ever. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Aleluia, aleluia. A semente é de Deus a Palavra, o Cristo é o semeador; todo aquele que o encontra, vida eterna encontrou! Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Il seme è la parola di Dio, il seminatore è Cristo: chiunque trova lui, ha la vita eterna. Alleluia.",
-            "fr": "Alléluia, alléluia. La semence est la parole de Dieu ; le semeur est le Christ ; celui qui le trouve demeure pour toujours. Alléluia.",
-            "de": "Ruf vor dem Evangelium Halleluja. Halleluja. Der Samen ist das Wort Gottes, der Sämann ist Christus. Wer Christus findet, der bleibt in Ewigkeit. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Semen est verbum Dei, sator autem Christus; omnis qui ínvenit eum, manébit in ætérnum. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. La semilla es la palabra de Dios, y el sembrador es Cristo; todo el que lo encuentra vive para siempre. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. The seed is the word of God, Christ is the sower; all who come to him will live for ever. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho Aleluia, aleluia. A semente é de Deus a Palavra, o Cristo é o semeador; todo aquele que o encontra, vida eterna encontrou! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Il seme è la parola di Dio, il seminatore è Cristo: chiunque trova lui, ha la vita eterna. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia, alléluia. La semence est la parole de Dieu ; le semeur est le Christ ; celui qui le trouve demeure pour toujours. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium Halleluja. Halleluja. Der Samen ist das Wort Gottes, der Sämann ist Christus. Wer Christus findet, der bleibt in Ewigkeit. Halleluja."
-                }
-              ]
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
             ]
-          }
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Semen est verbum Dei, sator autem Christus; omnis qui ínvenit eum, manébit in ætérnum."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "La semilla es la palabra de Dios, y el sembrador es Cristo; todo el que lo encuentra vive para siempre."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "The seed is the word of God, Christ is the sower; all who come to him will live for ever."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "A semente é de Deus a Palavra, o Cristo é o semeador; todo aquele que o encontra, vida eterna encontrou!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Il seme è la parola di Dio, il seminatore è Cristo: chiunque trova lui, ha la vita eterna."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              },
+              {
+                "type": "text",
+                "text": "La semence est la parole de Dieu ; le semeur est le Christ ; celui qui le trouve demeure pour toujours."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Der Samen ist das Wort Gottes, der Sämann ist Christus. Wer Christus findet, der bleibt in Ewigkeit."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -2957,127 +3049,6 @@
         ]
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. Eph 1, 17-18 Allelúia. Pater Dómini nostri Iesu Christi illúminet óculos cordis nostri, ut sciámus quæ sit spes vocatiónis nostræ. Allelúia.",
-            "es": "Aleluya Cf. Ef 1, 17-18 Aleluya. El Padre de nuestro Señor Jesucristo ilumine los ojos de nuestro corazón, para que comprendamos cuál es la esperanza a la que nos llama. Aleluya.",
-            "en": "Alleluia, alleluia. May the Father of our Lord Jesus Christ enlighten the eyes of our hearts that we might see how great is the hope to which we are called. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Cf. Ef 1, 17-18 Aleluia, aleluia. Que o Pai do Senhor Jesus Cristo, nos dê do saber o Espírito; conheçamos, assim, a esperança à qual nos chamou como hereança. Aleluia.",
-            "it": "Canto al Vangelo Cfr. Ef 1,17-18 Alleluia, alleluia. Il Padre del Signore nostro Gesù Cristo illumini gli occhi del nostro cuore per farci comprendere a quale speranza ci ha chiamati. Alleluia.",
-            "fr": "Alléluia Cf. Eph 1, 17-18 Alléluia Que le Père de notre Seigneur Jésus Christ ouvre à sa lumière les yeux de notre cœur, pour que nous percevions l’espérance que donne son appel. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Eph 1, 17-18 Halleluja. Halleluja. Der Vater unseres Herrn Jesus Christus erleuchte die Augen unseres Herzens, damit wir verstehen, zu welcher Hoffnung wir berufen sind. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Eph 1, 17-18"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Pater Dómini nostri Iesu Christi illúminet óculos cordis nostri, ut sciámus quæ sit spes vocatiónis nostræ. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Ef 1, 17-18"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. El Padre de nuestro Señor Jesucristo ilumine los ojos de nuestro corazón, para que comprendamos cuál es la esperanza a la que nos llama. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. May the Father of our Lord Jesus Christ enlighten the eyes of our hearts that we might see how great is the hope to which we are called. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Ef 1, 17-18"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Que o Pai do Senhor Jesus Cristo, nos dê do saber o Espírito; conheçamos, assim, a esperança à qual nos chamou como hereança. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cfr. Ef 1,17-18"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Il Padre del Signore nostro Gesù Cristo illumini gli occhi del nostro cuore per farci comprendere a quale speranza ci ha chiamati. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Eph 1, 17-18"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Que le Père de notre Seigneur Jésus Christ ouvre à sa lumière les yeux de notre cœur, pour que nous percevions l’espérance que donne son appel. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Eph 1, 17-18"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Der Vater unseres Herrn Jesus Christus erleuchte die Augen unseres Herzens, damit wir verstehen, zu welcher Hoffnung wir berufen sind. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Eph 1, 17-18",
           "es": "Cf. Ef 1, 17-18",
@@ -3085,6 +3056,179 @@
           "it": "Cfr. Ef 1,17-18",
           "fr": "Cf. Eph 1, 17-18",
           "de": "vgl. Eph 1, 17-18"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Pater Dómini nostri Iesu Christi illúminet óculos cordis nostri, ut sciámus quæ sit spes vocatiónis nostræ."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "El Padre de nuestro Señor Jesucristo ilumine los ojos de nuestro corazón, para que comprendamos cuál es la esperanza a la que nos llama."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "May the Father of our Lord Jesus Christ enlighten the eyes of our hearts that we might see how great is the hope to which we are called."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Que o Pai do Senhor Jesus Cristo, nos dê do saber o Espírito; conheçamos, assim, a esperança à qual nos chamou como hereança."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Il Padre del Signore nostro Gesù Cristo illumini gli occhi del nostro cuore per farci comprendere a quale speranza ci ha chiamati."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Que le Père de notre Seigneur Jésus Christ ouvre à sa lumière les yeux de notre cœur, pour que nous percevions l’espérance que donne son appel."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Der Vater unseres Herrn Jesus Christus erleuchte die Augen unseres Herzens, damit wir verstehen, zu welcher Hoffnung wir berufen sind."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -4881,127 +5025,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. Io 6, 63c. 68c Allelúia. Verba tua, Dómine, spíritus et vita sunt; verba vitæ ætérnæ habes. Allelúia.",
-            "es": "Aleluya Cf. Jn 6, 63c. 68c Aleluya. Tus palabras, Señor, son espíritu y vida; tú tienes palabras de vida eterna. Aleluya.",
-            "en": "Alleluia, alleluia. Your words, Lord, are spirit and life: you have the words of everlasting life. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Cf. Jn 6, 63c. 68c Aleluia, aleluia. Ó Senhor, vossas palavras, são espírito e vida; as palavras que dizeis bem que são de eterna vida! Aleluia.",
-            "it": "Canto al Vangelo Gv 6,63.68 Alleluia, alleluia. Le tue parole, Signore, sono spirito e vita; tu hai parole di vita eterna. Alleluia.",
-            "fr": "Alléluia Cf. Io 6, 63c. 68c Alléluia Tes paroles, Seigneur, sont esprit et elles sont vie. Tu as les paroles de la vie éternelle. Alléluia.",
-            "de": "Ruf vor dem Evangelium Joh 6, 63c. 68c Halleluja. Halleluja. Deine Worte, Herr, sind Geist und Leben. Du hast Worte des ewigen Lebens. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Io 6, 63c. 68c"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Verba tua, Dómine, spíritus et vita sunt; verba vitæ ætérnæ habes. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Jn 6, 63c. 68c"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Tus palabras, Señor, son espíritu y vida; tú tienes palabras de vida eterna. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Your words, Lord, are spirit and life: you have the words of everlasting life. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Jn 6, 63c. 68c"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Ó Senhor, vossas palavras, são espírito e vida; as palavras que dizeis bem que são de eterna vida! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gv 6,63.68"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Le tue parole, Signore, sono spirito e vita; tu hai parole di vita eterna. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Io 6, 63c. 68c"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Tes paroles, Seigneur, sont esprit et elles sont vie. Tu as les paroles de la vie éternelle. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joh 6, 63c. 68c"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Deine Worte, Herr, sind Geist und Leben. Du hast Worte des ewigen Lebens. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Io 6, 63c. 68c",
           "es": "Cf. Jn 6, 63c. 68c",
@@ -5009,6 +5032,179 @@
           "it": "Gv 6,63.68",
           "fr": "Cf. Io 6, 63c. 68c",
           "de": "Joh 6, 63c. 68c"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Verba tua, Dómine, spíritus et vita sunt; verba vitæ ætérnæ habes."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Tus palabras, Señor, son espíritu y vida; tú tienes palabras de vida eterna."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Your words, Lord, are spirit and life: you have the words of everlasting life."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Ó Senhor, vossas palavras, são espírito e vida; as palavras que dizeis bem que são de eterna vida!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Le tue parole, Signore, sono spirito e vita; tu hai parole di vita eterna."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Tes paroles, Seigneur, sont esprit et elles sont vie. Tu as les paroles de la vie éternelle."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Deine Worte, Herr, sind Geist und Leben. Du hast Worte des ewigen Lebens."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

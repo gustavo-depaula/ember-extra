@@ -1603,125 +1603,185 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. Mt 4, 23 Allelúia. Prædicábat Iesus Evangélium regni, et sanábat omnem infirmitátem in pópulo. Allelúia.",
-            "es": "Aleluya Cf. Mt 4, 23 Aleluya. Jesús proclamaba el evangelio del reino, y curaba toda dolencia del pueblo. Aleluya.",
-            "en": "Alleluia, alleluia. Jesus preached the Good News of the kingdom, and healed those who were sick. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Cf. Mt 4, 23 Aleluia, aleluia. Pois do Reino a Boa Nova Jesus Cristo anunciava e as dores do seu povo com poder, Jesus curava. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Gesù predicava il vangelo del Regno e guariva ogni sorta di infermità nel popolo. Alleluia.",
-            "fr": "Alléluia Cf. Mt 4, 23 Alléluia Jésus proclamait l’Évangile du Royaume, et guérissait toute maladie dans le peuple. Alléluia.",
-            "de": "Ruf vor dem Evangelium Mt 4, 23b Halleluja. Halleluja. Jesus verkündete das Evangelium vom Reich und heilte im Volk alle Krankheiten und Leiden. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Mt 4, 23"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Prædicábat Iesus Evangélium regni, et sanábat omnem infirmitátem in pópulo. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Mt 4, 23"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Jesús proclamaba el evangelio del reino, y curaba toda dolencia del pueblo. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Jesus preached the Good News of the kingdom, and healed those who were sick. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Mt 4, 23"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Pois do Reino a Boa Nova Jesus Cristo anunciava e as dores do seu povo com poder, Jesus curava. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Gesù predicava il vangelo del Regno e guariva ogni sorta di infermità nel popolo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Mt 4, 23"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Jésus proclamait l’Évangile du Royaume, et guérissait toute maladie dans le peuple. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 4, 23b"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Jesus verkündete das Evangelium vom Reich und heilte im Volk alle Krankheiten und Leiden. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Mt 4, 23",
           "es": "Cf. Mt 4, 23",
           "pt-BR": "Cf. Mt 4, 23",
           "fr": "Cf. Mt 4, 23",
           "de": "Mt 4, 23b"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Prædicábat Iesus Evangélium regni, et sanábat omnem infirmitátem in pópulo."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Jesús proclamaba el evangelio del reino, y curaba toda dolencia del pueblo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Jesus preached the Good News of the kingdom, and healed those who were sick."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Pois do Reino a Boa Nova Jesus Cristo anunciava e as dores do seu povo com poder, Jesus curava."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Gesù predicava il vangelo del Regno e guariva ogni sorta di infermità nel popolo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Jésus proclamait l’Évangile du Royaume, et guérissait toute maladie dans le peuple."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Jesus verkündete das Evangelium vom Reich und heilte im Volk alle Krankheiten und Leiden."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -2991,125 +3051,185 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Mc 1, 15 Allelúia. Appropinquávit regnum Dei; pænitémini et crédite Evangélio. Allelúia.",
-            "es": "Aleluya Mc 1, 15 Aleluya. Está cerca el reino de Dios; convertíos y creed en el Evangelio. Aleluya.",
-            "en": "Alleluia, alleluia. The kingdom of God is near, says the Lord; repent and believe in the Good News! Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Mc 1, 15 Aleluia, aleluia. O Reino do Céu está perto! Convertei-vos, irmãos, é preciso! Crede todos no santo Evangelho! Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Il regno di Dio è vicino; convertitevi e credete nel Vangelo. Alleluia.",
-            "fr": "Alléluia Mc 1, 15 Alléluia Le règne de Dieu est tout proche. Convertissez-vous et croyez à l’Évangile. Alléluia.",
-            "de": "Ruf vor dem Evangelium Mk 1, 15 Halleluja. Halleluja. Das Reich Gottes ist nahe. Kehrt um, und glaubt an das Evangelium! Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 1, 15"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Appropinquávit regnum Dei; pænitémini et crédite Evangélio. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 1, 15"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Está cerca el reino de Dios; convertíos y creed en el Evangelio. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. The kingdom of God is near, says the Lord; repent and believe in the Good News! Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 1, 15"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. O Reino do Céu está perto! Convertei-vos, irmãos, é preciso! Crede todos no santo Evangelho! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Il regno di Dio è vicino; convertitevi e credete nel Vangelo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 1, 15"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Le règne de Dieu est tout proche. Convertissez-vous et croyez à l’Évangile. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mk 1, 15"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Das Reich Gottes ist nahe. Kehrt um, und glaubt an das Evangelium! Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mc 1, 15",
           "es": "Mc 1, 15",
           "pt-BR": "Mc 1, 15",
           "fr": "Mc 1, 15",
           "de": "Mk 1, 15"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Appropinquávit regnum Dei; pænitémini et crédite Evangélio."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Está cerca el reino de Dios; convertíos y creed en el Evangelio."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "The kingdom of God is near, says the Lord; repent and believe in the Good News!"
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "O Reino do Céu está perto! Convertei-vos, irmãos, é preciso! Crede todos no santo Evangelho!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Il regno di Dio è vicino; convertitevi e credete nel Vangelo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Le règne de Dieu est tout proche. Convertissez-vous et croyez à l’Évangile."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Das Reich Gottes ist nahe. Kehrt um, und glaubt an das Evangelium!"
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -4382,125 +4502,185 @@
         ]
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Lc 4, 18cd Allelúia. Evangelizáre paupéribus misit me Dóminus, prædicáre captívis remissiónem. Allelúia.",
-            "es": "Aleluya Lc 4, 18cd Aleluya. El Señor me ha enviado a evangelizar a los pobres, a proclamar a los cautivos la libertad. Aleluya.",
-            "en": "Alleluia, alleluia. The Lord sent me to bring Good News to the poor and freedom to prisoners. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Lc 4, 18cd Aleluia, aleluia. Foi o Senhor quem me mandou Boas Noticias anunciar; ao pobre, a quem está no cativeiro libertação eu vou proclamar! Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Il Signore mi ha mandato a portare ai poveri il lieto annuncio, a proclamare ai prigionieri la liberazione. Alleluia.",
-            "fr": "Alléluia Lc 4, 18cd Alléluia Le Seigneur m’a envoyé porter la Bonne Nouvelle aux pauvres, annoncer aux captifs leur libération. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Jes 61, 1 (Lk 4, 18) Halleluja. Halleluja. Der Herr hat mich gesandt, den Armen die Frohe Botschaft zu bringen und den Gefangenen die Freiheit zu verkünden. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 4, 18cd"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Evangelizáre paupéribus misit me Dóminus, prædicáre captívis remissiónem. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 4, 18cd"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. El Señor me ha enviado a evangelizar a los pobres, a proclamar a los cautivos la libertad. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. The Lord sent me to bring Good News to the poor and freedom to prisoners. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 4, 18cd"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Foi o Senhor quem me mandou Boas Noticias anunciar; ao pobre, a quem está no cativeiro libertação eu vou proclamar! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Il Signore mi ha mandato a portare ai poveri il lieto annuncio, a proclamare ai prigionieri la liberazione. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 4, 18cd"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Le Seigneur m’a envoyé porter la Bonne Nouvelle aux pauvres, annoncer aux captifs leur libération. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Jes 61, 1 (Lk 4, 18)"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Der Herr hat mich gesandt, den Armen die Frohe Botschaft zu bringen und den Gefangenen die Freiheit zu verkünden. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Lc 4, 18cd",
           "es": "Lc 4, 18cd",
           "pt-BR": "Lc 4, 18cd",
           "fr": "Lc 4, 18cd",
           "de": "vgl. Jes 61, 1 (Lk 4, 18)"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Evangelizáre paupéribus misit me Dóminus, prædicáre captívis remissiónem."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "El Señor me ha enviado a evangelizar a los pobres, a proclamar a los cautivos la libertad."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "The Lord sent me to bring Good News to the poor and freedom to prisoners."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Foi o Senhor quem me mandou Boas Noticias anunciar; ao pobre, a quem está no cativeiro libertação eu vou proclamar!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Il Signore mi ha mandato a portare ai poveri il lieto annuncio, a proclamare ai prigionieri la liberazione."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Le Seigneur m’a envoyé porter la Bonne Nouvelle aux pauvres, annoncer aux captifs leur libération."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Der Herr hat mich gesandt, den Armen die Frohe Botschaft zu bringen und den Gefangenen die Freiheit zu verkünden."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

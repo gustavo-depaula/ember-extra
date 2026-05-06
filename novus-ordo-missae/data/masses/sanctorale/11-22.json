@@ -413,77 +413,154 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia, allelúia. Hæc est virgo sápiens, quam Dóminus vigilántem invénit; veniénte Dómino, introívit cum eo ad núptias. Allelúia.",
-            "es": "Aleluya, aleluya. Esta es la virgen sabia, a quien el Señor encontró velando; al llegar el Señor, entró con él al banquete de bodas. Aleluya.",
-            "en": "Alleluia, alleluia. This is a wise bridesmaid, whom the Lord found waiting; at his coming, she went in with him to the wedding feast. Alleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Questa è la vergine saggia che il Signore ha trovato vigilante; all’arrivo dello Sposo è entrata con lui alle nozze. Alleluia.",
-            "fr": "Alléluia, alléluia. Voici la jeune fille prévoyante, que le Seigneur a trouvée en train de veiller ; quand le Seigneur est arrivé, elle est entrée avec lui dans la salle des noces. Alléluia.",
-            "de": "Ruf vor dem Evangelium Halleluja. Halleluja. Sie ist die kluge Jungfrau, die der Herr wachend antraf, als er kam; sie trat mit ihm ein in den Hochzeitssaal. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Hæc est virgo sápiens, quam Dóminus vigilántem invénit; veniénte Dómino, introívit cum eo ad núptias. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Esta es la virgen sabia, a quien el Señor encontró velando; al llegar el Señor, entró con él al banquete de bodas. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. This is a wise bridesmaid, whom the Lord found waiting; at his coming, she went in with him to the wedding feast. Alleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Questa è la vergine saggia che il Signore ha trovato vigilante; all’arrivo dello Sposo è entrata con lui alle nozze. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia, alléluia. Voici la jeune fille prévoyante, que le Seigneur a trouvée en train de veiller ; quand le Seigneur est arrivé, elle est entrée avec lui dans la salle des noces. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium Halleluja. Halleluja. Sie ist die kluge Jungfrau, die der Herr wachend antraf, als er kam; sie trat mit ihm ein in den Hochzeitssaal. Halleluja."
-                }
-              ]
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
             ]
-          }
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Hæc est virgo sápiens, quam Dóminus vigilántem invénit; veniénte Dómino, introívit cum eo ad núptias."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Esta es la virgen sabia, a quien el Señor encontró velando; al llegar el Señor, entró con él al banquete de bodas."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "This is a wise bridesmaid, whom the Lord found waiting; at his coming, she went in with him to the wedding feast."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Questa è la vergine saggia che il Signore ha trovato vigilante; all’arrivo dello Sposo è entrata con lui alle nozze."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Voici la jeune fille prévoyante, que le Seigneur a trouvée en train de veiller ; quand le Seigneur est arrivé, elle est entrée avec lui dans la salle des noces."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Sie ist die kluge Jungfrau, die der Herr wachend antraf, als er kam; sie trat mit ihm ein in den Hochzeitssaal."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       }
     }

@@ -773,127 +773,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Hebr 4, 12 Allelúia. Vivus est Dei sermo et éfficax, et discrétor cogitatiónum et intentiónum cordis. Allelúia.",
-            "es": "Aleluya Hebr 4, 12 Aleluya. La palabra de Dios es viva y eficaz; juzga los deseos e intenciones del corazón. Aleluya.",
-            "en": "Alleluia, alleluia. The word of God is living and active; it probes the thoughts and motives of our heart. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Hebr 4,12 Aleluia, aleluia. A palavra do Senhor, é viva e eficaz: ela julga os pensamentos e as intenções do coração. Aleluia.",
-            "it": "Canto al Vangelo (Eb 4,12) Alleluia, alleluia. La parola di Dio è viva ed efficace, discerne i sentimenti e i pensieri del cuore. Alleluia.",
-            "fr": "Alléluia Hebr 4, 12 Alléluia Elle est vivante, efficace, la parole de Dieu ; elle juge des intentions et des pensées du cœur. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Hebr 4, 12 Halleluja. Halleluja. Lebendig ist das Wort Gottes und kraftvoll. Es richtet über die Regungen und Gedanken der Herzen. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Hebr 4, 12"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Vivus est Dei sermo et éfficax, et discrétor cogitatiónum et intentiónum cordis. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Hebr 4, 12"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. La palabra de Dios es viva y eficaz; juzga los deseos e intenciones del corazón. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. The word of God is living and active; it probes the thoughts and motives of our heart. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Hebr 4,12"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. A palavra do Senhor, é viva e eficaz: ela julga os pensamentos e as intenções do coração. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Eb 4,12)"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. La parola di Dio è viva ed efficace, discerne i sentimenti e i pensieri del cuore. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Hebr 4, 12"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Elle est vivante, efficace, la parole de Dieu ; elle juge des intentions et des pensées du cœur. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Hebr 4, 12"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Lebendig ist das Wort Gottes und kraftvoll. Es richtet über die Regungen und Gedanken der Herzen. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Hebr 4, 12",
           "es": "Hebr 4, 12",
@@ -901,6 +780,179 @@
           "it": "(Eb 4,12)",
           "fr": "Hebr 4, 12",
           "de": "vgl. Hebr 4, 12"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Vivus est Dei sermo et éfficax, et discrétor cogitatiónum et intentiónum cordis."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "La palabra de Dios es viva y eficaz; juzga los deseos e intenciones del corazón."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "The word of God is living and active; it probes the thoughts and motives of our heart."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "A palavra do Senhor, é viva e eficaz: ela julga os pensamentos e as intenções do coração."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "La parola di Dio è viva ed efficace, discerne i sentimenti e i pensieri del cuore."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Elle est vivante, efficace, la parole de Dieu ; elle juge des intentions et des pensées du cœur."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Lebendig ist das Wort Gottes und kraftvoll. Es richtet über die Regungen und Gedanken der Herzen."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -1917,127 +1969,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Hebr 4, 12 Allelúia. Vivus est Dei sermo et éfficax, et discrétor cogitatiónum et intentiónum cordis. Allelúia.",
-            "es": "Aleluya Hebr 4, 12 Aleluya. La palabra de Dios es viva y eficaz; juzga los deseos e intenciones del corazón. Aleluya.",
-            "en": "Alleluia, alleluia. The word of God is living and active; it probes the thoughts and motives of our heart. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Hebr 4,12 Aleluia, aleluia. A palavra do Senhor, é viva e eficaz: ela julga os pensamentos e as intenções do coração. Aleluia.",
-            "it": "Canto al Vangelo (Eb 4,12) Alleluia, alleluia. La parola di Dio è viva ed efficace, discerne i sentimenti e i pensieri del cuore. Alleluia.",
-            "fr": "Alléluia Hebr 4, 12 Alléluia Elle est vivante, efficace, la parole de Dieu ; elle juge des intentions et des pensées du cœur. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Hebr 4, 12 Halleluja. Halleluja. Lebendig ist das Wort Gottes und kraftvoll. Es richtet über die Regungen und Gedanken der Herzen. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Hebr 4, 12"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Vivus est Dei sermo et éfficax, et discrétor cogitatiónum et intentiónum cordis. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Hebr 4, 12"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. La palabra de Dios es viva y eficaz; juzga los deseos e intenciones del corazón. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. The word of God is living and active; it probes the thoughts and motives of our heart. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Hebr 4,12"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. A palavra do Senhor, é viva e eficaz: ela julga os pensamentos e as intenções do coração. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Eb 4,12)"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. La parola di Dio è viva ed efficace, discerne i sentimenti e i pensieri del cuore. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Hebr 4, 12"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Elle est vivante, efficace, la parole de Dieu ; elle juge des intentions et des pensées du cœur. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Hebr 4, 12"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Lebendig ist das Wort Gottes und kraftvoll. Es richtet über die Regungen und Gedanken der Herzen. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Hebr 4, 12",
           "es": "Hebr 4, 12",
@@ -2045,6 +1976,179 @@
           "it": "(Eb 4,12)",
           "fr": "Hebr 4, 12",
           "de": "vgl. Hebr 4, 12"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Vivus est Dei sermo et éfficax, et discrétor cogitatiónum et intentiónum cordis."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "La palabra de Dios es viva y eficaz; juzga los deseos e intenciones del corazón."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "The word of God is living and active; it probes the thoughts and motives of our heart."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "A palavra do Senhor, é viva e eficaz: ela julga os pensamentos e as intenções do coração."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "La parola di Dio è viva ed efficace, discerne i sentimenti e i pensieri del cuore."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Elle est vivante, efficace, la parole de Dieu ; elle juge des intentions et des pensées du cœur."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Lebendig ist das Wort Gottes und kraftvoll. Es richtet über die Regungen und Gedanken der Herzen."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

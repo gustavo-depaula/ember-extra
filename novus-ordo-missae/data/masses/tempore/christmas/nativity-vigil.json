@@ -1772,86 +1772,178 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia, allelúia. Crástina die delébitur iníquitas terræ: et regnábit super nos Salvátor mundi. Allelúia.",
-            "es": "Aleluya, aleluya. Mañana quedará borrada la maldad de la tierra, y reinará sobre nosotros el Salvador del mundo. Aleluya.",
-            "en": "Alleluia, alleluia. Tomorrow the wickedness of the earth will be destroyed: the Savior of the world will be our king. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Aleluia, aleluia. Amanhã será varrida da terra a iniquidade e sobre nós há de reinar o Salvador do mundo. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Domani sarà distrutto il peccato della terra e regnerà su di noi il Salvatore del mondo. Alleluia.",
-            "fr": "Alléluia, alléluia. Alléluia. Demain sera détruit le péché de la terre, et sur nous régnera le Sauveur du monde. Alléluia.",
-            "de": "Ruf vor dem Evangelium Halleluja. Halleluja. Morgen wird die Sünde der Erde getilgt, und über uns herrscht der Retter der Welt. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Crástina die delébitur iníquitas terræ: et regnábit super nos Salvátor mundi. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Mañana quedará borrada la maldad de la tierra, y reinará sobre nosotros el Salvador del mundo. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Tomorrow the wickedness of the earth will be destroyed: the Savior of the world will be our king. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho Aleluia, aleluia. Amanhã será varrida da terra a iniquidade e sobre nós há de reinar o Salvador do mundo. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Domani sarà distrutto il peccato della terra e regnerà su di noi il Salvatore del mondo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia, alléluia. Alléluia. Demain sera détruit le péché de la terre, et sur nous régnera le Sauveur du monde. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium Halleluja. Halleluja. Morgen wird die Sünde der Erde getilgt, und über uns herrscht der Retter der Welt. Halleluja."
-                }
-              ]
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
             ]
-          }
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Crástina die delébitur iníquitas terræ: et regnábit super nos Salvátor mundi."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Mañana quedará borrada la maldad de la tierra, y reinará sobre nosotros el Salvador del mundo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Tomorrow the wickedness of the earth will be destroyed: the Savior of the world will be our king."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Amanhã será varrida da terra a iniquidade e sobre nós há de reinar o Salvador do mundo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Domani sarà distrutto il peccato della terra e regnerà su di noi il Salvatore del mondo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Alléluia. Demain sera détruit le péché de la terre, et sur nous régnera le Sauveur du monde."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Morgen wird die Sünde der Erde getilgt, und über uns herrscht der Retter der Welt."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

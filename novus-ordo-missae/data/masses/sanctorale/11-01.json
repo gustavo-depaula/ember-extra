@@ -2450,125 +2450,185 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Mt 11, 28 Allelúia. Veníte ad me, omnes qui laborátis et oneráti estis, et ego refíciam vos, dicit Dóminus. Allelúia.",
-            "es": "Aleluya Mt 11, 28 Aleluya. Venid a mí todos los que estáis cansados y agobiados —dice el Señor—, y yo os aliviaré. Aleluya.",
-            "en": "Alleluia, alleluia. Come to me, all you that labor and are burdened, and I will give you rest, says the Lord. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Mt 11, 28 Aleluia, aleluia. Vinde a Mim, vós todos os que andais cansados e penais a carregar pesado fardo, e descanso eu vos darei, diz o Senhor. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Venite a me, voi tutti che siete affaticati e oppressi, e io vi darò sollievo, dice il Signore. Alleluia.",
-            "fr": "Alléluia Mt 11, 28 Alléluia Venez à moi, vous tous qui peinez sous le poids du fardeau, dit le Seigneur, et moi, je vous procurerai le repos. Alléluia.",
-            "de": "Ruf vor dem Evangelium Mt 11, 28 Halleluja. Halleluja. (So spricht der Herr:) Kommt alle zu mir, die ihr euch plagt und schwere Lasten zu tragen habt. Ich werde euch Ruhe verschaffen. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 11, 28"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Veníte ad me, omnes qui laborátis et oneráti estis, et ego refíciam vos, dicit Dóminus. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 11, 28"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Venid a mí todos los que estáis cansados y agobiados —dice el Señor—, y yo os aliviaré. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Come to me, all you that labor and are burdened, and I will give you rest, says the Lord. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 11, 28"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Vinde a Mim, vós todos os que andais cansados e penais a carregar pesado fardo, e descanso eu vos darei, diz o Senhor. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Venite a me, voi tutti che siete affaticati e oppressi, e io vi darò sollievo, dice il Signore. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 11, 28"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Venez à moi, vous tous qui peinez sous le poids du fardeau, dit le Seigneur, et moi, je vous procurerai le repos. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 11, 28"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Kommt alle zu mir, die ihr euch plagt und schwere Lasten zu tragen habt. Ich werde euch Ruhe verschaffen. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mt 11, 28",
           "es": "Mt 11, 28",
           "pt-BR": "Mt 11, 28",
           "fr": "Mt 11, 28",
           "de": "Mt 11, 28"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Veníte ad me, omnes qui laborátis et oneráti estis, et ego refíciam vos, dicit Dóminus."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Venid a mí todos los que estáis cansados y agobiados —dice el Señor—, y yo os aliviaré."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Come to me, all you that labor and are burdened, and I will give you rest, says the Lord."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Vinde a Mim, vós todos os que andais cansados e penais a carregar pesado fardo, e descanso eu vos darei, diz o Senhor."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Venite a me, voi tutti che siete affaticati e oppressi, e io vi darò sollievo, dice il Signore."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Venez à moi, vous tous qui peinez sous le poids du fardeau, dit le Seigneur, et moi, je vous procurerai le repos."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Kommt alle zu mir, die ihr euch plagt und schwere Lasten zu tragen habt. Ich werde euch Ruhe verschaffen."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

@@ -1628,121 +1628,71 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Versus ante Evangelium Cf. Ps 94, 8 Hódie, nolíte obduráre corda vestra, sed vocem Dómini audíte.",
-            "es": "Versículo antes del Evangelio Cf. Ps 94, 8 No endurezcáis hoy vuestro corazón; escuchad la voz del Señor.",
-            "en": "If today you hear his voice, harden not your hearts.",
-            "pt-BR": "Aclamação ao Evangelho Cf. Salmo 94 (95), 8ab Oxalá ouvísseis hoje a sua voz: Não fecheis os corações como em Meriba!",
-            "it": "Canto al Vangelo (Cfr. Sal 94,8ab) Gloria e lode a te, o Cristo! Oggi non indurite il vostro cuore, ma ascoltate la voce del Signore. Gloria e lode a te, o Cristo!",
-            "fr": "Verset avant l’Évangile Tes paroles, Seigneur, sont esprit et elles sont vie. Aujourd’hui, ne fermez pas votre cœur, mais écoutez la voix du Seigneur. Tes paroles, Seigneur, sont esprit et elles sont vie.",
-            "de": "Ruf vor dem Evangelium Ps 95 (94), 7d. 8a Christus, du ewiges Wort des Vaters, Ehre sei dir! Wenn ihr heute seine Stimme hört, verhärtet nicht euer Herz! Christus, du ewiges Wort des Vaters, Ehre sei dir!"
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versus ante Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Ps 94, 8"
-                },
-                {
-                  "type": "text",
-                  "text": "Hódie, nolíte obduráre corda vestra, sed vocem Dómini audíte."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versículo antes del Evangelio"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Ps 94, 8"
-                },
-                {
-                  "type": "text",
-                  "text": "No endurezcáis hoy vuestro corazón; escuchad la voz del Señor."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "If today you hear his voice, harden not your hearts."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Salmo 94 (95), 8ab"
-                },
-                {
-                  "type": "text",
-                  "text": "Oxalá ouvísseis hoje a sua voz: Não fecheis os corações como em Meriba!"
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Cfr. Sal 94,8ab)"
-                },
-                {
-                  "type": "text",
-                  "text": "Gloria e lode a te, o Cristo! Oggi non indurite il vostro cuore, ma ascoltate la voce del Signore. Gloria e lode a te, o Cristo!"
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Verset avant l’Évangile Tes paroles, Seigneur, sont esprit et elles sont vie. Aujourd’hui, ne fermez pas votre cœur, mais écoutez la voix du Seigneur. Tes paroles, Seigneur, sont esprit et elles sont vie."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 95 (94), 7d. 8a"
-                },
-                {
-                  "type": "text",
-                  "text": "Christus, du ewiges Wort des Vaters, Ehre sei dir! Wenn ihr heute seine Stimme hört, verhärtet nicht euer Herz! Christus, du ewiges Wort des Vaters, Ehre sei dir!"
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Ps 94, 8",
           "es": "Cf. Ps 94, 8",
           "pt-BR": "Cf. Salmo 94 (95), 8ab",
           "it": "(Cfr. Sal 94,8ab)",
           "de": "Ps 95 (94), 7d. 8a"
+        },
+        "mode": "versus-ante-evangelium",
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "text",
+                "text": "Hódie, nolíte obduráre corda vestra, sed vocem Dómini audíte."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "text",
+                "text": "No endurezcáis hoy vuestro corazón; escuchad la voz del Señor."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "text",
+                "text": "If today you hear his voice, harden not your hearts."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "Oxalá ouvísseis hoje a sua voz: Não fecheis os corações como em Meriba!"
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "Gloria e lode a te, o Cristo! Oggi non indurite il vostro cuore, ma ascoltate la voce del Signore. Gloria e lode a te, o Cristo!"
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Tes paroles, Seigneur, sont esprit et elles sont vie. Aujourd’hui, ne fermez pas votre cœur, mais écoutez la voix du Seigneur. Tes paroles, Seigneur, sont esprit et elles sont vie."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "text",
+                "text": "Christus, du ewiges Wort des Vaters, Ehre sei dir! Wenn ihr heute seine Stimme hört, verhärtet nicht euer Herz! Christus, du ewiges Wort des Vaters, Ehre sei dir!"
+              }
+            ]
+          ]
         }
       },
       "gospel": {

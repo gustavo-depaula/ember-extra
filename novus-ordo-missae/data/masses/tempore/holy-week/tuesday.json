@@ -1751,80 +1751,64 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Versus ante Evangelium Ave, Rex noster, Patri oboédiens: ductus ad crucifigéndum, ut agnus mansuétus ad occisiónem.",
-            "es": "Aleluya Salve, Rey nuestro, obediente al Padre; fuiste llevado a la crucifixión, como manso cordero a la matanza.",
-            "en": "Hail to our king, obedient to his Father, he went to his crucifixion like a gentle lamb.",
-            "pt-BR": "Aclamação ao Evangelho Salve, ó Rei, obediente ao Pai, vós fostes levado para ser crucificado, como um manso cordeiro e conduzido à matança.",
-            "it": "Canto al Vangelo Lode e onore a te, Signore Gesù! Salve, nostro re, obbediente al Padre: sei stato condotto alla croce, come agnello mansueto al macello. Lode e onore a te, Signore Gesù!",
-            "fr": "Verset avant l’Évangile Louange à toi, Seigneur, Roi d’éternelle gloire ! Salut, ô Christ, notre Roi : obéissant au Père ; comme l’agneau vers l’abattoir, tu te laisses conduire à la croix. Louange à toi, Seigneur, Roi d’éternelle gloire !",
-            "de": "Lob sei dir, Herr, König der ewigen Herrlichkeit! Sei gegrüßt, unser König: Dem Vater gehorsam, lässt du dich zum Kreuze führen wie ein sanftes Lamm, das man zur Schlachtbank führt."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versus ante Evangelium Ave, Rex noster, Patri oboédiens: ductus ad crucifigéndum, ut agnus mansuétus ad occisiónem."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Salve, Rey nuestro, obediente al Padre; fuiste llevado a la crucifixión, como manso cordero a la matanza."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Hail to our king, obedient to his Father, he went to his crucifixion like a gentle lamb."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho Salve, ó Rei, obediente ao Pai, vós fostes levado para ser crucificado, como um manso cordeiro e conduzido à matança."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Lode e onore a te, Signore Gesù! Salve, nostro re, obbediente al Padre: sei stato condotto alla croce, come agnello mansueto al macello. Lode e onore a te, Signore Gesù!"
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Verset avant l’Évangile Louange à toi, Seigneur, Roi d’éternelle gloire ! Salut, ô Christ, notre Roi : obéissant au Père ; comme l’agneau vers l’abattoir, tu te laisses conduire à la croix. Louange à toi, Seigneur, Roi d’éternelle gloire !"
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Lob sei dir, Herr, König der ewigen Herrlichkeit! Sei gegrüßt, unser König: Dem Vater gehorsam, lässt du dich zum Kreuze führen wie ein sanftes Lamm, das man zur Schlachtbank führt."
-                }
-              ]
+        "mode": "versus-ante-evangelium",
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "text",
+                "text": "Ave, Rex noster, Patri oboédiens: ductus ad crucifigéndum, ut agnus mansuétus ad occisiónem."
+              }
             ]
-          }
+          ],
+          "es": [
+            [
+              {
+                "type": "text",
+                "text": "Salve, Rey nuestro, obediente al Padre; fuiste llevado a la crucifixión, como manso cordero a la matanza."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "text",
+                "text": "Hail to our king, obedient to his Father, he went to his crucifixion like a gentle lamb."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "Salve, ó Rei, obediente ao Pai, vós fostes levado para ser crucificado, como um manso cordeiro e conduzido à matança."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "Lode e onore a te, Signore Gesù! Salve, nostro re, obbediente al Padre: sei stato condotto alla croce, come agnello mansueto al macello. Lode e onore a te, Signore Gesù!"
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Louange à toi, Seigneur, Roi d’éternelle gloire ! Salut, ô Christ, notre Roi : obéissant au Père ; comme l’agneau vers l’abattoir, tu te laisses conduire à la croix. Louange à toi, Seigneur, Roi d’éternelle gloire !"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "text",
+                "text": "Lob sei dir, Herr, König der ewigen Herrlichkeit! Sei gegrüßt, unser König: Dem Vater gehorsam, lässt du dich zum Kreuze führen wie ein sanftes Lamm, das man zur Schlachtbank führt."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

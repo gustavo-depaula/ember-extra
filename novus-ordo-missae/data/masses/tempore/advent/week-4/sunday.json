@@ -1826,139 +1826,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Mt 1, 23 Allelúia. Ecce virgo in útero habébit et páriet fílium, et vocábunt nomen eius Emmánuel, Nobíscum Deus. Allelúia.",
-            "es": "Aleluya Mt 1, 23 Aleluya. Mirad: la virgen concebirá y dará a luz un hijo y le pondrán por nombre Enmanuel, “Dios-con-nosotros”. Aleluya.",
-            "en": "Alleluia, alleluia. A virgin will give birth to a son; his name will be Emmanuel: God is with us. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Mt 1, 23 Aleluia, aleluia. Eis que a Virgem conceberá e dará à luz um Filho, que será chamado Emanuel, que significa: Deus connosco. Aleluia.",
-            "it": "Canto al Vangelo (Mt 1,23) Alleluia, alleluia. Ecco la vergine concepirà e darà alla luce un figlio: a lui sarà dato il nome di Emmanuele: «Dio con noi». Alleluia.",
-            "fr": "Alléluia Mt 1, 23 Alléluia. Alléluia. Voici que la Vierge concevra : elle enfantera un fils, on l’appellera Emmanuel, « Dieu-avec-nous ». Alléluia.",
-            "de": "Ruf vor dem Evangelium Mt 1, 23 Halleluja. Halleluja. Seht, die Jungfrau wird ein Kind empfangen, einen Sohn wird sie gebären, sein Name wird sein: Immánuel - Gott mit uns. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 1, 23"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Ecce virgo in útero habébit et páriet fílium, et vocábunt nomen eius Emmánuel, Nobíscum Deus. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 1, 23"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Mirad: la virgen concebirá y dará a luz un hijo y le pondrán por nombre Enmanuel, “Dios-con-nosotros”. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. A virgin will give birth to a son; his name will be Emmanuel: God is with us. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 1, 23"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Eis que a Virgem conceberá e dará à luz um Filho, que será chamado Emanuel, que significa: Deus connosco. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Mt 1,23)"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Ecco la vergine concepirà e darà alla luce un figlio: a lui sarà dato il nome di Emmanuele: «Dio con noi». Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 1, 23"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia. Alléluia."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Voici que la Vierge concevra : elle enfantera un fils, on l’appellera Emmanuel, « Dieu-avec-nous »."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 1, 23"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Seht, die Jungfrau wird ein Kind empfangen, einen Sohn wird sie gebären, sein Name wird sein: Immánuel - Gott mit uns. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mt 1, 23",
           "es": "Mt 1, 23",
@@ -1966,6 +1833,179 @@
           "it": "(Mt 1,23)",
           "fr": "Mt 1, 23",
           "de": "Mt 1, 23"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia. Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Ecce virgo in útero habébit et páriet fílium, et vocábunt nomen eius Emmánuel, Nobíscum Deus."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Mirad: la virgen concebirá y dará a luz un hijo y le pondrán por nombre Enmanuel, “Dios-con-nosotros”."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "A virgin will give birth to a son; his name will be Emmanuel: God is with us."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Eis que a Virgem conceberá e dará à luz um Filho, que será chamado Emanuel, que significa: Deus connosco."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Ecco la vergine concepirà e darà alla luce un figlio: a lui sarà dato il nome di Emmanuele: «Dio con noi»."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia. Alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Voici que la Vierge concevra : elle enfantera un fils, on l’appellera Emmanuel, « Dieu-avec-nous »."
+              },
+              {
+                "type": "text",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Seht, die Jungfrau wird ein Kind empfangen, einen Sohn wird sie gebären, sein Name wird sein: Immánuel - Gott mit uns."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -3018,127 +3058,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Lc 1, 38 Allelúia. Ecce ancílla Dómini; fiat mihi secúndum verbum tuum. Allelúia.",
-            "es": "Aleluya Lc 1, 38 Aleluya. He aquí la esclava del Señor; hágase en mí según tu palabra. Aleluya.",
-            "en": "Alleluia, alleluia. I am the servant of the Lord: may his will for me be done. Alleluia.",
-            "pt-BR": "Aclamaçãoao Evangelho Lc 1, 38 Aleluia, aleluia. Eis a serva do Senh",
-            "it": "Canto al Vangelo (Lc 1,38) Alleluia, alleluia. Ecco la serva del Signore: avvenga per me secondo la tua parola. Alleluia.",
-            "fr": "Alléluia Lc 1, 38 Alléluia. Alléluia. Voici la servante du Seigneur : que tout m’advienne selon ta parole. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Lk 1, 38 Halleluja. Halleluja. Maria sagte: Siehe, ich bin die Magd des Herrn; mir geschehe nach deinem Wort. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 1, 38"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Ecce ancílla Dómini; fiat mihi secúndum verbum tuum. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 1, 38"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. He aquí la esclava del Señor; hágase en mí según tu palabra. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. I am the servant of the Lord: may his will for me be done. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamaçãoao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 1, 38"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Eis a serva do Senh"
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Lc 1,38)"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Ecco la serva del Signore: avvenga per me secondo la tua parola. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 1, 38"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia. Alléluia. Voici la servante du Seigneur : que tout m’advienne selon ta parole. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Lk 1, 38"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Maria sagte: Siehe, ich bin die Magd des Herrn; mir geschehe nach deinem Wort. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Lc 1, 38",
           "es": "Lc 1, 38",
@@ -3146,6 +3065,175 @@
           "it": "(Lc 1,38)",
           "fr": "Lc 1, 38",
           "de": "vgl. Lk 1, 38"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia. Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Ecce ancílla Dómini; fiat mihi secúndum verbum tuum."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "He aquí la esclava del Señor; hágase en mí según tu palabra."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "I am the servant of the Lord: may his will for me be done."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Eis a serva do Senh"
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Ecco la serva del Signore: avvenga per me secondo la tua parola."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia. Alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Voici la servante du Seigneur : que tout m’advienne selon ta parole."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Maria sagte: Siehe, ich bin die Magd des Herrn; mir geschehe nach deinem Wort."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -4192,127 +4280,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Lc 1, 38 Allelúia. Ecce ancílla Dómini; fiat mihi secúndum verbum tuum. Allelúia.",
-            "es": "Aleluya Mt 11, 23 Aleluya. Mirad: la Virgen concebirá y dará a luz un hijo y le pondrán por nombre Enmanuel, “Dios con nosotros”.",
-            "en": "Alleluia, alleluia. I am the servant of the Lord: may his will for me be done. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Lc 1, 38 Aleluia, aleluia. Eis a serva do Senhor; cumpra-se em mim a tua palavra! Aleluia.",
-            "it": "Canto al Vangelo (Lc 1,38) Alleluia, alleluia. Ecco la serva del Signore: avvenga per me secondo la tua parola. Alleluia.",
-            "fr": "Alléluia Lc 1, 38 Alléluia. Alléluia. Voici la servante du Seigneur : que tout m’advienne selon ta parole. Alléluia. Alléluia. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Lk 1, 38 Halleluja. Halleluja. Maria sagte: Siehe, ich bin die Magd des Herrn; mir geschehe nach deinem Wort. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 1, 38"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Ecce ancílla Dómini; fiat mihi secúndum verbum tuum. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 11, 23"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Mirad: la Virgen concebirá y dará a luz un hijo y le pondrán por nombre Enmanuel, “Dios con nosotros”."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. I am the servant of the Lord: may his will for me be done. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 1, 38"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Eis a serva do Senhor; cumpra-se em mim a tua palavra! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Lc 1,38)"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Ecco la serva del Signore: avvenga per me secondo la tua parola. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 1, 38"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia. Alléluia. Voici la servante du Seigneur : que tout m’advienne selon ta parole. Alléluia. Alléluia. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Lk 1, 38"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Maria sagte: Siehe, ich bin die Magd des Herrn; mir geschehe nach deinem Wort. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Lc 1, 38",
           "es": "Mt 11, 23",
@@ -4320,6 +4287,175 @@
           "it": "(Lc 1,38)",
           "fr": "Lc 1, 38",
           "de": "vgl. Lk 1, 38"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia. Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Ecce ancílla Dómini; fiat mihi secúndum verbum tuum."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Mirad: la Virgen concebirá y dará a luz un hijo y le pondrán por nombre Enmanuel, “Dios con nosotros”."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "I am the servant of the Lord: may his will for me be done."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Eis a serva do Senhor; cumpra-se em mim a tua palavra!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Ecco la serva del Signore: avvenga per me secondo la tua parola."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia. Alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Voici la servante du Seigneur : que tout m’advienne selon ta parole. Alléluia. Alléluia."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Maria sagte: Siehe, ich bin die Magd des Herrn; mir geschehe nach deinem Wort."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

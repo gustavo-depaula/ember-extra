@@ -741,127 +741,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Ps 32, 22 Allelúia. Fiat misericórdia tua, Dómine, super nos, quemádmodum sperávimus in te. Allelúia.",
-            "es": "Aleluya Ps 32, 22 Aleluya. Que tu misericordia, Señor, venga sobre nosotros, como lo esperamos de ti. Aleluya.",
-            "en": "Alleluia, alleluia. Lord, let your mercy be on us, as we place our trust in you. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Salmo 32 (33), 22 Aleluia, aleluia. Sobre nós venha Senhor a vossa graça, da mesma forma que em vós nós esperamos! Aleluia.",
-            "it": "Canto al Vangelo Sal 32,22 Alleluia, alleluia. Su di noi sia il tuo amore, Signore, come da te noi speriamo. Alleluia.",
-            "fr": "Alléluia Ps 32, 22 Alléluia Que ton amour, Seigneur, soit sur nous comme notre espoir est en toi ! Alléluia.",
-            "de": "Ruf vor dem Evangelium Ps 33 (32), 22 Halleluja. Halleluja. Lass deine Güte über uns walten, o Herr, denn wir schauen aus nach dir. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 32, 22"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Fiat misericórdia tua, Dómine, super nos, quemádmodum sperávimus in te. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 32, 22"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Que tu misericordia, Señor, venga sobre nosotros, como lo esperamos de ti. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Lord, let your mercy be on us, as we place our trust in you. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Salmo 32 (33), 22"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Sobre nós venha Senhor a vossa graça, da mesma forma que em vós nós esperamos! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Sal 32,22"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Su di noi sia il tuo amore, Signore, come da te noi speriamo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 32, 22"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Que ton amour, Seigneur, soit sur nous comme notre espoir est en toi ! Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 33 (32), 22"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Lass deine Güte über uns walten, o Herr, denn wir schauen aus nach dir. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Ps 32, 22",
           "es": "Ps 32, 22",
@@ -869,6 +748,179 @@
           "it": "Sal 32,22",
           "fr": "Ps 32, 22",
           "de": "Ps 33 (32), 22"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Fiat misericórdia tua, Dómine, super nos, quemádmodum sperávimus in te."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Que tu misericordia, Señor, venga sobre nosotros, como lo esperamos de ti."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Lord, let your mercy be on us, as we place our trust in you."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Sobre nós venha Senhor a vossa graça, da mesma forma que em vós nós esperamos!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Su di noi sia il tuo amore, Signore, come da te noi speriamo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Que ton amour, Seigneur, soit sur nous comme notre espoir est en toi !"
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Lass deine Güte über uns walten, o Herr, denn wir schauen aus nach dir."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -1877,127 +1929,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Ps 32, 22 Allelúia. Fiat misericórdia tua, Dómine, super nos, quemádmodum sperávimus in te. Allelúia.",
-            "es": "Aleluya Ps 32, 22 Aleluya. Que tu misericordia, Señor, venga sobre nosotros, como lo esperamos de ti. Aleluya.",
-            "en": "Alleluia, alleluia. Lord, let your mercy be on us, as we place our trust in you. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Salmo 32 (33), 22 Aleluia, aleluia. Sobre nós venha Senhor a vossa graça, da mesma forma que em vós nós esperamos! Aleluia.",
-            "it": "Canto al Vangelo Sal 32,22 Alleluia, alleluia. Su di noi sia il tuo amore, Signore, come da te noi speriamo. Alleluia.",
-            "fr": "Alléluia Ps 32, 22 Alléluia Que ton amour, Seigneur, soit sur nous comme notre espoir est en toi ! Alléluia.",
-            "de": "Ruf vor dem Evangelium Ps 33 (32), 22 Halleluja. Halleluja. Lass deine Güte über uns walten, o Herr, denn wir schauen aus nach dir. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 32, 22"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Fiat misericórdia tua, Dómine, super nos, quemádmodum sperávimus in te. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 32, 22"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Que tu misericordia, Señor, venga sobre nosotros, como lo esperamos de ti. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Lord, let your mercy be on us, as we place our trust in you. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Salmo 32 (33), 22"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Sobre nós venha Senhor a vossa graça, da mesma forma que em vós nós esperamos! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Sal 32,22"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Su di noi sia il tuo amore, Signore, come da te noi speriamo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 32, 22"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Que ton amour, Seigneur, soit sur nous comme notre espoir est en toi ! Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 33 (32), 22"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Lass deine Güte über uns walten, o Herr, denn wir schauen aus nach dir. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Ps 32, 22",
           "es": "Ps 32, 22",
@@ -2005,6 +1936,179 @@
           "it": "Sal 32,22",
           "fr": "Ps 32, 22",
           "de": "Ps 33 (32), 22"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Fiat misericórdia tua, Dómine, super nos, quemádmodum sperávimus in te."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Que tu misericordia, Señor, venga sobre nosotros, como lo esperamos de ti."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Lord, let your mercy be on us, as we place our trust in you."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Sobre nós venha Senhor a vossa graça, da mesma forma que em vós nós esperamos!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Su di noi sia il tuo amore, Signore, come da te noi speriamo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Que ton amour, Seigneur, soit sur nous comme notre espoir est en toi !"
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Lass deine Güte über uns walten, o Herr, denn wir schauen aus nach dir."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

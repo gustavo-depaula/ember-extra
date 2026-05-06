@@ -1684,125 +1684,181 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Is 55, 6 Allelúia. Quǽrite Dóminum, dum inveníri potest; invocáte eum, dum prope est. Allelúia.",
-            "es": "Aleluya Is 55, 6 Aleluya. Buscad al Señor mientras se deja encontrar, invocadlo mientras está cerca. Aleluya.",
-            "en": "Alleluia, alleluia. Seek the Lord while he can be found. Call on him while he is near. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Is 55, 6 Aleluia, aleluia. Buscai o Senhor, vosso Deus, invocai-o, enquanto está perto! Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Cercate il Signore, mentre si fa trovare, invocatelo mentre è vicino. Alleuia.",
-            "fr": "Alléluia Is 55, 6 Alléluia. Alléluia. Cherchez le Seigneur, tant qu’il se laisse trouver ; invoquez-le, tant qu’il est proche ! Alléluia.",
-            "de": "Ruf vor dem Evangelium Jes 55, 6 Halleluja. Halleluja. Sucht den Herrn, solange er sich finden lässt, ruft ihn an, solange er nahe ist! Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Is 55, 6"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Quǽrite Dóminum, dum inveníri potest; invocáte eum, dum prope est. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Is 55, 6"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Buscad al Señor mientras se deja encontrar, invocadlo mientras está cerca. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Seek the Lord while he can be found. Call on him while he is near. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Is 55, 6"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Buscai o Senhor, vosso Deus, invocai-o, enquanto está perto! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Cercate il Signore, mentre si fa trovare, invocatelo mentre è vicino. Alleuia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Is 55, 6"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia. Alléluia. Cherchez le Seigneur, tant qu’il se laisse trouver ; invoquez-le, tant qu’il est proche ! Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jes 55, 6"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Sucht den Herrn, solange er sich finden lässt, ruft ihn an, solange er nahe ist! Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Is 55, 6",
           "es": "Is 55, 6",
           "pt-BR": "Is 55, 6",
           "fr": "Is 55, 6",
           "de": "Jes 55, 6"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia. Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Quǽrite Dóminum, dum inveníri potest; invocáte eum, dum prope est."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Buscad al Señor mientras se deja encontrar, invocadlo mientras está cerca."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Seek the Lord while he can be found. Call on him while he is near."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Buscai o Senhor, vosso Deus, invocai-o, enquanto está perto!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Cercate il Signore, mentre si fa trovare, invocatelo mentre è vicino. Alleuia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia. Alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Cherchez le Seigneur, tant qu’il se laisse trouver ; invoquez-le, tant qu’il est proche !"
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Sucht den Herrn, solange er sich finden lässt, ruft ihn an, solange er nahe ist!"
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

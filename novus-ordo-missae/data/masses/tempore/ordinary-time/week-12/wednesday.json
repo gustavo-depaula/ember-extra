@@ -921,127 +921,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 15, 4a. 5b Allelúia. Manéte in me, et ego in vobis, dicit Dóminus; qui manet in me, fert fructum multum. Allelúia.",
-            "es": "Aleluya Jn 15, 4a. 5b Aleluya. Permaneced en mí, y yo en vosotros —dice el Señor—; el que permanece en mí da fruto abundante. Aleluya.",
-            "en": "Alleluia, alleluia. Live in me and let me live in you, says the Lord; my branches bear much fruit. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 15, 4a. 5b Aleluia, aleluia. Ficai em mim, e eu em vós ficarei diz Jesus; quem em mim permanece, há de dar muito fruto. Aleluia.",
-            "it": "Canto al Vangelo Gv 15,4a.5b Alleluia, alleluia. Rimanete in me e io in voi, dice il Signore; chi rimane in me porta molto frutto. Alleluia.",
-            "fr": "Alléluia Io 15, 4a. 5b Alléluia Demeurez en moi, comme moi en vous, dit le Seigneur ; celui qui demeure en moi porte beaucoup de fruit. Alléluia.",
-            "de": "Ruf vor dem Evangelium Joh 15, 4a. 5b Halleluja. Halleluja. (So spricht der Herr:) Bleibt in mir, dann bleibe ich in euch. Wer in mir bleibt, der bringt reiche Frucht. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 15, 4a. 5b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Manéte in me, et ego in vobis, dicit Dóminus; qui manet in me, fert fructum multum. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 15, 4a. 5b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Permaneced en mí, y yo en vosotros —dice el Señor—; el que permanece en mí da fruto abundante. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Live in me and let me live in you, says the Lord; my branches bear much fruit. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 15, 4a. 5b"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Ficai em mim, e eu em vós ficarei diz Jesus; quem em mim permanece, há de dar muito fruto. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gv 15,4a.5b"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Rimanete in me e io in voi, dice il Signore; chi rimane in me porta molto frutto. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 15, 4a. 5b"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Demeurez en moi, comme moi en vous, dit le Seigneur ; celui qui demeure en moi porte beaucoup de fruit. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joh 15, 4a. 5b"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Bleibt in mir, dann bleibe ich in euch. Wer in mir bleibt, der bringt reiche Frucht. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 15, 4a. 5b",
           "es": "Jn 15, 4a. 5b",
@@ -1049,6 +928,179 @@
           "it": "Gv 15,4a.5b",
           "fr": "Io 15, 4a. 5b",
           "de": "Joh 15, 4a. 5b"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Manéte in me, et ego in vobis, dicit Dóminus; qui manet in me, fert fructum multum."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Permaneced en mí, y yo en vosotros —dice el Señor—; el que permanece en mí da fruto abundante."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Live in me and let me live in you, says the Lord; my branches bear much fruit."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Ficai em mim, e eu em vós ficarei diz Jesus; quem em mim permanece, há de dar muito fruto."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Rimanete in me e io in voi, dice il Signore; chi rimane in me porta molto frutto."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Demeurez en moi, comme moi en vous, dit le Seigneur ; celui qui demeure en moi porte beaucoup de fruit."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Bleibt in mir, dann bleibe ich in euch. Wer in mir bleibt, der bringt reiche Frucht."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -2076,127 +2128,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 15, 4a. 5b Allelúia. Manéte in me, et ego in vobis, dicit Dóminus; qui manet in me, fert fructum multum. Allelúia.",
-            "es": "Aleluya Jn 15, 4a. 5b Aleluya. Permaneced en mí, y yo en vosotros —dice el Señor—; el que permanece en mí da fruto abundante. Aleluya.",
-            "en": "Alleluia, alleluia. Live in me and let me live in you, says the Lord; my branches bear much fruit. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 15, 4a. 5b Aleluia, aleluia. Ficai em mim, e eu em vós ficarei diz Jesus; quem em mim permanece, há de dar muito fruto. Aleluia.",
-            "it": "Canto al Vangelo Gv 15,4a.5b Alleluia, alleluia. Rimanete in me e io in voi, dice il Signore; chi rimane in me porta molto frutto. Alleluia.",
-            "fr": "Alléluia Io 15, 4a. 5b Alléluia Demeurez en moi, comme moi en vous, dit le Seigneur ; celui qui demeure en moi porte beaucoup de fruit. Alléluia.",
-            "de": "Ruf vor dem Evangelium Joh 15, 4a. 5b Halleluja. Halleluja. (So spricht der Herr:) Bleibt in mir, dann bleibe ich in euch. Wer in mir bleibt, der bringt reiche Frucht. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 15, 4a. 5b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Manéte in me, et ego in vobis, dicit Dóminus; qui manet in me, fert fructum multum. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 15, 4a. 5b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Permaneced en mí, y yo en vosotros —dice el Señor—; el que permanece en mí da fruto abundante. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Live in me and let me live in you, says the Lord; my branches bear much fruit. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 15, 4a. 5b"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Ficai em mim, e eu em vós ficarei diz Jesus; quem em mim permanece, há de dar muito fruto. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gv 15,4a.5b"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Rimanete in me e io in voi, dice il Signore; chi rimane in me porta molto frutto. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 15, 4a. 5b"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Demeurez en moi, comme moi en vous, dit le Seigneur ; celui qui demeure en moi porte beaucoup de fruit. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joh 15, 4a. 5b"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Bleibt in mir, dann bleibe ich in euch. Wer in mir bleibt, der bringt reiche Frucht. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 15, 4a. 5b",
           "es": "Jn 15, 4a. 5b",
@@ -2204,6 +2135,179 @@
           "it": "Gv 15,4a.5b",
           "fr": "Io 15, 4a. 5b",
           "de": "Joh 15, 4a. 5b"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Manéte in me, et ego in vobis, dicit Dóminus; qui manet in me, fert fructum multum."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Permaneced en mí, y yo en vosotros —dice el Señor—; el que permanece en mí da fruto abundante."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Live in me and let me live in you, says the Lord; my branches bear much fruit."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Ficai em mim, e eu em vós ficarei diz Jesus; quem em mim permanece, há de dar muito fruto."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Rimanete in me e io in voi, dice il Signore; chi rimane in me porta molto frutto."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Demeurez en moi, comme moi en vous, dit le Seigneur ; celui qui demeure en moi porte beaucoup de fruit."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Bleibt in mir, dann bleibe ich in euch. Wer in mir bleibt, der bringt reiche Frucht."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

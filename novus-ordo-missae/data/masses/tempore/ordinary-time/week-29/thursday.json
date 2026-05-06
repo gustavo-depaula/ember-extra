@@ -807,127 +807,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Phil 3, 8-9 Allelúia. Omnia detriméntum feci et árbitror ut stércora, ut Christum lucrifáciam et invéniar in illo. Allelúia.",
-            "es": "Aleluya Phil 3, 8-9 Aleluya. Por él lo perdí todo, y todo lo considero basura con tal de ganar a Cristo y ser hallado en él. Aleluya.",
-            "en": "Alleluia, alleluia. I count all things worthless but this: to gain Jesus Christ and to be found in him. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Filip 3, 8-9 Aleluia, aleluia. Eu tudo considero como perda e como lixo, a fim de eu ganhar Cristo e ser achado nele! Aleluia.",
-            "it": "Canto al Vangelo Fil 3,8-9 Alleluia, alleluia. Tutto ho lasciato perdere e considero spazzatura, per guadagnare Cristo ed essere trovato in lui. Alleluia.",
-            "fr": "Alléluia Phil 3, 8-9 Alléluia J’ai tout perdu ; je considère tout comme des ordures, afin de gagner un seul avantage, le Christ et, en lui, d’être reconnu juste. Alléluia.",
-            "de": "Ruf vor dem Evangelium Phil 3, 8. 9 Halleluja. Halleluja. Ich habe alles aufgegeben, um Christus zu gewinnen und in ihm zu sein. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Phil 3, 8-9"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Omnia detriméntum feci et árbitror ut stércora, ut Christum lucrifáciam et invéniar in illo. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Phil 3, 8-9"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Por él lo perdí todo, y todo lo considero basura con tal de ganar a Cristo y ser hallado en él. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. I count all things worthless but this: to gain Jesus Christ and to be found in him. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Filip 3, 8-9"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Eu tudo considero como perda e como lixo, a fim de eu ganhar Cristo e ser achado nele! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Fil 3,8-9"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Tutto ho lasciato perdere e considero spazzatura, per guadagnare Cristo ed essere trovato in lui. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Phil 3, 8-9"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia J’ai tout perdu ; je considère tout comme des ordures, afin de gagner un seul avantage, le Christ et, en lui, d’être reconnu juste. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Phil 3, 8. 9"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Ich habe alles aufgegeben, um Christus zu gewinnen und in ihm zu sein. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Phil 3, 8-9",
           "es": "Phil 3, 8-9",
@@ -935,6 +814,179 @@
           "it": "Fil 3,8-9",
           "fr": "Phil 3, 8-9",
           "de": "Phil 3, 8. 9"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Omnia detriméntum feci et árbitror ut stércora, ut Christum lucrifáciam et invéniar in illo."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Por él lo perdí todo, y todo lo considero basura con tal de ganar a Cristo y ser hallado en él."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "I count all things worthless but this: to gain Jesus Christ and to be found in him."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Eu tudo considero como perda e como lixo, a fim de eu ganhar Cristo e ser achado nele!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Tutto ho lasciato perdere e considero spazzatura, per guadagnare Cristo ed essere trovato in lui."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "J’ai tout perdu ; je considère tout comme des ordures, afin de gagner un seul avantage, le Christ et, en lui, d’être reconnu juste."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Ich habe alles aufgegeben, um Christus zu gewinnen und in ihm zu sein."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -2089,127 +2141,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Phil 3, 8-9 Allelúia. Omnia detriméntum feci et árbitror ut stércora, ut Christum lucrifáciam et invéniar in illo. Allelúia.",
-            "es": "Aleluya Phil 3, 8-9 Aleluya. Por él lo perdí todo, y todo lo considero basura con tal de ganar a Cristo y ser hallado en él. Aleluya.",
-            "en": "Alleluia, alleluia. I count all things worthless but this: to gain Jesus Christ and to be found in him. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Filip 3, 8-9 Aleluia, aleluia. Eu tudo considero como perda e como lixo, a fim de eu ganhar Cristo e ser achado nele! Aleluia.",
-            "it": "Canto al Vangelo Fil 3,8-9 Alleluia, alleluia. Tutto ho lasciato perdere e considero spazzatura, per guadagnare Cristo ed essere trovato in lui. Alleluia.",
-            "fr": "Alléluia Phil 3, 8-9 Alléluia J’ai tout perdu ; je considère tout comme des ordures, afin de gagner un seul avantage, le Christ et, en lui, d’être reconnu juste. Alléluia.",
-            "de": "Ruf vor dem Evangelium Phil 3, 8. 9 Halleluja. Halleluja. Ich habe alles aufgegeben, um Christus zu gewinnen und in ihm zu sein. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Phil 3, 8-9"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Omnia detriméntum feci et árbitror ut stércora, ut Christum lucrifáciam et invéniar in illo. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Phil 3, 8-9"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Por él lo perdí todo, y todo lo considero basura con tal de ganar a Cristo y ser hallado en él. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. I count all things worthless but this: to gain Jesus Christ and to be found in him. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Filip 3, 8-9"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Eu tudo considero como perda e como lixo, a fim de eu ganhar Cristo e ser achado nele! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Fil 3,8-9"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Tutto ho lasciato perdere e considero spazzatura, per guadagnare Cristo ed essere trovato in lui. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Phil 3, 8-9"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia J’ai tout perdu ; je considère tout comme des ordures, afin de gagner un seul avantage, le Christ et, en lui, d’être reconnu juste. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Phil 3, 8. 9"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Ich habe alles aufgegeben, um Christus zu gewinnen und in ihm zu sein. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Phil 3, 8-9",
           "es": "Phil 3, 8-9",
@@ -2217,6 +2148,179 @@
           "it": "Fil 3,8-9",
           "fr": "Phil 3, 8-9",
           "de": "Phil 3, 8. 9"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Omnia detriméntum feci et árbitror ut stércora, ut Christum lucrifáciam et invéniar in illo."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Por él lo perdí todo, y todo lo considero basura con tal de ganar a Cristo y ser hallado en él."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "I count all things worthless but this: to gain Jesus Christ and to be found in him."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Eu tudo considero como perda e como lixo, a fim de eu ganhar Cristo e ser achado nele!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Tutto ho lasciato perdere e considero spazzatura, per guadagnare Cristo ed essere trovato in lui."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "J’ai tout perdu ; je considère tout comme des ordures, afin de gagner un seul avantage, le Christ et, en lui, d’être reconnu juste."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Ich habe alles aufgegeben, um Christus zu gewinnen und in ihm zu sein."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

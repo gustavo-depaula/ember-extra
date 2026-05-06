@@ -1900,121 +1900,71 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Versus ante Evangelium Ez 33, 11 Nolo mortem ímpii, dicit Dóminus, sed ut revertátur a via sua et vivat.",
-            "es": "Versículo antes del Evangelio Ez 33, 11 No me complazco en la muerte del malvado —dice el Señor—, sino en que se convierta y viva.",
-            "en": "I do not wish the sinner to die, says the Lord, but to turn to me and live.",
-            "pt-BR": "Aclamaçãoao Evangelho Ez 33, 11 Eu não quero a morte do pecador, diz o Senhor, mas que ele volte, se converta e tenha vida.",
-            "it": "Canto al Vangelo (Ez 33,11) Lode e onore a te, Signore Gesù! Io non godo della morte del malvagio, dice il Signore, ma che si converta dalla sua malvagità e viva. Lode e onore a te, Signore Gesù!",
-            "fr": "Verset avant l’Évangile Ta parole, Seigneur, est vérité, et ta loi, délivrance. Je ne prends pas plaisir à la mort du méchant, dit le Seigneur. Qu’il se détourne de sa conduite, et qu’il vive ! Ta parole, Seigneur, est vérité, et ta loi, délivrance.",
-            "de": "Ruf vor dem Evangelium Ez 33, 11 Herr Jesus, dir sei Ruhm und Ehre! (So spricht Gott, der Herr:) Ich habe kein Gefallen am Tod des Schuldigen, sondern daran, dass er umkehrt auf seinem Weg und am Leben bleibt. Herr Jesus, dir sei Ruhm und Ehre!"
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versus ante Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ez 33, 11"
-                },
-                {
-                  "type": "text",
-                  "text": "Nolo mortem ímpii, dicit Dóminus, sed ut revertátur a via sua et vivat."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versículo antes del Evangelio"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ez 33, 11"
-                },
-                {
-                  "type": "text",
-                  "text": "No me complazco en la muerte del malvado —dice el Señor—, sino en que se convierta y viva."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "I do not wish the sinner to die, says the Lord, but to turn to me and live."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamaçãoao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ez 33, 11"
-                },
-                {
-                  "type": "text",
-                  "text": "Eu não quero a morte do pecador, diz o Senhor, mas que ele volte, se converta e tenha vida."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Ez 33,11)"
-                },
-                {
-                  "type": "text",
-                  "text": "Lode e onore a te, Signore Gesù! Io non godo della morte del malvagio, dice il Signore, ma che si converta dalla sua malvagità e viva. Lode e onore a te, Signore Gesù!"
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Verset avant l’Évangile Ta parole, Seigneur, est vérité, et ta loi, délivrance. Je ne prends pas plaisir à la mort du méchant, dit le Seigneur. Qu’il se détourne de sa conduite, et qu’il vive ! Ta parole, Seigneur, est vérité, et ta loi, délivrance."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ez 33, 11"
-                },
-                {
-                  "type": "text",
-                  "text": "Herr Jesus, dir sei Ruhm und Ehre! (So spricht Gott, der Herr:) Ich habe kein Gefallen am Tod des Schuldigen, sondern daran, dass er umkehrt auf seinem Weg und am Leben bleibt. Herr Jesus, dir sei Ruhm und Ehre!"
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Ez 33, 11",
           "es": "Ez 33, 11",
           "pt-BR": "Ez 33, 11",
           "it": "(Ez 33,11)",
           "de": "Ez 33, 11"
+        },
+        "mode": "versus-ante-evangelium",
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "text",
+                "text": "Nolo mortem ímpii, dicit Dóminus, sed ut revertátur a via sua et vivat."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "text",
+                "text": "No me complazco en la muerte del malvado —dice el Señor—, sino en que se convierta y viva."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "text",
+                "text": "I do not wish the sinner to die, says the Lord, but to turn to me and live."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "Eu não quero a morte do pecador, diz o Senhor, mas que ele volte, se converta e tenha vida."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "Lode e onore a te, Signore Gesù! Io non godo della morte del malvagio, dice il Signore, ma che si converta dalla sua malvagità e viva. Lode e onore a te, Signore Gesù!"
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Ta parole, Seigneur, est vérité, et ta loi, délivrance. Je ne prends pas plaisir à la mort du méchant, dit le Seigneur. Qu’il se détourne de sa conduite, et qu’il vive ! Ta parole, Seigneur, est vérité, et ta loi, délivrance."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "text",
+                "text": "Herr Jesus, dir sei Ruhm und Ehre! (So spricht Gott, der Herr:) Ich habe kein Gefallen am Tod des Schuldigen, sondern daran, dass er umkehrt auf seinem Weg und am Leben bleibt. Herr Jesus, dir sei Ruhm und Ehre!"
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -3185,121 +3135,71 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Versus ante Evangelium Ez 33, 11 Nolo mortem ímpii, dicit Dóminus, sed ut revertátur a via sua et vivat.",
-            "es": "Versículo antes del Evangelio Ez 33, 11 No me complazco en la muerte del malvado —dice el Señor—, sino en que se convierta y viva.",
-            "en": "I do not wish the sinner to die, says the Lord, but to turn to me and live.",
-            "pt-BR": "Aclamaçãoao Evangelho Ez 33, 11 Eu não quero a morte do pecador, diz o Senhor, mas que ele volte, se converta e tenha vida.",
-            "it": "Canto al Vangelo (Ez 33,11) Lode e onore a te, Signore Gesù! Io non godo della morte del malvagio, dice il Signore, ma che si converta dalla sua malvagità e viva. Lode e onore a te, Signore Gesù!",
-            "fr": "Verset avant l’Évangile Ta parole, Seigneur, est vérité, et ta loi, délivrance. Je ne prends pas plaisir à la mort du méchant, dit le Seigneur. Qu’il se détourne de sa conduite, et qu’il vive ! Ta parole, Seigneur, est vérité, et ta loi, délivrance.",
-            "de": "Ruf vor dem Evangelium Ez 33, 11 Herr Jesus, dir sei Ruhm und Ehre! (So spricht Gott, der Herr:) Ich habe kein Gefallen am Tod des Schuldigen, sondern daran, dass er umkehrt auf seinem Weg und am Leben bleibt. Herr Jesus, dir sei Ruhm und Ehre!"
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versus ante Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ez 33, 11"
-                },
-                {
-                  "type": "text",
-                  "text": "Nolo mortem ímpii, dicit Dóminus, sed ut revertátur a via sua et vivat."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versículo antes del Evangelio"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ez 33, 11"
-                },
-                {
-                  "type": "text",
-                  "text": "No me complazco en la muerte del malvado —dice el Señor—, sino en que se convierta y viva."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "I do not wish the sinner to die, says the Lord, but to turn to me and live."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamaçãoao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ez 33, 11"
-                },
-                {
-                  "type": "text",
-                  "text": "Eu não quero a morte do pecador, diz o Senhor, mas que ele volte, se converta e tenha vida."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Ez 33,11)"
-                },
-                {
-                  "type": "text",
-                  "text": "Lode e onore a te, Signore Gesù! Io non godo della morte del malvagio, dice il Signore, ma che si converta dalla sua malvagità e viva. Lode e onore a te, Signore Gesù!"
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Verset avant l’Évangile Ta parole, Seigneur, est vérité, et ta loi, délivrance. Je ne prends pas plaisir à la mort du méchant, dit le Seigneur. Qu’il se détourne de sa conduite, et qu’il vive ! Ta parole, Seigneur, est vérité, et ta loi, délivrance."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ez 33, 11"
-                },
-                {
-                  "type": "text",
-                  "text": "Herr Jesus, dir sei Ruhm und Ehre! (So spricht Gott, der Herr:) Ich habe kein Gefallen am Tod des Schuldigen, sondern daran, dass er umkehrt auf seinem Weg und am Leben bleibt. Herr Jesus, dir sei Ruhm und Ehre!"
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Ez 33, 11",
           "es": "Ez 33, 11",
           "pt-BR": "Ez 33, 11",
           "it": "(Ez 33,11)",
           "de": "Ez 33, 11"
+        },
+        "mode": "versus-ante-evangelium",
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "text",
+                "text": "Nolo mortem ímpii, dicit Dóminus, sed ut revertátur a via sua et vivat."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "text",
+                "text": "No me complazco en la muerte del malvado —dice el Señor—, sino en que se convierta y viva."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "text",
+                "text": "I do not wish the sinner to die, says the Lord, but to turn to me and live."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "Eu não quero a morte do pecador, diz o Senhor, mas que ele volte, se converta e tenha vida."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "Lode e onore a te, Signore Gesù! Io non godo della morte del malvagio, dice il Signore, ma che si converta dalla sua malvagità e viva. Lode e onore a te, Signore Gesù!"
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Ta parole, Seigneur, est vérité, et ta loi, délivrance. Je ne prends pas plaisir à la mort du méchant, dit le Seigneur. Qu’il se détourne de sa conduite, et qu’il vive ! Ta parole, Seigneur, est vérité, et ta loi, délivrance."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "text",
+                "text": "Herr Jesus, dir sei Ruhm und Ehre! (So spricht Gott, der Herr:) Ich habe kein Gefallen am Tod des Schuldigen, sondern daran, dass er umkehrt auf seinem Weg und am Leben bleibt. Herr Jesus, dir sei Ruhm und Ehre!"
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -4470,121 +4370,71 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Versus ante Evangelium Ez 33, 11 Nolo mortem ímpii, dicit Dóminus, sed ut revertátur a via sua et vivat.",
-            "es": "Versículo antes del Evangelio Ez 33, 11 No me complazco en la muerte del malvado —dice el Señor—, sino en que se convierta y viva.",
-            "en": "I do not wish the sinner to die, says the Lord, but to turn to me and live.",
-            "pt-BR": "Aclamaçãoao Evangelho Ez 33, 11 Eu não quero a morte do pecador, diz o Senhor, mas que ele volte, se converta e tenha vida.",
-            "it": "Canto al Vangelo (Ez 33,11) Lode e onore a te, Signore Gesù! Io non godo della morte del malvagio, dice il Signore, ma che si converta dalla sua malvagità e viva. Lode e onore a te, Signore Gesù!",
-            "fr": "Verset avant l’Évangile Ta parole, Seigneur, est vérité, et ta loi, délivrance. Je ne prends pas plaisir à la mort du méchant, dit le Seigneur. Qu’il se détourne de sa conduite, et qu’il vive ! Ta parole, Seigneur, est vérité, et ta loi, délivrance.",
-            "de": "Ruf vor dem Evangelium Ez 33, 11 Herr Jesus, dir sei Ruhm und Ehre! (So spricht Gott, der Herr:) Ich habe kein Gefallen am Tod des Schuldigen, sondern daran, dass er umkehrt auf seinem Weg und am Leben bleibt. Herr Jesus, dir sei Ruhm und Ehre!"
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versus ante Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ez 33, 11"
-                },
-                {
-                  "type": "text",
-                  "text": "Nolo mortem ímpii, dicit Dóminus, sed ut revertátur a via sua et vivat."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versículo antes del Evangelio"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ez 33, 11"
-                },
-                {
-                  "type": "text",
-                  "text": "No me complazco en la muerte del malvado —dice el Señor—, sino en que se convierta y viva."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "I do not wish the sinner to die, says the Lord, but to turn to me and live."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamaçãoao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ez 33, 11"
-                },
-                {
-                  "type": "text",
-                  "text": "Eu não quero a morte do pecador, diz o Senhor, mas que ele volte, se converta e tenha vida."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Ez 33,11)"
-                },
-                {
-                  "type": "text",
-                  "text": "Lode e onore a te, Signore Gesù! Io non godo della morte del malvagio, dice il Signore, ma che si converta dalla sua malvagità e viva. Lode e onore a te, Signore Gesù!"
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Verset avant l’Évangile Ta parole, Seigneur, est vérité, et ta loi, délivrance. Je ne prends pas plaisir à la mort du méchant, dit le Seigneur. Qu’il se détourne de sa conduite, et qu’il vive ! Ta parole, Seigneur, est vérité, et ta loi, délivrance."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ez 33, 11"
-                },
-                {
-                  "type": "text",
-                  "text": "Herr Jesus, dir sei Ruhm und Ehre! (So spricht Gott, der Herr:) Ich habe kein Gefallen am Tod des Schuldigen, sondern daran, dass er umkehrt auf seinem Weg und am Leben bleibt. Herr Jesus, dir sei Ruhm und Ehre!"
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Ez 33, 11",
           "es": "Ez 33, 11",
           "pt-BR": "Ez 33, 11",
           "it": "(Ez 33,11)",
           "de": "Ez 33, 11"
+        },
+        "mode": "versus-ante-evangelium",
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "text",
+                "text": "Nolo mortem ímpii, dicit Dóminus, sed ut revertátur a via sua et vivat."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "text",
+                "text": "No me complazco en la muerte del malvado —dice el Señor—, sino en que se convierta y viva."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "text",
+                "text": "I do not wish the sinner to die, says the Lord, but to turn to me and live."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "Eu não quero a morte do pecador, diz o Senhor, mas que ele volte, se converta e tenha vida."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "Lode e onore a te, Signore Gesù! Io non godo della morte del malvagio, dice il Signore, ma che si converta dalla sua malvagità e viva. Lode e onore a te, Signore Gesù!"
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Ta parole, Seigneur, est vérité, et ta loi, délivrance. Je ne prends pas plaisir à la mort du méchant, dit le Seigneur. Qu’il se détourne de sa conduite, et qu’il vive ! Ta parole, Seigneur, est vérité, et ta loi, délivrance."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "text",
+                "text": "Herr Jesus, dir sei Ruhm und Ehre! (So spricht Gott, der Herr:) Ich habe kein Gefallen am Tod des Schuldigen, sondern daran, dass er umkehrt auf seinem Weg und am Leben bleibt. Herr Jesus, dir sei Ruhm und Ehre!"
+              }
+            ]
+          ]
         }
       },
       "gospel": {

@@ -939,127 +939,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Ps 24, 4b-5a Allelúia. Sémitas tuas, Deus meus, édoce me. Dírige me in veritáte tua. Allelúia.",
-            "es": "Aleluya Ps 24, 4b-5a Aleluya. Dios mío, instrúyeme en tus sendas, haz que camine con lealtad. Aleluya.",
-            "en": "Alleluia, alleluia. Teach me your paths, my God, and lead me in your truth. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Salmo 24 (25) 4b.5a Aleluia, aleluia. Fazei-me conhecer vossa estrada, vossa verdade me oriente me conduza! Aleluia.",
-            "it": "Canto al Vangelo (Sal 24,4b.5a) Alleluia, alleluia. Insegnami, mio Dio, i tuoi sentieri, guidami nella tua verità e istruiscimi. Alleluia.",
-            "fr": "Alléluia Ps 24, 4b-5a Alléluia Fais-moi connaître ta route, mon Dieu ; dirige-moi par ta vérité. Alléluia.",
-            "de": "Ruf vor dem Evangelium Ps 25 (24), 4a. 5a Halleluja. Halleluja. Zeige mir, Herr, deine Wege, führe mich in deiner Treue und lehre mich! Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 24, 4b-5a"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Sémitas tuas, Deus meus, édoce me. Dírige me in veritáte tua. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 24, 4b-5a"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Dios mío, instrúyeme en tus sendas, haz que camine con lealtad. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Teach me your paths, my God, and lead me in your truth. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Salmo 24 (25) 4b.5a"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Fazei-me conhecer vossa estrada, vossa verdade me oriente me conduza! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Sal 24,4b.5a)"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Insegnami, mio Dio, i tuoi sentieri, guidami nella tua verità e istruiscimi. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 24, 4b-5a"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Fais-moi connaître ta route, mon Dieu ; dirige-moi par ta vérité. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 25 (24), 4a. 5a"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Zeige mir, Herr, deine Wege, führe mich in deiner Treue und lehre mich! Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Ps 24, 4b-5a",
           "es": "Ps 24, 4b-5a",
@@ -1067,6 +946,179 @@
           "it": "(Sal 24,4b.5a)",
           "fr": "Ps 24, 4b-5a",
           "de": "Ps 25 (24), 4a. 5a"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Sémitas tuas, Deus meus, édoce me. Dírige me in veritáte tua."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Dios mío, instrúyeme en tus sendas, haz que camine con lealtad."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Teach me your paths, my God, and lead me in your truth."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Fazei-me conhecer vossa estrada, vossa verdade me oriente me conduza!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Insegnami, mio Dio, i tuoi sentieri, guidami nella tua verità e istruiscimi."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Fais-moi connaître ta route, mon Dieu ; dirige-moi par ta vérité."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Zeige mir, Herr, deine Wege, führe mich in deiner Treue und lehre mich!"
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -2128,127 +2180,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Ps 24, 4b-5a Allelúia. Sémitas tuas, Deus meus, édoce me. Dírige me in veritáte tua. Allelúia.",
-            "es": "Aleluya Ps 24, 4b-5a Aleluya. Dios mío, instrúyeme en tus sendas, haz que camine con lealtad. Aleluya.",
-            "en": "Alleluia, alleluia. Teach me your paths, my God, and lead me in your truth. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Salmo 24 (25) 4b.5a Aleluia, aleluia. Fazei-me conhecer vossa estrada, vossa verdade me oriente me conduza! Aleluia.",
-            "it": "Canto al Vangelo (Sal 24,4b.5a) Alleluia, alleluia. Insegnami, mio Dio, i tuoi sentieri, guidami nella tua verità e istruiscimi. Alleluia.",
-            "fr": "Alléluia Ps 24, 4b-5a Alléluia Fais-moi connaître ta route, mon Dieu ; dirige-moi par ta vérité. Alléluia.",
-            "de": "Ruf vor dem Evangelium Ps 25 (24), 4a. 5a Halleluja. Halleluja. Zeige mir, Herr, deine Wege, führe mich in deiner Treue und lehre mich! Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 24, 4b-5a"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Sémitas tuas, Deus meus, édoce me. Dírige me in veritáte tua. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 24, 4b-5a"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Dios mío, instrúyeme en tus sendas, haz que camine con lealtad. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Teach me your paths, my God, and lead me in your truth. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Salmo 24 (25) 4b.5a"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Fazei-me conhecer vossa estrada, vossa verdade me oriente me conduza! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Sal 24,4b.5a)"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Insegnami, mio Dio, i tuoi sentieri, guidami nella tua verità e istruiscimi. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 24, 4b-5a"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Fais-moi connaître ta route, mon Dieu ; dirige-moi par ta vérité. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 25 (24), 4a. 5a"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Zeige mir, Herr, deine Wege, führe mich in deiner Treue und lehre mich! Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Ps 24, 4b-5a",
           "es": "Ps 24, 4b-5a",
@@ -2256,6 +2187,179 @@
           "it": "(Sal 24,4b.5a)",
           "fr": "Ps 24, 4b-5a",
           "de": "Ps 25 (24), 4a. 5a"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Sémitas tuas, Deus meus, édoce me. Dírige me in veritáte tua."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Dios mío, instrúyeme en tus sendas, haz que camine con lealtad."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Teach me your paths, my God, and lead me in your truth."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Fazei-me conhecer vossa estrada, vossa verdade me oriente me conduza!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Insegnami, mio Dio, i tuoi sentieri, guidami nella tua verità e istruiscimi."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Fais-moi connaître ta route, mon Dieu ; dirige-moi par ta vérité."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Zeige mir, Herr, deine Wege, führe mich in deiner Treue und lehre mich!"
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

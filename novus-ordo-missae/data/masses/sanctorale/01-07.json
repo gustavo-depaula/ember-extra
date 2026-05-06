@@ -1245,127 +1245,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Lc 21, 36 Allelúia. Vigiláte, omni témpore orántes, ut possítis stare ante Fílium hóminis. Allelúia.",
-            "es": "Aleluya Lc 21, 36 Aleluya. Estad despiertos en todo tiempo, pidiendo manteneros en pie ante el Hijo del hombre. Aleluya.",
-            "en": "Alleluia, alleluia. Be watchful, pray constantly, that you may be worthy to stand before the Son of Man. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Lc 21, 36 Aleluia, aleluia. Vigiai e orai, para ficardes de pé, ante o Filho do Homem! Aleluia.",
-            "it": "Canto al Vangelo Lc 21, 36 Alleluia, alleluia. Vegliate in ogni momento pregando, perché abbiate la forza di comparire davanti al Figlio dell’uomo. Alleluia.",
-            "fr": "Alléluia Lc 21, 36 Alléluia Restez éveillés et priez en tout temps : ainsi vous serez jugés dignes de vous tenir debout devant le Fils de l’homme. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Lk 21, 36 Halleluja. Halleluja. Wacht und betet allezeit, damit ihr hintreten könnt vor den Menschensohn. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 21, 36"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Vigiláte, omni témpore orántes, ut possítis stare ante Fílium hóminis. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 21, 36"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Estad despiertos en todo tiempo, pidiendo manteneros en pie ante el Hijo del hombre. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Be watchful, pray constantly, that you may be worthy to stand before the Son of Man. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 21, 36"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Vigiai e orai, para ficardes de pé, ante o Filho do Homem! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 21, 36"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Vegliate in ogni momento pregando, perché abbiate la forza di comparire davanti al Figlio dell’uomo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 21, 36"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Restez éveillés et priez en tout temps : ainsi vous serez jugés dignes de vous tenir debout devant le Fils de l’homme. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Lk 21, 36"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Wacht und betet allezeit, damit ihr hintreten könnt vor den Menschensohn. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Lc 21, 36",
           "es": "Lc 21, 36",
@@ -1373,6 +1252,179 @@
           "it": "Lc 21, 36",
           "fr": "Lc 21, 36",
           "de": "vgl. Lk 21, 36"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Vigiláte, omni témpore orántes, ut possítis stare ante Fílium hóminis."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Estad despiertos en todo tiempo, pidiendo manteneros en pie ante el Hijo del hombre."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Be watchful, pray constantly, that you may be worthy to stand before the Son of Man."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Vigiai e orai, para ficardes de pé, ante o Filho do Homem!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Vegliate in ogni momento pregando, perché abbiate la forza di comparire davanti al Figlio dell’uomo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Restez éveillés et priez en tout temps : ainsi vous serez jugés dignes de vous tenir debout devant le Fils de l’homme."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Wacht und betet allezeit, damit ihr hintreten könnt vor den Menschensohn."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

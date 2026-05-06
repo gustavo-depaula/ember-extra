@@ -849,127 +849,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Mt 24, 42a. Allelúia. Vigiláte et estóte paráti, quia qua nescítis hora Fílius hóminis ventúrus est. Allelúia.",
-            "es": "Aleluya Mt 24, 42a. Aleluya. Estad en vela y preparados, porque a la hora que menos penséis viene el Hijo del hombre. Aleluya.",
-            "en": "Alleluia, alleluia. Be watchful and ready: you know not when the Son of Man is coming. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Mt 24, 42a. Aleluia, aleluia. Vigiai, diz Jesus, vigiai, pois, no dia em que não esperais, o vosso Senhor há de vir. Aleluia.",
-            "it": "Canto al Vangelo Mt 24, 42a.44 Alleluia, alleluia. Vegliate e tenetevi pronti, perché, nell’ora che non immaginate, viene il Figlio dell’uomo. Alleluia.",
-            "fr": "Alléluia Mt 24, 42a. Alléluia Veillez, tenez-vous prêts : c’est à l’heure où vous n’y pensez pas que le Fils de l’homme viendra. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Mt 24, 42a. Halleluja. Halleluja. Seid wachsam, und haltet euch bereit! Denn der Menschensohn kommt zu einer Stunde, in der ihr es nicht erwartet. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 24, 42a."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Vigiláte et estóte paráti, quia qua nescítis hora Fílius hóminis ventúrus est. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 24, 42a."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Estad en vela y preparados, porque a la hora que menos penséis viene el Hijo del hombre. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Be watchful and ready: you know not when the Son of Man is coming. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 24, 42a."
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Vigiai, diz Jesus, vigiai, pois, no dia em que não esperais, o vosso Senhor há de vir. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 24, 42a.44"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Vegliate e tenetevi pronti, perché, nell’ora che non immaginate, viene il Figlio dell’uomo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 24, 42a."
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Veillez, tenez-vous prêts : c’est à l’heure où vous n’y pensez pas que le Fils de l’homme viendra. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Mt 24, 42a."
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Seid wachsam, und haltet euch bereit! Denn der Menschensohn kommt zu einer Stunde, in der ihr es nicht erwartet. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mt 24, 42a",
           "es": "Mt 24, 42a",
@@ -977,6 +856,179 @@
           "it": "Mt 24, 42a.44",
           "fr": "Mt 24, 42a",
           "de": "vgl. Mt 24, 42a"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Vigiláte et estóte paráti, quia qua nescítis hora Fílius hóminis ventúrus est."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Estad en vela y preparados, porque a la hora que menos penséis viene el Hijo del hombre."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Be watchful and ready: you know not when the Son of Man is coming."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Vigiai, diz Jesus, vigiai, pois, no dia em que não esperais, o vosso Senhor há de vir."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Vegliate e tenetevi pronti, perché, nell’ora che non immaginate, viene il Figlio dell’uomo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Veillez, tenez-vous prêts : c’est à l’heure où vous n’y pensez pas que le Fils de l’homme viendra."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Seid wachsam, und haltet euch bereit! Denn der Menschensohn kommt zu einer Stunde, in der ihr es nicht erwartet."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -1943,127 +1995,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Mt 24, 42a. Allelúia. Vigiláte et estóte paráti, quia qua nescítis hora Fílius hóminis ventúrus est. Allelúia.",
-            "es": "Aleluya Mt 24, 42a. Aleluya. Estad en vela y preparados, porque a la hora que menos penséis viene el Hijo del hombre. Aleluya.",
-            "en": "Alleluia, alleluia. Be watchful and ready: you know not when the Son of Man is coming. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Mt 24, 42a. Aleluia, aleluia. Vigiai, diz Jesus, vigiai, pois, no dia em que não esperais, o vosso Senhor há de vir. Aleluia.",
-            "it": "Canto al Vangelo Mt 24, 42a.44 Alleluia, alleluia. Vegliate e tenetevi pronti, perché, nell’ora che non immaginate, viene il Figlio dell’uomo. Alleluia.",
-            "fr": "Alléluia Mt 24, 42a. Alléluia Veillez, tenez-vous prêts : c’est à l’heure où vous n’y pensez pas que le Fils de l’homme viendra. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Mt 24, 42a. Halleluja. Halleluja. Seid wachsam, und haltet euch bereit! Denn der Menschensohn kommt zu einer Stunde, in der ihr es nicht erwartet. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 24, 42a."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Vigiláte et estóte paráti, quia qua nescítis hora Fílius hóminis ventúrus est. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 24, 42a."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Estad en vela y preparados, porque a la hora que menos penséis viene el Hijo del hombre. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Be watchful and ready: you know not when the Son of Man is coming. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 24, 42a."
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Vigiai, diz Jesus, vigiai, pois, no dia em que não esperais, o vosso Senhor há de vir. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 24, 42a.44"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Vegliate e tenetevi pronti, perché, nell’ora che non immaginate, viene il Figlio dell’uomo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 24, 42a."
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Veillez, tenez-vous prêts : c’est à l’heure où vous n’y pensez pas que le Fils de l’homme viendra. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Mt 24, 42a."
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Seid wachsam, und haltet euch bereit! Denn der Menschensohn kommt zu einer Stunde, in der ihr es nicht erwartet. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mt 24, 42a",
           "es": "Mt 24, 42a",
@@ -2071,6 +2002,179 @@
           "it": "Mt 24, 42a.44",
           "fr": "Mt 24, 42a",
           "de": "vgl. Mt 24, 42a"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Vigiláte et estóte paráti, quia qua nescítis hora Fílius hóminis ventúrus est."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Estad en vela y preparados, porque a la hora que menos penséis viene el Hijo del hombre."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Be watchful and ready: you know not when the Son of Man is coming."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Vigiai, diz Jesus, vigiai, pois, no dia em que não esperais, o vosso Senhor há de vir."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Vegliate e tenetevi pronti, perché, nell’ora che non immaginate, viene il Figlio dell’uomo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Veillez, tenez-vous prêts : c’est à l’heure où vous n’y pensez pas que le Fils de l’homme viendra."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Seid wachsam, und haltet euch bereit! Denn der Menschensohn kommt zu einer Stunde, in der ihr es nicht erwartet."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

@@ -2316,123 +2316,71 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Versus ante Evangelium Is 61, 1 (Lc 4, 18) Spíritus Dómini super me; evangelizare pauperibus misit me.",
-            "es": "Aleluya Is 61, 1 (Lc 4, 18) El Espíritu del Señor está sobre mí: me ha enviado a evangelizar a los pobres.",
-            "en": "The Spirit of the Lord is upon me; he sent me to bring Good News to the poor.",
-            "pt-BR": "Aclamação ao Evangelho Is 61, 1 (Lc 4, 18) O Espírito do Senhor está sobre mim: Ele me enviou a anunciar a boa nova aos pobres.",
-            "it": "Canto al Vangelo Is 61,1 Gloria e lode a te, Cristo Signore! Lo Spirito del Signore è su di me: mi ha mandato a portare il lieto annunzio ai poveri. Gloria e lode a te, Cristo Signore!",
-            "fr": "Verset avant l’Évangile Is 61, 1 (Lc 4, 18) Gloire et louange à toi, Seigneur Jésus ! L’Esprit du Seigneur est sur moi : il m’a envoyé porter la Bonne Nouvelle aux pauvres. Gloire et louange à toi, Seigneur Jésus !",
-            "de": "Herr Jesus, dir sei Ruhm und Ehre! Der Geist Gottes ruht auf mir: Er hat mich gesandt, den Armen die Frohe Botschaft zu bringen."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versus ante Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Is 61, 1 (Lc 4, 18)"
-                },
-                {
-                  "type": "text",
-                  "text": "Spíritus Dómini super me; evangelizare pauperibus misit me."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Is 61, 1 (Lc 4, 18)"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "El Espíritu del Señor está sobre mí: me ha enviado a evangelizar a los pobres."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "The Spirit of the Lord is upon me; he sent me to bring Good News to the poor."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Is 61, 1 (Lc 4, 18)"
-                },
-                {
-                  "type": "text",
-                  "text": "O Espírito do Senhor está sobre mim: Ele me enviou a anunciar a boa nova aos pobres."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Is 61,1"
-                },
-                {
-                  "type": "text",
-                  "text": "Gloria e lode a te, Cristo Signore! Lo Spirito del Signore è su di me: mi ha mandato a portare il lieto annunzio ai poveri. Gloria e lode a te, Cristo Signore!"
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Verset avant l’Évangile"
-                },
-                {
-                  "type": "reference",
-                  "text": "Is 61, 1 (Lc 4, 18)"
-                },
-                {
-                  "type": "text",
-                  "text": "Gloire et louange à toi, Seigneur Jésus ! L’Esprit du Seigneur est sur moi : il m’a envoyé porter la Bonne Nouvelle aux pauvres. Gloire et louange à toi, Seigneur Jésus !"
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Herr Jesus, dir sei Ruhm und Ehre! Der Geist Gottes ruht auf mir: Er hat mich gesandt, den Armen die Frohe Botschaft zu bringen."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Is 61, 1 (Lc 4, 18)",
           "es": "Is 61, 1 (Lc 4, 18)",
           "pt-BR": "Is 61, 1 (Lc 4, 18)",
           "it": "Is 61,1",
           "fr": "Is 61, 1 (Lc 4, 18)"
+        },
+        "mode": "versus-ante-evangelium",
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "text",
+                "text": "Spíritus Dómini super me; evangelizare pauperibus misit me."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "text",
+                "text": "El Espíritu del Señor está sobre mí: me ha enviado a evangelizar a los pobres."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "text",
+                "text": "The Spirit of the Lord is upon me; he sent me to bring Good News to the poor."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "O Espírito do Senhor está sobre mim: Ele me enviou a anunciar a boa nova aos pobres."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "Gloria e lode a te, Cristo Signore! Lo Spirito del Signore è su di me: mi ha mandato a portare il lieto annunzio ai poveri. Gloria e lode a te, Cristo Signore!"
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Gloire et louange à toi, Seigneur Jésus ! L’Esprit du Seigneur est sur moi : il m’a envoyé porter la Bonne Nouvelle aux pauvres. Gloire et louange à toi, Seigneur Jésus !"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "text",
+                "text": "Herr Jesus, dir sei Ruhm und Ehre! Der Geist Gottes ruht auf mir: Er hat mich gesandt, den Armen die Frohe Botschaft zu bringen."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

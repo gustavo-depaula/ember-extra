@@ -2545,137 +2545,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Ps 67, 20 Allelúia. Benedíctus Dóminus die quotídie; portábit nos Deus salutárium nostrórum. Allelúia.",
-            "es": "Aleluya Sal 67, 20 Aleluya. Bendito el Señor cada día, Dios lleva nuestras cargas, es nuestra salvación. Aleluya.",
-            "en": "Alleluia Ps 67:20 Alleluia. Blessed be the Lord day after day, the God who saves us and bears our burdens. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Sal 67, 20 Aleluia, aleluia. Bendito seja Deus em cada dia, o Deus da nossa salvação, que carrega os nossos fardos! Aleluia.",
-            "it": "Canto al Vangelo Salmo 67 (68), 20 Alleluia, alleluia. Di giorno in giorno benedetto il Signore: a noi Dio porta la salvezza. Alleluia.",
-            "fr": "Alléluia Ps 67, 20 Alléluia Que le Seigneur soit béni ! Jour après jour, ce Dieu nous accorde la victoire. Alléluia.",
-            "de": "Ruf vor dem Evangelium Ps 68 (67), 20 Halleluja. Halleluja. Gepriesen sei der Herr, Tag für Tag! Gott trägt uns, er ist unsre Hilfe. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 67, 20"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Benedíctus Dóminus die quotídie; portábit nos Deus salutárium nostrórum. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Sal 67, 20"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Bendito el Señor cada día, Dios lleva nuestras cargas, es nuestra salvación. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 67:20"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia. Blessed be the Lord day after day, the God who saves us and bears our burdens. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Sal 67, 20"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Bendito seja Deus em cada dia, o Deus da nossa salvação, que carrega os nossos fardos! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Salmo 67 (68), 20"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Di giorno in giorno benedetto il Signore: a noi Dio porta la salvezza. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 67, 20"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Que le Seigneur soit béni ! Jour après jour, ce Dieu nous accorde la victoire. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 68 (67), 20"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Gepriesen sei der Herr, Tag für Tag! Gott trägt uns, er ist unsre Hilfe. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Ps 67, 20",
           "es": "Sal 67, 20",
@@ -2684,6 +2553,179 @@
           "it": "Salmo 67 (68), 20",
           "fr": "Ps 67, 20",
           "de": "Ps 68 (67), 20"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia"
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Benedíctus Dóminus die quotídie; portábit nos Deus salutárium nostrórum."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Bendito el Señor cada día, Dios lleva nuestras cargas, es nuestra salvación."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia"
+              },
+              {
+                "type": "text",
+                "text": "Alleluia. Blessed be the Lord day after day, the God who saves us and bears our burdens."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Bendito seja Deus em cada dia, o Deus da nossa salvação, que carrega os nossos fardos!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Di giorno in giorno benedetto il Signore: a noi Dio porta la salvezza."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Que le Seigneur soit béni ! Jour après jour, ce Dieu nous accorde la victoire."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Gepriesen sei der Herr, Tag für Tag! Gott trägt uns, er ist unsre Hilfe."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

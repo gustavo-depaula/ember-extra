@@ -2274,127 +2274,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. Ap 1, 8 Allelúia. Glória Patri, et Fílio, et Spirítui Sancto, Deo qui est, et qui erat, et qui ventúrus est. Allelúia.",
-            "es": "Aleluya Ap 1, 8 Aleluya. Gloria al Padre, y al Hijo, y al Espíritu Santo; al Dios que es, al que era y al que ha de venir. Aleluya.",
-            "en": "Alleluia, alleluia. Glory to the Father, the son, and the Holy Spirit: to God who is, who was, and who is to come. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Ap 1, 8 Aleluia, aleluia. Glória ao Pai e ao Filho e ao Espírito Divino, ao Deus que é, que era e que vem, pelosséculos. Amém. Aleluia.",
-            "it": "Canto al Vangelo Cf Ap 1,8 Alleluia, alleluia. Gloria al Padre e al Figlio e allo Spirito Santo, a Dio, che è, che era e che viene. Alleluia.",
-            "fr": "Alléluia Cf. Ap 1, 8 Alléluia Gloire au Père, et au Fils, et au Saint-Esprit : au Dieu qui est, qui était et qui vient ! Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Offb 1, 8 Halleluja. Halleluja. Ehre sei dem Vater und dem Sohn und dem Heiligen Geist. Ehre sei dem einen Gott, der war und der ist und der kommen wird. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Ap 1, 8"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Glória Patri, et Fílio, et Spirítui Sancto, Deo qui est, et qui erat, et qui ventúrus est. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ap 1, 8"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Gloria al Padre, y al Hijo, y al Espíritu Santo; al Dios que es, al que era y al que ha de venir. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Glory to the Father, the son, and the Holy Spirit: to God who is, who was, and who is to come. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ap 1, 8"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Glória ao Pai e ao Filho e ao Espírito Divino, ao Deus que é, que era e que vem, pelosséculos. Amém. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf Ap 1,8"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Gloria al Padre e al Figlio e allo Spirito Santo, a Dio, che è, che era e che viene. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Ap 1, 8"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Gloire au Père, et au Fils, et au Saint-Esprit : au Dieu qui est, qui était et qui vient ! Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Offb 1, 8"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Ehre sei dem Vater und dem Sohn und dem Heiligen Geist. Ehre sei dem einen Gott, der war und der ist und der kommen wird. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Ap 1, 8",
           "es": "Ap 1, 8",
@@ -2402,6 +2281,179 @@
           "it": "Cf Ap 1,8",
           "fr": "Cf. Ap 1, 8",
           "de": "vgl. Offb 1, 8"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Glória Patri, et Fílio, et Spirítui Sancto, Deo qui est, et qui erat, et qui ventúrus est."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Gloria al Padre, y al Hijo, y al Espíritu Santo; al Dios que es, al que era y al que ha de venir."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Glory to the Father, the son, and the Holy Spirit: to God who is, who was, and who is to come."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Glória ao Pai e ao Filho e ao Espírito Divino, ao Deus que é, que era e que vem, pelosséculos. Amém."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Gloria al Padre e al Figlio e allo Spirito Santo, a Dio, che è, che era e che viene."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Gloire au Père, et au Fils, et au Saint-Esprit : au Dieu qui est, qui était et qui vient !"
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Ehre sei dem Vater und dem Sohn und dem Heiligen Geist. Ehre sei dem einen Gott, der war und der ist und der kommen wird."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -3510,127 +3562,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. Ap 1, 8 Allelúia. Glória Patri, et Fílio, et Spirítui Sancto, Deo qui est, et qui erat, et qui ventúrus est. Allelúia.",
-            "es": "Aleluya Ap 1, 8 Aleluya. Gloria al Padre, y al Hijo, y al Espíritu Santo; al Dios que es, al que era y al que ha de venir. Aleluya.",
-            "en": "Alleluia, alleluia. Glory to the Father, the son, and the Holy Spirit: to God who is, who was, and who is to come. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Ap 1, 8 Aleluia, aleluia. Glória ao Pai e ao Filho e ao Espírito Divino, ao Deus que é, que era e que vem eplos séculos. Amém. Aleluia.",
-            "it": "Canto al Vangelo Cf Ap 1,8 Alleluia, alleluia. Gloria al Padre e al Figlio e allo Spirito Santo, a Dio, che è, che era e che viene. Alleluia.",
-            "fr": "Alléluia Cf. Ap 1, 8 Alléluia Gloire au Père, et au Fils, et au Saint-Esprit : au Dieu qui est, qui était et qui vient ! Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Offb 1, 8 Halleluja. Halleluja. Ehre sei dem Vater und dem Sohn und dem Heiligen Geist. Ehre sei dem einen Gott, der war und der ist und der kommen wird. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Ap 1, 8"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Glória Patri, et Fílio, et Spirítui Sancto, Deo qui est, et qui erat, et qui ventúrus est. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ap 1, 8"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Gloria al Padre, y al Hijo, y al Espíritu Santo; al Dios que es, al que era y al que ha de venir. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Glory to the Father, the son, and the Holy Spirit: to God who is, who was, and who is to come. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ap 1, 8"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Glória ao Pai e ao Filho e ao Espírito Divino, ao Deus que é, que era e que vem eplos séculos. Amém. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf Ap 1,8"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Gloria al Padre e al Figlio e allo Spirito Santo, a Dio, che è, che era e che viene. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Ap 1, 8"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Gloire au Père, et au Fils, et au Saint-Esprit : au Dieu qui est, qui était et qui vient ! Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Offb 1, 8"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Ehre sei dem Vater und dem Sohn und dem Heiligen Geist. Ehre sei dem einen Gott, der war und der ist und der kommen wird. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Ap 1, 8",
           "es": "Ap 1, 8",
@@ -3638,6 +3569,179 @@
           "it": "Cf Ap 1,8",
           "fr": "Cf. Ap 1, 8",
           "de": "vgl. Offb 1, 8"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Glória Patri, et Fílio, et Spirítui Sancto, Deo qui est, et qui erat, et qui ventúrus est."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Gloria al Padre, y al Hijo, y al Espíritu Santo; al Dios que es, al que era y al que ha de venir."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Glory to the Father, the son, and the Holy Spirit: to God who is, who was, and who is to come."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Glória ao Pai e ao Filho e ao Espírito Divino, ao Deus que é, que era e que vem eplos séculos. Amém."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Gloria al Padre e al Figlio e allo Spirito Santo, a Dio, che è, che era e che viene."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Gloire au Père, et au Fils, et au Saint-Esprit : au Dieu qui est, qui était et qui vient !"
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Ehre sei dem Vater und dem Sohn und dem Heiligen Geist. Ehre sei dem einen Gott, der war und der ist und der kommen wird."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -4630,127 +4734,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. Ap 1, 8 Allelúia. Glória Patri, et Fílio, et Spirítui Sancto, Deo qui est, et qui erat, et qui ventúrus est. Allelúia.",
-            "es": "Aleluya Ap 1, 8 Aleluya. Gloria al Padre, al Hijo, y al Espíritu Santo; al Dios que es, al que era y al que ha de venir. Aleluya.",
-            "en": "Alleluia, alleluia. Glory to the Father, the son, and the Holy Spirit: to God who is, who was, and who is to come. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Ap 1, 8 Aleluia, aleluia. Glória ao Pai e ao Filho e ao Espírito, Divino, ao Deus que é, que era e que vem, pelos séculos. Amém. Aleluia.",
-            "it": "Canto al Vangelo Cf. Ap 1,8 Alleluia, alleluia. Gloria al Padre e al Figlio e allo Spirito Santo, a Dio, che è, che era e che viene. Alleluia.",
-            "fr": "Alléluia Cf. Ap 1, 8 Alléluia Gloire au Père, et au Fils, et au Saint-Esprit : au Dieu qui est, qui était et qui vient ! Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Offb 1, 8 Halleluja. Halleluja. Ehre sei dem Vater und dem Sohn und dem Heiligen Geist. Ehre sei dem einen Gott, der war und der ist und der kommen wird. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Ap 1, 8"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Glória Patri, et Fílio, et Spirítui Sancto, Deo qui est, et qui erat, et qui ventúrus est. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ap 1, 8"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Gloria al Padre, al Hijo, y al Espíritu Santo; al Dios que es, al que era y al que ha de venir. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Glory to the Father, the son, and the Holy Spirit: to God who is, who was, and who is to come. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ap 1, 8"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Glória ao Pai e ao Filho e ao Espírito, Divino, ao Deus que é, que era e que vem, pelos séculos. Amém. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Ap 1,8"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Gloria al Padre e al Figlio e allo Spirito Santo, a Dio, che è, che era e che viene. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Ap 1, 8"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Gloire au Père, et au Fils, et au Saint-Esprit : au Dieu qui est, qui était et qui vient ! Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Offb 1, 8"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Ehre sei dem Vater und dem Sohn und dem Heiligen Geist. Ehre sei dem einen Gott, der war und der ist und der kommen wird. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Ap 1, 8",
           "es": "Ap 1, 8",
@@ -4758,6 +4741,179 @@
           "it": "Cf. Ap 1,8",
           "fr": "Cf. Ap 1, 8",
           "de": "vgl. Offb 1, 8"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Glória Patri, et Fílio, et Spirítui Sancto, Deo qui est, et qui erat, et qui ventúrus est."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Gloria al Padre, al Hijo, y al Espíritu Santo; al Dios que es, al que era y al que ha de venir."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Glory to the Father, the son, and the Holy Spirit: to God who is, who was, and who is to come."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Glória ao Pai e ao Filho e ao Espírito, Divino, ao Deus que é, que era e que vem, pelos séculos. Amém."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Gloria al Padre e al Figlio e allo Spirito Santo, a Dio, che è, che era e che viene."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Gloire au Père, et au Fils, et au Saint-Esprit : au Dieu qui est, qui était et qui vient !"
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Ehre sei dem Vater und dem Sohn und dem Heiligen Geist. Ehre sei dem einen Gott, der war und der ist und der kommen wird."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

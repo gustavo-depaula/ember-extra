@@ -555,44 +555,82 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia, allelúia. Veni, Sancte Spíritus, reple tuórum corda fidélium; et tui amóris in eis ignem accénde. Allelúia.",
-            "fr": "Alléluia, alléluia. Veni, Sancte Spíritus, reple tuórum corda fidélium ; et tui amóris in eis ignem accénde. Alléluia.",
-            "de": "Ruf vor dem Evangelium Halleluja. Halleluja. Komm, Heiliger Geist, erfülle die Herzen deiner Gläubigen, und entzünde in ihnen das Feuer deiner Liebe! Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Veni, Sancte Spíritus, reple tuórum corda fidélium; et tui amóris in eis ignem accénde. Allelúia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia, alléluia. Veni, Sancte Spíritus, reple tuórum corda fidélium ; et tui amóris in eis ignem accénde. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium Halleluja. Halleluja. Komm, Heiliger Geist, erfülle die Herzen deiner Gläubigen, und entzünde in ihnen das Feuer deiner Liebe! Halleluja."
-                }
-              ]
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
             ]
-          }
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Veni, Sancte Spíritus, reple tuórum corda fidélium; et tui amóris in eis ignem accénde."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Veni, Sancte Spíritus, reple tuórum corda fidélium ; et tui amóris in eis ignem accénde."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Komm, Heiliger Geist, erfülle die Herzen deiner Gläubigen, und entzünde in ihnen das Feuer deiner Liebe!"
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -1216,44 +1254,82 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia, allelúia. Veni, Sancte Spíritus, reple tuórum corda fidélium; et tui amóris in eis ignem accénde. Allelúia.",
-            "fr": "Alléluia, alléluia. Veni, Sancte Spíritus, reple tuórum corda fidélium ; et tui amóris in eis ignem accénde. Alléluia.",
-            "de": "Ruf vor dem Evangelium Halleluja. Halleluja. Komm, Heiliger Geist, erfülle die Herzen deiner Gläubigen, und entzünde in ihnen das Feuer deiner Liebe! Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Veni, Sancte Spíritus, reple tuórum corda fidélium; et tui amóris in eis ignem accénde. Allelúia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia, alléluia. Veni, Sancte Spíritus, reple tuórum corda fidélium ; et tui amóris in eis ignem accénde. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium Halleluja. Halleluja. Komm, Heiliger Geist, erfülle die Herzen deiner Gläubigen, und entzünde in ihnen das Feuer deiner Liebe! Halleluja."
-                }
-              ]
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
             ]
-          }
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Veni, Sancte Spíritus, reple tuórum corda fidélium; et tui amóris in eis ignem accénde."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Veni, Sancte Spíritus, reple tuórum corda fidélium ; et tui amóris in eis ignem accénde."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Komm, Heiliger Geist, erfülle die Herzen deiner Gläubigen, und entzünde in ihnen das Feuer deiner Liebe!"
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -1957,44 +2033,82 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia, allelúia. Veni, Sancte Spíritus, reple tuórum corda fidélium; et tui amóris in eis ignem accénde. Allelúia.",
-            "fr": "Alléluia, alléluia. Veni, Sancte Spíritus, reple tuórum corda fidélium ; et tui amóris in eis ignem accénde. Alléluia.",
-            "de": "Ruf vor dem Evangelium Halleluja. Halleluja. Komm, Heiliger Geist, erfülle die Herzen deiner Gläubigen, und entzünde in ihnen das Feuer deiner Liebe! Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Veni, Sancte Spíritus, reple tuórum corda fidélium; et tui amóris in eis ignem accénde. Allelúia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia, alléluia. Veni, Sancte Spíritus, reple tuórum corda fidélium ; et tui amóris in eis ignem accénde. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium Halleluja. Halleluja. Komm, Heiliger Geist, erfülle die Herzen deiner Gläubigen, und entzünde in ihnen das Feuer deiner Liebe! Halleluja."
-                }
-              ]
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
             ]
-          }
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Veni, Sancte Spíritus, reple tuórum corda fidélium; et tui amóris in eis ignem accénde."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Veni, Sancte Spíritus, reple tuórum corda fidélium ; et tui amóris in eis ignem accénde."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Komm, Heiliger Geist, erfülle die Herzen deiner Gläubigen, und entzünde in ihnen das Feuer deiner Liebe!"
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

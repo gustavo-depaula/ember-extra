@@ -759,127 +759,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Phil 2, 15d-16a Allelúia. Lucétis sicut luminária in mundo, verbum vitæ fírmiter tenéntes. Allelúia.",
-            "es": "Aleluya Phil 2, 15d-16a Aleluya. Brilláis como lumbreras del mundo, manteniendo firme la palabra de la vida. Aleluya.",
-            "en": "Alleluia, alleluia. Shine on the world like bright stars; you are offering it the word of life. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Filip 2, 15d.16a Aleluia, aleluia. Como astros no mundo brilheis, pregando a Palavra da vida. Aleluia.",
-            "it": "Canto al Vangelo (Fil 2,15d.16a) Alleluia, alleluia. Risplendete come astri nel mondo, tenendo alta la parola di vita. Alleluia.",
-            "fr": "Alléluia Phil 2, 15d-16a Alléluia Vous brillez comme des astres dans l’univers en tenant ferme la parole de vie. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Phil 2, 16a. 15d Halleluja. Halleluja. Haltet fest am Worte Christi, dann leuchtet ihr als Lichter in der Welt. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Phil 2, 15d-16a"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Lucétis sicut luminária in mundo, verbum vitæ fírmiter tenéntes. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Phil 2, 15d-16a"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Brilláis como lumbreras del mundo, manteniendo firme la palabra de la vida. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Shine on the world like bright stars; you are offering it the word of life. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Filip 2, 15d.16a"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Como astros no mundo brilheis, pregando a Palavra da vida. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Fil 2,15d.16a)"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Risplendete come astri nel mondo, tenendo alta la parola di vita. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Phil 2, 15d-16a"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Vous brillez comme des astres dans l’univers en tenant ferme la parole de vie. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Phil 2, 16a. 15d"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Haltet fest am Worte Christi, dann leuchtet ihr als Lichter in der Welt. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Phil 2, 15d-16a",
           "es": "Phil 2, 15d-16a",
@@ -887,6 +766,179 @@
           "it": "(Fil 2,15d.16a)",
           "fr": "Phil 2, 15d-16a",
           "de": "vgl. Phil 2, 16a. 15d"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Lucétis sicut luminária in mundo, verbum vitæ fírmiter tenéntes."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Brilláis como lumbreras del mundo, manteniendo firme la palabra de la vida."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Shine on the world like bright stars; you are offering it the word of life."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Como astros no mundo brilheis, pregando a Palavra da vida."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Risplendete come astri nel mondo, tenendo alta la parola di vita."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Vous brillez comme des astres dans l’univers en tenant ferme la parole de vie."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Haltet fest am Worte Christi, dann leuchtet ihr als Lichter in der Welt."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -1883,127 +1935,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Phil 2, 15d-16a Allelúia. Lucétis sicut luminária in mundo, verbum vitæ fírmiter tenéntes. Allelúia.",
-            "es": "Aleluya Phil 2, 15d-16a Aleluya. Brilláis como lumbreras del mundo, manteniendo firme la palabra de la vida. Aleluya.",
-            "en": "Alleluia, alleluia. Shine on the world like bright stars; you are offering it the word of life. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Filip 2, 15d.16a Aleluia, aleluia. Como astros no mundo brilheis, pregando a Palavra da vida. Aleluia.",
-            "it": "Canto al Vangelo (Fil 2,15d.16a) Alleluia, alleluia. Risplendete come astri nel mondo, tenendo alta la parola di vita. Alleluia.",
-            "fr": "Alléluia Phil 2, 15d-16a Alléluia Vous brillez comme des astres dans l’univers en tenant ferme la parole de vie. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Phil 2, 16a. 15d Halleluja. Halleluja. Haltet fest am Worte Christi, dann leuchtet ihr als Lichter in der Welt. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Phil 2, 15d-16a"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Lucétis sicut luminária in mundo, verbum vitæ fírmiter tenéntes. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Phil 2, 15d-16a"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Brilláis como lumbreras del mundo, manteniendo firme la palabra de la vida. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Shine on the world like bright stars; you are offering it the word of life. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Filip 2, 15d.16a"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Como astros no mundo brilheis, pregando a Palavra da vida. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Fil 2,15d.16a)"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Risplendete come astri nel mondo, tenendo alta la parola di vita. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Phil 2, 15d-16a"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Vous brillez comme des astres dans l’univers en tenant ferme la parole de vie. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Phil 2, 16a. 15d"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Haltet fest am Worte Christi, dann leuchtet ihr als Lichter in der Welt. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Phil 2, 15d-16a",
           "es": "Phil 2, 15d-16a",
@@ -2011,6 +1942,179 @@
           "it": "(Fil 2,15d.16a)",
           "fr": "Phil 2, 15d-16a",
           "de": "vgl. Phil 2, 16a. 15d"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Lucétis sicut luminária in mundo, verbum vitæ fírmiter tenéntes."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Brilláis como lumbreras del mundo, manteniendo firme la palabra de la vida."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Shine on the world like bright stars; you are offering it the word of life."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Como astros no mundo brilheis, pregando a Palavra da vida."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Risplendete come astri nel mondo, tenendo alta la parola di vita."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Vous brillez comme des astres dans l’univers en tenant ferme la parole de vie."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Haltet fest am Worte Christi, dann leuchtet ihr als Lichter in der Welt."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

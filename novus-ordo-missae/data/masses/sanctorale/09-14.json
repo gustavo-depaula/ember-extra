@@ -2429,97 +2429,181 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia, allelúia. Adorámus te, Christe, et benedícimus tibi: quia per Crucem tuam redemísti mundum. Allelúia.",
-            "es": "Aleluya, aleluya. Te adoramos, oh, Cristo, y te bendecimos: porque con tu cruz has redimido el mundo. Aleluya.",
-            "en": "Alleluia, alleluia. We adore you, O Christ, and we praise you, because by your cross you have redeemed the world. Alleluia.",
-            "pt-BR": "Aclamação ao Evamglho Mt 17, 5c Aleluia, aleluia. Nós vos adoramos, Senhor Jesus Cristo, e vos bendizemos, porque pela cruz, remiste o mundo! Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Noi ti adoriamo, o Cristo, e ti benediciamo perché con la tua croce hai redento il mondo. Alleluia.",
-            "fr": "Alléluia, alléluia. Nous t’adorons, ô Christ, et nous te bénissons : par ta Croix, tu as racheté le monde. Alléluia.",
-            "de": "Ruf vor dem Evangelium Halleluja. Halleluja. Wir beten dich an, Herr Jesus Christus, und preisen dich; denn durch dein heiliges Kreuz hast du die Welt erlöst. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Adorámus te, Christe, et benedícimus tibi: quia per Crucem tuam redemísti mundum. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Te adoramos, oh, Cristo, y te bendecimos: porque con tu cruz has redimido el mundo. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. We adore you, O Christ, and we praise you, because by your cross you have redeemed the world. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evamglho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 17, 5c"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Nós vos adoramos, Senhor Jesus Cristo, e vos bendizemos, porque pela cruz, remiste o mundo! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Noi ti adoriamo, o Cristo, e ti benediciamo perché con la tua croce hai redento il mondo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia, alléluia. Nous t’adorons, ô Christ, et nous te bénissons : par ta Croix, tu as racheté le monde. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium Halleluja. Halleluja. Wir beten dich an, Herr Jesus Christus, und preisen dich; denn durch dein heiliges Kreuz hast du die Welt erlöst. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "pt-BR": "Mt 17, 5c"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Adorámus te, Christe, et benedícimus tibi: quia per Crucem tuam redemísti mundum."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Te adoramos, oh, Cristo, y te bendecimos: porque con tu cruz has redimido el mundo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "We adore you, O Christ, and we praise you, because by your cross you have redeemed the world."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "ao Evamglho"
+              },
+              {
+                "type": "text",
+                "text": "Aleluia, aleluia. Nós vos adoramos, Senhor Jesus Cristo, e vos bendizemos, porque pela cruz, remiste o mundo!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Noi ti adoriamo, o Cristo, e ti benediciamo perché con la tua croce hai redento il mondo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Nous t’adorons, ô Christ, et nous te bénissons : par ta Croix, tu as racheté le monde."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Wir beten dich an, Herr Jesus Christus, und preisen dich; denn durch dein heiliges Kreuz hast du die Welt erlöst."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

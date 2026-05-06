@@ -759,127 +759,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 3, 16 Allelúia. Sic enim diléxit Deus mundum, ut Fílium suum unigénitum daret; omnis qui credit in eum habet vitam ætérnam. Allelúia.",
-            "es": "Aleluya Jn 3, 16 Aleluya. Tanto amó Dios al mundo, que entregó a su Unigénito; todo el que cree en él tiene vida eterna. Aleluya.",
-            "en": "Alleluia, alleluia. God loved the world so much, he gave us his only Son, that all who believe in him might have eternal life. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 3, 16 Aleluia, aleluia. Deus o mundo tanto amou, que lhe deu seu próprio Filho, para que todo o que nele crer, encontre vida eterna. Aleluia.",
-            "it": "Canto al Vangelo (Gv 3,16) Alleluia, alleluia. Dio ha tanto amato il mondo da dare il Figlio, unigenito, perché chiunque crede in lui non vada perduto, ma abbia la vita eterna. Alleluia.",
-            "fr": "Alléluia Io 3, 16 Alléluia Dieu a tellement aimé le monde qu’il a donné son Fils unique, afin que ceux qui croient en lui aient la vie éternelle. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Joh 3, 16a. Halleluja. Halleluja. So sehr hat Gott die Welt geliebt, dass er seinen einzigen Sohn hingab, damit jeder, der glaubt, in ihm das ewige Leben hat. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 3, 16"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Sic enim diléxit Deus mundum, ut Fílium suum unigénitum daret; omnis qui credit in eum habet vitam ætérnam. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 3, 16"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Tanto amó Dios al mundo, que entregó a su Unigénito; todo el que cree en él tiene vida eterna. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. God loved the world so much, he gave us his only Son, that all who believe in him might have eternal life. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 3, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Deus o mundo tanto amou, que lhe deu seu próprio Filho, para que todo o que nele crer, encontre vida eterna. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Gv 3,16)"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Dio ha tanto amato il mondo da dare il Figlio, unigenito, perché chiunque crede in lui non vada perduto, ma abbia la vita eterna. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 3, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Dieu a tellement aimé le monde qu’il a donné son Fils unique, afin que ceux qui croient en lui aient la vie éternelle. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Joh 3, 16a."
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. So sehr hat Gott die Welt geliebt, dass er seinen einzigen Sohn hingab, damit jeder, der glaubt, in ihm das ewige Leben hat. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 3, 16",
           "es": "Jn 3, 16",
@@ -887,6 +766,179 @@
           "it": "(Gv 3,16)",
           "fr": "Io 3, 16",
           "de": "vgl. Joh 3, 16a"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Sic enim diléxit Deus mundum, ut Fílium suum unigénitum daret; omnis qui credit in eum habet vitam ætérnam."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Tanto amó Dios al mundo, que entregó a su Unigénito; todo el que cree en él tiene vida eterna."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "God loved the world so much, he gave us his only Son, that all who believe in him might have eternal life."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Deus o mundo tanto amou, que lhe deu seu próprio Filho, para que todo o que nele crer, encontre vida eterna."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Dio ha tanto amato il mondo da dare il Figlio, unigenito, perché chiunque crede in lui non vada perduto, ma abbia la vita eterna."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Dieu a tellement aimé le monde qu’il a donné son Fils unique, afin que ceux qui croient en lui aient la vie éternelle."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "So sehr hat Gott die Welt geliebt, dass er seinen einzigen Sohn hingab, damit jeder, der glaubt, in ihm das ewige Leben hat."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -1925,127 +1977,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 3, 16 Allelúia. Sic enim diléxit Deus mundum, ut Fílium suum unigénitum daret; omnis qui credit in eum habet vitam ætérnam. Allelúia.",
-            "es": "Aleluya Jn 3, 16 Aleluya. Tanto amó Dios al mundo, que entregó a su Unigénito; todo el que cree en él tiene vida eterna. Aleluya.",
-            "en": "Alleluia, alleluia. God loved the world so much, he gave us his only Son, that all who believe in him might have eternal life. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 3, 16 Aleluia, aleluia. Deus o mundo tanto amou, que lhe deu seu próprio Filho, para que todo o que nele crer, encontre vida eterna. Aleluia.",
-            "it": "Canto al Vangelo (Gv 3,16) Alleluia, alleluia. Dio ha tanto amato il mondo da dare il Figlio, unigenito, perché chiunque crede in lui non vada perduto, ma abbia la vita eterna. Alleluia.",
-            "fr": "Alléluia Io 3, 16 Alléluia Dieu a tellement aimé le monde qu’il a donné son Fils unique, afin que ceux qui croient en lui aient la vie éternelle. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Joh 3, 16a. Halleluja. Halleluja. So sehr hat Gott die Welt geliebt, dass er seinen einzigen Sohn hingab, damit jeder, der glaubt, in ihm das ewige Leben hat. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 3, 16"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Sic enim diléxit Deus mundum, ut Fílium suum unigénitum daret; omnis qui credit in eum habet vitam ætérnam. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 3, 16"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Tanto amó Dios al mundo, que entregó a su Unigénito; todo el que cree en él tiene vida eterna. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. God loved the world so much, he gave us his only Son, that all who believe in him might have eternal life. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 3, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Deus o mundo tanto amou, que lhe deu seu próprio Filho, para que todo o que nele crer, encontre vida eterna. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Gv 3,16)"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Dio ha tanto amato il mondo da dare il Figlio, unigenito, perché chiunque crede in lui non vada perduto, ma abbia la vita eterna. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 3, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Dieu a tellement aimé le monde qu’il a donné son Fils unique, afin que ceux qui croient en lui aient la vie éternelle. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Joh 3, 16a."
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. So sehr hat Gott die Welt geliebt, dass er seinen einzigen Sohn hingab, damit jeder, der glaubt, in ihm das ewige Leben hat. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 3, 16",
           "es": "Jn 3, 16",
@@ -2053,6 +1984,179 @@
           "it": "(Gv 3,16)",
           "fr": "Io 3, 16",
           "de": "vgl. Joh 3, 16a"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Sic enim diléxit Deus mundum, ut Fílium suum unigénitum daret; omnis qui credit in eum habet vitam ætérnam."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Tanto amó Dios al mundo, que entregó a su Unigénito; todo el que cree en él tiene vida eterna."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "God loved the world so much, he gave us his only Son, that all who believe in him might have eternal life."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Deus o mundo tanto amou, que lhe deu seu próprio Filho, para que todo o que nele crer, encontre vida eterna."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Dio ha tanto amato il mondo da dare il Figlio, unigenito, perché chiunque crede in lui non vada perduto, ma abbia la vita eterna."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Dieu a tellement aimé le monde qu’il a donné son Fils unique, afin que ceux qui croient en lui aient la vie éternelle."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "So sehr hat Gott die Welt geliebt, dass er seinen einzigen Sohn hingab, damit jeder, der glaubt, in ihm das ewige Leben hat."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

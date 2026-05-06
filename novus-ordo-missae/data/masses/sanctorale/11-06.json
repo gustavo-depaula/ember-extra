@@ -150,71 +150,87 @@
   "readings": {
     "default": {
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 12, 25b Allelúia. Qui odit ánimam suam in hoc mundo, in vitam aetérnam custódiet eam. Allelúia.",
-            "es": "Aleluya Jn 12, 25b Aleluya. El que se aborrece a sí mismo en este mundo, se guardará para la vida eterna. Aleluya.",
-            "fr": "Alléluia Io 12, 25b Alléluia Qui odit ánimam suam in hoc mundo, in vitam aetérnam custódiet eam. Alléluia."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 12, 25b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Qui odit ánimam suam in hoc mundo, in vitam aetérnam custódiet eam. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 12, 25b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. El que se aborrece a sí mismo en este mundo, se guardará para la vida eterna. Aleluya."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 12, 25b"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Qui odit ánimam suam in hoc mundo, in vitam aetérnam custódiet eam. Alléluia."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 12, 25b",
           "es": "Jn 12, 25b",
           "fr": "Io 12, 25b"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Qui odit ánimam suam in hoc mundo, in vitam aetérnam custódiet eam."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "El que se aborrece a sí mismo en este mundo, se guardará para la vida eterna."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Qui odit ánimam suam in hoc mundo, in vitam aetérnam custódiet eam."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ]
         }
       }
     }

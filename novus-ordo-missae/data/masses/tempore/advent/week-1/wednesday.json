@@ -1504,86 +1504,178 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia, allelúia. Ecce véniet Dóminus, ut salvet pópulum suum; beáti qui paráti sunt occúrrere illi. Allelúia.",
-            "es": "Aleluya, aleluya. Mirad que llega el Señor, para salvar a su pueblo; bienaventurados los que están preparados para salir a su encuentro. Aleluya.",
-            "en": "Alleluia, alleluia. The Lord is coming to save his people; happy are those prepared to meet him. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Aleluia, aleluia. Eis que o Senhor há de vir a fim de salvar o seu povo; felizes são todos aqueles que estão prontos para ir-lhe ao encontro. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Ecco, viene il Signore a salvare il suo popolo: beati coloro che sono preparati all’incontro. Alleluia.",
-            "fr": "Alléluia, alléluia. Alléluia. Il viendra, le Seigneur, pour sauver son peuple. Heureux ceux qui sont prêts à partir à sa rencontre ! Alléluia.",
-            "de": "Ruf vor dem Evangelium Halleluja. Halleluja. Seht, der Herr wird kommen, um sein Volk zu retten. Selig, die bereit sind, ihm entgegenzugehen. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Ecce véniet Dóminus, ut salvet pópulum suum; beáti qui paráti sunt occúrrere illi. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Mirad que llega el Señor, para salvar a su pueblo; bienaventurados los que están preparados para salir a su encuentro. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. The Lord is coming to save his people; happy are those prepared to meet him. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho Aleluia, aleluia. Eis que o Senhor há de vir a fim de salvar o seu povo; felizes são todos aqueles que estão prontos para ir-lhe ao encontro. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Ecco, viene il Signore a salvare il suo popolo: beati coloro che sono preparati all’incontro. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia, alléluia. Alléluia. Il viendra, le Seigneur, pour sauver son peuple. Heureux ceux qui sont prêts à partir à sa rencontre ! Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium Halleluja. Halleluja. Seht, der Herr wird kommen, um sein Volk zu retten. Selig, die bereit sind, ihm entgegenzugehen. Halleluja."
-                }
-              ]
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
             ]
-          }
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Ecce véniet Dóminus, ut salvet pópulum suum; beáti qui paráti sunt occúrrere illi."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Mirad que llega el Señor, para salvar a su pueblo; bienaventurados los que están preparados para salir a su encuentro."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "The Lord is coming to save his people; happy are those prepared to meet him."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Eis que o Senhor há de vir a fim de salvar o seu povo; felizes são todos aqueles que estão prontos para ir-lhe ao encontro."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Ecco, viene il Signore a salvare il suo popolo: beati coloro che sono preparati all’incontro."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Alléluia. Il viendra, le Seigneur, pour sauver son peuple. Heureux ceux qui sont prêts à partir à sa rencontre !"
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Seht, der Herr wird kommen, um sein Volk zu retten. Selig, die bereit sind, ihm entgegenzugehen."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

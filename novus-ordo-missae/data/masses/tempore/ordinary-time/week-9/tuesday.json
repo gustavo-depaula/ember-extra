@@ -759,127 +759,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. Eph 1, 17-18 Allelúia. Pater Dómini nostri Iesu Christi illúminet óculos cordis nostri, ut sciámus quæ sit spes vocatiónis nostræ. Allelúia.",
-            "es": "Aleluya Cf. Ef 1, 17-18 Aleluya. El Padre de nuestro Señor Jesucristo ilumine los ojos de nuestro corazón, para que comprendamos cuál es la esperanza a la que nos llama. Aleluya.",
-            "en": "Alleluia, alleluia. May the Father of our Lord Jesus Christ enlighten the eyes of our heart that we might see how great is the hope to which we are called. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Cf. Ef 1, 17-18 Aleluia, aleluia. Que o Pai do Senhor Jesus Cristo nos dê do saber o Espírito para que conheçais a esperança, reservada para vós, como herança! Aleluia.",
-            "it": "Canto al Vangelo (Cfr. Ef 1,17-18) Alleluia, alleluia. Il Padre del Signore nostro Gesù Cristo illumini gli occhi del nostro cuore per farci comprendere a quale speranza ci ha chiamati. Alleluia.",
-            "fr": "Alléluia Cf. Eph 1, 17-18 Alléluia Que le Père de notre Seigneur Jésus Christ ouvre à sa lumière les yeux de notre cœur, pour que nous percevions l’espérance que donne son appel. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Eph 1, 17-18 Halleluja. Halleluja. Der Vater unseres Herrn Jesus Christus erleuchte die Augen unseres Herzens, damit wir verstehen, zu welcher Hoffnung wir berufen sind. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Eph 1, 17-18"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Pater Dómini nostri Iesu Christi illúminet óculos cordis nostri, ut sciámus quæ sit spes vocatiónis nostræ. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Ef 1, 17-18"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. El Padre de nuestro Señor Jesucristo ilumine los ojos de nuestro corazón, para que comprendamos cuál es la esperanza a la que nos llama. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. May the Father of our Lord Jesus Christ enlighten the eyes of our heart that we might see how great is the hope to which we are called. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Ef 1, 17-18"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Que o Pai do Senhor Jesus Cristo nos dê do saber o Espírito para que conheçais a esperança, reservada para vós, como herança! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Cfr. Ef 1,17-18)"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Il Padre del Signore nostro Gesù Cristo illumini gli occhi del nostro cuore per farci comprendere a quale speranza ci ha chiamati. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Eph 1, 17-18"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Que le Père de notre Seigneur Jésus Christ ouvre à sa lumière les yeux de notre cœur, pour que nous percevions l’espérance que donne son appel. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Eph 1, 17-18"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Der Vater unseres Herrn Jesus Christus erleuchte die Augen unseres Herzens, damit wir verstehen, zu welcher Hoffnung wir berufen sind. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Eph 1, 17-18",
           "es": "Cf. Ef 1, 17-18",
@@ -887,6 +766,179 @@
           "it": "(Cfr. Ef 1,17-18)",
           "fr": "Cf. Eph 1, 17-18",
           "de": "vgl. Eph 1, 17-18"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Pater Dómini nostri Iesu Christi illúminet óculos cordis nostri, ut sciámus quæ sit spes vocatiónis nostræ."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "El Padre de nuestro Señor Jesucristo ilumine los ojos de nuestro corazón, para que comprendamos cuál es la esperanza a la que nos llama."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "May the Father of our Lord Jesus Christ enlighten the eyes of our heart that we might see how great is the hope to which we are called."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Que o Pai do Senhor Jesus Cristo nos dê do saber o Espírito para que conheçais a esperança, reservada para vós, como herança!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Il Padre del Signore nostro Gesù Cristo illumini gli occhi del nostro cuore per farci comprendere a quale speranza ci ha chiamati."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Que le Père de notre Seigneur Jésus Christ ouvre à sa lumière les yeux de notre cœur, pour que nous percevions l’espérance que donne son appel."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Der Vater unseres Herrn Jesus Christus erleuchte die Augen unseres Herzens, damit wir verstehen, zu welcher Hoffnung wir berufen sind."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -1961,127 +2013,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. Eph 1, 17-18 Allelúia. Pater Dómini nostri Iesu Christi illúminet óculos cordis nostri, ut sciámus quæ sit spes vocatiónis nostræ. Allelúia.",
-            "es": "Aleluya Cf. Ef 1, 17-18 Aleluya. El Padre de nuestro Señor Jesucristo ilumine los ojos de nuestro corazón, para que comprendamos cuál es la esperanza a la que nos llama. Aleluya.",
-            "en": "Alleluia, alleluia. May the Father of our Lord Jesus Christ enlighten the eyes of our heart that we might see how great is the hope to which we are called. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Cf. Ef 1, 17-18 Aleluia, aleluia. Que o Pai do Senhor Jesus Cristo nos dê do saber o Espírito para que conheçais a esperança, reservada para vós, como herança! Aleluia.",
-            "it": "Canto al Vangelo (Cfr. Ef 1,17-18) Alleluia, alleluia. Il Padre del Signore nostro Gesù Cristo illumini gli occhi del nostro cuore per farci comprendere a quale speranza ci ha chiamati. Alleluia.",
-            "fr": "Alléluia Cf. Eph 1, 17-18 Alléluia Que le Père de notre Seigneur Jésus Christ ouvre à sa lumière les yeux de notre cœur, pour que nous percevions l’espérance que donne son appel. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Eph 1, 17-18 Halleluja. Halleluja. Der Vater unseres Herrn Jesus Christus erleuchte die Augen unseres Herzens, damit wir verstehen, zu welcher Hoffnung wir berufen sind. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Eph 1, 17-18"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Pater Dómini nostri Iesu Christi illúminet óculos cordis nostri, ut sciámus quæ sit spes vocatiónis nostræ. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Ef 1, 17-18"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. El Padre de nuestro Señor Jesucristo ilumine los ojos de nuestro corazón, para que comprendamos cuál es la esperanza a la que nos llama. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. May the Father of our Lord Jesus Christ enlighten the eyes of our heart that we might see how great is the hope to which we are called. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Ef 1, 17-18"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Que o Pai do Senhor Jesus Cristo nos dê do saber o Espírito para que conheçais a esperança, reservada para vós, como herança! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Cfr. Ef 1,17-18)"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Il Padre del Signore nostro Gesù Cristo illumini gli occhi del nostro cuore per farci comprendere a quale speranza ci ha chiamati. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Eph 1, 17-18"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Que le Père de notre Seigneur Jésus Christ ouvre à sa lumière les yeux de notre cœur, pour que nous percevions l’espérance que donne son appel. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Eph 1, 17-18"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Der Vater unseres Herrn Jesus Christus erleuchte die Augen unseres Herzens, damit wir verstehen, zu welcher Hoffnung wir berufen sind. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Eph 1, 17-18",
           "es": "Cf. Ef 1, 17-18",
@@ -2089,6 +2020,179 @@
           "it": "(Cfr. Ef 1,17-18)",
           "fr": "Cf. Eph 1, 17-18",
           "de": "vgl. Eph 1, 17-18"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Pater Dómini nostri Iesu Christi illúminet óculos cordis nostri, ut sciámus quæ sit spes vocatiónis nostræ."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "El Padre de nuestro Señor Jesucristo ilumine los ojos de nuestro corazón, para que comprendamos cuál es la esperanza a la que nos llama."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "May the Father of our Lord Jesus Christ enlighten the eyes of our heart that we might see how great is the hope to which we are called."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Que o Pai do Senhor Jesus Cristo nos dê do saber o Espírito para que conheçais a esperança, reservada para vós, como herança!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Il Padre del Signore nostro Gesù Cristo illumini gli occhi del nostro cuore per farci comprendere a quale speranza ci ha chiamati."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Que le Père de notre Seigneur Jésus Christ ouvre à sa lumière les yeux de notre cœur, pour que nous percevions l’espérance que donne son appel."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Der Vater unseres Herrn Jesus Christus erleuchte die Augen unseres Herzens, damit wir verstehen, zu welcher Hoffnung wir berufen sind."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

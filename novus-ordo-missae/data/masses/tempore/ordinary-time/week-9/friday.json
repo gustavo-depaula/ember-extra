@@ -891,127 +891,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 14, 23 Allelúia. Si quis díligit me, sermónem meum servábit, dicit Dóminus, et Pater meus díliget eum, et ad eum veniémus. Allelúia.",
-            "es": "Aleluya Jn 14, 23 Aleluya. El que me ama guardará mi palabra —dice el Señor—, y mi Padre lo amará, y vendremos a él. Aleluya.",
-            "en": "Alleluia, alleluia. If anyone loves me, he will hold to my words, and my Father will love him, and we will come to him. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 14, 23 Aleluia, aleluia. Quem me ama, realmente, guardará minha palavra e meu Pai o amará e a ele nós viremos. Aleluia.",
-            "it": "Canto al Vangelo (Gv 14,23) Alleluia, alleluia. Se uno mi ama, osserverà la mia parola, dice il Signore, e il Padre mio lo amerà e noi verremo a lui. Alleluia.",
-            "fr": "Alléluia Io 14, 23 Alléluia Si quelqu’un m’aime, il gardera ma parole, dit le Seigneur ; mon Père l’aimera, et nous viendrons vers lui. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Joh 14, 23 Halleluja. Halleluja. (So spricht der Herr:) Wer mich liebt, hält fest an meinem Wort. Mein Vater wird ihn lieben, und wir werden bei ihm wohnen. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 14, 23"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Si quis díligit me, sermónem meum servábit, dicit Dóminus, et Pater meus díliget eum, et ad eum veniémus. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 14, 23"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. El que me ama guardará mi palabra —dice el Señor—, y mi Padre lo amará, y vendremos a él. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. If anyone loves me, he will hold to my words, and my Father will love him, and we will come to him. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 14, 23"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Quem me ama, realmente, guardará minha palavra e meu Pai o amará e a ele nós viremos. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Gv 14,23)"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Se uno mi ama, osserverà la mia parola, dice il Signore, e il Padre mio lo amerà e noi verremo a lui. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 14, 23"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Si quelqu’un m’aime, il gardera ma parole, dit le Seigneur ; mon Père l’aimera, et nous viendrons vers lui. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Joh 14, 23"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Wer mich liebt, hält fest an meinem Wort. Mein Vater wird ihn lieben, und wir werden bei ihm wohnen. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 14, 23",
           "es": "Jn 14, 23",
@@ -1019,6 +898,179 @@
           "it": "(Gv 14,23)",
           "fr": "Io 14, 23",
           "de": "vgl. Joh 14, 23"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Si quis díligit me, sermónem meum servábit, dicit Dóminus, et Pater meus díliget eum, et ad eum veniémus."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "El que me ama guardará mi palabra —dice el Señor—, y mi Padre lo amará, y vendremos a él."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "If anyone loves me, he will hold to my words, and my Father will love him, and we will come to him."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Quem me ama, realmente, guardará minha palavra e meu Pai o amará e a ele nós viremos."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Se uno mi ama, osserverà la mia parola, dice il Signore, e il Padre mio lo amerà e noi verremo a lui."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Si quelqu’un m’aime, il gardera ma parole, dit le Seigneur ; mon Père l’aimera, et nous viendrons vers lui."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Wer mich liebt, hält fest an meinem Wort. Mein Vater wird ihn lieben, und wir werden bei ihm wohnen."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -2087,127 +2139,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 14, 23 Allelúia. Si quis díligit me, sermónem meum servábit, dicit Dóminus, et Pater meus díliget eum, et ad eum veniémus. Allelúia.",
-            "es": "Aleluya Jn 14, 23 Aleluya. El que me ama guardará mi palabra —dice el Señor—, y mi Padre lo amará, y vendremos a él. Aleluya.",
-            "en": "Alleluia, alleluia. If anyone loves me, he will hold to my words, and my Father will love him, and we will come to him. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 14, 23 Aleluia, aleluia. Quem me ama, realmente, guardará minha palavra e meu Pai o amará e a ele nós viremos. Aleluia.",
-            "it": "Canto al Vangelo (Gv 14,23) Alleluia, alleluia. Se uno mi ama, osserverà la mia parola, dice il Signore, e il Padre mio lo amerà e noi verremo a lui. Alleluia.",
-            "fr": "Alléluia Io 14, 23 Alléluia Si quelqu’un m’aime, il gardera ma parole, dit le Seigneur ; mon Père l’aimera, et nous viendrons vers lui. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Joh 14, 23 Halleluja. Halleluja. (So spricht der Herr:) Wer mich liebt, hält fest an meinem Wort. Mein Vater wird ihn lieben, und wir werden bei ihm wohnen. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 14, 23"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Si quis díligit me, sermónem meum servábit, dicit Dóminus, et Pater meus díliget eum, et ad eum veniémus. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 14, 23"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. El que me ama guardará mi palabra —dice el Señor—, y mi Padre lo amará, y vendremos a él. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. If anyone loves me, he will hold to my words, and my Father will love him, and we will come to him. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 14, 23"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Quem me ama, realmente, guardará minha palavra e meu Pai o amará e a ele nós viremos. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Gv 14,23)"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Se uno mi ama, osserverà la mia parola, dice il Signore, e il Padre mio lo amerà e noi verremo a lui. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 14, 23"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Si quelqu’un m’aime, il gardera ma parole, dit le Seigneur ; mon Père l’aimera, et nous viendrons vers lui. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Joh 14, 23"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Wer mich liebt, hält fest an meinem Wort. Mein Vater wird ihn lieben, und wir werden bei ihm wohnen. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 14, 23",
           "es": "Jn 14, 23",
@@ -2215,6 +2146,179 @@
           "it": "(Gv 14,23)",
           "fr": "Io 14, 23",
           "de": "vgl. Joh 14, 23"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Si quis díligit me, sermónem meum servábit, dicit Dóminus, et Pater meus díliget eum, et ad eum veniémus."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "El que me ama guardará mi palabra —dice el Señor—, y mi Padre lo amará, y vendremos a él."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "If anyone loves me, he will hold to my words, and my Father will love him, and we will come to him."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Quem me ama, realmente, guardará minha palavra e meu Pai o amará e a ele nós viremos."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Se uno mi ama, osserverà la mia parola, dice il Signore, e il Padre mio lo amerà e noi verremo a lui."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Si quelqu’un m’aime, il gardera ma parole, dit le Seigneur ; mon Père l’aimera, et nous viendrons vers lui."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Wer mich liebt, hält fest an meinem Wort. Mein Vater wird ihn lieben, und wir werden bei ihm wohnen."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

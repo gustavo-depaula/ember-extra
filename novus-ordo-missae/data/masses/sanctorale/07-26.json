@@ -1351,125 +1351,185 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. Lc 2, 25c Allelúia. Expectábant consolatiónem Israel, et Spíritus Sanctus erat in eis. Allelúia.",
-            "es": "Aleluya Cf. Lc 2, 25c Aleluya. Aguardaban el consuelo de Israel, y el Espíritu Santo estaba en ellos. Aleluya.",
-            "en": "Alleluia, alleluia. They yearned for the comforting of Israel, and the Holy Spirit dwelt in them. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Cf. Lc 2, 25c Aleluia, aleluia. Esperavam estes pais a redenção de Israel, e o Espírito Santo estava sobre eles. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Aspettavano la consolazione di Israele, e in loro si sono adempiute le promesse. Alleluia.",
-            "fr": "Alléluia Cf. Lc 2, 25c Alléluia Ils attendaient la consolation d’Israël et l’Esprit Saint était sur eux. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Lk 2, 25c Halleluja. Halleluja. Sie warteten auf die Rettung Israels, und der Heilige Geist ruhte auf ihnen. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Lc 2, 25c"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Expectábant consolatiónem Israel, et Spíritus Sanctus erat in eis. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Lc 2, 25c"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Aguardaban el consuelo de Israel, y el Espíritu Santo estaba en ellos. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. They yearned for the comforting of Israel, and the Holy Spirit dwelt in them. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Lc 2, 25c"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Esperavam estes pais a redenção de Israel, e o Espírito Santo estava sobre eles. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Aspettavano la consolazione di Israele, e in loro si sono adempiute le promesse. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Lc 2, 25c"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Ils attendaient la consolation d’Israël et l’Esprit Saint était sur eux. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Lk 2, 25c"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Sie warteten auf die Rettung Israels, und der Heilige Geist ruhte auf ihnen. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Lc 2, 25c",
           "es": "Cf. Lc 2, 25c",
           "pt-BR": "Cf. Lc 2, 25c",
           "fr": "Cf. Lc 2, 25c",
           "de": "vgl. Lk 2, 25c"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Expectábant consolatiónem Israel, et Spíritus Sanctus erat in eis."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Aguardaban el consuelo de Israel, y el Espíritu Santo estaba en ellos."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "They yearned for the comforting of Israel, and the Holy Spirit dwelt in them."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Esperavam estes pais a redenção de Israel, e o Espírito Santo estava sobre eles."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Aspettavano la consolazione di Israele, e in loro si sono adempiute le promesse."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Ils attendaient la consolation d’Israël et l’Esprit Saint était sur eux."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Sie warteten auf die Rettung Israels, und der Heilige Geist ruhte auf ihnen."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

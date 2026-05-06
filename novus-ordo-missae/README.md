@@ -143,6 +143,8 @@ Where:
 - `Prayer.body` is a `RichText`: `{ plain: Localized, lines: { lang: Line[] } }` with `Line = Segment[]`. Segments are purely semantic: `text`, `rubric`, `reference`, `italic`, `response`, `signOfCross`, `dropCap`. No presentational types.
 - `Antiphon` = `{ citation?, body }`.
 - `Reading` = `{ label, introduction, citation, summary, body, conclusion, response }`.
+- `ResponsorialPsalm` = `{ responsory: { primary, alternatives? }, verses, citation, label }` — `primary`/`alternatives[]` are `LocalizedLines` (the refrain, plus `vel`/`Or:` alts), `verses` is `{ lang: Line[][] }` (per-lang verse list).
+- `GospelAcclamation` = `{ mode, acclamation?, verse, citation }` — `mode` is `"alleluia"` | `"versus-ante-evangelium"` | `"alleluia-or-versus"`; `verse` carries the cantor's scripture with `{type:"response"}` segments at the boundaries; `acclamation` is the people's refrain (omitted in `versus-ante-evangelium` mode). Multi-option slots wrap an `alternatives[]` of these.
 - `Readings` = `{ A, B, C, I, II, default }` — Sundays use A/B/C; weekdays use I/II; default when no cycle distinction.
 - `PrefaceRef` = `{ prefaceRef: "preface.pf056", label, excerpt }` — resolvable into `library/prefaces.json`.
 

@@ -1675,125 +1675,185 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Mt 5, 12a Allelúia. Gaudéte et exsultáte, quóniam merces vestra copiósa est in cælis. Allelúia.",
-            "es": "Aleluya Mt 5, 12a Aleluya. Alegraos y regocijaos, porque vuestra recompensa será grande en el cielo. Aleluya.",
-            "en": "Alleluia, alleluia. Rejoice and be glad; your reward will be great in heaven. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Mt 5, 12a Aleluia, aleluia. Meus discípulos, alegrai-vos e exultai de alegria, pois bem grande é a recompensa que nos céus tereis, um dia! Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Rallegratevi ed esultate, perché grande è la vostra ricompensa nei cieli. Alleluia.",
-            "fr": "Alléluia Mt 5, 12a Alléluia Réjouissez-vous, soyez dans l’allégresse, car votre récompense est grande dans les cieux ! Alléluia.",
-            "de": "Ruf vor dem Evangelium Mt 5, 12a Halleluja. Halleluja. Freut euch und jubelt: Euer Lohn im Himmel wird groß sein. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 5, 12a"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Gaudéte et exsultáte, quóniam merces vestra copiósa est in cælis. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 5, 12a"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Alegraos y regocijaos, porque vuestra recompensa será grande en el cielo. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Rejoice and be glad; your reward will be great in heaven. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 5, 12a"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Meus discípulos, alegrai-vos e exultai de alegria, pois bem grande é a recompensa que nos céus tereis, um dia! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Rallegratevi ed esultate, perché grande è la vostra ricompensa nei cieli. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 5, 12a"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Réjouissez-vous, soyez dans l’allégresse, car votre récompense est grande dans les cieux ! Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 5, 12a"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Freut euch und jubelt: Euer Lohn im Himmel wird groß sein. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mt 5, 12a",
           "es": "Mt 5, 12a",
           "pt-BR": "Mt 5, 12a",
           "fr": "Mt 5, 12a",
           "de": "Mt 5, 12a"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Gaudéte et exsultáte, quóniam merces vestra copiósa est in cælis."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Alegraos y regocijaos, porque vuestra recompensa será grande en el cielo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Rejoice and be glad; your reward will be great in heaven."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Meus discípulos, alegrai-vos e exultai de alegria, pois bem grande é a recompensa que nos céus tereis, um dia!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Rallegratevi ed esultate, perché grande è la vostra ricompensa nei cieli."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Réjouissez-vous, soyez dans l’allégresse, car votre récompense est grande dans les cieux !"
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Freut euch und jubelt: Euer Lohn im Himmel wird groß sein."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -2935,125 +2995,185 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Mt 4, 16 Allelúia. Pópulus qui sedébat in ténebris lucem vidit magnam, et sedéntibus in regióne et umbra mortis lux orta est eis. Allelúia.",
-            "es": "Aleluya Mt 4, 16 Aleluya. El pueblo que habitaba en tinieblas vio una luz grande; a los que habitaban en tierra y sombras de muerte, una luz les brilló. Aleluya.",
-            "en": "Alleluia, alleluia. A people in darkness have seen a great light; a radiant dawn shines on those lost in faith. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Mt 4, 16 Aleluia, aleluia. O povo que jazia nas trevas viu brilhar uma luz grandiosa; a luz despontou para aqueles, que jaziam nas sombras da morte. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Il popolo che abitava nelle tenebre vide una grande luce, per quelli che abitavano in regione e ombra di morte una luce è sorta. Alleluia.",
-            "fr": "Alléluia Mt 4, 16 Alléluia Le peuple qui habitait dans les ténèbres a vu une grande lumière. Sur ceux qui habitaient dans le pays et l’ombre de la mort, une lumière s’est levée. Alléluia.",
-            "de": "Ruf vor dem Evangelium Mt 4, 16 Halleluja. Halleluja. Das Volk, das im Dunkel lebte, hat ein helles Licht gesehen; denen, die im Schattenreich des Todes wohnten, ist ein Licht erschienen. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 4, 16"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Pópulus qui sedébat in ténebris lucem vidit magnam, et sedéntibus in regióne et umbra mortis lux orta est eis. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 4, 16"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. El pueblo que habitaba en tinieblas vio una luz grande; a los que habitaban en tierra y sombras de muerte, una luz les brilló. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. A people in darkness have seen a great light; a radiant dawn shines on those lost in faith. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 4, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. O povo que jazia nas trevas viu brilhar uma luz grandiosa; a luz despontou para aqueles, que jaziam nas sombras da morte. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Il popolo che abitava nelle tenebre vide una grande luce, per quelli che abitavano in regione e ombra di morte una luce è sorta. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 4, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Le peuple qui habitait dans les ténèbres a vu une grande lumière. Sur ceux qui habitaient dans le pays et l’ombre de la mort, une lumière s’est levée. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 4, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Das Volk, das im Dunkel lebte, hat ein helles Licht gesehen; denen, die im Schattenreich des Todes wohnten, ist ein Licht erschienen. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mt 4, 16",
           "es": "Mt 4, 16",
           "pt-BR": "Mt 4, 16",
           "fr": "Mt 4, 16",
           "de": "Mt 4, 16"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Pópulus qui sedébat in ténebris lucem vidit magnam, et sedéntibus in regióne et umbra mortis lux orta est eis."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "El pueblo que habitaba en tinieblas vio una luz grande; a los que habitaban en tierra y sombras de muerte, una luz les brilló."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "A people in darkness have seen a great light; a radiant dawn shines on those lost in faith."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "O povo que jazia nas trevas viu brilhar uma luz grandiosa; a luz despontou para aqueles, que jaziam nas sombras da morte."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Il popolo che abitava nelle tenebre vide una grande luce, per quelli che abitavano in regione e ombra di morte una luce è sorta."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Le peuple qui habitait dans les ténèbres a vu une grande lumière. Sur ceux qui habitaient dans le pays et l’ombre de la mort, une lumière s’est levée."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Das Volk, das im Dunkel lebte, hat ein helles Licht gesehen; denen, die im Schattenreich des Todes wohnten, ist ein Licht erschienen."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -4492,125 +4612,185 @@
         ]
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Lc 4, 18cd Allelúia. Evangelizáre paupéribus misit me Dóminus, prædicáre captívis remissiónem. Allelúia.",
-            "es": "Aleluya Lc 4, 18cd Aleluya. El Señor me ha enviado a evangelizar a los pobres, a proclamar a los cautivos la libertad. Aleluya.",
-            "en": "Alleluia, alleluia. The Lord sent me to bring Good News to the poor and freedom to prisoners. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Lc 4, 18cd Aleluia, aleluia. Foi a Senhor quem me mandou Boas notícias anunciar, ao pobre, a quem está no cativeiro, libertação eu vou proclamar! Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Il Signore mi ha mandato a portare ai poveri il lieto annuncio, a proclamare ai prigionieri la liberazione. Alleluia.",
-            "fr": "Alléluia Lc 4, 18cd Alléluia Le Seigneur m’a envoyé porter la Bonne Nouvelle aux pauvres, annoncer aux captifs leur libération. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Jes 61, 1 (Lk 4, 18) Halleluja. Halleluja. Der Herr hat mich gesandt, den Armen die Frohe Botschaft zu bringen und den Gefangenen die Freiheit zu verkünden. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 4, 18cd"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Evangelizáre paupéribus misit me Dóminus, prædicáre captívis remissiónem. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 4, 18cd"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. El Señor me ha enviado a evangelizar a los pobres, a proclamar a los cautivos la libertad. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. The Lord sent me to bring Good News to the poor and freedom to prisoners. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 4, 18cd"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Foi a Senhor quem me mandou Boas notícias anunciar, ao pobre, a quem está no cativeiro, libertação eu vou proclamar! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Il Signore mi ha mandato a portare ai poveri il lieto annuncio, a proclamare ai prigionieri la liberazione. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 4, 18cd"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Le Seigneur m’a envoyé porter la Bonne Nouvelle aux pauvres, annoncer aux captifs leur libération. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Jes 61, 1 (Lk 4, 18)"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Der Herr hat mich gesandt, den Armen die Frohe Botschaft zu bringen und den Gefangenen die Freiheit zu verkünden. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Lc 4, 18cd",
           "es": "Lc 4, 18cd",
           "pt-BR": "Lc 4, 18cd",
           "fr": "Lc 4, 18cd",
           "de": "vgl. Jes 61, 1 (Lk 4, 18)"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Evangelizáre paupéribus misit me Dóminus, prædicáre captívis remissiónem."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "El Señor me ha enviado a evangelizar a los pobres, a proclamar a los cautivos la libertad."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "The Lord sent me to bring Good News to the poor and freedom to prisoners."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Foi a Senhor quem me mandou Boas notícias anunciar, ao pobre, a quem está no cativeiro, libertação eu vou proclamar!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Il Signore mi ha mandato a portare ai poveri il lieto annuncio, a proclamare ai prigionieri la liberazione."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Le Seigneur m’a envoyé porter la Bonne Nouvelle aux pauvres, annoncer aux captifs leur libération."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Der Herr hat mich gesandt, den Armen die Frohe Botschaft zu bringen und den Gefangenen die Freiheit zu verkünden."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

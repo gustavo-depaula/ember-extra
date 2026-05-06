@@ -1985,123 +1985,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Versus ante Evangelium Io 11, 25a. Ego sum resurréctio et vita, dicit Dóminus; qui credit in me non moriétur in ætérnum.",
-            "es": "Versículo antes del Evangelio Jn 11, 25a. Yo soy la resurrección y la vida —dice el Señor—; el que cree en mí no morirá para siempre.",
-            "en": "I am the resurrection and the life, said the Lord: he who believes in me will not die for ever.",
-            "pt-BR": "Aclamação ao Evangelho Jo 11, 25a. Eu sou a resurreição, eu sou a vida. Quem crê em mim não morrerá eternamente.",
-            "it": "Canto al Vangelo (Cfr Gv 11,25a.26) Lode e onore a te, Signore Gesù! Io sono la resurrezione e la vita, dice il Signore, chi crede in me non morirà in eterno. Lode e onore a te, Signore Gesù!",
-            "fr": "Verset avant l’Évangile Io 11, 25a. Gloire à toi, Seigneur, gloire à toi. Moi, je suis la résurrection et la vie, dit le Seigneur. Celui qui croit en moi ne mourra jamais. Gloire à toi, Seigneur, gloire à toi.",
-            "de": "Ruf vor dem Evangelium vgl. Joh 11, 25a. 26b Herr Jesus, dir sei Ruhm und Ehre! (So spricht der Herr:) Ich bin die Auferstehung und das Leben. Jeder, der an mich glaubt, wird auf ewig nicht sterben. Herr Jesus, dir sei Ruhm und Ehre!"
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versus ante Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 11, 25a."
-                },
-                {
-                  "type": "text",
-                  "text": "Ego sum resurréctio et vita, dicit Dóminus; qui credit in me non moriétur in ætérnum."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versículo antes del Evangelio"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 11, 25a."
-                },
-                {
-                  "type": "text",
-                  "text": "Yo soy la resurrección y la vida —dice el Señor—; el que cree en mí no morirá para siempre."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "I am the resurrection and the life, said the Lord: he who believes in me will not die for ever."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 11, 25a."
-                },
-                {
-                  "type": "text",
-                  "text": "Eu sou a resurreição, eu sou a vida. Quem crê em mim não morrerá eternamente."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Cfr Gv 11,25a.26)"
-                },
-                {
-                  "type": "text",
-                  "text": "Lode e onore a te, Signore Gesù! Io sono la resurrezione e la vita, dice il Signore, chi crede in me non morirà in eterno. Lode e onore a te, Signore Gesù!"
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Verset avant l’Évangile"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 11, 25a."
-                },
-                {
-                  "type": "text",
-                  "text": "Gloire à toi, Seigneur, gloire à toi. Moi, je suis la résurrection et la vie, dit le Seigneur. Celui qui croit en moi ne mourra jamais. Gloire à toi, Seigneur, gloire à toi."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Joh 11, 25a. 26b"
-                },
-                {
-                  "type": "text",
-                  "text": "Herr Jesus, dir sei Ruhm und Ehre! (So spricht der Herr:) Ich bin die Auferstehung und das Leben. Jeder, der an mich glaubt, wird auf ewig nicht sterben. Herr Jesus, dir sei Ruhm und Ehre!"
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 11, 25a",
           "es": "Jn 11, 25a",
@@ -2109,6 +1992,65 @@
           "it": "(Cfr Gv 11,25a.26)",
           "fr": "Io 11, 25a",
           "de": "vgl. Joh 11, 25a. 26b"
+        },
+        "mode": "versus-ante-evangelium",
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "text",
+                "text": "Ego sum resurréctio et vita, dicit Dóminus; qui credit in me non moriétur in ætérnum."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "text",
+                "text": "Yo soy la resurrección y la vida —dice el Señor—; el que cree en mí no morirá para siempre."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "text",
+                "text": "I am the resurrection and the life, said the Lord: he who believes in me will not die for ever."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "Eu sou a resurreição, eu sou a vida. Quem crê em mim não morrerá eternamente."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "Lode e onore a te, Signore Gesù! Io sono la resurrezione e la vita, dice il Signore, chi crede in me non morirà in eterno. Lode e onore a te, Signore Gesù!"
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Gloire à toi, Seigneur, gloire à toi. Moi, je suis la résurrection et la vie, dit le Seigneur. Celui qui croit en moi ne mourra jamais. Gloire à toi, Seigneur, gloire à toi."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "text",
+                "text": "Herr Jesus, dir sei Ruhm und Ehre! (So spricht der Herr:) Ich bin die Auferstehung und das Leben. Jeder, der an mich glaubt, wird auf ewig nicht sterben. Herr Jesus, dir sei Ruhm und Ehre!"
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -3306,112 +3248,70 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Versus ante Evangelium Io 12, 26 Si quis mihi minístrat, me sequátur, dicit Dóminus; et ubi sum ego, illic et miníster meus erit.",
-            "es": "Versículo antes del Evangelio Jn 12, 26 El que quiera servirme, que me siga —dice el Señor—, y donde esté yo, allí también estará mi servidor.",
-            "en": "If you serve me, follow me, says the Lord; and where I am, my servant will also be.",
-            "pt-BR": "Aclamação ao Evangelho Jo 12, 26 Se alguém me quer servir, que venha atrás de mim; e onde eu estiver, ali estará meu servo.",
-            "it": "Canto al Vangelo Lode e onore a te, Signore Gesù! Se uno mi vuole servire, mi segua, dice il Signore, e dove sono io, là sarà anche il mio servitore. Lode e onore a te, Signore Gesù!",
-            "fr": "Verset avant l’Évangile Gloire à toi, Seigneur, gloire à toi. Si quelqu’un veut me servir, qu’il me suive, dit le Seigneur ; et là où moi je suis, là aussi sera mon serviteur. Gloire à toi, Seigneur, gloire à toi.",
-            "de": "Ruf vor dem Evangelium Joh 12, 26a Lob dir, Christus, König und Erlöser! (So spricht der Herr:) Wenn einer mir dienen will, folge er mir nach; und wo ich bin, dort wird auch mein Diener sein. Lob dir, Christus, König und Erlöser!"
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versus ante Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 12, 26"
-                },
-                {
-                  "type": "text",
-                  "text": "Si quis mihi minístrat, me sequátur, dicit Dóminus; et ubi sum ego, illic et miníster meus erit."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versículo antes del Evangelio"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 12, 26"
-                },
-                {
-                  "type": "text",
-                  "text": "El que quiera servirme, que me siga —dice el Señor—, y donde esté yo, allí también estará mi servidor."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "If you serve me, follow me, says the Lord; and where I am, my servant will also be."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 12, 26"
-                },
-                {
-                  "type": "text",
-                  "text": "Se alguém me quer servir, que venha atrás de mim; e onde eu estiver, ali estará meu servo."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Lode e onore a te, Signore Gesù! Se uno mi vuole servire, mi segua, dice il Signore, e dove sono io, là sarà anche il mio servitore. Lode e onore a te, Signore Gesù!"
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Verset avant l’Évangile Gloire à toi, Seigneur, gloire à toi. Si quelqu’un veut me servir, qu’il me suive, dit le Seigneur ; et là où moi je suis, là aussi sera mon serviteur. Gloire à toi, Seigneur, gloire à toi."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joh 12, 26a"
-                },
-                {
-                  "type": "text",
-                  "text": "Lob dir, Christus, König und Erlöser! (So spricht der Herr:) Wenn einer mir dienen will, folge er mir nach; und wo ich bin, dort wird auch mein Diener sein. Lob dir, Christus, König und Erlöser!"
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 12, 26",
           "es": "Jn 12, 26",
           "pt-BR": "Jo 12, 26",
           "de": "Joh 12, 26a"
+        },
+        "mode": "versus-ante-evangelium",
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "text",
+                "text": "Si quis mihi minístrat, me sequátur, dicit Dóminus; et ubi sum ego, illic et miníster meus erit."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "text",
+                "text": "El que quiera servirme, que me siga —dice el Señor—, y donde esté yo, allí también estará mi servidor."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "text",
+                "text": "If you serve me, follow me, says the Lord; and where I am, my servant will also be."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "Se alguém me quer servir, que venha atrás de mim; e onde eu estiver, ali estará meu servo."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "Lode e onore a te, Signore Gesù! Se uno mi vuole servire, mi segua, dice il Signore, e dove sono io, là sarà anche il mio servitore. Lode e onore a te, Signore Gesù!"
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Gloire à toi, Seigneur, gloire à toi. Si quelqu’un veut me servir, qu’il me suive, dit le Seigneur ; et là où moi je suis, là aussi sera mon serviteur. Gloire à toi, Seigneur, gloire à toi."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "text",
+                "text": "Lob dir, Christus, König und Erlöser! (So spricht der Herr:) Wenn einer mir dienen will, folge er mir nach; und wo ich bin, dort wird auch mein Diener sein. Lob dir, Christus, König und Erlöser!"
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -4568,121 +4468,71 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Versus ante Evangelium Ioel 2, 12a. 13c Nunc ergo, dicit Dóminus, convertímini ad me in toto corde vestro, quia benígnus et miséricors sum.",
-            "es": "Versículo antes del Evangelio Joel 2, 12a. 13c Ahora —dice del Señor—, convertíos a mí de todo corazón, porque soy compasivo y misericordioso.",
-            "en": "With all your heart turn to me for I am tender and compassionate.",
-            "pt-BR": "Aclamaçãoao Evangelho Joel 2, 12-13 Agora, eis o que diz o Senh",
-            "it": "Canto al Vangelo (Gl 2,12-13) Lode e onore a te, Signore Gesù! Ritornate a me con tutto il cuore, dice il Signore, perché io sono misericordioso e pietoso. Lode e onore a te, Signore Gesù!",
-            "fr": "Verset avant l’Évangile Gloire à toi, Seigneur. Gloire à toi. Maintenant, dit le Seigneur, revenez à moi de tout votre cœur, car je suis tendre et miséricordieux. Gloire à toi, Seigneur. Gloire à toi.",
-            "de": "Ruf vor dem Evangelium Joël 2, 12-13 Christus, du ewiges Wort des Vaters, Ehre sei dir! Kehrt um zum Herrn von ganzem Herzen; denn er ist gnädig und barmherzig, langmütig und reich an Güte. Christus, du ewiges Wort des Vaters, Ehre sei dir!"
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versus ante Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ioel 2, 12a. 13c"
-                },
-                {
-                  "type": "text",
-                  "text": "Nunc ergo, dicit Dóminus, convertímini ad me in toto corde vestro, quia benígnus et miséricors sum."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versículo antes del Evangelio"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joel 2, 12a. 13c"
-                },
-                {
-                  "type": "text",
-                  "text": "Ahora —dice del Señor—, convertíos a mí de todo corazón, porque soy compasivo y misericordioso."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "With all your heart turn to me for I am tender and compassionate."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamaçãoao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joel 2, 12-13"
-                },
-                {
-                  "type": "text",
-                  "text": "Agora, eis o que diz o Senh"
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Gl 2,12-13)"
-                },
-                {
-                  "type": "text",
-                  "text": "Lode e onore a te, Signore Gesù! Ritornate a me con tutto il cuore, dice il Signore, perché io sono misericordioso e pietoso. Lode e onore a te, Signore Gesù!"
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Verset avant l’Évangile Gloire à toi, Seigneur. Gloire à toi. Maintenant, dit le Seigneur, revenez à moi de tout votre cœur, car je suis tendre et miséricordieux. Gloire à toi, Seigneur. Gloire à toi."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joël 2, 12-13"
-                },
-                {
-                  "type": "text",
-                  "text": "Christus, du ewiges Wort des Vaters, Ehre sei dir! Kehrt um zum Herrn von ganzem Herzen; denn er ist gnädig und barmherzig, langmütig und reich an Güte. Christus, du ewiges Wort des Vaters, Ehre sei dir!"
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Ioel 2, 12a. 13c",
           "es": "Joel 2, 12a. 13c",
           "pt-BR": "Joel 2, 12-13",
           "it": "(Gl 2,12-13)",
           "de": "Joël 2, 12-13"
+        },
+        "mode": "versus-ante-evangelium",
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "text",
+                "text": "Nunc ergo, dicit Dóminus, convertímini ad me in toto corde vestro, quia benígnus et miséricors sum."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "text",
+                "text": "Ahora —dice del Señor—, convertíos a mí de todo corazón, porque soy compasivo y misericordioso."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "text",
+                "text": "With all your heart turn to me for I am tender and compassionate."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "Agora, eis o que diz o Senh"
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "Lode e onore a te, Signore Gesù! Ritornate a me con tutto il cuore, dice il Signore, perché io sono misericordioso e pietoso. Lode e onore a te, Signore Gesù!"
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Gloire à toi, Seigneur. Gloire à toi. Maintenant, dit le Seigneur, revenez à moi de tout votre cœur, car je suis tendre et miséricordieux. Gloire à toi, Seigneur. Gloire à toi."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "text",
+                "text": "Christus, du ewiges Wort des Vaters, Ehre sei dir! Kehrt um zum Herrn von ganzem Herzen; denn er ist gnädig und barmherzig, langmütig und reich an Güte. Christus, du ewiges Wort des Vaters, Ehre sei dir!"
+              }
+            ]
+          ]
         }
       },
       "gospel": {

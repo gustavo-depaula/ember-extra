@@ -1494,86 +1494,178 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia, allelúia. Clavis David, qui áperis portas ætérni Regni: veni et educ vinctum de domo cárceris sedéntem in ténebris. Allelúia.",
-            "es": "Aleluya, aleluya. Llave de David, que abres las puertas del Reino eterno, ven y libra a los cautivos que viven en tinieblas. Aleluya.",
-            "en": "Alleluia, alleluia. O Key of David, Opening the gates of God's Eternal Kingdom Come and free the Prisoners of darkness! Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Aleluia, aleluia. Ó Chave de David, que abre as portas do Reino eterno: oh, vinde e livrai do cárcere o preso, sentado nas trevas! Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. O Chiave di Davide, che apri le porte del Regno dei cieli: vieni, e libera l’uomo prigioniero che giace nelle tenebre. Alleluia.",
-            "fr": "Alléluia, alléluia. Alléluia. Viens, Clé de David ! Toi qui ouvres les portes du Royaume, arrache à leur prison les captifs des ténèbres. Alléluia.",
-            "de": "Ruf vor dem Evangelium Halleluja. Halleluja. Du Schlüssel Davids, du öffnest die Tore des ewigen Reiches: komm und schließe den Kerker der Finsternis auf! Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Clavis David, qui áperis portas ætérni Regni: veni et educ vinctum de domo cárceris sedéntem in ténebris. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Llave de David, que abres las puertas del Reino eterno, ven y libra a los cautivos que viven en tinieblas. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. O Key of David, Opening the gates of God's Eternal Kingdom Come and free the Prisoners of darkness! Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho Aleluia, aleluia. Ó Chave de David, que abre as portas do Reino eterno: oh, vinde e livrai do cárcere o preso, sentado nas trevas! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. O Chiave di Davide, che apri le porte del Regno dei cieli: vieni, e libera l’uomo prigioniero che giace nelle tenebre. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia, alléluia. Alléluia. Viens, Clé de David ! Toi qui ouvres les portes du Royaume, arrache à leur prison les captifs des ténèbres. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium Halleluja. Halleluja. Du Schlüssel Davids, du öffnest die Tore des ewigen Reiches: komm und schließe den Kerker der Finsternis auf! Halleluja."
-                }
-              ]
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
             ]
-          }
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Clavis David, qui áperis portas ætérni Regni: veni et educ vinctum de domo cárceris sedéntem in ténebris."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Llave de David, que abres las puertas del Reino eterno, ven y libra a los cautivos que viven en tinieblas."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "O Key of David, Opening the gates of God's Eternal Kingdom Come and free the Prisoners of darkness!"
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Ó Chave de David, que abre as portas do Reino eterno: oh, vinde e livrai do cárcere o preso, sentado nas trevas!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "O Chiave di Davide, che apri le porte del Regno dei cieli: vieni, e libera l’uomo prigioniero che giace nelle tenebre."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Alléluia. Viens, Clé de David ! Toi qui ouvres les portes du Royaume, arrache à leur prison les captifs des ténèbres."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Du Schlüssel Davids, du öffnest die Tore des ewigen Reiches: komm und schließe den Kerker der Finsternis auf!"
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

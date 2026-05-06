@@ -1722,123 +1722,71 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Versus ante Evangelium Io 13, 34 Mandátum novum do vobis dicit Dóminus, ut diligátis ínvicem, sicut diléxi vos.",
-            "es": "Aleluya Jn 13, 34 Os doy un mandamiento nuevo —dice el Señor—: que os améis unos a otros, como yo os he amado.",
-            "en": "I give you a new commandment: Love one another as I have loved you.",
-            "pt-BR": "Aclamação ao Evangelho Jo 13, 34 Dou-vos um mandamento novo, diz o Senh",
-            "it": "Canto al Vangelo Cf. Gv 13,34 Gloria e lode e onore a te, Cristo Signore! Vi do un comandamento nuovo, dice il Signore: come io ho amato voi, così amatevi anche voi gli uni gli altri. (Cfr. Gv 13,34) Gloria e lode e onore a te, Cristo Signore!",
-            "fr": "Verset avant l’Évangile Io 13, 34 Gloire et louange à toi, Seigneur Jésus ! Je vous donne un commandement nouveau, dit le Seigneur : « Aimez-vous les uns les autres comme je vous ai aimés. » Gloire et louange à toi, Seigneur Jésus !",
-            "de": "Herr Jesus, dir sei Ruhm und Ehre! Ein neues Gebot gebe ich euch. Wie ich euch geliebt habe, so sollt auch ihr einander lieben."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versus ante Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 13, 34"
-                },
-                {
-                  "type": "text",
-                  "text": "Mandátum novum do vobis dicit Dóminus, ut diligátis ínvicem, sicut diléxi vos."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 13, 34"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Os doy un mandamiento nuevo —dice el Señor—: que os améis unos a otros, como yo os he amado."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "I give you a new commandment: Love one another as I have loved you."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 13, 34"
-                },
-                {
-                  "type": "text",
-                  "text": "Dou-vos um mandamento novo, diz o Senh"
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Gv 13,34"
-                },
-                {
-                  "type": "text",
-                  "text": "Gloria e lode e onore a te, Cristo Signore! Vi do un comandamento nuovo, dice il Signore: come io ho amato voi, così amatevi anche voi gli uni gli altri. (Cfr. Gv 13,34) Gloria e lode e onore a te, Cristo Signore!"
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Verset avant l’Évangile"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 13, 34"
-                },
-                {
-                  "type": "text",
-                  "text": "Gloire et louange à toi, Seigneur Jésus ! Je vous donne un commandement nouveau, dit le Seigneur : « Aimez-vous les uns les autres comme je vous ai aimés. » Gloire et louange à toi, Seigneur Jésus !"
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Herr Jesus, dir sei Ruhm und Ehre! Ein neues Gebot gebe ich euch. Wie ich euch geliebt habe, so sollt auch ihr einander lieben."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 13, 34",
           "es": "Jn 13, 34",
           "pt-BR": "Jo 13, 34",
           "it": "Cf. Gv 13,34",
           "fr": "Io 13, 34"
+        },
+        "mode": "versus-ante-evangelium",
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "text",
+                "text": "Mandátum novum do vobis dicit Dóminus, ut diligátis ínvicem, sicut diléxi vos."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "text",
+                "text": "Os doy un mandamiento nuevo —dice el Señor—: que os améis unos a otros, como yo os he amado."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "text",
+                "text": "I give you a new commandment: Love one another as I have loved you."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "Dou-vos um mandamento novo, diz o Senh"
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "Gloria e lode e onore a te, Cristo Signore! Vi do un comandamento nuovo, dice il Signore: come io ho amato voi, così amatevi anche voi gli uni gli altri. (Cfr. Gv 13,34) Gloria e lode e onore a te, Cristo Signore!"
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Gloire et louange à toi, Seigneur Jésus ! Je vous donne un commandement nouveau, dit le Seigneur : « Aimez-vous les uns les autres comme je vous ai aimés. » Gloire et louange à toi, Seigneur Jésus !"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "text",
+                "text": "Herr Jesus, dir sei Ruhm und Ehre! Ein neues Gebot gebe ich euch. Wie ich euch geliebt habe, so sollt auch ihr einander lieben."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

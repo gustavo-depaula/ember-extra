@@ -1619,125 +1619,185 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Mc 1, 15 Allelúia. Appropinquávit regnum Dei; pænitémini et crédite Evangélio. Allelúia.",
-            "es": "Aleluya Mc 1, 15 Aleluya. Está cerca el reino de Dios; convertíos y creed en el Evangelio Aleluya.",
-            "en": "Alleluia, alleluia. The kingdom of God is near: repent and believe the Good News! Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Mc 1, 15 Aleluia, aleluia. O Reino do céu está perto! Convertei-vos, irmãos, é preciso! Crede todos no Evangelho! Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Il regno di Dio è vicino; convertitevi e credete nel Vangelo. Alleluia.",
-            "fr": "Alléluia Mc 1, 15 Alléluia Le règne de Dieu est tout proche. Convertissez-vous et croyez à l’Évangile. Alléluia.",
-            "de": "Ruf vor dem Evangelium Mk 1, 15 Halleluja. Halleluja. Das Reich Gottes ist nahe. Kehrt um, und glaubt an das Evangelium! Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 1, 15"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Appropinquávit regnum Dei; pænitémini et crédite Evangélio. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 1, 15"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Está cerca el reino de Dios; convertíos y creed en el Evangelio Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. The kingdom of God is near: repent and believe the Good News! Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 1, 15"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. O Reino do céu está perto! Convertei-vos, irmãos, é preciso! Crede todos no Evangelho! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Il regno di Dio è vicino; convertitevi e credete nel Vangelo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 1, 15"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Le règne de Dieu est tout proche. Convertissez-vous et croyez à l’Évangile. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mk 1, 15"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Das Reich Gottes ist nahe. Kehrt um, und glaubt an das Evangelium! Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mc 1, 15",
           "es": "Mc 1, 15",
           "pt-BR": "Mc 1, 15",
           "fr": "Mc 1, 15",
           "de": "Mk 1, 15"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Appropinquávit regnum Dei; pænitémini et crédite Evangélio."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Está cerca el reino de Dios; convertíos y creed en el Evangelio"
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "The kingdom of God is near: repent and believe the Good News!"
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "O Reino do céu está perto! Convertei-vos, irmãos, é preciso! Crede todos no Evangelho!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Il regno di Dio è vicino; convertitevi e credete nel Vangelo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Le règne de Dieu est tout proche. Convertissez-vous et croyez à l’Évangile."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Das Reich Gottes ist nahe. Kehrt um, und glaubt an das Evangelium!"
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -2747,86 +2807,178 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia, allelúia. Semen est verbum Dei, sator autem Christus; omnis qui ínvenit eum, manébit in ætérnum. Allelúia.",
-            "es": "Aleluya, aleluya. La semilla es la palabra de Dios, y el sembrador es Cristo; todo el que lo encuentra vive para siempre. Aleluya.",
-            "en": "Alleluia, alleluia. The seed is the word of God; the sower is Christ; everyone who finds him will live for ever. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Aleluia, aleluia. Semente é de Deus a Palavra, o Cristo é o semeador; todo aquele que o encontra, vida eterna encontrou. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Il seme è la parola di Dio, il seminatore è Cristo: chiunque trova lui, ha la vita eterna. Alleluia.",
-            "fr": "Alléluia, alléluia. La semence est la parole de Dieu ; le semeur est le Christ ; celui qui le trouve demeure pour toujours. Alléluia.",
-            "de": "Ruf vor dem Evangelium Halleluja. Halleluja. Der Samen ist das Wort Gottes, der Sämann ist Christus. Wer Christus findet, der bleibt in Ewigkeit. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Semen est verbum Dei, sator autem Christus; omnis qui ínvenit eum, manébit in ætérnum. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. La semilla es la palabra de Dios, y el sembrador es Cristo; todo el que lo encuentra vive para siempre. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. The seed is the word of God; the sower is Christ; everyone who finds him will live for ever. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho Aleluia, aleluia. Semente é de Deus a Palavra, o Cristo é o semeador; todo aquele que o encontra, vida eterna encontrou. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Il seme è la parola di Dio, il seminatore è Cristo: chiunque trova lui, ha la vita eterna. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia, alléluia. La semence est la parole de Dieu ; le semeur est le Christ ; celui qui le trouve demeure pour toujours. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium Halleluja. Halleluja. Der Samen ist das Wort Gottes, der Sämann ist Christus. Wer Christus findet, der bleibt in Ewigkeit. Halleluja."
-                }
-              ]
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
             ]
-          }
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Semen est verbum Dei, sator autem Christus; omnis qui ínvenit eum, manébit in ætérnum."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "La semilla es la palabra de Dios, y el sembrador es Cristo; todo el que lo encuentra vive para siempre."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "The seed is the word of God; the sower is Christ; everyone who finds him will live for ever."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Semente é de Deus a Palavra, o Cristo é o semeador; todo aquele que o encontra, vida eterna encontrou."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Il seme è la parola di Dio, il seminatore è Cristo: chiunque trova lui, ha la vita eterna."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              },
+              {
+                "type": "text",
+                "text": "La semence est la parole de Dieu ; le semeur est le Christ ; celui qui le trouve demeure pour toujours."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Der Samen ist das Wort Gottes, der Sämann ist Christus. Wer Christus findet, der bleibt in Ewigkeit."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -3885,127 +4037,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia 1 Io 4, 10b Allelúia. Deus diléxit nos, et misit Fílium suum propitiatiónem pro peccátis nostris. Allelúia.",
-            "es": "Aleluya 1 Jn 4, 10b Aleluya. Dios nos amó y nos envió a su Hijo como víctima de propiciación por nuestros pecados. Aleluya.",
-            "en": "Alleluia, alleluia. God first loved us and sent his Son to take away our sins. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho 1 Jo 4, 10b Aleluia, aleluia. Tanto amor Deus nos mostrou, que seu Filho entregou, como vítima expiatoria pelas nossas transgressões. Aleluia.",
-            "it": "Canto al Vangelo 1 Gv 4, 10 Alleluia, alleluia. Dio ha amato noi e ha mandato il suo Figlio come vittima di espiazione per i nostri peccati. Alleluia.",
-            "fr": "Alléluia 1 Io 4, 10b Alléluia Près du Seigneur est l’amour, près de lui abonde le rachat. Alléluia.",
-            "de": "Ruf vor dem Evangelium 1 Joh 4, 10b Halleluja. Halleluja. Gott hat uns geliebt und seinen Sohn gesandt als Sühne für unsere Sünden. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Io 4, 10b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Deus diléxit nos, et misit Fílium suum propitiatiónem pro peccátis nostris. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Jn 4, 10b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Dios nos amó y nos envió a su Hijo como víctima de propiciación por nuestros pecados. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. God first loved us and sent his Son to take away our sins. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Jo 4, 10b"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Tanto amor Deus nos mostrou, que seu Filho entregou, como vítima expiatoria pelas nossas transgressões. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Gv 4, 10"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Dio ha amato noi e ha mandato il suo Figlio come vittima di espiazione per i nostri peccati. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Io 4, 10b"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Près du Seigneur est l’amour, près de lui abonde le rachat. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Joh 4, 10b"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Gott hat uns geliebt und seinen Sohn gesandt als Sühne für unsere Sünden. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "1 Io 4, 10b",
           "es": "1 Jn 4, 10b",
@@ -4013,6 +4044,179 @@
           "it": "1 Gv 4, 10",
           "fr": "1 Io 4, 10b",
           "de": "1 Joh 4, 10b"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Deus diléxit nos, et misit Fílium suum propitiatiónem pro peccátis nostris."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Dios nos amó y nos envió a su Hijo como víctima de propiciación por nuestros pecados."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "God first loved us and sent his Son to take away our sins."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Tanto amor Deus nos mostrou, que seu Filho entregou, como vítima expiatoria pelas nossas transgressões."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Dio ha amato noi e ha mandato il suo Figlio come vittima di espiazione per i nostri peccati."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Près du Seigneur est l’amour, près de lui abonde le rachat."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Gott hat uns geliebt und seinen Sohn gesandt als Sühne für unsere Sünden."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

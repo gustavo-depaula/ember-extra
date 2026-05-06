@@ -1300,129 +1300,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "(Alleluia.) Mt 5, 3 Allelúia. Beáti páuperes spíritu, quóniam ipsórum est regnum cælórum. (Alleluia.)",
-            "es": "Aleluya Mt 5, 3 Aleluya. Bienaventurados los pobres en el espíritu, porque de ellos es el reino de los cielos. Aleluya.",
-            "en": "Alleluia, alleluia. Happy the poor in spirit; the kingdom of heaven is theirs! Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Mt 5, 3 Aleluia, aleluia. Felizes os humildes de espírito, porque deles é o Reino dos Céus! Aleluia.",
-            "it": "Canto al Vangelo Mt 5, 3 Alleluia, alleluia. Beati i poveri in spirito, perché di essi è il regno dei cieli. Alleluia.",
-            "fr": "(Alléluia) Mt 5, 3 Alléluia Heureux les pauvres de cœur, car le royaume des Cieux est à eux ! (Alléluia)",
-            "de": "Ruf vor dem Evangelium Mt 5, 3 Halleluja. Halleluja. Selig, die arm sind vor Gott; denn ihnen gehört das Himmelreich. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "(Alleluia.)"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 5, 3"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Beáti páuperes spíritu, quóniam ipsórum est regnum cælórum. (Alleluia.)"
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 5, 3"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Bienaventurados los pobres en el espíritu, porque de ellos es el reino de los cielos. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Happy the poor in spirit; the kingdom of heaven is theirs! Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 5, 3"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Felizes os humildes de espírito, porque deles é o Reino dos Céus! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 5, 3"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Beati i poveri in spirito, perché di essi è il regno dei cieli. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "(Alléluia)"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 5, 3"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia Heureux les pauvres de cœur, car le royaume des Cieux est à eux ! (Alléluia)"
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 5, 3"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Selig, die arm sind vor Gott; denn ihnen gehört das Himmelreich. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mt 5, 3",
           "es": "Mt 5, 3",
@@ -1430,6 +1307,179 @@
           "it": "Mt 5, 3",
           "fr": "Mt 5, 3",
           "de": "Mt 5, 3"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "(Alleluia.)"
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "(Alléluia)"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "rubric",
+                "text": "(Alleluia.)"
+              },
+              {
+                "type": "text",
+                "text": "Allelúia. Beáti páuperes spíritu, quóniam ipsórum est regnum cælórum."
+              },
+              {
+                "type": "response",
+                "text": "(Alleluia.)"
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Bienaventurados los pobres en el espíritu, porque de ellos es el reino de los cielos."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Happy the poor in spirit; the kingdom of heaven is theirs!"
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Felizes os humildes de espírito, porque deles é o Reino dos Céus!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Beati i poveri in spirito, perché di essi è il regno dei cieli."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "rubric",
+                "text": "(Alléluia)"
+              },
+              {
+                "type": "text",
+                "text": "Alléluia Heureux les pauvres de cœur, car le royaume des Cieux est à eux !"
+              },
+              {
+                "type": "response",
+                "text": "(Alléluia)"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Selig, die arm sind vor Gott; denn ihnen gehört das Himmelreich."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -2741,80 +2791,178 @@
             }
           },
           "gospelAcclamation": {
-            "body": {
-              "plain": {
-                "la": "Alleluia vel Versus ante Evangelium (Alleluia.) Hæc est virgo sápiens, quam Dóminus vigilántem invénit; veniénte Dómino, introívit cum eo ad núptias. (Alleluia.)",
-                "es": "Aleluya, aleluya. Esta es la virgen sabia, a quien el Señor encontró velando; al llegar el Señor, entró con él al banquete de bodas. Aleluya.",
-                "en": "Alleluia, alleluia. This is a wise bridesmaid, whom the Lord found waiting; at his coming, she went in with him to the wedding feast. Alleluia.",
-                "pt-BR": "Aleluia, aleluia. Esta é a virgem prudente, que o Senhor encontrou vigilante; chegando o noivo, ela entrou para a festa do seu casamento. Aleluia.",
-                "it": "Alleluia, alleluia. Questa è La vergine saggia che il Signore ha trovato vigilante; all’arrivo dello Sposo è entrata con lui alle nozze. Alleluia.",
-                "fr": "Alléluia vel Verset avant l’Évangile (Alléluia) Voici la jeune fille prévoyante, que le Seigneur a trouvée en train de veiller. Quand le Seigneur arriva, elle entra avec lui pour les noces. (Alléluia)",
-                "de": "Ruf vor dem Evangelium Halleluja. Halleluja. Sie ist die kluge Jungfrau, die der Herr wachend antraf, als er kam; sie trat mit ihm ein in den Hochzeitssaal. Halleluja."
-              },
-              "lines": {
-                "la": [
-                  [
-                    {
-                      "type": "text",
-                      "text": "Alleluia vel Versus ante Evangelium (Alleluia.) Hæc est virgo sápiens, quam Dóminus vigilántem invénit; veniénte Dómino, introívit cum eo ad núptias. (Alleluia.)"
-                    }
-                  ]
-                ],
-                "es": [
-                  [
-                    {
-                      "type": "text",
-                      "text": "Aleluya"
-                    }
-                  ],
-                  [
-                    {
-                      "type": "text",
-                      "text": "Aleluya. Esta es la virgen sabia, a quien el Señor encontró velando; al llegar el Señor, entró con él al banquete de bodas. Aleluya."
-                    }
-                  ]
-                ],
-                "en": [
-                  [
-                    {
-                      "type": "text",
-                      "text": "Alleluia, alleluia. This is a wise bridesmaid, whom the Lord found waiting; at his coming, she went in with him to the wedding feast. Alleluia."
-                    }
-                  ]
-                ],
-                "pt-BR": [
-                  [
-                    {
-                      "type": "text",
-                      "text": "Aleluia, aleluia. Esta é a virgem prudente, que o Senhor encontrou vigilante; chegando o noivo, ela entrou para a festa do seu casamento. Aleluia."
-                    }
-                  ]
-                ],
-                "it": [
-                  [
-                    {
-                      "type": "text",
-                      "text": "Alleluia, alleluia. Questa è La vergine saggia che il Signore ha trovato vigilante; all’arrivo dello Sposo è entrata con lui alle nozze. Alleluia."
-                    }
-                  ]
-                ],
-                "fr": [
-                  [
-                    {
-                      "type": "text",
-                      "text": "Alléluia vel Verset avant l’Évangile (Alléluia) Voici la jeune fille prévoyante, que le Seigneur a trouvée en train de veiller. Quand le Seigneur arriva, elle entra avec lui pour les noces. (Alléluia)"
-                    }
-                  ]
-                ],
-                "de": [
-                  [
-                    {
-                      "type": "text",
-                      "text": "Ruf vor dem Evangelium Halleluja. Halleluja. Sie ist die kluge Jungfrau, die der Herr wachend antraf, als er kam; sie trat mit ihm ein in den Hochzeitssaal. Halleluja."
-                    }
-                  ]
+            "mode": "alleluia-or-versus",
+            "acclamation": {
+              "la": [
+                [
+                  {
+                    "type": "response",
+                    "text": "(Alleluia.)"
+                  }
                 ]
-              }
+              ],
+              "es": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Aleluya."
+                  }
+                ]
+              ],
+              "en": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Alleluia, alleluia."
+                  }
+                ]
+              ],
+              "pt-BR": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Aleluia, aleluia."
+                  }
+                ]
+              ],
+              "it": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Alleluia, alleluia."
+                  }
+                ]
+              ],
+              "fr": [
+                [
+                  {
+                    "type": "response",
+                    "text": "(Alléluia)"
+                  }
+                ]
+              ],
+              "de": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Halleluja. Halleluja."
+                  }
+                ]
+              ]
+            },
+            "verse": {
+              "la": [
+                [
+                  {
+                    "type": "response",
+                    "text": "(Alleluia.)"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Hæc est virgo sápiens, quam Dóminus vigilántem invénit; veniénte Dómino, introívit cum eo ad núptias."
+                  },
+                  {
+                    "type": "response",
+                    "text": "(Alleluia.)"
+                  }
+                ]
+              ],
+              "es": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Aleluya."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Esta es la virgen sabia, a quien el Señor encontró velando; al llegar el Señor, entró con él al banquete de bodas."
+                  },
+                  {
+                    "type": "response",
+                    "text": "Aleluya."
+                  }
+                ]
+              ],
+              "en": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Alleluia, alleluia."
+                  },
+                  {
+                    "type": "text",
+                    "text": "This is a wise bridesmaid, whom the Lord found waiting; at his coming, she went in with him to the wedding feast."
+                  },
+                  {
+                    "type": "response",
+                    "text": "Alleluia."
+                  }
+                ]
+              ],
+              "pt-BR": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Aleluia, aleluia."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Esta é a virgem prudente, que o Senhor encontrou vigilante; chegando o noivo, ela entrou para a festa do seu casamento."
+                  },
+                  {
+                    "type": "response",
+                    "text": "Aleluia."
+                  }
+                ]
+              ],
+              "it": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Alleluia, alleluia."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Questa è La vergine saggia che il Signore ha trovato vigilante; all’arrivo dello Sposo è entrata con lui alle nozze."
+                  },
+                  {
+                    "type": "response",
+                    "text": "Alleluia."
+                  }
+                ]
+              ],
+              "fr": [
+                [
+                  {
+                    "type": "response",
+                    "text": "(Alléluia)"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Voici la jeune fille prévoyante, que le Seigneur a trouvée en train de veiller. Quand le Seigneur arriva, elle entra avec lui pour les noces."
+                  },
+                  {
+                    "type": "response",
+                    "text": "(Alléluia)"
+                  }
+                ]
+              ],
+              "de": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Halleluja. Halleluja."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Sie ist die kluge Jungfrau, die der Herr wachend antraf, als er kam; sie trat mit ihm ein in den Hochzeitssaal."
+                  },
+                  {
+                    "type": "response",
+                    "text": "Halleluja."
+                  }
+                ]
+              ]
             }
           },
           "gospel": {

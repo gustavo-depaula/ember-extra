@@ -1399,125 +1399,185 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Hebr 1, 1-2 Allelúia. Multifárie olim Deus locútus pátribus in prophétis, in novíssimis his diébus locútus est nobis in Fílio. Allelúia.",
-            "es": "Aleluya Hebr 1, 1-2 Aleluya. En muchas ocasiones habló Dios antiguamente a los padres por los profetas. En esta etapa final, nos ha hablado por el Hijo Aleluya.",
-            "en": "Alleluia, alleluia. In the past God spoke to our fathers through the prophets; now he speaks to us through his Son. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Hebr 1, 1-2 Aleluia, aleluia. Depois de ter falado, no passado, aos nossos pais, pelos profetas, muitas vezes, em nossos dias Deus falou-nos por seu Filho. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Dio, che molte volte e in diversi modi nei tempi antichi aveva parlato ai padri per mezzo dei profeti, ultimamente, in questi giorni, ha parlato a noi per mezzo del Figlio. Alleluia.",
-            "fr": "Alléluia Hebr 1, 1-2 Alléluia À bien des reprises, Dieu, dans le passé, a parlé à nos pères par les prophètes ; à la fin, en ces jours où nous sommes, il nous a parlé par son Fils. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Hebr 1, 1-2 Halleluja. Halleluja. Einst hat Gott zu den Vätern gesprochen durch die Propheten; heute aber hat er zu uns gesprochen durch den Sohn. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Hebr 1, 1-2"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Multifárie olim Deus locútus pátribus in prophétis, in novíssimis his diébus locútus est nobis in Fílio. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Hebr 1, 1-2"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. En muchas ocasiones habló Dios antiguamente a los padres por los profetas. En esta etapa final, nos ha hablado por el Hijo Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. In the past God spoke to our fathers through the prophets; now he speaks to us through his Son. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Hebr 1, 1-2"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Depois de ter falado, no passado, aos nossos pais, pelos profetas, muitas vezes, em nossos dias Deus falou-nos por seu Filho. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Dio, che molte volte e in diversi modi nei tempi antichi aveva parlato ai padri per mezzo dei profeti, ultimamente, in questi giorni, ha parlato a noi per mezzo del Figlio. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Hebr 1, 1-2"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia À bien des reprises, Dieu, dans le passé, a parlé à nos pères par les prophètes ; à la fin, en ces jours où nous sommes, il nous a parlé par son Fils. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Hebr 1, 1-2"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Einst hat Gott zu den Vätern gesprochen durch die Propheten; heute aber hat er zu uns gesprochen durch den Sohn. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Hebr 1, 1-2",
           "es": "Hebr 1, 1-2",
           "pt-BR": "Hebr 1, 1-2",
           "fr": "Hebr 1, 1-2",
           "de": "vgl. Hebr 1, 1-2"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Multifárie olim Deus locútus pátribus in prophétis, in novíssimis his diébus locútus est nobis in Fílio."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "En muchas ocasiones habló Dios antiguamente a los padres por los profetas. En esta etapa final, nos ha hablado por el Hijo"
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "In the past God spoke to our fathers through the prophets; now he speaks to us through his Son."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Depois de ter falado, no passado, aos nossos pais, pelos profetas, muitas vezes, em nossos dias Deus falou-nos por seu Filho."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Dio, che molte volte e in diversi modi nei tempi antichi aveva parlato ai padri per mezzo dei profeti, ultimamente, in questi giorni, ha parlato a noi per mezzo del Figlio."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "À bien des reprises, Dieu, dans le passé, a parlé à nos pères par les prophètes ; à la fin, en ces jours où nous sommes, il nous a parlé par son Fils."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Einst hat Gott zu den Vätern gesprochen durch die Propheten; heute aber hat er zu uns gesprochen durch den Sohn."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

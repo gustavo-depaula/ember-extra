@@ -2938,85 +2938,67 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Versus ante Evangelium Christus factus est pro nobis oboédiens usque ad mortem, mortem autem crucis. Propter quod et Deus exaltávit illum et dedit illi nomen, quod est super omne nomen.",
-            "es": "Versículo antes del Evangelio Cristo se ha hecho por nosotros obediente hasta la muerte, y una muerte de cruz. Por eso Dios lo exaltó sobre todo y le concedió el Nombre-sobre-todo-nombre.",
-            "en": "Christ became obedient for us even to death dying on the cross. Therefore God raised him on high and gave him a name above all other names.",
-            "pt-BR": "Aclamação ao Evangelho Jesus Cristo se tornou obediente, obediente até à morte numa cruz; pelo que o Senhor Deus o exaltou, e deu-lhe um nome muito acima de outro nome.",
-            "it": "Canto al Vangelo Lode e onore a te, Signore Gesù! Cristo si è fatto obbediente fino alla morte e a una morte di croce. Per questo Dio lo esaltò e gli donò il nome che è al di sopra di ogni nome. Lode e onore a te, Signore Gesù!",
-            "fr": "Verset avant l’Évangile Gloire et louange à toi, Seigneur Jésus ! Pour nous, le Christ est devenu obéissant, jusqu’à la mort, et la mort de la croix. C’est pourquoi Dieu l’a exalté : il l’a doté du Nom qui est au-dessus de tout nom. Gloire et louange à toi, Seigneur Jésus !",
-            "de": "Ruf vor der Passion Phil 2, 8b-9 Christus Sieger, Christus König, Christus Herr in Ewigkeit! Christus war für uns gehorsam bis zum Tod, bis zum Tod am Kreuz. Darum hat ihn Gott über alle erhöht und ihm den Namen gegeben, der größer ist als alle Namen. Christus Sieger, Christus König, Christus Herr in Ewigkeit!"
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versus ante Evangelium Christus factus est pro nobis oboédiens usque ad mortem, mortem autem crucis. Propter quod et Deus exaltávit illum et dedit illi nomen, quod est super omne nomen."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versículo antes del Evangelio Cristo se ha hecho por nosotros obediente hasta la muerte, y una muerte de cruz. Por eso Dios lo exaltó sobre todo y le concedió el Nombre-sobre-todo-nombre."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Christ became obedient for us even to death dying on the cross. Therefore God raised him on high and gave him a name above all other names."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho Jesus Cristo se tornou obediente, obediente até à morte numa cruz; pelo que o Senhor Deus o exaltou, e deu-lhe um nome muito acima de outro nome."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Lode e onore a te, Signore Gesù! Cristo si è fatto obbediente fino alla morte e a una morte di croce. Per questo Dio lo esaltò e gli donò il nome che è al di sopra di ogni nome. Lode e onore a te, Signore Gesù!"
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Verset avant l’Évangile Gloire et louange à toi, Seigneur Jésus ! Pour nous, le Christ est devenu obéissant, jusqu’à la mort, et la mort de la croix. C’est pourquoi Dieu l’a exalté : il l’a doté du Nom qui est au-dessus de tout nom. Gloire et louange à toi, Seigneur Jésus !"
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor der Passion"
-                },
-                {
-                  "type": "reference",
-                  "text": "Phil 2, 8b-9"
-                },
-                {
-                  "type": "text",
-                  "text": "Christus Sieger, Christus König, Christus Herr in Ewigkeit! Christus war für uns gehorsam bis zum Tod, bis zum Tod am Kreuz. Darum hat ihn Gott über alle erhöht und ihm den Namen gegeben, der größer ist als alle Namen. Christus Sieger, Christus König, Christus Herr in Ewigkeit!"
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "de": "Phil 2, 8b-9"
+        },
+        "mode": "versus-ante-evangelium",
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "text",
+                "text": "Christus factus est pro nobis oboédiens usque ad mortem, mortem autem crucis. Propter quod et Deus exaltávit illum et dedit illi nomen, quod est super omne nomen."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "text",
+                "text": "Cristo se ha hecho por nosotros obediente hasta la muerte, y una muerte de cruz. Por eso Dios lo exaltó sobre todo y le concedió el Nombre-sobre-todo-nombre."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "text",
+                "text": "Christ became obedient for us even to death dying on the cross. Therefore God raised him on high and gave him a name above all other names."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "Jesus Cristo se tornou obediente, obediente até à morte numa cruz; pelo que o Senhor Deus o exaltou, e deu-lhe um nome muito acima de outro nome."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "Lode e onore a te, Signore Gesù! Cristo si è fatto obbediente fino alla morte e a una morte di croce. Per questo Dio lo esaltò e gli donò il nome che è al di sopra di ogni nome. Lode e onore a te, Signore Gesù!"
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Gloire et louange à toi, Seigneur Jésus ! Pour nous, le Christ est devenu obéissant, jusqu’à la mort, et la mort de la croix. C’est pourquoi Dieu l’a exalté : il l’a doté du Nom qui est au-dessus de tout nom. Gloire et louange à toi, Seigneur Jésus !"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "text",
+                "text": "Christus Sieger, Christus König, Christus Herr in Ewigkeit! Christus war für uns gehorsam bis zum Tod, bis zum Tod am Kreuz. Darum hat ihn Gott über alle erhöht und ihm den Namen gegeben, der größer ist als alle Namen. Christus Sieger, Christus König, Christus Herr in Ewigkeit!"
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -4406,85 +4388,67 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Versus ante Evangelium Christus factus est pro nobis oboédiens usque ad mortem, mortem autem crucis. Propter quod et Deus exaltávit illum et dedit illi nomen, quod est super omne nomen.",
-            "es": "Versículo antes del Evangelio Cristo se ha hecho por nosotros obediente hasta la muerte, y una muerte de cruz. Por eso Dios lo exaltó sobre todo y le concedió el Nombre-sobre-todo-nombre.",
-            "en": "Christ became obedient for us even to death dying on the cross. Therefore God raised him on high and gave him a name above all other names.",
-            "pt-BR": "Aclamação ao Evangelho Jesus Cristo se tornou obediente, obediente até à morte numa cruz; pelo que o Senhor Deus o exaltou, e deu-lhe um nome muito acima de outro nome.",
-            "it": "Canto al Vangelo Lode e onore a te, Signore Gesù! Cristo si è fatto obbediente fino alla morte e a una morte di croce. Per questo Dio lo esaltò e gli donò il nome che è al di sopra di ogni nome. Lode e onore a te, Signore Gesù!",
-            "fr": "Verset avant l’Évangile Gloire et louange à toi, Seigneur Jésus ! Pour nous, le Christ est devenu obéissant, jusqu’à la mort, et la mort de la croix. C’est pourquoi Dieu l’a exalté : il l’a doté du Nom qui est au-dessus de tout nom. Gloire et louange à toi, Seigneur Jésus !",
-            "de": "Ruf vor der Passion Phil 2, 8b-9 Christus Sieger, Christus König, Christus Herr in Ewigkeit! Christus war für uns gehorsam bis zum Tod, bis zum Tod am Kreuz. Darum hat ihn Gott über alle erhöht und ihm den Namen gegeben, der größer ist als alle Namen. Christus Sieger, Christus König, Christus Herr in Ewigkeit!"
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versus ante Evangelium Christus factus est pro nobis oboédiens usque ad mortem, mortem autem crucis. Propter quod et Deus exaltávit illum et dedit illi nomen, quod est super omne nomen."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versículo antes del Evangelio Cristo se ha hecho por nosotros obediente hasta la muerte, y una muerte de cruz. Por eso Dios lo exaltó sobre todo y le concedió el Nombre-sobre-todo-nombre."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Christ became obedient for us even to death dying on the cross. Therefore God raised him on high and gave him a name above all other names."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho Jesus Cristo se tornou obediente, obediente até à morte numa cruz; pelo que o Senhor Deus o exaltou, e deu-lhe um nome muito acima de outro nome."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Lode e onore a te, Signore Gesù! Cristo si è fatto obbediente fino alla morte e a una morte di croce. Per questo Dio lo esaltò e gli donò il nome che è al di sopra di ogni nome. Lode e onore a te, Signore Gesù!"
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Verset avant l’Évangile Gloire et louange à toi, Seigneur Jésus ! Pour nous, le Christ est devenu obéissant, jusqu’à la mort, et la mort de la croix. C’est pourquoi Dieu l’a exalté : il l’a doté du Nom qui est au-dessus de tout nom. Gloire et louange à toi, Seigneur Jésus !"
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor der Passion"
-                },
-                {
-                  "type": "reference",
-                  "text": "Phil 2, 8b-9"
-                },
-                {
-                  "type": "text",
-                  "text": "Christus Sieger, Christus König, Christus Herr in Ewigkeit! Christus war für uns gehorsam bis zum Tod, bis zum Tod am Kreuz. Darum hat ihn Gott über alle erhöht und ihm den Namen gegeben, der größer ist als alle Namen. Christus Sieger, Christus König, Christus Herr in Ewigkeit!"
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "de": "Phil 2, 8b-9"
+        },
+        "mode": "versus-ante-evangelium",
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "text",
+                "text": "Christus factus est pro nobis oboédiens usque ad mortem, mortem autem crucis. Propter quod et Deus exaltávit illum et dedit illi nomen, quod est super omne nomen."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "text",
+                "text": "Cristo se ha hecho por nosotros obediente hasta la muerte, y una muerte de cruz. Por eso Dios lo exaltó sobre todo y le concedió el Nombre-sobre-todo-nombre."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "text",
+                "text": "Christ became obedient for us even to death dying on the cross. Therefore God raised him on high and gave him a name above all other names."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "Jesus Cristo se tornou obediente, obediente até à morte numa cruz; pelo que o Senhor Deus o exaltou, e deu-lhe um nome muito acima de outro nome."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "Lode e onore a te, Signore Gesù! Cristo si è fatto obbediente fino alla morte e a una morte di croce. Per questo Dio lo esaltò e gli donò il nome che è al di sopra di ogni nome. Lode e onore a te, Signore Gesù!"
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Gloire et louange à toi, Seigneur Jésus ! Pour nous, le Christ est devenu obéissant, jusqu’à la mort, et la mort de la croix. C’est pourquoi Dieu l’a exalté : il l’a doté du Nom qui est au-dessus de tout nom. Gloire et louange à toi, Seigneur Jésus !"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "text",
+                "text": "Christus Sieger, Christus König, Christus Herr in Ewigkeit! Christus war für uns gehorsam bis zum Tod, bis zum Tod am Kreuz. Darum hat ihn Gott über alle erhöht und ihm den Namen gegeben, der größer ist als alle Namen. Christus Sieger, Christus König, Christus Herr in Ewigkeit!"
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -5875,85 +5839,67 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Versus ante Evangelium Christus factus est pro nobis oboédiens usque ad mortem, mortem autem crucis. Propter quod et Deus exaltávit illum et dedit illi nomen, quod est super omne nomen.",
-            "es": "Versículo antes del Evangelio Cristo se ha hecho por nosotros obediente hasta la muerte, y una muerte de cruz. Por eso Dios lo exaltó sobre todo y le concedió el Nombre-sobre-todo-nombre.",
-            "en": "Christ became obedient for us even to death dying on the cross. Therefore God raised him on high and gave him a name above all other names.",
-            "pt-BR": "Aclamação ao Evangelho Jesus Cristo se tornou obediente, obediente até à morte numa cruz; pelo que o Senhor Deus o exaltou, e deu-lhe um nome muito acima de outro nome.",
-            "it": "Canto al Vangelo Lode e onore a te, Signore Gesù! Cristo si è fatto obbediente fino alla morte e a una morte di croce. Per questo Dio lo esaltò e gli donò il nome che è al di sopra di ogni nome. Lode e onore a te, Signore Gesù!",
-            "fr": "Verset avant l’Évangile Gloire et louange à toi, Seigneur Jésus ! Pour nous, le Christ est devenu obéissant, jusqu’à la mort, et la mort de la croix. C’est pourquoi Dieu l’a exalté : il l’a doté du Nom qui est au-dessus de tout nom. Gloire et louange à toi, Seigneur Jésus !",
-            "de": "Ruf vor der Passion Phil 2, 8b-9 Christus Sieger, Christus König, Christus Herr in Ewigkeit! Christus war für uns gehorsam bis zum Tod, bis zum Tod am Kreuz. Darum hat ihn Gott über alle erhöht und ihm den Namen gegeben, der größer ist als alle Namen. Christus Sieger, Christus König, Christus Herr in Ewigkeit!"
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versus ante Evangelium Christus factus est pro nobis oboédiens usque ad mortem, mortem autem crucis. Propter quod et Deus exaltávit illum et dedit illi nomen, quod est super omne nomen."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versículo antes del Evangelio Cristo se ha hecho por nosotros obediente hasta la muerte, y una muerte de cruz. Por eso Dios lo exaltó sobre todo y le concedió el Nombre-sobre-todo-nombre."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Christ became obedient for us even to death dying on the cross. Therefore God raised him on high and gave him a name above all other names."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho Jesus Cristo se tornou obediente, obediente até à morte numa cruz; pelo que o Senhor Deus o exaltou, e deu-lhe um nome muito acima de outro nome."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Lode e onore a te, Signore Gesù! Cristo si è fatto obbediente fino alla morte e a una morte di croce. Per questo Dio lo esaltò e gli donò il nome che è al di sopra di ogni nome. Lode e onore a te, Signore Gesù!"
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Verset avant l’Évangile Gloire et louange à toi, Seigneur Jésus ! Pour nous, le Christ est devenu obéissant, jusqu’à la mort, et la mort de la croix. C’est pourquoi Dieu l’a exalté : il l’a doté du Nom qui est au-dessus de tout nom. Gloire et louange à toi, Seigneur Jésus !"
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor der Passion"
-                },
-                {
-                  "type": "reference",
-                  "text": "Phil 2, 8b-9"
-                },
-                {
-                  "type": "text",
-                  "text": "Christus Sieger, Christus König, Christus Herr in Ewigkeit! Christus war für uns gehorsam bis zum Tod, bis zum Tod am Kreuz. Darum hat ihn Gott über alle erhöht und ihm den Namen gegeben, der größer ist als alle Namen. Christus Sieger, Christus König, Christus Herr in Ewigkeit!"
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "de": "Phil 2, 8b-9"
+        },
+        "mode": "versus-ante-evangelium",
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "text",
+                "text": "Christus factus est pro nobis oboédiens usque ad mortem, mortem autem crucis. Propter quod et Deus exaltávit illum et dedit illi nomen, quod est super omne nomen."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "text",
+                "text": "Cristo se ha hecho por nosotros obediente hasta la muerte, y una muerte de cruz. Por eso Dios lo exaltó sobre todo y le concedió el Nombre-sobre-todo-nombre."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "text",
+                "text": "Christ became obedient for us even to death dying on the cross. Therefore God raised him on high and gave him a name above all other names."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "Jesus Cristo se tornou obediente, obediente até à morte numa cruz; pelo que o Senhor Deus o exaltou, e deu-lhe um nome muito acima de outro nome."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "Lode e onore a te, Signore Gesù! Cristo si è fatto obbediente fino alla morte e a una morte di croce. Per questo Dio lo esaltò e gli donò il nome che è al di sopra di ogni nome. Lode e onore a te, Signore Gesù!"
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Gloire et louange à toi, Seigneur Jésus ! Pour nous, le Christ est devenu obéissant, jusqu’à la mort, et la mort de la croix. C’est pourquoi Dieu l’a exalté : il l’a doté du Nom qui est au-dessus de tout nom. Gloire et louange à toi, Seigneur Jésus !"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "text",
+                "text": "Christus Sieger, Christus König, Christus Herr in Ewigkeit! Christus war für uns gehorsam bis zum Tod, bis zum Tod am Kreuz. Darum hat ihn Gott über alle erhöht und ihm den Namen gegeben, der größer ist als alle Namen. Christus Sieger, Christus König, Christus Herr in Ewigkeit!"
+              }
+            ]
+          ]
         }
       },
       "gospel": {

@@ -1323,94 +1323,178 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Allelúia. Beáta Virgo María, quæ conservábat verbum Dei, cónferens in corde suo. Allelúia.",
-            "es": "Aleluya. Bienaventurada Virgen María, que conservaba la palabra de Dios, meditándola en su corazón. Aleluya.",
-            "en": "Alleluia, alleluia. Blessed is the Virgin Mary, who kept the word of God, and pondered it in her heart. Alleluia.",
-            "pt-BR": "Aleluia, aleluia. Bendita é a Virgem Maria, que guardava a Palavra de Deus, meditando-a em seu coração. Aleluia.",
-            "it": "Canto al Vangelo Cf. Lc 2, 19 Alleluia, alleluia. Beata la Vergine Maria: custodiva la parola di Dio, meditandola nel suo cuore. Alleluia.",
-            "fr": "Alléluia Heureuse Vierge Marie ! Attentive à garder la parole de Dieu, elle la méditait dans son cœur ! Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Lk 2, 19 Halleluja. Halleluja. Selig bist du, Jungfrau Maria; du hast das Wort Gottes bewahrt und in deinem Herzen erwogen. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Beáta Virgo María, quæ conservábat verbum Dei, cónferens in corde suo. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Bienaventurada Virgen María, que conservaba la palabra de Dios, meditándola en su corazón. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Blessed is the Virgin Mary, who kept the word of God, and pondered it in her heart. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Bendita é a Virgem Maria, que guardava a Palavra de Deus, meditando-a em seu coração. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Lc 2, 19"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Beata la Vergine Maria: custodiva la parola di Dio, meditandola nel suo cuore. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia Heureuse Vierge Marie ! Attentive à garder la parole de Dieu, elle la méditait dans son cœur ! Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Lk 2, 19"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Selig bist du, Jungfrau Maria; du hast das Wort Gottes bewahrt und in deinem Herzen erwogen. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "it": "Cf. Lc 2, 19",
           "de": "vgl. Lk 2, 19"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Beáta Virgo María, quæ conservábat verbum Dei, cónferens in corde suo."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Bienaventurada Virgen María, que conservaba la palabra de Dios, meditándola en su corazón."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Blessed is the Virgin Mary, who kept the word of God, and pondered it in her heart."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Bendita é a Virgem Maria, que guardava a Palavra de Deus, meditando-a em seu coração."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Beata la Vergine Maria: custodiva la parola di Dio, meditandola nel suo cuore."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Heureuse Vierge Marie ! Attentive à garder la parole de Dieu, elle la méditait dans son cœur !"
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Selig bist du, Jungfrau Maria; du hast das Wort Gottes bewahrt und in deinem Herzen erwogen."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

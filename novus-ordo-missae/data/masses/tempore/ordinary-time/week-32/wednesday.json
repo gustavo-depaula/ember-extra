@@ -649,127 +649,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia 1 Th 5, 18 Allelúia. In ómnibus grátias ágite; hæc enim volúntas Dei est in Christo Iesu erga vos. Allelúia.",
-            "es": "Aleluya 1 Th 5, 18 Aleluya. Dad gracias en toda ocasión: esta es la voluntad de Dios en Cristo Jesús respecto de vosotros. Aleluya.",
-            "en": "Alleluia, alleluia. For all things give thanks to God, because this is what he expects from you in Jesus Christ. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho 1 Th 5, 18 Aleluia, aleluia. Em tudo dai graças, pois esta é a vontade de Deus convosco, em Cristo, o Senhor. Aleluia.",
-            "it": "Canto al Vangelo 1Ts 5,18 Alleluia, alleluia. In ogni cosa rendete grazie: questa infatti è la volontà di Dio in Cristo Gesù verso di voi. Alleluia.",
-            "fr": "Alléluia 1 Th 5, 18 Alléluia Rendez grâce en toute circonstance : c’est la volonté de Dieu à votre égard dans le Christ Jésus. Alléluia.",
-            "de": "Ruf vor dem Evangelium 1 Thess 5, 18 Halleluja. Halleluja. Dankt für alles, denn das will Gott von euch, die ihr Christus Jesus gehört. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Th 5, 18"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. In ómnibus grátias ágite; hæc enim volúntas Dei est in Christo Iesu erga vos. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Th 5, 18"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Dad gracias en toda ocasión: esta es la voluntad de Dios en Cristo Jesús respecto de vosotros. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. For all things give thanks to God, because this is what he expects from you in Jesus Christ. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Th 5, 18"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Em tudo dai graças, pois esta é a vontade de Deus convosco, em Cristo, o Senhor. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "1Ts 5,18"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. In ogni cosa rendete grazie: questa infatti è la volontà di Dio in Cristo Gesù verso di voi. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Th 5, 18"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Rendez grâce en toute circonstance : c’est la volonté de Dieu à votre égard dans le Christ Jésus. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Thess 5, 18"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Dankt für alles, denn das will Gott von euch, die ihr Christus Jesus gehört. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "1 Th 5, 18",
           "es": "1 Th 5, 18",
@@ -777,6 +656,179 @@
           "it": "1Ts 5,18",
           "fr": "1 Th 5, 18",
           "de": "1 Thess 5, 18"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "In ómnibus grátias ágite; hæc enim volúntas Dei est in Christo Iesu erga vos."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Dad gracias en toda ocasión: esta es la voluntad de Dios en Cristo Jesús respecto de vosotros."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "For all things give thanks to God, because this is what he expects from you in Jesus Christ."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Em tudo dai graças, pois esta é a vontade de Deus convosco, em Cristo, o Senhor."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "In ogni cosa rendete grazie: questa infatti è la volontà di Dio in Cristo Gesù verso di voi."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Rendez grâce en toute circonstance : c’est la volonté de Dieu à votre égard dans le Christ Jésus."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Dankt für alles, denn das will Gott von euch, die ihr Christus Jesus gehört."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -1895,127 +1947,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia 1 Th 5, 18 Allelúia. In ómnibus grátias ágite; hæc enim volúntas Dei est in Christo Iesu erga vos. Allelúia.",
-            "es": "Aleluya 1 Th 5, 18 Aleluya. Dad gracias en toda ocasión: esta es la voluntad de Dios en Cristo Jesús respecto de vosotros. Aleluya.",
-            "en": "Alleluia, alleluia. For all things give thanks to God, because this is what he expects from you in Jesus Christ. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho 1 Th 5, 18 Aleluia, aleluia. Em tudo dai graças, pois esta é a vontade de Deus convosco, em Cristo, o Senhor. Aleluia.",
-            "it": "Canto al Vangelo 1Ts 5,18 Alleluia, alleluia. In ogni cosa rendete grazie: questa infatti è la volontà di Dio in Cristo Gesù verso di voi. Alleluia.",
-            "fr": "Alléluia 1 Th 5, 18 Alléluia Rendez grâce en toute circonstance : c’est la volonté de Dieu à votre égard dans le Christ Jésus. Alléluia.",
-            "de": "Ruf vor dem Evangelium 1 Thess 5, 18 Halleluja. Halleluja. Dankt für alles, denn das will Gott von euch, die ihr Christus Jesus gehört. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Th 5, 18"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. In ómnibus grátias ágite; hæc enim volúntas Dei est in Christo Iesu erga vos. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Th 5, 18"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Dad gracias en toda ocasión: esta es la voluntad de Dios en Cristo Jesús respecto de vosotros. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. For all things give thanks to God, because this is what he expects from you in Jesus Christ. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Th 5, 18"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Em tudo dai graças, pois esta é a vontade de Deus convosco, em Cristo, o Senhor. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "1Ts 5,18"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. In ogni cosa rendete grazie: questa infatti è la volontà di Dio in Cristo Gesù verso di voi. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Th 5, 18"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Rendez grâce en toute circonstance : c’est la volonté de Dieu à votre égard dans le Christ Jésus. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Thess 5, 18"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Dankt für alles, denn das will Gott von euch, die ihr Christus Jesus gehört. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "1 Th 5, 18",
           "es": "1 Th 5, 18",
@@ -2023,6 +1954,179 @@
           "it": "1Ts 5,18",
           "fr": "1 Th 5, 18",
           "de": "1 Thess 5, 18"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "In ómnibus grátias ágite; hæc enim volúntas Dei est in Christo Iesu erga vos."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Dad gracias en toda ocasión: esta es la voluntad de Dios en Cristo Jesús respecto de vosotros."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "For all things give thanks to God, because this is what he expects from you in Jesus Christ."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Em tudo dai graças, pois esta é a vontade de Deus convosco, em Cristo, o Senhor."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "In ogni cosa rendete grazie: questa infatti è la volontà di Dio in Cristo Gesù verso di voi."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Rendez grâce en toute circonstance : c’est la volonté de Dieu à votre égard dans le Christ Jésus."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Dankt für alles, denn das will Gott von euch, die ihr Christus Jesus gehört."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

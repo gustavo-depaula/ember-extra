@@ -1728,127 +1728,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 15, 5 Allelúia. Ego sum vitis, vos pálmites, dicit Dóminus; qui manet in me, et ego in eo, hic fert fructum multum. Allelúia.",
-            "es": "Aleluya Jn 15, 5 Aleluya. Yo soy la vid, vosotros los sarmientos —dice el Señor—; el que permanece en mí y yo en él, ese da fruto abundante. Aleluya.",
-            "en": "Alleluia, alleluia. I am the vine, and you are the branches, says the Lord; he who lives in me, and I in him, will bear much fruit. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 15, 5 Aleluia, aleluia. Eu sou a videira e vós os ramos, um fruto abundante vós haveis de dar. Ligados em mim e eu em vós, se assim vós ficardes, bem muito será! Aleluia.",
-            "it": "Canto al Vangelo Gv 15,5 Alleluia, alleluia. Io sono la vite, voi i tralci, dice il Signore; chi rimane in me, e io in lui, porta molto frutto. Alleluia.",
-            "fr": "Alléluia Io 15, 5 Alléluia Moi, je suis la vigne, et vous les sarments, dit le Seigneur. Celui qui demeure en moi et en qui je demeure, celui-là porte beaucoup de fruit. Alléluia.",
-            "de": "Ruf vor dem Evangelium Joh 15, 5 Halleluja. Halleluja. (So spricht der Herr:) Ich bin der Weinstock, ihr seid die Reben. Wer in mir bleibt und in wem ich bleibe, der bringt reiche Frucht. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 15, 5"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Ego sum vitis, vos pálmites, dicit Dóminus; qui manet in me, et ego in eo, hic fert fructum multum. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 15, 5"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Yo soy la vid, vosotros los sarmientos —dice el Señor—; el que permanece en mí y yo en él, ese da fruto abundante. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. I am the vine, and you are the branches, says the Lord; he who lives in me, and I in him, will bear much fruit. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 15, 5"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Eu sou a videira e vós os ramos, um fruto abundante vós haveis de dar. Ligados em mim e eu em vós, se assim vós ficardes, bem muito será! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gv 15,5"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Io sono la vite, voi i tralci, dice il Signore; chi rimane in me, e io in lui, porta molto frutto. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 15, 5"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Moi, je suis la vigne, et vous les sarments, dit le Seigneur. Celui qui demeure en moi et en qui je demeure, celui-là porte beaucoup de fruit. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joh 15, 5"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Ich bin der Weinstock, ihr seid die Reben. Wer in mir bleibt und in wem ich bleibe, der bringt reiche Frucht. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 15, 5",
           "es": "Jn 15, 5",
@@ -1856,6 +1735,179 @@
           "it": "Gv 15,5",
           "fr": "Io 15, 5",
           "de": "Joh 15, 5"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Ego sum vitis, vos pálmites, dicit Dóminus; qui manet in me, et ego in eo, hic fert fructum multum."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Yo soy la vid, vosotros los sarmientos —dice el Señor—; el que permanece en mí y yo en él, ese da fruto abundante."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "I am the vine, and you are the branches, says the Lord; he who lives in me, and I in him, will bear much fruit."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Eu sou a videira e vós os ramos, um fruto abundante vós haveis de dar. Ligados em mim e eu em vós, se assim vós ficardes, bem muito será!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Io sono la vite, voi i tralci, dice il Signore; chi rimane in me, e io in lui, porta molto frutto."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Moi, je suis la vigne, et vous les sarments, dit le Seigneur. Celui qui demeure en moi et en qui je demeure, celui-là porte beaucoup de fruit."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Ich bin der Weinstock, ihr seid die Reben. Wer in mir bleibt und in wem ich bleibe, der bringt reiche Frucht."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -2944,125 +2996,185 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. Io 17, 17b. a Allelúia. Sermo tuus, Dómine, véritas est; sanctífica nos in veritáte. Allelúia.",
-            "es": "Aleluya Cf. Jn 17, 17b. a Aleluya. Tu palabra, Señor, es verdad; santifícanos en la verdad. Aleluya.",
-            "en": "Alleluia, alleluia. Your word, O Lord, is truth; make us holy in the truth. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Cf. Jo 17, 17b. a Aleluia, aleluia. A vossa palavra, Senhor, é a verdade; santificai-nos na verdade. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. La lettera uccide, lo Spirito dà vita, e dove c’è lo Spirito del Signore c’è la libertà. Alleluia.",
-            "fr": "Alléluia Cf. Io 17, 17b. a Alléluia Ta parole, Seigneur, est vérité ; dans cette vérité, sanctifie-nous. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Joh 17, 17 Halleluja. Halleluja. Dein Wort, o Herr, ist Wahrheit; heilige uns in der Wahrheit! Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Io 17, 17b. a"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Sermo tuus, Dómine, véritas est; sanctífica nos in veritáte. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Jn 17, 17b. a"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Tu palabra, Señor, es verdad; santifícanos en la verdad. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Your word, O Lord, is truth; make us holy in the truth. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Jo 17, 17b. a"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. A vossa palavra, Senhor, é a verdade; santificai-nos na verdade. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. La lettera uccide, lo Spirito dà vita, e dove c’è lo Spirito del Signore c’è la libertà. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Io 17, 17b. a"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Ta parole, Seigneur, est vérité ; dans cette vérité, sanctifie-nous. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Joh 17, 17"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Dein Wort, o Herr, ist Wahrheit; heilige uns in der Wahrheit! Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Io 17, 17b. a",
           "es": "Cf. Jn 17, 17b. a",
           "pt-BR": "Cf. Jo 17, 17b. a",
           "fr": "Cf. Io 17, 17b. a",
           "de": "vgl. Joh 17, 17"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Sermo tuus, Dómine, véritas est; sanctífica nos in veritáte."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Tu palabra, Señor, es verdad; santifícanos en la verdad."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Your word, O Lord, is truth; make us holy in the truth."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "A vossa palavra, Senhor, é a verdade; santificai-nos na verdade."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "La lettera uccide, lo Spirito dà vita, e dove c’è lo Spirito del Signore c’è la libertà."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Ta parole, Seigneur, est vérité ; dans cette vérité, sanctifie-nous."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Dein Wort, o Herr, ist Wahrheit; heilige uns in der Wahrheit!"
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -3950,127 +4062,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 3, 16 Allelúia. Sic enim diléxit Deus mundum, ut Fílium suum unigénitum daret; omnis qui credit in eum habet vitam ætérnam. Allelúia.",
-            "es": "Aleluya Jn 3, 16 Aleluya. Tanto amó Dios al mundo, que entregó a su Unigénito; todo el que cree en él tiene vida eterna. Aleluya.",
-            "en": "Alleluia, alleluia. God loved the world so much, he gave us his only Son, that all who believe in him might have eternal life. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 3, 16 Aleluia, aleluia. Deus amou tanto o mundo que lhe deu o seu Filho unigénito; quem acredita n'Ele tem a vida eterna. Aleluia.",
-            "it": "Canto al Vangelo Gv 3,16 Alleluia, alleluia. Alleluia, alleluia. Dio ha tanto amato il mondo da dare il suo Figlio unigenito; chi crede in lui ha la vita eterna. Alleluia.",
-            "fr": "Alléluia Io 3, 16 Alléluia Dieu a tellement aimé le monde qu’il a donné son Fils unique, afin que ceux qui croient en lui aient la vie éternelle. Alléluia.",
-            "de": "Ruf vor dem Evangelium Joh 3, 16 Halleluja. Halleluja. So sehr hat Gott die Welt geliebt, dass er seinen einzigen Sohn hingab, damit jeder, der an ihn glaubt, in ihm das ewige Leben hat. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 3, 16"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Sic enim diléxit Deus mundum, ut Fílium suum unigénitum daret; omnis qui credit in eum habet vitam ætérnam. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 3, 16"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Tanto amó Dios al mundo, que entregó a su Unigénito; todo el que cree en él tiene vida eterna. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. God loved the world so much, he gave us his only Son, that all who believe in him might have eternal life. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 3, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Deus amou tanto o mundo que lhe deu o seu Filho unigénito; quem acredita n'Ele tem a vida eterna. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gv 3,16"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Alleluia, alleluia. Dio ha tanto amato il mondo da dare il suo Figlio unigenito; chi crede in lui ha la vita eterna. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 3, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Dieu a tellement aimé le monde qu’il a donné son Fils unique, afin que ceux qui croient en lui aient la vie éternelle. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joh 3, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. So sehr hat Gott die Welt geliebt, dass er seinen einzigen Sohn hingab, damit jeder, der an ihn glaubt, in ihm das ewige Leben hat. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 3, 16",
           "es": "Jn 3, 16",
@@ -4078,6 +4069,179 @@
           "it": "Gv 3,16",
           "fr": "Io 3, 16",
           "de": "Joh 3, 16"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Sic enim diléxit Deus mundum, ut Fílium suum unigénitum daret; omnis qui credit in eum habet vitam ætérnam."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Tanto amó Dios al mundo, que entregó a su Unigénito; todo el que cree en él tiene vida eterna."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "God loved the world so much, he gave us his only Son, that all who believe in him might have eternal life."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Deus amou tanto o mundo que lhe deu o seu Filho unigénito; quem acredita n'Ele tem a vida eterna."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Alleluia, alleluia. Dio ha tanto amato il mondo da dare il suo Figlio unigenito; chi crede in lui ha la vita eterna."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Dieu a tellement aimé le monde qu’il a donné son Fils unique, afin que ceux qui croient en lui aient la vie éternelle."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "So sehr hat Gott die Welt geliebt, dass er seinen einzigen Sohn hingab, damit jeder, der an ihn glaubt, in ihm das ewige Leben hat."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

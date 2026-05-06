@@ -718,127 +718,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Lc 21, 28 Allelúia. Respícite et leváte cápita vestra, quóniam appropínquat redémptio vestra. Allelúia.",
-            "es": "Aleluya Lc 21, 28 Aleluya. Levantaos, alzad la cabeza; se acerca vuestra liberación. Aleluya.",
-            "en": "Alleluia, alleluia. Lift up your heads and see; your redemption is near at hand. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Lc 21, 28 Aleluia, aleluia. Levantai vossa cabeça e olhai, pois, a vossa redenção se aproxima! Aleluia.",
-            "it": "Canto al Vangelo Lc 21, 28 Alleluia, alleluia. Risollevatevi e alzate il capo, perché la vostra liberazione è vicina. Alleluia.",
-            "fr": "Alléluia Lc 21, 28 Alléluia Redressez-vous et relevez la tête, car votre rédemption approche. Alléluia.",
-            "de": "Ruf vor dem Evangelium Lk 21, 28 Halleluja. Halleluja. Richtet euch auf, und erhebt euer Haupt; denn eure Erlösung ist nahe. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 21, 28"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Respícite et leváte cápita vestra, quóniam appropínquat redémptio vestra. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 21, 28"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Levantaos, alzad la cabeza; se acerca vuestra liberación. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Lift up your heads and see; your redemption is near at hand. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 21, 28"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Levantai vossa cabeça e olhai, pois, a vossa redenção se aproxima! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 21, 28"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Risollevatevi e alzate il capo, perché la vostra liberazione è vicina. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 21, 28"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Redressez-vous et relevez la tête, car votre rédemption approche. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lk 21, 28"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Richtet euch auf, und erhebt euer Haupt; denn eure Erlösung ist nahe. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Lc 21, 28",
           "es": "Lc 21, 28",
@@ -846,6 +725,179 @@
           "it": "Lc 21, 28",
           "fr": "Lc 21, 28",
           "de": "Lk 21, 28"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Respícite et leváte cápita vestra, quóniam appropínquat redémptio vestra."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Levantaos, alzad la cabeza; se acerca vuestra liberación."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Lift up your heads and see; your redemption is near at hand."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Levantai vossa cabeça e olhai, pois, a vossa redenção se aproxima!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Risollevatevi e alzate il capo, perché la vostra liberazione è vicina."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Redressez-vous et relevez la tête, car votre rédemption approche."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Richtet euch auf, und erhebt euer Haupt; denn eure Erlösung ist nahe."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -1770,127 +1822,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Lc 21, 28 Allelúia. Respícite et leváte cápita vestra, quóniam appropínquat redémptio vestra. Allelúia.",
-            "es": "Aleluya Lc 21, 28 Aleluya. Levantaos, alzad la cabeza; se acerca vuestra liberación. Aleluya.",
-            "en": "Alleluia, alleluia. Lift up your heads and see; your redemption is near at hand. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Lc 21, 28 Aleluia, aleluia. Levantai vossa cabeça e olhai, pois, a vossa redenção se aproxima! Aleluia.",
-            "it": "Canto al Vangelo Lc 21, 28 Alleluia, alleluia. Risollevatevi e alzate il capo, perché la vostra liberazione è vicina. Alleluia.",
-            "fr": "Alléluia Lc 21, 28 Alléluia Redressez-vous et relevez la tête, car votre rédemption approche. Alléluia.",
-            "de": "Ruf vor dem Evangelium Lk 21, 28 Halleluja. Halleluja. Richtet euch auf, und erhebt euer Haupt; denn eure Erlösung ist nahe. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 21, 28"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Respícite et leváte cápita vestra, quóniam appropínquat redémptio vestra. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 21, 28"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Levantaos, alzad la cabeza; se acerca vuestra liberación. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Lift up your heads and see; your redemption is near at hand. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 21, 28"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Levantai vossa cabeça e olhai, pois, a vossa redenção se aproxima! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 21, 28"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Risollevatevi e alzate il capo, perché la vostra liberazione è vicina. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 21, 28"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Redressez-vous et relevez la tête, car votre rédemption approche. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lk 21, 28"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Richtet euch auf, und erhebt euer Haupt; denn eure Erlösung ist nahe. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Lc 21, 28",
           "es": "Lc 21, 28",
@@ -1898,6 +1829,179 @@
           "it": "Lc 21, 28",
           "fr": "Lc 21, 28",
           "de": "Lk 21, 28"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Respícite et leváte cápita vestra, quóniam appropínquat redémptio vestra."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Levantaos, alzad la cabeza; se acerca vuestra liberación."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Lift up your heads and see; your redemption is near at hand."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Levantai vossa cabeça e olhai, pois, a vossa redenção se aproxima!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Risollevatevi e alzate il capo, perché la vostra liberazione è vicina."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Redressez-vous et relevez la tête, car votre rédemption approche."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Richtet euch auf, und erhebt euer Haupt; denn eure Erlösung ist nahe."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

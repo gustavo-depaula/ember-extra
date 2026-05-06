@@ -2005,125 +2005,185 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 14, 5 Allelúia. Ego sum via, véritas et vita, dicit Dóminus; nemo venit ad Patrem nisi per me. Allelúia.",
-            "es": "Aleluya Jn 14, 5 Aleluya. Yo soy el camino y la verdad y la vida —dice el Señor—; nadie va al Padre sino por mí. Aleluya.",
-            "en": "Alleluia, alleluia. Jesus said: I am the way, the truth, and the life. No one can come to the Father except through me. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 14, 5 Aleluia, aleluia. Eu sou o Caminho, a Verdade e a Vida. Ninguém chega ao Pai senão por mim. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Io sono la via, la verità, la vita, dice il Signore; nessuno viene al Padre se non per mezzo di me. Alleluia.",
-            "fr": "Alléluia Io 14, 5 Alléluia Moi, je suis le Chemin, la Vérité et la Vie, dit le Seigneur. Personne ne va vers le Père sans passer par moi. Alléluia.",
-            "de": "Ruf vor dem Evangelium Joh 10, 6 Halleluja. Halleluja. (So spricht der Herr:) Ich bin der Weg und die Wahrheit und das Leben. Niemand kommt zum Vater außer durch mich. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 14, 5"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Ego sum via, véritas et vita, dicit Dóminus; nemo venit ad Patrem nisi per me. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 14, 5"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Yo soy el camino y la verdad y la vida —dice el Señor—; nadie va al Padre sino por mí. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Jesus said: I am the way, the truth, and the life. No one can come to the Father except through me. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 14, 5"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Eu sou o Caminho, a Verdade e a Vida. Ninguém chega ao Pai senão por mim. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Io sono la via, la verità, la vita, dice il Signore; nessuno viene al Padre se non per mezzo di me. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 14, 5"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Moi, je suis le Chemin, la Vérité et la Vie, dit le Seigneur. Personne ne va vers le Père sans passer par moi. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joh 10, 6"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Ich bin der Weg und die Wahrheit und das Leben. Niemand kommt zum Vater außer durch mich. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 14, 5",
           "es": "Jn 14, 5",
           "pt-BR": "Jo 14, 5",
           "fr": "Io 14, 5",
           "de": "Joh 10, 6"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Ego sum via, véritas et vita, dicit Dóminus; nemo venit ad Patrem nisi per me."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Yo soy el camino y la verdad y la vida —dice el Señor—; nadie va al Padre sino por mí."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Jesus said: I am the way, the truth, and the life. No one can come to the Father except through me."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Eu sou o Caminho, a Verdade e a Vida. Ninguém chega ao Pai senão por mim."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Io sono la via, la verità, la vita, dice il Signore; nessuno viene al Padre se non per mezzo di me."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Moi, je suis le Chemin, la Vérité et la Vie, dit le Seigneur. Personne ne va vers le Père sans passer par moi."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Ich bin der Weg und die Wahrheit und das Leben. Niemand kommt zum Vater außer durch mich."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -3358,125 +3418,185 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 15, 4. 5b Allelúia. Manéte in me, et ego in vobis, dicit Dóminus; qui manet in me fert fructrum multum. Allelúia.",
-            "es": "Aleluya Jn 15, 4. 5b Aleluya. Permaneced en mí, y yo en vosotros —dice el Señor—; el que permanece en mí da fruto abundante. Aleluya.",
-            "en": "Alleluia, alleluia. Make your home in me, as I make mine in you. Whoever remains in me bears fruit in plenty. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 15, 4. 5b Aleluia, aleluia. Ficai em mim, e eu em vós hei de ficar, diz o Senhor; quem em mim permanece, esse dá muito fruto. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Rimanete in me e io in voi, dice il Signore, chi rimane in me porta molto frutto. Alleluia.",
-            "fr": "Alléluia Io 15, 4. 5b Alléluia Demeurez en moi, comme moi en vous, dit le Seigneur ; celui qui demeure en moi porte beaucoup de fruit. Alléluia.",
-            "de": "Ruf vor dem Evangelium Joh 15, 4a. 5b Halleluja. Halleluja. (So spricht der Herr:) Bleibt in mir, dann bleibe ich in euch. Wer in mir bleibt, der bringt reiche Frucht. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 15, 4. 5b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Manéte in me, et ego in vobis, dicit Dóminus; qui manet in me fert fructrum multum. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 15, 4. 5b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Permaneced en mí, y yo en vosotros —dice el Señor—; el que permanece en mí da fruto abundante. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Make your home in me, as I make mine in you. Whoever remains in me bears fruit in plenty. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 15, 4. 5b"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Ficai em mim, e eu em vós hei de ficar, diz o Senhor; quem em mim permanece, esse dá muito fruto. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Rimanete in me e io in voi, dice il Signore, chi rimane in me porta molto frutto. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 15, 4. 5b"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Demeurez en moi, comme moi en vous, dit le Seigneur ; celui qui demeure en moi porte beaucoup de fruit. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joh 15, 4a. 5b"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Bleibt in mir, dann bleibe ich in euch. Wer in mir bleibt, der bringt reiche Frucht. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 15, 4. 5b",
           "es": "Jn 15, 4. 5b",
           "pt-BR": "Jo 15, 4. 5b",
           "fr": "Io 15, 4. 5b",
           "de": "Joh 15, 4a. 5b"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Manéte in me, et ego in vobis, dicit Dóminus; qui manet in me fert fructrum multum."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Permaneced en mí, y yo en vosotros —dice el Señor—; el que permanece en mí da fruto abundante."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Make your home in me, as I make mine in you. Whoever remains in me bears fruit in plenty."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Ficai em mim, e eu em vós hei de ficar, diz o Senhor; quem em mim permanece, esse dá muito fruto."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Rimanete in me e io in voi, dice il Signore, chi rimane in me porta molto frutto."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Demeurez en moi, comme moi en vous, dit le Seigneur ; celui qui demeure en moi porte beaucoup de fruit."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Bleibt in mir, dann bleibe ich in euch. Wer in mir bleibt, der bringt reiche Frucht."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -4589,125 +4709,185 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 13, 34 Allelúia. Mandátum novum do vobis, dicit Dóminus; ut diligátis ínvicem, sicut diléxi vos. Allelúia.",
-            "es": "Aleluya Jn 13, 34 Aleluya. Os doy un mandamiento nuevo —dice el Señor—: que os améis unos a otros, como yo os he amado. Aleluya.",
-            "en": "Alleluia, alleluia. Jesus said: I give you a new commandment: love one another, just as I have loved you. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 13, 34 Aleluia, aleluia. Eu vos dou novo preceito que uns aos outros vos ameis, como eu vos tenho amado. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Vi do un comandamento nuovo, dice il Signore: come io ho amato voi, così amatevi anche voi gli uni gli altri. Alleluia.",
-            "fr": "Alléluia Io 13, 34 Alléluia Je vous donne un commandement nouveau, dit le Seigneur : « Aimez-vous les uns les autres, comme je vous ai aimés. » Alléluia.",
-            "de": "Ruf vor dem Evangelium Joh 13, 34 Halleluja. Halleluja. (So spricht der Herr:) Ein neues Gebot gebe ich euch: Wie ich euch geliebt habe, so sollt auch ihr einander lieben. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 13, 34"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Mandátum novum do vobis, dicit Dóminus; ut diligátis ínvicem, sicut diléxi vos. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 13, 34"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Os doy un mandamiento nuevo —dice el Señor—: que os améis unos a otros, como yo os he amado. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Jesus said: I give you a new commandment: love one another, just as I have loved you. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 13, 34"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Eu vos dou novo preceito que uns aos outros vos ameis, como eu vos tenho amado. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Vi do un comandamento nuovo, dice il Signore: come io ho amato voi, così amatevi anche voi gli uni gli altri. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 13, 34"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Je vous donne un commandement nouveau, dit le Seigneur : « Aimez-vous les uns les autres, comme je vous ai aimés. » Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joh 13, 34"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Ein neues Gebot gebe ich euch: Wie ich euch geliebt habe, so sollt auch ihr einander lieben. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 13, 34",
           "es": "Jn 13, 34",
           "pt-BR": "Jo 13, 34",
           "fr": "Io 13, 34",
           "de": "Joh 13, 34"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Mandátum novum do vobis, dicit Dóminus; ut diligátis ínvicem, sicut diléxi vos."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Os doy un mandamiento nuevo —dice el Señor—: que os améis unos a otros, como yo os he amado."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Jesus said: I give you a new commandment: love one another, just as I have loved you."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Eu vos dou novo preceito que uns aos outros vos ameis, como eu vos tenho amado."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Vi do un comandamento nuovo, dice il Signore: come io ho amato voi, così amatevi anche voi gli uni gli altri."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Je vous donne un commandement nouveau, dit le Seigneur : « Aimez-vous les uns les autres, comme je vous ai aimés. »"
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Ein neues Gebot gebe ich euch: Wie ich euch geliebt habe, so sollt auch ihr einander lieben."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

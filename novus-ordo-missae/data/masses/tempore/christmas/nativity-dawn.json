@@ -1699,127 +1699,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Lc 2, 14 Allelúia. Glória in altíssimis Deo, et super terram pax in homínibus bonæ voluntátis. Allelúia.",
-            "es": "Aleluya Lc 2, 14 Aleluya. Gloria a Dios en el cielo, y en la tierra paz a los hombres de buena voluntad. Aleluya.",
-            "en": "Alleluia, alleluia. Glory to god in heaven, peace and grace to his people on earth. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Lc 2, 14 Aleluia, aleluia. Glória a Deus nos altos céus, e paz na terra entre os homens, que ele ama. Aleluia.",
-            "it": "Canto al Vangelo Lc 2,14 Alleluia, alleluia. Gloria a Dio nel più alto dei cieli e sulla terra pace agli uomini, che egli ama. Alleluia.",
-            "fr": "Alléluia Lc 2, 14 Alléluia. Alléluia. Gloire à Dieu au plus haut des cieux, et paix sur la terre aux hommes, qu’Il aime ! Alléluia.",
-            "de": "Ruf vor dem Evangelium Lk 2, 14 Halleluja. Halleluja. Verherrlicht ist Gott in der Höhe, und auf Erden ist Friede bei den Menschen seiner Gnade. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 2, 14"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Glória in altíssimis Deo, et super terram pax in homínibus bonæ voluntátis. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 2, 14"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Gloria a Dios en el cielo, y en la tierra paz a los hombres de buena voluntad. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Glory to god in heaven, peace and grace to his people on earth. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 2, 14"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Glória a Deus nos altos céus, e paz na terra entre os homens, que ele ama. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 2,14"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Gloria a Dio nel più alto dei cieli e sulla terra pace agli uomini, che egli ama. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 2, 14"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia. Alléluia. Gloire à Dieu au plus haut des cieux, et paix sur la terre aux hommes, qu’Il aime ! Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lk 2, 14"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Verherrlicht ist Gott in der Höhe, und auf Erden ist Friede bei den Menschen seiner Gnade. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Lc 2, 14",
           "es": "Lc 2, 14",
@@ -1827,6 +1706,179 @@
           "it": "Lc 2,14",
           "fr": "Lc 2, 14",
           "de": "Lk 2, 14"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia. Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Glória in altíssimis Deo, et super terram pax in homínibus bonæ voluntátis."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Gloria a Dios en el cielo, y en la tierra paz a los hombres de buena voluntad."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Glory to god in heaven, peace and grace to his people on earth."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Glória a Deus nos altos céus, e paz na terra entre os homens, que ele ama."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Gloria a Dio nel più alto dei cieli e sulla terra pace agli uomini, che egli ama."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia. Alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Gloire à Dieu au plus haut des cieux, et paix sur la terre aux hommes, qu’Il aime !"
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Verherrlicht ist Gott in der Höhe, und auf Erden ist Friede bei den Menschen seiner Gnade."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

@@ -801,127 +801,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 12, 31b-32 Allelúia. Nunc princeps huius mundi eiciétur foras, dicit Dóminus; et ego, si exaltátus fúero a terra, omnes traham ad meípsum. Allelúia.",
-            "es": "Aleluya Jn 12, 31b-32 Aleluya. Ahora el príncipe de este mundo va a ser echado fuera —dice el Señor—. Y cuando yo sea elevado sobre la tierra, atraeré a todos hacia mí. Aleluya.",
-            "en": "Alleluia, alleluia. The prince of this world will now be cast out, and when I am lifted up from the earth I will draw all people to myself. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jn 12, 31b-32 Aleluia, aleluia. Agora o principe deste mundo há de ser lançado fora; quando eu for elevado da terra, atrairei para mimntodo ser. Aleluia.",
-            "it": "Canto al Vangelo Gv 12,31b.32 Alleluia, alleluia. Ora il principe di questo mondo sarà gettato fuori. E io, quando sarò innalzato da terra, attirerò tutti a me. Alleluia.",
-            "fr": "Alléluia Io 12, 31b-32 Alléluia Maintenant le prince de ce monde va être jeté dehors, dit le Seigneur ; et moi, quand j’aurai été élevé de terre, j’attirerai à moi tous les hommes. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Joh 12, 31b. Halleluja. Halleluja. (So spricht der Herr:) Jetzt wird der Herrscher dieser Welt hinausgeworfen, und wenn ich über die Erde erhöht bin, werde ich alle an mich ziehen. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 12, 31b-32"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Nunc princeps huius mundi eiciétur foras, dicit Dóminus; et ego, si exaltátus fúero a terra, omnes traham ad meípsum. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 12, 31b-32"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Ahora el príncipe de este mundo va a ser echado fuera —dice el Señor—. Y cuando yo sea elevado sobre la tierra, atraeré a todos hacia mí. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. The prince of this world will now be cast out, and when I am lifted up from the earth I will draw all people to myself. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 12, 31b-32"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Agora o principe deste mundo há de ser lançado fora; quando eu for elevado da terra, atrairei para mimntodo ser. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gv 12,31b.32"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Ora il principe di questo mondo sarà gettato fuori. E io, quando sarò innalzato da terra, attirerò tutti a me. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 12, 31b-32"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Maintenant le prince de ce monde va être jeté dehors, dit le Seigneur ; et moi, quand j’aurai été élevé de terre, j’attirerai à moi tous les hommes. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Joh 12, 31b."
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Jetzt wird der Herrscher dieser Welt hinausgeworfen, und wenn ich über die Erde erhöht bin, werde ich alle an mich ziehen. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 12, 31b-32",
           "es": "Jn 12, 31b-32",
@@ -929,6 +808,179 @@
           "it": "Gv 12,31b.32",
           "fr": "Io 12, 31b-32",
           "de": "vgl. Joh 12, 31b"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Nunc princeps huius mundi eiciétur foras, dicit Dóminus; et ego, si exaltátus fúero a terra, omnes traham ad meípsum."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Ahora el príncipe de este mundo va a ser echado fuera —dice el Señor—. Y cuando yo sea elevado sobre la tierra, atraeré a todos hacia mí."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "The prince of this world will now be cast out, and when I am lifted up from the earth I will draw all people to myself."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Agora o principe deste mundo há de ser lançado fora; quando eu for elevado da terra, atrairei para mimntodo ser."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Ora il principe di questo mondo sarà gettato fuori. E io, quando sarò innalzato da terra, attirerò tutti a me."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Maintenant le prince de ce monde va être jeté dehors, dit le Seigneur ; et moi, quand j’aurai été élevé de terre, j’attirerai à moi tous les hommes."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Jetzt wird der Herrscher dieser Welt hinausgeworfen, und wenn ich über die Erde erhöht bin, werde ich alle an mich ziehen."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -1913,127 +1965,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 12, 31b-32 Allelúia. Nunc princeps huius mundi eiciétur foras, dicit Dóminus; et ego, si exaltátus fúero a terra, omnes traham ad meípsum. Allelúia.",
-            "es": "Aleluya Jn 12, 31b-32 Aleluya. Ahora el príncipe de este mundo va a ser echado fuera —dice el Señor—. Y cuando yo sea elevado sobre la tierra, atraeré a todos hacia mí. Aleluya.",
-            "en": "Alleluia, alleluia. The prince of this world will now be cast out, and when I am lifted up from the earth I will draw all people to myself. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jn 12, 31b-32 Aleluia, aleluia. Agora o principe deste mundo há de ser lançado fora; quando eu for elevado da terra, atrairei para mimntodo ser. Aleluia.",
-            "it": "Canto al Vangelo Gv 12,31b.32 Alleluia, alleluia. Ora il principe di questo mondo sarà gettato fuori. E io, quando sarò innalzato da terra, attirerò tutti a me. Alleluia.",
-            "fr": "Alléluia Io 12, 31b-32 Alléluia Maintenant le prince de ce monde va être jeté dehors, dit le Seigneur ; et moi, quand j’aurai été élevé de terre, j’attirerai à moi tous les hommes. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Joh 12, 31b. Halleluja. Halleluja. (So spricht der Herr:) Jetzt wird der Herrscher dieser Welt hinausgeworfen, und wenn ich über die Erde erhöht bin, werde ich alle an mich ziehen. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 12, 31b-32"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Nunc princeps huius mundi eiciétur foras, dicit Dóminus; et ego, si exaltátus fúero a terra, omnes traham ad meípsum. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 12, 31b-32"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Ahora el príncipe de este mundo va a ser echado fuera —dice el Señor—. Y cuando yo sea elevado sobre la tierra, atraeré a todos hacia mí. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. The prince of this world will now be cast out, and when I am lifted up from the earth I will draw all people to myself. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 12, 31b-32"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Agora o principe deste mundo há de ser lançado fora; quando eu for elevado da terra, atrairei para mimntodo ser. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gv 12,31b.32"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Ora il principe di questo mondo sarà gettato fuori. E io, quando sarò innalzato da terra, attirerò tutti a me. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 12, 31b-32"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Maintenant le prince de ce monde va être jeté dehors, dit le Seigneur ; et moi, quand j’aurai été élevé de terre, j’attirerai à moi tous les hommes. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Joh 12, 31b."
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Jetzt wird der Herrscher dieser Welt hinausgeworfen, und wenn ich über die Erde erhöht bin, werde ich alle an mich ziehen. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 12, 31b-32",
           "es": "Jn 12, 31b-32",
@@ -2041,6 +1972,179 @@
           "it": "Gv 12,31b.32",
           "fr": "Io 12, 31b-32",
           "de": "vgl. Joh 12, 31b"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Nunc princeps huius mundi eiciétur foras, dicit Dóminus; et ego, si exaltátus fúero a terra, omnes traham ad meípsum."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Ahora el príncipe de este mundo va a ser echado fuera —dice el Señor—. Y cuando yo sea elevado sobre la tierra, atraeré a todos hacia mí."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "The prince of this world will now be cast out, and when I am lifted up from the earth I will draw all people to myself."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Agora o principe deste mundo há de ser lançado fora; quando eu for elevado da terra, atrairei para mimntodo ser."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Ora il principe di questo mondo sarà gettato fuori. E io, quando sarò innalzato da terra, attirerò tutti a me."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Maintenant le prince de ce monde va être jeté dehors, dit le Seigneur ; et moi, quand j’aurai été élevé de terre, j’attirerai à moi tous les hommes."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Jetzt wird der Herrscher dieser Welt hinausgeworfen, und wenn ich über die Erde erhöht bin, werde ich alle an mich ziehen."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

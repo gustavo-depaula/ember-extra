@@ -818,127 +818,6 @@
             }
           },
           "gospelAcclamation": {
-            "body": {
-              "plain": {
-                "la": "Alleluia Io 17, 19 Allelúia. Pro eis sanctífico meípsum, dicit Dóminus, ut sint et ipsi sanctificáti in veritáte. Allelúia.",
-                "es": "Aleluya Jn 17, 19 Aleluya. Por ellos yo me santifico a mí mismo —dice el Señor—, para que también ellos sean santificados en la verdad. Aleluya.",
-                "en": "Alleluia, alleluia. I consecrate myself for them, so that they also may be consecrated in truth. Alleluia.",
-                "pt-BR": "Aclamação ao Evangelho Jo 17, 19 Aleluia, aleluia. Em favor deles eu me entrego a ti, ó Pai, inteiramente, para que eles também sejam consagrados na verdade. Aleluia.",
-                "it": "Canto al Vangelo Gv 17, 19 Alleluia, alleluia. Per loro io consacro me stesso, perché siano anch’essi consacrati nella verità. Alleluia.",
-                "fr": "Alléluia Io 17, 19 Alléluia Pour eux je me sanctifie moi-même, afin qu’ils soient, eux aussi, sanctifiés dans la vérité. Alléluia.",
-                "de": "Ruf vor dem Evangelium Joh 17, 19 Halleluja. Halleluja. (So spricht der Herr:) Ich heilige mich für sie, damit auch sie in der Wahrheit geheiligt sind. Halleluja."
-              },
-              "lines": {
-                "la": [
-                  [
-                    {
-                      "type": "text",
-                      "text": "Alleluia"
-                    },
-                    {
-                      "type": "reference",
-                      "text": "Io 17, 19"
-                    }
-                  ],
-                  [
-                    {
-                      "type": "text",
-                      "text": "Allelúia. Pro eis sanctífico meípsum, dicit Dóminus, ut sint et ipsi sanctificáti in veritáte. Allelúia."
-                    }
-                  ]
-                ],
-                "es": [
-                  [
-                    {
-                      "type": "text",
-                      "text": "Aleluya"
-                    },
-                    {
-                      "type": "reference",
-                      "text": "Jn 17, 19"
-                    }
-                  ],
-                  [
-                    {
-                      "type": "text",
-                      "text": "Aleluya. Por ellos yo me santifico a mí mismo —dice el Señor—, para que también ellos sean santificados en la verdad. Aleluya."
-                    }
-                  ]
-                ],
-                "en": [
-                  [
-                    {
-                      "type": "text",
-                      "text": "Alleluia, alleluia. I consecrate myself for them, so that they also may be consecrated in truth. Alleluia."
-                    }
-                  ]
-                ],
-                "pt-BR": [
-                  [
-                    {
-                      "type": "text",
-                      "text": "Aclamação ao Evangelho"
-                    },
-                    {
-                      "type": "reference",
-                      "text": "Jo 17, 19"
-                    },
-                    {
-                      "type": "text",
-                      "text": "Aleluia, aleluia. Em favor deles eu me entrego a ti, ó Pai, inteiramente, para que eles também sejam consagrados na verdade. Aleluia."
-                    }
-                  ]
-                ],
-                "it": [
-                  [
-                    {
-                      "type": "text",
-                      "text": "Canto al Vangelo"
-                    },
-                    {
-                      "type": "reference",
-                      "text": "Gv 17, 19"
-                    },
-                    {
-                      "type": "text",
-                      "text": "Alleluia, alleluia. Per loro io consacro me stesso, perché siano anch’essi consacrati nella verità. Alleluia."
-                    }
-                  ]
-                ],
-                "fr": [
-                  [
-                    {
-                      "type": "text",
-                      "text": "Alléluia"
-                    },
-                    {
-                      "type": "reference",
-                      "text": "Io 17, 19"
-                    },
-                    {
-                      "type": "text",
-                      "text": "Alléluia Pour eux je me sanctifie moi-même, afin qu’ils soient, eux aussi, sanctifiés dans la vérité. Alléluia."
-                    }
-                  ]
-                ],
-                "de": [
-                  [
-                    {
-                      "type": "text",
-                      "text": "Ruf vor dem Evangelium"
-                    },
-                    {
-                      "type": "reference",
-                      "text": "Joh 17, 19"
-                    },
-                    {
-                      "type": "text",
-                      "text": "Halleluja. Halleluja. (So spricht der Herr:) Ich heilige mich für sie, damit auch sie in der Wahrheit geheiligt sind. Halleluja."
-                    }
-                  ]
-                ]
-              }
-            },
             "citation": {
               "la": "Io 17, 19",
               "es": "Jn 17, 19",
@@ -946,6 +825,179 @@
               "it": "Gv 17, 19",
               "fr": "Io 17, 19",
               "de": "Joh 17, 19"
+            },
+            "mode": "alleluia",
+            "acclamation": {
+              "la": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Allelúia."
+                  }
+                ]
+              ],
+              "es": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Aleluya."
+                  }
+                ]
+              ],
+              "en": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Alleluia, alleluia."
+                  }
+                ]
+              ],
+              "pt-BR": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Aleluia, aleluia."
+                  }
+                ]
+              ],
+              "it": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Alleluia, alleluia."
+                  }
+                ]
+              ],
+              "fr": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Alléluia"
+                  }
+                ]
+              ],
+              "de": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Halleluja. Halleluja."
+                  }
+                ]
+              ]
+            },
+            "verse": {
+              "la": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Allelúia."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Pro eis sanctífico meípsum, dicit Dóminus, ut sint et ipsi sanctificáti in veritáte."
+                  },
+                  {
+                    "type": "response",
+                    "text": "Allelúia."
+                  }
+                ]
+              ],
+              "es": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Aleluya."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Por ellos yo me santifico a mí mismo —dice el Señor—, para que también ellos sean santificados en la verdad."
+                  },
+                  {
+                    "type": "response",
+                    "text": "Aleluya."
+                  }
+                ]
+              ],
+              "en": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Alleluia, alleluia."
+                  },
+                  {
+                    "type": "text",
+                    "text": "I consecrate myself for them, so that they also may be consecrated in truth."
+                  },
+                  {
+                    "type": "response",
+                    "text": "Alleluia."
+                  }
+                ]
+              ],
+              "pt-BR": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Aleluia, aleluia."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Em favor deles eu me entrego a ti, ó Pai, inteiramente, para que eles também sejam consagrados na verdade."
+                  },
+                  {
+                    "type": "response",
+                    "text": "Aleluia."
+                  }
+                ]
+              ],
+              "it": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Alleluia, alleluia."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Per loro io consacro me stesso, perché siano anch’essi consacrati nella verità."
+                  },
+                  {
+                    "type": "response",
+                    "text": "Alleluia."
+                  }
+                ]
+              ],
+              "fr": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Alléluia"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Pour eux je me sanctifie moi-même, afin qu’ils soient, eux aussi, sanctifiés dans la vérité."
+                  },
+                  {
+                    "type": "response",
+                    "text": "Alléluia."
+                  }
+                ]
+              ],
+              "de": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Halleluja. Halleluja."
+                  },
+                  {
+                    "type": "text",
+                    "text": "(So spricht der Herr:) Ich heilige mich für sie, damit auch sie in der Wahrheit geheiligt sind."
+                  },
+                  {
+                    "type": "response",
+                    "text": "Halleluja."
+                  }
+                ]
+              ]
             }
           },
           "gospel": {

@@ -1418,127 +1418,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 14, 6b. 9c Allelúia. Ego sum via et véritas et vita, dicit Dóminus; Philíppe, qui vidit me, vidit Patrem. Allelúia.",
-            "es": "Aleluya Jn 14, 6b y 9c Aleluya. Yo soy el camino y la verdad y la vida —dice el Señor—; Felipe, quien me ha visto a mí ha visto al Padre. Aleluya.",
-            "en": "Alleluia, alleluia. I am the way, the truth, and the life, says the Lord; Philip, whoever sees me sees the Father. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 14, 6b y 9c Aleluia, aleluia. Sou o caminho, a Verdade e a Vida, diz Jesus; Filipe, quem me vê, igualmente vê meu Pai! Aleluia.",
-            "it": "Canto al Vangelo Gv 14, 6b.9c Alleluia, alleluia. Io sono la via, la verità e la vita, dice il Signore; Filippo, chi vede me, vede anche il Padre. Alleluia.",
-            "fr": "Alléluia Io 14, 6b. 9c Alléluia Moi, je suis le Chemin, la Vérité et la Vie, dit le Seigneur. Philippe, celui qui m’a vu a vu le Père. Alléluia.",
-            "de": "Ruf vor dem Evangelium Joh 14, 6a. 9c Halleluja. Halleluja. (So spricht der Herr:) Ich bin der Weg und die Wahrheit und das Leben. Philippus, wer mich gesehen hat, hat den Vater gesehen. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 14, 6b. 9c"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Ego sum via et véritas et vita, dicit Dóminus; Philíppe, qui vidit me, vidit Patrem. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 14, 6b y 9c"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Yo soy el camino y la verdad y la vida —dice el Señor—; Felipe, quien me ha visto a mí ha visto al Padre. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. I am the way, the truth, and the life, says the Lord; Philip, whoever sees me sees the Father. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 14, 6b y 9c"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Sou o caminho, a Verdade e a Vida, diz Jesus; Filipe, quem me vê, igualmente vê meu Pai! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gv 14, 6b.9c"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Io sono la via, la verità e la vita, dice il Signore; Filippo, chi vede me, vede anche il Padre. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 14, 6b. 9c"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Moi, je suis le Chemin, la Vérité et la Vie, dit le Seigneur. Philippe, celui qui m’a vu a vu le Père. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joh 14, 6a. 9c"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Ich bin der Weg und die Wahrheit und das Leben. Philippus, wer mich gesehen hat, hat den Vater gesehen. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 14, 6b. 9c",
           "es": "Jn 14, 6b y 9c",
@@ -1546,6 +1425,179 @@
           "it": "Gv 14, 6b.9c",
           "fr": "Io 14, 6b. 9c",
           "de": "Joh 14, 6a. 9c"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Ego sum via et véritas et vita, dicit Dóminus; Philíppe, qui vidit me, vidit Patrem."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Yo soy el camino y la verdad y la vida —dice el Señor—; Felipe, quien me ha visto a mí ha visto al Padre."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "I am the way, the truth, and the life, says the Lord; Philip, whoever sees me sees the Father."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Sou o caminho, a Verdade e a Vida, diz Jesus; Filipe, quem me vê, igualmente vê meu Pai!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Io sono la via, la verità e la vita, dice il Signore; Filippo, chi vede me, vede anche il Padre."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Moi, je suis le Chemin, la Vérité et la Vie, dit le Seigneur. Philippe, celui qui m’a vu a vu le Père."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Ich bin der Weg und die Wahrheit und das Leben. Philippus, wer mich gesehen hat, hat den Vater gesehen."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

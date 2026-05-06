@@ -1676,85 +1676,67 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Versus ante Evangelium Semen est verbum Dei, sator autem Christus; omnis qui ínvenit eum, manébit in ætérnum.",
-            "es": "Versículo antes del Evangelio La semilla es la palabra de Dios, y el sembrador es Cristo; todo el que lo encuentra vive para siempre.",
-            "en": "The seed is the word of God, Christ is the sower; all who come to him will live for ever.",
-            "pt-BR": "Aclamação ao Evangelho Somente é de Deus a Palavra, o Cristo é o semeador, todo aquele que o encontra, vida eterna encontrou.",
-            "it": "Canto al Vangelo (Cfr. Gv3,16) Lode e onore a te, Signore Gesù! Il seme è la parola di Dio, il seminatore è Cristo: chiunque trova lui ha la vita eterna. Lode e onore a te, Signore Gesù!",
-            "fr": "Verset avant l’Évangile Gloire et louange à toi, Seigneur Jésus ! Fils de l’homme, élevé sur la croix, tu attires à toi tous les hommes. Gloire et louange à toi, Seigneur Jésus !",
-            "de": "Ruf vor dem Evangelium Herr Jesus, dir sei Ruhm und Ehre! Der Samen ist das Wort Gottes, der Sämann ist Christus. Wer Christus findet, der bleibt in Ewigkeit. Herr Jesus, dir sei Ruhm und Ehre!"
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versus ante Evangelium Semen est verbum Dei, sator autem Christus; omnis qui ínvenit eum, manébit in ætérnum."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versículo antes del Evangelio La semilla es la palabra de Dios, y el sembrador es Cristo; todo el que lo encuentra vive para siempre."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "The seed is the word of God, Christ is the sower; all who come to him will live for ever."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho Somente é de Deus a Palavra, o Cristo é o semeador, todo aquele que o encontra, vida eterna encontrou."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Cfr. Gv3,16)"
-                },
-                {
-                  "type": "text",
-                  "text": "Lode e onore a te, Signore Gesù! Il seme è la parola di Dio, il seminatore è Cristo: chiunque trova lui ha la vita eterna. Lode e onore a te, Signore Gesù!"
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Verset avant l’Évangile Gloire et louange à toi, Seigneur Jésus ! Fils de l’homme, élevé sur la croix, tu attires à toi tous les hommes. Gloire et louange à toi, Seigneur Jésus !"
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium Herr Jesus, dir sei Ruhm und Ehre! Der Samen ist das Wort Gottes, der Sämann ist Christus. Wer Christus findet, der bleibt in Ewigkeit. Herr Jesus, dir sei Ruhm und Ehre!"
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "it": "(Cfr. Gv3,16)"
+        },
+        "mode": "versus-ante-evangelium",
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "text",
+                "text": "Semen est verbum Dei, sator autem Christus; omnis qui ínvenit eum, manébit in ætérnum."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "text",
+                "text": "La semilla es la palabra de Dios, y el sembrador es Cristo; todo el que lo encuentra vive para siempre."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "text",
+                "text": "The seed is the word of God, Christ is the sower; all who come to him will live for ever."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "Somente é de Deus a Palavra, o Cristo é o semeador, todo aquele que o encontra, vida eterna encontrou."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "Lode e onore a te, Signore Gesù! Il seme è la parola di Dio, il seminatore è Cristo: chiunque trova lui ha la vita eterna. Lode e onore a te, Signore Gesù!"
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Gloire et louange à toi, Seigneur Jésus ! Fils de l’homme, élevé sur la croix, tu attires à toi tous les hommes. Gloire et louange à toi, Seigneur Jésus !"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "text",
+                "text": "Herr Jesus, dir sei Ruhm und Ehre! Der Samen ist das Wort Gottes, der Sämann ist Christus. Wer Christus findet, der bleibt in Ewigkeit. Herr Jesus, dir sei Ruhm und Ehre!"
+              }
+            ]
+          ]
         }
       },
       "gospel": {

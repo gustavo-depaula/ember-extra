@@ -849,127 +849,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. Col 3, 16a. 17c Allelúia. Verbum Christi hábitet in vobis abundánter; grátias ágite Deo Patri per Christum. Allelúia.",
-            "es": "Aleluya Cf. Col 3, 16a. 17c Aleluya. La Palabra de Cristo habite entre vosotros en toda su riqueza, dando gracias a Dios Padre por medio de Cristo. Aleluya.",
-            "en": "Alleluia, alleluia. Give thanks to God our Father through Jesus Christ our Lord, and may the fullness of his message live within you. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho cf. Col 3, 16a.17c Aleluia, aleluia. A palavra de Cristo ricamente habite em vós, dando graças, por ele, a Deus Pai! Aleluia.",
-            "it": "Canto al Vangelo (Cfr. Col 3,16a.17c) Alleluia, alleluia. La parola di Cristo abiti tra voi nella sua ricchezza; tutto fate rendendo grazie per mezzo di lui a Dio Padre. Alleluia.",
-            "fr": "Alléluia Cf. Col 3, 16a. 17c Alléluia Que la parole du Christ habite en vous dans toute sa richesse, et offrez par lui votre action de grâce à Dieu le Père. Alléluia.",
-            "de": "Ruf vor dem Evangelium Kol 3, 16a. 17c Halleluja. Halleluja. Das Wort Christi wohne mit seinem ganzen Reichtum bei euch; durch Christus dankt Gott, dem Vater! Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Col 3, 16a. 17c"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Verbum Christi hábitet in vobis abundánter; grátias ágite Deo Patri per Christum. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Col 3, 16a. 17c"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. La Palabra de Cristo habite entre vosotros en toda su riqueza, dando gracias a Dios Padre por medio de Cristo. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Give thanks to God our Father through Jesus Christ our Lord, and may the fullness of his message live within you. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "cf. Col 3, 16a.17c"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. A palavra de Cristo ricamente habite em vós, dando graças, por ele, a Deus Pai! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Cfr. Col 3,16a.17c)"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. La parola di Cristo abiti tra voi nella sua ricchezza; tutto fate rendendo grazie per mezzo di lui a Dio Padre. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Col 3, 16a. 17c"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Que la parole du Christ habite en vous dans toute sa richesse, et offrez par lui votre action de grâce à Dieu le Père. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Kol 3, 16a. 17c"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Das Wort Christi wohne mit seinem ganzen Reichtum bei euch; durch Christus dankt Gott, dem Vater! Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Col 3, 16a. 17c",
           "es": "Cf. Col 3, 16a. 17c",
@@ -977,6 +856,179 @@
           "it": "(Cfr. Col 3,16a.17c)",
           "fr": "Cf. Col 3, 16a. 17c",
           "de": "Kol 3, 16a. 17c"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Verbum Christi hábitet in vobis abundánter; grátias ágite Deo Patri per Christum."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "La Palabra de Cristo habite entre vosotros en toda su riqueza, dando gracias a Dios Padre por medio de Cristo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Give thanks to God our Father through Jesus Christ our Lord, and may the fullness of his message live within you."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "A palavra de Cristo ricamente habite em vós, dando graças, por ele, a Deus Pai!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "La parola di Cristo abiti tra voi nella sua ricchezza; tutto fate rendendo grazie per mezzo di lui a Dio Padre."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Que la parole du Christ habite en vous dans toute sa richesse, et offrez par lui votre action de grâce à Dieu le Père."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Das Wort Christi wohne mit seinem ganzen Reichtum bei euch; durch Christus dankt Gott, dem Vater!"
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -2040,127 +2092,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. Col 3, 16a. 17c Allelúia. Verbum Christi hábitet in vobis abundánter; grátias ágite Deo Patri per Christum. Allelúia.",
-            "es": "Aleluya Cf. Col 3, 16a. 17c Aleluya. La Palabra de Cristo habite entre vosotros en toda su riqueza, dando gracias a Dios Padre por medio de Cristo. Aleluya.",
-            "en": "Alleluia, alleluia. Give thanks to God our Father through Jesus Christ our Lord, and may the fullness of his message live within you. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho cf. Col 3, 16a.17c Aleluia, aleluia. A palavra de Cristo ricamente habite em vós, dando graças, por ele, a Deus Pai! Aleluia.",
-            "it": "Canto al Vangelo (Cfr. Col 3,16a.17c) Alleluia, alleluia. La parola di Cristo abiti tra voi nella sua ricchezza; tutto fate rendendo grazie per mezzo di lui a Dio Padre. Alleluia.",
-            "fr": "Alléluia Cf. Col 3, 16a. 17c Alléluia Que la parole du Christ habite en vous dans toute sa richesse, et offrez par lui votre action de grâce à Dieu le Père. Alléluia.",
-            "de": "Ruf vor dem Evangelium Kol 3, 16a. 17c Halleluja. Halleluja. Das Wort Christi wohne mit seinem ganzen Reichtum bei euch; durch Christus dankt Gott, dem Vater! Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Col 3, 16a. 17c"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Verbum Christi hábitet in vobis abundánter; grátias ágite Deo Patri per Christum. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Col 3, 16a. 17c"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. La Palabra de Cristo habite entre vosotros en toda su riqueza, dando gracias a Dios Padre por medio de Cristo. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Give thanks to God our Father through Jesus Christ our Lord, and may the fullness of his message live within you. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "cf. Col 3, 16a.17c"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. A palavra de Cristo ricamente habite em vós, dando graças, por ele, a Deus Pai! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Cfr. Col 3,16a.17c)"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. La parola di Cristo abiti tra voi nella sua ricchezza; tutto fate rendendo grazie per mezzo di lui a Dio Padre. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Col 3, 16a. 17c"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Que la parole du Christ habite en vous dans toute sa richesse, et offrez par lui votre action de grâce à Dieu le Père. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Kol 3, 16a. 17c"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Das Wort Christi wohne mit seinem ganzen Reichtum bei euch; durch Christus dankt Gott, dem Vater! Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Col 3, 16a. 17c",
           "es": "Cf. Col 3, 16a. 17c",
@@ -2168,6 +2099,179 @@
           "it": "(Cfr. Col 3,16a.17c)",
           "fr": "Cf. Col 3, 16a. 17c",
           "de": "Kol 3, 16a. 17c"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Verbum Christi hábitet in vobis abundánter; grátias ágite Deo Patri per Christum."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "La Palabra de Cristo habite entre vosotros en toda su riqueza, dando gracias a Dios Padre por medio de Cristo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Give thanks to God our Father through Jesus Christ our Lord, and may the fullness of his message live within you."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "A palavra de Cristo ricamente habite em vós, dando graças, por ele, a Deus Pai!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "La parola di Cristo abiti tra voi nella sua ricchezza; tutto fate rendendo grazie per mezzo di lui a Dio Padre."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Que la parole du Christ habite en vous dans toute sa richesse, et offrez par lui votre action de grâce à Dieu le Père."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Das Wort Christi wohne mit seinem ganzen Reichtum bei euch; durch Christus dankt Gott, dem Vater!"
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

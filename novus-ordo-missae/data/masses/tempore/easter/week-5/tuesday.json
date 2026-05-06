@@ -1519,125 +1519,185 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Lc 24, 26 Allelúia. Oportébat pati Christum et resúrgere a mórtuis; et ita intráre in glóriam suam. Allelúia.",
-            "es": "Aleluya Lc 24, 26 Aleluya. Era necesario que el Mesías padeciera y resucitara de entre los muertos; y entrara así en su gloria. Aleluya.",
-            "en": "Alleluia, alleluia. It was ordained that the Christ should suffer and rise from the dead, and so enter into his glory. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Lc 24, 26 Aleluia, aleluia. Era preciso que Cristo sofresse e ressuscitasse dos mortos para entrar na sua glória. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Cristo doveva patire e risorgere dai morti, ed entrare così nella sua gloria. Alleluia.",
-            "fr": "Alléluia Lc 24, 26 Alléluia Le Christ devait souffrir et ressusciter d’entre les morts pour entrer dans la gloire. Alléluia.",
-            "de": "Ruf vor dem Evangelium Lk 24, 46. Halleluja. Halleluja. Christus musste leiden und von den Toten auferstehen, um so in seine Herrlichkeit zu gelangen. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 24, 26"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Oportébat pati Christum et resúrgere a mórtuis; et ita intráre in glóriam suam. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 24, 26"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Era necesario que el Mesías padeciera y resucitara de entre los muertos; y entrara así en su gloria. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. It was ordained that the Christ should suffer and rise from the dead, and so enter into his glory. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 24, 26"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Era preciso que Cristo sofresse e ressuscitasse dos mortos para entrar na sua glória. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Cristo doveva patire e risorgere dai morti, ed entrare così nella sua gloria. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 24, 26"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Le Christ devait souffrir et ressusciter d’entre les morts pour entrer dans la gloire. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lk 24, 46."
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Christus musste leiden und von den Toten auferstehen, um so in seine Herrlichkeit zu gelangen. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Lc 24, 26",
           "es": "Lc 24, 26",
           "pt-BR": "Lc 24, 26",
           "fr": "Lc 24, 26",
           "de": "Lk 24, 46"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Oportébat pati Christum et resúrgere a mórtuis; et ita intráre in glóriam suam."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Era necesario que el Mesías padeciera y resucitara de entre los muertos; y entrara así en su gloria."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "It was ordained that the Christ should suffer and rise from the dead, and so enter into his glory."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Era preciso que Cristo sofresse e ressuscitasse dos mortos para entrar na sua glória."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Cristo doveva patire e risorgere dai morti, ed entrare così nella sua gloria."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Le Christ devait souffrir et ressusciter d’entre les morts pour entrer dans la gloire."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Christus musste leiden und von den Toten auferstehen, um so in seine Herrlichkeit zu gelangen."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

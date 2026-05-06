@@ -773,127 +773,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. Mt 4, 23 Allelúia. Prædicábat Iesus Evangélium regni, et sanábat omnem infirmitátem in pópulo. Allelúia.",
-            "es": "Aleluya Cf. Mt 4, 23 Aleluya. Jesús proclamaba el evangelio del reino, y curaba toda dolencia del pueblo. Aleluya.",
-            "en": "Alleluia, alleluia. Jesus preached the Good News of the Kingdom and healed all who were sick. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Cf. Mt 4, 23 Aleluia, aleluia. Jesus pregava a Boa nova, o Reino anunciando, e curava toda espécie de doenças entre o povo. Aleluia.",
-            "it": "Canto al Vangelo (Cfr Mt 4,23) Gesù annunciava il vangelo del Regno e guariva ogni sorta di malattie e infermità nel popolo. Alleluia.",
-            "fr": "Alléluia Cf. Mt 4, 23 Alléluia Jésus proclamait l’Évangile du Royaume et guérissait toute infirmité dans le peuple. Alléluia.",
-            "de": "Ruf vor dem Evangelium Mt 4, 23b Halleluja. Halleluja. Jesus verkündete das Evangelium vom Reich und heilte im Volk alle Krankheiten und Leiden. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Mt 4, 23"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Prædicábat Iesus Evangélium regni, et sanábat omnem infirmitátem in pópulo. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Mt 4, 23"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Jesús proclamaba el evangelio del reino, y curaba toda dolencia del pueblo. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Jesus preached the Good News of the Kingdom and healed all who were sick. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Mt 4, 23"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Jesus pregava a Boa nova, o Reino anunciando, e curava toda espécie de doenças entre o povo. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Cfr Mt 4,23)"
-                },
-                {
-                  "type": "text",
-                  "text": "Gesù annunciava il vangelo del Regno e guariva ogni sorta di malattie e infermità nel popolo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Mt 4, 23"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Jésus proclamait l’Évangile du Royaume et guérissait toute infirmité dans le peuple. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 4, 23b"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Jesus verkündete das Evangelium vom Reich und heilte im Volk alle Krankheiten und Leiden. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Mt 4, 23",
           "es": "Cf. Mt 4, 23",
@@ -901,6 +780,175 @@
           "it": "(Cfr Mt 4,23)",
           "fr": "Cf. Mt 4, 23",
           "de": "Mt 4, 23b"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Prædicábat Iesus Evangélium regni, et sanábat omnem infirmitátem in pópulo."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Jesús proclamaba el evangelio del reino, y curaba toda dolencia del pueblo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Jesus preached the Good News of the Kingdom and healed all who were sick."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Jesus pregava a Boa nova, o Reino anunciando, e curava toda espécie de doenças entre o povo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "Gesù annunciava il vangelo del Regno e guariva ogni sorta di malattie e infermità nel popolo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Jésus proclamait l’Évangile du Royaume et guérissait toute infirmité dans le peuple."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Jesus verkündete das Evangelium vom Reich und heilte im Volk alle Krankheiten und Leiden."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -1847,127 +1895,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. Mt 4, 23 Allelúia. Prædicábat Iesus Evangélium regni, et sanábat omnem infirmitátem in pópulo. Allelúia.",
-            "es": "Aleluya Cf. Mt 4, 23 Aleluya. Jesús proclamaba el evangelio del reino, y curaba toda dolencia del pueblo. Aleluya.",
-            "en": "Alleluia, alleluia. Jesus preached the Good News of the Kingdom and healed all who were sick. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Cf. Mt 4, 23 Aleluia, aleluia. Jesus pregava a Boa nova, o Reino anunciando, e curava toda espécie de doenças entre o povo. Aleluia.",
-            "it": "Canto al Vangelo (Cfr Mt 4,23) Gesù annunciava il vangelo del Regno e guariva ogni sorta di malattie e infermità nel popolo. Alleluia.",
-            "fr": "Alléluia Cf. Mt 4, 23 Alléluia Jésus proclamait l’Évangile du Royaume et guérissait toute infirmité dans le peuple. Alléluia.",
-            "de": "Ruf vor dem Evangelium Mt 4, 23b Halleluja. Halleluja. Jesus verkündete das Evangelium vom Reich und heilte im Volk alle Krankheiten und Leiden. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Mt 4, 23"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Prædicábat Iesus Evangélium regni, et sanábat omnem infirmitátem in pópulo. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Mt 4, 23"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Jesús proclamaba el evangelio del reino, y curaba toda dolencia del pueblo. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Jesus preached the Good News of the Kingdom and healed all who were sick. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Mt 4, 23"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Jesus pregava a Boa nova, o Reino anunciando, e curava toda espécie de doenças entre o povo. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Cfr Mt 4,23)"
-                },
-                {
-                  "type": "text",
-                  "text": "Gesù annunciava il vangelo del Regno e guariva ogni sorta di malattie e infermità nel popolo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Mt 4, 23"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Jésus proclamait l’Évangile du Royaume et guérissait toute infirmité dans le peuple. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 4, 23b"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Jesus verkündete das Evangelium vom Reich und heilte im Volk alle Krankheiten und Leiden. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Mt 4, 23",
           "es": "Cf. Mt 4, 23",
@@ -1975,6 +1902,175 @@
           "it": "(Cfr Mt 4,23)",
           "fr": "Cf. Mt 4, 23",
           "de": "Mt 4, 23b"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Prædicábat Iesus Evangélium regni, et sanábat omnem infirmitátem in pópulo."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Jesús proclamaba el evangelio del reino, y curaba toda dolencia del pueblo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Jesus preached the Good News of the Kingdom and healed all who were sick."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Jesus pregava a Boa nova, o Reino anunciando, e curava toda espécie de doenças entre o povo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "Gesù annunciava il vangelo del Regno e guariva ogni sorta di malattie e infermità nel popolo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Jésus proclamait l’Évangile du Royaume et guérissait toute infirmité dans le peuple."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Jesus verkündete das Evangelium vom Reich und heilte im Volk alle Krankheiten und Leiden."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

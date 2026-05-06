@@ -481,80 +481,178 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia vel Versus ante Evangelium (Alleluia.) Te Deum laudámus, te Dóminum confitémur; Te mártyrum candidátus laudat exércitus, Dómine. (Alleluia.)",
-            "es": "Aleluya, aleluya. A ti, oh, Dios, te alabamos, a ti, Señor, te reconocemos; a ti te ensalza el blanco ejército de los mártires, Señor. Aleluya.",
-            "en": "Alleluia, alleluia. You are God: we praise you; you are the Lord: we acclaim you; the white-robed army of martyrs praise you. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Aleluia, aleluia. Nós Vos louvamos, ó Deus; Nós Vos bendizemos, Senhor. A falange resplandecente dos mártires canta os vossos louvores. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Noi ti lodiamo, Dio, ti proclamiamo Signore; ti acclama la candida schiera dei martiri. Alleluia.",
-            "fr": "Alléluia vel Verset avant l’Évangile (Alléluia) À toi, Dieu, notre louange ! Toi, dont témoignent les martyrs, nous t’acclamons : tu es Seigneur ! (Alléluia)",
-            "de": "Ruf vor dem Evangelium Halleluja. Halleluja. Dich, Gott, loben wir, dich, Herr, preisen wir. Dich preist der Märtyrer leuchtendes Heer. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia vel Versus ante Evangelium (Alleluia.) Te Deum laudámus, te Dóminum confitémur; Te mártyrum candidátus laudat exércitus, Dómine. (Alleluia.)"
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. A ti, oh, Dios, te alabamos, a ti, Señor, te reconocemos; a ti te ensalza el blanco ejército de los mártires, Señor. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. You are God: we praise you; you are the Lord: we acclaim you; the white-robed army of martyrs praise you. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho Aleluia, aleluia. Nós Vos louvamos, ó Deus; Nós Vos bendizemos, Senhor. A falange resplandecente dos mártires canta os vossos louvores. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Noi ti lodiamo, Dio, ti proclamiamo Signore; ti acclama la candida schiera dei martiri. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia vel Verset avant l’Évangile (Alléluia) À toi, Dieu, notre louange ! Toi, dont témoignent les martyrs, nous t’acclamons : tu es Seigneur ! (Alléluia)"
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium Halleluja. Halleluja. Dich, Gott, loben wir, dich, Herr, preisen wir. Dich preist der Märtyrer leuchtendes Heer. Halleluja."
-                }
-              ]
+        "mode": "alleluia-or-versus",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "(Alleluia.)"
+              }
             ]
-          }
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "(Alléluia)"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "(Alleluia.)"
+              },
+              {
+                "type": "text",
+                "text": "Te Deum laudámus, te Dóminum confitémur; Te mártyrum candidátus laudat exércitus, Dómine."
+              },
+              {
+                "type": "response",
+                "text": "(Alleluia.)"
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "A ti, oh, Dios, te alabamos, a ti, Señor, te reconocemos; a ti te ensalza el blanco ejército de los mártires, Señor."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "You are God: we praise you; you are the Lord: we acclaim you; the white-robed army of martyrs praise you."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Nós Vos louvamos, ó Deus; Nós Vos bendizemos, Senhor. A falange resplandecente dos mártires canta os vossos louvores."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Noi ti lodiamo, Dio, ti proclamiamo Signore; ti acclama la candida schiera dei martiri."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "(Alléluia)"
+              },
+              {
+                "type": "text",
+                "text": "À toi, Dieu, notre louange ! Toi, dont témoignent les martyrs, nous t’acclamons : tu es Seigneur !"
+              },
+              {
+                "type": "response",
+                "text": "(Alléluia)"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Dich, Gott, loben wir, dich, Herr, preisen wir. Dich preist der Märtyrer leuchtendes Heer."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

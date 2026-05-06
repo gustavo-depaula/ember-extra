@@ -1796,127 +1796,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. 1 Tim 3, 16 Allelúia. Glória tibi, Christe, prædicáto in géntibus; glória tibi, Christe, crédito in mundo. Allelúia.",
-            "es": "Aleluya Cf. 1 Tim 3, 16 Aleluya. Gloria a ti, Cristo, proclamado en las naciones; gloria a ti, Cristo, creído en el mundo. Aleluya.",
-            "en": "Alleluia, alleluia. Glory to Christ who is proclaimed to the world; glory from all who believe in him! Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Cf. 1 Tim 3, 16 Aleluia, aleluia. Glória a Vós, Ó Cristo, anunciado entre as nações! Glória a Vós, Ó Cristo, acreditado em toda a terra! Aleluia.",
-            "it": "Canto al Vangelo Cfr 1Tm 3,16 Alleluia, alleluia. Gloria a te, o Cristo, annunciato a tutte le genti; gloria a te, o Cristo, creduto nel mondo. Alleluia.",
-            "fr": "Alléluia Cf. 1 Tim 3, 16 Alléluia Louange à toi, Jésus Christ, manifesté dans la chair, proclamé dans les nations, reconnu dans le monde. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. 1 Tim 3, 16 Halleluja. Halleluja. Christus, offenbart im Fleisch, verkündet unter den Heiden, Christus, geglaubt in der Welt: Ehre sei dir! Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. 1 Tim 3, 16"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Glória tibi, Christe, prædicáto in géntibus; glória tibi, Christe, crédito in mundo. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. 1 Tim 3, 16"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Gloria a ti, Cristo, proclamado en las naciones; gloria a ti, Cristo, creído en el mundo. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Glory to Christ who is proclaimed to the world; glory from all who believe in him! Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. 1 Tim 3, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Glória a Vós, Ó Cristo, anunciado entre as nações! Glória a Vós, Ó Cristo, acreditado em toda a terra! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cfr 1Tm 3,16"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Gloria a te, o Cristo, annunciato a tutte le genti; gloria a te, o Cristo, creduto nel mondo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. 1 Tim 3, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Louange à toi, Jésus Christ, manifesté dans la chair, proclamé dans les nations, reconnu dans le monde. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. 1 Tim 3, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Christus, offenbart im Fleisch, verkündet unter den Heiden, Christus, geglaubt in der Welt: Ehre sei dir! Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. 1 Tim 3, 16",
           "es": "Cf. 1 Tim 3, 16",
@@ -1924,6 +1803,179 @@
           "it": "Cfr 1Tm 3,16",
           "fr": "Cf. 1 Tim 3, 16",
           "de": "vgl. 1 Tim 3, 16"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Glória tibi, Christe, prædicáto in géntibus; glória tibi, Christe, crédito in mundo."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Gloria a ti, Cristo, proclamado en las naciones; gloria a ti, Cristo, creído en el mundo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Glory to Christ who is proclaimed to the world; glory from all who believe in him!"
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Glória a Vós, Ó Cristo, anunciado entre as nações! Glória a Vós, Ó Cristo, acreditado em toda a terra!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Gloria a te, o Cristo, annunciato a tutte le genti; gloria a te, o Cristo, creduto nel mondo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Louange à toi, Jésus Christ, manifesté dans la chair, proclamé dans les nations, reconnu dans le monde."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Christus, offenbart im Fleisch, verkündet unter den Heiden, Christus, geglaubt in der Welt: Ehre sei dir!"
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

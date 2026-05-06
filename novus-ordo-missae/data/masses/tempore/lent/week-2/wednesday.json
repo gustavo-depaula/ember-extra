@@ -1589,121 +1589,71 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Versus ante Evangelium Io 8, 12 Ego sum lux mundi, dicit Dóminus; qui séquitur me habébit lucem vitæ.",
-            "es": "Versículo antes del Evangelio Jn 8, 12 Yo soy la luz del mundo —dice el Señor—; el que me sigue tendrá la luz de la vida.",
-            "en": "I am the light of the world, says the Lord: he who follows me will have the light of life",
-            "pt-BR": "Aclamação ao Evangelho Jo 8, 12 Eu sou a luz do mundo; aquele que me segue, não caminha entre as trevas, mas terá a luz da vida.",
-            "it": "Canto al Vangelo (Cfr. Gv 8,12) Lode e onore a te, Signore Gesù! Io sono la luce del mondo, dice il Signore; chi segue me, avrà la luce della vita. Lode e onore a te, Signore Gesù!",
-            "fr": "Verset avant l’Évangile Gloire et louange à toi, Seigneur Jésus ! Moi, je suis la lumière du monde, dit le Seigneur. Celui qui me suit aura la lumière de la vie. Gloire et louange à toi, Seigneur Jésus !",
-            "de": "Ruf vor dem Evangelium vgl. Joh 8, 12 Lob dir, Christus, König und Erlöser! (So spricht der Herr:) Ich bin das Licht der Welt. Wer mir nachfolgt, hat das Licht des Lebens. Lob dir, Christus, König und Erlöser!"
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versus ante Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 8, 12"
-                },
-                {
-                  "type": "text",
-                  "text": "Ego sum lux mundi, dicit Dóminus; qui séquitur me habébit lucem vitæ."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versículo antes del Evangelio"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 8, 12"
-                },
-                {
-                  "type": "text",
-                  "text": "Yo soy la luz del mundo —dice el Señor—; el que me sigue tendrá la luz de la vida."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "I am the light of the world, says the Lord: he who follows me will have the light of life"
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 8, 12"
-                },
-                {
-                  "type": "text",
-                  "text": "Eu sou a luz do mundo; aquele que me segue, não caminha entre as trevas, mas terá a luz da vida."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Cfr. Gv 8,12)"
-                },
-                {
-                  "type": "text",
-                  "text": "Lode e onore a te, Signore Gesù! Io sono la luce del mondo, dice il Signore; chi segue me, avrà la luce della vita. Lode e onore a te, Signore Gesù!"
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Verset avant l’Évangile Gloire et louange à toi, Seigneur Jésus ! Moi, je suis la lumière du monde, dit le Seigneur. Celui qui me suit aura la lumière de la vie. Gloire et louange à toi, Seigneur Jésus !"
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Joh 8, 12"
-                },
-                {
-                  "type": "text",
-                  "text": "Lob dir, Christus, König und Erlöser! (So spricht der Herr:) Ich bin das Licht der Welt. Wer mir nachfolgt, hat das Licht des Lebens. Lob dir, Christus, König und Erlöser!"
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 8, 12",
           "es": "Jn 8, 12",
           "pt-BR": "Jo 8, 12",
           "it": "(Cfr. Gv 8,12)",
           "de": "vgl. Joh 8, 12"
+        },
+        "mode": "versus-ante-evangelium",
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "text",
+                "text": "Ego sum lux mundi, dicit Dóminus; qui séquitur me habébit lucem vitæ."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "text",
+                "text": "Yo soy la luz del mundo —dice el Señor—; el que me sigue tendrá la luz de la vida."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "text",
+                "text": "I am the light of the world, says the Lord: he who follows me will have the light of life"
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "Eu sou a luz do mundo; aquele que me segue, não caminha entre as trevas, mas terá a luz da vida."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "Lode e onore a te, Signore Gesù! Io sono la luce del mondo, dice il Signore; chi segue me, avrà la luce della vita. Lode e onore a te, Signore Gesù!"
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Gloire et louange à toi, Seigneur Jésus ! Moi, je suis la lumière du monde, dit le Seigneur. Celui qui me suit aura la lumière de la vie. Gloire et louange à toi, Seigneur Jésus !"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "text",
+                "text": "Lob dir, Christus, König und Erlöser! (So spricht der Herr:) Ich bin das Licht der Welt. Wer mir nachfolgt, hat das Licht des Lebens. Lob dir, Christus, König und Erlöser!"
+              }
+            ]
+          ]
         }
       },
       "gospel": {

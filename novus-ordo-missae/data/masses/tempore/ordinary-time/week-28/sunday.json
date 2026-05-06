@@ -1707,127 +1707,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. Eph 1, 17-18 Allelúia. Pater Dómini nostri Iesu Christi illúminet óculos cordis nostri, ut sciámus quæ sit spes vocatiónis nostræ. Allelúia.",
-            "es": "Aleluya Cf. Eph 1, 17-18 Aleluya. El Padre de nuestro Señor Jesucristo ilumine los ojos de nuestro corazón, para que comprendamos cuál es la esperanza a la que nos llama. Aleluya.",
-            "en": "Alleluia, alleluia. May the Father of our Lord Jesus Christ enlighten the eyes of our heart that we might see how great is the hope to which we are called. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Cf. Eph 1, 17-18 Aleluia, aleluia. Que o Pai do Senhor Jesus Cristo nos dê do saber o espírito; conheçamos, assim, a esperança à qual nos chamou, como herança! Aleluia.",
-            "it": "Canto al Vangelo Cfr. Ef 1,17-18 Alleluia, alleluia. Il Padre del Signore nostro Gesù Cristo illumini gli occhi del nostro cuore per farci comprendere a quale speranza ci ha chiamati. Alleluia.",
-            "fr": "Alléluia Cf. Eph 1, 17-18 Alléluia Que le Père de notre Seigneur Jésus Christ ouvre à sa lumière les yeux de notre cœur, pour que nous percevions l’espérance que donne son appel. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Eph 1, 17-18 Halleluja. Halleluja. Der Vater unseres Herrn Jesus Christus erleuchte die Augen unseres Herzens, damit wir verstehen, zu welcher Hoffnung wir berufen sind. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Eph 1, 17-18"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Pater Dómini nostri Iesu Christi illúminet óculos cordis nostri, ut sciámus quæ sit spes vocatiónis nostræ. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Eph 1, 17-18"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. El Padre de nuestro Señor Jesucristo ilumine los ojos de nuestro corazón, para que comprendamos cuál es la esperanza a la que nos llama. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. May the Father of our Lord Jesus Christ enlighten the eyes of our heart that we might see how great is the hope to which we are called. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Eph 1, 17-18"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Que o Pai do Senhor Jesus Cristo nos dê do saber o espírito; conheçamos, assim, a esperança à qual nos chamou, como herança! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cfr. Ef 1,17-18"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Il Padre del Signore nostro Gesù Cristo illumini gli occhi del nostro cuore per farci comprendere a quale speranza ci ha chiamati. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Eph 1, 17-18"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Que le Père de notre Seigneur Jésus Christ ouvre à sa lumière les yeux de notre cœur, pour que nous percevions l’espérance que donne son appel. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Eph 1, 17-18"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Der Vater unseres Herrn Jesus Christus erleuchte die Augen unseres Herzens, damit wir verstehen, zu welcher Hoffnung wir berufen sind. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Eph 1, 17-18",
           "es": "Cf. Eph 1, 17-18",
@@ -1835,6 +1714,179 @@
           "it": "Cfr. Ef 1,17-18",
           "fr": "Cf. Eph 1, 17-18",
           "de": "vgl. Eph 1, 17-18"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Pater Dómini nostri Iesu Christi illúminet óculos cordis nostri, ut sciámus quæ sit spes vocatiónis nostræ."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "El Padre de nuestro Señor Jesucristo ilumine los ojos de nuestro corazón, para que comprendamos cuál es la esperanza a la que nos llama."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "May the Father of our Lord Jesus Christ enlighten the eyes of our heart that we might see how great is the hope to which we are called."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Que o Pai do Senhor Jesus Cristo nos dê do saber o espírito; conheçamos, assim, a esperança à qual nos chamou, como herança!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Il Padre del Signore nostro Gesù Cristo illumini gli occhi del nostro cuore per farci comprendere a quale speranza ci ha chiamati."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Que le Père de notre Seigneur Jésus Christ ouvre à sa lumière les yeux de notre cœur, pour que nous percevions l’espérance que donne son appel."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Der Vater unseres Herrn Jesus Christus erleuchte die Augen unseres Herzens, damit wir verstehen, zu welcher Hoffnung wir berufen sind."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -3061,127 +3113,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Mt 5, 3 Allelúia. Beáti páuperes spíritu, quóniam ipsórum est regnum cælórum. Allelúia.",
-            "es": "Aleluya Mt 5, 3 Aleluya. Bienaventurados los pobres en el espíritu, porque de ellos es el reino de los cielos. Aleluya.",
-            "en": "Alleluia, alleluia. Happy the poor in spirit; the kingdom of heaven is theirs! Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Mt 5, 3 Aleluia, aleluia. Felizes os pobres em espíito, porque deles é o Reino dos Céus. Aleluia.",
-            "it": "Canto al Vangelo Mt 5,3 Alleluia, alleluia. Beati i poveri in spirito, perché di essi è il regno dei cieli. Alleluia.",
-            "fr": "Alléluia Mt 5, 3 Alléluia Heureux les pauvres de cœur, car le royaume des Cieux est à eux ! Alléluia.",
-            "de": "Ruf vor dem Evangelium Mt 5, 3 Halleluja. Halleluja. Selig, die arm sind vor Gott; denn ihnen gehört das Himmelreich. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 5, 3"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Beáti páuperes spíritu, quóniam ipsórum est regnum cælórum. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 5, 3"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Bienaventurados los pobres en el espíritu, porque de ellos es el reino de los cielos. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Happy the poor in spirit; the kingdom of heaven is theirs! Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 5, 3"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Felizes os pobres em espíito, porque deles é o Reino dos Céus. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 5,3"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Beati i poveri in spirito, perché di essi è il regno dei cieli. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 5, 3"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Heureux les pauvres de cœur, car le royaume des Cieux est à eux ! Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 5, 3"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Selig, die arm sind vor Gott; denn ihnen gehört das Himmelreich. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mt 5, 3",
           "es": "Mt 5, 3",
@@ -3189,6 +3120,179 @@
           "it": "Mt 5,3",
           "fr": "Mt 5, 3",
           "de": "Mt 5, 3"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Beáti páuperes spíritu, quóniam ipsórum est regnum cælórum."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Bienaventurados los pobres en el espíritu, porque de ellos es el reino de los cielos."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Happy the poor in spirit; the kingdom of heaven is theirs!"
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Felizes os pobres em espíito, porque deles é o Reino dos Céus."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Beati i poveri in spirito, perché di essi è il regno dei cieli."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Heureux les pauvres de cœur, car le royaume des Cieux est à eux !"
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Selig, die arm sind vor Gott; denn ihnen gehört das Himmelreich."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -4315,127 +4419,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia 1 Th 5, 18 Allelúia. In ómnibus grátias ágite; hæc enim volúntas Dei est in Christo Iesu erga vos. Allelúia.",
-            "es": "Aleluya 1 Th 5, 18 Aleluya. Dad gracias en toda ocasión: esta es la voluntad de Dios en Cristo Jesús respecto de vosotros. Aleluya.",
-            "en": "Alleluia, alleluia. For all things give thanks to God, because this is what he expects from you in Jesus Christ. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho 1 Th 5, 18 Aleluia, aleluia. Em tudo dai graças, pois esta é a vontade de Deus para convosco em Cristo Jesus. Aleluia.",
-            "it": "Canto al Vangelo 1Ts 5,18 Alleluia, alleluia. In ogni cosa rendete grazie: questa infatti è volontà di Dio in Cristo Gesù verso di voi. Alleluia.",
-            "fr": "Alléluia 1 Th 5, 18 Alléluia Rendez grâce en toute circonstance : c’est la volonté de Dieu à votre égard dans le Christ Jésus. Alléluia.",
-            "de": "Ruf vor dem Evangelium 1 Thess 5, 18 Halleluja. Halleluja. Dankt für alles; denn das will Gott von euch, die ihr Christus Jesus gehört. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Th 5, 18"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. In ómnibus grátias ágite; hæc enim volúntas Dei est in Christo Iesu erga vos. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Th 5, 18"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Dad gracias en toda ocasión: esta es la voluntad de Dios en Cristo Jesús respecto de vosotros. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. For all things give thanks to God, because this is what he expects from you in Jesus Christ. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Th 5, 18"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Em tudo dai graças, pois esta é a vontade de Deus para convosco em Cristo Jesus. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "1Ts 5,18"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. In ogni cosa rendete grazie: questa infatti è volontà di Dio in Cristo Gesù verso di voi. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Th 5, 18"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Rendez grâce en toute circonstance : c’est la volonté de Dieu à votre égard dans le Christ Jésus. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Thess 5, 18"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Dankt für alles; denn das will Gott von euch, die ihr Christus Jesus gehört. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "1 Th 5, 18",
           "es": "1 Th 5, 18",
@@ -4443,6 +4426,179 @@
           "it": "1Ts 5,18",
           "fr": "1 Th 5, 18",
           "de": "1 Thess 5, 18"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "In ómnibus grátias ágite; hæc enim volúntas Dei est in Christo Iesu erga vos."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Dad gracias en toda ocasión: esta es la voluntad de Dios en Cristo Jesús respecto de vosotros."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "For all things give thanks to God, because this is what he expects from you in Jesus Christ."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Em tudo dai graças, pois esta é a vontade de Deus para convosco em Cristo Jesus."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "In ogni cosa rendete grazie: questa infatti è volontà di Dio in Cristo Gesù verso di voi."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Rendez grâce en toute circonstance : c’est la volonté de Dieu à votre égard dans le Christ Jésus."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Dankt für alles; denn das will Gott von euch, die ihr Christus Jesus gehört."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

@@ -1602,127 +1602,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. Mt 4, 23 Allelúia. Prædicábat Iesus Evangélium regni, et sanábat omnem infirmitátem in pópulo. Allelúia.",
-            "es": "Aleluya Cf. Mt 4, 23 Aleluya. Jesús proclamaba el evangelio del reino, y curaba toda dolencia en el pueblo. Aleluya.",
-            "en": "Alleluia, alleluia. Jesus preached the Good News of the Kingdom and healed all who were sick. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Cf. Mt 4, 23 Aleluia, aleluia. Jesus Cristo pregava o Evangelho a boa notícia do Reino; e curava seu povo doente de todos os males, sua gente! Aleluia.",
-            "it": "Canto al Vangelo Cfr. Mt 4,23 Alleluia, alleluia. Gesù annunciava il vangelo del Regno e guariva ogni sorta di infermità nel popolo. Alleluia.",
-            "fr": "Alléluia Cf. Mt 4, 23 Alléluia Jésus proclamait l’Évangile du Royaume, et guérissait toute maladie dans le peuple. Alléluia.",
-            "de": "Ruf vor dem Evangelium Mt 4, 23b Halleluja. Halleluja. Jesus verkündete das Evangelium vom Reich und heilte im Volk alle Krankheiten und Leiden. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Mt 4, 23"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Prædicábat Iesus Evangélium regni, et sanábat omnem infirmitátem in pópulo. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Mt 4, 23"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Jesús proclamaba el evangelio del reino, y curaba toda dolencia en el pueblo. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Jesus preached the Good News of the Kingdom and healed all who were sick. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Mt 4, 23"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Jesus Cristo pregava o Evangelho a boa notícia do Reino; e curava seu povo doente de todos os males, sua gente! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cfr. Mt 4,23"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Gesù annunciava il vangelo del Regno e guariva ogni sorta di infermità nel popolo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Mt 4, 23"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Jésus proclamait l’Évangile du Royaume, et guérissait toute maladie dans le peuple. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 4, 23b"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Jesus verkündete das Evangelium vom Reich und heilte im Volk alle Krankheiten und Leiden. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Mt 4, 23",
           "es": "Cf. Mt 4, 23",
@@ -1730,6 +1609,179 @@
           "it": "Cfr. Mt 4,23",
           "fr": "Cf. Mt 4, 23",
           "de": "Mt 4, 23b"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Prædicábat Iesus Evangélium regni, et sanábat omnem infirmitátem in pópulo."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Jesús proclamaba el evangelio del reino, y curaba toda dolencia en el pueblo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Jesus preached the Good News of the Kingdom and healed all who were sick."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Jesus Cristo pregava o Evangelho a boa notícia do Reino; e curava seu povo doente de todos os males, sua gente!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Gesù annunciava il vangelo del Regno e guariva ogni sorta di infermità nel popolo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Jésus proclamait l’Évangile du Royaume, et guérissait toute maladie dans le peuple."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Jesus verkündete das Evangelium vom Reich und heilte im Volk alle Krankheiten und Leiden."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -2915,127 +2967,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 6, 56 Allelúia. Qui mandúcat meam carnem et bibit meum sánguinem, in me manet, et ego in illo, dicit Dóminus. Allelúia.",
-            "es": "Aleluya Jn 6, 56 Aleluya. El que come mi carne y bebe mi sangre —dice el Señor— habita en mí y yo en él. Aleluya.",
-            "en": "Alleluia, alleluia. Whoever eats my flesh and drinks my blood will live in me and I in him, says the Lord. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 6, 56 Aleluia, aleluia. Quem come a minha Carne e bebe o meu Sangue em mim permanece e eu vou ficar nele. Quem come a minha carne e bebe o meu sangue, Amém, Aleluia, Aleluia. Aleluia.",
-            "it": "Canto al Vangelo Gv 6, 56 Alleluia, alleluia. Chi mangia la mia carne e beve il mio sangue, dice il Signore, rimane in me e io in lui. Alleluia.",
-            "fr": "Alléluia Io 6, 56 Alléluia Qui mange ma chair et boit mon sang demeure en moi, et moi en lui, dit le Seigneur. Alléluia.",
-            "de": "Ruf vor dem Evangelium Joh 6, 56 Halleluja. Halleluja. (So spricht der Herr:) Wer mein Fleisch isst und mein Blut trinkt, der bleibt in mir, und ich bleibe in ihm. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 6, 56"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Qui mandúcat meam carnem et bibit meum sánguinem, in me manet, et ego in illo, dicit Dóminus. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 6, 56"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. El que come mi carne y bebe mi sangre —dice el Señor— habita en mí y yo en él. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Whoever eats my flesh and drinks my blood will live in me and I in him, says the Lord. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 6, 56"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Quem come a minha Carne e bebe o meu Sangue em mim permanece e eu vou ficar nele. Quem come a minha carne e bebe o meu sangue, Amém, Aleluia, Aleluia. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gv 6, 56"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Chi mangia la mia carne e beve il mio sangue, dice il Signore, rimane in me e io in lui. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 6, 56"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Qui mange ma chair et boit mon sang demeure en moi, et moi en lui, dit le Seigneur. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joh 6, 56"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Wer mein Fleisch isst und mein Blut trinkt, der bleibt in mir, und ich bleibe in ihm. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 6, 56",
           "es": "Jn 6, 56",
@@ -3043,6 +2974,179 @@
           "it": "Gv 6, 56",
           "fr": "Io 6, 56",
           "de": "Joh 6, 56"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Qui mandúcat meam carnem et bibit meum sánguinem, in me manet, et ego in illo, dicit Dóminus."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "El que come mi carne y bebe mi sangre —dice el Señor— habita en mí y yo en él."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Whoever eats my flesh and drinks my blood will live in me and I in him, says the Lord."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Quem come a minha Carne e bebe o meu Sangue em mim permanece e eu vou ficar nele. Quem come a minha carne e bebe o meu sangue, Amém, Aleluia, Aleluia."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Chi mangia la mia carne e beve il mio sangue, dice il Signore, rimane in me e io in lui."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Qui mange ma chair et boit mon sang demeure en moi, et moi en lui, dit le Seigneur."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Wer mein Fleisch isst und mein Blut trinkt, der bleibt in mir, und ich bleibe in ihm."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -4161,127 +4265,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 10, 27 Allelúia. Oves meæ vocem meam áudiunt, dicit Dóminus, et ego cognósco eas, et sequúntur me. Allelúia.",
-            "es": "Aleluya Jn 10, 27 Aleluya. Mis ovejas escuchan mi voz —dice el Señor—, y yo las conozco, y ellas me siguen. Aleluya.",
-            "en": "Alleluia, alleluia. My sheep listen to my voice, says the Lord; I know them, and they follow me. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 10, 27 Aleluia, aleluia. Minhas ovelhas escutam a minha voz, minha voz estão elas a escutar; eu conheço, então, minhas ovelhas, que me seguem, comigo a caminhar. Aleluia.",
-            "it": "Canto al Vangelo Gv 10,27 Alleluia, alleluia. Le mie pecore ascoltano la mia voce, dice il Signore, e io le conosco ed esse mi seguono. Alleluia.",
-            "fr": "Alléluia Io 10, 27 Alléluia Mes brebis écoutent ma voix, dit le Seigneur ; moi, je les connais, et elles me suivent. Alléluia.",
-            "de": "Ruf vor dem Evangelium Joh 10, 27 Halleluja. Halleluja. (So spricht der Herr:) Meine Schafe hören auf meine Stimme; ich kenne sie, und sie folgen mir. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 10, 27"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Oves meæ vocem meam áudiunt, dicit Dóminus, et ego cognósco eas, et sequúntur me. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 10, 27"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Mis ovejas escuchan mi voz —dice el Señor—, y yo las conozco, y ellas me siguen. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. My sheep listen to my voice, says the Lord; I know them, and they follow me. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 10, 27"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Minhas ovelhas escutam a minha voz, minha voz estão elas a escutar; eu conheço, então, minhas ovelhas, que me seguem, comigo a caminhar. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gv 10,27"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Le mie pecore ascoltano la mia voce, dice il Signore, e io le conosco ed esse mi seguono. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 10, 27"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Mes brebis écoutent ma voix, dit le Seigneur ; moi, je les connais, et elles me suivent. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joh 10, 27"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Meine Schafe hören auf meine Stimme; ich kenne sie, und sie folgen mir. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 10, 27",
           "es": "Jn 10, 27",
@@ -4289,6 +4272,179 @@
           "it": "Gv 10,27",
           "fr": "Io 10, 27",
           "de": "Joh 10, 27"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Oves meæ vocem meam áudiunt, dicit Dóminus, et ego cognósco eas, et sequúntur me."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Mis ovejas escuchan mi voz —dice el Señor—, y yo las conozco, y ellas me siguen."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "My sheep listen to my voice, says the Lord; I know them, and they follow me."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Minhas ovelhas escutam a minha voz, minha voz estão elas a escutar; eu conheço, então, minhas ovelhas, que me seguem, comigo a caminhar."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Le mie pecore ascoltano la mia voce, dice il Signore, e io le conosco ed esse mi seguono."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Mes brebis écoutent ma voix, dit le Seigneur ; moi, je les connais, et elles me suivent."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Meine Schafe hören auf meine Stimme; ich kenne sie, und sie folgen mir."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

@@ -801,127 +801,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. 2 Th 2, 14 Allelúia. Deus vocávit nos per Evangélium, in acquisitiónem glóriæ Dómini nostri Iesu Christi. Allelúia.",
-            "es": "Aleluya Cf. 2 Th 2, 14 Aleluya. Dios nos llamó por medio del Evangelio para que lleguemos a adquirir la gloria de nuestro Señor Jesucristo. Aleluya.",
-            "en": "Alleluia, alleluia. God has called us with the gospel the people won for him by Jesus Christ our Lord. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Cf. 2 Th 2, 14 Aleluia, aleluia. Pelo Evangelho o Pai nos chamou, a fim de alcançarmos a glória de nosso Senhor Jesus Cristo. Aleluia.",
-            "it": "Canto al Vangelo Cfr. 2Ts 2,14 Alleluia, alleluia. Dio ci ha chiamati mediante il Vangelo, per entrare in possesso della gloria del Signore nostro Gesù Cristo. Alleluia.",
-            "fr": "Alléluia Cf. 2 Th 2, 14 Alléluia Par l’annonce de l’Évangile, Dieu vous appelle à partager la gloire de notre Seigneur Jésus Christ. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. 2 Thess 2, 14 Halleluja. Halleluja. Durch das Evangelium hat Gott uns berufen zur Herrlichkeit Jesu Christi, unseres Herrn. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. 2 Th 2, 14"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Deus vocávit nos per Evangélium, in acquisitiónem glóriæ Dómini nostri Iesu Christi. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. 2 Th 2, 14"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Dios nos llamó por medio del Evangelio para que lleguemos a adquirir la gloria de nuestro Señor Jesucristo. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. God has called us with the gospel the people won for him by Jesus Christ our Lord. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. 2 Th 2, 14"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Pelo Evangelho o Pai nos chamou, a fim de alcançarmos a glória de nosso Senhor Jesus Cristo. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cfr. 2Ts 2,14"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Dio ci ha chiamati mediante il Vangelo, per entrare in possesso della gloria del Signore nostro Gesù Cristo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. 2 Th 2, 14"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Par l’annonce de l’Évangile, Dieu vous appelle à partager la gloire de notre Seigneur Jésus Christ. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. 2 Thess 2, 14"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Durch das Evangelium hat Gott uns berufen zur Herrlichkeit Jesu Christi, unseres Herrn. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. 2 Th 2, 14",
           "es": "Cf. 2 Th 2, 14",
@@ -929,6 +808,179 @@
           "it": "Cfr. 2Ts 2,14",
           "fr": "Cf. 2 Th 2, 14",
           "de": "vgl. 2 Thess 2, 14"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Deus vocávit nos per Evangélium, in acquisitiónem glóriæ Dómini nostri Iesu Christi."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Dios nos llamó por medio del Evangelio para que lleguemos a adquirir la gloria de nuestro Señor Jesucristo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "God has called us with the gospel the people won for him by Jesus Christ our Lord."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Pelo Evangelho o Pai nos chamou, a fim de alcançarmos a glória de nosso Senhor Jesus Cristo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Dio ci ha chiamati mediante il Vangelo, per entrare in possesso della gloria del Signore nostro Gesù Cristo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Par l’annonce de l’Évangile, Dieu vous appelle à partager la gloire de notre Seigneur Jésus Christ."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Durch das Evangelium hat Gott uns berufen zur Herrlichkeit Jesu Christi, unseres Herrn."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -1919,127 +1971,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. 2 Th 2, 14 Allelúia. Deus vocávit nos per Evangélium, in acquisitiónem glóriæ Dómini nostri Iesu Christi. Allelúia.",
-            "es": "Aleluya Cf. 2 Th 2, 14 Aleluya. Dios nos llamó por medio del Evangelio para que lleguemos a adquirir la gloria de nuestro Señor Jesucristo. Aleluya.",
-            "en": "Alleluia, alleluia. God has called us with the gospel the people won for him by Jesus Christ our Lord. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Cf. 2 Th 2, 14 Aleluia, aleluia. Pelo Evangelho o Pai nos chamou, a fim de alcançarmos a glória de nosso Senhor Jesus Cristo. Aleluia.",
-            "it": "Canto al Vangelo Cfr. 2Ts 2,14 Alleluia, alleluia. Dio ci ha chiamati mediante il Vangelo, per entrare in possesso della gloria del Signore nostro Gesù Cristo. Alleluia.",
-            "fr": "Alléluia Cf. 2 Th 2, 14 Alléluia Par l’annonce de l’Évangile, Dieu vous appelle à partager la gloire de notre Seigneur Jésus Christ. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. 2 Thess 2, 14 Halleluja. Halleluja. Durch das Evangelium hat Gott uns berufen zur Herrlichkeit Jesu Christi, unseres Herrn. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. 2 Th 2, 14"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Deus vocávit nos per Evangélium, in acquisitiónem glóriæ Dómini nostri Iesu Christi. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. 2 Th 2, 14"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Dios nos llamó por medio del Evangelio para que lleguemos a adquirir la gloria de nuestro Señor Jesucristo. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. God has called us with the gospel the people won for him by Jesus Christ our Lord. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. 2 Th 2, 14"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Pelo Evangelho o Pai nos chamou, a fim de alcançarmos a glória de nosso Senhor Jesus Cristo. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cfr. 2Ts 2,14"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Dio ci ha chiamati mediante il Vangelo, per entrare in possesso della gloria del Signore nostro Gesù Cristo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. 2 Th 2, 14"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Par l’annonce de l’Évangile, Dieu vous appelle à partager la gloire de notre Seigneur Jésus Christ. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. 2 Thess 2, 14"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Durch das Evangelium hat Gott uns berufen zur Herrlichkeit Jesu Christi, unseres Herrn. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. 2 Th 2, 14",
           "es": "Cf. 2 Th 2, 14",
@@ -2047,6 +1978,179 @@
           "it": "Cfr. 2Ts 2,14",
           "fr": "Cf. 2 Th 2, 14",
           "de": "vgl. 2 Thess 2, 14"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Deus vocávit nos per Evangélium, in acquisitiónem glóriæ Dómini nostri Iesu Christi."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Dios nos llamó por medio del Evangelio para que lleguemos a adquirir la gloria de nuestro Señor Jesucristo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "God has called us with the gospel the people won for him by Jesus Christ our Lord."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Pelo Evangelho o Pai nos chamou, a fim de alcançarmos a glória de nosso Senhor Jesus Cristo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Dio ci ha chiamati mediante il Vangelo, per entrare in possesso della gloria del Signore nostro Gesù Cristo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Par l’annonce de l’Évangile, Dieu vous appelle à partager la gloire de notre Seigneur Jésus Christ."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Durch das Evangelium hat Gott uns berufen zur Herrlichkeit Jesu Christi, unseres Herrn."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

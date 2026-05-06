@@ -1675,125 +1675,185 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia 1 Petr 2, 9 Allelúia. Vos genus eléctum, regále sacerdótium, gens sancta; virtútes annuntiáte eius qui de ténebris vos vocávit in admirábile lumen suum. Allelúia.",
-            "es": "Aleluya 1 Petr 2, 9 Aleluya. Vosotros sois un linaje elegido, un sacerdocio real, una nación santa; anunciad las proezas del que os llamó de las tinieblas a su luz maravillosa. Aleluya.",
-            "en": "Alleluia, alleluia. You are a chosen race, a royal priesthood, a holy people. Praise God who called you out of darkness and into his marvelous light. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho 1 Petr 2, 9 Aleluia, aleluia. Vós sois uma raça escolhida, a propriedade de Deus; proclamai suas virtudes, pois, de trevas luz vos fez. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Voi siete stirpe eletta, sacerdozio regale, nazione santa; proclamate le opere ammirevoli di colui che vi ha chiamato dalle tenebre alla sua luce meravigliosa. Alleluia.",
-            "fr": "Alléluia 1 Petr 2, 9 Alléluia Descendance choisie, sacerdoce royal, nation sainte, annoncez les merveilles de Celui qui vous a appelés des ténèbres à son admirable lumière. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. 1 Petr 2, 9 Halleluja. Halleluja. Ihr seid ein auserwähltes Geschlecht, eine königliche Priesterschaft, ein heiliger Stamm. Verkündet die großen Taten Gottes, der euch in sein wunderbares Licht gerufen hat. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Petr 2, 9"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Vos genus eléctum, regále sacerdótium, gens sancta; virtútes annuntiáte eius qui de ténebris vos vocávit in admirábile lumen suum. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Petr 2, 9"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Vosotros sois un linaje elegido, un sacerdocio real, una nación santa; anunciad las proezas del que os llamó de las tinieblas a su luz maravillosa. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. You are a chosen race, a royal priesthood, a holy people. Praise God who called you out of darkness and into his marvelous light. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Petr 2, 9"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Vós sois uma raça escolhida, a propriedade de Deus; proclamai suas virtudes, pois, de trevas luz vos fez. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Voi siete stirpe eletta, sacerdozio regale, nazione santa; proclamate le opere ammirevoli di colui che vi ha chiamato dalle tenebre alla sua luce meravigliosa. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Petr 2, 9"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Descendance choisie, sacerdoce royal, nation sainte, annoncez les merveilles de Celui qui vous a appelés des ténèbres à son admirable lumière. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. 1 Petr 2, 9"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Ihr seid ein auserwähltes Geschlecht, eine königliche Priesterschaft, ein heiliger Stamm. Verkündet die großen Taten Gottes, der euch in sein wunderbares Licht gerufen hat. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "1 Petr 2, 9",
           "es": "1 Petr 2, 9",
           "pt-BR": "1 Petr 2, 9",
           "fr": "1 Petr 2, 9",
           "de": "vgl. 1 Petr 2, 9"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Vos genus eléctum, regále sacerdótium, gens sancta; virtútes annuntiáte eius qui de ténebris vos vocávit in admirábile lumen suum."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Vosotros sois un linaje elegido, un sacerdocio real, una nación santa; anunciad las proezas del que os llamó de las tinieblas a su luz maravillosa."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "You are a chosen race, a royal priesthood, a holy people. Praise God who called you out of darkness and into his marvelous light."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Vós sois uma raça escolhida, a propriedade de Deus; proclamai suas virtudes, pois, de trevas luz vos fez."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Voi siete stirpe eletta, sacerdozio regale, nazione santa; proclamate le opere ammirevoli di colui che vi ha chiamato dalle tenebre alla sua luce meravigliosa."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Descendance choisie, sacerdoce royal, nation sainte, annoncez les merveilles de Celui qui vous a appelés des ténèbres à son admirable lumière."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Ihr seid ein auserwähltes Geschlecht, eine königliche Priesterschaft, ein heiliger Stamm. Verkündet die großen Taten Gottes, der euch in sein wunderbares Licht gerufen hat."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -2852,127 +2912,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. 2 Tim 1, 10 Allelúia. Salvátor noster Iesus Christus destrúxit mortem, et illuminávit vitam per Evangélium. Allelúia.",
-            "es": "Aleluya Cf. 2 Tim 1, 10 Aleluya. Nuestro Salvador, Cristo Jesús, destruyó la muerte, e hizo brillar la vida por medio del Evangelio. Aleluya.",
-            "en": "Alleluia, alleluia. Our Savior Jesus Christ has done away with death, and brought us life through his gospel. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Cf. 2 Tim 1, 10 Aleluia, aleluia. Jesus Cristo, Salvador, destruiu o mal e a morte; fez brilhar, pelo Evangelho, a luz e a vida imperecíveis. Aleluia.",
-            "it": "Canto al Vangelo Cf 2Tm 1,10 Alleluia, alleluia. Il salvatore nostro Cristo Gesù ha vinto la morte e ha fatto risplendere la vita per mezzo del Vangelo. Alleluia.",
-            "fr": "Alléluia Cf. 2 Tim 1, 10 Alléluia Notre Sauveur, le Christ Jésus, a détruit la mort ; il a fait resplendir la vie par l’Évangile. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. 2 Tim 1, 10 Halleluja. Halleluja. Unser Retter Jesus Christus hat dem Tod die Macht genommen und uns das Licht des Lebens gebracht durch das Evangelium. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. 2 Tim 1, 10"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Salvátor noster Iesus Christus destrúxit mortem, et illuminávit vitam per Evangélium. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. 2 Tim 1, 10"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Nuestro Salvador, Cristo Jesús, destruyó la muerte, e hizo brillar la vida por medio del Evangelio. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Our Savior Jesus Christ has done away with death, and brought us life through his gospel. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. 2 Tim 1, 10"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Jesus Cristo, Salvador, destruiu o mal e a morte; fez brilhar, pelo Evangelho, a luz e a vida imperecíveis. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf 2Tm 1,10"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Il salvatore nostro Cristo Gesù ha vinto la morte e ha fatto risplendere la vita per mezzo del Vangelo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. 2 Tim 1, 10"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Notre Sauveur, le Christ Jésus, a détruit la mort ; il a fait resplendir la vie par l’Évangile. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. 2 Tim 1, 10"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Unser Retter Jesus Christus hat dem Tod die Macht genommen und uns das Licht des Lebens gebracht durch das Evangelium. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. 2 Tim 1, 10",
           "es": "Cf. 2 Tim 1, 10",
@@ -2980,6 +2919,179 @@
           "it": "Cf 2Tm 1,10",
           "fr": "Cf. 2 Tim 1, 10",
           "de": "vgl. 2 Tim 1, 10"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Salvátor noster Iesus Christus destrúxit mortem, et illuminávit vitam per Evangélium."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Nuestro Salvador, Cristo Jesús, destruyó la muerte, e hizo brillar la vida por medio del Evangelio."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Our Savior Jesus Christ has done away with death, and brought us life through his gospel."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Jesus Cristo, Salvador, destruiu o mal e a morte; fez brilhar, pelo Evangelho, a luz e a vida imperecíveis."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Il salvatore nostro Cristo Gesù ha vinto la morte e ha fatto risplendere la vita per mezzo del Vangelo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Notre Sauveur, le Christ Jésus, a détruit la mort ; il a fait resplendir la vie par l’Évangile."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Unser Retter Jesus Christus hat dem Tod die Macht genommen und uns das Licht des Lebens gebracht durch das Evangelium."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -4308,127 +4420,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia 1 Sam 3, 9; Io 6, 68c Allelúia. Lóquere, Dómine, quia audit servus tuus; verba vitæ ætérnæ habes. Allelúia.",
-            "es": "Aleluya 1 Sam 3, 9; Io 6, 68c Aleluya. Habla, Señor, que tu siervo escucha; tú tienes palabras de vida eterna. Aleluya.",
-            "en": "Alleluia, alleluia. Speak, O Lord, your servant is listening; you have the words of everlasting life. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho 1 Sam 3, 9; Io 6, 68c Aleluia, aleluia. Fala, Senhor, que te escuta teu servo! Tu tens palavras de vida eterna! Aleluia.",
-            "it": "Canto al Vangelo 1Sam 3,9; Gv 6,68c Alleluia, alleluia. Parla, Signore, perché il tuo servo ti ascolta: tu hai parole di vita eterna. Alleluia.",
-            "fr": "Alléluia 1 Sam 3, 9; Io 6, 68c Alléluia Parle, Seigneur, ton serviteur écoute ; tu as les paroles de la vie éternelle. Alléluia.",
-            "de": "Ruf vor dem Evangelium 1 Sam 3, 9; Joh 6, 68 Halleluja. Halleluja. Rede, Herr, dein Diener hört. Du hast Worte des ewigen Lebens. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Sam 3, 9; Io 6, 68c"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Lóquere, Dómine, quia audit servus tuus; verba vitæ ætérnæ habes. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Sam 3, 9; Io 6, 68c"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Habla, Señor, que tu siervo escucha; tú tienes palabras de vida eterna. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Speak, O Lord, your servant is listening; you have the words of everlasting life. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Sam 3, 9; Io 6, 68c"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Fala, Senhor, que te escuta teu servo! Tu tens palavras de vida eterna! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "1Sam 3,9; Gv 6,68c"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Parla, Signore, perché il tuo servo ti ascolta: tu hai parole di vita eterna. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Sam 3, 9; Io 6, 68c"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Parle, Seigneur, ton serviteur écoute ; tu as les paroles de la vie éternelle. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Sam 3, 9; Joh 6, 68"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Rede, Herr, dein Diener hört. Du hast Worte des ewigen Lebens. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "1 Sam 3, 9; Io 6, 68c",
           "es": "1 Sam 3, 9; Io 6, 68c",
@@ -4436,6 +4427,179 @@
           "it": "1Sam 3,9; Gv 6,68c",
           "fr": "1 Sam 3, 9; Io 6, 68c",
           "de": "1 Sam 3, 9; Joh 6, 68"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Lóquere, Dómine, quia audit servus tuus; verba vitæ ætérnæ habes."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Habla, Señor, que tu siervo escucha; tú tienes palabras de vida eterna."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Speak, O Lord, your servant is listening; you have the words of everlasting life."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Fala, Senhor, que te escuta teu servo! Tu tens palavras de vida eterna!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Parla, Signore, perché il tuo servo ti ascolta: tu hai parole di vita eterna."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Parle, Seigneur, ton serviteur écoute ; tu as les paroles de la vie éternelle."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Rede, Herr, dein Diener hört. Du hast Worte des ewigen Lebens."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

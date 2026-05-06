@@ -1855,127 +1855,6 @@
         ]
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Mt 24, 42a. Allelúia. Vigiláte et estóte paráti, quia qua nescítis hora Fílius hóminis ventúrus est. Allelúia.",
-            "es": "Aleluya Mt 24, 42a. Aleluya. Estad en vela y preparados, porque a la hora que menos penséis viene el Hijo del hombre. Aleluya.",
-            "en": "Alleluia, alleluia. Be watchful and ready: you know not when the Son of Man is coming. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Mt 24, 42a. Aleluia, aleluia. É preciso vigiar e ficar de prontidão; em que dia o Senhor há de vir, não sabeis não! Aleluia.",
-            "it": "Canto al Vangelo Mt 24, 42a.44 Alleluia, alleluia. Vegliate e tenetevi pronti, perché, nell’ora che non immaginate, viene il Figlio dell’uomo. Alleluia.",
-            "fr": "Alléluia Mt 24, 42a. Alléluia Veillez, tenez-vous prêts : c’est à l’heure où vous n’y pensez pas que le Fils de l’homme viendra. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Mt 24, 42a. Halleluja. Halleluja. Seid wachsam und haltet euch bereit! Denn der Menschensohn kommt zu einer Stunde, in der ihr es nicht erwartet. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 24, 42a."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Vigiláte et estóte paráti, quia qua nescítis hora Fílius hóminis ventúrus est. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 24, 42a."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Estad en vela y preparados, porque a la hora que menos penséis viene el Hijo del hombre. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Be watchful and ready: you know not when the Son of Man is coming. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 24, 42a."
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. É preciso vigiar e ficar de prontidão; em que dia o Senhor há de vir, não sabeis não! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 24, 42a.44"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Vegliate e tenetevi pronti, perché, nell’ora che non immaginate, viene il Figlio dell’uomo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 24, 42a."
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Veillez, tenez-vous prêts : c’est à l’heure où vous n’y pensez pas que le Fils de l’homme viendra. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Mt 24, 42a."
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Seid wachsam und haltet euch bereit! Denn der Menschensohn kommt zu einer Stunde, in der ihr es nicht erwartet. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mt 24, 42a",
           "es": "Mt 24, 42a",
@@ -1983,6 +1862,179 @@
           "it": "Mt 24, 42a.44",
           "fr": "Mt 24, 42a",
           "de": "vgl. Mt 24, 42a"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Vigiláte et estóte paráti, quia qua nescítis hora Fílius hóminis ventúrus est."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Estad en vela y preparados, porque a la hora que menos penséis viene el Hijo del hombre."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Be watchful and ready: you know not when the Son of Man is coming."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "É preciso vigiar e ficar de prontidão; em que dia o Senhor há de vir, não sabeis não!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Vegliate e tenetevi pronti, perché, nell’ora che non immaginate, viene il Figlio dell’uomo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Veillez, tenez-vous prêts : c’est à l’heure où vous n’y pensez pas que le Fils de l’homme viendra."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Seid wachsam und haltet euch bereit! Denn der Menschensohn kommt zu einer Stunde, in der ihr es nicht erwartet."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -3029,127 +3081,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Mt 5, 3 Allelúia. Beáti páuperes spíritu, quóniam ipsórum est regnum cælórum. Allelúia.",
-            "es": "Aleluya Mt 5, 3 Aleluya. Bienaventurados los pobres en el espíritu, porque de ellos es el reino de los cielos. Aleluya.",
-            "en": "Alleluia, alleluia. Happy the poor in spirit; the kingdom of heaven is theirs! Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Mt 5, 3 Aleluia, aleluia. Felizes os pobres em espírito, porque deles é o Reino dos Céus. Aleluia.",
-            "it": "Canto al Vangelo Mt 5,3 Alleluia, alleluia. Beati i poveri in spirito, perché di essi è il regno dei cieli. Alleluia.",
-            "fr": "Alléluia Mt 5, 3 Alléluia Heureux les pauvres de cœur, car le royaume des Cieux est à eux ! Alléluia.",
-            "de": "Ruf vor dem Evangelium Mt 5, 3 Halleluja. Halleluja. Selig, die arm sind vor Gott; denn ihnen gehört das Himmelreich. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 5, 3"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Beáti páuperes spíritu, quóniam ipsórum est regnum cælórum. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 5, 3"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Bienaventurados los pobres en el espíritu, porque de ellos es el reino de los cielos. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Happy the poor in spirit; the kingdom of heaven is theirs! Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 5, 3"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Felizes os pobres em espírito, porque deles é o Reino dos Céus. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 5,3"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Beati i poveri in spirito, perché di essi è il regno dei cieli. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 5, 3"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Heureux les pauvres de cœur, car le royaume des Cieux est à eux ! Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 5, 3"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Selig, die arm sind vor Gott; denn ihnen gehört das Himmelreich. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mt 5, 3",
           "es": "Mt 5, 3",
@@ -3157,6 +3088,179 @@
           "it": "Mt 5,3",
           "fr": "Mt 5, 3",
           "de": "Mt 5, 3"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Beáti páuperes spíritu, quóniam ipsórum est regnum cælórum."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Bienaventurados los pobres en el espíritu, porque de ellos es el reino de los cielos."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Happy the poor in spirit; the kingdom of heaven is theirs!"
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Felizes os pobres em espírito, porque deles é o Reino dos Céus."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Beati i poveri in spirito, perché di essi è il regno dei cieli."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Heureux les pauvres de cœur, car le royaume des Cieux est à eux !"
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Selig, die arm sind vor Gott; denn ihnen gehört das Himmelreich."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -4365,127 +4469,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Ap 1, 5a. 6b Allelúia. Iesus Christus est testis fidélis, primogénitus mortuórum; ipsi glória et impérium in sǽcula sæculórum. Amen. Allelúia.",
-            "es": "Aleluya Ap 1, 5a. 6b Aleluya. Jesucristo es el primogénito de entre los muertos; a él, la gloria y el poder por los siglos de los siglos. Aleluya.",
-            "en": "Alleluia, alleluia. Jesus Christ, you are the faithful witness, the first born from the dead; you have made us a kingdom of priests to serve our God and Father. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Ap 1, 5a. 6b Aleluia, aleluia. Jesus Cristo é o Primogénito dos mortos. A ele a glória e o domínio para sempre! Aleluia.",
-            "it": "Canto al Vangelo Ap 1,5a-6b Alleluia, alleluia. Gesù Cristo è il primogenito dei morti: a lui la gloria e la potenza nei secoli dei secoli. Alleluia.",
-            "fr": "Alléluia Ap 1, 5a. 6b Alléluia Jésus Christ, le premier-né d’entre les morts, à lui, la gloire et la souveraineté pour les siècles des siècles. Alléluia.",
-            "de": "Ruf vor dem Evangelium Offb 1, 5a. 6b Halleluja. Halleluja. Jesus Christus ist der Erstgeborene der Toten. Ihm sei die Herrlichkeit und die Macht in alle Ewigkeit. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ap 1, 5a. 6b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Iesus Christus est testis fidélis, primogénitus mortuórum; ipsi glória et impérium in sǽcula sæculórum. Amen. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ap 1, 5a. 6b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Jesucristo es el primogénito de entre los muertos; a él, la gloria y el poder por los siglos de los siglos. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Jesus Christ, you are the faithful witness, the first born from the dead; you have made us a kingdom of priests to serve our God and Father. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ap 1, 5a. 6b"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Jesus Cristo é o Primogénito dos mortos. A ele a glória e o domínio para sempre! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ap 1,5a-6b"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Gesù Cristo è il primogenito dei morti: a lui la gloria e la potenza nei secoli dei secoli. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ap 1, 5a. 6b"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Jésus Christ, le premier-né d’entre les morts, à lui, la gloire et la souveraineté pour les siècles des siècles. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Offb 1, 5a. 6b"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Jesus Christus ist der Erstgeborene der Toten. Ihm sei die Herrlichkeit und die Macht in alle Ewigkeit. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Ap 1, 5a. 6b",
           "es": "Ap 1, 5a. 6b",
@@ -4493,6 +4476,179 @@
           "it": "Ap 1,5a-6b",
           "fr": "Ap 1, 5a. 6b",
           "de": "Offb 1, 5a. 6b"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Iesus Christus est testis fidélis, primogénitus mortuórum; ipsi glória et impérium in sǽcula sæculórum. Amen."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Jesucristo es el primogénito de entre los muertos; a él, la gloria y el poder por los siglos de los siglos."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Jesus Christ, you are the faithful witness, the first born from the dead; you have made us a kingdom of priests to serve our God and Father."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Jesus Cristo é o Primogénito dos mortos. A ele a glória e o domínio para sempre!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Gesù Cristo è il primogenito dei morti: a lui la gloria e la potenza nei secoli dei secoli."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Jésus Christ, le premier-né d’entre les morts, à lui, la gloire et la souveraineté pour les siècles des siècles."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Jesus Christus ist der Erstgeborene der Toten. Ihm sei die Herrlichkeit und die Macht in alle Ewigkeit."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

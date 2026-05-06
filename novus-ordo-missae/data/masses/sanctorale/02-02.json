@@ -2357,125 +2357,185 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Lc 2, 32 Allelúia. Lumen ad revelatiónem géntium, et glóriam plebis tuæ, Israel. Allelúia.",
-            "es": "Aleluya Lc 2, 32 Aleluya. Luz para alumbrar a las naciones y gloria de tu pueblo Israel. Aleluya.",
-            "en": "Alleluia, alleluia. This is the light of revelation to the nations, and the glory of your people, Israel. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Lc 2, 32 Aleluia, aleluia. Sois a luz que brilhará para os gentios, e para a glória de Israel, o vosso povo. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. I miei occhi han visto la tua salvezza: luce per illuminare le genti e gloria del tuo popolo, Israele. Alleluia.",
-            "fr": "Alléluia Lc 2, 32 Alléluia Lumière qui se révèle aux nations et donne gloire à ton peuple Israël. Alléluia.",
-            "de": "Ruf vor dem Evangelium Lk 2, 32 Halleluja. Halleluja. Ein Licht, das die Heiden erleuchtet, und Herrlichkeit für das Volk Israel. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 2, 32"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Lumen ad revelatiónem géntium, et glóriam plebis tuæ, Israel. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 2, 32"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Luz para alumbrar a las naciones y gloria de tu pueblo Israel. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. This is the light of revelation to the nations, and the glory of your people, Israel. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 2, 32"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Sois a luz que brilhará para os gentios, e para a glória de Israel, o vosso povo. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. I miei occhi han visto la tua salvezza: luce per illuminare le genti e gloria del tuo popolo, Israele. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 2, 32"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Lumière qui se révèle aux nations et donne gloire à ton peuple Israël. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lk 2, 32"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Ein Licht, das die Heiden erleuchtet, und Herrlichkeit für das Volk Israel. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Lc 2, 32",
           "es": "Lc 2, 32",
           "pt-BR": "Lc 2, 32",
           "fr": "Lc 2, 32",
           "de": "Lk 2, 32"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Lumen ad revelatiónem géntium, et glóriam plebis tuæ, Israel."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Luz para alumbrar a las naciones y gloria de tu pueblo Israel."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "This is the light of revelation to the nations, and the glory of your people, Israel."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Sois a luz que brilhará para os gentios, e para a glória de Israel, o vosso povo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "I miei occhi han visto la tua salvezza: luce per illuminare le genti e gloria del tuo popolo, Israele."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Lumière qui se révèle aux nations et donne gloire à ton peuple Israël."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Ein Licht, das die Heiden erleuchtet, und Herrlichkeit für das Volk Israel."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

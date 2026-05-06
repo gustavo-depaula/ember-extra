@@ -711,127 +711,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia 1 Io 2, 5 Allelúia. Qui servat verbum Christi, vere in hoc cáritas Dei consummáta est. Allelúia.",
-            "es": "Aleluya 1 Jn 2, 5 Aleluya. Quien guarda la Palabra de Cristo, ciertamente el amor de Dios ha llegado en él a su plenitud. Aleluya.",
-            "en": "Alleluia, alleluia. He who keeps the word of Christ, grows perfect in the love of God. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho 1 Jo 2, 5 Aleluia, aleluia. O amor de Deus se realiza em todo aquele, que guarda sua palavra fielmente. Aleluia.",
-            "it": "Canto al Vangelo 1Gv 2,5 Alleluia, alleluia. Chi osserva la parola di Gesù Cristo in lui l’amore di Dio è veramente perfetto. Alleluia.",
-            "fr": "Alléluia 1 Io 2, 5 Alléluia En celui qui garde la parole du Christ l’amour de Dieu atteint vraiment sa perfection. Alléluia.",
-            "de": "Ruf vor dem Evangelium 1 Joh 2, 5 Halleluja. Halleluja. Wer sich an Christi Wort hält, in dem ist die Gottesliebe wahrhaft vollendet. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Io 2, 5"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Qui servat verbum Christi, vere in hoc cáritas Dei consummáta est. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Jn 2, 5"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Quien guarda la Palabra de Cristo, ciertamente el amor de Dios ha llegado en él a su plenitud. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. He who keeps the word of Christ, grows perfect in the love of God. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Jo 2, 5"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. O amor de Deus se realiza em todo aquele, que guarda sua palavra fielmente. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "1Gv 2,5"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Chi osserva la parola di Gesù Cristo in lui l’amore di Dio è veramente perfetto. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Io 2, 5"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia En celui qui garde la parole du Christ l’amour de Dieu atteint vraiment sa perfection. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Joh 2, 5"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Wer sich an Christi Wort hält, in dem ist die Gottesliebe wahrhaft vollendet. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "1 Io 2, 5",
           "es": "1 Jn 2, 5",
@@ -839,6 +718,179 @@
           "it": "1Gv 2,5",
           "fr": "1 Io 2, 5",
           "de": "1 Joh 2, 5"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Qui servat verbum Christi, vere in hoc cáritas Dei consummáta est."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Quien guarda la Palabra de Cristo, ciertamente el amor de Dios ha llegado en él a su plenitud."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "He who keeps the word of Christ, grows perfect in the love of God."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "O amor de Deus se realiza em todo aquele, que guarda sua palavra fielmente."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Chi osserva la parola di Gesù Cristo in lui l’amore di Dio è veramente perfetto."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "En celui qui garde la parole du Christ l’amour de Dieu atteint vraiment sa perfection."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Wer sich an Christi Wort hält, in dem ist die Gottesliebe wahrhaft vollendet."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -1763,127 +1815,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia 1 Io 2, 5 Allelúia. Qui servat verbum Christi, vere in hoc cáritas Dei consummáta est. Allelúia.",
-            "es": "Aleluya 1 Jn 2, 5 Aleluya. Quien guarda la Palabra de Cristo, ciertamente el amor de Dios ha llegado en él a su plenitud. Aleluya.",
-            "en": "Alleluia, alleluia. He who keeps the word of Christ, grows perfect in the love of God. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho 1 Jo 2, 5 Aleluia, aleluia. O amor de Deus se realiza em todo aquele, que guarda sua palavra fielmente. Aleluia.",
-            "it": "Canto al Vangelo 1Gv 2,5 Alleluia, alleluia. Chi osserva la parola di Gesù Cristo in lui l’amore di Dio è veramente perfetto. Alleluia.",
-            "fr": "Alléluia 1 Io 2, 5 Alléluia En celui qui garde la parole du Christ l’amour de Dieu atteint vraiment sa perfection. Alléluia.",
-            "de": "Ruf vor dem Evangelium 1 Joh 2, 5 Halleluja. Halleluja. Wer sich an Christi Wort hält, in dem ist die Gottesliebe wahrhaft vollendet. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Io 2, 5"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Qui servat verbum Christi, vere in hoc cáritas Dei consummáta est. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Jn 2, 5"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Quien guarda la Palabra de Cristo, ciertamente el amor de Dios ha llegado en él a su plenitud. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. He who keeps the word of Christ, grows perfect in the love of God. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Jo 2, 5"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. O amor de Deus se realiza em todo aquele, que guarda sua palavra fielmente. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "1Gv 2,5"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Chi osserva la parola di Gesù Cristo in lui l’amore di Dio è veramente perfetto. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Io 2, 5"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia En celui qui garde la parole du Christ l’amour de Dieu atteint vraiment sa perfection. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "1 Joh 2, 5"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Wer sich an Christi Wort hält, in dem ist die Gottesliebe wahrhaft vollendet. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "1 Io 2, 5",
           "es": "1 Jn 2, 5",
@@ -1891,6 +1822,179 @@
           "it": "1Gv 2,5",
           "fr": "1 Io 2, 5",
           "de": "1 Joh 2, 5"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Qui servat verbum Christi, vere in hoc cáritas Dei consummáta est."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Quien guarda la Palabra de Cristo, ciertamente el amor de Dios ha llegado en él a su plenitud."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "He who keeps the word of Christ, grows perfect in the love of God."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "O amor de Deus se realiza em todo aquele, que guarda sua palavra fielmente."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Chi osserva la parola di Gesù Cristo in lui l’amore di Dio è veramente perfetto."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "En celui qui garde la parole du Christ l’amour de Dieu atteint vraiment sa perfection."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Wer sich an Christi Wort hält, in dem ist die Gottesliebe wahrhaft vollendet."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

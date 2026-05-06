@@ -1885,127 +1885,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. Lc 1, 45 Allelúia. Beáta es, Virgo María, quæ credidísti, quóniam perficiéntur ea quæ dicta sunt tibi a Dómino. Allelúia.",
-            "es": "Aleluya Cf. Lc 1, 45 Aleluya. Bienaventurada tú, que has creído, Virgen María, porque lo que te ha dicho el Señor se cumplirá. Aleluya.",
-            "en": "Alleluia, alleluia. Blessed are you, O Virgin Mary, for your firm believing, that the promises of the Lord would be fulfilled. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Cf. Lc 1, 45 Aleluia, aleluia. És feliz, porque creste, Maria, pois, em ti, a Plavra de Deus vai cumprir-se, conforme ele disse. Aleluia.",
-            "it": "Canto al Vangelo Cf. Lc 1, 45 Alleluia, alleluia. Beata sei tu, o Vergine Maria, che hai creduto: in te si è adempiuta la parola del Signore. Alleluia.",
-            "fr": "Alléluia Cf. Lc 1, 45 Alléluia Heureuse es-tu, Vierge Marie, toi qui as cru que s’accompliraient pour toi les paroles du Seigneur. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Lk 1, 45 Halleluja. Halleluja. Selig bist du, Jungfrau Maria; du hast geglaubt, dass sich erfüllt, was der Herr dir sagen ließ. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Lc 1, 45"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Beáta es, Virgo María, quæ credidísti, quóniam perficiéntur ea quæ dicta sunt tibi a Dómino. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Lc 1, 45"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Bienaventurada tú, que has creído, Virgen María, porque lo que te ha dicho el Señor se cumplirá. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Blessed are you, O Virgin Mary, for your firm believing, that the promises of the Lord would be fulfilled. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Lc 1, 45"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. És feliz, porque creste, Maria, pois, em ti, a Plavra de Deus vai cumprir-se, conforme ele disse. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Lc 1, 45"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Beata sei tu, o Vergine Maria, che hai creduto: in te si è adempiuta la parola del Signore. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Lc 1, 45"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Heureuse es-tu, Vierge Marie, toi qui as cru que s’accompliraient pour toi les paroles du Seigneur. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Lk 1, 45"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Selig bist du, Jungfrau Maria; du hast geglaubt, dass sich erfüllt, was der Herr dir sagen ließ. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Lc 1, 45",
           "es": "Cf. Lc 1, 45",
@@ -2013,6 +1892,179 @@
           "it": "Cf. Lc 1, 45",
           "fr": "Cf. Lc 1, 45",
           "de": "vgl. Lk 1, 45"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Beáta es, Virgo María, quæ credidísti, quóniam perficiéntur ea quæ dicta sunt tibi a Dómino."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Bienaventurada tú, que has creído, Virgen María, porque lo que te ha dicho el Señor se cumplirá."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Blessed are you, O Virgin Mary, for your firm believing, that the promises of the Lord would be fulfilled."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "És feliz, porque creste, Maria, pois, em ti, a Plavra de Deus vai cumprir-se, conforme ele disse."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Beata sei tu, o Vergine Maria, che hai creduto: in te si è adempiuta la parola del Signore."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Heureuse es-tu, Vierge Marie, toi qui as cru que s’accompliraient pour toi les paroles du Seigneur."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Selig bist du, Jungfrau Maria; du hast geglaubt, dass sich erfüllt, was der Herr dir sagen ließ."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

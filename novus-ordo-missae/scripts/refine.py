@@ -6190,6 +6190,291 @@ def _split_responsorial_psalms_in_mass(mass: dict) -> None:
             _split_responsorial_psalm(rp)
 
 
+# Per-language printed-header phrases stripped from the start of the first
+# text segment. Matches only when followed by whitespace or end-of-string so it
+# does not eat into wrap-refrain or verse content. The header itself is
+# discarded (consumers render their own heading from `mode`); detection of the
+# `versus-ante-evangelium` / `alleluia-or-versus` modes happens via the la/es/fr
+# variants below. English has no separate header in the source — there
+# `Alleluia, alleluia.` IS the wrap, not a label.
+_GA_LABEL_PATTERNS = {
+    'la': re.compile(
+        r'^(?:Alleluia(?:\s+vel\s+Versus\s+ante\s+Evangelium)?'
+        r'|Versus\s+ante\s+Evangelium)(?=\s|$)',
+    ),
+    'es': re.compile(
+        r'^(?:Aleluya(?:\s+vel\s+Versículo\s+antes\s+del\s+Evangelio)?'
+        r'|Versículo\s+antes\s+del\s+Evangelio)(?=\s|$)',
+    ),
+    'en': None,
+    'pt-BR': re.compile(
+        r'^(?:Aclamação\s+ao\s+Evangelho'
+        r'|Aclamaçãoao\s+Evangelho'
+        r'|Aclamçãoao\s+Evangelho'
+        r'|Aclamção\s+ao\s+Evangelho'
+        r'|Aclamação)(?=\s|$)',
+    ),
+    'it': re.compile(
+        r'^(?:Canto\s+al\s+Vangelo|Acclamazione\s+al\s+Vangelo)(?=\s|$)',
+    ),
+    'fr': re.compile(
+        r"^(?:Alléluia(?:\s+vel\s+Verset\s+avant\s+l[’']Évangile)?"
+        r"|Verset\s+avant\s+l[’']Évangile)(?=\s|$)",
+    ),
+    'de': re.compile(
+        r'^(?:Ruf\s+vor\s+dem\s+Evangelium'
+        r'|Ruf\s+vor\s+der\s+Passion'
+        r'|Vor\s+dem\s+Evangelium)(?=\s|$)',
+    ),
+}
+
+# Map a peeled header phrase to the season-discriminator mode. Only the langs
+# that distinguish in their printed heading appear here (la, es, fr); the
+# others use a single language-constant phrase regardless of season.
+_GA_MODE_FROM_LABEL = {
+    'Alleluia':                                  'alleluia',
+    'Versus ante Evangelium':                    'versus-ante-evangelium',
+    'Alleluia vel Versus ante Evangelium':       'alleluia-or-versus',
+    'Aleluya':                                   'alleluia',
+    'Versículo antes del Evangelio':             'versus-ante-evangelium',
+    'Aleluya vel Versículo antes del Evangelio': 'alleluia-or-versus',
+    'Alléluia':                                  'alleluia',
+    'Verset avant l’Évangile':                   'versus-ante-evangelium',
+    "Verset avant l'Évangile":                   'versus-ante-evangelium',
+    'Alléluia vel Verset avant l’Évangile':      'alleluia-or-versus',
+    "Alléluia vel Verset avant l'Évangile":      'alleluia-or-versus',
+}
+
+# Per-language refrain word (for `Allel(ú)ia.` wrappers). The leading and
+# trailing patterns peel the people's response from the start and end of the
+# verse text. Leading admits the doubled form ("Alleluia, alleluia." /
+# "Halleluja. Halleluja."); trailing is always single.
+_GA_REFRAIN_WORD_RE = {
+    'la':    r'Allel[uú]ia',
+    'en':    r'(?:Alleluia|Hallelujah)',
+    'es':    r'Aleluya',
+    'pt-BR': r'Aleluia',
+    'it':    r'Alleluia',
+    'fr':    r'All[eé]luia',
+    'de':    r'Halleluja',
+}
+
+_GA_LEADING_REFRAIN_PATTERNS = {
+    lang: re.compile(
+        rf'^(\(?{w}(?:[,.]\s+{w})?\s*[.!]?\)?)(?:\s+|$)',
+        re.IGNORECASE,
+    )
+    for lang, w in _GA_REFRAIN_WORD_RE.items()
+}
+
+_GA_TRAILING_REFRAIN_PATTERNS = {
+    lang: re.compile(rf'\s+(\(?{w}\s*[.!]?\)?)\s*$', re.IGNORECASE)
+    for lang, w in _GA_REFRAIN_WORD_RE.items()
+}
+
+
+def _peel_ga_label(text: str, lang: str) -> tuple[str, str]:
+    pat = _GA_LABEL_PATTERNS.get(lang)
+    if pat is None:
+        return '', text
+    m = pat.match(text or '')
+    if not m:
+        return '', text
+    return m.group(0).strip(), text[m.end():].lstrip()
+
+
+def _peel_ga_leading_refrain(text: str, lang: str) -> tuple[str, str]:
+    pat = _GA_LEADING_REFRAIN_PATTERNS.get(lang)
+    if pat is None:
+        return '', text
+    m = pat.match(text or '')
+    if not m:
+        return '', text
+    return m.group(1).strip(), text[m.end():].lstrip()
+
+
+def _peel_ga_trailing_refrain(text: str, lang: str) -> tuple[str, str]:
+    pat = _GA_TRAILING_REFRAIN_PATTERNS.get(lang)
+    if pat is None:
+        return text, ''
+    m = pat.search(text or '')
+    if not m:
+        return text, ''
+    return text[:m.start()].rstrip(), m.group(1).strip()
+
+
+def _parse_gospel_acclamation_lang_lines(lines, lang: str):
+    """Per-language surgery: parse one body.lines.<lang> Line[] into
+    {label, citation, acclamation, verse}. `label` is the peeled-header text
+    (used by the caller to derive the slot-level mode discriminator, then
+    discarded). Returns None if input is unusable."""
+    if not isinstance(lines, list) or not lines:
+        return None
+
+    flat: list[dict] = []
+    for line in lines:
+        if not isinstance(line, list):
+            continue
+        for seg in line:
+            if isinstance(seg, dict) and seg.get('type'):
+                flat.append(dict(seg))
+
+    if not flat:
+        return None
+
+    label = ''
+    citation = ''
+
+    # 1. Peel printed header label from the start of the first text segment.
+    if flat and flat[0].get('type') == 'text':
+        peeled, rest = _peel_ga_label(flat[0].get('text') or '', lang)
+        if peeled:
+            label = peeled
+            if rest:
+                flat[0]['text'] = rest
+            else:
+                flat.pop(0)
+
+    # 2. Lift any inline reference segment(s) into citation. Drop them from
+    #    the verse — the slot's top-level `citation` field is the canonical home.
+    kept: list[dict] = []
+    for seg in flat:
+        if seg.get('type') == 'reference':
+            if not citation:
+                citation = (seg.get('text') or '').strip()
+            continue
+        kept.append(seg)
+    flat = kept
+
+    # Collapse any empty-text segments that may have been produced.
+    flat = [s for s in flat if not (s.get('type') == 'text' and not (s.get('text') or '').strip())]
+
+    leading_refrain = ''
+    trailing_refrain = ''
+
+    # 3. Peel a leading refrain ("Allelúia." / "(Allelúia.)" / "Alleluia, alleluia.").
+    if flat and flat[0].get('type') == 'text':
+        leading, rest = _peel_ga_leading_refrain(flat[0].get('text') or '', lang)
+        if leading:
+            leading_refrain = leading
+            if rest:
+                flat[0]['text'] = rest
+            else:
+                flat.pop(0)
+
+    # 4. Peel a trailing refrain.
+    if flat and flat[-1].get('type') == 'text':
+        rest, trailing = _peel_ga_trailing_refrain(flat[-1].get('text') or '', lang)
+        if trailing:
+            trailing_refrain = trailing
+            if rest:
+                flat[-1]['text'] = rest
+            else:
+                flat.pop()
+
+    # 5. Reconstruct verse: response(leading) + remaining segs + response(trailing).
+    verse_segs: list[dict] = []
+    if leading_refrain:
+        verse_segs.append({'type': 'response', 'text': leading_refrain})
+    verse_segs.extend(flat)
+    if trailing_refrain:
+        verse_segs.append({'type': 'response', 'text': trailing_refrain})
+
+    verse = [verse_segs] if verse_segs else []
+
+    # Acclamation is the people's refrain, prefer the leading wrap.
+    refrain = leading_refrain or trailing_refrain
+    acclamation = [[{'type': 'response', 'text': refrain}]] if refrain else []
+
+    return {
+        'label': label,
+        'citation': citation,
+        'acclamation': acclamation,
+        'verse': verse,
+    }
+
+
+def _derive_ga_mode(labels_per_lang: dict[str, str], has_acclamation: bool) -> str:
+    """Reduce per-lang printed headers to the single season discriminator. Reads
+    la/es/fr first (those distinguish modes in their headers); falls back to
+    the presence of an acclamation refrain when no signal lang is available."""
+    for lang in ('la', 'es', 'fr'):
+        peeled = labels_per_lang.get(lang)
+        if peeled and peeled in _GA_MODE_FROM_LABEL:
+            return _GA_MODE_FROM_LABEL[peeled]
+    return 'alleluia' if has_acclamation else 'versus-ante-evangelium'
+
+
+def _split_gospel_acclamation(ga: dict) -> None:
+    """Rewrite a gospelAcclamation dict in-place: parse `body.{plain,lines}`
+    into `mode`, `acclamation`, `verse`, `citation`. Idempotent: no-op when
+    `body` is missing or `verse` is already set. Recurses into the
+    `alternatives[]` wrapper used by All Souls / Sacred Heart / Holy Family."""
+    if not isinstance(ga, dict):
+        return
+    if 'verse' in ga:
+        return
+    if isinstance(ga.get('alternatives'), list):
+        for opt in ga['alternatives']:
+            _split_gospel_acclamation(opt)
+        return
+    body = ga.get('body')
+    if not isinstance(body, dict):
+        return
+    body_lines = body.get('lines')
+    if not isinstance(body_lines, dict):
+        return
+
+    label_per_lang: dict[str, str] = {}
+    acclamation_per_lang: dict[str, list] = {}
+    verse_per_lang: dict[str, list] = {}
+    citation_per_lang: dict[str, str] = {}
+
+    for lang, lang_lines in body_lines.items():
+        parsed = _parse_gospel_acclamation_lang_lines(lang_lines, lang)
+        if not parsed:
+            continue
+        if parsed['label']:
+            label_per_lang[lang] = parsed['label']
+        if parsed['acclamation']:
+            acclamation_per_lang[lang] = parsed['acclamation']
+        if parsed['verse']:
+            verse_per_lang[lang] = parsed['verse']
+        if parsed['citation']:
+            citation_per_lang[lang] = parsed['citation']
+
+    if not verse_per_lang:
+        # Source too degraded to extract verses; leave the slot alone.
+        return
+
+    # Merge extracted citations into the slot-level citation. Existing values win.
+    existing_cit = ga.get('citation') if isinstance(ga.get('citation'), dict) else {}
+    for lang, c in citation_per_lang.items():
+        if not (existing_cit.get(lang) or '').strip():
+            existing_cit[lang] = c
+    if existing_cit:
+        ga['citation'] = existing_cit
+
+    ga['mode'] = _derive_ga_mode(label_per_lang, bool(acclamation_per_lang))
+    if acclamation_per_lang:
+        ga['acclamation'] = acclamation_per_lang
+    ga['verse'] = verse_per_lang
+    ga.pop('body', None)
+
+
+def _split_gospel_acclamation_in_mass(mass: dict) -> None:
+    """Walk readings.<cycle>.gospelAcclamation and split body → typed shape."""
+    readings = mass.get('readings')
+    if not isinstance(readings, dict):
+        return
+    for cycle, slots in readings.items():
+        if not isinstance(slots, dict):
+            continue
+        ga = slots.get('gospelAcclamation')
+        if isinstance(ga, dict):
+            _split_gospel_acclamation(ga)
+
+
 def _drop_stranded_lectio_labels(mass: dict) -> None:
     """If a reading has only `label` (no body), clear the label since it's a
     structural ghost. Concentrated in /readings/{default,A,B,C}/firstReading|
@@ -9137,10 +9422,12 @@ def _post_process_mass(mass: dict) -> Optional[dict]:
     _fr_quote_state_machine_in_payload(out)
     # ensure response segments end with terminal punctuation.
     _ensure_response_terminal_in_mass(out)
-    # Last: split responsorial psalms into responsory + verses. Runs at the
-    # end so all body-shape-dependent passes (segment merge, terminal-period,
-    # quote pairing, etc.) operate on the legacy `body.lines` shape first.
+    # Last: split responsorial psalms into responsory + verses, and gospel
+    # acclamations into label/acclamation/verse/citation. Runs at the end so
+    # all body-shape-dependent passes (segment merge, terminal-period, quote
+    # pairing, etc.) operate on the legacy `body.lines` shape first.
     _split_responsorial_psalms_in_mass(out)
+    _split_gospel_acclamation_in_mass(out)
     return out
 
 

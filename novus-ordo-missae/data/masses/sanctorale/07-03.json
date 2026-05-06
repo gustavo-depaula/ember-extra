@@ -1346,127 +1346,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 20, 29 Allelúia. Quia vidísti me, Thoma, credidísti, dicit Dóminus; beáti qui non vidérunt et credidérunt. Allelúia.",
-            "es": "Aleluya Jn 20, 29 Aleluya. Porque me has visto, Tomás, has creído —dice el Señor—; bienaventurados los que crean sin haber visto. Aleluya.",
-            "en": "Alleluia, alleluia. You believe in me, Thomas, because you have seen me; happy those who have not seen me, but still believe! Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 20, 29 Aleluia, aleluia. Acreditaste, Tomé, porque me viste. Felizes os que crêem, sem ter visto. Aleluia.",
-            "it": "Canto al Vangelo Gv 20, 29 Alleluia, alleluia. Perché mi hai veduto, Tommaso, tu hai creduto; beati quelli che, pur non avendo visto, crederanno. Alleluia.",
-            "fr": "Alléluia Io 20, 29 Alléluia Thomas, parce que tu m’as vu, tu crois, dit le Seigneur. Heureux ceux qui croient sans avoir vu ! Alléluia.",
-            "de": "Ruf vor dem Evangelium Joh 20, 29 Halleluja. Halleluja. (So spricht der Herr:) Weil du mich gesehen hast, Thomas, glaubst du. Selig sind, die nicht sehen und doch glauben. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 20, 29"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Quia vidísti me, Thoma, credidísti, dicit Dóminus; beáti qui non vidérunt et credidérunt. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 20, 29"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Porque me has visto, Tomás, has creído —dice el Señor—; bienaventurados los que crean sin haber visto. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. You believe in me, Thomas, because you have seen me; happy those who have not seen me, but still believe! Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 20, 29"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Acreditaste, Tomé, porque me viste. Felizes os que crêem, sem ter visto. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gv 20, 29"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Perché mi hai veduto, Tommaso, tu hai creduto; beati quelli che, pur non avendo visto, crederanno. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 20, 29"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Thomas, parce que tu m’as vu, tu crois, dit le Seigneur. Heureux ceux qui croient sans avoir vu ! Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joh 20, 29"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Weil du mich gesehen hast, Thomas, glaubst du. Selig sind, die nicht sehen und doch glauben. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 20, 29",
           "es": "Jn 20, 29",
@@ -1474,6 +1353,179 @@
           "it": "Gv 20, 29",
           "fr": "Io 20, 29",
           "de": "Joh 20, 29"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Quia vidísti me, Thoma, credidísti, dicit Dóminus; beáti qui non vidérunt et credidérunt."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Porque me has visto, Tomás, has creído —dice el Señor—; bienaventurados los que crean sin haber visto."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "You believe in me, Thomas, because you have seen me; happy those who have not seen me, but still believe!"
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Acreditaste, Tomé, porque me viste. Felizes os que crêem, sem ter visto."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Perché mi hai veduto, Tommaso, tu hai creduto; beati quelli che, pur non avendo visto, crederanno."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Thomas, parce que tu m’as vu, tu crois, dit le Seigneur. Heureux ceux qui croient sans avoir vu !"
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Weil du mich gesehen hast, Thomas, glaubst du. Selig sind, die nicht sehen und doch glauben."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

@@ -673,125 +673,185 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia vel Versus ante Evangelium Lc 1, 49 (Alleluia.) Fecit mihi magna qui potens est, et sanctum nomen eius. (Alleluia.)",
-            "es": "Aleluya Lc 1, 49 Aleluya. El Poderoso ha hecho obras grandes en mí: su nombre es santo. Aleluya.",
-            "en": "Alleluia, alleluia. The Almighty has done great things for me and holy is his name. Alleluia.",
-            "pt-BR": "Aleluya Lc 1, 49 Aleluia. O Senhor fez por mim maravilhas, e Santo é o seu nome. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Grandi cose ha fatto in me l’Onnipotente e Santo è il suo nome Alleluia.",
-            "fr": "Alléluia vel Verset avant l’Évangile Lc 1, 49 (Alléluia) Le Puissant fit pour moi des merveilles ; Saint est son nom ! (Alléluia)",
-            "de": "Ruf vor dem Evangelium Lk 1, 49 Halleluja. Halleluja. Der Mächtige hat Großes an mir getan, und sein Name ist heilig. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia vel Versus ante Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 1, 49"
-                },
-                {
-                  "type": "text",
-                  "text": "(Alleluia.) Fecit mihi magna qui potens est, et sanctum nomen eius. (Alleluia.)"
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 1, 49"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. El Poderoso ha hecho obras grandes en mí: su nombre es santo. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. The Almighty has done great things for me and holy is his name. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 1, 49"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluia. O Senhor fez por mim maravilhas, e Santo é o seu nome. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Grandi cose ha fatto in me l’Onnipotente e Santo è il suo nome Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia vel Verset avant l’Évangile"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 1, 49"
-                },
-                {
-                  "type": "text",
-                  "text": "(Alléluia) Le Puissant fit pour moi des merveilles ; Saint est son nom ! (Alléluia)"
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lk 1, 49"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Der Mächtige hat Großes an mir getan, und sein Name ist heilig. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Lc 1, 49",
           "es": "Lc 1, 49",
           "pt-BR": "Lc 1, 49",
           "fr": "Lc 1, 49",
           "de": "Lk 1, 49"
+        },
+        "mode": "alleluia-or-versus",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "(Alleluia.)"
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "(Alléluia)"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "(Alleluia.)"
+              },
+              {
+                "type": "text",
+                "text": "Fecit mihi magna qui potens est, et sanctum nomen eius."
+              },
+              {
+                "type": "response",
+                "text": "(Alleluia.)"
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "El Poderoso ha hecho obras grandes en mí: su nombre es santo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "The Almighty has done great things for me and holy is his name."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "Aleluya"
+              },
+              {
+                "type": "text",
+                "text": "Aleluia. O Senhor fez por mim maravilhas, e Santo é o seu nome."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Grandi cose ha fatto in me l’Onnipotente e Santo è il suo nome"
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "(Alléluia)"
+              },
+              {
+                "type": "text",
+                "text": "Le Puissant fit pour moi des merveilles ; Saint est son nom !"
+              },
+              {
+                "type": "response",
+                "text": "(Alléluia)"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Der Mächtige hat Großes an mir getan, und sein Name ist heilig."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

@@ -1607,121 +1607,71 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Versus ante Evangelium Cf. Lc 8, 15 Beáti qui in corde bono et óptimo verbum Dei rétinent, et fructum áfferunt in patiéntia.",
-            "es": "Versículo antes del Evangelio Cf. Lc 8, 15 Bienaventurados los que escuchan la palabra de Dios con un corazón noble y generoso, la guardan y dan fruto con perseverancia.",
-            "en": "Happy are they who have kept the word with a generous heart, and yield a harvest through perseverance.",
-            "pt-BR": "Aclamação ao Evangelho Cf. Lc 8, 15 Felizes os que observam a palavra do Senhor, de reto coração; e que produzem muitos frutos, até o fim perseverantes!",
-            "it": "Canto al Vangelo (Cfr. Lc 8,15) Lode e onore a te, Signore Gesù! Beati coloro che custodiscono la parola di Dio con cuore integro e buono e producono frutto con perseveranza. Lode e onore a te, Signore Gesù!",
-            "fr": "Verset avant l’Évangile Ta parole, Seigneur, est vérité, et ta loi, délivrance. Heureux ceux qui ont entendu la Parole dans un cœur bon et généreux, qui la retiennent et portent du fruit par leur persévérance. Ta parole, Seigneur, est vérité, et ta loi, délivrance.",
-            "de": "Ruf vor dem Evangelium vgl. Lk 8, 15 Lob dir, Christus, König und Erlöser! Selig, die das Wort mit aufrichtigem Herzen hören und Frucht bringen in Geduld. Lob dir, Christus, König und Erlöser!"
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versus ante Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Lc 8, 15"
-                },
-                {
-                  "type": "text",
-                  "text": "Beáti qui in corde bono et óptimo verbum Dei rétinent, et fructum áfferunt in patiéntia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versículo antes del Evangelio"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Lc 8, 15"
-                },
-                {
-                  "type": "text",
-                  "text": "Bienaventurados los que escuchan la palabra de Dios con un corazón noble y generoso, la guardan y dan fruto con perseverancia."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Happy are they who have kept the word with a generous heart, and yield a harvest through perseverance."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Lc 8, 15"
-                },
-                {
-                  "type": "text",
-                  "text": "Felizes os que observam a palavra do Senhor, de reto coração; e que produzem muitos frutos, até o fim perseverantes!"
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Cfr. Lc 8,15)"
-                },
-                {
-                  "type": "text",
-                  "text": "Lode e onore a te, Signore Gesù! Beati coloro che custodiscono la parola di Dio con cuore integro e buono e producono frutto con perseveranza. Lode e onore a te, Signore Gesù!"
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Verset avant l’Évangile Ta parole, Seigneur, est vérité, et ta loi, délivrance. Heureux ceux qui ont entendu la Parole dans un cœur bon et généreux, qui la retiennent et portent du fruit par leur persévérance. Ta parole, Seigneur, est vérité, et ta loi, délivrance."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Lk 8, 15"
-                },
-                {
-                  "type": "text",
-                  "text": "Lob dir, Christus, König und Erlöser! Selig, die das Wort mit aufrichtigem Herzen hören und Frucht bringen in Geduld. Lob dir, Christus, König und Erlöser!"
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Lc 8, 15",
           "es": "Cf. Lc 8, 15",
           "pt-BR": "Cf. Lc 8, 15",
           "it": "(Cfr. Lc 8,15)",
           "de": "vgl. Lk 8, 15"
+        },
+        "mode": "versus-ante-evangelium",
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "text",
+                "text": "Beáti qui in corde bono et óptimo verbum Dei rétinent, et fructum áfferunt in patiéntia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "text",
+                "text": "Bienaventurados los que escuchan la palabra de Dios con un corazón noble y generoso, la guardan y dan fruto con perseverancia."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "text",
+                "text": "Happy are they who have kept the word with a generous heart, and yield a harvest through perseverance."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "Felizes os que observam a palavra do Senhor, de reto coração; e que produzem muitos frutos, até o fim perseverantes!"
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "Lode e onore a te, Signore Gesù! Beati coloro che custodiscono la parola di Dio con cuore integro e buono e producono frutto con perseveranza. Lode e onore a te, Signore Gesù!"
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Ta parole, Seigneur, est vérité, et ta loi, délivrance. Heureux ceux qui ont entendu la Parole dans un cœur bon et généreux, qui la retiennent et portent du fruit par leur persévérance. Ta parole, Seigneur, est vérité, et ta loi, délivrance."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "text",
+                "text": "Lob dir, Christus, König und Erlöser! Selig, die das Wort mit aufrichtigem Herzen hören und Frucht bringen in Geduld. Lob dir, Christus, König und Erlöser!"
+              }
+            ]
+          ]
         }
       },
       "gospel": {

@@ -4521,6 +4521,232 @@ class TestH3TitleSupplement:
         assert out1 == out2
 
 
+class TestSplitGospelAcclamation:
+    """Split body.lines → label / acclamation / verse + lift citation."""
+
+    def _wrap(self, body_lines, slot_citation=None):
+        ga = {"body": {"lines": body_lines}}
+        if slot_citation is not None:
+            ga["citation"] = slot_citation
+        return {
+            "id": "test",
+            "readings": {"default": {"gospelAcclamation": ga}},
+        }
+
+    def _ga(self, mass):
+        return mass["readings"]["default"]["gospelAcclamation"]
+
+    def test_two_line_shape_simple(self):
+        # Typical Latin: header line ([Alleluia, Mt 1, 21]) + verse line
+        # ([Allelúia. <verse>. Allelúia.]). Header drives mode, reference
+        # lifts into citation, verse line gets response segments at boundaries.
+        lines = {
+            "la": [
+                [
+                    {"type": "text", "text": "Alleluia"},
+                    {"type": "reference", "text": "Mt 1, 21"},
+                ],
+                [
+                    {"type": "text", "text": "Allelúia. Páriet fílium, et vocábis nomen eius Iesum. Allelúia."},
+                ],
+            ]
+        }
+        mass = self._wrap(lines)
+        R._split_gospel_acclamation_in_mass(mass)
+        ga = self._ga(mass)
+        assert "body" not in ga
+        assert "label" not in ga
+        assert ga["mode"] == "alleluia"
+        assert ga["citation"] == {"la": "Mt 1, 21"}
+        assert ga["acclamation"] == {"la": [[{"type": "response", "text": "Allelúia."}]]}
+        assert ga["verse"] == {
+            "la": [
+                [
+                    {"type": "response", "text": "Allelúia."},
+                    {"type": "text", "text": "Páriet fílium, et vocábis nomen eius Iesum."},
+                    {"type": "response", "text": "Allelúia."},
+                ]
+            ]
+        }
+
+    def test_one_line_shape_with_inline_reference(self):
+        # Latin in 02-22: everything on a single line — header + reference +
+        # parens-wrapped verse, all in one Line.
+        lines = {
+            "la": [
+                [
+                    {"type": "text", "text": "Alleluia vel Versus ante Evangelium"},
+                    {"type": "reference", "text": "Mt 16, 18"},
+                    {"type": "text", "text": "(Alleluia.) Tu es Petrus. (Alleluia.)"},
+                ]
+            ]
+        }
+        mass = self._wrap(lines)
+        R._split_gospel_acclamation_in_mass(mass)
+        ga = self._ga(mass)
+        assert ga["mode"] == "alleluia-or-versus"
+        assert ga["citation"] == {"la": "Mt 16, 18"}
+        assert ga["acclamation"] == {"la": [[{"type": "response", "text": "(Alleluia.)"}]]}
+        assert ga["verse"]["la"] == [
+            [
+                {"type": "response", "text": "(Alleluia.)"},
+                {"type": "text", "text": "Tu es Petrus."},
+                {"type": "response", "text": "(Alleluia.)"},
+            ]
+        ]
+
+    def test_alternatives_wrapper_recurses(self):
+        # All Souls / Sacred Heart shape: top-level `alternatives[]` of options,
+        # each option carrying body+citation. Splitter recurses.
+        ga_in = {
+            "alternatives": [
+                {
+                    "body": {"lines": {"la": [
+                        [{"type": "reference", "text": "Cf. Mt 11, 25"}],
+                        [{"type": "text", "text": "Allelúia. Benedíctus es. Allelúia."}],
+                    ]}},
+                },
+                {
+                    "body": {"lines": {"la": [
+                        [{"type": "text", "text": "Alleluia"}, {"type": "reference", "text": "Jn 1, 1"}],
+                        [{"type": "text", "text": "Allelúia. In princípio. Allelúia."}],
+                    ]}},
+                },
+            ]
+        }
+        mass = {"id": "t", "readings": {"default": {"gospelAcclamation": ga_in}}}
+        R._split_gospel_acclamation_in_mass(mass)
+        ga = self._ga(mass)
+        assert "body" not in ga
+        opts = ga["alternatives"]
+        assert len(opts) == 2
+        assert "body" not in opts[0] and "body" not in opts[1]
+        # First option has no la header but DOES have an acclamation refrain
+        # → defaults to "alleluia" mode.
+        assert opts[0]["mode"] == "alleluia"
+        assert opts[0]["citation"] == {"la": "Cf. Mt 11, 25"}
+        assert opts[0]["verse"]["la"][0][1]["text"] == "Benedíctus es."
+        assert opts[1]["mode"] == "alleluia"
+        assert opts[1]["citation"] == {"la": "Jn 1, 1"}
+        assert opts[1]["acclamation"] == {"la": [[{"type": "response", "text": "Allelúia."}]]}
+
+    def test_lent_versus_ante_evangelium_no_refrain(self):
+        # Pure Lent slot: header is "Versus ante Evangelium", no refrain wrap
+        # in the verse text. mode flips to versus-ante-evangelium and
+        # acclamation must NOT be set.
+        lines = {
+            "la": [
+                [
+                    {"type": "text", "text": "Versus ante Evangelium"},
+                    {"type": "reference", "text": "Cf. Am 5, 14"},
+                    {"type": "text", "text": "Quǽrite bonum et non malum, ut vivátis."},
+                ]
+            ]
+        }
+        mass = self._wrap(lines)
+        R._split_gospel_acclamation_in_mass(mass)
+        ga = self._ga(mass)
+        assert ga["mode"] == "versus-ante-evangelium"
+        assert ga["citation"] == {"la": "Cf. Am 5, 14"}
+        assert "acclamation" not in ga
+        assert ga["verse"]["la"] == [
+            [{"type": "text", "text": "Quǽrite bonum et non malum, ut vivátis."}]
+        ]
+
+    def test_parens_conditional_alleluia_preserved(self):
+        # The (Alleluia.) parens convey "say outside Lent". Parens must travel
+        # literally inside the response segments and the acclamation field.
+        lines = {
+            "fr": [
+                [
+                    {"type": "text", "text": "Alléluia vel Verset avant l’Évangile"},
+                    {"type": "reference", "text": "Mt 16, 18"},
+                    {"type": "text", "text": "(Alléluia) Tu es Pierre. (Alléluia)"},
+                ]
+            ]
+        }
+        mass = self._wrap(lines)
+        R._split_gospel_acclamation_in_mass(mass)
+        ga = self._ga(mass)
+        assert ga["mode"] == "alleluia-or-versus"
+        assert ga["acclamation"] == {"fr": [[{"type": "response", "text": "(Alléluia)"}]]}
+        assert ga["verse"]["fr"][0][0] == {"type": "response", "text": "(Alléluia)"}
+        assert ga["verse"]["fr"][0][-1] == {"type": "response", "text": "(Alléluia)"}
+
+    def test_per_lang_divergence(self):
+        # la has 2 lines, en has 1 line with no header. Each parsed independently
+        # at the verse level; mode is derived once from la's header.
+        lines = {
+            "la": [
+                [{"type": "text", "text": "Alleluia"}, {"type": "reference", "text": "Mt 1, 1"}],
+                [{"type": "text", "text": "Allelúia. In principio. Allelúia."}],
+            ],
+            "en": [
+                [{"type": "text", "text": "Alleluia, alleluia. In the beginning was the Word. Alleluia."}],
+            ],
+        }
+        mass = self._wrap(lines)
+        R._split_gospel_acclamation_in_mass(mass)
+        ga = self._ga(mass)
+        assert ga["mode"] == "alleluia"
+        assert ga["acclamation"]["la"] == [[{"type": "response", "text": "Allelúia."}]]
+        assert ga["acclamation"]["en"] == [[{"type": "response", "text": "Alleluia, alleluia."}]]
+        assert ga["verse"]["en"][0] == [
+            {"type": "response", "text": "Alleluia, alleluia."},
+            {"type": "text", "text": "In the beginning was the Word."},
+            {"type": "response", "text": "Alleluia."},
+        ]
+
+    def test_existing_slot_citation_wins(self):
+        # If the slot already carries citation.<lang>, it is not overwritten by
+        # an inline-reference lift.
+        lines = {
+            "la": [
+                [{"type": "text", "text": "Alleluia"}, {"type": "reference", "text": "Mt 9, 9"}],
+                [{"type": "text", "text": "Allelúia. Sequere me. Allelúia."}],
+            ]
+        }
+        mass = self._wrap(lines, slot_citation={"la": "Mt 9, 9 (canonical)"})
+        R._split_gospel_acclamation_in_mass(mass)
+        ga = self._ga(mass)
+        assert ga["citation"] == {"la": "Mt 9, 9 (canonical)"}
+
+    def test_idempotent_already_split(self):
+        # Running the splitter on a slot already in the new shape is a no-op.
+        ga = {
+            "mode": "alleluia",
+            "acclamation": {"la": [[{"type": "response", "text": "Allelúia."}]]},
+            "verse": {"la": [[{"type": "text", "text": "verse content"}]]},
+            "citation": {"la": "Mt 1, 1"},
+        }
+        before = json.dumps(ga, sort_keys=True, ensure_ascii=False)
+        R._split_gospel_acclamation(ga)
+        after = json.dumps(ga, sort_keys=True, ensure_ascii=False)
+        assert before == after
+
+    def test_no_op_when_body_missing(self):
+        ga = {"citation": {"la": "Mt 1, 1"}}
+        R._split_gospel_acclamation(ga)
+        assert "verse" not in ga
+        assert "acclamation" not in ga
+
+    def test_double_run_byte_identical(self):
+        # End-to-end idempotency: split twice → same output as splitting once.
+        lines = {
+            "la": [
+                [{"type": "text", "text": "Alleluia"}, {"type": "reference", "text": "Mt 1, 1"}],
+                [{"type": "text", "text": "Allelúia. In principio erat Verbum. Allelúia."}],
+            ]
+        }
+        mass1 = self._wrap(lines)
+        mass2 = self._wrap(lines)
+        R._split_gospel_acclamation_in_mass(mass1)
+        R._split_gospel_acclamation_in_mass(mass1)
+        R._split_gospel_acclamation_in_mass(mass2)
+        assert json.dumps(mass1, sort_keys=True, ensure_ascii=False) == \
+               json.dumps(mass2, sort_keys=True, ensure_ascii=False)
+
+
 if __name__ == "__main__":
     import pytest
     sys.exit(pytest.main([__file__, "-v"]))

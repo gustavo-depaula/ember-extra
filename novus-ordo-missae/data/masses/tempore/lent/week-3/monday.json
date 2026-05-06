@@ -1606,123 +1606,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Versus ante Evangelium Cf. Ps 129, 5. 7 Spero in Dóminum, spero in verbum eius; quia apud eum misericórdia et copiósa redémptio.",
-            "es": "Versículo antes del Evangelio Cf. Ps 129, 5. 7 Espero en el Señor, espero en su palabra; porque de él viene la misericordia, la redención copiosa.",
-            "en": "I hope in the Lord, I trust in his word; with him there is mercy and fullness of redemption.",
-            "pt-BR": "Aclamação ao Evangelho Cf. Salmo 129 (130), 5.7 No Senhor ponho a minha esperança, espero em sua palavra. Pois no Senhor se encontra toda graça e copiosa redenção.",
-            "it": "Canto al Vangelo (Cfr. Sal 129,5.7) Gloria e lode a te, o Cristo! Io spero, Signore; attendo al sua parola. Con il Signore è la misericordia e grande è con lui la redenzione. Gloria e lode a te, o Cristo!",
-            "fr": "Verset avant l’Évangile Cf. Ps 129, 5. 7 Gloire au Christ, Sagesse éternelle du Dieu vivant. Gloire à toi, Seigneur. J’espère le Seigneur, et j’attends sa parole ; près du Seigneur est l’amour, l’abondance du rachat. Gloire au Christ, Sagesse éternelle du Dieu vivant. Gloire à toi, Seigneur.",
-            "de": "Ruf vor dem Evangelium Ps 130 (129), 5. 7 Herr Jesus, dir sei Ruhm und Ehre! Ich hoffe auf den Herrn, ich warte voll Vertrauen auf sein Wort. Denn beim Herrn ist die Huld, bei ihm ist Erlösung in Fülle. Herr Jesus, dir sei Ruhm und Ehre!"
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versus ante Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Ps 129, 5. 7"
-                },
-                {
-                  "type": "text",
-                  "text": "Spero in Dóminum, spero in verbum eius; quia apud eum misericórdia et copiósa redémptio."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versículo antes del Evangelio"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Ps 129, 5. 7"
-                },
-                {
-                  "type": "text",
-                  "text": "Espero en el Señor, espero en su palabra; porque de él viene la misericordia, la redención copiosa."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "I hope in the Lord, I trust in his word; with him there is mercy and fullness of redemption."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Salmo 129 (130), 5.7"
-                },
-                {
-                  "type": "text",
-                  "text": "No Senhor ponho a minha esperança, espero em sua palavra. Pois no Senhor se encontra toda graça e copiosa redenção."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Cfr. Sal 129,5.7)"
-                },
-                {
-                  "type": "text",
-                  "text": "Gloria e lode a te, o Cristo! Io spero, Signore; attendo al sua parola. Con il Signore è la misericordia e grande è con lui la redenzione. Gloria e lode a te, o Cristo!"
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Verset avant l’Évangile"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Ps 129, 5. 7"
-                },
-                {
-                  "type": "text",
-                  "text": "Gloire au Christ, Sagesse éternelle du Dieu vivant. Gloire à toi, Seigneur. J’espère le Seigneur, et j’attends sa parole ; près du Seigneur est l’amour, l’abondance du rachat. Gloire au Christ, Sagesse éternelle du Dieu vivant. Gloire à toi, Seigneur."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 130 (129), 5. 7"
-                },
-                {
-                  "type": "text",
-                  "text": "Herr Jesus, dir sei Ruhm und Ehre! Ich hoffe auf den Herrn, ich warte voll Vertrauen auf sein Wort. Denn beim Herrn ist die Huld, bei ihm ist Erlösung in Fülle. Herr Jesus, dir sei Ruhm und Ehre!"
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Ps 129, 5. 7",
           "es": "Cf. Ps 129, 5. 7",
@@ -1730,6 +1613,65 @@
           "it": "(Cfr. Sal 129,5.7)",
           "fr": "Cf. Ps 129, 5. 7",
           "de": "Ps 130 (129), 5. 7"
+        },
+        "mode": "versus-ante-evangelium",
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "text",
+                "text": "Spero in Dóminum, spero in verbum eius; quia apud eum misericórdia et copiósa redémptio."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "text",
+                "text": "Espero en el Señor, espero en su palabra; porque de él viene la misericordia, la redención copiosa."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "text",
+                "text": "I hope in the Lord, I trust in his word; with him there is mercy and fullness of redemption."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "No Senhor ponho a minha esperança, espero em sua palavra. Pois no Senhor se encontra toda graça e copiosa redenção."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "Gloria e lode a te, o Cristo! Io spero, Signore; attendo al sua parola. Con il Signore è la misericordia e grande è con lui la redenzione. Gloria e lode a te, o Cristo!"
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Gloire au Christ, Sagesse éternelle du Dieu vivant. Gloire à toi, Seigneur. J’espère le Seigneur, et j’attends sa parole ; près du Seigneur est l’amour, l’abondance du rachat. Gloire au Christ, Sagesse éternelle du Dieu vivant. Gloire à toi, Seigneur."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "text",
+                "text": "Herr Jesus, dir sei Ruhm und Ehre! Ich hoffe auf den Herrn, ich warte voll Vertrauen auf sein Wort. Denn beim Herrn ist die Huld, bei ihm ist Erlösung in Fülle. Herr Jesus, dir sei Ruhm und Ehre!"
+              }
+            ]
+          ]
         }
       },
       "gospel": {

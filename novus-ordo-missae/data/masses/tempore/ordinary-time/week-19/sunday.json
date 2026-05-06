@@ -1569,127 +1569,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. Ps 129, 5 Allelúia. Spero in Dóminum, spero in verbum eius. Allelúia.",
-            "es": "Aleluya Cf. Ps 129, 5 Aleluya. Espero en el Señor, espero en su palabra. Aleluya.",
-            "en": "Alleluia, alleluia. I hope in the Lord, I trust in his word. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Cf. Ps 129, 5 Aleluia, aleluia. Eu confio em nosso Senhor, com fé, esperança e amor; eu espero em sua palavra, hosana, ó Senhor, vem, me salva! Aleluia.",
-            "it": "Canto al Vangelo Sal 129,5 Alleluia, alleluia. Io spero, Signore. Spera l’anima mia, attendo la sua parola. Alleluia.",
-            "fr": "Alléluia Cf. Ps 129, 5 Alléluia J’espère le Seigneur, et j’attends sa parole. Alléluia.",
-            "de": "Ruf vor dem Evangelium Ps 130 (129), 5 Halleluja. Halleluja. Ich hoffe auf den Herrn, ich warte voll Vertrauen auf sein Wort. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Ps 129, 5"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Spero in Dóminum, spero in verbum eius. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Ps 129, 5"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Espero en el Señor, espero en su palabra. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. I hope in the Lord, I trust in his word. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Ps 129, 5"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Eu confio em nosso Senhor, com fé, esperança e amor; eu espero em sua palavra, hosana, ó Senhor, vem, me salva! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Sal 129,5"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Io spero, Signore. Spera l’anima mia, attendo la sua parola. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Ps 129, 5"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia J’espère le Seigneur, et j’attends sa parole. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 130 (129), 5"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Ich hoffe auf den Herrn, ich warte voll Vertrauen auf sein Wort. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Ps 129, 5",
           "es": "Cf. Ps 129, 5",
@@ -1697,6 +1576,179 @@
           "it": "Sal 129,5",
           "fr": "Cf. Ps 129, 5",
           "de": "Ps 130 (129), 5"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Spero in Dóminum, spero in verbum eius."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Espero en el Señor, espero en su palabra."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "I hope in the Lord, I trust in his word."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Eu confio em nosso Senhor, com fé, esperança e amor; eu espero em sua palavra, hosana, ó Senhor, vem, me salva!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Io spero, Signore. Spera l’anima mia, attendo la sua parola."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "J’espère le Seigneur, et j’attends sa parole."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Ich hoffe auf den Herrn, ich warte voll Vertrauen auf sein Wort."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -2855,127 +2907,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 6, 51 Allelúia. Ego sum panis vivus, qui de cælo descéndi, dicit Dóminus; si quis manducáverit ex hoc pane, vivet in ætérnum. Allelúia.",
-            "es": "Aleluya Jn 6, 51 Aleluya. Yo soy el pan vivo que ha bajado del cielo —dice el Señor—; el que coma de este pan vivirá para siempre. Aleluya.",
-            "en": "Alleluia, alleluia. I am the living bread from heaven, says the Lord; if anyone eats this bread he will live for ever. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 6, 51 Aleluia, aleluia. Eu sou o pão vivo descido do céu, quem deste pão come, sempre, há de viver. Eu sou o pão vivo, descido do céu. Amém. Aleluia. Aleluia! Aleluia.",
-            "it": "Canto al Vangelo Gv 6,51 Alleluia, alleluia. Io sono il pane vivo, disceso dal cielo, dice il Signore, se uno mangia di questo pane vivrà in eterno. Alleluia.",
-            "fr": "Alléluia Io 6, 51 Alléluia Moi, je suis le pain vivant, qui est descendu du ciel, dit le Seigneur ; si quelqu’un mange de ce pain, il vivra éternellement. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Joh 6, 51 Halleluja. Halleluja. (So spricht der Herr:) Ich bin das lebendige Brot, das vom Himmel gekommen ist. Wer dieses Brot isst, wird in Ewigkeit leben. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 6, 51"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Ego sum panis vivus, qui de cælo descéndi, dicit Dóminus; si quis manducáverit ex hoc pane, vivet in ætérnum. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 6, 51"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Yo soy el pan vivo que ha bajado del cielo —dice el Señor—; el que coma de este pan vivirá para siempre. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. I am the living bread from heaven, says the Lord; if anyone eats this bread he will live for ever. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 6, 51"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Eu sou o pão vivo descido do céu, quem deste pão come, sempre, há de viver. Eu sou o pão vivo, descido do céu. Amém. Aleluia. Aleluia! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gv 6,51"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Io sono il pane vivo, disceso dal cielo, dice il Signore, se uno mangia di questo pane vivrà in eterno. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 6, 51"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Moi, je suis le pain vivant, qui est descendu du ciel, dit le Seigneur ; si quelqu’un mange de ce pain, il vivra éternellement. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Joh 6, 51"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Ich bin das lebendige Brot, das vom Himmel gekommen ist. Wer dieses Brot isst, wird in Ewigkeit leben. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 6, 51",
           "es": "Jn 6, 51",
@@ -2983,6 +2914,179 @@
           "it": "Gv 6,51",
           "fr": "Io 6, 51",
           "de": "vgl. Joh 6, 51"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Ego sum panis vivus, qui de cælo descéndi, dicit Dóminus; si quis manducáverit ex hoc pane, vivet in ætérnum."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Yo soy el pan vivo que ha bajado del cielo —dice el Señor—; el que coma de este pan vivirá para siempre."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "I am the living bread from heaven, says the Lord; if anyone eats this bread he will live for ever."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Eu sou o pão vivo descido do céu, quem deste pão come, sempre, há de viver. Eu sou o pão vivo, descido do céu. Amém. Aleluia. Aleluia!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Io sono il pane vivo, disceso dal cielo, dice il Signore, se uno mangia di questo pane vivrà in eterno."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Moi, je suis le pain vivant, qui est descendu du ciel, dit le Seigneur ; si quelqu’un mange de ce pain, il vivra éternellement."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Ich bin das lebendige Brot, das vom Himmel gekommen ist. Wer dieses Brot isst, wird in Ewigkeit leben."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -4156,127 +4260,6 @@
         ]
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Mt 24, 42a. Allelúia. Vigiláte et estóte paráti, quia qua nescítis hora, Fílius hóminis ventúrus est. Allelúia.",
-            "es": "Aleluya Mt 24, 42a. Aleluya. Estad en vela y preparados, porque a la hora que menos penséis viene el Hijo del hombre. Aleluya.",
-            "en": "Alleluia, alleluia. Be watchful and ready: you know not when the Son of Man is coming. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Mt 24, 42a. Aleluia, aleluia. É preciso vigiar e ficar de prontidão; em que dia o Senhor há de vir não sabeis não! Aleluia.",
-            "it": "Canto al Vangelo Mt 24, 42a.44 Alleluia, alleluia. Vegliate e tenetevi pronti, perché, nell’ora che non immaginate, viene il Figlio dell’uomo. Alleluia.",
-            "fr": "Alléluia Mt 24, 42a. Alléluia Veillez, tenez-vous prêts : c’est à l’heure où vous n’y pensez pas que le Fils de l’homme viendra. Alléluia.",
-            "de": "Ruf vor dem Evangelium Mt 24, 42a. Halleluja. Halleluja. Seid wachsam und haltet euch bereit! Denn der Menschensohn kommt zu einer Stunde, in der ihr es nicht erwartet. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 24, 42a."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Vigiláte et estóte paráti, quia qua nescítis hora, Fílius hóminis ventúrus est. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 24, 42a."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Estad en vela y preparados, porque a la hora que menos penséis viene el Hijo del hombre. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Be watchful and ready: you know not when the Son of Man is coming. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 24, 42a."
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. É preciso vigiar e ficar de prontidão; em que dia o Senhor há de vir não sabeis não! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 24, 42a.44"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Vegliate e tenetevi pronti, perché, nell’ora che non immaginate, viene il Figlio dell’uomo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 24, 42a."
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Veillez, tenez-vous prêts : c’est à l’heure où vous n’y pensez pas que le Fils de l’homme viendra. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 24, 42a."
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Seid wachsam und haltet euch bereit! Denn der Menschensohn kommt zu einer Stunde, in der ihr es nicht erwartet. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mt 24, 42a",
           "es": "Mt 24, 42a",
@@ -4284,6 +4267,179 @@
           "it": "Mt 24, 42a.44",
           "fr": "Mt 24, 42a",
           "de": "Mt 24, 42a"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Vigiláte et estóte paráti, quia qua nescítis hora, Fílius hóminis ventúrus est."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Estad en vela y preparados, porque a la hora que menos penséis viene el Hijo del hombre."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Be watchful and ready: you know not when the Son of Man is coming."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "É preciso vigiar e ficar de prontidão; em que dia o Senhor há de vir não sabeis não!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Vegliate e tenetevi pronti, perché, nell’ora che non immaginate, viene il Figlio dell’uomo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Veillez, tenez-vous prêts : c’est à l’heure où vous n’y pensez pas que le Fils de l’homme viendra."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Seid wachsam und haltet euch bereit! Denn der Menschensohn kommt zu einer Stunde, in der ihr es nicht erwartet."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

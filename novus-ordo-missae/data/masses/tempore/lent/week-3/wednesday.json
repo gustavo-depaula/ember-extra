@@ -1607,123 +1607,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Versus ante Evangelium Cf. Io 6, 63c. 68c Verba tua, Dómine, Spíritus sunt et vita sunt; verba vitæ ætérnæ habes.",
-            "es": "Versículo antes del Evangelio Cf. Jn 6, 63c. 68c Tus palabras, Señor, son espíritu y vida; tú tienes palabras de vida eterna.",
-            "en": "Your words, Lord, are spirit and life; you have the message of eternal life.",
-            "pt-BR": "Aclamação ao Evangelho Cf. Jo 6, 63c.68c Senhor, tuas palavras são espírito são vida; só tu tens palavras de vida eterna!",
-            "it": "Canto al Vangelo (Cfr. Gv 6,63.68) Gloria e lode a te, o Cristo! Le tue parole, Signore, sono spirito e vita; tu hai parole di vita eterna. Gloria e lode a te, o Cristo!",
-            "fr": "Verset avant l’Évangile Cf. Io 6, 63c. 68c Gloire à toi, Seigneur, Fils du Dieu vivant ! Tes paroles, Seigneur, sont esprit et elles sont vie. Tu as les paroles de la vie éternelle. Gloire à toi, Seigneur, Fils du Dieu vivant !",
-            "de": "Ruf vor dem Evangelium vgl. Joh 6, 63b. 68c Lob dir, Christus, König und Erlöser! Deine Worte, Herr, sind Geist und Leben. Du hast Worte des ewigen Lebens. Lob dir, Christus, König und Erlöser!"
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versus ante Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Io 6, 63c. 68c"
-                },
-                {
-                  "type": "text",
-                  "text": "Verba tua, Dómine, Spíritus sunt et vita sunt; verba vitæ ætérnæ habes."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versículo antes del Evangelio"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Jn 6, 63c. 68c"
-                },
-                {
-                  "type": "text",
-                  "text": "Tus palabras, Señor, son espíritu y vida; tú tienes palabras de vida eterna."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Your words, Lord, are spirit and life; you have the message of eternal life."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Jo 6, 63c.68c"
-                },
-                {
-                  "type": "text",
-                  "text": "Senhor, tuas palavras são espírito são vida; só tu tens palavras de vida eterna!"
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Cfr. Gv 6,63.68)"
-                },
-                {
-                  "type": "text",
-                  "text": "Gloria e lode a te, o Cristo! Le tue parole, Signore, sono spirito e vita; tu hai parole di vita eterna. Gloria e lode a te, o Cristo!"
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Verset avant l’Évangile"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Io 6, 63c. 68c"
-                },
-                {
-                  "type": "text",
-                  "text": "Gloire à toi, Seigneur, Fils du Dieu vivant ! Tes paroles, Seigneur, sont esprit et elles sont vie. Tu as les paroles de la vie éternelle. Gloire à toi, Seigneur, Fils du Dieu vivant !"
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Joh 6, 63b. 68c"
-                },
-                {
-                  "type": "text",
-                  "text": "Lob dir, Christus, König und Erlöser! Deine Worte, Herr, sind Geist und Leben. Du hast Worte des ewigen Lebens. Lob dir, Christus, König und Erlöser!"
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Io 6, 63c. 68c",
           "es": "Cf. Jn 6, 63c. 68c",
@@ -1731,6 +1614,65 @@
           "it": "(Cfr. Gv 6,63.68)",
           "fr": "Cf. Io 6, 63c. 68c",
           "de": "vgl. Joh 6, 63b. 68c"
+        },
+        "mode": "versus-ante-evangelium",
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "text",
+                "text": "Verba tua, Dómine, Spíritus sunt et vita sunt; verba vitæ ætérnæ habes."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "text",
+                "text": "Tus palabras, Señor, son espíritu y vida; tú tienes palabras de vida eterna."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "text",
+                "text": "Your words, Lord, are spirit and life; you have the message of eternal life."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "Senhor, tuas palavras são espírito são vida; só tu tens palavras de vida eterna!"
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "Gloria e lode a te, o Cristo! Le tue parole, Signore, sono spirito e vita; tu hai parole di vita eterna. Gloria e lode a te, o Cristo!"
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Gloire à toi, Seigneur, Fils du Dieu vivant ! Tes paroles, Seigneur, sont esprit et elles sont vie. Tu as les paroles de la vie éternelle. Gloire à toi, Seigneur, Fils du Dieu vivant !"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "text",
+                "text": "Lob dir, Christus, König und Erlöser! Deine Worte, Herr, sind Geist und Leben. Du hast Worte des ewigen Lebens. Lob dir, Christus, König und Erlöser!"
+              }
+            ]
+          ]
         }
       },
       "gospel": {

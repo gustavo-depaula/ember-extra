@@ -1719,125 +1719,185 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Mt 11, 25 Allelúia. Benedíctus es, Pater, Dómine cæli et terræ, quia mystéria regni párvulis revelásti. Allelúia.",
-            "es": "Aleluya Mt 11, 25 Aleluya. Bendito seas, Padre, Señor del cielo y de la tierra, porque has revelado los misterios del reino a los pequeños. Aleluya.",
-            "en": "Alleluia, alleluia. Blessed are you, Father, Lord of heaven and earth, you have revealed to little ones the mysteries of the kingdom. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Mt 11, 25 Aleluia, aleluia. Eu te louvo, ó Pai Santo, Deus do céu, Senhor da terra; os mistérios do teu Reino aos pequenos, Pai, revelas! Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Ti rendo lode, Padre, Signore del cielo e della terra, perché ai piccoli hai rivelato i misteri del Regno. Alleluia.",
-            "fr": "Alléluia Mt 11, 25 Alléluia Tu es béni, Père, Seigneur du ciel et de la terre, tu as révélé aux tout-petits les mystères du Royaume ! Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Mt 11, 25 Halleluja. Halleluja. Sei gepriesen, Vater, Herr des Himmels und der Erde; du hast die Geheimnisse des Reiches den Unmündigen offenbart. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 11, 25"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Benedíctus es, Pater, Dómine cæli et terræ, quia mystéria regni párvulis revelásti. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 11, 25"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Bendito seas, Padre, Señor del cielo y de la tierra, porque has revelado los misterios del reino a los pequeños. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Blessed are you, Father, Lord of heaven and earth, you have revealed to little ones the mysteries of the kingdom. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 11, 25"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Eu te louvo, ó Pai Santo, Deus do céu, Senhor da terra; os mistérios do teu Reino aos pequenos, Pai, revelas! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Ti rendo lode, Padre, Signore del cielo e della terra, perché ai piccoli hai rivelato i misteri del Regno. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 11, 25"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Tu es béni, Père, Seigneur du ciel et de la terre, tu as révélé aux tout-petits les mystères du Royaume ! Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Mt 11, 25"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Sei gepriesen, Vater, Herr des Himmels und der Erde; du hast die Geheimnisse des Reiches den Unmündigen offenbart. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mt 11, 25",
           "es": "Mt 11, 25",
           "pt-BR": "Mt 11, 25",
           "fr": "Mt 11, 25",
           "de": "vgl. Mt 11, 25"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Benedíctus es, Pater, Dómine cæli et terræ, quia mystéria regni párvulis revelásti."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Bendito seas, Padre, Señor del cielo y de la tierra, porque has revelado los misterios del reino a los pequeños."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Blessed are you, Father, Lord of heaven and earth, you have revealed to little ones the mysteries of the kingdom."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Eu te louvo, ó Pai Santo, Deus do céu, Senhor da terra; os mistérios do teu Reino aos pequenos, Pai, revelas!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Ti rendo lode, Padre, Signore del cielo e della terra, perché ai piccoli hai rivelato i misteri del Regno."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Tu es béni, Père, Seigneur du ciel et de la terre, tu as révélé aux tout-petits les mystères du Royaume !"
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Sei gepriesen, Vater, Herr des Himmels und der Erde; du hast die Geheimnisse des Reiches den Unmündigen offenbart."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -2785,127 +2845,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Lc 4, 18cd Allelúia. Spíritus Dómini super me: evangelizare pauperibus misit me. Allelúia.",
-            "es": "Aleluya Lc 4, 18cd Aleluya. El Espíritu del Señor está sobre mí; me ha enviado a evangelizar a los pobres. Aleluya.",
-            "en": "Alleluia, alleluia. The spirit of the Lord is upon me; he sent me to bring Good News to the poor. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Lc 4, 18cd Aleluia, aleluia. O Espírito do Senhor, sobre mim fez a sua unção; envoiu-me aos empobrecidos a fazer feliz proclamação. Aleluia.",
-            "it": "Canto al Vangelo Cfr. Lc 4,18 Alleluia, alleluia. Lo Spirito del Signore è sopra di me: mi ha mandato a portare ai poveri il lieto annuncio. Alleluia.",
-            "fr": "Alléluia Lc 4, 18cd Alléluia L’Esprit du Seigneur est sur moi : il m’a envoyé porter la Bonne Nouvelle aux pauvres. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Lk 4, 18ab Halleluja. Halleluja. Der Geist des Herrn ruht auf mir: Der Herr hat mich gesandt, den Armen die Frohe Botschaft zu bringen. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 4, 18cd"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Spíritus Dómini super me: evangelizare pauperibus misit me. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 4, 18cd"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. El Espíritu del Señor está sobre mí; me ha enviado a evangelizar a los pobres. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. The spirit of the Lord is upon me; he sent me to bring Good News to the poor. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 4, 18cd"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. O Espírito do Senhor, sobre mim fez a sua unção; envoiu-me aos empobrecidos a fazer feliz proclamação. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cfr. Lc 4,18"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Lo Spirito del Signore è sopra di me: mi ha mandato a portare ai poveri il lieto annuncio. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 4, 18cd"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia L’Esprit du Seigneur est sur moi : il m’a envoyé porter la Bonne Nouvelle aux pauvres. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Lk 4, 18ab"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Der Geist des Herrn ruht auf mir: Der Herr hat mich gesandt, den Armen die Frohe Botschaft zu bringen. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Lc 4, 18cd",
           "es": "Lc 4, 18cd",
@@ -2913,6 +2852,179 @@
           "it": "Cfr. Lc 4,18",
           "fr": "Lc 4, 18cd",
           "de": "vgl. Lk 4, 18ab"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Spíritus Dómini super me: evangelizare pauperibus misit me."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "El Espíritu del Señor está sobre mí; me ha enviado a evangelizar a los pobres."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "The spirit of the Lord is upon me; he sent me to bring Good News to the poor."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "O Espírito do Senhor, sobre mim fez a sua unção; envoiu-me aos empobrecidos a fazer feliz proclamação."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Lo Spirito del Signore è sopra di me: mi ha mandato a portare ai poveri il lieto annuncio."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "L’Esprit du Seigneur est sur moi : il m’a envoyé porter la Bonne Nouvelle aux pauvres."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Der Geist des Herrn ruht auf mir: Der Herr hat mich gesandt, den Armen die Frohe Botschaft zu bringen."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -4068,127 +4180,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Col 3, 15a. 16a Allelúia. Pax Christi dominétur in córdibus vestris; verbum Christi hábitet in vobis abundánter. Allelúia.",
-            "es": "Aleluya Col 3, 15a. 16a Aleluya. La paz de Cristo reine en vuestro corazón; la Palabra de Cristo habite entre vosotros en toda su riqueza. Aleluya.",
-            "en": "Alleluia, alleluia. May the peace of Christ rule in your hearts; and the fullness of his message live within you. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Col 3, 15a. 16a Aleluia, aleluia. A paz de Cristo reine em vossos corações; ricamente habite em vós sua plavra! Aleluia.",
-            "it": "Canto al Vangelo Cfr. Col 3,15a.16a Alleluia, alleluia. La pace di Cristo regni nei vostri cuori; la parola di Cristo abiti tra voi nella sua ricchezza. Alleluia.",
-            "fr": "Alléluia Col 3, 15a. 16a Alléluia Que dans vos cœurs, règne la paix du Christ ; que la parole du Christ habite en vous dans toute sa richesse. Alléluia.",
-            "de": "Ruf vor dem Evangelium Kol 3, 15a. 16a Halleluja. Halleluja. In euren Herzen herrsche der Friede Christi. Das Wort Christi wohne mit seinem ganzen Reichtum bei euch. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Col 3, 15a. 16a"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Pax Christi dominétur in córdibus vestris; verbum Christi hábitet in vobis abundánter. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Col 3, 15a. 16a"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. La paz de Cristo reine en vuestro corazón; la Palabra de Cristo habite entre vosotros en toda su riqueza. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. May the peace of Christ rule in your hearts; and the fullness of his message live within you. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Col 3, 15a. 16a"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. A paz de Cristo reine em vossos corações; ricamente habite em vós sua plavra! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cfr. Col 3,15a.16a"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. La pace di Cristo regni nei vostri cuori; la parola di Cristo abiti tra voi nella sua ricchezza. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Col 3, 15a. 16a"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Que dans vos cœurs, règne la paix du Christ ; que la parole du Christ habite en vous dans toute sa richesse. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Kol 3, 15a. 16a"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. In euren Herzen herrsche der Friede Christi. Das Wort Christi wohne mit seinem ganzen Reichtum bei euch. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Col 3, 15a. 16a",
           "es": "Col 3, 15a. 16a",
@@ -4196,6 +4187,179 @@
           "it": "Cfr. Col 3,15a.16a",
           "fr": "Col 3, 15a. 16a",
           "de": "Kol 3, 15a. 16a"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Pax Christi dominétur in córdibus vestris; verbum Christi hábitet in vobis abundánter."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "La paz de Cristo reine en vuestro corazón; la Palabra de Cristo habite entre vosotros en toda su riqueza."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "May the peace of Christ rule in your hearts; and the fullness of his message live within you."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "A paz de Cristo reine em vossos corações; ricamente habite em vós sua plavra!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "La pace di Cristo regni nei vostri cuori; la parola di Cristo abiti tra voi nella sua ricchezza."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Que dans vos cœurs, règne la paix du Christ ; que la parole du Christ habite en vous dans toute sa richesse."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "In euren Herzen herrsche der Friede Christi. Das Wort Christi wohne mit seinem ganzen Reichtum bei euch."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

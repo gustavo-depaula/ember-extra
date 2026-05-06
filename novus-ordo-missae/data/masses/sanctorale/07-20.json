@@ -269,127 +269,6 @@
   "readings": {
     "default": {
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 10, 16 Allelúia. Alias oves hábeo, quæ non sunt ex hoc ovíli, dicit Dóminus, et illas opórtet me addúcere, et vocem meam áudient et fient unus grex, unus pastor. Allelúia.",
-            "es": "Aleluya Jn 10, 16 Aleluya. Tengo, además, otras ovejas que no son de este redil—dice el Señor—; también a esas las tengo que traer, y escucharán mi voz, y habrá un solo rebaño y un solo Pastor. Aleluya.",
-            "en": "Alleluia, alleluia. There are other sheep I have that are not of this fold, and these I have to lead as well. They too will listen to my voice, and there will be only one flock, and one shepherd. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 10, 16 Aleluia, aleluia. Tenho ainda outras ovelhas que não são deste redil: também a elas devo conduzir; escutarão a minha voz, e haverá um só rebanho e um só pastor. Aleluia.",
-            "it": "Canto al Vangelo Gv 10, 16 Alleluia, alleluia. Ho altre pecore che non sono di quest’ovile; anche queste io devo condurre; ascolteranno la mia voce e diventeranno un solo gregge e un solo pastore. Alleluia.",
-            "fr": "Alléluia Io 10, 16 Alléluia Alias oves hábeo, quæ non sunt ex hoc ovíli, dicit Dóminus, et illas opórtet me addúcere, et vocem meam áudient et fient unus grex, unus pastor. Alléluia.",
-            "de": "Ruf vor dem Evangelium Joh 10, 16 Halleluja. Halleluja. (So spricht der Herr:) Ich habe noch andere Schafe, die nicht aus diesem Stall sind; auch sie muss ich führen, und sie werden auf meine Stimme hören; dann wird es nur eine Herde geben und einen Hirten. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 10, 16"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Alias oves hábeo, quæ non sunt ex hoc ovíli, dicit Dóminus, et illas opórtet me addúcere, et vocem meam áudient et fient unus grex, unus pastor. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 10, 16"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Tengo, además, otras ovejas que no son de este redil—dice el Señor—; también a esas las tengo que traer, y escucharán mi voz, y habrá un solo rebaño y un solo Pastor. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. There are other sheep I have that are not of this fold, and these I have to lead as well. They too will listen to my voice, and there will be only one flock, and one shepherd. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 10, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Tenho ainda outras ovelhas que não são deste redil: também a elas devo conduzir; escutarão a minha voz, e haverá um só rebanho e um só pastor. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gv 10, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Ho altre pecore che non sono di quest’ovile; anche queste io devo condurre; ascolteranno la mia voce e diventeranno un solo gregge e un solo pastore. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 10, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Alias oves hábeo, quæ non sunt ex hoc ovíli, dicit Dóminus, et illas opórtet me addúcere, et vocem meam áudient et fient unus grex, unus pastor. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joh 10, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Ich habe noch andere Schafe, die nicht aus diesem Stall sind; auch sie muss ich führen, und sie werden auf meine Stimme hören; dann wird es nur eine Herde geben und einen Hirten. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 10, 16",
           "es": "Jn 10, 16",
@@ -397,6 +276,179 @@
           "it": "Gv 10, 16",
           "fr": "Io 10, 16",
           "de": "Joh 10, 16"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Alias oves hábeo, quæ non sunt ex hoc ovíli, dicit Dóminus, et illas opórtet me addúcere, et vocem meam áudient et fient unus grex, unus pastor."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Tengo, además, otras ovejas que no son de este redil—dice el Señor—; también a esas las tengo que traer, y escucharán mi voz, y habrá un solo rebaño y un solo Pastor."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "There are other sheep I have that are not of this fold, and these I have to lead as well. They too will listen to my voice, and there will be only one flock, and one shepherd."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Tenho ainda outras ovelhas que não são deste redil: também a elas devo conduzir; escutarão a minha voz, e haverá um só rebanho e um só pastor."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Ho altre pecore che non sono di quest’ovile; anche queste io devo condurre; ascolteranno la mia voce e diventeranno un solo gregge e un solo pastore."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Alias oves hábeo, quæ non sunt ex hoc ovíli, dicit Dóminus, et illas opórtet me addúcere, et vocem meam áudient et fient unus grex, unus pastor."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Ich habe noch andere Schafe, die nicht aus diesem Stall sind; auch sie muss ich führen, und sie werden auf meine Stimme hören; dann wird es nur eine Herde geben und einen Hirten."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

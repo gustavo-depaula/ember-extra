@@ -2339,127 +2339,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia 2 Par 7, 16 Allelúia. Elégi et sanctificávi locum istum, dicit Dóminus, ut sit nomen meum ibi in sempitérnum. Allelúia.",
-            "es": "Aleluya 2 Cro 7, 16 Aleluya. He elegido y santificado este templo —dice el Señor— para que mi Nombre esté en él eternamente. Aleluya.",
-            "en": "Alleluia, alleluia. I have chosen and sanctified this house, says the Lord, that my name may remain in it for all time. Alleluia.",
-            "pt-BR": "Aclamação 2 Cro 7, 16 Aleluia, aleluia. Esta casa eu escolhi e santifiquei, para nela estar meu nome para sempre Aleluia.",
-            "it": "Canto al Vangelo 2 Cr 7, 16 Alleluia, alleluia. Io mi sono scelto e ho consacrato questa casa perché il mio nome vi resti sempre. Alleluia.",
-            "fr": "Alléluia 2 Par 7, 16 Alléluia J’ai choisi et consacré cette Maison, dit le Seigneur, afin que mon Nom y soit à jamais. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. 2 Chr 7, 16 Halleluja. Halleluja. (So spricht Gott, der Herr:) Ich habe dieses Haus erwählt und geheiligt, damit mein Name hier sei auf ewig. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "2 Par 7, 16"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Elégi et sanctificávi locum istum, dicit Dóminus, ut sit nomen meum ibi in sempitérnum. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "2 Cro 7, 16"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. He elegido y santificado este templo —dice el Señor— para que mi Nombre esté en él eternamente. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. I have chosen and sanctified this house, says the Lord, that my name may remain in it for all time. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação"
-                },
-                {
-                  "type": "reference",
-                  "text": "2 Cro 7, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Esta casa eu escolhi e santifiquei, para nela estar meu nome para sempre Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "2 Cr 7, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Io mi sono scelto e ho consacrato questa casa perché il mio nome vi resti sempre. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "2 Par 7, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia J’ai choisi et consacré cette Maison, dit le Seigneur, afin que mon Nom y soit à jamais. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. 2 Chr 7, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht Gott, der Herr:) Ich habe dieses Haus erwählt und geheiligt, damit mein Name hier sei auf ewig. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "2 Par 7, 16",
           "es": "2 Cro 7, 16",
@@ -2467,6 +2346,179 @@
           "it": "2 Cr 7, 16",
           "fr": "2 Par 7, 16",
           "de": "vgl. 2 Chr 7, 16"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Elégi et sanctificávi locum istum, dicit Dóminus, ut sit nomen meum ibi in sempitérnum."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "He elegido y santificado este templo —dice el Señor— para que mi Nombre esté en él eternamente."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "I have chosen and sanctified this house, says the Lord, that my name may remain in it for all time."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Esta casa eu escolhi e santifiquei, para nela estar meu nome para sempre"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Io mi sono scelto e ho consacrato questa casa perché il mio nome vi resti sempre."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "J’ai choisi et consacré cette Maison, dit le Seigneur, afin que mon Nom y soit à jamais."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht Gott, der Herr:) Ich habe dieses Haus erwählt und geheiligt, damit mein Name hier sei auf ewig."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

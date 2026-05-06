@@ -892,127 +892,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Mt 8, 17 Allelúia. Christus infirmitátes nostras accépit, et ægrotatiónes portávit. Allelúia.",
-            "es": "Aleluya Mt 8, 17 Aleluya. Cristo tomó nuestras dolencias y cargó con nuestras enfermedades. Aleluya.",
-            "en": "Alleluia, alleluia. He took our sicknesses away, and carried our diseases for us. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Mt 8, 17 Aleluia, aleluia. O Cristo tomou sobre si nossas dores, carregou em seu corpo as nossas fraquezas. Aleluia.",
-            "it": "Canto al Vangelo (Cfr. Mt 8,17) Alleluia, alleluia. Cristo ha preso le nostre infermità e si è caricato delle nostre malattie. Alleluia.",
-            "fr": "Alléluia Mt 8, 17 Alléluia Le Christ a pris nos souffrances, il a porté nos maladies. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Mt 8, 17 Halleluja. Halleluja. Christus hat unsere Leiden auf sich genommen, unsere Krankheiten hat er getragen. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 8, 17"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Christus infirmitátes nostras accépit, et ægrotatiónes portávit. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 8, 17"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Cristo tomó nuestras dolencias y cargó con nuestras enfermedades. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. He took our sicknesses away, and carried our diseases for us. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 8, 17"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. O Cristo tomou sobre si nossas dores, carregou em seu corpo as nossas fraquezas. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Cfr. Mt 8,17)"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Cristo ha preso le nostre infermità e si è caricato delle nostre malattie. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 8, 17"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Le Christ a pris nos souffrances, il a porté nos maladies. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Mt 8, 17"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Christus hat unsere Leiden auf sich genommen, unsere Krankheiten hat er getragen. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mt 8, 17",
           "es": "Mt 8, 17",
@@ -1020,6 +899,179 @@
           "it": "(Cfr. Mt 8,17)",
           "fr": "Mt 8, 17",
           "de": "vgl. Mt 8, 17"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Christus infirmitátes nostras accépit, et ægrotatiónes portávit."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Cristo tomó nuestras dolencias y cargó con nuestras enfermedades."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "He took our sicknesses away, and carried our diseases for us."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "O Cristo tomou sobre si nossas dores, carregou em seu corpo as nossas fraquezas."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Cristo ha preso le nostre infermità e si è caricato delle nostre malattie."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Le Christ a pris nos souffrances, il a porté nos maladies."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Christus hat unsere Leiden auf sich genommen, unsere Krankheiten hat er getragen."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -2087,127 +2139,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Mt 8, 17 Allelúia. Christus infirmitátes nostras accépit, et ægrotatiónes portávit. Allelúia.",
-            "es": "Aleluya Mt 8, 17 Aleluya. Cristo tomó nuestras dolencias y cargó con nuestras enfermedades. Aleluya.",
-            "en": "Alleluia, alleluia. He took our sicknesses away, and carried our diseases for us. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Mt 8, 17 Aleluia, aleluia. O Cristo tomou sobre si nossas dores, carregou em seu corpo as nossas fraquezas. Aleluia.",
-            "it": "Canto al Vangelo (Cfr. Mt 8,17) Alleluia, alleluia. Cristo ha preso le nostre infermità e si è caricato delle nostre malattie. Alleluia.",
-            "fr": "Alléluia Mt 8, 17 Alléluia Le Christ a pris nos souffrances, il a porté nos maladies. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Mt 8, 17 Halleluja. Halleluja. Christus hat unsere Leiden auf sich genommen, unsere Krankheiten hat er getragen. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 8, 17"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Christus infirmitátes nostras accépit, et ægrotatiónes portávit. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 8, 17"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Cristo tomó nuestras dolencias y cargó con nuestras enfermedades. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. He took our sicknesses away, and carried our diseases for us. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 8, 17"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. O Cristo tomou sobre si nossas dores, carregou em seu corpo as nossas fraquezas. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Cfr. Mt 8,17)"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Cristo ha preso le nostre infermità e si è caricato delle nostre malattie. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 8, 17"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Le Christ a pris nos souffrances, il a porté nos maladies. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Mt 8, 17"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Christus hat unsere Leiden auf sich genommen, unsere Krankheiten hat er getragen. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mt 8, 17",
           "es": "Mt 8, 17",
@@ -2215,6 +2146,179 @@
           "it": "(Cfr. Mt 8,17)",
           "fr": "Mt 8, 17",
           "de": "vgl. Mt 8, 17"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Christus infirmitátes nostras accépit, et ægrotatiónes portávit."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Cristo tomó nuestras dolencias y cargó con nuestras enfermedades."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "He took our sicknesses away, and carried our diseases for us."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "O Cristo tomou sobre si nossas dores, carregou em seu corpo as nossas fraquezas."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Cristo ha preso le nostre infermità e si è caricato delle nostre malattie."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Le Christ a pris nos souffrances, il a porté nos maladies."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Christus hat unsere Leiden auf sich genommen, unsere Krankheiten hat er getragen."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

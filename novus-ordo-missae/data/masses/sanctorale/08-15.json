@@ -2388,127 +2388,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Lc 11, 28 Allelúia. Beáti qui áudiunt verbum Dei, et custódiunt. Allelúia.",
-            "es": "Aleluya Lc 11, 28 Aleluya. Bienaventurados los que escuchan la palabra de Dios y la cumplen. Aleluya.",
-            "en": "Alleluia, alleluia. Blessed are they who hear the word of God and keep it. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Lc 11, 28 Aleluia, aleluia. Felizes aqueles que ouvem a palavra de Deus e a guardam! Aleluia.",
-            "it": "Canto al Vangelo Lc 11, 28 Alleluia, alleluia. Beati coloro che ascoltano la parola di Dio e la osservano. Alleluia.",
-            "fr": "Alléluia Lc 11, 28 Alléluia Heureux ceux qui écoutent la parole de Dieu, et qui la gardent ! Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Lk 11, 28 Halleluja. Halleluja. Selig, die das Wort Gottes hören und es befolgen. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 11, 28"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Beáti qui áudiunt verbum Dei, et custódiunt. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 11, 28"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Bienaventurados los que escuchan la palabra de Dios y la cumplen. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Blessed are they who hear the word of God and keep it. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 11, 28"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Felizes aqueles que ouvem a palavra de Deus e a guardam! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 11, 28"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Beati coloro che ascoltano la parola di Dio e la osservano. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 11, 28"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Heureux ceux qui écoutent la parole de Dieu, et qui la gardent ! Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Lk 11, 28"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Selig, die das Wort Gottes hören und es befolgen. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Lc 11, 28",
           "es": "Lc 11, 28",
@@ -2516,6 +2395,179 @@
           "it": "Lc 11, 28",
           "fr": "Lc 11, 28",
           "de": "vgl. Lk 11, 28"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Beáti qui áudiunt verbum Dei, et custódiunt."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Bienaventurados los que escuchan la palabra de Dios y la cumplen."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Blessed are they who hear the word of God and keep it."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Felizes aqueles que ouvem a palavra de Deus e a guardam!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Beati coloro che ascoltano la parola di Dio e la osservano."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Heureux ceux qui écoutent la parole de Dieu, et qui la gardent !"
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Selig, die das Wort Gottes hören und es befolgen."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -3990,86 +4042,178 @@
             }
           },
           "gospelAcclamation": {
-            "body": {
-              "plain": {
-                "la": "Alleluia, allelúia. Assúmpta est María in cælum; gaudet exércitus angelórum. Allelúia.",
-                "es": "Aleluya, aleluya. María ha sido asunta al cielo, se alegra el ejército de los ángeles. Aleluya.",
-                "en": "Alleluia, alleluia. Mary is taken up to heaven, and the angels of God shout for joy. Alleluia.",
-                "pt-BR": "Aclamação ao Evangelho Aleluia, aleluia. Maria é levada ao céu, alegra-se os coros dos anjos. Aleluia.",
-                "it": "Canto al Vangelo Alleluia, alleluia. Maria è assunta in cielo; esultano le schiere degli angeli. Alleluia.",
-                "fr": "Alléluia, alléluia. Aujourd’hui s’est ouverte la porte du paradis : Marie est entrée dans la gloire de Dieu ; exultez dans le ciel, tous les anges ! Alléluia.",
-                "de": "Ruf vor dem Evangelium Halleluja. Halleluja. Aufgenommen in den Himmel ist die Jungfrau Maria. Die Engel freuen sich und preisen den Herrn. Halleluja."
-              },
-              "lines": {
-                "la": [
-                  [
-                    {
-                      "type": "text",
-                      "text": "Alleluia"
-                    }
-                  ],
-                  [
-                    {
-                      "type": "text",
-                      "text": "Allelúia. Assúmpta est María in cælum; gaudet exércitus angelórum. Allelúia."
-                    }
-                  ]
-                ],
-                "es": [
-                  [
-                    {
-                      "type": "text",
-                      "text": "Aleluya"
-                    }
-                  ],
-                  [
-                    {
-                      "type": "text",
-                      "text": "Aleluya. María ha sido asunta al cielo, se alegra el ejército de los ángeles. Aleluya."
-                    }
-                  ]
-                ],
-                "en": [
-                  [
-                    {
-                      "type": "text",
-                      "text": "Alleluia, alleluia. Mary is taken up to heaven, and the angels of God shout for joy. Alleluia."
-                    }
-                  ]
-                ],
-                "pt-BR": [
-                  [
-                    {
-                      "type": "text",
-                      "text": "Aclamação ao Evangelho Aleluia, aleluia. Maria é levada ao céu, alegra-se os coros dos anjos. Aleluia."
-                    }
-                  ]
-                ],
-                "it": [
-                  [
-                    {
-                      "type": "text",
-                      "text": "Canto al Vangelo Alleluia, alleluia. Maria è assunta in cielo; esultano le schiere degli angeli. Alleluia."
-                    }
-                  ]
-                ],
-                "fr": [
-                  [
-                    {
-                      "type": "text",
-                      "text": "Alléluia, alléluia. Aujourd’hui s’est ouverte la porte du paradis : Marie est entrée dans la gloire de Dieu ; exultez dans le ciel, tous les anges ! Alléluia."
-                    }
-                  ]
-                ],
-                "de": [
-                  [
-                    {
-                      "type": "text",
-                      "text": "Ruf vor dem Evangelium Halleluja. Halleluja. Aufgenommen in den Himmel ist die Jungfrau Maria. Die Engel freuen sich und preisen den Herrn. Halleluja."
-                    }
-                  ]
+            "mode": "alleluia",
+            "acclamation": {
+              "la": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Allelúia."
+                  }
                 ]
-              }
+              ],
+              "es": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Aleluya."
+                  }
+                ]
+              ],
+              "en": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Alleluia, alleluia."
+                  }
+                ]
+              ],
+              "pt-BR": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Aleluia, aleluia."
+                  }
+                ]
+              ],
+              "it": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Alleluia, alleluia."
+                  }
+                ]
+              ],
+              "fr": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Alléluia, alléluia."
+                  }
+                ]
+              ],
+              "de": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Halleluja. Halleluja."
+                  }
+                ]
+              ]
+            },
+            "verse": {
+              "la": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Allelúia."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Assúmpta est María in cælum; gaudet exércitus angelórum."
+                  },
+                  {
+                    "type": "response",
+                    "text": "Allelúia."
+                  }
+                ]
+              ],
+              "es": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Aleluya."
+                  },
+                  {
+                    "type": "text",
+                    "text": "María ha sido asunta al cielo, se alegra el ejército de los ángeles."
+                  },
+                  {
+                    "type": "response",
+                    "text": "Aleluya."
+                  }
+                ]
+              ],
+              "en": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Alleluia, alleluia."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Mary is taken up to heaven, and the angels of God shout for joy."
+                  },
+                  {
+                    "type": "response",
+                    "text": "Alleluia."
+                  }
+                ]
+              ],
+              "pt-BR": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Aleluia, aleluia."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Maria é levada ao céu, alegra-se os coros dos anjos."
+                  },
+                  {
+                    "type": "response",
+                    "text": "Aleluia."
+                  }
+                ]
+              ],
+              "it": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Alleluia, alleluia."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Maria è assunta in cielo; esultano le schiere degli angeli."
+                  },
+                  {
+                    "type": "response",
+                    "text": "Alleluia."
+                  }
+                ]
+              ],
+              "fr": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Alléluia, alléluia."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Aujourd’hui s’est ouverte la porte du paradis : Marie est entrée dans la gloire de Dieu ; exultez dans le ciel, tous les anges !"
+                  },
+                  {
+                    "type": "response",
+                    "text": "Alléluia."
+                  }
+                ]
+              ],
+              "de": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Halleluja. Halleluja."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Aufgenommen in den Himmel ist die Jungfrau Maria. Die Engel freuen sich und preisen den Herrn."
+                  },
+                  {
+                    "type": "response",
+                    "text": "Halleluja."
+                  }
+                ]
+              ]
             }
           },
           "gospel": {

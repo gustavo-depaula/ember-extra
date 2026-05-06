@@ -1514,125 +1514,185 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. Is 45, 8 Allelúia. Roráte, cæli, désuper, et nubes pluant Iustum; aperiátur terra et gérminet Salvatórem. Allelúia.",
-            "es": "Aleluya Cf. Is 45, 8 Aleluya. Cielos, destilad desde lo alto al Justo, las nubes lo derramen, se abra la tierra y brote el Salvador. Aleluya.",
-            "en": "Alleluia, alleluia. Let the clouds rain down the Just One, and the earth bring forth a Savior. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Cf. Is 45, 8 Aleluia, aleluia. Que os céus, lá do alto, derramem o orvalho, que chova das nuvens o Justo esperado, que a terra se abra e germine o Senhor! Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Stillate, cieli, dall’alto e le nubi facciano piovere il Giusto: si apra la terra e germogli il Salvatore. Alleluia.",
-            "fr": "Alléluia Cf. Is 45, 8 Alléluia. Alléluia. Ciel, répands ta rosée ! Nuées, faites pleuvoir le juste ! Terre, ouvre-toi, que germe le Sauveur ! Alléluia. Alléluia.",
-            "de": "Ruf vor dem Evangelium Jes 45, 8ab Halleluja. Halleluja. Taut, ihr Himmel, von oben, ihr Wolken, lasst Gerechtigkeit regnen! Die Erde tue sich auf und bringe das Heil hervor. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Is 45, 8"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Roráte, cæli, désuper, et nubes pluant Iustum; aperiátur terra et gérminet Salvatórem. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Is 45, 8"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Cielos, destilad desde lo alto al Justo, las nubes lo derramen, se abra la tierra y brote el Salvador. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Let the clouds rain down the Just One, and the earth bring forth a Savior. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Is 45, 8"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Que os céus, lá do alto, derramem o orvalho, que chova das nuvens o Justo esperado, que a terra se abra e germine o Senhor! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Stillate, cieli, dall’alto e le nubi facciano piovere il Giusto: si apra la terra e germogli il Salvatore. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Is 45, 8"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia. Alléluia. Ciel, répands ta rosée ! Nuées, faites pleuvoir le juste ! Terre, ouvre-toi, que germe le Sauveur ! Alléluia. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jes 45, 8ab"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Taut, ihr Himmel, von oben, ihr Wolken, lasst Gerechtigkeit regnen! Die Erde tue sich auf und bringe das Heil hervor. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Is 45, 8",
           "es": "Cf. Is 45, 8",
           "pt-BR": "Cf. Is 45, 8",
           "fr": "Cf. Is 45, 8",
           "de": "Jes 45, 8ab"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia. Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Roráte, cæli, désuper, et nubes pluant Iustum; aperiátur terra et gérminet Salvatórem."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Cielos, destilad desde lo alto al Justo, las nubes lo derramen, se abra la tierra y brote el Salvador."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Let the clouds rain down the Just One, and the earth bring forth a Savior."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Que os céus, lá do alto, derramem o orvalho, que chova das nuvens o Justo esperado, que a terra se abra e germine o Senhor!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Stillate, cieli, dall’alto e le nubi facciano piovere il Giusto: si apra la terra e germogli il Salvatore."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia. Alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Ciel, répands ta rosée ! Nuées, faites pleuvoir le juste ! Terre, ouvre-toi, que germe le Sauveur ! Alléluia."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Taut, ihr Himmel, von oben, ihr Wolken, lasst Gerechtigkeit regnen! Die Erde tue sich auf und bringe das Heil hervor."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

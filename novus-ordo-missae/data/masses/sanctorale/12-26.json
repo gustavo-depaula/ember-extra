@@ -1488,125 +1488,185 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Ps 117, 26a. 27a Allelúia. Benedíctus qui venit in nómine Dómini; Deus Dóminus et illúxit nobis. Allelúia.",
-            "es": "Aleluya Sal 117, 26a y 27a Aleluya. Bendito el que viene en nombre del Señor; el Señor es Dios, él nos ilumina. Aleluya.",
-            "en": "Alleluia, alleluia. Blessed is he who comes in the name of the Lord; the Lord God shines upon us. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Sal 117, 26a y 27a Aleluia, aleluia. Bendito o que vem em nome do Senhor; Nosso Deus é o Senhor, ele é a nossa luz. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Benedetto colui che viene nel nome del Signore; risplende su di noi la luce del suo volto. Alleluia.",
-            "fr": "Alléluia Ps 117, 26a. 27a Alléluia Béni soit au nom du Seigneur, celui qui vient ; Dieu, le Seigneur, nous illumine. Alléluia.",
-            "de": "Ruf vor dem Evangelium Ps 118 (117), 26a. 27a Halleluja. Halleluja. Gesegnet sei, der kommt im Namen des Herrn! Gott, der Herr, erleuchte uns. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 117, 26a. 27a"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Benedíctus qui venit in nómine Dómini; Deus Dóminus et illúxit nobis. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Sal 117, 26a y 27a"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Bendito el que viene en nombre del Señor; el Señor es Dios, él nos ilumina. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Blessed is he who comes in the name of the Lord; the Lord God shines upon us. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Sal 117, 26a y 27a"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Bendito o que vem em nome do Senhor; Nosso Deus é o Senhor, ele é a nossa luz. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Benedetto colui che viene nel nome del Signore; risplende su di noi la luce del suo volto. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 117, 26a. 27a"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Béni soit au nom du Seigneur, celui qui vient ; Dieu, le Seigneur, nous illumine. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Ps 118 (117), 26a. 27a"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Gesegnet sei, der kommt im Namen des Herrn! Gott, der Herr, erleuchte uns. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Ps 117, 26a. 27a",
           "es": "Sal 117, 26a y 27a",
           "pt-BR": "Sal 117, 26a y 27a",
           "fr": "Ps 117, 26a. 27a",
           "de": "Ps 118 (117), 26a. 27a"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Benedíctus qui venit in nómine Dómini; Deus Dóminus et illúxit nobis."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Bendito el que viene en nombre del Señor; el Señor es Dios, él nos ilumina."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Blessed is he who comes in the name of the Lord; the Lord God shines upon us."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Bendito o que vem em nome do Senhor; Nosso Deus é o Senhor, ele é a nossa luz."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Benedetto colui che viene nel nome del Signore; risplende su di noi la luce del suo volto."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Béni soit au nom du Seigneur, celui qui vient ; Dieu, le Seigneur, nous illumine."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Gesegnet sei, der kommt im Namen des Herrn! Gott, der Herr, erleuchte uns."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

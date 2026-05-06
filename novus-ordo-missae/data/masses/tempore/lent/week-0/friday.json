@@ -1728,123 +1728,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Versus ante Evangelium Cf. Am 5, 14 Quǽrite bonum et non malum, ut vivátis, ut sit Dóminus vobíscum.",
-            "es": "Versículo antes del Evangelio Cf. Am 5, 14 Buscad el bien, no el mal, y viviréis; y el Señor estará con vosotros.",
-            "en": "Seek good and not evil so that you may live, and the Lord will be with you.",
-            "pt-BR": "Aclamação ao Evangelho Cf. Am 5, 14 Buscai o bem, não o mal, pois assim vivereis: então, o Senhor, nosso Deus, convosco estará!",
-            "it": "Canto al Vangelo (Cfr Am 5,14) Lode a te, o Cristo, re di eterna gloria! Cercate il bene e non il male, se volete vivere, e il Signore sarà con voi. Lode a te, o Cristo, re di eterna gloria!",
-            "fr": "Verset avant l’Évangile Cf. Am 5, 14 Gloire au Christ, Sagesse éternelle du Dieu vivant. Gloire à toi, Seigneur. Cherchez le bien, non le mal, afin de vivre. Ainsi le Seigneur sera avec vous. Gloire au Christ, Sagesse éternelle du Dieu vivant. Gloire à toi, Seigneur.",
-            "de": "Ruf vor dem Evangelium vgl. Am 5, 14 Herr Jesus, dir sei Ruhm und Ehre! Sucht das Gute, nicht das Böse; dann werdet ihr leben, und der Herr wird mit euch sein. Herr Jesus, dir sei Ruhm und Ehre!"
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versus ante Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Am 5, 14"
-                },
-                {
-                  "type": "text",
-                  "text": "Quǽrite bonum et non malum, ut vivátis, ut sit Dóminus vobíscum."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versículo antes del Evangelio"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Am 5, 14"
-                },
-                {
-                  "type": "text",
-                  "text": "Buscad el bien, no el mal, y viviréis; y el Señor estará con vosotros."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Seek good and not evil so that you may live, and the Lord will be with you."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Am 5, 14"
-                },
-                {
-                  "type": "text",
-                  "text": "Buscai o bem, não o mal, pois assim vivereis: então, o Senhor, nosso Deus, convosco estará!"
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Cfr Am 5,14)"
-                },
-                {
-                  "type": "text",
-                  "text": "Lode a te, o Cristo, re di eterna gloria! Cercate il bene e non il male, se volete vivere, e il Signore sarà con voi. Lode a te, o Cristo, re di eterna gloria!"
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Verset avant l’Évangile"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Am 5, 14"
-                },
-                {
-                  "type": "text",
-                  "text": "Gloire au Christ, Sagesse éternelle du Dieu vivant. Gloire à toi, Seigneur. Cherchez le bien, non le mal, afin de vivre. Ainsi le Seigneur sera avec vous. Gloire au Christ, Sagesse éternelle du Dieu vivant. Gloire à toi, Seigneur."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Am 5, 14"
-                },
-                {
-                  "type": "text",
-                  "text": "Herr Jesus, dir sei Ruhm und Ehre! Sucht das Gute, nicht das Böse; dann werdet ihr leben, und der Herr wird mit euch sein. Herr Jesus, dir sei Ruhm und Ehre!"
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. Am 5, 14",
           "es": "Cf. Am 5, 14",
@@ -1852,6 +1735,65 @@
           "it": "(Cfr Am 5,14)",
           "fr": "Cf. Am 5, 14",
           "de": "vgl. Am 5, 14"
+        },
+        "mode": "versus-ante-evangelium",
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "text",
+                "text": "Quǽrite bonum et non malum, ut vivátis, ut sit Dóminus vobíscum."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "text",
+                "text": "Buscad el bien, no el mal, y viviréis; y el Señor estará con vosotros."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "text",
+                "text": "Seek good and not evil so that you may live, and the Lord will be with you."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "Buscai o bem, não o mal, pois assim vivereis: então, o Senhor, nosso Deus, convosco estará!"
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "Lode a te, o Cristo, re di eterna gloria! Cercate il bene e non il male, se volete vivere, e il Signore sarà con voi. Lode a te, o Cristo, re di eterna gloria!"
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Gloire au Christ, Sagesse éternelle du Dieu vivant. Gloire à toi, Seigneur. Cherchez le bien, non le mal, afin de vivre. Ainsi le Seigneur sera avec vous. Gloire au Christ, Sagesse éternelle du Dieu vivant. Gloire à toi, Seigneur."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "text",
+                "text": "Herr Jesus, dir sei Ruhm und Ehre! Sucht das Gute, nicht das Böse; dann werdet ihr leben, und der Herr wird mit euch sein. Herr Jesus, dir sei Ruhm und Ehre!"
+              }
+            ]
+          ]
         }
       },
       "gospel": {

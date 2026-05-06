@@ -747,127 +747,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia 2 Cor 8, 9 Allelúia. Iesus Christus egénus factus est, cum esset dives, ut illíus inópia vos dívites essétis. Allelúia.",
-            "es": "Aleluya 2 Cor 8, 9 Aleluya. Jesucristo, siendo rico, se hizo pobre para enriqueceros con su pobreza. Aleluya.",
-            "en": "Alleluia, alleluia. Jesus Christ was rich but he became poor, to make you rich out of his poverty. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho 2 Cor 8, 9 Aleluia, aleluia. Jesus Cristo, Senhor nosso, embora sendo rico, para nós se tornou pobre, a fim de enriquecer-nos, mediante sua pobreza. Aleluia.",
-            "it": "Canto al Vangelo 2Cor 8,9 Alleluia, alleluia. Gesù Cristo da ricco che era, si è fatto povero per voi, perché voi diventaste ricchi per mezzo della sua povertà. Alleluia.",
-            "fr": "Alléluia 2 Cor 8, 9 Alléluia Jésus Christ s’est fait pauvre, lui qui était riche, pour que vous deveniez riches par sa pauvreté. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. 2 Kor 8, 9 Halleluja. Halleluja. Jesus Christus, der reich war, wurde aus Liebe arm. Und durch seine Armut hat er uns reich gemacht. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "2 Cor 8, 9"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Iesus Christus egénus factus est, cum esset dives, ut illíus inópia vos dívites essétis. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "2 Cor 8, 9"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Jesucristo, siendo rico, se hizo pobre para enriqueceros con su pobreza. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Jesus Christ was rich but he became poor, to make you rich out of his poverty. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "2 Cor 8, 9"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Jesus Cristo, Senhor nosso, embora sendo rico, para nós se tornou pobre, a fim de enriquecer-nos, mediante sua pobreza. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "2Cor 8,9"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Gesù Cristo da ricco che era, si è fatto povero per voi, perché voi diventaste ricchi per mezzo della sua povertà. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "2 Cor 8, 9"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Jésus Christ s’est fait pauvre, lui qui était riche, pour que vous deveniez riches par sa pauvreté. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. 2 Kor 8, 9"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Jesus Christus, der reich war, wurde aus Liebe arm. Und durch seine Armut hat er uns reich gemacht. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "2 Cor 8, 9",
           "es": "2 Cor 8, 9",
@@ -875,6 +754,179 @@
           "it": "2Cor 8,9",
           "fr": "2 Cor 8, 9",
           "de": "vgl. 2 Kor 8, 9"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Iesus Christus egénus factus est, cum esset dives, ut illíus inópia vos dívites essétis."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Jesucristo, siendo rico, se hizo pobre para enriqueceros con su pobreza."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Jesus Christ was rich but he became poor, to make you rich out of his poverty."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Jesus Cristo, Senhor nosso, embora sendo rico, para nós se tornou pobre, a fim de enriquecer-nos, mediante sua pobreza."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Gesù Cristo da ricco che era, si è fatto povero per voi, perché voi diventaste ricchi per mezzo della sua povertà."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Jésus Christ s’est fait pauvre, lui qui était riche, pour que vous deveniez riches par sa pauvreté."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Jesus Christus, der reich war, wurde aus Liebe arm. Und durch seine Armut hat er uns reich gemacht."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -1865,127 +1917,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia 2 Cor 8, 9 Allelúia. Iesus Christus egénus factus est, cum esset dives, ut illíus inópia vos dívites essétis. Allelúia.",
-            "es": "Aleluya 2 Cor 8, 9 Aleluya. Jesucristo, siendo rico, se hizo pobre para enriqueceros con su pobreza. Aleluya.",
-            "en": "Alleluia, alleluia. Jesus Christ was rich but he became poor, to make you rich out of his poverty. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho 2 Cor 8, 9 Aleluia, aleluia. Jesus Cristo, Senhor nosso, embora sendo rico, para nós se tornou pobre, a fim de enriquecer-nos, mediante sua pobreza. Aleluia.",
-            "it": "Canto al Vangelo 2Cor 8,9 Alleluia, alleluia. Gesù Cristo da ricco che era, si è fatto povero per voi, perché voi diventaste ricchi per mezzo della sua povertà. Alleluia.",
-            "fr": "Alléluia 2 Cor 8, 9 Alléluia Jésus Christ s’est fait pauvre, lui qui était riche, pour que vous deveniez riches par sa pauvreté. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. 2 Kor 8, 9 Halleluja. Halleluja. Jesus Christus, der reich war, wurde aus Liebe arm. Und durch seine Armut hat er uns reich gemacht. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "2 Cor 8, 9"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Iesus Christus egénus factus est, cum esset dives, ut illíus inópia vos dívites essétis. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "2 Cor 8, 9"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Jesucristo, siendo rico, se hizo pobre para enriqueceros con su pobreza. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Jesus Christ was rich but he became poor, to make you rich out of his poverty. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "2 Cor 8, 9"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Jesus Cristo, Senhor nosso, embora sendo rico, para nós se tornou pobre, a fim de enriquecer-nos, mediante sua pobreza. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "2Cor 8,9"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Gesù Cristo da ricco che era, si è fatto povero per voi, perché voi diventaste ricchi per mezzo della sua povertà. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "2 Cor 8, 9"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Jésus Christ s’est fait pauvre, lui qui était riche, pour que vous deveniez riches par sa pauvreté. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. 2 Kor 8, 9"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Jesus Christus, der reich war, wurde aus Liebe arm. Und durch seine Armut hat er uns reich gemacht. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "2 Cor 8, 9",
           "es": "2 Cor 8, 9",
@@ -1993,6 +1924,179 @@
           "it": "2Cor 8,9",
           "fr": "2 Cor 8, 9",
           "de": "vgl. 2 Kor 8, 9"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Iesus Christus egénus factus est, cum esset dives, ut illíus inópia vos dívites essétis."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Jesucristo, siendo rico, se hizo pobre para enriqueceros con su pobreza."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Jesus Christ was rich but he became poor, to make you rich out of his poverty."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Jesus Cristo, Senhor nosso, embora sendo rico, para nós se tornou pobre, a fim de enriquecer-nos, mediante sua pobreza."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Gesù Cristo da ricco che era, si è fatto povero per voi, perché voi diventaste ricchi per mezzo della sua povertà."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Jésus Christ s’est fait pauvre, lui qui était riche, pour que vous deveniez riches par sa pauvreté."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Jesus Christus, der reich war, wurde aus Liebe arm. Und durch seine Armut hat er uns reich gemacht."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

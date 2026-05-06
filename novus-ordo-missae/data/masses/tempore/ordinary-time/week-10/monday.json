@@ -947,127 +947,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Mt 5, 12a Allelúia. Gaudéte et exsultáte, quóniam merces vestra copiósa est in cælis. Allelúia.",
-            "es": "Aleluya Mt 5, 12a Aleluya. Alegraos y regocijaos, porque vuestra recompensa será grande en el cielo. Aleluya.",
-            "en": "Alleluia, alleluia. Rejoice and be glad. For your reward will be great in heaven. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Mt 5, 12a Aleluia, aleluia. Alegrai-vos, vós todos, porque grande há de ser a recompensa nos céus, que um dia, tereis! Aleluia.",
-            "it": "Canto al Vangelo (Mt 5,12a) Alleluia, alleluia. Rallegratevi ed esultate, perché grande è la vostra ricompensa nei cieli. Alleluia.",
-            "fr": "Alléluia Mt 5, 12a Alléluia Réjouissez-vous, soyez dans l’allégresse, car votre récompense est grande dans les cieux ! Alléluia.",
-            "de": "Ruf vor dem Evangelium Mt 5, 12a Halleluja. Halleluja. Freut euch und jubelt: Euer Lohn im Himmel wird groß sein. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 5, 12a"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Gaudéte et exsultáte, quóniam merces vestra copiósa est in cælis. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 5, 12a"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Alegraos y regocijaos, porque vuestra recompensa será grande en el cielo. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Rejoice and be glad. For your reward will be great in heaven. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 5, 12a"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Alegrai-vos, vós todos, porque grande há de ser a recompensa nos céus, que um dia, tereis! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Mt 5,12a)"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Rallegratevi ed esultate, perché grande è la vostra ricompensa nei cieli. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 5, 12a"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Réjouissez-vous, soyez dans l’allégresse, car votre récompense est grande dans les cieux ! Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 5, 12a"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Freut euch und jubelt: Euer Lohn im Himmel wird groß sein. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mt 5, 12a",
           "es": "Mt 5, 12a",
@@ -1075,6 +954,179 @@
           "it": "(Mt 5,12a)",
           "fr": "Mt 5, 12a",
           "de": "Mt 5, 12a"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Gaudéte et exsultáte, quóniam merces vestra copiósa est in cælis."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Alegraos y regocijaos, porque vuestra recompensa será grande en el cielo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Rejoice and be glad. For your reward will be great in heaven."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Alegrai-vos, vós todos, porque grande há de ser a recompensa nos céus, que um dia, tereis!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Rallegratevi ed esultate, perché grande è la vostra ricompensa nei cieli."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Réjouissez-vous, soyez dans l’allégresse, car votre récompense est grande dans les cieux !"
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Freut euch und jubelt: Euer Lohn im Himmel wird groß sein."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -2205,127 +2257,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Mt 5, 12a Allelúia. Gaudéte et exsultáte, quóniam merces vestra copiósa est in cælis. Allelúia.",
-            "es": "Aleluya Mt 5, 12a Aleluya. Alegraos y regocijaos, porque vuestra recompensa será grande en el cielo. Aleluya.",
-            "en": "Alleluia, alleluia. Rejoice and be glad. For your reward will be great in heaven. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Mt 5, 12a Aleluia, aleluia. Alegrai-vos, vós todos, porque grande há de ser a recompensa nos céus, que um dia, tereis! Aleluia.",
-            "it": "Canto al Vangelo (Mt 5,12a) Alleluia, alleluia. Rallegratevi ed esultate, perché grande è la vostra ricompensa nei cieli. Alleluia.",
-            "fr": "Alléluia Mt 5, 12a Alléluia Réjouissez-vous, soyez dans l’allégresse, car votre récompense est grande dans les cieux ! Alléluia.",
-            "de": "Ruf vor dem Evangelium Mt 5, 12a Halleluja. Halleluja. Freut euch und jubelt: Euer Lohn im Himmel wird groß sein. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 5, 12a"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Gaudéte et exsultáte, quóniam merces vestra copiósa est in cælis. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 5, 12a"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Alegraos y regocijaos, porque vuestra recompensa será grande en el cielo. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Rejoice and be glad. For your reward will be great in heaven. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 5, 12a"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Alegrai-vos, vós todos, porque grande há de ser a recompensa nos céus, que um dia, tereis! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Mt 5,12a)"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Rallegratevi ed esultate, perché grande è la vostra ricompensa nei cieli. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 5, 12a"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Réjouissez-vous, soyez dans l’allégresse, car votre récompense est grande dans les cieux ! Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 5, 12a"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Freut euch und jubelt: Euer Lohn im Himmel wird groß sein. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mt 5, 12a",
           "es": "Mt 5, 12a",
@@ -2333,6 +2264,179 @@
           "it": "(Mt 5,12a)",
           "fr": "Mt 5, 12a",
           "de": "Mt 5, 12a"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Gaudéte et exsultáte, quóniam merces vestra copiósa est in cælis."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Alegraos y regocijaos, porque vuestra recompensa será grande en el cielo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Rejoice and be glad. For your reward will be great in heaven."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Alegrai-vos, vós todos, porque grande há de ser a recompensa nos céus, que um dia, tereis!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Rallegratevi ed esultate, perché grande è la vostra ricompensa nei cieli."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Réjouissez-vous, soyez dans l’allégresse, car votre récompense est grande dans les cieux !"
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Freut euch und jubelt: Euer Lohn im Himmel wird groß sein."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

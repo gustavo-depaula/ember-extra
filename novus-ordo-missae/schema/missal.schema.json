@@ -333,6 +333,50 @@
       ],
       "additionalProperties": false
     },
+    "GospelAcclamationOption": {
+      "description": "One acclamation option (used as a single slot or wrapped in `alternatives[]`). `mode` is the season discriminator: `alleluia` outside Lent (refrain present), `versus-ante-evangelium` during Lent (no refrain), or `alleluia-or-versus` for fixed-date feasts that can fall in either season (refrain marked optional with parens). `verse` carries the cantor's scripture, with the wrapping refrain as `{type: response}` segments at the boundaries when present. `acclamation` is the people's refrain text (e.g. Allelúia.); omitted for pure-Lent slots whose source provides no refrain.",
+      "type": "object",
+      "properties": {
+        "mode": {
+          "type": "string",
+          "enum": ["alleluia", "versus-ante-evangelium", "alleluia-or-versus"]
+        },
+        "acclamation": {
+          "$ref": "#/$defs/LocalizedLines"
+        },
+        "verse": {
+          "$ref": "#/$defs/LocalizedLines"
+        },
+        "citation": {
+          "$ref": "#/$defs/Localized"
+        }
+      },
+      "required": [
+        "mode",
+        "verse"
+      ],
+      "additionalProperties": false
+    },
+    "GospelAcclamation": {
+      "description": "Gospel acclamation slot. Either a single acclamation option or a choice between alternatives.",
+      "oneOf": [
+        {
+          "$ref": "#/$defs/GospelAcclamationOption"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "alternatives": {
+              "type": "array",
+              "minItems": 2,
+              "items": { "$ref": "#/$defs/GospelAcclamationOption" }
+            }
+          },
+          "required": ["alternatives"],
+          "additionalProperties": false
+        }
+      ]
+    },
     "ReadingSet": {
       "type": "object",
       "properties": {
@@ -350,7 +394,7 @@
           "$ref": "#/$defs/Reading"
         },
         "gospelAcclamation": {
-          "$ref": "#/$defs/Prayer"
+          "$ref": "#/$defs/GospelAcclamation"
         },
         "gospel": {
           "$ref": "#/$defs/Reading"

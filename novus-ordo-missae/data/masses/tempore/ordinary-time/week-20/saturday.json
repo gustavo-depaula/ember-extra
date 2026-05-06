@@ -711,127 +711,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Mt 23, 9b. 10b Allelúia. Unus est Pater vester, cæléstis; et Magíster vester unus est, Christus. Allelúia.",
-            "es": "Aleluya Mt 23, 9b. 10b Aleluya. Uno solo es vuestro Padre, el del cielo; y uno solo es vuestro maestro, el Mesías. Aleluya.",
-            "en": "Alleluia, alleluia. You have one Father, your Father in heaven; you have one teacher: the Lord Jesus Christ. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Mt 23, 9b. 10b Aleluia, aleluia. Vós tendes um só Pai, que está no céu, vosso Guia é um somente, é o Messias. Aleluia.",
-            "it": "Canto al Vangelo Mt 23,9b.10b Alleluia, alleluia. Uno solo è il Padre vostro, quello celeste e uno solo è la vostra Guida, il Cristo. Alleluia.",
-            "fr": "Alléluia Mt 23, 9b. 10b Alléluia Vous n’avez qu’un seul Père, celui qui est aux cieux ; vous n’avez qu’un seul maître, le Christ. Alléluia.",
-            "de": "Ruf vor dem Evangelium Mt 23, 9b. 10b Halleluja. Halleluja. Einer ist euer Vater, der im Himmel. Einer ist euer Lehrer, Christus. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 23, 9b. 10b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Unus est Pater vester, cæléstis; et Magíster vester unus est, Christus. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 23, 9b. 10b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Uno solo es vuestro Padre, el del cielo; y uno solo es vuestro maestro, el Mesías. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. You have one Father, your Father in heaven; you have one teacher: the Lord Jesus Christ. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 23, 9b. 10b"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Vós tendes um só Pai, que está no céu, vosso Guia é um somente, é o Messias. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 23,9b.10b"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Uno solo è il Padre vostro, quello celeste e uno solo è la vostra Guida, il Cristo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 23, 9b. 10b"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Vous n’avez qu’un seul Père, celui qui est aux cieux ; vous n’avez qu’un seul maître, le Christ. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 23, 9b. 10b"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Einer ist euer Vater, der im Himmel. Einer ist euer Lehrer, Christus. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mt 23, 9b. 10b",
           "es": "Mt 23, 9b. 10b",
@@ -839,6 +718,179 @@
           "it": "Mt 23,9b.10b",
           "fr": "Mt 23, 9b. 10b",
           "de": "Mt 23, 9b. 10b"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Unus est Pater vester, cæléstis; et Magíster vester unus est, Christus."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Uno solo es vuestro Padre, el del cielo; y uno solo es vuestro maestro, el Mesías."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "You have one Father, your Father in heaven; you have one teacher: the Lord Jesus Christ."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Vós tendes um só Pai, que está no céu, vosso Guia é um somente, é o Messias."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Uno solo è il Padre vostro, quello celeste e uno solo è la vostra Guida, il Cristo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Vous n’avez qu’un seul Père, celui qui est aux cieux ; vous n’avez qu’un seul maître, le Christ."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Einer ist euer Vater, der im Himmel. Einer ist euer Lehrer, Christus."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -1823,127 +1875,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Mt 23, 9b. 10b Allelúia. Unus est Pater vester, cæléstis; et Magíster vester unus est, Christus. Allelúia.",
-            "es": "Aleluya Mt 23, 9b. 10b Aleluya. Uno solo es vuestro Padre, el del cielo; y uno solo es vuestro maestro, el Mesías. Aleluya.",
-            "en": "Alleluia, alleluia. You have one Father, your Father in heaven; you have one teacher: the Lord Jesus Christ. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Mt 23, 9b. 10b Aleluia, aleluia. Vós tendes um só Pai, que está no céu, vosso Guia é um somente, é o Messias. Aleluia.",
-            "it": "Canto al Vangelo Mt 23,9b.10b Alleluia, alleluia. Uno solo è il Padre vostro, quello celeste e uno solo è la vostra Guida, il Cristo. Alleluia.",
-            "fr": "Alléluia Mt 23, 9b. 10b Alléluia Vous n’avez qu’un seul Père, celui qui est aux cieux ; vous n’avez qu’un seul maître, le Christ. Alléluia.",
-            "de": "Ruf vor dem Evangelium Mt 23, 9b. 10b Halleluja. Halleluja. Einer ist euer Vater, der im Himmel. Einer ist euer Lehrer, Christus. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 23, 9b. 10b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Unus est Pater vester, cæléstis; et Magíster vester unus est, Christus. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 23, 9b. 10b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Uno solo es vuestro Padre, el del cielo; y uno solo es vuestro maestro, el Mesías. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. You have one Father, your Father in heaven; you have one teacher: the Lord Jesus Christ. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 23, 9b. 10b"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Vós tendes um só Pai, que está no céu, vosso Guia é um somente, é o Messias. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 23,9b.10b"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Uno solo è il Padre vostro, quello celeste e uno solo è la vostra Guida, il Cristo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 23, 9b. 10b"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Vous n’avez qu’un seul Père, celui qui est aux cieux ; vous n’avez qu’un seul maître, le Christ. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 23, 9b. 10b"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Einer ist euer Vater, der im Himmel. Einer ist euer Lehrer, Christus. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mt 23, 9b. 10b",
           "es": "Mt 23, 9b. 10b",
@@ -1951,6 +1882,179 @@
           "it": "Mt 23,9b.10b",
           "fr": "Mt 23, 9b. 10b",
           "de": "Mt 23, 9b. 10b"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Unus est Pater vester, cæléstis; et Magíster vester unus est, Christus."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Uno solo es vuestro Padre, el del cielo; y uno solo es vuestro maestro, el Mesías."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "You have one Father, your Father in heaven; you have one teacher: the Lord Jesus Christ."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Vós tendes um só Pai, que está no céu, vosso Guia é um somente, é o Messias."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Uno solo è il Padre vostro, quello celeste e uno solo è la vostra Guida, il Cristo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Vous n’avez qu’un seul Père, celui qui est aux cieux ; vous n’avez qu’un seul maître, le Christ."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Einer ist euer Vater, der im Himmel. Einer ist euer Lehrer, Christus."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

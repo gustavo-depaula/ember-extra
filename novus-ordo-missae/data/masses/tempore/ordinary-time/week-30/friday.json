@@ -779,127 +779,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 10, 27 Allelúia. Oves meæ vocem meam áudiunt, dicit Dóminus et ego cognósco eas, et sequúntur me. Allelúia.",
-            "es": "Aleluya Jn 10, 27 Aleluya. Mis ovejas escuchan mi voz —dice el Señor—, y yo las conozco, y ellas me siguen. Aleluya.",
-            "en": "Alleluia, alleluia. My sheep listen to my voice, says the Lord; I know them, and they follow me. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 10, 27 Aleluia, aleluia. Minhas ovelhas escutam minha voz, eu as conheço e elas me seguem. Aleluia.",
-            "it": "Canto al Vangelo Gv 10,27 Alleluia, alleluia. Le mie pecore ascoltano la mia voce, dice il Signore, e io le conosco ed esse mi seguono. Alleluia.",
-            "fr": "Alléluia Io 10, 27 Alléluia Mes brebis écoutent ma voix, dit le Seigneur ; moi, je les connais, et elles me suivent. Alléluia.",
-            "de": "Ruf vor dem Evangelium Joh 10, 27 Halleluja. Halleluja. (So spricht der Herr:) Meine Schafe hören auf meine Stimme; ich kenne sie, und sie folgen mir. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 10, 27"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Oves meæ vocem meam áudiunt, dicit Dóminus et ego cognósco eas, et sequúntur me. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 10, 27"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Mis ovejas escuchan mi voz —dice el Señor—, y yo las conozco, y ellas me siguen. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. My sheep listen to my voice, says the Lord; I know them, and they follow me. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 10, 27"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Minhas ovelhas escutam minha voz, eu as conheço e elas me seguem. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gv 10,27"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Le mie pecore ascoltano la mia voce, dice il Signore, e io le conosco ed esse mi seguono. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 10, 27"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Mes brebis écoutent ma voix, dit le Seigneur ; moi, je les connais, et elles me suivent. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joh 10, 27"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Meine Schafe hören auf meine Stimme; ich kenne sie, und sie folgen mir. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 10, 27",
           "es": "Jn 10, 27",
@@ -907,6 +786,179 @@
           "it": "Gv 10,27",
           "fr": "Io 10, 27",
           "de": "Joh 10, 27"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Oves meæ vocem meam áudiunt, dicit Dóminus et ego cognósco eas, et sequúntur me."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Mis ovejas escuchan mi voz —dice el Señor—, y yo las conozco, y ellas me siguen."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "My sheep listen to my voice, says the Lord; I know them, and they follow me."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Minhas ovelhas escutam minha voz, eu as conheço e elas me seguem."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Le mie pecore ascoltano la mia voce, dice il Signore, e io le conosco ed esse mi seguono."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Mes brebis écoutent ma voix, dit le Seigneur ; moi, je les connais, et elles me suivent."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Meine Schafe hören auf meine Stimme; ich kenne sie, und sie folgen mir."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -1891,127 +1943,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 10, 27 Allelúia. Oves meæ vocem meam áudiunt, dicit Dóminus et ego cognósco eas, et sequúntur me. Allelúia.",
-            "es": "Aleluya Jn 10, 27 Aleluya. Mis ovejas escuchan mi voz —dice el Señor—, y yo las conozco, y ellas me siguen. Aleluya.",
-            "en": "Alleluia, alleluia. My sheep listen to my voice, says the Lord; I know them, and they follow me. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 10, 27 Aleluia, aleluia. Minhas ovelhas escutam minha voz, eu as conheço e elas me seguem. Aleluia.",
-            "it": "Canto al Vangelo Gv 10,27 Alleluia, alleluia. Le mie pecore ascoltano la mia voce, dice il Signore, e io le conosco ed esse mi seguono. Alleluia.",
-            "fr": "Alléluia Io 10, 27 Alléluia Mes brebis écoutent ma voix, dit le Seigneur ; moi, je les connais, et elles me suivent. Alléluia.",
-            "de": "Ruf vor dem Evangelium Joh 10, 27 Halleluja. Halleluja. (So spricht der Herr:) Meine Schafe hören auf meine Stimme; ich kenne sie, und sie folgen mir. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 10, 27"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Oves meæ vocem meam áudiunt, dicit Dóminus et ego cognósco eas, et sequúntur me. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 10, 27"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Mis ovejas escuchan mi voz —dice el Señor—, y yo las conozco, y ellas me siguen. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. My sheep listen to my voice, says the Lord; I know them, and they follow me. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 10, 27"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Minhas ovelhas escutam minha voz, eu as conheço e elas me seguem. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gv 10,27"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Le mie pecore ascoltano la mia voce, dice il Signore, e io le conosco ed esse mi seguono. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 10, 27"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Mes brebis écoutent ma voix, dit le Seigneur ; moi, je les connais, et elles me suivent. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joh 10, 27"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Meine Schafe hören auf meine Stimme; ich kenne sie, und sie folgen mir. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 10, 27",
           "es": "Jn 10, 27",
@@ -2019,6 +1950,179 @@
           "it": "Gv 10,27",
           "fr": "Io 10, 27",
           "de": "Joh 10, 27"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Oves meæ vocem meam áudiunt, dicit Dóminus et ego cognósco eas, et sequúntur me."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Mis ovejas escuchan mi voz —dice el Señor—, y yo las conozco, y ellas me siguen."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "My sheep listen to my voice, says the Lord; I know them, and they follow me."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Minhas ovelhas escutam minha voz, eu as conheço e elas me seguem."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Le mie pecore ascoltano la mia voce, dice il Signore, e io le conosco ed esse mi seguono."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Mes brebis écoutent ma voix, dit le Seigneur ; moi, je les connais, et elles me suivent."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Meine Schafe hören auf meine Stimme; ich kenne sie, und sie folgen mir."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

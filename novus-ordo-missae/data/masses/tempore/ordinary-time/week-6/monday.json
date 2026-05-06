@@ -752,127 +752,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 14, 6 Allelúia. Ego sum via et véritas et vita, dicit Dóminus; nemo venit ad Patrem nisi per me. Allelúia.",
-            "es": "Aleluya Jn 14, 6 Aleluya. Yo soy el camino y la verdad y la vida —dice el Señor—; nadie va al Padre sino por mí. Aleluya.",
-            "en": "Alleluia, alleluia. I am the way, the truth, and the life, says the Lord; no one comes to the Father, except through me. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jn 14, 6 Aleluia, aleluia. Sou o Caminho, a Verdade e a Vida, ninguém vem ao Pai senão por mim. Aleluia.",
-            "it": "Canto al Vangelo (Gv 14,6) Alleluia, alleluia. Io sono la via, la verità e la vita, dice il Signore. Nessuno viene al Padre se non per mezzo di me. Alleluia.",
-            "fr": "Alléluia Io 14, 6 Alléluia Moi, je suis le Chemin, la Vérité et la Vie, dit le Seigneur. Personne ne va vers le Père sans passer par moi. Alléluia.",
-            "de": "Ruf vor dem Evangelium Joh 14, 6 Halleluja. Halleluja. (So spricht der Herr:) Ich bin der Weg und die Wahrheit und das Leben. Niemand kommt zum Vater außer durch mich. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 14, 6"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Ego sum via et véritas et vita, dicit Dóminus; nemo venit ad Patrem nisi per me. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 14, 6"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Yo soy el camino y la verdad y la vida —dice el Señor—; nadie va al Padre sino por mí. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. I am the way, the truth, and the life, says the Lord; no one comes to the Father, except through me. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 14, 6"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Sou o Caminho, a Verdade e a Vida, ninguém vem ao Pai senão por mim. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Gv 14,6)"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Io sono la via, la verità e la vita, dice il Signore. Nessuno viene al Padre se non per mezzo di me. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 14, 6"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Moi, je suis le Chemin, la Vérité et la Vie, dit le Seigneur. Personne ne va vers le Père sans passer par moi. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joh 14, 6"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Ich bin der Weg und die Wahrheit und das Leben. Niemand kommt zum Vater außer durch mich. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 14, 6",
           "es": "Jn 14, 6",
@@ -880,6 +759,179 @@
           "it": "(Gv 14,6)",
           "fr": "Io 14, 6",
           "de": "Joh 14, 6"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Ego sum via et véritas et vita, dicit Dóminus; nemo venit ad Patrem nisi per me."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Yo soy el camino y la verdad y la vida —dice el Señor—; nadie va al Padre sino por mí."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "I am the way, the truth, and the life, says the Lord; no one comes to the Father, except through me."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Sou o Caminho, a Verdade e a Vida, ninguém vem ao Pai senão por mim."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Io sono la via, la verità e la vita, dice il Signore. Nessuno viene al Padre se non per mezzo di me."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Moi, je suis le Chemin, la Vérité et la Vie, dit le Seigneur. Personne ne va vers le Père sans passer par moi."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Ich bin der Weg und die Wahrheit und das Leben. Niemand kommt zum Vater außer durch mich."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -1947,127 +1999,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 14, 6 Allelúia. Ego sum via et véritas et vita, dicit Dóminus; nemo venit ad Patrem nisi per me. Allelúia.",
-            "es": "Aleluya Jn 14, 6 Aleluya. Yo soy el camino y la verdad y la vida —dice el Señor—; nadie va al Padre sino por mí. Aleluya.",
-            "en": "Alleluia, alleluia. I am the way, the truth, and the life, says the Lord; no one comes to the Father, except through me. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jn 14, 6 Aleluia, aleluia. Sou o Caminho, a Verdade e a Vida, ninguém vem ao Pai senão por mim. Aleluia.",
-            "it": "Canto al Vangelo (Gv 14,6) Alleluia, alleluia. Io sono la via, la verità e la vita, dice il Signore. Nessuno viene al Padre se non per mezzo di me. Alleluia.",
-            "fr": "Alléluia Io 14, 6 Alléluia Moi, je suis le Chemin, la Vérité et la Vie, dit le Seigneur. Personne ne va vers le Père sans passer par moi. Alléluia.",
-            "de": "Ruf vor dem Evangelium Joh 14, 6 Halleluja. Halleluja. (So spricht der Herr:) Ich bin der Weg und die Wahrheit und das Leben. Niemand kommt zum Vater außer durch mich. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 14, 6"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Ego sum via et véritas et vita, dicit Dóminus; nemo venit ad Patrem nisi per me. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 14, 6"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Yo soy el camino y la verdad y la vida —dice el Señor—; nadie va al Padre sino por mí. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. I am the way, the truth, and the life, says the Lord; no one comes to the Father, except through me. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 14, 6"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Sou o Caminho, a Verdade e a Vida, ninguém vem ao Pai senão por mim. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Gv 14,6)"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Io sono la via, la verità e la vita, dice il Signore. Nessuno viene al Padre se non per mezzo di me. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 14, 6"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Moi, je suis le Chemin, la Vérité et la Vie, dit le Seigneur. Personne ne va vers le Père sans passer par moi. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joh 14, 6"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Ich bin der Weg und die Wahrheit und das Leben. Niemand kommt zum Vater außer durch mich. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 14, 6",
           "es": "Jn 14, 6",
@@ -2075,6 +2006,179 @@
           "it": "(Gv 14,6)",
           "fr": "Io 14, 6",
           "de": "Joh 14, 6"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Ego sum via et véritas et vita, dicit Dóminus; nemo venit ad Patrem nisi per me."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Yo soy el camino y la verdad y la vida —dice el Señor—; nadie va al Padre sino por mí."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "I am the way, the truth, and the life, says the Lord; no one comes to the Father, except through me."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Sou o Caminho, a Verdade e a Vida, ninguém vem ao Pai senão por mim."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Io sono la via, la verità e la vita, dice il Signore. Nessuno viene al Padre se non per mezzo di me."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Moi, je suis le Chemin, la Vérité et la Vie, dit le Seigneur. Personne ne va vers le Père sans passer par moi."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Ich bin der Weg und die Wahrheit und das Leben. Niemand kommt zum Vater außer durch mich."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

@@ -729,127 +729,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 13, 34 Allelúia. Mandátum novum do vobis, dicit Dóminus, ut diligátis ínvicem, sicut diléxi vos. Allelúia.",
-            "es": "Aleluya Jn 13, 34 Aleluya. Os doy un mandamiento nuevo —dice el Señor—: que os améis unos a otros, como yo os he amado. Aleluya.",
-            "en": "Alleluia, alleluia. I give you a new commandment: love one another as I have loved you. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 13, 34 Aleluia, aleluia. Eu vos dou novo preceito: que uns aos outros vos ameis, como eu vos tenho amado. Aleluia.",
-            "it": "Canto al Vangelo Gv 13,34 Alleluia, alleluia. Vi do un comandamento nuovo, dice il Signore: come io ho amato voi, così amatevi anche voi gli uni gli altri. Alleluia.",
-            "fr": "Alléluia Io 13, 34 Alléluia Je vous donne un commandement nouveau, dit le Seigneur : \" Aimez-vous les uns les autres, comme je vous ai aimés. Alléluia.",
-            "de": "Ruf vor dem Evangelium Joh 13, 34ac Halleluja. Halleluja. (So spricht der Herr:) Ein neues Gebot gebe ich euch: Wie ich euch geliebt habe, so sollt auch ihr einander lieben. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 13, 34"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Mandátum novum do vobis, dicit Dóminus, ut diligátis ínvicem, sicut diléxi vos. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 13, 34"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Os doy un mandamiento nuevo —dice el Señor—: que os améis unos a otros, como yo os he amado. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. I give you a new commandment: love one another as I have loved you. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 13, 34"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Eu vos dou novo preceito: que uns aos outros vos ameis, como eu vos tenho amado. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gv 13,34"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Vi do un comandamento nuovo, dice il Signore: come io ho amato voi, così amatevi anche voi gli uni gli altri. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 13, 34"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Je vous donne un commandement nouveau, dit le Seigneur : \" Aimez-vous les uns les autres, comme je vous ai aimés. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joh 13, 34ac"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Ein neues Gebot gebe ich euch: Wie ich euch geliebt habe, so sollt auch ihr einander lieben. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 13, 34",
           "es": "Jn 13, 34",
@@ -857,6 +736,179 @@
           "it": "Gv 13,34",
           "fr": "Io 13, 34",
           "de": "Joh 13, 34ac"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Mandátum novum do vobis, dicit Dóminus, ut diligátis ínvicem, sicut diléxi vos."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Os doy un mandamiento nuevo —dice el Señor—: que os améis unos a otros, como yo os he amado."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "I give you a new commandment: love one another as I have loved you."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Eu vos dou novo preceito: que uns aos outros vos ameis, como eu vos tenho amado."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Vi do un comandamento nuovo, dice il Signore: come io ho amato voi, così amatevi anche voi gli uni gli altri."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Je vous donne un commandement nouveau, dit le Seigneur : \" Aimez-vous les uns les autres, comme je vous ai aimés."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Ein neues Gebot gebe ich euch: Wie ich euch geliebt habe, so sollt auch ihr einander lieben."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -1853,127 +1905,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 13, 34 Allelúia. Mandátum novum do vobis, dicit Dóminus, ut diligátis ínvicem, sicut diléxi vos. Allelúia.",
-            "es": "Aleluya Jn 13, 34 Aleluya. Os doy un mandamiento nuevo —dice el Señor—: que os améis unos a otros, como yo os he amado. Aleluya.",
-            "en": "Alleluia, alleluia. I give you a new commandment: love one another as I have loved you. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 13, 34 Aleluia, aleluia. Eu vos dou novo preceito: que uns aos outros vos ameis, como eu vos tenho amado. Aleluia.",
-            "it": "Canto al Vangelo Gv 13,34 Alleluia, alleluia. Vi do un comandamento nuovo, dice il Signore: come io ho amato voi, così amatevi anche voi gli uni gli altri. Alleluia.",
-            "fr": "Alléluia Io 13, 34 Alléluia Je vous donne un commandement nouveau, dit le Seigneur : \" Aimez-vous les uns les autres, comme je vous ai aimés. Alléluia.",
-            "de": "Ruf vor dem Evangelium Joh 13, 34ac Halleluja. Halleluja. (So spricht der Herr:) Ein neues Gebot gebe ich euch: Wie ich euch geliebt habe, so sollt auch ihr einander lieben. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 13, 34"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Mandátum novum do vobis, dicit Dóminus, ut diligátis ínvicem, sicut diléxi vos. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 13, 34"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Os doy un mandamiento nuevo —dice el Señor—: que os améis unos a otros, como yo os he amado. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. I give you a new commandment: love one another as I have loved you. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 13, 34"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Eu vos dou novo preceito: que uns aos outros vos ameis, como eu vos tenho amado. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gv 13,34"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Vi do un comandamento nuovo, dice il Signore: come io ho amato voi, così amatevi anche voi gli uni gli altri. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 13, 34"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Je vous donne un commandement nouveau, dit le Seigneur : \" Aimez-vous les uns les autres, comme je vous ai aimés. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joh 13, 34ac"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Ein neues Gebot gebe ich euch: Wie ich euch geliebt habe, so sollt auch ihr einander lieben. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 13, 34",
           "es": "Jn 13, 34",
@@ -1981,6 +1912,179 @@
           "it": "Gv 13,34",
           "fr": "Io 13, 34",
           "de": "Joh 13, 34ac"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Mandátum novum do vobis, dicit Dóminus, ut diligátis ínvicem, sicut diléxi vos."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Os doy un mandamiento nuevo —dice el Señor—: que os améis unos a otros, como yo os he amado."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "I give you a new commandment: love one another as I have loved you."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Eu vos dou novo preceito: que uns aos outros vos ameis, como eu vos tenho amado."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Vi do un comandamento nuovo, dice il Signore: come io ho amato voi, così amatevi anche voi gli uni gli altri."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Je vous donne un commandement nouveau, dit le Seigneur : \" Aimez-vous les uns les autres, comme je vous ai aimés."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Ein neues Gebot gebe ich euch: Wie ich euch geliebt habe, so sollt auch ihr einander lieben."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

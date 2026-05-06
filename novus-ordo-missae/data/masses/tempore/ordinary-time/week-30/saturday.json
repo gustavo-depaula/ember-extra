@@ -771,127 +771,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Mt 11, 29ab Allelúia. Tóllite iugum meum super vos, dicit Dóminus, et díscite a me, quia mitis sum et húmilis corde. Allelúia.",
-            "es": "Aleluya Mt 11, 29ab Aleluya. Tomad mi yugo sobre vosotros —dice el Señor—, y aprended de mí, que soy manso y humilde de corazón. Aleluya.",
-            "en": "Alleluia, alleluia. Take my yoke upon you; learn from me, for I am gentle and lowly of heart. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Mt 11, 29ab Aleluia, aleluia. Tomai o meu jugo sobre vós, e aprendei de mim, que sou de coração humilde e manso! Aleluia.",
-            "it": "Canto al Vangelo Mt 11,29ab Alleluia, alleluia. Prendete il mio giogo sopra di voi, dice il Signore, e imparate da me, che sono mite e umile di cuore. Alleluia.",
-            "fr": "Alléluia Mt 11, 29ab Alléluia Prenez sur vous mon joug, devenez mes disciples, dit le Seigneur, car je suis doux et humble de cœur. Alléluia.",
-            "de": "Ruf vor dem Evangelium Mt 11, 29ab Halleluja. Halleluja. (So spricht der Herr:) Nehmt mein Joch auf euch und lernt von mir; denn ich bin gütig und von Herzen demütig. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 11, 29ab"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Tóllite iugum meum super vos, dicit Dóminus, et díscite a me, quia mitis sum et húmilis corde. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 11, 29ab"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Tomad mi yugo sobre vosotros —dice el Señor—, y aprended de mí, que soy manso y humilde de corazón. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Take my yoke upon you; learn from me, for I am gentle and lowly of heart. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 11, 29ab"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Tomai o meu jugo sobre vós, e aprendei de mim, que sou de coração humilde e manso! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 11,29ab"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Prendete il mio giogo sopra di voi, dice il Signore, e imparate da me, che sono mite e umile di cuore. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 11, 29ab"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Prenez sur vous mon joug, devenez mes disciples, dit le Seigneur, car je suis doux et humble de cœur. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 11, 29ab"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Nehmt mein Joch auf euch und lernt von mir; denn ich bin gütig und von Herzen demütig. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mt 11, 29ab",
           "es": "Mt 11, 29ab",
@@ -899,6 +778,179 @@
           "it": "Mt 11,29ab",
           "fr": "Mt 11, 29ab",
           "de": "Mt 11, 29ab"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Tóllite iugum meum super vos, dicit Dóminus, et díscite a me, quia mitis sum et húmilis corde."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Tomad mi yugo sobre vosotros —dice el Señor—, y aprended de mí, que soy manso y humilde de corazón."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Take my yoke upon you; learn from me, for I am gentle and lowly of heart."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Tomai o meu jugo sobre vós, e aprendei de mim, que sou de coração humilde e manso!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Prendete il mio giogo sopra di voi, dice il Signore, e imparate da me, che sono mite e umile di cuore."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Prenez sur vous mon joug, devenez mes disciples, dit le Seigneur, car je suis doux et humble de cœur."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Nehmt mein Joch auf euch und lernt von mir; denn ich bin gütig und von Herzen demütig."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -1787,127 +1839,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Mt 11, 29ab Allelúia. Tóllite iugum meum super vos, dicit Dóminus, et díscite a me, quia mitis sum et húmilis corde. Allelúia.",
-            "es": "Aleluya Mt 11, 29ab Aleluya. Tomad mi yugo sobre vosotros —dice el Señor—, y aprended de mí, que soy manso y humilde de corazón. Aleluya.",
-            "en": "Alleluia, alleluia. Take my yoke upon you; learn from me, for I am gentle and lowly of heart. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Mt 11, 29ab Aleluia, aleluia. Tomai o meu jugo sobre vós, e aprendei de mim, que sou de coração humilde e manso! Aleluia.",
-            "it": "Canto al Vangelo Mt 11,29ab Alleluia, alleluia. Prendete il mio giogo sopra di voi, dice il Signore, e imparate da me, che sono mite e umile di cuore. Alleluia.",
-            "fr": "Alléluia Mt 11, 29ab Alléluia Prenez sur vous mon joug, devenez mes disciples, dit le Seigneur, car je suis doux et humble de cœur. Alléluia.",
-            "de": "Ruf vor dem Evangelium Mt 11, 29ab Halleluja. Halleluja. (So spricht der Herr:) Nehmt mein Joch auf euch und lernt von mir; denn ich bin gütig und von Herzen demütig. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 11, 29ab"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Tóllite iugum meum super vos, dicit Dóminus, et díscite a me, quia mitis sum et húmilis corde. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 11, 29ab"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Tomad mi yugo sobre vosotros —dice el Señor—, y aprended de mí, que soy manso y humilde de corazón. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Take my yoke upon you; learn from me, for I am gentle and lowly of heart. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 11, 29ab"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Tomai o meu jugo sobre vós, e aprendei de mim, que sou de coração humilde e manso! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 11,29ab"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Prendete il mio giogo sopra di voi, dice il Signore, e imparate da me, che sono mite e umile di cuore. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 11, 29ab"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Prenez sur vous mon joug, devenez mes disciples, dit le Seigneur, car je suis doux et humble de cœur. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 11, 29ab"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Nehmt mein Joch auf euch und lernt von mir; denn ich bin gütig und von Herzen demütig. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mt 11, 29ab",
           "es": "Mt 11, 29ab",
@@ -1915,6 +1846,179 @@
           "it": "Mt 11,29ab",
           "fr": "Mt 11, 29ab",
           "de": "Mt 11, 29ab"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Tóllite iugum meum super vos, dicit Dóminus, et díscite a me, quia mitis sum et húmilis corde."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Tomad mi yugo sobre vosotros —dice el Señor—, y aprended de mí, que soy manso y humilde de corazón."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Take my yoke upon you; learn from me, for I am gentle and lowly of heart."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Tomai o meu jugo sobre vós, e aprendei de mim, que sou de coração humilde e manso!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Prendete il mio giogo sopra di voi, dice il Signore, e imparate da me, che sono mite e umile di cuore."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Prenez sur vous mon joug, devenez mes disciples, dit le Seigneur, car je suis doux et humble de cœur."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Nehmt mein Joch auf euch und lernt von mir; denn ich bin gütig und von Herzen demütig."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

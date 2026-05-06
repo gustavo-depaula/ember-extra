@@ -1595,121 +1595,71 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Versus ante Evangelium Io 3, 16 Sic enim diléxit Deus mundum, ut Fílium suum unigénitum daret; omnis qui credit in eum habet vitam ætérnam.",
-            "es": "Versículo antes del Evangelio Jn 3, 16 Tanto amó Dios al mundo, que entregó a su Unigénito; todo el que cree en él tiene vida eterna.",
-            "en": "God loved the world so much, he gave us his only Son, that all who believe in him might have eternal life.",
-            "pt-BR": "Aclamação ao Evangelho Jo 3, 16 Deus o mundo tanto amou que lhe deu seu próprio Filho, para que todo o que nele crer encontre vida eterna.",
-            "it": "Canto al Vangelo (Cfr. Gv 3,16) Lode e onore a te, Signore Gesù! Dio ha tanto amato il mondo da dare il Figlio unigenito; chiunque crede in lui ha la vita eterna. Lode e onore a te, Signore Gesù!",
-            "fr": "Verset avant l’Évangile Louange à toi, Seigneur, Roi d’éternelle gloire ! Dieu a tellement aimé le monde qu’il a donné son Fils unique, afin que ceux qui croient en lui aient la vie éternelle. Louange à toi, Seigneur, Roi d’éternelle gloire !",
-            "de": "Ruf vor dem Evangelium vgl. Joh 3, 16a. Christus, du ewiges Wort des Vaters, Ehre sei dir! So sehr hat Gott die Welt geliebt, dass er seinen einzigen Sohn hingab, damit jeder, der glaubt, in ihm das ewige Leben hat. Christus, du ewiges Wort des Vaters, Ehre sei dir!"
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versus ante Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 3, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Sic enim diléxit Deus mundum, ut Fílium suum unigénitum daret; omnis qui credit in eum habet vitam ætérnam."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versículo antes del Evangelio"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 3, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Tanto amó Dios al mundo, que entregó a su Unigénito; todo el que cree en él tiene vida eterna."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "God loved the world so much, he gave us his only Son, that all who believe in him might have eternal life."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 3, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Deus o mundo tanto amou que lhe deu seu próprio Filho, para que todo o que nele crer encontre vida eterna."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Cfr. Gv 3,16)"
-                },
-                {
-                  "type": "text",
-                  "text": "Lode e onore a te, Signore Gesù! Dio ha tanto amato il mondo da dare il Figlio unigenito; chiunque crede in lui ha la vita eterna. Lode e onore a te, Signore Gesù!"
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Verset avant l’Évangile Louange à toi, Seigneur, Roi d’éternelle gloire ! Dieu a tellement aimé le monde qu’il a donné son Fils unique, afin que ceux qui croient en lui aient la vie éternelle. Louange à toi, Seigneur, Roi d’éternelle gloire !"
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Joh 3, 16a."
-                },
-                {
-                  "type": "text",
-                  "text": "Christus, du ewiges Wort des Vaters, Ehre sei dir! So sehr hat Gott die Welt geliebt, dass er seinen einzigen Sohn hingab, damit jeder, der glaubt, in ihm das ewige Leben hat. Christus, du ewiges Wort des Vaters, Ehre sei dir!"
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 3, 16",
           "es": "Jn 3, 16",
           "pt-BR": "Jo 3, 16",
           "it": "(Cfr. Gv 3,16)",
           "de": "vgl. Joh 3, 16a"
+        },
+        "mode": "versus-ante-evangelium",
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "text",
+                "text": "Sic enim diléxit Deus mundum, ut Fílium suum unigénitum daret; omnis qui credit in eum habet vitam ætérnam."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "text",
+                "text": "Tanto amó Dios al mundo, que entregó a su Unigénito; todo el que cree en él tiene vida eterna."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "text",
+                "text": "God loved the world so much, he gave us his only Son, that all who believe in him might have eternal life."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "Deus o mundo tanto amou que lhe deu seu próprio Filho, para que todo o que nele crer encontre vida eterna."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "Lode e onore a te, Signore Gesù! Dio ha tanto amato il mondo da dare il Figlio unigenito; chiunque crede in lui ha la vita eterna. Lode e onore a te, Signore Gesù!"
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Louange à toi, Seigneur, Roi d’éternelle gloire ! Dieu a tellement aimé le monde qu’il a donné son Fils unique, afin que ceux qui croient en lui aient la vie éternelle. Louange à toi, Seigneur, Roi d’éternelle gloire !"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "text",
+                "text": "Christus, du ewiges Wort des Vaters, Ehre sei dir! So sehr hat Gott die Welt geliebt, dass er seinen einzigen Sohn hingab, damit jeder, der glaubt, in ihm das ewige Leben hat. Christus, du ewiges Wort des Vaters, Ehre sei dir!"
+              }
+            ]
+          ]
         }
       },
       "gospel": {

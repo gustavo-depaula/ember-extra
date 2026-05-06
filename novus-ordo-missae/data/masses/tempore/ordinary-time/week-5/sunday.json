@@ -1687,125 +1687,185 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 8, 12 Allelúia. Ego sum lux mundi, dicit Dóminus; qui séquitur me habébit lumen vitæ. Allelúia.",
-            "es": "Aleluya Jn 8, 12 Aleluya. Yo soy la luz del mundo —dice el Señor—; el que me sigue tendrá la luz de la vida. Aleluya.",
-            "en": "Alleluia, alleluia. I am the light of the world, says the Lord; the man who follows me will have the light of life. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 8, 12 Aleluia, aleluia. Pois eu sou a Luz do mundo, quem nos diz e o Senhor; e vai ter a Luz da vida, quem se faz meu seguidor. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Io sono la luce del mondo, dice il Signore; chi segue me, avrà la luce della vita. Alleluia.",
-            "fr": "Alléluia Io 8, 12 Alléluia Moi, je suis la lumière du monde, dit le Seigneur. Celui qui me suit aura la lumière de la vie. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Joh 8, 12 Halleluja. Halleluja. (So spricht der Herr:) Ich bin das Licht der Welt. Wer mir nachfolgt, hat das Licht des Lebens. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 8, 12"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Ego sum lux mundi, dicit Dóminus; qui séquitur me habébit lumen vitæ. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 8, 12"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Yo soy la luz del mundo —dice el Señor—; el que me sigue tendrá la luz de la vida. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. I am the light of the world, says the Lord; the man who follows me will have the light of life. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 8, 12"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Pois eu sou a Luz do mundo, quem nos diz e o Senhor; e vai ter a Luz da vida, quem se faz meu seguidor. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Io sono la luce del mondo, dice il Signore; chi segue me, avrà la luce della vita. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 8, 12"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Moi, je suis la lumière du monde, dit le Seigneur. Celui qui me suit aura la lumière de la vie. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Joh 8, 12"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Ich bin das Licht der Welt. Wer mir nachfolgt, hat das Licht des Lebens. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 8, 12",
           "es": "Jn 8, 12",
           "pt-BR": "Jo 8, 12",
           "fr": "Io 8, 12",
           "de": "vgl. Joh 8, 12"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Ego sum lux mundi, dicit Dóminus; qui séquitur me habébit lumen vitæ."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Yo soy la luz del mundo —dice el Señor—; el que me sigue tendrá la luz de la vida."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "I am the light of the world, says the Lord; the man who follows me will have the light of life."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Pois eu sou a Luz do mundo, quem nos diz e o Senhor; e vai ter a Luz da vida, quem se faz meu seguidor."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Io sono la luce del mondo, dice il Signore; chi segue me, avrà la luce della vita."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Moi, je suis la lumière du monde, dit le Seigneur. Celui qui me suit aura la lumière de la vie."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Ich bin das Licht der Welt. Wer mir nachfolgt, hat das Licht des Lebens."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -2816,125 +2876,185 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Mt 8, 17 Allelúia. Christus infirmitátes nostras accépit, et ægrotatiónes portávit. Allelúia.",
-            "es": "Aleluya Mt 8, 17 Aleluya. Cristo tomó nuestras dolencias y cargó con nuestras enfermedades. Aleluya.",
-            "en": "Alleluia, alleluia. He took our sicknesses away, and carried our diseases for us. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Mt 8, 17 Aleluia, aleluia. O Cristo tomou sobre si nossas dores, carregou em seu corpo as nossas fraquezas. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Cristo ha preso le nostre infermità e si è caricato delle nostre malattie. Alleluia.",
-            "fr": "Alléluia Mt 8, 17 Alléluia Le Christ a pris nos souffrances, il a porté nos maladies. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Mt 8, 17 Halleluja. Halleluja. Christus hat unsere Leiden auf sich genommen, unsere Krankheiten hat er getragen. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 8, 17"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Christus infirmitátes nostras accépit, et ægrotatiónes portávit. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 8, 17"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Cristo tomó nuestras dolencias y cargó con nuestras enfermedades. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. He took our sicknesses away, and carried our diseases for us. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 8, 17"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. O Cristo tomou sobre si nossas dores, carregou em seu corpo as nossas fraquezas. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Cristo ha preso le nostre infermità e si è caricato delle nostre malattie. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 8, 17"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Le Christ a pris nos souffrances, il a porté nos maladies. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Mt 8, 17"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Christus hat unsere Leiden auf sich genommen, unsere Krankheiten hat er getragen. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mt 8, 17",
           "es": "Mt 8, 17",
           "pt-BR": "Mt 8, 17",
           "fr": "Mt 8, 17",
           "de": "vgl. Mt 8, 17"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Christus infirmitátes nostras accépit, et ægrotatiónes portávit."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Cristo tomó nuestras dolencias y cargó con nuestras enfermedades."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "He took our sicknesses away, and carried our diseases for us."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "O Cristo tomou sobre si nossas dores, carregou em seu corpo as nossas fraquezas."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Cristo ha preso le nostre infermità e si è caricato delle nostre malattie."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Le Christ a pris nos souffrances, il a porté nos maladies."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Christus hat unsere Leiden auf sich genommen, unsere Krankheiten hat er getragen."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -4315,125 +4435,185 @@
         ]
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Mt 4, 19 Allelúia. Veníte post me, dicit Dóminus, et fáciam vos fíeri piscatóres hóminum. Allelúia.",
-            "es": "Aleluya Mt 4, 19 Aleluya. Venid en pos de mí —dice el Señor—, y os haré pescadores de hombres. Aleluya.",
-            "en": "Alleluia, alleluia. Come follow me, says the Lord, and I will make you fishers of men. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Mt 4, 19 Aleluia, aleluia. Vinde após mim!\" o Senhor lhes falou; e vos farei pescadores de homens. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Venite dietro a me, dice il Signore, vi farò pescatori di uomini. Alleluia.",
-            "fr": "Alléluia Mt 4, 19 Alléluia « Venez à ma suite, dit le Seigneur, et je vous ferai pêcheurs d’hommes. » Alléluia.",
-            "de": "Ruf vor dem Evangelium Mt 4, 19 Halleluja. Halleluja. (So spricht der Herr:) Folgt mir nach! Ich werde euch zu Menschenfischern machen. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 4, 19"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Veníte post me, dicit Dóminus, et fáciam vos fíeri piscatóres hóminum. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 4, 19"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Venid en pos de mí —dice el Señor—, y os haré pescadores de hombres. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Come follow me, says the Lord, and I will make you fishers of men. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 4, 19"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Vinde após mim!\" o Senhor lhes falou; e vos farei pescadores de homens. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Venite dietro a me, dice il Signore, vi farò pescatori di uomini. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 4, 19"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia « Venez à ma suite, dit le Seigneur, et je vous ferai pêcheurs d’hommes. » Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 4, 19"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Folgt mir nach! Ich werde euch zu Menschenfischern machen. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mt 4, 19",
           "es": "Mt 4, 19",
           "pt-BR": "Mt 4, 19",
           "fr": "Mt 4, 19",
           "de": "Mt 4, 19"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Veníte post me, dicit Dóminus, et fáciam vos fíeri piscatóres hóminum."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Venid en pos de mí —dice el Señor—, y os haré pescadores de hombres."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Come follow me, says the Lord, and I will make you fishers of men."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Vinde após mim!\" o Senhor lhes falou; e vos farei pescadores de homens."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Venite dietro a me, dice il Signore, vi farò pescatori di uomini."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "« Venez à ma suite, dit le Seigneur, et je vous ferai pêcheurs d’hommes. »"
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Folgt mir nach! Ich werde euch zu Menschenfischern machen."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

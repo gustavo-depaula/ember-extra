@@ -1356,86 +1356,178 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia, allelúia. Dux domus Israel, qui Móysi in Sina legem dedísti: veni ad rediméndum nos in brácchio exténto. Allelúia.",
-            "es": "Aleluya, aleluya. Pastor de la casa de Israel, que en el Sinaí diste a Moisés tu ley, ven a rescatarnos con el poder de tu brazo. Aleluya.",
-            "en": "Alleluia, alleluia. Come, Leader of ancient Israel, giver of the Law of Moses on Sinai: rescue us with your mighty power. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Aleluia, aleluia. Ó Guia de Israel, que no monte Sinai, orientastes a Moisés, oh, vinde redimir-nos, com braço estendido! Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. O Signore, guida della casa d’Israele, che hai dato la Legge a Mosè sul monte Sinai: vieni a liberarci con braccio potente. Alleluia.",
-            "fr": "Alléluia, alléluia. Alléluia. Viens, Chef de ton peuple Israël ! Toi qui as donné la Loi sur la montagne, délivre-nous par la vigueur de ton bras. Alléluia.",
-            "de": "Ruf vor dem Evangelium Halleluja. Halleluja. Du Herr und Führer des Hauses Israel: komm und befreie uns mit deinem starken Arm! Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Dux domus Israel, qui Móysi in Sina legem dedísti: veni ad rediméndum nos in brácchio exténto. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Pastor de la casa de Israel, que en el Sinaí diste a Moisés tu ley, ven a rescatarnos con el poder de tu brazo. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Come, Leader of ancient Israel, giver of the Law of Moses on Sinai: rescue us with your mighty power. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho Aleluia, aleluia. Ó Guia de Israel, que no monte Sinai, orientastes a Moisés, oh, vinde redimir-nos, com braço estendido! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. O Signore, guida della casa d’Israele, che hai dato la Legge a Mosè sul monte Sinai: vieni a liberarci con braccio potente. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia, alléluia. Alléluia. Viens, Chef de ton peuple Israël ! Toi qui as donné la Loi sur la montagne, délivre-nous par la vigueur de ton bras. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium Halleluja. Halleluja. Du Herr und Führer des Hauses Israel: komm und befreie uns mit deinem starken Arm! Halleluja."
-                }
-              ]
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
             ]
-          }
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Dux domus Israel, qui Móysi in Sina legem dedísti: veni ad rediméndum nos in brácchio exténto."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Pastor de la casa de Israel, que en el Sinaí diste a Moisés tu ley, ven a rescatarnos con el poder de tu brazo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Come, Leader of ancient Israel, giver of the Law of Moses on Sinai: rescue us with your mighty power."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Ó Guia de Israel, que no monte Sinai, orientastes a Moisés, oh, vinde redimir-nos, com braço estendido!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "O Signore, guida della casa d’Israele, che hai dato la Legge a Mosè sul monte Sinai: vieni a liberarci con braccio potente."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Alléluia. Viens, Chef de ton peuple Israël ! Toi qui as donné la Loi sur la montagne, délivre-nous par la vigueur de ton bras."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Du Herr und Führer des Hauses Israel: komm und befreie uns mit deinem starken Arm!"
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

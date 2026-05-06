@@ -1639,127 +1639,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 8, 12bc Allelúia. Qui séquitur me non ámbulat in ténebris, sed habébit lucem vitæ, dicit Dóminus. Allelúia.",
-            "es": "Aleluya Jn 8, 12bc Aleluya. El que me sigue no camina en tinieblas —dice el Señor—, sino que tendrá la luz de la vida. Aleluya.",
-            "en": "Alleluia, alleluia. The man who follows me will have the light of life. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 8, 12bc Aleluia, aleluia. Aquele que me segue não caminha entre as trevas mas terá a luz da vida. Aleluia.",
-            "it": "Canto al Vangelo Gv 8, 12bc Alleluia, alleluia. Chi segue me, non camminerà nelle tenebre, ma avrà la luce della vita, dice il Signore. Alleluia.",
-            "fr": "Alléluia Io 8, 12bc Alléluia Celui qui me suit ne marchera pas dans les ténèbres, dit le Seigneur, il aura la lumière de la vie. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Joh 8, 12bc Halleluja. Halleluja. (So spricht der Herr:) Wer mir nachfolgt, wandelt nicht in der Finsternis, sondern hat das Licht des Lebens. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 8, 12bc"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Qui séquitur me non ámbulat in ténebris, sed habébit lucem vitæ, dicit Dóminus. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 8, 12bc"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. El que me sigue no camina en tinieblas —dice el Señor—, sino que tendrá la luz de la vida. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. The man who follows me will have the light of life. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 8, 12bc"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Aquele que me segue não caminha entre as trevas mas terá a luz da vida. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gv 8, 12bc"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Chi segue me, non camminerà nelle tenebre, ma avrà la luce della vita, dice il Signore. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 8, 12bc"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Celui qui me suit ne marchera pas dans les ténèbres, dit le Seigneur, il aura la lumière de la vie. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Joh 8, 12bc"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Wer mir nachfolgt, wandelt nicht in der Finsternis, sondern hat das Licht des Lebens. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 8, 12bc",
           "es": "Jn 8, 12bc",
@@ -1767,6 +1646,179 @@
           "it": "Gv 8, 12bc",
           "fr": "Io 8, 12bc",
           "de": "vgl. Joh 8, 12bc"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Qui séquitur me non ámbulat in ténebris, sed habébit lucem vitæ, dicit Dóminus."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "El que me sigue no camina en tinieblas —dice el Señor—, sino que tendrá la luz de la vida."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "The man who follows me will have the light of life."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Aquele que me segue não caminha entre as trevas mas terá a luz da vida."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Chi segue me, non camminerà nelle tenebre, ma avrà la luce della vita, dice il Signore."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Celui qui me suit ne marchera pas dans les ténèbres, dit le Seigneur, il aura la lumière de la vie."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Wer mir nachfolgt, wandelt nicht in der Finsternis, sondern hat das Licht des Lebens."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

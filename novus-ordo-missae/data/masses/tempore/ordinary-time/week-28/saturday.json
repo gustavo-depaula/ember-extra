@@ -801,127 +801,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 15, 26b-27a Allelúia. Spíritus veritátis testimónium perhibébit de me, dicit Dóminus; et vos testimónium perhibétis. Allelúia.",
-            "es": "Aleluya Jn 15, 26b-27a Aleluya. El Espíritu de la verdad dará testimonio de mí —dice el Señor—; y vosotros daréis testimonio. Aleluya.",
-            "en": "Alleluia, alleluia. The Spirit of truth will bear witness to me, says the Lord, and you also will be my witnesses. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 15, 26b-27a Aleluia, aleluia. O Espírito Santo, a verdade, de mim irá testemunhar; e vós minhas testemunhas sereis em todo lugar. Aleluia.",
-            "it": "Canto al Vangelo Cfr. Gv 15,26b.27a Alleluia, alleluia. Lo Spirito della verità darà testimonianza di me, dice il Signore, e anche voi date testimonianza. Alleluia.",
-            "fr": "Alléluia Io 15, 26b-27a Alléluia L’Esprit de vérité rendra témoignage en ma faveur, dit le Seigneur. Et vous aussi, vous allez rendre témoignage. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Joh 15, 26b. 27a Halleluja. Halleluja. (So spricht der Herr:) Der Geist der Wahrheit wird Zeugnis geben für mich, und auch ihr sollt Zeugen sein. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 15, 26b-27a"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Spíritus veritátis testimónium perhibébit de me, dicit Dóminus; et vos testimónium perhibétis. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 15, 26b-27a"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. El Espíritu de la verdad dará testimonio de mí —dice el Señor—; y vosotros daréis testimonio. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. The Spirit of truth will bear witness to me, says the Lord, and you also will be my witnesses. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 15, 26b-27a"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. O Espírito Santo, a verdade, de mim irá testemunhar; e vós minhas testemunhas sereis em todo lugar. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cfr. Gv 15,26b.27a"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Lo Spirito della verità darà testimonianza di me, dice il Signore, e anche voi date testimonianza. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 15, 26b-27a"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia L’Esprit de vérité rendra témoignage en ma faveur, dit le Seigneur. Et vous aussi, vous allez rendre témoignage. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Joh 15, 26b. 27a"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Der Geist der Wahrheit wird Zeugnis geben für mich, und auch ihr sollt Zeugen sein. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 15, 26b-27a",
           "es": "Jn 15, 26b-27a",
@@ -929,6 +808,179 @@
           "it": "Cfr. Gv 15,26b.27a",
           "fr": "Io 15, 26b-27a",
           "de": "vgl. Joh 15, 26b. 27a"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Spíritus veritátis testimónium perhibébit de me, dicit Dóminus; et vos testimónium perhibétis."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "El Espíritu de la verdad dará testimonio de mí —dice el Señor—; y vosotros daréis testimonio."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "The Spirit of truth will bear witness to me, says the Lord, and you also will be my witnesses."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "O Espírito Santo, a verdade, de mim irá testemunhar; e vós minhas testemunhas sereis em todo lugar."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Lo Spirito della verità darà testimonianza di me, dice il Signore, e anche voi date testimonianza."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "L’Esprit de vérité rendra témoignage en ma faveur, dit le Seigneur. Et vous aussi, vous allez rendre témoignage."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Der Geist der Wahrheit wird Zeugnis geben für mich, und auch ihr sollt Zeugen sein."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -1925,127 +1977,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 15, 26b-27a Allelúia. Spíritus veritátis testimónium perhibébit de me, dicit Dóminus; et vos testimónium perhibétis. Allelúia.",
-            "es": "Aleluya Jn 15, 26b-27a Aleluya. El Espíritu de la verdad dará testimonio de mí —dice el Señor—; y vosotros daréis testimonio. Aleluya.",
-            "en": "Alleluia, alleluia. The Spirit of truth will bear witness to me, says the Lord, and you also will be my witnesses. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 15, 26b-27a Aleluia, aleluia. O Espírito Santo, a verdade, de mim irá testemunhar; e vós minhas testemunhas sereis em todo lugar. Aleluia.",
-            "it": "Canto al Vangelo Cfr. Gv 15,26b.27a Alleluia, alleluia. Lo Spirito della verità darà testimonianza di me, dice il Signore, e anche voi date testimonianza. Alleluia.",
-            "fr": "Alléluia Io 15, 26b-27a Alléluia L’Esprit de vérité rendra témoignage en ma faveur, dit le Seigneur. Et vous aussi, vous allez rendre témoignage. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Joh 15, 26b. 27a Halleluja. Halleluja. (So spricht der Herr:) Der Geist der Wahrheit wird Zeugnis geben für mich, und auch ihr sollt Zeugen sein. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 15, 26b-27a"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Spíritus veritátis testimónium perhibébit de me, dicit Dóminus; et vos testimónium perhibétis. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 15, 26b-27a"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. El Espíritu de la verdad dará testimonio de mí —dice el Señor—; y vosotros daréis testimonio. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. The Spirit of truth will bear witness to me, says the Lord, and you also will be my witnesses. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 15, 26b-27a"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. O Espírito Santo, a verdade, de mim irá testemunhar; e vós minhas testemunhas sereis em todo lugar. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cfr. Gv 15,26b.27a"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Lo Spirito della verità darà testimonianza di me, dice il Signore, e anche voi date testimonianza. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 15, 26b-27a"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia L’Esprit de vérité rendra témoignage en ma faveur, dit le Seigneur. Et vous aussi, vous allez rendre témoignage. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Joh 15, 26b. 27a"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Der Geist der Wahrheit wird Zeugnis geben für mich, und auch ihr sollt Zeugen sein. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 15, 26b-27a",
           "es": "Jn 15, 26b-27a",
@@ -2053,6 +1984,179 @@
           "it": "Cfr. Gv 15,26b.27a",
           "fr": "Io 15, 26b-27a",
           "de": "vgl. Joh 15, 26b. 27a"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Spíritus veritátis testimónium perhibébit de me, dicit Dóminus; et vos testimónium perhibétis."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "El Espíritu de la verdad dará testimonio de mí —dice el Señor—; y vosotros daréis testimonio."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "The Spirit of truth will bear witness to me, says the Lord, and you also will be my witnesses."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "O Espírito Santo, a verdade, de mim irá testemunhar; e vós minhas testemunhas sereis em todo lugar."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Lo Spirito della verità darà testimonianza di me, dice il Signore, e anche voi date testimonianza."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "L’Esprit de vérité rendra témoignage en ma faveur, dit le Seigneur. Et vous aussi, vous allez rendre témoignage."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Der Geist der Wahrheit wird Zeugnis geben für mich, und auch ihr sollt Zeugen sein."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

@@ -2085,125 +2085,185 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 10, 14 Allelúia. Ego sum pastor bonus, dicit Dóminus, et cognósco oves meas, et cognóscunt me meæ. Allelúia.",
-            "es": "Aleluya Jn 10, 14 Aleluya. Yo soy el Buen Pastor —dice el Señor—, que conozco a mis ovejas, y las mías me conocen. Aleluya.",
-            "en": "Alleluia, alleluia. I am the good shepherd, says the Lord; I know my sheep, and mine know me. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 10, 14 Aleluia, aleluia. Eu sou a porta das ovelhas. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Io sono il buon pastore, dice il Signore, conosco le mie pecore e le mie pecore conoscono me Alleluia.",
-            "fr": "Alléluia Io 10, 14 Alléluia Je suis le bon pasteur, dit le Seigneur ; je connais mes brebis et mes brebis me connaissent. Alléluia.",
-            "de": "Ruf vor dem Evangelium Joh 10, 14 Halleluja. Halleluja. (So spricht der Herr:) Ich bin der gute Hirt. Ich kenne die Meinen, und die Meinen kennen mich. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 10, 14"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Ego sum pastor bonus, dicit Dóminus, et cognósco oves meas, et cognóscunt me meæ. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 10, 14"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Yo soy el Buen Pastor —dice el Señor—, que conozco a mis ovejas, y las mías me conocen. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. I am the good shepherd, says the Lord; I know my sheep, and mine know me. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 10, 14"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Eu sou a porta das ovelhas. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Io sono il buon pastore, dice il Signore, conosco le mie pecore e le mie pecore conoscono me Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 10, 14"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Je suis le bon pasteur, dit le Seigneur ; je connais mes brebis et mes brebis me connaissent. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joh 10, 14"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Ich bin der gute Hirt. Ich kenne die Meinen, und die Meinen kennen mich. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 10, 14",
           "es": "Jn 10, 14",
           "pt-BR": "Jo 10, 14",
           "fr": "Io 10, 14",
           "de": "Joh 10, 14"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Ego sum pastor bonus, dicit Dóminus, et cognósco oves meas, et cognóscunt me meæ."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Yo soy el Buen Pastor —dice el Señor—, que conozco a mis ovejas, y las mías me conocen."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "I am the good shepherd, says the Lord; I know my sheep, and mine know me."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Eu sou a porta das ovelhas."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Io sono il buon pastore, dice il Signore, conosco le mie pecore e le mie pecore conoscono me"
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Je suis le bon pasteur, dit le Seigneur ; je connais mes brebis et mes brebis me connaissent."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Ich bin der gute Hirt. Ich kenne die Meinen, und die Meinen kennen mich."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -3520,125 +3580,185 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 10, 14 Allelúia. Ego sum pastor bonus, dicit Dóminus, et cognósco oves meas, et cognóscunt me meæ. Allelúia.",
-            "es": "Aleluya Jn 10, 14 Aleluya. Yo soy el Buen Pastor —dice el Señor— que conozco a mis ovejas, y las mías me conocen. Aleluya.",
-            "en": "Alleluia, alleluia. I am the good shepherd, says the Lord; I know my sheep, and mine know me. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 10, 14 Aleluia, aleluia. Eu sou o bom pastor, diz o Senhor; eu conheço as minhas ovelhas e elas me conhecem a mim. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Io sono il buon pastore, dice il Signore, conosco le mie pecore e le mie pecore conoscono me. Alleluia.",
-            "fr": "Alléluia Io 10, 14 Alléluia Je suis le bon pasteur, dit le Seigneur ; je connais mes brebis et mes brebis me connaissent. Alléluia.",
-            "de": "Ruf vor dem Evangelium Joh 10, 14 Halleluja. Halleluja. (So spricht der Herr:) Ich bin der gute Hirt. Ich kenne die Meinen, und die Meinen kennen mich. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 10, 14"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Ego sum pastor bonus, dicit Dóminus, et cognósco oves meas, et cognóscunt me meæ. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 10, 14"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Yo soy el Buen Pastor —dice el Señor— que conozco a mis ovejas, y las mías me conocen. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. I am the good shepherd, says the Lord; I know my sheep, and mine know me. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 10, 14"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Eu sou o bom pastor, diz o Senhor; eu conheço as minhas ovelhas e elas me conhecem a mim. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Io sono il buon pastore, dice il Signore, conosco le mie pecore e le mie pecore conoscono me. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 10, 14"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Je suis le bon pasteur, dit le Seigneur ; je connais mes brebis et mes brebis me connaissent. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joh 10, 14"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Ich bin der gute Hirt. Ich kenne die Meinen, und die Meinen kennen mich. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 10, 14",
           "es": "Jn 10, 14",
           "pt-BR": "Jo 10, 14",
           "fr": "Io 10, 14",
           "de": "Joh 10, 14"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Ego sum pastor bonus, dicit Dóminus, et cognósco oves meas, et cognóscunt me meæ."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Yo soy el Buen Pastor —dice el Señor— que conozco a mis ovejas, y las mías me conocen."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "I am the good shepherd, says the Lord; I know my sheep, and mine know me."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Eu sou o bom pastor, diz o Senhor; eu conheço as minhas ovelhas e elas me conhecem a mim."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Io sono il buon pastore, dice il Signore, conosco le mie pecore e le mie pecore conoscono me."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Je suis le bon pasteur, dit le Seigneur ; je connais mes brebis et mes brebis me connaissent."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Ich bin der gute Hirt. Ich kenne die Meinen, und die Meinen kennen mich."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -4655,125 +4775,185 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 10, 14 Allelúia. Ego sum pastor bonus, dicit Dóminus, et cognósco oves meas, et cognóscunt me meæ. Allelúia.",
-            "es": "Aleluya Jn 10, 14 Aleluya. Yo soy el Buen Pastor —dice el Señor—, que conozco a mis ovejas, y las mías me conocen. Aleluya.",
-            "en": "Alleluia, alleluia. I am the good shepherd, says the Lord; I know my own sheep, and my own know me. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 10, 14 Aleluia, aleluia. Eu sou o bom pastor, diz o Senhor;eu conheço as minhas ovelhas e elas me conhecem a mim. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Io sono il buon pastore, dice il Signore; conosco le mie pecore e le mie pecore conoscono me. Alleluia.",
-            "fr": "Alléluia Io 10, 14 Alléluia Je suis le bon pasteur, dit le Seigneur ; je connais mes brebis et mes brebis me connaissent. Alléluia.",
-            "de": "Ruf vor dem Evangelium Joh 10, 14 Halleluja. Halleluja. (So spricht der Herr:) Ich bin der gute Hirt. Ich kenne die Meinen, und die Meinen kennen mich. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 10, 14"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Ego sum pastor bonus, dicit Dóminus, et cognósco oves meas, et cognóscunt me meæ. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 10, 14"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Yo soy el Buen Pastor —dice el Señor—, que conozco a mis ovejas, y las mías me conocen. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. I am the good shepherd, says the Lord; I know my own sheep, and my own know me. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 10, 14"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Eu sou o bom pastor, diz o Senhor;eu conheço as minhas ovelhas e elas me conhecem a mim. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Io sono il buon pastore, dice il Signore; conosco le mie pecore e le mie pecore conoscono me. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 10, 14"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Je suis le bon pasteur, dit le Seigneur ; je connais mes brebis et mes brebis me connaissent. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joh 10, 14"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Ich bin der gute Hirt. Ich kenne die Meinen, und die Meinen kennen mich. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 10, 14",
           "es": "Jn 10, 14",
           "pt-BR": "Jo 10, 14",
           "fr": "Io 10, 14",
           "de": "Joh 10, 14"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Ego sum pastor bonus, dicit Dóminus, et cognósco oves meas, et cognóscunt me meæ."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Yo soy el Buen Pastor —dice el Señor—, que conozco a mis ovejas, y las mías me conocen."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "I am the good shepherd, says the Lord; I know my own sheep, and my own know me."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Eu sou o bom pastor, diz o Senhor;eu conheço as minhas ovelhas e elas me conhecem a mim."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Io sono il buon pastore, dice il Signore; conosco le mie pecore e le mie pecore conoscono me."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Je suis le bon pasteur, dit le Seigneur ; je connais mes brebis et mes brebis me connaissent."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Ich bin der gute Hirt. Ich kenne die Meinen, und die Meinen kennen mich."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

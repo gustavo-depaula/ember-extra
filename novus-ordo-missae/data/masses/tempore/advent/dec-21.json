@@ -1621,86 +1621,174 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia, allelúia. Emmánuel, rex et légifer noster: veni ad salvándum nos, Dómine, Deus noster. Allelúia.",
-            "es": "Aleluya, aleluya. Emmanuel, rey y legislador nuestro, ven a salvarnos, Señor, Dios nuestro. Aleluya.",
-            "en": "Alleluia, alleluia. Come, Emmanuel, God's presence among us, our King, our Judge: save us, Lord our God! Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Aleluia, aleluia. Ó Emanuel, sois nosso Rei e Orientad",
-            "it": "Canto al Vangelo Alleluia, alleluia. O Astro che sorgi, splendore della luce eterna, sole di giustizia: vieni, illumina chi giace nelle tenebre e nell’ombra di morte. Alleluia.",
-            "fr": "Alléluia, alléluia. Alléluia. Viens, Emmanuel, notre Législateur et notre Roi ! Sauve-nous, Seigneur notre Dieu. Alléluia.",
-            "de": "Ruf vor dem Evangelium Halleluja. Halleluja. Du Morgenstern, Glanz des unversehrten Lichtes, der Gerechtigkeit strahlende Sonne: komm und erleuchte, die da sitzen in Finsternis und im Schatten des Todes! Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Emmánuel, rex et légifer noster: veni ad salvándum nos, Dómine, Deus noster. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Emmanuel, rey y legislador nuestro, ven a salvarnos, Señor, Dios nuestro. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Come, Emmanuel, God's presence among us, our King, our Judge: save us, Lord our God! Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho Aleluia, aleluia. Ó Emanuel, sois nosso Rei e Orientad"
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. O Astro che sorgi, splendore della luce eterna, sole di giustizia: vieni, illumina chi giace nelle tenebre e nell’ombra di morte. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia, alléluia. Alléluia. Viens, Emmanuel, notre Législateur et notre Roi ! Sauve-nous, Seigneur notre Dieu. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium Halleluja. Halleluja. Du Morgenstern, Glanz des unversehrten Lichtes, der Gerechtigkeit strahlende Sonne: komm und erleuchte, die da sitzen in Finsternis und im Schatten des Todes! Halleluja."
-                }
-              ]
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
             ]
-          }
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Emmánuel, rex et légifer noster: veni ad salvándum nos, Dómine, Deus noster."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Emmanuel, rey y legislador nuestro, ven a salvarnos, Señor, Dios nuestro."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Come, Emmanuel, God's presence among us, our King, our Judge: save us, Lord our God!"
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Ó Emanuel, sois nosso Rei e Orientad"
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "O Astro che sorgi, splendore della luce eterna, sole di giustizia: vieni, illumina chi giace nelle tenebre e nell’ombra di morte."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Alléluia. Viens, Emmanuel, notre Législateur et notre Roi ! Sauve-nous, Seigneur notre Dieu."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Du Morgenstern, Glanz des unversehrten Lichtes, der Gerechtigkeit strahlende Sonne: komm und erleuchte, die da sitzen in Finsternis und im Schatten des Todes!"
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

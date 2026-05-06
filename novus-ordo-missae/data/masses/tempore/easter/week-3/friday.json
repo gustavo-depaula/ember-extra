@@ -1219,116 +1219,180 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 6, 56 Allelúia. Qui mandúcat meam carnem et bibit meum sánguinem, in me manet, et ego in eo, dicit Dóminus Allelúia.",
-            "es": "Aleluya Jn 6, 56 Aleluya. El que come mi carne y bebe mi sangre —dice el Señor— habita en mí y yo en él. Aleluya.",
-            "en": "Alleluia, alleluia. He who eats my flesh and drinks my blood lives in me and I live in him, says the Lord.",
-            "pt-BR": "Aclamação ao Evangelho Jo 6, 56 Aleluia, aleluia. Quem come a minha carne e bebe o meu sangue em mim permanece e eu vou ficar nele. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Chi mangia la mia carne e beve il mio sangue, rimane in me e io in lui, dice il Signore. Alleluia.",
-            "fr": "Alléluia Io 6, 56 Alléluia Qui mange ma chair et boit mon sang demeure en moi, et moi en lui, dit le Seigneur. Alléluia.",
-            "de": "Ruf vor dem Evangelium Halleluja. Halleluja. (So spricht der Herr:) Wer mein Fleisch isst und mein Blut trinkt, der bleibt in mir, und ich bleibe in ihm. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 6, 56"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Qui mandúcat meam carnem et bibit meum sánguinem, in me manet, et ego in eo, dicit Dóminus Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 6, 56"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. El que come mi carne y bebe mi sangre —dice el Señor— habita en mí y yo en él. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. He who eats my flesh and drinks my blood lives in me and I live in him, says the Lord."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 6, 56"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Quem come a minha carne e bebe o meu sangue em mim permanece e eu vou ficar nele. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Chi mangia la mia carne e beve il mio sangue, rimane in me e io in lui, dice il Signore. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 6, 56"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Qui mange ma chair et boit mon sang demeure en moi, et moi en lui, dit le Seigneur. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium Halleluja. Halleluja. (So spricht der Herr:) Wer mein Fleisch isst und mein Blut trinkt, der bleibt in mir, und ich bleibe in ihm. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 6, 56",
           "es": "Jn 6, 56",
           "pt-BR": "Jo 6, 56",
           "fr": "Io 6, 56"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Qui mandúcat meam carnem et bibit meum sánguinem, in me manet, et ego in eo, dicit Dóminus"
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "El que come mi carne y bebe mi sangre —dice el Señor— habita en mí y yo en él."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "He who eats my flesh and drinks my blood lives in me and I live in him, says the Lord."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Quem come a minha carne e bebe o meu sangue em mim permanece e eu vou ficar nele."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Chi mangia la mia carne e beve il mio sangue, rimane in me e io in lui, dice il Signore."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Qui mange ma chair et boit mon sang demeure en moi, et moi en lui, dit le Seigneur."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Wer mein Fleisch isst und mein Blut trinkt, der bleibt in mir, und ich bleibe in ihm."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

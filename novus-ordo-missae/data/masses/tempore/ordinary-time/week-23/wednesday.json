@@ -753,127 +753,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Lc 6, 23ab Allelúia. Gaudéte in illa die et exsultáte, dicit Dóminus; ecce enim merces vestra multa in cælo. Allelúia.",
-            "es": "Aleluya Lc 6, 23ab Aleluya. Alegraos y saltad de gozo —dice el Señor—, porque vuestra recompensa será grande en el cielo. Aleluya.",
-            "en": "Alleluia, alleluia. Rejoice and be glad; your reward will be great in heaven. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Lc 6, 23ab Aleluia, aleluia. Meus discípulos, alegrai-vos, exultai de alegria, pois, bem grande é a recompensa, que nos céus tereis, um dia! Aleluia.",
-            "it": "Canto al Vangelo Lc 6,23ab Alleluia, alleluia. Rallegratevi ed esultate, dice il Signore, perché, ecco, la vostra ricompensa è grande nel cielo. Alleluia.",
-            "fr": "Alléluia Lc 6, 23ab Alléluia Réjouissez-vous, soyez dans l’allégresse, car votre récompense est grande dans les cieux ! Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Lk 6, 23ab Halleluja. Halleluja. (So spricht der Herr:) Freut euch und jubelt! Euer Lohn im Himmel wird groß sein. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 6, 23ab"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Gaudéte in illa die et exsultáte, dicit Dóminus; ecce enim merces vestra multa in cælo. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 6, 23ab"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Alegraos y saltad de gozo —dice el Señor—, porque vuestra recompensa será grande en el cielo. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Rejoice and be glad; your reward will be great in heaven. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 6, 23ab"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Meus discípulos, alegrai-vos, exultai de alegria, pois, bem grande é a recompensa, que nos céus tereis, um dia! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 6,23ab"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Rallegratevi ed esultate, dice il Signore, perché, ecco, la vostra ricompensa è grande nel cielo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 6, 23ab"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Réjouissez-vous, soyez dans l’allégresse, car votre récompense est grande dans les cieux ! Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Lk 6, 23ab"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Freut euch und jubelt! Euer Lohn im Himmel wird groß sein. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Lc 6, 23ab",
           "es": "Lc 6, 23ab",
@@ -881,6 +760,179 @@
           "it": "Lc 6,23ab",
           "fr": "Lc 6, 23ab",
           "de": "vgl. Lk 6, 23ab"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Gaudéte in illa die et exsultáte, dicit Dóminus; ecce enim merces vestra multa in cælo."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Alegraos y saltad de gozo —dice el Señor—, porque vuestra recompensa será grande en el cielo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Rejoice and be glad; your reward will be great in heaven."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Meus discípulos, alegrai-vos, exultai de alegria, pois, bem grande é a recompensa, que nos céus tereis, um dia!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Rallegratevi ed esultate, dice il Signore, perché, ecco, la vostra ricompensa è grande nel cielo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Réjouissez-vous, soyez dans l’allégresse, car votre récompense est grande dans les cieux !"
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Freut euch und jubelt! Euer Lohn im Himmel wird groß sein."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -1913,127 +1965,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Lc 6, 23ab Allelúia. Gaudéte in illa die et exsultáte, dicit Dóminus; ecce enim merces vestra multa in cælo. Allelúia.",
-            "es": "Aleluya Lc 6, 23ab Aleluya. Alegraos y saltad de gozo —dice el Señor—, porque vuestra recompensa será grande en el cielo. Aleluya.",
-            "en": "Alleluia, alleluia. Rejoice and be glad; your reward will be great in heaven. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Lc 6, 23ab Aleluia, aleluia. Meus discípulos, alegrai-vos, exultai de alegria, pois, bem grande é a recompensa, que nos céus tereis, um dia! Aleluia.",
-            "it": "Canto al Vangelo Lc 6,23ab Alleluia, alleluia. Rallegratevi ed esultate, dice il Signore, perché, ecco, la vostra ricompensa è grande nel cielo. Alleluia.",
-            "fr": "Alléluia Lc 6, 23ab Alléluia Réjouissez-vous, soyez dans l’allégresse, car votre récompense est grande dans les cieux ! Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Lk 6, 23ab Halleluja. Halleluja. (So spricht der Herr:) Freut euch und jubelt! Euer Lohn im Himmel wird groß sein. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 6, 23ab"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Gaudéte in illa die et exsultáte, dicit Dóminus; ecce enim merces vestra multa in cælo. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 6, 23ab"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Alegraos y saltad de gozo —dice el Señor—, porque vuestra recompensa será grande en el cielo. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Rejoice and be glad; your reward will be great in heaven. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 6, 23ab"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Meus discípulos, alegrai-vos, exultai de alegria, pois, bem grande é a recompensa, que nos céus tereis, um dia! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 6,23ab"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Rallegratevi ed esultate, dice il Signore, perché, ecco, la vostra ricompensa è grande nel cielo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 6, 23ab"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Réjouissez-vous, soyez dans l’allégresse, car votre récompense est grande dans les cieux ! Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Lk 6, 23ab"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Freut euch und jubelt! Euer Lohn im Himmel wird groß sein. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Lc 6, 23ab",
           "es": "Lc 6, 23ab",
@@ -2041,6 +1972,179 @@
           "it": "Lc 6,23ab",
           "fr": "Lc 6, 23ab",
           "de": "vgl. Lk 6, 23ab"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Gaudéte in illa die et exsultáte, dicit Dóminus; ecce enim merces vestra multa in cælo."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Alegraos y saltad de gozo —dice el Señor—, porque vuestra recompensa será grande en el cielo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Rejoice and be glad; your reward will be great in heaven."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Meus discípulos, alegrai-vos, exultai de alegria, pois, bem grande é a recompensa, que nos céus tereis, um dia!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Rallegratevi ed esultate, dice il Signore, perché, ecco, la vostra ricompensa è grande nel cielo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Réjouissez-vous, soyez dans l’allégresse, car votre récompense est grande dans les cieux !"
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Freut euch und jubelt! Euer Lohn im Himmel wird groß sein."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

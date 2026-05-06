@@ -2480,86 +2480,178 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia, allelúia. Quia vidísti me, Thoma, credidísti, dicit Dóminus: beáti qui non vidérunt et credidérunt. Allelúia.",
-            "es": "Aleluya, aleluya. Porque me has visto, Tomás, has creído —dice el Señor—; bienaventurados los que crean sin haber visto. Aleluya.",
-            "en": "Alleluia, alleluia. Jesus said: \"You believe because you can see me. Happy are those who have not seen me and yet believe\". Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Aleluia, aleluia. \"Acreditaste, Tomé, porque me viste. Felizes os que creram sem ter vosto!\". Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Perché mi hai veduto, Tommaso, tu hai creduto; beati quelli che non hanno visto e hanno creduto! Alleluia.",
-            "fr": "Alléluia, alléluia. Thomas, parce que tu m’as vu, tu crois, dit le Seigneur. Heureux ceux qui croient sans avoir vu ! Alléluia.",
-            "de": "Ruf vor dem Evangelium Halleluja, Halleluja. (So spricht der Herr:) Weil du mich gesehen hast, Thomas, glaubst du. Selig sind, die nicht sehen und doch glauben. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Quia vidísti me, Thoma, credidísti, dicit Dóminus: beáti qui non vidérunt et credidérunt. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Porque me has visto, Tomás, has creído —dice el Señor—; bienaventurados los que crean sin haber visto. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Jesus said: \"You believe because you can see me. Happy are those who have not seen me and yet believe\". Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho Aleluia, aleluia. \"Acreditaste, Tomé, porque me viste. Felizes os que creram sem ter vosto!\". Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Perché mi hai veduto, Tommaso, tu hai creduto; beati quelli che non hanno visto e hanno creduto! Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia, alléluia. Thomas, parce que tu m’as vu, tu crois, dit le Seigneur. Heureux ceux qui croient sans avoir vu ! Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium Halleluja, Halleluja. (So spricht der Herr:) Weil du mich gesehen hast, Thomas, glaubst du. Selig sind, die nicht sehen und doch glauben. Halleluja."
-                }
-              ]
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
             ]
-          }
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja, Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Quia vidísti me, Thoma, credidísti, dicit Dóminus: beáti qui non vidérunt et credidérunt."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Porque me has visto, Tomás, has creído —dice el Señor—; bienaventurados los que crean sin haber visto."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Jesus said: \"You believe because you can see me. Happy are those who have not seen me and yet believe\"."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "\"Acreditaste, Tomé, porque me viste. Felizes os que creram sem ter vosto!\"."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Perché mi hai veduto, Tommaso, tu hai creduto; beati quelli che non hanno visto e hanno creduto!"
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Thomas, parce que tu m’as vu, tu crois, dit le Seigneur. Heureux ceux qui croient sans avoir vu !"
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja, Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Weil du mich gesehen hast, Thomas, glaubst du. Selig sind, die nicht sehen und doch glauben."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -3874,86 +3966,178 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia, allelúia. Quia vidísti me, Thoma, credidísti, dicit Dóminus: beáti qui non vidérunt et credidérunt. Allelúia.",
-            "es": "Aleluya, aleluya. Porque me has visto, Tomás, has creído —dice el Señor—; bienaventurados los que crean sin haber visto. Aleluya.",
-            "en": "Alleluia, alleluia. Jesus said: \"You believe because you can see me. Happy are those who have not seen me and yet believe\". Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Aleluia, aleluia. \"Acreditaste, Tomé, porque me viste. Felizes os que creram sem ter vosto!\". Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Perché mi hai veduto, Tommaso, tu hai creduto; beati quelli che non hanno visto e hanno creduto! Alleluia.",
-            "fr": "Alléluia, alléluia. Thomas, parce que tu m’as vu, tu crois, dit le Seigneur. Heureux ceux qui croient sans avoir vu ! Alléluia.",
-            "de": "Ruf vor dem Evangelium Halleluja, Halleluja. (So spricht der Herr:) Weil du mich gesehen hast, Thomas, glaubst du. Selig sind, die nicht sehen und doch glauben. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Quia vidísti me, Thoma, credidísti, dicit Dóminus: beáti qui non vidérunt et credidérunt. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Porque me has visto, Tomás, has creído —dice el Señor—; bienaventurados los que crean sin haber visto. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Jesus said: \"You believe because you can see me. Happy are those who have not seen me and yet believe\". Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho Aleluia, aleluia. \"Acreditaste, Tomé, porque me viste. Felizes os que creram sem ter vosto!\". Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Perché mi hai veduto, Tommaso, tu hai creduto; beati quelli che non hanno visto e hanno creduto! Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia, alléluia. Thomas, parce que tu m’as vu, tu crois, dit le Seigneur. Heureux ceux qui croient sans avoir vu ! Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium Halleluja, Halleluja. (So spricht der Herr:) Weil du mich gesehen hast, Thomas, glaubst du. Selig sind, die nicht sehen und doch glauben. Halleluja."
-                }
-              ]
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
             ]
-          }
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja, Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Quia vidísti me, Thoma, credidísti, dicit Dóminus: beáti qui non vidérunt et credidérunt."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Porque me has visto, Tomás, has creído —dice el Señor—; bienaventurados los que crean sin haber visto."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Jesus said: \"You believe because you can see me. Happy are those who have not seen me and yet believe\"."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "\"Acreditaste, Tomé, porque me viste. Felizes os que creram sem ter vosto!\"."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Perché mi hai veduto, Tommaso, tu hai creduto; beati quelli che non hanno visto e hanno creduto!"
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Thomas, parce que tu m’as vu, tu crois, dit le Seigneur. Heureux ceux qui croient sans avoir vu !"
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja, Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Weil du mich gesehen hast, Thomas, glaubst du. Selig sind, die nicht sehen und doch glauben."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -5268,86 +5452,178 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia, allelúia. Quia vidísti me, Thoma, credidísti, dicit Dóminus: beáti qui non vidérunt et credidérunt. Allelúia.",
-            "es": "Aleluya, aleluya. Porque me has visto, Tomás, has creído —dice el Señor—; bienaventurados los que crean sin haber visto. Aleluya.",
-            "en": "Alleluia, alleluia. Jesus said: \"You believe because you can see me. Happy are those who have not seen me and yet believe\". Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Aleluia, aleluia. \"Acreditaste, Tomé, porque me viste. Felizes os que creram sem ter vosto!\". Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Perché mi hai veduto, Tommaso, tu hai creduto; beati quelli che non hanno visto e hanno creduto! Alleluia.",
-            "fr": "Alléluia, alléluia. Thomas, parce que tu m’as vu, tu crois, dit le Seigneur. Heureux ceux qui croient sans avoir vu ! Alléluia.",
-            "de": "Ruf vor dem Evangelium Halleluja, Halleluja. (So spricht der Herr:) Weil du mich gesehen hast, Thomas, glaubst du. Selig sind, die nicht sehen und doch glauben. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Quia vidísti me, Thoma, credidísti, dicit Dóminus: beáti qui non vidérunt et credidérunt. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Porque me has visto, Tomás, has creído —dice el Señor—; bienaventurados los que crean sin haber visto. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Jesus said: \"You believe because you can see me. Happy are those who have not seen me and yet believe\". Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho Aleluia, aleluia. \"Acreditaste, Tomé, porque me viste. Felizes os que creram sem ter vosto!\". Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Perché mi hai veduto, Tommaso, tu hai creduto; beati quelli che non hanno visto e hanno creduto! Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia, alléluia. Thomas, parce que tu m’as vu, tu crois, dit le Seigneur. Heureux ceux qui croient sans avoir vu ! Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium Halleluja, Halleluja. (So spricht der Herr:) Weil du mich gesehen hast, Thomas, glaubst du. Selig sind, die nicht sehen und doch glauben. Halleluja."
-                }
-              ]
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
             ]
-          }
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja, Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Quia vidísti me, Thoma, credidísti, dicit Dóminus: beáti qui non vidérunt et credidérunt."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Porque me has visto, Tomás, has creído —dice el Señor—; bienaventurados los que crean sin haber visto."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Jesus said: \"You believe because you can see me. Happy are those who have not seen me and yet believe\"."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "\"Acreditaste, Tomé, porque me viste. Felizes os que creram sem ter vosto!\"."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Perché mi hai veduto, Tommaso, tu hai creduto; beati quelli che non hanno visto e hanno creduto!"
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Thomas, parce que tu m’as vu, tu crois, dit le Seigneur. Heureux ceux qui croient sans avoir vu !"
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja, Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Weil du mich gesehen hast, Thomas, glaubst du. Selig sind, die nicht sehen und doch glauben."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

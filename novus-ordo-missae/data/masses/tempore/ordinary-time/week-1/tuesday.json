@@ -801,127 +801,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. 1 Th 2, 13 Allelúia. Accípite verbum Dei, non ut verbum hóminum, sed, sicut est vere, verbum Dei. Allelúia.",
-            "es": "Aleluya Cf. 1 Th 2, 13 Aleluya. Acoged la palabra de Dios, no como palabra humana, sino, cual es en verdad, como palabra de Dios. Aleluya.",
-            "en": "Alleluia, alleluia. Receive this message not as words of man, but as truly the word of God. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Cf. 1 Tes 2, 13 Aleluia, aleluia. Acolhei a palavra de Deus, não como palavra humana, mas como mensagem de Deus; o que ele é, em verdade! Aleluia.",
-            "it": "Canto al Vangelo (Cfr. 1Ts 2,13) Alleluia, alleluia. Accogliete la parola di Dio non come parola di uomini, ma qual è veramente, come parola di Dio. Alleluia.",
-            "fr": "Alléluia Cf. 1 Th 2, 13 Alléluia Accueillez la parole de Dieu pour ce qu’elle est réellement : non pas une parole d’hommes, mais la parole de Dieu. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. 1 Thess 2, 13 Halleluja. Halleluja. Nehmt das Wort Gottes an, nicht als Menschenwort, sondern - was es in Wahrheit ist - als Gottes Wort. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. 1 Th 2, 13"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Accípite verbum Dei, non ut verbum hóminum, sed, sicut est vere, verbum Dei. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. 1 Th 2, 13"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Acoged la palabra de Dios, no como palabra humana, sino, cual es en verdad, como palabra de Dios. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Receive this message not as words of man, but as truly the word of God. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. 1 Tes 2, 13"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Acolhei a palavra de Deus, não como palavra humana, mas como mensagem de Deus; o que ele é, em verdade! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Cfr. 1Ts 2,13)"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Accogliete la parola di Dio non come parola di uomini, ma qual è veramente, come parola di Dio. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. 1 Th 2, 13"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Accueillez la parole de Dieu pour ce qu’elle est réellement : non pas une parole d’hommes, mais la parole de Dieu. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. 1 Thess 2, 13"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Nehmt das Wort Gottes an, nicht als Menschenwort, sondern - was es in Wahrheit ist - als Gottes Wort. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. 1 Th 2, 13",
           "es": "Cf. 1 Th 2, 13",
@@ -929,6 +808,179 @@
           "it": "(Cfr. 1Ts 2,13)",
           "fr": "Cf. 1 Th 2, 13",
           "de": "vgl. 1 Thess 2, 13"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Accípite verbum Dei, non ut verbum hóminum, sed, sicut est vere, verbum Dei."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Acoged la palabra de Dios, no como palabra humana, sino, cual es en verdad, como palabra de Dios."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Receive this message not as words of man, but as truly the word of God."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Acolhei a palavra de Deus, não como palavra humana, mas como mensagem de Deus; o que ele é, em verdade!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Accogliete la parola di Dio non come parola di uomini, ma qual è veramente, come parola di Dio."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Accueillez la parole de Dieu pour ce qu’elle est réellement : non pas une parole d’hommes, mais la parole de Dieu."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Nehmt das Wort Gottes an, nicht als Menschenwort, sondern - was es in Wahrheit ist - als Gottes Wort."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -2163,127 +2215,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Cf. 1 Th 2, 13 Allelúia. Accípite verbum Dei, non ut verbum hóminum, sed, sicut est vere, verbum Dei. Allelúia.",
-            "es": "Aleluya Cf. 1 Th 2, 13 Aleluya. Acoged la palabra de Dios, no como palabra humana, sino, cual es en verdad, como palabra de Dios. Aleluya.",
-            "en": "Alleluia, alleluia. Receive this message not as words of man, but as truly the word of God. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Cf. 1 Tes 2, 13 Aleluia, aleluia. Acolhei a palavra de Deus, não como palavra humana, mas como mensagem de Deus; o que ele é, em verdade! Aleluia.",
-            "it": "Canto al Vangelo (Cfr. 1Ts 2,13) Alleluia, alleluia. Accogliete la parola di Dio non come parola di uomini, ma qual è veramente, come parola di Dio. Alleluia.",
-            "fr": "Alléluia Cf. 1 Th 2, 13 Alléluia Accueillez la parole de Dieu pour ce qu’elle est réellement : non pas une parole d’hommes, mais la parole de Dieu. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. 1 Thess 2, 13 Halleluja. Halleluja. Nehmt das Wort Gottes an, nicht als Menschenwort, sondern - was es in Wahrheit ist - als Gottes Wort. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. 1 Th 2, 13"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Accípite verbum Dei, non ut verbum hóminum, sed, sicut est vere, verbum Dei. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. 1 Th 2, 13"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Acoged la palabra de Dios, no como palabra humana, sino, cual es en verdad, como palabra de Dios. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Receive this message not as words of man, but as truly the word of God. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. 1 Tes 2, 13"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Acolhei a palavra de Deus, não como palavra humana, mas como mensagem de Deus; o que ele é, em verdade! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Cfr. 1Ts 2,13)"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Accogliete la parola di Dio non come parola di uomini, ma qual è veramente, come parola di Dio. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. 1 Th 2, 13"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Accueillez la parole de Dieu pour ce qu’elle est réellement : non pas une parole d’hommes, mais la parole de Dieu. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. 1 Thess 2, 13"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Nehmt das Wort Gottes an, nicht als Menschenwort, sondern - was es in Wahrheit ist - als Gottes Wort. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Cf. 1 Th 2, 13",
           "es": "Cf. 1 Th 2, 13",
@@ -2291,6 +2222,179 @@
           "it": "(Cfr. 1Ts 2,13)",
           "fr": "Cf. 1 Th 2, 13",
           "de": "vgl. 1 Thess 2, 13"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Accípite verbum Dei, non ut verbum hóminum, sed, sicut est vere, verbum Dei."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Acoged la palabra de Dios, no como palabra humana, sino, cual es en verdad, como palabra de Dios."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Receive this message not as words of man, but as truly the word of God."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Acolhei a palavra de Deus, não como palavra humana, mas como mensagem de Deus; o que ele é, em verdade!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Accogliete la parola di Dio non come parola di uomini, ma qual è veramente, come parola di Dio."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Accueillez la parole de Dieu pour ce qu’elle est réellement : non pas une parole d’hommes, mais la parole de Dieu."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Nehmt das Wort Gottes an, nicht als Menschenwort, sondern - was es in Wahrheit ist - als Gottes Wort."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

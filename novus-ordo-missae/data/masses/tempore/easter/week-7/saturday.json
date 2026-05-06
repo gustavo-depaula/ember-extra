@@ -1438,125 +1438,181 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 16, 7. Allelúia. Mittam ad vos Spíritum veritátis, dicit Dóminus; ille docébit vos omnem veritátem. Allelúia.",
-            "es": "Aleluya Jn 16, 7. Aleluya. Os enviaré el Espíritu de la verdad —dice el Señor—; él os guiará hasta la verdad plena. Aleluya.",
-            "en": "Alleluia, alleluia. I will send you the Spirit of truth, says the Lord; he will lead you to the complete truth.",
-            "pt-BR": "Aclamação ao Evangelho Jo 16, 7. Aleluia, aleluia. Eu hei de enviar-vos o Espírito da verdade; ele vos conduzirá a toda a verdade. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Manderò a voi lo Spirito di verità, dice il Signore; egli vi guiderà a tutta la verità. Alleluia.",
-            "fr": "Alléluia Io 16, 7. Alléluia Je vous enverrai l’Esprit de vérité, dit le Seigneur ; il vous conduira dans la vérité tout entière. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Joh 16, 7. Halleluja. Halleluja. (So spricht der Herr:) Den Geist der Wahrheit werde ich zu euch senden. Er wird euch in die ganze Wahrheit führen. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 16, 7."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Mittam ad vos Spíritum veritátis, dicit Dóminus; ille docébit vos omnem veritátem. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 16, 7."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Os enviaré el Espíritu de la verdad —dice el Señor—; él os guiará hasta la verdad plena. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. I will send you the Spirit of truth, says the Lord; he will lead you to the complete truth."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 16, 7."
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Eu hei de enviar-vos o Espírito da verdade; ele vos conduzirá a toda a verdade. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Manderò a voi lo Spirito di verità, dice il Signore; egli vi guiderà a tutta la verità. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 16, 7."
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Je vous enverrai l’Esprit de vérité, dit le Seigneur ; il vous conduira dans la vérité tout entière. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Joh 16, 7."
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Den Geist der Wahrheit werde ich zu euch senden. Er wird euch in die ganze Wahrheit führen. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 16, 7",
           "es": "Jn 16, 7",
           "pt-BR": "Jo 16, 7",
           "fr": "Io 16, 7",
           "de": "vgl. Joh 16, 7"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Mittam ad vos Spíritum veritátis, dicit Dóminus; ille docébit vos omnem veritátem."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Os enviaré el Espíritu de la verdad —dice el Señor—; él os guiará hasta la verdad plena."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "I will send you the Spirit of truth, says the Lord; he will lead you to the complete truth."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Eu hei de enviar-vos o Espírito da verdade; ele vos conduzirá a toda a verdade."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Manderò a voi lo Spirito di verità, dice il Signore; egli vi guiderà a tutta la verità."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Je vous enverrai l’Esprit de vérité, dit le Seigneur ; il vous conduira dans la vérité tout entière."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Den Geist der Wahrheit werde ich zu euch senden. Er wird euch in die ganze Wahrheit führen."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

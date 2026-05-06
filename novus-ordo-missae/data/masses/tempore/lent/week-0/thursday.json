@@ -1787,123 +1787,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Versus ante Evangelium Mt 4, 17 Pæniténtiam ágite, dicit Dóminus; appropinquávit regnum cælórum.",
-            "es": "Versículo antes del Evangelio Mt 4, 17 Convertíos —dice el Señor—, porque está cerca el reino de los cielos.",
-            "en": "Repent, says the Lord, the kingdom of heaven is at hand.",
-            "pt-BR": "Aclamação ao Evangelho Mt 4, 17 Convertei-vos, nos diz o Senhor, está próximo o Reino de Deus!",
-            "it": "Canto al Vangelo (Cfr Mt 4,17) Lode a te, o Cristo, re di eterna gloria! Convertitevi, dice il Signore, perché il regno dei cieli è vicino. Lode a te, o Cristo, re di eterna gloria!",
-            "fr": "Verset avant l’Évangile Mt 4, 17 Tes paroles, Seigneur, sont esprit et elles sont vie. Convertissez-vous, dit le Seigneur, car le royaume des Cieux est tout proche. Tes paroles, Seigneur, sont esprit et elles sont vie.",
-            "de": "Ruf vor dem Evangelium Mt 4, 17 Herr Jesus, dir sei Ruhm und Ehre! (So spricht der Herr:) Kehrt um! Denn das Himmelreich ist nahe. Herr Jesus, dir sei Ruhm und Ehre!"
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versus ante Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 4, 17"
-                },
-                {
-                  "type": "text",
-                  "text": "Pæniténtiam ágite, dicit Dóminus; appropinquávit regnum cælórum."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versículo antes del Evangelio"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 4, 17"
-                },
-                {
-                  "type": "text",
-                  "text": "Convertíos —dice el Señor—, porque está cerca el reino de los cielos."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Repent, says the Lord, the kingdom of heaven is at hand."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 4, 17"
-                },
-                {
-                  "type": "text",
-                  "text": "Convertei-vos, nos diz o Senhor, está próximo o Reino de Deus!"
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Cfr Mt 4,17)"
-                },
-                {
-                  "type": "text",
-                  "text": "Lode a te, o Cristo, re di eterna gloria! Convertitevi, dice il Signore, perché il regno dei cieli è vicino. Lode a te, o Cristo, re di eterna gloria!"
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Verset avant l’Évangile"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 4, 17"
-                },
-                {
-                  "type": "text",
-                  "text": "Tes paroles, Seigneur, sont esprit et elles sont vie. Convertissez-vous, dit le Seigneur, car le royaume des Cieux est tout proche. Tes paroles, Seigneur, sont esprit et elles sont vie."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 4, 17"
-                },
-                {
-                  "type": "text",
-                  "text": "Herr Jesus, dir sei Ruhm und Ehre! (So spricht der Herr:) Kehrt um! Denn das Himmelreich ist nahe. Herr Jesus, dir sei Ruhm und Ehre!"
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mt 4, 17",
           "es": "Mt 4, 17",
@@ -1911,6 +1794,65 @@
           "it": "(Cfr Mt 4,17)",
           "fr": "Mt 4, 17",
           "de": "Mt 4, 17"
+        },
+        "mode": "versus-ante-evangelium",
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "text",
+                "text": "Pæniténtiam ágite, dicit Dóminus; appropinquávit regnum cælórum."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "text",
+                "text": "Convertíos —dice el Señor—, porque está cerca el reino de los cielos."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "text",
+                "text": "Repent, says the Lord, the kingdom of heaven is at hand."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "Convertei-vos, nos diz o Senhor, está próximo o Reino de Deus!"
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "Lode a te, o Cristo, re di eterna gloria! Convertitevi, dice il Signore, perché il regno dei cieli è vicino. Lode a te, o Cristo, re di eterna gloria!"
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Tes paroles, Seigneur, sont esprit et elles sont vie. Convertissez-vous, dit le Seigneur, car le royaume des Cieux est tout proche. Tes paroles, Seigneur, sont esprit et elles sont vie."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "text",
+                "text": "Herr Jesus, dir sei Ruhm und Ehre! (So spricht der Herr:) Kehrt um! Denn das Himmelreich ist nahe. Herr Jesus, dir sei Ruhm und Ehre!"
+              }
+            ]
+          ]
         }
       },
       "gospel": {

@@ -2134,121 +2134,71 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Versus ante Evangelium Io 8, 12 Ego sum lux mundi, dicit Dóminus; qui séquitur me habébit lucem vitæ.",
-            "es": "Versículo antes del Evangelio Jn 8, 12 Yo soy la luz del mundo; el que me sigue tendrá la luz de la vida —dice el Señor—.",
-            "en": "I am the light of the world, says the Lord; the man who follows me will have the light of life.",
-            "pt-BR": "Aclamação ao Evangelho Jo 8, 12 Pois, eu sou a luz do mundo, quem nos diz é o Senhor; e vai ter a luz da Vida quem se faz meu seguidor!",
-            "it": "Canto al Vangelo Gloria a te, o Cristo, Verbo di Dio! Io sono la luce del mondo, dice il Signore; chi segue me, avrà la luce della vita. Gloria a te, o Cristo, Verbo di Dio!",
-            "fr": "Verset avant l’Évangile Io 8, 12 Gloire et louange à toi, Seigneur Jésus ! Moi, je suis la lumière du monde, dit le Seigneur. Celui qui me suit aura la lumière de la vie. Gloire et louange à toi, Seigneur Jésus !",
-            "de": "Ruf vor dem Evangelium vgl. Joh 8, 12 Herr Jesus, dir sei Ruhm und Ehre! (So spricht der Herr:) Ich bin das Licht der Welt. Wer mir nachfolgt, hat das Licht des Lebens. Herr Jesus, dir sei Ruhm und Ehre!"
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versus ante Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 8, 12"
-                },
-                {
-                  "type": "text",
-                  "text": "Ego sum lux mundi, dicit Dóminus; qui séquitur me habébit lucem vitæ."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versículo antes del Evangelio"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 8, 12"
-                },
-                {
-                  "type": "text",
-                  "text": "Yo soy la luz del mundo; el que me sigue tendrá la luz de la vida —dice el Señor—."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "I am the light of the world, says the Lord; the man who follows me will have the light of life."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 8, 12"
-                },
-                {
-                  "type": "text",
-                  "text": "Pois, eu sou a luz do mundo, quem nos diz é o Senhor; e vai ter a luz da Vida quem se faz meu seguidor!"
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Gloria a te, o Cristo, Verbo di Dio! Io sono la luce del mondo, dice il Signore; chi segue me, avrà la luce della vita. Gloria a te, o Cristo, Verbo di Dio!"
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Verset avant l’Évangile"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 8, 12"
-                },
-                {
-                  "type": "text",
-                  "text": "Gloire et louange à toi, Seigneur Jésus ! Moi, je suis la lumière du monde, dit le Seigneur. Celui qui me suit aura la lumière de la vie. Gloire et louange à toi, Seigneur Jésus !"
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Joh 8, 12"
-                },
-                {
-                  "type": "text",
-                  "text": "Herr Jesus, dir sei Ruhm und Ehre! (So spricht der Herr:) Ich bin das Licht der Welt. Wer mir nachfolgt, hat das Licht des Lebens. Herr Jesus, dir sei Ruhm und Ehre!"
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 8, 12",
           "es": "Jn 8, 12",
           "pt-BR": "Jo 8, 12",
           "fr": "Io 8, 12",
           "de": "vgl. Joh 8, 12"
+        },
+        "mode": "versus-ante-evangelium",
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "text",
+                "text": "Ego sum lux mundi, dicit Dóminus; qui séquitur me habébit lucem vitæ."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "text",
+                "text": "Yo soy la luz del mundo; el que me sigue tendrá la luz de la vida —dice el Señor—."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "text",
+                "text": "I am the light of the world, says the Lord; the man who follows me will have the light of life."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "Pois, eu sou a luz do mundo, quem nos diz é o Senhor; e vai ter a luz da Vida quem se faz meu seguidor!"
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "Gloria a te, o Cristo, Verbo di Dio! Io sono la luce del mondo, dice il Signore; chi segue me, avrà la luce della vita. Gloria a te, o Cristo, Verbo di Dio!"
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Gloire et louange à toi, Seigneur Jésus ! Moi, je suis la lumière du monde, dit le Seigneur. Celui qui me suit aura la lumière de la vie. Gloire et louange à toi, Seigneur Jésus !"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "text",
+                "text": "Herr Jesus, dir sei Ruhm und Ehre! (So spricht der Herr:) Ich bin das Licht der Welt. Wer mir nachfolgt, hat das Licht des Lebens. Herr Jesus, dir sei Ruhm und Ehre!"
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -3452,123 +3402,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Versus ante Evangelium Io 3, 16 Sic enim diléxit Deus mundum, ut Fílium suum unigénitum daret; omnis qui credit in eum habet vitam ætérnam.",
-            "es": "Versículo antes del Evangelio Jn 3, 16 Tanto amó Dios al mundo, que entregó a su Unigénito; todo el que cree en él tiene vida eterna.",
-            "en": "God loved the world so much, he gave us his only Son, that all who believe in him might have eternal life.",
-            "pt-BR": "Aclamação ao Evangelho Jo 3, 16 Tanto Deus amou o mundo, que lhe deu seu Filho único; todo aquele que crer nele, há de ter a vida eterna.",
-            "it": "Canto al Vangelo (Cfr. Gv 3,16) Lode e onore a te, Signore Gesù! Dio ha tanto amato il mondo da dare il Figlio unigenito; chiunque crede in lui ha la vita eterna. Lode e onore a te, Signore Gesù!",
-            "fr": "Verset avant l’Évangile Io 3, 16 Gloire et louange à toi, Seigneur Jésus ! Dieu a tellement aimé le monde qu’il a donné son Fils unique, afin que ceux qui croient en lui aient la vie éternelle. Gloire et louange à toi, Seigneur Jésus !",
-            "de": "Ruf vor dem Evangelium vgl. Joh 3, 16a. Lob dir, Christus, König und Erlöser! So sehr hat Gott die Welt geliebt, dass er seinen einzigen Sohn hingab, damit jeder, der glaubt, in ihm das ewige Leben hat. Lob dir, Christus, König und Erlöser!"
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versus ante Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 3, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Sic enim diléxit Deus mundum, ut Fílium suum unigénitum daret; omnis qui credit in eum habet vitam ætérnam."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versículo antes del Evangelio"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 3, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Tanto amó Dios al mundo, que entregó a su Unigénito; todo el que cree en él tiene vida eterna."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "God loved the world so much, he gave us his only Son, that all who believe in him might have eternal life."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 3, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Tanto Deus amou o mundo, que lhe deu seu Filho único; todo aquele que crer nele, há de ter a vida eterna."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Cfr. Gv 3,16)"
-                },
-                {
-                  "type": "text",
-                  "text": "Lode e onore a te, Signore Gesù! Dio ha tanto amato il mondo da dare il Figlio unigenito; chiunque crede in lui ha la vita eterna. Lode e onore a te, Signore Gesù!"
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Verset avant l’Évangile"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 3, 16"
-                },
-                {
-                  "type": "text",
-                  "text": "Gloire et louange à toi, Seigneur Jésus ! Dieu a tellement aimé le monde qu’il a donné son Fils unique, afin que ceux qui croient en lui aient la vie éternelle. Gloire et louange à toi, Seigneur Jésus !"
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Joh 3, 16a."
-                },
-                {
-                  "type": "text",
-                  "text": "Lob dir, Christus, König und Erlöser! So sehr hat Gott die Welt geliebt, dass er seinen einzigen Sohn hingab, damit jeder, der glaubt, in ihm das ewige Leben hat. Lob dir, Christus, König und Erlöser!"
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 3, 16",
           "es": "Jn 3, 16",
@@ -3576,6 +3409,65 @@
           "it": "(Cfr. Gv 3,16)",
           "fr": "Io 3, 16",
           "de": "vgl. Joh 3, 16a"
+        },
+        "mode": "versus-ante-evangelium",
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "text",
+                "text": "Sic enim diléxit Deus mundum, ut Fílium suum unigénitum daret; omnis qui credit in eum habet vitam ætérnam."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "text",
+                "text": "Tanto amó Dios al mundo, que entregó a su Unigénito; todo el que cree en él tiene vida eterna."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "text",
+                "text": "God loved the world so much, he gave us his only Son, that all who believe in him might have eternal life."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "Tanto Deus amou o mundo, que lhe deu seu Filho único; todo aquele que crer nele, há de ter a vida eterna."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "Lode e onore a te, Signore Gesù! Dio ha tanto amato il mondo da dare il Figlio unigenito; chiunque crede in lui ha la vita eterna. Lode e onore a te, Signore Gesù!"
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Gloire et louange à toi, Seigneur Jésus ! Dieu a tellement aimé le monde qu’il a donné son Fils unique, afin que ceux qui croient en lui aient la vie éternelle. Gloire et louange à toi, Seigneur Jésus !"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "text",
+                "text": "Lob dir, Christus, König und Erlöser! So sehr hat Gott die Welt geliebt, dass er seinen einzigen Sohn hingab, damit jeder, der glaubt, in ihm das ewige Leben hat. Lob dir, Christus, König und Erlöser!"
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -4616,121 +4508,71 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Versus ante Evangelium Lc 15, 18 Surgam et ibo ad Patrem meum et dicam illi: Pater, peccávi in cælum et coram te.",
-            "es": "Versículo antes del Evangelio Lc 15, 18 Me levantaré, me pondré en camino adonde está mi padre y le diré: Padre, he pecado contra el cielo y contra ti.",
-            "en": "I will rise and go to my father and tell him: Father, I have sinned against heaven and against you.",
-            "pt-BR": "Aclamação ao Evangelho Lc 15, 18 Vou levantar-me e vou a meu pai e lhe direi: Meu Pai, eu pequei contra o céu e contra ti.",
-            "it": "Canto al Vangelo (Lc 15,18) Lode e onore a te, Signore Gesù! Mi alzerò, andrò da mio padre e gli dirò: Padre, ho peccato verso il Cielo e davanti a te. Lode e onore a te, Signore Gesù!",
-            "fr": "Verset avant l’Évangile Gloire et louange à toi, Seigneur Jésus ! Je me lèverai, j’irai vers mon père, et je lui dirai : Père, j’ai péché contre le ciel et envers toi. Gloire et louange à toi, Seigneur Jésus !",
-            "de": "Ruf vor dem Evangelium Lk 15, 18 Christus, du ewiges Wort des Vaters, Ehre sei dir! Ich will zu meinem Vater gehen und ihm sagen: Vater, ich habe mich versündigt gegen den Himmel und gegen dich. Christus, du ewiges Wort des Vaters, Ehre sei dir!"
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versus ante Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 15, 18"
-                },
-                {
-                  "type": "text",
-                  "text": "Surgam et ibo ad Patrem meum et dicam illi: Pater, peccávi in cælum et coram te."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Versículo antes del Evangelio"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 15, 18"
-                },
-                {
-                  "type": "text",
-                  "text": "Me levantaré, me pondré en camino adonde está mi padre y le diré: Padre, he pecado contra el cielo y contra ti."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "I will rise and go to my father and tell him: Father, I have sinned against heaven and against you."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lc 15, 18"
-                },
-                {
-                  "type": "text",
-                  "text": "Vou levantar-me e vou a meu pai e lhe direi: Meu Pai, eu pequei contra o céu e contra ti."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Lc 15,18)"
-                },
-                {
-                  "type": "text",
-                  "text": "Lode e onore a te, Signore Gesù! Mi alzerò, andrò da mio padre e gli dirò: Padre, ho peccato verso il Cielo e davanti a te. Lode e onore a te, Signore Gesù!"
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Verset avant l’Évangile Gloire et louange à toi, Seigneur Jésus ! Je me lèverai, j’irai vers mon père, et je lui dirai : Père, j’ai péché contre le ciel et envers toi. Gloire et louange à toi, Seigneur Jésus !"
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Lk 15, 18"
-                },
-                {
-                  "type": "text",
-                  "text": "Christus, du ewiges Wort des Vaters, Ehre sei dir! Ich will zu meinem Vater gehen und ihm sagen: Vater, ich habe mich versündigt gegen den Himmel und gegen dich. Christus, du ewiges Wort des Vaters, Ehre sei dir!"
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Lc 15, 18",
           "es": "Lc 15, 18",
           "pt-BR": "Lc 15, 18",
           "it": "(Lc 15,18)",
           "de": "Lk 15, 18"
+        },
+        "mode": "versus-ante-evangelium",
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "text",
+                "text": "Surgam et ibo ad Patrem meum et dicam illi: Pater, peccávi in cælum et coram te."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "text",
+                "text": "Me levantaré, me pondré en camino adonde está mi padre y le diré: Padre, he pecado contra el cielo y contra ti."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "text",
+                "text": "I will rise and go to my father and tell him: Father, I have sinned against heaven and against you."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "text",
+                "text": "Vou levantar-me e vou a meu pai e lhe direi: Meu Pai, eu pequei contra o céu e contra ti."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "text",
+                "text": "Lode e onore a te, Signore Gesù! Mi alzerò, andrò da mio padre e gli dirò: Padre, ho peccato verso il Cielo e davanti a te. Lode e onore a te, Signore Gesù!"
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "Gloire et louange à toi, Seigneur Jésus ! Je me lèverai, j’irai vers mon père, et je lui dirai : Père, j’ai péché contre le ciel et envers toi. Gloire et louange à toi, Seigneur Jésus !"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "text",
+                "text": "Christus, du ewiges Wort des Vaters, Ehre sei dir! Ich will zu meinem Vater gehen und ihm sagen: Vater, ich habe mich versündigt gegen den Himmel und gegen dich. Christus, du ewiges Wort des Vaters, Ehre sei dir!"
+              }
+            ]
+          ]
         }
       },
       "gospel": {

@@ -983,127 +983,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Gal 6, 14 Allelúia. Mihi absit gloriári nisi in cruce Dómini, per quem mihi mundus crucifíxus est, et ego mundo. Allelúia.",
-            "es": "Aleluya Gal 6, 14 Aleluya. Dios me libre de gloriarme si no es en la cruz del Señor, por la cual el mundo está crucificado para mí, y yo para el mundo. Aleluya.",
-            "en": "Alleluia, alleluia. My only glory is the cross of our Lord Jesus Christ, which crucifies the world to me and me to the world. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Gal 6, 14 Aleluia, aleluia. Minha glória é a cruz do Senhor Cristo Jesus, pela qual o mundo está crucificado para mim e eu para este mundo. Aleluia.",
-            "it": "Canto al Vangelo (Gal 6,14) Alleluia, alleluia. Quanto a me non ci sia altro vanto che nella croce del Signore, per mezzo della quale il mondo per me è stato crocifisso, come io per il mondo. Alleluia.",
-            "fr": "Alléluia Gal 6, 14 Alléluia Que la croix du Seigneur soit ma seule fierté ! Par elle, le monde est crucifié pour moi, et moi pour le monde. Alléluia.",
-            "de": "Ruf vor dem Evangelium Gal 6, 14 Halleluja. Halleluja. Ich will mich allein des Kreuzes unseres Herrn Jesus Christus rühmen, durch das mir die Welt gekreuzigt ist und ich der Welt. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gal 6, 14"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Mihi absit gloriári nisi in cruce Dómini, per quem mihi mundus crucifíxus est, et ego mundo. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gal 6, 14"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Dios me libre de gloriarme si no es en la cruz del Señor, por la cual el mundo está crucificado para mí, y yo para el mundo. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. My only glory is the cross of our Lord Jesus Christ, which crucifies the world to me and me to the world. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gal 6, 14"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Minha glória é a cruz do Senhor Cristo Jesus, pela qual o mundo está crucificado para mim e eu para este mundo. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Gal 6,14)"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Quanto a me non ci sia altro vanto che nella croce del Signore, per mezzo della quale il mondo per me è stato crocifisso, come io per il mondo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gal 6, 14"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Que la croix du Seigneur soit ma seule fierté ! Par elle, le monde est crucifié pour moi, et moi pour le monde. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gal 6, 14"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Ich will mich allein des Kreuzes unseres Herrn Jesus Christus rühmen, durch das mir die Welt gekreuzigt ist und ich der Welt. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Gal 6, 14",
           "es": "Gal 6, 14",
@@ -1111,6 +990,179 @@
           "it": "(Gal 6,14)",
           "fr": "Gal 6, 14",
           "de": "Gal 6, 14"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Mihi absit gloriári nisi in cruce Dómini, per quem mihi mundus crucifíxus est, et ego mundo."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Dios me libre de gloriarme si no es en la cruz del Señor, por la cual el mundo está crucificado para mí, y yo para el mundo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "My only glory is the cross of our Lord Jesus Christ, which crucifies the world to me and me to the world."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Minha glória é a cruz do Senhor Cristo Jesus, pela qual o mundo está crucificado para mim e eu para este mundo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Quanto a me non ci sia altro vanto che nella croce del Signore, per mezzo della quale il mondo per me è stato crocifisso, come io per il mondo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Que la croix du Seigneur soit ma seule fierté ! Par elle, le monde est crucifié pour moi, et moi pour le monde."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Ich will mich allein des Kreuzes unseres Herrn Jesus Christus rühmen, durch das mir die Welt gekreuzigt ist und ich der Welt."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -2099,127 +2151,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Gal 6, 14 Allelúia. Mihi absit gloriári nisi in cruce Dómini, per quem mihi mundus crucifíxus est, et ego mundo. Allelúia.",
-            "es": "Aleluya Gal 6, 14 Aleluya. Dios me libre de gloriarme si no es en la cruz del Señor, por la cual el mundo está crucificado para mí, y yo para el mundo. Aleluya.",
-            "en": "Alleluia, alleluia. My only glory is the cross of our Lord Jesus Christ, which crucifies the world to me and me to the world. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Gal 6, 14 Aleluia, aleluia. Minha glória é a cruz do Senhor Cristo Jesus, pela qual o mundo está crucificado para mim e eu para este mundo. Aleluia.",
-            "it": "Canto al Vangelo (Gal 6,14) Alleluia, alleluia. Quanto a me non ci sia altro vanto che nella croce del Signore, per mezzo della quale il mondo per me è stato crocifisso, come io per il mondo. Alleluia.",
-            "fr": "Alléluia Gal 6, 14 Alléluia Que la croix du Seigneur soit ma seule fierté ! Par elle, le monde est crucifié pour moi, et moi pour le monde. Alléluia.",
-            "de": "Ruf vor dem Evangelium Gal 6, 14 Halleluja. Halleluja. Ich will mich allein des Kreuzes unseres Herrn Jesus Christus rühmen, durch das mir die Welt gekreuzigt ist und ich der Welt. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gal 6, 14"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Mihi absit gloriári nisi in cruce Dómini, per quem mihi mundus crucifíxus est, et ego mundo. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gal 6, 14"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Dios me libre de gloriarme si no es en la cruz del Señor, por la cual el mundo está crucificado para mí, y yo para el mundo. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. My only glory is the cross of our Lord Jesus Christ, which crucifies the world to me and me to the world. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gal 6, 14"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Minha glória é a cruz do Senhor Cristo Jesus, pela qual o mundo está crucificado para mim e eu para este mundo. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "(Gal 6,14)"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Quanto a me non ci sia altro vanto che nella croce del Signore, per mezzo della quale il mondo per me è stato crocifisso, come io per il mondo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gal 6, 14"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Que la croix du Seigneur soit ma seule fierté ! Par elle, le monde est crucifié pour moi, et moi pour le monde. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gal 6, 14"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Ich will mich allein des Kreuzes unseres Herrn Jesus Christus rühmen, durch das mir die Welt gekreuzigt ist und ich der Welt. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Gal 6, 14",
           "es": "Gal 6, 14",
@@ -2227,6 +2158,179 @@
           "it": "(Gal 6,14)",
           "fr": "Gal 6, 14",
           "de": "Gal 6, 14"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Mihi absit gloriári nisi in cruce Dómini, per quem mihi mundus crucifíxus est, et ego mundo."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Dios me libre de gloriarme si no es en la cruz del Señor, por la cual el mundo está crucificado para mí, y yo para el mundo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "My only glory is the cross of our Lord Jesus Christ, which crucifies the world to me and me to the world."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Minha glória é a cruz do Senhor Cristo Jesus, pela qual o mundo está crucificado para mim e eu para este mundo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Quanto a me non ci sia altro vanto che nella croce del Signore, per mezzo della quale il mondo per me è stato crocifisso, come io per il mondo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Que la croix du Seigneur soit ma seule fierté ! Par elle, le monde est crucifié pour moi, et moi pour le monde."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Ich will mich allein des Kreuzes unseres Herrn Jesus Christus rühmen, durch das mir die Welt gekreuzigt ist und ich der Welt."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

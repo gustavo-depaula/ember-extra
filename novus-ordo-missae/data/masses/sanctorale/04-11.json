@@ -403,118 +403,184 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia vel Versus ante Evangelium 2 Cor 1, 3b-4a (Alleluia.) Benedíctus Pater misericordiárum et Deus tótius consolatiónis, qui consolátur nos in omni tribulatióne nostra. (Alleluia.)",
-            "es": "Aleluya (Aleluya.) Bendito sea el Padre de las misericordias y Dios de todo consuelo. (Aleluya.)",
-            "en": "Alleluia, alleluia. Blessed the Father of compassion and God of all encouragement, who encourages us in our every affliction. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho (Aleluia, aleluia.) Bendito seja o Pai misericordioso, que em todo sofrimento nos consola! (Aleluia.)",
-            "it": "Canto al Vangelo 2 Cor 1, 3b-4a Alleluia, alleluia. Sia benedetto Dio, Padre misericordioso e Dio di ogni consolazione! Egli ci consola in ogni nostra tribolazione. Alleluia.",
-            "fr": "Alléluia vel Verset avant l’Évangile 2 Cor 1, 3b-4a (Alléluia) Béni soit le Père plein de tendresse, le Dieu de qui vient tout réconfort. Dans toutes nos détresses, il nous réconforte. (Alléluia)",
-            "de": "Ruf vor dem Evangelium 2 Kor 1, 3b-4a Halleluja. Halleluja. Gepriesen sei der Vater des Erbarmens und der Gott allen Trostes. Er tröstet uns in all unserer Not. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia vel Versus ante Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "2 Cor 1, 3b-4a"
-                },
-                {
-                  "type": "text",
-                  "text": "(Alleluia.) Benedíctus Pater misericordiárum et Deus tótius consolatiónis, qui consolátur nos in omni tribulatióne nostra. (Alleluia.)"
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "(Aleluya.) Bendito sea el Padre de las misericordias y Dios de todo consuelo. (Aleluya.)"
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Blessed the Father of compassion and God of all encouragement, who encourages us in our every affliction. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho (Aleluia, aleluia.) Bendito seja o Pai misericordioso, que em todo sofrimento nos consola! (Aleluia.)"
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "2 Cor 1, 3b-4a"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Sia benedetto Dio, Padre misericordioso e Dio di ogni consolazione! Egli ci consola in ogni nostra tribolazione. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia vel Verset avant l’Évangile"
-                },
-                {
-                  "type": "reference",
-                  "text": "2 Cor 1, 3b-4a"
-                },
-                {
-                  "type": "text",
-                  "text": "(Alléluia) Béni soit le Père plein de tendresse, le Dieu de qui vient tout réconfort. Dans toutes nos détresses, il nous réconforte. (Alléluia)"
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "2 Kor 1, 3b-4a"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Gepriesen sei der Vater des Erbarmens und der Gott allen Trostes. Er tröstet uns in all unserer Not. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "2 Cor 1, 3b-4a",
           "it": "2 Cor 1, 3b-4a",
           "fr": "2 Cor 1, 3b-4a",
           "de": "2 Kor 1, 3b-4a"
+        },
+        "mode": "alleluia-or-versus",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "(Alleluia.)"
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "(Aleluya.)"
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "(Aleluia, aleluia.)"
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "(Alléluia)"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "(Alleluia.)"
+              },
+              {
+                "type": "text",
+                "text": "Benedíctus Pater misericordiárum et Deus tótius consolatiónis, qui consolátur nos in omni tribulatióne nostra."
+              },
+              {
+                "type": "response",
+                "text": "(Alleluia.)"
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "(Aleluya.)"
+              },
+              {
+                "type": "text",
+                "text": "Bendito sea el Padre de las misericordias y Dios de todo consuelo."
+              },
+              {
+                "type": "response",
+                "text": "(Aleluya.)"
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Blessed the Father of compassion and God of all encouragement, who encourages us in our every affliction."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "(Aleluia, aleluia.)"
+              },
+              {
+                "type": "text",
+                "text": "Bendito seja o Pai misericordioso, que em todo sofrimento nos consola!"
+              },
+              {
+                "type": "response",
+                "text": "(Aleluia.)"
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Sia benedetto Dio, Padre misericordioso e Dio di ogni consolazione! Egli ci consola in ogni nostra tribolazione."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "(Alléluia)"
+              },
+              {
+                "type": "text",
+                "text": "Béni soit le Père plein de tendresse, le Dieu de qui vient tout réconfort. Dans toutes nos détresses, il nous réconforte."
+              },
+              {
+                "type": "response",
+                "text": "(Alléluia)"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Gepriesen sei der Vater des Erbarmens und der Gott allen Trostes. Er tröstet uns in all unserer Not."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

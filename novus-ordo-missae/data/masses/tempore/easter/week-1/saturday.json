@@ -2004,86 +2004,174 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia, allelúia. Hæc est dies quam fecit Dóminus; exsultémus et lætémur in ea. Allelúia.",
-            "es": "Aleluya, aleluya. Este es el día que hizo el Señor; sea nuestra alegría y nuestro gozo. Aleluya.",
-            "en": "Alleluia, alleluia. This day was made by the Lord; we rejoice and are glad Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Aleluia, aleluia. Este é o dia que o Senhor fez para nós, alegremo-nos e nele exultemos! Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Questo è il giorno fatto dal Signore: rallegriamoci ed esultiamo. Alleluia.",
-            "fr": "Alléluia lléluia. Alléluia. Voici le jour que fit le Seigneur, qu’il soit pour nous jour de fête et de joie ! Alléluia.",
-            "de": "Ruf vor dem Evangelium Halleluja. Halleluja. Das ist der Tag, den der Herr gemacht; lasst uns jubeln und seiner uns freuen. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Hæc est dies quam fecit Dóminus; exsultémus et lætémur in ea. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Este es el día que hizo el Señor; sea nuestra alegría y nuestro gozo. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. This day was made by the Lord; we rejoice and are glad Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho Aleluia, aleluia. Este é o dia que o Senhor fez para nós, alegremo-nos e nele exultemos! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Questo è il giorno fatto dal Signore: rallegriamoci ed esultiamo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia lléluia. Alléluia. Voici le jour que fit le Seigneur, qu’il soit pour nous jour de fête et de joie ! Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium Halleluja. Halleluja. Das ist der Tag, den der Herr gemacht; lasst uns jubeln und seiner uns freuen. Halleluja."
-                }
-              ]
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
             ]
-          }
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Hæc est dies quam fecit Dóminus; exsultémus et lætémur in ea."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Este es el día que hizo el Señor; sea nuestra alegría y nuestro gozo."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "This day was made by the Lord; we rejoice and are glad"
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Este é o dia que o Senhor fez para nós, alegremo-nos e nele exultemos!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Questo è il giorno fatto dal Signore: rallegriamoci ed esultiamo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "text",
+                "text": "lléluia. Alléluia. Voici le jour que fit le Seigneur, qu’il soit pour nous jour de fête et de joie !"
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Das ist der Tag, den der Herr gemacht; lasst uns jubeln und seiner uns freuen."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

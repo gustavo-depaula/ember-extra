@@ -1858,127 +1858,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Mt 28, 19a. 20b Allelúia. Eúntes docéte omnes gentes, dicit Dóminus; ego vobíscum sum ómnibus diébus usque ad consummatiónem sǽculi. Allelúia.",
-            "es": "Aleluya Mt 28, 19a. 20b Aleluya. Id y haced discípulos a todos los pueblos —dice el Señor—; yo estoy con vosotros todos los días, hasta el final de los tiempos. Aleluya.",
-            "en": "Alleluia, alleluia. Go and teach all people my gospel. I am with you always, until the end of the world. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Mt 28, 19a. 20b Aleluia, aleluia. Ide aomundo e ensinai a todas as nações! Eis que eu estou convosco, até o fim do mundo! Aleluia.",
-            "it": "Canto al Vangelo Mt 28, 19a.20b Alleluia, alleluia. Andate e fate discepoli tutti i popoli, dice il Signore, ecco, io sono con voi tutti i giorni, fino alla fine del mondo. Alleluia.",
-            "fr": "Alléluia Mt 28, 19a. 20b Alléluia Allez ! De toutes les nations faites des disciples, dit le Seigneur. Moi, je suis avec vous tous les jours jusqu’à la fin du monde. Alléluia.",
-            "de": "Ruf vor dem Evangelium Mt 28, 19a. 20b Halleluja. Halleluja. (So spricht der Herr:) Geht zu allen Völkern, und macht alle Menschen zu meinen Jüngern! Ich bin bei euch alle Tage bis zum Ende der Welt. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 28, 19a. 20b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Eúntes docéte omnes gentes, dicit Dóminus; ego vobíscum sum ómnibus diébus usque ad consummatiónem sǽculi. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 28, 19a. 20b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Id y haced discípulos a todos los pueblos —dice el Señor—; yo estoy con vosotros todos los días, hasta el final de los tiempos. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Go and teach all people my gospel. I am with you always, until the end of the world. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 28, 19a. 20b"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Ide aomundo e ensinai a todas as nações! Eis que eu estou convosco, até o fim do mundo! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 28, 19a.20b"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Andate e fate discepoli tutti i popoli, dice il Signore, ecco, io sono con voi tutti i giorni, fino alla fine del mondo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 28, 19a. 20b"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Allez ! De toutes les nations faites des disciples, dit le Seigneur. Moi, je suis avec vous tous les jours jusqu’à la fin du monde. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mt 28, 19a. 20b"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Geht zu allen Völkern, und macht alle Menschen zu meinen Jüngern! Ich bin bei euch alle Tage bis zum Ende der Welt. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mt 28, 19a. 20b",
           "es": "Mt 28, 19a. 20b",
@@ -1986,6 +1865,179 @@
           "it": "Mt 28, 19a.20b",
           "fr": "Mt 28, 19a. 20b",
           "de": "Mt 28, 19a. 20b"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Eúntes docéte omnes gentes, dicit Dóminus; ego vobíscum sum ómnibus diébus usque ad consummatiónem sǽculi."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Id y haced discípulos a todos los pueblos —dice el Señor—; yo estoy con vosotros todos los días, hasta el final de los tiempos."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Go and teach all people my gospel. I am with you always, until the end of the world."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Ide aomundo e ensinai a todas as nações! Eis que eu estou convosco, até o fim do mundo!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Andate e fate discepoli tutti i popoli, dice il Signore, ecco, io sono con voi tutti i giorni, fino alla fine del mondo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Allez ! De toutes les nations faites des disciples, dit le Seigneur. Moi, je suis avec vous tous les jours jusqu’à la fin du monde."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Geht zu allen Völkern, und macht alle Menschen zu meinen Jüngern! Ich bin bei euch alle Tage bis zum Ende der Welt."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

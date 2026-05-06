@@ -1550,127 +1550,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Mc 1, 17 Allelúia. Veníte post me, dicit Dóminus, et fáciam vos fíeri piscatóres hóminum. Allelúia.",
-            "es": "Aleluya Mc 1, 17 Aleluya. Venid conmigo —dice el Señor— y os haré pescadores de hombres. Aleluya.",
-            "en": "Alleluia, alleluia. Follow me, says the Lord, and I will make you into fishers of men. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Mc 1, 17 Aleluia, aleluia. Vinde após mim, diz o Senhor, e eu farei de vós pescadores de homens. Aleluia.",
-            "it": "Canto al Vangelo Mc 1, 17 Alleluia, alleluia. Venite dietro a me, dice il Signore, e vi farò diventare pescatori di uomini. Alleluia.",
-            "fr": "Alléluia Mc 1, 17 Alléluia « Venez à ma suite, dit le Seigneur, et je vous ferai pêcheurs d’hommes. » Alléluia.",
-            "de": "Ruf vor dem Evangelium Mk 1, 17b Halleluja. Halleluja. (So spricht der Herr:) Folgt mir nach! Ich werde euch zu Menschenfischern machen. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 1, 17"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Veníte post me, dicit Dóminus, et fáciam vos fíeri piscatóres hóminum. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 1, 17"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Venid conmigo —dice el Señor— y os haré pescadores de hombres. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Follow me, says the Lord, and I will make you into fishers of men. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 1, 17"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Vinde após mim, diz o Senhor, e eu farei de vós pescadores de homens. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 1, 17"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Venite dietro a me, dice il Signore, e vi farò diventare pescatori di uomini. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 1, 17"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia « Venez à ma suite, dit le Seigneur, et je vous ferai pêcheurs d’hommes. » Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mk 1, 17b"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. (So spricht der Herr:) Folgt mir nach! Ich werde euch zu Menschenfischern machen. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mc 1, 17",
           "es": "Mc 1, 17",
@@ -1678,6 +1557,179 @@
           "it": "Mc 1, 17",
           "fr": "Mc 1, 17",
           "de": "Mk 1, 17b"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Veníte post me, dicit Dóminus, et fáciam vos fíeri piscatóres hóminum."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Venid conmigo —dice el Señor— y os haré pescadores de hombres."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Follow me, says the Lord, and I will make you into fishers of men."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Vinde após mim, diz o Senhor, e eu farei de vós pescadores de homens."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Venite dietro a me, dice il Signore, e vi farò diventare pescatori di uomini."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "« Venez à ma suite, dit le Seigneur, et je vous ferai pêcheurs d’hommes. »"
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "(So spricht der Herr:) Folgt mir nach! Ich werde euch zu Menschenfischern machen."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

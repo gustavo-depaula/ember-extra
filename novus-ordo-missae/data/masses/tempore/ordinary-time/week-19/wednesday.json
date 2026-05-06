@@ -771,127 +771,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia 2 Cor 5, 19 Allelúia. Deus erat in Christo mundum reconcílians sibi, et pósuit in nobis verbum reconciliatiónis. Allelúia.",
-            "es": "Aleluya 2 Cor 5, 19 Aleluya. Dios estaba en Cristo reconciliando al mundo consigo, y ha puesto en nosotros el mensaje de la reconciliación. Aleluya.",
-            "en": "Alleluia, alleluia. God was in Christ, to reconcile the world to himself; and the Good News of reconciliation he has entrusted to us. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho 2 Cor 5, 19 Aleluia, aleluia. Em Cristo, Deus reconciliou consigo mesmo a humanidade; e a nós ele entregou esta reconciliação. Aleluia.",
-            "it": "Canto al Vangelo Cfr. 2Cor 5,19 Alleluia, alleluia. Dio ha riconciliato a sé il mondo in Cristo, affidando a noi la parola della riconciliazione. Alleluia.",
-            "fr": "Alléluia 2 Cor 5, 19 Alléluia Dans le Christ, Dieu réconciliait le monde avec lui : il a mis dans notre bouche la parole de la réconciliation. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. 2 Kor 5, 19 Halleluja. Halleluja. Gott hat in Christus die Welt mit sich versöhnt und uns das Wort von der Versöhnung anvertraut. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "2 Cor 5, 19"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Deus erat in Christo mundum reconcílians sibi, et pósuit in nobis verbum reconciliatiónis. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "2 Cor 5, 19"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Dios estaba en Cristo reconciliando al mundo consigo, y ha puesto en nosotros el mensaje de la reconciliación. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. God was in Christ, to reconcile the world to himself; and the Good News of reconciliation he has entrusted to us. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "2 Cor 5, 19"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Em Cristo, Deus reconciliou consigo mesmo a humanidade; e a nós ele entregou esta reconciliação. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cfr. 2Cor 5,19"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Dio ha riconciliato a sé il mondo in Cristo, affidando a noi la parola della riconciliazione. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "2 Cor 5, 19"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Dans le Christ, Dieu réconciliait le monde avec lui : il a mis dans notre bouche la parole de la réconciliation. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. 2 Kor 5, 19"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Gott hat in Christus die Welt mit sich versöhnt und uns das Wort von der Versöhnung anvertraut. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "2 Cor 5, 19",
           "es": "2 Cor 5, 19",
@@ -899,6 +778,179 @@
           "it": "Cfr. 2Cor 5,19",
           "fr": "2 Cor 5, 19",
           "de": "vgl. 2 Kor 5, 19"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Deus erat in Christo mundum reconcílians sibi, et pósuit in nobis verbum reconciliatiónis."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Dios estaba en Cristo reconciliando al mundo consigo, y ha puesto en nosotros el mensaje de la reconciliación."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "God was in Christ, to reconcile the world to himself; and the Good News of reconciliation he has entrusted to us."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Em Cristo, Deus reconciliou consigo mesmo a humanidade; e a nós ele entregou esta reconciliação."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Dio ha riconciliato a sé il mondo in Cristo, affidando a noi la parola della riconciliazione."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Dans le Christ, Dieu réconciliait le monde avec lui : il a mis dans notre bouche la parole de la réconciliation."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Gott hat in Christus die Welt mit sich versöhnt und uns das Wort von der Versöhnung anvertraut."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -1841,127 +1893,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia 2 Cor 5, 19 Allelúia. Deus erat in Christo mundum reconcílians sibi, et pósuit in nobis verbum reconciliatiónis. Allelúia.",
-            "es": "Aleluya 2 Cor 5, 19 Aleluya. Dios estaba en Cristo reconciliando al mundo consigo, y ha puesto en nosotros el mensaje de la reconciliación. Aleluya.",
-            "en": "Alleluia, alleluia. God was in Christ, to reconcile the world to himself; and the Good News of reconciliation he has entrusted to us. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho 2 Cor 5, 19 Aleluia, aleluia. Em Cristo, Deus reconciliou consigo mesmo a humanidade; e a nós ele entregou esta reconciliação. Aleluia.",
-            "it": "Canto al Vangelo Cfr. 2Cor 5,19 Alleluia, alleluia. Dio ha riconciliato a sé il mondo in Cristo, affidando a noi la parola della riconciliazione. Alleluia.",
-            "fr": "Alléluia 2 Cor 5, 19 Alléluia Dans le Christ, Dieu réconciliait le monde avec lui : il a mis dans notre bouche la parole de la réconciliation. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. 2 Kor 5, 19 Halleluja. Halleluja. Gott hat in Christus die Welt mit sich versöhnt und uns das Wort von der Versöhnung anvertraut. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "2 Cor 5, 19"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Deus erat in Christo mundum reconcílians sibi, et pósuit in nobis verbum reconciliatiónis. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "2 Cor 5, 19"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Dios estaba en Cristo reconciliando al mundo consigo, y ha puesto en nosotros el mensaje de la reconciliación. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. God was in Christ, to reconcile the world to himself; and the Good News of reconciliation he has entrusted to us. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "2 Cor 5, 19"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Em Cristo, Deus reconciliou consigo mesmo a humanidade; e a nós ele entregou esta reconciliação. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cfr. 2Cor 5,19"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Dio ha riconciliato a sé il mondo in Cristo, affidando a noi la parola della riconciliazione. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "2 Cor 5, 19"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Dans le Christ, Dieu réconciliait le monde avec lui : il a mis dans notre bouche la parole de la réconciliation. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. 2 Kor 5, 19"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Gott hat in Christus die Welt mit sich versöhnt und uns das Wort von der Versöhnung anvertraut. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "2 Cor 5, 19",
           "es": "2 Cor 5, 19",
@@ -1969,6 +1900,179 @@
           "it": "Cfr. 2Cor 5,19",
           "fr": "2 Cor 5, 19",
           "de": "vgl. 2 Kor 5, 19"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Deus erat in Christo mundum reconcílians sibi, et pósuit in nobis verbum reconciliatiónis."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Dios estaba en Cristo reconciliando al mundo consigo, y ha puesto en nosotros el mensaje de la reconciliación."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "God was in Christ, to reconcile the world to himself; and the Good News of reconciliation he has entrusted to us."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Em Cristo, Deus reconciliou consigo mesmo a humanidade; e a nós ele entregou esta reconciliação."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Dio ha riconciliato a sé il mondo in Cristo, affidando a noi la parola della riconciliazione."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Dans le Christ, Dieu réconciliait le monde avec lui : il a mis dans notre bouche la parole de la réconciliation."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Gott hat in Christus die Welt mit sich versöhnt und uns das Wort von der Versöhnung anvertraut."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

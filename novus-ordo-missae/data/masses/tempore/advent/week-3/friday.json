@@ -1412,97 +1412,181 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia, allelúia. Veni, Dómine, visitáre nos in pace, ut lætémur coram te corde perfécto. Allelúia.",
-            "es": "Aleluya, aleluya. Ven, Señor, visítanos con tu paz, para que nos alegremos en tu presencia de todo corazón. Aleluya.",
-            "en": "Alleluia, alleluia. Come, Lord, bring to us your peace; let us rejoice before you with a perfect heart. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Aleluia, aleluia. Vinde visitar-nos, ó Senhor, em grande paz e segurança, para que nos alegremos ante vós, com reto coração! Aleluia.",
-            "it": "Canto al Vangelo Gv 5,35 Alleluia, alleluia. Vieni, Signore, a visitarci nella pace, perché possiamo rallegrarci davanti a te. Alleluia.",
-            "fr": "Alléluia, alléluia. Alléluia. Viens, Seigneur : que ta visite soit notre paix ! Que notre cœur trouve la joie parfaite en ta présence !. Alléluia.",
-            "de": "Ruf vor dem Evangelium Halleluja. Halleluja. Komm, o Herr, such uns heim mit deinem Frieden, dass wir mit reinem Herzen uns freuen vor dir. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Veni, Dómine, visitáre nos in pace, ut lætémur coram te corde perfécto. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Ven, Señor, visítanos con tu paz, para que nos alegremos en tu presencia de todo corazón. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Come, Lord, bring to us your peace; let us rejoice before you with a perfect heart. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho Aleluia, aleluia. Vinde visitar-nos, ó Senhor, em grande paz e segurança, para que nos alegremos ante vós, com reto coração! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Gv 5,35"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Vieni, Signore, a visitarci nella pace, perché possiamo rallegrarci davanti a te. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia, alléluia. Alléluia. Viens, Seigneur : que ta visite soit notre paix ! Que notre cœur trouve la joie parfaite en ta présence !. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium Halleluja. Halleluja. Komm, o Herr, such uns heim mit deinem Frieden, dass wir mit reinem Herzen uns freuen vor dir. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "it": "Gv 5,35"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Veni, Dómine, visitáre nos in pace, ut lætémur coram te corde perfécto."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Ven, Señor, visítanos con tu paz, para que nos alegremos en tu presencia de todo corazón."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Come, Lord, bring to us your peace; let us rejoice before you with a perfect heart."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Vinde visitar-nos, ó Senhor, em grande paz e segurança, para que nos alegremos ante vós, com reto coração!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Vieni, Signore, a visitarci nella pace, perché possiamo rallegrarci davanti a te."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Alléluia. Viens, Seigneur : que ta visite soit notre paix ! Que notre cœur trouve la joie parfaite en ta présence !."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Komm, o Herr, such uns heim mit deinem Frieden, dass wir mit reinem Herzen uns freuen vor dir."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

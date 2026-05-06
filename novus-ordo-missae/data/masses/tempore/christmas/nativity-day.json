@@ -1870,86 +1870,178 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia, allelúia. Dies sanctificátus illúxit nobis: veníte, gentes, et adoráte Dóminum: quia hódie descéndit lux magna super terram. Allelúia.",
-            "es": "Aleluya, aleluya. Nos ha amanecido un día sagrado; venid, naciones, adorad al Señor, porque hoy una gran luz ha bajado a la tierra. Aleluya.",
-            "en": "Alleluia, alleluia. A holy day has dawn upon us. Come, you nations, and adore the Lord. Today a great light has come upon the earth. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Aleluia, aleluia. Despontou o santo dia para nós: Ó nações, vinde adorar o Senhor Deus, porque hoje grande luz brilhou ma terra! Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Un giorno santo è spuntato per noi: venite tutti ad adorare il Signore; oggi una splendida luce è discesa sulla terra. Alleluia.",
-            "fr": "Alléluia, alléluia. Alléluia. Aujourd’hui la lumière a brillé sur la terre. Peuples de l’univers, entrez dans la clarté de Dieu. Venez tous adorer le Seigneur ! Alléluia.",
-            "de": "Ruf vor dem Evangelium Halleluja. Halleluja. Aufgeleuchtet ist uns aufs Neue der Tag der Erlösung: Ein großes Licht ist heute auf Erden erschienen. Kommt, ihr Völker, und betet an den Herrn, unseren Gott! Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Dies sanctificátus illúxit nobis: veníte, gentes, et adoráte Dóminum: quia hódie descéndit lux magna super terram. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Nos ha amanecido un día sagrado; venid, naciones, adorad al Señor, porque hoy una gran luz ha bajado a la tierra. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. A holy day has dawn upon us. Come, you nations, and adore the Lord. Today a great light has come upon the earth. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho Aleluia, aleluia. Despontou o santo dia para nós: Ó nações, vinde adorar o Senhor Deus, porque hoje grande luz brilhou ma terra! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Un giorno santo è spuntato per noi: venite tutti ad adorare il Signore; oggi una splendida luce è discesa sulla terra. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia, alléluia. Alléluia. Aujourd’hui la lumière a brillé sur la terre. Peuples de l’univers, entrez dans la clarté de Dieu. Venez tous adorer le Seigneur ! Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium Halleluja. Halleluja. Aufgeleuchtet ist uns aufs Neue der Tag der Erlösung: Ein großes Licht ist heute auf Erden erschienen. Kommt, ihr Völker, und betet an den Herrn, unseren Gott! Halleluja."
-                }
-              ]
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
             ]
-          }
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Dies sanctificátus illúxit nobis: veníte, gentes, et adoráte Dóminum: quia hódie descéndit lux magna super terram."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Nos ha amanecido un día sagrado; venid, naciones, adorad al Señor, porque hoy una gran luz ha bajado a la tierra."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "A holy day has dawn upon us. Come, you nations, and adore the Lord. Today a great light has come upon the earth."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Despontou o santo dia para nós: Ó nações, vinde adorar o Senhor Deus, porque hoje grande luz brilhou ma terra!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Un giorno santo è spuntato per noi: venite tutti ad adorare il Signore; oggi una splendida luce è discesa sulla terra."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Alléluia. Aujourd’hui la lumière a brillé sur la terre. Peuples de l’univers, entrez dans la clarté de Dieu. Venez tous adorer le Seigneur !"
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Aufgeleuchtet ist uns aufs Neue der Tag der Erlösung: Ein großes Licht ist heute auf Erden erschienen. Kommt, ihr Völker, und betet an den Herrn, unseren Gott!"
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

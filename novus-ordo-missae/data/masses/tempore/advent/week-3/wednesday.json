@@ -1370,97 +1370,181 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia, allelúia. Exálta in fortitúdine vocem tuam, tu qui evangelízas; ecce Dóminus Deus in virtúte venit. Allelúia.",
-            "es": "Aleluya, aleluya. Alza fuerte la voz, heraldo; mirad, el Señor Dios llega con poder. Aleluya.",
-            "en": "Alleluia, alleluia. Prepare the way for the Lord, make straight his paths: all mankind shall see the salvation of God. Alleluia.",
-            "pt-BR": "Aclamção ao Evangelho Aleluia, aleluia. Tu que trazes boa nova a Sião, levanta tua voz e anuncia: eis que vem o Senhor Deus com poderio! Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Alza la tua voce con forza, tu che annunci liete notizie; ecco, il Signore Dio viene con potenza. Alleluia.",
-            "fr": "Alléluia, alléluia. Alléluia. Élève la voix, toi qui portes la Bonne Nouvelle ! Voici le Seigneur Dieu : il vient avec puissance. Alléluia.",
-            "de": "Ruf vor dem Evangelium Jes 40, 9 Halleluja. Halleluja. Jerusalem, du Botin der Freude, erhebe laut deine Stimme! Seht, Gott, der Herr, kommt mit Macht. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Exálta in fortitúdine vocem tuam, tu qui evangelízas; ecce Dóminus Deus in virtúte venit. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Alza fuerte la voz, heraldo; mirad, el Señor Dios llega con poder. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Prepare the way for the Lord, make straight his paths: all mankind shall see the salvation of God. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamção ao Evangelho Aleluia, aleluia. Tu que trazes boa nova a Sião, levanta tua voz e anuncia: eis que vem o Senhor Deus com poderio! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Alza la tua voce con forza, tu che annunci liete notizie; ecco, il Signore Dio viene con potenza. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia, alléluia. Alléluia. Élève la voix, toi qui portes la Bonne Nouvelle ! Voici le Seigneur Dieu : il vient avec puissance. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jes 40, 9"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Jerusalem, du Botin der Freude, erhebe laut deine Stimme! Seht, Gott, der Herr, kommt mit Macht. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "de": "Jes 40, 9"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Exálta in fortitúdine vocem tuam, tu qui evangelízas; ecce Dóminus Deus in virtúte venit."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Alza fuerte la voz, heraldo; mirad, el Señor Dios llega con poder."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Prepare the way for the Lord, make straight his paths: all mankind shall see the salvation of God."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Tu que trazes boa nova a Sião, levanta tua voz e anuncia: eis que vem o Senhor Deus com poderio!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Alza la tua voce con forza, tu che annunci liete notizie; ecco, il Signore Dio viene con potenza."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia, alléluia."
+              },
+              {
+                "type": "text",
+                "text": "Alléluia. Élève la voix, toi qui portes la Bonne Nouvelle ! Voici le Seigneur Dieu : il vient avec puissance."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Jerusalem, du Botin der Freude, erhebe laut deine Stimme! Seht, Gott, der Herr, kommt mit Macht."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

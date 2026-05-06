@@ -417,127 +417,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 6, 63b. 68b Allelúia. Verba tua, Dómine, Spíritus et vita sunt; verba vitæ ætérnæ habes. Allelúia.",
-            "es": "Aleluya Jn 6, 63b. 68b Aleluya. Tus palabras, Señor, son espíritu y vida; tú tienes palabras de vida eterna. Aleluya.",
-            "en": "Alleluia, alleluia. Your words, Lord, are spirit and life: you have the words of everlasting life. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 6, 63b. 68b Aleluia, aleluia. Senhor, tuas palavras são espírito, são vida; só tu tens palavras de vida eterna! Aleluia.",
-            "it": "Canto al Vangelo Cf. Gv 6, 63c-68c Alleluia, alleluia. Le tue parole, Signore, sono spirito e vita; tu hai parole di vita eterna. Alleluia.",
-            "fr": "Alléluia Io 6, 63b. 68b Alléluia Tes paroles, Seigneur, sont esprit et elles sont vie. Tu as les paroles de la vie éternelle. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Joh 6, 63b. 68c Halleluja. Halleluja. Deine Worte, Herr, sind Geist und Leben. Du hast Worte des ewigen Lebens. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 6, 63b. 68b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Verba tua, Dómine, Spíritus et vita sunt; verba vitæ ætérnæ habes. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 6, 63b. 68b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Tus palabras, Señor, son espíritu y vida; tú tienes palabras de vida eterna. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Your words, Lord, are spirit and life: you have the words of everlasting life. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 6, 63b. 68b"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Senhor, tuas palavras são espírito, são vida; só tu tens palavras de vida eterna! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cf. Gv 6, 63c-68c"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Le tue parole, Signore, sono spirito e vita; tu hai parole di vita eterna. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 6, 63b. 68b"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Tes paroles, Seigneur, sont esprit et elles sont vie. Tu as les paroles de la vie éternelle. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Joh 6, 63b. 68c"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Deine Worte, Herr, sind Geist und Leben. Du hast Worte des ewigen Lebens. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 6, 63b. 68b",
           "es": "Jn 6, 63b. 68b",
@@ -545,6 +424,179 @@
           "it": "Cf. Gv 6, 63c-68c",
           "fr": "Io 6, 63b. 68b",
           "de": "vgl. Joh 6, 63b. 68c"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Verba tua, Dómine, Spíritus et vita sunt; verba vitæ ætérnæ habes."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Tus palabras, Señor, son espíritu y vida; tú tienes palabras de vida eterna."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Your words, Lord, are spirit and life: you have the words of everlasting life."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Senhor, tuas palavras são espírito, são vida; só tu tens palavras de vida eterna!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Le tue parole, Signore, sono spirito e vita; tu hai parole di vita eterna."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Tes paroles, Seigneur, sont esprit et elles sont vie. Tu as les paroles de la vie éternelle."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Deine Worte, Herr, sind Geist und Leben. Du hast Worte des ewigen Lebens."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

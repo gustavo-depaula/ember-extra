@@ -1632,125 +1632,181 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 16, 28 Allelúia. Exivi a Patre, et veni in mundum; íterum relinquo mundum, et vado ad Patrem Allelúia.",
-            "es": "Aleluya Jn 16, 28 Aleluya. Salí del Padre y he venido al mundo, otra vez dejo el mundo y me voy al Padre. Aleluya.",
-            "en": "Alleluia, alleluia. I came from the Father and have come into the world; and now I leave the world to go to the Father.",
-            "pt-BR": "Aclamação ao Evangelho Jo 16, 28 Aleluia, aleluia. Saí do Pai e vim ao mundo; eu deixo o mundo e vou ao Pai. Aleluia.",
-            "it": "Canto al Vangelo Alleluia, alleluia. Cristo doveva patire e risorgere dai morti, ed entrare così nella sua gloria. Alleluia.",
-            "fr": "Alléluia Io 16, 28 Alléluia Je suis sorti du Père, et je suis venu dans le monde ; maintenant, je quitte le monde, et je pars vers le Père. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Joh 16, 28 Halleluja. Halleluja. Ich bin ausgegangen vom Vater und in die Welt gekommen; ich verlasse die Welt wieder und gehe zum Vater. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 16, 28"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Exivi a Patre, et veni in mundum; íterum relinquo mundum, et vado ad Patrem Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 16, 28"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Salí del Padre y he venido al mundo, otra vez dejo el mundo y me voy al Padre. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. I came from the Father and have come into the world; and now I leave the world to go to the Father."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 16, 28"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Saí do Pai e vim ao mundo; eu deixo o mundo e vou ao Pai. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo Alleluia, alleluia. Cristo doveva patire e risorgere dai morti, ed entrare così nella sua gloria. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 16, 28"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Je suis sorti du Père, et je suis venu dans le monde ; maintenant, je quitte le monde, et je pars vers le Père. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Joh 16, 28"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Ich bin ausgegangen vom Vater und in die Welt gekommen; ich verlasse die Welt wieder und gehe zum Vater. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 16, 28",
           "es": "Jn 16, 28",
           "pt-BR": "Jo 16, 28",
           "fr": "Io 16, 28",
           "de": "vgl. Joh 16, 28"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Exivi a Patre, et veni in mundum; íterum relinquo mundum, et vado ad Patrem"
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Salí del Padre y he venido al mundo, otra vez dejo el mundo y me voy al Padre."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "I came from the Father and have come into the world; and now I leave the world to go to the Father."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Saí do Pai e vim ao mundo; eu deixo o mundo e vou ao Pai."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Cristo doveva patire e risorgere dai morti, ed entrare così nella sua gloria."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Je suis sorti du Père, et je suis venu dans le monde ; maintenant, je quitte le monde, et je pars vers le Père."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Ich bin ausgegangen vom Vater und in die Welt gekommen; ich verlasse die Welt wieder und gehe zum Vater."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

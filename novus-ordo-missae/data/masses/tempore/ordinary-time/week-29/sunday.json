@@ -1772,127 +1772,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Phil 2, 15d-16a Allelúia. Lucétis sicut luminária in mundo, verbum vitæ fírmiter tenéntes. Allelúia.",
-            "es": "Aleluya Flp 2, 15d-16a Aleluya. Brilláis como lumbreras del mundo, manteniendo firme la palabra de la vida. Aleluya.",
-            "en": "Alleluia, alleluia. Shine on the world like bright stars; you are offering it the word of life. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Filip 2, 15d.16a Aleluia, aleluia. Como astros no mundo vós resplandeçais, mensagem de vida ao mundo anunciando, da vida a Palavra, com fé, proclameis, quais astros luzentes no mundo brileis. Aleluia.",
-            "it": "Canto al Vangelo Fil 2,15d.16a Alleluia, alleluia. Risplendete come astri nel mondo, tenendo salda la parola di vita. Alleluia.",
-            "fr": "Alléluia Phil 2, 15d-16a Alléluia Vous brillez comme des astres dans l’univers en tenant ferme la parole de vie. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Phil 2, 15d. 16a Halleluja. Halleluja. Haltet fest am Worte Christi, dann leuchtet ihr als Lichter in der Welt. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Phil 2, 15d-16a"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Lucétis sicut luminária in mundo, verbum vitæ fírmiter tenéntes. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Flp 2, 15d-16a"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Brilláis como lumbreras del mundo, manteniendo firme la palabra de la vida. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Shine on the world like bright stars; you are offering it the word of life. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Filip 2, 15d.16a"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Como astros no mundo vós resplandeçais, mensagem de vida ao mundo anunciando, da vida a Palavra, com fé, proclameis, quais astros luzentes no mundo brileis. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Fil 2,15d.16a"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Risplendete come astri nel mondo, tenendo salda la parola di vita. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Phil 2, 15d-16a"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Vous brillez comme des astres dans l’univers en tenant ferme la parole de vie. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Phil 2, 15d. 16a"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Haltet fest am Worte Christi, dann leuchtet ihr als Lichter in der Welt. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Phil 2, 15d-16a",
           "es": "Flp 2, 15d-16a",
@@ -1900,6 +1779,179 @@
           "it": "Fil 2,15d.16a",
           "fr": "Phil 2, 15d-16a",
           "de": "vgl. Phil 2, 15d. 16a"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Lucétis sicut luminária in mundo, verbum vitæ fírmiter tenéntes."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Brilláis como lumbreras del mundo, manteniendo firme la palabra de la vida."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Shine on the world like bright stars; you are offering it the word of life."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Como astros no mundo vós resplandeçais, mensagem de vida ao mundo anunciando, da vida a Palavra, com fé, proclameis, quais astros luzentes no mundo brileis."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Risplendete come astri nel mondo, tenendo salda la parola di vita."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Vous brillez comme des astres dans l’univers en tenant ferme la parole de vie."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Haltet fest am Worte Christi, dann leuchtet ihr als Lichter in der Welt."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -2916,127 +2968,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Mc 10, 45 Allelúia. Fílius hóminis venit ut ministráret, et daret ánimam suam redemptiónem pro multis. Allelúia.",
-            "es": "Aleluya Mc 10, 45 Aleluya. El Hijo del hombre ha venido a servir y dar su vida en rescate por muchos. Aleluya.",
-            "en": "Alleluia, alleluia. The Son of Man came to save and to give his life as a ransom for all. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Mc 10, 45 Aleluia, aleluia. Jesus Cristo veio a servir, Cristo veio dar sua vida. Jesus Cristo veio salvar, viva Cristo, Cristo viva! Aleluia.",
-            "it": "Canto al Vangelo Cfr. Mc 10,45 Alleluia, alleluia. Il Figlio dell’uomo è venuto per servire e dare la propria vita in riscatto per molti. Alleluia.",
-            "fr": "Alléluia Mc 10, 45 Alléluia Le Fils de l’homme est venu pour servir, et donner sa vie en rançon pour la multitude. Alléluia.",
-            "de": "Ruf vor dem Evangelium vgl. Mk 10, 45 Halleluja. Halleluja. Der Menschensohn ist gekommen, um zu dienen und sein Leben hinzugeben als Lösegeld für viele. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 10, 45"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Fílius hóminis venit ut ministráret, et daret ánimam suam redemptiónem pro multis. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 10, 45"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. El Hijo del hombre ha venido a servir y dar su vida en rescate por muchos. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. The Son of Man came to save and to give his life as a ransom for all. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 10, 45"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Jesus Cristo veio a servir, Cristo veio dar sua vida. Jesus Cristo veio salvar, viva Cristo, Cristo viva! Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cfr. Mc 10,45"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Il Figlio dell’uomo è venuto per servire e dare la propria vita in riscatto per molti. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Mc 10, 45"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Le Fils de l’homme est venu pour servir, et donner sa vie en rançon pour la multitude. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "vgl. Mk 10, 45"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Der Menschensohn ist gekommen, um zu dienen und sein Leben hinzugeben als Lösegeld für viele. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Mc 10, 45",
           "es": "Mc 10, 45",
@@ -3044,6 +2975,179 @@
           "it": "Cfr. Mc 10,45",
           "fr": "Mc 10, 45",
           "de": "vgl. Mk 10, 45"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Fílius hóminis venit ut ministráret, et daret ánimam suam redemptiónem pro multis."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "El Hijo del hombre ha venido a servir y dar su vida en rescate por muchos."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "The Son of Man came to save and to give his life as a ransom for all."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Jesus Cristo veio a servir, Cristo veio dar sua vida. Jesus Cristo veio salvar, viva Cristo, Cristo viva!"
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Il Figlio dell’uomo è venuto per servire e dare la propria vita in riscatto per molti."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Le Fils de l’homme est venu pour servir, et donner sa vie en rançon pour la multitude."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Der Menschensohn ist gekommen, um zu dienen und sein Leben hinzugeben als Lösegeld für viele."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -4400,127 +4504,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Hebr 4, 12 Allelúia. Vivus est Dei sermo et éfficax, et discrétor cogitatiónum et intentiónum cordis. Allelúia.",
-            "es": "Aleluya Hebr 4, 12 Aleluya. La palabra de Dios es viva y eficaz; juzga los deseos e intenciones del corazón. Aleluya.",
-            "en": "Alleluia, alleluia. The word of God is living and active; it probes the thoughts and motives of our heart. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Hebr 4, 12 Aleluia, aleluia. A palavra de Deus é viva e eficaz, em suas ações; penetrando os sentimentos, vai ao íntimo dos corações. Aleluia.",
-            "it": "Canto al Vangelo Cfr. Eb 4,12 Alleluia, alleluia. La parola di Dio è viva ed efficace, discerne i sentimenti e i pensieri del cuore. Alleluia.",
-            "fr": "Alléluia Hebr 4, 12 Alléluia Elle est vivante, efficace, la parole de Dieu ; elle juge des intentions et des pensées du cœur. Alléluia.",
-            "de": "Ruf vor dem Evangelium Hebr 4, 12 Halleluja. Halleluja. Lebendig ist das Wort Gottes und kraftvoll. Es richtet über die Regungen und Gedanken der Herzen. Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Hebr 4, 12"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Vivus est Dei sermo et éfficax, et discrétor cogitatiónum et intentiónum cordis. Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Hebr 4, 12"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. La palabra de Dios es viva y eficaz; juzga los deseos e intenciones del corazón. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. The word of God is living and active; it probes the thoughts and motives of our heart. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Hebr 4, 12"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. A palavra de Deus é viva e eficaz, em suas ações; penetrando os sentimentos, vai ao íntimo dos corações. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cfr. Eb 4,12"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. La parola di Dio è viva ed efficace, discerne i sentimenti e i pensieri del cuore. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Hebr 4, 12"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Elle est vivante, efficace, la parole de Dieu ; elle juge des intentions et des pensées du cœur. Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Hebr 4, 12"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Lebendig ist das Wort Gottes und kraftvoll. Es richtet über die Regungen und Gedanken der Herzen. Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Hebr 4, 12",
           "es": "Hebr 4, 12",
@@ -4528,6 +4511,179 @@
           "it": "Cfr. Eb 4,12",
           "fr": "Hebr 4, 12",
           "de": "Hebr 4, 12"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Vivus est Dei sermo et éfficax, et discrétor cogitatiónum et intentiónum cordis."
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "La palabra de Dios es viva y eficaz; juzga los deseos e intenciones del corazón."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "The word of God is living and active; it probes the thoughts and motives of our heart."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "A palavra de Deus é viva e eficaz, em suas ações; penetrando os sentimentos, vai ao íntimo dos corações."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "La parola di Dio è viva ed efficace, discerne i sentimenti e i pensieri del cuore."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Elle est vivante, efficace, la parole de Dieu ; elle juge des intentions et des pensées du cœur."
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Lebendig ist das Wort Gottes und kraftvoll. Es richtet über die Regungen und Gedanken der Herzen."
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {

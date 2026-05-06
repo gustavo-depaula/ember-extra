@@ -947,127 +947,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 1, 49b Allelúia. Rabbi, tu es Fílius Dei, tu rex es Israel! Allelúia.",
-            "es": "Aleluya Jn 1, 49b Aleluya. Rabí, tú eres el Hijo de Dios, tú eres el Rey de Israel. Aleluya.",
-            "en": "Alleluia, alleluia. Master, you are the Son of God, you are the king of Israel. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 1, 49b Aleluia, aleluia. Mestre, tu és o Filho de Deus, és Rei de Israel. Aleluia.",
-            "it": "Canto al Vangelo Cfr. At 16,14b Alleluia, alleluia. Apri, Signore, il nostro cuore e comprenderemo le parole del Figlio tuo. Alleluia.",
-            "fr": "Alléluia Io 1, 49b Alléluia Rabbi, c’est toi le Fils de Dieu ! C’est toi le roi d’Israël ! Alléluia.",
-            "de": "Ruf vor dem Evangelium Joh 1, 49b Halleluja. Halleluja. Rabbi, du bist der Sohn Gottes, du bist der König von Israel! Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 1, 49b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Rabbi, tu es Fílius Dei, tu rex es Israel! Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 1, 49b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Rabí, tú eres el Hijo de Dios, tú eres el Rey de Israel. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Master, you are the Son of God, you are the king of Israel. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 1, 49b"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Mestre, tu és o Filho de Deus, és Rei de Israel. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cfr. At 16,14b"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Apri, Signore, il nostro cuore e comprenderemo le parole del Figlio tuo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 1, 49b"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Rabbi, c’est toi le Fils de Dieu ! C’est toi le roi d’Israël ! Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joh 1, 49b"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Rabbi, du bist der Sohn Gottes, du bist der König von Israel! Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 1, 49b",
           "es": "Jn 1, 49b",
@@ -1075,6 +954,179 @@
           "it": "Cfr. At 16,14b",
           "fr": "Io 1, 49b",
           "de": "Joh 1, 49b"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Rabbi, tu es Fílius Dei, tu rex es Israel!"
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Rabí, tú eres el Hijo de Dios, tú eres el Rey de Israel."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Master, you are the Son of God, you are the king of Israel."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Mestre, tu és o Filho de Deus, és Rei de Israel."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Apri, Signore, il nostro cuore e comprenderemo le parole del Figlio tuo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Rabbi, c’est toi le Fils de Dieu ! C’est toi le roi d’Israël !"
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Rabbi, du bist der Sohn Gottes, du bist der König von Israel!"
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
@@ -2386,127 +2438,6 @@
         }
       },
       "gospelAcclamation": {
-        "body": {
-          "plain": {
-            "la": "Alleluia Io 1, 49b Allelúia. Rabbi, tu es Fílius Dei, tu rex es Israel! Allelúia.",
-            "es": "Aleluya Jn 1, 49b Aleluya. Rabí, tú eres el Hijo de Dios, tú eres el Rey de Israel. Aleluya.",
-            "en": "Alleluia, alleluia. Master, you are the Son of God, you are the king of Israel. Alleluia.",
-            "pt-BR": "Aclamação ao Evangelho Jo 1, 49b Aleluia, aleluia. Mestre, tu és o Filho de Deus, és Rei de Israel. Aleluia.",
-            "it": "Canto al Vangelo Cfr. At 16,14b Alleluia, alleluia. Apri, Signore, il nostro cuore e comprenderemo le parole del Figlio tuo. Alleluia.",
-            "fr": "Alléluia Io 1, 49b Alléluia Rabbi, c’est toi le Fils de Dieu ! C’est toi le roi d’Israël ! Alléluia.",
-            "de": "Ruf vor dem Evangelium Joh 1, 49b Halleluja. Halleluja. Rabbi, du bist der Sohn Gottes, du bist der König von Israel! Halleluja."
-          },
-          "lines": {
-            "la": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 1, 49b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia. Rabbi, tu es Fílius Dei, tu rex es Israel! Allelúia."
-                }
-              ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jn 1, 49b"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya. Rabí, tú eres el Hijo de Dios, tú eres el Rey de Israel. Aleluya."
-                }
-              ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Master, you are the Son of God, you are the king of Israel. Alleluia."
-                }
-              ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "text",
-                  "text": "Aclamação ao Evangelho"
-                },
-                {
-                  "type": "reference",
-                  "text": "Jo 1, 49b"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia, aleluia. Mestre, tu és o Filho de Deus, és Rei de Israel. Aleluia."
-                }
-              ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "text",
-                  "text": "Canto al Vangelo"
-                },
-                {
-                  "type": "reference",
-                  "text": "Cfr. At 16,14b"
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia, alleluia. Apri, Signore, il nostro cuore e comprenderemo le parole del Figlio tuo. Alleluia."
-                }
-              ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                },
-                {
-                  "type": "reference",
-                  "text": "Io 1, 49b"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Rabbi, c’est toi le Fils de Dieu ! C’est toi le roi d’Israël ! Alléluia."
-                }
-              ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "text",
-                  "text": "Ruf vor dem Evangelium"
-                },
-                {
-                  "type": "reference",
-                  "text": "Joh 1, 49b"
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja. Halleluja. Rabbi, du bist der Sohn Gottes, du bist der König von Israel! Halleluja."
-                }
-              ]
-            ]
-          }
-        },
         "citation": {
           "la": "Io 1, 49b",
           "es": "Jn 1, 49b",
@@ -2514,6 +2445,179 @@
           "it": "Cfr. At 16,14b",
           "fr": "Io 1, 49b",
           "de": "Joh 1, 49b"
+        },
+        "mode": "alleluia",
+        "acclamation": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              }
+            ]
+          ]
+        },
+        "verse": {
+          "la": [
+            [
+              {
+                "type": "response",
+                "text": "Allelúia."
+              },
+              {
+                "type": "text",
+                "text": "Rabbi, tu es Fílius Dei, tu rex es Israel!"
+              },
+              {
+                "type": "response",
+                "text": "Allelúia."
+              }
+            ]
+          ],
+          "es": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluya."
+              },
+              {
+                "type": "text",
+                "text": "Rabí, tú eres el Hijo de Dios, tú eres el Rey de Israel."
+              },
+              {
+                "type": "response",
+                "text": "Aleluya."
+              }
+            ]
+          ],
+          "en": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Master, you are the Son of God, you are the king of Israel."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "pt-BR": [
+            [
+              {
+                "type": "response",
+                "text": "Aleluia, aleluia."
+              },
+              {
+                "type": "text",
+                "text": "Mestre, tu és o Filho de Deus, és Rei de Israel."
+              },
+              {
+                "type": "response",
+                "text": "Aleluia."
+              }
+            ]
+          ],
+          "it": [
+            [
+              {
+                "type": "response",
+                "text": "Alleluia, alleluia."
+              },
+              {
+                "type": "text",
+                "text": "Apri, Signore, il nostro cuore e comprenderemo le parole del Figlio tuo."
+              },
+              {
+                "type": "response",
+                "text": "Alleluia."
+              }
+            ]
+          ],
+          "fr": [
+            [
+              {
+                "type": "response",
+                "text": "Alléluia"
+              },
+              {
+                "type": "text",
+                "text": "Rabbi, c’est toi le Fils de Dieu ! C’est toi le roi d’Israël !"
+              },
+              {
+                "type": "response",
+                "text": "Alléluia."
+              }
+            ]
+          ],
+          "de": [
+            [
+              {
+                "type": "response",
+                "text": "Halleluja. Halleluja."
+              },
+              {
+                "type": "text",
+                "text": "Rabbi, du bist der Sohn Gottes, du bist der König von Israel!"
+              },
+              {
+                "type": "response",
+                "text": "Halleluja."
+              }
+            ]
+          ]
         }
       },
       "gospel": {
