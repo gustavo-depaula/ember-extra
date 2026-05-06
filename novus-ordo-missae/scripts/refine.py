@@ -18,8 +18,11 @@ Design principles (PLAN_V2.md):
 from __future__ import annotations
 
 import json
+import multiprocessing as mp
+import os
 import re
 import shutil
+import time
 from pathlib import Path
 from typing import Any, Optional
 
@@ -140,6 +143,34 @@ _TRAILING_RUBRIC_PHRASES = (
 )
 
 
+# Pre-compile each trailing-rubric phrase. Alpha phrases get a sentence-boundary
+# prefix so "Or:" / "Sobre" don't truncate inside "Senh|or:" / "Sobre|do" — the
+# phrase must start at BOL or after a sentence terminator + whitespace. Non-alpha
+# phrases ("div>", etc.) are matched by plain substring.
+_TRAILING_RUBRIC_ALPHA_PATS: tuple[tuple[str, "re.Pattern[str]"], ...] = tuple(
+    (
+        _phrase.lower(),
+        re.compile(
+            r"(?:(?<=^)|(?<=[.!?»\)]\s)|(?<=[.!?»\)]\n)|(?<=[.!?»\)])\s)"
+            + re.escape(_phrase.lower())
+        ),
+    )
+    for _phrase in _TRAILING_RUBRIC_PHRASES
+    if _phrase and _phrase[0].isalpha()
+)
+_TRAILING_RUBRIC_NON_ALPHA: tuple[str, ...] = tuple(
+    _phrase.lower() for _phrase in _TRAILING_RUBRIC_PHRASES
+    if _phrase and not _phrase[0].isalpha()
+)
+# Combined "is any phrase even present?" filter for fast early-exit. Almost all
+# inputs to strip_trailing_rubric have NO phrase at all; one search beats 30.
+_TRAILING_RUBRIC_ANY_RE: "re.Pattern[str]" = re.compile(
+    "|".join(re.escape(_p.lower()) for _p in _TRAILING_RUBRIC_PHRASES)
+)
+# Trailing "  N. " section-number cleanup applied after the cut.
+_TRAILING_NUMBER_DOT_RE = re.compile(r"\s+\d+\.\s*$")
+
+
 def strip_trailing_rubric(text: str) -> str:
     """Strip known trailing-rubric leakage at the end of a prayer body.
 
@@ -156,31 +187,30 @@ def strip_trailing_rubric(text: str) -> str:
         return s
     # Look at the trailing window only.
     window_start = max(0, L - 250)
-    tail = s[window_start:]
-    tail_low = tail.lower()
+    tail_low = s[window_start:].lower()
+    # Fast path: most inputs contain none of the phrases anywhere in the tail.
+    # One combined regex beats iterating ~30 patterns when the answer is "no".
+    if not _TRAILING_RUBRIC_ANY_RE.search(tail_low):
+        return s
     full_low = s.lower()
 
     earliest_in_tail = -1
-    for phrase in _TRAILING_RUBRIC_PHRASES:
-        plow = phrase.lower()
-        starts_alpha = plow[0].isalpha() if plow else False
-        if starts_alpha:
-            # Word-bounded search: the phrase must start at a word boundary so
-            # "Or:" / "Sobre" don't truncate inside "Senh|or:" / "Sobre|do",
-            # AND must be preceded by a sentence terminator + whitespace (or be
-            # at the very start of the string) so legitimate use of words like
-            # "solennità" inside a sentence doesn't get cut.
-            pattern = r"(?:(?<=^)|(?<=[.!?»\)]\s)|(?<=[.!?»\)]\n)|(?<=[.!?»\)])\s)" + re.escape(plow)
-            m_tail = re.search(pattern, tail_low)
-            if not m_tail:
-                continue
-            idx_in_tail = m_tail.start()
-            full_count = len(re.findall(pattern, full_low))
-        else:
-            idx_in_tail = tail_low.find(plow)
-            if idx_in_tail < 0:
-                continue
-            full_count = full_low.count(plow)
+    for plow, pat in _TRAILING_RUBRIC_ALPHA_PATS:
+        m_tail = pat.search(tail_low)
+        if not m_tail:
+            continue
+        idx_in_tail = m_tail.start()
+        full_count = len(pat.findall(full_low))
+        if full_count > 1:
+            continue
+        abs_idx = window_start + idx_in_tail
+        if abs_idx > 30 and (earliest_in_tail == -1 or abs_idx < earliest_in_tail):
+            earliest_in_tail = abs_idx
+    for plow in _TRAILING_RUBRIC_NON_ALPHA:
+        idx_in_tail = tail_low.find(plow)
+        if idx_in_tail < 0:
+            continue
+        full_count = full_low.count(plow)
         if full_count > 1:
             continue
         abs_idx = window_start + idx_in_tail
@@ -190,7 +220,7 @@ def strip_trailing_rubric(text: str) -> str:
         return s
     cut = earliest_in_tail
     pre = s[:cut].rstrip()
-    m = re.search(r"\s+\d+\.\s*$", pre)
+    m = _TRAILING_NUMBER_DOT_RE.search(pre)
     if m:
         cut = m.start() + 1
     s = s[:cut].rstrip(" .,;:")
@@ -1564,6 +1594,45 @@ def reading_with_alternatives_from_items(items: list[dict]) -> Optional[dict]:
     return {"alternatives": readings}
 
 
+# Phrases used as the "Word of the Lord" / Gospel conclusion across languages.
+_READING_CONCLUSION_PHRASES_RE = re.compile(
+    r"^\s*(verbum (d|D)ómini|the word of the lord|palabra de dios|"
+    r"palavra do senhor|parola di dio|parole du seigneur|"
+    r"wort des lebendigen gottes|wort des herrn|"
+    r"verbum christi)\s*\.?\s*$",
+    re.IGNORECASE,
+)
+
+# Source quirk: Spanish "Incipit-oneline" sometimes starts with the introduction
+# phrase already in the introduction field. Strip that duplicate prefix.
+_READING_INTRO_PREFIX_RE = re.compile(
+    r"^(A reading from|Léctio|Lectura del|Leitura\s|Dal libro|Lecture du|Lesung aus)[^\.]{1,80}\.?\s*",
+    re.IGNORECASE,
+)
+
+# Reading body entries whose only content is the response acclamation
+# (e.g. `R/. Gloria tibi, Domine.`) come from sanctorale memorials whose source
+# HTML lacks the actual pericope. When ALL languages of body are acclamation-only,
+# we drop the whole reading.
+_ACCLAMATION_ONLY_RE = re.compile(
+    r"^(?:R[/.]?\.?|℟\.?|A:)?\s*"
+    r"(?:Gloria tibi[^.!?]*|Laus tibi[^.!?]*|Gloria a ti[^.!?]*|"
+    r"Glory to you[^.!?]*|Praise to you[^.!?]*|Lode a te[^.!?]*|"
+    r"Gloire à toi[^.!?]*|Louange à toi[^.!?]*|Glória a vós[^.!?]*|"
+    r"Ehre sei dir[^.!?]*|Lob sei dir[^.!?]*|Gloria a te[^.!?]*|"
+    r"Christus[^.!?]*)"
+    r"\s*[.!?]?\s*"
+    r"(?:R[/.]?\.?|℟\.?|A:)?\s*"
+    r"(?:Gloria tibi[^.!?]*|Laus tibi[^.!?]*|Gloria a ti[^.!?]*|"
+    r"Glory to you[^.!?]*|Praise to you[^.!?]*|Lode a te[^.!?]*|"
+    r"Gloire à toi[^.!?]*|Louange à toi[^.!?]*|Glória a vós[^.!?]*|"
+    r"Ehre sei dir[^.!?]*|Lob sei dir[^.!?]*|Gloria a te[^.!?]*|"
+    r"Christus[^.!?]*)?"
+    r"\s*[.!?]?\s*$",
+    re.IGNORECASE,
+)
+
+
 def reading_from_items(items: list[dict]) -> Optional[dict]:
     """Build a structured Reading by re-parsing the hijo HTML across all items.
 
@@ -1592,14 +1661,6 @@ def reading_from_items(items: list[dict]) -> Optional[dict]:
     citation: dict[str, str] = {}
 
     known_reading_classes = set(_READING_CLASS_FIELD_MAP.keys())
-    # Phrases used as the "Word of the Lord" / Gospel conclusion across languages.
-    conclusion_phrases_re = re.compile(
-        r"^\s*(verbum (d|D)ómini|the word of the lord|palabra de dios|"
-        r"palavra do senhor|parola di dio|parole du seigneur|"
-        r"wort des lebendigen gottes|wort des herrn|"
-        r"verbum christi)\s*\.?\s*$",
-        re.IGNORECASE,
-    )
 
     for src, html in combined_html.items():
         iso = LANG_MAP[src]
@@ -1647,8 +1708,8 @@ def reading_from_items(items: list[dict]) -> Optional[dict]:
                     # Incipit-oneline; if the only body text is the conclusion
                     # phrase, route it to conclusion and leave body for the
                     # bare-<p> fallback below.
-                    body_parts = [p for p in parts if not conclusion_phrases_re.match(p)]
-                    conclusion_in_body = [p for p in parts if conclusion_phrases_re.match(p)]
+                    body_parts = [p for p in parts if not _READING_CONCLUSION_PHRASES_RE.match(p)]
+                    conclusion_in_body = [p for p in parts if _READING_CONCLUSION_PHRASES_RE.match(p)]
                     if body_parts:
                         fields["body"][iso] = "\n\n".join(body_parts)
                     if conclusion_in_body and iso not in fields["conclusion"]:
@@ -1670,7 +1731,7 @@ def reading_from_items(items: list[dict]) -> Optional[dict]:
             text = clean_text(p.get_text(" ", strip=True))
             if not text:
                 continue
-            if conclusion_phrases_re.match(text):
+            if _READING_CONCLUSION_PHRASES_RE.match(text):
                 if iso not in fields["conclusion"]:
                     fields["conclusion"][iso] = text
                 continue
@@ -1683,40 +1744,12 @@ def reading_from_items(items: list[dict]) -> Optional[dict]:
             else:
                 fields["body"][iso] = "\n\n".join(bare_paragraphs)
 
-    # Source quirk: the Spanish "Incipit-oneline" sometimes starts with the
-    # introduction phrase ("Lectura del libro...") that's already in the
-    # introduction field. Strip that duplicate prefix from body.
-    intro_prefix_re = re.compile(
-        r"^(A reading from|Léctio|Lectura del|Leitura\s|Dal libro|Lecture du|Lesung aus)[^\.]{1,80}\.?\s*",
-        re.IGNORECASE,
-    )
     for iso, body_text in list(fields["body"].items()):
-        if intro_prefix_re.match(body_text):
-            stripped = intro_prefix_re.sub("", body_text, count=1).strip()
+        if _READING_INTRO_PREFIX_RE.match(body_text):
+            stripped = _READING_INTRO_PREFIX_RE.sub("", body_text, count=1).strip()
             if stripped:
                 fields["body"][iso] = stripped
 
-    # Drop reading body entries whose only content is the response acclamation
-    # (e.g. `R/. Gloria tibi, Domine.`) — these come from sanctorale memorials
-    # whose source HTML lacks the actual pericope and only contains acclamations.
-    # When ALL languages of body are acclamation-only, we drop the whole reading.
-    _ACCLAMATION_ONLY_RE = re.compile(
-        r"^(?:R[/.]?\.?|℟\.?|A:)?\s*"
-        r"(?:Gloria tibi[^.!?]*|Laus tibi[^.!?]*|Gloria a ti[^.!?]*|"
-        r"Glory to you[^.!?]*|Praise to you[^.!?]*|Lode a te[^.!?]*|"
-        r"Gloire à toi[^.!?]*|Louange à toi[^.!?]*|Glória a vós[^.!?]*|"
-        r"Ehre sei dir[^.!?]*|Lob sei dir[^.!?]*|Gloria a te[^.!?]*|"
-        r"Christus[^.!?]*)"
-        r"\s*[.!?]?\s*"
-        r"(?:R[/.]?\.?|℟\.?|A:)?\s*"
-        r"(?:Gloria tibi[^.!?]*|Laus tibi[^.!?]*|Gloria a ti[^.!?]*|"
-        r"Glory to you[^.!?]*|Praise to you[^.!?]*|Lode a te[^.!?]*|"
-        r"Gloire à toi[^.!?]*|Louange à toi[^.!?]*|Glória a vós[^.!?]*|"
-        r"Ehre sei dir[^.!?]*|Lob sei dir[^.!?]*|Gloria a te[^.!?]*|"
-        r"Christus[^.!?]*)?"
-        r"\s*[.!?]?\s*$",
-        re.IGNORECASE,
-    )
     if fields.get("body"):
         body_isos = list(fields["body"].keys())
         if body_isos and all(
@@ -4765,6 +4798,11 @@ def _fix_prayer_terminations(mass: dict) -> None:
                         break
 
 
+# Bare digit optionally trailed by 1-3 dots — covers verse markers ("21"),
+# source-PDF paragraph numbers ("15."), and OCR'd doubled periods ("19..").
+_BARE_DIGITS_RE = re.compile(r'^\d{1,4}\.{0,3}$')
+
+
 def _strip_bare_number_segments(mass: dict) -> None:
     """Remove text segments inside body.lines that are just bare digits —
     these are page/verse markers that leaked into the prayer text stream.
@@ -4773,9 +4811,6 @@ def _strip_bare_number_segments(mass: dict) -> None:
     bare-digit `plain.<L>` orphans (one-character section numbers that
     became the only content for a language while siblings carry full
     paragraphs)."""
-    # Bare digit optionally trailed by 1-3 dots — covers verse markers ("21"),
-    # source-PDF paragraph numbers ("15."), and OCR'd doubled periods ("19..").
-    bare_digits = re.compile(r'^\d{1,4}\.{0,3}$')
     def walk(node):
         if isinstance(node, dict):
             for k, v in node.items():
@@ -4790,7 +4825,7 @@ def _strip_bare_number_segments(mass: dict) -> None:
                                        if not (isinstance(seg, dict)
                                                and seg.get('type') == 'text'
                                                and isinstance(seg.get('text'), str)
-                                               and bare_digits.match(seg['text'].strip()))]
+                                               and _BARE_DIGITS_RE.match(seg['text'].strip()))]
                         v[L] = [line for line in langlines
                                 if isinstance(line, list) and line]
                 elif k == 'plain' and isinstance(v, dict):
@@ -4798,7 +4833,7 @@ def _strip_bare_number_segments(mass: dict) -> None:
                     # digit (section-number residue, no real content).
                     for L in list(v.keys()):
                         val = v[L]
-                        if isinstance(val, str) and bare_digits.match(val.strip()):
+                        if isinstance(val, str) and _BARE_DIGITS_RE.match(val.strip()):
                             v.pop(L, None)
                 else:
                     walk(v)
@@ -5783,11 +5818,13 @@ def _backfill_responsorial_psalm_citation(rp: dict) -> None:
                     cit[lang] = f"{cf_prefix}{abbrev} {rest}".strip() if rest else f"{cf_prefix}{abbrev}".strip()
 
 
+_LECTIO_LABEL_ONLY_RE = re.compile(r'^Lectio\b', re.I)
+
+
 def _drop_stranded_lectio_labels(mass: dict) -> None:
     """If a reading has only `label` (no body), clear the label since it's a
     structural ghost. Concentrated in /readings/{default,A,B,C}/firstReading|
     secondReading/."""
-    label_only_re = re.compile(r'^Lectio\b', re.I)
     def is_empty_body(body):
         if not isinstance(body, dict):
             return True
@@ -5810,7 +5847,7 @@ def _drop_stranded_lectio_labels(mass: dict) -> None:
             if isinstance(label, dict) and is_empty_body(body):
                 # Drop label entries where the localized value is just "Lectio …"
                 cleaned = {L: v for L, v in label.items()
-                           if isinstance(v, str) and not label_only_re.match(v.strip())}
+                           if isinstance(v, str) and not _LECTIO_LABEL_ONLY_RE.match(v.strip())}
                 if cleaned:
                     r['label'] = cleaned
                 else:
@@ -6168,6 +6205,12 @@ def _retype_parenthetical_conditions(rt: dict) -> None:
                         seg['type'] = 'rubric'
 
 
+_VEL_RUBRIC_RE = re.compile(r'^(?:vel|or|oder|ou|o)[:.]?\s*$', re.I)
+# Allelúia / Alleluia / Hallelujah / Aleluya / Aleluia — Latin/vernacular
+# variants. Matches with optional accent on the `u` and trailing period.
+_ALLELUIA_VARIANT_RE = re.compile(r'^(?:Al+el+[uúù](?:ia|ya|ja)|Hal+el+u(?:ja|jah))\.?$', re.I)
+
+
 def _retype_vel_alleluia_as_response(rt: dict) -> None:
     """Inside body.lines, when a `vel:` rubric (or `or:`/`oder:` etc.) is
     immediately followed by a lone `Allelúia.` text segment, the Alleluia is
@@ -6177,10 +6220,6 @@ def _retype_vel_alleluia_as_response(rt: dict) -> None:
     lines = rt.get('lines')
     if not isinstance(lines, dict):
         return
-    vel_re = re.compile(r'^(?:vel|or|oder|ou|o)[:.]?\s*$', re.I)
-    # Allelúia / Alleluia / Hallelujah / Aleluya / Aleluia — Latin/vernacular
-    # variants. Matches with optional accent on the `u` and trailing period.
-    alleluia_re = re.compile(r'^(?:Al+el+[uúù](?:ia|ya|ja)|Hal+el+u(?:ja|jah))\.?$', re.I)
     for L, langlines in lines.items():
         if not isinstance(langlines, list): continue
         for line in langlines:
@@ -6189,14 +6228,14 @@ def _retype_vel_alleluia_as_response(rt: dict) -> None:
                 if not isinstance(seg, dict): continue
                 if seg.get('type') != 'rubric': continue
                 t = (seg.get('text') or '').strip()
-                if not vel_re.match(t):
+                if not _VEL_RUBRIC_RE.match(t):
                     continue
                 # Next segment in same line should be the Alleluia text
                 if i + 1 < len(line):
                     nxt = line[i + 1]
                     if (isinstance(nxt, dict)
                             and nxt.get('type') == 'text'
-                            and alleluia_re.match((nxt.get('text') or '').strip())):
+                            and _ALLELUIA_VARIANT_RE.match((nxt.get('text') or '').strip())):
                         nxt['type'] = 'response'
 
 
@@ -9034,6 +9073,74 @@ def reset_dir(path: Path) -> None:
 # (devocionario.html and oracoes.html are intentionally not converted — see README.)
 
 
+# ---------------------------------------------------------------------------
+# Multiprocessing workers
+# ---------------------------------------------------------------------------
+#
+# Each spawned worker re-imports this module (spawn semantics, mandatory
+# under macOS / required because bs4+lxml C-state is fork-unsafe), so the
+# module-level constants and compiled regexes are available without any
+# explicit transfer. The lecturas index is moderately large and used by
+# both assembly and OT-ferial synthesis; we set it once per worker via
+# Pool initializer instead of pickling it per task.
+
+_WORKER_LEC_IDX: dict[str, str] = {}
+
+
+def _worker_init(lec_idx: dict[str, str]) -> None:
+    global _WORKER_LEC_IDX
+    _WORKER_LEC_IDX = lec_idx
+
+
+def _assemble_one(args: tuple[str, str, str]) -> Optional[tuple[str, str, str, dict]]:
+    """Worker: load + assemble one (category, base, day_id) into a mass dict."""
+    category, base, d_id = args
+    day = load_v1(category, base, d_id)
+    if not day:
+        return None
+    mass = assemble_mass(category, base, day, _WORKER_LEC_IDX)
+    if not mass:
+        return None
+    if not is_real_mass(mass):
+        return None
+    return (category, base, d_id, mass)
+
+
+def _synth_ot_ferial_one(day_id: str) -> Optional[dict]:
+    """Worker: synthesize a single OT ferial mass shell for `day_id`. Mirrors
+    the per-day inner body of `synthesize_ot_ferial_masses`."""
+    if day_id.startswith("OT"):
+        return None
+    m = _OT_FERIAL_DAY_RE.match(day_id)
+    if not m:
+        return None
+    wd_int = int(m.group(2))
+    if not (1 <= wd_int <= 6):
+        return None
+    week = int(m.group(1))
+    if not (1 <= week <= 34):
+        return None
+    weekday = WEEKDAY_NAMES[wd_int]
+    base = _WORKER_LEC_IDX[day_id]
+    lec_day = load_v1("lecturas", base, day_id)
+    if not lec_day:
+        return None
+    mass: dict[str, Any] = {
+        "id": f"tempore.ordinary-time.week-{week}.{weekday}",
+        "group": "tempore",
+        "season": "ordinary-time",
+        "weekIndex": week,
+        "weekday": weekday,
+    }
+    title_loc = _title_from_lecturas_day(lec_day)
+    if title_loc:
+        mass["title"] = title_loc
+    readings = build_readings(lec_day)
+    if readings:
+        mass["readings"] = readings
+    return mass
+
+
 def main():
     print(f"V1 input : {V1_OUT}")
     print(f"V2 output: {V2_OUT}")
@@ -9060,73 +9167,137 @@ def main():
     masses_by_group: dict[str, list[dict]] = {}
     provenance: dict[str, str] = {}
 
-    for category in ("tiempos", "santos", "comunes_votivas"):
-        for base in list_basenames(category):
-            for d_id in list_day_ids(category, base):
-                day = load_v1(category, base, d_id)
-                if not day:
-                    continue
-                mass = assemble_mass(category, base, day, lec_idx)
-                if not mass:
-                    continue
-                if not is_real_mass(mass):
-                    continue
-                masses_by_group.setdefault(mass["group"], []).append(mass)
-                provenance[mass["id"]] = f"misal_v2/m_<lang>/{category}/m_<lang>_{base}.html#{d_id}"
-
-    # Ordinary Time ferials (Mon-Sat × 34 weeks): no proper Mass formulary in
-    # source, but lecturas have Year I/II readings. Synthesize 204 mass shells
-    # (title + readings + season metadata) from the lecturas index.
-    print("Synthesizing OT ferial masses from lecturas…")
-    ot_ferials = synthesize_ot_ferial_masses(lec_idx)
-    for m in ot_ferials:
-        masses_by_group.setdefault("tempore", []).append(m)
-        provenance[m["id"]] = (
-            f"misal_v2/m_<lang>/lecturas/m_<lang>_lecturas_to_{m['weekIndex']:02d}.html"
+    # One pool, reused for assembly + OT ferials + post-process. Workers run
+    # under spawn (bs4/lxml C-state is fork-unsafe, macOS defaults to spawn
+    # anyway); each re-imports this module on startup, then receives `lec_idx`
+    # via the initializer so subsequent tasks don't re-pickle it. Set
+    # REFINE_WORKERS=1 to fall back to the sequential code path (debugging /
+    # single-mass profiling / safe-mode if a future fix adds shared mutable
+    # state inside a worker call graph).
+    workers = int(os.environ.get("REFINE_WORKERS", min(8, os.cpu_count() or 4)))
+    pool = None
+    if workers > 1:
+        ctx = mp.get_context("spawn")
+        pool = ctx.Pool(
+            processes=workers,
+            initializer=_worker_init,
+            initargs=(lec_idx,),
         )
-    print(f"  added {len(ot_ferials)} OT ferial mass shells")
+    else:
+        # Sequential path: the worker functions read `_WORKER_LEC_IDX`
+        # (normally set by the pool initializer in each worker process).
+        # Without a pool, we have to populate it in the main process so
+        # _assemble_one / _synth_ot_ferial_one see the real index.
+        _worker_init(lec_idx)
+    try:
+        # Phase 1: assemble masses from tiempos/santos/comunes_votivas. Tasks
+        # are independent per (category, base, day_id). imap preserves input
+        # order so masses_by_group and provenance get populated in the same
+        # order as the sequential loop.
+        print("Assembling masses…")
+        t0 = time.perf_counter()
+        assembly_tasks: list[tuple[str, str, str]] = []
+        for category in ("tiempos", "santos", "comunes_votivas"):
+            for base in list_basenames(category):
+                for d_id in list_day_ids(category, base):
+                    assembly_tasks.append((category, base, d_id))
+        if pool is None:
+            results_iter = (_assemble_one(t) for t in assembly_tasks)
+        else:
+            results_iter = pool.imap(_assemble_one, assembly_tasks, chunksize=32)
+        for r in results_iter:
+            if r is None:
+                continue
+            category, base, _, mass = r
+            masses_by_group.setdefault(mass["group"], []).append(mass)
+            provenance[mass["id"]] = f"misal_v2/m_<lang>/{category}/m_<lang>_{base}.html#{r[2]}"
+        print(f"  {sum(len(ms) for ms in masses_by_group.values())} masses assembled in {time.perf_counter() - t0:.1f}s")
 
-    # Regional saints with content embedded directly in m_estructura/santos/*.html
-    # (Brazil, USA, Germany, Spain, Argentina, Chile, Uruguay, Africa, Nigeria, etc.)
-    print("Extracting embedded regional saints from estructura…")
-    embedded = extract_embedded_regional_saints()
-    seen_ids = {m["id"] for ms in masses_by_group.values() for m in ms}
-    added = 0
-    skipped_existing = 0
-    skipped_dup = 0
-    for m in embedded:
-        if m["id"] in seen_ids:
-            # Could be a collision with a universal mass OR a duplicate in the
-            # embedded list (same `dia` id appears in multiple estructura files).
-            if any(mm["id"] == m["id"] for mm in masses_by_group.get("sanctorale", [])):
-                skipped_dup += 1
-            else:
-                skipped_existing += 1
-            continue
-        masses_by_group.setdefault(m["group"], []).append(m)
-        seen_ids.add(m["id"])
-        provenance[m["id"]] = f"misal_v2/m_estructura/santos/m_estructura_santos_*.html#{m.get('id','').split('.')[-1]}"
-        added += 1
-    print(f"  added {added} embedded regional saints (skipped {skipped_existing} colliding with universal, {skipped_dup} duplicates)")
+        # Ordinary Time ferials (Mon-Sat × 34 weeks): no proper Mass formulary
+        # in source, but lecturas have Year I/II readings. Synthesize 204 mass
+        # shells (title + readings + season metadata) from the lecturas index.
+        print("Synthesizing OT ferial masses from lecturas…")
+        t0 = time.perf_counter()
+        ot_day_ids = sorted(lec_idx)
+        if pool is None:
+            ot_results_iter = (_synth_ot_ferial_one(d) for d in ot_day_ids)
+        else:
+            ot_results_iter = pool.imap(_synth_ot_ferial_one, ot_day_ids, chunksize=16)
+        ot_ferials = [m for m in ot_results_iter if m is not None]
+        for m in ot_ferials:
+            masses_by_group.setdefault("tempore", []).append(m)
+            provenance[m["id"]] = (
+                f"misal_v2/m_<lang>/lecturas/m_<lang>_lecturas_to_{m['weekIndex']:02d}.html"
+            )
+        print(f"  added {len(ot_ferials)} OT ferial mass shells in {time.perf_counter() - t0:.1f}s")
 
-    # Post-process every mass before bundling (drops empty shells, normalizes
-    # titles, strips bare-number segments, fixes Latin OCR scannos, ensures
-    # terminal periods, promotes known solemnities, etc.). Done here rather
-    # than per-bundle so index totals reflect the final count.
-    print("Post-processing masses…")
-    dropped_count = 0
-    for group, masses in list(masses_by_group.items()):
-        cleaned = []
-        for m in masses:
-            out = _post_process_mass(m)
-            if out is None:
-                provenance.pop(m.get("id", ""), None)
-                dropped_count += 1
-            else:
-                cleaned.append(out)
-        masses_by_group[group] = cleaned
-    if dropped_count:
-        print(f"  dropped {dropped_count} empty mass shells")
+        # Regional saints with content embedded directly in m_estructura/santos/*.html
+        # (Brazil, USA, Germany, Spain, Argentina, Chile, Uruguay, Africa, Nigeria, etc.)
+        # Reads ~10 HTML files; not parallelized.
+        print("Extracting embedded regional saints from estructura…")
+        embedded = extract_embedded_regional_saints()
+        seen_ids = {m["id"] for ms in masses_by_group.values() for m in ms}
+        added = 0
+        skipped_existing = 0
+        skipped_dup = 0
+        for m in embedded:
+            if m["id"] in seen_ids:
+                # Could be a collision with a universal mass OR a duplicate in
+                # the embedded list (same `dia` id appears in multiple
+                # estructura files).
+                if any(mm["id"] == m["id"] for mm in masses_by_group.get("sanctorale", [])):
+                    skipped_dup += 1
+                else:
+                    skipped_existing += 1
+                continue
+            masses_by_group.setdefault(m["group"], []).append(m)
+            seen_ids.add(m["id"])
+            provenance[m["id"]] = f"misal_v2/m_estructura/santos/m_estructura_santos_*.html#{m.get('id','').split('.')[-1]}"
+            added += 1
+        print(f"  added {added} embedded regional saints (skipped {skipped_existing} colliding with universal, {skipped_dup} duplicates)")
+
+        # Post-process every mass before bundling (drops empty shells,
+        # normalizes titles, strips bare-number segments, fixes Latin OCR
+        # scannos, ensures terminal periods, promotes known solemnities, etc.).
+        # Done here rather than per-bundle so index totals reflect the final
+        # count. Each mass is independent; imap preserves input order so the
+        # downstream sort/bucket logic stays deterministic.
+        flat_in: list[tuple[str, dict]] = [
+            (group, m) for group, masses in masses_by_group.items() for m in masses
+        ]
+        print(f"Post-processing masses ({len(flat_in)} masses, {workers} worker(s))…")
+        t0 = time.perf_counter()
+        new_groups: dict[str, list[dict]] = {g: [] for g in masses_by_group.keys()}
+        dropped_count = 0
+        if pool is None:
+            for group, m in flat_in:
+                out = _post_process_mass(m)
+                if out is None:
+                    provenance.pop(m.get("id", ""), None)
+                    dropped_count += 1
+                else:
+                    new_groups[group].append(out)
+        else:
+            results = pool.imap(
+                _post_process_mass,
+                [m for _, m in flat_in],
+                chunksize=32,
+            )
+            for (group, m), out in zip(flat_in, results):
+                if out is None:
+                    provenance.pop(m.get("id", ""), None)
+                    dropped_count += 1
+                else:
+                    new_groups[group].append(out)
+        masses_by_group = new_groups
+        elapsed = time.perf_counter() - t0
+        print(f"  {len(flat_in) - dropped_count} masses post-processed in {elapsed:.1f}s")
+        if dropped_count:
+            print(f"  dropped {dropped_count} empty mass shells")
+    finally:
+        if pool is not None:
+            pool.close()
+            pool.join()
 
     # Per-mass file layout: id IS the path, with one _index.json per bucket.
     masses_root = V2_OUT / "masses"
