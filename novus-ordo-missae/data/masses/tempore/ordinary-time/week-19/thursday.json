@@ -228,28 +228,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Allelúia. In éxitu Israel de Ægýpto, domus Iacob de pópulo bárbaro, factus est Iuda sanctuárium eius, Israel potéstas eius. ℟. Allelúia. Mare vidit et fugit, Iordánis convérsus est retrórsum; montes saltavérunt ut aríetes, et colles sicut agni óvium. ℟. Allelúia. Quid est tibi, mare, quod fugísti? Et tu, Iordánis, quia convérsus es retrórsum? Montes, quod saltástis sicut aríetes, et colles, sicut agni óvium? ℟. Allelúia.",
-            "es": "℟. Aleluya. Cuando Israel salió de Egipto, los hijos de Jacob de un pueblo balbuciente, Judá fue su santuario, Israel fue su dominio. ℟. Aleluya. El mar, al verlos, huyó; el Jordán se echó atrás; los montes saltaron como carneros; las colinas, como corderos. ℟. Aleluya. ¿Qué te pasa, mar, que huyes, y a ti, Jordán, que te echas atrás? ¿Y a vosotros, montes, que saltáis como carneros; colinas, que saltáis como corderos? ℟. Aleluya.",
-            "en": "℟. Alleluia. When Israel came forth from Egypt, Jacob's sons from an alien people, Judah became the Lord's temple, Israel became his kingdom. ℟. Alleluia. The sea fled at the sight: the Jordan turned back on its course, the mountains leapt like rams and the hills like yearling sheep. ℟. Alleluia. Why was it, sea, that you fled, that you turned back, Jordan, on your course? Mountains, that you leapt like rams, hills, like yearling sheep? ℟. Alleluia.",
-            "pt-BR": "℟. Aleluia. Quando o povo de Israel saiu do Egito, e os filhos de Jacó, de um povo estranho, Judá tornou-se o templo do Senhor, e Israel se transformou em seu domínio. ℟. Aleluia. O mar, à vista disso, pôs-se em fuga, e as águas do Jordão retrocederam; as montanhas deram pulos como ovelhas, e as colinas, parecendo cordeirinhos. ℟. Aleluia. Ó mar, o que tens tu, para fugir? E tu, Jordão, por que recuas deste modo? Por que dais pulos como ovelhas, ó montanhas? E vós, colinas, parecendo cordeirinhos? ℟. Aleluia.",
-            "it": "℟. Alleluia. Quando Israele uscì dall’Egitto, la casa di Giacobbe da un popolo barbaro, Giuda divenne il suo santuario, Israele il suo dominio. ℟. Alleluia. Il mare vide e si ritrasse, il Giordano si volse indietro, le montagne saltellarono come arieti, le colline come agnelli di un gregge. ℟. Alleluia. Che hai tu, mare, per fuggire, e tu, Giordano, per volgerti indietro? Perché voi, montagne, saltellate come arieti e voi, colline, come agnelli di un gregge? ℟. Alleluia.",
-            "fr": "℟. Alléluia Quand Israël sortit d’Égypte, et Jacob, de chez un peuple étranger, Juda fut pour Dieu un sanctuaire, Israël devint son domaine. ℟. Alléluia La mer voit et s’enfuit, le Jourdain retourne en arrière. Comme des béliers, bondissent les montagnes, et les collines, comme des agneaux. ℟. Alléluia Qu’as-tu, mer, à t’enfuir, Jourdain, à retourner en arrière ? Montagnes, pourquoi bondir comme des béliers, collines, comme des agneaux ? ℟. Alléluia",
-            "de": "℟. Halleluja. Als Israel aus Ägypten auszog, Jakobs Haus aus dem Volk mit fremder Sprache, da wurde Juda Gottes Heiligtum, Israel das Gebiet seiner Herrschaft. ℟. Halleluja. Das Meer sah es und floh, der Jordan wich zurück. Die Berge hüpften wie Widder, die Hügel wie junge Lämmer. ℟. Halleluja. Was ist mit dir, Meer, dass du fliehst, und mit dir, Jordan, dass du zurückweichst? Ihr Berge, was hüpft ihr wie Widder, und ihr Hügel, wie junge Lämmer? ℟. Halleluja."
-          },
-          "lines": {
+        "citation": {
+          "de": "Ps 114",
+          "la": "Ps 114",
+          "en": "Ps 114",
+          "es": "Sal 114",
+          "pt-BR": "Sl 114",
+          "it": "Sal 114",
+          "fr": "Ps 114"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Allelúia."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Aleluya."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "Alleluia."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Aleluia."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Alleluia."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Alléluia"
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Halleluja."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -273,17 +323,9 @@
                   "type": "text",
                   "text": "Israel potéstas eius."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Allelúia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -307,17 +349,9 @@
                   "type": "text",
                   "text": "et colles sicut agni óvium."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Allelúia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -341,29 +375,11 @@
                   "type": "text",
                   "text": "et colles, sicut agni óvium?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Allelúia."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluya."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -387,17 +403,9 @@
                   "type": "text",
                   "text": "Israel fue su dominio."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluya."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -421,17 +429,9 @@
                   "type": "text",
                   "text": "las colinas, como corderos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluya."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -455,61 +455,27 @@
                   "type": "text",
                   "text": "colinas, que saltáis como corderos?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluya."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "When Israel came forth from Egypt, Jacob's sons from an alien people, Judah became the Lord's temple, Israel became his kingdom."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "The sea fled at the sight: the Jordan turned back on its course, the mountains leapt like rams and the hills like yearling sheep."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -521,29 +487,11 @@
                   "type": "text",
                   "text": "Mountains, that you leapt like rams, hills, like yearling sheep?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -567,17 +515,9 @@
                   "type": "text",
                   "text": "e Israel se transformou em seu domínio."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -607,17 +547,9 @@
                   "type": "text",
                   "text": "parecendo cordeirinhos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -647,29 +579,11 @@
                   "type": "text",
                   "text": "parecendo cordeirinhos?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluia."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -693,17 +607,9 @@
                   "type": "text",
                   "text": "Israele il suo dominio."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -727,17 +633,9 @@
                   "type": "text",
                   "text": "le colline come agnelli di un gregge."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -755,29 +653,11 @@
                   "type": "text",
                   "text": "Perché voi, montagne, saltellate come arieti e voi, colline, come agnelli di un gregge?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Alleluia."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Quand Israël sortit d’Égypte,"
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -795,17 +675,9 @@
                   "type": "text",
                   "text": "Israël devint son domaine."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia La mer voit et s’enfuit,"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -823,17 +695,9 @@
                   "type": "text",
                   "text": "et les collines, comme des agneaux."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Qu’as-tu, mer, à t’enfuir,"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -851,29 +715,11 @@
                   "type": "text",
                   "text": "collines, comme des agneaux ?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -897,17 +743,9 @@
                   "type": "text",
                   "text": "Israel das Gebiet seiner Herrschaft."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -931,17 +769,9 @@
                   "type": "text",
                   "text": "die Hügel wie junge Lämmer."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -971,28 +801,9 @@
                   "type": "text",
                   "text": "wie junge Lämmer?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Halleluja."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "de": "Ps 114",
-          "la": "Ps 114",
-          "en": "Ps 114",
-          "es": "Sal 114",
-          "pt-BR": "Sl 114",
-          "it": "Sal 114",
-          "fr": "Ps 114"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -1016,7 +827,9 @@
                 {
                   "type": "reference",
                   "text": "Ps 118, 135"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Fáciem tuam illúmina super servum tuum, et doce me iustificatiónes tuas. Allelúia."
@@ -1032,7 +845,9 @@
                 {
                   "type": "reference",
                   "text": "Ps 118, 135"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Haz brillar tu rostro sobre tu siervo, enséñame tus decretos. Aleluya."
@@ -1549,28 +1364,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Ne obliviscámini óperum Dei! Et tentavérunt et exacerbavérunt Deum Excélsum, et testimónia eius non custodiérunt. Recessérunt et prævaricáti sunt, quemádmodum patres eórum, convérsi sunt retro ut arcus pravus. ℟. Ne obliviscámini óperum Dei! In iram concitavérunt eum in cóllibus suis, et in sculptílibus suis ad æmulatiónem eum provocavérunt. Audívit Deus et exársit, et sprevit valde Israel. ℟. Ne obliviscámini óperum Dei! Et trádidit in captivitátem virtútem suam, et pulchritúdinem suam in manus inimíci. Et conclúsit in gládio pópulum suum, et in hereditátem suam exársit. ℟. Ne obliviscámini óperum Dei!",
-            "es": "℟. ¡No olvidéis las acciones del Señor! Ellos tentaron al Dios altísimo y se rebelaron, negándose a guardar sus preceptos; desertaron y traicionaron como sus padres, fallaron como un arco engañoso. ℟. ¡No olvidéis las acciones del Señor! Con sus altozanos lo irritaban, con sus ídolos provocaban sus celos. Dios lo oyó y se indignó y rechazó totalmente a Israel. ℟. ¡No olvidéis las acciones del Señor! Abandonó sus valientes al cautiverio, su orgullo a las manos enemigas; entregó su pueblo a la espada, encolerizado contra su heredad. ℟. ¡No olvidéis las acciones del Señor!",
-            "en": "℟. Do not forget the works of the Lord! They put God to the proof and defied him; they refused to obey the Most High. They strayed, as faithless as their fathers, like a bow on which the archer cannot count. ℟. Do not forget the works of the Lord! With their mountain shrines they angered him; made him jealous with the idols they served. God saw and was filled with fury: he utterly rejected Israel. ℟. Do not forget the works of the Lord! He gave his ark into captivity, his glorious ark into the hand of the foe. He gave up his people to the sword, in his anger against his chosen ones. ℟. Do not forget the works of the Lord!",
-            "pt-BR": "℟. Das obras do Senhor não se esqueçam. Mesmo assim, eles tentaram o Altíssimo, recusando-se a guardar os seus preceitos. Como seus pais, se transviaram, e o traíram como um arco enganador que volta atrás. ℟. Das obras do Senhor não se esqueçam. Irritaram-no com seus lugares altos, provocaram-lhe o ciúme com seus ídolos. Deus ouviu e enfureceu-se contra eles, e repeliu com violência a Israel. ℟. Das obras do Senhor não se esqueçam. Entregou a sua arca ao cativeiro, e às mãos do inimigo a sua glória; fez perecer seu povo eleito pela espada, e contra a sua herança enfureceu-se. ℟. Das obras do Senhor não se esqueçam.",
-            "it": "℟. Proclameremo le tue opere, Signore. Si ribellarono a Dio, l’Altissimo, e non osservarono i suoi insegnamenti. Deviarono e tradirono come i loro padri, fallirono come un arco allentato. ℟. Proclameremo le tue opere, Signore. Lo provocarono con le loro alture sacre e con i loro idoli lo resero geloso. Dio udì e s’infiammò, e respinse duramente Israele. ℟. Proclameremo le tue opere, Signore. Ridusse in schiavitù la sua forza, il suo splendore in potere del nemico. Diede il suo popolo in preda alla spada e s’infiammò contro la sua eredità. ℟. Proclameremo le tue opere, Signore.",
-            "fr": "℟. N’oubliez pas les exploits du Seigneur ! Nos pères ont tenté le Dieu Très-Haut, ils refusaient d’observer ses lois ; ils déviaient comme leurs pères, ils désertaient, trahissaient comme un arc infidèle. ℟. N’oubliez pas les exploits du Seigneur ! Leurs hauts lieux le provoquaient, leurs idoles excitaient sa jalousie. Dieu a entendu, il s’emporte, il écarte tout à fait Israël. ℟. N’oubliez pas les exploits du Seigneur ! Il laisse capturer sa gloire, et sa puissance par des mains ennemies. Il livre son peuple à l’épée, contre son héritage, il s’emporte. ℟. N’oubliez pas les exploits du Seigneur !",
-            "de": "℟. Vergesst die Taten Gottes nicht! Sie versuchten Gott und trotzten dem Höchsten; sie hielten seine Satzungen nicht. Wie ihre Väter, fielen sie treulos von ihm ab, sie wandten sich ab wie ein Bogen, der versagt. ℟. Vergesst die Taten Gottes nicht! Sie erbitterten ihn mit ihrem Kult auf den Höhen und reizten seine Eifersucht mit ihren Götzen. Als Gott es sah, war er voll Grimm und sagte sich los von Israel. ℟. Vergesst die Taten Gottes nicht! Er gab seine Macht in Gefangenschaft, seine heilige Lade fiel in die Hand des Feindes. Er lieferte sein Volk dem Schwert aus; er war voll Grimm über sein Eigentum. ℟. Vergesst die Taten Gottes nicht!"
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 77, 56-57. 58-59. 61-62",
+          "es": "Sal 77, 56-57. 58-59. 61-62",
+          "en": "Ps 77:56-57, 58-59, 61-62",
+          "pt-BR": "Sl 77, 56-57. 58-59. 61-62",
+          "de": "Ps 78",
+          "it": "Sal 77, 56-57. 58-59. 61-62",
+          "fr": "Ps 77, 56-57. 58-59. 61-62"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Ne obliviscámini óperum Dei!"
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "¡No olvidéis las acciones del Señor!"
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "Do not forget the works of the Lord!"
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Das obras do Senhor não se esqueçam."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Proclameremo le tue opere, Signore."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "N’oubliez pas les exploits du Seigneur !"
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Vergesst die Taten Gottes nicht!"
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -1600,17 +1465,9 @@
                   "type": "text",
                   "text": "convérsi sunt retro ut arcus pravus."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ne obliviscámini óperum Dei!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1634,17 +1491,9 @@
                   "type": "text",
                   "text": "et sprevit valde Israel."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ne obliviscámini óperum Dei!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1668,29 +1517,11 @@
                   "type": "text",
                   "text": "et in hereditátem suam exársit."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ne obliviscámini óperum Dei!"
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "¡No olvidéis las acciones del Señor!"
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1714,17 +1545,9 @@
                   "type": "text",
                   "text": "fallaron como un arco engañoso."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "¡No olvidéis las acciones del Señor!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1742,17 +1565,9 @@
                   "type": "text",
                   "text": "Dios lo oyó y se indignó y rechazó totalmente a Israel."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "¡No olvidéis las acciones del Señor!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1776,29 +1591,11 @@
                   "type": "text",
                   "text": "encolerizado contra su heredad."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "¡No olvidéis las acciones del Señor!"
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Do not forget the works of the Lord!"
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
@@ -1810,61 +1607,27 @@
                   "type": "text",
                   "text": "They strayed, as faithless as their fathers, like a bow on which the archer cannot count."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Do not forget the works of the Lord!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "With their mountain shrines they angered him; made him jealous with the idols they served. God saw and was filled with fury: he utterly rejected Israel."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Do not forget the works of the Lord!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "He gave his ark into captivity, his glorious ark into the hand of the foe. He gave up his people to the sword, in his anger against his chosen ones."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Do not forget the works of the Lord!"
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Das obras do Senhor não se esqueçam."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -1882,17 +1645,9 @@
                   "type": "text",
                   "text": "Como seus pais, se transviaram, e o traíram como um arco enganador que volta atrás."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Das obras do Senhor não se esqueçam."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1916,17 +1671,9 @@
                   "type": "text",
                   "text": "e repeliu com violência a Israel."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Das obras do Senhor não se esqueçam."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1950,29 +1697,11 @@
                   "type": "text",
                   "text": "e contra a sua herança enfureceu-se."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Das obras do Senhor não se esqueçam."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Proclameremo le tue opere, Signore."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -1996,17 +1725,9 @@
                   "type": "text",
                   "text": "fallirono come un arco allentato."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Proclameremo le tue opere, Signore."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2024,17 +1745,9 @@
                   "type": "text",
                   "text": "e respinse duramente Israele."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Proclameremo le tue opere, Signore."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2052,29 +1765,11 @@
                   "type": "text",
                   "text": "Diede il suo popolo in preda alla spada e s’infiammò contro la sua eredità."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Proclameremo le tue opere, Signore."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "N’oubliez pas les exploits du Seigneur !"
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -2098,17 +1793,9 @@
                   "type": "text",
                   "text": "trahissaient comme un arc infidèle."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "N’oubliez pas les exploits du Seigneur !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2132,17 +1819,9 @@
                   "type": "text",
                   "text": "il écarte tout à fait Israël."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "N’oubliez pas les exploits du Seigneur !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2166,29 +1845,11 @@
                   "type": "text",
                   "text": "contre son héritage, il s’emporte."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "N’oubliez pas les exploits du Seigneur !"
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Vergesst die Taten Gottes nicht!"
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -2212,17 +1873,9 @@
                   "type": "text",
                   "text": "sie wandten sich ab wie ein Bogen, der versagt."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Vergesst die Taten Gottes nicht!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2234,17 +1887,9 @@
                   "type": "text",
                   "text": "Als Gott es sah, war er voll Grimm und sagte sich los von Israel."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Vergesst die Taten Gottes nicht!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2268,28 +1913,9 @@
                   "type": "text",
                   "text": "er war voll Grimm über sein Eigentum."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Vergesst die Taten Gottes nicht!"
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 77, 56-57. 58-59. 61-62",
-          "es": "Sal 77, 56-57. 58-59. 61-62",
-          "en": "Ps 77:56-57, 58-59, 61-62",
-          "pt-BR": "Sl 77, 56-57. 58-59. 61-62",
-          "de": "Ps 78",
-          "it": "Sal 77, 56-57. 58-59. 61-62",
-          "fr": "Ps 77, 56-57. 58-59. 61-62"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -2313,7 +1939,9 @@
                 {
                   "type": "reference",
                   "text": "Ps 118, 135"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Fáciem tuam illúmina super servum tuum, et doce me iustificatiónes tuas. Allelúia."
@@ -2329,7 +1957,9 @@
                 {
                   "type": "reference",
                   "text": "Ps 118, 135"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Haz brillar tu rostro sobre tu siervo, enséñame tus decretos. Aleluya."

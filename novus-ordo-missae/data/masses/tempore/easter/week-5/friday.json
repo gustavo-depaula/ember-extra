@@ -885,40 +885,144 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Confitébor tibi in pópulis, Dómine. vel Allelúia. Parátum cor meum, Deus, parátum cor meum; cantábo et psalmum dicam. Exsúrge, glória mea, exsúrge, psaltérium et cíthara, excitábo auróram. ℟. Confitébor tibi in pópulis, Dómine. vel Allelúia. Confitébor tibi in pópulis, Dómine, et psalmum dicam tibi in natiónibus, quóniam magnificáta est usque ad cælos misericórdia tua, et usque ad nubes véritas tua. Exaltáre super cælos, Deus, super omnem terram glória tua. ℟. Confitébor tibi in pópulis, Dómine. vel Allelúia.",
-            "es": "℟. Te daré gracias ante los pueblos, Señor. o bien: Aleluya. Mi corazón está firme, Dios mío, mi corazón está firme. Voy a cantar y a tocar: despierta, gloria mía; despertad, cítara y arpa; despertaré a la aurora. ℟. Te daré gracias ante los pueblos, Señor. o bien: Aleluya. Te daré gracias ante los pueblos, Señor; tocaré para ti ante las naciones: por tu bondad, que es más grande que los cielos; por tu fidelidad, que alcanza las nubes. Elévate sobre el cielo, Dios mío, y llene la tierra tu gloria. ℟. Te daré gracias ante los pueblos, Señor. o bien: Aleluya.",
-            "en": "℟. I will thank you, Lord, among the peoples. Or: Alleluia. My heart is ready, O God, my heart is ready. I will sing, I will sing your praise. Awake my soul, awake lyre and harp, I awake the dawn. ℟. I will thank you, Lord, among the peoples. Or: Alleluia. I will thank you Lord among the peoples, praise you among the nations; for your love reaches to the heavens and your truth to the skies. O God, arise above the heavens; may your glory shine on earth! ℟. I will thank you, Lord, among the peoples. Or: Alleluia.",
-            "pt-BR": "℟. Vou louvar-vos, Senhor, entre os povos. Ou: Aleluia. Meu coração está pronto, meu Deus, está pronto o meu coração! Vou cantar e tocar para vós: desperta, minha alma, desperta! Despertem a harpa e a lira, eu irei acordar a aurora! ℟. Vou louvar-vos, Senhor, entre os povos. Ou: Aleluia. Vou louvar-vos, Senhor, entre os povos, dar-vos graças, por entre as nações! Vosso amor é mais alto que os céus, mais que as nuvens a vossa verdade! Elevai-vos, ó Deus sobre os céus, vossa glória refulja na terra!. ℟. Vou louvar-vos, Senhor, entre os povos. Ou: Aleluia.",
-            "it": "℟. Ti loderò fra i popoli, Signore. Oppure: Alleluia. Saldo è il mio cuore, o Dio, saldo è il mio cuore. Voglio cantare, voglio inneggiare: svegliati, mio cuore, svegliatevi arpa e cetra, voglio svegliare l’aurora. ℟. Ti loderò fra i popoli, Signore. Oppure: Alleluia. Ti loderò fra i popoli, Signore, a te canterò inni fra le nazioni: grande fino ai cieli è il tuo amore e fino alle nubi la tua fedeltà. Innalzati sopra il cielo, o Dio, su tutta la terra la tua gloria. ℟. Ti loderò fra i popoli, Signore. Oppure: Alleluia.",
-            "fr": "℟. Je te rendrai grâce parmi les peuples, Seigneur. ou Alléluia ! Mon cœur est prêt, mon Dieu, mon cœur est prêt ! Je veux chanter, jouer des hymnes ! Éveille-toi, ma gloire ! Éveillez-vous, harpe, cithare, que j’éveille l’aurore ! ℟. Je te rendrai grâce parmi les peuples, Seigneur. ou Alléluia ! Je te rendrai grâce parmi les peuples, Seigneur, et jouerai mes hymnes en tous pays. Ton amour est plus grand que les cieux, ta vérité, plus haute que les nues. Dieu, lève-toi sur les cieux : que ta gloire domine la terre ! ℟. Je te rendrai grâce parmi les peuples, Seigneur. ou Alléluia !",
-            "de": "℟. Vor den Völkern will ich dich preisen, o Herr. Oder: Halleluja. Mein Herz ist bereit, o Gott, mein Herz ist bereit, ich will dir singen und spielen. Wach auf, meine Seele! Wacht auf, Harfe und Saitenspiel! Ich will das Morgenrot wecken. ℟. Vor den Völkern will ich dich preisen, o Herr. Oder: Halleluja. Ich will dich vor den Völkern preisen, Herr, dir vor den Nationen lobsingen. Denn deine Güte reicht, so weit der Himmel ist, deine Treue, so weit die Wolken ziehn. ℟. Vor den Völkern will ich dich preisen, o Herr. Oder: Halleluja."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 56, 8-9. 10-12",
+          "es": "Sal 56, 8-9. 10-12",
+          "pt-BR": "Sl 56, 8-9. 10-12",
+          "it": "Sal 56, 8-9. 10-12",
+          "de": "Ps 57",
+          "en": "Ps 56:8-9, 10-12",
+          "fr": "Ps 56, 8-9. 10-12"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Confitébor tibi in pópulis, Dómine."
                 }
-              ],
+              ]
+            ],
+            "es": [
               [
                 {
-                  "type": "rubric",
-                  "text": "vel"
+                  "type": "text",
+                  "text": "Te daré gracias ante los pueblos, Señor."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "I will thank you, Lord, among the peoples."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Vou louvar-vos, Senhor, entre os povos."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Ti loderò fra i popoli, Signore."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Je te rendrai grâce parmi les peuples,"
                 }
               ],
               [
                 {
                   "type": "text",
-                  "text": "Allelúia."
+                  "text": "Seigneur."
                 }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Vor den Völkern will ich dich preisen, o Herr."
+                }
+              ]
+            ]
+          },
+          "alternatives": [
+            {
+              "la": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Allelúia."
+                  }
+                ]
               ],
+              "es": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Aleluya."
+                  }
+                ]
+              ],
+              "en": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Alleluia."
+                  }
+                ]
+              ],
+              "pt-BR": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Aleluia."
+                  }
+                ]
+              ],
+              "it": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Alleluia."
+                  }
+                ]
+              ],
+              "fr": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Alléluia !"
+                  }
+                ]
+              ],
+              "de": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Halleluja."
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -954,29 +1058,9 @@
                   "type": "text",
                   "text": "excitábo auróram."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Confitébor tibi in pópulis, Dómine."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "vel"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1012,53 +1096,11 @@
                   "type": "text",
                   "text": "super omnem terram glória tua."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Confitébor tibi in pópulis, Dómine."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "vel"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Te daré gracias ante los pueblos, Señor."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "o bien:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1094,29 +1136,9 @@
                   "type": "text",
                   "text": "despertaré a la aurora."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Te daré gracias ante los pueblos, Señor."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "o bien:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1152,53 +1174,11 @@
                   "type": "text",
                   "text": "y llene la tierra tu gloria."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Te daré gracias ante los pueblos, Señor."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "o bien:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "I will thank you, Lord, among the peoples."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Or:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
@@ -1222,29 +1202,9 @@
                   "type": "text",
                   "text": "I awake the dawn."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "I will thank you, Lord, among the peoples."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Or:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1280,53 +1240,11 @@
                   "type": "text",
                   "text": "may your glory shine on earth!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "I will thank you, Lord, among the peoples."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Or:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Vou louvar-vos, Senhor, entre os povos."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Ou:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluia."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -1362,29 +1280,9 @@
                   "type": "text",
                   "text": "eu irei acordar a aurora!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Vou louvar-vos, Senhor, entre os povos."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Ou:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1420,53 +1318,11 @@
                   "type": "text",
                   "text": "vossa glória refulja na terra!."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Vou louvar-vos, Senhor, entre os povos."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Ou:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluia."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ti loderò fra i popoli, Signore."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oppure:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -1508,29 +1364,9 @@
                   "type": "text",
                   "text": "voglio svegliare l’aurora."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ti loderò fra i popoli, Signore."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oppure:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1560,57 +1396,15 @@
                   "type": "text",
                   "text": "su tutta la terra la tua gloria."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ti loderò fra i popoli, Signore."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oppure:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Je te rendrai grâce parmi les peuples,"
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
-                  "text": "Seigneur."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "ou"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia ! Mon cœur est prêt, mon Dieu,"
+                  "text": "Mon cœur est prêt, mon Dieu,"
                 }
               ],
               [
@@ -1642,33 +1436,13 @@
                   "type": "text",
                   "text": "que j’éveille l’aurore !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Je te rendrai grâce parmi les peuples,"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
-                  "text": "Seigneur."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "ou"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia ! Je te rendrai grâce parmi les peuples, Seigneur,"
+                  "text": "Je te rendrai grâce parmi les peuples, Seigneur,"
                 }
               ],
               [
@@ -1700,57 +1474,11 @@
                   "type": "text",
                   "text": "que ta gloire domine la terre !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Je te rendrai grâce parmi les peuples,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Seigneur."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "ou"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia !"
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Vor den Völkern will ich dich preisen, o Herr."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oder:"
-                },
-                {
-                  "type": "response",
-                  "text": "Halleluja."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -1786,27 +1514,9 @@
                   "type": "text",
                   "text": "Ich will das Morgenrot wecken."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Vor den Völkern will ich dich preisen, o Herr."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oder:"
-                },
-                {
-                  "type": "response",
-                  "text": "Halleluja."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1830,38 +1540,9 @@
                   "type": "text",
                   "text": "deine Treue, so weit die Wolken ziehn."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Vor den Völkern will ich dich preisen, o Herr."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oder:"
-                },
-                {
-                  "type": "response",
-                  "text": "Halleluja."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 56, 8-9. 10-12",
-          "es": "Sal 56, 8-9. 10-12",
-          "pt-BR": "Sl 56, 8-9. 10-12",
-          "it": "Sal 56, 8-9. 10-12",
-          "de": "Ps 57",
-          "en": "Ps 56:8-9, 10-12",
-          "fr": "Ps 56, 8-9. 10-12"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -1885,7 +1566,9 @@
                 {
                   "type": "reference",
                   "text": "Io 15, 15b"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Vos dixi amícos, dicit Dóminus, quia ómnia quæcúmque audívi a Patre meo, nota feci vobis. Allelúia."
@@ -1901,7 +1584,9 @@
                 {
                   "type": "reference",
                   "text": "Jn 15, 15b"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. A vosotros os llamo amigos —dice el Señor— porque todo lo que he oído a mi Padre os lo he dado a conocer. Aleluya."

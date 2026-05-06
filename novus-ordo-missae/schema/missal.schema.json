@@ -267,11 +267,58 @@
         }
       ]
     },
+    "LocalizedLines": {
+      "description": "Per-language line list. Same per-lang surface as RichText.lines but without the joined-plain denormalization. Used by ResponsorialPsalm.",
+      "type": "object",
+      "properties": {
+        "la":    { "type": "array", "items": { "$ref": "#/$defs/Line" } },
+        "en":    { "type": "array", "items": { "$ref": "#/$defs/Line" } },
+        "es":    { "type": "array", "items": { "$ref": "#/$defs/Line" } },
+        "pt-BR": { "type": "array", "items": { "$ref": "#/$defs/Line" } },
+        "it":    { "type": "array", "items": { "$ref": "#/$defs/Line" } },
+        "fr":    { "type": "array", "items": { "$ref": "#/$defs/Line" } },
+        "de":    { "type": "array", "items": { "$ref": "#/$defs/Line" } }
+      },
+      "additionalProperties": false,
+      "minProperties": 1
+    },
+    "PsalmResponsory": {
+      "description": "The refrain. `primary` is the canonical refrain. `alternatives` (when present) holds vel/Or-introduced alternates such as 'Allelúia.' during Eastertide.",
+      "type": "object",
+      "properties": {
+        "primary": { "$ref": "#/$defs/LocalizedLines" },
+        "alternatives": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/LocalizedLines" }
+        }
+      },
+      "required": ["primary"],
+      "additionalProperties": false
+    },
+    "PsalmVerses": {
+      "description": "Per-language verse list. Each verse is an array of Lines; verses occur between responsory recitations. Verse counts may differ across languages because the source typesets stanza groupings independently per lang.",
+      "type": "object",
+      "properties": {
+        "la":    { "type": "array", "items": { "type": "array", "items": { "$ref": "#/$defs/Line" } } },
+        "en":    { "type": "array", "items": { "type": "array", "items": { "$ref": "#/$defs/Line" } } },
+        "es":    { "type": "array", "items": { "type": "array", "items": { "$ref": "#/$defs/Line" } } },
+        "pt-BR": { "type": "array", "items": { "type": "array", "items": { "$ref": "#/$defs/Line" } } },
+        "it":    { "type": "array", "items": { "type": "array", "items": { "$ref": "#/$defs/Line" } } },
+        "fr":    { "type": "array", "items": { "type": "array", "items": { "$ref": "#/$defs/Line" } } },
+        "de":    { "type": "array", "items": { "type": "array", "items": { "$ref": "#/$defs/Line" } } }
+      },
+      "additionalProperties": false,
+      "minProperties": 1
+    },
     "ResponsorialPsalm": {
       "type": "object",
       "properties": {
-        "body": {
-          "$ref": "#/$defs/RichText"
+        "responsory": {
+          "$ref": "#/$defs/PsalmResponsory"
+        },
+        "verses": {
+          "$ref": "#/$defs/PsalmVerses"
         },
         "label": {
           "$ref": "#/$defs/Localized"
@@ -281,7 +328,8 @@
         }
       },
       "required": [
-        "body"
+        "responsory",
+        "verses"
       ],
       "additionalProperties": false
     },

@@ -228,28 +228,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Dóminus benedícet pópulo suo in pace. Afférte Dómino, fílii Dei, afférte Dómino glóriam nóminis eius, adoráte Dóminum in splendóre sancto. ℟. Dóminus benedícet pópulo suo in pace. Vox Dómini super aquas: Dóminus super aquas multas. Vox Dómini in virtúte, vox Dómini in magnificéntia. ℟. Dóminus benedícet pópulo suo in pace. Deus maiestátis intónuit: et in templo eius omnes dicent glóriam. Dóminus super dilúvium hábitat, et sedébit Dóminus rex in ætérnum. ℟. Dóminus benedícet pópulo suo in pace.",
-            "es": "℟. El Señor bendice a su pueblo con la paz. Hijos de Dios, aclamad al Señor, aclamad la gloria del nombre del Señor, postraos ante el Señor en el atrio sagrado. ℟. El Señor bendice a su pueblo con la paz. La voz del Señor sobre las aguas, el Señor sobre las aguas torrenciales. La voz del Señor es potente, la voz del Señor es magnífica. ℟. El Señor bendice a su pueblo con la paz. El Dios de la gloria ha tronado. En su templo, un grito unánime: «¡Gloria!». El Señor se sienta sobre las aguas del diluvio, el Señor se sienta como rey eterno. ℟. El Señor bendice a su pueblo con la paz.",
-            "en": "℟. The Lord will bless his people with peace. O give the Lord you sons of God, give the Lord glory and power; give the Lord the glory of his name. Adore the Lord in his holy court. ℟. The Lord will bless his people with peace. The Lord's voice resounding on the waters, the Lord on the immensity of waters; the voice of the Lord, full of power, the voice of the Lord, full of splendor. ℟. The Lord will bless his people with peace. The God of glory thunders. In his temple they all cry: 'Glory!' The Lord sat enthroned over the flood; the Lord sits as king for ever. ℟. The Lord will bless his people with peace.",
-            "pt-BR": "℟. Que o Senhor abençoe, com a paz, o seu povo! Filhos de Deus, tributai ao Senhor, tributai-lhe a glória e o poder! Dai-lhe a glória devida ao seu nome; adorai-o com santo ornamento. ℟. Que o Senhor abençoe, com a paz, o seu povo! Eis a voz do Senhor sobre as águas, sua voz sobre as águas imensas! Eis a voz do Senhor com poder! Eis a voz do Senhor majestosa. ℟. Que o Senhor abençoe, com a paz, o seu povo! Sua voz no trovão reboando! No seu templo os fiéis bradam: \"Glória!\" É o Senhor que domina os dilúvios, o Senhor reinará para sempre! ℟. Que o Senhor abençoe, com a paz, o seu povo.",
-            "it": "℟. Il Signore benedirà il suo popolo con la pace. Date al Signore, figli di Dio, date al Signore gloria e potenza. Date al Signore la gloria del suo nome, prostratevi al Signore nel suo atrio santo. ℟. Il Signore benedirà il suo popolo con la pace. La voce del Signore è sopra le acque, il Signore sulle grandi acque. La voce del Signore è forza, la voce del Signore è potenza. ℟. Il Signore benedirà il suo popolo con la pace. Tuona il Dio della gloria, nel suo tempio tutti dicono: «Gloria!». Il Signore è seduto sull’oceano del cielo, il Signore siede re per sempre. ℟. Il Signore benedirà il suo popolo con la pace.",
-            "fr": "℟. Le Seigneur bénit son peuple en lui donnant la paix. Rendez au Seigneur, vous, les dieux, rendez au Seigneur gloire et puissance. Rendez au Seigneur la gloire de son nom, adorez le Seigneur, éblouissant de sainteté. ℟. Le Seigneur bénit son peuple en lui donnant la paix. La voix du Seigneur domine les eaux, le Seigneur domine la masse des eaux. Voix du Seigneur dans sa force, voix du Seigneur qui éblouit. ℟. Le Seigneur bénit son peuple en lui donnant la paix. Le Dieu de la gloire déchaîne le tonnerre, et tous dans son temple s’écrient : « Gloire ! » Au déluge le Seigneur a siégé ; il siège, le Seigneur, il est roi pour toujours ! ℟. Le Seigneur bénit son peuple en lui donnant la paix.",
-            "de": "℟. Der Herr schenkt seinem Volk den Frieden. Bringt dar dem Herrn, ihr Himmlischen, bringt dar dem Herrn Lob und Ehre! Bringt dar dem Herrn die Ehre seines Namens, werft euch nieder vor dem Herrn in heiligem Schmuck! ℟. Der Herr schenkt seinem Volk den Frieden. Die Stimme des Herrn erschallt über den Wassern, der Herr über gewaltigen Wassern. Die Stimme des Herrn ertönt mit Macht, die Stimme des Herrn voll Majestät. ℟. Der Herr schenkt seinem Volk den Frieden. Der Gott der Herrlichkeit donnert. In seinem Palast rufen alle: O herrlicher Gott! Der Herr thront über der Flut, der Herr thront als König in Ewigkeit. ℟. Der Herr schenkt seinem Volk den Frieden."
-          },
-          "lines": {
+        "citation": {
+          "pt-BR": "Sl 28",
+          "de": "Ps 29",
+          "la": "Ps 28",
+          "en": "Ps 28",
+          "es": "Sal 28",
+          "it": "Sal 28",
+          "fr": "Ps 28"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Dóminus benedícet pópulo suo in pace."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "El Señor bendice a su pueblo con la paz."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "The Lord will bless his people with peace."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Que o Senhor abençoe, com a paz, o seu povo."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Il Signore benedirà il suo popolo con la pace."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Le Seigneur bénit son peuple en lui donnant la paix."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Der Herr schenkt seinem Volk den Frieden."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -267,17 +317,9 @@
                   "type": "text",
                   "text": "adoráte Dóminum in splendóre sancto."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dóminus benedícet pópulo suo in pace."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -301,17 +343,9 @@
                   "type": "text",
                   "text": "vox Dómini in magnificéntia."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dóminus benedícet pópulo suo in pace."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -335,29 +369,11 @@
                   "type": "text",
                   "text": "et sedébit Dóminus rex in ætérnum."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dóminus benedícet pópulo suo in pace."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor bendice a su pueblo con la paz."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -375,17 +391,9 @@
                   "type": "text",
                   "text": "postraos ante el Señor en el atrio sagrado."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor bendice a su pueblo con la paz."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -409,17 +417,9 @@
                   "type": "text",
                   "text": "la voz del Señor es magnífica."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor bendice a su pueblo con la paz."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -449,89 +449,37 @@
                   "type": "text",
                   "text": "el Señor se sienta como rey eterno."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor bendice a su pueblo con la paz."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord will bless his people with peace."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "O give the Lord you sons of God, give the Lord glory and power; give the Lord the glory of his name. Adore the Lord in his holy court."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord will bless his people with peace."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "The Lord's voice resounding on the waters, the Lord on the immensity of waters; the voice of the Lord, full of power, the voice of the Lord, full of splendor."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord will bless his people with peace."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "The God of glory thunders. In his temple they all cry: 'Glory!' The Lord sat enthroned over the flood; the Lord sits as king for ever."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord will bless his people with peace."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Que o Senhor abençoe, com a paz, o seu povo!"
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -555,17 +503,9 @@
                   "type": "text",
                   "text": "adorai-o com santo ornamento."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Que o Senhor abençoe, com a paz, o seu povo!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -589,17 +529,9 @@
                   "type": "text",
                   "text": "Eis a voz do Senhor majestosa."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Que o Senhor abençoe, com a paz, o seu povo!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -623,29 +555,11 @@
                   "type": "text",
                   "text": "o Senhor reinará para sempre!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Que o Senhor abençoe, com a paz, o seu povo."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore benedirà il suo popolo con la pace."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -669,17 +583,9 @@
                   "type": "text",
                   "text": "prostratevi al Signore nel suo atrio santo."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore benedirà il suo popolo con la pace."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -703,17 +609,9 @@
                   "type": "text",
                   "text": "la voce del Signore è potenza."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore benedirà il suo popolo con la pace."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -737,29 +635,11 @@
                   "type": "text",
                   "text": "il Signore siede re per sempre."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore benedirà il suo popolo con la pace."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur bénit son peuple en lui donnant la paix."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -783,17 +663,9 @@
                   "type": "text",
                   "text": "adorez le Seigneur, éblouissant de sainteté."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur bénit son peuple en lui donnant la paix."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -817,17 +689,9 @@
                   "type": "text",
                   "text": "voix du Seigneur qui éblouit."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur bénit son peuple en lui donnant la paix."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -851,29 +715,11 @@
                   "type": "text",
                   "text": "il siège, le Seigneur, il est roi pour toujours !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur bénit son peuple en lui donnant la paix."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Herr schenkt seinem Volk den Frieden."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -897,17 +743,9 @@
                   "type": "text",
                   "text": "werft euch nieder vor dem Herrn in heiligem Schmuck!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Herr schenkt seinem Volk den Frieden."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -931,17 +769,9 @@
                   "type": "text",
                   "text": "die Stimme des Herrn voll Majestät."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Herr schenkt seinem Volk den Frieden."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -965,28 +795,9 @@
                   "type": "text",
                   "text": "der Herr thront als König in Ewigkeit."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Herr schenkt seinem Volk den Frieden."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "pt-BR": "Sl 28",
-          "de": "Ps 29",
-          "la": "Ps 28",
-          "en": "Ps 28",
-          "es": "Sal 28",
-          "it": "Sal 28",
-          "fr": "Ps 28"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -1010,7 +821,9 @@
                 {
                   "type": "reference",
                   "text": "Io 14, 23"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Si quis díligit me, sermónem meum servábit, dicit Dóminus, et Pater meus díliget eum, et ad eum veniémus. Allelúia."
@@ -1026,7 +839,9 @@
                 {
                   "type": "reference",
                   "text": "Jn 14, 23"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. El que me ama guardará mi palabra —dice el Señor—, y mi Padre lo amará, y vendremos a él. Aleluya."
@@ -1543,28 +1358,84 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Beátus homo quem tu erudíeris, Dómine. Beátus homo, quem tu erudíeris, Dómine, et de lege tua docúeris eum, ut mítiges ei a diébus malis. ℟. Beátus homo quem tu erudíeris, Dómine. Quia non repéllet Dóminus plebem suam, et hereditátem suam non derelínquet. Quia ad iustítiam revertétur iudícium, et sequéntur illam omnes qui recto sunt corde. ℟. Beátus homo quem tu erudíeris, Dómine. Si dicébam: «Motus est pes meus», misericórdia tua, Dómine, sustentábat me. In multitúdine sollicitúdinum meárum in corde meo, consolatiónes tuæ lætificavérunt ánimam meam. ℟. Beátus homo quem tu erudíeris, Dómine.",
-            "es": "℟. Dichoso el hombre a quien tú educas, Señor. Dichoso el hombre a quien tú educas, al que enseñas tu ley, dándole descanso tras los años duros. ℟. Dichoso el hombre a quien tú educas, Señor. Porque el Señor no rechaza a su pueblo, ni abandona su heredad: el juicio retornará a la justicia, y la seguirán todos los rectos de corazón. ℟. Dichoso el hombre a quien tú educas, Señor. Cuando pensaba que iba a tropezar, tu misericordia, Señor, me sostenía; cuando se multiplican mis preocupaciones, tus consuelos son mi delicia. ℟. Dichoso el hombre a quien tú educas, Señor.",
-            "en": "℟. Happy the man you teach, O Lord. Happy the man whom you teach, O Lord, whom you train by means of your law: to him you give peace in evil days. ℟. Happy the man you teach, O Lord. The Lord will not abandon his people nor forsake those who are his own; for judgment shall again be just and all true hearts shall uphold it. ℟. Happy the man you teach, O Lord. When I think: 'I have lost my foothold', your mercy, Lord, holds me up. When cares increase in my heart your consolation calms my soul. ℟. Happy the man you teach, O Lord.",
-            "pt-BR": "℟. Bem-aventurado é aquele a quem ensinais vossa lei! É feliz, ó Senhor, quem formais e educais nos caminhos da Lei, para dar-lhe um alívio na angústia. ℟. Bem-aventurado é aquele a quem ensinais vossa lei! O Senhor não rejeita o seu povo e não pode esquecer sua herança: voltarão a juízo as sentenças; quem é reto andará na justiça. ℟. Bem-aventurado é aquele a quem ensinais vossa lei! Quando eu penso: \"Estou quase caindo!\" Vosso amor me sustenta, Senhor! Quando o meu coração se angustia, consolais e alegrais minha alma. ℟. Bem-aventurado é aquele a quem ensinais vossa lei!",
-            "it": "℟. Beato l’uomo a cui insegni la tua legge, Signore. Beato l’uomo che tu castighi, Signore, e a cui insegni la tua legge, per dargli riposo nei giorni di sventura. ℟. Beato l’uomo a cui insegni la tua legge, Signore. Poiché il Signore non respinge il suo popolo e non abbandona la sua eredità, il giudizio ritornerà a essere giusto e lo seguiranno tutti i retti di cuore ℟. Beato l’uomo a cui insegni la tua legge, Signore. Quando dicevo: «Il mio piede vacilla», la tua fedeltà, Signore, mi ha sostenuto. Nel mio intimo, fra molte preoccupazioni, il tuo conforto mi ha allietato. ℟. Beato l’uomo a cui insegni la tua legge, Signore.",
-            "fr": "℟. Heureux l’homme que tu châties, Seigneur. Heureux l’homme que tu châties, Seigneur, celui que tu enseignes par ta loi, pour le garder en paix aux jours de malheur, tandis que se creuse la fosse de l’impie. ℟. Heureux l’homme que tu châties, Seigneur. Car le Seigneur ne délaisse pas son peuple, il n’abandonne pas son domaine : on jugera de nouveau selon la justice ; tous les hommes droits applaudiront. ℟. Heureux l’homme que tu châties, Seigneur. Quand je dis : « Mon pied trébuche ! », ton amour, Seigneur, me soutient. Quand d’innombrables soucis m’envahissent, tu me réconfortes et me consoles. ℟. Heureux l’homme que tu châties, Seigneur.",
-            "de": "℟. Selig der Mensch, den du erziehst, o Herr. Wohl dem Mann, den du, Herr, erziehst, den du mit deiner Weisung belehrst. Du bewahrst ihn vor bösen Tagen, bis man dem Frevler die Grube gräbt. ℟. Selig der Mensch, den du erziehst, o Herr. Ja, der Herr wird sein Volk nicht verstoßen und niemals sein Erbe verlassen. Nun spricht man wieder Recht nach Gerechtigkeit; ihr folgen alle Menschen mit redlichem Herzen. ℟. Selig der Mensch, den du erziehst, o Herr. Wenn ich sage: „Mein Fuß gleitet aus“, dann stützt mich, Herr, deine Huld. Mehren sich die Sorgen des Herzens, so erquickt dein Trost meine Seele. ℟. Selig der Mensch, den du erziehst, o Herr."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 93, 12-13a. 14-15. 18-19",
+          "es": "Sal 93, 12-13a. 14-15. 18-19",
+          "en": "Ps 93:12-13a, 14-15, 18-19",
+          "pt-BR": "Sl 93, 12-13a. 14-15. 18-19",
+          "de": "Ps 94",
+          "it": "Sal 93, 12-13a. 14-15. 18-19",
+          "fr": "Ps 93, 12-13a. 14-15. 18-19"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Beátus homo quem tu erudíeris, Dómine."
                 }
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Dichoso el hombre a quien tú educas, Señor."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "Happy the man you teach, O Lord."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Bem-aventurado é aquele a quem ensinais vossa lei!"
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Beato l’uomo a cui insegni la tua legge,"
+                }
               ],
+              [
+                {
+                  "type": "text",
+                  "text": "Signore."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Heureux l’homme que tu châties, Seigneur."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Selig der Mensch, den du erziehst, o Herr."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -1582,17 +1453,9 @@
                   "type": "text",
                   "text": "ut mítiges ei a diébus malis."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beátus homo quem tu erudíeris, Dómine."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1616,17 +1479,9 @@
                   "type": "text",
                   "text": "et sequéntur illam omnes qui recto sunt corde."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beátus homo quem tu erudíeris, Dómine."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1650,29 +1505,11 @@
                   "type": "text",
                   "text": "consolatiónes tuæ lætificavérunt ánimam meam."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beátus homo quem tu erudíeris, Dómine."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dichoso el hombre a quien tú educas, Señor."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1690,17 +1527,9 @@
                   "type": "text",
                   "text": "dándole descanso tras los años duros."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dichoso el hombre a quien tú educas, Señor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1724,17 +1553,9 @@
                   "type": "text",
                   "text": "y la seguirán todos los rectos de corazón."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dichoso el hombre a quien tú educas, Señor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1758,89 +1579,37 @@
                   "type": "text",
                   "text": "tus consuelos son mi delicia."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dichoso el hombre a quien tú educas, Señor."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Happy the man you teach, O Lord."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "Happy the man whom you teach, O Lord, whom you train by means of your law: to him you give peace in evil days."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Happy the man you teach, O Lord."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "The Lord will not abandon his people nor forsake those who are his own; for judgment shall again be just and all true hearts shall uphold it."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Happy the man you teach, O Lord."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "When I think: 'I have lost my foothold', your mercy, Lord, holds me up. When cares increase in my heart your consolation calms my soul."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Happy the man you teach, O Lord."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Bem-aventurado é aquele a quem ensinais vossa lei!"
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -1852,17 +1621,9 @@
                   "type": "text",
                   "text": "para dar-lhe um alívio na angústia."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Bem-aventurado é aquele a quem ensinais vossa lei!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1880,17 +1641,9 @@
                   "type": "text",
                   "text": "quem é reto andará na justiça."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Bem-aventurado é aquele a quem ensinais vossa lei!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1914,35 +1667,11 @@
                   "type": "text",
                   "text": "consolais e alegrais minha alma."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Bem-aventurado é aquele a quem ensinais vossa lei!"
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beato l’uomo a cui insegni la tua legge,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Signore."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -1960,23 +1689,9 @@
                   "type": "text",
                   "text": "per dargli riposo nei giorni di sventura."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beato l’uomo a cui insegni la tua legge,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Signore."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1988,23 +1703,9 @@
                   "type": "text",
                   "text": "il giudizio ritornerà a essere giusto e lo seguiranno tutti i retti di cuore"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beato l’uomo a cui insegni la tua legge,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Signore."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2028,35 +1729,11 @@
                   "type": "text",
                   "text": "il tuo conforto mi ha allietato."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beato l’uomo a cui insegni la tua legge,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Signore."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Heureux l’homme que tu châties, Seigneur."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -2080,17 +1757,9 @@
                   "type": "text",
                   "text": "tandis que se creuse la fosse de l’impie."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Heureux l’homme que tu châties, Seigneur."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2114,17 +1783,9 @@
                   "type": "text",
                   "text": "tous les hommes droits applaudiront."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Heureux l’homme que tu châties, Seigneur."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2154,29 +1815,11 @@
                   "type": "text",
                   "text": "tu me réconfortes et me consoles."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Heureux l’homme que tu châties, Seigneur."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Selig der Mensch, den du erziehst, o Herr."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -2200,17 +1843,9 @@
                   "type": "text",
                   "text": "bis man dem Frevler die Grube gräbt."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Selig der Mensch, den du erziehst, o Herr."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2228,17 +1863,9 @@
                   "type": "text",
                   "text": "ihr folgen alle Menschen mit redlichem Herzen."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Selig der Mensch, den du erziehst, o Herr."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2262,28 +1889,9 @@
                   "type": "text",
                   "text": "so erquickt dein Trost meine Seele."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Selig der Mensch, den du erziehst, o Herr."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 93, 12-13a. 14-15. 18-19",
-          "es": "Sal 93, 12-13a. 14-15. 18-19",
-          "en": "Ps 93:12-13a, 14-15, 18-19",
-          "pt-BR": "Sl 93, 12-13a. 14-15. 18-19",
-          "de": "Ps 94",
-          "it": "Sal 93, 12-13a. 14-15. 18-19",
-          "fr": "Ps 93, 12-13a. 14-15. 18-19"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -2307,7 +1915,9 @@
                 {
                   "type": "reference",
                   "text": "Io 14, 23"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Si quis díligit me, sermónem meum servábit, dicit Dóminus, et Pater meus díliget eum, et ad eum veniémus. Allelúia."
@@ -2323,7 +1933,9 @@
                 {
                   "type": "reference",
                   "text": "Jn 14, 23"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. El que me ama guardará mi palabra —dice el Señor—, y mi Padre lo amará, y vendremos a él. Aleluya."

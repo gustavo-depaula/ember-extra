@@ -263,106 +263,19 @@
   "readings": {
     "default": {
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Custódi ánimam meam in pace apud te, Dómine. Dómine, non est exaltátum cor meum, neque eláti sunt óculi mei; neque ambulávi in magnis, neque in mirabílibus super me. ℟. Custódi ánimam meam in pace apud te, Dómine. Vere pacátam et quiétam feci ánimam meam, sicut ablactátus in sinu matris suæ, sicut ablactátus, ita in me est ánima mea. ℟. Custódi ánimam meam in pace apud te, Dómine. Speret Israel in Dómino, ex hoc nunc et usque in sǽculum. ℟. Custódi ánimam meam in pace apud te, Dómine.",
-            "es": "℟. Guarda mi alma en la paz, junto a ti, Señor. Señor, mi corazón no es ambicioso, ni mis ojos altaneros; no pretendo grandezas que superan mi capacidad. ℟. Guarda mi alma en la paz, junto a ti, Señor. Sino que acallo y modero mis deseos, como un niño en brazos de su madre; como un niño saciado así está mi alma dentro de mí. ℟. Guarda mi alma en la paz, junto a ti, Señor. Espere Israel en el Señor ahora y por siempre. ℟. Guarda mi alma en la paz, junto a ti, Señor.",
-            "en": "℟. In you, Lord, I have found my peace. O Lord, my heart is not proud nor haughty my eyes. I have not gone after things too great nor marvels beyond me. Truly I have set my soul in silence and peace. A weaned child on its mother's breast, even so is my soul. O Israel, hope in the Lord both now and for ever.",
-            "pt-BR": "℟. Guardai-me, em paz, junto a vós, ó Senhor! Senhor, meu coração não é orgulhoso, nem se eleva arrogante o meu olhar: Não ando à procura de grandezas, nem tenho pretensões ambiciosas!. ℟. Guardai-me, em paz, junto a vós, ó Senhor! Fiz calar e sossegar a minha alma; ela está em grande paz dentro de mim, como a criança bem tranquila, amamentada no regaço acolhedor de sua mãe ℟. Guardai-me, em paz, junto a vós, ó Senhor! Confia no Senhor, ó Israel, desde agora e por toda a eternidade! ℟. Guardai-me, em paz, junto a vós, ó Senhor!",
-            "fr": "℟. Garde mon âme dans la paix près de toi, Seigneur. Seigneur, je n’ai pas le cœur fier ni le regard ambitieux ; je ne poursuis ni grands desseins, ni merveilles qui me dépassent. ℟. Garde mon âme dans la paix près de toi, Seigneur. Non, mais je tiens mon âme égale et silencieuse ; mon âme est en moi comme un enfant, comme un petit enfant contre sa mère. ℟. Garde mon âme dans la paix près de toi, Seigneur. Attends le Seigneur, Israël, maintenant et à jamais. ℟. Garde mon âme dans la paix près de toi, Seigneur.",
-            "de": "℟. Herr, bewahre meine Seele in deinem Frieden! Herr, mein Herz ist nicht stolz, nicht hochmütig blicken meine Augen. Ich gehe nicht um mit Dingen, die mir zu wunderbar und zu hoch sind. ℟. Herr, bewahre meine Seele in deinem Frieden! Ich ließ meine Seele ruhig werden und still; wie ein kleines Kind bei der Mutter ist meine Seele still in mir. Israel, harre auf den Herrn von nun an bis in Ewigkeit! ℟. Herr, bewahre meine Seele in deinem Frieden!"
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 130, 1. 2. 3",
+          "es": "Sal 130, 1. 2. 3",
+          "en": "Ps 130:1, 2",
+          "pt-BR": "Sl 130, 1. 2. 3",
+          "de": "Ps 131",
+          "it": "Sal 130, 1. 2. 3",
+          "fr": "Ps 130, 1. 2. 3"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Custódi ánimam meam in pace apud te, Dómine."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Dómine, non est exaltátum cor meum,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "neque eláti sunt óculi mei;"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "neque ambulávi in magnis,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "neque in mirabílibus super me."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Custódi ánimam meam in pace apud te, Dómine."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Vere pacátam et quiétam feci ánimam meam,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "sicut ablactátus in sinu matris suæ,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "sicut ablactátus, ita in me est ánima mea."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Custódi ánimam meam in pace apud te, Dómine."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Speret Israel in Dómino,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "ex hoc nunc et usque in sǽculum."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Custódi ánimam meam in pace apud te, Dómine."
@@ -372,64 +285,6 @@
             "es": [
               [
                 {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Guarda mi alma en la paz, junto a ti, Señor."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Señor, mi corazón no es ambicioso, ni mis ojos altaneros;"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "no pretendo grandezas que superan mi capacidad."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Guarda mi alma en la paz, junto a ti, Señor."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Sino que acallo y modero mis deseos, como un niño en brazos de su madre; como un niño saciado así está mi alma dentro de mí."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Guarda mi alma en la paz, junto a ti, Señor."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Espere Israel en el Señor ahora y por siempre."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
                   "type": "text",
                   "text": "Guarda mi alma en la paz, junto a ti, Señor."
                 }
@@ -437,10 +292,6 @@
             ],
             "en": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "In you, Lord, I have found my peace."
@@ -468,14 +319,126 @@
             "pt-BR": [
               [
                 {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
                   "type": "text",
                   "text": "Guardai-me, em paz, junto a vós, ó Senhor!"
                 }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Garde mon âme dans la paix près de toi, Seigneur."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Herr, bewahre meine Seele in deinem Frieden!"
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Dómine, non est exaltátum cor meum,"
+                }
               ],
+              [
+                {
+                  "type": "text",
+                  "text": "neque eláti sunt óculi mei;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "neque ambulávi in magnis,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "neque in mirabílibus super me."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Vere pacátam et quiétam feci ánimam meam,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "sicut ablactátus in sinu matris suæ,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "sicut ablactátus, ita in me est ánima mea."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Speret Israel in Dómino,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "ex hoc nunc et usque in sǽculum."
+                }
+              ]
+            ]
+          ],
+          "es": [
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Señor, mi corazón no es ambicioso, ni mis ojos altaneros;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "no pretendo grandezas que superan mi capacidad."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Sino que acallo y modero mis deseos, como un niño en brazos de su madre; como un niño saciado así está mi alma dentro de mí."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Espere Israel en el Señor ahora y por siempre."
+                }
+              ]
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -499,17 +462,9 @@
                   "type": "text",
                   "text": "nem tenho pretensões ambiciosas!."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Guardai-me, em paz, junto a vós, ó Senhor!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -527,17 +482,9 @@
                   "type": "text",
                   "text": "como a criança bem tranquila, amamentada no regaço acolhedor de sua mãe"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Guardai-me, em paz, junto a vós, ó Senhor!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -549,29 +496,11 @@
                   "type": "text",
                   "text": "desde agora e por toda a eternidade!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Guardai-me, em paz, junto a vós, ó Senhor!"
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Garde mon âme dans la paix près de toi, Seigneur."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -589,17 +518,9 @@
                   "type": "text",
                   "text": "ni merveilles qui me dépassent."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Garde mon âme dans la paix près de toi, Seigneur."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -617,17 +538,9 @@
                   "type": "text",
                   "text": "comme un petit enfant contre sa mère."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Garde mon âme dans la paix près de toi, Seigneur."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -639,29 +552,11 @@
                   "type": "text",
                   "text": "maintenant et à jamais."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Garde mon âme dans la paix près de toi, Seigneur."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, bewahre meine Seele in deinem Frieden!"
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -685,17 +580,9 @@
                   "type": "text",
                   "text": "die mir zu wunderbar und zu hoch sind."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, bewahre meine Seele in deinem Frieden!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -713,28 +600,9 @@
                   "type": "text",
                   "text": "Israel, harre auf den Herrn von nun an bis in Ewigkeit!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, bewahre meine Seele in deinem Frieden!"
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 130, 1. 2. 3",
-          "es": "Sal 130, 1. 2. 3",
-          "en": "Ps 130:1, 2",
-          "pt-BR": "Sl 130, 1. 2. 3",
-          "de": "Ps 131",
-          "it": "Sal 130, 1. 2. 3",
-          "fr": "Ps 130, 1. 2. 3"
+          ]
         }
       }
     }

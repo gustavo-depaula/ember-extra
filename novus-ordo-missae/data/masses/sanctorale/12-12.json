@@ -535,28 +535,84 @@
         ]
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Tu laus magna géneris nostri. Benedícta tu es, fília, a Deo excélso præ ómnibus muliéribus, quæ sunt super terram. Et benedíctus Dóminus Deus noster, qui creávit cælum et terram. ℟. Tu laus magna géneris nostri. Quóniam non discédet laus tua a corde hóminum memorántium virtútis Dei usque in sempitérnum. ℟. Tu laus magna géneris nostri.",
-            "es": "℟. Tú eres el honor de nuestro pueblo. Hija, que el Dios altísimo te bendiga entre todas las mujeres de la tierra. Alabado sea el Señor, el Dios que creó el cielo y la tierra. ℟. Tú eres el honor de nuestro pueblo. Tu esperanza permanecerá en el corazón de los hombres que recuerdan el poder de Dios por siempre. ℟. Tú eres el honor de nuestro pueblo.",
-            "en": "℟. You are the great boast of our nation! Blessed are you, daughter, by the Most High God, above all the women on earth; and blessed be the Lord God, the creator of heaven and earth. ℟. You are the great boast of our nation! ℟. You are the great boast of our nation!",
-            "pt-BR": "℟. Manifestai a sua glória entre as nações. Bendito é o Senhor, nosso Deus, que criou toda a terra e os céus, e te levou a decepar a cabeça do chefe dos nossos inimigos! ℟. Manifestai a sua glória entre as nações. A esperança de que deste prova jamais deixará o coração de todos que hão de lembrar-se do poder do Senhor para sempre. ℟. Manifestai a sua glória entre as nações.",
-            "it": "℟. Tu sei splendido onore della nostra gente. Benedetta sei tu, figlia, davanti al Dio altissimo più di tutte le donne che vivono sulla terra, e benedetto il Signore Dio che ha creato il cielo e la terra. ℟. Tu sei splendido onore della nostra gente. Davvero il coraggio che ti ha sostenuto non sarà dimenticato dagli uomini, che ricorderanno per sempre la potenza di Dio. ℟. Tu sei splendido onore della nostra gente.",
-            "fr": "℟. Tu es la joie, tu es l’honneur de notre peuple, Vierge Marie. Bénie sois-tu, ma fille, par le Dieu Très-Haut plus que toutes les femmes de la terre ; et béni soit le Seigneur Dieu, Créateur du ciel et de la terre. ℟. Tu es la joie, tu es l’honneur de notre peuple, Vierge Marie. Car le Seigneur t’a dirigée pour frapper à la tête le chef de nos ennemis. Jamais l’espérance dont tu as fait preuve ne s’éloignera du cœur des hommes, ℟. Tu es la joie, tu es l’honneur de notre peuple, Vierge Marie.",
-            "de": "℟. Du bist der Ruhm Jerusalems, du die Freude Israels und der Stolz unseres Volkes. Gesegnet bist du, meine Tochter, von Gott, dem Allerhöchsten, mehr als alle anderen Frauen auf der Erde. Gepriesen sei der Herr, unser Gott, der Himmel und Erde geschaffen hat. ℟. Du bist der Ruhm Jerusalems, du die Freude Israels und der Stolz unseres Volkes. Die Erinnerung an dein Vertrauen soll in Ewigkeit nicht aus den Herzen der Menschen entschwinden, die sich an die Macht Gottes erinnern. [In der Not unseres Volkes hast du dein Leben nicht geschont, du bist vor unserem Gott auf geradem Weg gegangen.] ℟. Du bist der Ruhm Jerusalems, du die Freude Israels und der Stolz unseres Volkes."
-          },
-          "lines": {
+        "citation": {
+          "pt-BR": "Sl 95",
+          "la": "Ps 95",
+          "en": "Ps 95",
+          "es": "Sal 95",
+          "it": "Sal 95",
+          "fr": "Ps 95",
+          "de": "Ps 95"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Tu laus magna géneris nostri."
                 }
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Tú eres el honor de nuestro pueblo."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "You are the great boast of our nation!"
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Manifestai a sua glória entre as nações."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Tu sei splendido onore della nostra gente."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Tu es la joie, tu es l’honneur de notre peuple,"
+                }
               ],
+              [
+                {
+                  "type": "text",
+                  "text": "Vierge Marie."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Du bist der Ruhm Jerusalems, du die Freude Israels und der Stolz unseres Volkes."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -568,45 +624,19 @@
                   "type": "text",
                   "text": "Et benedíctus Dóminus Deus noster, qui creávit cælum et terram."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Tu laus magna géneris nostri."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Quóniam non discédet laus tua a corde hóminum memorántium virtútis Dei usque in sempitérnum."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Tu laus magna géneris nostri."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Tú eres el honor de nuestro pueblo."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -624,45 +654,19 @@
                   "type": "text",
                   "text": "el Dios que creó el cielo y la tierra."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Tú eres el honor de nuestro pueblo."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Tu esperanza permanecerá en el corazón de los hombres que recuerdan el poder de Dios por siempre."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Tú eres el honor de nuestro pueblo."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "You are the great boast of our nation!"
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
@@ -674,83 +678,29 @@
                   "type": "text",
                   "text": "and blessed be the Lord God, the creator of heaven and earth."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "You are the great boast of our nation!"
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "You are the great boast of our nation!"
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Manifestai a sua glória entre as nações."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
                   "text": "Bendito é o Senhor, nosso Deus, que criou toda a terra e os céus, e te levou a decepar a cabeça do chefe dos nossos inimigos!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Manifestai a sua glória entre as nações."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "A esperança de que deste prova jamais deixará o coração de todos que hão de lembrar-se do poder do Senhor para sempre."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Manifestai a sua glória entre as nações."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Tu sei splendido onore della nostra gente."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -762,17 +712,9 @@
                   "type": "text",
                   "text": "e benedetto il Signore Dio che ha creato il cielo e la terra."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Tu sei splendido onore della nostra gente."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -784,35 +726,11 @@
                   "type": "text",
                   "text": "che ricorderanno per sempre la potenza di Dio."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Tu sei splendido onore della nostra gente."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Tu es la joie, tu es l’honneur de notre peuple,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Vierge Marie."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -830,23 +748,9 @@
                   "type": "text",
                   "text": "Créateur du ciel et de la terre."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Tu es la joie, tu es l’honneur de notre peuple,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Vierge Marie."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -858,35 +762,11 @@
                   "type": "text",
                   "text": "Jamais l’espérance dont tu as fait preuve ne s’éloignera du cœur des hommes,"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Tu es la joie, tu es l’honneur de notre peuple,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Vierge Marie."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Du bist der Ruhm Jerusalems, du die Freude Israels und der Stolz unseres Volkes."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -910,17 +790,9 @@
                   "type": "text",
                   "text": "der Himmel und Erde geschaffen hat."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Du bist der Ruhm Jerusalems, du die Freude Israels und der Stolz unseres Volkes."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -944,28 +816,9 @@
                   "type": "text",
                   "text": "du bist vor unserem Gott auf geradem Weg gegangen.]"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Du bist der Ruhm Jerusalems, du die Freude Israels und der Stolz unseres Volkes."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "pt-BR": "Sl 95",
-          "la": "Ps 95",
-          "en": "Ps 95",
-          "es": "Sal 95",
-          "it": "Sal 95",
-          "fr": "Ps 95",
-          "de": "Ps 95"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -984,7 +837,13 @@
               [
                 {
                   "type": "text",
-                  "text": "Alleluia, allelúia. Felix es, sacra Virgo María, et omni laude digníssima; quia ex te ortus est sol iustítiæ, Christus Deus noster. Allelúia."
+                  "text": "Alleluia"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Allelúia. Felix es, sacra Virgo María, et omni laude digníssima; quia ex te ortus est sol iustítiæ, Christus Deus noster. Allelúia."
                 }
               ]
             ],
@@ -992,7 +851,13 @@
               [
                 {
                   "type": "text",
-                  "text": "Aleluya, aleluya. Dichosa eres, santa Virgen María, y muy digna de toda alabanza: porque de ti salió el sol de justicia, Cristo, nuestro Dios. Aleluya."
+                  "text": "Aleluya"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Aleluya. Dichosa eres, santa Virgen María, y muy digna de toda alabanza: porque de ti salió el sol de justicia, Cristo, nuestro Dios. Aleluya."
                 }
               ]
             ],

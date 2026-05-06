@@ -228,28 +228,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Tibi, Dómine, sacrificábo hóstiam laudis. Quid retríbuam Dómino pro ómnibus quæ retríbuit mihi? Cálicem salutáris accípiam, et nomen Dómini invocábo. ℟. Tibi, Dómine, sacrificábo hóstiam laudis. Vota mea Dómino reddam coram omni pópulo eius. Pretiósa in conspéctu Dómini mors sanctórum eius. ℟. Tibi, Dómine, sacrificábo hóstiam laudis. Vota mea Dómino reddam coram omni pópulo eius, in átriis domus Dómini, in médio tui, Ierúsalem. ℟. Tibi, Dómine, sacrificábo hóstiam laudis.",
-            "es": "℟. Te ofreceré, Señor, un sacrificio de alabanza. ¿Cómo pagaré al Señor todo el bien que me ha hecho? Alzaré la copa de la salvación, invocando el nombre del Señor. ℟. Te ofreceré, Señor, un sacrificio de alabanza. Cumpliré al Señor mis votos en presencia de todo el pueblo. Mucho le cuesta al Señor la muerte de sus fieles. ℟. Te ofreceré, Señor, un sacrificio de alabanza. Cumpliré al Señor mis votos en presencia de todo el pueblo, en el atrio de la casa del Señor, en medio de ti, Jerusalén. ℟. Te ofreceré, Señor, un sacrificio de alabanza.",
-            "en": "℟. To you, Lord, I will offer a sacrifice of praise. How can I repay the Lord for his goodness to me? The cup of salvation I will raise; I will call on the Lord's name. ℟. To you, Lord, I will offer a sacrifice of praise. My vows to the Lord I will fulfil before all his people. O precious in the eyes of the Lord is the death of his faithful. ℟. To you, Lord, I will offer a sacrifice of praise. My vows to the Lord I will fulfil before all his people, in the courts of the house of the Lord, in your midst, O Jerusalem. ℟. To you, Lord, I will offer a sacrifice of praise.",
-            "pt-BR": "℟. Oferto ao Senhor um sacrifício de louvor. Que poderei retribuir ao Senhor Deus por tudo aquilo que ele fez em meu favor? Elevo o cálice da minha salvação, invocando o nome santo do Senhor. ℟. Oferto ao Senhor um sacrifício de louvor. Vou cumprir minhas promessas ao Senhor na presença de seu povo reunido. É sentida por demais pelo Senhor a morte de seus santos, seus amigos. ℟. Oferto ao Senhor um sacrifício de louvor. Vou cumprir minhas promessas ao Senhor na presença de seu povo reunido; nos átrios da casa do Senhor, em teu meio, ó cidade de Sião. ℟. Oferto ao Senhor um sacrifício de louvor.",
-            "it": "℟. A te, Signore, offrirò un sacrificio di ringraziamento. Che cosa renderò al Signore, per tutti i benefici che mi ha fatto? Alzerò il calice della salvezza e invocherò il nome del Signore. ℟. A te, Signore, offrirò un sacrificio di ringraziamento. Adempirò i miei voti al Signore, davanti a tutto il suo popolo. Agli occhi del Signore è preziosa la morte dei suoi fedeli. ℟. A te, Signore, offrirò un sacrificio di ringraziamento. Adempirò i miei voti al Signore davanti a tutto il suo popolo, negli atri della casa del Signore, in mezzo a te, Gerusalemme. ℟. A te, Signore, offrirò un sacrificio di ringraziamento.",
-            "fr": "℟. Seigneur, je t’offrirai le sacrifice d’action de grâce. Comment rendrai-je au Seigneur tout le bien qu’il m’a fait ? J’élèverai la coupe du salut, j’invoquerai le nom du Seigneur. ℟. Seigneur, je t’offrirai le sacrifice d’action de grâce. Je tiendrai mes promesses au Seigneur, oui, devant tout son peuple ! Il en coûte au Seigneur de voir mourir les siens ! ℟. Seigneur, je t’offrirai le sacrifice d’action de grâce. Je tiendrai mes promesses au Seigneur, oui, devant tout son peuple, à l’entrée de la maison du Seigneur, au milieu de Jérusalem ! ℟. Seigneur, je t’offrirai le sacrifice d’action de grâce.",
-            "de": "℟. Ein Opfer des Dankes will ich dir bringen. Wie kann ich dem Herrn all das vergelten, was er mir Gutes getan hat? Ich will den Kelch des Heils erheben und anrufen den Namen des Herrn. ℟. Ein Opfer des Dankes will ich dir bringen. Ich will dem Herrn meine Gelübde erfüllen offen vor seinem ganzen Volk. Kostbar ist in den Augen des Herrn das Sterben seiner Frommen. ℟. Ein Opfer des Dankes will ich dir bringen. Ich will dem Herrn meine Gelübde erfüllen offen vor seinem ganzen Volk, in den Vorhöfen am Hause des Herrn, in deiner Mitte, Jerusalem. ℟. Ein Opfer des Dankes will ich dir bringen."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 115, 12-13. 14-15. 18-19",
+          "es": "Sal 115, 12-13. 14-15. 18-19",
+          "en": "Ps 115:12-13, 14-15, 18-19",
+          "pt-BR": "Sl 115, 12-13. 14-15. 18-19",
+          "de": "Ps 116",
+          "it": "Sal 115, 12-13. 14-15. 18-19",
+          "fr": "Ps 115, 12-13. 14-15. 18-19"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Tibi, Dómine, sacrificábo hóstiam laudis."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Te ofreceré, Señor, un sacrificio de alabanza."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "To you, Lord, I will offer a sacrifice of praise."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Oferto ao Senhor um sacrifício de louvor."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "A te, Signore, offrirò un sacrificio di ringraziamento."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Seigneur, je t’offrirai le sacrifice d’action de grâce."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Ein Opfer des Dankes will ich dir bringen."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -267,17 +317,9 @@
                   "type": "text",
                   "text": "et nomen Dómini invocábo."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Tibi, Dómine, sacrificábo hóstiam laudis."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -289,17 +331,9 @@
                   "type": "text",
                   "text": "Pretiósa in conspéctu Dómini mors sanctórum eius."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Tibi, Dómine, sacrificábo hóstiam laudis."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -317,29 +351,11 @@
                   "type": "text",
                   "text": "in médio tui, Ierúsalem."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Tibi, Dómine, sacrificábo hóstiam laudis."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Te ofreceré, Señor, un sacrificio de alabanza."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -357,17 +373,9 @@
                   "type": "text",
                   "text": "invocando el nombre del Señor."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Te ofreceré, Señor, un sacrificio de alabanza."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -379,17 +387,9 @@
                   "type": "text",
                   "text": "Mucho le cuesta al Señor la muerte de sus fieles."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Te ofreceré, Señor, un sacrificio de alabanza."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -407,89 +407,37 @@
                   "type": "text",
                   "text": "en medio de ti, Jerusalén."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Te ofreceré, Señor, un sacrificio de alabanza."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "To you, Lord, I will offer a sacrifice of praise."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "How can I repay the Lord for his goodness to me? The cup of salvation I will raise; I will call on the Lord's name."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "To you, Lord, I will offer a sacrifice of praise."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "My vows to the Lord I will fulfil before all his people. O precious in the eyes of the Lord is the death of his faithful."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "To you, Lord, I will offer a sacrifice of praise."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "My vows to the Lord I will fulfil before all his people, in the courts of the house of the Lord, in your midst, O Jerusalem."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "To you, Lord, I will offer a sacrifice of praise."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Oferto ao Senhor um sacrifício de louvor."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -507,33 +455,17 @@
                   "type": "text",
                   "text": "invocando o nome santo do Senhor."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Oferto ao Senhor um sacrifício de louvor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Vou cumprir minhas promessas ao Senhor na presença de seu povo reunido. É sentida por demais pelo Senhor a morte de seus santos, seus amigos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Oferto ao Senhor um sacrifício de louvor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -551,29 +483,11 @@
                   "type": "text",
                   "text": "em teu meio, ó cidade de Sião."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Oferto ao Senhor um sacrifício de louvor."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "A te, Signore, offrirò un sacrificio di ringraziamento."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -591,17 +505,9 @@
                   "type": "text",
                   "text": "Alzerò il calice della salvezza e invocherò il nome del Signore."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "A te, Signore, offrirò un sacrificio di ringraziamento."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -619,17 +525,9 @@
                   "type": "text",
                   "text": "Agli occhi del Signore è preziosa la morte dei suoi fedeli."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "A te, Signore, offrirò un sacrificio di ringraziamento."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -647,29 +545,11 @@
                   "type": "text",
                   "text": "in mezzo a te, Gerusalemme."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "A te, Signore, offrirò un sacrificio di ringraziamento."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Seigneur, je t’offrirai le sacrifice d’action de grâce."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -687,17 +567,9 @@
                   "type": "text",
                   "text": "j’invoquerai le nom du Seigneur."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Seigneur, je t’offrirai le sacrifice d’action de grâce."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -715,17 +587,9 @@
                   "type": "text",
                   "text": "Il en coûte au Seigneur de voir mourir les siens !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Seigneur, je t’offrirai le sacrifice d’action de grâce."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -749,29 +613,11 @@
                   "type": "text",
                   "text": "au milieu de Jérusalem !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Seigneur, je t’offrirai le sacrifice d’action de grâce."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ein Opfer des Dankes will ich dir bringen."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -789,17 +635,9 @@
                   "type": "text",
                   "text": "Ich will den Kelch des Heils erheben und anrufen den Namen des Herrn."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ein Opfer des Dankes will ich dir bringen."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -811,17 +649,9 @@
                   "type": "text",
                   "text": "Kostbar ist in den Augen des Herrn das Sterben seiner Frommen."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ein Opfer des Dankes will ich dir bringen."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -845,28 +675,9 @@
                   "type": "text",
                   "text": "Jerusalem."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ein Opfer des Dankes will ich dir bringen."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 115, 12-13. 14-15. 18-19",
-          "es": "Sal 115, 12-13. 14-15. 18-19",
-          "en": "Ps 115:12-13, 14-15, 18-19",
-          "pt-BR": "Sl 115, 12-13. 14-15. 18-19",
-          "de": "Ps 116",
-          "it": "Sal 115, 12-13. 14-15. 18-19",
-          "fr": "Ps 115, 12-13. 14-15. 18-19"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -890,7 +701,9 @@
                 {
                   "type": "reference",
                   "text": "Cf. Eph 1, 17-18"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Pater Dómini nostri Iesu Christi illúminet óculos cordis nostri, ut sciámus quæ sit spes vocatiónis nostræ. Allelúia."
@@ -906,7 +719,9 @@
                 {
                   "type": "reference",
                   "text": "Cf. Ef 1, 17-18"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. El Padre de nuestro Señor Jesucristo ilumine los ojos de nuestro corazón, para que comprendamos cuál es la esperanza a la que nos llama. Aleluya."
@@ -1423,28 +1238,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Quis requiéscet in monte sancto tuo, Dómine? Qui ingréditur sine mácula, et operátur iustítiam; qui lóquitur veritátem in corde suo, qui non egit dolum in lingua sua. ℟. Quis requiéscet in monte sancto tuo, Dómine? Nec fecit próximo suo malum, et oppróbrium non íntulit próximo suo. Ad níhilum reputátus est in conspéctu eius malígnus, timéntes autem Dóminum gloríficat. ℟. Quis requiéscet in monte sancto tuo, Dómine? Qui pecúniam suam non dedit ad usúram, et múnera super innocéntem non accépit. Qui facit hæc, non movébitur in ætérnum. ℟. Quis requiéscet in monte sancto tuo, Dómine?",
-            "es": "℟. ¿Quién puede habitar en tu monte santo, Señor? El que procede honradamente y practica la justicia, el que tiene intenciones leales y no calumnia con su lengua. ℟. ¿Quién puede habitar en tu monte santo, Señor? El que no hace mal a su prójimo ni difama al vecino. El que considera despreciable al impío y honra a los que temen al Señor. ℟. ¿Quién puede habitar en tu monte santo, Señor? El que no presta dinero a usura ni acepta soborno contra el inocente. El que así obra nunca fallará. ℟. ¿Quién puede habitar en tu monte santo, Señor?",
-            "en": "℟. He who does justice shall live on the Lord's holy mountain. He who walks without fault; he who acts with justice and speaks the truth from his heart; he who does not slander with his tongue. ℟. He who does justice shall live on the Lord's holy mountain. He who does no wrong to his brother, who casts no slur on his neighbour, who holds the godless in disdain, but honors those who fear the Lord. ℟. He who does justice shall live on the Lord's holy mountain. He who takes no interest on a loan and accepts no bribes against the innocent. Such a man will stand firm for ever. ℟. He who does justice shall live on the Lord's holy mountain.",
-            "pt-BR": "℟. Senhor, quem morará em vosso Monte Santo? É aquele que caminha sem pecado e pratica a justiça fielmente; que pensa a verdade no seu íntimo e não solta em calúnias sua língua. ℟. Senhor, quem morará em vosso Monte Santo? Que em nada prejudica o seu irmão, nem cobre de insultos seu vizinho; que não dá valor algum ao homem ímpio, mas honra os que respeitam o Senhor. ℟. Senhor, quem morará em vosso Monte Santo? Não empresta o seu dinheiro com usura, nem se deixa subornar contra o inocente. Jamais vacilará quem vive assim. ℟. Senhor, quem morará em vosso Monte Santo?",
-            "it": "℟. Signore, chi abiterà sulla tua santa montagna? Colui che cammina senza colpa, pratica la giustizia e dice la verità che ha nel cuore, non sparge calunnie con la sua lingua. ℟. Signore, chi abiterà sulla tua santa montagna? Non fa danno al suo prossimo e non lancia insulti al suo vicino. Ai suoi occhi è spregevole il malvagio, ma onora chi teme il Signore. ℟. Signore, chi abiterà sulla tua santa montagna? Non presta il suo denaro a usura e non accetta doni contro l’innocente. Colui che agisce in questo modo resterà saldo per sempre. ℟. Signore, chi abiterà sulla tua santa montagna?",
-            "fr": "℟. Seigneur, qui habitera ta sainte montagne ? Celui qui se conduit parfaitement, qui agit avec justice et dit la vérité selon son cœur. Il met un frein à sa langue. ℟. Seigneur, qui habitera ta sainte montagne ? Il ne fait pas de tort à son frère et n’outrage pas son prochain. À ses yeux, le réprouvé est méprisable mais il honore les fidèles du Seigneur. ℟. Seigneur, qui habitera ta sainte montagne ? Il ne reprend pas sa parole. Il prête son argent sans intérêt, n’accepte rien qui nuise à l’innocent. Qui fait ainsi demeure inébranlable. ℟. Seigneur, qui habitera ta sainte montagne ?",
-            "de": "℟. Herr, wer darf weilen auf deinem heiligen Berg? Der makellos lebt und das Rechte tut; der von Herzen die Wahrheit sagt und mit seiner Zunge nicht verleumdet; der seinem Freund nichts Böses antut und seinen Nächsten nicht schmäht; ℟. Herr, wer darf weilen auf deinem heiligen Berg? der den Verworfenen verachtet, doch alle, die den Herrn fürchten, in Ehren hält; der sein Versprechen nicht ändert, das er seinem Nächsten geschworen hat; ℟. Herr, wer darf weilen auf deinem heiligen Berg? der sein Geld nicht auf Wucher ausleiht und nicht zum Nachteil des Schuldlosen Bestechung annimmt. Wer sich danach richtet, der wird niemals wanken. ℟. Herr, wer darf weilen auf deinem heiligen Berg?"
-          },
-          "lines": {
+        "citation": {
+          "pt-BR": "Sl 14",
+          "de": "Ps 15",
+          "la": "Ps 14",
+          "en": "Ps 14",
+          "es": "Sal 14",
+          "it": "Sal 14",
+          "fr": "Ps 14"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Quis requiéscet in monte sancto tuo, Dómine?"
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "¿Quién puede habitar en tu monte santo, Señor?"
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "He who does justice shall live on the Lord's holy mountain."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Senhor, quem morará em vosso Monte Santo?"
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Signore, chi abiterà sulla tua santa montagna?"
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Seigneur, qui habitera ta sainte montagne ?"
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Herr, wer darf weilen auf deinem heiligen Berg?"
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -1462,17 +1327,9 @@
                   "type": "text",
                   "text": "qui non egit dolum in lingua sua."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Quis requiéscet in monte sancto tuo, Dómine?"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1496,17 +1353,9 @@
                   "type": "text",
                   "text": "timéntes autem Dóminum gloríficat."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Quis requiéscet in monte sancto tuo, Dómine?"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1524,29 +1373,11 @@
                   "type": "text",
                   "text": "Qui facit hæc, non movébitur in ætérnum."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Quis requiéscet in monte sancto tuo, Dómine?"
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "¿Quién puede habitar en tu monte santo, Señor?"
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1558,17 +1389,9 @@
                   "type": "text",
                   "text": "el que tiene intenciones leales y no calumnia con su lengua."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "¿Quién puede habitar en tu monte santo, Señor?"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1580,17 +1403,9 @@
                   "type": "text",
                   "text": "El que considera despreciable al impío y honra a los que temen al Señor."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "¿Quién puede habitar en tu monte santo, Señor?"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1602,61 +1417,27 @@
                   "type": "text",
                   "text": "El que así obra nunca fallará."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "¿Quién puede habitar en tu monte santo, Señor?"
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "He who does justice shall live on the Lord's holy mountain."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "He who walks without fault; he who acts with justice and speaks the truth from his heart; he who does not slander with his tongue."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "He who does justice shall live on the Lord's holy mountain."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "He who does no wrong to his brother, who casts no slur on his neighbour, who holds the godless in disdain, but honors those who fear the Lord."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "He who does justice shall live on the Lord's holy mountain."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1668,29 +1449,11 @@
                   "type": "text",
                   "text": "Such a man will stand firm for ever."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "He who does justice shall live on the Lord's holy mountain."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Senhor, quem morará em vosso Monte Santo?"
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -1702,17 +1465,9 @@
                   "type": "text",
                   "text": "que pensa a verdade no seu íntimo e não solta em calúnias sua língua."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Senhor, quem morará em vosso Monte Santo?"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1730,17 +1485,9 @@
                   "type": "text",
                   "text": "mas honra os que respeitam o Senhor."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Senhor, quem morará em vosso Monte Santo?"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1752,29 +1499,11 @@
                   "type": "text",
                   "text": "Jamais vacilará quem vive assim."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Senhor, quem morará em vosso Monte Santo?"
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Signore, chi abiterà sulla tua santa montagna?"
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -1792,17 +1521,9 @@
                   "type": "text",
                   "text": "non sparge calunnie con la sua lingua."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Signore, chi abiterà sulla tua santa montagna?"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1820,17 +1541,9 @@
                   "type": "text",
                   "text": "ma onora chi teme il Signore."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Signore, chi abiterà sulla tua santa montagna?"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1842,29 +1555,11 @@
                   "type": "text",
                   "text": "Colui che agisce in questo modo resterà saldo per sempre."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Signore, chi abiterà sulla tua santa montagna?"
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Seigneur, qui habitera ta sainte montagne ?"
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -1882,17 +1577,9 @@
                   "type": "text",
                   "text": "Il met un frein à sa langue."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Seigneur, qui habitera ta sainte montagne ?"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1904,17 +1591,9 @@
                   "type": "text",
                   "text": "À ses yeux, le réprouvé est méprisable mais il honore les fidèles du Seigneur."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Seigneur, qui habitera ta sainte montagne ?"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1938,29 +1617,11 @@
                   "type": "text",
                   "text": "Qui fait ainsi demeure inébranlable."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Seigneur, qui habitera ta sainte montagne ?"
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, wer darf weilen auf deinem heiligen Berg?"
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -1978,17 +1639,9 @@
                   "type": "text",
                   "text": "der seinem Freund nichts Böses antut und seinen Nächsten nicht schmäht;"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, wer darf weilen auf deinem heiligen Berg?"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2012,17 +1665,9 @@
                   "type": "text",
                   "text": "das er seinem Nächsten geschworen hat;"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, wer darf weilen auf deinem heiligen Berg?"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2040,28 +1685,9 @@
                   "type": "text",
                   "text": "der wird niemals wanken."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, wer darf weilen auf deinem heiligen Berg?"
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "pt-BR": "Sl 14",
-          "de": "Ps 15",
-          "la": "Ps 14",
-          "en": "Ps 14",
-          "es": "Sal 14",
-          "it": "Sal 14",
-          "fr": "Ps 14"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -2085,7 +1711,9 @@
                 {
                   "type": "reference",
                   "text": "Cf. Eph 1, 17-18"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Pater Dómini nostri Iesu Christi illúminet óculos cordis nostri, ut sciámus quæ sit spes vocatiónis nostræ. Allelúia."
@@ -2101,7 +1729,9 @@
                 {
                   "type": "reference",
                   "text": "Cf. Ef 1, 17-18"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. El Padre de nuestro Señor Jesucristo ilumine los ojos de nuestro corazón, para que comprendamos cuál es la esperanza a la que nos llama. Aleluya."

@@ -1043,28 +1043,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Reminíscere miseratiónum tuárum, Dómine. Vias tuas, Dómine, demónstra mihi, et sémitas tuas édoce me. Dírige me in veritáte tua et doce me, quia tu es Deus salútis meæ. ℟. Reminíscere miseratiónum tuárum, Dómine. Reminíscere miseratiónum tuárum, Dómine, et misericordiárum tuárum, quóniam a sǽculo sunt. Secúndum misericórdiam tuam meménto mei tu, propter bonitátem tuam, Dómine. ℟. Reminíscere miseratiónum tuárum, Dómine. Dulcis et rectus Dóminus, propter hoc peccatóres viam docébit; díriget mansuétos in iudício, docébit mites vias suas. ℟. Reminíscere miseratiónum tuárum, Dómine.",
-            "es": "℟. Recuerda, Señor, tu ternura. Señor, enséñame tus caminos, instrúyeme en tus sendas: haz que camine con lealtad; enséñame, porque tú eres mi Dios y Salvador. ℟. Recuerda, Señor, tu ternura. Recuerda, Señor, que tu ternura y tu misericordia son eternas; acuérdate de mí con misericordia, por tu bondad, Señor. ℟. Recuerda, Señor, tu ternura. El Señor es bueno y es recto, y enseña el camino a los pecadores; hace caminar a los humildes con rectitud, enseña su camino a los humildes. ℟. Recuerda, Señor, tu ternura.",
-            "en": "℟. Remember your mercies, O Lord. Lord, make me know your ways. Lord, teach me your paths. Make me walk in your truth, and teach me: for you are God my savior. ℟. Remember your mercies, O Lord. Remember your mercy, Lord, and the love you have shown from of old. In your love remember me, because of your goodness, O Lord. ℟. Remember your mercies, O Lord. The Lord is good and upright. He shows the path to those who stray. He guides the humble in the right path; he teaches his way to the poor. ℟. Remember your mercies, O Lord.",
-            "pt-BR": "℟. Recordai, Senhor, a vossa compaixão! Mostrai-me, ó Senhor, vossos caminhos, e fazei-me conhecer a vossa estrada! Vossa verdade me oriente e me conduza, porque sois o Deus da minha salvação. ℟. Recordai, Senhor, a vossa compaixão! Recordai, Senhor meu Deus, vossa ternura e a vossa compaixão que são eternas! De mim lembrai-vos, porque sois misericórdia e sois bondade sem limites, ó Senhor! ℟. Recordai, Senhor, a vossa compaixão!. O Senhor é piedade e retidão, e reconduz ao bom caminho os pecadores. Ele dirige os humildes na justiça, e aos pobres ele ensina o seu caminho. ℟. Recordai, Senhor, a vossa compaixão!.",
-            "it": "℟. Ricordati, Signore, della tua misericordia. Fammi conoscere, Signore, le tue vie, insegnami i tuoi sentieri. Guidami nella tua fedeltà e istruiscimi, perché sei tu il Dio della mia salvezza. ℟. Ricordati, Signore, della tua misericordia. Ricordati, Signore, della tua misericordia e del tuo amore, che è da sempre. Ricordati di me nella tua misericordia, per la tua bontà, Signore. ℟. Ricordati, Signore, della tua misericordia. Buono e retto è il Signore, indica ai peccatori la via giusta; guida i poveri secondo giustizia, insegna ai poveri la sua via. ℟. Ricordati, Signore, della tua misericordia.",
-            "fr": "℟. Rappelle-toi, Seigneur, ta tendresse. Seigneur, enseigne-moi tes voies, fais-moi connaître ta route. Dirige-moi par ta vérité, enseigne-moi, car tu es le Dieu qui me sauve. ℟. Rappelle-toi, Seigneur, ta tendresse. Rappelle-toi, Seigneur, ta tendresse, ton amour qui est de toujours. Dans ton amour, ne m’oublie pas, en raison de ta bonté, Seigneur. ℟. Rappelle-toi, Seigneur, ta tendresse. Il est droit, il est bon, le Seigneur, lui qui montre aux pécheurs le chemin. Sa justice dirige les humbles, il enseigne aux humbles son chemin. ℟. Rappelle-toi, Seigneur, ta tendresse.",
-            "de": "℟. Denk an dein Erbarmen, o Herr! Zeige mir, Herr, deine Wege, lehre mich deine Pfade! Führe mich in deiner Treue und lehre mich; denn du bist der Gott meines Heiles. Auf dich hoffe ich allezeit. ℟. Denk an dein Erbarmen, o Herr! Denk an dein Erbarmen, Herr, und an die Taten deiner Huld denn sie bestehen seit Ewigkeit. Denk nicht an meine Jugendsünden und meine Frevel! In deiner Huld denk an mich, Herr, denn du bist gütig. ℟. Denk an dein Erbarmen, o Herr! Gut und gerecht ist der Herr, darum weist er die Irrenden auf den rechten Weg. Die Demütigen leitet er nach seinem Recht, die Gebeugten lehrt er seinen Weg. ℟. Denk an dein Erbarmen, o Herr!"
-          },
-          "lines": {
+        "citation": {
+          "pt-BR": "Sl 24",
+          "de": "Ps 25",
+          "la": "Ps 24",
+          "en": "Ps 24",
+          "es": "Sal 24",
+          "it": "Sal 24",
+          "fr": "Ps 24"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Reminíscere miseratiónum tuárum, Dómine."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Recuerda, Señor, tu ternura."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "Remember your mercies, O Lord."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Recordai, Senhor, a vossa compaixão!."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Ricordati, Signore, della tua misericordia."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Rappelle-toi, Seigneur, ta tendresse."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Denk an dein Erbarmen, o Herr!"
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -1088,17 +1138,9 @@
                   "type": "text",
                   "text": "quia tu es Deus salútis meæ."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Reminíscere miseratiónum tuárum, Dómine."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1128,17 +1170,9 @@
                   "type": "text",
                   "text": "propter bonitátem tuam, Dómine."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Reminíscere miseratiónum tuárum, Dómine."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1162,29 +1196,11 @@
                   "type": "text",
                   "text": "docébit mites vias suas."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Reminíscere miseratiónum tuárum, Dómine."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Recuerda, Señor, tu ternura."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1208,17 +1224,9 @@
                   "type": "text",
                   "text": "enséñame, porque tú eres mi Dios y Salvador."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Recuerda, Señor, tu ternura."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1236,17 +1244,9 @@
                   "type": "text",
                   "text": "por tu bondad, Señor."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Recuerda, Señor, tu ternura."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1270,89 +1270,37 @@
                   "type": "text",
                   "text": "enseña su camino a los humildes."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Recuerda, Señor, tu ternura."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Remember your mercies, O Lord."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "Lord, make me know your ways. Lord, teach me your paths. Make me walk in your truth, and teach me: for you are God my savior."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Remember your mercies, O Lord."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Remember your mercy, Lord, and the love you have shown from of old. In your love remember me, because of your goodness, O Lord."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Remember your mercies, O Lord."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "The Lord is good and upright. He shows the path to those who stray. He guides the humble in the right path; he teaches his way to the poor."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Remember your mercies, O Lord."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Recordai, Senhor, a vossa compaixão!"
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -1376,17 +1324,9 @@
                   "type": "text",
                   "text": "porque sois o Deus da minha salvação."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Recordai, Senhor, a vossa compaixão!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1398,17 +1338,9 @@
                   "type": "text",
                   "text": "De mim lembrai-vos, porque sois misericórdia e sois bondade sem limites, ó Senhor!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Recordai, Senhor, a vossa compaixão!."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1432,29 +1364,11 @@
                   "type": "text",
                   "text": "e aos pobres ele ensina o seu caminho."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Recordai, Senhor, a vossa compaixão!."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ricordati, Signore, della tua misericordia."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -1478,17 +1392,9 @@
                   "type": "text",
                   "text": "perché sei tu il Dio della mia salvezza."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ricordati, Signore, della tua misericordia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1506,17 +1412,9 @@
                   "type": "text",
                   "text": "per la tua bontà, Signore."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ricordati, Signore, della tua misericordia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1540,29 +1438,11 @@
                   "type": "text",
                   "text": "insegna ai poveri la sua via."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ricordati, Signore, della tua misericordia."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Rappelle-toi, Seigneur, ta tendresse."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -1586,17 +1466,9 @@
                   "type": "text",
                   "text": "car tu es le Dieu qui me sauve."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Rappelle-toi, Seigneur, ta tendresse."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1620,17 +1492,9 @@
                   "type": "text",
                   "text": "en raison de ta bonté, Seigneur."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Rappelle-toi, Seigneur, ta tendresse."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1654,29 +1518,11 @@
                   "type": "text",
                   "text": "il enseigne aux humbles son chemin."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Rappelle-toi, Seigneur, ta tendresse."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Denk an dein Erbarmen, o Herr!"
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -1706,17 +1552,9 @@
                   "type": "text",
                   "text": "Auf dich hoffe ich allezeit."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Denk an dein Erbarmen, o Herr!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1740,17 +1578,9 @@
                   "type": "text",
                   "text": "In deiner Huld denk an mich, Herr, denn du bist gütig."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Denk an dein Erbarmen, o Herr!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1774,28 +1604,9 @@
                   "type": "text",
                   "text": "die Gebeugten lehrt er seinen Weg."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Denk an dein Erbarmen, o Herr!"
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "pt-BR": "Sl 24",
-          "de": "Ps 25",
-          "la": "Ps 24",
-          "en": "Ps 24",
-          "es": "Sal 24",
-          "it": "Sal 24",
-          "fr": "Ps 24"
+          ]
         }
       },
       "gospelAcclamation": {

@@ -228,28 +228,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Memor ero óperum Dómini. Memor ero óperum Dómini, memor ero ab inítio mirabílium tuórum. Et meditábor in ómnibus opéribus tuis, et in adinventiónibus tuis exercébor. ℟. Memor ero óperum Dómini. Deus, in sancto via tua; quis deus magnus sicut Deus noster? Tu es Deus qui facis mirabília, notam fecísti in pópulis virtútem tuam. ℟. Memor ero óperum Dómini. Redemísti in bráchio tuo pópulum tuum, fílios Iacob et Ioseph. Deduxísti sicut oves pópulum tuum in manu Móysi et Aaron. ℟. Memor ero óperum Dómini.",
-            "es": "℟. Recuerdo las proezas del Señor. Recuerdo las proezas del Señor; sí, recuerdo tus antiguos portentos, medito todas tus obras y considero tus hazañas. ℟. Recuerdo las proezas del Señor. Dios mío, tus caminos son santos: ¿Qué dios es grande como nuestro Dios? Tú, oh Dios, haciendo maravillas, mostraste tu poder a los pueblos. ℟. Recuerdo las proezas del Señor. Con tu brazo rescataste a tu pueblo, a los hijos de Jacob y de José. Mientras guiabas a tu pueblo, como a un rebaño, por la mano de Moisés y de Aarón. ℟. Recuerdo las proezas del Señor.",
-            "en": "℟. I remember the deeds of the Lord. I remember the deeds of the Lord, I remember your wonders of old, I muse on all your works and ponder your mighty deeds. ℟. I remember the deeds of the Lord. Your ways, O God, are holy. What god is great as our God? You are the God who works wonders. You showed your power among the peoples. ℟. I remember the deeds of the Lord. Your strong arm redeemed your people, the sons of Jacob and Joseph. You guided your people like a flock by the hand of Moses and Aaron. ℟. I remember the deeds of the Lord.",
-            "pt-BR": "℟. Penso em vossas maravilhas, ó Senhor!. Recordando os grandes feitos do passado, vossos prodígios eu relembro, ó Senhor; eu medito sobre as vossas maravilhas e sobre as obras grandiosas que fizestes. ℟. Penso em vossas maravilhas, ó Senhor!. São santos, ó Senhor, vossos caminhos! Haverá deus que se compare ao nosso Deus? Sois o Deus que operastes maravilhas, vosso poder manifestastes entre os povos. ℟. Penso em vossas maravilhas, ó Senhor!. Com vosso braço redimistes vosso povo, os filhos de Jacó e de José. Como um rebanho conduzistes vosso povo e o guiastes por Moisés e Aarão. ℟. Penso em vossas maravilhas, ó Senhor!.",
-            "it": "℟. Ricordo i prodigi del Signore. Ricordo i prodigi del Signore, sì, ricordo le tue meraviglie di un tempo. Vado considerando le tue opere, medito tutte le tue prodezze. ℟. Ricordo i prodigi del Signore. O Dio, santa è la tua via; quale dio è grande come il nostro Dio? Tu sei il Dio che opera meraviglie, manifesti la tua forza fra i popoli. ℟. Ricordo i prodigi del Signore. Hai riscattato il tuo popolo con il tuo braccio, i figli di Giacobbe e di Giuseppe. Guidasti come un gregge il tuo popolo per mano di Mosè e di Aronne. ℟. Ricordo i prodigi del Signore.",
-            "fr": "℟. Je me souviens des exploits du Seigneur. Je me souviens des exploits du Seigneur, je rappelle ta merveille de jadis ; je me redis tous tes hauts faits, sur tes exploits je médite. ℟. Je me souviens des exploits du Seigneur. Dieu, la sainteté est ton chemin ! Quel dieu est grand comme Dieu ? Tu es le Dieu qui accomplis la merveille, qui fais connaître chez les peuples ta force. ℟. Je me souviens des exploits du Seigneur. Tu rachetas ton peuple avec puissance, les descendants de Jacob et de Joseph. Tu as conduit comme un troupeau ton peuple par la main de Moïse et d’Aaron. ℟. Je me souviens des exploits du Seigneur.",
-            "de": "℟. Der Taten des Herrn will ich gedenken. Ich denke an die Taten des Herrn, ich will denken an deine früheren Wunder. Ich erwäge all deine Werke und will nachsinnen über deine Taten. ℟. Der Taten des Herrn will ich gedenken. Gott, dein Weg ist heilig. Wo ist ein Gott, so groß wie unser Gott? Du allein bist der Gott, der Wunder tut, du hast deine Macht den Völkern kundgetan. ℟. Der Taten des Herrn will ich gedenken. Du hast mit starkem Arm dein Volk erlöst, die Kinder Jakobs und Josefs. Du führtest dein Volk wie eine Herde durch die Hand von Mose und Aaron. ℟. Der Taten des Herrn will ich gedenken."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 76, 12-13. 14-15. 16 et 21",
+          "es": "Sal 76, 12-13. 14-15. 16 et 21",
+          "en": "Ps 76:12-13, 14-15, 16 and 21",
+          "pt-BR": "Sl 76, 12-13. 14-15. 16 et 21",
+          "de": "Ps 77",
+          "it": "Sal 76, 12-13. 14-15. 16 et 21",
+          "fr": "Ps 76, 12-13. 14-15. 16 et 21"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Memor ero óperum Dómini."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Recuerdo las proezas del Señor."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "I remember the deeds of the Lord."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Penso em vossas maravilhas, ó Senhor!."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Ricordo i prodigi del Signore."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Je me souviens des exploits du Seigneur."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Der Taten des Herrn will ich gedenken."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -273,17 +323,9 @@
                   "type": "text",
                   "text": "et in adinventiónibus tuis exercébor."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Memor ero óperum Dómini."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -307,17 +349,9 @@
                   "type": "text",
                   "text": "notam fecísti in pópulis virtútem tuam."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Memor ero óperum Dómini."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -335,29 +369,11 @@
                   "type": "text",
                   "text": "Deduxísti sicut oves pópulum tuum in manu Móysi et Aaron."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Memor ero óperum Dómini."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Recuerdo las proezas del Señor."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -375,17 +391,9 @@
                   "type": "text",
                   "text": "medito todas tus obras y considero tus hazañas."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Recuerdo las proezas del Señor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -409,17 +417,9 @@
                   "type": "text",
                   "text": "mostraste tu poder a los pueblos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Recuerdo las proezas del Señor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -443,89 +443,37 @@
                   "type": "text",
                   "text": "por la mano de Moisés y de Aarón."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Recuerdo las proezas del Señor."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "I remember the deeds of the Lord."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "I remember the deeds of the Lord, I remember your wonders of old, I muse on all your works and ponder your mighty deeds."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "I remember the deeds of the Lord."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Your ways, O God, are holy. What god is great as our God? You are the God who works wonders. You showed your power among the peoples."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "I remember the deeds of the Lord."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Your strong arm redeemed your people, the sons of Jacob and Joseph. You guided your people like a flock by the hand of Moses and Aaron."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "I remember the deeds of the Lord."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Penso em vossas maravilhas, ó Senhor!."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -543,17 +491,9 @@
                   "type": "text",
                   "text": "eu medito sobre as vossas maravilhas e sobre as obras grandiosas que fizestes."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Penso em vossas maravilhas, ó Senhor!."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -577,17 +517,9 @@
                   "type": "text",
                   "text": "vosso poder manifestastes entre os povos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Penso em vossas maravilhas, ó Senhor!."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -605,29 +537,11 @@
                   "type": "text",
                   "text": "Como um rebanho conduzistes vosso povo e o guiastes por Moisés e Aarão."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Penso em vossas maravilhas, ó Senhor!."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ricordo i prodigi del Signore."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -645,17 +559,9 @@
                   "type": "text",
                   "text": "medito tutte le tue prodezze."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ricordo i prodigi del Signore."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -673,17 +579,9 @@
                   "type": "text",
                   "text": "manifesti la tua forza fra i popoli."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ricordo i prodigi del Signore."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -695,29 +593,11 @@
                   "type": "text",
                   "text": "Guidasti come un gregge il tuo popolo per mano di Mosè e di Aronne."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ricordo i prodigi del Signore."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Je me souviens des exploits du Seigneur."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -741,17 +621,9 @@
                   "type": "text",
                   "text": "sur tes exploits je médite."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Je me souviens des exploits du Seigneur."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -775,17 +647,9 @@
                   "type": "text",
                   "text": "qui fais connaître chez les peuples ta force."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Je me souviens des exploits du Seigneur."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -803,29 +667,11 @@
                   "type": "text",
                   "text": "Tu as conduit comme un troupeau ton peuple par la main de Moïse et d’Aaron."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Je me souviens des exploits du Seigneur."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Taten des Herrn will ich gedenken."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -843,17 +689,9 @@
                   "type": "text",
                   "text": "Ich erwäge all deine Werke und will nachsinnen über deine Taten."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Taten des Herrn will ich gedenken."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -877,17 +715,9 @@
                   "type": "text",
                   "text": "du hast deine Macht den Völkern kundgetan."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Taten des Herrn will ich gedenken."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -905,28 +735,9 @@
                   "type": "text",
                   "text": "Du führtest dein Volk wie eine Herde durch die Hand von Mose und Aaron."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Taten des Herrn will ich gedenken."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 76, 12-13. 14-15. 16 et 21",
-          "es": "Sal 76, 12-13. 14-15. 16 et 21",
-          "en": "Ps 76:12-13, 14-15, 16 and 21",
-          "pt-BR": "Sl 76, 12-13. 14-15. 16 et 21",
-          "de": "Ps 77",
-          "it": "Sal 76, 12-13. 14-15. 16 et 21",
-          "fr": "Ps 76, 12-13. 14-15. 16 et 21"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -950,7 +761,9 @@
                 {
                   "type": "reference",
                   "text": "Mt 5, 10"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Beáti qui persecutiónem patiúntur propter iustítiam, quóniam ipsórum est regnum cælorum. Allelúia."
@@ -966,7 +779,9 @@
                 {
                   "type": "reference",
                   "text": "Mt 5, 10"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Bienaventurados los perseguidos por causa de la justicia, porque de ellos es el reino de los cielos. Aleluya."
@@ -1483,28 +1298,69 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Ego occídam et ego vívere fáciam. Iuxta est dies perditiónis, et adésse festínat sors eórum. Iudicábit Dóminus pópulum suum et in servis suis miserébitur. ℟. Ego occídam et ego vívere fáciam. Vidéte nunc quod ego sim solus, et non sit Deus præter me. Ego occídam et ego vívere fáciam; percútiam et ego sanábo. ℟. Ego occídam et ego vívere fáciam. Si acúero ut fulgur gládium meum, et arripúerit iudícium manus mea, reddam ultiónem hóstibus meis et his, qui odérunt me, retríbuam. ℟. Ego occídam et ego vívere fáciam.",
-            "es": "℟. Yo doy la muerte y la vida. El día de su ruina se acerca, y se precipita su destino. El Señor hará justicia a su pueblo, y tendrá piedad de sus siervos. ℟. Yo doy la muerte y la vida. Pero ahora mirad: soy yo, solo yo, y no hay dios fuera de mí. Yo doy la muerte y la vida, yo hiero y yo curo. ℟. Yo doy la muerte y la vida. Cuando afile el rayo de mi espada, y empuñe en mi mano el juicio, tomaré venganza de mis enemigos y daré su paga a los que me aborrecen. ℟. Yo doy la muerte y la vida.",
-            "en": "℟. It is I who deal death and give life. It is close, the day of their ruin; their doom comes at speed. For the Lord will see his people righted, he will take pity on his servants. ℟. It is I who deal death and give life. See now that I, am He, and besides me there is no other god. It is I who deal death and life: When I have struck it is I who heal. ℟. It is I who deal death and give life. When I have whetted my flashing sword I will take up the cause of Right, I will give my foes as good again, I will repay those who hate me. ℟. It is I who deal death and give life.",
-            "pt-BR": "℟. Sou eu que tiro a vida, sou eu quem faz viver! Já vem o dia em que serão arruinados de o seu destino se apressa em chegar. Porque o Senhor fará justiça ao seu povo be salvará todos aqueles que o servem. ℟. Sou eu que tiro a vida, sou eu quem faz viver! Saibam todos que eu sou, somente eu e não existe outro Deus além de mim: quem mata e faz viver, sou eu somente, sou eu que firo e eu que torno a curar. ℟. Sou eu que tiro a vida, sou eu quem faz viver! Se eu afiar a minha espada reluzente e com as minhas próprias mãos fizer justiça, dos adversários todos hei de me vingar e vou retribuir aos que odeiam. ℟. Sou eu que tiro a vida, sou eu quem faz viver!",
-            "it": "℟. Il Signore farà giustizia al suo popolo. Sì, vicino è il giorno della loro rovina e il loro destino si affretta a venire. Perché il Signore farà giustizia al suo popolo e dei suoi servi avrà compassione. ℟. Il Signore farà giustizia al suo popolo. Ora vedete che io, io lo sono e nessun altro è dio accanto a me. Sono io che do la morte e faccio vivere; io percuoto e io guarisco. ℟. Il Signore farà giustizia al suo popolo. Quando avrò affilato la folgore della mia spada e la mia mano inizierà il giudizio, farò vendetta dei miei avversari, ripagherò i miei nemici. ℟. Il Signore farà giustizia al suo popolo.",
-            "fr": "℟. C’est moi qui fais mourir et vivre. \" Oui, proche est le jour de leur ruine, imminent, le sort qui les attend. \" Car le Seigneur fera justice à son peuple, il prendra en pitié ses serviteurs. ℟. C’est moi qui fais mourir et vivre. \" Voyez-le, maintenant, c’est moi, et moi seul ; pas d’autre dieu que moi ; c’est moi qui fais mourir et vivre, si j’ai frappé, c’est moi qui guéris. ℟. C’est moi qui fais mourir et vivre. \" Si j’aiguise l’éclair de mon épée, si ma main brandit le jugement, je tournerai la vengeance contre mes rivaux, je réglerai leur compte à mes adversaires. \" ℟. C’est moi qui fais mourir et vivre.",
-            "de": "℟. Ich bin es, der tötet und der lebendig macht. Der Tag ihres Verderbens ist nah, und ihr Verhängnis kommt schnell. Ja, der Herr wird seinem Volk Recht geben und mit seinen Dienern Mitleid haben. ℟. Ich bin es, der tötet und der lebendig macht. Jetzt seht: Ich bin es, nur ich, und kein Gott tritt mir entgegen. Ich bin es, der tötet und der lebendig macht. Ich habe verwundet; nur ich werde heilen. ℟. Ich bin es, der tötet und der lebendig macht. Habe ich erst die Klinge meines Schwertes geschliffen, um das Recht in meine Hand zu nehmen, dann zwinge ich meinen Gegnern die Strafe auf und denen, die mich hassen, die Vergeltung. ℟. Ich bin es, der tötet und der lebendig macht."
-          },
-          "lines": {
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Ego occídam et ego vívere fáciam."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Yo doy la muerte y la vida."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "It is I who deal death and give life."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Sou eu que tiro a vida, sou eu quem faz viver!"
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Il Signore farà giustizia al suo popolo."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "C’est moi qui fais mourir et vivre."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Ich bin es, der tötet und der lebendig macht."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -1522,17 +1378,9 @@
                   "type": "text",
                   "text": "Iudicábit Dóminus pópulum suum et in servis suis miserébitur."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ego occídam et ego vívere fáciam."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1556,17 +1404,9 @@
                   "type": "text",
                   "text": "percútiam et ego sanábo."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ego occídam et ego vívere fáciam."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1584,29 +1424,11 @@
                   "type": "text",
                   "text": "reddam ultiónem hóstibus meis et his, qui odérunt me, retríbuam."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ego occídam et ego vívere fáciam."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Yo doy la muerte y la vida."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1630,17 +1452,9 @@
                   "type": "text",
                   "text": "y tendrá piedad de sus siervos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Yo doy la muerte y la vida."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1664,17 +1478,9 @@
                   "type": "text",
                   "text": "yo hiero y yo curo."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Yo doy la muerte y la vida."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1692,89 +1498,37 @@
                   "type": "text",
                   "text": "tomaré venganza de mis enemigos y daré su paga a los que me aborrecen."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Yo doy la muerte y la vida."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "It is I who deal death and give life."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "It is close, the day of their ruin; their doom comes at speed. For the Lord will see his people righted, he will take pity on his servants."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "It is I who deal death and give life."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "See now that I, am He, and besides me there is no other god. It is I who deal death and life: When I have struck it is I who heal."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "It is I who deal death and give life."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "When I have whetted my flashing sword I will take up the cause of Right, I will give my foes as good again, I will repay those who hate me."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "It is I who deal death and give life."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Sou eu que tiro a vida, sou eu quem faz viver!"
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -1786,17 +1540,9 @@
                   "type": "text",
                   "text": "Porque o Senhor fará justiça ao seu povo be salvará todos aqueles que o servem."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Sou eu que tiro a vida, sou eu quem faz viver!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1814,17 +1560,9 @@
                   "type": "text",
                   "text": "sou eu que firo e eu que torno a curar."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Sou eu que tiro a vida, sou eu quem faz viver!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1836,29 +1574,11 @@
                   "type": "text",
                   "text": "dos adversários todos hei de me vingar e vou retribuir aos que odeiam."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Sou eu que tiro a vida, sou eu quem faz viver!"
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore farà giustizia al suo popolo."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -1870,17 +1590,9 @@
                   "type": "text",
                   "text": "Perché il Signore farà giustizia al suo popolo e dei suoi servi avrà compassione."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore farà giustizia al suo popolo."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1898,17 +1610,9 @@
                   "type": "text",
                   "text": "io percuoto e io guarisco."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore farà giustizia al suo popolo."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1926,29 +1630,11 @@
                   "type": "text",
                   "text": "ripagherò i miei nemici."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore farà giustizia al suo popolo."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "C’est moi qui fais mourir et vivre."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -1972,17 +1658,9 @@
                   "type": "text",
                   "text": "il prendra en pitié ses serviteurs."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "C’est moi qui fais mourir et vivre."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2012,17 +1690,9 @@
                   "type": "text",
                   "text": "si j’ai frappé, c’est moi qui guéris."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "C’est moi qui fais mourir et vivre."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2046,29 +1716,11 @@
                   "type": "text",
                   "text": "je réglerai leur compte à mes adversaires. \""
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "C’est moi qui fais mourir et vivre."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ich bin es, der tötet und der lebendig macht."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -2092,17 +1744,9 @@
                   "type": "text",
                   "text": "der Herr wird seinem Volk Recht geben und mit seinen Dienern Mitleid haben."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ich bin es, der tötet und der lebendig macht."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2126,17 +1770,9 @@
                   "type": "text",
                   "text": "Ich habe verwundet; nur ich werde heilen."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ich bin es, der tötet und der lebendig macht."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2154,19 +1790,9 @@
                   "type": "text",
                   "text": "dann zwinge ich meinen Gegnern die Strafe auf und denen, die mich hassen, die Vergeltung."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ich bin es, der tötet und der lebendig macht."
-                }
               ]
             ]
-          }
+          ]
         }
       },
       "gospelAcclamation": {
@@ -2190,7 +1816,9 @@
                 {
                   "type": "reference",
                   "text": "Mt 5, 10"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Beáti qui persecutiónem patiúntur propter iustítiam, quóniam ipsórum est regnum cælorum. Allelúia."
@@ -2206,7 +1834,9 @@
                 {
                   "type": "reference",
                   "text": "Mt 5, 10"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Bienaventurados los perseguidos por causa de la justicia, porque de ellos es el reino de los cielos. Aleluya."

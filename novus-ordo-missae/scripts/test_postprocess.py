@@ -15,6 +15,7 @@ Covers each fix surfaced by the audit cycle:
 - trailing section-header pollution chop
 """
 
+import json
 import pathlib
 import sys
 
@@ -1763,6 +1764,252 @@ class TestStripRubricMarkersFromTextSegments:
         joined = " ".join(s.get("text","") for s in line)
         assert not joined.startswith("R/")
         assert "Pauper clamávit" in joined
+
+
+class TestSplitResponsorialPsalm:
+    """Split body.lines → responsory.primary + responsory.alternatives + verses."""
+
+    def _wrap(self, lines_la):
+        """Build a minimal mass that the splitter can operate on."""
+        return {
+            "id": "test",
+            "readings": {
+                "default": {
+                    "responsorialPsalm": {
+                        "body": {"lines": {"la": lines_la}},
+                    }
+                }
+            },
+        }
+
+    def _rp(self, mass):
+        return mass["readings"]["default"]["responsorialPsalm"]
+
+    def test_simple_one_line_refrain_with_verses(self):
+        # Pattern: refrain, verse, refrain, verse, ..., refrain
+        lines = [
+            [{"type": "rubric", "text": "℟."}, {"type": "text", "text": "Refrain text."}],
+            [{"type": "text", "text": "verse 1 line 1"}],
+            [{"type": "text", "text": "verse 1 line 2"}],
+            [{"type": "rubric", "text": "℟."}, {"type": "text", "text": "Refrain text."}],
+            [{"type": "text", "text": "verse 2 line 1"}],
+            [{"type": "rubric", "text": "℟."}, {"type": "text", "text": "Refrain text."}],
+        ]
+        mass = self._wrap(lines)
+        R._split_responsorial_psalms_in_mass(mass)
+        rp = self._rp(mass)
+        assert "body" not in rp
+        assert rp["responsory"]["primary"]["la"] == [
+            [{"type": "text", "text": "Refrain text."}]
+        ]
+        assert "alternatives" not in rp["responsory"]
+        verses = rp["verses"]["la"]
+        assert len(verses) == 2
+        assert verses[0] == [
+            [{"type": "text", "text": "verse 1 line 1"}],
+            [{"type": "text", "text": "verse 1 line 2"}],
+        ]
+        assert verses[1] == [[{"type": "text", "text": "verse 2 line 1"}]]
+
+    def test_multi_line_refrain_with_compressed_first_block(self):
+        # First refrain occurrence is compressed onto a single line, while
+        # subsequent occurrences span two lines. Both forms must be detected
+        # as the SAME refrain so verse boundaries are correct.
+        lines = [
+            [{"type": "rubric", "text": "℟."}, {"type": "text", "text": "Lord, Lord, my refrain."}],
+            [{"type": "text", "text": "verse 1 line 1"}],
+            [{"type": "text", "text": "verse 1 line 2"}],
+            [{"type": "rubric", "text": "℟."}, {"type": "text", "text": "Lord, Lord,"}],
+            [{"type": "text", "text": "my refrain."}],
+            [{"type": "text", "text": "verse 2 line 1"}],
+            [{"type": "rubric", "text": "℟."}, {"type": "text", "text": "Lord, Lord,"}],
+            [{"type": "text", "text": "my refrain."}],
+        ]
+        mass = self._wrap(lines)
+        R._split_responsorial_psalms_in_mass(mass)
+        rp = self._rp(mass)
+        assert rp["responsory"]["primary"]["la"] == [
+            [{"type": "text", "text": "Lord, Lord,"}],
+            [{"type": "text", "text": "my refrain."}],
+        ]
+        verses = rp["verses"]["la"]
+        assert len(verses) == 2
+        assert verses[0] == [
+            [{"type": "text", "text": "verse 1 line 1"}],
+            [{"type": "text", "text": "verse 1 line 2"}],
+        ]
+        assert verses[1] == [[{"type": "text", "text": "verse 2 line 1"}]]
+
+    def test_vel_alternative_refrain(self):
+        # Easter-style: every refrain occurrence is followed by `vel` rubric
+        # and an alternative refrain (e.g. "Allelúia.").
+        lines = [
+            [{"type": "rubric", "text": "℟."}, {"type": "text", "text": "Quid retribuam."}],
+            [{"type": "rubric", "text": "vel"}],
+            [{"type": "text", "text": "Allelúia."}],
+            [{"type": "text", "text": "verse 1 line 1"}],
+            [{"type": "text", "text": "verse 1 line 2"}],
+            [{"type": "rubric", "text": "℟."}, {"type": "text", "text": "Quid retribuam."}],
+            [{"type": "rubric", "text": "vel"}],
+            [{"type": "text", "text": "Allelúia."}],
+            [{"type": "text", "text": "verse 2 line 1"}],
+        ]
+        mass = self._wrap(lines)
+        R._split_responsorial_psalms_in_mass(mass)
+        rp = self._rp(mass)
+        primary = rp["responsory"]["primary"]["la"]
+        assert primary == [[{"type": "text", "text": "Quid retribuam."}]]
+        alts = rp["responsory"]["alternatives"]
+        assert len(alts) == 1
+        # Alt keeps only the alt-refrain content; the leading `vel` rubric is
+        # the marker that introduces it, not part of the refrain itself.
+        assert alts[0]["la"] == [[{"type": "text", "text": "Allelúia."}]]
+        verses = rp["verses"]["la"]
+        assert len(verses) == 2
+        assert verses[0] == [
+            [{"type": "text", "text": "verse 1 line 1"}],
+            [{"type": "text", "text": "verse 1 line 2"}],
+        ]
+
+    def test_per_lang_divergence(self):
+        # Latin has 3 verses, German has 1 (source typeset German with the
+        # verses merged). Per-lang `verses` must reflect both as-is.
+        rp = {
+            "body": {
+                "lines": {
+                    "la": [
+                        [{"type": "rubric", "text": "℟."}, {"type": "text", "text": "Refrain."}],
+                        [{"type": "text", "text": "la verse 1 line 1"}],
+                        [{"type": "rubric", "text": "℟."}, {"type": "text", "text": "Refrain."}],
+                        [{"type": "text", "text": "la verse 2 line 1"}],
+                        [{"type": "rubric", "text": "℟."}, {"type": "text", "text": "Refrain."}],
+                        [{"type": "text", "text": "la verse 3 line 1"}],
+                        [{"type": "rubric", "text": "℟."}, {"type": "text", "text": "Refrain."}],
+                    ],
+                    "de": [
+                        [{"type": "rubric", "text": "℟."}, {"type": "text", "text": "Kehrvers."}],
+                        [{"type": "text", "text": "de verse all-in-one line 1"}],
+                        [{"type": "text", "text": "de verse all-in-one line 2"}],
+                        [{"type": "text", "text": "de verse all-in-one line 3"}],
+                        [{"type": "rubric", "text": "℟."}, {"type": "text", "text": "Kehrvers."}],
+                    ],
+                },
+            },
+        }
+        R._split_responsorial_psalm(rp)
+        assert "body" not in rp
+        assert len(rp["verses"]["la"]) == 3
+        assert len(rp["verses"]["de"]) == 1
+        assert rp["responsory"]["primary"]["la"][0] == [
+            {"type": "text", "text": "Refrain."}
+        ]
+        assert rp["responsory"]["primary"]["de"][0] == [
+            {"type": "text", "text": "Kehrvers."}
+        ]
+
+    def test_no_anchor_fallback_via_repetition(self):
+        # A language with no ℟. markers — refrain text repeats verbatim within
+        # the lines array. Detector finds the longest leading block that
+        # repeats and uses repetitions as boundaries.
+        rp = {
+            "body": {
+                "lines": {
+                    "fr": [
+                        [{"type": "text", "text": "Que tes fidèles,"}],
+                        [{"type": "text", "text": "disent la gloire."}],
+                        [{"type": "text", "text": "verse 1 line 1"}],
+                        [{"type": "text", "text": "verse 1 line 2"}],
+                        [{"type": "text", "text": "Que tes fidèles,"}],
+                        [{"type": "text", "text": "disent la gloire."}],
+                        [{"type": "text", "text": "verse 2 line 1"}],
+                        [{"type": "text", "text": "Que tes fidèles,"}],
+                        [{"type": "text", "text": "disent la gloire."}],
+                    ]
+                }
+            }
+        }
+        R._split_responsorial_psalm(rp)
+        primary = rp["responsory"]["primary"]["fr"]
+        assert primary == [
+            [{"type": "text", "text": "Que tes fidèles,"}],
+            [{"type": "text", "text": "disent la gloire."}],
+        ]
+        verses = rp["verses"]["fr"]
+        assert len(verses) == 2
+        assert verses[0] == [
+            [{"type": "text", "text": "verse 1 line 1"}],
+            [{"type": "text", "text": "verse 1 line 2"}],
+        ]
+        assert verses[1] == [[{"type": "text", "text": "verse 2 line 1"}]]
+
+    def test_idempotent_when_already_split(self):
+        # Running the splitter on an already-split slot is a no-op.
+        rp = {
+            "responsory": {"primary": {"la": [[{"type": "text", "text": "Refrain."}]]}},
+            "verses": {"la": [[[{"type": "text", "text": "v1"}]]]},
+        }
+        before = json.dumps(rp, sort_keys=True)
+        R._split_responsorial_psalm(rp)
+        after = json.dumps(rp, sort_keys=True)
+        assert before == after
+
+    def test_no_op_when_body_missing(self):
+        # If the slot has no `body`, leave it alone.
+        rp = {"citation": {"la": "Ps 1"}}
+        R._split_responsorial_psalm(rp)
+        assert "responsory" not in rp
+        assert "verses" not in rp
+
+
+class TestAltRefrainNotMergedWithVerse:
+    """`_merge_mid_sentence_lines` must not glue verse content onto an
+    alt-refrain line when the alt refrain itself ends without a sentence
+    terminator (e.g. bare `Alléluia`). Without this guard, the no-terminator
+    rule treats the acclamation as mid-sentence and merges the next verse
+    line into it — contaminating the alt refrain."""
+
+    def test_alt_marker_combined_with_alleluia_no_period(self):
+        # Pattern: [{rubric "ou:"}, {text "Alléluia"}] followed by verse text.
+        # `Alléluia` has no terminator, but it's a standalone acclamation —
+        # the next line must NOT be glued in.
+        lines = [
+            [{"type": "rubric", "text": "ou:"}, {"type": "text", "text": "Alléluia"}],
+            [{"type": "text", "text": "Louez le Seigneur du haut des cieux,"}],
+        ]
+        out = R._merge_mid_sentence_lines(lines)
+        assert len(out) == 2
+        assert out[0] == [
+            {"type": "rubric", "text": "ou:"},
+            {"type": "text", "text": "Alléluia"},
+        ]
+        assert out[1] == [{"type": "text", "text": "Louez le Seigneur du haut des cieux,"}]
+
+    def test_separate_alt_marker_then_alleluia_then_verse(self):
+        # Pattern: [{rubric "vel"}], [{text "Allelúia"}], [{text "Verse..."}].
+        # The alt-marker line and the standalone-acclamation line both protect
+        # against the next merge.
+        lines = [
+            [{"type": "rubric", "text": "vel"}],
+            [{"type": "text", "text": "Allelúia"}],
+            [{"type": "text", "text": "Cantáte Dómino,"}],
+        ]
+        out = R._merge_mid_sentence_lines(lines)
+        assert len(out) == 3
+        assert out[0] == [{"type": "rubric", "text": "vel"}]
+        assert out[1] == [{"type": "text", "text": "Allelúia"}]
+        assert out[2] == [{"type": "text", "text": "Cantáte Dómino,"}]
+
+    def test_genuine_mid_sentence_break_still_merges(self):
+        # Sanity: when there's no alt-marker / acclamation in play, an
+        # unterminated text line still merges with the next (the original
+        # behavior the function exists to provide).
+        lines = [
+            [{"type": "text", "text": "tout le bien qu'il"}],
+            [{"type": "text", "text": "m'a fait ?"}],
+        ]
+        out = R._merge_mid_sentence_lines(lines)
+        assert len(out) == 1
+        assert out[0][0]["text"] == "tout le bien qu'il m'a fait ?"
 
 
 class TestNormalizeWeekdayReadingCycle:

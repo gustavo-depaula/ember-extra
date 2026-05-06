@@ -228,28 +228,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Notum fecit Dóminus salutáre suum. Cantáte Dómino cánticum novum, quia mirabília fecit. Salvávit sibi déxtera eius, et bráchium sanctum eius. ℟. Notum fecit Dóminus salutáre suum. Notum fecit Dóminus salutáre suum, in conspéctu géntium revelávit iustítiam suam. Recordátus est misericórdiæ suæ et veritátis suæ dómui Israel. ℟. Notum fecit Dóminus salutáre suum. Vidérunt omnes términi terræ salutáre Dei nostri. Iubiláte Deo, omnis terra, erúmpite, exsultáte et psállite. ℟. Notum fecit Dóminus salutáre suum.",
-            "es": "℟. El Señor da a conocer su salvación. Cantad al Señor un cántico nuevo, porque ha hecho maravillas. Su diestra le ha dado la victoria, su santo brazo. ℟. El Señor da a conocer su salvación. El Señor da a conocer su salvación, revela a las naciones su justicia. Se acordó de su misericordia y su fidelidad en favor de la casa de Israel. ℟. El Señor da a conocer su salvación. Los confines de la tierra han contemplado la salvación de nuestro Dios. Aclama al Señor, tierra entera; gritad, vitoread, tocad. ℟. El Señor da a conocer su salvación.",
-            "en": "℟. The Lord has made known his salvation. Sing a new song to the Lord for he has worked wonders. His right hand and his holy arm have brought salvation. ℟. The Lord has made known his salvation. The Lord has made known his salvation; has shown his justice to the nations. he has remembered his truth and love for the house of Israel. ℟. The Lord has made known his salvation. All the ends of the earth have seen the salvation of our God. Shout to the Lord all the earth, ring out your joy. ℟. The Lord has made known his salvation.",
-            "pt-BR": "℟. O Senhor fez conhecer a salvação. Cantai ao Senhor Deus um canto novo, porque ele fez prodígios! Sua mão e o seu braço forte e santo alcançaram-lhe a vitória. ℟. O Senhor fez conhecer a salvação. O Senhor fez conhecer a salvação, e às nações, sua justiça; recordou o seu amor sempre fiel pela casa de Israel. ℟. O Senhor fez conhecer a salvação. Os confins do universo contemplaram da salvação do nosso Deus. Aclamai o Senhor Deus, ó terra inteira, alegrai-vos e exultai! ℟. O Senhor fez conhecer a salvação.",
-            "it": "℟. Il Signore ha rivelato la sua giustizia. Cantate al Signore un canto nuovo, perché ha compiuto meraviglie. Gli ha dato vittoria la sua destra e il suo braccio santo. ℟. Il Signore ha rivelato la sua giustizia. Il Signore ha fatto conoscere la sua salvezza, agli occhi delle genti ha rivelato la sua giustizia. Egli si è ricordato del suo amore, della sua fedeltà alla casa d’Israele. ℟. Il Signore ha rivelato la sua giustizia. Tutti i confini della terra hanno veduto la vittoria del nostro Dio. Acclami il Signore tutta la terra, gridate, esultate, cantate inni! ℟. Il Signore ha rivelato la sua giustizia.",
-            "fr": "℟. Le Seigneur a fait connaître son salut. Chantez au Seigneur un chant nouveau, car il a fait des merveilles ; par son bras très saint, par sa main puissante, il s’est assuré la victoire. ℟. Le Seigneur a fait connaître son salut. Le Seigneur a fait connaître sa victoire et révélé sa justice aux nations ; il s’est rappelé sa fidélité, son amour, en faveur de la maison d’Israël. ℟. Le Seigneur a fait connaître son salut. La terre tout entière a vu la victoire de notre Dieu. Acclamez le Seigneur, terre entière, sonnez, chantez, jouez ! ℟. Le Seigneur a fait connaître son salut.",
-            "de": "℟. Der Herr hat sein Heil enthüllt vor den Augen der Völker. Singet dem Herrn ein neues Lied; denn er hat wunderbare Taten vollbracht. Er hat mit seiner Rechten geholfen und mit seinem heiligen Arm. ℟. Der Herr hat sein Heil enthüllt vor den Augen der Völker. Der Herr hat sein Heil bekannt gemacht und sein gerechtes Wirken enthüllt vor den Augen der Völker. Er dachte an seine Huld und an seine Treue zum Hause Israel. ℟. Der Herr hat sein Heil enthüllt vor den Augen der Völker. Alle Enden der Erde sahen das Heil unsres Gottes. Jauchzt vor dem Herrn, alle Länder der Erde, freut euch, jubelt und singt! ℟. Der Herr hat sein Heil enthüllt vor den Augen der Völker."
-          },
-          "lines": {
+        "citation": {
+          "pt-BR": "Sl 97",
+          "de": "Ps 98",
+          "la": "Ps 97",
+          "en": "Ps 97",
+          "es": "Sal 97",
+          "it": "Sal 97",
+          "fr": "Ps 97"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Notum fecit Dóminus salutáre suum."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "El Señor da a conocer su salvación."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "The Lord has made known his salvation."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "O Senhor fez conhecer a salvação."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Il Signore ha rivelato la sua giustizia."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Le Seigneur a fait connaître son salut."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Der Herr hat sein Heil enthüllt vor den Augen der Völker."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -273,17 +323,9 @@
                   "type": "text",
                   "text": "et bráchium sanctum eius."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Notum fecit Dóminus salutáre suum."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -301,17 +343,9 @@
                   "type": "text",
                   "text": "Recordátus est misericórdiæ suæ et veritátis suæ dómui Israel."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Notum fecit Dóminus salutáre suum."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -335,29 +369,11 @@
                   "type": "text",
                   "text": "erúmpite, exsultáte et psállite."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Notum fecit Dóminus salutáre suum."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor da a conocer su salvación."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -381,17 +397,9 @@
                   "type": "text",
                   "text": "su santo brazo."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor da a conocer su salvación."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -409,17 +417,9 @@
                   "type": "text",
                   "text": "Se acordó de su misericordia y su fidelidad en favor de la casa de Israel."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor da a conocer su salvación."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -437,45 +437,19 @@
                   "type": "text",
                   "text": "gritad, vitoread, tocad."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor da a conocer su salvación."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord has made known his salvation."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "Sing a new song to the Lord for he has worked wonders. His right hand and his holy arm have brought salvation."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord has made known his salvation."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -487,45 +461,19 @@
                   "type": "text",
                   "text": "he has remembered his truth and love for the house of Israel."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord has made known his salvation."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "All the ends of the earth have seen the salvation of our God. Shout to the Lord all the earth, ring out your joy."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord has made known his salvation."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor fez conhecer a salvação."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -537,17 +485,9 @@
                   "type": "text",
                   "text": "porque ele fez prodígios! Sua mão e o seu braço forte e santo alcançaram-lhe a vitória."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor fez conhecer a salvação."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -565,17 +505,9 @@
                   "type": "text",
                   "text": "recordou o seu amor sempre fiel pela casa de Israel."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor fez conhecer a salvação."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -587,29 +519,11 @@
                   "type": "text",
                   "text": "alegrai-vos e exultai!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor fez conhecer a salvação."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore ha rivelato la sua giustizia."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -627,17 +541,9 @@
                   "type": "text",
                   "text": "Gli ha dato vittoria la sua destra e il suo braccio santo."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore ha rivelato la sua giustizia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -661,17 +567,9 @@
                   "type": "text",
                   "text": "della sua fedeltà alla casa d’Israele."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore ha rivelato la sua giustizia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -689,29 +587,11 @@
                   "type": "text",
                   "text": "gridate, esultate, cantate inni!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore ha rivelato la sua giustizia."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur a fait connaître son salut."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -735,17 +615,9 @@
                   "type": "text",
                   "text": "il s’est assuré la victoire."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur a fait connaître son salut."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -763,17 +635,9 @@
                   "type": "text",
                   "text": "en faveur de la maison d’Israël."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur a fait connaître son salut."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -791,29 +655,11 @@
                   "type": "text",
                   "text": "sonnez, chantez, jouez !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur a fait connaître son salut."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Herr hat sein Heil enthüllt vor den Augen der Völker."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -831,17 +677,9 @@
                   "type": "text",
                   "text": "Er hat mit seiner Rechten geholfen und mit seinem heiligen Arm."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Herr hat sein Heil enthüllt vor den Augen der Völker."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -853,17 +691,9 @@
                   "type": "text",
                   "text": "Er dachte an seine Huld und an seine Treue zum Hause Israel."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Herr hat sein Heil enthüllt vor den Augen der Völker."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -881,28 +711,9 @@
                   "type": "text",
                   "text": "freut euch, jubelt und singt!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Herr hat sein Heil enthüllt vor den Augen der Völker."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "pt-BR": "Sl 97",
-          "de": "Ps 98",
-          "la": "Ps 97",
-          "en": "Ps 97",
-          "es": "Sal 97",
-          "it": "Sal 97",
-          "fr": "Ps 97"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -926,7 +737,9 @@
                 {
                   "type": "reference",
                   "text": "Ps 118, 105"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Lucerna pédibus meis verbum tuum, et lumen sémitis meis. Allelúia."
@@ -942,7 +755,9 @@
                 {
                   "type": "reference",
                   "text": "Sal 118, 105"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Lámpara es tu palabra para mis pasos, luz en mi sendero. Aleluya."
@@ -1459,28 +1274,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Intéllege gémitum meum, Dómine. Verba mea áuribus pércipe, Dómine; intéllege gémitum meum. Inténde voci clamóris mei, rex meus et Deus meus. ℟. Intéllege gémitum meum, Dómine. Quóniam non Deus volens iniquitátem tu es; neque habitábit iuxta te malígnus, neque permanébunt iniústi ante óculos tuos. ℟. Intéllege gémitum meum, Dómine. Odísti omnes qui operántur iniquitátem, perdes omnes qui loquúntur mendácium; virum sánguinum et dolósum abominábitur Dóminus. ℟. Intéllege gémitum meum, Dómine.",
-            "es": "℟. Atiende a mis gemidos, Señor. Señor, escucha mis palabras, atiende a mis gemidos, haz caso de mis gritos de auxilio, Rey mío y Dios mío. ℟. Atiende a mis gemidos, Señor. Tú no eres un Dios que ame la maldad, ni el malvado es tu huésped, ni el arrogante se mantiene en tu presencia. ℟. Atiende a mis gemidos, Señor. Detestas a los malhechores, destruyes a los mentirosos; al hombre sanguinario y traicionero lo aborrece el Señor. ℟. Atiende a mis gemidos, Señor.",
-            "en": "℟. Lord, listen to my groaning. To my words give ear, O Lord, give heed to my groaning. Attend to the sound of my cries, my King and my God. ℟. Lord, listen to my groaning. You are no God who loves evil; no sinner is your guest. The boastful shall not stand their ground before your face. ℟. Lord, listen to my groaning. You hate all who do evil: you destroy all who lie. The deceitful and bloodthirsty man the Lord detests. ℟. Lord, listen to my groaning.",
-            "pt-BR": "℟. Atendei o meu gemido, ó Senhor! Escutai, ó Senhor Deus, minhas palavras, atendei o meu gemido! Ficai atento ao clamor da minha prece, ó meu Rei e meu Senhor! ℟. Atendei o meu gemido, ó Senhor! Não sois um Deus a quem agrade a iniquidade, não pode o mau morar convosco; nem os ímpios poderão permanecer perante os vossos olhos. ℟. Atendei o meu gemido, ó Senhor. Detestais o que pratica a iniquidade e destruís o mentiroso. Ó Senhor, abominais o sanguinário, o perverso e enganador. ℟. Atendei o meu gemido, ó Senhor!",
-            "it": "℟. Sii attento, Signore, al mio lamento. Porgi l’orecchio, Signore, alle mie parole: intendi il mio lamento. Sii attento alla voce del mio grido, o mio re e mio Dio, perché a te, Signore, rivolgo la mia preghiera. ℟. Sii attento, Signore, al mio lamento. Tu non sei un Dio che gode del male, non è tuo ospite il malvagio; gli stolti non resistono al tuo sguardo. ℟. Sii attento, Signore, al mio lamento. Tu hai in odio tutti i malfattori, tu distruggi chi dice menzogne. Sanguinari e ingannatori, il Signore li detesta. ℟. Sii attento, Signore, al mio lamento.",
-            "fr": "℟. Comprends ma plainte, Seigneur. Écoute mes paroles, Seigneur, comprends ma plainte ; entends ma voix qui t’appelle, ô mon Roi et mon Dieu ! ℟. Comprends ma plainte, Seigneur. Tu n’es pas un Dieu ami du mal, chez toi, le méchant n’est pas reçu. Non, l’insensé ne tient pas devant ton regard. ℟. Comprends ma plainte, Seigneur. Tu détestes tous les malfaisants, tu extermines les menteurs ; l’homme de ruse et de sang, le Seigneur le hait. ℟. Comprends ma plainte, Seigneur.",
-            "de": "℟. Höre meine Worte, Herr, achte auf mein Seufzen! Vernimm mein lautes Schreien, mein König und mein Gott, denn ich flehe zu dir. Denn du bist kein Gott, dem das Unrecht gefällt; der Frevler darf nicht bei dir weilen. ℟. Höre meine Worte, Herr, achte auf mein Seufzen! Wer sich brüstet, besteht nicht vor deinen Augen; denn dein Hass trifft alle, die Böses tun. Du lässt die Lügner zugrunde gehn, Mörder und Betrüger sind dem Herrn ein Gräuel. ℟. Höre meine Worte, Herr, achte auf mein Seufzen!"
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 5, 2-3. 5-6. 7",
+          "es": "Sal 5, 2-3. 5-6. 7",
+          "en": "Ps 5:2-3, 5-6, 7",
+          "pt-BR": "Sl 5, 2-3.5-6.7",
+          "it": "Sal 5, 2-3. 5-6. 7",
+          "fr": "Ps 5, 2-3. 5-6. 7",
+          "de": "Ps 5, 2-3. 5-6. 7"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Intéllege gémitum meum, Dómine."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Atiende a mis gemidos, Señor."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "Lord, listen to my groaning."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Atendei o meu gemido, ó Senhor!"
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Sii attento, Signore, al mio lamento."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Comprends ma plainte, Seigneur."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Höre meine Worte, Herr, achte auf mein Seufzen!"
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -1504,17 +1369,9 @@
                   "type": "text",
                   "text": "rex meus et Deus meus."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Intéllege gémitum meum, Dómine."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1532,17 +1389,9 @@
                   "type": "text",
                   "text": "neque permanébunt iniústi ante óculos tuos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Intéllege gémitum meum, Dómine."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1560,29 +1409,11 @@
                   "type": "text",
                   "text": "virum sánguinum et dolósum abominábitur Dóminus."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Intéllege gémitum meum, Dómine."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Atiende a mis gemidos, Señor."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1606,17 +1437,9 @@
                   "type": "text",
                   "text": "Rey mío y Dios mío."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Atiende a mis gemidos, Señor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1634,17 +1457,9 @@
                   "type": "text",
                   "text": "ni el arrogante se mantiene en tu presencia."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Atiende a mis gemidos, Señor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1662,89 +1477,37 @@
                   "type": "text",
                   "text": "al hombre sanguinario y traicionero lo aborrece el Señor."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Atiende a mis gemidos, Señor."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Lord, listen to my groaning."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "To my words give ear, O Lord, give heed to my groaning. Attend to the sound of my cries, my King and my God."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Lord, listen to my groaning."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "You are no God who loves evil; no sinner is your guest. The boastful shall not stand their ground before your face."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Lord, listen to my groaning."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "You hate all who do evil: you destroy all who lie. The deceitful and bloodthirsty man the Lord detests."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Lord, listen to my groaning."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Atendei o meu gemido, ó Senhor!"
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -1762,17 +1525,9 @@
                   "type": "text",
                   "text": "ó meu Rei e meu Senhor!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Atendei o meu gemido, ó Senhor!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1784,17 +1539,9 @@
                   "type": "text",
                   "text": "não pode o mau morar convosco; nem os ímpios poderão permanecer perante os vossos olhos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Atendei o meu gemido, ó Senhor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1812,29 +1559,11 @@
                   "type": "text",
                   "text": "o perverso e enganador."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Atendei o meu gemido, ó Senhor!"
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Sii attento, Signore, al mio lamento."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -1864,17 +1593,9 @@
                   "type": "text",
                   "text": "perché a te, Signore, rivolgo la mia preghiera."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Sii attento, Signore, al mio lamento."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1892,17 +1613,9 @@
                   "type": "text",
                   "text": "gli stolti non resistono al tuo sguardo."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Sii attento, Signore, al mio lamento."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1920,29 +1633,11 @@
                   "type": "text",
                   "text": "Sanguinari e ingannatori, il Signore li detesta."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Sii attento, Signore, al mio lamento."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Comprends ma plainte, Seigneur."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -1966,17 +1661,9 @@
                   "type": "text",
                   "text": "ô mon Roi et mon Dieu !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Comprends ma plainte, Seigneur."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1994,17 +1681,9 @@
                   "type": "text",
                   "text": "Non, l’insensé ne tient pas devant ton regard."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Comprends ma plainte, Seigneur."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2028,29 +1707,11 @@
                   "type": "text",
                   "text": "le Seigneur le hait."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Comprends ma plainte, Seigneur."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Höre meine Worte, Herr, achte auf mein Seufzen!"
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -2074,17 +1735,9 @@
                   "type": "text",
                   "text": "der Frevler darf nicht bei dir weilen."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Höre meine Worte, Herr, achte auf mein Seufzen!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2108,28 +1761,9 @@
                   "type": "text",
                   "text": "Mörder und Betrüger sind dem Herrn ein Gräuel."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Höre meine Worte, Herr, achte auf mein Seufzen!"
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 5, 2-3. 5-6. 7",
-          "es": "Sal 5, 2-3. 5-6. 7",
-          "en": "Ps 5:2-3, 5-6, 7",
-          "pt-BR": "Sl 5, 2-3.5-6.7",
-          "it": "Sal 5, 2-3. 5-6. 7",
-          "fr": "Ps 5, 2-3. 5-6. 7",
-          "de": "Ps 5, 2-3. 5-6. 7"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -2153,7 +1787,9 @@
                 {
                   "type": "reference",
                   "text": "Ps 118, 105"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Lucerna pédibus meis verbum tuum, et lumen sémitis meis. Allelúia."
@@ -2169,7 +1805,9 @@
                 {
                   "type": "reference",
                   "text": "Sal 118, 105"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Lámpara es tu palabra para mis pasos, luz en mi sendero. Aleluya."

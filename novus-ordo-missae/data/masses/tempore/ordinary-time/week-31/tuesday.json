@@ -228,28 +228,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Custodi ánimam meam in pace apud te, Dómine. Dómine, non est exaltátum cor meum, neque eláti sunt óculi mei; neque ambulávi in magnis, neque in mirabílibus super me. ℟. Custodi ánimam meam in pace apud te, Dómine. Vere pacátam et quiétam feci ánimam meam, sicut ablactátus in sinu matris suæ, sicut ablactátus, ita in me est ánima mea. ℟. Custodi ánimam meam in pace apud te, Dómine. Speret Israel in Dómino, ex hoc nunc et usque in sǽculum. ℟. Custodi ánimam meam in pace apud te, Dómine.",
-            "es": "℟. Guarda mi alma en la paz, junto a ti, Señor. Señor, mi corazón no es ambicioso, ni mis ojos altaneros; no pretendo grandezas que superan mi capacidad. ℟. Guarda mi alma en la paz, junto a ti, Señor. Sino que acallo y modero mis deseos, como un niño en brazos de su madre; como un niño saciado así está mi alma dentro de mí. ℟. Guarda mi alma en la paz, junto a ti, Señor. Espere Israel en el Señor ahora y por siempre. ℟. Guarda mi alma en la paz, junto a ti, Señor.",
-            "en": "℟. In you, Lord, I have found my peace. O Lord, my heart is not proud nor haughty my eyes. I have not gone after things too great nor marvels beyond me. ℟. In you, Lord, I have found my peace. Truly I have set my soul in silence and peace. A weaned child on its mother's breast, even so is my soul. ℟. In you, Lord, I have found my peace. O Israel, hope in the Lord both now and for ever. ℟. In you, Lord, I have found my peace.",
-            "pt-BR": "℟. Guardai-me, em paz, junto a vós, ó Senhor! Senhor, meu coração não é orgulhoso, nem se eleva arrogante o meu olhar; não ando à procura de grandezas, nem tenho pretensões ambiciosas! ℟. Guardai-me, em paz, junto a vós, ó Senhor! Fiz calar e sossegar a minha alma; ela está em grande paz dentro de mim, como a criança bem tranquila, amamentada no regaço acolhedor de sua mãe. ℟. Guardai-me, em paz, junto a vós, ó Senhor! Confia no Senhor, ó Israel, desde agora e por toda a eternidade! ℟. Guardai-me, em paz, junto a vós, ó Senhor!",
-            "it": "℟. Custodiscimi, Signore, nella pace. Ssignore, non si esalta il mio cuore né i miei occhi guardano in alto; non vado cercando cose grandi né meraviglie più alte di me. ℟. Custodiscimi, Signore, nella pace. Io invece resto quieto e sereno: come un bimbo svezzato in braccio a sua madre, come un bimbo svezzato è in me l’anima mia. ℟. Custodiscimi, Signore, nella pace. Israele attenda il Signore, da ora e per sempre. ℟. Custodiscimi, Signore, nella pace.",
-            "fr": "℟. Garde mon âme dans la paix près de toi, Seigneur. Seigneur, je n’ai pas le cœur fier ni le regard ambitieux ; je ne poursuis ni grands desseins, ni merveilles qui me dépassent. ℟. Garde mon âme dans la paix près de toi, Seigneur. Non, mais je tiens mon âme égale et silencieuse ; mon âme est en moi comme un enfant, comme un petit enfant contre sa mère. ℟. Garde mon âme dans la paix près de toi, Seigneur. Attends le Seigneur, Israël, maintenant et à jamais. ℟. Garde mon âme dans la paix près de toi, Seigneur.",
-            "de": "℟. Herr, bewahre meine Seele in deinem Frieden! Herr, mein Herz ist nicht stolz, nicht hochmütig blicken meine Augen. Ich gehe nicht um mit Dingen, die mir zu wunderbar und zu hoch sind. ℟. Herr, bewahre meine Seele in deinem Frieden! Ich ließ meine Seele ruhig werden und still; wie ein kleines Kind bei der Mutter ist meine Seele still in mir. ℟. Herr, bewahre meine Seele in deinem Frieden! Israel, harre auf den Herrn von nun an bis in Ewigkeit! ℟. Herr, bewahre meine Seele in deinem Frieden!"
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 130, 1. 2. 3",
+          "es": "Sal 130, 1. 2. 3",
+          "en": "Ps 130:1, 2, 3",
+          "pt-BR": "Sl 130, 1. 2. 3",
+          "de": "Ps 131",
+          "it": "Sal 130, 1. 2. 3",
+          "fr": "Ps 130, 1. 2. 3"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Custodi ánimam meam in pace apud te, Dómine."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Guarda mi alma en la paz, junto a ti, Señor."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "In you, Lord, I have found my peace."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Guardai-me, em paz, junto a vós, ó Senhor!"
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Custodiscimi, Signore, nella pace."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Garde mon âme dans la paix près de toi, Seigneur."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Herr, bewahre meine Seele in deinem Frieden!"
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -273,17 +323,9 @@
                   "type": "text",
                   "text": "neque in mirabílibus super me."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Custodi ánimam meam in pace apud te, Dómine."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -301,17 +343,9 @@
                   "type": "text",
                   "text": "sicut ablactátus, ita in me est ánima mea."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Custodi ánimam meam in pace apud te, Dómine."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -323,29 +357,11 @@
                   "type": "text",
                   "text": "ex hoc nunc et usque in sǽculum."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Custodi ánimam meam in pace apud te, Dómine."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Guarda mi alma en la paz, junto a ti, Señor."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -363,17 +379,9 @@
                   "type": "text",
                   "text": "no pretendo grandezas que superan mi capacidad."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Guarda mi alma en la paz, junto a ti, Señor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -391,105 +399,45 @@
                   "type": "text",
                   "text": "como un niño saciado así está mi alma dentro de mí."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Guarda mi alma en la paz, junto a ti, Señor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Espere Israel en el Señor ahora y por siempre."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Guarda mi alma en la paz, junto a ti, Señor."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "In you, Lord, I have found my peace."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "O Lord, my heart is not proud nor haughty my eyes. I have not gone after things too great nor marvels beyond me."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "In you, Lord, I have found my peace."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Truly I have set my soul in silence and peace. A weaned child on its mother's breast, even so is my soul."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "In you, Lord, I have found my peace."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "O Israel, hope in the Lord both now and for ever."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "In you, Lord, I have found my peace."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Guardai-me, em paz, junto a vós, ó Senhor!"
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -513,17 +461,9 @@
                   "type": "text",
                   "text": "nem tenho pretensões ambiciosas!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Guardai-me, em paz, junto a vós, ó Senhor!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -541,17 +481,9 @@
                   "type": "text",
                   "text": "como a criança bem tranquila, amamentada no regaço acolhedor de sua mãe."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Guardai-me, em paz, junto a vós, ó Senhor!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -563,29 +495,11 @@
                   "type": "text",
                   "text": "desde agora e por toda a eternidade!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Guardai-me, em paz, junto a vós, ó Senhor!"
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Custodiscimi, Signore, nella pace."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -597,17 +511,9 @@
                   "type": "text",
                   "text": "non vado cercando cose grandi né meraviglie più alte di me."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Custodiscimi, Signore, nella pace."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -625,17 +531,9 @@
                   "type": "text",
                   "text": "come un bimbo svezzato è in me l’anima mia."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Custodiscimi, Signore, nella pace."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -647,29 +545,11 @@
                   "type": "text",
                   "text": "da ora e per sempre."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Custodiscimi, Signore, nella pace."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Garde mon âme dans la paix près de toi, Seigneur."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -687,17 +567,9 @@
                   "type": "text",
                   "text": "ni merveilles qui me dépassent."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Garde mon âme dans la paix près de toi, Seigneur."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -715,17 +587,9 @@
                   "type": "text",
                   "text": "comme un petit enfant contre sa mère."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Garde mon âme dans la paix près de toi, Seigneur."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -737,29 +601,11 @@
                   "type": "text",
                   "text": "maintenant et à jamais."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Garde mon âme dans la paix près de toi, Seigneur."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, bewahre meine Seele in deinem Frieden!"
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -783,17 +629,9 @@
                   "type": "text",
                   "text": "die mir zu wunderbar und zu hoch sind."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, bewahre meine Seele in deinem Frieden!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -805,44 +643,17 @@
                   "type": "text",
                   "text": "wie ein kleines Kind bei der Mutter ist meine Seele still in mir."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, bewahre meine Seele in deinem Frieden!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Israel, harre auf den Herrn von nun an bis in Ewigkeit!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, bewahre meine Seele in deinem Frieden!"
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 130, 1. 2. 3",
-          "es": "Sal 130, 1. 2. 3",
-          "en": "Ps 130:1, 2, 3",
-          "pt-BR": "Sl 130, 1. 2. 3",
-          "de": "Ps 131",
-          "it": "Sal 130, 1. 2. 3",
-          "fr": "Ps 130, 1. 2. 3"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -866,7 +677,9 @@
                 {
                   "type": "reference",
                   "text": "Mt 11, 28"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Veníte ad me, omnes qui laborátis et oneráti estis, et ego refíciam vos, dicit Dóminus. Allelúia."
@@ -882,7 +695,9 @@
                 {
                   "type": "reference",
                   "text": "Mt 11, 28"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Venid a mí todos los que estáis cansados y agobiados —dice el Señor—, y yo os aliviaré. Aleluya."
@@ -1399,28 +1214,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Apud te, Dómine, laus mea in ecclésia magna. Vota mea reddam in conspéctu timéntium eum. Edent páuperes, et saturabúntur, et laudábunt Dóminum qui requírunt eum: «Vivant corda eórum in sǽculum sǽculi». ℟. Apud te, Dómine, laus mea in ecclésia magna. Reminiscéntur et converténtur ad Dóminum univérsi fines terræ, et adorábunt in conspéctu eius univérsæ famíliæ géntium. ℟. Apud te, Dómine, laus mea in ecclésia magna. Ipsum solum adorábunt omnes, qui dórmiunt in terra; in conspéctu eius prócident omnes qui descéndunt in púlverem. ℟. Apud te, Dómine, laus mea in ecclésia magna. Anima autem mea illi vivet, et semen meum sérviet ipsi. Narrábitur de Dómino generatióni ventúræ, et annuntiábunt iustítiam eius pópulo qui nascétur: «Hæc fecit Dóminus». ℟. Apud te, Dómine, laus mea in ecclésia magna.",
-            "es": "℟. El Señor es mi alabanza en la gran asamblea. Cumpliré mis votos delante de sus fieles. Los desvalidos comerán hasta saciarse, alabarán al Señor los que lo buscan. ¡Viva su corazón por siempre! ℟. El Señor es mi alabanza en la gran asamblea. Lo recordarán y volverán al Señor hasta de los confines del orbe; en su presencia se postrarán las familias de los pueblos. ℟. El Señor es mi alabanza en la gran asamblea. Porque del Señor es el reino, él gobierna a los pueblos. Ante él se postrarán los que duermen en la tierra. ℟. El Señor es mi alabanza en la gran asamblea. Mi descendencia lo servirá; hablarán del Señor a la generación futura, contarán su justicia al pueblo que ha de nacer: «Todo lo que hizo el Señor». ℟. El Señor es mi alabanza en la gran asamblea.",
-            "en": "℟. I will praise you, Lord, in the assembly of your people. My vows I will pay before those who fear the Lord. The poor shall eat and shall have their fill. They shall praise the Lord, those who seek him. May their hearts live for ever and ever! ℟. I will praise you, Lord, in the assembly of your people. All the earth shall remember and return to the Lord, all families of the nations worship before him for the kingdom is the Lord's; he is ruler of the nations. ℟. I will praise you, Lord, in the assembly of your people. They shall worship him, all the mighty of the earth. ℟. I will praise you, Lord, in the assembly of your people. And my soul shall live for him, my children serve him. They shall tell of the Lord to generations yet to come, declare his faithfulness to peoples yet unborn: 'These things the Lord has done.' ℟. I will praise you, Lord, in the assembly of your people.",
-            "pt-BR": "℟. Ó Senhor, sois meu louvor em meio à grande assembleia! Cumpro meus votos ante aqueles que vos temem! Vossos pobres vão comer e saciar-se, e os que procuram o Senhor o louvarão; \"Seus corações tenham a vida para sempre!\" ℟. Ó Senhor, sois meu louvor em meio à grande assembleia! Lembrem-se disso os confins de toda a terra, para que voltem ao Senhor e se convertam, e se prostrem, adorando, diante dele todos os povos e as famílias das nações. ℟. Ó Senhor, sois meu louvor em meio à grande assembleia! Pois ao Senhor é que pertence a realeza; ele domina sobre todas as nações. Somente a ele adorarão os poderosos. ℟. Ó Senhor, sois meu louvor em meio à grande assembleia! Toda a minha descendência há de servi-lo; às futuras gerações anunciará, o poder e a justiça do Senhor; ao povo novo que há de vir, ela dirá: “Eis a obra que o Senhor realizou!” ℟. Ó Senhor, sois meu louvor em meio à grande assembleia!",
-            "it": "℟. Da te, Signore, la mia lode nella grande assemblea. Scioglierò i miei voti davanti ai suoi fedeli. I poveri mangeranno e saranno saziati, loderanno il Signore quanti lo cercano; il vostro cuore viva per sempre! ℟. Da te, Signore, la mia lode nella grande assemblea. Ricorderanno e torneranno al Signore tutti i confini della terra; davanti a te si prostreranno tutte le famiglie dei popoli. ℟. Da te, Signore, la mia lode nella grande assemblea. Perché del Signore è il regno: è lui che domina sui popoli! A lui solo si prostreranno quanti dormono sotto terra. ℟. Da te, Signore, la mia lode nella grande assemblea. Lo servirà la mia discendenza. Si parlerà del Signore alla generazione che viene; annunceranno la sua giustizia; al popolo che nascerà diranno: «Ecco l’opera del Signore!». ℟. Da te, Signore, la mia lode nella grande assemblea.",
-            "fr": "℟. Tu seras ma louange, Seigneur, dans la grande assemblée. Devant ceux qui te craignent, je tiendrai mes promesses. Les pauvres mangeront : ils seront rassasiés ; ils loueront le Seigneur, ceux qui le cherchent : « À vous, toujours, la vie et la joie ! » ℟. Tu seras ma louange, Seigneur, dans la grande assemblée. La terre entière se souviendra et reviendra vers le Seigneur, chaque famille de nations se prosternera devant lui : « Oui, au Seigneur la royauté, le pouvoir sur les nations ! » ℟. Tu seras ma louange, Seigneur, dans la grande assemblée. Et moi, je vis pour lui : ma descendance le servira ; on annoncera le Seigneur aux générations à venir. ℟. Tu seras ma louange, Seigneur, dans la grande assemblée. On proclamera sa justice au peuple qui va naître : Voilà son œuvre ! ℟. Tu seras ma louange, Seigneur, dans la grande assemblée.",
-            "de": "℟. Deine Treue, Herr, preise ich in großer Gemeinde. Deine Treue preise ich in großer Gemeinde; ich erfülle meine Gelübde vor denen, die Gott fürchten. Die Armen sollen essen und sich sättigen; den Herrn sollen preisen, die ihn suchen. Aufleben soll euer Herz für immer. ℟. Deine Treue, Herr, preise ich in großer Gemeinde. Alle Enden der Erde sollen daran denken und werden umkehren zum Herrn: Vor ihm werfen sich alle Stämme der Völker nieder. Denn der Herr regiert als König; er herrscht über die Völker. ℟. Deine Treue, Herr, preise ich in großer Gemeinde. Meine Seele, sie lebt für ihn; mein Stamm wird ihm dienen. Vom Herrn wird man dem künftigen Geschlecht erzählen, seine Heilstat verkündet man dem kommenden Volk; denn er hat das Werk getan. ℟. Deine Treue, Herr, preise ich in großer Gemeinde."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 21, 26b-27. 28. 29-30a. 30c-32",
+          "es": "Sal 21, 26b-27. 28. 29-30a. 30c-32",
+          "en": "Ps 21:26b-27, 28, 29-30a, 30c-32",
+          "pt-BR": "Sl 21, 26b-27. 28. 29-30a. 30c-32",
+          "de": "Ps 22",
+          "it": "Sal 21, 26b-27. 28. 29-30a. 30c-32",
+          "fr": "Ps 21, 26b-27. 28. 29-30a. 30c-32"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Apud te, Dómine, laus mea in ecclésia magna."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "El Señor es mi alabanza en la gran asamblea."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "I will praise you, Lord, in the assembly of your people."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Ó Senhor, sois meu louvor em meio à grande assembleia!"
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Da te, Signore, la mia lode nella grande assemblea."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Tu seras ma louange, Seigneur, dans la grande assemblée."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Deine Treue, Herr, preise ich in großer Gemeinde."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -1444,17 +1309,9 @@
                   "type": "text",
                   "text": "«Vivant corda eórum in sǽculum sǽculi»."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Apud te, Dómine, laus mea in ecclésia magna."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1466,17 +1323,9 @@
                   "type": "text",
                   "text": "et adorábunt in conspéctu eius univérsæ famíliæ géntium."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Apud te, Dómine, laus mea in ecclésia magna."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1488,17 +1337,9 @@
                   "type": "text",
                   "text": "in conspéctu eius prócident omnes qui descéndunt in púlverem."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Apud te, Dómine, laus mea in ecclésia magna."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1522,29 +1363,11 @@
                   "type": "text",
                   "text": "et annuntiábunt iustítiam eius pópulo qui nascétur: «Hæc fecit Dóminus»."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Apud te, Dómine, laus mea in ecclésia magna."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor es mi alabanza en la gran asamblea."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1568,17 +1391,9 @@
                   "type": "text",
                   "text": "¡Viva su corazón por siempre!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor es mi alabanza en la gran asamblea."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1590,17 +1405,9 @@
                   "type": "text",
                   "text": "en su presencia se postrarán las familias de los pueblos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor es mi alabanza en la gran asamblea."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1618,17 +1425,9 @@
                   "type": "text",
                   "text": "Ante él se postrarán los que duermen en la tierra."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor es mi alabanza en la gran asamblea."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1652,105 +1451,45 @@
                   "type": "text",
                   "text": "«Todo lo que hizo el Señor»."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor es mi alabanza en la gran asamblea."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "I will praise you, Lord, in the assembly of your people."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "My vows I will pay before those who fear the Lord. The poor shall eat and shall have their fill. They shall praise the Lord, those who seek him. May their hearts live for ever and ever!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "I will praise you, Lord, in the assembly of your people."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "All the earth shall remember and return to the Lord, all families of the nations worship before him for the kingdom is the Lord's; he is ruler of the nations."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "I will praise you, Lord, in the assembly of your people."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "They shall worship him, all the mighty of the earth."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "I will praise you, Lord, in the assembly of your people."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "And my soul shall live for him, my children serve him. They shall tell of the Lord to generations yet to come, declare his faithfulness to peoples yet unborn: 'These things the Lord has done.'"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "I will praise you, Lord, in the assembly of your people."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ó Senhor, sois meu louvor em meio à grande assembleia!"
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -1768,17 +1507,9 @@
                   "type": "text",
                   "text": "\"Seus corações tenham a vida para sempre!\""
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ó Senhor, sois meu louvor em meio à grande assembleia!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1790,17 +1521,9 @@
                   "type": "text",
                   "text": "para que voltem ao Senhor e se convertam, e se prostrem, adorando, diante dele todos os povos e as famílias das nações."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ó Senhor, sois meu louvor em meio à grande assembleia!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1818,17 +1541,9 @@
                   "type": "text",
                   "text": "Somente a ele adorarão os poderosos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ó Senhor, sois meu louvor em meio à grande assembleia!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1852,29 +1567,11 @@
                   "type": "text",
                   "text": "“Eis a obra que o Senhor realizou!”"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ó Senhor, sois meu louvor em meio à grande assembleia!"
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Da te, Signore, la mia lode nella grande assemblea."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -1898,17 +1595,9 @@
                   "type": "text",
                   "text": "il vostro cuore viva per sempre!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Da te, Signore, la mia lode nella grande assemblea."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1920,17 +1609,9 @@
                   "type": "text",
                   "text": "davanti a te si prostreranno tutte le famiglie dei popoli."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Da te, Signore, la mia lode nella grande assemblea."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1948,17 +1629,9 @@
                   "type": "text",
                   "text": "A lui solo si prostreranno quanti dormono sotto terra."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Da te, Signore, la mia lode nella grande assemblea."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1988,29 +1661,11 @@
                   "type": "text",
                   "text": "«Ecco l’opera del Signore!»."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Da te, Signore, la mia lode nella grande assemblea."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Tu seras ma louange, Seigneur, dans la grande assemblée."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -2034,17 +1689,9 @@
                   "type": "text",
                   "text": "« À vous, toujours, la vie et la joie ! »"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Tu seras ma louange, Seigneur, dans la grande assemblée."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2068,17 +1715,9 @@
                   "type": "text",
                   "text": "le pouvoir sur les nations ! »"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Tu seras ma louange, Seigneur, dans la grande assemblée."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2090,17 +1729,9 @@
                   "type": "text",
                   "text": "on annoncera le Seigneur aux générations à venir."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Tu seras ma louange, Seigneur, dans la grande assemblée."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2112,29 +1743,11 @@
                   "type": "text",
                   "text": "Voilà son œuvre !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Tu seras ma louange, Seigneur, dans la grande assemblée."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Deine Treue, Herr, preise ich in großer Gemeinde."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -2164,17 +1777,9 @@
                   "type": "text",
                   "text": "Aufleben soll euer Herz für immer."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Deine Treue, Herr, preise ich in großer Gemeinde."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2198,17 +1803,9 @@
                   "type": "text",
                   "text": "er herrscht über die Völker."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Deine Treue, Herr, preise ich in großer Gemeinde."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2238,28 +1835,9 @@
                   "type": "text",
                   "text": "denn er hat das Werk getan."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Deine Treue, Herr, preise ich in großer Gemeinde."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 21, 26b-27. 28. 29-30a. 30c-32",
-          "es": "Sal 21, 26b-27. 28. 29-30a. 30c-32",
-          "en": "Ps 21:26b-27, 28, 29-30a, 30c-32",
-          "pt-BR": "Sl 21, 26b-27. 28. 29-30a. 30c-32",
-          "de": "Ps 22",
-          "it": "Sal 21, 26b-27. 28. 29-30a. 30c-32",
-          "fr": "Ps 21, 26b-27. 28. 29-30a. 30c-32"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -2283,7 +1861,9 @@
                 {
                   "type": "reference",
                   "text": "Mt 11, 28"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Veníte ad me, omnes qui laborátis et oneráti estis, et ego refíciam vos, dicit Dóminus. Allelúia."
@@ -2299,7 +1879,9 @@
                 {
                   "type": "reference",
                   "text": "Mt 11, 28"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Venid a mí todos los que estáis cansados y agobiados —dice el Señor—, y yo os aliviaré. Aleluya."

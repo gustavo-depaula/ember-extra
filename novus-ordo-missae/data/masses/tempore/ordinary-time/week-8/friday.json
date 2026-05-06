@@ -228,28 +228,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Beneplácitum est Dómino in pópulo suo. Cantáte Dómino cánticum novum; laus eius in ecclésia sanctórum. Lætétur Israel in eo qui fecit eum, et fílii Sion exsúltent in rege suo. ℟. Beneplácitum est Dómino in pópulo suo. Laudent nomen eius in choro, in týmpano et cíthara psallant ei. Quia beneplácitum est Dómino in pópulo suo, et honorábit mansuétos in salútem. ℟. Beneplácitum est Dómino in pópulo suo. Iúbilent sancti in glória, læténtur in cubílibus suis. Exaltatiónes Dei in gútture eórum. Glória hæc est ómnibus sanctis eius. ℟. Beneplácitum est Dómino in pópulo suo.",
-            "es": "℟. El Señor ama a su pueblo. Cantad al Señor un cántico nuevo, resuene su alabanza en la asamblea de los fieles; que se alegre Israel por su Creador, los hijos de Sion por su Rey. ℟. El Señor ama a su pueblo. Alabad su nombre con danzas, cantadle con tambores y cítaras; porque el Señor ama a su pueblo y adorna con la victoria a los humildes. ℟. El Señor ama a su pueblo. Que los fieles festejen su gloria y canten jubilosos en filas: con vítores a Dios en la boca. Es un honor para todos sus fieles. ℟. El Señor ama a su pueblo.",
-            "en": "℟. The Lord takes delight in his people. Sing a new song to the Lord, his praise in the assembly of the faithful. Let Israel rejoice in its Maker, let Zion's sons exult in their king. ℟. The Lord takes delight in his people. Let them praise his name with dancing and make music with timbrel and harp. For the Lord takes delight in his people. He crowns the poor with salvation. ℟. The Lord takes delight in his people. Let the faithful rejoice in their glory, shout for joy and take their rest. Let the praise of God be on their lips: this honor is for all his faithful. ℟. The Lord takes delight in his people.",
-            "pt-BR": "℟. O Senhor ama seu povo de verdade. Cantai ao Senhor Deus um canto novo, e o seu louvor na assembleia dos fiéis! Alegre-se Israel em Quem o fez, e Sião se rejubile no seu Rei. ℟. O Senhor ama seu povo de verdade. Com danças glorifiquem o seu nome, toquem harpa e tambor em sua honra! Porque, de fato, o Senhor ama seu povo e coroa com vitória os seus humildes. ℟. O Senhor ama seu povo de verdade. Exultem os fiéis por sua glória, e cantando se levantem de seus leitos, com louvores do Senhor em sua boca Eis a glória para todos os seus santos. ℟. O Senhor ama seu povo de verdade.",
-            "it": "℟. Il Signore ama il suo popolo. Cantate al Signore un canto nuovo; la sua lode nell’assemblea dei fedeli. Gioisca Israele nel suo creatore, esultino nel loro re i figli di Sion. ℟. Il Signore ama il suo popolo. Lodino il suo nome con danze, con tamburelli e cetre gli cantino inni. Il Signore ama il suo popolo, incorona i poveri di vittoria. ℟. Il Signore ama il suo popolo. Esultino i fedeli nella gloria, facciano festa sui loro giacigli. Le lodi di Dio sulla loro bocca: questo è un onore per tutti i suoi fedeli. ℟. Il Signore ama il suo popolo.",
-            "fr": "℟. Le Seigneur aime son peuple ! Chantez au Seigneur un chant nouveau, louez-le dans l’assemblée de ses fidèles ! En Israël, joie pour son créateur ; dans Sion, allégresse pour son Roi ! ℟. Le Seigneur aime son peuple ! Dansez à la louange de son nom, jouez pour lui, tambourins et cithares ! Car le Seigneur aime son peuple, il donne aux humbles l’éclat de la victoire. ℟. Le Seigneur aime son peuple ! Que les fidèles exultent, glorieux, criant leur joie à l’heure du triomphe. Qu’ils proclament les éloges de Dieu : c’est la fierté de ses fidèles. ℟. Le Seigneur aime son peuple !",
-            "de": "℟. Der Herr hat an seinem Volk Gefallen. Singet dem Herrn ein neues Lied! Sein Lob erschalle in der Gemeinde der Frommen. Israel soll sich über seinen Schöpfer freuen, die Kinder Zions über ihren König jauchzen. ℟. Der Herr hat an seinem Volk Gefallen. Seinen Namen sollen sie loben beim Reigentanz, ihm spielen auf Pauken und Harfen. Der Herr hat an seinem Volk Gefallen, die Gebeugten krönt er mit Sieg. ℟. Der Herr hat an seinem Volk Gefallen. In festlichem Glanz sollen die Frommen frohlocken, auf ihren Lagern jauchzen: Loblieder auf Gott in ihrem Mund, herrlich ist das für all seine Frommen. ℟. Der Herr hat an seinem Volk Gefallen."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 149, 1-2. 3-4. 5-6a et 9b",
+          "es": "Sal 149, 1-2. 3-4. 5-6a et 9b",
+          "en": "Ps 149:1-2, 3-4, 5-6a and 9b",
+          "pt-BR": "Sl 149, 1-2. 3-4. 5-6a et 9b",
+          "it": "Sal 149, 1-2. 3-4. 5-6a et 9b",
+          "fr": "Ps 149, 1-2. 3-4. 5-6a et 9b",
+          "de": "Ps 149, 1-2. 3-4. 5-6a et 9b"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Beneplácitum est Dómino in pópulo suo."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "El Señor ama a su pueblo."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "The Lord takes delight in his people."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "O Senhor ama seu povo de verdade."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Il Signore ama il suo popolo."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Le Seigneur aime son peuple !"
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Der Herr hat an seinem Volk Gefallen."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -273,17 +323,9 @@
                   "type": "text",
                   "text": "et fílii Sion exsúltent in rege suo."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beneplácitum est Dómino in pópulo suo."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -307,17 +349,9 @@
                   "type": "text",
                   "text": "et honorábit mansuétos in salútem."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beneplácitum est Dómino in pópulo suo."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -341,29 +375,11 @@
                   "type": "text",
                   "text": "Glória hæc est ómnibus sanctis eius."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beneplácitum est Dómino in pópulo suo."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor ama a su pueblo."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -387,17 +403,9 @@
                   "type": "text",
                   "text": "los hijos de Sion por su Rey."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor ama a su pueblo."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -415,17 +423,9 @@
                   "type": "text",
                   "text": "porque el Señor ama a su pueblo y adorna con la victoria a los humildes."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor ama a su pueblo."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -443,45 +443,19 @@
                   "type": "text",
                   "text": "Es un honor para todos sus fieles."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor ama a su pueblo."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord takes delight in his people."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "Sing a new song to the Lord, his praise in the assembly of the faithful. Let Israel rejoice in its Maker, let Zion's sons exult in their king."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord takes delight in his people."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -493,17 +467,9 @@
                   "type": "text",
                   "text": "For the Lord takes delight in his people. He crowns the poor with salvation."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord takes delight in his people."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -515,29 +481,11 @@
                   "type": "text",
                   "text": "Let the praise of God be on their lips: this honor is for all his faithful."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord takes delight in his people."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor ama seu povo de verdade."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -561,17 +509,9 @@
                   "type": "text",
                   "text": "e Sião se rejubile no seu Rei."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor ama seu povo de verdade."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -589,17 +529,9 @@
                   "type": "text",
                   "text": "Porque, de fato, o Senhor ama seu povo e coroa com vitória os seus humildes."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor ama seu povo de verdade."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -617,29 +549,11 @@
                   "type": "text",
                   "text": "com louvores do Senhor em sua boca Eis a glória para todos os seus santos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor ama seu povo de verdade."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore ama il suo popolo."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -663,17 +577,9 @@
                   "type": "text",
                   "text": "esultino nel loro re i figli di Sion."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore ama il suo popolo."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -697,17 +603,9 @@
                   "type": "text",
                   "text": "incorona i poveri di vittoria."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore ama il suo popolo."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -731,29 +629,11 @@
                   "type": "text",
                   "text": "questo è un onore per tutti i suoi fedeli."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore ama il suo popolo."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur aime son peuple !"
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -777,17 +657,9 @@
                   "type": "text",
                   "text": "dans Sion, allégresse pour son Roi !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur aime son peuple !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -811,17 +683,9 @@
                   "type": "text",
                   "text": "il donne aux humbles l’éclat de la victoire."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur aime son peuple !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -845,29 +709,11 @@
                   "type": "text",
                   "text": "c’est la fierté de ses fidèles."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur aime son peuple !"
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Herr hat an seinem Volk Gefallen."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -891,17 +737,9 @@
                   "type": "text",
                   "text": "die Kinder Zions über ihren König jauchzen."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Herr hat an seinem Volk Gefallen."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -925,17 +763,9 @@
                   "type": "text",
                   "text": "die Gebeugten krönt er mit Sieg."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Herr hat an seinem Volk Gefallen."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -959,28 +789,9 @@
                   "type": "text",
                   "text": "herrlich ist das für all seine Frommen."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Herr hat an seinem Volk Gefallen."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 149, 1-2. 3-4. 5-6a et 9b",
-          "es": "Sal 149, 1-2. 3-4. 5-6a et 9b",
-          "en": "Ps 149:1-2, 3-4, 5-6a and 9b",
-          "pt-BR": "Sl 149, 1-2. 3-4. 5-6a et 9b",
-          "it": "Sal 149, 1-2. 3-4. 5-6a et 9b",
-          "fr": "Ps 149, 1-2. 3-4. 5-6a et 9b",
-          "de": "Ps 149, 1-2. 3-4. 5-6a et 9b"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -1004,7 +815,9 @@
                 {
                   "type": "reference",
                   "text": "Cf. Io 15, 16"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Ego vos elégi de mundo, ut eátis et fructum afferátis, et fructus vester máneat, dicit Dóminus. Allelúia."
@@ -1020,7 +833,9 @@
                 {
                   "type": "reference",
                   "text": "Cf. Jn 15, 16"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Yo os he elegido del mundo —dice el Señor— para que vayáis y deis fruto, y vuestro fruto permanezca. Aleluya."
@@ -1537,28 +1352,90 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Venit Dóminus iudicáre terram. Dícite in géntibus: «Dóminus regnávit». Etenim corréxit orbem terræ qui non commovébitur; iudicábit pópulos in æquitáte. ℟. Venit Dóminus iudicáre terram. Læténtur cæli et exsúltet terra, sonet mare et plenitúdo eius; gaudébunt campi et ómnia, quæ in eis sunt. ℟. Venit Dóminus iudicáre terram. Tunc exsultábunt ómnia ligna silvárum a fácie Dómini, quia venit, quóniam venit iudicáre terram. Iudicábit orbem terræ in iustítia et pópulos in veritáte sua. ℟. Venit Dóminus iudicáre terram.",
-            "es": "℟. Llega el Señor a regir la tierra. Decid a los pueblos: «El Señor es rey: él afianzó el orbe, y no se moverá; él gobierna a los pueblos rectamente». ℟. Llega el Señor a regir la tierra. Alégrese el cielo, goce la tierra, retumbe el mar y cuanto lo llena; vitoreen los campos y cuanto hay en ellos, aclamen los árboles del bosque. ℟. Llega el Señor a regir la tierra. Delante del Señor, que ya llega, ya llega a regir la tierra: regirá el orbe con justicia y los pueblos con fidelidad. ℟. Llega el Señor a regir la tierra.",
-            "en": "℟. The Lord comes to judge the earth. Proclaim to the nations: 'God is king.' The world he made firm in its place; he will judge the peoples in fairness. ℟. The Lord comes to judge the earth. Let the heavens rejoice and earth be glad. Let the sea and all within it thunder praise, let the land and all it bears rejoice, all the trees of the wood shout for joy. ℟. The Lord comes to judge the earth. Let them rejoice at the presence of the Lord for he comes, he comes to rule the earth. With justice he will rule the world, he will judge the peoples with his truth. ℟. The Lord comes to judge the earth.",
-            "pt-BR": "℟. O Senhor vem julgar nossa terra. Publicai entre as nações: \"Reina o Senhor!\" Ele firmou o universo inabalável, e os povos ele julga com justiça. ℟. O Senhor vem julgar nossa terra. O céu se rejubile e exulte a terra, aplauda o mar com o que vive em suas águas; os campos com seus frutos rejubilem e exultem as florestas e as matas. ℟. O Senhor vem julgar nossa terra. Na presença do Senhor, pois ele vem, porque vem para julgar a terra inteira. Governará o mundo todo com justiça, e os povos julgará com lealdade. ℟. O Senhor vem julgar nossa terra.",
-            "it": "℟. Vieni, Signore, a giudicare la terra. Oppure: Viene il Signore a giudicare la terra. Dite tra le genti: «Il Signore regna!». È stabile il mondo, non potrà vacillare! Egli giudica i popoli con rettitudine. ℟. Vieni, Signore, a giudicare la terra. Oppure: Viene il Signore a giudicare la terra. Gioiscano i cieli, esulti la terra, risuoni il mare e quanto racchiude; sia in festa la campagna e quanto contiene, acclamino tutti gli alberi della foresta. ℟. Vieni, Signore, a giudicare la terra. Oppure: Viene il Signore a giudicare la terra. Davanti al Signore che viene: sì, egli viene a giudicare la terra; giudicherà il mondo con giustizia e nella sua fedeltà i popoli. ℟. Vieni, Signore, a giudicare la terra. Oppure: Viene il Signore a giudicare la terra.",
-            "fr": "℟. Il vient, le Seigneur, il vient pour juger la terre. Allez dire aux nations : « Le Seigneur est roi ! » Le monde, inébranlable, tient bon. Il gouverne les peuples avec droiture. ℟. Il vient, le Seigneur, il vient pour juger la terre. Joie au ciel ! Exulte la terre ! Les masses de la mer mugissent, la campagne tout entière est en fête. ℟. Il vient, le Seigneur, il vient pour juger la terre. Les arbres des forêts dansent de joie devant la face du Seigneur, car il vient, car il vient pour juger la terre. Le Seigneur vient pour juger la terre. Il jugera le monde avec justice, et les peuples selon sa vérité ! ℟. Il vient, le Seigneur, il vient pour juger la terre.",
-            "de": "℟. Der Herr wird kommen, um die Erde zu richten. Verkündet bei den Völkern: Der Herr ist König. Den Erdkreis hat er gegründet, so dass er nicht wankt. Er richtet die Nationen so, wie es recht ist. ℟. Der Herr wird kommen, um die Erde zu richten. Der Himmel freue sich, die Erde frohlocke, es brause das Meer und alles, was es erfüllt. Es jauchze die Flur und was auf ihr wächst. ℟. Der Herr wird kommen, um die Erde zu richten. Jubeln sollen alle Bäume des Waldes vor dem Herrn, wenn er kommt, wenn er kommt, um die Erde zu richten. ℟. Der Herr wird kommen, um die Erde zu richten."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 95, 10. 11-12a. 12b-13",
+          "es": "Sal 95, 10. 11-12a. 12b-13",
+          "en": "Ps 95:10, 11-12a, 12b-13",
+          "pt-BR": "Sl 95, 10. 11-12a. 12b-13",
+          "de": "Ps 96",
+          "it": "Sal 95, 10. 11-12a. 12b-13",
+          "fr": "Ps 95, 10. 11-12a. 12b-13"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Venit Dóminus iudicáre terram."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Llega el Señor a regir la tierra."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "The Lord comes to judge the earth."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "O Senhor vem julgar nossa terra."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Vieni, Signore, a giudicare la terra."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Il vient, le Seigneur, il vient pour juger la terre."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Der Herr wird kommen, um die Erde zu richten."
+                }
+              ]
+            ]
+          },
+          "alternatives": [
+            {
+              "it": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Viene il Signore a giudicare la terra."
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -1576,17 +1453,9 @@
                   "type": "text",
                   "text": "iudicábit pópulos in æquitáte."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Venit Dóminus iudicáre terram."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1604,17 +1473,9 @@
                   "type": "text",
                   "text": "gaudébunt campi et ómnia, quæ in eis sunt."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Venit Dóminus iudicáre terram."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1632,29 +1493,11 @@
                   "type": "text",
                   "text": "Iudicábit orbem terræ in iustítia et pópulos in veritáte sua."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Venit Dóminus iudicáre terram."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Llega el Señor a regir la tierra."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1672,17 +1515,9 @@
                   "type": "text",
                   "text": "él gobierna a los pueblos rectamente»."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Llega el Señor a regir la tierra."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1706,17 +1541,9 @@
                   "type": "text",
                   "text": "aclamen los árboles del bosque."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Llega el Señor a regir la tierra."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1734,29 +1561,11 @@
                   "type": "text",
                   "text": "regirá el orbe con justicia y los pueblos con fidelidad."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Llega el Señor a regir la tierra."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord comes to judge the earth."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
@@ -1768,61 +1577,27 @@
                   "type": "text",
                   "text": "he will judge the peoples in fairness."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord comes to judge the earth."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Let the heavens rejoice and earth be glad. Let the sea and all within it thunder praise, let the land and all it bears rejoice, all the trees of the wood shout for joy."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord comes to judge the earth."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Let them rejoice at the presence of the Lord for he comes, he comes to rule the earth. With justice he will rule the world, he will judge the peoples with his truth."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord comes to judge the earth."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor vem julgar nossa terra."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -1840,17 +1615,9 @@
                   "type": "text",
                   "text": "e os povos ele julga com justiça."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor vem julgar nossa terra."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1862,17 +1629,9 @@
                   "type": "text",
                   "text": "aplauda o mar com o que vive em suas águas; os campos com seus frutos rejubilem e exultem as florestas e as matas."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor vem julgar nossa terra."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1890,41 +1649,11 @@
                   "type": "text",
                   "text": "e os povos julgará com lealdade."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor vem julgar nossa terra."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Vieni, Signore, a giudicare la terra."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oppure:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Viene il Signore a giudicare la terra."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -1942,29 +1671,9 @@
                   "type": "text",
                   "text": "Egli giudica i popoli con rettitudine."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Vieni, Signore, a giudicare la terra."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oppure:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Viene il Signore a giudicare la terra."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1988,29 +1697,9 @@
                   "type": "text",
                   "text": "acclamino tutti gli alberi della foresta."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Vieni, Signore, a giudicare la terra."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oppure:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Viene il Signore a giudicare la terra."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2028,41 +1717,11 @@
                   "type": "text",
                   "text": "giudicherà il mondo con giustizia e nella sua fedeltà i popoli."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Vieni, Signore, a giudicare la terra."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oppure:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Viene il Signore a giudicare la terra."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il vient, le Seigneur, il vient pour juger la terre."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -2080,17 +1739,9 @@
                   "type": "text",
                   "text": "Il gouverne les peuples avec droiture."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il vient, le Seigneur, il vient pour juger la terre."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2114,17 +1765,9 @@
                   "type": "text",
                   "text": "la campagne tout entière est en fête."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il vient, le Seigneur, il vient pour juger la terre."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2154,29 +1797,11 @@
                   "type": "text",
                   "text": "et les peuples selon sa vérité !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il vient, le Seigneur, il vient pour juger la terre."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Herr wird kommen, um die Erde zu richten."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -2194,17 +1819,9 @@
                   "type": "text",
                   "text": "Er richtet die Nationen so, wie es recht ist."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Herr wird kommen, um die Erde zu richten."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2228,17 +1845,9 @@
                   "type": "text",
                   "text": "Es jauchze die Flur und was auf ihr wächst."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Herr wird kommen, um die Erde zu richten."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2250,28 +1859,9 @@
                   "type": "text",
                   "text": "wenn er kommt, um die Erde zu richten."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Herr wird kommen, um die Erde zu richten."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 95, 10. 11-12a. 12b-13",
-          "es": "Sal 95, 10. 11-12a. 12b-13",
-          "en": "Ps 95:10, 11-12a, 12b-13",
-          "pt-BR": "Sl 95, 10. 11-12a. 12b-13",
-          "de": "Ps 96",
-          "it": "Sal 95, 10. 11-12a. 12b-13",
-          "fr": "Ps 95, 10. 11-12a. 12b-13"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -2295,7 +1885,9 @@
                 {
                   "type": "reference",
                   "text": "Cf. Io 15, 16"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Ego vos elégi de mundo, ut eátis et fructum afferátis, et fructus vester máneat, dicit Dóminus. Allelúia."
@@ -2311,7 +1903,9 @@
                 {
                   "type": "reference",
                   "text": "Cf. Jn 15, 16"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Yo os he elegido del mundo —dice el Señor— para que vayáis y deis fruto, y vuestro fruto permanezca. Aleluya."

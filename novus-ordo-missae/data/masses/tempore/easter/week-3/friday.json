@@ -882,40 +882,138 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Eúntes in mundum univérsum, praedicate Evangélium. vel Allelúia. Laudáte Dóminum, omnes gentes, collaudáte eum, omnes pópuli. ℟. Eúntes in mundum univérsum, praedicate Evangélium. vel Allelúia. Quóniam confirmáta est super nos misericórdia eius, et véritas Dómini manet in ætérnum ℟. Eúntes in mundum univérsum, praedicate Evangélium. vel Allelúia.",
-            "es": "℟. Id al mundo entero y proclamad el Evangelio. o bien: Aleluya. Alabad al Señor todas las naciones, aclamadlo todos los pueblos. ℟. Id al mundo entero y proclamad el Evangelio. o bien: Aleluya. Firme es su misericordia con nosotros, su fidelidad dura por siempre. ℟. Id al mundo entero y proclamad el Evangelio. o bien: Aleluya.",
-            "en": "℟. Go out to the whole world; proclaim the Good News. Or: Alleluia. O praise the Lord, all you nations, acclaim him all you peoples! ℟. Go out to the whole world; proclaim the Good News Or: Alleluia. Strong is his love for us; he is faithful for ever. ℟. Go out to the whole world; proclaim the Good News",
-            "pt-BR": "℟. Ide, por todo o mundo, a todos pregai o Evangelho. Ou: Aleluia. Cantai louvores ao Senhor, todas as gentes, povos todos, festejai-o! ℟. Ide, por todo o mundo, e a todos pregai o Evangelho. Ou: Aleluia. Pois comprovado é seu amor para conosco, para sempre ele é fiel! ℟. Ide, por todo o mundo, e a todos pregai o Evangelho.",
-            "it": "℟. Andate in tutto il mondo e proclamate il Vangelo. Oppure: Alleluia. Genti tutte, lodate il Signore, popoli tutti, cantate la sua lode. ℟. Andate in tutto il mondo e proclamate il Vangelo. Oppure: Alleluia. Perché forte è il suo amore per noi e la fedeltà del Signore dura per sempre. ℟. Andate in tutto il mondo e proclamate il Vangelo. Oppure: Alleluia.",
-            "fr": "℟. Allez dans le monde entier. Proclamez l’Évangile. ou Alléluia ! Louez le Seigneur, tous les peuples ; fêtez-le, tous les pays ! ℟. Allez dans le monde entier. Proclamez l’Évangile. ou Alléluia ! Son amour envers nous s’est montré le plus fort ; éternelle est la fidélité du Seigneur ! ℟. Allez dans le monde entier. Proclamez l’Évangile. ou Alléluia !",
-            "de": "℟. Geht hinaus in die ganze Welt, und verkündet allen das Evangelium! Oder: Halleluja. Lobet den Herrn, alle Völker, preist ihn, alle Nationen! ℟. Geht hinaus in die ganze Welt, und verkündet allen das Evangelium! Oder: Halleluja. Denn mächtig waltet über uns seine Huld, die Treue des Herrn währt in Ewigkeit. ℟. Geht hinaus in die ganze Welt, und verkündet allen das Evangelium! Oder: Halleluja."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 117, 1-2",
+          "es": "Sal 117, 1-2",
+          "pt-BR": "Sl 116",
+          "it": "Sal 116",
+          "de": "Ps 117",
+          "en": "Ps 117:1-2",
+          "fr": "Ps 117, 1-2"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Eúntes in mundum univérsum, praedicate Evangélium."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "vel"
-                }
-              ],
+              ]
+            ],
+            "es": [
               [
                 {
                   "type": "text",
-                  "text": "Allelúia."
+                  "text": "Id al mundo entero y proclamad el Evangelio."
                 }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "Go out to the whole world; proclaim the Good News"
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Ide, por todo o mundo, e a todos pregai o Evangelho."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Andate in tutto il mondo e proclamate il Vangelo."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Allez dans le monde entier. Proclamez l’Évangile."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Geht hinaus in die ganze Welt, und verkündet allen das Evangelium!"
+                }
+              ]
+            ]
+          },
+          "alternatives": [
+            {
+              "la": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Allelúia."
+                  }
+                ]
               ],
+              "es": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Aleluya."
+                  }
+                ]
+              ],
+              "en": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Alleluia."
+                  }
+                ]
+              ],
+              "pt-BR": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Aleluia."
+                  }
+                ]
+              ],
+              "it": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Alleluia."
+                  }
+                ]
+              ],
+              "fr": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Alléluia !"
+                  }
+                ]
+              ],
+              "de": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Halleluja."
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -927,29 +1025,9 @@
                   "type": "text",
                   "text": "collaudáte eum, omnes pópuli."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Eúntes in mundum univérsum, praedicate Evangélium."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "vel"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -961,53 +1039,11 @@
                   "type": "text",
                   "text": "et véritas Dómini manet in ætérnum"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Eúntes in mundum univérsum, praedicate Evangélium."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "vel"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Id al mundo entero y proclamad el Evangelio."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "o bien:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1019,29 +1055,9 @@
                   "type": "text",
                   "text": "aclamadlo todos los pueblos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Id al mundo entero y proclamad el Evangelio."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "o bien:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1053,51 +1069,11 @@
                   "type": "text",
                   "text": "su fidelidad dura por siempre."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Id al mundo entero y proclamad el Evangelio."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "o bien:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Go out to the whole world; proclaim the Good News."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Or:"
-                },
-                {
-                  "type": "response",
-                  "text": "Alleluia."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
@@ -1109,27 +1085,9 @@
                   "type": "text",
                   "text": "acclaim him all you peoples!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Go out to the whole world; proclaim the Good News"
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Or:"
-                },
-                {
-                  "type": "response",
-                  "text": "Alleluia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1141,39 +1099,11 @@
                   "type": "text",
                   "text": "he is faithful for ever."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Go out to the whole world; proclaim the Good News"
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ide, por todo o mundo, a todos pregai o Evangelho."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Ou:"
-                },
-                {
-                  "type": "response",
-                  "text": "Aleluia."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -1185,27 +1115,9 @@
                   "type": "text",
                   "text": "povos todos, festejai-o!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ide, por todo o mundo, e a todos pregai o Evangelho."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Ou:"
-                },
-                {
-                  "type": "response",
-                  "text": "Aleluia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1217,41 +1129,11 @@
                   "type": "text",
                   "text": "para sempre ele é fiel!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ide, por todo o mundo, e a todos pregai o Evangelho."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Andate in tutto il mondo e proclamate il Vangelo."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oppure:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -1263,79 +1145,23 @@
                   "type": "text",
                   "text": "popoli tutti, cantate la sua lode."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Andate in tutto il mondo e proclamate il Vangelo."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oppure:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Perché forte è il suo amore per noi e la fedeltà del Signore dura per sempre."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Andate in tutto il mondo e proclamate il Vangelo."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oppure:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Allez dans le monde entier. Proclamez l’Évangile."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "ou"
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
-                  "text": "Alléluia ! Louez le Seigneur, tous les peuples ;"
+                  "text": "Louez le Seigneur, tous les peuples ;"
                 }
               ],
               [
@@ -1343,27 +1169,13 @@
                   "type": "text",
                   "text": "fêtez-le, tous les pays !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Allez dans le monde entier. Proclamez l’Évangile."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "ou"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
-                  "text": "Alléluia ! Son amour envers nous s’est montré le plus fort ;"
+                  "text": "Son amour envers nous s’est montré le plus fort ;"
                 }
               ],
               [
@@ -1371,51 +1183,11 @@
                   "type": "text",
                   "text": "éternelle est la fidélité du Seigneur !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Allez dans le monde entier. Proclamez l’Évangile."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "ou"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia !"
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Geht hinaus in die ganze Welt, und verkündet allen das Evangelium!"
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oder:"
-                },
-                {
-                  "type": "response",
-                  "text": "Halleluja."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -1427,27 +1199,9 @@
                   "type": "text",
                   "text": "preist ihn, alle Nationen!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Geht hinaus in die ganze Welt, und verkündet allen das Evangelium!"
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oder:"
-                },
-                {
-                  "type": "response",
-                  "text": "Halleluja."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1459,38 +1213,9 @@
                   "type": "text",
                   "text": "die Treue des Herrn währt in Ewigkeit."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Geht hinaus in die ganze Welt, und verkündet allen das Evangelium!"
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oder:"
-                },
-                {
-                  "type": "response",
-                  "text": "Halleluja."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 117, 1-2",
-          "es": "Sal 117, 1-2",
-          "pt-BR": "Sl 116",
-          "it": "Sal 116",
-          "de": "Ps 117",
-          "en": "Ps 117:1-2",
-          "fr": "Ps 117, 1-2"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -1514,7 +1239,9 @@
                 {
                   "type": "reference",
                   "text": "Io 6, 56"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Qui mandúcat meam carnem et bibit meum sánguinem, in me manet, et ego in eo, dicit Dóminus Allelúia."
@@ -1530,7 +1257,9 @@
                 {
                   "type": "reference",
                   "text": "Jn 6, 56"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. El que come mi carne y bebe mi sangre —dice el Señor— habita en mí y yo en él. Aleluya."

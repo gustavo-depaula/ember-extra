@@ -228,28 +228,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Dómine, quis habitábit in tabernáculo tuo? Qui ingréditur sine mácula, et operátur iustítiam; qui lóquitur veritátem in corde suo, qui non egit dolum in lingua sua. ℟. Dómine, quis habitábit in tabernáculo tuo? Nec fecit próximo suo malum, et oppróbrium non íntulit próximo suo. Ad níhilum reputátus est in conspéctu eius malígnus, timéntes autem Dóminum gloríficat. ℟. Dómine, quis habitábit in tabernáculo tuo? Qui pecúniam suam non dedit ad usúram, et múnera super innocéntem non accépit. Qui facit hæc, non movébitur in ætérnum. ℟. Dómine, quis habitábit in tabernáculo tuo?",
-            "es": "℟. Señor, ¿quién puede hospedarse en tu tienda? El que procede honradamente y practica la justicia, el que tiene intenciones leales y no calumnia con su lengua. ℟. Señor, ¿quién puede hospedarse en tu tienda? El que no hace mal a su prójimo ni difama al vecino. El que considera despreciable al impío y honra a los que temen al Señor. ℟. Señor, ¿quién puede hospedarse en tu tienda? El que no presta dinero a usura ni acepta soborno contra el inocente. El que así obra nunca fallará. ℟. Señor, ¿quién puede hospedarse en tu tienda?",
-            "en": "℟. He who does justice will live in the presence of the Lord. He who walks without fault; he who acts with justice and speaks the truth from his heart; he who does not slander with his tongue. ℟. He who does justice will live in the presence of the Lord. He who does no wrong to his brother, who casts no slur on his neighbor, who holds the godless in disdain, but honors those who fear the Lord. ℟. He who does justice will live in the presence of the Lord. He who takes no interest on a loan and accepts no bribes against the innocent. Such a man will stand firm for ever. ℟. He who does justice will live in the presence of the Lord.",
-            "pt-BR": "℟. Senhor, quem morará em vosso Monte Santo? É aquele que caminha sem pecado e pratica a justiça fielmente; que pensa a verdade no seu íntimo e não solta em calúnias sua língua. ℟. Senhor, quem morará em vosso Monte Santo? Que em nada prejudica o seu irmão, nem cobre de insultos seu vizinho; que não dá valor algum ao homem ímpio, mas honra os que respeitam o Senhor. ℟. Senhor, quem morará em vosso Monte Santo? Não empresta o seu dinheiro com usura, nem se deixa subornar contra o inocente. Jamais vacilará quem vive assim! ℟. Senhor, quem morará em vosso Monte Santo?",
-            "it": "℟. Signore, chi sarà ospite nella tua tenda? Colui che cammina senza colpa, pratica la giustizia e dice la verità che ha nel cuore, non sparge calunnie con la sua lingua. ℟. Signore, chi sarà ospite nella tua tenda? Non fa danno al suo prossimo e non lancia insulti al suo vicino. Ai suoi occhi è spregevole il malvagio, ma onora chi teme il Signore. ℟. Signore, chi sarà ospite nella tua tenda? Non presta il suo denaro a usura e non accetta doni contro l’innocente. Colui che agisce in questo modo resterà saldo per sempre. ℟. Signore, chi sarà ospite nella tua tenda?",
-            "fr": "℟. Seigneur, qui séjournera sous ta tente ? Celui qui se conduit parfaitement, qui agit avec justice et dit la vérité selon son cœur. Il met un frein à sa langue. ℟. Seigneur, qui séjournera sous ta tente ? Il ne fait pas de tort à son frère et n’outrage pas son prochain. À ses yeux, le réprouvé est méprisable mais il honore les fidèles du Seigneur. ℟. Seigneur, qui séjournera sous ta tente ? Il ne reprend pas sa parole. Il prête son argent sans intérêt, n’accepte rien qui nuise à l’innocent. Qui fait ainsi demeure inébranlable. ℟. Seigneur, qui séjournera sous ta tente ?",
-            "de": "℟. Herr, wer darf weilen auf deinem heiligen Berg? Der makellos lebt und das Rechte tut; der von Herzen die Wahrheit sagt und mit seiner Zunge nicht verleumdet; der seinem Freund nichts Böses antut und seinen Nächsten nicht schmäht; ℟. Herr, wer darf weilen auf deinem heiligen Berg? der den Verworfenen verachtet, doch alle, die den Herrn fürchten, in Ehren hält; der sein Versprechen nicht ändert, das er seinem Nächsten geschworen hat; ℟. Herr, wer darf weilen auf deinem heiligen Berg? der sein Geld nicht auf Wucher ausleiht und nicht zum Nachteil des Schuldlosen Bestechung annimmt. Wer sich danach richtet, der wird niemals wanken. ℟. Herr, wer darf weilen auf deinem heiligen Berg?"
-          },
-          "lines": {
+        "citation": {
+          "pt-BR": "Sl 14",
+          "de": "Ps 15",
+          "la": "Ps 14",
+          "en": "Ps 14",
+          "es": "Sal 14",
+          "it": "Sal 14",
+          "fr": "Ps 14"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Dómine, quis habitábit in tabernáculo tuo?"
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Señor, ¿quién puede hospedarse en tu tienda?"
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "He who does justice will live in the presence of the Lord."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Senhor, quem morará em vosso Monte Santo?"
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Signore, chi sarà ospite nella tua tenda?"
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Seigneur, qui séjournera sous ta tente ?"
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Herr, wer darf weilen auf deinem heiligen Berg?"
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -267,17 +317,9 @@
                   "type": "text",
                   "text": "qui non egit dolum in lingua sua."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dómine, quis habitábit in tabernáculo tuo?"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -301,17 +343,9 @@
                   "type": "text",
                   "text": "timéntes autem Dóminum gloríficat."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dómine, quis habitábit in tabernáculo tuo?"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -329,29 +363,11 @@
                   "type": "text",
                   "text": "Qui facit hæc, non movébitur in ætérnum."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dómine, quis habitábit in tabernáculo tuo?"
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Señor, ¿quién puede hospedarse en tu tienda?"
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -363,17 +379,9 @@
                   "type": "text",
                   "text": "el que tiene intenciones leales y no calumnia con su lengua."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Señor, ¿quién puede hospedarse en tu tienda?"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -385,17 +393,9 @@
                   "type": "text",
                   "text": "El que considera despreciable al impío y honra a los que temen al Señor."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Señor, ¿quién puede hospedarse en tu tienda?"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -407,61 +407,27 @@
                   "type": "text",
                   "text": "El que así obra nunca fallará."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Señor, ¿quién puede hospedarse en tu tienda?"
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "He who does justice will live in the presence of the Lord."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "He who walks without fault; he who acts with justice and speaks the truth from his heart; he who does not slander with his tongue."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "He who does justice will live in the presence of the Lord."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "He who does no wrong to his brother, who casts no slur on his neighbor, who holds the godless in disdain, but honors those who fear the Lord."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "He who does justice will live in the presence of the Lord."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -473,29 +439,11 @@
                   "type": "text",
                   "text": "Such a man will stand firm for ever."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "He who does justice will live in the presence of the Lord."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Senhor, quem morará em vosso Monte Santo?"
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -507,17 +455,9 @@
                   "type": "text",
                   "text": "que pensa a verdade no seu íntimo e não solta em calúnias sua língua."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Senhor, quem morará em vosso Monte Santo?"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -535,17 +475,9 @@
                   "type": "text",
                   "text": "mas honra os que respeitam o Senhor."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Senhor, quem morará em vosso Monte Santo?"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -563,29 +495,11 @@
                   "type": "text",
                   "text": "Jamais vacilará quem vive assim!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Senhor, quem morará em vosso Monte Santo?"
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Signore, chi sarà ospite nella tua tenda?"
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -603,17 +517,9 @@
                   "type": "text",
                   "text": "non sparge calunnie con la sua lingua."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Signore, chi sarà ospite nella tua tenda?"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -631,17 +537,9 @@
                   "type": "text",
                   "text": "ma onora chi teme il Signore."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Signore, chi sarà ospite nella tua tenda?"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -653,29 +551,11 @@
                   "type": "text",
                   "text": "Colui che agisce in questo modo resterà saldo per sempre."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Signore, chi sarà ospite nella tua tenda?"
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Seigneur, qui séjournera sous ta tente ?"
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -693,17 +573,9 @@
                   "type": "text",
                   "text": "Il met un frein à sa langue."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Seigneur, qui séjournera sous ta tente ?"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -715,17 +587,9 @@
                   "type": "text",
                   "text": "À ses yeux, le réprouvé est méprisable mais il honore les fidèles du Seigneur."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Seigneur, qui séjournera sous ta tente ?"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -749,29 +613,11 @@
                   "type": "text",
                   "text": "Qui fait ainsi demeure inébranlable."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Seigneur, qui séjournera sous ta tente ?"
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, wer darf weilen auf deinem heiligen Berg?"
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -789,17 +635,9 @@
                   "type": "text",
                   "text": "der seinem Freund nichts Böses antut und seinen Nächsten nicht schmäht;"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, wer darf weilen auf deinem heiligen Berg?"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -823,17 +661,9 @@
                   "type": "text",
                   "text": "das er seinem Nächsten geschworen hat;"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, wer darf weilen auf deinem heiligen Berg?"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -851,28 +681,9 @@
                   "type": "text",
                   "text": "der wird niemals wanken."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, wer darf weilen auf deinem heiligen Berg?"
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "pt-BR": "Sl 14",
-          "de": "Ps 15",
-          "la": "Ps 14",
-          "en": "Ps 14",
-          "es": "Sal 14",
-          "it": "Sal 14",
-          "fr": "Ps 14"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -896,7 +707,9 @@
                 {
                   "type": "reference",
                   "text": "Io 8, 12"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Ego sum lux mundi, dicit Dóminus; qui séquitur me habébit lumen vitæ. Allelúia."
@@ -912,7 +725,9 @@
                 {
                   "type": "reference",
                   "text": "Jn 8, 12"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Yo soy la luz del mundo —dice el Señor—; el que me sigue tendrá la luz de la vida. Aleluya."
@@ -1429,28 +1244,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Deus fundávit civitátem suam in æternum. Magnus Dóminus et laudábilis nimis, in civitáte Dei nostri. Mons sanctus eius collis speciósus, exsultátio univérsæ terræ. ℟. Deus fundávit civitátem suam in æternum. Mons Sion, extréma aquilónis, cívitas regis magni. Deus in dómibus eius notus factus est ut refúgium. ℟. Deus fundávit civitátem suam in æternum. Recogitámus, Deus, misericórdiam tuam in médio templi tui. Secúndum nomen tuum, Deus, sic et laus tua in fines terræ; iustítia plena est déxtera tua. ℟. Deus fundávit civitátem suam in æternum.",
-            "es": "℟. Dios ha fundado su ciudad para siempre. Grande es el Señor y muy digno de alabanza en la ciudad de nuestro Dios, su monte santo, altura hermosa, alegría de toda la tierra. ℟. Dios ha fundado su ciudad para siempre. El monte Sion, confín del cielo ciudad del gran rey; entre sus palacios, Dios descuella como un alcázar. ℟. Dios ha fundado su ciudad para siempre. Oh, Dios, meditamos tu misericordia en medio de tu templo: como tu nombre, oh, Dios, tu alabanza llega al confín de la tierra. Tu diestra está llena de justicia. ℟. Dios ha fundado su ciudad para siempre.",
-            "en": "℟. God upholds his city for ever. The Lord is great and worthy to be praised in the city of our God. His holy mountain rises in beauty, the joy of all the earth. ℟. God upholds his city for ever. Mount Zion, true pole of the earth, the Great King's city! God, in the midst of its citadels, has shown himself its stronghold. ℟. God upholds his city for ever. O God, we ponder your love within your temple. Your praise, O God, like your name reaches to the ends of the earth. With justice your right hand is filled. ℟. God upholds his city for ever.",
-            "pt-BR": "℟. O Senhor estabelece sua cidade para sempre. Grande é o Senhor e muito digno de louvores na cidade onde ele mora; seu Monte santo, esta colina encantadora é a alegria do universo. ℟. O Senhor estabelece sua cidade para sempre. Monte Sião, no extremo norte situado, és a mansão do grande Rei! Deus revelou-se em suas fortes cidadelas um refúgio poderoso. ℟. O Senhor estabelece sua cidade para sempre. Recordamos, Senhor Deus, vossa bondade em meio ao vosso templo; com vosso nome vai também vosso louvor aos confins de toda a terra. ℟. O Senhor estabelece sua cidade para sempre.",
-            "it": "℟. Dio ha fondato la sua città per sempre. Grande è il Signore e degno di ogni lode nella città del nostro Dio. La tua santa montagna, altura stupenda, è la gioia di tutta la terra. ℟. Dio ha fondato la sua città per sempre. Il monte Sion, vera dimora divina, è la capitale del grande re. Dio nei suoi palazzi un baluardo si è dimostrato. ℟. Dio ha fondato la sua città per sempre. O Dio, meditiamo il tuo amore dentro il tuo tempio. Come il tuo nome, o Dio, così la tua lode si estende sino all’estremità della terra; di giustizia è piena la tua destra. ℟. Dio ha fondato la sua città per sempre.",
-            "fr": "℟. La ville du Seigneur, Dieu l’affermira pour toujours. Il est grand, le Seigneur, hautement loué, dans la ville de notre Dieu, sa sainte montagne, altière et belle, joie de toute la terre. ℟. La ville du Seigneur, Dieu l’affermira pour toujours. La montagne de Sion, c’est le pôle du monde, la cité du grand roi ; Dieu se révèle, en ses palais, vraie citadelle. ℟. La ville du Seigneur, Dieu l’affermira pour toujours. Dieu, nous revivons ton amour au milieu de ton temple. Ta main droite qui donne la victoire réjouit la montagne de Sion. ℟. La ville du Seigneur, Dieu l’affermira pour toujours.",
-            "de": "℟. Gott lässt seine Stadt für immer bestehen. Groß ist der Herr und hoch zu preisen in der Stadt unseres Gottes. Sein heiliger Berg ragt herrlich empor; er ist die Freude der ganzen Welt. ℟. Gott lässt seine Stadt für immer bestehen. Der Berg Zion liegt weit im Norden; er ist die Stadt des großen Königs. Gott ist in ihren Häusern bekannt als ein sicherer Schutz. ℟. Gott lässt seine Stadt für immer bestehen. Über deine Huld, o Gott, denken wir nach in deinem heiligen Tempel. Wie dein Name, Gott, so reicht dein Ruhm bis an die Enden der Erde; deine rechte Hand ist voll von Gerechtigkeit. ℟. Gott lässt seine Stadt für immer bestehen."
-          },
-          "lines": {
+        "citation": {
+          "pt-BR": "Sl 47",
+          "de": "Ps 48",
+          "la": "Ps 47",
+          "en": "Ps 47",
+          "es": "Sal 47",
+          "it": "Sal 47",
+          "fr": "Ps 47"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Deus fundávit civitátem suam in æternum."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Dios ha fundado su ciudad para siempre."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "God upholds his city for ever."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "O Senhor estabelece sua cidade para sempre."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Dio ha fondato la sua città per sempre."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "La ville du Seigneur, Dieu l’affermira pour toujours."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Gott lässt seine Stadt für immer bestehen."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -1474,17 +1339,9 @@
                   "type": "text",
                   "text": "exsultátio univérsæ terræ."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Deus fundávit civitátem suam in æternum."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1502,17 +1359,9 @@
                   "type": "text",
                   "text": "Deus in dómibus eius notus factus est ut refúgium."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Deus fundávit civitátem suam in æternum."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1536,29 +1385,11 @@
                   "type": "text",
                   "text": "iustítia plena est déxtera tua."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Deus fundávit civitátem suam in æternum."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dios ha fundado su ciudad para siempre."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1576,17 +1407,9 @@
                   "type": "text",
                   "text": "alegría de toda la tierra."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dios ha fundado su ciudad para siempre."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1604,17 +1427,9 @@
                   "type": "text",
                   "text": "Dios descuella como un alcázar."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dios ha fundado su ciudad para siempre."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1638,105 +1453,45 @@
                   "type": "text",
                   "text": "Tu diestra está llena de justicia."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dios ha fundado su ciudad para siempre."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "God upholds his city for ever."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "The Lord is great and worthy to be praised in the city of our God. His holy mountain rises in beauty, the joy of all the earth."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "God upholds his city for ever."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Mount Zion, true pole of the earth, the Great King's city! God, in the midst of its citadels, has shown himself its stronghold."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "God upholds his city for ever."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "O God, we ponder your love within your temple. Your praise, O God, like your name reaches to the ends of the earth. With justice your right hand is filled."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "God upholds his city for ever."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor estabelece sua cidade para sempre."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
                   "text": "Grande é o Senhor e muito digno de louvores na cidade onde ele mora; seu Monte santo, esta colina encantadora é a alegria do universo."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor estabelece sua cidade para sempre."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1754,45 +1509,19 @@
                   "type": "text",
                   "text": "Deus revelou-se em suas fortes cidadelas um refúgio poderoso."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor estabelece sua cidade para sempre."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Recordamos, Senhor Deus, vossa bondade em meio ao vosso templo; com vosso nome vai também vosso louvor aos confins de toda a terra."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor estabelece sua cidade para sempre."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dio ha fondato la sua città per sempre."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -1810,17 +1539,9 @@
                   "type": "text",
                   "text": "è la gioia di tutta la terra."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dio ha fondato la sua città per sempre."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1838,17 +1559,9 @@
                   "type": "text",
                   "text": "Dio nei suoi palazzi un baluardo si è dimostrato."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dio ha fondato la sua città per sempre."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1872,29 +1585,11 @@
                   "type": "text",
                   "text": "di giustizia è piena la tua destra."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dio ha fondato la sua città per sempre."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "La ville du Seigneur, Dieu l’affermira pour toujours."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -1918,17 +1613,9 @@
                   "type": "text",
                   "text": "joie de toute la terre."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "La ville du Seigneur, Dieu l’affermira pour toujours."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1952,17 +1639,9 @@
                   "type": "text",
                   "text": "vraie citadelle."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "La ville du Seigneur, Dieu l’affermira pour toujours."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1974,29 +1653,11 @@
                   "type": "text",
                   "text": "Ta main droite qui donne la victoire réjouit la montagne de Sion."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "La ville du Seigneur, Dieu l’affermira pour toujours."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Gott lässt seine Stadt für immer bestehen."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -2014,17 +1675,9 @@
                   "type": "text",
                   "text": "er ist die Freude der ganzen Welt."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Gott lässt seine Stadt für immer bestehen."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2042,17 +1695,9 @@
                   "type": "text",
                   "text": "Gott ist in ihren Häusern bekannt als ein sicherer Schutz."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Gott lässt seine Stadt für immer bestehen."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2070,28 +1715,9 @@
                   "type": "text",
                   "text": "deine rechte Hand ist voll von Gerechtigkeit."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Gott lässt seine Stadt für immer bestehen."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "pt-BR": "Sl 47",
-          "de": "Ps 48",
-          "la": "Ps 47",
-          "en": "Ps 47",
-          "es": "Sal 47",
-          "it": "Sal 47",
-          "fr": "Ps 47"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -2115,7 +1741,9 @@
                 {
                   "type": "reference",
                   "text": "Io 8, 12"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Ego sum lux mundi, dicit Dóminus; qui séquitur me habébit lumen vitæ. Allelúia."
@@ -2131,7 +1759,9 @@
                 {
                   "type": "reference",
                   "text": "Jn 8, 12"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Yo soy la luz del mundo —dice el Señor—; el que me sigue tendrá la luz de la vida. Aleluya."

@@ -228,28 +228,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Beneplácitum est Dómino in pópulo suo. Cantáte Dómino cánticum novum; laus eius in ecclésia sanctórum. Lætétur Israel in eo qui fecit eum, et fílii Sion exsúltent in rege suo. ℟. Beneplácitum est Dómino in pópulo suo. Laudent nomen eius in choro, in týmpano et cíthara psallant ei. Quia beneplácitum est Dómino in pópulo suo, et honorábit mansuétos in salútem. ℟. Beneplácitum est Dómino in pópulo suo. Iúbilent sancti in glória, læténtur in cubílibus suis. Exaltatiónes Dei in gútture eórum. Glória hæc est ómnibus sanctis eius. ℟. Beneplácitum est Dómino in pópulo suo.",
-            "es": "℟. El Señor ama a su pueblo. Cantad al Señor un cántico nuevo, resuene su alabanza en la asamblea de los fieles; que se alegre Israel por su Creador, los hijos de Sion por su Rey. ℟. El Señor ama a su pueblo. Alabad su nombre con danzas, cantadle con tambores y cítaras; porque el Señor ama a su pueblo y adorna con la victoria a los humildes. ℟. El Señor ama a su pueblo. Que los fieles festejen su gloria y canten jubilosos en filas: con vítores a Dios en la boca. Es un honor para todos sus fieles. ℟. El Señor ama a su pueblo.",
-            "en": "℟. The Lord takes delight in his people. Sing a new song to the Lord, his praise in the assembly of the faithful. Let Israel rejoice in its Maker, let Zion's sons exult in their king. ℟. The Lord takes delight in his people. Let them praise his name with dancing and make music with timbrel and harp. For the Lord takes delight in his people. He crowns the poor with salvation. ℟. The Lord takes delight in his people. Let the faithful rejoice in their glory, shout for joy and take their rest. Let the praise of God be on their lips: this honor is for all his faithful. ℟. The Lord takes delight in his people.",
-            "pt-BR": "℟. O Senhor ama o seu povo de verdade. Cantai ao Senhor Deus um canto novo, e o seu louvor na assembleia dos fiéis! Alegre-se Israel em Quem o fez, e Sião se rejubile no seu Rei! ℟. O Senhor ama o seu povo de verdade. Com danças glorifiquem o seu nome, toquem harpa e tambor em sua honra! Porque, de fato, o Senhor ama seu povo e coroa com vitória os seus humildes. ℟. O Senhor ama o seu povo de verdade. Exultem os fiéis por sua glória, e cantando se levantem de seus leitos; com louvores do Senhor em sua boca eis a glória para todos os seus santos. ℟. O Senhor ama o seu povo de verdade.",
-            "it": "℟. Il Signore ama il suo popolo. Cantate al Signore un canto nuovo; la sua lode nell’assemblea dei fedeli. Gioisca Israele nel suo creatore, esultino nel loro re i figli di Sion. ℟. Il Signore ama il suo popolo. Lodino il suo nome con danze, con tamburelli e cetre gli cantino inni. Il Signore ama il suo popolo, incorona i poveri di vittoria. ℟. Il Signore ama il suo popolo. Esultino i fedeli nella gloria, facciano festa sui loro giacigli. Le lodi di Dio sulla loro bocca questo è un onore per tutti i suoi fedeli. ℟. Il Signore ama il suo popolo.",
-            "fr": "℟. Le Seigneur aime son peuple ! Chantez au Seigneur un chant nouveau, louez-le dans l’assemblée de ses fidèles ! En Israël, joie pour son créateur ; dans Sion, allégresse pour son Roi ! ℟. Le Seigneur aime son peuple ! Dansez à la louange de son nom, jouez pour lui, tambourins et cithares ! Car le Seigneur aime son peuple, il donne aux humbles l’éclat de la victoire. ℟. Le Seigneur aime son peuple ! Que les fidèles exultent, glorieux, criant leur joie à l’heure du triomphe. Qu’ils proclament les éloges de Dieu : c’est la fierté de ses fidèles. ℟. Le Seigneur aime son peuple !",
-            "de": "℟. Der Herr hat an seinem Volk Gefallen. Singet dem Herrn ein neues Lied! Sein Lob erschalle in der Gemeinde der Frommen. Israel soll sich über seinen Schöpfer freuen, die Kinder Zions über ihren König jauchzen. ℟. Der Herr hat an seinem Volk Gefallen. Seinen Namen sollen sie loben beim Reigentanz, ihm spielen auf Pauken und Harfen. Der Herr hat an seinem Volk Gefallen, die Gebeugten krönt er mit Sieg. ℟. Der Herr hat an seinem Volk Gefallen. In festlichem Glanz sollen die Frommen frohlocken, auf ihren Lagern jauchzen: Loblieder auf Gott in ihrem Mund, herrlich ist das für all seine Frommen. ℟. Der Herr hat an seinem Volk Gefallen."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 149, 1-2. 3-4. 5-6a et 9b",
+          "es": "Sal 149, 1-2. 3-4. 5-6a et 9b",
+          "en": "Ps 149:1-2, 3-4, 5-6a and 9b",
+          "pt-BR": "Sl 149, 1-2. 3-4. 5-6a et 9b",
+          "it": "Sal 149, 1-2. 3-4. 5-6a et 9b",
+          "fr": "Ps 149, 1-2. 3-4. 5-6a et 9b",
+          "de": "Ps 149, 1-2. 3-4. 5-6a et 9b"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Beneplácitum est Dómino in pópulo suo."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "El Señor ama a su pueblo."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "The Lord takes delight in his people."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "O Senhor ama o seu povo de verdade."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Il Signore ama il suo popolo."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Le Seigneur aime son peuple !"
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Der Herr hat an seinem Volk Gefallen."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -273,17 +323,9 @@
                   "type": "text",
                   "text": "et fílii Sion exsúltent in rege suo."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beneplácitum est Dómino in pópulo suo."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -307,17 +349,9 @@
                   "type": "text",
                   "text": "et honorábit mansuétos in salútem."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beneplácitum est Dómino in pópulo suo."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -341,29 +375,11 @@
                   "type": "text",
                   "text": "Glória hæc est ómnibus sanctis eius."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beneplácitum est Dómino in pópulo suo."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor ama a su pueblo."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -387,17 +403,9 @@
                   "type": "text",
                   "text": "los hijos de Sion por su Rey."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor ama a su pueblo."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -415,17 +423,9 @@
                   "type": "text",
                   "text": "porque el Señor ama a su pueblo y adorna con la victoria a los humildes."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor ama a su pueblo."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -443,45 +443,19 @@
                   "type": "text",
                   "text": "Es un honor para todos sus fieles."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor ama a su pueblo."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord takes delight in his people."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "Sing a new song to the Lord, his praise in the assembly of the faithful. Let Israel rejoice in its Maker, let Zion's sons exult in their king."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord takes delight in his people."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -493,17 +467,9 @@
                   "type": "text",
                   "text": "For the Lord takes delight in his people. He crowns the poor with salvation."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord takes delight in his people."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -515,29 +481,11 @@
                   "type": "text",
                   "text": "Let the praise of God be on their lips: this honor is for all his faithful."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord takes delight in his people."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor ama o seu povo de verdade."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -561,17 +509,9 @@
                   "type": "text",
                   "text": "e Sião se rejubile no seu Rei!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor ama o seu povo de verdade."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -595,17 +535,9 @@
                   "type": "text",
                   "text": "de fato, o Senhor ama seu povo e coroa com vitória os seus humildes."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor ama o seu povo de verdade."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -623,29 +555,11 @@
                   "type": "text",
                   "text": "com louvores do Senhor em sua boca eis a glória para todos os seus santos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor ama o seu povo de verdade."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore ama il suo popolo."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -669,17 +583,9 @@
                   "type": "text",
                   "text": "esultino nel loro re i figli di Sion."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore ama il suo popolo."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -703,17 +609,9 @@
                   "type": "text",
                   "text": "incorona i poveri di vittoria."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore ama il suo popolo."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -731,29 +629,11 @@
                   "type": "text",
                   "text": "Le lodi di Dio sulla loro bocca questo è un onore per tutti i suoi fedeli."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore ama il suo popolo."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur aime son peuple !"
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -777,17 +657,9 @@
                   "type": "text",
                   "text": "dans Sion, allégresse pour son Roi !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur aime son peuple !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -811,17 +683,9 @@
                   "type": "text",
                   "text": "il donne aux humbles l’éclat de la victoire."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur aime son peuple !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -845,29 +709,11 @@
                   "type": "text",
                   "text": "c’est la fierté de ses fidèles."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur aime son peuple !"
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Herr hat an seinem Volk Gefallen."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -891,17 +737,9 @@
                   "type": "text",
                   "text": "die Kinder Zions über ihren König jauchzen."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Herr hat an seinem Volk Gefallen."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -925,17 +763,9 @@
                   "type": "text",
                   "text": "die Gebeugten krönt er mit Sieg."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Herr hat an seinem Volk Gefallen."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -959,28 +789,9 @@
                   "type": "text",
                   "text": "herrlich ist das für all seine Frommen."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Herr hat an seinem Volk Gefallen."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 149, 1-2. 3-4. 5-6a et 9b",
-          "es": "Sal 149, 1-2. 3-4. 5-6a et 9b",
-          "en": "Ps 149:1-2, 3-4, 5-6a and 9b",
-          "pt-BR": "Sl 149, 1-2. 3-4. 5-6a et 9b",
-          "it": "Sal 149, 1-2. 3-4. 5-6a et 9b",
-          "fr": "Ps 149, 1-2. 3-4. 5-6a et 9b",
-          "de": "Ps 149, 1-2. 3-4. 5-6a et 9b"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -1004,7 +815,9 @@
                 {
                   "type": "reference",
                   "text": "Io 14, 6"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Ego sum via et véritas et vita, dicit Dóminus; nemo venit ad Patrem nisi per me. Allelúia."
@@ -1020,7 +833,9 @@
                 {
                   "type": "reference",
                   "text": "Jn 14, 6"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Yo soy el camino y la verdad y la vida —dice el Señor—; nadie va al Padre sino por mí Aleluya."
@@ -1537,28 +1352,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Dómine, refúgium factus es nobis, a generatióne in generatiónem. Redúcis hóminem in púlverem; et dixísti: «Revertímini, fílii hóminum». Quóniam mille anni ante óculos tuos tamquam dies hestérna quæ prætériit, et custódia in nocte. ℟. Dómine, refúgium factus es nobis, a generatióne in generatiónem. Perfúndis eos somno, erunt mane sicut herba succréscens: mane floret et crescit, véspere décidit et aréscit. ℟. Dómine, refúgium factus es nobis, a generatióne in generatiónem. Dinumeráre dies nostros sic doce nos, ut inducámus cor ad sapiéntiam. Convértere, Dómine, úsquequo? Et deprecábilis esto super servos tuos. ℟. Dómine, refúgium factus es nobis, a generatióne in generatiónem. Reple nos mane misericórdia tua, et exsultábimus et delectábimur ómnibus diébus nostris. Et sit splendor Dómini Dei nostri super nos, et ópera mánuum nostrárum confírma super nos, et opus mánuum nostrárum confírma. ℟. Dómine, refúgium factus es nobis, a generatióne in generatiónem.",
-            "es": "℟. Señor, tú has sido nuestro refugio de generación en generación. Tú reduces el hombre a polvo, diciendo: «Retornad, hijos de Adán». Mil años en tu presencia son un ayer que pasó; una vela nocturna. ℟. Señor, tú has sido nuestro refugio de generación en generación. Si tú los retiras son como un sueño, como hierba que se renueva que florece y se renueva por la mañana, y por la tarde la siegan y se seca. ℟. Señor, tú has sido nuestro refugio de generación en generación. Enséñanos a calcular nuestros años, para que adquiramos un corazón sensato. Vuélvete, Señor, ¿hasta cuándo? Ten compasión de tus siervos. ℟. Señor, tú has sido nuestro refugio de generación en generación. Por la mañana sácianos de tu misericordia, y toda nuestra vida será alegría y júbilo. Baje a nosotros la bondad del Señor y haga prósperas las obras de nuestras manos. Sí, haga prósperas las obras de nuestras manos. ℟. Señor, tú has sido nuestro refugio de generación en generación.",
-            "en": "℟. In every age, O Lord, you have been our refuge. You turn men back into dust and say: 'Go back, sons of men.' To your eyes a thousand years are like yesterday, come and gone, no more than a watch in the night. ℟. In every age, O Lord, you have been our refuge. You sweep men away like a dream, like grass which springs up in the morning. In the morning it springs up and flowers: by evening it withers and fades. ℟. In every age, O Lord, you have been our refuge. Make us know the shortness of our life that we may gain wisdom of heart. Lord, relent! Is your anger for ever? Show pity to your servants. ℟. In every age, O Lord, you have been our refuge. In the morning, fill us with your love; we shall exult and rejoice all our days. Let the favor of the Lord be upon us: give success to the work of our hands, give success to the work of our hands. ℟. In every age, O Lord, you have been our refuge.",
-            "pt-BR": "℟. Ó Senhor, vós fostes sempre um refúgio para nós. Vós fazeis voltar ao pó todo mortal, quando dizeis: \"Voltai ao pó, filhos de Adão!\" Pois mil anos para vós são como ontem, qual vigília de uma noite que passou. ℟. Ó Senhor, vós fostes sempre um refúgio para nós. Eles passam como o sono da manhã, são iguais à erva verde pelos campos: De manhã ela floresce vicejante, mas à tarde é cortada e logo seca. ℟. Ó Senhor, vós fostes sempre um refúgio para nós. Ensinai-nos a contar os nossos dias, e dai ao nosso coração sabedoria! Senhor, voltai-vos! Até quando tardareis? Tende piedade e compaixão de vossos servos. ℟. Ó Senhor, vós fostes sempre um refúgio para nós. Saciai-nos de manhã com vosso amor, e exultaremos de alegria todo o dia! Que a bondade do Senhor e nosso Deus repouse sobre nós e nos conduza! Tornai fecundo, ó Senhor, nosso trabalho. ℟. Ó Senhor, vós fostes sempre um refúgio para nós.",
-            "it": "℟. Signore, tu sei stato per noi un rifugio di generazione in generazione. Tu fai ritornare l’uomo in polvere, quando dici: «Ritornate, figli dell’uomo». Mille anni, ai tuoi occhi, sono come il giorno di ieri che è passato, come un turno di veglia nella notte. ℟. Signore, tu sei stato per noi un rifugio di generazione in generazione. Tu li sommergi: sono come un sogno al mattino, come l’erba che germoglia; al mattino fiorisce e germoglia, alla sera è falciata e secca. ℟. Signore, tu sei stato per noi un rifugio di generazione in generazione. Insegnaci a contare i nostri giorni e acquisteremo un cuore saggio. Ritorna, Signore: fino a quando? Abbi pietà dei tuoi servi! ℟. Signore, tu sei stato per noi un rifugio di generazione in generazione. Saziaci al mattino con il tuo amore: esulteremo e gioiremo per tutti i nostri giorni. Sia su di noi la dolcezza del Signore, nostro Dio: rendi salda per noi l’opera delle nostre mani, l’opera delle nostre mani rendi salda. ℟. Signore, tu sei stato per noi un rifugio di generazione in generazione.",
-            "fr": "℟. D’âge en âge, Seigneur, tu as été notre refuge ! Tu fais retourner l’homme à la poussière ; tu as dit : « Retournez, fils d’Adam ! » À tes yeux, mille ans sont comme hier, c’est un jour qui s’en va, une heure dans la nuit. ℟. D’âge en âge, Seigneur, tu as été notre refuge ! Tu les as balayés : ce n’est qu’un songe ; dès le matin, c’est une herbe changeante : elle fleurit le matin, elle change ; le soir, elle est fanée, desséchée. ℟. D’âge en âge, Seigneur, tu as été notre refuge ! Apprends-nous la vraie mesure de nos jours : que nos cœurs pénètrent la sagesse. Reviens, Seigneur, pourquoi tarder ? Ravise-toi par égard pour tes serviteurs. ℟. D’âge en âge, Seigneur, tu as été notre refuge ! Rassasie-nous de ton amour au matin, que nous passions nos jours dans la joie et les chants. Que vienne sur nous la douceur du Seigneur notre Dieu ! Consolide pour nous l’ouvrage de nos mains. ℟. D’âge en âge, Seigneur, tu as été notre refuge !",
-            "de": "℟. Herr, du bist unsere Zuflucht von Geschlecht zu Geschlecht. Du lässt die Menschen zurückkehren zum Staub und sprichst: „Kommt wieder, ihr Menschen!“ Denn tausend Jahre sind für dich wie der Tag, der gestern vergangen ist, wie eine Wache in der Nacht. ℟. Herr, du bist unsere Zuflucht von Geschlecht zu Geschlecht. Von Jahr zu Jahr säst du die Menschen aus; sie gleichen dem sprossenden Gras. Am Morgen grünt es und blüht, am Abend wird es geschnitten und welkt. ℟. Herr, du bist unsere Zuflucht von Geschlecht zu Geschlecht. Unsere Tage zu zählen, lehre uns! Dann gewinnen wir ein weises Herz. Herr, wende dich uns doch endlich zu! Hab Mitleid mit deinen Knechten! ℟. Herr, du bist unsere Zuflucht von Geschlecht zu Geschlecht. Sättige uns am Morgen mit deiner Huld! Dann wollen wir jubeln und uns freuen all unsre Tage. Es komme über uns die Güte des Herrn, unsres Gottes. Lass das Werk unsrer Hände gedeihen, ja, lass gedeihen das Werk unsrer Hände! ℟. Herr, du bist unsere Zuflucht von Geschlecht zu Geschlecht."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 89, 3-4. 5-6. 12-13. 14 et 17",
+          "es": "Sal 89, 3-4. 5-6. 12-13. 14 et 17",
+          "en": "Ps 89:3-4, 5-6, 12-13, 14 and 17",
+          "pt-BR": "Sl 89, 3-4. 5-6. 12-13. 14 et 17",
+          "de": "Ps 90",
+          "it": "Sal 89, 3-4. 5-6. 12-13. 14 et 17",
+          "fr": "Ps 89, 3-4. 5-6. 12-13. 14 et 17"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Dómine, refúgium factus es nobis, a generatióne in generatiónem."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Señor, tú has sido nuestro refugio de generación en generación."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "In every age, O Lord, you have been our refuge."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Ó Senhor, vós fostes sempre um refúgio para nós."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Signore, tu sei stato per noi un rifugio di generazione in generazione."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "D’âge en âge, Seigneur, tu as été notre refuge !"
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Herr, du bist unsere Zuflucht von Geschlecht zu Geschlecht."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -1582,17 +1447,9 @@
                   "type": "text",
                   "text": "et custódia in nocte."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dómine, refúgium factus es nobis, a generatióne in generatiónem."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1616,17 +1473,9 @@
                   "type": "text",
                   "text": "véspere décidit et aréscit."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dómine, refúgium factus es nobis, a generatióne in generatiónem."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1656,17 +1505,9 @@
                   "type": "text",
                   "text": "Et deprecábilis esto super servos tuos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dómine, refúgium factus es nobis, a generatióne in generatiónem."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1696,29 +1537,11 @@
                   "type": "text",
                   "text": "et opus mánuum nostrárum confírma."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dómine, refúgium factus es nobis, a generatióne in generatiónem."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Señor, tú has sido nuestro refugio de generación en generación."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1742,17 +1565,9 @@
                   "type": "text",
                   "text": "una vela nocturna."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Señor, tú has sido nuestro refugio de generación en generación."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1770,17 +1585,9 @@
                   "type": "text",
                   "text": "y por la tarde la siegan y se seca."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Señor, tú has sido nuestro refugio de generación en generación."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1804,17 +1611,9 @@
                   "type": "text",
                   "text": "Ten compasión de tus siervos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Señor, tú has sido nuestro refugio de generación en generación."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1838,45 +1637,19 @@
                   "type": "text",
                   "text": "Sí, haga prósperas las obras de nuestras manos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Señor, tú has sido nuestro refugio de generación en generación."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "In every age, O Lord, you have been our refuge."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "You turn men back into dust and say: 'Go back, sons of men.' To your eyes a thousand years are like yesterday, come and gone, no more than a watch in the night."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "In every age, O Lord, you have been our refuge."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1888,17 +1661,9 @@
                   "type": "text",
                   "text": "In the morning it springs up and flowers: by evening it withers and fades."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "In every age, O Lord, you have been our refuge."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1910,45 +1675,19 @@
                   "type": "text",
                   "text": "relent! Is your anger for ever? Show pity to your servants."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "In every age, O Lord, you have been our refuge."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "In the morning, fill us with your love; we shall exult and rejoice all our days. Let the favor of the Lord be upon us: give success to the work of our hands, give success to the work of our hands."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "In every age, O Lord, you have been our refuge."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ó Senhor, vós fostes sempre um refúgio para nós."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -1972,17 +1711,9 @@
                   "type": "text",
                   "text": "qual vigília de uma noite que passou."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ó Senhor, vós fostes sempre um refúgio para nós."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2006,17 +1737,9 @@
                   "type": "text",
                   "text": "mas à tarde é cortada e logo seca."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ó Senhor, vós fostes sempre um refúgio para nós."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2040,17 +1763,9 @@
                   "type": "text",
                   "text": "voltai-vos! Até quando tardareis? Tende piedade e compaixão de vossos servos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ó Senhor, vós fostes sempre um refúgio para nós."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2074,29 +1789,11 @@
                   "type": "text",
                   "text": "Tornai fecundo, ó Senhor, nosso trabalho."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ó Senhor, vós fostes sempre um refúgio para nós."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Signore, tu sei stato per noi un rifugio di generazione in generazione."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -2126,17 +1823,9 @@
                   "type": "text",
                   "text": "come un turno di veglia nella notte."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Signore, tu sei stato per noi un rifugio di generazione in generazione."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2166,17 +1855,9 @@
                   "type": "text",
                   "text": "alla sera è falciata e secca."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Signore, tu sei stato per noi un rifugio di generazione in generazione."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2194,17 +1875,9 @@
                   "type": "text",
                   "text": "Abbi pietà dei tuoi servi!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Signore, tu sei stato per noi un rifugio di generazione in generazione."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2234,29 +1907,11 @@
                   "type": "text",
                   "text": "l’opera delle nostre mani rendi salda."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Signore, tu sei stato per noi un rifugio di generazione in generazione."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "D’âge en âge, Seigneur, tu as été notre refuge !"
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -2280,17 +1935,9 @@
                   "type": "text",
                   "text": "c’est un jour qui s’en va, une heure dans la nuit."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "D’âge en âge, Seigneur, tu as été notre refuge !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2314,17 +1961,9 @@
                   "type": "text",
                   "text": "le soir, elle est fanée, desséchée."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "D’âge en âge, Seigneur, tu as été notre refuge !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2348,17 +1987,9 @@
                   "type": "text",
                   "text": "Ravise-toi par égard pour tes serviteurs."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "D’âge en âge, Seigneur, tu as été notre refuge !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2382,29 +2013,11 @@
                   "type": "text",
                   "text": "Consolide pour nous l’ouvrage de nos mains."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "D’âge en âge, Seigneur, tu as été notre refuge !"
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, du bist unsere Zuflucht von Geschlecht zu Geschlecht."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -2422,17 +2035,9 @@
                   "type": "text",
                   "text": "wie eine Wache in der Nacht."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, du bist unsere Zuflucht von Geschlecht zu Geschlecht."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2456,17 +2061,9 @@
                   "type": "text",
                   "text": "am Abend wird es geschnitten und welkt."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, du bist unsere Zuflucht von Geschlecht zu Geschlecht."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2496,17 +2093,9 @@
                   "type": "text",
                   "text": "Hab Mitleid mit deinen Knechten!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, du bist unsere Zuflucht von Geschlecht zu Geschlecht."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2536,28 +2125,9 @@
                   "type": "text",
                   "text": "ja, lass gedeihen das Werk unsrer Hände!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, du bist unsere Zuflucht von Geschlecht zu Geschlecht."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 89, 3-4. 5-6. 12-13. 14 et 17",
-          "es": "Sal 89, 3-4. 5-6. 12-13. 14 et 17",
-          "en": "Ps 89:3-4, 5-6, 12-13, 14 and 17",
-          "pt-BR": "Sl 89, 3-4. 5-6. 12-13. 14 et 17",
-          "de": "Ps 90",
-          "it": "Sal 89, 3-4. 5-6. 12-13. 14 et 17",
-          "fr": "Ps 89, 3-4. 5-6. 12-13. 14 et 17"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -2581,7 +2151,9 @@
                 {
                   "type": "reference",
                   "text": "Io 14, 6"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Ego sum via et véritas et vita, dicit Dóminus; nemo venit ad Patrem nisi per me. Allelúia."
@@ -2597,7 +2169,9 @@
                 {
                   "type": "reference",
                   "text": "Jn 14, 6"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Yo soy el camino y la verdad y la vida —dice el Señor—; nadie va al Padre sino por mí Aleluya."

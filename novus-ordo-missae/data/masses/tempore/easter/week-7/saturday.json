@@ -915,40 +915,144 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Recti vidébunt vultum tuum, Dómine. vel Allelúia. Dóminus in templo sancto suo, Dóminus, in cælo sedes eius. Oculi eius in páuperem respíciunt, pálpebræ eius intérrogant fílios hóminum. ℟. Recti vidébunt vultum tuum, Dómine. vel Allelúia. Dóminus intérrogat iustum et ímpium; qui autem díligit iniquitátem, odit ánima eius. Quóniam iustus Dóminus et iustítias diléxit, recti vidébunt vultum eius. ℟. Recti vidébunt vultum tuum, Dómine. vel Allelúia.",
-            "es": "℟. Los buenos verán tu rostro, Señor. o bien: Aleluya. El Señor está en su templo santo, el Señor tiene su trono en el cielo; sus ojos están observando, sus pupilas examinan a los hombres. ℟. Los buenos verán tu rostro, Señor. o bien: Aleluya. El Señor examina a inocentes y culpables, y al que ama la violencia él lo odia. Porque el Señor es justo y ama la justicia: los buenos verán su rostro. ℟. Los buenos verán tu rostro, Señor. o bien: Aleluya.",
-            "en": "℟. The upright shall see your face, O Lord. Or: Alleluia. The Lord is in his holy temple, the Lord, whose throne is in heaven. His eyes look down on the world; his gaze tests mortal men. ℟. The upright shall see your face, O Lord. Or: Alleluia. The Lord tests the just and the wicked: the lover of violence he hates. The Lord is just and loves justice: the upright shall see his face. ℟. The upright shall see your face, O Lord. Or: Alleluia.",
-            "pt-BR": "℟. Ó Senhor, quem tem reto coração há de ver a vossa face. Ou: Aleluia. Deus está no templo santo, e no céu tem o seu trono; volta os olhos para o mundo, seu olhar penetra os homens. ℟. Ó Senhor, quem tem reto coração há de ver a vossa face. Ou: Aleluia. Examina o justo e o ímpio, e detesta o que ama o mal. Porque justo é nosso Deus, o Senhor ama a justiça. Quem tem reto coração há de ver a sua face. ℟. Ó Senhor, quem tem reto coração há de ver a vossa face.",
-            "it": "℟. Gli uomini retti, Signore, contempleranno il tuo volto. Oppure: Alleluia. Il Signore sta nel suo tempio santo, il Signore ha il trono nei cieli. I suoi occhi osservano attenti, le sue pupille scrutano l’uomo. ℟. Gli uomini retti, Signore, contempleranno il tuo volto. Oppure: Alleluia. Il Signore scruta giusti e malvagi, egli odia chi ama la violenza. Giusto è il Signore, ama le cose giuste; gli uomini retti contempleranno il suo volto. ℟. Gli uomini retti, Signore, contempleranno il tuo volto. Oppure: Alleluia.",
-            "fr": "℟. Les hommes droits te verront face à face, Seigneur. ou Alléluia ! Le Seigneur, dans son temple saint, le Seigneur, dans les cieux où il trône, garde les yeux ouverts sur le monde. Il voit, il scrute les hommes. ℟. Les hommes droits te verront face à face, Seigneur. ou Alléluia ! Le Seigneur a scruté le juste et le méchant : l’ami de la violence, il le hait. Vraiment, le Seigneur est juste ; + il aime toute justice : les hommes droits le verront face à face. ℟. Les hommes droits te verront face à face, Seigneur. ou Alléluia !",
-            "de": "℟. Wer rechtschaffen ist, darf dein Angesicht schauen, Herr. Oder: Halleluja. Der Herr weilt in seinem heiligen Tempel, der Thron des Herrn ist im Himmel. Seine Augen schauen herab, seine Blicke prüfen die Menschen. ℟. Wer rechtschaffen ist, darf dein Angesicht schauen, Herr. Oder: Halleluja. Der Herr prüft Gerechte und Frevler; wer Gewalttat liebt, den hasst er aus tiefster Seele. Denn der Herr ist gerecht, er liebt gerechte Taten; wer rechtschaffen ist, darf sein Angesicht schauen. ℟. Wer rechtschaffen ist, darf dein Angesicht schauen, Herr. Oder: Halleluja."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 10, 4. 5 et 7",
+          "es": "Sal 10, 4. 5 y 7",
+          "pt-BR": "Sl 10, 4. 5 et 7",
+          "it": "Sal 10, 4. 5 et 7",
+          "de": "Ps 11",
+          "en": "Ps 10:4, 5 and 7",
+          "fr": "Ps 10, 4. 5 et 7"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Recti vidébunt vultum tuum, Dómine."
                 }
-              ],
+              ]
+            ],
+            "es": [
               [
                 {
-                  "type": "rubric",
-                  "text": "vel"
+                  "type": "text",
+                  "text": "Los buenos verán tu rostro, Señor."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "The upright shall see your face, O Lord."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Ó Senhor, quem tem reto coração há de ver a vossa face."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Gli uomini retti, Signore, contempleranno il tuo volto."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Les hommes droits te verront face à face,"
                 }
               ],
               [
                 {
                   "type": "text",
-                  "text": "Allelúia."
+                  "text": "Seigneur."
                 }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Wer rechtschaffen ist, darf dein Angesicht schauen, Herr."
+                }
+              ]
+            ]
+          },
+          "alternatives": [
+            {
+              "la": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Allelúia."
+                  }
+                ]
               ],
+              "es": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Aleluya."
+                  }
+                ]
+              ],
+              "en": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Alleluia."
+                  }
+                ]
+              ],
+              "pt-BR": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Aleluia."
+                  }
+                ]
+              ],
+              "it": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Alleluia."
+                  }
+                ]
+              ],
+              "fr": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Alléluia !"
+                  }
+                ]
+              ],
+              "de": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Halleluja."
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -972,29 +1076,9 @@
                   "type": "text",
                   "text": "pálpebræ eius intérrogant fílios hóminum."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Recti vidébunt vultum tuum, Dómine."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "vel"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1018,53 +1102,11 @@
                   "type": "text",
                   "text": "recti vidébunt vultum eius."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Recti vidébunt vultum tuum, Dómine."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "vel"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Los buenos verán tu rostro, Señor."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "o bien:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1088,29 +1130,9 @@
                   "type": "text",
                   "text": "sus pupilas examinan a los hombres."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Los buenos verán tu rostro, Señor."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "o bien:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1134,53 +1156,11 @@
                   "type": "text",
                   "text": "los buenos verán su rostro."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Los buenos verán tu rostro, Señor."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "o bien:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The upright shall see your face, O Lord."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Or:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
@@ -1204,29 +1184,9 @@
                   "type": "text",
                   "text": "his gaze tests mortal men."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The upright shall see your face, O Lord."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Or:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1250,51 +1210,11 @@
                   "type": "text",
                   "text": "the upright shall see his face."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The upright shall see your face, O Lord."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Or:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ó Senhor, quem tem reto coração há de ver a vossa face."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Ou:"
-                },
-                {
-                  "type": "response",
-                  "text": "Aleluia."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -1318,27 +1238,9 @@
                   "type": "text",
                   "text": "seu olhar penetra os homens."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ó Senhor, quem tem reto coração há de ver a vossa face."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Ou:"
-                },
-                {
-                  "type": "response",
-                  "text": "Aleluia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1362,41 +1264,11 @@
                   "type": "text",
                   "text": "Quem tem reto coração há de ver a sua face."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ó Senhor, quem tem reto coração há de ver a vossa face."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Gli uomini retti, Signore, contempleranno il tuo volto."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oppure:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -1420,29 +1292,9 @@
                   "type": "text",
                   "text": "le sue pupille scrutano l’uomo."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Gli uomini retti, Signore, contempleranno il tuo volto."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oppure:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1466,57 +1318,15 @@
                   "type": "text",
                   "text": "gli uomini retti contempleranno il suo volto."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Gli uomini retti, Signore, contempleranno il tuo volto."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oppure:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Les hommes droits te verront face à face,"
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
-                  "text": "Seigneur."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "ou"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia ! Le Seigneur,"
+                  "text": "Le Seigneur,"
                 }
               ],
               [
@@ -1542,33 +1352,13 @@
                   "type": "text",
                   "text": "Il voit, il scrute les hommes."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Les hommes droits te verront face à face,"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
-                  "text": "Seigneur."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "ou"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia ! Le Seigneur a scruté le juste et le méchant :"
+                  "text": "Le Seigneur a scruté le juste et le méchant :"
                 }
               ],
               [
@@ -1588,57 +1378,11 @@
                   "type": "text",
                   "text": "les hommes droits le verront face à face."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Les hommes droits te verront face à face,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Seigneur."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "ou"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia !"
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Wer rechtschaffen ist, darf dein Angesicht schauen, Herr."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oder:"
-                },
-                {
-                  "type": "response",
-                  "text": "Halleluja."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -1662,27 +1406,9 @@
                   "type": "text",
                   "text": "seine Blicke prüfen die Menschen."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Wer rechtschaffen ist, darf dein Angesicht schauen, Herr."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oder:"
-                },
-                {
-                  "type": "response",
-                  "text": "Halleluja."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1706,38 +1432,9 @@
                   "type": "text",
                   "text": "wer rechtschaffen ist, darf sein Angesicht schauen."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Wer rechtschaffen ist, darf dein Angesicht schauen, Herr."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oder:"
-                },
-                {
-                  "type": "response",
-                  "text": "Halleluja."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 10, 4. 5 et 7",
-          "es": "Sal 10, 4. 5 y 7",
-          "pt-BR": "Sl 10, 4. 5 et 7",
-          "it": "Sal 10, 4. 5 et 7",
-          "de": "Ps 11",
-          "en": "Ps 10:4, 5 and 7",
-          "fr": "Ps 10, 4. 5 et 7"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -1761,7 +1458,9 @@
                 {
                   "type": "reference",
                   "text": "Io 16, 7."
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Mittam ad vos Spíritum veritátis, dicit Dóminus; ille docébit vos omnem veritátem. Allelúia."
@@ -1777,7 +1476,9 @@
                 {
                   "type": "reference",
                   "text": "Jn 16, 7."
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Os enviaré el Espíritu de la verdad —dice el Señor—; él os guiará hasta la verdad plena. Aleluya."

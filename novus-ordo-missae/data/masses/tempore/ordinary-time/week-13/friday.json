@@ -228,28 +228,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Confitémini Dómino, quóniam bonus. Confitémini Dómino, quóniam bonus, quóniam in sǽculum misericórdia eius. Quis loquétur poténtias Dómini, audítas fáciet omnes laudes eius? ℟. Confitémini Dómino, quóniam bonus. Beáti qui custódiunt iudícium, et fáciunt iustítiam in omni témpore. Meménto nostri, Dómine, in beneplácito pópuli tui. ℟. Confitémini Dómino, quóniam bonus. Vísita nos in salutári tuo, ut videámus bona electórum tuórum, ut lætémur in lætítia gentis tuæ, ut gloriémur cum hereditáte tua. ℟. Confitémini Dómino, quóniam bonus.",
-            "es": "℟. Dad gracias al Señor porque es bueno. Dad gracias al Señor porque es bueno, porque es eterna su misericordia. ¿Quién podrá contar las hazañas de Dios, pregonar toda su alabanza? ℟. Dad gracias al Señor porque es bueno. Dichosos los que respetan el derecho y practican siempre la justicia. Acuérdate de mí por amor a tu pueblo. ℟. Dad gracias al Señor porque es bueno. Visítame con tu salvación: para que vea la dicha de tus escogidos, y me alegre con la alegría de tu pueblo, y me gloríe con tu heredad. ℟. Dad gracias al Señor porque es bueno.",
-            "en": "℟. Give thanks to the Lord for he is good. O give thanks to the Lord for he is good; for his great love is without end. Who can tell the Lord's mighty deeds? Who can recount all his praise? ℟. Give thanks to the Lord for he is good. They are happy who do what is right, who at all times do what is just. O Lord, remember me out of the love you have for your people. ℟. Give thanks to the Lord for he is good. Come to me, Lord, with your help that I may see the joy of your chosen ones and may rejoice in the gladness of your nation and share the glory of your people. ℟. Give thanks to the Lord for he is good.",
-            "pt-BR": "℟. Dai graças ao Senhor, porque Ele é bom. Dai graças ao Senhor, porque ele é bom, porque eterna é a sua misericórdia! Quem contará os grandes feitos do Senhor? Quem cantará todo o louvor que ele merece? ℟. Dai graças ao Senhor, porque Ele é bom. Felizes os que guardam seus preceitos e praticam a justiça em todo o tempo! Lembrai-vos, ó Senhor, de mim, lembrai-vos, pelo amor que demonstrais ao vosso povo!. ℟. Dai graças ao Senhor, porque Ele é bom Visitai-me com a vossa salvação, para que eu veja o bem-estar do vosso povo, e exulte na alegria dos eleitos, e me glorie com os que são vossa herança. ℟. Dai graças ao Senhor, porque Ele é bom.",
-            "it": "℟. Rendete grazie al Signore, perché è buono. Rendete grazie al Signore, perché è buono, perché il suo amore è per sempre. Chi può narrare le prodezze del Signore, far risuonare tutta la sua lode? ℟. Rendete grazie al Signore, perché è buono. Beati coloro che osservano il diritto e agiscono con giustizia in ogni tempo. Ricordati di me, Signore, per amore del tuo popolo. ℟. Rendete grazie al Signore, perché è buono. Visitami con la tua salvezza, perché io veda il bene dei tuoi eletti, gioisca della gioia del tuo popolo, mi vanti della tua eredità. ℟. Rendete grazie al Signore, perché è buono.",
-            "fr": "℟. Rendez grâce au Seigneur : Il est bon ! Rendez grâce au Seigneur : Il est bon ! Éternel est son amour ! Qui dira les hauts faits du Seigneur, qui célébrera ses louanges ? ℟. Rendez grâce au Seigneur : Il est bon ! Heureux qui pratique la justice, qui observe le droit en tout temps ! Souviens-toi de moi, Seigneur, dans ta bienveillance pour ton peuple. ℟. Rendez grâce au Seigneur : Il est bon ! Toi qui le sauves, visite-moi : que je voie le bonheur de tes élus ; que j’aie part à la joie de ton peuple, à la fierté de ton héritage. ℟. Rendez grâce au Seigneur : Il est bon !",
-            "de": "℟. Danket dem Herrn; denn er ist gütig. Danket dem Herrn; denn er ist gütig, denn seine Huld währt ewig. Wer kann die großen Taten des Herrn erzählen, all seinen Ruhm verkünden? ℟. Danket dem Herrn; denn er ist gütig. Wohl denen, die das Recht bewahren und zu jeder Zeit tun, was gerecht ist. Denk an mich, Herr, aus Liebe zu deinem Volk, such mich auf und bring mir Hilfe! ℟. Danket dem Herrn; denn er ist gütig. Lass mich das Glück deiner Erwählten schauen, an der Freude deines Volkes mich freuen, damit ich gemeinsam mit deinem Erbe mich rühmen kann. ℟. Danket dem Herrn; denn er ist gütig."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 105, 1-2. 3-4a. 4b-5",
+          "es": "Sal 105, 1-2. 3-4a. 4b-5",
+          "en": "Ps 105:1-2, 3-4a, 4b-5",
+          "pt-BR": "Sl 105, 1-2. 3-4a. 4b-5",
+          "de": "Ps 106",
+          "it": "Sal 105, 1-2. 3-4a. 4b-5",
+          "fr": "Ps 105, 1-2. 3-4a. 4b-5"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Confitémini Dómino, quóniam bonus."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Dad gracias al Señor porque es bueno."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "Give thanks to the Lord for he is good."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Dai graças ao Senhor, porque Ele é bom."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Rendete grazie al Signore, perché è buono."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Rendez grâce au Seigneur : Il est bon !"
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Danket dem Herrn; denn er ist gütig."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -273,17 +323,9 @@
                   "type": "text",
                   "text": "audítas fáciet omnes laudes eius?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Confitémini Dómino, quóniam bonus."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -301,17 +343,9 @@
                   "type": "text",
                   "text": "Meménto nostri, Dómine, in beneplácito pópuli tui."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Confitémini Dómino, quóniam bonus."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -335,29 +369,11 @@
                   "type": "text",
                   "text": "ut gloriémur cum hereditáte tua."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Confitémini Dómino, quóniam bonus."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dad gracias al Señor porque es bueno."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -381,17 +397,9 @@
                   "type": "text",
                   "text": "pregonar toda su alabanza?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dad gracias al Señor porque es bueno."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -403,17 +411,9 @@
                   "type": "text",
                   "text": "Acuérdate de mí por amor a tu pueblo."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dad gracias al Señor porque es bueno."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -437,29 +437,11 @@
                   "type": "text",
                   "text": "y me gloríe con tu heredad."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dad gracias al Señor porque es bueno."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Give thanks to the Lord for he is good."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
@@ -471,17 +453,9 @@
                   "type": "text",
                   "text": "Who can tell the Lord's mighty deeds? Who can recount all his praise?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Give thanks to the Lord for he is good."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -493,45 +467,19 @@
                   "type": "text",
                   "text": "remember me out of the love you have for your people."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Give thanks to the Lord for he is good."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Come to me, Lord, with your help that I may see the joy of your chosen ones and may rejoice in the gladness of your nation and share the glory of your people."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Give thanks to the Lord for he is good."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dai graças ao Senhor, porque Ele é bom."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -549,17 +497,9 @@
                   "type": "text",
                   "text": "Quem cantará todo o louvor que ele merece?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dai graças ao Senhor, porque Ele é bom."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -571,17 +511,9 @@
                   "type": "text",
                   "text": "ó Senhor, de mim, lembrai-vos, pelo amor que demonstrais ao vosso povo!."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dai graças ao Senhor, porque Ele é bom Visitai-me com a vossa salvação,"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -599,29 +531,11 @@
                   "type": "text",
                   "text": "e me glorie com os que são vossa herança."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dai graças ao Senhor, porque Ele é bom."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Rendete grazie al Signore, perché è buono."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -645,17 +559,9 @@
                   "type": "text",
                   "text": "far risuonare tutta la sua lode?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Rendete grazie al Signore, perché è buono."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -667,17 +573,9 @@
                   "type": "text",
                   "text": "Ricordati di me, Signore, per amore del tuo popolo."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Rendete grazie al Signore, perché è buono."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -701,29 +599,11 @@
                   "type": "text",
                   "text": "mi vanti della tua eredità."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Rendete grazie al Signore, perché è buono."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Rendez grâce au Seigneur : Il est bon !"
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -747,17 +627,9 @@
                   "type": "text",
                   "text": "qui célébrera ses louanges ?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Rendez grâce au Seigneur : Il est bon !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -781,17 +653,9 @@
                   "type": "text",
                   "text": "dans ta bienveillance pour ton peuple."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Rendez grâce au Seigneur : Il est bon !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -815,29 +679,11 @@
                   "type": "text",
                   "text": "à la fierté de ton héritage."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Rendez grâce au Seigneur : Il est bon !"
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Danket dem Herrn; denn er ist gütig."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -861,17 +707,9 @@
                   "type": "text",
                   "text": "all seinen Ruhm verkünden?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Danket dem Herrn; denn er ist gütig."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -889,17 +727,9 @@
                   "type": "text",
                   "text": "such mich auf und bring mir Hilfe!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Danket dem Herrn; denn er ist gütig."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -917,28 +747,9 @@
                   "type": "text",
                   "text": "damit ich gemeinsam mit deinem Erbe mich rühmen kann."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Danket dem Herrn; denn er ist gütig."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 105, 1-2. 3-4a. 4b-5",
-          "es": "Sal 105, 1-2. 3-4a. 4b-5",
-          "en": "Ps 105:1-2, 3-4a, 4b-5",
-          "pt-BR": "Sl 105, 1-2. 3-4a. 4b-5",
-          "de": "Ps 106",
-          "it": "Sal 105, 1-2. 3-4a. 4b-5",
-          "fr": "Ps 105, 1-2. 3-4a. 4b-5"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -962,7 +773,9 @@
                 {
                   "type": "reference",
                   "text": "Mt 11, 28"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Veníte ad me, omnes qui laborátis et oneráti estis, et ego refíciam vos, dicit Dóminus. Allelúia."
@@ -978,7 +791,9 @@
                 {
                   "type": "reference",
                   "text": "Mt 11, 28"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Venid a mí todos los que estáis cansados y agobiados —dice el Señor—, y yo os aliviaré. Aleluya."
@@ -1495,28 +1310,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Non in solo pane vivit homo, sed in omni verbo quod procédit de ore Dei. Beáti qui servant testimónia eius, in toto corde exquírunt eum. ℟. Non in solo pane vivit homo, sed in omni verbo quod procédit de ore Dei. In toto corde meo exquisívi te, ne erráre me fácias a præcéptis tuis. ℟. Non in solo pane vivit homo, sed in omni verbo quod procédit de ore Dei. Defécit ánima mea in desiderándo iudícia tua in omni témpore. ℟. Non in solo pane vivit homo, sed in omni verbo quod procédit de ore Dei. Viam veritátis elégi, iudícia tua propósui mihi. ℟. Non in solo pane vivit homo, sed in omni verbo quod procédit de ore Dei. Ecce concupívi mandáta tua; in iustítia tua vivífica me. ℟. Non in solo pane vivit homo, sed in omni verbo quod procédit de ore Dei. Os meum apérui et attráxi spíritum, quia præcépta tua desiderábam. ℟. Non in solo pane vivit homo, sed in omni verbo quod procédit de ore Dei.",
-            "es": "℟. No sólo de pan vive el hombre, sino de toda palabra que sale de la boca de Dios. Dichoso el que, guardando sus preceptos, lo busca de todo corazón. ℟. No sólo de pan vive el hombre, sino de toda palabra que sale de la boca de Dios. Te busco de todo corazón, no consientas que me desvíe de tus mandamientos. ℟. No sólo de pan vive el hombre, sino de toda palabra que sale de la boca de Dios. Mi alma se consume, deseando continuamente tus mandamientos. ℟. No sólo de pan vive el hombre, sino de toda palabra que sale de la boca de Dios. Escogí el camino verdadero, deseé tus mandamientos. ℟. No sólo de pan vive el hombre, sino de toda palabra que sale de la boca de Dios. Mira cómo ansío tus mandatos: dame vida con tu justicia. ℟. No sólo de pan vive el hombre, sino de toda palabra que sale de la boca de Dios. Abro la boca y respiro, ansiando tus mandamientos. ℟. No sólo de pan vive el hombre, sino de toda palabra que sale de la boca de Dios.",
-            "en": "℟. Man does not live on bread alone, but on every word that comes from the mouth of God. They are happy those who do his will, seeking him with all their hearts. ℟. Man does not live on bread alone, but on every word that comes from the mouth of God. I have sought you with all my heart: let me not stray from your commands. ℟. Man does not live on bread alone, but on every word that comes from the mouth of God. My soul is ever consumed as I long for your decrees. ℟. Man does not live on bread alone, but on every word that comes from the mouth of God. I have chosen the way of truth with your decrees before me. ℟. Man does not live on bread alone, but on every word that comes from the mouth of God. See, I long for your precepts: then in your justice, give me life. ℟. Man does not live on bread alone, but on every word that comes from the mouth of God. I open my mouth and I sigh as I yearn for your commands. ℟. Man does not live on bread alone, but on every word that comes from the mouth of God.",
-            "pt-BR": "℟. O homem não vive somente de pão, mas de toda palavra da boca de Deus. Feliz o homem que observa seus preceitos, e de todo o coração procura a Deus! ℟. O homem não vive somente de pão, mas de toda palavra da boca de Deus. De todo o coração eu vos procuro, não deixeis que eu abandone a vossa lei!. ℟. O homem não vive somente de pão, mas de toda palavra da boca de Deus. Minha alma se consome o tempo todo em desejar as vossas justas decisões. ℟. O homem não vive somente de pão, mas de toda palavra da boca de Deus. Escolhi seguir a trilha da verdade, diante de mim eu coloquei vossos preceitos. ℟. O homem não vive somente de pão, mas de toda palavra da boca de Deus. Como anseio pelos vossos mandamentos! Dai-me a vida, ó Senhor, porque sois justo! ℟. O homem não vive somente de pão, mas de toda palavra da boca de Deus. Abro a boca e aspiro largamente, pois estou ávido de vossos mandamentos. ℟. O homem não vive somente de pão, mas de toda palavra da boca de Deus.",
-            "it": "℟. Non di solo pane vivrà l’uomo, ma di ogni parola che esce dalla bocca di Dio. Beato chi custodisce i suoi insegnamenti e lo cerca con tutto il cuore. ℟. Non di solo pane vivrà l’uomo, ma di ogni parola che esce dalla bocca di Dio. Con tutto il cuore ti cerco: non lasciarmi deviare dai tuoi comandi. ℟. Non di solo pane vivrà l’uomo, ma di ogni parola che esce dalla bocca di Dio. Io mi consumo nel desiderio dei tuoi giudizi in ogni momento. ℟. Non di solo pane vivrà l’uomo, ma di ogni parola che esce dalla bocca di Dio. Ho scelto la via della fedeltà, mi sono proposto i tuoi giudizi. ℟. Non di solo pane vivrà l’uomo, ma di ogni parola che esce dalla bocca di Dio. Ecco, desidero i tuoi precetti: fammi vivere nella tua giustizia. ℟. Non di solo pane vivrà l’uomo, ma di ogni parola che esce dalla bocca di Dio. Apro anelante la mia bocca, perché ho sete dei tuoi comandi. ℟. Non di solo pane vivrà l’uomo, ma di ogni parola che esce dalla bocca di Dio.",
-            "fr": "℟. L’homme ne vit pas seulement de pain, mais de toute parole qui sort de la bouche de Dieu. Heureux ceux qui gardent les exigences de Dieu, ils le cherchent de tout cœur ! ℟. L’homme ne vit pas seulement de pain, mais de toute parole qui sort de la bouche de Dieu. De tout mon cœur, je te cherche, Seigneur ; garde-moi de fuir tes volontés. ℟. L’homme ne vit pas seulement de pain, mais de toute parole qui sort de la bouche de Dieu. Mon âme a brûlé de désir en tout temps pour tes décisions. ℟. L’homme ne vit pas seulement de pain, mais de toute parole qui sort de la bouche de Dieu. J’ai choisi la voie de la fidélité, je m’ajuste à tes décisions. ℟. L’homme ne vit pas seulement de pain, mais de toute parole qui sort de la bouche de Dieu. Vois, j’ai désiré tes préceptes : par ta justice fais-moi vivre. ℟. L’homme ne vit pas seulement de pain, mais de toute parole qui sort de la bouche de Dieu. La bouche grande ouverte, j’aspire, assoiffé de tes volontés. ℟. L’homme ne vit pas seulement de pain, mais de toute parole qui sort de la bouche de Dieu.",
-            "de": "℟. Nicht nur von Brot lebt der Mensch, sondern von jedem Wort aus Gottes Mund. Wohl denen, die seine Vorschriften befolgen und ihn suchen von ganzem Herzen. Ich suche dich von ganzem Herzen. Lass mich nicht abirren von deinen Geboten! ℟. Nicht nur von Brot lebt der Mensch, sondern von jedem Wort aus Gottes Mund. In Sehnsucht nach deinem Urteil verzehrt sich allezeit meine Seele. Ich wählte den Weg der Wahrheit; nach deinen Urteilen hab‘ ich Verlangen. ℟. Nicht nur von Brot lebt der Mensch, sondern von jedem Wort aus Gottes Mund. Nach deinen Befehlen hab‘ ich Verlangen. Gib mir neue Kraft durch deine Gerechtigkeit! Weit öffne ich meinen Mund und lechze nach deinen Geboten; denn nach ihnen hab‘ ich Verlangen. ℟. Nicht nur von Brot lebt der Mensch, sondern von jedem Wort aus Gottes Mund."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 118, 2. 10. 20. 30. 40. 131",
+          "es": "Sal 118, 2. 10. 20. 30. 40. 131",
+          "en": "Ps 118:2, 10, 20, 30, 40, 131",
+          "pt-BR": "Sl 118, 2. 10. 20. 30. 40. 131",
+          "de": "Ps 119",
+          "it": "Sal 118, 2. 10. 20. 30. 40. 131",
+          "fr": "Ps 118, 2. 10. 20. 30. 40. 131"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Non in solo pane vivit homo, sed in omni verbo quod procédit de ore Dei."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "No sólo de pan vive el hombre, sino de toda palabra que sale de la boca de Dios."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "Man does not live on bread alone, but on every word that comes from the mouth of God."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "O homem não vive somente de pão, mas de toda palavra da boca de Deus."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Non di solo pane vivrà l’uomo, ma di ogni parola che esce dalla bocca di Dio."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "L’homme ne vit pas seulement de pain, mais de toute parole qui sort de la bouche de Dieu."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Nicht nur von Brot lebt der Mensch, sondern von jedem Wort aus Gottes Mund."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -1528,17 +1393,9 @@
                   "type": "text",
                   "text": "in toto corde exquírunt eum."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Non in solo pane vivit homo, sed in omni verbo quod procédit de ore Dei."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1550,33 +1407,17 @@
                   "type": "text",
                   "text": "ne erráre me fácias a præcéptis tuis."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Non in solo pane vivit homo, sed in omni verbo quod procédit de ore Dei."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Defécit ánima mea in desiderándo iudícia tua in omni témpore."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Non in solo pane vivit homo, sed in omni verbo quod procédit de ore Dei."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1588,17 +1429,9 @@
                   "type": "text",
                   "text": "iudícia tua propósui mihi."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Non in solo pane vivit homo, sed in omni verbo quod procédit de ore Dei."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1610,17 +1443,9 @@
                   "type": "text",
                   "text": "in iustítia tua vivífica me."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Non in solo pane vivit homo, sed in omni verbo quod procédit de ore Dei."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1632,29 +1457,11 @@
                   "type": "text",
                   "text": "quia præcépta tua desiderábam."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Non in solo pane vivit homo, sed in omni verbo quod procédit de ore Dei."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "No sólo de pan vive el hombre, sino de toda palabra que sale de la boca de Dios."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1666,17 +1473,9 @@
                   "type": "text",
                   "text": "lo busca de todo corazón."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "No sólo de pan vive el hombre, sino de toda palabra que sale de la boca de Dios."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1688,33 +1487,17 @@
                   "type": "text",
                   "text": "no consientas que me desvíe de tus mandamientos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "No sólo de pan vive el hombre, sino de toda palabra que sale de la boca de Dios."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Mi alma se consume, deseando continuamente tus mandamientos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "No sólo de pan vive el hombre, sino de toda palabra que sale de la boca de Dios."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1726,17 +1509,9 @@
                   "type": "text",
                   "text": "deseé tus mandamientos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "No sólo de pan vive el hombre, sino de toda palabra que sale de la boca de Dios."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1748,17 +1523,9 @@
                   "type": "text",
                   "text": "dame vida con tu justicia."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "No sólo de pan vive el hombre, sino de toda palabra que sale de la boca de Dios."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1770,137 +1537,61 @@
                   "type": "text",
                   "text": "ansiando tus mandamientos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "No sólo de pan vive el hombre, sino de toda palabra que sale de la boca de Dios."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Man does not live on bread alone, but on every word that comes from the mouth of God."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "They are happy those who do his will, seeking him with all their hearts."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Man does not live on bread alone, but on every word that comes from the mouth of God."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "I have sought you with all my heart: let me not stray from your commands."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Man does not live on bread alone, but on every word that comes from the mouth of God."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "My soul is ever consumed as I long for your decrees."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Man does not live on bread alone, but on every word that comes from the mouth of God."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "I have chosen the way of truth with your decrees before me."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Man does not live on bread alone, but on every word that comes from the mouth of God."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "See, I long for your precepts: then in your justice, give me life."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Man does not live on bread alone, but on every word that comes from the mouth of God."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "I open my mouth and I sigh as I yearn for your commands."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Man does not live on bread alone, but on every word that comes from the mouth of God."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O homem não vive somente de pão, mas de toda palavra da boca de Deus."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -1912,17 +1603,9 @@
                   "type": "text",
                   "text": "e de todo o coração procura a Deus!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O homem não vive somente de pão, mas de toda palavra da boca de Deus."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1934,33 +1617,17 @@
                   "type": "text",
                   "text": "não deixeis que eu abandone a vossa lei!."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O homem não vive somente de pão, mas de toda palavra da boca de Deus."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Minha alma se consome o tempo todo em desejar as vossas justas decisões."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O homem não vive somente de pão, mas de toda palavra da boca de Deus."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1972,17 +1639,9 @@
                   "type": "text",
                   "text": "diante de mim eu coloquei vossos preceitos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O homem não vive somente de pão, mas de toda palavra da boca de Deus."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1994,17 +1653,9 @@
                   "type": "text",
                   "text": "Dai-me a vida, ó Senhor, porque sois justo!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O homem não vive somente de pão, mas de toda palavra da boca de Deus."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2016,45 +1667,19 @@
                   "type": "text",
                   "text": "pois estou ávido de vossos mandamentos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O homem não vive somente de pão, mas de toda palavra da boca de Deus."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Non di solo pane vivrà l’uomo, ma di ogni parola che esce dalla bocca di Dio."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
                   "text": "Beato chi custodisce i suoi insegnamenti e lo cerca con tutto il cuore."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Non di solo pane vivrà l’uomo, ma di ogni parola che esce dalla bocca di Dio."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2066,33 +1691,17 @@
                   "type": "text",
                   "text": "non lasciarmi deviare dai tuoi comandi."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Non di solo pane vivrà l’uomo, ma di ogni parola che esce dalla bocca di Dio."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Io mi consumo nel desiderio dei tuoi giudizi in ogni momento."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Non di solo pane vivrà l’uomo, ma di ogni parola che esce dalla bocca di Dio."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2104,17 +1713,9 @@
                   "type": "text",
                   "text": "mi sono proposto i tuoi giudizi."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Non di solo pane vivrà l’uomo, ma di ogni parola che esce dalla bocca di Dio."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2126,17 +1727,9 @@
                   "type": "text",
                   "text": "fammi vivere nella tua giustizia."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Non di solo pane vivrà l’uomo, ma di ogni parola che esce dalla bocca di Dio."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2148,29 +1741,11 @@
                   "type": "text",
                   "text": "perché ho sete dei tuoi comandi."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Non di solo pane vivrà l’uomo, ma di ogni parola che esce dalla bocca di Dio."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "L’homme ne vit pas seulement de pain, mais de toute parole qui sort de la bouche de Dieu."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -2182,17 +1757,9 @@
                   "type": "text",
                   "text": "ils le cherchent de tout cœur !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "L’homme ne vit pas seulement de pain, mais de toute parole qui sort de la bouche de Dieu."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2204,33 +1771,17 @@
                   "type": "text",
                   "text": "garde-moi de fuir tes volontés."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "L’homme ne vit pas seulement de pain, mais de toute parole qui sort de la bouche de Dieu."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Mon âme a brûlé de désir en tout temps pour tes décisions."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "L’homme ne vit pas seulement de pain, mais de toute parole qui sort de la bouche de Dieu."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2242,17 +1793,9 @@
                   "type": "text",
                   "text": "je m’ajuste à tes décisions."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "L’homme ne vit pas seulement de pain, mais de toute parole qui sort de la bouche de Dieu."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2264,17 +1807,9 @@
                   "type": "text",
                   "text": "par ta justice fais-moi vivre."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "L’homme ne vit pas seulement de pain, mais de toute parole qui sort de la bouche de Dieu."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2286,29 +1821,11 @@
                   "type": "text",
                   "text": "assoiffé de tes volontés."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "L’homme ne vit pas seulement de pain, mais de toute parole qui sort de la bouche de Dieu."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Nicht nur von Brot lebt der Mensch, sondern von jedem Wort aus Gottes Mund."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -2326,17 +1843,9 @@
                   "type": "text",
                   "text": "Lass mich nicht abirren von deinen Geboten!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Nicht nur von Brot lebt der Mensch, sondern von jedem Wort aus Gottes Mund."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2354,17 +1863,9 @@
                   "type": "text",
                   "text": "nach deinen Urteilen hab‘ ich Verlangen."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Nicht nur von Brot lebt der Mensch, sondern von jedem Wort aus Gottes Mund."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2388,28 +1889,9 @@
                   "type": "text",
                   "text": "denn nach ihnen hab‘ ich Verlangen."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Nicht nur von Brot lebt der Mensch, sondern von jedem Wort aus Gottes Mund."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 118, 2. 10. 20. 30. 40. 131",
-          "es": "Sal 118, 2. 10. 20. 30. 40. 131",
-          "en": "Ps 118:2, 10, 20, 30, 40, 131",
-          "pt-BR": "Sl 118, 2. 10. 20. 30. 40. 131",
-          "de": "Ps 119",
-          "it": "Sal 118, 2. 10. 20. 30. 40. 131",
-          "fr": "Ps 118, 2. 10. 20. 30. 40. 131"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -2433,7 +1915,9 @@
                 {
                   "type": "reference",
                   "text": "Mt 11, 28"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Veníte ad me, omnes qui laborátis et oneráti estis, et ego refíciam vos, dicit Dóminus. Allelúia."
@@ -2449,7 +1933,9 @@
                 {
                   "type": "reference",
                   "text": "Mt 11, 28"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Venid a mí todos los que estáis cansados y agobiados —dice el Señor—, y yo os aliviaré. Aleluya."

@@ -1598,28 +1598,84 @@
   "readings": {
     "default": {
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Gloriósa dicta sunt de te, cívitas Dei! Fundaménta eius in móntibus sanctis; díligit Dóminus portas Sion super ómnia tabernácula Iacob. ℟. Gloriósa dicta sunt de te, cívitas Dei! Gloriósa dicta sunt de te, cívitas Dei. Et de Sion dicétur: «Hic et ille natus est in ea, et ipse firmávit eam Altíssimus». ℟. Gloriósa dicta sunt de te, cívitas Dei! Dóminus réferet in librum populórum: «Hi nati sunt illic». Et cantant sicut choros ducéntes: «Omnes fontes mei in te». ℟. Gloriósa dicta sunt de te, cívitas Dei!",
-            "es": "℟. ¡Qué pregón tan glorioso para ti, ciudad de Dios! Él la ha cimentado sobre el monte santo; y el Señor prefiere las puertas de Sion a todas las moradas de Jacob. ℟. ¡Qué pregón tan glorioso para ti, ciudad de Dios! ¡Qué pregón tan glorioso para ti, ciudad de Dios! Se dirá de Sion: «Uno por uno, todos han nacido en ella; el Altísimo en persona la ha fundado». ℟. ¡Qué pregón tan glorioso para ti, ciudad de Dios! El Señor escribirá en el registro de los pueblos: «Este ha nacido allí». Y cantarán mientras danzan: «Todas mis fuentes están en ti». ℟. ¡Qué pregón tan glorioso para ti, ciudad de Dios!",
-            "en": "℟. Of you are told glorious things, O city of God! On the holy mountain is his city cherished by the Lord. The Lord prefers the gates of Zion to all Jacob's dwellings. ℟. Of you are told glorious things, O city of God! 'Of you are told glorious things, O city of God! Zion shall be called 'Mother' for all shall be her children.' It is he, the Lord Most High, who gives each his place. ℟. Of you are told glorious things, O city of God! In his register of peoples he writes: 'These are her children' and while they dance they will sing: 'In you all find their home.' ℟. Of you are told glorious things, O city of God!",
-            "pt-BR": "℟. Dizem coisas gloriosas da Cidade do Senhor! O Senhor ama a cidade que fundou no Monte santo; ama as portas de Sião mais que as casas de Jacó. ℟. Dizem coisas gloriosas da Cidade do Senhor! Dizem coisas gloriosas da Cidade do Senhor. De Sião, porém, se diz: \"Nasceu nela todo homem; Deus é sua segurança\". ℟. Dizem coisas gloriosas da Cidade do Senhor! Deus anota no seu livro, onde inscreve os povos todos: \"Foi ali que estes nasceram\". E por isso todos juntos a cantar se alegrarão; e, dançando, exclamarão: \"Estão em ti as nossas fontes!\". ℟. Dizem coisas gloriosas da Cidade do Senhor!",
-            "it": "℟. Di te si dicono cose stupende, città di Dio! Le sue fondamenta sono sui monti santi; il Signore ama le porte di Sion più di tutte le dimore di Giacobbe. ℟. Di te si dicono cose stupende, città di Dio! Di te si dicono cose stupende, città di Dio. Si dirà di Sion: « L’uno e l’altro è nato in essa e l’Altissimo la tiene salda». ℟. Di te si dicono cose stupende, città di Dio! Il Signore scriverà nel libro dei popoli: “Là costui è nato”. E danzando canteranno: “Sono in te tutte le mie sorgenti”. ℟. Di te si dicono cose stupende, città di Dio!",
-            "fr": "℟. Pour ta gloire on parle de toi, ville de Dieu ! Elle est fondée sur les montagnes saintes. Le Seigneur aime les portes de Sion plus que toutes les demeures de Jacob. ℟. Pour ta gloire on parle de toi, ville de Dieu ! Pour ta gloire on parle de toi, ville de Dieu ! Mais on appelle Sion : « Ma mère ! » car en elle, tout homme est né. C’est lui, le Très-Haut, qui la maintient. ℟. Pour ta gloire on parle de toi, ville de Dieu ! Au registre des peuples, le Seigneur écrit : « Chacun est né là-bas. » Tous ensemble ils dansent, et ils chantent : « En toi, toutes nos sources ! » ℟. Pour ta gloire on parle de toi, ville de Dieu !",
-            "de": "℟. Herrliches sagt man von dir, du Stadt unseres Gottes! Der Herr liebt Zion, seine Gründung auf heiligen Bergen; mehr als all seine Stätten in Jakob liebt er die Tore Zions. ℟. Herrliches sagt man von dir, du Stadt unseres Gottes! Herrliches sagt man von dir, du Stadt unseres Gottes. Von Zion wird man sagen: Jeder ist dort geboren. ℟. Herrliches sagt man von dir, du Stadt unseres Gottes! Er, der Höchste, hat Zion gegründet. Und sie werden beim Reigentanz singen: All meine Quellen entspringen in dir. ℟. Herrliches sagt man von dir, du Stadt unseres Gottes!"
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 86, 1-2. 3 et 5. 6-7",
+          "es": "Sal 86, 1-2. 3 y 5. 6-7",
+          "it": "Sal 86, 1-2. 3 et 5. 6-7",
+          "en": "Ps 86:1-2, 3 and 5, 6-7",
+          "pt-BR": "Sl 86, 1-2. 3 et 5. 6-7",
+          "fr": "Ps 86, 1-2. 3 et 5. 6-7",
+          "de": "Ps 86, 1-2. 3 et 5. 6-7"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Gloriósa dicta sunt de te, cívitas Dei!"
                 }
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "¡Qué pregón tan glorioso para ti, ciudad de Dios!"
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "Of you are told glorious things, O city of God!"
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Dizem coisas gloriosas da Cidade do Senhor!"
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Di te si dicono cose stupende, città di Dio!"
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Pour ta gloire on parle de toi, ville de Dieu !"
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Herrliches sagt man von dir,"
+                }
               ],
+              [
+                {
+                  "type": "text",
+                  "text": "du Stadt unseres Gottes!"
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -1631,17 +1687,9 @@
                   "type": "text",
                   "text": "díligit Dóminus portas Sion super ómnia tabernácula Iacob."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Gloriósa dicta sunt de te, cívitas Dei!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1659,17 +1707,9 @@
                   "type": "text",
                   "text": "et ipse firmávit eam Altíssimus»."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Gloriósa dicta sunt de te, cívitas Dei!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1693,29 +1733,11 @@
                   "type": "text",
                   "text": "«Omnes fontes mei in te»."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Gloriósa dicta sunt de te, cívitas Dei!"
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "¡Qué pregón tan glorioso para ti, ciudad de Dios!"
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1727,17 +1749,9 @@
                   "type": "text",
                   "text": "y el Señor prefiere las puertas de Sion a todas las moradas de Jacob."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "¡Qué pregón tan glorioso para ti, ciudad de Dios!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1773,17 +1787,9 @@
                   "type": "text",
                   "text": "el Altísimo en persona la ha fundado»."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "¡Qué pregón tan glorioso para ti, ciudad de Dios!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1807,29 +1813,11 @@
                   "type": "text",
                   "text": "«Todas mis fuentes están en ti»."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "¡Qué pregón tan glorioso para ti, ciudad de Dios!"
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Of you are told glorious things, O city of God!"
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
@@ -1841,17 +1829,9 @@
                   "type": "text",
                   "text": "The Lord prefers the gates of Zion to all Jacob's dwellings."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Of you are told glorious things, O city of God!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1875,17 +1855,9 @@
                   "type": "text",
                   "text": "who gives each his place."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Of you are told glorious things, O city of God!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1903,29 +1875,11 @@
                   "type": "text",
                   "text": "'In you all find their home.'"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Of you are told glorious things, O city of God!"
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dizem coisas gloriosas da Cidade do Senhor!"
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -1937,17 +1891,9 @@
                   "type": "text",
                   "text": "ama as portas de Sião mais que as casas de Jacó."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dizem coisas gloriosas da Cidade do Senhor!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1965,17 +1911,9 @@
                   "type": "text",
                   "text": "\"Nasceu nela todo homem; Deus é sua segurança\"."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dizem coisas gloriosas da Cidade do Senhor!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2005,29 +1943,11 @@
                   "type": "text",
                   "text": "\"Estão em ti as nossas fontes!\"."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dizem coisas gloriosas da Cidade do Senhor!"
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Di te si dicono cose stupende, città di Dio!"
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -2039,17 +1959,9 @@
                   "type": "text",
                   "text": "il Signore ama le porte di Sion più di tutte le dimore di Giacobbe."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Di te si dicono cose stupende, città di Dio!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2061,17 +1973,9 @@
                   "type": "text",
                   "text": "Si dirà di Sion: « L’uno e l’altro è nato in essa e l’Altissimo la tiene salda»."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Di te si dicono cose stupende, città di Dio!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2095,29 +1999,11 @@
                   "type": "text",
                   "text": "“Sono in te tutte le mie sorgenti”."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Di te si dicono cose stupende, città di Dio!"
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Pour ta gloire on parle de toi, ville de Dieu !"
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -2129,17 +2015,9 @@
                   "type": "text",
                   "text": "Le Seigneur aime les portes de Sion plus que toutes les demeures de Jacob."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Pour ta gloire on parle de toi, ville de Dieu !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2163,17 +2041,9 @@
                   "type": "text",
                   "text": "C’est lui, le Très-Haut, qui la maintient."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Pour ta gloire on parle de toi, ville de Dieu !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2197,35 +2067,11 @@
                   "type": "text",
                   "text": "« En toi, toutes nos sources ! »"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Pour ta gloire on parle de toi, ville de Dieu !"
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herrliches sagt man von dir,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "du Stadt unseres Gottes!"
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -2237,23 +2083,9 @@
                   "type": "text",
                   "text": "mehr als all seine Stätten in Jakob liebt er die Tore Zions."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herrliches sagt man von dir,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "du Stadt unseres Gottes!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2277,23 +2109,9 @@
                   "type": "text",
                   "text": "Jeder ist dort geboren."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herrliches sagt man von dir,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "du Stadt unseres Gottes!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2311,34 +2129,9 @@
                   "type": "text",
                   "text": "All meine Quellen entspringen in dir."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herrliches sagt man von dir,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "du Stadt unseres Gottes!"
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 86, 1-2. 3 et 5. 6-7",
-          "es": "Sal 86, 1-2. 3 y 5. 6-7",
-          "it": "Sal 86, 1-2. 3 et 5. 6-7",
-          "en": "Ps 86:1-2, 3 and 5, 6-7",
-          "pt-BR": "Sl 86, 1-2. 3 et 5. 6-7",
-          "fr": "Ps 86, 1-2. 3 et 5. 6-7",
-          "de": "Ps 86, 1-2. 3 et 5. 6-7"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -2357,7 +2150,13 @@
               [
                 {
                   "type": "text",
-                  "text": "Alleluia, allelúia. O felix Virgo, quæ Dóminum genuísti; o beáta Mater Ecclésiæ, quæ in nobis foves Spíritum Fílii tui Iesu Christi! Allelúia."
+                  "text": "Alleluia"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Allelúia. O felix Virgo, quæ Dóminum genuísti; o beáta Mater Ecclésiæ, quæ in nobis foves Spíritum Fílii tui Iesu Christi! Allelúia."
                 }
               ]
             ],
@@ -2365,7 +2164,13 @@
               [
                 {
                   "type": "text",
-                  "text": "Aleluya, aleluya. ¡Oh, feliz Virgen que engendraste al Señor! ¡Oh, Bienaventurada Madre de la Iglesia, que infundes en nosotros el Espíritu de tu Hijo Jesucristo! Aleluya."
+                  "text": "Aleluya"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Aleluya. ¡Oh, feliz Virgen que engendraste al Señor! ¡Oh, Bienaventurada Madre de la Iglesia, que infundes en nosotros el Espíritu de tu Hijo Jesucristo! Aleluya."
                 }
               ]
             ],

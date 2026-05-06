@@ -1136,28 +1136,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Lux fulgébit hódie super nos: quia natus est nobis Dóminus. Dóminus regnávit, exsúltet terra, læténtur ínsulæ multæ. Annuntiavérunt cæli iustítiam eius, et vidérunt omnes pópuli glóriam eius. ℟. Lux fulgébit hódie super nos: quia natus est nobis Dóminus. Lux orta est iusto, et rectis corde lætítia. Lætámini, iusti, in Dómino, et confitémini memóriæ sanctitátis eius. ℟. Lux fulgébit hódie super nos: quia natus est nobis Dóminus.",
-            "es": "℟. Hoy brillará una luz sobre nosotros, porque nos ha nacido el Señor. El Señor reina, la tierra goza, se alegran las islas innumerables. Los cielos pregonan su justicia, y todos los pueblos contemplan su gloria. ℟. Hoy brillará una luz sobre nosotros, porque nos ha nacido el Señor. Amanece la luz para el justo, y la alegría para los rectos de corazón. Alegraos, justos, con el Señor, celebrad su santo nombre. ℟. Hoy brillará una luz sobre nosotros, porque nos ha nacido el Señor.",
-            "en": "℟. A light will shine on us this day: the Lord is born for us. The Lord is king, let earth rejoice, the many coastlands be glad. The skies proclaim his justice; all peoples see his glory. ℟. A light will shine on us this day: the Lord is born for us. Light shines forth for the just and joy for the upright of heart. Rejoice, you just, in the Lord; give glory to his holy name. ℟. A light will shine on us this day: the Lord is born for us.",
-            "pt-BR": "℟. Brilha hoje uma luz sobre nós, pois nasceu para nós o Senhor. Deus é Rei! Exulte a terra de alegria, e as ilhas numerosas rejubilem! E assim proclama o céu sua justiça, todos os povos podem ver a sua glória. ℟. Brilha hoje uma luz sobre nós, pois nasceu para nós o Senhor. Uma luz já se levanta para os justos, e a alegria, para os retos corações. Homens justos, alegrai-vos no Senhor celebrai e bendizei seu santo nome! ℟. Brilha hoje uma luz sobre nós, pois nasceu para nós o Senhor.",
-            "it": "℟. Oggi la luce risplende su di noi. Il Signore regna: esulti la terra, gioiscano le isole tutte. Annunciano i cieli la sua giustizia e tutti i popoli vedono la sua gloria. ℟. Oggi la luce risplende su di noi. Una luce è spuntata per il giusto, una gioia per i retti di cuore. Gioite, giusti, nel Signore, della sua santità celebrate il ricordo. ℟. Oggi la luce risplende su di noi.",
-            "fr": "℟. La lumière aujourd’hui a resplendi sur nous : un Sauveur nous est né ! Le Seigneur est roi ! Exulte la terre ! Joie pour les îles sans nombre ! Les cieux ont proclamé sa justice, et tous les peuples ont vu sa gloire. ℟. La lumière aujourd’hui a resplendi sur nous : un Sauveur nous est né ! Une lumière est semée pour le juste, et pour le cœur simple, une joie. Que le Seigneur soit votre joie, hommes justes ; rendez grâce en rappelant son nom très saint. ℟. La lumière aujourd’hui a resplendi sur nous : un Sauveur nous est né !",
-            "de": "℟. Ein Licht strahlt heute über uns auf: geboren ist Christus, der Herr. Der Herr ist König. Die Erde frohlocke. Freuen sollen sich die vielen Inseln. Seine Gerechtigkeit verkünden die Himmel, seine Herrlichkeit schauen alle Völker. ℟. Ein Licht strahlt heute über uns auf: geboren ist Christus, der Herr. Ein Licht erstrahlt den Gerechten und Freude den Menschen mit redlichem Herzen. Ihr Gerechten, freut euch am Herrn, und lobt seinen heiligen Namen! ℟. Ein Licht strahlt heute über uns auf: geboren ist Christus, der Herr."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 96, 1 et 6. 11-12",
+          "es": "Sal 96, 1 et 6. 11-12",
+          "en": "Ps 96:1 and 6, 11-12",
+          "pt-BR": "Sl 96, 1 et 6. 11-12",
+          "de": "Ps 97",
+          "it": "Sal 96, 1 et 6. 11-12",
+          "fr": "Ps 96, 1 et 6. 11-12"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Lux fulgébit hódie super nos: quia natus est nobis Dóminus."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Hoy brillará una luz sobre nosotros, porque nos ha nacido el Señor."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "A light will shine on us this day: the Lord is born for us."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Brilha hoje uma luz sobre nós, pois nasceu para nós o Senhor."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Oggi la luce risplende su di noi."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "La lumière aujourd’hui a resplendi sur nous : un Sauveur nous est né !"
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Ein Licht strahlt heute über uns auf: geboren ist Christus, der Herr."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -1181,17 +1231,9 @@
                   "type": "text",
                   "text": "et vidérunt omnes pópuli glóriam eius."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Lux fulgébit hódie super nos: quia natus est nobis Dóminus."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1215,29 +1257,11 @@
                   "type": "text",
                   "text": "et confitémini memóriæ sanctitátis eius."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Lux fulgébit hódie super nos: quia natus est nobis Dóminus."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Hoy brillará una luz sobre nosotros, porque nos ha nacido el Señor."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1261,17 +1285,9 @@
                   "type": "text",
                   "text": "y todos los pueblos contemplan su gloria."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Hoy brillará una luz sobre nosotros, porque nos ha nacido el Señor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1301,73 +1317,29 @@
                   "type": "text",
                   "text": "celebrad su santo nombre."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Hoy brillará una luz sobre nosotros, porque nos ha nacido el Señor."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "A light will shine on us this day: the Lord is born for us."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "The Lord is king, let earth rejoice, the many coastlands be glad. The skies proclaim his justice; all peoples see his glory."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "A light will shine on us this day: the Lord is born for us."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Light shines forth for the just and joy for the upright of heart. Rejoice, you just, in the Lord; give glory to his holy name."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "A light will shine on us this day: the Lord is born for us."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Brilha hoje uma luz sobre nós, pois nasceu para nós o Senhor."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -1391,17 +1363,9 @@
                   "type": "text",
                   "text": "todos os povos podem ver a sua glória."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Brilha hoje uma luz sobre nós, pois nasceu para nós o Senhor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1419,29 +1383,11 @@
                   "type": "text",
                   "text": "Homens justos, alegrai-vos no Senhor celebrai e bendizei seu santo nome!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Brilha hoje uma luz sobre nós, pois nasceu para nós o Senhor."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Oggi la luce risplende su di noi."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -1459,17 +1405,9 @@
                   "type": "text",
                   "text": "Annunciano i cieli la sua giustizia e tutti i popoli vedono la sua gloria."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Oggi la luce risplende su di noi."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1499,29 +1437,11 @@
                   "type": "text",
                   "text": "della sua santità celebrate il ricordo."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Oggi la luce risplende su di noi."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "La lumière aujourd’hui a resplendi sur nous : un Sauveur nous est né !"
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -1545,17 +1465,9 @@
                   "type": "text",
                   "text": "et tous les peuples ont vu sa gloire."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "La lumière aujourd’hui a resplendi sur nous : un Sauveur nous est né !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1579,29 +1491,11 @@
                   "type": "text",
                   "text": "rendez grâce en rappelant son nom très saint."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "La lumière aujourd’hui a resplendi sur nous : un Sauveur nous est né !"
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ein Licht strahlt heute über uns auf: geboren ist Christus, der Herr."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -1625,17 +1519,9 @@
                   "type": "text",
                   "text": "seine Herrlichkeit schauen alle Völker."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ein Licht strahlt heute über uns auf: geboren ist Christus, der Herr."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1653,28 +1539,9 @@
                   "type": "text",
                   "text": "und lobt seinen heiligen Namen!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ein Licht strahlt heute über uns auf: geboren ist Christus, der Herr."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 96, 1 et 6. 11-12",
-          "es": "Sal 96, 1 et 6. 11-12",
-          "en": "Ps 96:1 and 6, 11-12",
-          "pt-BR": "Sl 96, 1 et 6. 11-12",
-          "de": "Ps 97",
-          "it": "Sal 96, 1 et 6. 11-12",
-          "fr": "Ps 96, 1 et 6. 11-12"
+          ]
         }
       },
       "secondReading": {
@@ -1852,7 +1719,9 @@
                 {
                   "type": "reference",
                   "text": "Lc 2, 14"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Glória in altíssimis Deo, et super terram pax in homínibus bonæ voluntátis. Allelúia."
@@ -1868,7 +1737,9 @@
                 {
                   "type": "reference",
                   "text": "Lc 2, 14"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Gloria a Dios en el cielo, y en la tierra paz a los hombres de buena voluntad. Aleluya."

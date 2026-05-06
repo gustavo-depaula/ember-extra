@@ -228,28 +228,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Immola Deo sacrifícium laudis. Deus deórum Dóminus locútus est, et vocávit terram a solis ortu usque ad occásum. Ex Sion speciósa decóre Deus illúxit. ℟. Immola Deo sacrifícium laudis. «Congregáte mihi sanctos meos, qui disposuérunt testaméntum meum in sacrifício». Et annuntiábunt cæli iustítiam eius, quóniam Deus iudex est. ℟. Immola Deo sacrifícium laudis. «Immola Deo sacrifícium laudis, et redde Altíssimo vota tua; et ínvoca me in die tribulatiónis: éruam te, et honorificábis me». ℟. Immola Deo sacrifícium laudis.",
-            "es": "℟. Ofrece a Dios un sacrificio de alabanza. El Dios de los dioses, el Señor, habla: convoca la tierra de oriente a occidente. Desde Sion, la hermosa, Dios resplandece. ℟. Ofrece a Dios un sacrificio de alabanza. «Congregadme a mis fieles, que sellaron mi pacto con un sacrificio». Proclame el cielo su justicia; Dios en persona va a juzgar. ℟. Ofrece a Dios un sacrificio de alabanza. Ofrece a Dios un sacrificio de alabanza, cumple tus votos al Altísimo e invócame el día del peligro: yo te libraré, y tú me darás gloria». ℟. Ofrece a Dios un sacrificio de alabanza.",
-            "en": "℟. Offer to God a sacrifice of praise. The God of gods, the Lord, has spoken and summoned the earth, from the rising of the sun to its setting. Out of Zion's perfect beauty he shines. ℟. Offer to God a sacrifice of praise. 'Summon before me my people who made covenant with me by sacrifice.' The heavens proclaim his justice, for he, God, is the judge. ℟. Offer to God a sacrifice of praise. Pay your sacrifice of thanksgiving to God and render him your votive offerings. 'Call on me in the day of distress. I will free you and you shall honor me.' ℟. Offer to God a sacrifice of praise.",
-            "pt-BR": "℟. Imola a Deus um sacrifício de louvor. Falou o Senhor Deus, chamou a terra, do sol nascente ao sol poente a convocou. De Sião, beleza plena, Deus refulge. ℟. Imola a Deus um sacrifício de louvor. \"Reuni à minha frente os meus eleitos, que selaram a Aliança em sacrifícios!\" Testemunha o próprio céu seu julgamento, porque Deus mesmo é juiz e vai julgar. ℟. Imola a Deus um sacrifício de louvor. Imola a Deus um sacrifício de louvor e cumpre os votos que fizeste ao Altíssimo. Invoca-me no dia da angústia, e então te livrarei e hás de louvar-me\". ℟. Imola a Deus um sacrifício de louvor.",
-            "it": "℟. Offri a Dio come sacrificio la lode. Parla il Signore, Dio degli dèi, convoca la terra da oriente a occidente. Da Sion, bellezza perfetta, Dio risplende. ℟. Offri a Dio come sacrificio la lode. «Davanti a me riunite i miei fedeli, che hanno stabilito con me l’alleanza offrendo un sacrificio». I cieli annunciano la sua giustizia: è Dio che giudica. ℟. Offri a Dio come sacrificio la lode. Offri a Dio come sacrificio la lode e sciogli all’Altissimo i tuoi voti; invocami nel giorno dell’angoscia: ti libererò e tu mi darai gloria. ℟. Offri a Dio come sacrificio la lode.",
-            "fr": "℟. Offre à Dieu le sacrifice d’action de grâce. Le Dieu des dieux, le Seigneur, parle et convoque la terre du soleil levant jusqu’au soleil couchant. De Sion, belle entre toutes, Dieu resplendit. ℟. Offre à Dieu le sacrifice d’action de grâce. « Assemblez, devant moi, mes fidèles, eux qui scellent d’un sacrifice mon alliance. » Et les cieux proclament sa justice : oui, le juge, c’est Dieu ! est. ℟. Offre à Dieu le sacrifice d’action de grâce. « Offre à Dieu le sacrifice d’action de grâce, accomplis tes vœux envers le Très-Haut. Invoque-moi au jour de détresse : je te délivrerai, et tu me rendras gloire. » ℟. Offre à Dieu le sacrifice d’action de grâce.",
-            "de": "℟. Bring Gott, dem Höchsten, als Opfer dein Lob! Der Gott der Götter, der Herr, spricht, er ruft der Erde zu vom Aufgang der Sonne bis zum Untergang. Vom Zion her, der Krone der Schönheit, geht Gott strahlend auf. ℟. Bring Gott, dem Höchsten, als Opfer dein Lob! „Versammelt mir all meine Frommen, die den Bund mit mir schlossen beim Opfer.“ Die Himmel sollen seine Gerechtigkeit künden; Gott selbst wird Richter sein. ℟. Bring Gott, dem Höchsten, als Opfer dein Lob! „Bring Gott als Opfer dein Lob, und erfülle dem Höchsten deine Gelübde! Rufe mich an am Tag der Not; dann rette ich dich, und du wirst mich ehren.“ ℟. Bring Gott, dem Höchsten, als Opfer dein Lob!"
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 49, 1-2. 5-6. 14-15",
+          "es": "Sal 49, 1-2. 5-6. 14-15",
+          "en": "Ps 49:1-2, 5-6, 14-15",
+          "pt-BR": "Sl 49, 1-2. 5-6. 14-15",
+          "de": "Ps 50",
+          "it": "Sal 49, 1-2. 5-6. 14-15",
+          "fr": "Ps 49, 1-2. 5-6. 14-15"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Immola Deo sacrifícium laudis."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Ofrece a Dios un sacrificio de alabanza."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "Offer to God a sacrifice of praise."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Imola a Deus um sacrifício de louvor."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Offri a Dio come sacrificio la lode."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Offre à Dieu le sacrifice d’action de grâce."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Bring Gott, dem Höchsten, als Opfer dein Lob!"
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -267,17 +317,9 @@
                   "type": "text",
                   "text": "Ex Sion speciósa decóre Deus illúxit."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Immola Deo sacrifícium laudis."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -301,17 +343,9 @@
                   "type": "text",
                   "text": "quóniam Deus iudex est."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Immola Deo sacrifícium laudis."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -335,29 +369,11 @@
                   "type": "text",
                   "text": "éruam te, et honorificábis me»."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Immola Deo sacrifícium laudis."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ofrece a Dios un sacrificio de alabanza."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -381,17 +397,9 @@
                   "type": "text",
                   "text": "Dios resplandece."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ofrece a Dios un sacrificio de alabanza."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -415,17 +423,9 @@
                   "type": "text",
                   "text": "Dios en persona va a juzgar."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ofrece a Dios un sacrificio de alabanza."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -443,89 +443,37 @@
                   "type": "text",
                   "text": "yo te libraré, y tú me darás gloria»."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ofrece a Dios un sacrificio de alabanza."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Offer to God a sacrifice of praise."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "The God of gods, the Lord, has spoken and summoned the earth, from the rising of the sun to its setting. Out of Zion's perfect beauty he shines."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Offer to God a sacrifice of praise."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "'Summon before me my people who made covenant with me by sacrifice.' The heavens proclaim his justice, for he, God, is the judge."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Offer to God a sacrifice of praise."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Pay your sacrifice of thanksgiving to God and render him your votive offerings. 'Call on me in the day of distress. I will free you and you shall honor me.'"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Offer to God a sacrifice of praise."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Imola a Deus um sacrifício de louvor."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -543,17 +491,9 @@
                   "type": "text",
                   "text": "De Sião, beleza plena, Deus refulge."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Imola a Deus um sacrifício de louvor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -577,17 +517,9 @@
                   "type": "text",
                   "text": "porque Deus mesmo é juiz e vai julgar."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Imola a Deus um sacrifício de louvor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -605,29 +537,11 @@
                   "type": "text",
                   "text": "e então te livrarei e hás de louvar-me\"."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Imola a Deus um sacrifício de louvor."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Offri a Dio come sacrificio la lode."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -651,17 +565,9 @@
                   "type": "text",
                   "text": "Dio risplende."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Offri a Dio come sacrificio la lode."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -685,17 +591,9 @@
                   "type": "text",
                   "text": "è Dio che giudica."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Offri a Dio come sacrificio la lode."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -713,29 +611,11 @@
                   "type": "text",
                   "text": "ti libererò e tu mi darai gloria."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Offri a Dio come sacrificio la lode."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Offre à Dieu le sacrifice d’action de grâce."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -753,17 +633,9 @@
                   "type": "text",
                   "text": "De Sion, belle entre toutes, Dieu resplendit."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Offre à Dieu le sacrifice d’action de grâce."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -799,17 +671,9 @@
                   "type": "text",
                   "text": "est."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Offre à Dieu le sacrifice d’action de grâce."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -833,29 +697,11 @@
                   "type": "text",
                   "text": "je te délivrerai, et tu me rendras gloire. »"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Offre à Dieu le sacrifice d’action de grâce."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Bring Gott, dem Höchsten, als Opfer dein Lob!"
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -879,17 +725,9 @@
                   "type": "text",
                   "text": "geht Gott strahlend auf."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Bring Gott, dem Höchsten, als Opfer dein Lob!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -907,17 +745,9 @@
                   "type": "text",
                   "text": "Gott selbst wird Richter sein."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Bring Gott, dem Höchsten, als Opfer dein Lob!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -941,28 +771,9 @@
                   "type": "text",
                   "text": "dann rette ich dich, und du wirst mich ehren.“"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Bring Gott, dem Höchsten, als Opfer dein Lob!"
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 49, 1-2. 5-6. 14-15",
-          "es": "Sal 49, 1-2. 5-6. 14-15",
-          "en": "Ps 49:1-2, 5-6, 14-15",
-          "pt-BR": "Sl 49, 1-2. 5-6. 14-15",
-          "de": "Ps 50",
-          "it": "Sal 49, 1-2. 5-6. 14-15",
-          "fr": "Ps 49, 1-2. 5-6. 14-15"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -986,7 +797,9 @@
                 {
                   "type": "reference",
                   "text": "Iac 1, 21bc"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. In mansuetúdine suscípite ínsitum verbum, quod potest salváre ánimas vestras. Allelúia."
@@ -1002,7 +815,9 @@
                 {
                   "type": "reference",
                   "text": "St 1, 21bc"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Acoged con docilidad la palabra, que ha sido injertada en vosotros y es capaz de salvar vuestras vidas. Aleluya."
@@ -1519,28 +1334,84 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Quam dilécta tabernácula tua, Dómine virtútum! Concupíscit et déficit ánima mea in átria Dómini. Cor meum et caro mea exsultavérunt in Deum vivum. ℟. Quam dilécta tabernácula tua, Dómine virtútum! Etenim passer invénit sibi domum, et turtur nidum sibi, ubi ponat pullos suos: altária tua, Dómine virtútum, rex meus et Deus meus. ℟. Quam dilécta tabernácula tua, Dómine virtútum! Beáti qui hábitant in domo tua, in perpétuum laudábunt te. Beátus vir cuius est auxílium abs te. Ibunt de virtúte in virtútem. ℟. Quam dilécta tabernácula tua, Dómine virtútum! Quia mélior est dies una in átriis tuis super mília, elégi ad limen esse in domo Dei mei, magis quam habitáre in tabernáculis peccatórum. ℟. Quam dilécta tabernácula tua, Dómine virtútum!",
-            "es": "℟. ¡Qué deseables son tus moradas, Señor del universo! Mi alma se consume y anhela los atrios del Señor, mi corazón y mi carne retozan por el Dios vivo. ℟. ¡Qué deseables son tus moradas, Señor del universo! Hasta el gorrión ha encontrado una casa; la golondrina, un nido donde colocar sus polluelos: tus altares, Señor del universo, Rey mío y Dios mío. ℟. ¡Qué deseables son tus moradas, Señor del universo! Dichosos los que viven en tu casa, alabándote siempre. Dichoso el que encuentra en ti su fuerza. Caminan de baluarte en baluarte. ℟. ¡Qué deseables son tus moradas, Señor del universo! Vale más un día en tus atrios que mil en mi casa, y prefiero el umbral de la casa de Dios a vivir con los malvados. ℟. ¡Qué deseables son tus moradas, Señor del universo!",
-            "en": "℟. How lovely is your dwelling place, Lord, mighty God! My soul is longing and yearning, is yearning for the courts of the Lord. My heart and my soul ring out their joy to God, the living God. ℟. How lovely is your dwelling place, Lord, mighty God! The sparrow herself finds a home and the swallow a nest for her brood; she lays her young by your altars, Lord of hosts, my king and my God. ℟. How lovely is your dwelling place, Lord, mighty God! They are happy, who dwell in your house, for ever singing your praise. They are happy, whose strength is in you; they walk with ever growing strength. ℟. How lovely is your dwelling place, Lord, mighty God! One day within your courts is better than a thousand elsewhere. The threshold of the house of God I prefer to the dwellings of the wicked. ℟. How lovely is your dwelling place, Lord, mighty God!",
-            "pt-BR": "℟. Quão amável, ó Senhor, é vossa casa!. Minha alma desfalece de saudades e anseia pelos átrios do Senhor! Meu coração e minha carne rejubilam e exultam de alegria no Deus vivo!. ℟. Quão amável, ó Senhor, é vossa casa!. Mesmo o pardal encontra abrigo em vossa casa, e a andorinha ali prepara o seu ninho, para nele seus filhotes colocar: vossos altares, ó Senhor Deus do universo! vossos altares, ó meu Rei e meu Senhor!. ℟. Quão amável, ó Senhor, é vossa casa!. Felizes os que habitam vossa casa; para sempre haverão de vos louvar! Felizes os que em vós têm sua força, Caminharão com um ardor sempre crescente. ℟. Quão amável, ó Senhor, é vossa casa!. Na verdade, um só dia em vosso templo vale mais do que milhares fora dele! Prefiro estar no limiar de vossa casa, a hospedar-me na mansão dos pecadores!. ℟. Quão amável, ó Senhor, é vossa casa!.",
-            "it": "℟. Quanto sono amabili le tue dimore, Signore degli eserciti! L’anima mia anela e desidera gli atri del Signore. Il mio cuore e la mia carne esultano nel Dio vivente. ℟. Quanto sono amabili le tue dimore, Signore degli eserciti! Anche il passero trova una casa e la rondine il nido dove porre i suoi piccoli, presso i tuoi altari, Signore degli eserciti, mio re e mio Dio. ℟. Quanto sono amabili le tue dimore, Signore degli eserciti! Beato chi abita nella tua casa: senza fine canta le tue lodi. Beato l’uomo che trova in te il suo rifugio Cresce lungo il cammino il suo vigore. ℟. Quanto sono amabili le tue dimore, Signore degli eserciti! Sì, è meglio un giorno nei tuoi atri che mille nella mia casa; stare sulla soglia della casa del mio Dio è meglio che abitare nelle tende dei malvagi. ℟. Quanto sono amabili le tue dimore, Signore degli eserciti!",
-            "fr": "℟. De quel amour sont aimées tes demeures, Seigneur, Dieu de l’univers ! Mon âme s’épuise à désirer les parvis du Seigneur ; mon cœur et ma chair sont un cri vers le Dieu vivant ! ℟. De quel amour sont aimées tes demeures, Seigneur, Dieu de l’univers ! L’oiseau lui-même s’est trouvé une maison, et l’hirondelle, un nid pour abriter sa couvée : tes autels, Seigneur de l’univers, mon Roi et mon Dieu ! ℟. De quel amour sont aimées tes demeures, Seigneur, Dieu de l’univers ! Heureux les habitants de ta maison : ils pourront te chanter encore ! Heureux les hommes dont tu es la force : des chemins s’ouvrent dans leur cœur ! ℟. De quel amour sont aimées tes demeures, Seigneur, Dieu de l’univers ! Oui, un jour dans tes parvis en vaut plus que mille. J’ai choisi de me tenir sur le seuil, dans la maison de mon Dieu, plutôt que d’habiter parmi les infidèles. ℟. De quel amour sont aimées tes demeures, Seigneur, Dieu de l’univers !",
-            "de": "℟. Wie lieb ist mir deine Wohnung, o Herr! Meine Seele verzehrt sich in Sehnsucht nach dem Tempel des Herrn. Mein Herz und mein Leib jauchzen ihm zu, ihm, dem lebendigen Gott. ℟. Wie lieb ist mir deine Wohnung, o Herr! Auch der Sperling findet ein Haus und die Schwalbe ein Nest für ihre Jungen deine Altäre, Herr der Heerscharen, mein Gott und mein König. ℟. Wie lieb ist mir deine Wohnung, o Herr! Wohl denen, die wohnen in deinem Haus, die dich allezeit loben. Wohl den Menschen, die Kraft finden in dir; sie schreiten dahin mit wachsender Kraft. ℟. Wie lieb ist mir deine Wohnung, o Herr! Denn ein einziger Tag in den Vorhöfen deines Heiligtums ist besser als tausend andere. Lieber an der Schwelle stehen im Haus meines Gottes als wohnen in den Zelten der Frevler. ℟. Wie lieb ist mir deine Wohnung, o Herr!"
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 83, 3. 4. 5-6a et 8a. 11",
+          "es": "Sal 83, 3. 4. 5-6a et 8a. 11",
+          "en": "Ps 83:3, 4, 5-6a and 8a, 11",
+          "pt-BR": "Sl 83, 3. 4. 5-6a et 8a. 11",
+          "de": "Ps 84",
+          "it": "Sal 83, 3. 4. 5-6a et 8a. 11",
+          "fr": "Ps 83, 3. 4. 5-6a et 8a. 11"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Quam dilécta tabernácula tua, Dómine virtútum!"
                 }
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "¡Qué deseables son tus moradas, Señor del universo!"
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "How lovely is your dwelling place, Lord, mighty God!"
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Quão amável, ó Senhor, é vossa casa!."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Quanto sono amabili le tue dimore, Signore degli eserciti!"
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "De quel amour sont aimées tes demeures,"
+                }
               ],
+              [
+                {
+                  "type": "text",
+                  "text": "Seigneur, Dieu de l’univers !"
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Wie lieb ist mir deine Wohnung, o Herr!"
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -1552,17 +1423,9 @@
                   "type": "text",
                   "text": "Cor meum et caro mea exsultavérunt in Deum vivum."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Quam dilécta tabernácula tua, Dómine virtútum!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1580,17 +1443,9 @@
                   "type": "text",
                   "text": "altária tua, Dómine virtútum, rex meus et Deus meus."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Quam dilécta tabernácula tua, Dómine virtútum!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1614,17 +1469,9 @@
                   "type": "text",
                   "text": "Ibunt de virtúte in virtútem."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Quam dilécta tabernácula tua, Dómine virtútum!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1642,29 +1489,11 @@
                   "type": "text",
                   "text": "magis quam habitáre in tabernáculis peccatórum."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Quam dilécta tabernácula tua, Dómine virtútum!"
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "¡Qué deseables son tus moradas, Señor del universo!"
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1676,17 +1505,9 @@
                   "type": "text",
                   "text": "mi corazón y mi carne retozan por el Dios vivo."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "¡Qué deseables son tus moradas, Señor del universo!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1710,17 +1531,9 @@
                   "type": "text",
                   "text": "Rey mío y Dios mío."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "¡Qué deseables son tus moradas, Señor del universo!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1744,17 +1557,9 @@
                   "type": "text",
                   "text": "Caminan de baluarte en baluarte."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "¡Qué deseables son tus moradas, Señor del universo!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1766,105 +1571,45 @@
                   "type": "text",
                   "text": "y prefiero el umbral de la casa de Dios a vivir con los malvados."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "¡Qué deseables son tus moradas, Señor del universo!"
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "How lovely is your dwelling place, Lord, mighty God!"
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "My soul is longing and yearning, is yearning for the courts of the Lord. My heart and my soul ring out their joy to God, the living God."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "How lovely is your dwelling place, Lord, mighty God!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "The sparrow herself finds a home and the swallow a nest for her brood; she lays her young by your altars, Lord of hosts, my king and my God."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "How lovely is your dwelling place, Lord, mighty God!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "They are happy, who dwell in your house, for ever singing your praise. They are happy, whose strength is in you; they walk with ever growing strength."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "How lovely is your dwelling place, Lord, mighty God!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "One day within your courts is better than a thousand elsewhere. The threshold of the house of God I prefer to the dwellings of the wicked."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "How lovely is your dwelling place, Lord, mighty God!"
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Quão amável, ó Senhor, é vossa casa!."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -1876,17 +1621,9 @@
                   "type": "text",
                   "text": "Meu coração e minha carne rejubilam e exultam de alegria no Deus vivo!."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Quão amável, ó Senhor, é vossa casa!."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1910,17 +1647,9 @@
                   "type": "text",
                   "text": "vossos altares, ó meu Rei e meu Senhor!."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Quão amável, ó Senhor, é vossa casa!."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1944,17 +1673,9 @@
                   "type": "text",
                   "text": "Caminharão com um ardor sempre crescente."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Quão amável, ó Senhor, é vossa casa!."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1972,29 +1693,11 @@
                   "type": "text",
                   "text": "a hospedar-me na mansão dos pecadores!."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Quão amável, ó Senhor, é vossa casa!."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Quanto sono amabili le tue dimore, Signore degli eserciti!"
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -2006,17 +1709,9 @@
                   "type": "text",
                   "text": "Il mio cuore e la mia carne esultano nel Dio vivente."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Quanto sono amabili le tue dimore, Signore degli eserciti!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2034,17 +1729,9 @@
                   "type": "text",
                   "text": "mio re e mio Dio."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Quanto sono amabili le tue dimore, Signore degli eserciti!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2062,17 +1749,9 @@
                   "type": "text",
                   "text": "Beato l’uomo che trova in te il suo rifugio Cresce lungo il cammino il suo vigore."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Quanto sono amabili le tue dimore, Signore degli eserciti!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2084,35 +1763,11 @@
                   "type": "text",
                   "text": "stare sulla soglia della casa del mio Dio è meglio che abitare nelle tende dei malvagi."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Quanto sono amabili le tue dimore, Signore degli eserciti!"
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "De quel amour sont aimées tes demeures,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Seigneur, Dieu de l’univers !"
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -2124,23 +1779,9 @@
                   "type": "text",
                   "text": "mon cœur et ma chair sont un cri vers le Dieu vivant !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "De quel amour sont aimées tes demeures,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Seigneur, Dieu de l’univers !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2164,23 +1805,9 @@
                   "type": "text",
                   "text": "mon Roi et mon Dieu !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "De quel amour sont aimées tes demeures,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Seigneur, Dieu de l’univers !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2204,23 +1831,9 @@
                   "type": "text",
                   "text": "des chemins s’ouvrent dans leur cœur !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "De quel amour sont aimées tes demeures,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Seigneur, Dieu de l’univers !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2244,35 +1857,11 @@
                   "type": "text",
                   "text": "plutôt que d’habiter parmi les infidèles."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "De quel amour sont aimées tes demeures,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Seigneur, Dieu de l’univers !"
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Wie lieb ist mir deine Wohnung, o Herr!"
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -2290,17 +1879,9 @@
                   "type": "text",
                   "text": "ihm, dem lebendigen Gott."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Wie lieb ist mir deine Wohnung, o Herr!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2312,17 +1893,9 @@
                   "type": "text",
                   "text": "mein Gott und mein König."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Wie lieb ist mir deine Wohnung, o Herr!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2346,17 +1919,9 @@
                   "type": "text",
                   "text": "sie schreiten dahin mit wachsender Kraft."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Wie lieb ist mir deine Wohnung, o Herr!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2368,28 +1933,9 @@
                   "type": "text",
                   "text": "Lieber an der Schwelle stehen im Haus meines Gottes als wohnen in den Zelten der Frevler."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Wie lieb ist mir deine Wohnung, o Herr!"
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 83, 3. 4. 5-6a et 8a. 11",
-          "es": "Sal 83, 3. 4. 5-6a et 8a. 11",
-          "en": "Ps 83:3, 4, 5-6a and 8a, 11",
-          "pt-BR": "Sl 83, 3. 4. 5-6a et 8a. 11",
-          "de": "Ps 84",
-          "it": "Sal 83, 3. 4. 5-6a et 8a. 11",
-          "fr": "Ps 83, 3. 4. 5-6a et 8a. 11"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -2413,7 +1959,9 @@
                 {
                   "type": "reference",
                   "text": "Iac 1, 21bc"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. In mansuetúdine suscípite ínsitum verbum, quod potest salváre ánimas vestras. Allelúia."
@@ -2429,7 +1977,9 @@
                 {
                   "type": "reference",
                   "text": "St 1, 21bc"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Acoged con docilidad la palabra, que ha sido injertada en vosotros y es capaz de salvar vuestras vidas. Aleluya."

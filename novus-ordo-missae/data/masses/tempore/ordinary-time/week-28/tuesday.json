@@ -228,28 +228,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Cæli enárrant glóriam Dei. Cæli enárrant glóriam Dei, et ópera mánuum eius annúntiat firmaméntum. Dies diéi erúctat verbum, et nox nocti índicat sciéntiam ℟. Cæli enárrant glóriam Dei. Non sunt loquélæ neque sermónes quorum non intellegántur voces. In omnem terram exívit sonus eórum, et in fines orbis terræ verba eórum. ℟. Cæli enárrant glóriam Dei.",
-            "es": "℟. El cielo proclama la gloria de Dios. El cielo proclama la gloria de Dios, el firmamento pregona la obra de sus manos: el día al día le pasa el mensaje, la noche a la noche se lo susurra. ℟. El cielo proclama la gloria de Dios. Sin que hablen, sin que pronuncien, sin que resuene su voz, a toda la tierra alcanza su pregón y hasta los límites del orbe su lenguaje. ℟. El cielo proclama la gloria de Dios.",
-            "en": "℟. The heavens proclaim the glory of God. The heavens proclaim the glory of God and the firmament shows forth the work of his hands. Day unto day takes up the story and night unto night makes known the message. ℟. The heavens proclaim the glory of God. No speech, no word, no voice is heard yet their span extends through all the earth, their words to the utmost bounds of the world. ℟. The heavens proclaim the glory of God.",
-            "pt-BR": "℟. Os céus proclamam a glória do Senhor! Os céus proclamam a glória do Senhor, e o firmamento, a obra de suas mãos; o dia ao dia transmite esta mensagem, a noite à noite publica esta notícia. ℟. Os céus proclamam a glória do Senhor! Não são discursos nem frases ou palavras, nem são vozes que possam ser ouvidas; seu som ressoa e se espalha em toda a terra, chega aos confins do universo a sua voz. ℟. Os céus proclamam a glória do Senhor!",
-            "it": "℟. I cieli narrano la gloria di Dio. I cieli narrano la gloria di Dio, l’opera delle sue mani annuncia il firmamento. Il giorno al giorno ne affida il racconto e la notte alla notte ne trasmette notizia. ℟. I cieli narrano la gloria di Dio. Senza linguaggio, senza parole, senza che si oda la loro voce, per tutta la terra si diffonde il loro annuncio e ai confini del mondo il loro messaggio. ℟. I cieli narrano la gloria di Dio.",
-            "fr": "℟. Les cieux proclament la gloire de Dieu. Les cieux proclament la gloire de Dieu, le firmament raconte l’ouvrage de ses mains. Le jour au jour en livre le récit et la nuit à la nuit en donne connaissance. ℟. Les cieux proclament la gloire de Dieu. Pas de paroles dans ce récit, pas de voix qui s’entende ; mais sur toute la terre en paraît le message et la nouvelle, aux limites du monde. ℟. Les cieux proclament la gloire de Dieu.",
-            "de": "℟. Die Himmel rühmen die Herrlichkeit Gottes. Die Himmel rühmen die Herrlichkeit Gottes, vom Werk seiner Hände kündet das Firmament. Ein Tag sagt es dem andern, eine Nacht tut es der andern kund. ℟. Die Himmel rühmen die Herrlichkeit Gottes. Ohne Worte und ohne Reden, unhörbar bleibt ihre Stimme. Doch ihre Botschaft geht in die ganze Welt hinaus, ihre Kunde bis zu den Enden der Erde. ℟. Die Himmel rühmen die Herrlichkeit Gottes."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 18, 2-3. 4-5",
+          "es": "Sal 18, 2-3. 4-5",
+          "en": "Ps 18:2-3, 4-5",
+          "de": "Ps 19",
+          "pt-BR": "Sl 18, 2-3. 4-5",
+          "it": "Sal 18, 2-3. 4-5",
+          "fr": "Ps 18, 2-3. 4-5"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Cæli enárrant glóriam Dei."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "El cielo proclama la gloria de Dios."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "The heavens proclaim the glory of God."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Os céus proclamam a glória do Senhor!"
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "I cieli narrano la gloria di Dio."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Les cieux proclament la gloire de Dieu."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Die Himmel rühmen die Herrlichkeit Gottes."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -273,17 +323,9 @@
                   "type": "text",
                   "text": "et nox nocti índicat sciéntiam"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Cæli enárrant glóriam Dei."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -301,29 +343,11 @@
                   "type": "text",
                   "text": "et in fines orbis terræ verba eórum."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Cæli enárrant glóriam Dei."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El cielo proclama la gloria de Dios."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -347,17 +371,9 @@
                   "type": "text",
                   "text": "la noche a la noche se lo susurra."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El cielo proclama la gloria de Dios."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -375,73 +391,29 @@
                   "type": "text",
                   "text": "a toda la tierra alcanza su pregón y hasta los límites del orbe su lenguaje."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El cielo proclama la gloria de Dios."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The heavens proclaim the glory of God."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "The heavens proclaim the glory of God and the firmament shows forth the work of his hands. Day unto day takes up the story and night unto night makes known the message."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The heavens proclaim the glory of God."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "No speech, no word, no voice is heard yet their span extends through all the earth, their words to the utmost bounds of the world."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The heavens proclaim the glory of God."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Os céus proclamam a glória do Senhor!"
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -465,17 +437,9 @@
                   "type": "text",
                   "text": "a noite à noite publica esta notícia."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Os céus proclamam a glória do Senhor!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -499,29 +463,11 @@
                   "type": "text",
                   "text": "chega aos confins do universo a sua voz."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Os céus proclamam a glória do Senhor!"
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "I cieli narrano la gloria di Dio."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -539,17 +485,9 @@
                   "type": "text",
                   "text": "Il giorno al giorno ne affida il racconto e la notte alla notte ne trasmette notizia."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "I cieli narrano la gloria di Dio."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -567,29 +505,11 @@
                   "type": "text",
                   "text": "per tutta la terra si diffonde il loro annuncio e ai confini del mondo il loro messaggio."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "I cieli narrano la gloria di Dio."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Les cieux proclament la gloire de Dieu."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -607,17 +527,9 @@
                   "type": "text",
                   "text": "Le jour au jour en livre le récit et la nuit à la nuit en donne connaissance."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Les cieux proclament la gloire de Dieu."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -635,29 +547,11 @@
                   "type": "text",
                   "text": "mais sur toute la terre en paraît le message et la nouvelle, aux limites du monde."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Les cieux proclament la gloire de Dieu."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Die Himmel rühmen die Herrlichkeit Gottes."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -681,17 +575,9 @@
                   "type": "text",
                   "text": "eine Nacht tut es der andern kund."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Die Himmel rühmen die Herrlichkeit Gottes."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -715,28 +601,9 @@
                   "type": "text",
                   "text": "ihre Kunde bis zu den Enden der Erde."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Die Himmel rühmen die Herrlichkeit Gottes."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 18, 2-3. 4-5",
-          "es": "Sal 18, 2-3. 4-5",
-          "en": "Ps 18:2-3, 4-5",
-          "de": "Ps 19",
-          "pt-BR": "Sl 18, 2-3. 4-5",
-          "it": "Sal 18, 2-3. 4-5",
-          "fr": "Ps 18, 2-3. 4-5"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -760,7 +627,9 @@
                 {
                   "type": "reference",
                   "text": "Hebr 4, 12"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Vivus est Dei sermo et éfficax, et discrétor cogitatiónum et intentiónum cordis. Allelúia."
@@ -776,7 +645,9 @@
                 {
                   "type": "reference",
                   "text": "Hebr 4, 12"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. La palabra de Dios es viva y eficaz; juzga los deseos e intenciones del corazón. Aleluya."
@@ -1293,28 +1164,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Véniat super me misericórdia tua, Dómine. Véniat super me misericórdia tua, Dómine, salutáre tuum secúndum elóquium tuum. ℟. Véniat super me misericórdia tua, Dómine. Et ne áuferas de ore meo verbum veritátis usquequáque, quia in iudíciis tuis supersperávi. ℟. Véniat super me misericórdia tua, Dómine. Et custódiam legem tuam semper, in sǽculum et in sǽculum sǽculi. ℟. Véniat super me misericórdia tua, Dómine. Et ambulábo in latitúdine, quia mandáta tua exquisívi. ℟. Véniat super me misericórdia tua, Dómine. Et delectábor in præcéptis tuis, quæ diléxi. ℟. Véniat super me misericórdia tua, Dómine. Et levábo manus meas ad præcépta tua, quæ diléxi; et exercébor in iustificatiónibus tuis. ℟. Véniat super me misericórdia tua, Dómine.",
-            "es": "℟. Señor, que me alcance tu favor. Señor, que me alcance tu favor, tu salvación según tu promesa. ℟. Señor, que me alcance tu favor. No quites de mi boca las palabras sinceras, porque yo espero en tus mandamientos. ℟. Señor, que me alcance tu favor. Cumpliré sin cesar tu ley, por siempre jamás. ℟. Señor, que me alcance tu favor. Andaré por un camino ancho, buscando tus mandatos. ℟. Señor, que me alcance tu favor. Serán mi delicia tus mandatos, que tanto amo. ℟. Señor, que me alcance tu favor. Levantaré mis manos hacia tus decretos, que tanto amo, y recitaré tus mandatos. ℟. Señor, que me alcance tu favor.",
-            "en": "℟. Let your loving kindness come to me, O Lord. Lord, let your love come upon me, the saving help of your promise. ℟. Let your loving kindness come to me, O Lord. Do not take the word of truth from your mouth for I trust in your decrees. ℟. Let your loving kindness come to me, O Lord. I shall always keep your law for ever and ever. ℟. Let your loving kindness come to me, O Lord. I shall walk in the path of freedom for I see your precepts. ℟. Let your loving kindness come to me, O Lord. Your commands have been my delight; these I have loved. ℟. Let your loving kindness come to me, O Lord. I will worship your commands and love them and ponder your statutes. ℟. Let your loving kindness come to me, O Lord.",
-            "pt-BR": "℟. Senhor, que desça sobre mim a vossa graça. Senhor, que desça sobre mim a vossa graça e a vossa salvação que prometestes! ℟. Senhor, que desça sobre mim a vossa graça. Não retireis vossa verdade de meus lábios, pois eu confio em vossos justos julgamentos! ℟. Senhor, que desça sobre mim a vossa graça. Cumprirei constantemente a vossa lei; para sempre, eternamente a cumprirei! ℟. Senhor, que desça sobre mim a vossa graça. É amplo e agradável meu caminho, porque busco e pesquiso as vossas ordens. ℟. Senhor, que desça sobre mim a vossa graça. Muito me alegro com os vossos mandamentos, que eu amo, amo tanto, mais que tudo! ℟. Senhor, que desça sobre mim a vossa graça. Elevarei as minhas mãos para louvar-vos e com prazer meditarei vossa vontade. ℟. Senhor, que desça sobre mim a vossa graça.",
-            "it": "℟. Venga a me, Signore, il tuo amore. Venga a me, Signore, il tuo amore, la tua salvezza secondo la tua promessa. ℟. Venga a me, Signore, il tuo amore. Non togliere dalla mia bocca la parola vera, perché spero nei tuoi giudizi. ℟. Venga a me, Signore, il tuo amore. Osserverò continuamente la tua legge, in eterno, per sempre. ℟. Venga a me, Signore, il tuo amore. Camminerò in un luogo spazioso, perché ho ricercato i tuoi precetti. ℟. Venga a me, Signore, il tuo amore. La mia delizia sarà nei tuoi comandi, che io amo. ℟. Venga a me, Signore, il tuo amore. Alzerò le mani verso i tuoi comandi che amo, mediterò i tuoi decreti. ℟. Venga a me, Signore, il tuo amore.",
-            "fr": "℟. Que vienne à moi, Seigneur, ton amour. Que vienne à moi, Seigneur, ton amour, et ton salut, selon ta promesse. ℟. Que vienne à moi, Seigneur, ton amour. N’ôte pas de ma bouche la parole de vérité, car j’espère tes décisions. ℟. Que vienne à moi, Seigneur, ton amour. J’observerai sans relâche ta loi, toujours et à jamais. ℟. Que vienne à moi, Seigneur, ton amour. Je marcherai librement, car je cherche tes préceptes. ℟. Que vienne à moi, Seigneur, ton amour. Je trouve mon plaisir en tes volontés, oui, vraiment, je les aime. ℟. Que vienne à moi, Seigneur, ton amour. Je tends les mains vers tes volontés, je les aime, je médite sur tes ordres. ℟. Que vienne à moi, Seigneur, ton amour.",
-            "de": "℟. Herr, deine Huld komme auf mich herab. Herr, deine Huld komme auf mich herab und deine Hilfe, wie du es verheißen hast. ℟. Herr, deine Huld komme auf mich herab. Entziehe meinem Mund nicht das Wort der Wahrheit! Ich hoffe so sehr auf deine Entscheide. ℟. Herr, deine Huld komme auf mich herab. Ich will deiner Weisung beständig folgen, auf immer und ewig. ℟. Herr, deine Huld komme auf mich herab. Dann schreite ich aus auf freier Bahn; denn ich frage nach deinen Befehlen. ℟. Herr, deine Huld komme auf mich herab. An deinen Geboten habe ich meine Freude, ich liebe sie von Herzen. ℟. Herr, deine Huld komme auf mich herab. Ich erhebe meine Hände zu deinen Geboten; nachsinnen will ich über deine Gesetze. ℟. Herr, deine Huld komme auf mich herab."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 118, 41. 43. 44. 45. 47. 48",
+          "es": "Sal 118, 41. 43. 44. 45. 47. 48",
+          "en": "Ps 118:41, 43, 44, 45, 47, 48",
+          "pt-BR": "Sl 118, 41. 43. 44. 45. 47. 48",
+          "de": "Ps 119",
+          "it": "Sal 118, 41. 43. 44. 45. 47. 48",
+          "fr": "Ps 118, 41. 43. 44. 45. 47. 48"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Véniat super me misericórdia tua, Dómine."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Señor, que me alcance tu favor."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "Let your loving kindness come to me, O Lord."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Senhor, que desça sobre mim a vossa graça."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Venga a me, Signore, il tuo amore."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Que vienne à moi, Seigneur, ton amour."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Herr, deine Huld komme auf mich herab."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -1326,17 +1247,9 @@
                   "type": "text",
                   "text": "salutáre tuum secúndum elóquium tuum."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Véniat super me misericórdia tua, Dómine."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1348,17 +1261,9 @@
                   "type": "text",
                   "text": "quia in iudíciis tuis supersperávi."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Véniat super me misericórdia tua, Dómine."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1370,17 +1275,9 @@
                   "type": "text",
                   "text": "in sǽculum et in sǽculum sǽculi."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Véniat super me misericórdia tua, Dómine."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1392,17 +1289,9 @@
                   "type": "text",
                   "text": "quia mandáta tua exquisívi."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Véniat super me misericórdia tua, Dómine."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1414,17 +1303,9 @@
                   "type": "text",
                   "text": "quæ diléxi."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Véniat super me misericórdia tua, Dómine."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1436,29 +1317,11 @@
                   "type": "text",
                   "text": "et exercébor in iustificatiónibus tuis."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Véniat super me misericórdia tua, Dómine."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Señor, que me alcance tu favor."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1470,17 +1333,9 @@
                   "type": "text",
                   "text": "tu salvación según tu promesa."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Señor, que me alcance tu favor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1492,17 +1347,9 @@
                   "type": "text",
                   "text": "porque yo espero en tus mandamientos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Señor, que me alcance tu favor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1514,17 +1361,9 @@
                   "type": "text",
                   "text": "por siempre jamás."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Señor, que me alcance tu favor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1536,17 +1375,9 @@
                   "type": "text",
                   "text": "buscando tus mandatos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Señor, que me alcance tu favor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1558,17 +1389,9 @@
                   "type": "text",
                   "text": "que tanto amo."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Señor, que me alcance tu favor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1580,153 +1403,69 @@
                   "type": "text",
                   "text": "que tanto amo, y recitaré tus mandatos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Señor, que me alcance tu favor."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Let your loving kindness come to me, O Lord."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "Lord, let your love come upon me, the saving help of your promise."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Let your loving kindness come to me, O Lord."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Do not take the word of truth from your mouth for I trust in your decrees."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Let your loving kindness come to me, O Lord."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "I shall always keep your law for ever and ever."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Let your loving kindness come to me, O Lord."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "I shall walk in the path of freedom for I see your precepts."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Let your loving kindness come to me, O Lord."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Your commands have been my delight; these I have loved."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Let your loving kindness come to me, O Lord."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "I will worship your commands and love them and ponder your statutes."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Let your loving kindness come to me, O Lord."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Senhor, que desça sobre mim a vossa graça."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
                   "text": "Senhor, que desça sobre mim a vossa graça e a vossa salvação que prometestes!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Senhor, que desça sobre mim a vossa graça."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1738,17 +1477,9 @@
                   "type": "text",
                   "text": "pois eu confio em vossos justos julgamentos!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Senhor, que desça sobre mim a vossa graça."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1760,17 +1491,9 @@
                   "type": "text",
                   "text": "para sempre, eternamente a cumprirei!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Senhor, que desça sobre mim a vossa graça."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1782,17 +1505,9 @@
                   "type": "text",
                   "text": "porque busco e pesquiso as vossas ordens."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Senhor, que desça sobre mim a vossa graça."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1804,45 +1519,19 @@
                   "type": "text",
                   "text": "que eu amo, amo tanto, mais que tudo!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Senhor, que desça sobre mim a vossa graça."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Elevarei as minhas mãos para louvar-vos e com prazer meditarei vossa vontade."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Senhor, que desça sobre mim a vossa graça."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Venga a me, Signore, il tuo amore."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -1854,17 +1543,9 @@
                   "type": "text",
                   "text": "la tua salvezza secondo la tua promessa."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Venga a me, Signore, il tuo amore."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1876,17 +1557,9 @@
                   "type": "text",
                   "text": "perché spero nei tuoi giudizi."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Venga a me, Signore, il tuo amore."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1898,17 +1571,9 @@
                   "type": "text",
                   "text": "in eterno, per sempre."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Venga a me, Signore, il tuo amore."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1920,17 +1585,9 @@
                   "type": "text",
                   "text": "perché ho ricercato i tuoi precetti."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Venga a me, Signore, il tuo amore."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1942,17 +1599,9 @@
                   "type": "text",
                   "text": "che io amo."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Venga a me, Signore, il tuo amore."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1964,29 +1613,11 @@
                   "type": "text",
                   "text": "mediterò i tuoi decreti."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Venga a me, Signore, il tuo amore."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Que vienne à moi, Seigneur, ton amour."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -1998,17 +1629,9 @@
                   "type": "text",
                   "text": "et ton salut, selon ta promesse."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Que vienne à moi, Seigneur, ton amour."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2020,17 +1643,9 @@
                   "type": "text",
                   "text": "car j’espère tes décisions."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Que vienne à moi, Seigneur, ton amour."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2042,17 +1657,9 @@
                   "type": "text",
                   "text": "toujours et à jamais."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Que vienne à moi, Seigneur, ton amour."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2064,17 +1671,9 @@
                   "type": "text",
                   "text": "car je cherche tes préceptes."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Que vienne à moi, Seigneur, ton amour."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2086,17 +1685,9 @@
                   "type": "text",
                   "text": "oui, vraiment, je les aime."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Que vienne à moi, Seigneur, ton amour."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2108,45 +1699,19 @@
                   "type": "text",
                   "text": "je médite sur tes ordres."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Que vienne à moi, Seigneur, ton amour."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, deine Huld komme auf mich herab."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
                   "text": "Herr, deine Huld komme auf mich herab und deine Hilfe, wie du es verheißen hast."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, deine Huld komme auf mich herab."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2158,17 +1723,9 @@
                   "type": "text",
                   "text": "Ich hoffe so sehr auf deine Entscheide."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, deine Huld komme auf mich herab."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2180,17 +1737,9 @@
                   "type": "text",
                   "text": "auf immer und ewig."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, deine Huld komme auf mich herab."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2202,17 +1751,9 @@
                   "type": "text",
                   "text": "denn ich frage nach deinen Befehlen."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, deine Huld komme auf mich herab."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2224,17 +1765,9 @@
                   "type": "text",
                   "text": "ich liebe sie von Herzen."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, deine Huld komme auf mich herab."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2246,28 +1779,9 @@
                   "type": "text",
                   "text": "nachsinnen will ich über deine Gesetze."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, deine Huld komme auf mich herab."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 118, 41. 43. 44. 45. 47. 48",
-          "es": "Sal 118, 41. 43. 44. 45. 47. 48",
-          "en": "Ps 118:41, 43, 44, 45, 47, 48",
-          "pt-BR": "Sl 118, 41. 43. 44. 45. 47. 48",
-          "de": "Ps 119",
-          "it": "Sal 118, 41. 43. 44. 45. 47. 48",
-          "fr": "Ps 118, 41. 43. 44. 45. 47. 48"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -2291,7 +1805,9 @@
                 {
                   "type": "reference",
                   "text": "Hebr 4, 12"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Vivus est Dei sermo et éfficax, et discrétor cogitatiónum et intentiónum cordis. Allelúia."
@@ -2307,7 +1823,9 @@
                 {
                   "type": "reference",
                   "text": "Hebr 4, 12"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. La palabra de Dios es viva y eficaz; juzga los deseos e intenciones del corazón. Aleluya."

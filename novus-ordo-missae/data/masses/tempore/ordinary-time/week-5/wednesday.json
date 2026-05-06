@@ -228,28 +228,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Bénedic, ánima mea, Dómino! Bénedic, ánima mea, Dómino: Dómine Deus meus, magnificátus es veheménter. Confessiónem et decórem induísti, amíctus lúmine sicut vestiménto. ℟. Bénedic, ánima mea, Dómino! Omnia a te exspéctant, ut des illis escam in témpore suo. Dante te illis, cólligent, aperiénte te manum tuam, implebúntur bonis. ℟. Bénedic, ánima mea, Dómino! Revocábis spíritum eórum, et defícient, et in púlverem suum reverténtur. Emíttes spíritum tuum, et creabúntur, et renovábis fáciem terræ. ℟. Bénedic, ánima mea, Dómino!",
-            "es": "℟. ¡Bendice, alma mía, al Señor! Bendice, alma mía, al Señor: ¡Dios mío, qué grande eres! Te vistes de belleza y majestad, la luz te envuelve como un manto. ℟. ¡Bendice, alma mía, al Señor! Todos ellos aguardan a que les eches comida a su tiempo: se la echas, y la atrapan; abres tu mano, y se sacian de bienes. ℟. ¡Bendice, alma mía, al Señor! Les retiras el aliento, y expiran y vuelven a ser polvo; envías tu espíritu, y los creas, y repueblas la faz de la tierra. ℟. ¡Bendice, alma mía, al Señor!",
-            "en": "℟. Oh, bless the Lord, my soul! Bless the Lord my soul! Lord God, how great you are, clothed in majesty and glory, wrapped in light as in a robe. ℟. Oh, bless the Lord, my soul! All of these look to you to give them their food in due season. You give it, they gather it up: you open your hand, they have their fill. ℟. Oh, bless the Lord, my soul! You take back your spirit, they die, returning from the dust from which they came. You send forth your spirit, they are created; and you renew the face of the earth. ℟. Oh, bless the Lord, my soul!",
-            "pt-BR": "℟. Bendize, ó minha alma, ao Senhor! Bendize, ó minha alma, ao Senhor! Ó meu Deus e meu Senhor, como sois grande! De majestade e esplendor vos revestis e de luz vos envolveis como num manto. ℟. Bendize, ó minha alma, ao Senhor! Todos eles, ó Senhor, de vós esperam que a seu tempo vós lhes deis o alimento; vós lhes dais o que comer e eles recolhem, vós abris a vossa mão e eles se fartam. ℟. Bendize, ó minha alma, ao Senhor! Se tirais o seu respiro, eles perecem e voltam para o pó de onde vieram; enviais o vosso espírito e renascem e da terra toda a face renovais. ℟. Bendize, ó minha alma, ao Senhor!",
-            "it": "℟. Benedici il Signore, anima mia! Benedici il Signore, anima mia! Sei tanto grande, Signore, mio Dio! Sei rivestito di maestà e di splendore, avvolto di luce come di un manto. ℟. Benedici il Signore, anima mia! Tutti da te aspettano che tu dia loro cibo a tempo opportuno. Tu lo provvedi, essi lo raccolgono; apri la tua mano, si saziano di beni. ℟. Benedici il Signore, anima mia! Togli loro il respiro: muoiono, e ritornano nella loro polvere. Mandi il tuo spirito, sono creati, e rinnovi la faccia della terra. ℟. Benedici il Signore, anima mia!",
-            "fr": "℟. Bénis le Seigneur, ô mon âme ! Bénis le Seigneur, ô mon âme ; Seigneur mon Dieu, tu es si grand ! Revêtu de magnificence, tu as pour manteau la lumière ! ℟. Bénis le Seigneur, ô mon âme ! Tous, ils comptent sur toi pour recevoir leur nourriture au temps voulu. Tu donnes : eux, ils ramassent ; tu ouvres la main : ils sont comblés. ℟. Bénis le Seigneur, ô mon âme ! Tu reprends leur souffle, ils expirent et retournent à leur poussière. Tu envoies ton souffle : ils sont créés ; tu renouvelles la face de la terre. ℟. Bénis le Seigneur, ô mon âme !",
-            "de": "℟. Lobe den Herrn, meine Seele! Herr, mein Gott, wie groß bist du! Lobe den Herrn, meine Seele! Herr, mein Gott, wie groß bist du! Du bist mit Hoheit und Pracht bekleidet. Du hüllst dich in Licht wie in ein Kleid, du spannst den Himmel aus wie ein Zelt. ℟. Lobe den Herrn, meine Seele! Herr, mein Gott, wie groß bist du! Alle warten auf dich, dass du ihnen Speise gibst zur rechten Zeit. Gibst du ihnen, dann sammeln sie ein; öffnest du deine Hand, werden sie satt an Gutem. ℟. Lobe den Herrn, meine Seele! Herr, mein Gott, wie groß bist du! Nimmst du ihnen den Atem, so schwinden sie hin und kehren zurück zum Staub der Erde. Sendest du deinen Geist aus, so werden sie alle erschaffen, und du erneuerst das Antlitz der Erde. ℟. Lobe den Herrn, meine Seele! Herr, mein Gott, wie groß bist du!"
-          },
-          "lines": {
+        "citation": {
+          "pt-BR": "Sl 103",
+          "de": "Ps 104",
+          "la": "Ps 103",
+          "en": "Ps 103",
+          "es": "Sal 103",
+          "it": "Sal 103",
+          "fr": "Ps 103"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Bénedic, ánima mea, Dómino!"
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "¡Bendice, alma mía, al Señor!"
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "Oh, bless the Lord, my soul!"
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Bendize, ó minha alma, ao Senhor!"
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Benedici il Signore, anima mia!"
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Bénis le Seigneur, ô mon âme !"
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Lobe den Herrn, meine Seele! Herr, mein Gott, wie groß bist du!"
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -273,17 +323,9 @@
                   "type": "text",
                   "text": "amíctus lúmine sicut vestiménto."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Bénedic, ánima mea, Dómino!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -307,17 +349,9 @@
                   "type": "text",
                   "text": "aperiénte te manum tuam, implebúntur bonis."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Bénedic, ánima mea, Dómino!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -341,29 +375,11 @@
                   "type": "text",
                   "text": "et renovábis fáciem terræ."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Bénedic, ánima mea, Dómino!"
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "¡Bendice, alma mía, al Señor!"
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -387,17 +403,9 @@
                   "type": "text",
                   "text": "la luz te envuelve como un manto."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "¡Bendice, alma mía, al Señor!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -415,17 +423,9 @@
                   "type": "text",
                   "text": "abres tu mano, y se sacian de bienes."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "¡Bendice, alma mía, al Señor!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -443,45 +443,19 @@
                   "type": "text",
                   "text": "y repueblas la faz de la tierra."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "¡Bendice, alma mía, al Señor!"
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Oh, bless the Lord, my soul!"
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "Bless the Lord my soul! Lord God, how great you are, clothed in majesty and glory, wrapped in light as in a robe."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Oh, bless the Lord, my soul!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -493,45 +467,19 @@
                   "type": "text",
                   "text": "they gather it up: you open your hand, they have their fill."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Oh, bless the Lord, my soul!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "You take back your spirit, they die, returning from the dust from which they came. You send forth your spirit, they are created; and you renew the face of the earth."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Oh, bless the Lord, my soul!"
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Bendize, ó minha alma, ao Senhor!"
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -549,17 +497,9 @@
                   "type": "text",
                   "text": "De majestade e esplendor vos revestis e de luz vos envolveis como num manto."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Bendize, ó minha alma, ao Senhor!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -571,17 +511,9 @@
                   "type": "text",
                   "text": "vós abris a vossa mão e eles se fartam."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Bendize, ó minha alma, ao Senhor!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -593,29 +525,11 @@
                   "type": "text",
                   "text": "enviais o vosso espírito e renascem e da terra toda a face renovais."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Bendize, ó minha alma, ao Senhor!"
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Benedici il Signore, anima mia!"
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -639,17 +553,9 @@
                   "type": "text",
                   "text": "avvolto di luce come di un manto."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Benedici il Signore, anima mia!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -667,17 +573,9 @@
                   "type": "text",
                   "text": "apri la tua mano, si saziano di beni."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Benedici il Signore, anima mia!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -701,29 +599,11 @@
                   "type": "text",
                   "text": "e rinnovi la faccia della terra."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Benedici il Signore, anima mia!"
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Bénis le Seigneur, ô mon âme !"
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -747,17 +627,9 @@
                   "type": "text",
                   "text": "tu as pour manteau la lumière !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Bénis le Seigneur, ô mon âme !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -775,17 +647,9 @@
                   "type": "text",
                   "text": "tu ouvres la main : ils sont comblés."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Bénis le Seigneur, ô mon âme !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -803,29 +667,11 @@
                   "type": "text",
                   "text": "tu renouvelles la face de la terre."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Bénis le Seigneur, ô mon âme !"
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Lobe den Herrn, meine Seele! Herr, mein Gott, wie groß bist du!"
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -855,17 +701,9 @@
                   "type": "text",
                   "text": "du spannst den Himmel aus wie ein Zelt."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Lobe den Herrn, meine Seele! Herr, mein Gott, wie groß bist du!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -889,17 +727,9 @@
                   "type": "text",
                   "text": "öffnest du deine Hand, werden sie satt an Gutem."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Lobe den Herrn, meine Seele! Herr, mein Gott, wie groß bist du!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -917,28 +747,9 @@
                   "type": "text",
                   "text": "und du erneuerst das Antlitz der Erde."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Lobe den Herrn, meine Seele! Herr, mein Gott, wie groß bist du!"
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "pt-BR": "Sl 103",
-          "de": "Ps 104",
-          "la": "Ps 103",
-          "en": "Ps 103",
-          "es": "Sal 103",
-          "it": "Sal 103",
-          "fr": "Ps 103"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -962,7 +773,9 @@
                 {
                   "type": "reference",
                   "text": "Cf. Io 17, 17b. a"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Sermo tuus, Dómine, véritas est; sanctífica nos in veritáte. Allelúia."
@@ -978,7 +791,9 @@
                 {
                   "type": "reference",
                   "text": "Cf. Jn 17, 17b. a"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Tu palabra, Señor, es verdad; santifícalos en la verdad. Aleluya."
@@ -1492,28 +1307,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Os iusti meditábitur sapiéntiam. Commítte Dómino viam tuam et spera in eo, et ipse fáciet; et edúcet quasi lumen iustítiam tuam et iudícium tuum tamquam merídiem. ℟. Os iusti meditábitur sapiéntiam. Os iusti meditábitur sapiéntiam, et lingua eius loquétur iudícium; lex Dei eius in corde ipsíus, et non vacillábunt gressus eius. ℟. Os iusti meditábitur sapiéntiam. Salus autem iustórum a Dómino, et protéctor eórum in témpore tribulatiónis. Et adiuvábit eos Dóminus et liberábit eos, et éruet eos a peccatóribus et salvábit eos, quia speravérunt in eo. ℟. Os iusti meditábitur sapiéntiam.",
-            "es": "℟. La boca del justo expone la sabiduría. Encomienda tu camino al Señor, confía en él, y él actuará: hará tu justicia como el amanecer, tu derecho como el mediodía. ℟. La boca del justo expone la sabiduría. La boca del justo expone la sabiduría, su lengua explica el derecho; porque lleva en el corazón la ley de su Dios, y sus pasos no vacilan. ℟. La boca del justo expone la sabiduría. El Señor es quien salva a los justos, él es su alcázar en el peligro; el Señor los protege y los libra, los libra de los malvados y los salva porque se acogen a él. ℟. La boca del justo expone la sabiduría.",
-            "en": "℟. The mouth of the just man murmurs wisdom. Commit your life to the Lord, trust in him and he will act, so that your justice breaks forth like the light, your cause like the noon-day sun. ℟. The mouth of the just man murmurs wisdom. The just man's mouth utters wisdom and his lips speak what is right; the law of his God is in his heart, his steps shall be saved from stumbling. ℟. The mouth of the just man murmurs wisdom. The salvation of the just comes from the Lord, their stronghold in times of distress. The Lord helps them and delivers them and saves them: for their refuge is in him. ℟. The mouth of the just man murmurs wisdom.",
-            "pt-BR": "℟. O justo tem nos lábios o que é sábio. Deixa aos cuidados do Senhor o teu destino; confia nele, e com certeza ele agirá. Fará brilhar tua inocência como a luz, e o teu direito, como o sol do meio-dia. ℟. O justo tem nos lábios o que é sábio. O justo tem nos lábios o que é sábio, sua língua tem palavras de justiça; traz a Aliança do seu Deus no coração, e seus passos não vacilam no caminho. ℟. O justo tem nos lábios o que é sábio. A salvação dos piedosos vem de Deus; ele os protege nos momentos de aflição. O Senhor lhes dá ajuda e os liberta, defende-os e protege-os contra os ímpios, e os guarda porque nele confiaram. ℟. O justo tem nos lábios o que é sábio.",
-            "it": "℟. La bocca del giusto medita la sapienza. Affida al Signore la tua via, confida in lui ed egli agirà: farà brillare come luce la tua giustizia, il tuo diritto come il mezzogiorno. ℟. La bocca del giusto medita la sapienza. La bocca del giusto medita la sapienza e la sua lingua esprime il diritto; la legge del suo Dio è nel suo cuore: i suoi passi non vacilleranno. ℟. La bocca del giusto medita la sapienza. La salvezza dei giusti viene dal Signore: nel tempo dell’angoscia è loro fortezza. Il Signore li aiuta e li libera, li libera dai malvagi e li salva, perché in lui si sono rifugiati. ℟. La bocca del giusto medita la sapienza.",
-            "fr": "℟. Les lèvres du juste redisent la sagesse. Dirige ton chemin vers le Seigneur, fais-lui confiance, et lui, il agira. Il fera lever comme le jour ta justice, et ton droit comme le plein midi. ℟. Les lèvres du juste redisent la sagesse. Les lèvres du juste redisent la sagesse et sa bouche énonce le droit. La loi de son Dieu est dans son cœur ; il va, sans craindre les faux pas. ℟. Les lèvres du juste redisent la sagesse. Le Seigneur est le salut pour les justes, leur abri au temps de la détresse. Le Seigneur les aide et les délivre, car ils cherchent en lui leur refuge. ℟. Les lèvres du juste redisent la sagesse.",
-            "de": "℟. Der Mund des Gerechten spricht Worte der Weisheit. Befiehl dem Herrn deinen Weg und vertrau ihm; er wird es fügen. Er bringt deine Gerechtigkeit heraus wie das Licht und dein Recht so hell wie den Mittag. ℟. Der Mund des Gerechten spricht Worte der Weisheit. Der Mund des Gerechten bewegt Worte der Weisheit, und seine Zunge redet, was recht ist. Er hat die Weisung seines Gottes im Herzen, seine Schritte wanken nicht. ℟. Der Mund des Gerechten spricht Worte der Weisheit. Die Rettung der Gerechten kommt vom Herrn, er ist ihre Zuflucht in Zeiten der Not. Der Herr hilft ihnen und rettet sie, er rettet sie vor den Frevlern. ℟. Der Mund des Gerechten spricht Worte der Weisheit."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 36, 5-6. 30-31. 39-40",
+          "es": "Sal 36, 5-6. 30-31. 39-40",
+          "en": "Ps 36:5-6, 30-31, 39-40",
+          "pt-BR": "Sl 36, 5-6. 30-31. 39-40",
+          "de": "Ps 37",
+          "it": "Sal 36, 5-6. 30-31. 39-40",
+          "fr": "Ps 36, 5-6. 30-31. 39-40"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Os iusti meditábitur sapiéntiam."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "La boca del justo expone la sabiduría."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "The mouth of the just man murmurs wisdom."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "O justo tem nos lábios o que é sábio."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "La bocca del giusto medita la sapienza."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Les lèvres du juste redisent la sagesse."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Der Mund des Gerechten spricht Worte der Weisheit."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -1531,17 +1396,9 @@
                   "type": "text",
                   "text": "et edúcet quasi lumen iustítiam tuam et iudícium tuum tamquam merídiem."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Os iusti meditábitur sapiéntiam."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1565,17 +1422,9 @@
                   "type": "text",
                   "text": "et non vacillábunt gressus eius."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Os iusti meditábitur sapiéntiam."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1605,29 +1454,11 @@
                   "type": "text",
                   "text": "quia speravérunt in eo."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Os iusti meditábitur sapiéntiam."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "La boca del justo expone la sabiduría."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1651,17 +1482,9 @@
                   "type": "text",
                   "text": "tu derecho como el mediodía."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "La boca del justo expone la sabiduría."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1685,17 +1508,9 @@
                   "type": "text",
                   "text": "y sus pasos no vacilan."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "La boca del justo expone la sabiduría."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1719,89 +1534,37 @@
                   "type": "text",
                   "text": "los libra de los malvados y los salva porque se acogen a él."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "La boca del justo expone la sabiduría."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The mouth of the just man murmurs wisdom."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "Commit your life to the Lord, trust in him and he will act, so that your justice breaks forth like the light, your cause like the noon-day sun."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The mouth of the just man murmurs wisdom."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "The just man's mouth utters wisdom and his lips speak what is right; the law of his God is in his heart, his steps shall be saved from stumbling."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The mouth of the just man murmurs wisdom."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "The salvation of the just comes from the Lord, their stronghold in times of distress. The Lord helps them and delivers them and saves them: for their refuge is in him."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The mouth of the just man murmurs wisdom."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O justo tem nos lábios o que é sábio."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -1831,17 +1594,9 @@
                   "type": "text",
                   "text": "como o sol do meio-dia."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O justo tem nos lábios o que é sábio."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1865,17 +1620,9 @@
                   "type": "text",
                   "text": "e seus passos não vacilam no caminho."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O justo tem nos lábios o que é sábio."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1905,29 +1652,11 @@
                   "type": "text",
                   "text": "e os guarda porque nele confiaram."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O justo tem nos lábios o que é sábio."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "La bocca del giusto medita la sapienza."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -1951,17 +1680,9 @@
                   "type": "text",
                   "text": "il tuo diritto come il mezzogiorno."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "La bocca del giusto medita la sapienza."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1979,17 +1700,9 @@
                   "type": "text",
                   "text": "i suoi passi non vacilleranno."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "La bocca del giusto medita la sapienza."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2019,29 +1732,11 @@
                   "type": "text",
                   "text": "perché in lui si sono rifugiati."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "La bocca del giusto medita la sapienza."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Les lèvres du juste redisent la sagesse."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -2065,17 +1760,9 @@
                   "type": "text",
                   "text": "et ton droit comme le plein midi."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Les lèvres du juste redisent la sagesse."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2093,17 +1780,9 @@
                   "type": "text",
                   "text": "il va, sans craindre les faux pas."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Les lèvres du juste redisent la sagesse."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2127,29 +1806,11 @@
                   "type": "text",
                   "text": "car ils cherchent en lui leur refuge."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Les lèvres du juste redisent la sagesse."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Mund des Gerechten spricht Worte der Weisheit."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -2167,17 +1828,9 @@
                   "type": "text",
                   "text": "Er bringt deine Gerechtigkeit heraus wie das Licht und dein Recht so hell wie den Mittag."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Mund des Gerechten spricht Worte der Weisheit."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2207,17 +1860,9 @@
                   "type": "text",
                   "text": "seine Schritte wanken nicht."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Mund des Gerechten spricht Worte der Weisheit."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2241,28 +1886,9 @@
                   "type": "text",
                   "text": "er rettet sie vor den Frevlern."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Mund des Gerechten spricht Worte der Weisheit."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 36, 5-6. 30-31. 39-40",
-          "es": "Sal 36, 5-6. 30-31. 39-40",
-          "en": "Ps 36:5-6, 30-31, 39-40",
-          "pt-BR": "Sl 36, 5-6. 30-31. 39-40",
-          "de": "Ps 37",
-          "it": "Sal 36, 5-6. 30-31. 39-40",
-          "fr": "Ps 36, 5-6. 30-31. 39-40"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -2286,7 +1912,9 @@
                 {
                   "type": "reference",
                   "text": "Cf. Io 17, 17b. a"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Sermo tuus, Dómine, véritas est; sanctífica nos in veritáte. Allelúia."
@@ -2302,7 +1930,9 @@
                 {
                   "type": "reference",
                   "text": "Cf. Jn 17, 17b. a"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Tu palabra, Señor, es verdad; santifícalos en la verdad. Aleluya."

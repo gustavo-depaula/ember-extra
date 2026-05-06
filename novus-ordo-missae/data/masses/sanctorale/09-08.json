@@ -1231,27 +1231,70 @@
         ]
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Gaudens gaudébo in Dómino. Ego autem in misericórdia tua sperávi. Exsultábit cor meum in salutári tuo. ℟. Gaudens gaudébo in Dómino. Cantábo Dómino qui bona tríbuit mihi. ℟. Gaudens gaudébo in Dómino.",
-            "es": "℟. Desbordo de gozo con el Señor. Porque yo confío en tu misericordia: mi alma gozará con tu salvación. ℟. Desbordo de gozo con el Señor. Y cantaré al Señor por el bien que me ha hecho. ℟. Desbordo de gozo con el Señor.",
-            "en": "℟. With delight I rejoice in the Lord. Lord, I trust in your merciful love. Let my heart rejoice in your saving help. ℟. With delight I rejoice in the Lord. Let me sing to the Lord for his goodness to me, singing psalms to the name of the Lord, the Most High. ℟. With delight I rejoice in the Lord.",
-            "pt-BR": "℟. Exulto de alegria no Senhor. Sois meu apoio desde antes que eu nascesse desde o seio maternal, o meu amparo: para vós o meu louvor eternamente! ℟. Exulto de alegria no Senhor. Uma vez que confiei no vosso amor, meu coração, por vosso auxilio, rejubile, e que eu vos cante pelo bem que me fizestes! ℟. Exulto de alegria no Senhor.",
-            "fr": "℟. J’exulterai de joie en Dieu, mon Seigneur. Moi, je prends appui sur ton amour ; que mon cœur ait la joie de ton salut ! ℟. J’exulterai de joie en Dieu, mon Seigneur. Je chanterai le Seigneur pour le bien qu’il m’a fait. ℟. J’exulterai de joie en Dieu, mon Seigneur.",
-            "de": "℟. Von Herzen will ich mich freuen über den Herrn. Herr, ich baue auf deine Huld, mein Herz soll über deine Hilfe frohlocken. ℟. Von Herzen will ich mich freuen über den Herrn. ℟. Von Herzen will ich mich freuen über den Herrn."
-          },
-          "lines": {
+        "citation": {
+          "de": "Ps 13",
+          "la": "Ps 13",
+          "en": "Ps 13",
+          "es": "Sal 13",
+          "pt-BR": "Sl 13",
+          "it": "Sal 13",
+          "fr": "Ps 13"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Gaudens gaudébo in Dómino."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Desbordo de gozo con el Señor."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "With delight I rejoice in the Lord."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Exulto de alegria no Senhor."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "J’exulterai de joie en Dieu, mon Seigneur."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Von Herzen will ich mich freuen über den Herrn."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -1263,45 +1306,19 @@
                   "type": "text",
                   "text": "Exsultábit cor meum in salutári tuo."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Gaudens gaudébo in Dómino."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Cantábo Dómino qui bona tríbuit mihi."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Gaudens gaudébo in Dómino."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Desbordo de gozo con el Señor."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1313,89 +1330,37 @@
                   "type": "text",
                   "text": "mi alma gozará con tu salvación."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Desbordo de gozo con el Señor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Y cantaré al Señor por el bien que me ha hecho."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Desbordo de gozo con el Señor."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "With delight I rejoice in the Lord."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "Lord, I trust in your merciful love. Let my heart rejoice in your saving help."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "With delight I rejoice in the Lord."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Let me sing to the Lord for his goodness to me, singing psalms to the name of the Lord, the Most High."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "With delight I rejoice in the Lord."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Exulto de alegria no Senhor."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -1407,17 +1372,9 @@
                   "type": "text",
                   "text": "para vós o meu louvor eternamente!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Exulto de alegria no Senhor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1441,29 +1398,11 @@
                   "type": "text",
                   "text": "e que eu vos cante pelo bem que me fizestes!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Exulto de alegria no Senhor."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "J’exulterai de joie en Dieu, mon Seigneur."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -1475,45 +1414,19 @@
                   "type": "text",
                   "text": "que mon cœur ait la joie de ton salut !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "J’exulterai de joie en Dieu, mon Seigneur."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Je chanterai le Seigneur pour le bien qu’il m’a fait."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "J’exulterai de joie en Dieu, mon Seigneur."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Von Herzen will ich mich freuen über den Herrn."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -1525,38 +1438,9 @@
                   "type": "text",
                   "text": "mein Herz soll über deine Hilfe frohlocken."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Von Herzen will ich mich freuen über den Herrn."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Von Herzen will ich mich freuen über den Herrn."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "de": "Ps 13",
-          "la": "Ps 13",
-          "en": "Ps 13",
-          "es": "Sal 13",
-          "pt-BR": "Sl 13",
-          "it": "Sal 13",
-          "fr": "Ps 13"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -1575,7 +1459,13 @@
               [
                 {
                   "type": "text",
-                  "text": "Alleluia, allelúia. Felix es, sacra Virgo María, et omni laude digníssima; quia ex te ortus est sol iustitiæ, Christus Deus noster. Allelúia."
+                  "text": "Alleluia"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Allelúia. Felix es, sacra Virgo María, et omni laude digníssima; quia ex te ortus est sol iustitiæ, Christus Deus noster. Allelúia."
                 }
               ]
             ],
@@ -1583,7 +1473,13 @@
               [
                 {
                   "type": "text",
-                  "text": "Aleluya, aleluya. Dichosa eres, santa Virgen María, y muy digna de toda alabanza: porque de ti salió el sol de justicia, Cristo, nuestro Dios. Aleluya."
+                  "text": "Aleluya"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Aleluya. Dichosa eres, santa Virgen María, y muy digna de toda alabanza: porque de ti salió el sol de justicia, Cristo, nuestro Dios. Aleluya."
                 }
               ]
             ],

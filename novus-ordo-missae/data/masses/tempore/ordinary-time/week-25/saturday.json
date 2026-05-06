@@ -228,28 +228,69 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Dóminus custódiet nos sicut pastor gregem suum. Audíte verbum Dómini, gentes, et annuntiáte in ínsulis, quæ procul sunt, et dícite: «Qui dispérsit Israel, congregábit eum et custódiet eum sicut pastor gregem suum». ℟. Dóminus custódiet nos sicut pastor gregem suum. Redémit enim Dóminus Iacob et liberávit eum de manu potentióris. Et vénient et laudábunt in monte Sion et cónfluent ad bona Dómini. ℟. Dóminus custódiet nos sicut pastor gregem suum. Tunc lætábitur virgo in choro, iuvénes et senes simul. «Et convértam luctum eórum in gáudium et consolábor eos et lætificábo a dolóre suo». ℟. Dóminus custódiet nos sicut pastor gregem suum.",
-            "es": "℟. El Señor nos guardará como un pastor a su rebaño. Escuchad, pueblos, la palabra del Señor, anunciadla en las islas remotas: «El que dispersó a Israel lo reunirá, lo guardará como un pastor a su rebaño. ℟. El Señor nos guardará como un pastor a su rebaño. Porque el Señor redimió a Jacob, lo rescató de una mano más fuerte». Vendrán con aclamaciones a la altura de Sion, afluirán hacia los bienes del Señor. ℟. El Señor nos guardará como un pastor a su rebaño. Entonces se alegrará la doncella en la danza, gozarán los jóvenes y los viejos; convertiré su tristeza en gozo, los alegraré y aliviaré sus penas. ℟. El Señor nos guardará como un pastor a su rebaño.",
-            "en": "℟. The Lord will guard us, like a shepherd guarding his flock. O nations, hear the word of the Lord, proclaim it to the far-off coasts. Say: 'He who scattered Israel will gather him and guard him as a shepherd guards his flock.' ℟. The Lord will guard us, like a shepherd guarding his flock. For the Lord has ransomed Jacob, has saved him from an overpowering hand. They will come and shout for joy on Mount Zion, they will stream to the blessings of the Lord. ℟. The Lord will guard us, like a shepherd guarding his flock. Then the young girls will rejoice and will dance, the men, young and old, will be glad. I will turn their mourning into joy. I will console them, give gladness for grief. ℟. The Lord will guard us, like a shepherd guarding his flock.",
-            "pt-BR": "℟. O Senhor nos guardará qual pastor a seu rebanho. Ouvi, nações, a palavra do Senhor e anunciai-a nas ilhas mais distantes: \"Quem dispersou Israel, vai congregá-lo, e o guardará qual pastor a seu rebanho!\". ℟. O Senhor nos guardará qual pastor a seu rebanho. Pois, na verdade, o Senhor remiu Jacó e o libertou do poder do prepotente. Voltarão para o monte de Sião, entre brados e cantos de alegria fluirão para as bençãos do Senhor. ℟. O Senhor nos guardará qual pastor a seu rebanho. Então a virgem dançará alegremente, também o jovem e o velho exultarão; mudarei em alegria o seu luto, serei consolo e conforto após a guerra. ℟. O Senhor nos guardará qual pastor a seu rebanho.",
-            "it": "℟. Il Signore ci custodisce come un pastore il suo gregge. Ascoltate, genti, la parola del Signore, annunciatela alle isole più lontane e dite: «Chi ha disperso Israele lo raduna e lo custodisce come un pastore il suo gregge». ℟. Il Signore ci custodisce come un pastore il suo gregge. Perché il Signore ha riscattato Giacobbe, lo ha liberato dalle mani di uno più forte di lui. Verranno e canteranno inni sull’altura di Sion, andranno insieme verso i beni del Signore. ℟. Il Signore ci custodisce come un pastore il suo gregge. La vergine allora gioirà danzando e insieme i giovani e i vecchi. «Cambierò il loro lutto in gioia, li consolerò e li renderò felici, senza afflizioni». ℟. Il Signore ci custodisce come un pastore il suo gregge.",
-            "fr": "℟. Le Seigneur nous garde, comme un berger son troupeau. Écoutez, nations, la parole du Seigneur ! Annoncez dans les îles lointaines : « Celui qui dispersa Israël le rassemble, il le garde, comme un berger son troupeau. ℟. Le Seigneur nous garde, comme un berger son troupeau. » Le Seigneur a libéré Jacob, l’a racheté des mains d’un plus fort. Ils viennent, criant de joie, sur les hauteurs de Sion : ils affluent vers les biens du Seigneur. ℟. Le Seigneur nous garde, comme un berger son troupeau. « La jeune fille se réjouit, elle danse ; jeunes gens, vieilles gens, tous ensemble ! Je change leur deuil en joie, les réjouis, les console après la peine. » ℟. Le Seigneur nous garde, comme un berger son troupeau.",
-            "de": "℟. Der Herr wird uns hüten wie ein Hirt seine Herde. Hört, ihr Völker, das Wort des Herrn, verkündet es auf den fernsten Inseln und sagt: Er, der Israel zerstreut hat, wird es auch sammeln und hüten wie ein Hirt seine Herde. ℟. Der Herr wird uns hüten wie ein Hirt seine Herde. Denn der Herr wird Jakob erlösen und ihn befreien aus der Hand des Stärkeren. Sie kommen und jubeln auf Zions Höhe, sie strahlen vor Freude über die Gaben des Herrn. ℟. Der Herr wird uns hüten wie ein Hirt seine Herde. Dann freut sich das Mädchen beim Reigentanz, Jung und Alt sind fröhlich. Ich verwandle ihre Trauer in Jubel, tröste und erfreue sie nach ihrem Kummer. ℟. Der Herr wird uns hüten wie ein Hirt seine Herde."
-          },
-          "lines": {
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Dóminus custódiet nos sicut pastor gregem suum."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "El Señor nos guardará como un pastor a su rebaño."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "The Lord will guard us, like a shepherd guarding his flock."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "O Senhor nos guardará qual pastor a seu rebanho."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Il Signore ci custodisce come un pastore il suo gregge."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Le Seigneur nous garde, comme un berger son troupeau."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Der Herr wird uns hüten wie ein Hirt seine Herde."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -267,17 +308,9 @@
                   "type": "text",
                   "text": "et dícite: «Qui dispérsit Israel, congregábit eum et custódiet eum sicut pastor gregem suum»."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dóminus custódiet nos sicut pastor gregem suum."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -289,17 +322,9 @@
                   "type": "text",
                   "text": "Et vénient et laudábunt in monte Sion et cónfluent ad bona Dómini."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dóminus custódiet nos sicut pastor gregem suum."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -317,29 +342,11 @@
                   "type": "text",
                   "text": "«Et convértam luctum eórum in gáudium et consolábor eos et lætificábo a dolóre suo»."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dóminus custódiet nos sicut pastor gregem suum."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor nos guardará como un pastor a su rebaño."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -363,17 +370,9 @@
                   "type": "text",
                   "text": "lo guardará como un pastor a su rebaño."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor nos guardará como un pastor a su rebaño."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -397,17 +396,9 @@
                   "type": "text",
                   "text": "afluirán hacia los bienes del Señor."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor nos guardará como un pastor a su rebaño."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -431,29 +422,11 @@
                   "type": "text",
                   "text": "los alegraré y aliviaré sus penas."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor nos guardará como un pastor a su rebaño."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord will guard us, like a shepherd guarding his flock."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
@@ -465,61 +438,27 @@
                   "type": "text",
                   "text": "'He who scattered Israel will gather him and guard him as a shepherd guards his flock.'"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord will guard us, like a shepherd guarding his flock."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "For the Lord has ransomed Jacob, has saved him from an overpowering hand. They will come and shout for joy on Mount Zion, they will stream to the blessings of the Lord."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord will guard us, like a shepherd guarding his flock."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Then the young girls will rejoice and will dance, the men, young and old, will be glad. I will turn their mourning into joy. I will console them, give gladness for grief."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord will guard us, like a shepherd guarding his flock."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor nos guardará qual pastor a seu rebanho."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -537,17 +476,9 @@
                   "type": "text",
                   "text": "e o guardará qual pastor a seu rebanho!\"."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor nos guardará qual pastor a seu rebanho."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -565,17 +496,9 @@
                   "type": "text",
                   "text": "entre brados e cantos de alegria fluirão para as bençãos do Senhor."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor nos guardará qual pastor a seu rebanho."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -599,29 +522,11 @@
                   "type": "text",
                   "text": "serei consolo e conforto após a guerra."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor nos guardará qual pastor a seu rebanho."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore ci custodisce come un pastore il suo gregge."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -639,17 +544,9 @@
                   "type": "text",
                   "text": "«Chi ha disperso Israele lo raduna e lo custodisce come un pastore il suo gregge»."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore ci custodisce come un pastore il suo gregge."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -673,17 +570,9 @@
                   "type": "text",
                   "text": "andranno insieme verso i beni del Signore."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore ci custodisce come un pastore il suo gregge."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -701,29 +590,11 @@
                   "type": "text",
                   "text": "li consolerò e li renderò felici, senza afflizioni»."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore ci custodisce come un pastore il suo gregge."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur nous garde, comme un berger son troupeau."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -753,17 +624,9 @@
                   "type": "text",
                   "text": "il le garde, comme un berger son troupeau."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur nous garde, comme un berger son troupeau."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -787,17 +650,9 @@
                   "type": "text",
                   "text": "ils affluent vers les biens du Seigneur."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur nous garde, comme un berger son troupeau."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -821,29 +676,11 @@
                   "type": "text",
                   "text": "les réjouis, les console après la peine. »"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur nous garde, comme un berger son troupeau."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Herr wird uns hüten wie ein Hirt seine Herde."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -861,17 +698,9 @@
                   "type": "text",
                   "text": "Er, der Israel zerstreut hat, wird es auch sammeln und hüten wie ein Hirt seine Herde."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Herr wird uns hüten wie ein Hirt seine Herde."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -889,17 +718,9 @@
                   "type": "text",
                   "text": "sie strahlen vor Freude über die Gaben des Herrn."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Herr wird uns hüten wie ein Hirt seine Herde."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -923,19 +744,9 @@
                   "type": "text",
                   "text": "tröste und erfreue sie nach ihrem Kummer."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Herr wird uns hüten wie ein Hirt seine Herde."
-                }
               ]
             ]
-          }
+          ]
         }
       },
       "gospelAcclamation": {
@@ -959,7 +770,9 @@
                 {
                   "type": "reference",
                   "text": "Cf. 2 Tim 1, 10"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Salvátor noster Iesus Christus destrúxit mortem, et illuminávit vitam per Evangélium. Allelúia."
@@ -975,7 +788,9 @@
                 {
                   "type": "reference",
                   "text": "Cf. 2 Tim 1, 10"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Nuestro Salvador, Cristo Jesús, destruyó la muerte e hizo brillar la vida por medio del Evangelio. Aleluya."
@@ -1492,28 +1307,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Dómine, refúgium factus es nobis, a generatióne in generatiónem. Redúcis hóminem in púlverem; et dixísti: «Revertímini, fílii hóminum». Quóniam mille anni ante óculos tuos tamquam dies hestérna quæ prætériit, et custódia in nocte. ℟. Dómine, refúgium factus es nobis, a generatióne in generatiónem. Perfúndis eos somno, erunt mane sicut herba succréscens: mane floret et crescit, véspere décidit et aréscit. ℟. Dómine, refúgium factus es nobis, a generatióne in generatiónem. Dinumeráre dies nostros sic doce nos, ut inducámus cor ad sapiéntiam. Convértere, Dómine, úsquequo? Et deprecábilis esto super servos tuos. ℟. Dómine, refúgium factus es nobis, a generatióne in generatiónem. Reple nos mane misericórdia tua, et exsultábimus et delectábimur ómnibus diébus nostris. Et sit splendor Dómini Dei nostri super nos, et ópera mánuum nostrárum confírma super nos, et opus mánuum nostrárum confírma. ℟. Dómine, refúgium factus es nobis, a generatióne in generatiónem.",
-            "es": "℟. Señor, tú has sido nuestro refugio de generación en generación. Tú reduces el hombre a polvo, diciendo: «Retornad, hijos de Adán». Mil años en tu presencia son un ayer que pasó; una vela nocturna. ℟. Señor, tú has sido nuestro refugio de generación en generación. Si tú los retiras son como un sueño, como hierba que se renueva que florece y se renueva por la mañana, y por la tarde la siegan y se seca. ℟. Señor, tú has sido nuestro refugio de generación en generación. Enséñanos a calcular nuestros años, para que adquiramos un corazón sensato. Vuélvete, Señor, ¿hasta cuándo? Ten compasión de tus siervos. ℟. Señor, tú has sido nuestro refugio de generación en generación. Por la mañana sácianos de tu misericordia, y toda nuestra vida será alegría y júbilo. Baje a nosotros la bondad del Señor y haga prósperas las obras de nuestras manos. Sí, haga prósperas las obras de nuestras manos. ℟. Señor, tú has sido nuestro refugio de generación en generación.",
-            "en": "℟. In every age, O Lord, you have been our refuge. You turn men back into dust and say: 'Go back, sons of men.' To your eyes a thousand years are like yesterday, come and gone, no more than a watch in the night. ℟. In every age, O Lord, you have been our refuge. You sweep men away like a dream, like grass which springs up in the morning. In the morning it springs up and flowers: by evening it withers and fades. ℟. In every age, O Lord, you have been our refuge. Make us know the shortness of our life that we may gain wisdom of heart. Lord, relent! Is your anger for ever? Show pity to your servants. ℟. In every age, O Lord, you have been our refuge. In the morning, fill us with your love; we shall exult and rejoice all our days. Let the favor of the Lord be upon us: give success to the work of our hands, give success to the work of our hands. ℟. In every age, O Lord, you have been our refuge.",
-            "pt-BR": "℟. Ó Senhor, vós fostes sempre um refúgio para nós. Vós fazeis voltar ao pó todo mortal, quando dizeis: \"Voltai ao pó, filhos de Adão!\" Pois mil anos para vós são como ontem, qual vigília de uma noite que passou. ℟. Ó Senhor, vós fostes sempre um refúgio para nós. Eles passam como o sono da manhã, são iguais à erva verde pelos campos: De manhã ela floresce vicejante, mas à tarde é cortada e logo seca. ℟. Ó Senhor, vós fostes sempre um refúgio para nós. Ensinai-nos a contar os nossos dias, e dai ao nosso coração sabedoria! Senhor, voltai-vos! Até quando tardareis? Tende piedade e compaixão de vossos servos! ℟. Ó Senhor, vós fostes sempre um refúgio para nós. Saciai-nos de manhã com vosso amor, e exultaremos de alegria todo o dia! Que a bondade do Senhor e nosso Deus repouse sobre nós e nos conduza! Tornai fecundo, ó Senhor, nosso trabalho. ℟. Ó Senhor, vós fostes sempre um refúgio para nós.",
-            "it": "℟. Signore, tu sei stato per noi un rifugio di generazione in generazione. Tu fai ritornare l’uomo in polvere, quando dici: «Ritornate, figli dell’uomo». Mille anni, ai tuoi occhi, sono come il giorno di ieri che è passato, come un turno di veglia nella notte. ℟. Signore, tu sei stato per noi un rifugio di generazione in generazione. Tu li sommergi: sono come un sogno al mattino, come l’erba che germoglia; al mattino fiorisce e germoglia, alla sera è falciata e secca. ℟. Signore, tu sei stato per noi un rifugio di generazione in generazione. Insegnaci a contare i nostri giorni e acquisteremo un cuore saggio. Ritorna, Signore: fino a quando? Abbi pietà dei tuoi servi! ℟. Signore, tu sei stato per noi un rifugio di generazione in generazione. Saziaci al mattino con il tuo amore: esulteremo e gioiremo per tutti i nostri giorni. Sia su di noi la dolcezza del Signore, nostro Dio: rendi salda per noi l’opera delle nostre mani, l’opera delle nostre mani rendi salda. ℟. Signore, tu sei stato per noi un rifugio di generazione in generazione.",
-            "fr": "℟. D’âge en âge, Seigneur, tu as été notre refuge. Tu fais retourner l’homme à la poussière ; tu as dit : « Retournez, fils d’Adam ! » À tes yeux, mille ans sont comme hier, c’est un jour qui s’en va, une heure dans la nuit. ℟. D’âge en âge, Seigneur, tu as été notre refuge. Tu les as balayés : ce n’est qu’un songe ; dès le matin, c’est une herbe changeante : elle fleurit le matin, elle change ; le soir, elle est fanée, desséchée. ℟. D’âge en âge, Seigneur, tu as été notre refuge. Apprends-nous la vraie mesure de nos jours : que nos cœurs pénètrent la sagesse. Reviens, Seigneur, pourquoi tarder ? Ravise-toi par égard pour tes serviteurs. ℟. D’âge en âge, Seigneur, tu as été notre refuge. Rassasie-nous de ton amour au matin, que nous passions nos jours dans la joie et les chants. Que vienne sur nous la douceur du Seigneur notre Dieu ! Consolide pour nous l’ouvrage de nos mains. ℟. D’âge en âge, Seigneur, tu as été notre refuge.",
-            "de": "℟. Herr, du bist unsere Zuflucht von Geschlecht zu Geschlecht. Du lässt die Menschen zurückkehren zum Staub und sprichst: „Kommt wieder, ihr Menschen!“ Denn tausend Jahre sind für dich wie der Tag, der gestern vergangen ist, wie eine Wache in der Nacht. ℟. Herr, du bist unsere Zuflucht von Geschlecht zu Geschlecht. Von Jahr zu Jahr säst du die Menschen aus; sie gleichen dem sprossenden Gras. Am Morgen grünt es und blüht, am Abend wird es beschnitten und welkt. ℟. Herr, du bist unsere Zuflucht von Geschlecht zu Geschlecht. Unsere Tage zu zählen, lehre uns! Dann gewinnen wir ein weises Herz. Herr, wende dich uns doch endlich zu! Hab Mitleid mit deinen Knechten! ℟. Herr, du bist unsere Zuflucht von Geschlecht zu Geschlecht. Sättige uns am Morgen mit deiner Huld! Dann wollen wir jubeln und uns freuen all unsre Tage. Es komme über uns die Güte des Herrn, unsres Gottes. Lass das Werk unsrer Hände gedeihen, ja, lass gedeihen das Werk unsrer Hände! ℟. Herr, du bist unsere Zuflucht von Geschlecht zu Geschlecht."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 89, 3-4. 5-6. 12-13. 14 et 17",
+          "es": "Sal 89, 3-4. 5-6. 12-13. 14 et 17",
+          "en": "Ps 89:3-4, 5-6, 12-13, 14 and 17",
+          "pt-BR": "Sl 89, 3-4. 5-6. 12-13. 14 et 17",
+          "de": "Ps 90",
+          "it": "Sal 89, 3-4. 5-6. 12-13. 14 et 17",
+          "fr": "Ps 89, 3-4. 5-6. 12-13. 14 et 17"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Dómine, refúgium factus es nobis, a generatióne in generatiónem."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Señor, tú has sido nuestro refugio de generación en generación."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "In every age, O Lord, you have been our refuge."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Ó Senhor, vós fostes sempre um refúgio para nós."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Signore, tu sei stato per noi un rifugio di generazione in generazione."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "D’âge en âge, Seigneur, tu as été notre refuge."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Herr, du bist unsere Zuflucht von Geschlecht zu Geschlecht."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -1537,17 +1402,9 @@
                   "type": "text",
                   "text": "et custódia in nocte."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dómine, refúgium factus es nobis, a generatióne in generatiónem."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1571,17 +1428,9 @@
                   "type": "text",
                   "text": "véspere décidit et aréscit."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dómine, refúgium factus es nobis, a generatióne in generatiónem."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1611,17 +1460,9 @@
                   "type": "text",
                   "text": "Et deprecábilis esto super servos tuos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dómine, refúgium factus es nobis, a generatióne in generatiónem."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1651,29 +1492,11 @@
                   "type": "text",
                   "text": "et opus mánuum nostrárum confírma."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dómine, refúgium factus es nobis, a generatióne in generatiónem."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Señor, tú has sido nuestro refugio de generación en generación."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1697,17 +1520,9 @@
                   "type": "text",
                   "text": "una vela nocturna."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Señor, tú has sido nuestro refugio de generación en generación."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1725,17 +1540,9 @@
                   "type": "text",
                   "text": "y por la tarde la siegan y se seca."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Señor, tú has sido nuestro refugio de generación en generación."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1759,17 +1566,9 @@
                   "type": "text",
                   "text": "Ten compasión de tus siervos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Señor, tú has sido nuestro refugio de generación en generación."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1793,45 +1592,19 @@
                   "type": "text",
                   "text": "Sí, haga prósperas las obras de nuestras manos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Señor, tú has sido nuestro refugio de generación en generación."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "In every age, O Lord, you have been our refuge."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "You turn men back into dust and say: 'Go back, sons of men.' To your eyes a thousand years are like yesterday, come and gone, no more than a watch in the night."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "In every age, O Lord, you have been our refuge."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1843,17 +1616,9 @@
                   "type": "text",
                   "text": "In the morning it springs up and flowers: by evening it withers and fades."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "In every age, O Lord, you have been our refuge."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1865,45 +1630,19 @@
                   "type": "text",
                   "text": "relent! Is your anger for ever? Show pity to your servants."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "In every age, O Lord, you have been our refuge."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "In the morning, fill us with your love; we shall exult and rejoice all our days. Let the favor of the Lord be upon us: give success to the work of our hands, give success to the work of our hands."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "In every age, O Lord, you have been our refuge."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ó Senhor, vós fostes sempre um refúgio para nós."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -1927,17 +1666,9 @@
                   "type": "text",
                   "text": "qual vigília de uma noite que passou."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ó Senhor, vós fostes sempre um refúgio para nós."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1955,17 +1686,9 @@
                   "type": "text",
                   "text": "De manhã ela floresce vicejante, mas à tarde é cortada e logo seca."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ó Senhor, vós fostes sempre um refúgio para nós."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1995,17 +1718,9 @@
                   "type": "text",
                   "text": "Tende piedade e compaixão de vossos servos!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ó Senhor, vós fostes sempre um refúgio para nós."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2029,29 +1744,11 @@
                   "type": "text",
                   "text": "Tornai fecundo, ó Senhor, nosso trabalho."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ó Senhor, vós fostes sempre um refúgio para nós."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Signore, tu sei stato per noi un rifugio di generazione in generazione."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -2081,17 +1778,9 @@
                   "type": "text",
                   "text": "come un turno di veglia nella notte."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Signore, tu sei stato per noi un rifugio di generazione in generazione."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2121,17 +1810,9 @@
                   "type": "text",
                   "text": "alla sera è falciata e secca."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Signore, tu sei stato per noi un rifugio di generazione in generazione."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2149,17 +1830,9 @@
                   "type": "text",
                   "text": "Abbi pietà dei tuoi servi!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Signore, tu sei stato per noi un rifugio di generazione in generazione."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2189,29 +1862,11 @@
                   "type": "text",
                   "text": "l’opera delle nostre mani rendi salda."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Signore, tu sei stato per noi un rifugio di generazione in generazione."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "D’âge en âge, Seigneur, tu as été notre refuge."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -2235,17 +1890,9 @@
                   "type": "text",
                   "text": "c’est un jour qui s’en va, une heure dans la nuit."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "D’âge en âge, Seigneur, tu as été notre refuge."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2269,17 +1916,9 @@
                   "type": "text",
                   "text": "le soir, elle est fanée, desséchée."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "D’âge en âge, Seigneur, tu as été notre refuge."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2303,17 +1942,9 @@
                   "type": "text",
                   "text": "Ravise-toi par égard pour tes serviteurs."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "D’âge en âge, Seigneur, tu as été notre refuge."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2337,29 +1968,11 @@
                   "type": "text",
                   "text": "Consolide pour nous l’ouvrage de nos mains."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "D’âge en âge, Seigneur, tu as été notre refuge."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, du bist unsere Zuflucht von Geschlecht zu Geschlecht."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -2377,17 +1990,9 @@
                   "type": "text",
                   "text": "wie eine Wache in der Nacht."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, du bist unsere Zuflucht von Geschlecht zu Geschlecht."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2411,17 +2016,9 @@
                   "type": "text",
                   "text": "am Abend wird es beschnitten und welkt."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, du bist unsere Zuflucht von Geschlecht zu Geschlecht."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2451,17 +2048,9 @@
                   "type": "text",
                   "text": "Hab Mitleid mit deinen Knechten!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, du bist unsere Zuflucht von Geschlecht zu Geschlecht."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2491,28 +2080,9 @@
                   "type": "text",
                   "text": "ja, lass gedeihen das Werk unsrer Hände!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, du bist unsere Zuflucht von Geschlecht zu Geschlecht."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 89, 3-4. 5-6. 12-13. 14 et 17",
-          "es": "Sal 89, 3-4. 5-6. 12-13. 14 et 17",
-          "en": "Ps 89:3-4, 5-6, 12-13, 14 and 17",
-          "pt-BR": "Sl 89, 3-4. 5-6. 12-13. 14 et 17",
-          "de": "Ps 90",
-          "it": "Sal 89, 3-4. 5-6. 12-13. 14 et 17",
-          "fr": "Ps 89, 3-4. 5-6. 12-13. 14 et 17"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -2536,7 +2106,9 @@
                 {
                   "type": "reference",
                   "text": "Cf. 2 Tim 1, 10"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Salvátor noster Iesus Christus destrúxit mortem, et illuminávit vitam per Evangélium. Allelúia."
@@ -2552,7 +2124,9 @@
                 {
                   "type": "reference",
                   "text": "Cf. 2 Tim 1, 10"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Nuestro Salvador, Cristo Jesús, destruyó la muerte e hizo brillar la vida por medio del Evangelio. Aleluya."

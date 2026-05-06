@@ -1038,28 +1038,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Læténtur cæli et exsúltet terra. Cantáte Dómino cánticum novum, cantáte Dómino, omnis terra. Cantáte Dómino, benedícite nómini eius, annuntiáte de die in diem salutáre eius. ℟. Læténtur cæli et exsúltet terra. Læténtur cæli et exsúltet terra, sonet mare et plenitúdo eius; gaudébunt campi et ómnia, quæ in eis sunt. ℟. Læténtur cæli et exsúltet terra. Tunc exsultábunt ómnia ligna silvárum a fácie Dómini, quia venit, quóniam venit iudicáre terram. Iudicábit orbem terræ in iustítia et pópulos in veritáte sua. ℟. Læténtur cæli et exsúltet terra.",
-            "es": "℟. Alégrese el cielo, goce la tierra. Cantad al Señor un cántico nuevo, cantad al Señor, toda la tierra; cantad al Señor, bendecid su nombre, proclamad día tras día su victoria. ℟. Alégrese el cielo, goce la tierra. Alégrese el cielo, goce la tierra, retumbe el mar y cuanto lo llena; vitoreen los campos y cuanto hay en ellos, aclamen los árboles del bosque. ℟. Alégrese el cielo, goce la tierra. Delante del Señor, que ya llega, ya llega a regir la tierra: regirá el orbe con justicia y los pueblos con fidelidad. ℟. Alégrese el cielo, goce la tierra.",
-            "en": "℟. Let heaven and earth exult in joy. O sing a new song to the Lord, sing to the Lord all the earth. O sing to the Lord, bless his name. Proclaim his help day by day. ℟. Let heaven and earth exult in joy. Let the heavens rejoice and earth be glad, let the sea and all within it thunder praise, let the land and all it bears rejoice, all the trees of the wood shout for joy. ℟. Let heaven and earth exult in joy. Let them rejoice at the presence of the Lord for he comes, he comes to rule the earth. With justice he will rule the world, he will judge the peoples with his truth. ℟. Let heaven and earth exult in joy.",
-            "pt-BR": "℟. O céu se rejubile e exulte a terra! Cantai ao Senhor Deus um canto novo, cantai ao Senhor Deus, ó terra inteira! Cantai e bendizei seu santo nome! Dia após dia anunciai sua salvação. ℟. O céu se rejubile e exulte a terra! O céu se rejubile e exulte a terra, aplauda o mar com o que vive em suas águas; os campos com seus frutos rejubilem e exultem as florestas e as matas. ℟. O céu se rejubile e exulte a terra! Na presença do Senhor, pois ele vem, porque vem para julgar a terra inteira. Governará o mundo todo com justiça, e os povos julgará com lealdade. ℟. O céu se rejubile e exulte a terra!",
-            "it": "℟. Gloria nei cieli e gioia sulla terra. Cantate al Signore un canto nuovo, cantate al Signore, uomini di tutta la terra. Cantate al Signore, benedite il suo nome, annunciate di giorno in giorno la sua salvezza. ℟. Gloria nei cieli e gioia sulla terra. Gioiscano i cieli, esulti la terra, risuoni il mare e quanto racchiude; sia in festa la campagna e quanto contiene, acclamino tutti gli alberi della foresta. ℟. Gloria nei cieli e gioia sulla terra. Davanti al Signore che viene: sì, egli viene a giudicare la terra; giudicherà il mondo con giustizia e nella sua fedeltà i popoli. ℟. Gloria nei cieli e gioia sulla terra.",
-            "fr": "℟. Joie au ciel ! Exulte la terre ! Chantez au Seigneur un chant nouveau, chantez au Seigneur, terre entière, chantez au Seigneur et bénissez son nom ! ℟. Joie au ciel ! Exulte la terre ! Joie au ciel ! Exulte la terre ! Les masses de la mer mugissent, la campagne tout entière est en fête. ℟. Joie au ciel ! Exulte la terre ! Les arbres des forêts dansent de joie devant la face du Seigneur, car il vient, car il vient pour juger la terre. ℟. Joie au ciel ! Exulte la terre !",
-            "de": "℟. Der Himmel freue sich, die Erde frohlocke. Singet dem Herrn ein neues Lied, singt dem Herrn, alle Länder der Erde! Singt dem Herrn und preist seinen Namen, verkündet sein Heil von Tag zu Tag! ℟. Der Himmel freue sich, die Erde frohlocke. Der Himmel freue sich, die Erde frohlocke, es brause das Meer und alles, was es erfüllt. Es jauchze die Flur und was auf ihr wächst. Jubeln sollen alle Bäume des Waldes. ℟. Der Himmel freue sich, die Erde frohlocke. Jubeln sollen alle vor dem Herrn, wenn er kommt, wenn er kommt, um die Erde zu richten. Er richtet den Erdkreis gerecht und die Nationen nach seiner Treue. ℟. Der Himmel freue sich, die Erde frohlocke."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 95, 1-2. 11-12a. 12b-13",
+          "es": "Sal 95, 1-2. 11-12a. 12b-13",
+          "en": "Ps 95:1-2, 11-12a, 12b-13",
+          "pt-BR": "Sl 95, 1-2. 11-12a. 12b-13",
+          "it": "Sal 95, 1-2. 11-12a. 12b-13",
+          "de": "Ps 96",
+          "fr": "Ps 95, 1-2. 11-12a. 12b-13"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Læténtur cæli et exsúltet terra."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Alégrese el cielo, goce la tierra."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "Let heaven and earth exult in joy."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "O céu se rejubile e exulte a terra!"
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Gloria nei cieli e gioia sulla terra."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Joie au ciel ! Exulte la terre !"
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Der Himmel freue sich, die Erde frohlocke."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -1083,17 +1133,9 @@
                   "type": "text",
                   "text": "annuntiáte de die in diem salutáre eius."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Læténtur cæli et exsúltet terra."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1111,17 +1153,9 @@
                   "type": "text",
                   "text": "gaudébunt campi et ómnia, quæ in eis sunt."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Læténtur cæli et exsúltet terra."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1139,29 +1173,11 @@
                   "type": "text",
                   "text": "Iudicábit orbem terræ in iustítia et pópulos in veritáte sua."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Læténtur cæli et exsúltet terra."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Alégrese el cielo, goce la tierra."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1185,17 +1201,9 @@
                   "type": "text",
                   "text": "proclamad día tras día su victoria."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Alégrese el cielo, goce la tierra."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1219,17 +1227,9 @@
                   "type": "text",
                   "text": "aclamen los árboles del bosque."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Alégrese el cielo, goce la tierra."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1247,89 +1247,37 @@
                   "type": "text",
                   "text": "regirá el orbe con justicia y los pueblos con fidelidad."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Alégrese el cielo, goce la tierra."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Let heaven and earth exult in joy."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "O sing a new song to the Lord, sing to the Lord all the earth. O sing to the Lord, bless his name. Proclaim his help day by day."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Let heaven and earth exult in joy."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Let the heavens rejoice and earth be glad, let the sea and all within it thunder praise, let the land and all it bears rejoice, all the trees of the wood shout for joy."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Let heaven and earth exult in joy."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Let them rejoice at the presence of the Lord for he comes, he comes to rule the earth. With justice he will rule the world, he will judge the peoples with his truth."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Let heaven and earth exult in joy."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O céu se rejubile e exulte a terra!"
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -1353,17 +1301,9 @@
                   "type": "text",
                   "text": "Dia após dia anunciai sua salvação."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O céu se rejubile e exulte a terra!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1381,17 +1321,9 @@
                   "type": "text",
                   "text": "os campos com seus frutos rejubilem e exultem as florestas e as matas."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O céu se rejubile e exulte a terra!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1415,29 +1347,11 @@
                   "type": "text",
                   "text": "e os povos julgará com lealdade."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O céu se rejubile e exulte a terra!"
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Gloria nei cieli e gioia sulla terra."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -1461,17 +1375,9 @@
                   "type": "text",
                   "text": "annunciate di giorno in giorno la sua salvezza."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Gloria nei cieli e gioia sulla terra."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1495,17 +1401,9 @@
                   "type": "text",
                   "text": "acclamino tutti gli alberi della foresta."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Gloria nei cieli e gioia sulla terra."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1523,29 +1421,11 @@
                   "type": "text",
                   "text": "giudicherà il mondo con giustizia e nella sua fedeltà i popoli."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Gloria nei cieli e gioia sulla terra."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Joie au ciel ! Exulte la terre !"
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -1563,17 +1443,9 @@
                   "type": "text",
                   "text": "chantez au Seigneur et bénissez son nom !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Joie au ciel ! Exulte la terre !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1597,17 +1469,9 @@
                   "type": "text",
                   "text": "la campagne tout entière est en fête."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Joie au ciel ! Exulte la terre !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1619,29 +1483,11 @@
                   "type": "text",
                   "text": "car il vient pour juger la terre."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Joie au ciel ! Exulte la terre !"
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Himmel freue sich, die Erde frohlocke."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -1665,17 +1511,9 @@
                   "type": "text",
                   "text": "verkündet sein Heil von Tag zu Tag!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Himmel freue sich, die Erde frohlocke."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1705,17 +1543,9 @@
                   "type": "text",
                   "text": "Jubeln sollen alle Bäume des Waldes."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Himmel freue sich, die Erde frohlocke."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1733,28 +1563,9 @@
                   "type": "text",
                   "text": "Er richtet den Erdkreis gerecht und die Nationen nach seiner Treue."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Himmel freue sich, die Erde frohlocke."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 95, 1-2. 11-12a. 12b-13",
-          "es": "Sal 95, 1-2. 11-12a. 12b-13",
-          "en": "Ps 95:1-2, 11-12a, 12b-13",
-          "pt-BR": "Sl 95, 1-2. 11-12a. 12b-13",
-          "it": "Sal 95, 1-2. 11-12a. 12b-13",
-          "de": "Ps 96",
-          "fr": "Ps 95, 1-2. 11-12a. 12b-13"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -1778,7 +1589,9 @@
                 {
                   "type": "reference",
                   "text": "Io 1, 14a. 12a"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Verbum caro factum est et habitávit in nobis. Quotquot accepérunt eum, dedit eis potestátem fílios Dei fíeri. Allelúia."
@@ -1794,7 +1607,9 @@
                 {
                   "type": "reference",
                   "text": "Jn 1, 14a. 12a"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. El Verbo se hizo carne y habitó entre nosotros; a cuantos lo recibieron, les dio poder de ser hijos de Dios. Aleluya."

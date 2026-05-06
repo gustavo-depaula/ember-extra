@@ -228,28 +228,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Ecce Deus ádiuvat me. Deus, in nómine tuo salvum me fac, et in virtúte tua iúdica me. Deus, exáudi oratiónem meam, áuribus pércipe verba oris mei. ℟. Ecce Deus ádiuvat me. Ecce enim Deus ádiuvat me, et Dóminus suscéptor est ánimæ meæ. Voluntárie sacrificábo tibi, confitébor nómini tuo, Dómine, quóniam bonum est. ℟. Ecce Deus ádiuvat me.",
-            "es": "℟. Dios es mi auxilio. Oh Dios, sálvame por tu nombre, sal por mí con tu poder. Oh Dios, escucha mi súplica, atiende a mis palabras. ℟. Dios es mi auxilio. Dios es mi auxilio, el Señor sostiene mi vida. Te ofreceré un sacrificio voluntario, dando gracias a tu nombre, que es bueno. ℟. Dios es mi auxilio.",
-            "en": "℟. God himself is my help. O God, save me by your name; by your power, uphold my cause. O God, hear my prayer; listen to the words of my mouth. ℟. God himself is my help. But I have God for my help. The Lord upholds my life. I will sacrifice to you with willing heart and praise your name for it is good. ℟. God himself is my help.",
-            "pt-BR": "℟. Quem me protege e me ampara é meu Deus. Por vosso nome, salvai-me, Senhor; e dai-me a vossa justiça! Ó meu Deus, atendei minha prece e escutai as palavras que eu digo! ℟. Quem me protege e me ampara é meu Deus. Quem me protege e me ampara é meu Deus; é o Senhor quem sustenta minha vida! Quero ofertar-vos o meu sacrifício de coração e com muita alegria; quero louvar, ó Senhor, vosso nome, quero cantar vosso nome que é bom! ℟. Quem me protege e me ampara é meu Deus.",
-            "it": "℟. Dio è il mio aiuto. Dio, per il tuo nome salvami, per la tua potenza rendimi giustizia. Dio, ascolta la mia preghiera, porgi l’orecchio alle parole della mia bocca. ℟. Dio è il mio aiuto. Ecco, Dio è il mio aiuto, il Signore sostiene la mia vita. Ti offrirò un sacrificio spontaneo, loderò il tuo nome, Signore, perché è buono. ℟. Dio è il mio aiuto.",
-            "fr": "℟. Voici que Dieu vient à mon aide. Par ton nom, Dieu, sauve-moi, par ta puissance rends-moi justice ; Dieu, entends ma prière, écoute les paroles de ma bouche. ℟. Voici que Dieu vient à mon aide. Voici que Dieu vient à mon aide, le Seigneur est mon appui entre tous. De grand cœur, je t’offrirai le sacrifice, je rendrai grâce à ton nom, car il est bon ! ℟. Voici que Dieu vient à mon aide.",
-            "de": "℟. Gott ist mein Helfer, der Herr beschützt mein Leben. Hilf mir, Gott, durch deinen Namen, verschaff mir Recht mit deiner Kraft! Gott, höre mein Flehen, vernimm die Worte meines Mundes! ℟. Gott ist mein Helfer, der Herr beschützt mein Leben. Gott ist mein Helfer, der Herr beschützt mein Leben. Freudig bringe ich dir dann mein Opfer dar und lobe deinen Namen, Herr; denn du bist gütig. ℟. Gott ist mein Helfer, der Herr beschützt mein Leben."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 53, 3-4. 6 et 8",
+          "es": "Sal 53, 3-4. 6 et 8",
+          "pt-BR": "Sl 53, 3-4. 6 et 8",
+          "de": "Ps 54",
+          "en": "Ps 53:3-4, 6 and 8",
+          "it": "Sal 53, 3-4. 6 et 8",
+          "fr": "Ps 53, 3-4. 6 et 8"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Ecce Deus ádiuvat me."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Dios es mi auxilio."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "God himself is my help."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Quem me protege e me ampara é meu Deus."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Dio è il mio aiuto."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Voici que Dieu vient à mon aide."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Gott ist mein Helfer, der Herr beschützt mein Leben."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -279,17 +329,9 @@
                   "type": "text",
                   "text": "áuribus pércipe verba oris mei."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ecce Deus ádiuvat me."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -313,29 +355,11 @@
                   "type": "text",
                   "text": "confitébor nómini tuo, Dómine, quóniam bonum est."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ecce Deus ádiuvat me."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dios es mi auxilio."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -365,17 +389,9 @@
                   "type": "text",
                   "text": "atiende a mis palabras."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dios es mi auxilio."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -399,73 +415,29 @@
                   "type": "text",
                   "text": "dando gracias a tu nombre, que es bueno."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dios es mi auxilio."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "God himself is my help."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "O God, save me by your name; by your power, uphold my cause. O God, hear my prayer; listen to the words of my mouth."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "God himself is my help."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "But I have God for my help. The Lord upholds my life. I will sacrifice to you with willing heart and praise your name for it is good."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "God himself is my help."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Quem me protege e me ampara é meu Deus."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -483,17 +455,9 @@
                   "type": "text",
                   "text": "Ó meu Deus, atendei minha prece e escutai as palavras que eu digo!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Quem me protege e me ampara é meu Deus."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -523,29 +487,11 @@
                   "type": "text",
                   "text": "quero cantar vosso nome que é bom!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Quem me protege e me ampara é meu Deus."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dio è il mio aiuto."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -569,17 +515,9 @@
                   "type": "text",
                   "text": "porgi l’orecchio alle parole della mia bocca."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dio è il mio aiuto."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -603,29 +541,11 @@
                   "type": "text",
                   "text": "loderò il tuo nome, Signore, perché è buono."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dio è il mio aiuto."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Voici que Dieu vient à mon aide."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -655,17 +575,9 @@
                   "type": "text",
                   "text": "écoute les paroles de ma bouche."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Voici que Dieu vient à mon aide."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -689,29 +601,11 @@
                   "type": "text",
                   "text": "je rendrai grâce à ton nom, car il est bon !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Voici que Dieu vient à mon aide."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Gott ist mein Helfer, der Herr beschützt mein Leben."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -735,17 +629,9 @@
                   "type": "text",
                   "text": "vernimm die Worte meines Mundes!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Gott ist mein Helfer, der Herr beschützt mein Leben."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -763,28 +649,9 @@
                   "type": "text",
                   "text": "Freudig bringe ich dir dann mein Opfer dar und lobe deinen Namen, Herr; denn du bist gütig."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Gott ist mein Helfer, der Herr beschützt mein Leben."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 53, 3-4. 6 et 8",
-          "es": "Sal 53, 3-4. 6 et 8",
-          "pt-BR": "Sl 53, 3-4. 6 et 8",
-          "de": "Ps 54",
-          "en": "Ps 53:3-4, 6 and 8",
-          "it": "Sal 53, 3-4. 6 et 8",
-          "fr": "Ps 53, 3-4. 6 et 8"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -808,7 +675,9 @@
                 {
                   "type": "reference",
                   "text": "Io 14, 6"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Ego sum via et véritas et vita, dicit Dóminus; nemo venit ad Patrem nisi per me. Allelúia."
@@ -824,7 +693,9 @@
                 {
                   "type": "reference",
                   "text": "Jn 14, 6"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Yo soy el camino y la verdad y la vida —dice el Señor—; nadie va al Padre sino por mí. Aleluya."
@@ -1341,28 +1212,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Prope est Dóminus ómnibus invocántibus eum. Iustus Dóminus in ómnibus viis suis, et sanctus in ómnibus opéribus suis. Prope est Dóminus ómnibus invocántibus eum, ómnibus invocántibus eum in veritáte. ℟. Prope est Dóminus ómnibus invocántibus eum. Voluntátem timéntium se fáciet, et deprecatiónem eórum exáudiet, et salvos fáciet eos. Custódit Dóminus omnes diligéntes se, et omnes peccatóres dispérdet. ℟. Prope est Dóminus ómnibus invocántibus eum. Laudatiónem Dómini loquétur os meum, et benedícat omnis caro nómini sancto eius in sǽculum et in sǽculum sǽculi. ℟. Prope est Dóminus ómnibus invocántibus eum.",
-            "es": "℟. Cerca está el Señor de los que lo invocan. El Señor es justo en todos sus caminos, es bondadoso en todas sus acciones. Cerca está el Señor de los que lo invocan, de los que lo invocan sinceramente. ℟. Cerca está el Señor de los que lo invocan. Satisface los deseos de los que lo temen, escucha sus gritos, y los salva. El Señor guarda a los que lo aman, pero destruye a los malvados. ℟. Cerca está el Señor de los que lo invocan. Pronuncie mi boca la alabanza del Señor, todo viviente bendiga su santo nombre por siempre jamás. ℟. Cerca está el Señor de los que lo invocan.",
-            "en": "℟. The Lord is near to all who call him. The Lord is just in all his ways and loving in all his deeds. He is close to all who call him, who call on him from their hearts. ℟. The Lord is near to all who call him. He grants the desires of those who fear him, he hears their cry and he saves them. The Lord protects all who love him; but the wicked he will utterly destroy. ℟. The Lord is near to all who call him. Let me speak the praise of the Lord, let all mankind bless his holy name for ever, for ages unending. ℟. The Lord is near to all who call him.",
-            "pt-BR": "℟. O Senhor está perto de quem o invoca! É justo o Senhor em seus caminhos, é santo em toda obra que ele faz. Ele está perto da pessoa que o invoca, de todo aquele que o invoca lealmente. ℟. O Senhor está perto de quem o invoca! O Senhor cumpre os desejos dos que o temem, ele escuta os seus clamores e os salva. O Senhor guarda todo aquele que o ama, mas dispersa e extermina os que são ímpios. ℟. O Senhor está perto de quem o invoca! Que a minha boca cante a glória do Senhor e que bendiga todo ser seu nome santo desde agora, para sempre e pelos séculos. ℟. O Senhor está perto de quem o invoca!.",
-            "it": "℟. Il Signore è vicino a chiunque lo invoca. Giusto è il Signore in tutte le sue vie e buono in tutte le sue opere. Il Signore è vicino a chiunque lo invoca, a quanti lo invocano con sincerità. ℟. Il Signore è vicino a chiunque lo invoca. Appaga il desiderio di quelli che lo temono, ascolta il loro grido e li salva. Il Signore custodisce tutti quelli che lo amano, ma distrugge tutti i malvagi. ℟. Il Signore è vicino a chiunque lo invoca. Canti la mia bocca la lode del Signore e benedica ogni vivente il suo santo nome, in eterno e per sempre. ℟. Il Signore è vicino a chiunque lo invoca.",
-            "fr": "℟. Proche est le Seigneur de ceux qui l’invoquent. Le Seigneur est juste en toutes ses voies, fidèle en tout ce qu’il fait. Il est proche de ceux qui l’invoquent, de tous ceux qui l’invoquent en vérité. ℟. Proche est le Seigneur de ceux qui l’invoquent. Il répond au désir de ceux qui le craignent ; il écoute leur cri : il les sauve. Le Seigneur gardera tous ceux qui l’aiment, mais il détruira tous les impies. ℟. Proche est le Seigneur de ceux qui l’invoquent. Que ma bouche proclame les louanges du Seigneur ! Son nom très saint, que toute chair le bénisse toujours et à jamais ! ℟. Proche est le Seigneur de ceux qui l’invoquent.",
-            "de": "℟. Der Herr ist nahe allen, die zu ihm rufen. Gerecht ist der Herr in allem, was er tut, voll Huld in all seinen Werken. Der Herr ist allen, die ihn anrufen, nahe, allen, die zu ihm aufrichtig rufen. ℟. Der Herr ist nahe allen, die zu ihm rufen. Der Herr stützt alle, die fallen, und richtet alle Gebeugten auf. Die Wünsche derer, die ihn fürchten, erfüllt er, er hört ihr Schreien und rettet sie. ℟. Der Herr ist nahe allen, die zu ihm rufen. Alle, die ihn lieben, behütet der Herr, doch alle Frevler vernichtet er. Mein Mund verkünde das Lob des Herrn. Alles, was lebt, preise seinen heiligen Namen immer und ewig! ℟. Der Herr ist nahe allen, die zu ihm rufen."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 144, 17-18. 19-20. 21",
+          "es": "Sal 144, 17-18. 19-20. 21",
+          "pt-BR": "Sl 144, 17-18. 19-20. 21",
+          "de": "Ps 145",
+          "en": "Ps 144:17-18, 19-20, 21",
+          "it": "Sal 144, 17-18. 19-20. 21",
+          "fr": "Ps 144, 17-18. 19-20. 21"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Prope est Dóminus ómnibus invocántibus eum."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Cerca está el Señor de los que lo invocan."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "The Lord is near to all who call him."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "O Senhor está perto de quem o invoca!."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Il Signore è vicino a chiunque lo invoca."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Proche est le Seigneur de ceux qui l’invoquent."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Der Herr ist nahe allen, die zu ihm rufen."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -1386,17 +1307,9 @@
                   "type": "text",
                   "text": "ómnibus invocántibus eum in veritáte."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Prope est Dóminus ómnibus invocántibus eum."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1420,17 +1333,9 @@
                   "type": "text",
                   "text": "et omnes peccatóres dispérdet."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Prope est Dóminus ómnibus invocántibus eum."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1442,29 +1347,11 @@
                   "type": "text",
                   "text": "et benedícat omnis caro nómini sancto eius in sǽculum et in sǽculum sǽculi."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Prope est Dóminus ómnibus invocántibus eum."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Cerca está el Señor de los que lo invocan."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1488,17 +1375,9 @@
                   "type": "text",
                   "text": "de los que lo invocan sinceramente."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Cerca está el Señor de los que lo invocan."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1522,17 +1401,9 @@
                   "type": "text",
                   "text": "pero destruye a los malvados."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Cerca está el Señor de los que lo invocan."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1544,89 +1415,37 @@
                   "type": "text",
                   "text": "todo viviente bendiga su santo nombre por siempre jamás."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Cerca está el Señor de los que lo invocan."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord is near to all who call him."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "The Lord is just in all his ways and loving in all his deeds. He is close to all who call him, who call on him from their hearts."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord is near to all who call him."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "He grants the desires of those who fear him, he hears their cry and he saves them. The Lord protects all who love him; but the wicked he will utterly destroy."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord is near to all who call him."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Let me speak the praise of the Lord, let all mankind bless his holy name for ever, for ages unending."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord is near to all who call him."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor está perto de quem o invoca!"
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -1650,17 +1469,9 @@
                   "type": "text",
                   "text": "de todo aquele que o invoca lealmente."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor está perto de quem o invoca!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1684,45 +1495,19 @@
                   "type": "text",
                   "text": "mas dispersa e extermina os que são ímpios."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor está perto de quem o invoca!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Que a minha boca cante a glória do Senhor e que bendiga todo ser seu nome santo desde agora, para sempre e pelos séculos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor está perto de quem o invoca!."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore è vicino a chiunque lo invoca."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -1740,17 +1525,9 @@
                   "type": "text",
                   "text": "a quanti lo invocano con sincerità."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore è vicino a chiunque lo invoca."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1774,17 +1551,9 @@
                   "type": "text",
                   "text": "ma distrugge tutti i malvagi."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore è vicino a chiunque lo invoca."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1796,29 +1565,11 @@
                   "type": "text",
                   "text": "in eterno e per sempre."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore è vicino a chiunque lo invoca."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Proche est le Seigneur de ceux qui l’invoquent."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -1842,17 +1593,9 @@
                   "type": "text",
                   "text": "de tous ceux qui l’invoquent en vérité."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Proche est le Seigneur de ceux qui l’invoquent."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1876,17 +1619,9 @@
                   "type": "text",
                   "text": "mais il détruira tous les impies."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Proche est le Seigneur de ceux qui l’invoquent."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1898,29 +1633,11 @@
                   "type": "text",
                   "text": "Son nom très saint, que toute chair le bénisse toujours et à jamais !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Proche est le Seigneur de ceux qui l’invoquent."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Herr ist nahe allen, die zu ihm rufen."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -1944,17 +1661,9 @@
                   "type": "text",
                   "text": "allen, die zu ihm aufrichtig rufen."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Herr ist nahe allen, die zu ihm rufen."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1978,17 +1687,9 @@
                   "type": "text",
                   "text": "er hört ihr Schreien und rettet sie."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Herr ist nahe allen, die zu ihm rufen."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2012,28 +1713,9 @@
                   "type": "text",
                   "text": "Alles, was lebt, preise seinen heiligen Namen immer und ewig!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Herr ist nahe allen, die zu ihm rufen."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 144, 17-18. 19-20. 21",
-          "es": "Sal 144, 17-18. 19-20. 21",
-          "pt-BR": "Sl 144, 17-18. 19-20. 21",
-          "de": "Ps 145",
-          "en": "Ps 144:17-18, 19-20, 21",
-          "it": "Sal 144, 17-18. 19-20. 21",
-          "fr": "Ps 144, 17-18. 19-20. 21"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -2057,7 +1739,9 @@
                 {
                   "type": "reference",
                   "text": "Io 14, 6"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Ego sum via et véritas et vita, dicit Dóminus; nemo venit ad Patrem nisi per me. Allelúia."
@@ -2073,7 +1757,9 @@
                 {
                   "type": "reference",
                   "text": "Jn 14, 6"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Yo soy el camino y la verdad y la vida —dice el Señor—; nadie va al Padre sino por mí. Aleluya."

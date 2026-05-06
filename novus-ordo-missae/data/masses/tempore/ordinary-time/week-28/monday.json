@@ -228,28 +228,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Notum fecit Dóminus salutáre suum. Cantáte Dómino cánticum novum, quia mirabília fecit. Salvávit sibi déxtera eius, et bráchium sanctum eius. ℟. Notum fecit Dóminus salutáre suum. Notum fecit Dóminus salutáre suum, in conspéctu géntium revelávit iustítiam suam. Recordátus est misericórdiæ suæ et veritátis suæ dómui Israel. ℟. Notum fecit Dóminus salutáre suum. Vidérunt omnes términi terræ salutáre Dei nostri. Iubiláte Deo, omnis terra, erúmpite, exsultáte et psállite. ℟. Notum fecit Dóminus salutáre suum.",
-            "es": "℟. El Señor da a conocer su salvación. Cantad al Señor un cántico nuevo, porque ha hecho maravillas. Su diestra le ha dado la victoria, su santo brazo. ℟. El Señor da a conocer su salvación. El Señor da a conocer su salvación, revela a las naciones su justicia. Se acordó de su misericordia y su fidelidad en favor de la casa de Israel. ℟. El Señor da a conocer su salvación. Los confines de la tierra han contemplado la salvación de nuestro Dios. Aclama al Señor, tierra entera; gritad, vitoread, tocad. ℟. El Señor da a conocer su salvación.",
-            "en": "℟. The Lord has made known his salvation. Sing a new song to the Lord for he has worked wonders. His right hand and his holy arm have brought salvation. ℟. The Lord has made known his salvation. The Lord has made known his salvation; has shown his justice to the nations. he has remembered his truth and love for the house of Israel. ℟. The Lord has made known his salvation. All the ends of the earth have seen the salvation of our God. Shout to the Lord all the earth, ring out your joy. ℟. The Lord has made known his salvation.",
-            "pt-BR": "℟. O Senhor fez conhecer a salvação. Cantai ao Senhor Deus um canto novo, porque ele fez prodígios! Sua mão e o seu braço forte e santo alcançaram-lhe a vitória. ℟. O Senhor fez conhecer a salvação. O Senhor fez conhecer a salvação, e às nações, sua justiça; recordou o seu amor sempre fiel pela casa de Israel. ℟. O Senhor fez conhecer a salvação. Os confins do universo contemplaram da salvação do nosso Deus. Aclamai o Senhor Deus, ó terra inteira, alegrai-vos e exultai! ℟. O Senhor fez conhecer a salvação.",
-            "it": "℟. Il Signore si è ricordato del suo amore. Cantate al Signore un canto nuovo, perché ha compiuto meraviglie. Gli ha dato vittoria la sua destra e il suo braccio santo. ℟. Il Signore si è ricordato del suo amore. Il Signore ha fatto conoscere la sua salvezza, agli occhi delle genti ha rivelato la sua giustizia. Egli si è ricordato del suo amore, della sua fedeltà alla casa d’Israele. ℟. Il Signore si è ricordato del suo amore. Tutti i confini della terra hanno veduto la vittoria del nostro Dio. Acclami il Signore tutta la terra, gridate, esultate, cantate inni! ℟. Il Signore si è ricordato del suo amore.",
-            "fr": "℟. Le Seigneur a fait connaître son salut. Chantez au Seigneur un chant nouveau, car il a fait des merveilles ; par son bras très saint, par sa main puissante, il s’est assuré la victoire. ℟. Le Seigneur a fait connaître son salut. Le Seigneur a fait connaître sa victoire et révélé sa justice aux nations ; il s’est rappelé sa fidélité, son amour, en faveur de la maison d’Israël. ℟. Le Seigneur a fait connaître son salut. La terre tout entière a vu la victoire de notre Dieu. Acclamez le Seigneur, terre entière, sonnez, chantez, jouez ! ℟. Le Seigneur a fait connaître son salut.",
-            "de": "℟. Der Herr hat sein Heil enthüllt vor den Augen der Völker. Singet dem Herrn ein neues Lied; denn er hat wunderbare Taten vollbracht. Er hat mit seiner Rechten geholfen und mit seinem heiligen Arm. ℟. Der Herr hat sein Heil enthüllt vor den Augen der Völker. Der Herr hat sein Heil bekannt gemacht und sein gerechtes Wirken enthüllt vor den Augen der Völker. Er dachte an seine Huld und an seine Treue zum Hause Israel. ℟. Der Herr hat sein Heil enthüllt vor den Augen der Völker. Alle Enden der Erde sahen das Heil unsres Gottes. Jauchzt vor dem Herrn, alle Länder der Erde, freut euch, jubelt und singt! ℟. Der Herr hat sein Heil enthüllt vor den Augen der Völker."
-          },
-          "lines": {
+        "citation": {
+          "pt-BR": "Sl 97",
+          "de": "Ps 98",
+          "la": "Ps 97",
+          "en": "Ps 97",
+          "es": "Sal 97",
+          "it": "Sal 97",
+          "fr": "Ps 97"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Notum fecit Dóminus salutáre suum."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "El Señor da a conocer su salvación."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "The Lord has made known his salvation."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "O Senhor fez conhecer a salvação."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Il Signore si è ricordato del suo amore."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Le Seigneur a fait connaître son salut."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Der Herr hat sein Heil enthüllt vor den Augen der Völker."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -273,17 +323,9 @@
                   "type": "text",
                   "text": "et bráchium sanctum eius."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Notum fecit Dóminus salutáre suum."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -301,17 +343,9 @@
                   "type": "text",
                   "text": "Recordátus est misericórdiæ suæ et veritátis suæ dómui Israel."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Notum fecit Dóminus salutáre suum."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -335,29 +369,11 @@
                   "type": "text",
                   "text": "erúmpite, exsultáte et psállite."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Notum fecit Dóminus salutáre suum."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor da a conocer su salvación."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -381,17 +397,9 @@
                   "type": "text",
                   "text": "su santo brazo."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor da a conocer su salvación."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -409,17 +417,9 @@
                   "type": "text",
                   "text": "Se acordó de su misericordia y su fidelidad en favor de la casa de Israel."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor da a conocer su salvación."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -437,45 +437,19 @@
                   "type": "text",
                   "text": "gritad, vitoread, tocad."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor da a conocer su salvación."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord has made known his salvation."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "Sing a new song to the Lord for he has worked wonders. His right hand and his holy arm have brought salvation."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord has made known his salvation."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -487,45 +461,19 @@
                   "type": "text",
                   "text": "he has remembered his truth and love for the house of Israel."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord has made known his salvation."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "All the ends of the earth have seen the salvation of our God. Shout to the Lord all the earth, ring out your joy."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord has made known his salvation."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor fez conhecer a salvação."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -543,17 +491,9 @@
                   "type": "text",
                   "text": "Sua mão e o seu braço forte e santo alcançaram-lhe a vitória."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor fez conhecer a salvação."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -571,17 +511,9 @@
                   "type": "text",
                   "text": "recordou o seu amor sempre fiel pela casa de Israel."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor fez conhecer a salvação."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -599,29 +531,11 @@
                   "type": "text",
                   "text": "alegrai-vos e exultai!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor fez conhecer a salvação."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore si è ricordato del suo amore."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -639,17 +553,9 @@
                   "type": "text",
                   "text": "Gli ha dato vittoria la sua destra e il suo braccio santo."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore si è ricordato del suo amore."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -673,17 +579,9 @@
                   "type": "text",
                   "text": "della sua fedeltà alla casa d’Israele."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore si è ricordato del suo amore."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -701,29 +599,11 @@
                   "type": "text",
                   "text": "gridate, esultate, cantate inni!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore si è ricordato del suo amore."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur a fait connaître son salut."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -747,17 +627,9 @@
                   "type": "text",
                   "text": "il s’est assuré la victoire."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur a fait connaître son salut."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -775,17 +647,9 @@
                   "type": "text",
                   "text": "en faveur de la maison d’Israël."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur a fait connaître son salut."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -803,29 +667,11 @@
                   "type": "text",
                   "text": "sonnez, chantez, jouez !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur a fait connaître son salut."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Herr hat sein Heil enthüllt vor den Augen der Völker."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -843,17 +689,9 @@
                   "type": "text",
                   "text": "Er hat mit seiner Rechten geholfen und mit seinem heiligen Arm."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Herr hat sein Heil enthüllt vor den Augen der Völker."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -865,17 +703,9 @@
                   "type": "text",
                   "text": "Er dachte an seine Huld und an seine Treue zum Hause Israel."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Herr hat sein Heil enthüllt vor den Augen der Völker."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -893,28 +723,9 @@
                   "type": "text",
                   "text": "freut euch, jubelt und singt!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Herr hat sein Heil enthüllt vor den Augen der Völker."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "pt-BR": "Sl 97",
-          "de": "Ps 98",
-          "la": "Ps 97",
-          "en": "Ps 97",
-          "es": "Sal 97",
-          "it": "Sal 97",
-          "fr": "Ps 97"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -938,7 +749,9 @@
                 {
                   "type": "reference",
                   "text": "Cf. Ps 94, 8"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Hódie, nolíte obduráre corda vestra, sed vocem Dómini audíte. Allelúia."
@@ -954,7 +767,9 @@
                 {
                   "type": "reference",
                   "text": "Cf. Ps 94, 8"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. No endurezcáis hoy vuestro corazón; escuchad la voz del Señor. Aleluya."
@@ -1471,28 +1286,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Sit nomen Dómini benedíctum in sǽcula! Laudáte, púeri Dómini, laudáte nomen Dómini. Sit nomen Dómini benedíctum ex hoc nunc et usque in sǽculum. ℟. Sit nomen Dómini benedíctum in sǽcula! A solis ortu usque ad occásum laudábile nomen Dómini. Excélsus super omnes gentes Dóminus, super cælos glória eius. ℟. Sit nomen Dómini benedíctum in sǽcula! Quis sicut Dóminus Deus noster, et humília réspicit in cælo et in terra? Súscitans de terra ínopem, de stércore érigens páuperem. ℟. Sit nomen Dómini benedíctum in sǽcula!",
-            "es": "℟. Bendito sea el nombre del Señor por siempre. Alabad, siervos del Señor, alabad el nombre del Señor. Bendito sea el nombre del Señor, ahora y por siempre. ℟. Bendito sea el nombre del Señor por siempre. De la salida del sol hasta su ocaso, alabado sea el nombre del Señor. El Señor se eleva sobre todos los pueblos, su gloria sobre los cielos. ℟. Bendito sea el nombre del Señor por siempre. ¿Quién como el Señor, Dios nuestro, que se abaja para mirar al cielo y a la tierra? Levanta del polvo al desvalido, alza de la basura al pobre. ℟. Bendito sea el nombre del Señor por siempre.",
-            "en": "℟. Blessed be the name of the Lord for ever. Praise, O servants of the Lord, praise the name of the Lord! May the name of the Lord be blessed both now and for evermore! ℟. Blessed be the name of the Lord for ever. From the rising of the sun to its setting praised be the name of the Lord! High above all nations is the Lord, above the heavens his glory. ℟. Blessed be the name of the Lord for ever. Who is like the Lord, our God, who has risen on high to his throne yet stoops from the heights to look down, to look down upon heaven and earth? From the dust he lifts up the lowly, from the dungheap he raises the poor. ℟. Blessed be the name of the Lord for ever.",
-            "pt-BR": "℟. Bendito seja o nome do Senhor, agora e para sempre! Louvai, louvai, ó servos do Senhor, louvai, louvai o nome do Senhor! Bendito seja o nome do Senhor, agora e por toda a eternidade! ℟. Bendito seja o nome do Senhor, agora e para sempre! Do nascer do sol até o seu ocaso, louvado seja o nome do Senhor! O Senhor está acima das nações, sua glória vai além dos altos céus. ℟. Bendito seja o nome do Senhor, agora e para sempre! Quem pode comparar-se ao nosso Deus, que se inclina para olhar o céu e a terra? Levanta da poeira o indigente e do lixo ele retira o pobrezinho. ℟. Bendito seja o nome do Senhor, agora e para sempre!.",
-            "it": "℟. Sia benedetto il nome del Signore, da ora e per sempre. Lodate, servi del Signore, lodate il nome del Signore. Sia benedetto il nome del Signore, da ora e per sempre. ℟. Sia benedetto il nome del Signore, da ora e per sempre. Dal sorgere del sole al suo tramonto sia lodato il nome del Signore. Su tutte le genti eccelso è il Signore, più alta dei cieli è la sua gloria. ℟. Sia benedetto il nome del Signore, da ora e per sempre. Chi è come il Signore, nostro Dio, che si china a guardare sui cieli e sulla terra? Solleva dalla polvere il debole, dall’immondizia rialza il povero. ℟. Sia benedetto il nome del Signore, da ora e per sempre.",
-            "fr": "℟. Béni soit le nom du Seigneur, maintenant et pour les siècles des siècles ! Louez, serviteurs du Seigneur, louez le nom du Seigneur ! Béni soit le nom du Seigneur, maintenant et pour les siècles des siècles ! ℟. Béni soit le nom du Seigneur, maintenant et pour les siècles des siècles ! Du levant au couchant du soleil, loué soit le nom du Seigneur ! Le Seigneur domine tous les peuples, sa gloire domine les cieux. ℟. Béni soit le nom du Seigneur, maintenant et pour les siècles des siècles ! Qui est semblable au Seigneur notre Dieu ? Il abaisse son regard vers le ciel et vers la terre. De la poussière il relève le faible, il retire le pauvre de la cendre. ℟. Béni soit le nom du Seigneur, maintenant et pour les siècles des siècles !",
-            "de": "℟. Der Name des Herrn sei gepriesen von nun an bis in Ewigkeit. Lobet, ihr Knechte des Herrn, lobt den Namen des Herrn! Der Name des Herrn sei gepriesen von nun an bis in Ewigkeit. ℟. Der Name des Herrn sei gepriesen von nun an bis in Ewigkeit. Vom Aufgang der Sonne bis zum Untergang sei der Name des Herrn gelobt. Der Herr ist erhaben über alle Völker, seine Herrlichkeit überragt die Himmel. ℟. Der Name des Herrn sei gepriesen von nun an bis in Ewigkeit. Wer gleicht dem Herrn, unserm Gott, ihm, der in der Höhe thront, der hinabschaut in die Tiefe, der den Schwachen aus dem Staub emporhebt und den Armen erhöht, der im Schmutz liegt? ℟. Der Name des Herrn sei gepriesen von nun an bis in Ewigkeit."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 112, 1-2. 3-4. 5a et 6-7",
+          "es": "Sal 112, 1-2. 3-4. 5a et 6-7",
+          "en": "Ps 112:1-2, 3-4, 5a and 6-7",
+          "pt-BR": "Sl 112, 1-2. 3-4. 5a et 6-7",
+          "de": "Ps 113",
+          "it": "Sal 112, 1-2. 3-4. 5a et 6-7",
+          "fr": "Ps 112, 1-2. 3-4. 5a et 6-7"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Sit nomen Dómini benedíctum in sǽcula!"
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Bendito sea el nombre del Señor por siempre."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "Blessed be the name of the Lord for ever."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Bendito seja o nome do Senhor, agora e para sempre!."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Sia benedetto il nome del Signore, da ora e per sempre."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Béni soit le nom du Seigneur, maintenant et pour les siècles des siècles !"
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Der Name des Herrn sei gepriesen von nun an bis in Ewigkeit."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -1510,17 +1375,9 @@
                   "type": "text",
                   "text": "Sit nomen Dómini benedíctum ex hoc nunc et usque in sǽculum."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Sit nomen Dómini benedíctum in sǽcula!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1538,17 +1395,9 @@
                   "type": "text",
                   "text": "super cælos glória eius."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Sit nomen Dómini benedíctum in sǽcula!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1572,29 +1421,11 @@
                   "type": "text",
                   "text": "de stércore érigens páuperem."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Sit nomen Dómini benedíctum in sǽcula!"
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Bendito sea el nombre del Señor por siempre."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1618,17 +1449,9 @@
                   "type": "text",
                   "text": "ahora y por siempre."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Bendito sea el nombre del Señor por siempre."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1652,17 +1475,9 @@
                   "type": "text",
                   "text": "su gloria sobre los cielos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Bendito sea el nombre del Señor por siempre."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1686,45 +1501,19 @@
                   "type": "text",
                   "text": "alza de la basura al pobre."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Bendito sea el nombre del Señor por siempre."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Blessed be the name of the Lord for ever."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "Praise, O servants of the Lord, praise the name of the Lord! May the name of the Lord be blessed both now and for evermore!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Blessed be the name of the Lord for ever."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1736,45 +1525,19 @@
                   "type": "text",
                   "text": "High above all nations is the Lord, above the heavens his glory."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Blessed be the name of the Lord for ever."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Who is like the Lord, our God, who has risen on high to his throne yet stoops from the heights to look down, to look down upon heaven and earth? From the dust he lifts up the lowly, from the dungheap he raises the poor."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Blessed be the name of the Lord for ever."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Bendito seja o nome do Senhor, agora e para sempre!"
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -1798,17 +1561,9 @@
                   "type": "text",
                   "text": "agora e por toda a eternidade!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Bendito seja o nome do Senhor, agora e para sempre!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1832,17 +1587,9 @@
                   "type": "text",
                   "text": "sua glória vai além dos altos céus."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Bendito seja o nome do Senhor, agora e para sempre!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1860,29 +1607,11 @@
                   "type": "text",
                   "text": "Levanta da poeira o indigente e do lixo ele retira o pobrezinho."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Bendito seja o nome do Senhor, agora e para sempre!."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Sia benedetto il nome del Signore, da ora e per sempre."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -1906,17 +1635,9 @@
                   "type": "text",
                   "text": "da ora e per sempre."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Sia benedetto il nome del Signore, da ora e per sempre."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1934,17 +1655,9 @@
                   "type": "text",
                   "text": "più alta dei cieli è la sua gloria."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Sia benedetto il nome del Signore, da ora e per sempre."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1968,29 +1681,11 @@
                   "type": "text",
                   "text": "dall’immondizia rialza il povero."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Sia benedetto il nome del Signore, da ora e per sempre."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Béni soit le nom du Seigneur, maintenant et pour les siècles des siècles !"
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -2014,17 +1709,9 @@
                   "type": "text",
                   "text": "maintenant et pour les siècles des siècles !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Béni soit le nom du Seigneur, maintenant et pour les siècles des siècles !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2048,17 +1735,9 @@
                   "type": "text",
                   "text": "sa gloire domine les cieux."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Béni soit le nom du Seigneur, maintenant et pour les siècles des siècles !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2082,29 +1761,11 @@
                   "type": "text",
                   "text": "il retire le pauvre de la cendre."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Béni soit le nom du Seigneur, maintenant et pour les siècles des siècles !"
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Name des Herrn sei gepriesen von nun an bis in Ewigkeit."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -2122,17 +1783,9 @@
                   "type": "text",
                   "text": "Der Name des Herrn sei gepriesen von nun an bis in Ewigkeit."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Name des Herrn sei gepriesen von nun an bis in Ewigkeit."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2150,17 +1803,9 @@
                   "type": "text",
                   "text": "seine Herrlichkeit überragt die Himmel."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Name des Herrn sei gepriesen von nun an bis in Ewigkeit."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2184,28 +1829,9 @@
                   "type": "text",
                   "text": "der den Schwachen aus dem Staub emporhebt und den Armen erhöht, der im Schmutz liegt?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Name des Herrn sei gepriesen von nun an bis in Ewigkeit."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 112, 1-2. 3-4. 5a et 6-7",
-          "es": "Sal 112, 1-2. 3-4. 5a et 6-7",
-          "en": "Ps 112:1-2, 3-4, 5a and 6-7",
-          "pt-BR": "Sl 112, 1-2. 3-4. 5a et 6-7",
-          "de": "Ps 113",
-          "it": "Sal 112, 1-2. 3-4. 5a et 6-7",
-          "fr": "Ps 112, 1-2. 3-4. 5a et 6-7"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -2229,7 +1855,9 @@
                 {
                   "type": "reference",
                   "text": "Cf. Ps 94, 8"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Hódie, nolíte obduráre corda vestra, sed vocem Dómini audíte. Allelúia."
@@ -2245,7 +1873,9 @@
                 {
                   "type": "reference",
                   "text": "Cf. Ps 94, 8"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. No endurezcáis hoy vuestro corazón; escuchad la voz del Señor. Aleluya."

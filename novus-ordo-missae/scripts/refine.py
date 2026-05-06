@@ -516,17 +516,62 @@ def refine_segments_to_lines(v1_segments: list[dict]) -> list[list[dict]]:
 
 _LINE_TERMINATORS = ".!?:;,»)]\"›』」"
 
+# Alt-refrain markers ("vel"/"or"/"oder"/"ou"/"oppure"/"o bien"). These rubric
+# words introduce an alternative responsorial-psalm refrain; the line
+# carrying them (or directly following them) is its own logical unit, not
+# mid-sentence — so it must not be glue-merged with the next line below.
+_ALT_REFRAIN_MARKERS = {'vel', 'or', 'ou', 'oder', 'oppure', 'o bien'}
+
+# Standalone acclamation refrains (Allelúia / Hallelujah / Aleluya / etc.).
+# They sometimes appear without a sentence terminator in the source — that
+# missing terminator must not let the next verse line be glue-merged into
+# the acclamation by the mid-sentence merger.
+_ACCLAMATION_LINE_RE = re.compile(
+    r'^(?:Al+el+[uúù](?:ia|ya|ja)|Hal+el+u(?:ja|jah)|Aleluya)\.?$',
+    re.IGNORECASE,
+)
+
+
+def _line_has_alt_refrain_marker(line: list[dict]) -> bool:
+    if not isinstance(line, list):
+        return False
+    for s in line:
+        if not isinstance(s, dict) or s.get('type') != 'rubric':
+            continue
+        t = (s.get('text') or '').strip().lower().rstrip(':').rstrip('.').strip()
+        if t in _ALT_REFRAIN_MARKERS:
+            return True
+    return False
+
+
+def _line_is_standalone_acclamation(line: list[dict]) -> bool:
+    """The line's text content is just an Alléluia / Hallelujah word, with
+    or without trailing punctuation."""
+    if not isinstance(line, list):
+        return False
+    text = ' '.join(
+        (s.get('text') or '').strip()
+        for s in line
+        if isinstance(s, dict) and s.get('type') in ('text', 'response')
+    ).strip()
+    return bool(text) and bool(_ACCLAMATION_LINE_RE.match(text))
+
 
 def _merge_mid_sentence_lines(lines: list[list[dict]]) -> list[list[dict]]:
     """If a line ends without a sentence terminator (no `.,;:!?` etc.), merge
     the next line into it — that's a stray mid-sentence `<br/>` in the source.
     Lines that end with `,` `;` `:` are preserved as legitimate poetic-chant
-    breaks."""
+    breaks. Lines that ARE alt-refrain content (carry a `vel`/`Or:` rubric, or
+    sit right after such a rubric, or contain a standalone acclamation) are
+    likewise preserved — their missing terminator is a typesetting artifact,
+    not a sign of a mid-sentence break."""
     if len(lines) < 2:
         return lines
     merged: list[list[dict]] = []
+    prev_was_alt_marker_only = False
     for line in lines:
         if not line:
+            prev_was_alt_marker_only = False
             continue
         first_type = next((s.get("type") for s in line if (s.get("text") or "").strip()), "text")
         # Check if previous line ends without a terminator → merge current into prev
@@ -537,15 +582,33 @@ def _merge_mid_sentence_lines(lines: list[list[dict]]) -> list[list[dict]]:
                 if seg.get("type") in ("text", "dropCap") and (seg.get("text") or "").strip():
                     prev_last_text = seg["text"].rstrip()
             prev_ends_term = bool(prev_last_text) and prev_last_text[-1] in _LINE_TERMINATORS
-            if not prev_ends_term and prev_last_text:
+            prev_is_alt_content = (
+                _line_has_alt_refrain_marker(prev)
+                or _line_is_standalone_acclamation(prev)
+                or prev_was_alt_marker_only
+            )
+            if (not prev_ends_term
+                    and prev_last_text
+                    and not prev_is_alt_content):
                 if prev and line and prev[-1].get("type") == "text" and line[0].get("type") == "text":
                     prev[-1] = dict(prev[-1])
                     prev[-1]["text"] = clean_text(prev[-1]["text"] + " " + line[0]["text"])
                     prev.extend(line[1:])
                 else:
                     prev.extend(line)
+                prev_was_alt_marker_only = False
                 continue
         merged.append(list(line))
+        # Track "rubric-only alt-marker line" → next line is alt content even
+        # though the marker itself carries no text-segments.
+        prev_was_alt_marker_only = (
+            _line_has_alt_refrain_marker(line)
+            and not any(
+                isinstance(s, dict) and s.get('type') in ('text', 'response')
+                and (s.get('text') or '').strip()
+                for s in line
+            )
+        )
     return merged
 
 
@@ -717,7 +780,10 @@ def merge_blocks_to_rich_text(blocks: list[dict[str, dict]]) -> Optional[dict]:
                 continue
             existing = merged.setdefault(src, {"text": "", "segments": []})
             existing["text"] = (existing["text"] + " " + (c.get("text") or "")).strip()
-            existing["segments"].extend(c.get("segments") or [])
+            new_segs = c.get("segments") or []
+            if existing["segments"] and new_segs:
+                existing["segments"].append({"type": "break"})
+            existing["segments"].extend(new_segs)
     return make_rich_text(merged)
 
 
@@ -1414,6 +1480,31 @@ def antiphon_from_items(items: list[dict]) -> Optional[dict]:
     return out or None
 
 
+def _join_item_segments_with_breaks(contents: list[dict]) -> list[dict]:
+    """Concatenate per-item content segments, inserting a `break` segment
+    between items.
+
+    Each item is one HTML `<div>` block in the source. Without a forced
+    boundary, `refine_segments_to_lines` carries the unflushed line buffer
+    across items — the last text fragment of item N then merges into the
+    first text fragment of item N+1 (different HTML divs, but adjacent text
+    types). For responsorial psalms this glues the alt refrain (e.g. French
+    `Alléluia !`) onto the start of the next verse. The `break` flushes the
+    buffer at the item boundary; `_merge_mid_sentence_lines` later re-joins
+    only when the previous line lacks a sentence terminator, so continuous
+    prose spanning multiple divs is still stitched back together.
+    """
+    out: list[dict] = []
+    for c in contents:
+        if not isinstance(c, dict):
+            continue
+        segs = c.get("segments") or []
+        if out and segs:
+            out.append({"type": "break"})
+        out.extend(segs)
+    return out
+
+
 def prayer_from_items(items: list[dict]) -> Optional[dict]:
     """A Prayer is just a body.
 
@@ -1452,7 +1543,7 @@ def prayer_from_items(items: list[dict]) -> Optional[dict]:
         if post_or_main:
             chosen = {
                 "text": " ".join(c.get("text") or "" for c in post_or_main),
-                "segments": [seg for c in post_or_main for seg in (c.get("segments") or [])],
+                "segments": _join_item_segments_with_breaks(post_or_main),
             }
         elif not has_post_lang:
             ant_items = [it for it in items if it.get("role") in ("ant", "ante")]
@@ -1465,7 +1556,7 @@ def prayer_from_items(items: list[dict]) -> Optional[dict]:
                 if ant_contents:
                     chosen = {
                         "text": " ".join(c.get("text") or "" for c in ant_contents),
-                        "segments": [s for c in ant_contents for s in (c.get("segments") or [])],
+                        "segments": _join_item_segments_with_breaks(ant_contents),
                     }
 
         if chosen:
@@ -5821,6 +5912,284 @@ def _backfill_responsorial_psalm_citation(rp: dict) -> None:
 _LECTIO_LABEL_ONLY_RE = re.compile(r'^Lectio\b', re.I)
 
 
+# ---------------------------------------------------------------------------
+# Responsorial-psalm structural split: body.lines → responsory + verses
+# ---------------------------------------------------------------------------
+
+# Alt-refrain markers ("vel" / "Or:" / "O bien:" / "Oppure:" / "Ou:" / "Oder:").
+# Compared after lower-casing and stripping trailing colon/period.
+_PSALM_ALT_MARKERS = {'vel', 'or', 'o bien', 'ou', 'oppure', 'oder'}
+
+
+def _is_psalm_anchor_line(line) -> bool:
+    """A line is a responsory anchor iff its first segment is a rubric whose
+    text contains the ℟ symbol."""
+    if not isinstance(line, list) or not line:
+        return False
+    first = line[0]
+    if not isinstance(first, dict) or first.get('type') != 'rubric':
+        return False
+    return '℟' in (first.get('text') or '')
+
+
+def _is_psalm_alt_marker_line(line) -> bool:
+    """A line whose first segment is a rubric matching the alt-marker set."""
+    if not isinstance(line, list) or not line:
+        return False
+    first = line[0]
+    if not isinstance(first, dict) or first.get('type') != 'rubric':
+        return False
+    t = (first.get('text') or '').strip().lower().rstrip(':').rstrip('.').strip()
+    return t in _PSALM_ALT_MARKERS
+
+
+def _alt_marker_line_has_content(line) -> bool:
+    """The alt-marker line carries inline content if it has any segment after
+    the leading rubric whose type is text/response."""
+    if not isinstance(line, list) or len(line) < 2:
+        return False
+    return any(
+        isinstance(s, dict) and s.get('type') in ('text', 'response')
+        for s in line[1:]
+    )
+
+
+def _strip_anchor_rubric(line) -> list:
+    """Return a copy of `line` with the leading ℟. rubric segment removed."""
+    if not isinstance(line, list) or not line:
+        return []
+    first = line[0]
+    if isinstance(first, dict) and first.get('type') == 'rubric' and '℟' in (first.get('text') or ''):
+        return list(line[1:])
+    return list(line)
+
+
+def _join_psalm_block_text(block) -> str:
+    """Join all text/response segment text in the given lines slice. Used to
+    compare a primary-block candidate against the canonical refrain text."""
+    parts = []
+    for ln in block:
+        if not isinstance(ln, list):
+            continue
+        for s in ln:
+            if isinstance(s, dict) and s.get('type') in ('text', 'response'):
+                t = s.get('text')
+                if isinstance(t, str) and t:
+                    parts.append(t)
+    return ' '.join(parts).strip()
+
+
+def _split_psalm_lang_lines(lines: list) -> Optional[dict]:
+    """Split one language's psalm `body.lines` into:
+        {
+            'primary': list[Line],        # canonical refrain
+            'alternatives': list[list[Line]],  # zero or more alt refrains
+            'verses': list[list[Line]],   # zero or more verses
+        }
+    Returns None if `lines` is empty or no anchors and no repetition can be
+    detected (caller falls back to keeping the lang absent from the new shape).
+    """
+    if not isinstance(lines, list) or not lines:
+        return None
+
+    anchors = [i for i, ln in enumerate(lines) if _is_psalm_anchor_line(ln)]
+    if not anchors:
+        return _split_psalm_lang_lines_no_anchor(lines)
+
+    last_anchor = anchors[-1]
+
+    # Determine canonical primary refrain length using the LAST anchor.
+    # Primary block extends from last_anchor up to the first alt-marker
+    # after it, or to end-of-array if no alt-marker is present.
+    next_alt_after_last = next(
+        (i for i, ln in enumerate(lines)
+         if i > last_anchor and _is_psalm_alt_marker_line(ln)),
+        None,
+    )
+    if next_alt_after_last is not None:
+        canonical_len = next_alt_after_last - last_anchor
+    else:
+        canonical_len = len(lines) - last_anchor
+    canonical_len = max(1, canonical_len)
+
+    # Build the canonical primary refrain text for matching shorter blocks.
+    canonical_block = list(lines[last_anchor:last_anchor + canonical_len])
+    canonical_block[0] = _strip_anchor_rubric(canonical_block[0])
+    canonical_text = _join_psalm_block_text(canonical_block)
+
+    # Determine the actual primary-block length at each anchor.
+    next_anchor_or_eof = anchors[1:] + [len(lines)]
+    primary_block_lens: list[int] = []
+    for k, anchor in enumerate(anchors):
+        max_len = min(canonical_len, next_anchor_or_eof[k] - anchor)
+        chosen = max_len
+        # Prefer the shortest length whose joined text equals canonical (this
+        # handles the "first anchor compressed onto a single line" case).
+        for L in range(1, max_len + 1):
+            block = list(lines[anchor:anchor + L])
+            block[0] = _strip_anchor_rubric(block[0])
+            if _join_psalm_block_text(block) == canonical_text:
+                chosen = L
+                break
+        primary_block_lens.append(chosen)
+
+    # Build verses + alternatives by walking from each anchor.
+    alternatives: list[list[list]] = []
+    verses: list[list[list]] = []
+
+    for k, anchor in enumerate(anchors):
+        block_end = next_anchor_or_eof[k]
+        primary_end = anchor + primary_block_lens[k]
+
+        # Within [primary_end, block_end), we have any alt-blocks followed by
+        # a possible verse. Alt blocks are short, leading with an alt-marker.
+        i = primary_end
+        while i < block_end and _is_psalm_alt_marker_line(lines[i]):
+            alt_start = i
+            if _alt_marker_line_has_content(lines[i]):
+                # rubric+content combined on one line
+                alt_end = i + 1
+            else:
+                # rubric-only line + 1 content line below (typical "vel" / "Allelúia.")
+                alt_end = min(i + 2, block_end)
+            alt_block = list(lines[alt_start:alt_end])
+            # Only collect each unique alt once (deduped at end across anchors)
+            alternatives.append(alt_block)
+            i = alt_end
+
+        # The remainder [i, block_end) is a verse, if non-empty.
+        verse = list(lines[i:block_end])
+        if verse:
+            verses.append(verse)
+
+    # Dedupe alternatives by joined-text — every anchor block repeats the same
+    # alt(s), but we only want one copy per distinct alt refrain.
+    seen_alts: dict[str, list] = {}
+    for alt in alternatives:
+        # Use joined text (without rubric) as the key.
+        body_only = list(alt)
+        if body_only and isinstance(body_only[0], list) and body_only[0]:
+            first_seg = body_only[0][0]
+            if isinstance(first_seg, dict) and first_seg.get('type') == 'rubric':
+                body_only[0] = list(body_only[0][1:])
+                if not body_only[0]:
+                    body_only = body_only[1:]
+        key = _join_psalm_block_text(body_only)
+        if key and key not in seen_alts:
+            seen_alts[key] = body_only
+
+    primary_lines = canonical_block
+
+    return {
+        'primary': primary_lines,
+        'alternatives': list(seen_alts.values()),
+        'verses': verses,
+    }
+
+
+def _split_psalm_lang_lines_no_anchor(lines: list) -> Optional[dict]:
+    """Fallback for the (currently single) case where a lang's psalm has no ℟.
+    rubric markers: detect the refrain by finding the LONGEST leading block
+    whose joined text repeats verbatim later in the same lines array. Try
+    longer lengths first because shorter prefixes can falsely match (e.g. the
+    first word of a 2-line refrain might also appear on its own elsewhere).
+    Each repetition is treated as a refrain occurrence; verses are the gaps
+    between repetitions."""
+    if not isinstance(lines, list) or not lines:
+        return None
+
+    # Try refrain lengths from 4 down to 1.
+    for refrain_len in (4, 3, 2, 1):
+        if len(lines) < refrain_len * 2:
+            continue
+        candidate_block = lines[:refrain_len]
+        candidate_text = _join_psalm_block_text(candidate_block)
+        if not candidate_text:
+            continue
+        positions = []
+        i = 0
+        while i <= len(lines) - refrain_len:
+            block = lines[i:i + refrain_len]
+            if _join_psalm_block_text(block) == candidate_text:
+                positions.append(i)
+                i += refrain_len
+            else:
+                i += 1
+        if len(positions) < 2:
+            continue
+        verses: list[list[list]] = []
+        for k, pos in enumerate(positions):
+            start = pos + refrain_len
+            end = positions[k + 1] if k + 1 < len(positions) else len(lines)
+            if start < end:
+                verses.append(list(lines[start:end]))
+        return {
+            'primary': list(candidate_block),
+            'alternatives': [],
+            'verses': verses,
+        }
+    return None
+
+
+def _split_responsorial_psalm(rp: dict) -> None:
+    """Rewrite a responsorialPsalm dict in-place: convert `body.{plain,lines}`
+    into `responsory.primary`, `responsory.alternatives[]`, `verses`. Then
+    delete `body`. No-op if `body` is missing or `responsory` already exists
+    (idempotent)."""
+    if not isinstance(rp, dict):
+        return
+    if 'responsory' in rp or 'verses' in rp:
+        return
+    body = rp.get('body')
+    if not isinstance(body, dict):
+        return
+    body_lines = body.get('lines')
+    if not isinstance(body_lines, dict):
+        return
+
+    primary_per_lang: dict[str, list] = {}
+    alternatives_acc: list[dict[str, list]] = []
+    verses_per_lang: dict[str, list] = {}
+
+    for lang, lang_lines in body_lines.items():
+        result = _split_psalm_lang_lines(lang_lines)
+        if not result:
+            continue
+        if result['primary']:
+            primary_per_lang[lang] = result['primary']
+        if result['verses']:
+            verses_per_lang[lang] = result['verses']
+        # Merge per-lang alternatives into the cross-lang list, aligned by
+        # alt index. lang i's alt[j] populates alternatives_acc[j][lang].
+        for j, alt_block in enumerate(result['alternatives']):
+            while len(alternatives_acc) <= j:
+                alternatives_acc.append({})
+            alternatives_acc[j][lang] = alt_block
+
+    if not primary_per_lang or not verses_per_lang:
+        # Source data too degraded to split safely; leave the slot alone.
+        return
+
+    rp['responsory'] = {'primary': primary_per_lang}
+    if alternatives_acc:
+        rp['responsory']['alternatives'] = alternatives_acc
+    rp['verses'] = verses_per_lang
+    del rp['body']
+
+
+def _split_responsorial_psalms_in_mass(mass: dict) -> None:
+    """Walk readings.<cycle>.responsorialPsalm and split body → responsory+verses."""
+    readings = mass.get('readings')
+    if not isinstance(readings, dict):
+        return
+    for cycle, slots in readings.items():
+        if not isinstance(slots, dict):
+            continue
+        rp = slots.get('responsorialPsalm')
+        if isinstance(rp, dict):
+            _split_responsorial_psalm(rp)
+
+
 def _drop_stranded_lectio_labels(mass: dict) -> None:
     """If a reading has only `label` (no body), clear the label since it's a
     structural ghost. Concentrated in /readings/{default,A,B,C}/firstReading|
@@ -8768,6 +9137,10 @@ def _post_process_mass(mass: dict) -> Optional[dict]:
     _fr_quote_state_machine_in_payload(out)
     # ensure response segments end with terminal punctuation.
     _ensure_response_terminal_in_mass(out)
+    # Last: split responsorial psalms into responsory + verses. Runs at the
+    # end so all body-shape-dependent passes (segment merge, terminal-period,
+    # quote pairing, etc.) operate on the legacy `body.lines` shape first.
+    _split_responsorial_psalms_in_mass(out)
     return out
 
 

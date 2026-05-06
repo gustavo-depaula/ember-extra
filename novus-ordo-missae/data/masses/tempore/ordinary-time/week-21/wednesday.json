@@ -228,28 +228,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Dómine, scrutátus es et cognovísti me. Quo ibo a spíritu tuo, et quo a fácie tua fúgiam? Si ascéndero in cælum, tu illic es; si descéndero in inférnum, ades. ℟. Dómine, scrutátus es et cognovísti me. Si súmpsero pennas auróræ et habitávero in extrémis maris, étiam illuc manus tua dedúcet me, et tenébit me déxtera tua. ℟. Dómine, scrutátus es et cognovísti me. Si díxero: «Fórsitan ténebræ cómpriment me, et nox illuminátio erit circa me», étiam ténebræ non obscurabúntur a te, et nox sicut dies illuminábit. ℟. Dómine, scrutátus es et cognovísti me.",
-            "es": "℟. Señor, tú me sondeas y me conoces. ¿A dónde iré lejos de tu aliento, adónde escaparé de tu mirada? Si escalo el cielo, allí estás tú; si me acuesto en el abismo, allí te encuentro. ℟. Señor, tú me sondeas y me conoces. Si vuelo hasta el margen de la aurora, si emigro hasta el confín del mar, allí me alcanzará tu izquierda, me agarrará tu derecha. ℟. Señor, tú me sondeas y me conoces. Si digo: «Que al menos la tiniebla me encubra, que la luz se haga noche en torno a mí», ni la tiniebla es oscura para ti, la noche es clara como el día. ℟. Señor, tú me sondeas y me conoces.",
-            "en": "℟. You have searched me and you know me, Lord. O where can I go from your spirit, or where can I flee from your face? If I climb the heavens, you are there. If I lie in the grave, you are there. ℟. You have searched me and you know me, Lord. If I take the wings of the dawn and dwell at the sea's furthest end, even there your hand would lead me, your right hand would hold me fast. ℟. You have searched me and you know me, Lord. If I say: 'Let the darkness hide me and the light around me be night,' even darkness is not dark for you and the night is as clear as the day. ℟. You have searched me and you know me, Lord.",
-            "pt-BR": "℟. Senhor, vós me sondais e conheceis! Em que lugar me ocultarei de vosso espírito? E para onde fugirei de vossa face? Se eu subir até os céus, ali estais; se eu descer até o abismo, estais presente. ℟. Senhor, vós me sondais e conheceis! Se a aurora me emprestar as suas asas, para eu voar e habitar no fim dos mares; mesmo lá vai me guiar a vossa mão e segurar-me com firmeza a vossa destra. ℟. Senhor, vós me sondais e conheceis! Se eu pensasse: “A escuridão venha esconder-me e que a luz ao meu redor se faça noite!” Mesmo as trevas para vós não são escuras, a própria noite resplandece como o dia. ℟. Senhor, vós me sondais e conheceis!",
-            "it": "℟. Signore, tu mi scruti e mi conosci. Dove andare lontano dal tuo spirito? Dove fuggire dalla tua presenza? Se salgo in cielo, là tu sei; se scendo negli inferi, eccoti. ℟. Signore, tu mi scruti e mi conosci. Se prendo le ali dell’aurora per abitare all’estremità del mare, anche là mi guida la tua mano e mi afferra la tua destra. ℟. Signore, tu mi scruti e mi conosci. Se dico: «Almeno le tenebre mi avvolgano e la luce intorno a me sia notte», nemmeno le tenebre per te sono tenebre e la notte è luminosa come il giorno. ℟. Signore, tu mi scruti e mi conosci.",
-            "fr": "℟. Tu me scrutes, Seigneur, et tu sais ! Où donc aller, loin de ton souffle ? Où m’enfuir, loin de ta face ? Je gravis les cieux : tu es là ; je descends chez les morts : te voici. ℟. Tu me scrutes, Seigneur, et tu sais ! Je prends les ailes de l’aurore et me pose au-delà des mers : même là, ta main me conduit, ta main droite me saisit. ℟. Tu me scrutes, Seigneur, et tu sais ! J’avais dit : « Les ténèbres m’écrasent ! » mais la nuit devient lumière autour de moi. Même la ténèbre pour toi n’est pas ténèbre, et la nuit comme le jour est lumière ! ℟. Tu me scrutes, Seigneur, et tu sais !",
-            "de": "℟. Herr, du hast mich erforscht, und du kennst mich. Wohin könnte ich fliehen vor deinem Geist, wohin mich vor deinem Angesicht flüchten? Steige ich hinauf in den Himmel, so bist du dort; bette ich mich in der Unterwelt, bist du zugegen. ℟. Herr, du hast mich erforscht, und du kennst mich. Nehme ich die Flügel des Morgenrots und lasse mich nieder am äußersten Meer, auch dort wird deine Hand mich ergreifen und deine Rechte mich fassen. ℟. Herr, du hast mich erforscht, und du kennst mich. Würde ich sagen: „Finsternis soll mich bedecken, statt Licht soll Nacht mich umgeben“, auch die Finsternis wäre für dich nicht finster, die Nacht würde leuchten wie der Tag, die Finsternis wäre wie Licht. ℟. Herr, du hast mich erforscht, und du kennst mich."
-          },
-          "lines": {
+        "citation": {
+          "pt-BR": "Sl 138",
+          "de": "Ps 139",
+          "la": "Ps 138",
+          "en": "Ps 138",
+          "es": "Sal 138",
+          "it": "Sal 138",
+          "fr": "Ps 138"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Dómine, scrutátus es et cognovísti me."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Señor, tú me sondeas y me conoces."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "You have searched me and you know me, Lord."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Senhor, vós me sondais e conheceis!"
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Signore, tu mi scruti e mi conosci."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Tu me scrutes, Seigneur, et tu sais !"
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Herr, du hast mich erforscht, und du kennst mich."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -273,17 +323,9 @@
                   "type": "text",
                   "text": "si descéndero in inférnum, ades."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dómine, scrutátus es et cognovísti me."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -301,17 +343,9 @@
                   "type": "text",
                   "text": "et tenébit me déxtera tua."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dómine, scrutátus es et cognovísti me."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -335,29 +369,11 @@
                   "type": "text",
                   "text": "et nox sicut dies illuminábit."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dómine, scrutátus es et cognovísti me."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Señor, tú me sondeas y me conoces."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -381,17 +397,9 @@
                   "type": "text",
                   "text": "si me acuesto en el abismo, allí te encuentro."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Señor, tú me sondeas y me conoces."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -415,17 +423,9 @@
                   "type": "text",
                   "text": "me agarrará tu derecha."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Señor, tú me sondeas y me conoces."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -449,89 +449,37 @@
                   "type": "text",
                   "text": "la noche es clara como el día."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Señor, tú me sondeas y me conoces."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "You have searched me and you know me, Lord."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "O where can I go from your spirit, or where can I flee from your face? If I climb the heavens, you are there. If I lie in the grave, you are there."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "You have searched me and you know me, Lord."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "If I take the wings of the dawn and dwell at the sea's furthest end, even there your hand would lead me, your right hand would hold me fast."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "You have searched me and you know me, Lord."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "If I say: 'Let the darkness hide me and the light around me be night,' even darkness is not dark for you and the night is as clear as the day."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "You have searched me and you know me, Lord."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Senhor, vós me sondais e conheceis!"
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -555,17 +503,9 @@
                   "type": "text",
                   "text": "se eu descer até o abismo, estais presente."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Senhor, vós me sondais e conheceis!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -583,17 +523,9 @@
                   "type": "text",
                   "text": "mesmo lá vai me guiar a vossa mão e segurar-me com firmeza a vossa destra."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Senhor, vós me sondais e conheceis!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -605,29 +537,11 @@
                   "type": "text",
                   "text": "a própria noite resplandece como o dia."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Senhor, vós me sondais e conheceis!"
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Signore, tu mi scruti e mi conosci."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -651,17 +565,9 @@
                   "type": "text",
                   "text": "se scendo negli inferi, eccoti."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Signore, tu mi scruti e mi conosci."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -673,17 +579,9 @@
                   "type": "text",
                   "text": "anche là mi guida la tua mano e mi afferra la tua destra."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Signore, tu mi scruti e mi conosci."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -695,29 +593,11 @@
                   "type": "text",
                   "text": "nemmeno le tenebre per te sono tenebre e la notte è luminosa come il giorno."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Signore, tu mi scruti e mi conosci."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Tu me scrutes, Seigneur, et tu sais !"
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -747,17 +627,9 @@
                   "type": "text",
                   "text": "je descends chez les morts : te voici."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Tu me scrutes, Seigneur, et tu sais !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -775,17 +647,9 @@
                   "type": "text",
                   "text": "ta main droite me saisit."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Tu me scrutes, Seigneur, et tu sais !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -815,29 +679,11 @@
                   "type": "text",
                   "text": "et la nuit comme le jour est lumière !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Tu me scrutes, Seigneur, et tu sais !"
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, du hast mich erforscht, und du kennst mich."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -861,17 +707,9 @@
                   "type": "text",
                   "text": "bette ich mich in der Unterwelt, bist du zugegen."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, du hast mich erforscht, und du kennst mich."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -883,17 +721,9 @@
                   "type": "text",
                   "text": "auch dort wird deine Hand mich ergreifen und deine Rechte mich fassen."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, du hast mich erforscht, und du kennst mich."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -923,28 +753,9 @@
                   "type": "text",
                   "text": "die Finsternis wäre wie Licht."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, du hast mich erforscht, und du kennst mich."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "pt-BR": "Sl 138",
-          "de": "Ps 139",
-          "la": "Ps 138",
-          "en": "Ps 138",
-          "es": "Sal 138",
-          "it": "Sal 138",
-          "fr": "Ps 138"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -968,7 +779,9 @@
                 {
                   "type": "reference",
                   "text": "1 Io 2, 5"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Qui servat verbum Christi, vere in hoc cáritas Dei consummáta est. Allelúia."
@@ -984,7 +797,9 @@
                 {
                   "type": "reference",
                   "text": "1 Jn 2, 5"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Quien guarda la Palabra de Cristo, ciertamente el amor de Dios ha llegado en él a su plenitud. Aleluya."
@@ -1501,28 +1316,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Beáti omnes qui timent Dóminum. Beátus omnis qui timet Dóminum, qui ámbulat in viis eius. Labóres mánuum tuárum manducábis, beátus es, et bene tibi erit. ℟. Beáti omnes qui timent Dóminum. Uxor tua sicut vitis fructífera in latéribus domus tuæ; fílii tui sicut novéllæ olivárum in circúitu mensæ tuæ. ℟. Beáti omnes qui timent Dóminum. Ecce sic benedicétur homo, qui timet Dóminum. Benedícat tibi Dóminus ex Sion, et vídeas bona Ierúsalem ómnibus diébus vitæ tuæ. ℟. Beáti omnes qui timent Dóminum.",
-            "es": "℟. Dichosos los que temen al Señor. Dichoso el que teme al Señor y sigue sus caminos. Comerás del fruto de tu trabajo, serás dichoso, te irá bien. ℟. Dichosos los que temen al Señor. Tu mujer, como parra fecunda, en medio de tu casa; tus hijos como renuevos de olivo, alrededor de tu mesa. ℟. Dichosos los que temen al Señor. Esta es la bendición del hombre que teme al Señor. Que el Señor te bendiga desde Sion, que veas la prosperidad de Jerusalén todos los días de tu vida. ℟. Dichosos los que temen al Señor.",
-            "en": "℟. Blessed are those who fear the Lord. Blessed are you who fear the Lord, who walk in his ways! For you shall eat the fruit of your handiwork; Blessed shall you be, and favored. ℟. Blessed are those who fear the Lord. Your wife shall be like a fruitful vine in the recesses of your home; Your children like olive plants around your table. ℟. Blessed are those who fear the Lord. Behold, thus is the man blessed who fears the Lord. The Lord bless you from Zion: may you see the prosperity of Jerusalem all the days of your life. ℟. Blessed are those who fear the Lord.",
-            "pt-BR": "℟. Felizes todos que respeitam o Senhor! Feliz és tu se temes o Senhor e trilhas seus caminhos! Do trabalho de tuas mãos hás de viver, serás feliz, tudo irá bem! ℟. Felizes todos que respeitam o Senhor! A tua esposa é uma videira bem fecunda no coração da tua casa; os teus filhos são rebentos de oliveira ao redor de tua mesa. ℟. Felizes todos que respeitam o Senhor! Será assim abençoado todo homem que teme o Senhor. O Senhor te abençoe de Sião, cada dia de tua vida. ℟. Felizes todos que respeitam o Senhor!",
-            "it": "℟. Beato chi teme il Signore. Beato chi teme il Signore e cammina nelle sue vie. Della fatica delle tue mani ti nutrirai, sarai felice e avrai ogni bene. ℟. Beato chi teme il Signore. La tua sposa come vite feconda nell’intimità della tua casa; i tuoi figli come virgulti d’ulivo intorno alla tua mensa. ℟. Beato chi teme il Signore. Ecco com’è benedetto l’uomo che teme il Signore. Ti benedica il Signore da Sion. Possa tu vedere il bene di Gerusalemme tutti i giorni della tua vita! ℟. Beato chi teme il Signore.",
-            "fr": "℟. Heureux qui craint le Seigneur ! Heureux qui craint le Seigneur et marche selon ses voies ! ℟. Heureux qui craint le Seigneur ! Tu te nourriras du travail de tes mains : Heureux es-tu ! À toi, le bonheur ! ℟. Heureux qui craint le Seigneur ! Voilà comment sera béni l’homme qui craint le Seigneur. De Sion, que le Seigneur te bénisse ! Tu verras le bonheur de Jérusalem tous les jours de ta vie. ℟. Heureux qui craint le Seigneur !",
-            "de": "℟. Selig die Menschen, die Gottes Wege gehen! Wohl dem Mann, der den Herrn fürchtet und ehrt und der auf seinen Wegen geht! Was deine Hände erwarben, kannst du genießen; wohl dir, es wird dir gut ergehn. ℟. Selig die Menschen, die Gottes Wege gehen! Wie ein fruchtbarer Weinstock ist deine Frau drinnen in deinem Haus. Wie junge Ölbäume sind deine Kinder rings um deinen Tisch. ℟. Selig die Menschen, die Gottes Wege gehen! So wird der Mann gesegnet, der den Herrn fürchtet und ehrt. Es segne dich der Herr vom Zion her. Du sollst dein Leben lang das Glück Jerusalems schauen. ℟. Selig die Menschen, die Gottes Wege gehen!"
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 127, 1-2. 3. 4-5",
+          "es": "Sal 127, 1-2. 3. 4-5",
+          "en": "Ps 127:1-2, 3, 4-5",
+          "pt-BR": "Sl 127, 1-2. 3. 4-5",
+          "de": "Ps 128",
+          "it": "Sal 127, 1-2. 3. 4-5",
+          "fr": "Ps 127, 1-2. 3. 4-5"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Beáti omnes qui timent Dóminum."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Dichosos los que temen al Señor."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "Blessed are those who fear the Lord."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Felizes todos que respeitam o Senhor!"
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Beato chi teme il Signore."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Heureux qui craint le Seigneur !"
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Selig die Menschen, die Gottes Wege gehen!"
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -1546,17 +1411,9 @@
                   "type": "text",
                   "text": "beátus es, et bene tibi erit."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beáti omnes qui timent Dóminum."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1568,17 +1425,9 @@
                   "type": "text",
                   "text": "fílii tui sicut novéllæ olivárum in circúitu mensæ tuæ."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beáti omnes qui timent Dóminum."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1602,29 +1451,11 @@
                   "type": "text",
                   "text": "et vídeas bona Ierúsalem ómnibus diébus vitæ tuæ."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beáti omnes qui timent Dóminum."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dichosos los que temen al Señor."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1642,17 +1473,9 @@
                   "type": "text",
                   "text": "serás dichoso, te irá bien."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dichosos los que temen al Señor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1676,17 +1499,9 @@
                   "type": "text",
                   "text": "alrededor de tu mesa."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dichosos los que temen al Señor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1704,45 +1519,19 @@
                   "type": "text",
                   "text": "que veas la prosperidad de Jerusalén todos los días de tu vida."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dichosos los que temen al Señor."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Blessed are those who fear the Lord."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "Blessed are you who fear the Lord, who walk in his ways! For you shall eat the fruit of your handiwork; Blessed shall you be, and favored."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Blessed are those who fear the Lord."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1754,17 +1543,9 @@
                   "type": "text",
                   "text": "Your children like olive plants around your table."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Blessed are those who fear the Lord."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1782,29 +1563,11 @@
                   "type": "text",
                   "text": "may you see the prosperity of Jerusalem all the days of your life."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Blessed are those who fear the Lord."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Felizes todos que respeitam o Senhor!"
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -1822,17 +1585,9 @@
                   "type": "text",
                   "text": "serás feliz, tudo irá bem!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Felizes todos que respeitam o Senhor!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1844,17 +1599,9 @@
                   "type": "text",
                   "text": "os teus filhos são rebentos de oliveira ao redor de tua mesa."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Felizes todos que respeitam o Senhor!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1872,29 +1619,11 @@
                   "type": "text",
                   "text": "cada dia de tua vida."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Felizes todos que respeitam o Senhor!"
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beato chi teme il Signore."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -1912,17 +1641,9 @@
                   "type": "text",
                   "text": "sarai felice e avrai ogni bene."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beato chi teme il Signore."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1934,17 +1655,9 @@
                   "type": "text",
                   "text": "i tuoi figli come virgulti d’ulivo intorno alla tua mensa."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beato chi teme il Signore."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1962,45 +1675,19 @@
                   "type": "text",
                   "text": "Possa tu vedere il bene di Gerusalemme tutti i giorni della tua vita!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beato chi teme il Signore."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Heureux qui craint le Seigneur !"
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
                   "text": "Heureux qui craint le Seigneur et marche selon ses voies !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Heureux qui craint le Seigneur !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2012,17 +1699,9 @@
                   "type": "text",
                   "text": "Heureux es-tu ! À toi, le bonheur !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Heureux qui craint le Seigneur !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2040,29 +1719,11 @@
                   "type": "text",
                   "text": "Tu verras le bonheur de Jérusalem tous les jours de ta vie."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Heureux qui craint le Seigneur !"
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Selig die Menschen, die Gottes Wege gehen!"
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -2080,17 +1741,9 @@
                   "type": "text",
                   "text": "wohl dir, es wird dir gut ergehn."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Selig die Menschen, die Gottes Wege gehen!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2102,17 +1755,9 @@
                   "type": "text",
                   "text": "Wie junge Ölbäume sind deine Kinder rings um deinen Tisch."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Selig die Menschen, die Gottes Wege gehen!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2136,28 +1781,9 @@
                   "type": "text",
                   "text": "Du sollst dein Leben lang das Glück Jerusalems schauen."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Selig die Menschen, die Gottes Wege gehen!"
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 127, 1-2. 3. 4-5",
-          "es": "Sal 127, 1-2. 3. 4-5",
-          "en": "Ps 127:1-2, 3, 4-5",
-          "pt-BR": "Sl 127, 1-2. 3. 4-5",
-          "de": "Ps 128",
-          "it": "Sal 127, 1-2. 3. 4-5",
-          "fr": "Ps 127, 1-2. 3. 4-5"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -2181,7 +1807,9 @@
                 {
                   "type": "reference",
                   "text": "1 Io 2, 5"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Qui servat verbum Christi, vere in hoc cáritas Dei consummáta est. Allelúia."
@@ -2197,7 +1825,9 @@
                 {
                   "type": "reference",
                   "text": "1 Jn 2, 5"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Quien guarda la Palabra de Cristo, ciertamente el amor de Dios ha llegado en él a su plenitud. Aleluya."

@@ -233,7 +233,6 @@ Preserved fully:
 - The biographical descriptions of 229 saints in up to 7 languages.
 
 Deferred to a future revision (data is preserved as rich text — consumers can extract themselves):
-- Splitting the responsorial psalm into refrain + verses.
 - Voicing the Passion narratives (Narrator / Christ / Synagogue) — not marked in source.
 - Splitting alternative prayers connected by `Or:` markers into typed `alternatives[]` arrays inside each `Prayer`.
 - Decomposing the Reproaches (Improperia) into typed alternating-choir structures.

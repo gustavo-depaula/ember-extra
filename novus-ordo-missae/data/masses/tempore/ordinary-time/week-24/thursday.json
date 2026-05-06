@@ -228,28 +228,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Magna sunt ópera Dómini. Opera mánuum eius véritas et iudícium. Fidélia ómnia mandáta eius, confirmáta in sǽculum sǽculi, facta in veritáte et æquitáte. ℟. Magna sunt ópera Dómini. Redemptiónem misit pópulo suo, mandávit in ætérnum testaméntum suum. Sanctum et terríbile nomen eius. ℟. Magna sunt ópera Dómini. Inítium sapiéntiæ timor Dómini, intelléctus bonus ómnibus faciéntibus eum; laudátio eius manet in sǽculum sǽculi. ℟. Magna sunt ópera Dómini.",
-            "es": "℟. Grandes son las obras del Señor. Justicia y verdad son las obras de sus manos, todos sus preceptos merecen confianza: son estables para siempre jamás, se han de cumplir con verdad y rectitud. ℟. Grandes son las obras del Señor. Envió la redención a su pueblo, ratificó para siempre su alianza. Su nombre es sagrado y temible. ℟. Grandes son las obras del Señor. Principio de la sabiduría es el temor del Señor, tienen buen juicio los que lo practican; la alabanza del Señor dura por siempre. ℟. Grandes son las obras del Señor.",
-            "en": "℟. How great are the works of the Lord! His works are justice and truth: his precepts are all of them sure, standing firm for ever and ever: they are made in uprightness and truth. ℟. How great are the works of the Lord! He has sent deliverance to his people and established his covenant for ever. Holy his name, to be feared. ℟. How great are the works of the Lord! To fear the Lord is the first stage of wisdom; all who do so prove themselves wise. His praise shall last for ever! ℟. How great are the works of the Lord!",
-            "pt-BR": "℟. Grandiosas são as obras do Senhor! Suas obras são verdade e são justiça, seus preceitos, todos eles, são estáveis. Confirmados para sempre e pelos séculos, realizados na verdade e retidão. ℟. Grandiosas são as obras do Senhor! Enviou libertação para o seu povo, confirmou sua Aliança para sempre. Seu nome é santo e é digno de respeito. ℟. Grandiosas são as obras do Senhor! Temer a Deus é o principio do saber, e é sábio todo aquele que o pratica. Permaneça eternamente o seu louvor. ℟. Grandiosas são as obras do Senhor!",
-            "it": "℟. Grandi sono le opere del Signore. Le opere delle sue mani sono verità e diritto, stabili sono tutti i suoi comandi, immutabili nei secoli, per sempre, da eseguire con verità e rettitudine. ℟. Grandi sono le opere del Signore. Mandò a liberare il suo popolo, stabilì la sua alleanza per sempre. Santo e terribile è il suo nome. ℟. Grandi sono le opere del Signore. Principio della sapienza è il timore del Signore: rende saggio chi ne esegue i precetti. La lode del Signore rimane per sempre. ℟. Grandi sono le opere del Signore.",
-            "fr": "℟. Grandes sont les œuvres du Seigneur ! Justesse et sûreté, les œuvres de ses mains, sécurité, toutes ses lois, établies pour toujours et à jamais, accomplies avec droiture et sûreté ! ℟. Grandes sont les œuvres du Seigneur ! Il apporte la délivrance à son peuple ; son alliance est promulguée pour toujours : saint et redoutable est son nom. ℟. Grandes sont les œuvres du Seigneur ! La sagesse commence avec la crainte du Seigneur. Qui accomplit sa volonté en est éclairé. À jamais se maintiendra sa louange. ℟. Grandes sont les œuvres du Seigneur !",
-            "de": "℟. Groß sind die Werke des Herrn. Die Werke seiner Hände sind gerecht und beständig, all seine Gebote sind verlässlich. Sie stehen fest für immer und ewig, geschaffen in Treue und Redlichkeit. ℟. Groß sind die Werke des Herrn. Er gewährte seinem Volk Erlösung und bestimmte seinen Bund für ewige Zeiten. Furchtgebietend ist sein Name und heilig. ℟. Groß sind die Werke des Herrn. Die Furcht des Herrn ist der Anfang der Weisheit; alle, die danach leben, sind klug. Sein Ruhm hat Bestand für immer. ℟. Groß sind die Werke des Herrn."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 110, 7-8. 9. 10",
+          "es": "Sal 110, 7-8. 9. 10",
+          "en": "Ps 110:7-8, 9, 10",
+          "pt-BR": "Sl 110, 7-8. 9. 10",
+          "de": "Ps 111",
+          "it": "Sal 110, 7-8. 9. 10",
+          "fr": "Ps 110, 7-8. 9. 10"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Magna sunt ópera Dómini."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Grandes son las obras del Señor."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "How great are the works of the Lord!"
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Grandiosas são as obras do Senhor!"
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Grandi sono le opere del Signore."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Grandes sont les œuvres du Seigneur !"
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Groß sind die Werke des Herrn."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -273,17 +323,9 @@
                   "type": "text",
                   "text": "facta in veritáte et æquitáte."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Magna sunt ópera Dómini."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -301,17 +343,9 @@
                   "type": "text",
                   "text": "Sanctum et terríbile nomen eius."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Magna sunt ópera Dómini."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -329,29 +363,11 @@
                   "type": "text",
                   "text": "laudátio eius manet in sǽculum sǽculi."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Magna sunt ópera Dómini."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Grandes son las obras del Señor."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -375,17 +391,9 @@
                   "type": "text",
                   "text": "se han de cumplir con verdad y rectitud."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Grandes son las obras del Señor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -403,17 +411,9 @@
                   "type": "text",
                   "text": "Su nombre es sagrado y temible."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Grandes son las obras del Señor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -431,45 +431,19 @@
                   "type": "text",
                   "text": "la alabanza del Señor dura por siempre."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Grandes son las obras del Señor."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "How great are the works of the Lord!"
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "His works are justice and truth: his precepts are all of them sure, standing firm for ever and ever: they are made in uprightness and truth."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "How great are the works of the Lord!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -481,45 +455,19 @@
                   "type": "text",
                   "text": "Holy his name, to be feared."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "How great are the works of the Lord!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "To fear the Lord is the first stage of wisdom; all who do so prove themselves wise. His praise shall last for ever!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "How great are the works of the Lord!"
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Grandiosas são as obras do Senhor!"
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -543,17 +491,9 @@
                   "type": "text",
                   "text": "realizados na verdade e retidão."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Grandiosas são as obras do Senhor!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -571,17 +511,9 @@
                   "type": "text",
                   "text": "Seu nome é santo e é digno de respeito."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Grandiosas são as obras do Senhor!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -599,29 +531,11 @@
                   "type": "text",
                   "text": "Permaneça eternamente o seu louvor."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Grandiosas são as obras do Senhor!"
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Grandi sono le opere del Signore."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -645,17 +559,9 @@
                   "type": "text",
                   "text": "da eseguire con verità e rettitudine."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Grandi sono le opere del Signore."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -673,17 +579,9 @@
                   "type": "text",
                   "text": "Santo e terribile è il suo nome."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Grandi sono le opere del Signore."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -701,29 +599,11 @@
                   "type": "text",
                   "text": "La lode del Signore rimane per sempre."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Grandi sono le opere del Signore."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Grandes sont les œuvres du Seigneur !"
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -747,17 +627,9 @@
                   "type": "text",
                   "text": "accomplies avec droiture et sûreté !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Grandes sont les œuvres du Seigneur !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -775,17 +647,9 @@
                   "type": "text",
                   "text": "saint et redoutable est son nom."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Grandes sont les œuvres du Seigneur !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -803,29 +667,11 @@
                   "type": "text",
                   "text": "À jamais se maintiendra sa louange."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Grandes sont les œuvres du Seigneur !"
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Groß sind die Werke des Herrn."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -849,17 +695,9 @@
                   "type": "text",
                   "text": "geschaffen in Treue und Redlichkeit."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Groß sind die Werke des Herrn."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -871,17 +709,9 @@
                   "type": "text",
                   "text": "Furchtgebietend ist sein Name und heilig."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Groß sind die Werke des Herrn."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -905,28 +735,9 @@
                   "type": "text",
                   "text": "Sein Ruhm hat Bestand für immer."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Groß sind die Werke des Herrn."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 110, 7-8. 9. 10",
-          "es": "Sal 110, 7-8. 9. 10",
-          "en": "Ps 110:7-8, 9, 10",
-          "pt-BR": "Sl 110, 7-8. 9. 10",
-          "de": "Ps 111",
-          "it": "Sal 110, 7-8. 9. 10",
-          "fr": "Ps 110, 7-8. 9. 10"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -950,7 +761,9 @@
                 {
                   "type": "reference",
                   "text": "Mt 11, 28"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Veníte ad me, omnes qui laborátis et oneráti estis, et ego refíciam vos, dicit Dóminus. Allelúia."
@@ -966,7 +779,9 @@
                 {
                   "type": "reference",
                   "text": "Mt 11, 28"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Venid a mí todos los que estáis cansados y agobiados —dice el Señor—, y yo os aliviaré. Aleluya."
@@ -1483,28 +1298,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Confitémini Dómino, quóniam bonus. Confitémini Dómino, quóniam bonus, quóniam in sǽculum misericórdia eius. Dicat nunc Israel, quóniam bonus, quóniam in sǽculum misericórdia eius. ℟. Confitémini Dómino, quóniam bonus. Déxtera Dómini fecit virtútem, déxtera Dómini exaltáta est. Non móriar, sed vivam, et narrábo ópera Dómini. ℟. Confitémini Dómino, quóniam bonus. Deus meus es tu, et confitébor tibi, Deus meus et exaltábo te. ℟. Confitémini Dómino, quóniam bonus.",
-            "es": "℟. Dad gracias al Señor porque es bueno. Dad gracias al Señor porque es bueno, porque es eterna su misericordia. Diga la casa de Israel: eterna es su misericordia. ℟. Dad gracias al Señor porque es bueno. «La diestra del Señor es poderosa, la diestra del Señor es excelsa». No he de morir, viviré para contar las hazañas del Señor. ℟. Dad gracias al Señor porque es bueno. Tú eres mi Dios, te doy gracias; Dios mío, yo te ensalzo. ℟. Dad gracias al Señor porque es bueno.",
-            "en": "℟. Give thanks to the Lord, for he is good. Give thanks to the Lord for he is good, for his love endures for ever. Let the sons of Israel say: His love endures for ever. ℟. Give thanks to the Lord, for he is good. The Lord's right hand has triumphed; his right hand raised me. I shall not die, I shall live and recount his deeds. ℟. Give thanks to the Lord, for he is good. You are my God, I thank you. My God, I praise you. ℟. Give thanks to the Lord, for he is good.",
-            "pt-BR": "℟. Dai graças ao Senhor, porque Ele é bom! Dai graças ao Senhor, porque ele é bom! \"Eterna é a sua misericórdia!\" A casa de Israel agora o diga: \"Eterna é a sua misericórdia!\". ℟. Dai graças ao Senhor, porque Ele é bom! A mão direita do Senhor fez maravilhas, a mão direita do Senhor me levantou, Não morrerei, mas ao contrário, viverei para cantar as grandes obras do Senhor!. ℟. Dai graças ao Senhor, porque Ele é bom! Vós sois meu Deus, eu vos bendigo e agradeço! Vós sois meu Deus, eu vos exalto com louvores! ℟. Dai graças ao Senhor, porque Ele é bom!",
-            "it": "℟. Rendete grazie al Signore perché è buono. Rendete grazie al Signore perché è buono, perché il suo amore è per sempre. Dica Israele: «Il suo amore è per sempre». ℟. Rendete grazie al Signore perché è buono. La destra del Signore si è innalzata, la destra del Signore ha fatto prodezze. Non morirò, ma resterò in vita e annuncerò le opere del Signore. ℟. Rendete grazie al Signore perché è buono. Sei tu il mio Dio e ti rendo grazie, sei il mio Dio e ti esalto. ℟. Rendete grazie al Signore perché è buono.",
-            "fr": "℟. Rendez grâce au Seigneur : Il est bon ! Rendez grâce au Seigneur : Il est bon ! Éternel est son amour ! Oui, que le dise Israël : Éternel est son amour ! ℟. Rendez grâce au Seigneur : Il est bon ! Le bras du Seigneur se lève, le bras du Seigneur est fort ! Non, je ne mourrai pas, je vivrai pour annoncer les actions du Seigneur. ℟. Rendez grâce au Seigneur : Il est bon ! Tu es mon Dieu, je te rends grâce, mon Dieu, je t’exalte ! Je te rends grâce car tu m’as exaucé : tu es pour moi le salut. ℟. Rendez grâce au Seigneur : Il est bon !",
-            "de": "℟. Danket dem Herrn, denn er ist gütig, denn seine Huld währt ewig. So soll Israel sagen: Denn seine Huld währt ewig. So sollen alle sagen, die den Herrn fürchten und ehren: Denn seine Huld währt ewig. ℟. Danket dem Herrn, denn er ist gütig, denn seine Huld währt ewig. Die Rechte des Herrn ist erhoben, die Rechte des Herrn wirkt mit Macht! Ich werde nicht sterben, sondern leben, um die Taten des Herrn zu verkünden. ℟. Danket dem Herrn, denn er ist gütig, denn seine Huld währt ewig. Du bist mein Gott, dir will ich danken; mein Gott, dich will ich rühmen. Danket dem Herrn, denn er ist gütig, denn seine Huld währt ewig. ℟. Danket dem Herrn, denn er ist gütig, denn seine Huld währt ewig."
-          },
-          "lines": {
+        "citation": {
+          "pt-BR": "Sl 117",
+          "de": "Ps 118",
+          "la": "Ps 117",
+          "en": "Ps 117",
+          "es": "Sal 117",
+          "it": "Sal 117",
+          "fr": "Ps 117"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Confitémini Dómino, quóniam bonus."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Dad gracias al Señor porque es bueno."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "Give thanks to the Lord, for he is good."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Dai graças ao Senhor, porque Ele é bom!"
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Rendete grazie al Signore perché è buono."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Rendez grâce au Seigneur : Il est bon !"
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Danket dem Herrn, denn er ist gütig, denn seine Huld währt ewig."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -1528,17 +1393,9 @@
                   "type": "text",
                   "text": "quóniam in sǽculum misericórdia eius."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Confitémini Dómino, quóniam bonus."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1562,17 +1419,9 @@
                   "type": "text",
                   "text": "et narrábo ópera Dómini."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Confitémini Dómino, quóniam bonus."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1584,29 +1433,11 @@
                   "type": "text",
                   "text": "Deus meus et exaltábo te."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Confitémini Dómino, quóniam bonus."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dad gracias al Señor porque es bueno."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1630,17 +1461,9 @@
                   "type": "text",
                   "text": "eterna es su misericordia."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dad gracias al Señor porque es bueno."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1658,17 +1481,9 @@
                   "type": "text",
                   "text": "No he de morir, viviré para contar las hazañas del Señor."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dad gracias al Señor porque es bueno."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1680,89 +1495,37 @@
                   "type": "text",
                   "text": "Dios mío, yo te ensalzo."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dad gracias al Señor porque es bueno."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Give thanks to the Lord, for he is good."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "Give thanks to the Lord for he is good, for his love endures for ever. Let the sons of Israel say: His love endures for ever."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Give thanks to the Lord, for he is good."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "The Lord's right hand has triumphed; his right hand raised me. I shall not die, I shall live and recount his deeds."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Give thanks to the Lord, for he is good."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "You are my God, I thank you. My God, I praise you."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Give thanks to the Lord, for he is good."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dai graças ao Senhor, porque Ele é bom!"
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -1786,17 +1549,9 @@
                   "type": "text",
                   "text": "\"Eterna é a sua misericórdia!\"."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dai graças ao Senhor, porque Ele é bom!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1814,17 +1569,9 @@
                   "type": "text",
                   "text": "Não morrerei, mas ao contrário, viverei para cantar as grandes obras do Senhor!."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dai graças ao Senhor, porque Ele é bom!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1836,29 +1583,11 @@
                   "type": "text",
                   "text": "Vós sois meu Deus, eu vos exalto com louvores!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dai graças ao Senhor, porque Ele é bom!"
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Rendete grazie al Signore perché è buono."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -1882,17 +1611,9 @@
                   "type": "text",
                   "text": "«Il suo amore è per sempre»."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Rendete grazie al Signore perché è buono."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1910,17 +1631,9 @@
                   "type": "text",
                   "text": "Non morirò, ma resterò in vita e annuncerò le opere del Signore."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Rendete grazie al Signore perché è buono."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1932,29 +1645,11 @@
                   "type": "text",
                   "text": "sei il mio Dio e ti esalto."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Rendete grazie al Signore perché è buono."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Rendez grâce au Seigneur : Il est bon !"
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -1978,17 +1673,9 @@
                   "type": "text",
                   "text": "Éternel est son amour !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Rendez grâce au Seigneur : Il est bon !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2006,17 +1693,9 @@
                   "type": "text",
                   "text": "Non, je ne mourrai pas, je vivrai pour annoncer les actions du Seigneur."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Rendez grâce au Seigneur : Il est bon !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2046,29 +1725,11 @@
                   "type": "text",
                   "text": "tu es pour moi le salut."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Rendez grâce au Seigneur : Il est bon !"
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Danket dem Herrn, denn er ist gütig, denn seine Huld währt ewig."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -2092,17 +1753,9 @@
                   "type": "text",
                   "text": "Denn seine Huld währt ewig."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Danket dem Herrn, denn er ist gütig, denn seine Huld währt ewig."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2126,17 +1779,9 @@
                   "type": "text",
                   "text": "um die Taten des Herrn zu verkünden."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Danket dem Herrn, denn er ist gütig, denn seine Huld währt ewig."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2160,28 +1805,9 @@
                   "type": "text",
                   "text": "denn seine Huld währt ewig."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Danket dem Herrn, denn er ist gütig, denn seine Huld währt ewig."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "pt-BR": "Sl 117",
-          "de": "Ps 118",
-          "la": "Ps 117",
-          "en": "Ps 117",
-          "es": "Sal 117",
-          "it": "Sal 117",
-          "fr": "Ps 117"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -2205,7 +1831,9 @@
                 {
                   "type": "reference",
                   "text": "Mt 11, 28"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Veníte ad me, omnes qui laborátis et oneráti estis, et ego refíciam vos, dicit Dóminus. Allelúia."
@@ -2221,7 +1849,9 @@
                 {
                   "type": "reference",
                   "text": "Mt 11, 28"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Venid a mí todos los que estáis cansados y agobiados —dice el Señor—, y yo os aliviaré. Aleluya."

@@ -227,28 +227,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Ne obliviscámini óperum Dei! Quanta audívimus et cognóvimus ea, et patres nostri narravérunt nobis, generatióni álteri narrántes laudes Dómini et virtútes eius. ℟. Ne obliviscámini óperum Dei! Exsúrgent et narrábunt fíliis suis, ut ponant in Deo spem suam, et non obliviscántur óperum Dei, et mandáta eius custódiant. ℟. Ne obliviscámini óperum Dei! Ne fiant sicut patres eórum, generátio rebéllis et exásperans; generátio quæ non firmávit cor suum, et non fuit fidélis Deo spíritus eius. ℟. Ne obliviscámini óperum Dei!",
-            "es": "℟. ¡No olvidéis las acciones de Dios! Lo que oímos y aprendimos, lo que nuestros padres nos contaron, lo contaremos a la futura generación: las alabanzas del Señor, su poder. ℟. ¡No olvidéis las acciones de Dios! Que surjan y lo cuenten a sus hijos, para que pongan en Dios su confianza y no olviden las acciones de Dios, sino que guarden sus mandamientos. ℟. ¡No olvidéis las acciones de Dios! Para que no imiten a sus padres, generación rebelde y pertinaz; generación de corazón inconstante, de espíritu infiel a Dios. ℟. ¡No olvidéis las acciones de Dios!",
-            "en": "℟. Do not forget the works of the Lord! The things we have heard and understood, the things our fathers have told us we will not hide from their children but will tell them to the next generation: the glories of the Lord and his might and the marvelous deeds he has done. ℟. Do not forget the works of the Lord! They too should arise and tell their sons that they too should set their hope in God and never forget God's deeds but keep every one of his commands. ℟. Do not forget the works of the Lord! So that they might not be like their fathers, a defiant and rebellious race, a race whose heart was fickle, whose spirit was unfaithful to God. ℟. Do not forget the works of the Lord!",
-            "pt-BR": "℟. Não vos esqueçais das obras do Senhor! Tudo aquilo que ouvimos e aprendemos, e transmitiram para nós os nossos pais, à nova geração nós contaremos: As grandezas do Senhor e seu poder. ℟. Não vos esqueçais das obras do Senhor! Levantem-se e as contem a seus filhos, para que ponham no Senhor sua esperança; das obras do Senhor não se esqueçam, e observem fielmente os seus preceitos. ℟. Não vos esqueçais das obras do Senhor! Nem se tornem, a exemplo de seus pais, rebelde e obstinada geração, uma raça de inconstante coração, infiel ao Senhor Deus, em seu espírito. ℟. Não vos esqueçais das obras do Senhor!",
-            "it": "℟. Proclameremo le tue opere, Signore. Ciò che abbiamo udito e conosciuto e i nostri padri ci hanno raccontato non lo terremo nascosto ai nostri figli, raccontando alla generazione futura le azioni gloriose e potenti del Signore. ℟. Proclameremo le tue opere, Signore. Essi poi si alzeranno a raccontarlo ai loro figli, perché ripongano in Dio la loro fiducia e non dimentichino le opere di Dio, ma custodiscano i suoi comandi. ℟. Proclameremo le tue opere, Signore. Non siano come i loro padri, generazione ribelle e ostinata, generazione dal cuore incostante e dallo spirito infedele a Dio. ℟. Proclameremo le tue opere, Signore.",
-            "fr": "℟. N’oubliez pas les exploits du Seigneur ! Nous avons entendu et nous savons ce que nos pères nous ont raconté ; les titres de gloire du Seigneur, sa puissance et les merveilles qu’il a faites. ℟. N’oubliez pas les exploits du Seigneur ! Pour que l’âge suivant les connaisse, et leur descendance à venir, qu’ils n’oublient pas les exploits du Seigneur mais observent ses commandements. ℟. N’oubliez pas les exploits du Seigneur ! Qu’ils ne soient pas, comme leurs pères, une génération indocile et rebelle, génération de cœurs inconstants et d’esprits infidèles à Dieu. ℟. N’oubliez pas les exploits du Seigneur !",
-            "de": "℟. Vergesst die Taten Gottes nicht! Was wir hörten und erfuhren, was uns die Väter erzählten: die ruhmreichen Taten und die Stärke des Herrn, die Wunder, die er getan hat. ℟. Vergesst die Taten Gottes nicht! Sie sollten aufstehen und es weitergeben an ihre Kinder, damit sie ihr Vertrauen auf Gott setzen, die Taten Gottes nicht vergessen und seine Gebote bewahren. ℟. Vergesst die Taten Gottes nicht! Sie sollten nicht werden wie ihre Väter, jenes Geschlecht voll Trotz und Empörung, das wankelmütige Geschlecht, dessen Geist nicht treu zu Gott hielt. ℟. Vergesst die Taten Gottes nicht!"
-          },
-          "lines": {
+        "citation": {
+          "pt-BR": "Sl 77",
+          "de": "Ps 78",
+          "la": "Ps 77",
+          "en": "Ps 77",
+          "es": "Sal 77",
+          "it": "Sal 77",
+          "fr": "Ps 77"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Ne obliviscámini óperum Dei!"
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "¡No olvidéis las acciones de Dios!"
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "Do not forget the works of the Lord!"
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Não vos esqueçais das obras do Senhor!"
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Proclameremo le tue opere, Signore."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "N’oubliez pas les exploits du Seigneur !"
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Vergesst die Taten Gottes nicht!"
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -266,17 +316,9 @@
                   "type": "text",
                   "text": "generatióni álteri narrántes laudes Dómini et virtútes eius."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ne obliviscámini óperum Dei!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -300,17 +342,9 @@
                   "type": "text",
                   "text": "et mandáta eius custódiant."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ne obliviscámini óperum Dei!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -334,29 +368,11 @@
                   "type": "text",
                   "text": "et non fuit fidélis Deo spíritus eius."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ne obliviscámini óperum Dei!"
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "¡No olvidéis las acciones de Dios!"
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -380,17 +396,9 @@
                   "type": "text",
                   "text": "las alabanzas del Señor, su poder."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "¡No olvidéis las acciones de Dios!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -408,17 +416,9 @@
                   "type": "text",
                   "text": "sino que guarden sus mandamientos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "¡No olvidéis las acciones de Dios!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -442,89 +442,37 @@
                   "type": "text",
                   "text": "de espíritu infiel a Dios."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "¡No olvidéis las acciones de Dios!"
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Do not forget the works of the Lord!"
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "The things we have heard and understood, the things our fathers have told us we will not hide from their children but will tell them to the next generation: the glories of the Lord and his might and the marvelous deeds he has done."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Do not forget the works of the Lord!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "They too should arise and tell their sons that they too should set their hope in God and never forget God's deeds but keep every one of his commands."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Do not forget the works of the Lord!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "So that they might not be like their fathers, a defiant and rebellious race, a race whose heart was fickle, whose spirit was unfaithful to God."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Do not forget the works of the Lord!"
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Não vos esqueçais das obras do Senhor!"
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -548,17 +496,9 @@
                   "type": "text",
                   "text": "As grandezas do Senhor e seu poder."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Não vos esqueçais das obras do Senhor!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -582,17 +522,9 @@
                   "type": "text",
                   "text": "e observem fielmente os seus preceitos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Não vos esqueçais das obras do Senhor!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -610,29 +542,11 @@
                   "type": "text",
                   "text": "infiel ao Senhor Deus, em seu espírito."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Não vos esqueçais das obras do Senhor!"
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Proclameremo le tue opere, Signore."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -644,17 +558,9 @@
                   "type": "text",
                   "text": "raccontando alla generazione futura le azioni gloriose e potenti del Signore."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Proclameremo le tue opere, Signore."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -672,17 +578,9 @@
                   "type": "text",
                   "text": "ma custodiscano i suoi comandi."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Proclameremo le tue opere, Signore."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -700,29 +598,11 @@
                   "type": "text",
                   "text": "generazione dal cuore incostante e dallo spirito infedele a Dio."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Proclameremo le tue opere, Signore."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "N’oubliez pas les exploits du Seigneur !"
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -740,17 +620,9 @@
                   "type": "text",
                   "text": "sa puissance et les merveilles qu’il a faites."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "N’oubliez pas les exploits du Seigneur !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -768,17 +640,9 @@
                   "type": "text",
                   "text": "qu’ils n’oublient pas les exploits du Seigneur mais observent ses commandements."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "N’oubliez pas les exploits du Seigneur !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -796,29 +660,11 @@
                   "type": "text",
                   "text": "génération de cœurs inconstants et d’esprits infidèles à Dieu."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "N’oubliez pas les exploits du Seigneur !"
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Vergesst die Taten Gottes nicht!"
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -842,17 +688,9 @@
                   "type": "text",
                   "text": "die Wunder, die er getan hat."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Vergesst die Taten Gottes nicht!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -870,17 +708,9 @@
                   "type": "text",
                   "text": "die Taten Gottes nicht vergessen und seine Gebote bewahren."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Vergesst die Taten Gottes nicht!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -904,28 +734,9 @@
                   "type": "text",
                   "text": "dessen Geist nicht treu zu Gott hielt."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Vergesst die Taten Gottes nicht!"
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "pt-BR": "Sl 77",
-          "de": "Ps 78",
-          "la": "Ps 77",
-          "en": "Ps 77",
-          "es": "Sal 77",
-          "it": "Sal 77",
-          "fr": "Ps 77"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -949,7 +760,9 @@
                 {
                   "type": "reference",
                   "text": "Lc 7, 16"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Prophéta magnus surréxit in nobis, et Deus visitábit plebem suam. Allelúia."
@@ -965,7 +778,9 @@
                 {
                   "type": "reference",
                   "text": "Lc 7, 16"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Un gran Profeta ha surgido entre nosotros. Dios ha visitado a su pueblo. Aleluya."
@@ -1482,28 +1297,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Misericórdias tuas, Dómine, in ætérnum cantábo. Beátus pópulus qui scit iubilatiónem; Dómine, in lúmine vultus tui ambulábunt, et in nómine tuo exsultábunt tota die, et in iustítia tua exaltabúntur. ℟. Misericórdias tuas, Dómine, in ætérnum cantábo. Quóniam decor virtútis eórum tu es, et in beneplácito tuo exaltábitur cornu nostrum. Quia Dómini est scutum nostrum, et sancti Israel rex noster. ℟. Misericórdias tuas, Dómine, in ætérnum cantábo.",
-            "es": "℟. Cantaré eternamente tus misericordias, Señor. Dichoso el pueblo que sabe aclamarte: caminará, oh, Señor, a la luz de tu rostro; tu nombre es su gozo cada día, tu justicia es su orgullo. ℟. Cantaré eternamente tus misericordias, Señor. Porque tú eres su honor y su fuerza, y con tu favor realzas nuestro poder. Porque el Señor es nuestro escudo, y el Santo de Israel nuestro rey. ℟. Cantaré eternamente tus misericordias, Señor.",
-            "en": "℟. For ever I will sing the goodness of the Lord. Happy the people who acclaim such a king, who walk, O Lord, in the light of your face, who find their joy every day in your name, who make your justice the source of their bliss. ℟. For ever I will sing the goodness of the Lord. For you, O Lord, are the glory of their strength; by your favour it is that our might is exalted: for our ruler is in the keeping of the Lord; our king in the keeping of the Holy One of Israel. ℟. For ever I will sing the goodness of the Lord.",
-            "pt-BR": "℟. Ó Senhor, eu cantarei eternamente o vosso amor. Quão feliz é aquele povo que conhece a alegria; seguirá pelo caminho, sempre à luz de vossa face! Exultará de alegria em vosso nome dia a dia, e com grande entusiasmo exaltará vossa justiça. ℟. Ó Senhor, eu cantarei eternamente o vosso amor. Pois sois vós, ó Senhor Deus, a sua força e sua glória, é por vossa proteção que exaltais nossa cabeça. Do Senhor é o nosso escudo, ele é nossa proteção, ele reina sobre nós, é o Santo de Israel!. ℟. Ó Senhor, eu cantarei eternamente o vosso amor.",
-            "it": "℟. Canterò in eterno l’amore del Signore. Beato il popolo che ti sa acclamare: camminerà, Signore, alla luce del tuo volto; esulta tutto il giorno nel tuo nome, si esalta nella tua giustizia. ℟. Canterò in eterno l’amore del Signore. Perché tu sei lo splendore della sua forza e con il tuo favore innalzi la nostra fronte. Perché del Signore è il nostro scudo, il nostro re, del Santo d’Israele. ℟. Canterò in eterno l’amore del Signore.",
-            "fr": "℟. Ton amour, Seigneur, sans fin je le chante ! Heureux le peuple qui connaît l’ovation ! Seigneur, il marche à la lumière de ta face ; tout le jour, à ton nom il danse de joie, fier de ton juste pouvoir. ℟. Ton amour, Seigneur, sans fin je le chante ! Tu es sa force éclatante ; ta grâce accroît notre vigueur. Oui, notre roi est au Seigneur ; notre bouclier, au Dieu saint d’Israël. ℟. Ton amour, Seigneur, sans fin je le chante !",
-            "de": "℟. Von den Taten deiner Huld, o Herr, will ich ewig singen. Wohl dem Volk, das dich als König zu feiern weiß! Herr, sie gehen im Licht deines Angesichts. Sie freuen sich über deinen Namen zu jeder Zeit, über deine Gerechtigkeit jubeln sie. ℟. Von den Taten deiner Huld, o Herr, will ich ewig singen. Denn du bist ihre Schönheit und Stärke, du erhöhst unsre Kraft in deiner Güte. Ja, unser Schild gehört dem Herrn, unser König dem heiligen Gott Israels. ℟. Von den Taten deiner Huld, o Herr, will ich ewig singen."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 88, 16-17. 18-19",
+          "es": "Sal 88, 16-17. 18-19",
+          "en": "Ps 88:16-17, 18-19",
+          "pt-BR": "Sl 88, 16-17. 18-19",
+          "de": "Ps 89",
+          "it": "Sal 88, 16-17. 18-19",
+          "fr": "Ps 88, 16-17. 18-19"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Misericórdias tuas, Dómine, in ætérnum cantábo."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Cantaré eternamente tus misericordias, Señor."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "For ever I will sing the goodness of the Lord."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Ó Senhor, eu cantarei eternamente o vosso amor."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Canterò in eterno l’amore del Signore."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Ton amour, Seigneur, sans fin je le chante !"
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Von den Taten deiner Huld, o Herr, will ich ewig singen."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -1527,17 +1392,9 @@
                   "type": "text",
                   "text": "et in iustítia tua exaltabúntur."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Misericórdias tuas, Dómine, in ætérnum cantábo."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1561,29 +1418,11 @@
                   "type": "text",
                   "text": "et sancti Israel rex noster."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Misericórdias tuas, Dómine, in ætérnum cantábo."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Cantaré eternamente tus misericordias, Señor."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1607,17 +1446,9 @@
                   "type": "text",
                   "text": "tu justicia es su orgullo."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Cantaré eternamente tus misericordias, Señor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1641,73 +1472,29 @@
                   "type": "text",
                   "text": "y el Santo de Israel nuestro rey."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Cantaré eternamente tus misericordias, Señor."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "For ever I will sing the goodness of the Lord."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "Happy the people who acclaim such a king, who walk, O Lord, in the light of your face, who find their joy every day in your name, who make your justice the source of their bliss."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "For ever I will sing the goodness of the Lord."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "For you, O Lord, are the glory of their strength; by your favour it is that our might is exalted: for our ruler is in the keeping of the Lord; our king in the keeping of the Holy One of Israel."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "For ever I will sing the goodness of the Lord."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ó Senhor, eu cantarei eternamente o vosso amor."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -1737,17 +1524,9 @@
                   "type": "text",
                   "text": "e com grande entusiasmo exaltará vossa justiça."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ó Senhor, eu cantarei eternamente o vosso amor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1771,29 +1550,11 @@
                   "type": "text",
                   "text": "ele reina sobre nós, é o Santo de Israel!."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ó Senhor, eu cantarei eternamente o vosso amor."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Canterò in eterno l’amore del Signore."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -1817,17 +1578,9 @@
                   "type": "text",
                   "text": "si esalta nella tua giustizia."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Canterò in eterno l’amore del Signore."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1851,29 +1604,11 @@
                   "type": "text",
                   "text": "del Santo d’Israele."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Canterò in eterno l’amore del Signore."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ton amour, Seigneur, sans fin je le chante !"
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -1897,17 +1632,9 @@
                   "type": "text",
                   "text": "fier de ton juste pouvoir."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ton amour, Seigneur, sans fin je le chante !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1931,29 +1658,11 @@
                   "type": "text",
                   "text": "notre bouclier, au Dieu saint d’Israël."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ton amour, Seigneur, sans fin je le chante !"
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Von den Taten deiner Huld, o Herr, will ich ewig singen."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -1977,17 +1686,9 @@
                   "type": "text",
                   "text": "über deine Gerechtigkeit jubeln sie."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Von den Taten deiner Huld, o Herr, will ich ewig singen."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2011,28 +1712,9 @@
                   "type": "text",
                   "text": "unser König dem heiligen Gott Israels."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Von den Taten deiner Huld, o Herr, will ich ewig singen."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 88, 16-17. 18-19",
-          "es": "Sal 88, 16-17. 18-19",
-          "en": "Ps 88:16-17, 18-19",
-          "pt-BR": "Sl 88, 16-17. 18-19",
-          "de": "Ps 89",
-          "it": "Sal 88, 16-17. 18-19",
-          "fr": "Ps 88, 16-17. 18-19"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -2056,7 +1738,9 @@
                 {
                   "type": "reference",
                   "text": "Lc 7, 16"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Prophéta magnus surréxit in nobis, et Deus visitábit plebem suam. Allelúia."
@@ -2072,7 +1756,9 @@
                 {
                   "type": "reference",
                   "text": "Lc 7, 16"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Un gran Profeta ha surgido entre nosotros. Dios ha visitado a su pueblo. Aleluya."

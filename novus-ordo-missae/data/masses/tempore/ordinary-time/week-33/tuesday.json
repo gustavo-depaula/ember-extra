@@ -228,28 +228,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Dóminus suscépit me. Dómine, quid multiplicáti sunt qui tríbulant me? Multi insúrgunt advérsum me, multi dicunt ánimæ meæ: «Non est salus ipsi in Deo». ℟. Dóminus suscépit me. Tu autem, Dómine, protéctor meus es, glória mea et exáltans caput meum. Voce mea ad Dóminum clamávi, et exaudívit me de monte sancto suo. ℟. Dóminus suscépit me. Ego obdormívi et soporátus sum, exsurréxi quia Dóminus suscépit me. Non timébo mília pópuli circumdántis me. Exsúrge, Dómine, salvum me fac, Deus meus. ℟. Dóminus suscépit me.",
-            "es": "℟. El Señor me sostiene. Señor, cuántos son mis enemigos, cuántos se levantan contra mí; cuántos dicen de mí: «ya no lo protege Dios». ℟. El Señor me sostiene. Pero tú, Señor, eres mi escudo y mi gloria, tú mantienes alta mi cabeza. Si grito invocando al Señor, él me escucha desde su monte santo. ℟. El Señor me sostiene. Puedo acostarme y dormir y despertar: el Señor me sostiene. No temeré al pueblo innumerable que acampa a mi alrededor. Levántate, Señor; sálvame, Dios mío. ℟. El Señor me sostiene.",
-            "en": "℟. The Lord upholds me. How many are my foes, O Lord! How many are rising up against me! How many are saying about me: 'There is no help for him in God.' ℟. The Lord upholds me. But you, Lord, are a shield about me, my glory, who lift up my head. I cry aloud to the Lord. He answers from his holy mountain. ℟. The Lord upholds me. I lie down to rest and I sleep. I wake, for the Lord upholds me. I will not fear even thousands of people who are ranged on every side against me. Arise, Lord; save me, my God. ℟. The Lord upholds me.",
-            "pt-BR": "℟. É o Senhor quem me sustenta e me protege! Quão numerosos, ó Senhor, os que me atacam; quanta gente se levanta contra mim! Muitos dizem, comentando a meu respeito: \"Ele não acha a salvação junto de Deus\". ℟. É o Senhor quem me sustenta e me protege! Mas sois vós o meu escudo protetor, a minha glória que levanta minha cabeça! Quando eu chamei em alta voz pelo Senhor, do Monte santo ele me ouviu e respondeu. ℟. É o Senhor quem me sustenta e me protege! Eu me deito e adormeço bem tranquilo; acordo em paz, pois o Senhor é meu sustento. Não terei medo de milhares que me cerquem e furiosos se levantem contra mim. Levantai-vos, ó Senhor, vinde salvar-me! ℟. É o Senhor quem me sustenta e me protege!",
-            "it": "℟. Il Signore mi sostiene. Signore, quanti sono i miei avversari! Molti contro di me insorgono. Molti dicono della mia vita: «Per lui non c’è salvezza in Dio!». ℟. Il Signore mi sostiene. Ma tu sei mio scudo, Signore, sei la mia gloria e tieni alta la mia testa. A gran voce grido al Signore ed egli mi risponde dalla sua santa montagna. ℟. Il Signore mi sostiene. Io mi corico, mi addormento e mi risveglio: il Signore mi sostiene. Non temo la folla numerosa che intorno a me si è accampata. ℟. Il Signore mi sostiene.",
-            "fr": "℟. Le Seigneur est mon soutien ! Seigneur, qu’ils sont nombreux mes adversaires, nombreux à se lever contre moi, nombreux à déclarer à mon sujet : « Pour lui, pas de salut auprès de Dieu ! » ℟. Le Seigneur est mon soutien ! Mais toi, Seigneur, mon bouclier, ma gloire, tu tiens haute ma tête. À pleine voix je crie vers le Seigneur ; il me répond de sa montagne sainte. ℟. Le Seigneur est mon soutien ! Et moi, je me couche et je dors ; je m’éveille : le Seigneur est mon soutien. Je ne crains pas ce peuple nombreux qui me cerne et s’avance contre moi ℟. Le Seigneur est mon soutien !",
-            "de": "℟. Der Herr nimmt sich meiner an. Herr, wie zahlreich sind meine Bedränger; so viele stehen gegen mich auf. Viele gibt es, die von mir sagen: „Er findet keine Hilfe bei Gott.“ ℟. Der Herr nimmt sich meiner an. Du aber, Herr, bist ein Schild für mich, du bist meine Ehre und richtest mich auf. Ich habe laut zum Herrn gerufen; da erhörte er mich von seinem heiligen Berg. ℟. Der Herr nimmt sich meiner an. Ich lege mich nieder und schlafe ein, ich wache wieder auf, denn der Herr beschützt mich. Viele Tausende von Kriegern fürchte ich nicht, wenn sie mich ringsum belagern. ℟. Der Herr nimmt sich meiner an."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 3, 2-3. 4-5. 6-7",
+          "es": "Sal 3, 2-3. 4-5. 6-7",
+          "en": "Ps 3:2-3, 4-5, 6-7",
+          "pt-BR": "Sl 3, 2-3.4-5.6-7",
+          "de": "Ps 3, 2-3. 4-5. 6-7",
+          "it": "Sal 3, 2-3. 4-5. 6-7",
+          "fr": "Ps 3, 2-3. 4-5. 6-7"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Dóminus suscépit me."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "El Señor me sostiene."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "The Lord upholds me."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "É o Senhor quem me sustenta e me protege!"
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Il Signore mi sostiene."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Le Seigneur est mon soutien !"
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Der Herr nimmt sich meiner an."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -273,17 +323,9 @@
                   "type": "text",
                   "text": "«Non est salus ipsi in Deo»."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dóminus suscépit me."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -307,17 +349,9 @@
                   "type": "text",
                   "text": "et exaudívit me de monte sancto suo."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dóminus suscépit me."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -341,29 +375,11 @@
                   "type": "text",
                   "text": "Exsúrge, Dómine, salvum me fac, Deus meus."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dóminus suscépit me."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor me sostiene."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -387,17 +403,9 @@
                   "type": "text",
                   "text": "«ya no lo protege Dios»."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor me sostiene."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -421,17 +429,9 @@
                   "type": "text",
                   "text": "él me escucha desde su monte santo."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor me sostiene."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -461,61 +461,27 @@
                   "type": "text",
                   "text": "Señor; sálvame, Dios mío."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor me sostiene."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord upholds me."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "How many are my foes, O Lord! How many are rising up against me! How many are saying about me: 'There is no help for him in God.'"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord upholds me."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "But you, Lord, are a shield about me, my glory, who lift up my head. I cry aloud to the Lord. He answers from his holy mountain."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord upholds me."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -527,29 +493,11 @@
                   "type": "text",
                   "text": "Lord; save me, my God."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord upholds me."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "É o Senhor quem me sustenta e me protege!"
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -573,17 +521,9 @@
                   "type": "text",
                   "text": "\"Ele não acha a salvação junto de Deus\"."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "É o Senhor quem me sustenta e me protege!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -607,17 +547,9 @@
                   "type": "text",
                   "text": "do Monte santo ele me ouviu e respondeu."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "É o Senhor quem me sustenta e me protege!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -641,29 +573,11 @@
                   "type": "text",
                   "text": "Levantai-vos, ó Senhor, vinde salvar-me!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "É o Senhor quem me sustenta e me protege!"
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore mi sostiene."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -687,17 +601,9 @@
                   "type": "text",
                   "text": "«Per lui non c’è salvezza in Dio!»."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore mi sostiene."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -715,17 +621,9 @@
                   "type": "text",
                   "text": "A gran voce grido al Signore ed egli mi risponde dalla sua santa montagna."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore mi sostiene."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -743,29 +641,11 @@
                   "type": "text",
                   "text": "Non temo la folla numerosa che intorno a me si è accampata."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore mi sostiene."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur est mon soutien !"
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -789,17 +669,9 @@
                   "type": "text",
                   "text": "« Pour lui, pas de salut auprès de Dieu ! »"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur est mon soutien !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -829,17 +701,9 @@
                   "type": "text",
                   "text": "il me répond de sa montagne sainte."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur est mon soutien !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -857,29 +721,11 @@
                   "type": "text",
                   "text": "Je ne crains pas ce peuple nombreux qui me cerne et s’avance contre moi"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur est mon soutien !"
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Herr nimmt sich meiner an."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -903,17 +749,9 @@
                   "type": "text",
                   "text": "„Er findet keine Hilfe bei Gott.“"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Herr nimmt sich meiner an."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -937,17 +775,9 @@
                   "type": "text",
                   "text": "da erhörte er mich von seinem heiligen Berg."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Herr nimmt sich meiner an."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -971,28 +801,9 @@
                   "type": "text",
                   "text": "wenn sie mich ringsum belagern."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Herr nimmt sich meiner an."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 3, 2-3. 4-5. 6-7",
-          "es": "Sal 3, 2-3. 4-5. 6-7",
-          "en": "Ps 3:2-3, 4-5, 6-7",
-          "pt-BR": "Sl 3, 2-3.4-5.6-7",
-          "de": "Ps 3, 2-3. 4-5. 6-7",
-          "it": "Sal 3, 2-3. 4-5. 6-7",
-          "fr": "Ps 3, 2-3. 4-5. 6-7"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -1016,7 +827,9 @@
                 {
                   "type": "reference",
                   "text": "1 Io 4, 10b"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Deus diléxit nos, et misit Fílium suum propitiatiónem pro peccátis nostris. Allelúia."
@@ -1032,7 +845,9 @@
                 {
                   "type": "reference",
                   "text": "1 Jn 4, 10b"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Dios nos amó y nos envió a su Hijo como víctima de propiciación por nuestros pecados. Aleluya."
@@ -1549,28 +1364,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Qui vícerit, dabo ei sedére mecum in throno meo. Qui ingréditur sine mácula, et operátur iustítiam; qui lóquitur veritátem in corde suo, qui non egit dolum in lingua sua. ℟. Qui vícerit, dabo ei sedére mecum in throno meo. Nec fecit próximo suo malum, et oppróbrium non íntulit próximo suo. Ad níhilum reputátus est in conspéctu eius malígnus, timéntes autem Dóminum gloríficat. ℟. Qui vícerit, dabo ei sedére mecum in throno meo. Qui pecúniam suam non dedit ad usúram, et múnera super innocéntem non accépit. Qui facit hæc, non movébitur in ætérnum. ℟. Qui vícerit, dabo ei sedére mecum in throno meo.",
-            "es": "℟. Al vencedor le concederé sentarse conmigo en mi trono. El que procede honradamente y practica la justicia, el que tiene intenciones leales y no calumnia con su lengua. ℟. Al vencedor le concederé sentarse conmigo en mi trono. El que no hace mal a su prójimo ni difama al vecino. El que considera despreciable al impío y honra a los que temen al Señor. ℟. Al vencedor le concederé sentarse conmigo en mi trono. El que no presta dinero a usura ni acepta soborno contra el inocente. El que así obra nunca fallará. ℟. Al vencedor le concederé sentarse conmigo en mi trono.",
-            "en": "℟. Him who is victorious I will sit beside me on my throne. He who walks without fault; he who acts with justice and speaks the truth from his heart; he who does not slander with his tongue. ℟. Him who is victorious I will sit beside me on my throne. He who does no wrong to his brother, who casts no slur on his neighbour, who holds the godless in disdain, but honors those who fear the Lord. ℟. Him who is victorious I will sit beside me on my throne. He who takes no interest on a loan and accepts no bribes against the innocent. Such a man will stand firm for ever. ℟. Him who is victorious I will sit beside me on my throne.",
-            "pt-BR": "℟. Ao vencedor, dar-lhe-ei o direito de sentar-se comigo no meu trono. É aquele que caminha sem pecado e pratica a justiça fielmente; que pensa a verdade no seu íntimo e não solta em calúnias sua língua. ℟. Ao vencedor, dar-lhe-ei o direito de sentar-se comigo no meu trono. Que em nada prejudica o seu irmão, nem cobre de insultos seu vizinho; que não dá valor algum ao homem ímpio, mas honra os que respeitam o Senhor. ℟. Ao vencedor, dar-lhe-ei o direito de sentar-se comigo no meu trono. Não empresta o seu dinheiro com usura, nem se deixa subornar contra o inocente. Jamais vacilará quem vive assim! ℟. Ao vencedor, dar-lhe-ei o direito de sentar-se comigo no meu trono.",
-            "it": "℟. Il vincitore lo farò sedere con me, sul mio trono. Colui che cammina senza colpa, pratica la giustizia e dice la verità che ha nel cuore, non sparge calunnie con la sua lingua. ℟. Il vincitore lo farò sedere con me, sul mio trono. Non fa danno al suo prossimo e non lancia insulti al suo vicino. Ai suoi occhi è spregevole il malvagio, ma onora chi teme il Signore. ℟. Il vincitore lo farò sedere con me, sul mio trono. Non presta il suo denaro a usura e non accetta doni contro l’innocente. Colui che agisce in questo modo resterà saldo per sempre. ℟. Il vincitore lo farò sedere con me, sul mio trono.",
-            "fr": "℟. Le vainqueur, je lui donnerai de siéger avec moi sur mon Trône. Seigneur, qui séjournera sous ta tente ? Celui qui se conduit parfaitement, qui agit avec justice et dit la vérité selon son cœur. ℟. Le vainqueur, je lui donnerai de siéger avec moi sur mon Trône. Il ne fait pas de tort à son frère et n’outrage pas son prochain. À ses yeux, le réprouvé est méprisable mais il honore les fidèles du Seigneur. ℟. Le vainqueur, je lui donnerai de siéger avec moi sur mon Trône. Il ne reprend pas sa parole. Il prête son argent sans intérêt, n’accepte rien qui nuise à l’innocent. Qui fait ainsi demeure inébranlable. ℟. Le vainqueur, je lui donnerai de siéger avec moi sur mon Trône.",
-            "de": "℟. Wer siegt, der darf mit mir auf meinem Thron sitzen. Der makellos lebt und das Rechte tut; der von Herzen die Wahrheit sagt und mit seiner Zunge nicht verleumdet; der seinem Freund nichts Böses antut und seinen Nächsten nicht schmäht; ℟. Wer siegt, der darf mit mir auf meinem Thron sitzen. der den Verworfenen verachtet, doch alle, die den Herrn fürchten, in Ehren hält; der sein Versprechen nicht ändert, das er seinem Nächsten geschworen hat; ℟. Wer siegt, der darf mit mir auf meinem Thron sitzen. der sein Geld nicht auf Wucher ausleiht und nicht zum Nachteil des Schuldlosen Bestechung annimmt. Wer sich danach richtet, der wird niemals wanken. ℟. Wer siegt, der darf mit mir auf meinem Thron sitzen."
-          },
-          "lines": {
+        "citation": {
+          "pt-BR": "Sl 14",
+          "de": "Ps 15",
+          "la": "Ps 14",
+          "en": "Ps 14",
+          "es": "Sal 14",
+          "it": "Sal 14",
+          "fr": "Ps 14"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Qui vícerit, dabo ei sedére mecum in throno meo."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Al vencedor le concederé sentarse conmigo en mi trono."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "Him who is victorious I will sit beside me on my throne."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Ao vencedor, dar-lhe-ei o direito de sentar-se comigo no meu trono."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Il vincitore lo farò sedere con me, sul mio trono."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Le vainqueur, je lui donnerai de siéger avec moi sur mon Trône."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Wer siegt, der darf mit mir auf meinem Thron sitzen."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -1588,17 +1453,9 @@
                   "type": "text",
                   "text": "qui non egit dolum in lingua sua."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Qui vícerit, dabo ei sedére mecum in throno meo."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1622,17 +1479,9 @@
                   "type": "text",
                   "text": "timéntes autem Dóminum gloríficat."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Qui vícerit, dabo ei sedére mecum in throno meo."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1650,29 +1499,11 @@
                   "type": "text",
                   "text": "Qui facit hæc, non movébitur in ætérnum."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Qui vícerit, dabo ei sedére mecum in throno meo."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Al vencedor le concederé sentarse conmigo en mi trono."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1684,17 +1515,9 @@
                   "type": "text",
                   "text": "el que tiene intenciones leales y no calumnia con su lengua."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Al vencedor le concederé sentarse conmigo en mi trono."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1706,17 +1529,9 @@
                   "type": "text",
                   "text": "El que considera despreciable al impío y honra a los que temen al Señor."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Al vencedor le concederé sentarse conmigo en mi trono."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1728,61 +1543,27 @@
                   "type": "text",
                   "text": "El que así obra nunca fallará."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Al vencedor le concederé sentarse conmigo en mi trono."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Him who is victorious I will sit beside me on my throne."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "He who walks without fault; he who acts with justice and speaks the truth from his heart; he who does not slander with his tongue."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Him who is victorious I will sit beside me on my throne."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "He who does no wrong to his brother, who casts no slur on his neighbour, who holds the godless in disdain, but honors those who fear the Lord."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Him who is victorious I will sit beside me on my throne."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1794,29 +1575,11 @@
                   "type": "text",
                   "text": "Such a man will stand firm for ever."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Him who is victorious I will sit beside me on my throne."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ao vencedor, dar-lhe-ei o direito de sentar-se comigo no meu trono."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -1828,17 +1591,9 @@
                   "type": "text",
                   "text": "que pensa a verdade no seu íntimo e não solta em calúnias sua língua."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ao vencedor, dar-lhe-ei o direito de sentar-se comigo no meu trono."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1862,17 +1617,9 @@
                   "type": "text",
                   "text": "mas honra os que respeitam o Senhor."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ao vencedor, dar-lhe-ei o direito de sentar-se comigo no meu trono."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1890,29 +1637,11 @@
                   "type": "text",
                   "text": "Jamais vacilará quem vive assim!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ao vencedor, dar-lhe-ei o direito de sentar-se comigo no meu trono."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il vincitore lo farò sedere con me, sul mio trono."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -1930,17 +1659,9 @@
                   "type": "text",
                   "text": "non sparge calunnie con la sua lingua."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il vincitore lo farò sedere con me, sul mio trono."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1958,17 +1679,9 @@
                   "type": "text",
                   "text": "ma onora chi teme il Signore."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il vincitore lo farò sedere con me, sul mio trono."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1980,29 +1693,11 @@
                   "type": "text",
                   "text": "Colui che agisce in questo modo resterà saldo per sempre."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il vincitore lo farò sedere con me, sul mio trono."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le vainqueur, je lui donnerai de siéger avec moi sur mon Trône."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -2020,17 +1715,9 @@
                   "type": "text",
                   "text": "qui agit avec justice et dit la vérité selon son cœur."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le vainqueur, je lui donnerai de siéger avec moi sur mon Trône."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2042,17 +1729,9 @@
                   "type": "text",
                   "text": "À ses yeux, le réprouvé est méprisable mais il honore les fidèles du Seigneur."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le vainqueur, je lui donnerai de siéger avec moi sur mon Trône."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2076,29 +1755,11 @@
                   "type": "text",
                   "text": "Qui fait ainsi demeure inébranlable."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le vainqueur, je lui donnerai de siéger avec moi sur mon Trône."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Wer siegt, der darf mit mir auf meinem Thron sitzen."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -2116,17 +1777,9 @@
                   "type": "text",
                   "text": "der seinem Freund nichts Böses antut und seinen Nächsten nicht schmäht;"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Wer siegt, der darf mit mir auf meinem Thron sitzen."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2150,17 +1803,9 @@
                   "type": "text",
                   "text": "das er seinem Nächsten geschworen hat;"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Wer siegt, der darf mit mir auf meinem Thron sitzen."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2178,28 +1823,9 @@
                   "type": "text",
                   "text": "der wird niemals wanken."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Wer siegt, der darf mit mir auf meinem Thron sitzen."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "pt-BR": "Sl 14",
-          "de": "Ps 15",
-          "la": "Ps 14",
-          "en": "Ps 14",
-          "es": "Sal 14",
-          "it": "Sal 14",
-          "fr": "Ps 14"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -2223,7 +1849,9 @@
                 {
                   "type": "reference",
                   "text": "1 Io 4, 10b"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Deus diléxit nos, et misit Fílium suum propitiatiónem pro peccátis nostris. Allelúia."
@@ -2239,7 +1867,9 @@
                 {
                   "type": "reference",
                   "text": "1 Jn 4, 10b"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Dios nos amó y nos envió a su Hijo como víctima de propiciación por nuestros pecados. Aleluya."

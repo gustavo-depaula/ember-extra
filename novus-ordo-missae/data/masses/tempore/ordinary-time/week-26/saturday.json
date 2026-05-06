@@ -228,28 +228,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Exaudívit páuperes Dóminus. Vídeant húmiles et læténtur; quǽrite Deum, et vivet cor vestrum. Quóniam exaudívit páuperes Dóminus, et vinctos suos non despéxit. Laudent illum cæli et terra, mária et ómnia reptília in eis. ℟. Exaudívit páuperes Dóminus. Quóniam Deus salvam fáciet Sion, et ædificábit civitátes Iuda; et inhabitábunt ibi, et possidébunt eam. Et semen servórum eius hereditábunt eam, et qui díligunt nomen eius, habitábunt in ea. ℟. Exaudívit páuperes Dóminus.",
-            "es": "℟. El Señor escucha a sus pobres. Miradlo, los humildes, y alegraos; buscad al Señor, y revivirá vuestro corazón. Que el Señor escucha a sus pobres, no desprecia a sus cautivos. Alábenlo el cielo y la tierra, las aguas y cuanto bulle en ellas. ℟. El Señor escucha a sus pobres. Dios salvará a Sion, reconstruirá las ciudades de Judá y las habitarán en posesión. La estirpe de sus siervos la heredará, los que aman su nombre vivirán en ella. ℟. El Señor escucha a sus pobres.",
-            "en": "℟. The Lord listens to the poor. The poor when they see it will be glad and God-seeking hearts will revive; for the Lord listens to the needy and does not spurn his servants in their chains. Let the heavens and the earth give him praise, the sea and all living creatures. ℟. The Lord listens to the poor. For God will bring help to Zion and rebuild the cities of Judah and men shall dwell there in possession. The sons of his servants shall inherit it; those who love his name shall dwell there. ℟. The Lord listens to the poor.",
-            "pt-BR": "℟. Nosso Deus atende a prece dos seus pobres. Humildes, vede isto e alegrai-vos: o vosso coração reviverá, se procurardes o Senhor continuamente! Pois nosso Deus atende à prece dos seus pobres, e não despreza o clamor de seus cativos. Que céus e terra glorifiquem o Senhor com o mar e todo ser que neles vive!. ℟. Nosso Deus atende a prece dos seus pobres. Sim, Deus virá e salvará Jerusalém, reconstruindo as cidades de Judá, onde os pobres morarão, sendo seus donos. A descendência de seus servos há de herdá-las, e os que amam o santo nome do Senhor dentro delas fixarão sua morada! ℟. Nosso Deus atende a prece dos seus pobres.",
-            "it": "℟. Il Signore ascolta i miseri Vedano i poveri e si rallegrino; voi che cercate Dio, fatevi coraggio, perché il Signore ascolta i miseri e non disprezza i suoi che sono prigionieri. A lui cantino lode i cieli e la terra, i mari e quanto brulica in essi. ℟. Il Signore ascolta i miseri Perché Dio salverà Sion, ricostruirà le città di Giuda: vi abiteranno e ne riavranno il possesso. La stirpe dei suoi servi ne sarà erede e chi ama il suo nome vi porrà dimora. ℟. Il Signore ascolta i miseri",
-            "fr": "℟. Le Seigneur écoute les humbles. Les pauvres l’ont vu, ils sont en fête : « Vie et joie, à vous qui cherchez Dieu ! » Car le Seigneur écoute les humbles, il n’oublie pas les siens emprisonnés. Que le ciel et la terre le célèbrent, les mers et tout leur peuplement ! ℟. Le Seigneur écoute les humbles. Car Dieu viendra sauver Sion et rebâtir les villes de Juda. Il en fera une habitation, un héritage : patrimoine pour les descendants de ses serviteurs, demeure pour ceux qui aiment son nom. ℟. Le Seigneur écoute les humbles.",
-            "de": "℟. Der Herr hört auf die Armen. Schaut her, ihr Gebeugten, und freut euch; ihr, die ihr Gott sucht: euer Herz lebe auf! Denn der Herr hört auf die Armen, er verachtet die Gefangenen nicht. Himmel und Erde sollen ihn rühmen, die Meere und was sich in ihnen regt. ℟. Der Herr hört auf die Armen. Denn Gott wird Zion retten, wird Judas Städte neu erbauen. Seine Knechte werden dort wohnen und das Land besitzen, ihre Nachkommen sollen es erben; wer seinen Namen liebt, soll darin wohnen. ℟. Der Herr hört auf die Armen."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 68, 33-35. 36-37",
+          "es": "Sal 68, 33-35. 36-37",
+          "en": "Ps 68:33-35, 36-37",
+          "pt-BR": "Sl 68, 33-35. 36-37",
+          "de": "Ps 69",
+          "it": "Sal 68, 33-35. 36-37",
+          "fr": "Ps 68, 33-35. 36-37"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Exaudívit páuperes Dóminus."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "El Señor escucha a sus pobres."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "The Lord listens to the poor."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Nosso Deus atende a prece dos seus pobres."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Il Signore ascolta i miseri"
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Le Seigneur écoute les humbles."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Der Herr hört auf die Armen."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -285,17 +335,9 @@
                   "type": "text",
                   "text": "mária et ómnia reptília in eis."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Exaudívit páuperes Dóminus."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -325,29 +367,11 @@
                   "type": "text",
                   "text": "et qui díligunt nomen eius, habitábunt in ea."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Exaudívit páuperes Dóminus."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor escucha a sus pobres."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -383,17 +407,9 @@
                   "type": "text",
                   "text": "las aguas y cuanto bulle en ellas."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor escucha a sus pobres."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -417,29 +433,11 @@
                   "type": "text",
                   "text": "los que aman su nombre vivirán en ella."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor escucha a sus pobres."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord listens to the poor."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
@@ -451,45 +449,19 @@
                   "type": "text",
                   "text": "Let the heavens and the earth give him praise, the sea and all living creatures."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord listens to the poor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "For God will bring help to Zion and rebuild the cities of Judah and men shall dwell there in possession. The sons of his servants shall inherit it; those who love his name shall dwell there."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord listens to the poor."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Nosso Deus atende a prece dos seus pobres."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -525,17 +497,9 @@
                   "type": "text",
                   "text": "Que céus e terra glorifiquem o Senhor com o mar e todo ser que neles vive!."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Nosso Deus atende a prece dos seus pobres."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -565,29 +529,11 @@
                   "type": "text",
                   "text": "e os que amam o santo nome do Senhor dentro delas fixarão sua morada!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Nosso Deus atende a prece dos seus pobres."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore ascolta i miseri Vedano i poveri e si rallegrino;"
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -611,17 +557,9 @@
                   "type": "text",
                   "text": "i mari e quanto brulica in essi."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore ascolta i miseri Perché Dio salverà Sion,"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -639,29 +577,11 @@
                   "type": "text",
                   "text": "La stirpe dei suoi servi ne sarà erede e chi ama il suo nome vi porrà dimora."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore ascolta i miseri"
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur écoute les humbles."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -697,17 +617,9 @@
                   "type": "text",
                   "text": "les mers et tout leur peuplement !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur écoute les humbles."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -731,29 +643,11 @@
                   "type": "text",
                   "text": "demeure pour ceux qui aiment son nom."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur écoute les humbles."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Herr hört auf die Armen."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -789,17 +683,9 @@
                   "type": "text",
                   "text": "die Meere und was sich in ihnen regt."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Herr hört auf die Armen."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -829,28 +715,9 @@
                   "type": "text",
                   "text": "wer seinen Namen liebt, soll darin wohnen."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Herr hört auf die Armen."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 68, 33-35. 36-37",
-          "es": "Sal 68, 33-35. 36-37",
-          "en": "Ps 68:33-35, 36-37",
-          "pt-BR": "Sl 68, 33-35. 36-37",
-          "de": "Ps 69",
-          "it": "Sal 68, 33-35. 36-37",
-          "fr": "Ps 68, 33-35. 36-37"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -874,7 +741,9 @@
                 {
                   "type": "reference",
                   "text": "Cf. Mt 11, 25"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Benedíctus es, Pater, Dómine cæli et terræ, quia mystéria regni párvulis revelásti. Allelúia."
@@ -890,7 +759,9 @@
                 {
                   "type": "reference",
                   "text": "Cf. Mt 11, 25"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Bendito seas, Padre, Señor del cielo y de la tierra, porque has revelado los misterios del reino a los pequeños. Aleluya."
@@ -1406,155 +1277,19 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Fáciem tuam, Dómine, illúmina super servum tuum. Bonitátem et prudéntiam et sciéntiam doce me, quia præcéptis tuis crédidi. ℟. Fáciem tuam, Dómine, illúmina super servum tuum. Bonum mihi quia humiliátus sum, ut discam iustificatiónes tuas. ℟. Fáciem tuam, Dómine, illúmina super servum tuum. Cognóvi, Dómine, quia ǽquitas iudícia tua, et in veritáte humiliásti me. ℟. Fáciem tuam, Dómine, illúmina super servum tuum. Secúndum iudícia tua pérmanent hódie, quóniam ómnia sérviunt tibi. ℟. Fáciem tuam, Dómine, illúmina super servum tuum. Servus tuus sum ego; da mihi intelléctum, ut sciam testimónia tua. ℟. Fáciem tuam, Dómine, illúmina super servum tuum. Declarátio sermónum tuórum illúminat, et intelléctum dat párvulis. ℟. Fáciem tuam, Dómine, illúmina super servum tuum.",
-            "es": "℟. Haz brillar, Señor, tu rostro sobre tu siervo. Enséñame la bondad, la prudencia y el conocimiento, porque me fío de tus mandatos. ℟. Haz brillar, Señor, tu rostro sobre tu siervo. Me estuvo bien el sufrir, así aprendí tus decretos. ℟. Haz brillar, Señor, tu rostro sobre tu siervo. Reconozco, Señor, que tus mandamientos son justos, que con razón me hiciste sufrir. ℟. Haz brillar, Señor, tu rostro sobre tu siervo. Por tu mandamiento subsisten hasta hoy, porque todo está a tu servicio. ℟. Haz brillar, Señor, tu rostro sobre tu siervo. Yo soy tu siervo: dame inteligencia, y conoceré tus preceptos. ℟. Haz brillar, Señor, tu rostro sobre tu siervo. La explicación de tus palabras ilumina, da inteligencia a los ignorantes. ℟. Haz brillar, Señor, tu rostro sobre tu siervo.",
-            "en": "℟. Lord, let your face shine on me. Teach me discernment and knowledge for I trust in your commands. ℟. Lord, let your face shine on me. It was good for me to be afflicted, to learn your statutes. ℟. Lord, let your face shine on me. Lord, I know that your decrees are right, that you afflicted me justly. ℟. Lord, let your face shine on me. By your decree the earth endures to this day; for all things serve you. ℟. Lord, let your face shine on me. I am your servant, give me knowledge; then I shall know your will. ℟. Lord, let your face shine on me. The unfolding of your word gives light and teaches the simple. ℟. Lord, let your face shine on me.",
-            "pt-BR": "℟. Fazei brilhar vosso semblante ao vosso servo. Dai-me bom senso, retidão, sabedoria, pois tenho fé nos vossos santos mandamentos! ℟. Fazei brilhar vosso semblante ao vosso servo. Para mim foi muito bom ser humilhado, porque assim eu aprendi vossa vontade! ℟. Fazei brilhar vosso semblante ao vosso servo. Sei que os vossos julgamentos são corretos, e com justiça me provastes, ó Senhor! ℟. Fazei brilhar vosso semblante ao vosso servo. Porque mandastes, tudo existe até agora; todas as coisas, ó Senhor, vos obedecem! ℟. Fazei brilhar vosso semblante ao vosso servo. Sou vosso servo: concedei-me inteligência, para que eu possa compreender vossa Aliança! ℟. Fazei brilhar vosso semblante ao vosso servo. Vossa palavra, ao revelar-se, me ilumina, ela dá sabedoria aos pequeninos. ℟. Fazei brilhar vosso semblante ao vosso servo.",
-            "it": "℟. Fa' risplendere il tuo volto sul tuo servo, Signore. Insegnami il gusto del bene e la conoscenza, perché ho fiducia nei tuoi comandi. ℟. Fa' risplendere il tuo volto sul tuo servo, Signore. Bene per me se sono stato umiliato, perché impari i tuoi decreti. ℟. Fa' risplendere il tuo volto sul tuo servo, Signore. Signore, io so che i tuoi giudizi sono giusti e con ragione mi hai umiliato. ℟. Fa' risplendere il tuo volto sul tuo servo, Signore. Per i tuoi giudizi tutto è stabile fino ad oggi, perché ogni cosa è al tuo servizio. ℟. Fa' risplendere il tuo volto sul tuo servo, Signore. Io sono tuo servo: fammi comprendere e conoscerò i tuoi insegnamenti. ℟. Fa' risplendere il tuo volto sul tuo servo, Signore. La rivelazione delle tue parole illumina, dona intelligenza ai semplici. ℟. Fa' risplendere il tuo volto sul tuo servo, Signore.",
-            "fr": "℟. Pour ton serviteur, que ton visage s’illumine, Seigneur ! Apprends-moi à bien saisir, à bien juger : je me fie à tes volontés. ℟. Pour ton serviteur, que ton visage s’illumine, Seigneur ! C’est pour mon bien que j’ai souffert, ainsi, ai-je appris tes commandements. ℟. Pour ton serviteur, que ton visage s’illumine, Seigneur ! Seigneur, je le sais, tes décisions sont justes ; tu es fidèle quand tu m’éprouves. ℟. Pour ton serviteur, que ton visage s’illumine, Seigneur ! Jusqu’à ce jour, le monde tient par tes décisions : toute chose est ta servante. ℟. Pour ton serviteur, que ton visage s’illumine, Seigneur ! Je suis ton serviteur, éclaire-moi : je connaîtrai tes exigences. ℟. Pour ton serviteur, que ton visage s’illumine, Seigneur ! Déchiffrer ta parole illumine, et les simples comprennent. ℟. Pour ton serviteur, que ton visage s’illumine, Seigneur !",
-            "de": "℟. Herr, lass dein Angesicht leuchten über deinem Knecht! Lehre mich Erkenntnis und rechtes Urteil! Ich vertraue auf deine Gebote. Dass ich gedemütigt wurde, war für mich gut; denn so lernte ich deine Gesetze. ℟. Herr, lass dein Angesicht leuchten über deinem Knecht! Herr, ich weiß, dass deine Entscheide gerecht sind; du hast mich gebeugt, weil du treu für mich sorgst. ℟. Herr, lass dein Angesicht leuchten über deinem Knecht! Nach deiner Ordnung bestehen sie bis heute, und dir ist alles dienstbar. ℟. Herr, lass dein Angesicht leuchten über deinem Knecht! Ich bin dein Knecht. Gib mir Einsicht, damit ich verstehe, was du gebietest. ℟. Herr, lass dein Angesicht leuchten über deinem Knecht! Die Erklärung deiner Worte bringt Erleuchtung, den Unerfahrenen schenkt sie Einsicht. ℟. Herr, lass dein Angesicht leuchten über deinem Knecht!"
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 118, 66. 71. 75. 91. 125. 130",
+          "es": "Sal 118, 66. 71. 75. 91. 125. 130",
+          "en": "Ps 118:66, 71, 75, 91, 125, 130",
+          "pt-BR": "Sl 118, 66. 71. 75. 91. 125. 130",
+          "de": "Ps 119",
+          "it": "Sal 118, 66. 71. 75. 91. 125. 130",
+          "fr": "Ps 118, 66. 71. 75. 91. 125. 130"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Fáciem tuam, Dómine, illúmina super servum tuum."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Bonitátem et prudéntiam et sciéntiam doce me,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "quia præcéptis tuis crédidi."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Fáciem tuam, Dómine, illúmina super servum tuum."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Bonum mihi quia humiliátus sum,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "ut discam iustificatiónes tuas."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Fáciem tuam, Dómine, illúmina super servum tuum."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Cognóvi, Dómine, quia ǽquitas iudícia tua,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "et in veritáte humiliásti me."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Fáciem tuam, Dómine, illúmina super servum tuum."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Secúndum iudícia tua pérmanent hódie,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "quóniam ómnia sérviunt tibi."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Fáciem tuam, Dómine, illúmina super servum tuum."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Servus tuus sum ego;"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "da mihi intelléctum, ut sciam testimónia tua."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Fáciem tuam, Dómine, illúmina super servum tuum."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Declarátio sermónum tuórum illúminat,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "et intelléctum dat párvulis."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Fáciem tuam, Dómine, illúmina super servum tuum."
@@ -1564,142 +1299,6 @@
             "es": [
               [
                 {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Haz brillar, Señor, tu rostro sobre tu siervo."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Enséñame la bondad, la prudencia y el conocimiento,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "porque me fío de tus mandatos."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Haz brillar, Señor, tu rostro sobre tu siervo."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Me estuvo bien el sufrir,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "así aprendí tus decretos."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Haz brillar, Señor, tu rostro sobre tu siervo."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Reconozco, Señor, que tus mandamientos son justos,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "que con razón me hiciste sufrir."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Haz brillar, Señor, tu rostro sobre tu siervo."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Por tu mandamiento subsisten hasta hoy,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "porque todo está a tu servicio."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Haz brillar, Señor, tu rostro sobre tu siervo."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Yo soy tu siervo: dame inteligencia,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "y conoceré tus preceptos."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Haz brillar, Señor, tu rostro sobre tu siervo."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "La explicación de tus palabras ilumina,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "da inteligencia a los ignorantes."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
                   "type": "text",
                   "text": "Haz brillar, Señor, tu rostro sobre tu siervo."
                 }
@@ -1707,106 +1306,6 @@
             ],
             "en": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Lord, let your face shine on me."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Teach me discernment and knowledge for I trust in your commands."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Lord, let your face shine on me."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "It was good for me to be afflicted, to learn your statutes."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Lord, let your face shine on me."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Lord, I know that your decrees are right, that you afflicted me justly."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Lord, let your face shine on me."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "By your decree the earth endures to this day; for all things serve you."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Lord, let your face shine on me."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "I am your servant, give me knowledge; then I shall know your will."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Lord, let your face shine on me."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "The unfolding of your word gives light and teaches the simple."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Lord, let your face shine on me."
@@ -1816,136 +1315,6 @@
             "pt-BR": [
               [
                 {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Fazei brilhar vosso semblante ao vosso servo."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Dai-me bom senso, retidão, sabedoria,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "pois tenho fé nos vossos santos mandamentos!"
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Fazei brilhar vosso semblante ao vosso servo."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Para mim foi muito bom ser humilhado, porque assim eu aprendi vossa vontade!"
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Fazei brilhar vosso semblante ao vosso servo."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Sei que os vossos julgamentos são corretos,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "e com justiça me provastes, ó Senhor!"
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Fazei brilhar vosso semblante ao vosso servo."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Porque mandastes, tudo existe até agora;"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "todas as coisas, ó Senhor, vos obedecem!"
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Fazei brilhar vosso semblante ao vosso servo."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Sou vosso servo: concedei-me inteligência,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "para que eu possa compreender vossa Aliança!"
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Fazei brilhar vosso semblante ao vosso servo."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Vossa palavra, ao revelar-se, me ilumina,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "ela dá sabedoria aos pequeninos."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
                   "type": "text",
                   "text": "Fazei brilhar vosso semblante ao vosso servo."
                 }
@@ -1953,166 +1322,6 @@
             ],
             "it": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Fa' risplendere il tuo volto sul tuo servo,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Signore."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Insegnami il gusto del bene e la conoscenza,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "perché ho fiducia nei tuoi comandi."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Fa' risplendere il tuo volto sul tuo servo,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Signore."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Bene per me se sono stato umiliato,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "perché impari i tuoi decreti."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Fa' risplendere il tuo volto sul tuo servo,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Signore."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Signore, io so che i tuoi giudizi sono giusti e con ragione mi hai umiliato."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Fa' risplendere il tuo volto sul tuo servo,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Signore."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Per i tuoi giudizi tutto è stabile fino ad oggi,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "perché ogni cosa è al tuo servizio."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Fa' risplendere il tuo volto sul tuo servo,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Signore."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Io sono tuo servo: fammi comprendere e conoscerò i tuoi insegnamenti."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Fa' risplendere il tuo volto sul tuo servo,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Signore."
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "La rivelazione delle tue parole illumina,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "dona intelligenza ai semplici."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Fa' risplendere il tuo volto sul tuo servo,"
@@ -2128,10 +1337,6 @@
             "fr": [
               [
                 {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
                   "type": "text",
                   "text": "Pour ton serviteur, que ton visage s’illumine,"
                 }
@@ -2141,7 +1346,397 @@
                   "type": "text",
                   "text": "Seigneur !"
                 }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Herr, lass dein Angesicht leuchten über deinem Knecht!"
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Bonitátem et prudéntiam et sciéntiam doce me,"
+                }
               ],
+              [
+                {
+                  "type": "text",
+                  "text": "quia præcéptis tuis crédidi."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Bonum mihi quia humiliátus sum,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "ut discam iustificatiónes tuas."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Cognóvi, Dómine, quia ǽquitas iudícia tua,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "et in veritáte humiliásti me."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Secúndum iudícia tua pérmanent hódie,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "quóniam ómnia sérviunt tibi."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Servus tuus sum ego;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "da mihi intelléctum, ut sciam testimónia tua."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Declarátio sermónum tuórum illúminat,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "et intelléctum dat párvulis."
+                }
+              ]
+            ]
+          ],
+          "es": [
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Enséñame la bondad, la prudencia y el conocimiento,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "porque me fío de tus mandatos."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Me estuvo bien el sufrir,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "así aprendí tus decretos."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Reconozco, Señor, que tus mandamientos son justos,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "que con razón me hiciste sufrir."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Por tu mandamiento subsisten hasta hoy,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "porque todo está a tu servicio."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Yo soy tu siervo: dame inteligencia,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "y conoceré tus preceptos."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "La explicación de tus palabras ilumina,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "da inteligencia a los ignorantes."
+                }
+              ]
+            ]
+          ],
+          "en": [
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Teach me discernment and knowledge for I trust in your commands."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "It was good for me to be afflicted, to learn your statutes."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Lord, I know that your decrees are right, that you afflicted me justly."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "By your decree the earth endures to this day; for all things serve you."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "I am your servant, give me knowledge; then I shall know your will."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "The unfolding of your word gives light and teaches the simple."
+                }
+              ]
+            ]
+          ],
+          "pt-BR": [
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Dai-me bom senso, retidão, sabedoria,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "pois tenho fé nos vossos santos mandamentos!"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Para mim foi muito bom ser humilhado, porque assim eu aprendi vossa vontade!"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Sei que os vossos julgamentos são corretos,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "e com justiça me provastes, ó Senhor!"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Porque mandastes, tudo existe até agora;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "todas as coisas, ó Senhor, vos obedecem!"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Sou vosso servo: concedei-me inteligência,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "para que eu possa compreender vossa Aliança!"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Vossa palavra, ao revelar-se, me ilumina,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "ela dá sabedoria aos pequeninos."
+                }
+              ]
+            ]
+          ],
+          "it": [
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Insegnami il gusto del bene e la conoscenza,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "perché ho fiducia nei tuoi comandi."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Bene per me se sono stato umiliato,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "perché impari i tuoi decreti."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Signore, io so che i tuoi giudizi sono giusti e con ragione mi hai umiliato."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Per i tuoi giudizi tutto è stabile fino ad oggi,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "perché ogni cosa è al tuo servizio."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Io sono tuo servo: fammi comprendere e conoscerò i tuoi insegnamenti."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "La rivelazione delle tue parole illumina,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "dona intelligenza ai semplici."
+                }
+              ]
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -2153,23 +1748,9 @@
                   "type": "text",
                   "text": "je me fie à tes volontés."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Pour ton serviteur, que ton visage s’illumine,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Seigneur !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2181,23 +1762,9 @@
                   "type": "text",
                   "text": "ainsi, ai-je appris tes commandements."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Pour ton serviteur, que ton visage s’illumine,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Seigneur !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2209,23 +1776,9 @@
                   "type": "text",
                   "text": "tu es fidèle quand tu m’éprouves."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Pour ton serviteur, que ton visage s’illumine,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Seigneur !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2243,23 +1796,9 @@
                   "type": "text",
                   "text": "toute chose est ta servante."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Pour ton serviteur, que ton visage s’illumine,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Seigneur !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2271,23 +1810,9 @@
                   "type": "text",
                   "text": "je connaîtrai tes exigences."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Pour ton serviteur, que ton visage s’illumine,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Seigneur !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2299,35 +1824,11 @@
                   "type": "text",
                   "text": "et les simples comprennent."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Pour ton serviteur, que ton visage s’illumine,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Seigneur !"
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, lass dein Angesicht leuchten über deinem Knecht!"
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -2351,17 +1852,9 @@
                   "type": "text",
                   "text": "denn so lernte ich deine Gesetze."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, lass dein Angesicht leuchten über deinem Knecht!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2379,17 +1872,9 @@
                   "type": "text",
                   "text": "weil du treu für mich sorgst."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, lass dein Angesicht leuchten über deinem Knecht!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2401,17 +1886,9 @@
                   "type": "text",
                   "text": "und dir ist alles dienstbar."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, lass dein Angesicht leuchten über deinem Knecht!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2423,17 +1900,9 @@
                   "type": "text",
                   "text": "damit ich verstehe, was du gebietest."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, lass dein Angesicht leuchten über deinem Knecht!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2445,28 +1914,9 @@
                   "type": "text",
                   "text": "den Unerfahrenen schenkt sie Einsicht."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, lass dein Angesicht leuchten über deinem Knecht!"
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 118, 66. 71. 75. 91. 125. 130",
-          "es": "Sal 118, 66. 71. 75. 91. 125. 130",
-          "en": "Ps 118:66, 71, 75, 91, 125, 130",
-          "pt-BR": "Sl 118, 66. 71. 75. 91. 125. 130",
-          "de": "Ps 119",
-          "it": "Sal 118, 66. 71. 75. 91. 125. 130",
-          "fr": "Ps 118, 66. 71. 75. 91. 125. 130"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -2490,7 +1940,9 @@
                 {
                   "type": "reference",
                   "text": "Cf. Mt 11, 25"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Benedíctus es, Pater, Dómine cæli et terræ, quia mystéria regni párvulis revelásti. Allelúia."
@@ -2506,7 +1958,9 @@
                 {
                   "type": "reference",
                   "text": "Cf. Mt 11, 25"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Bendito seas, Padre, Señor del cielo y de la tierra, porque has revelado los misterios del reino a los pequeños. Aleluya."

@@ -228,28 +228,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Miserátor et miséricors Dóminus. Bénedic, ánima mea, Dómino; et ómnia quæ intra me sunt, nómini sancto eius. Bénedic, ánima mea, Dómino, et noli oblivísci omnes retributiónes eius. ℟. Miserátor et miséricors Dóminus. Qui propitiátur ómnibus iniquitátibus tuis, qui sanat omnes infirmitátes tuas; qui rédimit de intéritu vitam tuam, qui corónat te in misericórdia et miseratiónibus. ℟. Miserátor et miséricors Dóminus. Fáciens iustítias Dóminus, et iudícium ómnibus iniúriam patiéntibus. Notas fecit vias suas Móysi, fíliis Israel adinventiónes suas. ℟. Miserátor et miséricors Dóminus.",
-            "es": "℟. El Señor es compasivo y misericordioso. Bendice, alma mía, al Señor, y todo mi ser a su santo nombre. Bendice, alma mía, al Señor, y no olvides sus beneficios. ℟. El Señor es compasivo y misericordioso. Él perdona todas tus culpas y cura todas tus enfermedades; él rescata tu vida de la fosa, y te colma de gracia y de ternura. ℟. El Señor es compasivo y misericordioso. El Señor hace justicia y defiende a todos los oprimidos; enseñó sus caminos a Moisés y sus hazañas a los hijos de Israel. ℟. El Señor es compasivo y misericordioso.",
-            "en": "℟. The Lord is kind and merciful. My soul, give thanks to the Lord, all my being, bless his holy name. My soul, give thanks to the Lord and never forget all his blessings. It is he who forgives all your guilt, who heals every one of your ills, who redeems your life from the grave, who crowns you with love and compassion. ℟. The Lord is kind and merciful. The Lord does deeds of justice, gives judgment for all who are oppressed. He made known his ways to Moses and his deeds to Israel's sons. ℟. The Lord is kind and merciful.",
-            "pt-BR": "℟. O Senhor é indulgente, é favorável. Bendize, ó minha alma, ao Senhor, e todo o meu ser, seu santo nome! Bendize, ó minha alma, ao Senhor, não te esqueças de nenhum de seus favores!. ℟. O Senhor é indulgente, é favorável. Pois ele te perdoa toda culpa, e cura toda a tua enfermidade; da sepultura ele salva a tua vida e te cerca de carinho e compaixão. ℟. O Senhor é indulgente, é favorável. O Senhor realiza obras de justiça e garante o direito aos oprimidos; revelou os seus caminhos a Moisés, e aos filhos de Israel, seus grandes feitos. ℟. O Senhor é indulgente, é favorável.",
-            "it": "℟. Misericordioso e pietoso è il Signore. Benedici il Signore, anima mia, quanto è in me benedica il suo santo nome. Benedici il Signore, anima mia, non dimenticare tutti i suoi benefici. R. ℟. Misericordioso e pietoso è il Signore. Egli perdona tutte le tue colpe, guarisce tutte le tue infermità, salva dalla fossa la tua vita, ti circonda di bontà e misericordia. ℟. Misericordioso e pietoso è il Signore. Il Signore compie cose giuste, difende i diritti di tutti gli oppressi. Ha fatto conoscere a Mosè le sue vie, le sue opere ai figli d’Israele. ℟. Misericordioso e pietoso è il Signore.",
-            "fr": "℟. Le Seigneur est tendresse et pitié. Bénis le Seigneur, ô mon âme, bénis son nom très saint, tout mon être ! Bénis le Seigneur, ô mon âme, n’oublie aucun de ses bienfaits ! ℟. Le Seigneur est tendresse et pitié. Car il pardonne toutes tes offenses et te guérit de toute maladie ; il réclame ta vie à la tombe et te couronne d’amour et de tendresse. ℟. Le Seigneur est tendresse et pitié. Le Seigneur fait œuvre de justice, il défend le droit des opprimés. Il révèle ses desseins à Moïse, aux enfants d’Israël ses hauts faits. ℟. Le Seigneur est tendresse et pitié.",
-            "de": "℟. Gnädig und barmherzig ist der Herr. Lobe den Herrn, meine Seele, und alles in mir seinen heiligen Namen! Lobe den Herrn, meine Seele, und vergiss nicht, was er dir Gutes getan hat. ℟. Gnädig und barmherzig ist der Herr. Der dir all deine Schuld vergibt und all deine Gebrechen heilt, der dein Leben vor dem Untergang rettet und dich mit Huld und Erbarmen krönt. ℟. Gnädig und barmherzig ist der Herr. Der Herr vollbringt Taten des Heiles, Recht verschafft er allen Bedrängten. Er hat Mose seine Wege kundgetan, den Kindern Israels seine Werke. ℟. Gnädig und barmherzig ist der Herr."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 102, 1-2. 3-4. 6-7",
+          "es": "Sal 102, 1-2. 3-4. 6-7",
+          "en": "Ps 102:1-2, 3-4, 6-7",
+          "pt-BR": "Sl 102, 1-2. 3-4. 6-7",
+          "de": "Ps 103",
+          "it": "Sal 102, 1-2. 3-4. 6-7",
+          "fr": "Ps 102, 1-2. 3-4. 6-7"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Miserátor et miséricors Dóminus."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "El Señor es compasivo y misericordioso."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "The Lord is kind and merciful."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "O Senhor é indulgente, é favorável."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Misericordioso e pietoso è il Signore."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Le Seigneur est tendresse et pitié."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Gnädig und barmherzig ist der Herr."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -273,17 +323,9 @@
                   "type": "text",
                   "text": "et noli oblivísci omnes retributiónes eius."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Miserátor et miséricors Dóminus."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -307,17 +349,9 @@
                   "type": "text",
                   "text": "qui corónat te in misericórdia et miseratiónibus."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Miserátor et miséricors Dóminus."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -341,29 +375,11 @@
                   "type": "text",
                   "text": "fíliis Israel adinventiónes suas."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Miserátor et miséricors Dóminus."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor es compasivo y misericordioso."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -393,17 +409,9 @@
                   "type": "text",
                   "text": "y no olvides sus beneficios."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor es compasivo y misericordioso."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -421,17 +429,9 @@
                   "type": "text",
                   "text": "y te colma de gracia y de ternura."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor es compasivo y misericordioso."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -443,29 +443,11 @@
                   "type": "text",
                   "text": "enseñó sus caminos a Moisés y sus hazañas a los hijos de Israel."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor es compasivo y misericordioso."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord is kind and merciful."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
@@ -483,45 +465,19 @@
                   "type": "text",
                   "text": "It is he who forgives all your guilt, who heals every one of your ills, who redeems your life from the grave, who crowns you with love and compassion."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord is kind and merciful."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "The Lord does deeds of justice, gives judgment for all who are oppressed. He made known his ways to Moses and his deeds to Israel's sons."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord is kind and merciful."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor é indulgente, é favorável."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -545,17 +501,9 @@
                   "type": "text",
                   "text": "não te esqueças de nenhum de seus favores!."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor é indulgente, é favorável."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -567,17 +515,9 @@
                   "type": "text",
                   "text": "e cura toda a tua enfermidade; da sepultura ele salva a tua vida e te cerca de carinho e compaixão."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor é indulgente, é favorável."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -595,29 +535,11 @@
                   "type": "text",
                   "text": "e aos filhos de Israel, seus grandes feitos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor é indulgente, é favorável."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Misericordioso e pietoso è il Signore."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -641,17 +563,9 @@
                   "type": "text",
                   "text": "non dimenticare tutti i suoi benefici. R."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Misericordioso e pietoso è il Signore."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -675,17 +589,9 @@
                   "type": "text",
                   "text": "ti circonda di bontà e misericordia."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Misericordioso e pietoso è il Signore."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -709,29 +615,11 @@
                   "type": "text",
                   "text": "le sue opere ai figli d’Israele."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Misericordioso e pietoso è il Signore."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur est tendresse et pitié."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -755,17 +643,9 @@
                   "type": "text",
                   "text": "n’oublie aucun de ses bienfaits !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur est tendresse et pitié."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -777,17 +657,9 @@
                   "type": "text",
                   "text": "il réclame ta vie à la tombe et te couronne d’amour et de tendresse."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur est tendresse et pitié."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -811,29 +683,11 @@
                   "type": "text",
                   "text": "aux enfants d’Israël ses hauts faits."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur est tendresse et pitié."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Gnädig und barmherzig ist der Herr."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -857,17 +711,9 @@
                   "type": "text",
                   "text": "und vergiss nicht, was er dir Gutes getan hat."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Gnädig und barmherzig ist der Herr."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -879,17 +725,9 @@
                   "type": "text",
                   "text": "der dein Leben vor dem Untergang rettet und dich mit Huld und Erbarmen krönt."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Gnädig und barmherzig ist der Herr."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -913,28 +751,9 @@
                   "type": "text",
                   "text": "den Kindern Israels seine Werke."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Gnädig und barmherzig ist der Herr."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 102, 1-2. 3-4. 6-7",
-          "es": "Sal 102, 1-2. 3-4. 6-7",
-          "en": "Ps 102:1-2, 3-4, 6-7",
-          "pt-BR": "Sl 102, 1-2. 3-4. 6-7",
-          "de": "Ps 103",
-          "it": "Sal 102, 1-2. 3-4. 6-7",
-          "fr": "Ps 102, 1-2. 3-4. 6-7"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -958,7 +777,9 @@
                 {
                   "type": "reference",
                   "text": "Cf. Mt 11, 25"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Benedíctus es, Pater, Dómine cæli et terræ, quia mystéria regni párvulis revelásti. Allelúia."
@@ -974,7 +795,9 @@
                 {
                   "type": "reference",
                   "text": "Cf. Mt 11, 25"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Bendito seas, Padre, Señor del cielo y de la tierra, porque has revelado los misterios del reino a los pequeños. Aleluya."
@@ -1491,28 +1314,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Non repéllet Dóminus plebem suam. Pópulum tuum, Dómine, humíliant, et hereditátem tuam vexant. Víduam et ádvenam interfíciunt, et pupíllos occídunt. ℟. Non repéllet Dóminus plebem suam. Et dixérunt: «Non vidébit Dóminus, nec intélleget Deus Iacob». Intellégite, insipiéntes in pópulo, et stulti quando sapiétis? ℟. Non repéllet Dóminus plebem suam. Qui plantávit aurem, non áudiet, aut qui finxit óculum, non respíciet? Qui córripit gentes, non árguet, qui docet hóminem sciéntiam? ℟. Non repéllet Dóminus plebem suam. Quia non repéllet Dóminus plebem suam, et hereditátem suam non derelínquet. Quia ad iustítiam revertétur iudícium, et sequéntur illam omnes qui recto sunt corde. ℟. Non repéllet Dóminus plebem suam.",
-            "es": "℟. El Señor no rechaza a su pueblo. Trituran, Señor, a tu pueblo, oprimen a tu heredad; asesinan a viudas y forasteros, degüellan a los huérfanos. ℟. El Señor no rechaza a su pueblo. Y comentan: «Dios no lo ve, el Dios de Jacob no se entera». Enteraos, los más necios del pueblo, ignorantes, ¿cuándo discurriréis? ℟. El Señor no rechaza a su pueblo. El que plantó el oído ¿no va a oír? El que formó el ojo ¿no va a ver? El que educa a los pueblos ¿no va a castigar? El que instruye al hombre ¿no va a saber? ℟. El Señor no rechaza a su pueblo. Porque el Señor no rechaza a su pueblo, ni abandona su heredad: el juicio retornará a la justicia, y la seguirán todos los rectos de corazón. ℟. El Señor no rechaza a su pueblo.",
-            "en": "℟. The Lord will not abandon his people. They crush your people, Lord, they afflict the ones you have chosen. they kill the widow and the stranger and murder the fatherless child. ℟. The Lord will not abandon his people. And they say: 'The Lord does not see; the God of Jacob pays no heed.' Mark this, most senseless of people; fools, when will you understand? ℟. The Lord will not abandon his people. Can he who made the ear not hear? Can he who formed the eye not see? Will he who trains nations not punish? Will he who teaches men not have knowledge? ℟. The Lord will not abandon his people. The Lord will not abandon his people nor forsake those who are his own: for judgment shall again be just and all true hearts shall uphold it. ℟. The Lord will not abandon his people.",
-            "pt-BR": "℟. O Senhor não rejeita o seu povo Eis que oprimem, Senhor, vosso povo e humilham a vossa herança; estrangeiro e viúva trucidam, e assassinam o pobre e o órfão! ℟. O Senhor não rejeita o seu povo Eles dizem: \"O Senhor não nos vê e o Deus de Jacó não percebe!\" Entendei, ó estultos do povo; insensatos, quando é que vereis? ℟. O Senhor não rejeita o seu povo O que fez o ouvido, não ouve? Quem os olhos formou, não verá? Quem educa as nações, não castiga? Quem os homens ensina, não sabe? ℟. O Senhor não rejeita o seu povo O Senhor não rejeita o seu povo e não pode esquecer sua herança: voltarão a juízo as sentenças; quem é reto andará na justiça. ℟. O Senhor não rejeita o seu povo",
-            "it": "℟. Il Signore non respinge il suo popolo. Calpestano il tuo popolo, Signore. opprimono la tua eredità. Uccidono la vedova e il forestiero, massacrano gli orfani. ℟. Il Signore non respinge il suo popolo. Dicono: «Il Signore non vede, il Dio di Giacobbe non intende». Intendete, ignoranti del popolo: stolti, quando diventerete saggi? ℟. Il Signore non respinge il suo popolo. Chi ha formato l’orecchio, forse non sente? Chi ha plasmato l’occhio, forse non vede? Colui che castiga le genti, forse non punisce, lui che insegna all’uomo il sapere? ℟. Il Signore non respinge il suo popolo. Perché il Signore non respinge il suo popolo, e non abbandona la sua eredità, il giudizio ritornerà a essere giusto e lo seguiranno tutti i retti di cuore. ℟. Il Signore non respinge il suo popolo.",
-            "fr": "℟. Le Seigneur ne délaisse pas son peuple. C’est ton peuple, Seigneur, qu’ils piétinent, et ton domaine qu’ils écrasent ; ils massacrent la veuve et l’étranger, ils assassinent l’orphelin. ℟. Le Seigneur ne délaisse pas son peuple. Ils disent : « Le Seigneur ne voit pas, le Dieu de Jacob ne sait pas ! » Sachez-le, esprits vraiment stupides ; insensés, comprendrez-vous un jour ? ℟. Le Seigneur ne délaisse pas son peuple. Lui qui forma l’oreille, il n’entendrait pas ? Il a façonné l'œil, et il ne verrait pas ? Il a puni des peuples et ne châtierait plus, lui qui donne aux hommes la connaissance ? ℟. Le Seigneur ne délaisse pas son peuple. Le Seigneur ne délaisse pas son peuple, il n’abandonne pas son domaine : on jugera de nouveau selon la justice ; tous les hommes droits applaudiront. ℟. Le Seigneur ne délaisse pas son peuple.",
-            "de": "℟. Du, Herr, wirst dein Volk nicht verstoßen. Herr, die Frevler zertreten dein Volk, sie unterdrücken dein Erbteil. Sie bringen die Witwen und Waisen um und morden die Fremden. ℟. Du, Herr, wirst dein Volk nicht verstoßen. Sie denken: Der Herr sieht es ja nicht, der Gott Jakobs merkt es nicht. Begreift doch, ihr Toren im Volk! Ihr Unvernünftigen, wann werdet ihr klug? ℟. Du, Herr, wirst dein Volk nicht verstoßen. Sollte der nicht hören, der das Ohr gepflanzt hat, sollte der nicht sehen, der das Auge geformt hat? Sollte der nicht strafen, der die Völker erzieht, er, der die Menschen Erkenntnis lehrt? ℟. Du, Herr, wirst dein Volk nicht verstoßen. Ja, der Herr wird sein Volk nicht verstoßen und niemals sein Erbe verlassen. Nun spricht man wieder Recht nach Gerechtigkeit; ihr folgen alle Menschen mit redlichem Herzen. ℟. Du, Herr, wirst dein Volk nicht verstoßen."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 93, 5-6. 7-8. 9-10. 14-15",
+          "es": "Sal 93, 5-6. 7-8. 9-10. 14-15",
+          "en": "Ps 93:5-6, 7-8, 9-10, 14-15",
+          "pt-BR": "Sl 93, 5-6. 7-8. 9-10. 14-15",
+          "de": "Ps 94",
+          "it": "Sal 93, 5-6. 7-8. 9-10. 14-15",
+          "fr": "Ps 93, 5-6. 7-8. 9-10. 14-15"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Non repéllet Dóminus plebem suam."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "El Señor no rechaza a su pueblo."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "The Lord will not abandon his people."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "O Senhor não rejeita o seu povo"
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Il Signore non respinge il suo popolo."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Le Seigneur ne délaisse pas son peuple."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Du, Herr, wirst dein Volk nicht verstoßen."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -1536,17 +1409,9 @@
                   "type": "text",
                   "text": "et pupíllos occídunt."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Non repéllet Dóminus plebem suam."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1576,17 +1441,9 @@
                   "type": "text",
                   "text": "et stulti quando sapiétis?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Non repéllet Dóminus plebem suam."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1610,17 +1467,9 @@
                   "type": "text",
                   "text": "qui docet hóminem sciéntiam?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Non repéllet Dóminus plebem suam."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1644,29 +1493,11 @@
                   "type": "text",
                   "text": "et sequéntur illam omnes qui recto sunt corde."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Non repéllet Dóminus plebem suam."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor no rechaza a su pueblo."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1690,17 +1521,9 @@
                   "type": "text",
                   "text": "degüellan a los huérfanos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor no rechaza a su pueblo."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1730,17 +1553,9 @@
                   "type": "text",
                   "text": "ignorantes, ¿cuándo discurriréis?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor no rechaza a su pueblo."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1764,17 +1579,9 @@
                   "type": "text",
                   "text": "El que instruye al hombre ¿no va a saber?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor no rechaza a su pueblo."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1798,105 +1605,45 @@
                   "type": "text",
                   "text": "y la seguirán todos los rectos de corazón."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor no rechaza a su pueblo."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord will not abandon his people."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "They crush your people, Lord, they afflict the ones you have chosen. they kill the widow and the stranger and murder the fatherless child."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord will not abandon his people."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "And they say: 'The Lord does not see; the God of Jacob pays no heed.' Mark this, most senseless of people; fools, when will you understand?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord will not abandon his people."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Can he who made the ear not hear? Can he who formed the eye not see? Will he who trains nations not punish? Will he who teaches men not have knowledge?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord will not abandon his people."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "The Lord will not abandon his people nor forsake those who are his own: for judgment shall again be just and all true hearts shall uphold it."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord will not abandon his people."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor não rejeita o seu povo Eis que oprimem, Senhor, vosso povo e humilham a vossa herança;"
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -1908,17 +1655,9 @@
                   "type": "text",
                   "text": "e assassinam o pobre e o órfão!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor não rejeita o seu povo Eles dizem: \"O Senhor não nos vê e o Deus de Jacó não percebe!\" Entendei,"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1930,17 +1669,9 @@
                   "type": "text",
                   "text": "insensatos, quando é que vereis?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor não rejeita o seu povo O que fez o ouvido, não ouve?"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1952,45 +1683,19 @@
                   "type": "text",
                   "text": "Quem os homens ensina, não sabe?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor não rejeita o seu povo O Senhor não rejeita o seu povo e não pode esquecer sua herança: voltarão a juízo as sentenças;"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "quem é reto andará na justiça."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor não rejeita o seu povo"
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore non respinge il suo popolo."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -2014,17 +1719,9 @@
                   "type": "text",
                   "text": "massacrano gli orfani."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore non respinge il suo popolo."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2048,17 +1745,9 @@
                   "type": "text",
                   "text": "stolti, quando diventerete saggi?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore non respinge il suo popolo."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2082,17 +1771,9 @@
                   "type": "text",
                   "text": "lui che insegna all’uomo il sapere?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore non respinge il suo popolo."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2110,29 +1791,11 @@
                   "type": "text",
                   "text": "il giudizio ritornerà a essere giusto e lo seguiranno tutti i retti di cuore."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore non respinge il suo popolo."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur ne délaisse pas son peuple."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -2156,17 +1819,9 @@
                   "type": "text",
                   "text": "ils assassinent l’orphelin."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur ne délaisse pas son peuple."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2196,17 +1851,9 @@
                   "type": "text",
                   "text": "insensés, comprendrez-vous un jour ?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur ne délaisse pas son peuple."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2230,17 +1877,9 @@
                   "type": "text",
                   "text": "lui qui donne aux hommes la connaissance ?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur ne délaisse pas son peuple."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2264,29 +1903,11 @@
                   "type": "text",
                   "text": "tous les hommes droits applaudiront."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur ne délaisse pas son peuple."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Du, Herr, wirst dein Volk nicht verstoßen."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -2304,17 +1925,9 @@
                   "type": "text",
                   "text": "Sie bringen die Witwen und Waisen um und morden die Fremden."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Du, Herr, wirst dein Volk nicht verstoßen."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2338,17 +1951,9 @@
                   "type": "text",
                   "text": "Ihr Unvernünftigen, wann werdet ihr klug?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Du, Herr, wirst dein Volk nicht verstoßen."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2372,17 +1977,9 @@
                   "type": "text",
                   "text": "er, der die Menschen Erkenntnis lehrt?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Du, Herr, wirst dein Volk nicht verstoßen."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2400,28 +1997,9 @@
                   "type": "text",
                   "text": "ihr folgen alle Menschen mit redlichem Herzen."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Du, Herr, wirst dein Volk nicht verstoßen."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 93, 5-6. 7-8. 9-10. 14-15",
-          "es": "Sal 93, 5-6. 7-8. 9-10. 14-15",
-          "en": "Ps 93:5-6, 7-8, 9-10, 14-15",
-          "pt-BR": "Sl 93, 5-6. 7-8. 9-10. 14-15",
-          "de": "Ps 94",
-          "it": "Sal 93, 5-6. 7-8. 9-10. 14-15",
-          "fr": "Ps 93, 5-6. 7-8. 9-10. 14-15"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -2445,7 +2023,9 @@
                 {
                   "type": "reference",
                   "text": "Cf. Mt 11, 25"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Benedíctus es, Pater, Dómine cæli et terræ, quia mystéria regni párvulis revelásti. Allelúia."
@@ -2461,7 +2041,9 @@
                 {
                   "type": "reference",
                   "text": "Cf. Mt 11, 25"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Bendito seas, Padre, Señor del cielo y de la tierra, porque has revelado los misterios del reino a los pequeños. Aleluya."

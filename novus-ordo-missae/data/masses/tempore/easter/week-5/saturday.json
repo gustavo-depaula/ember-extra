@@ -1062,40 +1062,138 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Iubiláte Dómino, omnis terra. vel Allelúia. Iubiláte Dómino, omnis terra, servíte Dómino in lætítia; introíte in conspéctu eius in exsultatióne. ℟. Iubiláte Dómino, omnis terra. vel Allelúia. Scitóte quóniam Dóminus ipse est Deus; ipse fecit nos, et ipsíus sumus, pópulus eius et oves páscuæ eius. ℟. Iubiláte Dómino, omnis terra. vel Allelúia. Quóniam suávis est Dóminus; in ætérnum misericórdia eius, et usque in generatiónem et generatiónem véritas eius. ℟. Iubiláte Dómino, omnis terra. vel Allelúia.",
-            "es": "℟. Aclama al Señor, tierra entera. o bien: Aleluya. Aclama al Señor, tierra entera, servid al Señor con alegría, entrad en su presencia con vítores. ℟. Aclama al Señor, tierra entera. o bien: Aleluya. Sabed que el Señor es Dios: que él nos hizo y somos suyos, su pueblo y ovejas de su rebaño. ℟. Aclama al Señor, tierra entera. o bien: Aleluya. El Señor es bueno, su misericordia es eterna, su fidelidad por todas las edades. ℟. Aclama al Señor, tierra entera. o bien: Aleluya.",
-            "en": "℟. Cry out with joy to the Lord, all the earth. Or: Alleluia. Cry out with joy to the Lord, all the earth. Serve the Lord with gladness. Come before him, singing for joy. ℟. Cry out with joy to the Lord, all the earth. Or: Alleluia. Know that the Lord is God; he made us, his we are; his people, the flock he tends. ℟. Cry out with joy to the Lord, all the earth. Or: Alleluia. Indeed, how good is the Lord, eternal his merciful love. He is faithful from age to age. ℟. Cry out with joy to the Lord, all the earth. Or: Alleluia.",
-            "pt-BR": "℟. Aclamai o Senhor, ó terra inteira Ou: Aleluia. Aclamai o Senhor, ó terra inteira, servi ao Senhor com alegria, ide a ele cantando jubilosos!. ℟. Aclamai o Senhor, ó terra inteira Ou: Aleluia. Sabei que o Senhor, só ele, é Deus, Ele mesmo nos fez, e somos seus, nós somos seu povo e seu rebanho. ℟. Aclamai o Senhor, ó terra inteira Ou: Aleluia. Sim, é bom o Senhor e nosso Deus, sua bondade perdura para sempre, seu amor é fiel eternamente! ℟. Aclamai o Senhor, ó terra inteira Ou: Aleluia.",
-            "it": "℟. Acclamate al Signore, voi tutti della terra. Oppure: Alleluia. Acclamate al Signore, voi tutti della terra, servite il Signore nella gioia, presentatevi a lui con esultanza. ℟. Acclamate al Signore, voi tutti della terra. Oppure: Alleluia. Riconoscete che solo il Signore è Dio: egli ci ha fatti e noi siamo suoi, suo popolo e gregge del suo pascolo. ℟. Acclamate al Signore, voi tutti della terra. Oppure: Alleluia. Perché buono è il Signore, il suo amore è per sempre, la sua fedeltà di generazione in generazione. ℟. Acclamate al Signore, voi tutti della terra. Oppure: Alleluia.",
-            "fr": "℟. Acclamez le Seigneur, terre entière ! ou Alléluia ! Acclamez le Seigneur, terre entière, servez le Seigneur dans l’allégresse, venez à lui avec des chants de joie ! ℟. Acclamez le Seigneur, terre entière ! ou Alléluia ! Reconnaissez que le Seigneur est Dieu : il nous a faits, et nous sommes à lui, nous, son peuple, son troupeau. ℟. Acclamez le Seigneur, terre entière ! ou Alléluia ! Oui, le Seigneur est bon, éternel est son amour, sa fidélité demeure d’âge en âge. ℟. Acclamez le Seigneur, terre entière ! ou Alléluia !",
-            "de": "℟. Jauchzt vor Gott, alle Länder der Erde! Oder: Halleluja. Dient dem Herrn mit Freude! Kommt vor sein Antlitz mit Jubel! ℟. Jauchzt vor Gott, alle Länder der Erde! Oder: Halleluja. Erkennt: Der Herr allein ist Gott. Er hat uns geschaffen, wir sind sein Eigentum, sein Volk und die Herde seiner Weide. ℟. Jauchzt vor Gott, alle Länder der Erde! Oder: Halleluja. Tretet mit Dank durch seine Tore ein! Kommt mit Lobgesang in die Vorhöfe seines Tempels! Dankt ihm, preist seinen Namen! Denn der Herr ist gütig, ewig währt seine Huld, von Geschlecht zu Geschlecht seine Treue. ℟. Jauchzt vor Gott, alle Länder der Erde! Oder: Halleluja."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 99, 1-2. 3. 5",
+          "es": "Sal 99, 1-2. 3. 5",
+          "pt-BR": "Sl 99, 1-2. 3. 5",
+          "it": "Sal 99, 1-2. 3. 5",
+          "de": "Ps 100",
+          "en": "Ps 99:1-2, 3, 5",
+          "fr": "Ps 99, 1-2. 3. 5"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Iubiláte Dómino, omnis terra."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "vel"
-                }
-              ],
+              ]
+            ],
+            "es": [
               [
                 {
                   "type": "text",
-                  "text": "Allelúia."
+                  "text": "Aclama al Señor, tierra entera."
                 }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "Cry out with joy to the Lord, all the earth."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Aclamai o Senhor, ó terra inteira"
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Acclamate al Signore, voi tutti della terra."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Acclamez le Seigneur, terre entière !"
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Jauchzt vor Gott, alle Länder der Erde!"
+                }
+              ]
+            ]
+          },
+          "alternatives": [
+            {
+              "la": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Allelúia."
+                  }
+                ]
               ],
+              "es": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Aleluya."
+                  }
+                ]
+              ],
+              "en": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Alleluia."
+                  }
+                ]
+              ],
+              "pt-BR": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Aleluia."
+                  }
+                ]
+              ],
+              "it": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Alleluia."
+                  }
+                ]
+              ],
+              "fr": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Alléluia !"
+                  }
+                ]
+              ],
+              "de": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Halleluja."
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -1113,29 +1211,9 @@
                   "type": "text",
                   "text": "introíte in conspéctu eius in exsultatióne."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Iubiláte Dómino, omnis terra."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "vel"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1153,29 +1231,9 @@
                   "type": "text",
                   "text": "pópulus eius et oves páscuæ eius."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Iubiláte Dómino, omnis terra."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "vel"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1193,53 +1251,11 @@
                   "type": "text",
                   "text": "et usque in generatiónem et generatiónem véritas eius."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Iubiláte Dómino, omnis terra."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "vel"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Aclama al Señor, tierra entera."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "o bien:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1257,29 +1273,9 @@
                   "type": "text",
                   "text": "entrad en su presencia con vítores."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Aclama al Señor, tierra entera."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "o bien:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1297,29 +1293,9 @@
                   "type": "text",
                   "text": "su pueblo y ovejas de su rebaño."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Aclama al Señor, tierra entera."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "o bien:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1337,53 +1313,11 @@
                   "type": "text",
                   "text": "su fidelidad por todas las edades."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Aclama al Señor, tierra entera."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "o bien:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluya."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Cry out with joy to the Lord, all the earth."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Or:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
@@ -1401,29 +1335,9 @@
                   "type": "text",
                   "text": "Come before him, singing for joy."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Cry out with joy to the Lord, all the earth."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Or:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1441,29 +1355,9 @@
                   "type": "text",
                   "text": "his people, the flock he tends."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Cry out with joy to the Lord, all the earth."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Or:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1481,53 +1375,11 @@
                   "type": "text",
                   "text": "He is faithful from age to age."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Cry out with joy to the Lord, all the earth."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Or:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Aclamai o Senhor, ó terra inteira"
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Ou:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluia."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -1545,29 +1397,9 @@
                   "type": "text",
                   "text": "ide a ele cantando jubilosos!."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Aclamai o Senhor, ó terra inteira"
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Ou:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1585,29 +1417,9 @@
                   "type": "text",
                   "text": "nós somos seu povo e seu rebanho."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Aclamai o Senhor, ó terra inteira"
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Ou:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1625,53 +1437,11 @@
                   "type": "text",
                   "text": "seu amor é fiel eternamente!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Aclamai o Senhor, ó terra inteira"
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Ou:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluia."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Acclamate al Signore, voi tutti della terra."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oppure:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -1689,29 +1459,9 @@
                   "type": "text",
                   "text": "presentatevi a lui con esultanza."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Acclamate al Signore, voi tutti della terra."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oppure:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1729,29 +1479,9 @@
                   "type": "text",
                   "text": "suo popolo e gregge del suo pascolo."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Acclamate al Signore, voi tutti della terra."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oppure:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1769,51 +1499,15 @@
                   "type": "text",
                   "text": "la sua fedeltà di generazione in generazione."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Acclamate al Signore, voi tutti della terra."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oppure:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Acclamez le Seigneur, terre entière !"
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "ou"
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
-                  "text": "Alléluia ! Acclamez le Seigneur, terre entière,"
+                  "text": "Acclamez le Seigneur, terre entière,"
                 }
               ],
               [
@@ -1827,27 +1521,13 @@
                   "type": "text",
                   "text": "venez à lui avec des chants de joie !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Acclamez le Seigneur, terre entière !"
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "ou"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
-                  "text": "Alléluia ! Reconnaissez que le Seigneur est Dieu :"
+                  "text": "Reconnaissez que le Seigneur est Dieu :"
                 }
               ],
               [
@@ -1861,27 +1541,13 @@
                   "type": "text",
                   "text": "nous, son peuple, son troupeau."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Acclamez le Seigneur, terre entière !"
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "ou"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
-                  "text": "Alléluia ! Oui, le Seigneur est bon,"
+                  "text": "Oui, le Seigneur est bon,"
                 }
               ],
               [
@@ -1895,51 +1561,11 @@
                   "type": "text",
                   "text": "sa fidélité demeure d’âge en âge."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Acclamez le Seigneur, terre entière !"
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "ou"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia !"
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Jauchzt vor Gott, alle Länder der Erde!"
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oder:"
-                },
-                {
-                  "type": "response",
-                  "text": "Halleluja."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -1951,27 +1577,9 @@
                   "type": "text",
                   "text": "Kommt vor sein Antlitz mit Jubel!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Jauchzt vor Gott, alle Länder der Erde!"
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oder:"
-                },
-                {
-                  "type": "response",
-                  "text": "Halleluja."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1989,27 +1597,9 @@
                   "type": "text",
                   "text": "sein Volk und die Herde seiner Weide."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Jauchzt vor Gott, alle Länder der Erde!"
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oder:"
-                },
-                {
-                  "type": "response",
-                  "text": "Halleluja."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2045,38 +1635,9 @@
                   "type": "text",
                   "text": "von Geschlecht zu Geschlecht seine Treue."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Jauchzt vor Gott, alle Länder der Erde!"
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oder:"
-                },
-                {
-                  "type": "response",
-                  "text": "Halleluja."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 99, 1-2. 3. 5",
-          "es": "Sal 99, 1-2. 3. 5",
-          "pt-BR": "Sl 99, 1-2. 3. 5",
-          "it": "Sal 99, 1-2. 3. 5",
-          "de": "Ps 100",
-          "en": "Ps 99:1-2, 3, 5",
-          "fr": "Ps 99, 1-2. 3. 5"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -2100,7 +1661,9 @@
                 {
                   "type": "reference",
                   "text": "Col 3,1"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Si consurrexístis cum Christo, quæ sursum sunt, quǽrite, ubi Christus est in déxtera Dei sedens. Allelúia."
@@ -2116,7 +1679,9 @@
                 {
                   "type": "reference",
                   "text": "Col 3,1"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Si habéis resucitado con Cristo, buscad los bienes de allá arriba, donde Cristo está sentado a la derecha de Dios. Aleluya."

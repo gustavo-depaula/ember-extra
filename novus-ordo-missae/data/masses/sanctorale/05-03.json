@@ -1009,38 +1009,114 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. In omnem terram exivit sonus eórum. vel Allelúia. Cæli enárrant glóriam Dei, et ópera mánuum eius annúntiat firmaméntum. Dies diéi erúctat verbum, et nox nocti índicat sciéntiam. ℟. In omnem terram exivit sonus eórum. vel Allelúia. Non sunt loquélæ neque sermónes quorum non intellegántur voces. In omnem terram exívit sonus eórum, et in fines orbis terræ verba eórum. ℟. In omnem terram exivit sonus eórum. vel Allelúia.",
-            "es": "℟. A toda la tierra alcanza su pregón. El cielo proclama la gloria de Dios, el firmamento pregona la obra de sus manos: el día al día le pasa el mensaje, la noche a la noche se lo susurra. ℟. A toda la tierra alcanza su pregón. Sin que hablen, sin que pronuncien, sin que resuene su voz, a toda la tierra alcanza su pregón y hasta los límites del orbe su lenguaje. ℟. A toda la tierra alcanza su pregón.",
-            "en": "℟. Their message goes out through all the earth. or Alleluia. The heavens proclaim the glory of God and the firmament shows forth the work of his hands. Day unto day takes up the story and night unto night makes known the message. ℟. Their message goes out through all the earth. or Alleluia. No speech, no word, no voice is heard yet their span extends through all the earth, their words to the utmost bounds of the world. ℟. Their message goes out through all the earth. or Alleluia.",
-            "pt-BR": "℟. Seu som ressoa e se espalha em toda terra. Os céus proclamam a glória do Senhor, e o firmamento, a obra de suas mãos; o dia ao dia transmite esta mensagem, a noite à noite publica esta notícia. ℟. Seu som ressoa e se espalha em toda terra. Não são discursos nem frases ou palavras, nem são vozes que possam ser ouvidas; seu som ressoa e se espalha em toda a terra, chega aos confins do universo a sua voz. ℟. Seu som ressoa e se espalha em toda terra.",
-            "it": "℟. Risuona in tutto il mondo la parola di salvezza. I cieli narrano la gloria di Dio, e l’opera delle sue mani annunzia il firmamento. Il giorno al giorno ne affida il messaggio e la notte alla notte ne trasmette notizia. ℟. Risuona in tutto il mondo la parola di salvezza. Non è linguaggio e non sono parole di cui non si oda il suono. Per tutta la terra si diffonde la loro voce e ai confini del mondo la loro parola. ℟. Risuona in tutto il mondo la parola di salvezza.",
-            "fr": "℟. Par toute la terre s’en va leur message. ou : Alléluia ! Les cieux proclament la gloire de Dieu, le firmament raconte l’ouvrage de ses mains. Le jour au jour en livre le récit et la nuit à la nuit en donne connaissance. ℟. Par toute la terre s’en va leur message. ou : Alléluia ! Pas de paroles dans ce récit, pas de voix qui s’entende ; mais sur toute la terre en paraît le message et la nouvelle, aux limites du monde. ℟. Par toute la terre s’en va leur message.",
-            "de": "℟. Ihre Botschaft geht hinaus in die ganze Welt. Oder: Halleluja. Die Himmel rühmen die Herrlichkeit Gottes, vom Werk seiner Hände kündet das Firmament. Ein Tag sagt es dem andern, eine Nacht tut es der andern kund, ℟. Ihre Botschaft geht hinaus in die ganze Welt. Oder: Halleluja. ohne Worte und ohne Reden, unhörbar bleibt ihre Stimme. Doch ihre Botschaft geht in die ganze Welt hinaus, ihre Kunde bis zu den Enden der Erde. ℟. Ihre Botschaft geht hinaus in die ganze Welt. Oder: Halleluja."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 18, 2-3. 4-5",
+          "es": "Sal 18, 2-3. 4-5",
+          "en": "Ps 18:2-3, 4-5",
+          "pt-BR": "Sl 18, 2-3. 4-5",
+          "it": "Sal 18, 2-3. 4-5",
+          "de": "Ps 19",
+          "fr": "Ps 18, 2-3. 4-5"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "In omnem terram exivit sonus eórum."
                 }
-              ],
+              ]
+            ],
+            "es": [
               [
                 {
-                  "type": "rubric",
-                  "text": "vel"
-                },
-                {
-                  "type": "response",
-                  "text": "Allelúia."
+                  "type": "text",
+                  "text": "A toda la tierra alcanza su pregón."
                 }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "Their message goes out through all the earth."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Seu som ressoa e se espalha em toda terra."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Risuona in tutto il mondo la parola di salvezza."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Par toute la terre s’en va leur message."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Ihre Botschaft geht hinaus in die ganze Welt."
+                }
+              ]
+            ]
+          },
+          "alternatives": [
+            {
+              "la": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Allelúia."
+                  }
+                ]
               ],
+              "en": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Alleluia."
+                  }
+                ]
+              ],
+              "fr": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Alléluia !"
+                  }
+                ]
+              ],
+              "de": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Halleluja."
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -1064,27 +1140,9 @@
                   "type": "text",
                   "text": "et nox nocti índicat sciéntiam."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "In omnem terram exivit sonus eórum."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "vel"
-                },
-                {
-                  "type": "response",
-                  "text": "Allelúia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1102,39 +1160,11 @@
                   "type": "text",
                   "text": "et in fines orbis terræ verba eórum."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "In omnem terram exivit sonus eórum."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "vel"
-                },
-                {
-                  "type": "response",
-                  "text": "Allelúia."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "A toda la tierra alcanza su pregón."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1158,17 +1188,9 @@
                   "type": "text",
                   "text": "la noche a la noche se lo susurra."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "A toda la tierra alcanza su pregón."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1186,103 +1208,29 @@
                   "type": "text",
                   "text": "a toda la tierra alcanza su pregón y hasta los límites del orbe su lenguaje."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "A toda la tierra alcanza su pregón."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Their message goes out through all the earth."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "or"
-                },
-                {
-                  "type": "response",
-                  "text": "Alleluia."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "The heavens proclaim the glory of God and the firmament shows forth the work of his hands. Day unto day takes up the story and night unto night makes known the message."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Their message goes out through all the earth."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "or"
-                },
-                {
-                  "type": "response",
-                  "text": "Alleluia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "No speech, no word, no voice is heard yet their span extends through all the earth, their words to the utmost bounds of the world."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Their message goes out through all the earth."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "or"
-                },
-                {
-                  "type": "response",
-                  "text": "Alleluia."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Seu som ressoa e se espalha em toda terra."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -1306,17 +1254,9 @@
                   "type": "text",
                   "text": "a noite à noite publica esta notícia."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Seu som ressoa e se espalha em toda terra."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1340,29 +1280,11 @@
                   "type": "text",
                   "text": "chega aos confins do universo a sua voz."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Seu som ressoa e se espalha em toda terra."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Risuona in tutto il mondo la parola di salvezza."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -1380,17 +1302,9 @@
                   "type": "text",
                   "text": "Il giorno al giorno ne affida il messaggio e la notte alla notte ne trasmette notizia."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Risuona in tutto il mondo la parola di salvezza."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1402,39 +1316,11 @@
                   "type": "text",
                   "text": "Per tutta la terra si diffonde la loro voce e ai confini del mondo la loro parola."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Risuona in tutto il mondo la parola di salvezza."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Par toute la terre s’en va leur message."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "ou :"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia !"
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -1452,27 +1338,9 @@
                   "type": "text",
                   "text": "Le jour au jour en livre le récit et la nuit à la nuit en donne connaissance."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Par toute la terre s’en va leur message."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "ou :"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1490,39 +1358,11 @@
                   "type": "text",
                   "text": "mais sur toute la terre en paraît le message et la nouvelle, aux limites du monde."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Par toute la terre s’en va leur message."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ihre Botschaft geht hinaus in die ganze Welt."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oder:"
-                },
-                {
-                  "type": "response",
-                  "text": "Halleluja."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -1546,27 +1386,9 @@
                   "type": "text",
                   "text": "eine Nacht tut es der andern kund,"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ihre Botschaft geht hinaus in die ganze Welt."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oder:"
-                },
-                {
-                  "type": "response",
-                  "text": "Halleluja."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1590,38 +1412,9 @@
                   "type": "text",
                   "text": "ihre Kunde bis zu den Enden der Erde."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ihre Botschaft geht hinaus in die ganze Welt."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oder:"
-                },
-                {
-                  "type": "response",
-                  "text": "Halleluja."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 18, 2-3. 4-5",
-          "es": "Sal 18, 2-3. 4-5",
-          "en": "Ps 18:2-3, 4-5",
-          "pt-BR": "Sl 18, 2-3. 4-5",
-          "it": "Sal 18, 2-3. 4-5",
-          "de": "Ps 19",
-          "fr": "Ps 18, 2-3. 4-5"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -1645,7 +1438,9 @@
                 {
                   "type": "reference",
                   "text": "Io 14, 6b. 9c"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Ego sum via et véritas et vita, dicit Dóminus; Philíppe, qui vidit me, vidit Patrem. Allelúia."
@@ -1661,7 +1456,9 @@
                 {
                   "type": "reference",
                   "text": "Jn 14, 6b y 9c"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Yo soy el camino y la verdad y la vida —dice el Señor—; Felipe, quien me ha visto a mí ha visto al Padre. Aleluya."

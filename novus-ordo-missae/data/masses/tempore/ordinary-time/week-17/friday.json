@@ -228,28 +228,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Exultáte Deo, adiutóri nostro. Súmite psalmum et date týmpanum, psaltérium iucúndum cum cíthara. Bucináte in neoménia tuba, in die plenæ lunæ, in sollemnitáte nostra. ℟. Exultáte Deo, adiutóri nostro. Quia præcéptum in Israel est, et iudícium Deo Iacob. Testimónium in Ioseph pósuit illud, cum exíret de terra Ægýpti. ℟. Exultáte Deo, adiutóri nostro. Non erit in te deus aliénus neque adorábis deum extráneum. Ego enim sum Dóminus Deus tuus qui edúxi te de terra Ægýpti. ℟. Exultáte Deo, adiutóri nostro.",
-            "es": "℟. Aclamad a Dios, nuestra fuerza. Acompañad, tocad los panderos, las cítaras templadas y las arpas; tocad la trompeta por la luna nueva, por la luna llena, que es nuestra fiesta. ℟. Aclamad a Dios, nuestra fuerza. Porque es una ley de Israel, un precepto del Dios de Jacob, una norma establecida para José al salir de Egipto. ℟. Aclamad a Dios, nuestra fuerza. No tendrás un dios extraño, no adorarás un dios extranjero; yo soy el Señor, Dios tuyo, que te saqué de la tierra de Egipto. ℟. Aclamad a Dios, nuestra fuerza.",
-            "en": "℟. Sing with joy to God our help. Raise a song and sound the timbrel, the sweet-sounding harp and the lute, blow the trumpet at the new moon, when the moon is full, on our feast. ℟. Sing with joy to God our help. For this is Israel's law, a command of the God of Jacob. He imposed it as a rule on Joseph, when he went out against the land of Egypt. ℟. Sing with joy to God our help. Let there be no foreign god among you, no worship of an alien god. I am the lord your God, who brought you from the land of Egypt. ℟. Sing with joy to God our help.",
-            "pt-BR": "℟. Exultai no Senhor, nossa força. Cantai salmos, tocai tamborim, harpa e lira suaves tocai! Na lua nova soai a trombeta, na lua cheia, na festa solene! ℟. Exultai no Senhor, nossa força. Porque isto é costume em Jacó, um preceito do Deus de Israel; uma lei que foi dada a José, quando o povo saiu do Egito. ℟. Exultai no Senhor, nossa força. Em teu meio não exista um deus estranho nem adores a um deus desconhecido! Porque eu sou o teu Deus e teu Senhor, que da terra do Egito te arranquei. ℟. Exultai no Senhor, nossa força.",
-            "it": "℟. Esultate in Dio, nostra forza. Intonate il canto e suonate il tamburello, la cetra melodiosa con l’arpa. Suonate il corno nel novilunio, nel plenilunio, nostro giorno di festa. ℟. Esultate in Dio, nostra forza. Questo è un decreto per Israele, un giudizio del Dio di Giacobbe, una testimonianza data a Giuseppe, quando usciva dal paese d’Egitto. ℟. Esultate in Dio, nostra forza. Non ci sia in mezzo a te un dio estraneo e non prostrarti a un dio straniero. Sono io il Signore, tuo Dio, che ti ha fatto salire dal paese d’Egitto. ℟. Esultate in Dio, nostra forza.",
-            "fr": "℟. Criez de joie pour Dieu, notre force ! Súmite psalmum et date týmpanum, psaltérium iucúndum cum cíthara. Bucináte in neoménia tuba, in die plenæ lunæ, in sollemnitáte nostra. ℟. Criez de joie pour Dieu, notre force ! Quia præcéptum in Israel est, et iudícium Deo Iacob. Testimónium in Ioseph pósuit illud, cum exíret de terra Ægýpti. ℟. Criez de joie pour Dieu, notre force ! Non erit in te deus aliénus neque adorábis deum extráneum. Ego enim sum Dóminus Deus tuus qui edúxi te de terra Ægýpti. ℟. Criez de joie pour Dieu, notre force !",
-            "de": "℟. Lobet Gott, den Herrn; denn er ist unsere Zuflucht. Stimmt an den Gesang, schlagt die Pauke, die liebliche Laute, dazu die Harfe! Stoßt in die Posaune am Neumond und zum Vollmond, am Tag unsres Festes! ℟. Lobet Gott, den Herrn; denn er ist unsere Zuflucht. Denn das ist Satzung für Israel, Entscheid des Gottes Jakobs. Das hat er als Gesetz für Josef erlassen, als Gott gegen Ägypten auszog. ℟. Lobet Gott, den Herrn; denn er ist unsere Zuflucht. Eine Stimme höre ich, die ich noch nie vernahm: Seine Schulter hab‘ ich von der Bürde befreit, seine Hände kamen los vom Lastkorb. Du riefst in der Not, und ich riss dich heraus. ℟. Lobet Gott, den Herrn; denn er ist unsere Zuflucht. Für dich gibt es keinen andern Gott. Du sollst keinen fremden Gott anbeten. Ich bin der Herr, dein Gott, der dich heraufgeführt hat aus Ägypten. Tu deinen Mund auf! Ich will ihn füllen. ℟. Lobet Gott, den Herrn; denn er ist unsere Zuflucht."
-          },
-          "lines": {
+        "citation": {
+          "pt-BR": "Sl 80",
+          "de": "Ps 81",
+          "la": "Ps 80",
+          "en": "Ps 80",
+          "es": "Sal 80",
+          "it": "Sal 80",
+          "fr": "Ps 80"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Exultáte Deo, adiutóri nostro."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Aclamad a Dios, nuestra fuerza."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "Sing with joy to God our help."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Exultai no Senhor, nossa força."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Esultate in Dio, nostra forza."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Criez de joie pour Dieu, notre force !"
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Lobet Gott, den Herrn; denn er ist unsere Zuflucht."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -273,17 +323,9 @@
                   "type": "text",
                   "text": "in die plenæ lunæ, in sollemnitáte nostra."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Exultáte Deo, adiutóri nostro."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -307,17 +349,9 @@
                   "type": "text",
                   "text": "cum exíret de terra Ægýpti."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Exultáte Deo, adiutóri nostro."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -329,29 +363,11 @@
                   "type": "text",
                   "text": "Ego enim sum Dóminus Deus tuus qui edúxi te de terra Ægýpti."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Exultáte Deo, adiutóri nostro."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Aclamad a Dios, nuestra fuerza."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -375,17 +391,9 @@
                   "type": "text",
                   "text": "por la luna llena, que es nuestra fiesta."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Aclamad a Dios, nuestra fuerza."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -403,17 +411,9 @@
                   "type": "text",
                   "text": "una norma establecida para José al salir de Egipto."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Aclamad a Dios, nuestra fuerza."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -437,89 +437,37 @@
                   "type": "text",
                   "text": "que te saqué de la tierra de Egipto."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Aclamad a Dios, nuestra fuerza."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Sing with joy to God our help."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "Raise a song and sound the timbrel, the sweet-sounding harp and the lute, blow the trumpet at the new moon, when the moon is full, on our feast."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Sing with joy to God our help."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "For this is Israel's law, a command of the God of Jacob. He imposed it as a rule on Joseph, when he went out against the land of Egypt."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Sing with joy to God our help."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Let there be no foreign god among you, no worship of an alien god. I am the lord your God, who brought you from the land of Egypt."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Sing with joy to God our help."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Exultai no Senhor, nossa força."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -537,17 +485,9 @@
                   "type": "text",
                   "text": "na lua cheia, na festa solene!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Exultai no Senhor, nossa força."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -571,17 +511,9 @@
                   "type": "text",
                   "text": "quando o povo saiu do Egito."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Exultai no Senhor, nossa força."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -599,29 +531,11 @@
                   "type": "text",
                   "text": "que da terra do Egito te arranquei."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Exultai no Senhor, nossa força."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Esultate in Dio, nostra forza."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -645,17 +559,9 @@
                   "type": "text",
                   "text": "nel plenilunio, nostro giorno di festa."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Esultate in Dio, nostra forza."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -679,17 +585,9 @@
                   "type": "text",
                   "text": "quando usciva dal paese d’Egitto."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Esultate in Dio, nostra forza."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -707,29 +605,11 @@
                   "type": "text",
                   "text": "che ti ha fatto salire dal paese d’Egitto."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Esultate in Dio, nostra forza."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Criez de joie pour Dieu, notre force !"
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -753,17 +633,9 @@
                   "type": "text",
                   "text": "in die plenæ lunæ, in sollemnitáte nostra."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Criez de joie pour Dieu, notre force !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -787,17 +659,9 @@
                   "type": "text",
                   "text": "cum exíret de terra Ægýpti."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Criez de joie pour Dieu, notre force !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -809,29 +673,11 @@
                   "type": "text",
                   "text": "Ego enim sum Dóminus Deus tuus qui edúxi te de terra Ægýpti."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Criez de joie pour Dieu, notre force !"
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Lobet Gott, den Herrn; denn er ist unsere Zuflucht."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -849,17 +695,9 @@
                   "type": "text",
                   "text": "Stoßt in die Posaune am Neumond und zum Vollmond, am Tag unsres Festes!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Lobet Gott, den Herrn; denn er ist unsere Zuflucht."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -883,17 +721,9 @@
                   "type": "text",
                   "text": "als Gott gegen Ägypten auszog."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Lobet Gott, den Herrn; denn er ist unsere Zuflucht."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -923,17 +753,9 @@
                   "type": "text",
                   "text": "und ich riss dich heraus."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Lobet Gott, den Herrn; denn er ist unsere Zuflucht."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -963,28 +785,9 @@
                   "type": "text",
                   "text": "Tu deinen Mund auf! Ich will ihn füllen."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Lobet Gott, den Herrn; denn er ist unsere Zuflucht."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "pt-BR": "Sl 80",
-          "de": "Ps 81",
-          "la": "Ps 80",
-          "en": "Ps 80",
-          "es": "Sal 80",
-          "it": "Sal 80",
-          "fr": "Ps 80"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -1008,7 +811,9 @@
                 {
                   "type": "reference",
                   "text": "1 Petr 1, 25"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Verbum Dómini manet in ætérnum; hoc est autem verbum quod evangelizátum est in vos. Allelúia."
@@ -1024,7 +829,9 @@
                 {
                   "type": "reference",
                   "text": "1 Ped 1, 25"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. La palabra del Señor permanece para siempre; pues esa es la palabra del Evangelio que se os anunció. Aleluya."
@@ -1541,23 +1348,19 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. In multitúdine misericórdiæ tuæ exáudi me, Dómine. Multiplicáti sunt super capíllos cápitis mei, qui odérunt me gratis. Confortáti sunt qui persecúti sunt me inimíci mei mendáces; quæ non rápui, tunc exsolvébam. ℟. In multitúdine misericórdiæ tuæ exáudi me, Dómine. Quóniam propter te sustínui oppróbrium, opéruit confúsio fáciem meam; extráneus factus sum frátribus meis, et peregrínus fíliis matris meæ. Quóniam zelus domus tuæ comédit me, et oppróbria exprobrántium tibi cecidérunt super me. ℟. In multitúdine misericórdiæ tuæ exáudi me, Dómine. Ego vero oratiónem meam ad te, Dómine; in témpore benepláciti, Deus. In multitúdine misericórdiæ tuæ exáudi me, in veritáte salútis tuæ. ℟. In multitúdine misericórdiæ tuæ exáudi me, Dómine.",
-            "es": "℟. Que me escuche tu gran bondad, Señor. Más que los pelos de mi cabeza son los que me odian sin razón; numerosos los que me atacan injustamente. ¿Es que voy a devolver lo que no he robado? ℟. Que me escuche tu gran bondad, Señor. Por ti he aguantado afrentas, la vergüenza cubrió mi rostro. Soy un extraño para mis hermanos, un extranjero para los hijos de mi madre. Porque me devora el celo de tu templo, y las afrentas con que te afrentan caen sobre mí. ℟. Que me escuche tu gran bondad, Señor. Mi oración se dirige a ti, Señor, el día de tu favor; que me escuche tu gran bondad, que tu fidelidad me ayude. ℟. Que me escuche tu gran bondad, Señor.",
-            "en": "℟. Lord, in your great love, answer me. More numerous than the hairs on my head are those who hate me without cause. Those who attack me with lies are too much for my strength. How can I restore what I have never stolen? ℟. Lord, in your great love, answer me. It is for you that I suffer taunts, that shame covers my face, that I have become a stranger to my brothers, an alien to my own mother's sons. I burn with zeal for your house and taunts against you fall on me. ℟. Lord, in your great love, answer me. This is my prayer to you, my prayer for your favor. In your great love, answer me, O God, with your help that never fails. ℟. Lord, in your great love, answer me.",
-            "pt-BR": "℟. Respondei-me, ó Senhor, pelo vosso imenso amor Mais numerosos que os cabelos da cabeça, são aqueles que me odeiam sem motivo; meus inimigos são mais fortes do que eu; contra mim eles se voltam com mentiras! Por acaso poderei restituir alguma coisa que de outros não roubei? ℟. Respondei-me, ó Senhor, pelo vosso imenso amor Por vossa causa é que sofri tantos insultos, e o meu rosto se cobriu de confusão; eu me tornei como um estranho a meus irmãos, como estrangeiro para os filhos de minha mãe. Pois meu zelo e meu amor por vossa casa me devoram como fogo abrasador; e os insultos de infiéis que vos ultrajam recaíram todos eles sobre mim! ℟. Respondei-me, ó Senhor, pelo vosso imenso amor Por isso elevo para vós minha oração, neste tempo favorável, Senhor Deus! Respondei-me pelo vosso imenso amor, pela vossa salvação que nunca falha! ℟. Respondei-me, ó Senhor, pelo vosso imenso amor",
-            "it": "℟. Nella tua grande bontà, rispondimi, o Dio. Sono più numerosi dei capelli del mio capo quelli che mi odiano senza ragione. Sono potenti quelli che mi vogliono distruggere, i miei nemici bugiardi: quanto non ho rubato, dovrei forse restituirlo? ℟. Nella tua grande bontà, rispondimi, o Dio. Per te io sopporto l’insulto e la vergogna mi copre la faccia; sono diventato un estraneo ai miei fratelli, uno straniero per i figli di mia madre. Perché mi divora lo zelo per la tua casa, gli insulti di chi ti insulta ricadono su di me. ℟. Nella tua grande bontà, rispondimi, o Dio. Ma io rivolgo a te la mia preghiera, Signore, nel tempo della benevolenza. O Dio, nella tua grande bontà, rispondimi, nella fedeltà della tua salvezza. ℟. Nella tua grande bontà, rispondimi, o Dio.",
-            "fr": "℟. Dans ton grand amour, Dieu, réponds-moi. Sauve-moi, mon Dieu : les eaux montent jusqu’à ma gorge ! Plus abondants que les cheveux de ma tête, ceux qui m’en veulent sans raison. ℟. Dans ton grand amour, Dieu, réponds-moi. Ils sont nombreux, mes détracteurs, à me haïr injustement. C’est pour toi que j’endure l’insulte, que la honte me couvre le visage. ℟. Dans ton grand amour, Dieu, réponds-moi. Je suis un étranger pour mes frères, un inconnu pour les fils de ma mère. L’amour de ta maison m’a perdu ; on t’insulte, et l’insulte retombe sur moi. Et moi, je te prie, Seigneur : c’est l’heure de ta grâce ; dans ton grand amour, Dieu, réponds-moi, par ta vérité sauve-moi. ℟. Dans ton grand amour, Dieu, réponds-moi.",
-            "de": "℟. Erhöre mich, Herr, in deiner großen Huld, hilf mir in deiner Treue! Zahlreicher als die Haare auf meinem Kopf sind die, die mich grundlos hassen. Zahlreich sind meine Verderber, meine verlogenen Feinde. Was ich nicht geraubt habe, soll ich erstatten. ℟. Erhöre mich, Herr, in deiner großen Huld, hilf mir in deiner Treue! Denn deinetwegen erleide ich Schmach, und Schande bedeckt mein Gesicht. Entfremdet bin ich den eigenen Brüdern, den Söhnen meiner Mutter wurde ich fremd. Denn der Eifer für dein Haus hat mich verzehrt; die Schmähungen derer, die dich schmähen, haben mich getroffen. ℟. Erhöre mich, Herr, in deiner großen Huld, hilf mir in deiner Treue! Man redet über mich in der Versammlung am Tor, von mir singen die Zecher beim Wein. Ich aber bete zu dir, Herr, zur Zeit der Gnade. Erhöre mich in deiner großen Huld, Gott, hilf mir in deiner Treue! ℟. Erhöre mich, Herr, in deiner großen Huld, hilf mir in deiner Treue!"
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 68, 5. 8-10. 14",
+          "es": "Sal 68, 5. 8-10. 14",
+          "en": "Ps 68:5, 8-10, 14",
+          "pt-BR": "Sl 68, 5. 8-10. 14",
+          "de": "Ps 69",
+          "it": "Sal 68, 5. 8-10. 14",
+          "fr": "Ps 68, 5. 8-10. 14"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "In multitúdine misericórdiæ tuæ exáudi me,"
@@ -1568,7 +1371,61 @@
                   "type": "text",
                   "text": "Dómine."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Que me escuche tu gran bondad, Señor."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "Lord, in your great love, answer me."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Respondei-me, ó Senhor, pelo vosso imenso amor"
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Nella tua grande bontà, rispondimi, o Dio."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Dans ton grand amour, Dieu, réponds-moi."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Erhöre mich, Herr, in deiner großen Huld, hilf mir in deiner Treue!"
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -1592,23 +1449,9 @@
                   "type": "text",
                   "text": "quæ non rápui, tunc exsolvébam."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "In multitúdine misericórdiæ tuæ exáudi me,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Dómine."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1644,23 +1487,9 @@
                   "type": "text",
                   "text": "et oppróbria exprobrántium tibi cecidérunt super me."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "In multitúdine misericórdiæ tuæ exáudi me,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Dómine."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1684,35 +1513,11 @@
                   "type": "text",
                   "text": "in veritáte salútis tuæ."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "In multitúdine misericórdiæ tuæ exáudi me,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Dómine."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Que me escuche tu gran bondad, Señor."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1730,17 +1535,9 @@
                   "type": "text",
                   "text": "¿Es que voy a devolver lo que no he robado?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Que me escuche tu gran bondad, Señor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1776,17 +1573,9 @@
                   "type": "text",
                   "text": "y las afrentas con que te afrentan caen sobre mí."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Que me escuche tu gran bondad, Señor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1810,29 +1599,11 @@
                   "type": "text",
                   "text": "que tu fidelidad me ayude."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Que me escuche tu gran bondad, Señor."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Lord, in your great love, answer me."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
@@ -1844,61 +1615,27 @@
                   "type": "text",
                   "text": "Those who attack me with lies are too much for my strength. How can I restore what I have never stolen?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Lord, in your great love, answer me."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "It is for you that I suffer taunts, that shame covers my face, that I have become a stranger to my brothers, an alien to my own mother's sons. I burn with zeal for your house and taunts against you fall on me."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Lord, in your great love, answer me."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "This is my prayer to you, my prayer for your favor. In your great love, answer me, O God, with your help that never fails."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Lord, in your great love, answer me."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Respondei-me, ó Senhor, pelo vosso imenso amor Mais numerosos que os cabelos da cabeça,"
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -1922,17 +1659,9 @@
                   "type": "text",
                   "text": "Por acaso poderei restituir alguma coisa que de outros não roubei?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Respondei-me, ó Senhor, pelo vosso imenso amor Por vossa causa é que sofri tantos insultos,"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1956,17 +1685,9 @@
                   "type": "text",
                   "text": "Pois meu zelo e meu amor por vossa casa me devoram como fogo abrasador; e os insultos de infiéis que vos ultrajam recaíram todos eles sobre mim!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Respondei-me, ó Senhor, pelo vosso imenso amor Por isso elevo para vós minha oração,"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1984,29 +1705,11 @@
                   "type": "text",
                   "text": "pela vossa salvação que nunca falha!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Respondei-me, ó Senhor, pelo vosso imenso amor"
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Nella tua grande bontà, rispondimi, o Dio."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -2030,17 +1733,9 @@
                   "type": "text",
                   "text": "quanto non ho rubato, dovrei forse restituirlo?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Nella tua grande bontà, rispondimi, o Dio."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2070,17 +1765,9 @@
                   "type": "text",
                   "text": "gli insulti di chi ti insulta ricadono su di me."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Nella tua grande bontà, rispondimi, o Dio."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2104,29 +1791,11 @@
                   "type": "text",
                   "text": "nella fedeltà della tua salvezza."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Nella tua grande bontà, rispondimi, o Dio."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dans ton grand amour, Dieu, réponds-moi."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -2150,17 +1819,9 @@
                   "type": "text",
                   "text": "ceux qui m’en veulent sans raison."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dans ton grand amour, Dieu, réponds-moi."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2184,17 +1845,9 @@
                   "type": "text",
                   "text": "que la honte me couvre le visage."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dans ton grand amour, Dieu, réponds-moi."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2242,29 +1895,11 @@
                   "type": "text",
                   "text": "par ta vérité sauve-moi."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dans ton grand amour, Dieu, réponds-moi."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Erhöre mich, Herr, in deiner großen Huld, hilf mir in deiner Treue!"
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -2282,17 +1917,9 @@
                   "type": "text",
                   "text": "Was ich nicht geraubt habe, soll ich erstatten."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Erhöre mich, Herr, in deiner großen Huld, hilf mir in deiner Treue!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2328,17 +1955,9 @@
                   "type": "text",
                   "text": "die Schmähungen derer, die dich schmähen, haben mich getroffen."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Erhöre mich, Herr, in deiner großen Huld, hilf mir in deiner Treue!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2374,28 +1993,9 @@
                   "type": "text",
                   "text": "Gott, hilf mir in deiner Treue!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Erhöre mich, Herr, in deiner großen Huld, hilf mir in deiner Treue!"
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 68, 5. 8-10. 14",
-          "es": "Sal 68, 5. 8-10. 14",
-          "en": "Ps 68:5, 8-10, 14",
-          "pt-BR": "Sl 68, 5. 8-10. 14",
-          "de": "Ps 69",
-          "it": "Sal 68, 5. 8-10. 14",
-          "fr": "Ps 68, 5. 8-10. 14"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -2419,7 +2019,9 @@
                 {
                   "type": "reference",
                   "text": "1 Petr 1, 25"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Verbum Dómini manet in ætérnum; hoc est autem verbum quod evangelizátum est in vos. Allelúia."
@@ -2435,7 +2037,9 @@
                 {
                   "type": "reference",
                   "text": "1 Ped 1, 25"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. La palabra del Señor permanece para siempre; pues esa es la palabra del Evangelio que se os anunció. Aleluya."

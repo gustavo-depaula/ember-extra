@@ -1153,28 +1153,78 @@
         ]
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Eúntes in mundum univérsum, prædicáte Evangélium. Laudáte Dóminum, omnes gentes, collaudáte eum, omnes pópuli. ℟. Eúntes in mundum univérsum, prædicáte Evangélium. Quóniam confirmáta est super nos misericórdia eius, et véritas Dómini manet in ætérnum. ℟. Eúntes in mundum univérsum, prædicáte Evangélium.",
-            "es": "℟. Id al mundo entero y proclamad el Evangelio. Alabad al Señor todas las naciones, aclamadlo todos los pueblos. ℟. Id al mundo entero y proclamad el Evangelio. Firme es su misericordia con nosotros, su fidelidad dura por siempre. ℟. Id al mundo entero y proclamad el Evangelio.",
-            "en": "℟. Go out to all the world and tell the Good News. O praise the Lord, all you nations, acclaim him all you peoples! ℟. Go out to all the world and tell the Good News. Strong is his love for us; he is faithful for ever. ℟. Go out to all the world and tell the Good News.",
-            "pt-BR": "℟. Ide por todo o mundo, a todos pregai o Evangelho. Cantai louvores ao Senhor, todas as gentes, Povos todos, festejai-o! ℟. Ide por todo o mundo, a todos pregai o Evangelho Pois comprovado é seu amor para conosco, para sempre ele é fiel! ℟. Ide por todo o mundo, a todos pregai o Evangelho",
-            "it": "℟. Andate in tutto il mondo e proclamate il Vangelo. Genti tutte, lodate il Signore, popoli tutti, cantate la sua lode. ℟. Andate in tutto il mondo e proclamate il Vangelo. Perché forte è il suo amore per noi e la fedeltà del Signore dura per sempre. ℟. Andate in tutto il mondo e proclamate il Vangelo.",
-            "fr": "℟. Allez dans le monde entier. Proclamez l’Évangile. Louez le Seigneur, tous les peuples ; fêtez-le, tous les pays ! ℟. Allez dans le monde entier. Proclamez l’Évangile. Son amour envers nous s’est montré le plus fort ; éternelle est la fidélité du Seigneur ! ℟. Allez dans le monde entier. Proclamez l’Évangile.",
-            "de": "℟. Geht hinaus in die ganze Welt, und verkündet allen das Evangelium! Lobet den Herrn, alle Völker, preist ihn, alle Nationen! ℟. Geht hinaus in die ganze Welt, und verkündet allen das Evangelium! Denn mächtig waltet über uns seine Huld, die Treue des Herrn währt in Ewigkeit. ℟. Geht hinaus in die ganze Welt, und verkündet allen das Evangelium!"
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 116, 1. 2",
+          "es": "Sal 116, 1. 2",
+          "en": "Ps 116:1, 2",
+          "pt-BR": "Sl 116, 1. 2",
+          "it": "Sal 116, 1. 2",
+          "de": "Ps 117",
+          "fr": "Ps 116, 1. 2"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Eúntes in mundum univérsum, prædicáte Evangélium."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Id al mundo entero y proclamad el Evangelio."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "Go out to all the world and tell the Good News."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Ide por todo o mundo, a todos pregai o Evangelho"
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Andate in tutto il mondo e proclamate il Vangelo."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Allez dans le monde entier. Proclamez l’Évangile."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Geht hinaus in die ganze Welt, und verkündet allen das Evangelium!"
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -1186,17 +1236,9 @@
                   "type": "text",
                   "text": "collaudáte eum, omnes pópuli."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Eúntes in mundum univérsum, prædicáte Evangélium."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1208,29 +1250,11 @@
                   "type": "text",
                   "text": "et véritas Dómini manet in ætérnum."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Eúntes in mundum univérsum, prædicáte Evangélium."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Id al mundo entero y proclamad el Evangelio."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1242,17 +1266,9 @@
                   "type": "text",
                   "text": "aclamadlo todos los pueblos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Id al mundo entero y proclamad el Evangelio."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1264,29 +1280,11 @@
                   "type": "text",
                   "text": "su fidelidad dura por siempre."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Id al mundo entero y proclamad el Evangelio."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Go out to all the world and tell the Good News."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
@@ -1298,17 +1296,9 @@
                   "type": "text",
                   "text": "acclaim him all you peoples!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Go out to all the world and tell the Good News."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1320,29 +1310,11 @@
                   "type": "text",
                   "text": "he is faithful for ever."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Go out to all the world and tell the Good News."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ide por todo o mundo, a todos pregai o Evangelho."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -1354,45 +1326,19 @@
                   "type": "text",
                   "text": "Povos todos, festejai-o!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ide por todo o mundo, a todos pregai o Evangelho Pois comprovado é seu amor para conosco,"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "para sempre ele é fiel!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ide por todo o mundo, a todos pregai o Evangelho"
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Andate in tutto il mondo e proclamate il Vangelo."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -1404,45 +1350,19 @@
                   "type": "text",
                   "text": "popoli tutti, cantate la sua lode."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Andate in tutto il mondo e proclamate il Vangelo."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Perché forte è il suo amore per noi e la fedeltà del Signore dura per sempre."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Andate in tutto il mondo e proclamate il Vangelo."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Allez dans le monde entier. Proclamez l’Évangile."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -1454,17 +1374,9 @@
                   "type": "text",
                   "text": "fêtez-le, tous les pays !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Allez dans le monde entier. Proclamez l’Évangile."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1476,29 +1388,11 @@
                   "type": "text",
                   "text": "éternelle est la fidélité du Seigneur !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Allez dans le monde entier. Proclamez l’Évangile."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Geht hinaus in die ganze Welt, und verkündet allen das Evangelium!"
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -1510,17 +1404,9 @@
                   "type": "text",
                   "text": "preist ihn, alle Nationen!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Geht hinaus in die ganze Welt, und verkündet allen das Evangelium!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1532,28 +1418,9 @@
                   "type": "text",
                   "text": "die Treue des Herrn währt in Ewigkeit."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Geht hinaus in die ganze Welt, und verkündet allen das Evangelium!"
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 116, 1. 2",
-          "es": "Sal 116, 1. 2",
-          "en": "Ps 116:1, 2",
-          "pt-BR": "Sl 116, 1. 2",
-          "it": "Sal 116, 1. 2",
-          "de": "Ps 117",
-          "fr": "Ps 116, 1. 2"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -1577,7 +1444,9 @@
                 {
                   "type": "reference",
                   "text": "Cf. Io 15, 16"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Ego vos elégi de mundo, ut eátis et fructum afferátis, et fructus vester máneat, dicit Dóminus. Allelúia."
@@ -1593,7 +1462,9 @@
                 {
                   "type": "reference",
                   "text": "Cf. Jn 15, 16"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Yo os he elegido del mundo —dice el Señor— para que vayáis y deis fruto, y vuestro fruto permanezca. Aleluya."

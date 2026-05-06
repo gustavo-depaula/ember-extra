@@ -1091,28 +1091,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Calix benedictiónis communicátio Sánguinis Christi est. Quid retríbuam Dómino pro ómnibus quæ retríbuit mihi? Cálicem salutáris accípiam, et nomen Dómini invocábo. ℟. Calix benedictiónis communicátio Sánguinis Christi est. Pretiósa in conspéctu Dómini mors sanctórum eius. Ego servus tuus et fílius ancíllæ tuæ. Dirupísti víncula mea. ℟. Calix benedictiónis communicátio Sánguinis Christi est. Tibi sacrificábo hóstiam laudis, et nomen Dómini invocábo. Vota mea Dómino reddam coram omni pópulo eius. ℟. Calix benedictiónis communicátio Sánguinis Christi est.",
-            "es": "℟. El cáliz de la bendición es comunión de la sangre de Cristo. ¿Cómo pagaré al Señor todo el bien que me ha hecho? Alzaré la copa de la salvación, invocando el nombre del Señor. ℟. El cáliz de la bendición es comunión de la sangre de Cristo. Mucho le cuesta al Señor la muerte de sus fieles. Señor, yo soy tu siervo, hijo de tu esclava: rompiste mis cadenas. ℟. El cáliz de la bendición es comunión de la sangre de Cristo. Te ofreceré un sacrificio de alabanza, invocando el nombre del Señor. Cumpliré al Señor mis votos en presencia de todo el pueblo. ℟. El cáliz de la bendición es comunión de la sangre de Cristo.",
-            "en": "℟. Our blessing-cup is a communion with the blood of Christ. How can I repay the Lord for his goodness to me? The cup of salvation I will raise; I will call on the Lord's name. ℟. Our blessing-cup is a communion with the blood of Christ. O precious in the eyes of the Lord is the death of his faithful. Your servant, Lord, your servant am I; you have loosened my bonds. ℟. Our blessing-cup is a communion with the blood of Christ. A thanksgiving sacrifice I make: I will call on the Lord's name. My vows to the Lord I will fulfill before all his people. ℟. Our blessing-cup is a communion with the blood of Christ.",
-            "pt-BR": "℟. O cálice por nós abençoado, é a nossa comunhão com o sangue do Senhor. Que poderei retribuir ao Senhor Deus por tudo aquilo que ele fez em meu favor? Elevo o cálice da minha salvação, invocando o nome santo do Senhor. ℟. O cálice por nós abençoado, é a nossa comunhão com o sangue do Senhor. É sentida por demais pelo Senhor a morte de seus santos, seus amigos. Eis que sou o vosso servo, ó Senhor mas me quebrastes os grilhões da escravidão! ℟. O cálice por nós abençoado, é a nossa comunhão com o sangue do Senhor. Por isso oferto um sacrifício de louvor, invocando o nome santo do Senhor. Vou cumprir minhas promessas ao Senhor na presença de seu povo reunido. ℟. O cálice por nós abençoado, é a nossa comunhão com o sangue do Senhor.",
-            "it": "℟. Il tuo calice, Signore, è dono di salvezza. Che cosa renderò al Signore, per tutti i benefici che mi ha fatto? Alzerò il calice della salvezza e invocherò il nome del Signore. ℟. Il tuo calice, Signore, è dono di salvezza. Agli occhi del Signore è preziosa la morte dei suoi fedeli. Io sono tuo servo, figlio della tua schiava: tu hai spezzato le mie catene. ℟. Il tuo calice, Signore, è dono di salvezza. A te offrirò un sacrificio di ringraziamento e invocherò il nome del Signore. Adempirò i miei voti al Signore davanti a tutto il suo popolo. ℟. Il tuo calice, Signore, è dono di salvezza.",
-            "fr": "℟. La coupe de bénédiction est communion au sang du Christ. Comment rendrai-je au Seigneur tout le bien qu’il m’a fait ? J’élèverai la coupe du salut, j’invoquerai le nom du Seigneur. ℟. La coupe de bénédiction est communion au sang du Christ. Il en coûte au Seigneur de voir mourir les siens ! Ne suis-je pas, Seigneur, ton serviteur, moi, dont tu brisas les chaînes ? ℟. La coupe de bénédiction est communion au sang du Christ. Je t’offrirai le sacrifice d’action de grâce, j’invoquerai le nom du Seigneur. Je tiendrai mes promesses au Seigneur, oui, devant tout son peuple. ℟. La coupe de bénédiction est communion au sang du Christ.",
-            "de": "℟. Der Kelch des Segens gibt uns Anteil am Blut Christi. Wie kann ich dem Herrn all das vergelten, was er mir Gutes getan hat? Ich will den Kelch des Heils erheben und anrufen den Namen des Herrn. ℟. Der Kelch des Segens gibt uns Anteil am Blut Christi. Kostbar ist in den Augen des Herrn das Sterben seiner Frommen. Ach Herr, ich bin dein Knecht, dein Knecht bin ich, der Sohn deiner Magd. Du hast meine Fesseln gelöst. ℟. Der Kelch des Segens gibt uns Anteil am Blut Christi. Ich will dir ein Opfer des Dankes bringen und anrufen den Namen des Herrn. Ich will dem Herrn meine Gelübde erfüllen offen vor seinem ganzen Volk. ℟. Der Kelch des Segens gibt uns Anteil am Blut Christi."
-          },
-          "lines": {
+        "citation": {
+          "it": "Sal 115",
+          "la": "Ps 115",
+          "en": "Ps 115",
+          "es": "Sal 115",
+          "pt-BR": "Sl 115",
+          "fr": "Ps 115",
+          "de": "Ps 115"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Calix benedictiónis communicátio Sánguinis Christi est."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "El cáliz de la bendición es comunión de la sangre de Cristo."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "Our blessing-cup is a communion with the blood of Christ."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "O cálice por nós abençoado, é a nossa comunhão com o sangue do Senhor."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Il tuo calice, Signore, è dono di salvezza."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "La coupe de bénédiction est communion au sang du Christ."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Der Kelch des Segens gibt uns Anteil am Blut Christi."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -1130,17 +1180,9 @@
                   "type": "text",
                   "text": "et nomen Dómini invocábo."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Calix benedictiónis communicátio Sánguinis Christi est."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1158,17 +1200,9 @@
                   "type": "text",
                   "text": "Dirupísti víncula mea."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Calix benedictiónis communicátio Sánguinis Christi est."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1186,29 +1220,11 @@
                   "type": "text",
                   "text": "Vota mea Dómino reddam coram omni pópulo eius."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Calix benedictiónis communicátio Sánguinis Christi est."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El cáliz de la bendición es comunión de la sangre de Cristo."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1226,17 +1242,9 @@
                   "type": "text",
                   "text": "invocando el nombre del Señor."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El cáliz de la bendición es comunión de la sangre de Cristo."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1260,17 +1268,9 @@
                   "type": "text",
                   "text": "rompiste mis cadenas."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El cáliz de la bendición es comunión de la sangre de Cristo."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1288,45 +1288,19 @@
                   "type": "text",
                   "text": "Cumpliré al Señor mis votos en presencia de todo el pueblo."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El cáliz de la bendición es comunión de la sangre de Cristo."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Our blessing-cup is a communion with the blood of Christ."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "How can I repay the Lord for his goodness to me? The cup of salvation I will raise; I will call on the Lord's name."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Our blessing-cup is a communion with the blood of Christ."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1338,45 +1312,19 @@
                   "type": "text",
                   "text": "Lord, your servant am I; you have loosened my bonds."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Our blessing-cup is a communion with the blood of Christ."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "A thanksgiving sacrifice I make: I will call on the Lord's name. My vows to the Lord I will fulfill before all his people."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Our blessing-cup is a communion with the blood of Christ."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O cálice por nós abençoado, é a nossa comunhão com o sangue do Senhor."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -1388,17 +1336,9 @@
                   "type": "text",
                   "text": "Elevo o cálice da minha salvação, invocando o nome santo do Senhor."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O cálice por nós abençoado, é a nossa comunhão com o sangue do Senhor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1416,17 +1356,9 @@
                   "type": "text",
                   "text": "ó Senhor mas me quebrastes os grilhões da escravidão!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O cálice por nós abençoado, é a nossa comunhão com o sangue do Senhor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1444,29 +1376,11 @@
                   "type": "text",
                   "text": "Vou cumprir minhas promessas ao Senhor na presença de seu povo reunido."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O cálice por nós abençoado, é a nossa comunhão com o sangue do Senhor."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il tuo calice, Signore, è dono di salvezza."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -1484,17 +1398,9 @@
                   "type": "text",
                   "text": "Alzerò il calice della salvezza e invocherò il nome del Signore."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il tuo calice, Signore, è dono di salvezza."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1512,17 +1418,9 @@
                   "type": "text",
                   "text": "tu hai spezzato le mie catene."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il tuo calice, Signore, è dono di salvezza."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1534,29 +1432,11 @@
                   "type": "text",
                   "text": "Adempirò i miei voti al Signore davanti a tutto il suo popolo."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il tuo calice, Signore, è dono di salvezza."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "La coupe de bénédiction est communion au sang du Christ."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -1574,17 +1454,9 @@
                   "type": "text",
                   "text": "j’invoquerai le nom du Seigneur."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "La coupe de bénédiction est communion au sang du Christ."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1602,17 +1474,9 @@
                   "type": "text",
                   "text": "moi, dont tu brisas les chaînes ?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "La coupe de bénédiction est communion au sang du Christ."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1636,29 +1500,11 @@
                   "type": "text",
                   "text": "oui, devant tout son peuple."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "La coupe de bénédiction est communion au sang du Christ."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Kelch des Segens gibt uns Anteil am Blut Christi."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -1676,17 +1522,9 @@
                   "type": "text",
                   "text": "Ich will den Kelch des Heils erheben und anrufen den Namen des Herrn."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Kelch des Segens gibt uns Anteil am Blut Christi."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1710,17 +1548,9 @@
                   "type": "text",
                   "text": "Du hast meine Fesseln gelöst."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Kelch des Segens gibt uns Anteil am Blut Christi."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1732,28 +1562,9 @@
                   "type": "text",
                   "text": "Ich will dem Herrn meine Gelübde erfüllen offen vor seinem ganzen Volk."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Der Kelch des Segens gibt uns Anteil am Blut Christi."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "it": "Sal 115",
-          "la": "Ps 115",
-          "en": "Ps 115",
-          "es": "Sal 115",
-          "pt-BR": "Sl 115",
-          "fr": "Ps 115",
-          "de": "Ps 115"
+          ]
         }
       },
       "secondReading": {
@@ -1947,7 +1758,9 @@
                 {
                   "type": "reference",
                   "text": "Jn 13, 34"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Os doy un mandamiento nuevo —dice el Señor—: que os améis unos a otros, como yo os he amado."

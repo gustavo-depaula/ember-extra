@@ -228,28 +228,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Deus meus, sperábo in te Qui hábitat in protectióne Altíssimi, sub umbra Omnipoténtis commorábitur. Dicet Dómino: «Refúgium meum et fortitúdo mea, Deus meus, sperábo in eum». ℟. Deus meus, sperábo in te Quóniam ipse liberábit te de láqueo venántium et a verbo malígno. Alis suis obumbrábit tibi, et sub pennas eius confúgies. ℟. Deus meus, sperábo in te Quóniam mihi adhǽsit, liberábo eum; suscípiam eum, quóniam cognóvit nomen meum. Clamábit ad me, et ego exáudiam eum; cum ipso sum in tribulatióne. ℟. Deus meus, sperábo in te",
-            "es": "℟. Dios mío, confío en ti. Tú que habitas al amparo del Altísimo, que vives a la sombra del Omnipotente, di al Señor: «Refugio mío, alcázar mío, Dios mío, confío en ti». ℟. Dios mío, confío en ti. Él te librará de la red del cazador, de la peste funesta. Te cubrirá con sus plumas, bajo sus alas te refugiarás: su verdad es escudo y armadura. ℟. Dios mío, confío en ti. «Se puso junto a mí: lo libraré; lo protegeré porque conoce mi nombre; me invocará y lo escucharé. Con él estaré en la tribulación». ℟. Dios mío, confío en ti.",
-            "en": "℟. In you, my God, I place my trust. He who dwells in the shelter of the Most High and abides in the shade of the Almighty says to the Lord: 'My refuge, my stronghold, my God in whom I trust!' ℟. In you, my God, I place my trust. It is he who will free you from the snare of the fowler who seeks to destroy you; he will conceal you with his pinions and under his wings you will find refuge. ℟. In you, my God, I place my trust. His love he set on me, so I will rescue him; protect him for he knows my name. When he calls I shall answer: 'I am with you.' I will save him in distress. ℟. In you, my God, I place my trust.",
-            "pt-BR": "℟. Vós sois meu Deus, no qual confio inteiramente. Quem habita ao abrigo do Altíssimo e vive à sombra do Senhor onipotente, diz ao Senhor: \"Sois meu refúgio e proteção, sois o meu Deus, no qual confio inteiramente\". ℟. Vós sois meu Deus, no qual confio inteiramente. Do caçador e do seu laço ele te livra. Ele te salva da palavra que destrói. Com suas asas haverá de proteger-te, com seu escudo e suas armas, defender-te. ℟. Vós sois meu Deus, no qual confio inteiramente. Porque a mim se confiou, hei de livrá-lo e protegê-lo, pois meu nome ele conhece. Ao invocar-me hei de ouvi-lo e atendê-lo, e a seu lado eu estarei em suas dores. ℟. Vós sois meu Deus, no qual confio inteiramente.",
-            "it": "℟. Mio Dio, in te confido. Chi abita al riparo dell’Altissimo passerà la notte all’ombra dell’Onnipotente. Io dico al Signore: «Mio rifugio e mia fortezza, mio Dio in cui confido». ℟. Mio Dio, in te confido. Egli ti libererà dal laccio del cacciatore, dalla peste che distrugge. Ti coprirà con le sue penne, sotto le sue ali troverai rifugio; la sua fedeltà ti sarà scudo e corazza. ℟. Mio Dio, in te confido. «Lo libererò, perché a me si è legato, lo porrò al sicuro, perché ha conosciuto il mio nome. Mi invocherà e io gli darò risposta; nell’angoscia io sarò con lui». ℟. Mio Dio, in te confido.",
-            "fr": "℟. Mon Dieu, dont je suis sûr ! Quand je me tiens sous l’abri du Très-Haut et repose à l’ombre du Puissant, je dis au Seigneur : « Mon refuge, mon rempart, mon Dieu, dont je suis sûr ! » ℟. Mon Dieu, dont je suis sûr ! C’est lui qui te sauve des filets du chasseur ; il te couvre et te protège. Tu trouves sous son aile un refuge : sa fidélité est une armure, un bouclier. ℟. Mon Dieu, dont je suis sûr ! « Puisqu’il s’attache à moi, je le délivre ; je le défends, car il connaît mon nom. Il m’appelle, et moi, je lui réponds ; je suis avec lui dans son épreuve. » ℟. Mon Dieu, dont je suis sûr !",
-            "de": "℟. Du bist mein Gott, dem ich vertraue. Wer im Schutz des Höchsten wohnt und ruht im Schatten des Allmächtigen, der sagt zum Herrn: „Du bist für mich Zuflucht und Burg, mein Gott, dem ich vertraue.“ ℟. Du bist mein Gott, dem ich vertraue. „Weil er an mir hängt, will ich ihn retten; ich will ihn schützen, denn er kennt meinen Namen. Wenn er mich anruft, dann will ich ihn erhören. ℟. Du bist mein Gott, dem ich vertraue. Ich bin bei ihm in der Not, befreie ihn und bringe ihn zu Ehren. Ich sättige ihn mit langem Leben und lasse ihn schauen mein Heil.“ ℟. Du bist mein Gott, dem ich vertraue."
-          },
-          "lines": {
+        "citation": {
+          "pt-BR": "Sl 90",
+          "de": "Ps 91",
+          "la": "Ps 90",
+          "en": "Ps 90",
+          "es": "Sal 90",
+          "it": "Sal 90",
+          "fr": "Ps 90"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
                 {
-                  "type": "rubric",
-                  "text": "℟."
-                },
+                  "type": "text",
+                  "text": "Deus meus, sperábo in te"
+                }
+              ]
+            ],
+            "es": [
+              [
                 {
                   "type": "text",
-                  "text": "Deus meus, sperábo in te Qui hábitat in protectióne Altíssimi,"
+                  "text": "Dios mío, confío en ti."
                 }
-              ],
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "In you, my God, I place my trust."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Vós sois meu Deus, no qual confio inteiramente."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Mio Dio, in te confido."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Mon Dieu, dont je suis sûr !"
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Du bist mein Gott, dem ich vertraue."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -261,17 +311,9 @@
                   "type": "text",
                   "text": "Dicet Dómino: «Refúgium meum et fortitúdo mea, Deus meus, sperábo in eum»."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Deus meus, sperábo in te Quóniam ipse liberábit te de láqueo venántium et a verbo malígno."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -283,17 +325,9 @@
                   "type": "text",
                   "text": "et sub pennas eius confúgies."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Deus meus, sperábo in te Quóniam mihi adhǽsit, liberábo eum;"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -311,29 +345,11 @@
                   "type": "text",
                   "text": "cum ipso sum in tribulatióne."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Deus meus, sperábo in te"
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dios mío, confío en ti."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -363,17 +379,9 @@
                   "type": "text",
                   "text": "confío en ti»."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dios mío, confío en ti."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -403,17 +411,9 @@
                   "type": "text",
                   "text": "su verdad es escudo y armadura."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dios mío, confío en ti."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -437,61 +437,27 @@
                   "type": "text",
                   "text": "Con él estaré en la tribulación»."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dios mío, confío en ti."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "In you, my God, I place my trust."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "He who dwells in the shelter of the Most High and abides in the shade of the Almighty says to the Lord: 'My refuge, my stronghold, my God in whom I trust!'"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "In you, my God, I place my trust."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "It is he who will free you from the snare of the fowler who seeks to destroy you; he will conceal you with his pinions and under his wings you will find refuge."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "In you, my God, I place my trust."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -503,29 +469,11 @@
                   "type": "text",
                   "text": "When he calls I shall answer: 'I am with you.' I will save him in distress."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "In you, my God, I place my trust."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Vós sois meu Deus, no qual confio inteiramente."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -543,17 +491,9 @@
                   "type": "text",
                   "text": "sois o meu Deus, no qual confio inteiramente\"."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Vós sois meu Deus, no qual confio inteiramente."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -571,17 +511,9 @@
                   "type": "text",
                   "text": "com seu escudo e suas armas, defender-te."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Vós sois meu Deus, no qual confio inteiramente."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -599,29 +531,11 @@
                   "type": "text",
                   "text": "e a seu lado eu estarei em suas dores."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Vós sois meu Deus, no qual confio inteiramente."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Mio Dio, in te confido."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -639,17 +553,9 @@
                   "type": "text",
                   "text": "mio Dio in cui confido»."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Mio Dio, in te confido."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -679,17 +585,9 @@
                   "type": "text",
                   "text": "la sua fedeltà ti sarà scudo e corazza."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Mio Dio, in te confido."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -713,29 +611,11 @@
                   "type": "text",
                   "text": "nell’angoscia io sarò con lui»."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Mio Dio, in te confido."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Mon Dieu, dont je suis sûr !"
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -753,17 +633,9 @@
                   "type": "text",
                   "text": "mon rempart, mon Dieu, dont je suis sûr ! »"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Mon Dieu, dont je suis sûr !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -787,17 +659,9 @@
                   "type": "text",
                   "text": "sa fidélité est une armure, un bouclier."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Mon Dieu, dont je suis sûr !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -821,29 +685,11 @@
                   "type": "text",
                   "text": "je suis avec lui dans son épreuve. »"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Mon Dieu, dont je suis sûr !"
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Du bist mein Gott, dem ich vertraue."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -861,17 +707,9 @@
                   "type": "text",
                   "text": "mein Gott, dem ich vertraue.“"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Du bist mein Gott, dem ich vertraue."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -895,17 +733,9 @@
                   "type": "text",
                   "text": "dann will ich ihn erhören."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Du bist mein Gott, dem ich vertraue."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -923,28 +753,9 @@
                   "type": "text",
                   "text": "Ich sättige ihn mit langem Leben und lasse ihn schauen mein Heil.“"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Du bist mein Gott, dem ich vertraue."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "pt-BR": "Sl 90",
-          "de": "Ps 91",
-          "la": "Ps 90",
-          "en": "Ps 90",
-          "es": "Sal 90",
-          "it": "Sal 90",
-          "fr": "Ps 90"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -968,7 +779,9 @@
                 {
                   "type": "reference",
                   "text": "Cf. 2 Tim 1, 10"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Salvátor noster Iesus Christus destrúxit mortem, et illuminávit vitam per Evangélium. Allelúia."
@@ -984,7 +797,9 @@
                 {
                   "type": "reference",
                   "text": "Cf. 2 Tim 1, 10"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Nuestro Salvador, Cristo Jesús, destruyó la muerte, e hizo brillar la vida por medio del Evangelio. Aleluya."
@@ -1501,28 +1316,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Miserátor et miséricors Dóminus. Per síngulos dies benedícam tibi, et laudábo nomen tuum in sǽculum et in sǽculum sǽculi. Magnus Dóminus et laudábilis nimis, et magnitúdinis eius non est investigátio. ℟. Miserátor et miséricors Dóminus. Generátio generatióni laudábit ópera tua, et poténtiam tuam pronuntiábunt. Magnificéntiam glóriæ maiestátis tuæ loquéntur, et mirabília tua enarrábunt. ℟. Miserátor et miséricors Dóminus. Et virtútem terribílium tuórum dicent, et magnitúdinem tuam narrábunt. Memóriam abundántiæ suavitátis tuæ eructábunt, et iustítia tua exsultábunt. ℟. Miserátor et miséricors Dóminus. Miserátor et miséricors Dóminus, longánimis et multæ misericórdiæ. Suávis Dóminus univérsis, et miseratiónes eius super ómnia ópera eius. ℟. Miserátor et miséricors Dóminus.",
-            "es": "℟. El Señor es clemente y misericordioso. Día tras día, te bendeciré y alabaré tu nombre por siempre jamás. Grande es el Señor, merece toda alabanza, es incalculable su grandeza. ℟. El Señor es clemente y misericordioso. Una generación pondera tus obras a la otra, y le cuenta tus hazañas. Alaban ellos la gloria de tu majestad, y yo repito tus maravillas. ℟. El Señor es clemente y misericordioso. Encarecen ellos tus temibles proezas, y yo narro tus grandes acciones; Difunden la memoria de tu inmensa bondad, y aclaman tu justicia. ℟. El Señor es clemente y misericordioso. El Señor es clemente y misericordioso, lento a la cólera y rico en piedad; el Señor es bueno con todos, es cariñoso con todas sus criaturas. ℟. El Señor es clemente y misericordioso.",
-            "en": "℟. The Lord is kind and merciful. I will bless you day after day and praise your name for ever. The Lord is great, highly to be praised, his greatness cannot be measured. ℟. The Lord is kind and merciful. Age to age shall proclaim your works, shall declare your mighty deeds, shall speak of your splendour and glory, tell the tale of your wonderful works. ℟. The Lord is kind and merciful. They will speak of your terrible deeds, recount your greatness and might. They will recall your abundant goodness; age to age shall ring out your justice. ℟. The Lord is kind and merciful. The Lord is kind and full of compassion, slow to anger, abounding in love. How good is the Lord to all, compassionate to all his creatures. ℟. The Lord is kind and merciful.",
-            "pt-BR": "℟. Misericórdia e piedade é o Senhor. Todos os dias haverei de bendizer-vos, hei de louvar o vosso nome para sempre. Grande é o Senhor e muito digno de louvores, e ninguém pode medir sua grandeza. ℟. Misericórdia e piedade é o Senhor. Uma idade conta à outra vossas obras e publica os vossos feitos poderosos; proclamam todos o esplendor de vossa glória e divulgam vossas obras portentosas! ℟. Misericórdia e piedade é o Senhor. Narram todos vossas obras poderosas, e de vossa imensidade todos falam. Eles recordam vosso amor tão grandioso e exaltam, ó Senhor, vossa justiça. ℟. Misericórdia e piedade é o Senhor. Misericórdia e piedade é o Senhor, ele é amor, é paciência, é compaixão. O Senhor é muito bom para com todos, sua ternura abraça toda criatura. ℟. Misericórdia e piedade é o Senhor.",
-            "it": "℟. Misericordioso e pietoso è il Signore. Ti voglio benedire ogni giorno, lodare il tuo nome in eterno e per sempre. Grande è il Signore e degno di ogni lode; senza fine è la sua grandezza. ℟. Misericordioso e pietoso è il Signore. Una generazione narra all’altra le tue opere, annuncia le tue imprese. Il glorioso splendore della tua maestà e le tue meraviglie voglio meditare. ℟. Misericordioso e pietoso è il Signore. Parlino della tua terribile potenza: anch’io voglio raccontare la tua grandezza. Diffondano il ricordo della tua bontà immensa, acclamino la tua giustizia. ℟. Misericordioso e pietoso è il Signore. Misericordioso e pietoso è il Signore, lento all’ira e grande nell’amore. Buono è il Signore verso tutti, la sua tenerezza si espande su tutte le creature. ℟. Misericordioso e pietoso è il Signore.",
-            "fr": "℟. Le Seigneur est tendresse et pitié. Chaque jour je te bénirai, je louerai ton nom toujours et à jamais. Il est grand, le Seigneur, hautement loué ; à sa grandeur, il n’est pas de limite. ℟. Le Seigneur est tendresse et pitié. D’âge en âge, on vantera tes œuvres, on proclamera tes exploits. Je redirai le récit de tes merveilles, ton éclat, ta gloire et ta splendeur. ℟. Le Seigneur est tendresse et pitié. On dira ta force redoutable ; je raconterai ta grandeur. On rappellera tes immenses bontés ; tous acclameront ta justice. ℟. Le Seigneur est tendresse et pitié. Le Seigneur est tendresse et pitié, lent à la colère et plein d’amour ; la bonté du Seigneur est pour tous, sa tendresse, pour toutes ses œuvres. ℟. Le Seigneur est tendresse et pitié.",
-            "de": "℟. Gnädig und barmherzig ist der Herr. Ich will dich preisen Tag für Tag und deinen Namen loben immer und ewig. Groß ist der Herr und hoch zu loben, seine Größe ist unerforschlich. ℟. Gnädig und barmherzig ist der Herr. Ein Geschlecht verkünde dem andern den Ruhm deiner Werke und erzähle von deinen gewaltigen Taten. Sie sollen vom herrlichen Glanz deiner Hoheit reden; ich will deine Wunder besingen. ℟. Gnädig und barmherzig ist der Herr. Sie sollen sprechen von der Gewalt deiner erschreckenden Taten; ich will von deinen großen Taten berichten. Sie sollen die Erinnerung an deine große Güte wecken und über deine Gerechtigkeit jubeln. ℟. Gnädig und barmherzig ist der Herr. Der Herr ist gnädig und barmherzig, langmütig und reich an Gnade. Der Herr ist gütig zu allen, sein Erbarmen waltet über all seinen Werken. ℟. Gnädig und barmherzig ist der Herr."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 145, 2-3. 4-5. 6-7. 8-9",
+          "es": "Sal 145, 2-3.4-5.6-7.8-9",
+          "en": "Ps 144:2-3, 4-5, 6-7, 8-9",
+          "pt-BR": "Sl 144",
+          "de": "Ps 145",
+          "it": "Sal 145, 2-3.4-5.6-7.8-9",
+          "fr": "Ps 145, 2-3.4-5.6-7.8-9"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Miserátor et miséricors Dóminus."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "El Señor es clemente y misericordioso."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "The Lord is kind and merciful."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Misericórdia e piedade é o Senhor."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Misericordioso e pietoso è il Signore."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Le Seigneur est tendresse et pitié."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Gnädig und barmherzig ist der Herr."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -1546,17 +1411,9 @@
                   "type": "text",
                   "text": "et magnitúdinis eius non est investigátio."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Miserátor et miséricors Dóminus."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1580,17 +1437,9 @@
                   "type": "text",
                   "text": "et mirabília tua enarrábunt."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Miserátor et miséricors Dóminus."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1614,17 +1463,9 @@
                   "type": "text",
                   "text": "et iustítia tua exsultábunt."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Miserátor et miséricors Dóminus."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1648,29 +1489,11 @@
                   "type": "text",
                   "text": "et miseratiónes eius super ómnia ópera eius."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Miserátor et miséricors Dóminus."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor es clemente y misericordioso."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1688,17 +1511,9 @@
                   "type": "text",
                   "text": "es incalculable su grandeza."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor es clemente y misericordioso."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1722,17 +1537,9 @@
                   "type": "text",
                   "text": "y yo repito tus maravillas."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor es clemente y misericordioso."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1756,17 +1563,9 @@
                   "type": "text",
                   "text": "y aclaman tu justicia."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor es clemente y misericordioso."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1790,105 +1589,45 @@
                   "type": "text",
                   "text": "es cariñoso con todas sus criaturas."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor es clemente y misericordioso."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord is kind and merciful."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "I will bless you day after day and praise your name for ever. The Lord is great, highly to be praised, his greatness cannot be measured."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord is kind and merciful."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Age to age shall proclaim your works, shall declare your mighty deeds, shall speak of your splendour and glory, tell the tale of your wonderful works."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord is kind and merciful."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "They will speak of your terrible deeds, recount your greatness and might. They will recall your abundant goodness; age to age shall ring out your justice."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord is kind and merciful."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "The Lord is kind and full of compassion, slow to anger, abounding in love. How good is the Lord to all, compassionate to all his creatures."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord is kind and merciful."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Misericórdia e piedade é o Senhor."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -1906,33 +1645,17 @@
                   "type": "text",
                   "text": "e ninguém pode medir sua grandeza."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Misericórdia e piedade é o Senhor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Uma idade conta à outra vossas obras e publica os vossos feitos poderosos; proclamam todos o esplendor de vossa glória e divulgam vossas obras portentosas!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Misericórdia e piedade é o Senhor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1950,17 +1673,9 @@
                   "type": "text",
                   "text": "Eles recordam vosso amor tão grandioso e exaltam, ó Senhor, vossa justiça."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Misericórdia e piedade é o Senhor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1984,29 +1699,11 @@
                   "type": "text",
                   "text": "sua ternura abraça toda criatura."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Misericórdia e piedade é o Senhor."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Misericordioso e pietoso è il Signore."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -2030,17 +1727,9 @@
                   "type": "text",
                   "text": "senza fine è la sua grandezza."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Misericordioso e pietoso è il Signore."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2058,17 +1747,9 @@
                   "type": "text",
                   "text": "Il glorioso splendore della tua maestà e le tue meraviglie voglio meditare."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Misericordioso e pietoso è il Signore."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2092,17 +1773,9 @@
                   "type": "text",
                   "text": "acclamino la tua giustizia."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Misericordioso e pietoso è il Signore."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2126,29 +1799,11 @@
                   "type": "text",
                   "text": "la sua tenerezza si espande su tutte le creature."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Misericordioso e pietoso è il Signore."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur est tendresse et pitié."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -2172,17 +1827,9 @@
                   "type": "text",
                   "text": "à sa grandeur, il n’est pas de limite."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur est tendresse et pitié."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2206,17 +1853,9 @@
                   "type": "text",
                   "text": "ton éclat, ta gloire et ta splendeur."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur est tendresse et pitié."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2240,17 +1879,9 @@
                   "type": "text",
                   "text": "tous acclameront ta justice."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur est tendresse et pitié."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2274,29 +1905,11 @@
                   "type": "text",
                   "text": "sa tendresse, pour toutes ses œuvres."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur est tendresse et pitié."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Gnädig und barmherzig ist der Herr."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -2314,17 +1927,9 @@
                   "type": "text",
                   "text": "seine Größe ist unerforschlich."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Gnädig und barmherzig ist der Herr."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2342,17 +1947,9 @@
                   "type": "text",
                   "text": "ich will deine Wunder besingen."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Gnädig und barmherzig ist der Herr."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2370,17 +1967,9 @@
                   "type": "text",
                   "text": "Sie sollen die Erinnerung an deine große Güte wecken und über deine Gerechtigkeit jubeln."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Gnädig und barmherzig ist der Herr."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2404,28 +1993,9 @@
                   "type": "text",
                   "text": "sein Erbarmen waltet über all seinen Werken."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Gnädig und barmherzig ist der Herr."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 145, 2-3. 4-5. 6-7. 8-9",
-          "es": "Sal 145, 2-3.4-5.6-7.8-9",
-          "en": "Ps 144:2-3, 4-5, 6-7, 8-9",
-          "pt-BR": "Sl 144",
-          "de": "Ps 145",
-          "it": "Sal 145, 2-3.4-5.6-7.8-9",
-          "fr": "Ps 145, 2-3.4-5.6-7.8-9"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -2449,7 +2019,9 @@
                 {
                   "type": "reference",
                   "text": "Cf. 2 Tim 1, 10"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Salvátor noster Iesus Christus destrúxit mortem, et illuminávit vitam per Evangélium. Allelúia."
@@ -2465,7 +2037,9 @@
                 {
                   "type": "reference",
                   "text": "Cf. 2 Tim 1, 10"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Nuestro Salvador, Cristo Jesús, destruyó la muerte, e hizo brillar la vida por medio del Evangelio. Aleluya."

@@ -1010,28 +1010,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Beáti qui ámbulant in lege Dómini. Beáti immaculáti in via, qui ámbulant in lege Dómini. Beáti qui servant testimónia eius, in toto corde exquírunt eum. ℟. Beáti qui ámbulant in lege Dómini. Tu mandásti mandáta tua custodíri nimis. Utinam dirigántur viæ meæ ad custodiéndas iustificatiónes tuas. ℟. Beáti qui ámbulant in lege Dómini. Confitébor tibi in directióne cordis, in eo quod dídici iudícia iustítiæ tuæ. Iustificatiónes tuas custódiam, non me derelínquas usquequáque. ℟. Beáti qui ámbulant in lege Dómini.",
-            "es": "℟. Dichoso el que camina en la ley del Señor. Dichoso el que, con vida intachable, camina en la ley del Señor; dichoso el que, guardando sus preceptos, lo busca de todo corazón. ℟. Dichoso el que camina en la ley del Señor. Tú promulgas tus mandatos para que se observen exactamente. Ojalá esté firme mi camino, para cumplir tus decretos. ℟. Dichoso el que camina en la ley del Señor. Te alabaré con sincero corazón cuando aprenda tus justos mandamientos. Quiero guardar tus decretos exactamente, tú no me abandones. ℟. Dichoso el que camina en la ley del Señor.",
-            "en": "℟. Happy are they who follow the law of the Lord! They are happy whose life is blameless, who follow God's law! They are happy those who do his will, seeking him with all their hearts. ℟. Happy are they who follow the law of the Lord! You have laid down your precepts to be obeyed with care. May my footsteps be firm to obey your statutes. ℟. Happy are they who follow the law of the Lord! I will thank you with an upright heart as I learn your decrees. I will obey your statutes; do not forsake me. ℟. Happy are they who follow the law of the Lord!",
-            "pt-BR": "℟. Feliz é quem na lei do Senhor Deus vai progredindo! Feliz o homem sem pecado em seu caminho, que na lei do Senhor Deus vai progredindo! Feliz o homem que observa seus preceitos, e de todo o coração procura a Deus! ℟. Feliz é quem na lei do Senhor Deus vai progredindo! Os vossos mandamentos vós nos destes, para serem fielmente observados. Oxalá seja bem firme a minha vida em cumprir vossa vontade e vossa lei! ℟. Feliz é quem na lei do Senhor Deus vai progredindo! Quero louvar-vos com sincero coração, pois aprendi as vossas justas decisões. Quero guardar vossa vontade e vossa lei; Senhor, não me deixeis desamparado! ℟. Feliz é quem na lei do Senhor Deus vai progredindo!",
-            "it": "℟. Beato chi cammina nella legge del Signore. Beato chi è integro nella sua via e cammina nella legge del Signore. Beato chi custodisce i suoi insegnamenti e lo cerca con tutto il cuore. ℟. Beato chi cammina nella legge del Signore. Tu hai promulgato i tuoi precetti perché siano osservati interamente. Siano stabili le mie vie nel custodire i tuoi decreti. ℟. Beato chi cammina nella legge del Signore. Ti loderò con cuore sincero, quando avrò appreso i tuoi giusti giudizi. Voglio osservare i tuoi decreti: non abbandonarmi mai. ℟. Beato chi cammina nella legge del Signore.",
-            "fr": "℟. Heureux ceux qui marchent suivant la loi du Seigneur ! Heureux les hommes intègres dans leurs voies qui marchent suivant la loi du Seigneur ! Heureux ceux qui gardent ses exigences, ils le cherchent de tout cœur ! ℟. Heureux ceux qui marchent suivant la loi du Seigneur ! Toi, tu promulgues des préceptes à observer entièrement. Puissent mes voies s’affermir à observer tes commandements ! ℟. Heureux ceux qui marchent suivant la loi du Seigneur ! D’un cœur droit, je pourrai te rendre grâce, instruit de tes justes décisions. Tes commandements, je les observe : ne m’abandonne pas entièrement. ℟. Heureux ceux qui marchent suivant la loi du Seigneur !",
-            "de": "℟. Selig die Menschen, die leben nach der Weisung des Herrn. Wohl denen, deren Weg ohne Tadel ist, die leben nach der Weisung des Herrn. Wohl denen, die seine Vorschriften befolgen und ihn suchen von ganzem Herzen. ℟. Selig die Menschen, die leben nach der Weisung des Herrn. Du hast deine Befehle gegeben, damit man sie genau beachtet. Wären doch meine Schritte fest darauf gerichtet, deinen Gesetzen zu folgen! ℟. Selig die Menschen, die leben nach der Weisung des Herrn. Mit lauterem Herzen will ich dir danken, wenn ich deine gerechten Urteile lerne. Deinen Gesetzen will ich immer folgen. Lass mich doch niemals im Stich! ℟. Selig die Menschen, die leben nach der Weisung des Herrn."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 118, 1-2. 4-5. 7-8",
+          "es": "Sal 118, 1-2. 4-5. 7-8",
+          "en": "Ps 118:1-2, 4-5, 7-8",
+          "pt-BR": "Sl 118, 1-2. 4-5. 7-8",
+          "de": "Ps 119",
+          "it": "Sal 118, 1-2. 4-5. 7-8",
+          "fr": "Ps 118, 1-2. 4-5. 7-8"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Beáti qui ámbulant in lege Dómini."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Dichoso el que camina en la ley del Señor."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "Happy are they who follow the law of the Lord!"
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Feliz é quem na lei do Senhor Deus vai progredindo!"
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Beato chi cammina nella legge del Signore."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Heureux ceux qui marchent suivant la loi du Seigneur !"
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Selig die Menschen, die leben nach der Weisung des Herrn."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -1055,17 +1105,9 @@
                   "type": "text",
                   "text": "in toto corde exquírunt eum."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beáti qui ámbulant in lege Dómini."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1077,17 +1119,9 @@
                   "type": "text",
                   "text": "Utinam dirigántur viæ meæ ad custodiéndas iustificatiónes tuas."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beáti qui ámbulant in lege Dómini."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1111,29 +1145,11 @@
                   "type": "text",
                   "text": "non me derelínquas usquequáque."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beáti qui ámbulant in lege Dómini."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dichoso el que camina en la ley del Señor."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1157,17 +1173,9 @@
                   "type": "text",
                   "text": "lo busca de todo corazón."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dichoso el que camina en la ley del Señor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1185,17 +1193,9 @@
                   "type": "text",
                   "text": "para cumplir tus decretos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dichoso el que camina en la ley del Señor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1213,89 +1213,37 @@
                   "type": "text",
                   "text": "tú no me abandones."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dichoso el que camina en la ley del Señor."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Happy are they who follow the law of the Lord!"
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "They are happy whose life is blameless, who follow God's law! They are happy those who do his will, seeking him with all their hearts."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Happy are they who follow the law of the Lord!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "You have laid down your precepts to be obeyed with care. May my footsteps be firm to obey your statutes."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Happy are they who follow the law of the Lord!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "I will thank you with an upright heart as I learn your decrees. I will obey your statutes; do not forsake me."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Happy are they who follow the law of the Lord!"
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Feliz é quem na lei do Senhor Deus vai progredindo!"
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -1319,17 +1267,9 @@
                   "type": "text",
                   "text": "e de todo o coração procura a Deus!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Feliz é quem na lei do Senhor Deus vai progredindo!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1347,17 +1287,9 @@
                   "type": "text",
                   "text": "Oxalá seja bem firme a minha vida em cumprir vossa vontade e vossa lei!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Feliz é quem na lei do Senhor Deus vai progredindo!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1381,29 +1313,11 @@
                   "type": "text",
                   "text": "Senhor, não me deixeis desamparado!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Feliz é quem na lei do Senhor Deus vai progredindo!"
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beato chi cammina nella legge del Signore."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -1415,17 +1329,9 @@
                   "type": "text",
                   "text": "Beato chi custodisce i suoi insegnamenti e lo cerca con tutto il cuore."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beato chi cammina nella legge del Signore."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1437,17 +1343,9 @@
                   "type": "text",
                   "text": "Siano stabili le mie vie nel custodire i tuoi decreti."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beato chi cammina nella legge del Signore."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1471,29 +1369,11 @@
                   "type": "text",
                   "text": "non abbandonarmi mai."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beato chi cammina nella legge del Signore."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Heureux ceux qui marchent suivant la loi du Seigneur !"
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -1511,17 +1391,9 @@
                   "type": "text",
                   "text": "ils le cherchent de tout cœur !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Heureux ceux qui marchent suivant la loi du Seigneur !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1533,17 +1405,9 @@
                   "type": "text",
                   "text": "Puissent mes voies s’affermir à observer tes commandements !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Heureux ceux qui marchent suivant la loi du Seigneur !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1567,29 +1431,11 @@
                   "type": "text",
                   "text": "ne m’abandonne pas entièrement."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Heureux ceux qui marchent suivant la loi du Seigneur !"
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Selig die Menschen, die leben nach der Weisung des Herrn."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -1607,17 +1453,9 @@
                   "type": "text",
                   "text": "Wohl denen, die seine Vorschriften befolgen und ihn suchen von ganzem Herzen."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Selig die Menschen, die leben nach der Weisung des Herrn."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1641,17 +1479,9 @@
                   "type": "text",
                   "text": "deinen Gesetzen zu folgen!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Selig die Menschen, die leben nach der Weisung des Herrn."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1675,28 +1505,9 @@
                   "type": "text",
                   "text": "Lass mich doch niemals im Stich!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Selig die Menschen, die leben nach der Weisung des Herrn."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 118, 1-2. 4-5. 7-8",
-          "es": "Sal 118, 1-2. 4-5. 7-8",
-          "en": "Ps 118:1-2, 4-5, 7-8",
-          "pt-BR": "Sl 118, 1-2. 4-5. 7-8",
-          "de": "Ps 119",
-          "it": "Sal 118, 1-2. 4-5. 7-8",
-          "fr": "Ps 118, 1-2. 4-5. 7-8"
+          ]
         }
       },
       "gospelAcclamation": {

@@ -228,28 +228,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Cálicem salutaris accípiam, et nomen Dómini invocábo. Quid retríbuam Dómino pro ómnibus quæ retríbuit mihi? Cálicem salutáris accípiam, et nomen Dómini invocábo. ℟. Cálicem salutaris accípiam, et nomen Dómini invocábo. Pretiósa in conspéctu Dómini mors sanctórum eius. Ego servus tuus et fílius ancíllæ tuæ. Dirupísti víncula mea. ℟. Cálicem salutaris accípiam, et nomen Dómini invocábo. Tibi sacrificábo hóstiam laudis, et nomen Dómini invocábo. Vota mea Dómino reddam coram omni pópulo eius. ℟. Cálicem salutaris accípiam, et nomen Dómini invocábo.",
-            "es": "℟. Alzaré la copa de la salvación, invocando el nombre del Señor. ¿Cómo pagaré al Señor todo el bien que me ha hecho? Alzaré la copa de la salvación, invocando el nombre del Señor. ℟. Alzaré la copa de la salvación, invocando el nombre del Señor. Mucho le cuesta al Señor la muerte de sus fieles. Señor, yo soy tu siervo, hijo de tu esclava: rompiste mis cadenas. ℟. Alzaré la copa de la salvación, invocando el nombre del Señor. Te ofreceré un sacrificio de alabanza, invocando el nombre del Señor. Cumpliré al Señor mis votos en presencia de todo el pueblo. ℟. Alzaré la copa de la salvación, invocando el nombre del Señor.",
-            "en": "℟. I will take the cup of salvation, and call on the name of the Lord. How can I repay the Lord for his goodness to me? The cup of salvation I will raise; I will call on the Lord's name. ℟. I will take the cup of salvation, and call on the name of the Lord. O precious in the eyes of the Lord is the death of his faithful. Your servant, Lord, your servant am I; you have loosened my bonds. ℟. I will take the cup of salvation, and call on the name of the Lord. A thanksgiving sacrifice I make: I will call on the Lord's name. My vows to the Lord I will fulfil before all his people. ℟. I will take the cup of salvation, and call on the name of the Lord.",
-            "pt-BR": "℟. Elevo o cálice da minha salvação, invocando o nome santo do Senhor. Que poderei retribuir ao Senhor Deus, por tudo aquilo que ele fez em meu favor? Elevo o cálice da minha salvação, invocando o nome santo do Senhor. ℟. Elevo o cálice da minha salvação, invocando o nome santo do Senhor. É sentida por demais pelo Senhor a morte de seus santos, seus amigos. Eis que sou o vosso servo, ó Senhor vosso servo que nasceu de vossa serva; mas me quebrastes os grilhões da escravidão! ℟. Elevo o cálice da minha salvação, invocando o nome santo do Senhor. Por isso oferto um sacrifício de louvor, invocando o nome santo do Senhor. Vou cumprir minhas promessas ao Senhor na presença de seu povo reunido. ℟. Elevo o cálice da minha salvação, invocando o nome santo do Senhor.",
-            "it": "℟. Alzerò il calice della salvezza e invocherò il nome del Signore. Che cosa renderò al Signore per tutti i benefici che mi ha fatto? Alzerò il calice della salvezza e invocherò il nome del Signore. ℟. Alzerò il calice della salvezza e invocherò il nome del Signore. Agli occhi del Signore è preziosa la morte dei suoi fedeli. Io sono tuo servo, figlio della tua schiava: tu hai spezzato le mie catene. ℟. Alzerò il calice della salvezza e invocherò il nome del Signore. A te offrirò un sacrificio di ringraziamento e invocherò il nome del Signore. Adempirò i miei voti al Signore davanti a tutto il suo popolo. ℟. Alzerò il calice della salvezza e invocherò il nome del Signore.",
-            "fr": "℟. J’élèverai la coupe du salut, j’invoquerai le nom du Seigneur. Comment rendrai-je au Seigneur tout le bien qu’il m’a fait ? J’élèverai la coupe du salut, j’invoquerai le nom du Seigneur. ℟. J’élèverai la coupe du salut, j’invoquerai le nom du Seigneur. Il en coûte au Seigneur de voir mourir les siens ! Ne suis-je pas, Seigneur, ton serviteur, moi, dont tu brisas les chaînes ? ℟. J’élèverai la coupe du salut, j’invoquerai le nom du Seigneur. Je t’offrirai le sacrifice d’action de grâce, j’invoquerai le nom du Seigneur. Je tiendrai mes promesses au Seigneur, oui, devant tout son peuple. ℟. J’élèverai la coupe du salut, j’invoquerai le nom du Seigneur.",
-            "de": "℟. Den Kelch des Heils will ich erheben und anrufen den Namen des Herrn. Wie kann ich dem Herrn all das vergelten, was er mir Gutes getan hat? Ich will den Kelch des Heils erheben und anrufen den Namen des Herrn. ℟. Den Kelch des Heils will ich erheben und anrufen den Namen des Herrn. Kostbar ist in den Augen des Herrn das Sterben seiner Frommen. Ach Herr, ich bin doch dein Knecht, dein Knecht bin ich, der Sohn deiner Magd. ℟. Den Kelch des Heils will ich erheben und anrufen den Namen des Herrn. Ich will dir ein Opfer des Dankes bringen und anrufen den Namen des Herrn. Ich will dem Herrn meine Gelübde erfüllen offen vor seinem ganzen Volk. ℟. Den Kelch des Heils will ich erheben und anrufen den Namen des Herrn."
-          },
-          "lines": {
+        "citation": {
+          "pt-BR": "Sl 115",
+          "de": "Ps 116",
+          "la": "Ps 115",
+          "en": "Ps 115",
+          "es": "Sal 115",
+          "it": "Sal 115",
+          "fr": "Ps 115"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Cálicem salutaris accípiam, et nomen Dómini invocábo."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Alzaré la copa de la salvación, invocando el nombre del Señor."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "I will take the cup of salvation, and call on the name of the Lord."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Elevo o cálice da minha salvação, invocando o nome santo do Senhor."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Alzerò il calice della salvezza e invocherò il nome del Signore."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "J’élèverai la coupe du salut, j’invoquerai le nom du Seigneur."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Den Kelch des Heils will ich erheben und anrufen den Namen des Herrn."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -267,17 +317,9 @@
                   "type": "text",
                   "text": "et nomen Dómini invocábo."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Cálicem salutaris accípiam, et nomen Dómini invocábo."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -295,17 +337,9 @@
                   "type": "text",
                   "text": "Dirupísti víncula mea."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Cálicem salutaris accípiam, et nomen Dómini invocábo."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -323,29 +357,11 @@
                   "type": "text",
                   "text": "Vota mea Dómino reddam coram omni pópulo eius."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Cálicem salutaris accípiam, et nomen Dómini invocábo."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Alzaré la copa de la salvación, invocando el nombre del Señor."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -363,17 +379,9 @@
                   "type": "text",
                   "text": "invocando el nombre del Señor."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Alzaré la copa de la salvación, invocando el nombre del Señor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -397,17 +405,9 @@
                   "type": "text",
                   "text": "rompiste mis cadenas."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Alzaré la copa de la salvación, invocando el nombre del Señor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -425,45 +425,19 @@
                   "type": "text",
                   "text": "Cumpliré al Señor mis votos en presencia de todo el pueblo."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Alzaré la copa de la salvación, invocando el nombre del Señor."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "I will take the cup of salvation, and call on the name of the Lord."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "How can I repay the Lord for his goodness to me? The cup of salvation I will raise; I will call on the Lord's name."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "I will take the cup of salvation, and call on the name of the Lord."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -475,45 +449,19 @@
                   "type": "text",
                   "text": "Lord, your servant am I; you have loosened my bonds."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "I will take the cup of salvation, and call on the name of the Lord."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "A thanksgiving sacrifice I make: I will call on the Lord's name. My vows to the Lord I will fulfil before all his people."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "I will take the cup of salvation, and call on the name of the Lord."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Elevo o cálice da minha salvação, invocando o nome santo do Senhor."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -531,17 +479,9 @@
                   "type": "text",
                   "text": "invocando o nome santo do Senhor."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Elevo o cálice da minha salvação, invocando o nome santo do Senhor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -559,17 +499,9 @@
                   "type": "text",
                   "text": "mas me quebrastes os grilhões da escravidão!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Elevo o cálice da minha salvação, invocando o nome santo do Senhor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -581,29 +513,11 @@
                   "type": "text",
                   "text": "invocando o nome santo do Senhor. Vou cumprir minhas promessas ao Senhor na presença de seu povo reunido."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Elevo o cálice da minha salvação, invocando o nome santo do Senhor."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Alzerò il calice della salvezza e invocherò il nome del Signore."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -615,17 +529,9 @@
                   "type": "text",
                   "text": "Alzerò il calice della salvezza e invocherò il nome del Signore."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Alzerò il calice della salvezza e invocherò il nome del Signore."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -643,17 +549,9 @@
                   "type": "text",
                   "text": "tu hai spezzato le mie catene."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Alzerò il calice della salvezza e invocherò il nome del Signore."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -665,29 +563,11 @@
                   "type": "text",
                   "text": "Adempirò i miei voti al Signore davanti a tutto il suo popolo."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Alzerò il calice della salvezza e invocherò il nome del Signore."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "J’élèverai la coupe du salut, j’invoquerai le nom du Seigneur."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -705,17 +585,9 @@
                   "type": "text",
                   "text": "j’invoquerai le nom du Seigneur."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "J’élèverai la coupe du salut, j’invoquerai le nom du Seigneur."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -733,17 +605,9 @@
                   "type": "text",
                   "text": "moi, dont tu brisas les chaînes ?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "J’élèverai la coupe du salut, j’invoquerai le nom du Seigneur."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -767,29 +631,11 @@
                   "type": "text",
                   "text": "oui, devant tout son peuple."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "J’élèverai la coupe du salut, j’invoquerai le nom du Seigneur."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Den Kelch des Heils will ich erheben und anrufen den Namen des Herrn."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -807,17 +653,9 @@
                   "type": "text",
                   "text": "Ich will den Kelch des Heils erheben und anrufen den Namen des Herrn."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Den Kelch des Heils will ich erheben und anrufen den Namen des Herrn."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -835,17 +673,9 @@
                   "type": "text",
                   "text": "dein Knecht bin ich, der Sohn deiner Magd."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Den Kelch des Heils will ich erheben und anrufen den Namen des Herrn."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -857,28 +687,9 @@
                   "type": "text",
                   "text": "Ich will dem Herrn meine Gelübde erfüllen offen vor seinem ganzen Volk."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Den Kelch des Heils will ich erheben und anrufen den Namen des Herrn."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "pt-BR": "Sl 115",
-          "de": "Ps 116",
-          "la": "Ps 115",
-          "en": "Ps 115",
-          "es": "Sal 115",
-          "it": "Sal 115",
-          "fr": "Ps 115"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -902,7 +713,9 @@
                 {
                   "type": "reference",
                   "text": "Io 10, 27"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Oves meæ vocem meam áudiunt, dicit Dóminus, et ego cognósco eas, et sequúntur me. Allelúia."
@@ -918,7 +731,9 @@
                 {
                   "type": "reference",
                   "text": "Jn 10, 27"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Mis ovejas escuchan mi voz —dice el Señor— y yo las conozco, y ellas me siguen. Aleluya."
@@ -1435,28 +1250,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Tu, Dómine, eruísti ánimam meam ut non períret. Ego dixi: In dimídio diérum meórum vadam ad portas ínferi; quæsívi resíduum annórum meórum. ℟. Tu, Dómine, eruísti ánimam meam ut non períret. Dixi: Non vidébo Dóminum Deum in terra vivéntium, non aspíciam hóminem ultra inter habitatóres orbis. ℟. Tu, Dómine, eruísti ánimam meam ut non períret. Habitáculum meum ablátum est et abdúctum longe a me quasi tabernáculum pastórum; convólvit sicut textor vitam meam; de stámine succídit me. ℟. Tu, Dómine, eruísti ánimam meam ut non períret. Dómine, in te sperat cor meum; vivat spíritus meus, sana me et vivífica me. ℟. Tu, Dómine, eruísti ánimam meam ut non períret.",
-            "es": "℟. Tú, Señor, detuviste mi alma para que no pereciese. Yo pensé: «En medio de mis días tengo que marchar hacia las puertas del abismo; me privan del resto de mis años». ℟. Tú, Señor, detuviste mi alma para que no pereciese. Yo pensé: «Ya no veré más al Señor en la tierra de los vivos, ya no miraré a los hombres entre los habitantes del mundo». ℟. Tú, Señor, detuviste mi alma para que no pereciese. Levantan y enrollan mi vida como una tienda de pastores. Como un tejedor, devanaba yo mi vida, y me cortan la trama. ℟. Tú, Señor, detuviste mi alma para que no pereciese. ¡Señor, en ti espera mi corazón!, que se reanime mi espíritu. Me has curado, me has hecho revivir. ℟. Tú, Señor, detuviste mi alma para que no pereciese.",
-            "en": "℟. You saved my life, O Lord; I shall not die. I said: In the noon of my life I have to depart for the gates of Sheol, I am deprived of the rest of my years. ℟. You saved my life, O Lord; I shall not die. I thought: I shall never see Yahweh again in the land of the living, I shall never see again a single one of those who live on earth. ℟. You saved my life, O Lord; I shall not die. My tent is pulled up, and thrown away like the tent of a shepherd; like a weaver you roll up my life to cut it from the loom. ℟. You saved my life, O Lord; I shall not die. Lord, my heart will live for you, my spirit will live for you alone. You will cure me and give me life, my suffering will turn to health. ℟. You saved my life, O Lord; I shall not die.",
-            "pt-BR": "℟. Vós livrastes minha vida do sepulcro, a fim de eu não deixar de existir. Eu dizia: \"É necessário que eu me vá no apogeu de minha vida e de meus dias; para a mansão triste dos mortos descerei, sem viver o que me resta dos meus anos\". ℟. Vós livrastes minha vida do sepulcro, a fim de eu não deixar de existir. Eu dizia: \"Não verei o Senhor Deus sobre a terra dos viventes nunca mais; nunca mais verei um homem neste mundo!\". ℟. Vós livrastes minha vida do sepulcro, a fim de eu não deixar de existir. Minha morada foi à força arrebatada, desarmada como a tenda de um pastor. Qual tecelão, eu ia tecendo a minha vida, mas agora foi cortada a sua trama. ℟. Vós livrastes minha vida do sepulcro, a fim de eu não deixar de existir. Ó Senhor, meu coração em vós espera; por vós ha de viver o meu espírito. curai-me e conservai a minha vida. ℟. Vós livrastes minha vida do sepulcro, a fim de eu não deixar de existir.",
-            "it": "℟. Tu, Signore, hai preservato la mia vita dalla fossa della distruzione. Io dicevo: «A metà dei miei giorni me ne vado, sono trattenuto alle porte degli inferi per il resto dei miei anni». ℟. Tu, Signore, hai preservato la mia vita dalla fossa della distruzione. Dicevo: «Non vedrò più il Signore sulla terra dei viventi, non guarderò più nessuno fra gli abitanti del mondo. ℟. Tu, Signore, hai preservato la mia vita dalla fossa della distruzione. La mia dimora è stata divelta e gettata lontano da me, come una tenda di pastori. Come un tessitore hai arrotolato la mia vita, mi hai tagliato dalla trama. ℟. Tu, Signore, hai preservato la mia vita dalla fossa della distruzione. Il Signore è su di loro: essi vivranno. Tutto ciò che è in loro è vita del suo spirito. Guariscimi e rendimi la vita». ℟. Tu, Signore, hai preservato la mia vita dalla fossa della distruzione.",
-            "fr": "℟. Seigneur, tu me guériras, tu me feras vivre. Je disais : Au milieu de mes jours, je m’en vais ; j’ai ma place entre les morts pour la fin de mes années. ℟. Seigneur, tu me guériras, tu me feras vivre. Je disais : Je ne verrai pas le Seigneur sur la terre des vivants, plus un visage d’homme parmi les habitants du monde ! ℟. Seigneur, tu me guériras, tu me feras vivre. Ma demeure m’est enlevée, arrachée, comme une tente de berger. Tel un tisserand, j’ai dévidé ma vie : le fil est tranché. ℟. Seigneur, tu me guériras, tu me feras vivre. « Le Seigneur est auprès d’eux : ils vivront ! Tout ce qui vit en eux vit de son esprit ! » Oui, tu me guériras, tu me feras vivre : voici que mon amertume se change en paix. ℟. Seigneur, tu me guériras, tu me feras vivre.",
-            "de": "℟. Herr, du hast mich gerettet aus meiner bitteren Not. Ich sagte: In der Mitte meiner Tage muss ich hinab zu den Pforte der Unterwelt, man raubt mir den Rest meiner Jahre. Ich darf den Herrn nicht mehr schauen im Land der Lebenden, keinen Menschen mehr sehen bei den Bewohnern der Erde. ℟. Herr, du hast mich gerettet aus meiner bitteren Not. Meine Hütte bricht man über mir ab, man schafft sie weg wie das Zelt eines Hirten. Wie ein Weber hast du mein Leben zu Ende gewoben, du schneidest mich ab wie ein fertig gewobenes Tuch. ℟. Herr, du hast mich gerettet aus meiner bitteren Not. Herr, ich vertraue auf dich; du hast mich geprüft. Mach mich gesund, und lass mich wieder genesen! Der Herr war bereit, mir zu helfen; wir wollen singen und spielen im Haus des Herrn, solange wir leben. ℟. Herr, du hast mich gerettet aus meiner bitteren Not."
-          },
-          "lines": {
+        "citation": {
+          "pt-BR": "Is 38, 10.11.12.16",
+          "it": "Is 38",
+          "la": "Ps Is 38, 10. 11. 12. 16",
+          "en": "Ps Is 38:10, 11, 12, 16",
+          "es": "Sal Is 38, 10.11.12.16",
+          "fr": "Ps Is 38, 10.11.12.16",
+          "de": "Ps Is 38, 10.11.12.16"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Tu, Dómine, eruísti ánimam meam ut non períret."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Tú, Señor, detuviste mi alma para que no pereciese."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "You saved my life, O Lord; I shall not die."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Vós livrastes minha vida do sepulcro, a fim de eu não deixar de existir."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Tu, Signore, hai preservato la mia vita dalla fossa della distruzione."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Seigneur, tu me guériras, tu me feras vivre."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Herr, du hast mich gerettet aus meiner bitteren Not."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -1468,17 +1333,9 @@
                   "type": "text",
                   "text": "quæsívi resíduum annórum meórum."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Tu, Dómine, eruísti ánimam meam ut non períret."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1490,17 +1347,9 @@
                   "type": "text",
                   "text": "non aspíciam hóminem ultra inter habitatóres orbis."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Tu, Dómine, eruísti ánimam meam ut non períret."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1518,17 +1367,9 @@
                   "type": "text",
                   "text": "de stámine succídit me."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Tu, Dómine, eruísti ánimam meam ut non períret."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1546,29 +1387,11 @@
                   "type": "text",
                   "text": "sana me et vivífica me."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Tu, Dómine, eruísti ánimam meam ut non períret."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Tú, Señor, detuviste mi alma para que no pereciese."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1580,17 +1403,9 @@
                   "type": "text",
                   "text": "me privan del resto de mis años»."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Tú, Señor, detuviste mi alma para que no pereciese."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1602,17 +1417,9 @@
                   "type": "text",
                   "text": "ya no miraré a los hombres entre los habitantes del mundo»."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Tú, Señor, detuviste mi alma para que no pereciese."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1630,17 +1437,9 @@
                   "type": "text",
                   "text": "y me cortan la trama."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Tú, Señor, detuviste mi alma para que no pereciese."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1658,105 +1457,45 @@
                   "type": "text",
                   "text": "Me has curado, me has hecho revivir."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Tú, Señor, detuviste mi alma para que no pereciese."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "You saved my life, O Lord; I shall not die."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "I said: In the noon of my life I have to depart for the gates of Sheol, I am deprived of the rest of my years."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "You saved my life, O Lord; I shall not die."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "I thought: I shall never see Yahweh again in the land of the living, I shall never see again a single one of those who live on earth."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "You saved my life, O Lord; I shall not die."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "My tent is pulled up, and thrown away like the tent of a shepherd; like a weaver you roll up my life to cut it from the loom."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "You saved my life, O Lord; I shall not die."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Lord, my heart will live for you, my spirit will live for you alone. You will cure me and give me life, my suffering will turn to health."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "You saved my life, O Lord; I shall not die."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Vós livrastes minha vida do sepulcro, a fim de eu não deixar de existir."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -1768,17 +1507,9 @@
                   "type": "text",
                   "text": "sem viver o que me resta dos meus anos\"."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Vós livrastes minha vida do sepulcro, a fim de eu não deixar de existir."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1790,17 +1521,9 @@
                   "type": "text",
                   "text": "nunca mais verei um homem neste mundo!\"."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Vós livrastes minha vida do sepulcro, a fim de eu não deixar de existir."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1824,17 +1547,9 @@
                   "type": "text",
                   "text": "mas agora foi cortada a sua trama."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Vós livrastes minha vida do sepulcro, a fim de eu não deixar de existir."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1852,29 +1567,11 @@
                   "type": "text",
                   "text": "curai-me e conservai a minha vida."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Vós livrastes minha vida do sepulcro, a fim de eu não deixar de existir."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Tu, Signore, hai preservato la mia vita dalla fossa della distruzione."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -1886,17 +1583,9 @@
                   "type": "text",
                   "text": "sono trattenuto alle porte degli inferi per il resto dei miei anni»."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Tu, Signore, hai preservato la mia vita dalla fossa della distruzione."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1908,17 +1597,9 @@
                   "type": "text",
                   "text": "non guarderò più nessuno fra gli abitanti del mondo."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Tu, Signore, hai preservato la mia vita dalla fossa della distruzione."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1942,17 +1623,9 @@
                   "type": "text",
                   "text": "mi hai tagliato dalla trama."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Tu, Signore, hai preservato la mia vita dalla fossa della distruzione."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1970,29 +1643,11 @@
                   "type": "text",
                   "text": "Guariscimi e rendimi la vita»."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Tu, Signore, hai preservato la mia vita dalla fossa della distruzione."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Seigneur, tu me guériras, tu me feras vivre."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -2010,17 +1665,9 @@
                   "type": "text",
                   "text": "j’ai ma place entre les morts pour la fin de mes années."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Seigneur, tu me guériras, tu me feras vivre."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2032,17 +1679,9 @@
                   "type": "text",
                   "text": "plus un visage d’homme parmi les habitants du monde !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Seigneur, tu me guériras, tu me feras vivre."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2066,17 +1705,9 @@
                   "type": "text",
                   "text": "le fil est tranché."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Seigneur, tu me guériras, tu me feras vivre."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2100,29 +1731,11 @@
                   "type": "text",
                   "text": "voici que mon amertume se change en paix."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Seigneur, tu me guériras, tu me feras vivre."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, du hast mich gerettet aus meiner bitteren Not."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -2146,17 +1759,9 @@
                   "type": "text",
                   "text": "keinen Menschen mehr sehen bei den Bewohnern der Erde."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, du hast mich gerettet aus meiner bitteren Not."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2180,17 +1785,9 @@
                   "type": "text",
                   "text": "du schneidest mich ab wie ein fertig gewobenes Tuch."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, du hast mich gerettet aus meiner bitteren Not."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2214,28 +1811,9 @@
                   "type": "text",
                   "text": "wir wollen singen und spielen im Haus des Herrn, solange wir leben."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, du hast mich gerettet aus meiner bitteren Not."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "pt-BR": "Is 38, 10.11.12.16",
-          "it": "Is 38",
-          "la": "Ps Is 38, 10. 11. 12. 16",
-          "en": "Ps Is 38:10, 11, 12, 16",
-          "es": "Sal Is 38, 10.11.12.16",
-          "fr": "Ps Is 38, 10.11.12.16",
-          "de": "Ps Is 38, 10.11.12.16"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -2259,7 +1837,9 @@
                 {
                   "type": "reference",
                   "text": "Io 10, 27"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Oves meæ vocem meam áudiunt, dicit Dóminus, et ego cognósco eas, et sequúntur me. Allelúia."
@@ -2275,7 +1855,9 @@
                 {
                   "type": "reference",
                   "text": "Jn 10, 27"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Mis ovejas escuchan mi voz —dice el Señor— y yo las conozco, y ellas me siguen. Aleluya."

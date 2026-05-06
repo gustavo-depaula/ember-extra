@@ -228,28 +228,84 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Sperávi in misericórdia tua, Dómine, in ætérnum. Ego autem sicut virens olíva in domo Dei. Sperávi in misericórdia Dei in ætérnum et in sǽculum sǽculi. ℟. Sperávi in misericórdia tua, Dómine, in ætérnum. Confitébor tibi in sǽculum, quia fecísti; et exspectábo nomen tuum, quóniam bonum est, in conspéctu sanctórum tuórum. ℟. Sperávi in misericórdia tua, Dómine, in ætérnum.",
-            "es": "℟. Confío en tu misericordia, Señor, por siempre jamás. Yo, como verde olivo, en la casa de Dios, confío en la misericordia de Dios por siempre jamás. ℟. Confío en tu misericordia, Señor, por siempre jamás. Te daré siempre gracias porque has actuado; proclamaré delante de tus fieles: «Tu nombre es bueno». ℟. Confío en tu misericordia, Señor, por siempre jamás.",
-            "en": "℟. I trust in the kindness of God for ever. I am like a growing olive tree in the house of God. I trust in the goodness of God for ever and ever. ℟. I trust in the kindness of God for ever. I will thank you for evermore; for this is your doing. I will proclaim that your name is good, in the presence of your friends. ℟. I trust in the kindness of God for ever.",
-            "pt-BR": "℟. Confio na clemência do meu Deus, agora e sempre! Eu, porém, como oliveira verdejante na casa do Senhor, confio na clemência do meu Deus agora e para sempre! ℟. Confio na clemência do meu Deus, agora e sempre! Louvarei a vossa graça eternamente, porque vós assim agistes; espero em vosso nome, porque é bom, perante os vossos santos! ℟. Confio na clemência do meu Deus, agora e sempre.",
-            "it": "℟. Confido nella fedeltà di Dio, in eterno e per sempre. Come olivo verdeggiante nella casa di Dio, confido nella fedeltà di Dio in eterno e per sempre. ℟. Confido nella fedeltà di Dio, in eterno e per sempre. Voglio renderti grazie in eterno per quanto hai operato; spero nel tuo nome, perché è buono, davanti ai tuoi fedeli. ℟. Confido nella fedeltà di Dio, in eterno e per sempre.",
-            "fr": "℟. Je compte sur la fidélité de mon Dieu, sans fin, à jamais ! Pour moi, comme un bel olivier dans la maison de Dieu, je compte sur la fidélité de mon Dieu, sans fin, à jamais ! ℟. Je compte sur la fidélité de mon Dieu, sans fin, à jamais ! Sans fin, je veux te rendre grâce, car tu as agi. J’espère en ton nom devant ceux qui t’aiment : oui, il est bon ! ℟. Je compte sur la fidélité de mon Dieu, sans fin, à jamais !",
-            "de": "℟. Auf Gottes Huld vertraue ich immer und ewig. Ich bin im Haus Gottes wie ein grünender Ölbaum; auf Gottes Huld vertraue ich immer und ewig. ℟. Auf Gottes Huld vertraue ich immer und ewig. Ich danke dir, Herr, in Ewigkeit; denn du hast das alles vollbracht. Ich hoffe auf deinen Namen im Kreis der Frommen; denn du bist gütig. ℟. Auf Gottes Huld vertraue ich immer und ewig."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 51, 10. 11",
+          "es": "Sal 51, 10. 11",
+          "pt-BR": "Sl 51, 10. 11",
+          "de": "Ps 52",
+          "en": "Ps 51:10, 11",
+          "it": "Sal 51, 10. 11",
+          "fr": "Ps 51, 10. 11"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Sperávi in misericórdia tua, Dómine, in ætérnum."
                 }
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Confío en tu misericordia, Señor, por siempre jamás."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "I trust in the kindness of God for ever."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Confio na clemência do meu Deus, agora e sempre."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Confido nella fedeltà di Dio, in eterno e per sempre."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Je compte sur la fidélité de mon Dieu, sans fin,"
+                }
               ],
+              [
+                {
+                  "type": "text",
+                  "text": "à jamais !"
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Auf Gottes Huld vertraue ich immer und ewig."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -261,17 +317,9 @@
                   "type": "text",
                   "text": "Sperávi in misericórdia Dei in ætérnum et in sǽculum sǽculi."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Sperávi in misericórdia tua, Dómine, in ætérnum."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -289,29 +337,11 @@
                   "type": "text",
                   "text": "quóniam bonum est, in conspéctu sanctórum tuórum."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Sperávi in misericórdia tua, Dómine, in ætérnum."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Confío en tu misericordia, Señor, por siempre jamás."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -329,17 +359,9 @@
                   "type": "text",
                   "text": "confío en la misericordia de Dios por siempre jamás."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Confío en tu misericordia, Señor, por siempre jamás."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -357,89 +379,37 @@
                   "type": "text",
                   "text": "«Tu nombre es bueno»."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Confío en tu misericordia, Señor, por siempre jamás."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "I trust in the kindness of God for ever."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "I am like a growing olive tree in the house of God. I trust in the goodness of God for ever and ever."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "I trust in the kindness of God for ever."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "I will thank you for evermore; for this is your doing. I will proclaim that your name is good, in the presence of your friends."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "I trust in the kindness of God for ever."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Confio na clemência do meu Deus, agora e sempre!"
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
                   "text": "Eu, porém, como oliveira verdejante na casa do Senhor, confio na clemência do meu Deus agora e para sempre!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Confio na clemência do meu Deus, agora e sempre!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -463,29 +433,11 @@
                   "type": "text",
                   "text": "perante os vossos santos!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Confio na clemência do meu Deus, agora e sempre."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Confido nella fedeltà di Dio, in eterno e per sempre."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -497,17 +449,9 @@
                   "type": "text",
                   "text": "confido nella fedeltà di Dio in eterno e per sempre."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Confido nella fedeltà di Dio, in eterno e per sempre."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -525,35 +469,11 @@
                   "type": "text",
                   "text": "davanti ai tuoi fedeli."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Confido nella fedeltà di Dio, in eterno e per sempre."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Je compte sur la fidélité de mon Dieu, sans fin,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "à jamais !"
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -571,23 +491,9 @@
                   "type": "text",
                   "text": "sans fin, à jamais !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Je compte sur la fidélité de mon Dieu, sans fin,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "à jamais !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -611,35 +517,11 @@
                   "type": "text",
                   "text": "oui, il est bon !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Je compte sur la fidélité de mon Dieu, sans fin,"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "à jamais !"
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Auf Gottes Huld vertraue ich immer und ewig."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -651,17 +533,9 @@
                   "type": "text",
                   "text": "auf Gottes Huld vertraue ich immer und ewig."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Auf Gottes Huld vertraue ich immer und ewig."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -685,28 +559,9 @@
                   "type": "text",
                   "text": "denn du bist gütig."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Auf Gottes Huld vertraue ich immer und ewig."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 51, 10. 11",
-          "es": "Sal 51, 10. 11",
-          "pt-BR": "Sl 51, 10. 11",
-          "de": "Ps 52",
-          "en": "Ps 51:10, 11",
-          "it": "Sal 51, 10. 11",
-          "fr": "Ps 51, 10. 11"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -730,7 +585,9 @@
                 {
                   "type": "reference",
                   "text": "Lc 4, 18cd"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Evangelizáre paupéribus misit me Dóminus, prædicáre captívis remissiónem. Allelúia."
@@ -746,7 +603,9 @@
                 {
                   "type": "reference",
                   "text": "Lc 4, 18cd"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. El Señor me ha enviado a evangelizar a los pobres, a proclamar a los cautivos la libertad. Aleluya."
@@ -1263,28 +1122,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Beátus pópulus, quem elégit Dóminus in hereditátem sibi. Beáta gens, cui Dóminus est Deus, pópulus, quem elégit in hereditátem sibi. De cælo respéxit Dóminus, vidit omnes fílios hóminum. ℟. Beátus pópulus, quem elégit Dóminus in hereditátem sibi. De loco habitáculi sui respéxit, super omnes qui hábitant terram, qui finxit singillátim corda eórum, qui intéllegit ómnia ópera eórum. ℟. Beátus pópulus, quem elégit Dóminus in hereditátem sibi. Anima nostra sústinet Dóminum, quóniam adiútor et protéctor noster est; quia in eo lætábitur cor nostrum, et in nómine sancto eius sperávimus. ℟. Beátus pópulus, quem elégit Dóminus in hereditátem sibi.",
-            "es": "℟. Dichoso el pueblo que Dios se escogió como heredad. Dichosa la nación cuyo Dios es el Señor, el pueblo que él se escogió como heredad. El Señor mira desde el cielo, se fija en todos los hombres. ℟. Dichoso el pueblo que Dios se escogió como heredad. Desde su morada observa a todos los habitantes de la tierra: él modeló cada corazón, y comprende todas sus acciones. ℟. Dichoso el pueblo que Dios se escogió como heredad. Nosotros aguardamos al Señor: él es nuestro auxilio y escudo. Con él se alegra nuestro corazón, en su santo nombre confiamos. ℟. Dichoso el pueblo que Dios se escogió como heredad.",
-            "en": "℟. Happy the people the Lord has chosen to be his own. They are happy, whose God is the Lord, the people he has chosen as his own. From the heavens the Lord looks forth, he sees all the children of men. ℟. Happy the people the Lord has chosen to be his own. From the place where he dwells he gazes on all the dwellers on the earth, he who shapes the hearts of them all and considers all their deeds. ℟. Happy the people the Lord has chosen to be his own. Our soul is waiting for the Lord. The Lord is our help and our shield. In him do our hearts find joy. We trust in his holy name. ℟. Happy the people the Lord has chosen to be his own.",
-            "pt-BR": "℟. Feliz o povo que o Senhor escolheu por sua herança! Feliz o povo cujo Deus é o Senhor, e a nação que escolheu por sua herança! Dos altos céus o Senhor olha e observa; ele se inclina para olhar todos os homens. ℟. Feliz o povo que o Senhor escolheu por sua herança! Ele contempla do lugar onde reside e vê a todos os que habitam sobre a terra. Ele formou o coração de cada um e por todos os seus atos se interessa. ℟. Feliz o povo que o Senhor escolheu por sua herança! No Senhor nós esperamos confiantes, porque ele é nosso auxílio e proteção! Por isso o nosso coração se alegra nele, seu santo nome é nossa única esperança. ℟. Feliz o povo que o Senhor escolheu por sua herança!.",
-            "it": "℟. Beato il popolo scelto dal Signore. Beata la nazione che ha il Signore come Dio, il popolo che egli ha scelto come sua eredità. Il Signore guarda dal cielo: egli vede tutti gli uomini. ℟. Beato il popolo scelto dal Signore. Dal trono dove siede scruta tutti gli abitanti della terra, lui, che di ognuno ha plasmato il cuore e ne comprende tutte le opere. ℟. Beato il popolo scelto dal Signore. L’anima nostra attende il Signore: egli è nostro aiuto e nostro scudo. È in lui che gioisce il nostro cuore, nel suo santo nome noi confidiamo. ℟. Beato il popolo scelto dal Signore.",
-            "fr": "℟. Heureux le peuple que le Seigneur s’est choisi pour domaine. Heureux le peuple dont le Seigneur est le Dieu, heureuse la nation qu’il s’est choisie pour domaine ! Du haut des cieux, le Seigneur regarde : il voit la race des hommes. ℟. Heureux le peuple que le Seigneur s’est choisi pour domaine. Du lieu qu’il habite, il observe tous les habitants de la terre, lui qui forme le cœur de chacun, qui pénètre toutes leurs actions. ℟. Heureux le peuple que le Seigneur s’est choisi pour domaine. Nous attendons notre vie du Seigneur : il est pour nous un appui, un bouclier. La joie de notre cœur vient de lui, notre confiance est dans son nom très saint. ℟. Heureux le peuple que le Seigneur s’est choisi pour domaine.",
-            "de": "℟. Selig das Volk, das der Herr sich zum Erbteil erwählt hat. Wohl dem Volk, dessen Gott der Herr ist, der Nation, die er sich zum Erbteil erwählt hat. Der Herr blickt herab vom Himmel, er sieht auf alle Menschen. ℟. Selig das Volk, das der Herr sich zum Erbteil erwählt hat. Von seinem Thronsitz schaut er nieder auf alle Bewohner der Erde. Der ihre Herzen gebildet hat, er achtet auf all ihre Taten. ℟. Selig das Volk, das der Herr sich zum Erbteil erwählt hat. Unsre Seele hofft auf den Herrn; er ist für uns Schild und Hilfe. Ja, an ihm freut sich unser Herz, wir vertrauen auf seinen heiligen Namen. ℟. Selig das Volk, das der Herr sich zum Erbteil erwählt hat."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 32, 12-13. 14-15. 20-21",
+          "es": "Sal 32, 12-13. 14-15. 20-21",
+          "pt-BR": "Sl 32, 12-13. 14-15. 20-21",
+          "de": "Ps 33",
+          "en": "Ps 32:12-13, 14-15, 20-21",
+          "it": "Sal 32, 12-13. 14-15. 20-21",
+          "fr": "Ps 32, 12-13. 14-15. 20-21"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Beátus pópulus, quem elégit Dóminus in hereditátem sibi."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Dichoso el pueblo que Dios se escogió como heredad."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "Happy the people the Lord has chosen to be his own."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Feliz o povo que o Senhor escolheu por sua herança!."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Beato il popolo scelto dal Signore."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Heureux le peuple que le Seigneur s’est choisi pour domaine."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Selig das Volk, das der Herr sich zum Erbteil erwählt hat."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -1308,17 +1217,9 @@
                   "type": "text",
                   "text": "vidit omnes fílios hóminum."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beátus pópulus, quem elégit Dóminus in hereditátem sibi."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1342,17 +1243,9 @@
                   "type": "text",
                   "text": "qui intéllegit ómnia ópera eórum."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beátus pópulus, quem elégit Dóminus in hereditátem sibi."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1376,29 +1269,11 @@
                   "type": "text",
                   "text": "et in nómine sancto eius sperávimus."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beátus pópulus, quem elégit Dóminus in hereditátem sibi."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dichoso el pueblo que Dios se escogió como heredad."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1422,17 +1297,9 @@
                   "type": "text",
                   "text": "se fija en todos los hombres."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dichoso el pueblo que Dios se escogió como heredad."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1450,17 +1317,9 @@
                   "type": "text",
                   "text": "y comprende todas sus acciones."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dichoso el pueblo que Dios se escogió como heredad."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1484,29 +1343,11 @@
                   "type": "text",
                   "text": "en su santo nombre confiamos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dichoso el pueblo que Dios se escogió como heredad."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Happy the people the Lord has chosen to be his own."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
@@ -1518,61 +1359,27 @@
                   "type": "text",
                   "text": "From the heavens the Lord looks forth, he sees all the children of men."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Happy the people the Lord has chosen to be his own."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "From the place where he dwells he gazes on all the dwellers on the earth, he who shapes the hearts of them all and considers all their deeds."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Happy the people the Lord has chosen to be his own."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Our soul is waiting for the Lord. The Lord is our help and our shield. In him do our hearts find joy. We trust in his holy name."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Happy the people the Lord has chosen to be his own."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Feliz o povo que o Senhor escolheu por sua herança!"
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -1596,17 +1403,9 @@
                   "type": "text",
                   "text": "ele se inclina para olhar todos os homens."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Feliz o povo que o Senhor escolheu por sua herança!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1618,17 +1417,9 @@
                   "type": "text",
                   "text": "Ele formou o coração de cada um e por todos os seus atos se interessa."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Feliz o povo que o Senhor escolheu por sua herança!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1652,29 +1443,11 @@
                   "type": "text",
                   "text": "seu santo nome é nossa única esperança."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Feliz o povo que o Senhor escolheu por sua herança!."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beato il popolo scelto dal Signore."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -1698,17 +1471,9 @@
                   "type": "text",
                   "text": "egli vede tutti gli uomini."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beato il popolo scelto dal Signore."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1720,17 +1485,9 @@
                   "type": "text",
                   "text": "lui, che di ognuno ha plasmato il cuore e ne comprende tutte le opere."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beato il popolo scelto dal Signore."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1754,29 +1511,11 @@
                   "type": "text",
                   "text": "nel suo santo nome noi confidiamo."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beato il popolo scelto dal Signore."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Heureux le peuple que le Seigneur s’est choisi pour domaine."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -1800,17 +1539,9 @@
                   "type": "text",
                   "text": "il voit la race des hommes."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Heureux le peuple que le Seigneur s’est choisi pour domaine."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1828,17 +1559,9 @@
                   "type": "text",
                   "text": "qui pénètre toutes leurs actions."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Heureux le peuple que le Seigneur s’est choisi pour domaine."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1862,29 +1585,11 @@
                   "type": "text",
                   "text": "notre confiance est dans son nom très saint."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Heureux le peuple que le Seigneur s’est choisi pour domaine."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Selig das Volk, das der Herr sich zum Erbteil erwählt hat."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -1908,17 +1613,9 @@
                   "type": "text",
                   "text": "er sieht auf alle Menschen."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Selig das Volk, das der Herr sich zum Erbteil erwählt hat."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1936,17 +1633,9 @@
                   "type": "text",
                   "text": "er achtet auf all ihre Taten."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Selig das Volk, das der Herr sich zum Erbteil erwählt hat."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1976,28 +1665,9 @@
                   "type": "text",
                   "text": "wir vertrauen auf seinen heiligen Namen."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Selig das Volk, das der Herr sich zum Erbteil erwählt hat."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 32, 12-13. 14-15. 20-21",
-          "es": "Sal 32, 12-13. 14-15. 20-21",
-          "pt-BR": "Sl 32, 12-13. 14-15. 20-21",
-          "de": "Ps 33",
-          "en": "Ps 32:12-13, 14-15, 20-21",
-          "it": "Sal 32, 12-13. 14-15. 20-21",
-          "fr": "Ps 32, 12-13. 14-15. 20-21"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -2021,7 +1691,9 @@
                 {
                   "type": "reference",
                   "text": "Lc 4, 18cd"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Evangelizáre paupéribus misit me Dóminus, prædicáre captívis remissiónem. Allelúia."
@@ -2037,7 +1709,9 @@
                 {
                   "type": "reference",
                   "text": "Lc 4, 18cd"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. El Señor me ha enviado a evangelizar a los pobres, a proclamar a los cautivos la libertad. Aleluya."

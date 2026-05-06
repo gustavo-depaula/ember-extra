@@ -924,28 +924,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Custódi ánimam meam in pace apud te, Dómine. Dómine, non est exaltátum cor meum, neque eláti sunt óculi mei; neque ambulávi in magnis, neque in mirabílibus super me. ℟. Custódi ánimam meam in pace apud te, Dómine. Vere pacátam et quiétam feci ánimam meam, sicut ablactátus in sinu matris suæ, sicut ablactátus, ita in me est ánima mea. ℟. Custódi ánimam meam in pace apud te, Dómine. Speret Israel in Dómino, ex hoc nunc et usque in sǽculum. ℟. Custódi ánimam meam in pace apud te, Dómine.",
-            "es": "℟. Guarda mi alma en la paz, junto a ti, Señor. Señor, mi corazón no es ambicioso, ni mis ojos altaneros; no pretendo grandezas que superan mi capacidad. ℟. Guarda mi alma en la paz, junto a ti, Señor. Sino que acallo y modero mis deseos, como un niño en brazos de su madre; como un niño saciado así está mi alma dentro de mí. ℟. Guarda mi alma en la paz, junto a ti, Señor. Espere Israel en el Señor ahora y por siempre. ℟. Guarda mi alma en la paz, junto a ti, Señor.",
-            "en": "℟. In you, Lord, I have found my peace. O Lord, my heart is not proud nor haughty my eyes. I have not gone after things too great nor marvels beyond me. ℟. In you, Lord, I have found my peace. Truly I have set my soul in silence and peace. A weaned child on its mother's breast, even so is my soul. ℟. In you, Lord, I have found my peace. O Israel, hope in the Lord both now and for ever. ℟. In you, Lord, I have found my peace.",
-            "pt-BR": "℟. Guardai-me, ó Senhor, convosco, em vossa paz! Senhor, meu coração não é orgulhoso, nem se eleva arrogante o meu olhar; não ando à procura de grandezas, nem tenho pretensões ambiciosas! ℟. Guardai-me, ó Senhor, convosco, em vossa paz! Fiz calar e sossegar a minha alma; ela está em grande paz dentro de mim, como a criança bem tranquila, amamentada no regaço acolhedor de sua mãe. ℟. Guardai-me, ó Senhor, convosco, em vossa paz! Confia no Senhor, ó Israel, desde agora e por toda a eternidade! ℟. Guardai-me, ó Senhor, convosco, em vossa paz!",
-            "it": "℟. Custodiscimi, Signore, nella pace. Signore, non si inorgoglisce il mio cuore e non si leva con superbia il mio sguardo; non vado in cerca di cose grandi, superiori alle mie forze. ℟. Custodiscimi, Signore, nella pace. Io sono tranquillo e sereno come bimbo svezzato in braccio a sua madre, come un bimbo svezzato è l’anima mia. ℟. Custodiscimi, Signore, nella pace. Speri Israele nel Signore, ora e sempre. ℟. Custodiscimi, Signore, nella pace.",
-            "fr": "℟. Garde mon âme dans la paix près de toi, Seigneur. Seigneur, je n’ai pas le cœur fier ni le regard ambitieux ; je ne poursuis ni grands desseins, ni merveilles qui me dépassent. ℟. Garde mon âme dans la paix près de toi, Seigneur. Non, mais je tiens mon âme égale et silencieuse ; mon âme est en moi comme un enfant, comme un petit enfant contre sa mère. ℟. Garde mon âme dans la paix près de toi, Seigneur. Attends le Seigneur, Israël, maintenant et à jamais. ℟. Garde mon âme dans la paix près de toi, Seigneur.",
-            "de": "℟. Herr, bewahre meine Seele in deinem Frieden! Herr, mein Herz ist nicht stolz, nicht hochmütig blicken meine Augen. Ich gehe nicht um mit Dingen, die mir zu wunderbar und zu hoch sind. ℟. Herr, bewahre meine Seele in deinem Frieden! Ich ließ meine Seele ruhig werden und still; wie ein kleines Kind bei der Mutter ist meine Seele still in mir. ℟. Herr, bewahre meine Seele in deinem Frieden! Israel, harre auf den Herrn von nun an bis in Ewigkeit! ℟. Herr, bewahre meine Seele in deinem Frieden!"
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 130, 1. 2.3",
+          "es": "Sal 130, 1.2.3",
+          "en": "Ps 130:1, 2",
+          "pt-BR": "Sl 130, 1.2.3",
+          "de": "Ps 131",
+          "it": "Sal 130, 1.2.3",
+          "fr": "Ps 130, 1.2.3"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Custódi ánimam meam in pace apud te, Dómine."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Guarda mi alma en la paz, junto a ti, Señor."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "In you, Lord, I have found my peace."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Guardai-me, ó Senhor, convosco, em vossa paz!"
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Custodiscimi, Signore, nella pace."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Garde mon âme dans la paix près de toi, Seigneur."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Herr, bewahre meine Seele in deinem Frieden!"
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -969,17 +1019,9 @@
                   "type": "text",
                   "text": "neque in mirabílibus super me."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Custódi ánimam meam in pace apud te, Dómine."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -997,17 +1039,9 @@
                   "type": "text",
                   "text": "sicut ablactátus, ita in me est ánima mea."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Custódi ánimam meam in pace apud te, Dómine."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1019,29 +1053,11 @@
                   "type": "text",
                   "text": "ex hoc nunc et usque in sǽculum."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Custódi ánimam meam in pace apud te, Dómine."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Guarda mi alma en la paz, junto a ti, Señor."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1059,17 +1075,9 @@
                   "type": "text",
                   "text": "no pretendo grandezas que superan mi capacidad."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Guarda mi alma en la paz, junto a ti, Señor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1087,105 +1095,45 @@
                   "type": "text",
                   "text": "como un niño saciado así está mi alma dentro de mí."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Guarda mi alma en la paz, junto a ti, Señor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Espere Israel en el Señor ahora y por siempre."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Guarda mi alma en la paz, junto a ti, Señor."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "In you, Lord, I have found my peace."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "O Lord, my heart is not proud nor haughty my eyes. I have not gone after things too great nor marvels beyond me."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "In you, Lord, I have found my peace."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Truly I have set my soul in silence and peace. A weaned child on its mother's breast, even so is my soul."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "In you, Lord, I have found my peace."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "O Israel, hope in the Lord both now and for ever."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "In you, Lord, I have found my peace."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Guardai-me, ó Senhor, convosco, em vossa paz!"
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -1209,17 +1157,9 @@
                   "type": "text",
                   "text": "nem tenho pretensões ambiciosas!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Guardai-me, ó Senhor, convosco, em vossa paz!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1237,17 +1177,9 @@
                   "type": "text",
                   "text": "como a criança bem tranquila, amamentada no regaço acolhedor de sua mãe."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Guardai-me, ó Senhor, convosco, em vossa paz!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1259,29 +1191,11 @@
                   "type": "text",
                   "text": "desde agora e por toda a eternidade!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Guardai-me, ó Senhor, convosco, em vossa paz!"
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Custodiscimi, Signore, nella pace."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -1299,17 +1213,9 @@
                   "type": "text",
                   "text": "superiori alle mie forze."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Custodiscimi, Signore, nella pace."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1321,17 +1227,9 @@
                   "type": "text",
                   "text": "come un bimbo svezzato è l’anima mia."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Custodiscimi, Signore, nella pace."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1343,29 +1241,11 @@
                   "type": "text",
                   "text": "ora e sempre."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Custodiscimi, Signore, nella pace."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Garde mon âme dans la paix près de toi, Seigneur."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -1383,17 +1263,9 @@
                   "type": "text",
                   "text": "ni merveilles qui me dépassent."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Garde mon âme dans la paix près de toi, Seigneur."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1411,17 +1283,9 @@
                   "type": "text",
                   "text": "comme un petit enfant contre sa mère."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Garde mon âme dans la paix près de toi, Seigneur."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1433,29 +1297,11 @@
                   "type": "text",
                   "text": "maintenant et à jamais."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Garde mon âme dans la paix près de toi, Seigneur."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, bewahre meine Seele in deinem Frieden!"
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -1479,17 +1325,9 @@
                   "type": "text",
                   "text": "die mir zu wunderbar und zu hoch sind."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, bewahre meine Seele in deinem Frieden!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1501,44 +1339,17 @@
                   "type": "text",
                   "text": "wie ein kleines Kind bei der Mutter ist meine Seele still in mir."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, bewahre meine Seele in deinem Frieden!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Israel, harre auf den Herrn von nun an bis in Ewigkeit!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, bewahre meine Seele in deinem Frieden!"
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 130, 1. 2.3",
-          "es": "Sal 130, 1.2.3",
-          "en": "Ps 130:1, 2",
-          "pt-BR": "Sl 130, 1.2.3",
-          "de": "Ps 131",
-          "it": "Sal 130, 1.2.3",
-          "fr": "Ps 130, 1.2.3"
+          ]
         }
       },
       "secondReading": {
@@ -1716,7 +1527,9 @@
                 {
                   "type": "reference",
                   "text": "Mt 23, 9b. 10b"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Unus est Pater vester, cæléstis; et Magíster vester unus est, Christus. Allelúia."
@@ -1732,7 +1545,9 @@
                 {
                   "type": "reference",
                   "text": "Mt 23, 9b. 10b"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Uno solo es vuestro Padre, el del cielo; y uno solo es vuestro maestro, el Mesías. Aleluya."
@@ -2133,28 +1948,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Díligam te, Dómine, fortitúdo mea. Díligam te, Dómine, fortitúdo mea. Dómine, firmaméntum meum et refúgium meum et liberátor meus. ℟. Díligam te, Dómine, fortitúdo mea. Deus meus, adiútor meus, et sperábo in eum: protéctor meus, et cornu salútis meæ, et suscéptor meus. Laudábilem invocábo Dóminum, et ab inimícis meis salvus ero. ℟. Díligam te, Dómine, fortitúdo mea. Vivat Dóminus, et benedíctus Adiútor meus, et exaltétur Deus salútis meæ. Magníficans salútes regis sui et fáciens misericórdiam Christo suo. ℟. Díligam te, Dómine, fortitúdo mea.",
-            "es": "℟. Yo te amo, Señor; tú eres mi fortaleza. Yo te amo, Señor; tú eres mi fortaleza; Señor, mi roca, mi alcázar, mi libertador. ℟. Yo te amo, Señor; tú eres mi fortaleza. Dios mío, peña mía, refugio mío, escudo mío, mi fuerza salvadora, mi baluarte. Invoco al Señor de mi alabanza y quedo libre de mis enemigos. ℟. Yo te amo, Señor; tú eres mi fortaleza. Viva el Señor, bendita sea mi Roca, sea ensalzado mi Dios y Salvador: Tú diste gran victoria a tu rey, tuviste misericordia de tu ungido. ℟. Yo te amo, Señor; tú eres mi fortaleza.",
-            "en": "℟. I love you, Lord, my strength. I love you, Lord, my strength, my rock, my fortress, my savior. ℟. I love you, Lord, my strength. My God is the rock where I take refuge; my shield, my mighty help, my stronghold. The Lord is worthy of all praise: when I call I am saved from my foes. ℟. I love you, Lord, my strength. Long life to the Lord, my rock! Praised be the God who saves me. He has given great victories to his king and shown his love for his anointed. ℟. I love you, Lord, my strength.",
-            "pt-BR": "℟. Eu Vos amo, ó Senhor, porque sois a minha força! Eu vos amo, ó Senhor! Sois minha força, a minha rocha, meu refúgio e Salvador! Ó meu Deus, sois o rochedo que me abriga, minha força e poderosa salvação. ℟. Eu Vos amo, ó Senhor, porque sois a minha força! Ó meu Deus, sois o rochedo que me abriga sois meu escudo e proteção: em vós espero! Invocarei o meu Senhor: a ele a glória! e dos meus perseguidores serei salvo!. ℟. Eu Vos amo, ó Senhor, porque sois a minha força! Viva o Senhor! Bendito seja o meu Rochedo! E louvado seja Deus, meu Salvador! Concedeis ao vosso rei grandes vitórias e mostrais misericórdia ao vosso Ungido. ℟. Eu Vos amo, ó Senhor, porque sois a minha força!",
-            "it": "℟. Ti amo, Signore, mia forza. Ti amo, Signore, mia forza, Signore, mia roccia, mia fortezza, mio liberatore. ℟. Ti amo, Signore, mia forza. Mio Dio, mia rupe, in cui mi rifugio; mio scudo, mia potente salvezza e mio baluardo. Invoco il Signore, degno di lode, e sarò salvato dai miei nemici. ℟. Ti amo, Signore, mia forza. Viva il Signore e benedetta la mia roccia, sia esaltato il Dio della mia salvezza. Egli concede al suo re grandi vittorie, si mostra fedele al suo consacrato. ℟. Ti amo, Signore, mia forza.",
-            "fr": "℟. Je t’aime, Seigneur, ma force. Je t’aime, Seigneur, ma force : Seigneur, mon roc, ma forteresse, Dieu mon libérateur, le rocher qui m’abrite, mon bouclier, mon fort, mon arme de victoire ! ℟. Je t’aime, Seigneur, ma force. Louange à Dieu ! Quand je fais appel au Seigneur, je suis sauvé de tous mes ennemis. ℟. Je t’aime, Seigneur, ma force. Vive le Seigneur ! Béni soit mon Rocher ! Qu’il triomphe, le Dieu de ma victoire ! Il donne à son roi de grandes victoires, il se montre fidèle à son messie. ℟. Je t’aime, Seigneur, ma force.",
-            "de": "℟. Ich will dich lieben, Herr, meine Stärke. Ich will dich lieben, Herr, meine Stärke, Herr, du mein Fels, meine Burg, mein Retter, mein Gott meine Feste, in der ich mich berge, mein Schild und sicheres Heil, meine Zuflucht. ℟. Ich will dich lieben, Herr, meine Stärke. Ich rufe: Der Herr sei gepriesen!, und ich werde vor meinen Feinden gerettet. Es lebt der Herr! Mein Fels sei gepriesen. Der Gott meines Heils sei hoch erhoben. ℟. Ich will dich lieben, Herr, meine Stärke. Seinem König verlieh er große Hilfe, Huld erwies er seinem Gesalbten, David und seinem Stamm auf ewig. Darum will ich dir danken, Herr, vor den Völkern, ich will deinem Namen singen und spielen. ℟. Ich will dich lieben, Herr, meine Stärke."
-          },
-          "lines": {
+        "citation": {
+          "pt-BR": "Sl 17",
+          "de": "Ps 18",
+          "la": "Ps 17",
+          "en": "Ps 17",
+          "es": "Sal 17",
+          "it": "Sal 17",
+          "fr": "Ps 17"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Díligam te, Dómine, fortitúdo mea."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Yo te amo, Señor; tú eres mi fortaleza."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "I love you, Lord, my strength."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Eu Vos amo, ó Senhor, porque sois a minha força!"
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Ti amo, Signore, mia forza."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Je t’aime, Seigneur, ma force."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Ich will dich lieben, Herr, meine Stärke."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -2166,17 +2031,9 @@
                   "type": "text",
                   "text": "Dómine, firmaméntum meum et refúgium meum et liberátor meus."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Díligam te, Dómine, fortitúdo mea."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2200,17 +2057,9 @@
                   "type": "text",
                   "text": "et ab inimícis meis salvus ero."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Díligam te, Dómine, fortitúdo mea."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2228,29 +2077,11 @@
                   "type": "text",
                   "text": "Magníficans salútes regis sui et fáciens misericórdiam Christo suo."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Díligam te, Dómine, fortitúdo mea."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Yo te amo, Señor; tú eres mi fortaleza."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -2262,17 +2093,9 @@
                   "type": "text",
                   "text": "Señor, mi roca, mi alcázar, mi libertador."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Yo te amo, Señor; tú eres mi fortaleza."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2290,17 +2113,9 @@
                   "type": "text",
                   "text": "Invoco al Señor de mi alabanza y quedo libre de mis enemigos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Yo te amo, Señor; tú eres mi fortaleza."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2324,89 +2139,37 @@
                   "type": "text",
                   "text": "tuviste misericordia de tu ungido."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Yo te amo, Señor; tú eres mi fortaleza."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "I love you, Lord, my strength."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "I love you, Lord, my strength, my rock, my fortress, my savior."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "I love you, Lord, my strength."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "My God is the rock where I take refuge; my shield, my mighty help, my stronghold. The Lord is worthy of all praise: when I call I am saved from my foes."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "I love you, Lord, my strength."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Long life to the Lord, my rock! Praised be the God who saves me. He has given great victories to his king and shown his love for his anointed."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "I love you, Lord, my strength."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Eu Vos amo, ó Senhor, porque sois a minha força!"
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -2430,17 +2193,9 @@
                   "type": "text",
                   "text": "minha força e poderosa salvação."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Eu Vos amo, ó Senhor, porque sois a minha força!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2458,17 +2213,9 @@
                   "type": "text",
                   "text": "e dos meus perseguidores serei salvo!."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Eu Vos amo, ó Senhor, porque sois a minha força!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2486,29 +2233,11 @@
                   "type": "text",
                   "text": "Concedeis ao vosso rei grandes vitórias e mostrais misericórdia ao vosso Ungido."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Eu Vos amo, ó Senhor, porque sois a minha força!"
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ti amo, Signore, mia forza."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -2526,17 +2255,9 @@
                   "type": "text",
                   "text": "mia fortezza, mio liberatore."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ti amo, Signore, mia forza."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2560,17 +2281,9 @@
                   "type": "text",
                   "text": "e sarò salvato dai miei nemici."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ti amo, Signore, mia forza."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2594,29 +2307,11 @@
                   "type": "text",
                   "text": "si mostra fedele al suo consacrato."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ti amo, Signore, mia forza."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Je t’aime, Seigneur, ma force."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -2646,17 +2341,9 @@
                   "type": "text",
                   "text": "mon bouclier, mon fort, mon arme de victoire !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Je t’aime, Seigneur, ma force."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2674,17 +2361,9 @@
                   "type": "text",
                   "text": "je suis sauvé de tous mes ennemis."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Je t’aime, Seigneur, ma force."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2708,29 +2387,11 @@
                   "type": "text",
                   "text": "il se montre fidèle à son messie."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Je t’aime, Seigneur, ma force."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ich will dich lieben, Herr, meine Stärke."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -2760,17 +2421,9 @@
                   "type": "text",
                   "text": "mein Schild und sicheres Heil, meine Zuflucht."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ich will dich lieben, Herr, meine Stärke."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2794,17 +2447,9 @@
                   "type": "text",
                   "text": "Der Gott meines Heils sei hoch erhoben."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ich will dich lieben, Herr, meine Stärke."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2834,28 +2479,9 @@
                   "type": "text",
                   "text": "ich will deinem Namen singen und spielen."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ich will dich lieben, Herr, meine Stärke."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "pt-BR": "Sl 17",
-          "de": "Ps 18",
-          "la": "Ps 17",
-          "en": "Ps 17",
-          "es": "Sal 17",
-          "it": "Sal 17",
-          "fr": "Ps 17"
+          ]
         }
       },
       "secondReading": {
@@ -3033,7 +2659,9 @@
                 {
                   "type": "reference",
                   "text": "Io 14, 23"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Si quis díligit me, sermónem meum servábit, dicit Dóminus, et Pater meus díliget eum, et ad eum veniémus. Allelúia."
@@ -3049,7 +2677,9 @@
                 {
                   "type": "reference",
                   "text": "Jn 14, 23"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. El que me ama guardará mi palabra —dice el Señor—, y mi Padre lo amará, y vendremos a él. Aleluya."
@@ -3450,28 +3080,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Benedícam nómini tuo in sǽculum, Deus meus, rex. Exaltábo te, Deus meus rex, et benedícam nómini tuo in sǽculum et in sǽculum sǽculi. Per síngulos dies benedícam tibi, et laudábo nomen tuum in sǽculum et in sǽculum sǽculi. ℟. Benedícam nómini tuo in sǽculum, Deus meus, rex. Miserátor et miséricors Dóminus, longánimis et multæ misericórdiæ. Suávis Dóminus univérsis, et miseratiónes eius super ómnia ópera eius. ℟. Benedícam nómini tuo in sǽculum, Deus meus, rex. Confiteántur tibi, Dómine, ómnia ópera tua; et sancti tui benedícant tibi. Glóriam regni tui dicant, et poténtiam tuam loquántur. ℟. Benedícam nómini tuo in sǽculum, Deus meus, rex. Fidélis Dóminus in ómnibus verbis suis, et sanctus in ómnibus opéribus suis. Allevat Dóminus omnes qui córruunt, et érigit omnes depréssos. ℟. Benedícam nómini tuo in sǽculum, Deus meus, rex.",
-            "es": "℟. Bendeciré tu nombre por siempre, Dios mío, mi Rey. Te ensalzaré, Dios mío, mi rey; bendeciré tu nombre por siempre jamás. Día tras día, te bendeciré y alabaré tu nombre por siempre jamás. ℟. Bendeciré tu nombre por siempre, Dios mío, mi Rey. El Señor es clemente y misericordioso, lento a la cólera y rico en piedad; el Señor es bueno con todos, es cariñoso con todas sus criaturas. ℟. Bendeciré tu nombre por siempre, Dios mío, mi Rey. Que todas tus criaturas te den gracias, Señor, que te bendigan tus fieles. Que proclamen la gloria de tu reinado, que hablen de tus hazañas. ℟. Bendeciré tu nombre por siempre, Dios mío, mi Rey. El Señor es fiel a sus palabras, bondadoso en todas sus acciones. El Señor sostiene a los que van a caer, endereza a los que ya se doblan. ℟. Bendeciré tu nombre por siempre, Dios mío, mi Rey.",
-            "en": "℟. I will praise your name for ever, my king and my God. I will give you glory, O God my King. I will bless your name for ever. I will bless you day after day and praise your name for ever. ℟. I will praise your name for ever, my king and my God. The Lord is kind and full of compassion, slow to anger, abounding in love. How good is the Lord to all, compassionate to all his creatures. ℟. I will praise your name for ever, my king and my God. All your creatures shall thank you, O Lord, and your friends shall repeat their blessing. They shall speak of the glory of your reign and declare your might, O God. ℟. I will praise your name for ever, my king and my God. The Lord is faithful in all his words and loving in all his deeds. The Lord supports all who fall and raises all who are bowed down. ℟. I will praise your name for ever, my king and my God.",
-            "pt-BR": "℟. Bendirei eternamente vosso nome; para sempre, ó Senhor, o louvarei! Ó meu Deus, quero exaltar-vos, ó meu Rei, e bendizer o vosso nome pelos séculos. Todos os dias haverei de bendizer-vos, hei de louvar o vosso nome para sempre. ℟. Bendirei eternamente vosso nome; para sempre, ó Senhor, o louvarei! Misericórdia e piedade é o Senhor, ele é amor, é paciência, é compaixão. O Senhor é muito bom para com todos, sua ternura abraça toda criatura. ℟. Bendirei eternamente vosso nome; para sempre, ó Senhor, o louvarei!. Que vossas obras, ó Senhor, vos glorifiquem, e os vossos santos com louvores vos bendigam! Narrem a glória e o esplendor do vosso reino e saibam proclamar vosso poder!. ℟. Bendirei eternamente vosso nome; para sempre, ó Senhor, o louvarei!. O Senhor é amor fiel em sua palavra, é santidade em toda obra que ele faz. Ele sustenta todo aquele que vacila e levanta todo aquele que tombou. ℟. Bendirei eternamente vosso nome; para sempre, ó Senhor, o louvarei!.",
-            "it": "℟. Benedirò il tuo nome per sempre, Signore. O Dio, mio re, voglio esaltarti e benedire il tuo nome in eterno e per sempre. Ti voglio benedire ogni giorno, lodare il tuo nome in eterno e per sempre. ℟. Benedirò il tuo nome per sempre, Signore. Misericordioso e pietoso è il Signore, lento all’ira e grande nell’amore. Buono è il Signore verso tutti, la sua tenerezza si espande su tutte le creature. ℟. Benedirò il tuo nome per sempre, Signore. Ti lodino, Signore, tutte le tue opere e ti benedicano i tuoi fedeli. Dicano la gloria del tuo regno e parlino della tua potenza. ℟. Benedirò il tuo nome per sempre, Signore. Fedele è il Signore in tutte le sue parole e buono in tutte le sue opere. Il Signore sostiene quelli che vacillano e rialza chiunque è caduto. ℟. Benedirò il tuo nome per sempre, Signore.",
-            "fr": "℟. Mon Dieu, mon Roi, je bénirai ton nom toujours et à jamais ! Je t’exalterai, mon Dieu, mon Roi, je bénirai ton nom toujours et à jamais ! Chaque jour je te bénirai, je louerai ton nom toujours et à jamais. ℟. Mon Dieu, mon Roi, je bénirai ton nom toujours et à jamais ! Le Seigneur est tendresse et pitié, lent à la colère et plein d’amour ; la bonté du Seigneur est pour tous, sa tendresse, pour toutes ses œuvres. ℟. Mon Dieu, mon Roi, je bénirai ton nom toujours et à jamais ! Que tes œuvres, Seigneur, te rendent grâce et que tes fidèles te bénissent ! Ils diront la gloire de ton règne, ils parleront de tes exploits. ℟. Mon Dieu, mon Roi, je bénirai ton nom toujours et à jamais ! Le Seigneur est vrai en tout ce qu’il dit, fidèle en tout ce qu’il fait. Le Seigneur soutient tous ceux qui tombent, il redresse tous les accablés. ℟. Mon Dieu, mon Roi, je bénirai ton nom toujours et à jamais !",
-            "de": "℟. Ich will dich rühmen, mein Gott und König. Ich will dich rühmen, mein Gott und König, und deinen Namen preisen immer und ewig; ich will dich preisen Tag für Tag und deinen Namen loben immer und ewig. ℟. Ich will dich rühmen, mein Gott und König. Der Herr ist gnädig und barmherzig, langmütig und reich an Gnade. Der Herr ist gütig zu allen, sein Erbarmen waltet über all seinen Werken. ℟. Ich will dich rühmen, mein Gott und König. Danken sollen dir, Herr, all deine Werke und deine Frommen dich preisen. Sie sollen von der Herrlichkeit deines Königtums reden, sollen sprechen von deiner Macht. ℟. Ich will dich rühmen, mein Gott und König. Der Herr ist treu in all seinen Worten, voll Huld in all seinen Taten. Der Herr stützt alle, die fallen, und richtet alle Gebeugten auf. ℟. Ich will dich rühmen, mein Gott und König."
-          },
-          "lines": {
+        "citation": {
+          "pt-BR": "Sl 144",
+          "de": "Ps 145",
+          "la": "Ps 144",
+          "en": "Ps 144",
+          "es": "Sal 144",
+          "it": "Sal 144",
+          "fr": "Ps 144"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Benedícam nómini tuo in sǽculum, Deus meus, rex."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Bendeciré tu nombre por siempre, Dios mío, mi Rey."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "I will praise your name for ever, my king and my God."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Bendirei eternamente vosso nome; para sempre, ó Senhor, o louvarei!."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Benedirò il tuo nome per sempre, Signore."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Mon Dieu, mon Roi, je bénirai ton nom toujours et à jamais !"
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Ich will dich rühmen, mein Gott und König."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -3495,17 +3175,9 @@
                   "type": "text",
                   "text": "et laudábo nomen tuum in sǽculum et in sǽculum sǽculi."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Benedícam nómini tuo in sǽculum, Deus meus, rex."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -3529,17 +3201,9 @@
                   "type": "text",
                   "text": "et miseratiónes eius super ómnia ópera eius."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Benedícam nómini tuo in sǽculum, Deus meus, rex."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -3563,17 +3227,9 @@
                   "type": "text",
                   "text": "et poténtiam tuam loquántur."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Benedícam nómini tuo in sǽculum, Deus meus, rex."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -3597,29 +3253,11 @@
                   "type": "text",
                   "text": "et érigit omnes depréssos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Benedícam nómini tuo in sǽculum, Deus meus, rex."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Bendeciré tu nombre por siempre, Dios mío, mi Rey."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -3637,17 +3275,9 @@
                   "type": "text",
                   "text": "Día tras día, te bendeciré y alabaré tu nombre por siempre jamás."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Bendeciré tu nombre por siempre, Dios mío, mi Rey."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -3671,17 +3301,9 @@
                   "type": "text",
                   "text": "es cariñoso con todas sus criaturas."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Bendeciré tu nombre por siempre, Dios mío, mi Rey."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -3705,17 +3327,9 @@
                   "type": "text",
                   "text": "que hablen de tus hazañas."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Bendeciré tu nombre por siempre, Dios mío, mi Rey."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -3739,105 +3353,45 @@
                   "type": "text",
                   "text": "endereza a los que ya se doblan."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Bendeciré tu nombre por siempre, Dios mío, mi Rey."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "I will praise your name for ever, my king and my God."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "I will give you glory, O God my King. I will bless your name for ever. I will bless you day after day and praise your name for ever."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "I will praise your name for ever, my king and my God."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "The Lord is kind and full of compassion, slow to anger, abounding in love. How good is the Lord to all, compassionate to all his creatures."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "I will praise your name for ever, my king and my God."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "All your creatures shall thank you, O Lord, and your friends shall repeat their blessing. They shall speak of the glory of your reign and declare your might, O God."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "I will praise your name for ever, my king and my God."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "The Lord is faithful in all his words and loving in all his deeds. The Lord supports all who fall and raises all who are bowed down."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "I will praise your name for ever, my king and my God."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Bendirei eternamente vosso nome; para sempre, ó Senhor, o louvarei!"
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -3861,17 +3415,9 @@
                   "type": "text",
                   "text": "hei de louvar o vosso nome para sempre."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Bendirei eternamente vosso nome; para sempre, ó Senhor, o louvarei!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -3895,17 +3441,9 @@
                   "type": "text",
                   "text": "sua ternura abraça toda criatura."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Bendirei eternamente vosso nome; para sempre, ó Senhor, o louvarei!."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -3923,17 +3461,9 @@
                   "type": "text",
                   "text": "Narrem a glória e o esplendor do vosso reino e saibam proclamar vosso poder!."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Bendirei eternamente vosso nome; para sempre, ó Senhor, o louvarei!."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -3951,29 +3481,11 @@
                   "type": "text",
                   "text": "Ele sustenta todo aquele que vacila e levanta todo aquele que tombou."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Bendirei eternamente vosso nome; para sempre, ó Senhor, o louvarei!."
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Benedirò il tuo nome per sempre, Signore."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -3991,17 +3503,9 @@
                   "type": "text",
                   "text": "lodare il tuo nome in eterno e per sempre."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Benedirò il tuo nome per sempre, Signore."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -4025,17 +3529,9 @@
                   "type": "text",
                   "text": "la sua tenerezza si espande su tutte le creature."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Benedirò il tuo nome per sempre, Signore."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -4047,17 +3543,9 @@
                   "type": "text",
                   "text": "Dicano la gloria del tuo regno e parlino della tua potenza."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Benedirò il tuo nome per sempre, Signore."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -4069,29 +3557,11 @@
                   "type": "text",
                   "text": "Il Signore sostiene quelli che vacillano e rialza chiunque è caduto."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Benedirò il tuo nome per sempre, Signore."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Mon Dieu, mon Roi, je bénirai ton nom toujours et à jamais !"
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -4121,17 +3591,9 @@
                   "type": "text",
                   "text": "je louerai ton nom toujours et à jamais."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Mon Dieu, mon Roi, je bénirai ton nom toujours et à jamais !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -4155,17 +3617,9 @@
                   "type": "text",
                   "text": "sa tendresse, pour toutes ses œuvres."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Mon Dieu, mon Roi, je bénirai ton nom toujours et à jamais !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -4189,17 +3643,9 @@
                   "type": "text",
                   "text": "ils parleront de tes exploits."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Mon Dieu, mon Roi, je bénirai ton nom toujours et à jamais !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -4223,29 +3669,11 @@
                   "type": "text",
                   "text": "il redresse tous les accablés."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Mon Dieu, mon Roi, je bénirai ton nom toujours et à jamais !"
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ich will dich rühmen, mein Gott und König."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -4263,17 +3691,9 @@
                   "type": "text",
                   "text": "ich will dich preisen Tag für Tag und deinen Namen loben immer und ewig."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ich will dich rühmen, mein Gott und König."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -4297,17 +3717,9 @@
                   "type": "text",
                   "text": "sein Erbarmen waltet über all seinen Werken."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ich will dich rühmen, mein Gott und König."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -4325,17 +3737,9 @@
                   "type": "text",
                   "text": "sollen sprechen von deiner Macht."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ich will dich rühmen, mein Gott und König."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -4359,28 +3763,9 @@
                   "type": "text",
                   "text": "und richtet alle Gebeugten auf."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ich will dich rühmen, mein Gott und König."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "pt-BR": "Sl 144",
-          "de": "Ps 145",
-          "la": "Ps 144",
-          "en": "Ps 144",
-          "es": "Sal 144",
-          "it": "Sal 144",
-          "fr": "Ps 144"
+          ]
         }
       },
       "secondReading": {
@@ -4558,7 +3943,9 @@
                 {
                   "type": "reference",
                   "text": "Io 3, 16"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Sic enim diléxit Deus mundum, ut Fílium suum unigénitum daret; omnis qui credit in eum habet vitam ætérnam. Allelúia."
@@ -4574,7 +3961,9 @@
                 {
                   "type": "reference",
                   "text": "Jn 3, 16"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Tanto amó Dios al mundo, que entregó a su Unigénito; todo el que cree en él tiene vida eterna. Aleluya."

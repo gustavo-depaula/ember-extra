@@ -228,28 +228,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Non repéllet Dóminus plebem suam. Beátus homo quem tu erudíeris, Dómine, et de lege tua docúeris eum, ut mítiges ei a diébus malis. ℟. Non repéllet Dóminus plebem suam. Quia non repéllet Dóminus plebem suam, et hereditátem suam non derelínquet. Quia ad iustítiam revertétur iudícium, et sequéntur illam omnes qui recto sunt corde. ℟. Non repéllet Dóminus plebem suam. Nisi quia Dóminus adiúvit me, paulo minus habitásset in loco siléntii ánima mea. Si dicébam: «Motus est pes meus», misericórdia tua, Dómine, sustentábat me. ℟. Non repéllet Dóminus plebem suam.",
-            "es": "℟. El Señor no rechaza a su pueblo. Dichoso el hombre a quien tú educas, al que enseñas tu ley, dándole descanso tras los años duros. ℟. El Señor no rechaza a su pueblo. Porque el Señor no rechaza a su pueblo, ni abandona su heredad: el juicio retornará a la justicia, y la seguirán todos los rectos de corazón. ℟. El Señor no rechaza a su pueblo. Si el Señor no me hubiera auxiliado, ya estaría yo habitando en el silencio. Cuando pensaba que iba a tropezar, tu misericordia, Señor, me sostenía. ℟. El Señor no rechaza a su pueblo.",
-            "en": "℟. The Lord will not abandon his people. Happy the man whom you teach, O Lord, whom you train by means of your law: to him you give peace in evil days. ℟. The Lord will not abandon his people. The Lord will not abandon his people nor forsake those who are his own: for judgment shall again be just and all true hearts shall uphold it. ℟. The Lord will not abandon his people. If the Lord were not to help me, I would soon go down into the silence. When I think: 'I have lost my foothold;' your mercy, Lord, holds me up. ℟. The Lord will not abandon his people.",
-            "pt-BR": "℟. O Senhor não rejeita o seu povo! É feliz, ó Senhor, quem formais e educais nos caminhos da Lei, para dar-lhe um alívio na angústia. ℟. O Senhor não rejeita o seu povo! O Senhor não rejeita o seu povo e não pode esquecer sua herança: voltarão a juízo as sentenças; quem é reto andará na justiça. ℟. O Senhor não rejeita o seu povo! Se o Senhor não me desse uma ajuda, no silêncio da morte estaria! Quando eu penso: \"Estou quase caindo!\" Vosso amor me sustenta, Senhor! ℟. O Senhor não rejeita o seu povo!",
-            "it": "℟. Il Signore non respinge il suo popolo. Beato l’uomo che tu castighi, Signore, e a cui insegni la tua legge, per dargli riposo nei giorni di sventura. ℟. Il Signore non respinge il suo popolo. Poiché il Signore non respinge il suo popolo e non abbandona la sua eredità, il giudizio ritornerà a essere giusto e lo seguiranno tutti i retti di cuore. ℟. Il Signore non respinge il suo popolo. Se il Signore non fosse stato il mio aiuto, in breve avrei abitato nel regno del silenzio. Quando dicevo: «Il mio piede vacilla», la tua fedeltà, Signore, mi ha sostenuto. ℟. Il Signore non respinge il suo popolo.",
-            "fr": "℟. Le Seigneur ne délaisse pas son peuple. Heureux l’homme que tu châties, Seigneur, celui que tu enseignes par ta loi, pour le garder en paix aux jours de malheur, tandis que se creuse la fosse de l’impie. ℟. Le Seigneur ne délaisse pas son peuple. Car le Seigneur ne délaisse pas son peuple, il n’abandonne pas son domaine : on jugera de nouveau selon la justice ; tous les hommes droits applaudiront. ℟. Le Seigneur ne délaisse pas son peuple. Si le Seigneur ne m’avait secouru, j’allais habiter le silence. Quand je dis : « Mon pied trébuche ! » ton amour, Seigneur, me soutient. ℟. Le Seigneur ne délaisse pas son peuple.",
-            "de": "℟. Du, Herr, wirst dein Volk nicht verstoßen. Wohl dem Mann, den du, Herr, erziehst, den du mit deiner Weisung belehrst. Du bewahrst ihn vor bösen Tagen, bis man dem Frevler die Grube gräbt. ℟. Du, Herr, wirst dein Volk nicht verstoßen. Ja, der Herr wird sein Volk nicht verstoßen und niemals sein Erbe verlassen. Nun, spricht man wieder Recht nach Gerechtigkeit; ihr folgen alle Menschen mit redlichem Herzen. ℟. Du, Herr, wirst dein Volk nicht verstoßen. Wäre nicht der Herr meine Hilfe, bald würde ich im Land des Schweigens wohnen. Wenn ich sage: „Mein Fuß gleitet aus“, dann stützt mich, Herr, deine Huld. ℟. Du, Herr, wirst dein Volk nicht verstoßen."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 93, 12-13a. 14-15. 17-18",
+          "es": "Sal 93, 12-13a. 14-15. 17-18",
+          "en": "Ps 93:12-13a, 14-15, 17-18",
+          "pt-BR": "Sl 93, 12-13a. 14-15. 17-18",
+          "de": "Ps 94",
+          "it": "Sal 93, 12-13a. 14-15. 17-18",
+          "fr": "Ps 93, 12-13a. 14-15. 17-18"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Non repéllet Dóminus plebem suam."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "El Señor no rechaza a su pueblo."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "The Lord will not abandon his people."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "O Senhor não rejeita o seu povo!"
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Il Signore non respinge il suo popolo."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Le Seigneur ne délaisse pas son peuple."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Du, Herr, wirst dein Volk nicht verstoßen."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -267,17 +317,9 @@
                   "type": "text",
                   "text": "ut mítiges ei a diébus malis."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Non repéllet Dóminus plebem suam."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -301,17 +343,9 @@
                   "type": "text",
                   "text": "et sequéntur illam omnes qui recto sunt corde."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Non repéllet Dóminus plebem suam."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -341,29 +375,11 @@
                   "type": "text",
                   "text": "Dómine, sustentábat me."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Non repéllet Dóminus plebem suam."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor no rechaza a su pueblo."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -381,17 +397,9 @@
                   "type": "text",
                   "text": "dándole descanso tras los años duros."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor no rechaza a su pueblo."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -415,17 +423,9 @@
                   "type": "text",
                   "text": "y la seguirán todos los rectos de corazón."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor no rechaza a su pueblo."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -455,89 +455,37 @@
                   "type": "text",
                   "text": "me sostenía."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El Señor no rechaza a su pueblo."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord will not abandon his people."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "Happy the man whom you teach, O Lord, whom you train by means of your law: to him you give peace in evil days."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord will not abandon his people."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "The Lord will not abandon his people nor forsake those who are his own: for judgment shall again be just and all true hearts shall uphold it."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord will not abandon his people."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "If the Lord were not to help me, I would soon go down into the silence. When I think: 'I have lost my foothold;' your mercy, Lord, holds me up."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The Lord will not abandon his people."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor não rejeita o seu povo!"
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -549,17 +497,9 @@
                   "type": "text",
                   "text": "para dar-lhe um alívio na angústia."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor não rejeita o seu povo!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -577,17 +517,9 @@
                   "type": "text",
                   "text": "quem é reto andará na justiça."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor não rejeita o seu povo!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -611,29 +543,11 @@
                   "type": "text",
                   "text": "Vosso amor me sustenta, Senhor!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "O Senhor não rejeita o seu povo!"
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore non respinge il suo popolo."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -651,17 +565,9 @@
                   "type": "text",
                   "text": "per dargli riposo nei giorni di sventura."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore non respinge il suo popolo."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -673,17 +579,9 @@
                   "type": "text",
                   "text": "il giudizio ritornerà a essere giusto e lo seguiranno tutti i retti di cuore."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore non respinge il suo popolo."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -707,29 +605,11 @@
                   "type": "text",
                   "text": "la tua fedeltà, Signore, mi ha sostenuto."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Il Signore non respinge il suo popolo."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur ne délaisse pas son peuple."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -753,17 +633,9 @@
                   "type": "text",
                   "text": "tandis que se creuse la fosse de l’impie."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur ne délaisse pas son peuple."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -787,17 +659,9 @@
                   "type": "text",
                   "text": "tous les hommes droits applaudiront."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur ne délaisse pas son peuple."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -821,29 +685,11 @@
                   "type": "text",
                   "text": "ton amour, Seigneur, me soutient."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Le Seigneur ne délaisse pas son peuple."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Du, Herr, wirst dein Volk nicht verstoßen."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -867,17 +713,9 @@
                   "type": "text",
                   "text": "bis man dem Frevler die Grube gräbt."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Du, Herr, wirst dein Volk nicht verstoßen."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -895,17 +733,9 @@
                   "type": "text",
                   "text": "ihr folgen alle Menschen mit redlichem Herzen."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Du, Herr, wirst dein Volk nicht verstoßen."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -935,28 +765,9 @@
                   "type": "text",
                   "text": "Herr, deine Huld."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Du, Herr, wirst dein Volk nicht verstoßen."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 93, 12-13a. 14-15. 17-18",
-          "es": "Sal 93, 12-13a. 14-15. 17-18",
-          "en": "Ps 93:12-13a, 14-15, 17-18",
-          "pt-BR": "Sl 93, 12-13a. 14-15. 17-18",
-          "de": "Ps 94",
-          "it": "Sal 93, 12-13a. 14-15. 17-18",
-          "fr": "Ps 93, 12-13a. 14-15. 17-18"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -980,7 +791,9 @@
                 {
                   "type": "reference",
                   "text": "Mt 11, 29ab"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Tóllite iugum meum super vos, dicit Dóminus, et díscite a me, quia mitis sum et húmilis corde. Allelúia."
@@ -996,7 +809,9 @@
                 {
                   "type": "reference",
                   "text": "Mt 11, 29ab"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Tomad mi yugo sobre vosotros —dice el Señor—, y aprended de mí, que soy manso y humilde de corazón. Aleluya."
@@ -1513,28 +1328,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Sitívit ánima mea ad Deum vivum. Quemádmodum desíderat cervus ad fontes aquárum, ita desíderat ánima mea ad te, Deus. ℟. Sitívit ánima mea ad Deum vivum. Sitívit ánima mea ad Deum, Deum vivum: quando véniam et apparébo ante fáciem Dei? ℟. Sitívit ánima mea ad Deum vivum. Quóniam transíbam in locum tabernáculi admirábilis usque ad domum Dei, in voce exsultatiónis et confessiónis, multitúdinis festa celebrántis. ℟. Sitívit ánima mea ad Deum vivum.",
-            "es": "℟. Mi alma tiene sed del Dios vivo. Como busca la cierva corrientes de agua, así mi alma te busca a ti, Dios mío. ℟. Mi alma tiene sed del Dios vivo. Mi alma tiene sed de Dios, del Dios vivo: ¿cuándo entraré a ver el rostro de Dios? ℟. Mi alma tiene sed del Dios vivo. Cómo entraba en el recinto santo, cómo avanzaba hacia la casa de Dios entre cantos de júbilo y alabanza, en el bullicio de la fiesta. ℟. Mi alma tiene sed del Dios vivo.",
-            "en": "℟. My soul is thirsting for the living God. Like the deer that yearns for running streams, so my soul is yearning for You, my God. ℟. My soul is thirsting for the living God. My soul is thirsting for God, the God of my life; when can I enter and see the face of God? ℟. My soul is thirsting for the living God. How I would lead the rejoicing crowd into the house of God, amid cries of gladness and thanksgiving. ℟. My soul is thirsting for the living God.",
-            "pt-BR": "℟. Minha alma tem sede de Deus, do Deus vivo! Assim como a corça suspira pelas águas correntes, suspira igualmente minha alma por vós, ó meu Deus! ℟. Minha alma tem sede de Deus, do Deus vivo! Minha alma tem sede de Deus, e deseja o Deus vivo. Quando terei a alegria de ver a face de Deus? ℟. Minha alma tem sede de Deus, do Deus vivo! Peregrino e feliz caminhando para a casa de Deus, entre gritos, louvor e alegria da multidão jubilosa. ℟. Minha alma tem sede de Deus, do Deus vivo!",
-            "it": "℟. L’anima mia ha sete di Dio, del Dio vivente. Come la cerva anela ai corsi d’acqua, così l’anima mia anela a te, o Dio. ℟. A te vengo, Signore, sorgente della vita. L’anima mia ha sete di Dio, del Dio vivente: quando verrò e vedrò il volto di Dio? ℟. A te vengo, Signore, sorgente della vita. Avanzavo tra la folla, la precedevo fino alla casa di Dio, fra canti di gioia e di lode di una moltitudine in festa. ℟. A te vengo, Signore, sorgente della vita.",
-            "fr": "℟. Mon âme a soif du Dieu vivant. Comme un cerf altéré cherche l’eau vive, ainsi mon âme te cherche, toi, mon Dieu. ℟. Mon âme a soif du Dieu vivant. Mon âme a soif de Dieu, le Dieu vivant ; quand pourrai-je m’avancer, paraître face à Dieu ? ℟. Mon âme a soif du Dieu vivant. Je me souviens, et mon âme déborde : en ce temps-là, je franchissais les portails ! Je conduisais vers la maison de mon Dieu la multitude en fête, parmi les cris de joie et les actions de grâce. ℟. Mon âme a soif du Dieu vivant.",
-            "de": "℟. Meine Seele dürstet nach Gott, nach dem lebendigen Gott. Wie der Hirsch lechzt nach frischem Wasser, so lechzt meine Seele, Gott, nach dir. ℟. Meine Seele dürstet nach Gott, nach dem lebendigen Gott. Meine Seele dürstet nach Gott, nach dem lebendigen Gott. Wann darf ich kommen und Gottes Antlitz schauen? ℟. Meine Seele dürstet nach Gott, nach dem lebendigen Gott. Das Herz geht mir über, wenn ich daran denke: wie ich zum Haus Gottes zog in festlicher Schar, mit Jubel und Dank in feiernder Menge. ℟. Meine Seele dürstet nach Gott, nach dem lebendigen Gott."
-          },
-          "lines": {
+        "citation": {
+          "pt-BR": "Sl 41",
+          "de": "Ps 42",
+          "la": "Ps 41",
+          "en": "Ps 41",
+          "es": "Sal 41",
+          "it": "Sal 41",
+          "fr": "Ps 41"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Sitívit ánima mea ad Deum vivum."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Mi alma tiene sed del Dios vivo."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "My soul is thirsting for the living God."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Minha alma tem sede de Deus, do Deus vivo!"
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "A te vengo, Signore, sorgente della vita."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Mon âme a soif du Dieu vivant."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Meine Seele dürstet nach Gott, nach dem lebendigen Gott."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -1546,17 +1411,9 @@
                   "type": "text",
                   "text": "ita desíderat ánima mea ad te, Deus."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Sitívit ánima mea ad Deum vivum."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1568,17 +1425,9 @@
                   "type": "text",
                   "text": "quando véniam et apparébo ante fáciem Dei?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Sitívit ánima mea ad Deum vivum."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1596,29 +1445,11 @@
                   "type": "text",
                   "text": "multitúdinis festa celebrántis."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Sitívit ánima mea ad Deum vivum."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Mi alma tiene sed del Dios vivo."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1630,17 +1461,9 @@
                   "type": "text",
                   "text": "así mi alma te busca a ti, Dios mío."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Mi alma tiene sed del Dios vivo."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1652,17 +1475,9 @@
                   "type": "text",
                   "text": "¿cuándo entraré a ver el rostro de Dios?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Mi alma tiene sed del Dios vivo."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1680,29 +1495,11 @@
                   "type": "text",
                   "text": "en el bullicio de la fiesta."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Mi alma tiene sed del Dios vivo."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "My soul is thirsting for the living God."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
@@ -1714,77 +1511,35 @@
                   "type": "text",
                   "text": "my God."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "My soul is thirsting for the living God."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "My soul is thirsting for God, the God of my life; when can I enter and see the face of God?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "My soul is thirsting for the living God."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "How I would lead the rejoicing crowd into the house of God, amid cries of gladness and thanksgiving."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "My soul is thirsting for the living God."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Minha alma tem sede de Deus, do Deus vivo!"
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
                   "text": "Assim como a corça suspira pelas águas correntes, suspira igualmente minha alma por vós, ó meu Deus!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Minha alma tem sede de Deus, do Deus vivo!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1802,17 +1557,9 @@
                   "type": "text",
                   "text": "Quando terei a alegria de ver a face de Deus?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Minha alma tem sede de Deus, do Deus vivo!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1830,29 +1577,11 @@
                   "type": "text",
                   "text": "louvor e alegria da multidão jubilosa."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Minha alma tem sede de Deus, do Deus vivo!"
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "L’anima mia ha sete di Dio, del Dio vivente."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -1864,17 +1593,9 @@
                   "type": "text",
                   "text": "così l’anima mia anela a te, o Dio."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "A te vengo, Signore, sorgente della vita."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1892,17 +1613,9 @@
                   "type": "text",
                   "text": "quando verrò e vedrò il volto di Dio?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "A te vengo, Signore, sorgente della vita."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1920,29 +1633,11 @@
                   "type": "text",
                   "text": "fra canti di gioia e di lode di una moltitudine in festa."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "A te vengo, Signore, sorgente della vita."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Mon âme a soif du Dieu vivant."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -1960,17 +1655,9 @@
                   "type": "text",
                   "text": "toi, mon Dieu."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Mon âme a soif du Dieu vivant."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1994,17 +1681,9 @@
                   "type": "text",
                   "text": "paraître face à Dieu ?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Mon âme a soif du Dieu vivant."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2040,29 +1719,11 @@
                   "type": "text",
                   "text": "parmi les cris de joie et les actions de grâce."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Mon âme a soif du Dieu vivant."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Meine Seele dürstet nach Gott, nach dem lebendigen Gott."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -2080,17 +1741,9 @@
                   "type": "text",
                   "text": "nach dir."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Meine Seele dürstet nach Gott, nach dem lebendigen Gott."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2108,17 +1761,9 @@
                   "type": "text",
                   "text": "Wann darf ich kommen und Gottes Antlitz schauen?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Meine Seele dürstet nach Gott, nach dem lebendigen Gott."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2136,28 +1781,9 @@
                   "type": "text",
                   "text": "mit Jubel und Dank in feiernder Menge."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Meine Seele dürstet nach Gott, nach dem lebendigen Gott."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "pt-BR": "Sl 41",
-          "de": "Ps 42",
-          "la": "Ps 41",
-          "en": "Ps 41",
-          "es": "Sal 41",
-          "it": "Sal 41",
-          "fr": "Ps 41"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -2181,7 +1807,9 @@
                 {
                   "type": "reference",
                   "text": "Mt 11, 29ab"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Tóllite iugum meum super vos, dicit Dóminus, et díscite a me, quia mitis sum et húmilis corde. Allelúia."
@@ -2197,7 +1825,9 @@
                 {
                   "type": "reference",
                   "text": "Mt 11, 29ab"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Tomad mi yugo sobre vosotros —dice el Señor—, y aprended de mí, que soy manso y humilde de corazón. Aleluya."

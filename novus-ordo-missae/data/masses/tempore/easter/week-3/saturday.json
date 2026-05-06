@@ -1068,40 +1068,138 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Quid retribuam Dómino pro ómnibus quæ retribuit mihi? vel Allelúia. Quid retríbuam Dómino pro ómnibus quæ retríbuit mihi? Cálicem salutáris accípiam, et nomen Dómini invocábo. ℟. Quid retribuam Dómino pro ómnibus quæ retribuit mihi? vel Allelúia. Vota mea Dómino reddam coram omni pópulo eius. Pretiósa in conspéctu Dómini mors sanctórum eius.",
-            "es": "℟. ¿Cómo pagaré al Señor todo el bien que me ha hecho? o bien: Aleluya. ¿Cómo pagaré al Señor todo el bien que me ha hecho? Alzaré la copa de la salvación, invocando el nombre del Señor. ℟. ¿Cómo pagaré al Señor todo el bien que me ha hecho? o bien: Aleluya. Cumpliré al Señor mis votos en presencia de todo el pueblo. Mucho le cuesta al Señor la muerte de sus fieles.",
-            "en": "℟. How can I repay the Lord for his goodness to me? Or: Alleluia. How can I repay the Lord for his goodness to me? The cup of salvation I will raise; I will call on the Lord's name. ℟. How can I repay the Lord for his goodness to me? Or: Alleluia. I shall fulfil before all his people. O precious in the eyes of the Lord is the death of his faithful.",
-            "pt-BR": "℟. Que poderei retribuir ao Senhor Deus, por tudo aquilo que ele fez em meu favor? o bien: Aleluia. Que poderei retribuir ao Senhor Deus por tudo aquilo que ele fez em meu favor? Elevo o cálice da minha salvação, invocando o nome santo do Senhor. ℟. Que poderei retribuir ao Senhor Deus, por tudo aquilo que ele fez em meu favor? o bien: Aleluia. Vou cumprir minhas promessas ao Senhor na presença de seu povo reunido. É sentida por demais pelo Senhor a morte de seus santos, seus amigos.",
-            "it": "℟. Che cosa renderò al Signore, per tutti i benefici che mi ha fatto? Oppure: Alleluia. Che cosa renderò al Signore, per tutti i benefici che mi ha fatto? Alzerò il calice della salvezza e invocherò il nome del Signore. ℟. Che cosa renderò al Signore, per tutti i benefici che mi ha fatto? Oppure: Alleluia. Adempirò i miei voti al Signore, davanti a tutto il suo popolo. Agli occhi del Signore è preziosa la morte dei suoi fedeli.",
-            "fr": "℟. Comment rendrai-je au Seigneur tout le bien qu’il m’a fait ? ou Alléluia ! Comment rendrai-je au Seigneur tout le bien qu’il m’a fait ? J’élèverai la coupe du salut, j’invoquerai le nom du Seigneur. ℟. Comment rendrai-je au Seigneur tout le bien qu’il m’a fait ? ou Alléluia ! Je tiendrai mes promesses au Seigneur, oui, devant tout son peuple ! Il en coûte au Seigneur de voir mourir les siens !",
-            "de": "℟. Wie kann ich dem Herrn vergelten, was er mir Gutes getan hat? Oder: Halleluja. Wie kann ich dem Herrn all das vergelten, was er mir Gutes getan hat? Ich will den Kelch des Heils erheben und anrufen den Namen des Herrn. ℟. Wie kann ich dem Herrn vergelten, was er mir Gutes getan hat? Oder: Halleluja. Ich will dem Herrn meine Gelübde erfüllen offen vor seinem ganzen Volk. Kostbar ist in den Augen des Herrn das Sterben seiner Frommen."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 115, 12-13. 14-15. 16-17",
+          "es": "Sal 115, 12-13. 14-15. 16-17",
+          "pt-BR": "Sl 115, 12-13. 14-15. 16-17",
+          "it": "Sal 115, 12-13. 14-15. 16-17",
+          "de": "Ps 116",
+          "en": "Ps 115:12-13, 14-15, 16-17",
+          "fr": "Ps 115, 12-13. 14-15. 16-17"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Quid retribuam Dómino pro ómnibus quæ retribuit mihi?"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "vel"
-                }
-              ],
+              ]
+            ],
+            "es": [
               [
                 {
                   "type": "text",
-                  "text": "Allelúia."
+                  "text": "¿Cómo pagaré al Señor todo el bien que me ha hecho?"
                 }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "How can I repay the Lord for his goodness to me?"
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Que poderei retribuir ao Senhor Deus, por tudo aquilo que ele fez em meu favor?"
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Che cosa renderò al Signore, per tutti i benefici che mi ha fatto?"
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Comment rendrai-je au Seigneur tout le bien qu’il m’a fait ?"
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Wie kann ich dem Herrn vergelten, was er mir Gutes getan hat?"
+                }
+              ]
+            ]
+          },
+          "alternatives": [
+            {
+              "la": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Allelúia."
+                  }
+                ]
               ],
+              "es": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Aleluya."
+                  }
+                ]
+              ],
+              "en": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Alleluia."
+                  }
+                ]
+              ],
+              "pt-BR": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Aleluia."
+                  }
+                ]
+              ],
+              "it": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Alleluia."
+                  }
+                ]
+              ],
+              "fr": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Alléluia !"
+                  }
+                ]
+              ],
+              "de": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Halleluja."
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -1119,29 +1217,9 @@
                   "type": "text",
                   "text": "et nomen Dómini invocábo."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Quid retribuam Dómino pro ómnibus quæ retribuit mihi?"
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "vel"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1154,28 +1232,10 @@
                   "text": "Pretiósa in conspéctu Dómini mors sanctórum eius."
                 }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "¿Cómo pagaré al Señor todo el bien que me ha hecho?"
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "o bien:"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluya."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1193,27 +1253,9 @@
                   "type": "text",
                   "text": "invocando el nombre del Señor."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "¿Cómo pagaré al Señor todo el bien que me ha hecho?"
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "o bien:"
-                },
-                {
-                  "type": "text",
-                  "text": "Aleluya."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1226,28 +1268,10 @@
                   "text": "Mucho le cuesta al Señor la muerte de sus fieles."
                 }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "How can I repay the Lord for his goodness to me?"
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Or:"
-                },
-                {
-                  "type": "response",
-                  "text": "Alleluia."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
@@ -1265,27 +1289,9 @@
                   "type": "text",
                   "text": "I will call on the Lord's name."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "How can I repay the Lord for his goodness to me?"
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Or:"
-                },
-                {
-                  "type": "response",
-                  "text": "Alleluia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1298,30 +1304,10 @@
                   "text": "O precious in the eyes of the Lord is the death of his faithful."
                 }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Que poderei retribuir ao Senhor Deus, por tudo aquilo que ele fez em meu favor?"
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "o bien:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluia."
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -1339,29 +1325,9 @@
                   "type": "text",
                   "text": "invocando o nome santo do Senhor."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Que poderei retribuir ao Senhor Deus, por tudo aquilo que ele fez em meu favor?"
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "o bien:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Aleluia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1374,30 +1340,10 @@
                   "text": "É sentida por demais pelo Senhor a morte de seus santos, seus amigos."
                 }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Che cosa renderò al Signore, per tutti i benefici che mi ha fatto?"
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oppure:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -1415,29 +1361,9 @@
                   "type": "text",
                   "text": "Alzerò il calice della salvezza e invocherò il nome del Signore."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Che cosa renderò al Signore, per tutti i benefici che mi ha fatto?"
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oppure:"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alleluia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1456,28 +1382,14 @@
                   "text": "Agli occhi del Signore è preziosa la morte dei suoi fedeli."
                 }
               ]
-            ],
-            "fr": [
+            ]
+          ],
+          "fr": [
+            [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Comment rendrai-je au Seigneur tout le bien qu’il m’a fait ?"
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "ou"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia ! Comment rendrai-je au Seigneur tout le bien qu’il m’a fait ?"
                 }
               ],
               [
@@ -1491,27 +1403,13 @@
                   "type": "text",
                   "text": "j’invoquerai le nom du Seigneur."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Comment rendrai-je au Seigneur tout le bien qu’il m’a fait ?"
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "ou"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
-                  "text": "Alléluia ! Je tiendrai mes promesses au Seigneur,"
+                  "text": "Je tiendrai mes promesses au Seigneur,"
                 }
               ],
               [
@@ -1526,28 +1424,10 @@
                   "text": "Il en coûte au Seigneur de voir mourir les siens !"
                 }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Wie kann ich dem Herrn vergelten, was er mir Gutes getan hat?"
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oder:"
-                },
-                {
-                  "type": "response",
-                  "text": "Halleluja."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -1565,27 +1445,9 @@
                   "type": "text",
                   "text": "Ich will den Kelch des Heils erheben und anrufen den Namen des Herrn."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Wie kann ich dem Herrn vergelten, was er mir Gutes getan hat?"
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oder:"
-                },
-                {
-                  "type": "response",
-                  "text": "Halleluja."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1599,16 +1461,7 @@
                 }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 115, 12-13. 14-15. 16-17",
-          "es": "Sal 115, 12-13. 14-15. 16-17",
-          "pt-BR": "Sl 115, 12-13. 14-15. 16-17",
-          "it": "Sal 115, 12-13. 14-15. 16-17",
-          "de": "Ps 116",
-          "en": "Ps 115:12-13, 14-15, 16-17",
-          "fr": "Ps 115, 12-13. 14-15. 16-17"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -1632,7 +1485,9 @@
                 {
                   "type": "reference",
                   "text": "cf. Io 6, 63b. 68b"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Verba tua, Dómine, spíritus et vita sunt; verba vitæ ætérnæ habes. Allelúia."
@@ -1648,7 +1503,9 @@
                 {
                   "type": "reference",
                   "text": "cf. Jn 6, 63b. 68b"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Tus palabras, Señor, son espíritu y vida; tú tienes palabras de vida eterna. Aleluya."

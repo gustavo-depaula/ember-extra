@@ -324,36 +324,84 @@
         ]
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Éritis mihi testes usque ad últimum terræ. vel Allelúia. Laudáte Dóminum, omnes gentes, collaudate eum, omnes pópuli. Quóniam confirmáta est super nos misericórdia eius, et véritas Dómini manet in ætérnum. ℟. Éritis mihi testes usque ad últimum terræ. vel Allelúia.",
-            "fr": "℟. Éritis mihi testes usque ad últimum terræ. ou : Alléluia Laudáte Dóminum, omnes gentes, collaudate eum, omnes pópuli. Quóniam confirmáta est super nos misericórdia eius, et véritas Dómini manet in ætérnum. ℟. Éritis mihi testes usque ad últimum terræ. ou : Alléluia",
-            "de": "℟. Ihr werdet meine Zeugen sein bis an die Grenzen der Erde. Oder: Halleluja. Lobet den Herrn, alle Völker, preist ihn, alle Nationen! Denn mächtig waltet über uns seine Huld, die Treue des Herrn währt in Ewigkeit. ℟. Ihr werdet meine Zeugen sein bis an die Grenzen der Erde. Oder: Halleluja."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 116, 1-2",
+          "de": "Ps 117",
+          "en": "Ps 116:1-2",
+          "es": "Sal 116, 1-2",
+          "pt-BR": "Sl 116, 1-2",
+          "it": "Sal 116, 1-2",
+          "fr": "Ps 116, 1-2"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Éritis mihi testes usque ad últimum terræ."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "vel"
-                }
-              ],
+              ]
+            ],
+            "fr": [
               [
                 {
                   "type": "text",
-                  "text": "Allelúia."
+                  "text": "Éritis mihi testes usque ad últimum terræ."
                 }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Ihr werdet meine Zeugen sein bis an die Grenzen der Erde."
+                }
+              ]
+            ]
+          },
+          "alternatives": [
+            {
+              "la": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Allelúia."
+                  }
+                ]
               ],
+              "fr": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Alléluia Laudáte Dóminum, omnes gentes,"
+                  }
+                ]
+              ],
+              "de": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Halleluja."
+                  }
+                ]
+              ]
+            },
+            {
+              "fr": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Alléluia"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -377,53 +425,11 @@
                   "type": "text",
                   "text": "et véritas Dómini manet in ætérnum."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Éritis mihi testes usque ad últimum terræ."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "vel"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Éritis mihi testes usque ad últimum terræ."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "ou :"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia Laudáte Dóminum, omnes gentes,"
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -441,51 +447,11 @@
                   "type": "text",
                   "text": "et véritas Dómini manet in ætérnum."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Éritis mihi testes usque ad últimum terræ."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "ou :"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ihr werdet meine Zeugen sein bis an die Grenzen der Erde."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oder:"
-                },
-                {
-                  "type": "response",
-                  "text": "Halleluja."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -509,38 +475,9 @@
                   "type": "text",
                   "text": "die Treue des Herrn währt in Ewigkeit."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Ihr werdet meine Zeugen sein bis an die Grenzen der Erde."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oder:"
-                },
-                {
-                  "type": "response",
-                  "text": "Halleluja."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 116, 1-2",
-          "de": "Ps 117",
-          "en": "Ps 116:1-2",
-          "es": "Sal 116, 1-2",
-          "pt-BR": "Sl 116, 1-2",
-          "it": "Sal 116, 1-2",
-          "fr": "Ps 116, 1-2"
+          ]
         }
       },
       "secondReading": {
@@ -629,7 +566,13 @@
               [
                 {
                   "type": "text",
-                  "text": "Alleluia, allelúia. Veni, Sancte Spíritus, reple tuórum corda fidélium; et tui amóris in eis ignem accénde. Allelúia."
+                  "text": "Alleluia"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Allelúia. Veni, Sancte Spíritus, reple tuórum corda fidélium; et tui amóris in eis ignem accénde. Allelúia."
                 }
               ]
             ],
@@ -836,36 +779,104 @@
         ]
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Narrábo nomen tuum frátribus meis. vel Allelúia. Narrábo nomen tuum frátribus meis, in médio ecclésiæ laudábo te. Qui timétis Dóminum, laudáte eum; univérsum semen Iacob, glorificáte eum. Métuat eum omne semen Ísrael. ℟. Narrábo nomen tuum frátribus meis. vel Allelúia. Vota mea reddam in conspéctu timéntium eum. Edent páuperes, et saturabúntur, et laudábunt Dóminum qui requírunt eum: «Vivant corda eórum in sǽculum sǽculi». ℟. Narrábo nomen tuum frátribus meis. vel Allelúia. Reminiscéntur et converténtur ad Dóminum univérsi fines terræ, et adorábunt in conspéctu eius univérsæ famíliæ géntium. Narrábitur de Dómino generatióni ventúræ, et annuntiábunt iustítiam eius pópulo qui nascétur: «Hæc fecit Dóminus». ℟. Narrábo nomen tuum frátribus meis. vel Allelúia.",
-            "fr": "℟. Narrábo nomen tuum frátribus meis. ou : Alléluia Narrábo nomen tuum frátribus meis, in médio ecclésiæ laudábo te. Qui timétis Dóminum, laudáte eum ; univérsum semen Iacob, glorificáte eum. Métuat eum omne semen Ísrael. ℟. Narrábo nomen tuum frátribus meis. ou : Alléluia Vota mea reddam in conspéctu timéntium eum. Edent páuperes, et saturabúntur, et laudábunt Dóminum qui requírunt eum : «Vivant corda eórum in sǽculum sǽculi». ℟. Narrábo nomen tuum frátribus meis. ou : Alléluia Reminiscéntur et converténtur ad Dóminum univérsi fines terræ, et adorábunt in conspéctu eius univérsæ famíliæ géntium. Narrábitur de Dómino generatióni ventúræ, et annuntiábunt iustítiam eius pópulo qui nascétur : «Hæc fecit Dóminus». ℟. Narrábo nomen tuum frátribus meis. ou : Alléluia",
-            "de": "℟. Deinen Namen will ich meinen Brüdern verkünden. Oder: Halleluja. Ich will deinen Namen, Herr, meinen Brüdern verkünden, inmitten der Gemeinde dich preisen. Die ihr den Herrn fürchtet, preist ihn, ihr alle vom Stamm Jakobs, rühmt ihn; erschauert alle vor ihm, ihr Nachkommen Israels! ℟. Deinen Namen will ich meinen Brüdern verkünden. Oder: Halleluja. Deine Treue preise ich in großer Gemeinde; ich erfülle meine Gelübde vor denen, die Gott fürchten. Die Armen sollen essen und sich sättigen; den Herrn sollen preisen, die ihn suchen. Aufleben soll euer Herz für immer. ℟. Deinen Namen will ich meinen Brüdern verkünden. Oder: Halleluja. Alle Enden der Erde sollen daran denken und werden umkehren zum Herrn: Vor ihm werfen sich alle Stämme der Völker nieder. Vom Herrn wird man dem künftigen Geschlecht erzählen, seine Heilstat verkündet man dem kommenden Volk; denn er hat das Werk getan. ℟. Deinen Namen will ich meinen Brüdern verkünden. Oder: Halleluja."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 21, 23-24. 26-27. 28 et 31b-32",
+          "de": "Ps 22",
+          "en": "Ps 21:23-24, 26-27, 28 and 31b-32",
+          "es": "Sal 21, 23-24. 26-27. 28 et 31b-32",
+          "pt-BR": "Sl 21, 23-24. 26-27. 28 et 31b-32",
+          "it": "Sal 21, 23-24. 26-27. 28 et 31b-32",
+          "fr": "Ps 21, 23-24. 26-27. 28 et 31b-32"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Narrábo nomen tuum frátribus meis."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "vel"
-                }
-              ],
+              ]
+            ],
+            "fr": [
               [
                 {
                   "type": "text",
-                  "text": "Allelúia."
+                  "text": "Narrábo nomen tuum frátribus meis."
                 }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Deinen Namen will ich meinen Brüdern verkünden."
+                }
+              ]
+            ]
+          },
+          "alternatives": [
+            {
+              "la": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Allelúia."
+                  }
+                ]
               ],
+              "fr": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Alléluia Narrábo nomen tuum frátribus meis,"
+                  }
+                ]
+              ],
+              "de": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Halleluja."
+                  }
+                ]
+              ]
+            },
+            {
+              "fr": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Alléluia Vota mea reddam in conspéctu timéntium eum."
+                  }
+                ]
+              ]
+            },
+            {
+              "fr": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Alléluia Reminiscéntur et converténtur ad Dóminum univérsi fines terræ,"
+                  }
+                ]
+              ]
+            },
+            {
+              "fr": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Alléluia"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -895,29 +906,9 @@
                   "type": "text",
                   "text": "Métuat eum omne semen Ísrael."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Narrábo nomen tuum frátribus meis."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "vel"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -941,29 +932,9 @@
                   "type": "text",
                   "text": "«Vivant corda eórum in sǽculum sǽculi»."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Narrábo nomen tuum frátribus meis."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "vel"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -993,53 +964,11 @@
                   "type": "text",
                   "text": "«Hæc fecit Dóminus»."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Narrábo nomen tuum frátribus meis."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "vel"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Allelúia."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Narrábo nomen tuum frátribus meis."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "ou :"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia Narrábo nomen tuum frátribus meis,"
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -1063,29 +992,9 @@
                   "type": "text",
                   "text": "Métuat eum omne semen Ísrael."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Narrábo nomen tuum frátribus meis."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "ou :"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia Vota mea reddam in conspéctu timéntium eum."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1103,29 +1012,9 @@
                   "type": "text",
                   "text": "«Vivant corda eórum in sǽculum sǽculi»."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Narrábo nomen tuum frátribus meis."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "ou :"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia Reminiscéntur et converténtur ad Dóminum univérsi fines terræ,"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1149,51 +1038,11 @@
                   "type": "text",
                   "text": "«Hæc fecit Dóminus»."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Narrábo nomen tuum frátribus meis."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "ou :"
-                }
-              ],
-              [
-                {
-                  "type": "text",
-                  "text": "Alléluia"
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Deinen Namen will ich meinen Brüdern verkünden."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oder:"
-                },
-                {
-                  "type": "response",
-                  "text": "Halleluja."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -1223,27 +1072,9 @@
                   "type": "text",
                   "text": "erschauert alle vor ihm, ihr Nachkommen Israels!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Deinen Namen will ich meinen Brüdern verkünden."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oder:"
-                },
-                {
-                  "type": "response",
-                  "text": "Halleluja."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1273,27 +1104,9 @@
                   "type": "text",
                   "text": "Aufleben soll euer Herz für immer."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Deinen Namen will ich meinen Brüdern verkünden."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oder:"
-                },
-                {
-                  "type": "response",
-                  "text": "Halleluja."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1323,38 +1136,9 @@
                   "type": "text",
                   "text": "denn er hat das Werk getan."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Deinen Namen will ich meinen Brüdern verkünden."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oder:"
-                },
-                {
-                  "type": "response",
-                  "text": "Halleluja."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 21, 23-24. 26-27. 28 et 31b-32",
-          "de": "Ps 22",
-          "en": "Ps 21:23-24, 26-27, 28 and 31b-32",
-          "es": "Sal 21, 23-24. 26-27. 28 et 31b-32",
-          "pt-BR": "Sl 21, 23-24. 26-27. 28 et 31b-32",
-          "it": "Sal 21, 23-24. 26-27. 28 et 31b-32",
-          "fr": "Ps 21, 23-24. 26-27. 28 et 31b-32"
+          ]
         }
       },
       "secondReading": {
@@ -1443,7 +1227,13 @@
               [
                 {
                   "type": "text",
-                  "text": "Alleluia, allelúia. Veni, Sancte Spíritus, reple tuórum corda fidélium; et tui amóris in eis ignem accénde. Allelúia."
+                  "text": "Alleluia"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Allelúia. Veni, Sancte Spíritus, reple tuórum corda fidélium; et tui amóris in eis ignem accénde. Allelúia."
                 }
               ]
             ],
@@ -1651,34 +1441,74 @@
         ]
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Benedícam nómini tuo, Dómine, in ætérnum. vel Allelúia. Per síngulos dies benedícam tibi, et laudábo nomen tuum in sǽculum sǽculi. Magnus Dóminus et laudábilis nimis, et magnitúdinis eius non est investigátio. ℟. Benedícam nómini tuo, Dómine, in ætérnum. vel Allelúia. Generátio generatióni laudábit ópera tua, et poténtiam tuam pronuntiábunt. Magnificéntiam glóriæ maiestátis tuæ loquéntur, et mirabília tua enarrábunt. ℟. Benedícam nómini tuo, Dómine, in ætérnum. vel Allelúia. Miserátor et miséricors Dóminus, longánimis et multæ misericórdiæ. Suávis Dóminus univérsis, et miseratiónes eius super ómnia ópera eius. ℟. Benedícam nómini tuo, Dómine, in ætérnum. vel Allelúia. Confiteántur tibi, Dómine, ómnia ópera tua; et sancti tui benedícant tibi. Glóriam regni tui dicant, et poténtiam tuam loquántur. ℟. Benedícam nómini tuo, Dómine, in ætérnum. vel Allelúia. Óculi ómnium in te sperant, et tu das illis escam in témpore opportúno. Áperis tu manum tuam, et imples omne ánimal in beneplácito. ℟. Benedícam nómini tuo, Dómine, in ætérnum. vel Allelúia.",
-            "fr": "℟. Benedícam nómini tuo, Dómine, in ætérnum. ou : Alléluia Per síngulos dies benedícam tibi, et laudábo nomen tuum in sǽculum sǽculi. Magnus Dóminus et laudábilis nimis, et magnitúdinis eius non est investigátio. ℟. Benedícam nómini tuo, Dómine, in ætérnum. ou : Alléluia Generátio generatióni laudábit ópera tua, et poténtiam tuam pronuntiábunt. Magnificéntiam glóriæ maiestátis tuæ loquéntur, et mirabília tua enarrábunt. ℟. Benedícam nómini tuo, Dómine, in ætérnum. ou : Alléluia Miserátor et miséricors Dóminus, longánimis et multæ misericórdiæ. Suávis Dóminus univérsis, et miseratiónes eius super ómnia ópera eius. ℟. Benedícam nómini tuo, Dómine, in ætérnum. ou : Alléluia Confiteántur tibi, Dómine, ómnia ópera tua ; et sancti tui benedícant tibi. Glóriam regni tui dicant, et poténtiam tuam loquántur. ℟. Benedícam nómini tuo, Dómine, in ætérnum. ou : Alléluia Óculi ómnium in te sperant, et tu das illis escam in témpore opportúno. Áperis tu manum tuam, et imples omne ánimal in beneplácito. ℟. Benedícam nómini tuo, Dómine, in ætérnum.",
-            "de": "℟. Herr, deinen Namen will ich loben immer und ewig. Oder: Halleluja. Ich will dich preisen Tag für Tag und deinen Namen loben immer und ewig. Groß ist der Herr und hoch zu loben, seine Größe ist unerforschlich. ℟. Herr, deinen Namen will ich loben immer und ewig. Oder: Halleluja. Ein Geschlecht verkünde dem andern den Ruhm deiner Werke und erzähle von deinen gewaltigen Taten. Sie sollen vom herrlichen Glanz deiner Hoheit reden; ich will deine Wunder besingen. ℟. Herr, deinen Namen will ich loben immer und ewig. Oder: Halleluja. Der Herr ist gnädig und barmherzig, langmütig und reich an Gnade. Der Herr ist gütig zu allen, sein Erbarmen waltet über all seinen Werken. ℟. Herr, deinen Namen will ich loben immer und ewig. Oder: Halleluja. Danken sollen dir, Herr, all deine Werke und deine Frommen dich preisen. Sie sollen von der Herrlichkeit deines Königtums reden, sollen sprechen von deiner Macht. ℟. Herr, deinen Namen will ich loben immer und ewig. Oder: Halleluja. Aller Augen warten auf dich, und du gibst ihnen Speise zur rechten Zeit. Du öffnest deine Hand und sättigst alles, was lebt, nach deinem Gefallen. ℟. Herr, deinen Namen will ich loben immer und ewig. Oder: Halleluja."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 144, 2-3. 4-5. 8-9. 10-11. 15-16",
+          "de": "Ps 145",
+          "en": "Ps 144:2-3, 4-5, 8-9, 10-11, 15-16",
+          "es": "Sal 144, 2-3. 4-5. 8-9. 10-11. 15-16",
+          "pt-BR": "Sl 144, 2-3. 4-5. 8-9. 10-11. 15-16",
+          "it": "Sal 144, 2-3. 4-5. 8-9. 10-11. 15-16",
+          "fr": "Ps 144, 2-3. 4-5. 8-9. 10-11. 15-16"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Benedícam nómini tuo, Dómine, in ætérnum."
                 }
-              ],
+              ]
+            ],
+            "fr": [
               [
                 {
-                  "type": "rubric",
-                  "text": "vel"
-                },
-                {
-                  "type": "response",
-                  "text": "Allelúia."
+                  "type": "text",
+                  "text": "Benedícam nómini tuo, Dómine, in ætérnum."
                 }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Herr, deinen Namen will ich loben immer und ewig."
+                }
+              ]
+            ]
+          },
+          "alternatives": [
+            {
+              "la": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Allelúia."
+                  }
+                ]
               ],
+              "fr": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Alléluia"
+                  }
+                ]
+              ],
+              "de": [
+                [
+                  {
+                    "type": "response",
+                    "text": "Halleluja."
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -1702,27 +1532,9 @@
                   "type": "text",
                   "text": "et magnitúdinis eius non est investigátio."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Benedícam nómini tuo, Dómine, in ætérnum."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "vel"
-                },
-                {
-                  "type": "response",
-                  "text": "Allelúia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1746,27 +1558,9 @@
                   "type": "text",
                   "text": "et mirabília tua enarrábunt."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Benedícam nómini tuo, Dómine, in ætérnum."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "vel"
-                },
-                {
-                  "type": "response",
-                  "text": "Allelúia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1790,27 +1584,9 @@
                   "type": "text",
                   "text": "et miseratiónes eius super ómnia ópera eius."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Benedícam nómini tuo, Dómine, in ætérnum."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "vel"
-                },
-                {
-                  "type": "response",
-                  "text": "Allelúia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1834,27 +1610,9 @@
                   "type": "text",
                   "text": "et poténtiam tuam loquántur."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Benedícam nómini tuo, Dómine, in ætérnum."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "vel"
-                },
-                {
-                  "type": "response",
-                  "text": "Allelúia."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1878,47 +1636,15 @@
                   "type": "text",
                   "text": "et imples omne ánimal in beneplácito."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Benedícam nómini tuo, Dómine, in ætérnum."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "vel"
-                },
-                {
-                  "type": "response",
-                  "text": "Allelúia."
-                }
               ]
-            ],
-            "fr": [
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
                   "type": "text",
-                  "text": "Benedícam nómini tuo, Dómine, in ætérnum."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "ou :"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Per síngulos dies benedícam tibi,"
+                  "text": "Per síngulos dies benedícam tibi,"
                 }
               ],
               [
@@ -1938,25 +1664,13 @@
                   "type": "text",
                   "text": "et magnitúdinis eius non est investigátio."
                 }
-              ],
+              ]
+            ],
+            [
               [
                 {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
                   "type": "text",
-                  "text": "Benedícam nómini tuo, Dómine, in ætérnum."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "ou :"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Generátio generatióni laudábit ópera tua,"
+                  "text": "Generátio generatióni laudábit ópera tua,"
                 }
               ],
               [
@@ -1976,25 +1690,13 @@
                   "type": "text",
                   "text": "et mirabília tua enarrábunt."
                 }
-              ],
+              ]
+            ],
+            [
               [
                 {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
                   "type": "text",
-                  "text": "Benedícam nómini tuo, Dómine, in ætérnum."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "ou :"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Miserátor et miséricors Dóminus,"
+                  "text": "Miserátor et miséricors Dóminus,"
                 }
               ],
               [
@@ -2014,25 +1716,13 @@
                   "type": "text",
                   "text": "et miseratiónes eius super ómnia ópera eius."
                 }
-              ],
+              ]
+            ],
+            [
               [
                 {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
                   "type": "text",
-                  "text": "Benedícam nómini tuo, Dómine, in ætérnum."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "ou :"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Confiteántur tibi, Dómine, ómnia ópera tua ;"
+                  "text": "Confiteántur tibi, Dómine, ómnia ópera tua ;"
                 }
               ],
               [
@@ -2052,25 +1742,13 @@
                   "type": "text",
                   "text": "et poténtiam tuam loquántur."
                 }
-              ],
+              ]
+            ],
+            [
               [
                 {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
                   "type": "text",
-                  "text": "Benedícam nómini tuo, Dómine, in ætérnum."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "ou :"
-                },
-                {
-                  "type": "text",
-                  "text": "Alléluia Óculi ómnium in te sperant,"
+                  "text": "Óculi ómnium in te sperant,"
                 }
               ],
               [
@@ -2090,39 +1768,11 @@
                   "type": "text",
                   "text": "et imples omne ánimal in beneplácito."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Benedícam nómini tuo, Dómine, in ætérnum."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, deinen Namen will ich loben immer und ewig."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oder:"
-                },
-                {
-                  "type": "response",
-                  "text": "Halleluja."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -2140,27 +1790,9 @@
                   "type": "text",
                   "text": "seine Größe ist unerforschlich."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, deinen Namen will ich loben immer und ewig."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oder:"
-                },
-                {
-                  "type": "response",
-                  "text": "Halleluja."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2178,27 +1810,9 @@
                   "type": "text",
                   "text": "ich will deine Wunder besingen."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, deinen Namen will ich loben immer und ewig."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oder:"
-                },
-                {
-                  "type": "response",
-                  "text": "Halleluja."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2222,27 +1836,9 @@
                   "type": "text",
                   "text": "sein Erbarmen waltet über all seinen Werken."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, deinen Namen will ich loben immer und ewig."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oder:"
-                },
-                {
-                  "type": "response",
-                  "text": "Halleluja."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2260,27 +1856,9 @@
                   "type": "text",
                   "text": "sollen sprechen von deiner Macht."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, deinen Namen will ich loben immer und ewig."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oder:"
-                },
-                {
-                  "type": "response",
-                  "text": "Halleluja."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2298,38 +1876,9 @@
                   "type": "text",
                   "text": "Du öffnest deine Hand und sättigst alles, was lebt, nach deinem Gefallen."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Herr, deinen Namen will ich loben immer und ewig."
-                }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "Oder:"
-                },
-                {
-                  "type": "response",
-                  "text": "Halleluja."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 144, 2-3. 4-5. 8-9. 10-11. 15-16",
-          "de": "Ps 145",
-          "en": "Ps 144:2-3, 4-5, 8-9, 10-11, 15-16",
-          "es": "Sal 144, 2-3. 4-5. 8-9. 10-11. 15-16",
-          "pt-BR": "Sl 144, 2-3. 4-5. 8-9. 10-11. 15-16",
-          "it": "Sal 144, 2-3. 4-5. 8-9. 10-11. 15-16",
-          "fr": "Ps 144, 2-3. 4-5. 8-9. 10-11. 15-16"
+          ]
         }
       },
       "secondReading": {
@@ -2419,7 +1968,13 @@
               [
                 {
                   "type": "text",
-                  "text": "Alleluia, allelúia. Veni, Sancte Spíritus, reple tuórum corda fidélium; et tui amóris in eis ignem accénde. Allelúia."
+                  "text": "Alleluia"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Allelúia. Veni, Sancte Spíritus, reple tuórum corda fidélium; et tui amóris in eis ignem accénde. Allelúia."
                 }
               ]
             ],

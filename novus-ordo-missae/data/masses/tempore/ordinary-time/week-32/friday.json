@@ -228,28 +228,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Cæli enárrant glóriam Dei. Cæli enárrant glóriam Dei, et ópera mánuum eius annúntiat firmaméntum. Dies diéi erúctat verbum, et nox nocti índicat sciéntiam. ℟. Cæli enárrant glóriam Dei. Non sunt loquélæ neque sermónes quorum non intellegántur voces. In omnem terram exívit sonus eórum, et in fines orbis terræ verba eórum. ℟. Cæli enárrant glóriam Dei.",
-            "es": "℟. El cielo proclama la gloria de Dios. El cielo proclama la gloria de Dios, el firmamento pregona la obra de sus manos: el día al día le pasa el mensaje, la noche a la noche se lo susurra. ℟. El cielo proclama la gloria de Dios. Sin que hablen, sin que pronuncien, sin que resuene su voz, a toda la tierra alcanza su pregón y hasta los límites del orbe su lenguaje. ℟. El cielo proclama la gloria de Dios.",
-            "en": "℟. The heavens proclaim the glory of God. The heavens proclaim the glory of God and the firmament shows forth the work of his hands. Day unto day takes up the story and night unto night makes known the message. ℟. The heavens proclaim the glory of God. No speech, no word, no voice is heard yet their span extends through all the earth, their words to the utmost bounds of the world. ℟. The heavens proclaim the glory of God.",
-            "pt-BR": "℟. Os céus proclamam a glória do Senhor! Os céus proclamam a glória do Senhor, e o firmamento, a obra de suas mãos; o dia ao dia transmite esta mensagem, a noite à noite publica esta notícia. ℟. Os céus proclamam a glória do Senhor! Não são discursos nem frases ou palavras, nem são vozes que possam ser ouvidas; seu som ressoa e se espalha em toda a terra, chega aos confins do universo a sua voz. ℟. Os céus proclamam a glória do Senhor!",
-            "it": "℟. I cieli narrano la gloria di Dio. I cieli narrano la gloria di Dio, l’opera delle sue mani annuncia il firmamento. Il giorno al giorno ne affida il racconto e la notte alla notte ne trasmette notizia. ℟. I cieli narrano la gloria di Dio. Senza linguaggio, senza parole, senza che si oda la loro voce, per tutta la terra si diffonde il loro annuncio e ai confini del mondo il loro messaggio. ℟. I cieli narrano la gloria di Dio.",
-            "fr": "℟. Les cieux proclament la gloire de Dieu. Les cieux proclament la gloire de Dieu, le firmament raconte l’ouvrage de ses mains. Le jour au jour en livre le récit et la nuit à la nuit en donne connaissance. ℟. Les cieux proclament la gloire de Dieu. Pas de paroles dans ce récit, pas de voix qui s’entende ; mais sur toute la terre en paraît le message et la nouvelle, aux limites du monde. ℟. Les cieux proclament la gloire de Dieu.",
-            "de": "℟. Die Himmel rühmen die Herrlichkeit Gottes. Die Himmel rühmen die Herrlichkeit Gottes, vom Werk seiner Hände kündet das Firmament. Ein Tag sagt es dem andern, eine Nacht tut es der andern kund. ℟. Die Himmel rühmen die Herrlichkeit Gottes. Ohne Worte und ohne Reden, unhörbar bleibt ihre Stimme. Doch ihre Botschaft geht in die ganze Welt hinaus, ihre Kunde bis zu den Enden der Erde. ℟. Die Himmel rühmen die Herrlichkeit Gottes."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 18, 2-3. 4-5",
+          "es": "Sal 18, 2-3. 4-5",
+          "en": "Ps 18:2-3, 4-5",
+          "de": "Ps 19",
+          "pt-BR": "Sl 18, 2-3. 4-5",
+          "it": "Sal 18, 2-3. 4-5",
+          "fr": "Ps 18, 2-3. 4-5"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Cæli enárrant glóriam Dei."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "El cielo proclama la gloria de Dios."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "The heavens proclaim the glory of God."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Os céus proclamam a glória do Senhor!"
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "I cieli narrano la gloria di Dio."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Les cieux proclament la gloire de Dieu."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Die Himmel rühmen die Herrlichkeit Gottes."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -273,17 +323,9 @@
                   "type": "text",
                   "text": "et nox nocti índicat sciéntiam."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Cæli enárrant glóriam Dei."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -301,29 +343,11 @@
                   "type": "text",
                   "text": "et in fines orbis terræ verba eórum."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Cæli enárrant glóriam Dei."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El cielo proclama la gloria de Dios."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -347,17 +371,9 @@
                   "type": "text",
                   "text": "la noche a la noche se lo susurra."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El cielo proclama la gloria de Dios."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -375,73 +391,29 @@
                   "type": "text",
                   "text": "a toda la tierra alcanza su pregón y hasta los límites del orbe su lenguaje."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "El cielo proclama la gloria de Dios."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The heavens proclaim the glory of God."
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "The heavens proclaim the glory of God and the firmament shows forth the work of his hands. Day unto day takes up the story and night unto night makes known the message."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The heavens proclaim the glory of God."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "No speech, no word, no voice is heard yet their span extends through all the earth, their words to the utmost bounds of the world."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "The heavens proclaim the glory of God."
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Os céus proclamam a glória do Senhor!"
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -465,17 +437,9 @@
                   "type": "text",
                   "text": "a noite à noite publica esta notícia."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Os céus proclamam a glória do Senhor!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -499,29 +463,11 @@
                   "type": "text",
                   "text": "chega aos confins do universo a sua voz."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Os céus proclamam a glória do Senhor!"
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "I cieli narrano la gloria di Dio."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
@@ -539,17 +485,9 @@
                   "type": "text",
                   "text": "Il giorno al giorno ne affida il racconto e la notte alla notte ne trasmette notizia."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "I cieli narrano la gloria di Dio."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -567,29 +505,11 @@
                   "type": "text",
                   "text": "per tutta la terra si diffonde il loro annuncio e ai confini del mondo il loro messaggio."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "I cieli narrano la gloria di Dio."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Les cieux proclament la gloire de Dieu."
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
@@ -607,17 +527,9 @@
                   "type": "text",
                   "text": "Le jour au jour en livre le récit et la nuit à la nuit en donne connaissance."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Les cieux proclament la gloire de Dieu."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -635,29 +547,11 @@
                   "type": "text",
                   "text": "mais sur toute la terre en paraît le message et la nouvelle, aux limites du monde."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Les cieux proclament la gloire de Dieu."
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Die Himmel rühmen die Herrlichkeit Gottes."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
@@ -681,17 +575,9 @@
                   "type": "text",
                   "text": "eine Nacht tut es der andern kund."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Die Himmel rühmen die Herrlichkeit Gottes."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -715,28 +601,9 @@
                   "type": "text",
                   "text": "ihre Kunde bis zu den Enden der Erde."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Die Himmel rühmen die Herrlichkeit Gottes."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 18, 2-3. 4-5",
-          "es": "Sal 18, 2-3. 4-5",
-          "en": "Ps 18:2-3, 4-5",
-          "de": "Ps 19",
-          "pt-BR": "Sl 18, 2-3. 4-5",
-          "it": "Sal 18, 2-3. 4-5",
-          "fr": "Ps 18, 2-3. 4-5"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -760,7 +627,9 @@
                 {
                   "type": "reference",
                   "text": "Lc 21, 28"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Respícite et leváte cápita vestra, quóniam appropínquat redémptio vestra. Allelúia."
@@ -776,7 +645,9 @@
                 {
                   "type": "reference",
                   "text": "Lc 21, 28"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Levantaos, alzad la cabeza; se acerca vuestra liberación. Aleluya."
@@ -1293,28 +1164,78 @@
         }
       },
       "responsorialPsalm": {
-        "body": {
-          "plain": {
-            "la": "℟. Beáti qui ámbulant in lege Dómini. Beáti immaculáti in via, qui ámbulant in lege Dómini. ℟. Beáti qui ámbulant in lege Dómini. Beáti, qui servant testimónia eius, in toto corde exquírunt eum. ℟. Beáti qui ámbulant in lege Dómini. In toto corde meo exquisívi te, ne erráre me fácias a præcéptis tuis. ℟. Beáti qui ámbulant in lege Dómini. In corde meo abscóndi elóquia tua, ut non peccem tibi. ℟. Beáti qui ámbulant in lege Dómini. Bénefac servo tuo, et vivam, et custódiam sermónem tuum. ℟. Beáti qui ámbulant in lege Dómini. Revéla óculos meos, et considerábo mirabília de lege tua. ℟. Beáti qui ámbulant in lege Dómini.",
-            "es": "℟. Dichoso el que camina en la ley del Señor. Dichoso el que, con vida intachable, camina en la ley del Señor. ℟. Dichoso el que camina en la ley del Señor. Dichoso el que, guardando sus preceptos, lo busca de todo corazón. ℟. Dichoso el que camina en la ley del Señor. Te busco de todo corazón, no consientas que me desvíe de tus mandamientos. ℟. Dichoso el que camina en la ley del Señor. En mi corazón escondo tus consignas, así no pecaré contra ti. ℟. Dichoso el que camina en la ley del Señor. Haz bien a tu siervo: viviré y cumpliré tus palabras. ℟. Dichoso el que camina en la ley del Señor. Ábreme los ojos, y contemplaré las maravillas de tu ley. ℟. Dichoso el que camina en la ley del Señor.",
-            "en": "℟. Happy are they who follow the law of the Lord! They are happy, whose life is blameless, who follow God's law! ℟. Happy are they who follow the law of the Lord! They are happy who do his will, seeking him with all their hearts. ℟. Happy are they who follow the law of the Lord! I have sought you with all my heart: let me not stray from your commands. ℟. Happy are they who follow the law of the Lord! I treasure your promise in my heart lest I sin against you. ℟. Happy are they who follow the law of the Lord! Bless your servant and I shall live and obey your word. ℟. Happy are they who follow the law of the Lord! Open my eyes that I may see the wonders of your law. ℟. Happy are they who follow the law of the Lord!",
-            "pt-BR": "℟. Feliz é quem na lei do Senhor Deus vai progredindo! Feliz o homem sem pecado em seu caminho, que na lei do Senhor Deus vai progredindo! ℟. Feliz é quem na lei do Senhor Deus vai progredindo! Feliz o homem que observa seus preceitos, e de todo o coração procura a Deus! ℟. Feliz é quem na lei do Senhor Deus vai progredindo! De todo o coração eu vos procuro, não deixeis que eu abandone a vossa lei! ℟. Feliz é quem na lei do Senhor Deus vai progredindo! Conservei no coração vossas palavras, a fim de que eu não peque contra vós. ℟. Feliz é quem na lei do Senhor Deus vai progredindo! Sede bom com vosso servo, e viverei, e guardarei vossa palavra, ó Senhor. ℟. Feliz é quem na lei do Senhor Deus vai progredindo! Abri meus olhos, e então contemplarei as maravilhas que encerra a vossa lei! ℟. Feliz é quem na lei do Senhor Deus vai progredindo!",
-            "it": "℟. Beato chi cammina nella legge del Signore. Beato chi è integro nella sua via e cammina nella legge del Signore. ℟. Beato chi cammina nella legge del Signore. Beato chi custodisce i suoi insegnamenti e lo cerca con tutto il cuore. ℟. Beato chi cammina nella legge del Signore. Con tutto il mio cuore ti cerco: non lasciarmi deviare dai tuoi comandi. ℟. Beato chi cammina nella legge del Signore. Ripongo nel cuore la tua promessa per non peccare contro di te. ℟. Beato chi cammina nella legge del Signore. Sii benevolo con il tuo servo e avrò vita, osserverò la tua parola. ℟. Beato chi cammina nella legge del Signore. Aprimi gli occhi perché io consideri le meraviglie della tua legge. ℟. Beato chi cammina nella legge del Signore.",
-            "fr": "℟. Heureux ceux qui marchent suivant la loi du Seigneur ! Heureux les hommes intègres dans leurs voies qui marchent suivant la loi du Seigneur ! ℟. Heureux ceux qui marchent suivant la loi du Seigneur ! Heureux ceux qui gardent ses exigences, ils le cherchent de tout cœur ! ℟. Heureux ceux qui marchent suivant la loi du Seigneur ! De tout mon cœur, je te cherche ; garde-moi de fuir tes volontés. ℟. Heureux ceux qui marchent suivant la loi du Seigneur ! Dans mon cœur, je conserve tes promesses pour ne pas faillir envers toi. ℟. Heureux ceux qui marchent suivant la loi du Seigneur ! Sois bon pour ton serviteur, et je vivrai, j’observerai ta parole. ℟. Heureux ceux qui marchent suivant la loi du Seigneur ! Ouvre mes yeux, que je contemple les merveilles de ta loi. ℟. Heureux ceux qui marchent suivant la loi du Seigneur !",
-            "de": "℟. Selig die Menschen, die leben nach der Weisung des Herrn. Wohl denen, deren Weg ohne Tadel ist die leben nach der Weisung des Herrn. ℟. Selig die Menschen, die leben nach der Weisung des Herrn. Wohl denen, die seine Vorschriften befolgen und ihn suchen von ganzem Herzen. ℟. Selig die Menschen, die leben nach der Weisung des Herrn. Ich suche dich von ganzem Herzen. Lass mich nicht abirren von deinen Geboten! ℟. Selig die Menschen, die leben nach der Weisung des Herrn. Ich suche dich von ganzem Herzen. Lass mich nicht abirren von deinen Geboten! ℟. Selig die Menschen, die leben nach der Weisung des Herrn. Tu deinem Knecht Gutes, erhalt mich am Leben! Dann will ich dein Wort befolgen. ℟. Selig die Menschen, die leben nach der Weisung des Herrn. Öffne mir die Augen für das Wunderbare an deiner Weisung! ℟. Selig die Menschen, die leben nach der Weisung des Herrn."
-          },
-          "lines": {
+        "citation": {
+          "la": "Ps 118, 1. 2. 10. 11. 17. 18",
+          "es": "Sal 118, 1. 2. 10. 11. 17. 18",
+          "en": "Ps 118:1, 2, 10, 11, 17, 18",
+          "pt-BR": "Sl 118, 1. 2. 10. 11. 17. 18",
+          "de": "Ps 119",
+          "it": "Sal 118, 1. 2. 10. 11. 17. 18",
+          "fr": "Ps 118, 1. 2. 10. 11. 17. 18"
+        },
+        "responsory": {
+          "primary": {
             "la": [
               [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
                 {
                   "type": "text",
                   "text": "Beáti qui ámbulant in lege Dómini."
                 }
-              ],
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Dichoso el que camina en la ley del Señor."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "Happy are they who follow the law of the Lord!"
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Feliz é quem na lei do Senhor Deus vai progredindo!"
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Beato chi cammina nella legge del Signore."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Heureux ceux qui marchent suivant la loi du Seigneur !"
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Selig die Menschen, die leben nach der Weisung des Herrn."
+                }
+              ]
+            ]
+          }
+        },
+        "verses": {
+          "la": [
+            [
               [
                 {
                   "type": "text",
@@ -1326,17 +1247,9 @@
                   "type": "text",
                   "text": "qui ámbulant in lege Dómini."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beáti qui ámbulant in lege Dómini."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1348,17 +1261,9 @@
                   "type": "text",
                   "text": "in toto corde exquírunt eum."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beáti qui ámbulant in lege Dómini."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1370,17 +1275,9 @@
                   "type": "text",
                   "text": "ne erráre me fácias a præcéptis tuis."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beáti qui ámbulant in lege Dómini."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1392,17 +1289,9 @@
                   "type": "text",
                   "text": "ut non peccem tibi."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beáti qui ámbulant in lege Dómini."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1414,17 +1303,9 @@
                   "type": "text",
                   "text": "et custódiam sermónem tuum."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beáti qui ámbulant in lege Dómini."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1436,29 +1317,11 @@
                   "type": "text",
                   "text": "et considerábo mirabília de lege tua."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beáti qui ámbulant in lege Dómini."
-                }
               ]
-            ],
-            "es": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dichoso el que camina en la ley del Señor."
-                }
-              ],
+            ]
+          ],
+          "es": [
+            [
               [
                 {
                   "type": "text",
@@ -1470,17 +1333,9 @@
                   "type": "text",
                   "text": "camina en la ley del Señor."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dichoso el que camina en la ley del Señor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1492,17 +1347,9 @@
                   "type": "text",
                   "text": "lo busca de todo corazón."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dichoso el que camina en la ley del Señor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1514,17 +1361,9 @@
                   "type": "text",
                   "text": "no consientas que me desvíe de tus mandamientos."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dichoso el que camina en la ley del Señor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1536,169 +1375,77 @@
                   "type": "text",
                   "text": "así no pecaré contra ti."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dichoso el que camina en la ley del Señor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Haz bien a tu siervo: viviré y cumpliré tus palabras."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dichoso el que camina en la ley del Señor."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Ábreme los ojos, y contemplaré las maravillas de tu ley."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Dichoso el que camina en la ley del Señor."
-                }
               ]
-            ],
-            "en": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Happy are they who follow the law of the Lord!"
-                }
-              ],
+            ]
+          ],
+          "en": [
+            [
               [
                 {
                   "type": "text",
                   "text": "They are happy, whose life is blameless, who follow God's law!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Happy are they who follow the law of the Lord!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "They are happy who do his will, seeking him with all their hearts."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Happy are they who follow the law of the Lord!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "I have sought you with all my heart: let me not stray from your commands."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Happy are they who follow the law of the Lord!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "I treasure your promise in my heart lest I sin against you."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Happy are they who follow the law of the Lord!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Bless your servant and I shall live and obey your word."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Happy are they who follow the law of the Lord!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Open my eyes that I may see the wonders of your law."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Happy are they who follow the law of the Lord!"
-                }
               ]
-            ],
-            "pt-BR": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Feliz é quem na lei do Senhor Deus vai progredindo!"
-                }
-              ],
+            ]
+          ],
+          "pt-BR": [
+            [
               [
                 {
                   "type": "text",
@@ -1710,17 +1457,9 @@
                   "type": "text",
                   "text": "que na lei do Senhor Deus vai progredindo!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Feliz é quem na lei do Senhor Deus vai progredindo!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1732,17 +1471,9 @@
                   "type": "text",
                   "text": "e de todo o coração procura a Deus!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Feliz é quem na lei do Senhor Deus vai progredindo!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1754,17 +1485,9 @@
                   "type": "text",
                   "text": "não deixeis que eu abandone a vossa lei!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Feliz é quem na lei do Senhor Deus vai progredindo!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1776,17 +1499,9 @@
                   "type": "text",
                   "text": "a fim de que eu não peque contra vós."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Feliz é quem na lei do Senhor Deus vai progredindo!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1798,77 +1513,35 @@
                   "type": "text",
                   "text": "e guardarei vossa palavra, ó Senhor."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Feliz é quem na lei do Senhor Deus vai progredindo!"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Abri meus olhos, e então contemplarei as maravilhas que encerra a vossa lei!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Feliz é quem na lei do Senhor Deus vai progredindo!"
-                }
               ]
-            ],
-            "it": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beato chi cammina nella legge del Signore."
-                }
-              ],
+            ]
+          ],
+          "it": [
+            [
               [
                 {
                   "type": "text",
                   "text": "Beato chi è integro nella sua via e cammina nella legge del Signore."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beato chi cammina nella legge del Signore."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Beato chi custodisce i suoi insegnamenti e lo cerca con tutto il cuore."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beato chi cammina nella legge del Signore."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1880,33 +1553,17 @@
                   "type": "text",
                   "text": "non lasciarmi deviare dai tuoi comandi."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beato chi cammina nella legge del Signore."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Ripongo nel cuore la tua promessa per non peccare contro di te."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beato chi cammina nella legge del Signore."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1918,61 +1575,27 @@
                   "type": "text",
                   "text": "osserverò la tua parola."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beato chi cammina nella legge del Signore."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Aprimi gli occhi perché io consideri le meraviglie della tua legge."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Beato chi cammina nella legge del Signore."
-                }
               ]
-            ],
-            "fr": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Heureux ceux qui marchent suivant la loi du Seigneur !"
-                }
-              ],
+            ]
+          ],
+          "fr": [
+            [
               [
                 {
                   "type": "text",
                   "text": "Heureux les hommes intègres dans leurs voies qui marchent suivant la loi du Seigneur !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Heureux ceux qui marchent suivant la loi du Seigneur !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -1984,17 +1607,9 @@
                   "type": "text",
                   "text": "ils le cherchent de tout cœur !"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Heureux ceux qui marchent suivant la loi du Seigneur !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2006,17 +1621,9 @@
                   "type": "text",
                   "text": "garde-moi de fuir tes volontés."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Heureux ceux qui marchent suivant la loi du Seigneur !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2028,17 +1635,9 @@
                   "type": "text",
                   "text": "je conserve tes promesses pour ne pas faillir envers toi."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Heureux ceux qui marchent suivant la loi du Seigneur !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2050,17 +1649,9 @@
                   "type": "text",
                   "text": "j’observerai ta parole."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Heureux ceux qui marchent suivant la loi du Seigneur !"
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2072,61 +1663,27 @@
                   "type": "text",
                   "text": "que je contemple les merveilles de ta loi."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Heureux ceux qui marchent suivant la loi du Seigneur !"
-                }
               ]
-            ],
-            "de": [
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Selig die Menschen, die leben nach der Weisung des Herrn."
-                }
-              ],
+            ]
+          ],
+          "de": [
+            [
               [
                 {
                   "type": "text",
                   "text": "Wohl denen, deren Weg ohne Tadel ist die leben nach der Weisung des Herrn."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Selig die Menschen, die leben nach der Weisung des Herrn."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Wohl denen, die seine Vorschriften befolgen und ihn suchen von ganzem Herzen."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Selig die Menschen, die leben nach der Weisung des Herrn."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2138,17 +1695,9 @@
                   "type": "text",
                   "text": "Lass mich nicht abirren von deinen Geboten!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Selig die Menschen, die leben nach der Weisung des Herrn."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2160,17 +1709,9 @@
                   "type": "text",
                   "text": "Lass mich nicht abirren von deinen Geboten!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Selig die Menschen, die leben nach der Weisung des Herrn."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
@@ -2182,44 +1723,17 @@
                   "type": "text",
                   "text": "Dann will ich dein Wort befolgen."
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Selig die Menschen, die leben nach der Weisung des Herrn."
-                }
-              ],
+              ]
+            ],
+            [
               [
                 {
                   "type": "text",
                   "text": "Öffne mir die Augen für das Wunderbare an deiner Weisung!"
                 }
-              ],
-              [
-                {
-                  "type": "rubric",
-                  "text": "℟."
-                },
-                {
-                  "type": "text",
-                  "text": "Selig die Menschen, die leben nach der Weisung des Herrn."
-                }
               ]
             ]
-          }
-        },
-        "citation": {
-          "la": "Ps 118, 1. 2. 10. 11. 17. 18",
-          "es": "Sal 118, 1. 2. 10. 11. 17. 18",
-          "en": "Ps 118:1, 2, 10, 11, 17, 18",
-          "pt-BR": "Sl 118, 1. 2. 10. 11. 17. 18",
-          "de": "Ps 119",
-          "it": "Sal 118, 1. 2. 10. 11. 17. 18",
-          "fr": "Ps 118, 1. 2. 10. 11. 17. 18"
+          ]
         }
       },
       "gospelAcclamation": {
@@ -2243,7 +1757,9 @@
                 {
                   "type": "reference",
                   "text": "Lc 21, 28"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Allelúia. Respícite et leváte cápita vestra, quóniam appropínquat redémptio vestra. Allelúia."
@@ -2259,7 +1775,9 @@
                 {
                   "type": "reference",
                   "text": "Lc 21, 28"
-                },
+                }
+              ],
+              [
                 {
                   "type": "text",
                   "text": "Aleluya. Levantaos, alzad la cabeza; se acerca vuestra liberación. Aleluya."
