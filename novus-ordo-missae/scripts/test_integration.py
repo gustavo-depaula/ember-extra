@@ -93,15 +93,16 @@ class TestEndToEndPostProcessing:
         assert "DOMINICA infra" not in out["title"]["la"]
         assert "S. FAMILIÆ" in out["title"]["la"]
         assert "Domingo na oitava" not in out["title"]["pt-BR"]
-        assert "SAGRADA FAMÍLIA" in out["title"]["pt-BR"]
+        # pt-BR title-cased post-strip (was SAGRADA FAMÍLIA, all-caps).
+        assert "Sagrada Família" in out["title"]["pt-BR"]
         assert "Domenica fra" not in out["title"]["it"]
         assert "SANTA FAMIGLIA" in out["title"]["it"]
         assert "Dimanche dans" not in out["title"]["fr"]
         assert "LA SAINTE FAMILLE" in out["title"]["fr"]
         assert "SONNTAG in der" not in out["title"]["de"]
         assert "FEST DER HEILIGEN FAMILIE" in out["title"]["de"]
-        # English title was already clean — preserved
-        assert out["title"]["en"] == "THE HOLY FAMILY OF JESUS, MARY AND JOSEPH"
+        # English title-cased from THE HOLY FAMILY OF JESUS, MARY AND JOSEPH.
+        assert out["title"]["en"] == "The Holy Family of Jesus, Mary and Joseph"
         # Color: white (christmas season + feast rank)
         assert out["liturgicalColor"] == "white"
 
@@ -530,7 +531,7 @@ class TestCalendarMassesCrossRef:
 
 
 class TestPrefaceCrossRef:
-    """Every prefaceRef in masses must resolve to a library preface."""
+    """Every entry in `prefaceRefs` must resolve to a library preface."""
 
     def test_no_dangling_preface_refs(self, all_masses):
         pref_dir = DATA / "library" / "preface"
@@ -545,13 +546,44 @@ class TestPrefaceCrossRef:
             if not isinstance(m, dict): continue
             p = m.get("preface")
             if not isinstance(p, dict): continue
-            ref = p.get("prefaceRef")
-            if isinstance(ref, str) and ref and ref not in preface_ids:
-                bad.append((m.get("id"), ref))
-            for alt in p.get("alternativeRefs") or []:
-                if alt not in preface_ids:
-                    bad.append((m.get("id"), alt))
+            for ref in p.get("prefaceRefs") or []:
+                if ref not in preface_ids:
+                    bad.append((m.get("id"), ref))
         assert not bad, f"dangling preface refs: {bad[:5]}"
+
+
+class TestSequentia:
+    """Easter Sunday and Pentecost ship the Sequentia (Victimae Paschali /
+    Veni Sancte Spiritus) as a dedicated reading slot — not buried in the
+    gospel acclamation alternatives."""
+
+    def test_easter_sunday_has_victimae_paschali(self):
+        mass_path = DATA / "masses/tempore/easter/week-1/sunday.json"
+        if not mass_path.exists():
+            pytest.skip("Easter Sunday data not generated")
+        d = json.loads(mass_path.read_text())
+        rs = d["readings"]["default"]
+        assert "sequentia" in rs, "Easter Sunday must have a sequentia slot"
+        seq = rs["sequentia"]
+        plain = seq["body"]["plain"]
+        assert plain.get("la", "").startswith("Víctimæ pascháli laudes")
+        # Body should not start with the bare label.
+        assert not plain.get("la", "").startswith("Sequentia")
+
+    def test_pentecost_has_veni_sancte_spiritus(self):
+        mass_path = DATA / "masses/tempore/easter/week-8/sunday.json"
+        if not mass_path.exists():
+            pytest.skip("Pentecost data not generated")
+        d = json.loads(mass_path.read_text())
+        rs = d["readings"]["default"]
+        assert "sequentia" in rs, "Pentecost must have a sequentia slot"
+        seq = rs["sequentia"]
+        plain = seq["body"]["plain"]
+        assert plain.get("la", "").startswith("Veni, Sancte Spíritus")
+        assert "Espírito" in plain.get("pt-BR", "")
+        # Body should not start with the bare label.
+        assert not plain.get("la", "").startswith("Sequentia")
+        assert not plain.get("pt-BR", "").startswith("Sequência")
 
 
 # =============================================================================

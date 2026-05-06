@@ -6,7 +6,7 @@
     "la": "II. PRO CIRCUMSTANTIIS PUBLICIS 26. PRO HUMANO LABORE SANCTIFICANDO B",
     "es": "II. POR LAS NECESIDADES PÚBLICAS 26. POR LA SANTIFICACIÓN DEL TRABAJO HUMANO B",
     "en": "II. FOR CIVIL NEEDS 26. FOR THE SANCTIFICATION OF HUMAN LABOR B Other Prayers",
-    "pt-BR": "II. PELAS CIRCUNSTÂNCIAS DA VIDA PÚBLICA 26. PELA SANTIFICAÇÃO DO TRABALHO HUMANO B",
+    "pt-BR": "II. pelas Circunstâncias da Vida Pública 26. pela Santificação do Trabalho Humano B",
     "it": "PER LA SOCIETÀ CIVILE 26. PER LA SANTIFICAZIONE DEL LAVORO B. Altre orazioni",
     "fr": "II. POUR DES CIRCONSTANCES PUBLIQUES 26. POUR LA SANCTIFICATION DU TRAVAIL HUMAIN B",
     "de": "II. FÜR STAAT UND GESELLSCHAFT 26. UM SEGEN FÜR DIE ARBEIT B Weitere Orationen"
@@ -458,7 +458,9 @@
     }
   },
   "preface": {
-    "prefaceRef": "preface.pf028",
+    "prefaceRefs": [
+      "preface.pf028"
+    ],
     "label": {
       "la": "Præfatio V de dominicis «per annum»",
       "fr": "Préface V des dimanches"

@@ -135,7 +135,7 @@ def test_no_untranslated_latin_leak_in_vernacular(all_masses):
                     pytest.fail(f"Latin leak: {m['id']}.{field}.{lang} == .la")
 
 
-def test_all_prefaceRef_resolve(all_masses):
+def test_all_prefaceRefs_resolve(all_masses):
     pref_dir = DATA / "library" / "preface"
     if not pref_dir.exists():
         pytest.skip("data/library/preface/ not generated")
@@ -146,9 +146,9 @@ def test_all_prefaceRef_resolve(all_masses):
         preface_ids.add(json.load(f.open())["id"])
     for m in all_masses:
         p = m.get("preface")
-        if isinstance(p, dict) and "prefaceRef" in p:
-            ref = p["prefaceRef"]
-            assert ref in preface_ids, f"Broken prefaceRef in {m['id']}: {ref}"
+        if isinstance(p, dict):
+            for ref in p.get("prefaceRefs") or []:
+                assert ref in preface_ids, f"Broken preface ref in {m['id']}: {ref}"
 
 
 def test_calendar_entries_resolve_to_masses(all_masses):

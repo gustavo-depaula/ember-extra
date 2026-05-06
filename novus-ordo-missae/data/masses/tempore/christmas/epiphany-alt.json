@@ -4,8 +4,8 @@
   "season": "christmas",
   "title": {
     "la": "IN EPIPHANIA DOMINI",
-    "en": "THE EPIPHANY OF THE LORD",
-    "pt-BR": "EPIFANIA DO SENHOR",
+    "en": "The Epiphany of the Lord",
+    "pt-BR": "Epifania do Senhor",
     "it": "Epifania del Signore",
     "fr": "SOLENNITÉ DE L’ÉPIPHANIE Ad Missam in Vigilia"
   },
@@ -392,7 +392,9 @@
     }
   },
   "preface": {
-    "prefaceRef": "preface.pf008",
+    "prefaceRefs": [
+      "preface.pf008"
+    ],
     "label": {
       "la": "Præfatio de Epiphania Dómini. Quando adhibetur Canon romanus, dicitur Communicántes proprium",
       "en": "Preface of the Epiphany of the Lord. When the Roman Canon is used, the proper form of the Communicantes (In communion with those) is said",

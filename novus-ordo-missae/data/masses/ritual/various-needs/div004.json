@@ -6,7 +6,7 @@
     "la": "I. PRO SANCTA ECCLESIA 1. PRO ECCLESIA D",
     "es": "I. POR LA SANTA IGLESIA 1. POR LA IGLESIA D",
     "en": "I. FOR HOLY CHURCH 1. For the Church D",
-    "pt-BR": "I. PELA SANTA IGREJA 1. PELA IGREJA D",
+    "pt-BR": "I. pela Santa Igreja 1. pela Igreja D",
     "it": "I. PER LA SANTA CHIESA 1. Per la Santa Chiesa D",
     "fr": "I. POUR LA SAINTE ÉGLISE 1. POUR L’ÉGLISE D",
     "de": "I. FÜR DIE HEILIGE KIRCHE 1. FÜR DIE HEILIGE KIRCHE D"
@@ -525,7 +525,9 @@
     }
   },
   "preface": {
-    "prefaceRef": "preface.pf031",
+    "prefaceRefs": [
+      "preface.pf031"
+    ],
     "label": {
       "la": "Præfatio VIII de dominicis «per annum»",
       "fr": "Préface VIII des dimanches"

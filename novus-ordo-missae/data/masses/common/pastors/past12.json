@@ -6,7 +6,7 @@
     "la": "COMMUNE PASTORUM V. PRO MISSIONARIIS 3",
     "es": "COMÚN DE PASTORES V. Para misioneros 3",
     "en": "COMMON OF PASTORS V. For Missionaries 3",
-    "pt-BR": "COMUM DOS PASTORES V. PARA MISSIONÁRIOS 3",
+    "pt-BR": "Comum dos Pastores V. para Missionários 3",
     "it": "COMUNE DEI PASTORI V. Per i missionari 3.",
     "fr": "COMMUN DES PASTEURS V. POUR DES MISSIONNAIRES 3",
     "de": "COMMUNE-TEXTE FÜR HIRTEN DER KIRCHE V. Für Glaubensboten 3"
@@ -665,7 +665,9 @@
     }
   },
   "preface": {
-    "prefaceRef": "preface.pf056",
+    "prefaceRefs": [
+      "preface.pf056"
+    ],
     "label": {
       "la": "De sanctis pastoribus",
       "es": "Santos Pastores",

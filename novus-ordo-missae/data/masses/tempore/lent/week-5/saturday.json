@@ -7,8 +7,8 @@
   "title": {
     "la": "Hebdomada V Sabbato",
     "es": "Cuaresma Sábado de la V Semana",
-    "en": "Season of Lent 5th Week: Saturday",
-    "pt-BR": "Quinta semana Sábado",
+    "en": "Saturday of the V Week of Lent",
+    "pt-BR": "Sábado da V Semana da Quaresma",
     "it": "V SETTIMANA DI QUARESIMA Sabato",
     "fr": "Hebdomada V Samedi",
     "de": "Samstag der 5. Woche"
@@ -527,7 +527,9 @@
     }
   },
   "preface": {
-    "prefaceRef": "preface.pf014",
+    "prefaceRefs": [
+      "preface.pf014"
+    ],
     "label": {
       "la": "Præfatio I de Passione Dómini",
       "fr": "Préface I de la Passion"

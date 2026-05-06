@@ -6,7 +6,7 @@
     "la": "COMMUNE PASTORUM II. PRO EPISCOPO 2",
     "es": "COMÚN DE PASTORES II. Para un obispo 2",
     "en": "COMMON OF PASTORS II. For a Bishop 2",
-    "pt-BR": "COMUM DOS PASTORES II. PARA UM BISPO 2",
+    "pt-BR": "Comum dos Pastores II. para Um bispo 2",
     "it": "COMUNE DEI PASTORI II. Per un vescovo 2.",
     "fr": "COMMUN DES PASTEURS II. Pour un évêque 2",
     "de": "COMMUNE-TEXTE FÜR HIRTEN DER KIRCHE II. Für einen Bischof 2"
@@ -571,7 +571,9 @@
     }
   },
   "preface": {
-    "prefaceRef": "preface.pf056",
+    "prefaceRefs": [
+      "preface.pf056"
+    ],
     "label": {
       "la": "De sanctis pastoribus",
       "es": "Santos Pastores",

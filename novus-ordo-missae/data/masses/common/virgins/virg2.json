@@ -6,7 +6,7 @@
     "la": "COMMUNE VIRGINUM II. PRO UNA VIRGINE 2",
     "es": "COMÚN DE VÍRGENES II. Para una virgen 2",
     "en": "COMMON OF VIRGINS II. For One Virgin 2",
-    "pt-BR": "COMUM DAS VIRGENS 2",
+    "pt-BR": "Comum das virgens 2",
     "it": "COMUNE DELLE VERGINI II. PRO UNA VIRGINE 2",
     "fr": "COMMUN DES VIERGES II. POUR UNE VIERGE 2",
     "de": "COMMUNE-TEXTE FÜR JUNGFRAUEN 2."
@@ -565,7 +565,9 @@
     }
   },
   "preface": {
-    "prefaceRef": "preface.pf057",
+    "prefaceRefs": [
+      "preface.pf057"
+    ],
     "label": {
       "la": "De sanctis virginibus et religiosis",
       "es": "Santas Vírgenes y Religiosos",

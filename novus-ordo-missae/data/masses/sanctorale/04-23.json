@@ -214,8 +214,8 @@
     }
   },
   "preface": {
-    "prefaceRef": "preface.pf054",
-    "alternativeRefs": [
+    "prefaceRefs": [
+      "preface.pf054",
       "preface.pf055"
     ],
     "excerpt": {
@@ -1101,7 +1101,9 @@
         }
       },
       "preface": {
-        "prefaceRef": "preface.pf056",
+        "prefaceRefs": [
+          "preface.pf056"
+        ],
         "label": {
           "la": "De sanctis pastoribus",
           "es": "Santos Pastores",

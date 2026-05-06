@@ -5,7 +5,7 @@ Validate the Missale Romanum JSON corpus.
 Checks:
   - Every JSON file conforms to schema/missal.schema.json
   - Every Mass id is unique
-  - Every prefaceRef resolves to an entry in library/prefaces.json
+  - Every entry in `prefaceRefs` resolves to an entry in library/prefaces.json
   - Every language tag is one of the supported BCP-47 codes
   - No leftover HTML markers, no leftover scaffolding fields
   - Counts match index.json totals
@@ -173,17 +173,15 @@ def collect_preface_ids() -> set[str]:
 
 
 def validate_preface_refs(preface_ids: set[str]) -> None:
-    """Walk every Mass and ensure every prefaceRef resolves."""
+    """Walk every Mass and ensure every preface ID in `prefaceRefs` resolves."""
     for jf in iter_item_files(DATA / "masses"):
         m = load_json(jf)
         preface = m.get("preface") or {}
-        ref = preface.get("prefaceRef") if isinstance(preface, dict) else None
-        if ref:
+        if not isinstance(preface, dict):
+            continue
+        for ref in preface.get("prefaceRefs") or []:
             if ref not in preface_ids:
-                err(f"Mass {m.get('id')}: prefaceRef {ref!r} not in library")
-        for alt in (preface.get("alternativeRefs") if isinstance(preface, dict) else None) or []:
-            if alt not in preface_ids:
-                err(f"Mass {m.get('id')}: alternativeRef {alt!r} not in library")
+                err(f"Mass {m.get('id')}: preface ref {ref!r} not in library")
 
 
 # ---------------------------------------------------------------------------

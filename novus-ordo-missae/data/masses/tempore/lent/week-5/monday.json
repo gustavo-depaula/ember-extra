@@ -7,8 +7,8 @@
   "title": {
     "la": "Hebdomada V Feria secunda",
     "es": "Cuaresma Lunes de la V Semana",
-    "en": "Season of Lent 5th Week: Monday",
-    "pt-BR": "Quinta semana Segunda-feira",
+    "en": "Monday of the V Week of Lent",
+    "pt-BR": "Segunda-feira da V Semana da Quaresma",
     "it": "V SETTIMANA DI QUARESIMA Lunedì",
     "fr": "Hebdomada V Lundi",
     "de": "Montag der 5. Woche"
@@ -479,7 +479,9 @@
     }
   },
   "preface": {
-    "prefaceRef": "preface.pf014",
+    "prefaceRefs": [
+      "preface.pf014"
+    ],
     "label": {
       "la": "Præfatio I de Passione Dómini",
       "fr": "Préface I de la Passion"

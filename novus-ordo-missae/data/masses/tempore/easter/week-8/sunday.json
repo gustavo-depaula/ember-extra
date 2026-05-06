@@ -7,8 +7,8 @@
   "title": {
     "la": "DOMINICA PENTECOSTES",
     "es": "DOMINGO DE PENTECOSTÉS",
-    "en": "PENTECOST SUNDAY",
-    "pt-BR": "DOMINGO DE PENTECOSTES",
+    "en": "Pentecost Sunday",
+    "pt-BR": "Domingo de Pentecostes",
     "it": "DOMENICA DI PENTECOSTE",
     "fr": "SOLENNITÉ DE LA PENTECÔTE",
     "de": "PFINGSTSONNTAG"
@@ -3288,151 +3288,1089 @@
           }
         ]
       },
-      "gospelAcclamation": {
-        "alternatives": [
-          {
-            "body": {
-              "plain": {
-                "la": "Sequentia",
-                "es": "Secuencia",
-                "en": "Sequence",
-                "pt-BR": "Sequência",
-                "it": "SEQUENZA",
-                "fr": "Séquence",
-                "de": "Sequenz"
-              },
-              "lines": {
-                "la": [
-                  [
-                    {
-                      "type": "rubric",
-                      "text": "Sequentia"
-                    }
-                  ]
-                ],
-                "es": [
-                  [
-                    {
-                      "type": "rubric",
-                      "text": "Secuencia"
-                    }
-                  ]
-                ],
-                "en": [
-                  [
-                    {
-                      "type": "rubric",
-                      "text": "Sequence"
-                    }
-                  ]
-                ],
-                "pt-BR": [
-                  [
-                    {
-                      "type": "rubric",
-                      "text": "Sequência"
-                    }
-                  ]
-                ],
-                "it": [
-                  [
-                    {
-                      "type": "rubric",
-                      "text": "SEQUENZA"
-                    }
-                  ]
-                ],
-                "fr": [
-                  [
-                    {
-                      "type": "rubric",
-                      "text": "Séquence"
-                    }
-                  ]
-                ],
-                "de": [
-                  [
-                    {
-                      "type": "rubric",
-                      "text": "Sequenz"
-                    }
-                  ]
-                ]
-              }
-            }
+      "sequentia": {
+        "body": {
+          "plain": {
+            "la": "Veni, Sancte Spíritus, et emítte cǽlitus lucis tuæ rádium. Veni, pater páuperum, veni, dator múnerum, veni, lumen córdium. Consolátor óptime, dulcis hospes ánimæ, dulce refrigérium. In labóre réquies, in æstu tempéries, in fletu solátium. O lux beatíssima, reple cordis íntima tuórum fidélium. Sine tuo númine, nihil est in hómine, nihil est innóxium. Lava quod est sórdidum, riga quod est áridum, sana quod est sáucium. Flecte quod est rígidum, fove quod est frígidum, rege quod est dévium. Da tuis fidélibus, in te confidéntibus, sacrum septenárium. Da virtútis méritum, da salútis éxitum, da perénne gáudium.",
+            "es": "Ven, Espíritu divino, manda tu luz desde el cielo. Padre amoroso del pobre; don, en tus dones espléndido; luz que penetra las almas; fuente del mayor consuelo. Ven, dulce huésped del alma, descanso de nuestro esfuerzo, tregua en el duro trabajo, brisa en las horas de fuego, gozo que enjuga las lágrimas y reconforta en los duelos. Entra hasta el fondo del alma, divina luz, y enriquécenos. Mira el vacío del hombre, si tú le faltas por dentro; mira el poder del pecado, cuando no envías tu aliento. Riega la tierra en sequía, sana el corazón enfermo, lava las manchas, infunde calor de vida en el hielo, doma el espíritu indómito, guía al que tuerce el sendero. Reparte tus siete dones, según la fe de tus siervos; por tu bondad y tu gracia, dale al esfuerzo su mérito; salva al que busca salvarse y danos tu gozo eterno.",
+            "en": "Holy Spirit, Lord of light, From the clear celestial height Thy pure beaming radiance give. Come thou Father of the poor, Come with treasures which endure; Come, thou light of all that live! Thou, of all consolers best, Thou, the soul's delightful guest, Dost refreshing peace bestow; Thou in toil art comfort sweet; Pleasant coolness in the heart; Solace in the mist of woe. Light immortal, light divine, Visit thou these hearts of thine, And our inmost being fill: If thou take thy grace away, Nothing pure in man will stay; All his good is turned to ill. Heal our wounds, our strength renew; On our dryness pour thy dew; Wash the stains of guilt away; Bend the stubborn heart and will; Melt the frozen, warm the chill; Guide the steps that go astray. Thou, on us who evermore Thee confess and thee adore, with thy sevenfold gifts descend. Give us comfort when we die; Give us life with thee on high; Give us joys that never end.",
+            "pt-BR": "Espírito de Deus, enviai dos céus um raio de luz! Vinde, Pai dos pobres, dai aos corações vossos sete dons. Consolo que acalma, hóspede da alma, doce alívio, vinde! No labor descanso, na aflição remanso, no calor aragem. Enchei, luz bendita, chama que crepita, o íntimo de nós! Sem a luz que acode, nada o homem pode, nenhum bem há nele. Ao sujo lavai, ao seco regai, curai o doente. Dobrai o que é duro, guiai no escuro, o frio aquecei. Dai à vossa Igreja, que espera e deseja, vossos sete dons. Dai em prêmio ao forte uma santa morte, alegria eterna. Aleluia.",
+            "it": "Vieni, Santo Spirito, manda a noi dal cielo un raggio della tua luce. Vieni, padre dei poveri, vieni, datore dei doni, vieni, luce dei cuori. Consolatore perfetto, ospite dolce dell’anima, dolcissimo sollievo. Nella fatica, riposo, nella calura, riparo, nel pianto, conforto. O luce beatissima, invadi nell’intimo il cuore dei tuoi fedeli. Senza la tua forza, nulla è nell’uomo, nulla senza colpa. Lava ciò che è sórdido, bagna ciò che è árido, sana ciò che sánguina. Piega ciò che è rigido, scalda ciò che è gelido, drizza ciò che è sviato. Dona ai tuoi fedeli, che solo in te confidano i tuoi santi doni. Dona virtù e premio, dona morte santa, dona gioia eterna.",
+            "fr": "Viens en nous, père des pauvres, viens, dispensateur des dons, viens, lumière de nos cœurs. Consolateur souverain, hôte très doux de nos âmes, adoucissante fraîcheur. Dans le labeur, le repos ; dans la fièvre, la fraîcheur ; dans les pleurs, le réconfort. Ô lumière bienheureuse, viens remplir jusqu’à l’intime le cœur de tous tes fidèles. Sans ta puissance divine, il n’est rien en aucun homme, rien qui ne soit perverti. Lave ce qui est souillé, baigne ce qui est aride, guéris ce qui est blessé. Assouplis ce qui est raide, réchauffe ce qui est froid, rends droit ce qui est faussé. À tous ceux qui ont la foi et qui en toi se confient donne tes sept dons sacrés. Donne mérite et vertu, donne le salut final, donne la joie éternelle. Amen.",
+            "de": "Komm herab, o Heil‘ger Geist, der die finstre Nacht zerreißt, strahle Licht in diese Welt. Komm, der alle Armen liebt, komm, der gute Gaben gibt, komm, der jedes Herz erhellt. Höchster Tröster in der Zeit, Gast, der Herz und Sinn erfreut, köstlich Labsal in der Not, in der Unrast schenkst du Ruh, hauchst in Hitze Kühlung zu, spendest Trost in Leid und Tod. Komm, o du glückselig Licht, fülle Herz und Angesicht, dring bis auf der Seele Grund. Ohne dein lebendig Wehn kann im Menschen nichts bestehn, kann nichts heil sein noch gesund. Was befleckt ist, wasche rein, Dürrem gieße Leben ein, heile du, wo Krankheit quält. Wärme du, was kalt und hart, löse, was in sich erstarrt, lenke, was den Weg verfehlt. Gib dem Volk, das dir vertraut, das auf deine Hilfe baut, deine Gaben zum Geleit. Lass es in der Zeit bestehn, deines Heils Vollendung sehn und der Freuden Ewigkeit."
           },
-          {
-            "body": {
-              "plain": {
-                "la": "Alleluia, allelúia. Veni, Sancte Spíritus, reple tuórum corda fidélium, et tui amóris in eis ignem accénde. Allelúia.",
-                "es": "Aleluya, aleluya. Ven, Espíritu Santo, llena los corazones de tus fieles y enciende en ellos la llama de tu amor. Aleluya.",
-                "en": "Alleluia, alleluia. Come, Holy Spirit, fill the hearts of your faithful and kindle in them the fire of your love. Alleluia.",
-                "pt-BR": "Aclamação ao Evangelho Aleluia, aleluia. Vinde, Espírito Divino, enchei com vossos dons os corações dos fiéis; e acendei neles o amor com um fogo abrasador!. Aleluia.",
-                "it": "Canto al Vangelo Alleluia, alleluia. Vieni, Santo Spirito, riempi i cuori dei tuoi fedeli e accendi in essi il fuoco del tuo amore. Alleluia.",
-                "fr": "Alléluia, alléluia. Viens, Esprit Saint ! Emplis le cœur de tes fidèles ! Allume en eux le feu de ton amour ! Alléluia",
-                "de": "Ruf vor dem Evangelium Halleluja. Halleluja. Komm, Heiliger Geist, erfülle die Herzen deiner Gläubigen, und entzünde in ihnen das Feuer deiner Liebe! Halleluja."
-              },
-              "lines": {
-                "la": [
-                  [
-                    {
-                      "type": "text",
-                      "text": "Alleluia, allelúia. Veni, Sancte Spíritus, reple tuórum corda fidélium, et tui amóris in eis ignem accénde. Allelúia."
-                    }
-                  ]
-                ],
-                "es": [
-                  [
-                    {
-                      "type": "text",
-                      "text": "Aleluya, aleluya. Ven, Espíritu Santo, llena los corazones de tus fieles y enciende en ellos la llama de tu amor. Aleluya."
-                    }
-                  ]
-                ],
-                "en": [
-                  [
-                    {
-                      "type": "text",
-                      "text": "Alleluia, alleluia. Come, Holy Spirit, fill the hearts of your faithful and kindle in them the fire of your love. Alleluia."
-                    }
-                  ]
-                ],
-                "pt-BR": [
-                  [
-                    {
-                      "type": "text",
-                      "text": "Aclamação ao Evangelho Aleluia, aleluia. Vinde, Espírito Divino, enchei com vossos dons os corações dos fiéis; e acendei neles o amor com um fogo abrasador!. Aleluia."
-                    }
-                  ]
-                ],
-                "it": [
-                  [
-                    {
-                      "type": "text",
-                      "text": "Canto al Vangelo Alleluia, alleluia. Vieni, Santo Spirito, riempi i cuori dei tuoi fedeli e accendi in essi il fuoco del tuo amore. Alleluia."
-                    }
-                  ]
-                ],
-                "fr": [
-                  [
-                    {
-                      "type": "text",
-                      "text": "Alléluia, alléluia. Viens, Esprit Saint ! Emplis le cœur de tes fidèles ! Allume en eux le feu de ton amour ! Alléluia"
-                    }
-                  ]
-                ],
-                "de": [
-                  [
-                    {
-                      "type": "text",
-                      "text": "Ruf vor dem Evangelium Halleluja. Halleluja. Komm, Heiliger Geist, erfülle die Herzen deiner Gläubigen, und entzünde in ihnen das Feuer deiner Liebe! Halleluja."
-                    }
-                  ]
-                ]
-              }
-            }
+          "lines": {
+            "la": [
+              [
+                {
+                  "type": "text",
+                  "text": "Veni, Sancte Spíritus,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "et emítte cǽlitus lucis tuæ rádium."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Veni,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "pater páuperum,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "veni, dator múnerum,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "veni, lumen córdium."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Consolátor óptime,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "dulcis hospes ánimæ,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "dulce refrigérium."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "In labóre réquies,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "in æstu tempéries,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "in fletu solátium."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "O lux beatíssima,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "reple cordis íntima tuórum fidélium."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Sine tuo númine,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "nihil est in hómine,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "nihil est innóxium."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Lava quod est sórdidum,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "riga quod est áridum,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "sana quod est sáucium."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Flecte quod est rígidum,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "fove quod est frígidum,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "rege quod est dévium."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Da tuis fidélibus,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "in te confidéntibus,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "sacrum septenárium."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Da virtútis méritum,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "da salútis éxitum,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "da perénne gáudium."
+                }
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Ven, Espíritu divino,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "manda tu luz desde el cielo."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Padre amoroso del pobre;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "don, en tus dones espléndido;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "luz que penetra las almas;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "fuente del mayor consuelo."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Ven, dulce huésped del alma,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "descanso de nuestro esfuerzo,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "tregua en el duro trabajo,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "brisa en las horas de fuego,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "gozo que enjuga las lágrimas y reconforta en los duelos."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Entra hasta el fondo del alma,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "divina luz, y enriquécenos."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Mira el vacío del hombre,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "si tú le faltas por dentro;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "mira el poder del pecado,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "cuando no envías tu aliento."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Riega la tierra en sequía,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "sana el corazón enfermo,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "lava las manchas, infunde calor de vida en el hielo,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "doma el espíritu indómito,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "guía al que tuerce el sendero."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Reparte tus siete dones,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "según la fe de tus siervos;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "por tu bondad y tu gracia,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "dale al esfuerzo su mérito;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "salva al que busca salvarse y danos tu gozo eterno."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "Holy Spirit, Lord of light,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "From the clear celestial height Thy pure beaming radiance give."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Come thou Father of the poor,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Come with treasures which endure;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Come, thou light of all that live!"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Thou, of all consolers best,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Thou, the soul's delightful guest,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Dost refreshing peace bestow;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Thou in toil art comfort sweet;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Pleasant coolness in the heart;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Solace in the mist of woe."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Light immortal,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "light divine,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Visit thou these hearts of thine,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "And our inmost being fill:"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "If thou take thy grace away,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Nothing pure in man will stay;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "All his good is turned to ill."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Heal our wounds, our strength renew;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "On our dryness pour thy dew;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Wash the stains of guilt away;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Bend the stubborn heart and will;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Melt the frozen, warm the chill;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Guide the steps that go astray."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Thou, on us who evermore Thee confess and thee adore,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "with thy sevenfold gifts descend."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Give us comfort when we die;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Give us life with thee on high;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Give us joys that never end."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Espírito de Deus, enviai dos céus um raio de luz!"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Vinde, Pai dos pobres,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "dai aos corações vossos sete dons."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Consolo que acalma, hóspede da alma,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "doce alívio, vinde!"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "No labor descanso, na aflição remanso, no calor aragem."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Enchei, luz bendita, chama que crepita, o íntimo de nós!"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Sem a luz que acode, nada o homem pode, nenhum bem há nele."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Ao sujo lavai, ao seco regai, curai o doente."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Dobrai o que é duro, guiai no escuro, o frio aquecei."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Dai à vossa Igreja, que espera e deseja, vossos sete dons."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Dai em prêmio ao forte uma santa morte, alegria eterna. Aleluia."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Vieni, Santo Spirito,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "manda a noi dal cielo un raggio della tua luce."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Vieni, padre dei poveri,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "vieni, datore dei doni,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "vieni, luce dei cuori."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Consolatore perfetto,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "ospite dolce dell’anima,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "dolcissimo sollievo."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Nella fatica, riposo,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "nella calura, riparo,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "nel pianto, conforto."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "O luce beatissima,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "invadi nell’intimo il cuore dei tuoi fedeli."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Senza la tua forza,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "nulla è nell’uomo,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "nulla senza colpa."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Lava ciò che è sórdido,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "bagna ciò che è árido,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "sana ciò che sánguina."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Piega ciò che è rigido,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "scalda ciò che è gelido,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "drizza ciò che è sviato."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Dona ai tuoi fedeli,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "che solo in te confidano i tuoi santi doni."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Dona virtù e premio,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "dona morte santa,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "dona gioia eterna."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Viens en nous,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "père des pauvres,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "viens, dispensateur des dons,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "viens, lumière de nos cœurs."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Consolateur souverain,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "hôte très doux de nos âmes,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "adoucissante fraîcheur."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Dans le labeur, le repos ;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "dans la fièvre, la fraîcheur ;"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "dans les pleurs, le réconfort."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Ô lumière bienheureuse,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "viens remplir jusqu’à l’intime le cœur de tous tes fidèles."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Sans ta puissance divine,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "il n’est rien en aucun homme,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "rien qui ne soit perverti."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Lave ce qui est souillé,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "baigne ce qui est aride,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "guéris ce qui est blessé."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Assouplis ce qui est raide,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "réchauffe ce qui est froid,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "rends droit ce qui est faussé."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "À tous ceux qui ont la foi et qui en toi se confient donne tes sept dons sacrés."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Donne mérite et vertu,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "donne le salut final,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "donne la joie éternelle."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Amen."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Komm herab, o Heil‘ger Geist, der die finstre Nacht zerreißt, strahle Licht in diese Welt."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Komm, der alle Armen liebt, komm, der gute Gaben gibt, komm, der jedes Herz erhellt."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Höchster Tröster in der Zeit,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Gast, der Herz und Sinn erfreut, köstlich Labsal in der Not,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "in der Unrast schenkst du Ruh, hauchst in Hitze Kühlung zu, spendest Trost in Leid und Tod."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Komm, o du glückselig Licht, fülle Herz und Angesicht,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "dring bis auf der Seele Grund."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Ohne dein lebendig Wehn kann im Menschen nichts bestehn, kann nichts heil sein noch gesund."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Was befleckt ist,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "wasche rein, Dürrem gieße Leben ein, heile du, wo Krankheit quält."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Wärme du, was kalt und hart, löse, was in sich erstarrt, lenke, was den Weg verfehlt."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Gib dem Volk, das dir vertraut, das auf deine Hilfe baut,"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "deine Gaben zum Geleit."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Lass es in der Zeit bestehn, deines Heils Vollendung sehn und der Freuden Ewigkeit."
+                }
+              ]
+            ]
           }
-        ]
+        }
+      },
+      "gospelAcclamation": {
+        "body": {
+          "plain": {
+            "la": "Alleluia, allelúia. Veni, Sancte Spíritus, reple tuórum corda fidélium, et tui amóris in eis ignem accénde. Allelúia.",
+            "es": "Aleluya, aleluya. Ven, Espíritu Santo, llena los corazones de tus fieles y enciende en ellos la llama de tu amor. Aleluya.",
+            "en": "Alleluia, alleluia. Come, Holy Spirit, fill the hearts of your faithful and kindle in them the fire of your love. Alleluia.",
+            "pt-BR": "Aclamação ao Evangelho Aleluia, aleluia. Vinde, Espírito Divino, enchei com vossos dons os corações dos fiéis; e acendei neles o amor com um fogo abrasador!. Aleluia.",
+            "it": "Canto al Vangelo Alleluia, alleluia. Vieni, Santo Spirito, riempi i cuori dei tuoi fedeli e accendi in essi il fuoco del tuo amore. Alleluia.",
+            "fr": "Alléluia, alléluia. Viens, Esprit Saint ! Emplis le cœur de tes fidèles ! Allume en eux le feu de ton amour ! Alléluia.",
+            "de": "Ruf vor dem Evangelium Halleluja. Halleluja. Komm, Heiliger Geist, erfülle die Herzen deiner Gläubigen, und entzünde in ihnen das Feuer deiner Liebe! Halleluja."
+          },
+          "lines": {
+            "la": [
+              [
+                {
+                  "type": "text",
+                  "text": "Alleluia, allelúia. Veni, Sancte Spíritus, reple tuórum corda fidélium, et tui amóris in eis ignem accénde. Allelúia."
+                }
+              ]
+            ],
+            "es": [
+              [
+                {
+                  "type": "text",
+                  "text": "Aleluya, aleluya. Ven, Espíritu Santo, llena los corazones de tus fieles y enciende en ellos la llama de tu amor. Aleluya."
+                }
+              ]
+            ],
+            "en": [
+              [
+                {
+                  "type": "text",
+                  "text": "Alleluia, alleluia. Come, Holy Spirit, fill the hearts of your faithful and kindle in them the fire of your love. Alleluia."
+                }
+              ]
+            ],
+            "pt-BR": [
+              [
+                {
+                  "type": "text",
+                  "text": "Aclamação ao Evangelho Aleluia, aleluia. Vinde, Espírito Divino, enchei com vossos dons os corações dos fiéis; e acendei neles o amor com um fogo abrasador!. Aleluia."
+                }
+              ]
+            ],
+            "it": [
+              [
+                {
+                  "type": "text",
+                  "text": "Canto al Vangelo Alleluia, alleluia. Vieni, Santo Spirito, riempi i cuori dei tuoi fedeli e accendi in essi il fuoco del tuo amore. Alleluia."
+                }
+              ]
+            ],
+            "fr": [
+              [
+                {
+                  "type": "text",
+                  "text": "Alléluia, alléluia. Viens, Esprit Saint ! Emplis le cœur de tes fidèles ! Allume en eux le feu de ton amour ! Alléluia."
+                }
+              ]
+            ],
+            "de": [
+              [
+                {
+                  "type": "text",
+                  "text": "Ruf vor dem Evangelium Halleluja. Halleluja. Komm, Heiliger Geist, erfülle die Herzen deiner Gläubigen, und entzünde in ihnen das Feuer deiner Liebe! Halleluja."
+                }
+              ]
+            ]
+          }
+        }
       },
       "gospel": {
         "alternatives": [

@@ -5,8 +5,8 @@
   "title": {
     "la": "FERIA IV HEBDOMADÆ SANCTÆ",
     "es": "MIÉRCOLES SANTO",
-    "en": "WEDNESDAY OF HOLY WEEK",
-    "pt-BR": "QUARTA-FEIRA DA SEMANA SANTA",
+    "en": "Wednesday of Holy Week",
+    "pt-BR": "Quarta-Feira da Semana Santa",
     "it": "Mercoledì della Settimana santa",
     "fr": "MERCREDI SAINT SEMAINE SAINTE",
     "de": "MITTWOCH DER KARWOCHE"
@@ -453,7 +453,9 @@
     }
   },
   "preface": {
-    "prefaceRef": "preface.pf015",
+    "prefaceRefs": [
+      "preface.pf015"
+    ],
     "label": {
       "la": "Præfatio II de Passione Dómini",
       "fr": "Préface II de la Passion"

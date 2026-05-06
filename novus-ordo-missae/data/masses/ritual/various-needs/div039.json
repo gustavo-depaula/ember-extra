@@ -5,8 +5,8 @@
   "title": {
     "la": "II. PRO CIRCUMSTANTIIS PUBLICIS 28. POST COLLECTOS FRUCTUS TERRÆ",
     "es": "II. POR LAS NECESIDADES PÚBLICAS 28. PARA DESPUÉS DE LA COSECHA",
-    "en": "II. FOR CIVIL NEEDS 28. AFTER THE HARVEST",
-    "pt-BR": "II. PELAS CIRCUNSTÂNCIAS DA VIDA PÚBLICA 28. APÓS A COLHEITA",
+    "en": "II. for Civil Needs 28. After the Harvest",
+    "pt-BR": "II. pelas Circunstâncias da Vida Pública 28. Após a Colheita",
     "it": "II. PER LA SOCIETÀ CIVILE 28. DOPO IL RACCOLTO",
     "fr": "II. POUR DES CIRCONSTANCES PUBLIQUES 28. APRÈS LES RÉCOLTES",
     "de": "II. FÜR STAAT UND GESELLSCHAFT 28. ZUM ERNTEDANK"
@@ -414,7 +414,9 @@
     }
   },
   "preface": {
-    "prefaceRef": "preface.pf028",
+    "prefaceRefs": [
+      "preface.pf028"
+    ],
     "label": {
       "la": "Præfatio V de dominicis «per annum»",
       "fr": "Préface V des dimanches"

@@ -6,7 +6,7 @@
     "la": "II. PRO CIRCUMSTANTIIS PUBLICIS 27. IN AGRIS CONSERENDIS B",
     "es": "II. POR LAS NECESIDADES PÚBLICAS 27. EN TIEMPO DE SIEMBRA B",
     "en": "II. FOR CIVIL NEEDS 27. AT SEEDTIME B Other Prayers",
-    "pt-BR": "II. PELAS CIRCUNSTÂNCIAS DA VIDA PÚBLICA 27. NO TEMPO DE SEMEAR B",
+    "pt-BR": "II. pelas Circunstâncias da Vida Pública 27. no Tempo de Semear B",
     "it": "PER LA SOCIETÀ CIVILE 27. NEL TEMPO DELLA SEMINA B",
     "fr": "II. POUR DES CIRCONSTANCES PUBLIQUES 27. POUR LES TRAVAUX DES CHAMPS B",
     "de": "II. FÜR STAAT UND GESELLSCHAFT 27. BEI DER AUSSAAT B Weitere Orationen"
@@ -450,7 +450,9 @@
     }
   },
   "preface": {
-    "prefaceRef": "preface.pf028",
+    "prefaceRefs": [
+      "preface.pf028"
+    ],
     "label": {
       "la": "Præfatio V de dominicis «per annum»",
       "fr": "Préface V des dimanches"

@@ -5,8 +5,8 @@
   "title": {
     "la": "SOLLEMNITAS SANCTÆ DEI GENETRICIS MARIÆ",
     "es": "Octava de Navidad SOLEMNIDAD DE SANTA MARÍA, MADRE DE DIOS",
-    "en": "SOLEMNITY OF MARY, MOTHER OF GOD",
-    "pt-BR": "SOLENIDADE DE SANTA MARIA, MÃE DE DEUS",
+    "en": "Solemnity of Mary, Mother of God",
+    "pt-BR": "Solenidade de Santa Maria, Mãe de Deus",
     "it": "SOLENNITÁ Maria santissima Madre di Dio",
     "fr": "Octave de Noël SOLENNITÉ DE SAINTE MARIE MÈRE DE DIEU",
     "de": "Oktavtag von Weihnachten HOCHFEST DER GOTTESMUTTER MARIA"
@@ -688,7 +688,9 @@
     }
   },
   "preface": {
-    "prefaceRef": "preface.pf043",
+    "prefaceRefs": [
+      "preface.pf043"
+    ],
     "label": {
       "la": "Præfatio I de beata Maria Virgine (Et te in maternitáte). Quando adhibetur Canon romanus, dicitur Communicántes proprium",
       "es": "Prefacio I de la bienaventurada Virgen María: en la maternidad. Cuando se utiliza el Canon romano, se dice Reunidos en comunión propio",

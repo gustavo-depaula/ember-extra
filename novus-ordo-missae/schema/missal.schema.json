@@ -207,15 +207,12 @@
       ]
     },
     "PrefaceRef": {
-      "description": "A pointer to a preface in library/prefaces.json.",
+      "description": "A pointer to one or more prefaces in library/prefaces.json. The first entry is the proper preface; subsequent entries are alternatives the priest may choose.",
       "type": "object",
       "properties": {
-        "prefaceRef": {
-          "type": "string",
-          "pattern": "^preface\\."
-        },
-        "alternativeRefs": {
+        "prefaceRefs": {
           "type": "array",
+          "minItems": 1,
           "items": {
             "type": "string",
             "pattern": "^preface\\."
@@ -229,7 +226,7 @@
         }
       },
       "required": [
-        "prefaceRef"
+        "prefaceRefs"
       ],
       "additionalProperties": false
     },
@@ -298,6 +295,10 @@
           "$ref": "#/$defs/ResponsorialPsalm"
         },
         "secondReading": {
+          "$ref": "#/$defs/Reading"
+        },
+        "sequentia": {
+          "description": "Easter Sunday and Pentecost only: Victimae Paschali laudes / Veni Sancte Spiritus. Falls between the second reading and the gospel acclamation.",
           "$ref": "#/$defs/Reading"
         },
         "gospelAcclamation": {

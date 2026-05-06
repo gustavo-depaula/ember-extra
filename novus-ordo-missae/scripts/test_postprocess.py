@@ -2136,21 +2136,183 @@ class TestTitleCaseSaintsInMass:
                 "it": "VISITAZIONE DELLA BEATA VERGINE MARIA",  # IT stays as-is (intentional)
             },
         }
-        R._titlecase_sanctorale_titles(mass)
+        R._titlecase_titles(mass)
         assert mass["title"]["la"] == "IN VISITATIONE B. M. V."  # LA convention preserved
         assert mass["title"]["en"] == "The Visitation of the Blessed Virgin Mary"
         assert mass["title"]["pt-BR"] == "Visitação da Bem-Aventurada Virgem Maria"
         # Italian intentionally ALL-CAPS in source missal — leave alone
         assert mass["title"]["it"] == "VISITAZIONE DELLA BEATA VERGINE MARIA"
 
-    def test_does_not_touch_tempore(self):
+    def test_titlecases_tempore_too(self):
+        mass = {
+            "id": "tempore.christmas.nativity-day",
+            "title": {
+                "la": "IN NATIVITATE DOMINI",
+                "en": "THE NATIVITY OF THE LORD",
+                "pt-BR": "NATAL DO SENHOR",
+            },
+        }
+        R._titlecase_titles(mass)
+        assert mass["title"]["la"] == "IN NATIVITATE DOMINI"
+        assert mass["title"]["en"] == "The Nativity of the Lord"
+        assert mass["title"]["pt-BR"] == "Natal do Senhor"
+
+    def test_idempotent_on_already_titlecased(self):
         mass = {
             "id": "tempore.easter.week-1.sunday",
-            "title": {"en": "EASTER SUNDAY"},
+            "title": {"en": "Easter Sunday", "pt-BR": "Domingo de Páscoa"},
         }
-        R._titlecase_sanctorale_titles(mass)
-        # tempore titles aren't touched
-        assert mass["title"]["en"] == "EASTER SUNDAY"
+        R._titlecase_titles(mass)
+        R._titlecase_titles(mass)
+        assert mass["title"]["en"] == "Easter Sunday"
+        assert mass["title"]["pt-BR"] == "Domingo de Páscoa"
+
+
+class TestSynthesizeFerialTitle:
+    """Override pt-BR/en titles for Mon-Sat ferials with a synthesized
+    weekday + Roman-numeral-week + season form."""
+
+    def test_easter_weekday(self):
+        mass = {
+            "id": "tempore.easter.week-1.tuesday",
+            "season": "easter",
+            "weekIndex": 1,
+            "weekday": "tuesday",
+            "title": {"pt-BR": "TERÇA-FEIRA NA OITAVA DA PÁSCOA",
+                      "en": "Easter Season TUESDAY WITHIN THE OCTAVE OF EASTER"},
+        }
+        R._synthesize_ferial_title_in_mass(mass)
+        assert mass["title"]["pt-BR"] == "Terça-feira da I Semana da Páscoa"
+        assert mass["title"]["en"] == "Tuesday of the I Week of Easter"
+
+    def test_ordinary_time_friday(self):
+        mass = {
+            "id": "tempore.ordinary-time.week-5.friday",
+            "season": "ordinary-time",
+            "weekIndex": 5,
+            "weekday": "friday",
+            "title": {"pt-BR": "Quinta semana Sexta-feira",
+                      "en": "Ordinary Time Week 5 FRIDAY"},
+        }
+        R._synthesize_ferial_title_in_mass(mass)
+        assert mass["title"]["pt-BR"] == "Sexta-feira da V Semana do Tempo Comum"
+        assert mass["title"]["en"] == "Friday of the V Week in Ordinary Time"
+
+    def test_lent_wednesday(self):
+        mass = {
+            "id": "tempore.lent.week-3.wednesday",
+            "season": "lent",
+            "weekIndex": 3,
+            "weekday": "wednesday",
+            "title": {"pt-BR": "...", "en": "..."},
+        }
+        R._synthesize_ferial_title_in_mass(mass)
+        assert mass["title"]["pt-BR"] == "Quarta-feira da III Semana da Quaresma"
+        assert mass["title"]["en"] == "Wednesday of the III Week of Lent"
+
+    def test_skips_sunday(self):
+        mass = {
+            "id": "tempore.easter.week-2.sunday",
+            "season": "easter",
+            "weekIndex": 2,
+            "weekday": "sunday",
+            "title": {"pt-BR": "II DOMINGO DA PÁSCOA",
+                      "en": "Second Sunday of Easter"},
+        }
+        R._synthesize_ferial_title_in_mass(mass)
+        # Sundays keep their proper title — synthesis only targets weekdays.
+        assert mass["title"]["pt-BR"] == "II DOMINGO DA PÁSCOA"
+        assert mass["title"]["en"] == "Second Sunday of Easter"
+
+    def test_skips_when_metadata_incomplete(self):
+        # Christmas-season weekdays use date-keyed IDs (dec-23) and don't carry
+        # weekIndex/weekday — we should NOT touch their titles.
+        mass = {
+            "id": "tempore.christmas.dec-23",
+            "season": "christmas",
+            "title": {"pt-BR": "23 DE DEZEMBRO", "en": "December 23"},
+        }
+        R._synthesize_ferial_title_in_mass(mass)
+        assert mass["title"]["pt-BR"] == "23 DE DEZEMBRO"
+
+    def test_idempotent(self):
+        mass = {
+            "id": "tempore.easter.week-3.thursday",
+            "season": "easter",
+            "weekIndex": 3,
+            "weekday": "thursday",
+            "title": {"pt-BR": "...", "en": "..."},
+        }
+        R._synthesize_ferial_title_in_mass(mass)
+        first_pt = mass["title"]["pt-BR"]
+        R._synthesize_ferial_title_in_mass(mass)
+        assert mass["title"]["pt-BR"] == first_pt
+
+    def test_skips_ranked_solemnity_on_weekday(self):
+        # Ascension is a solemnity that lands on a Thursday in Easter Week 6.
+        # The mass carries rank=solemnity AND season+weekIndex+weekday — but
+        # synth must NOT overwrite its proper title.
+        mass = {
+            "id": "tempore.easter.week-6.thursday.b",
+            "season": "easter",
+            "weekIndex": 6,
+            "weekday": "thursday",
+            "rank": "solemnity",
+            "title": {"pt-BR": "Ascensão do Senhor",
+                      "en": "The Ascension of the Lord"},
+        }
+        R._synthesize_ferial_title_in_mass(mass)
+        assert mass["title"]["pt-BR"] == "Ascensão do Senhor"
+        assert mass["title"]["en"] == "The Ascension of the Lord"
+
+
+class TestDisambiguateNativityTitles:
+    """The four Christmas Day Masses share `Natal do Senhor` / `The Nativity
+    of the Lord` in pt-BR/en. Disambiguate with a time-of-day suffix."""
+
+    def test_vigil(self):
+        mass = {"id": "tempore.christmas.nativity-vigil",
+                "title": {"pt-BR": "Natal do Senhor",
+                          "en": "The Nativity of the Lord (Christmas)"}}
+        R._disambiguate_nativity_titles_in_mass(mass)
+        assert mass["title"]["pt-BR"] == "Natal do Senhor — Missa da Vigília"
+        assert mass["title"]["en"] == "The Nativity of the Lord (Christmas) — Mass at the Vigil"
+
+    def test_night(self):
+        mass = {"id": "tempore.christmas.nativity-night",
+                "title": {"pt-BR": "Natal do Senhor", "en": "The Nativity of the Lord"}}
+        R._disambiguate_nativity_titles_in_mass(mass)
+        assert mass["title"]["pt-BR"] == "Natal do Senhor — Missa da Noite"
+        assert mass["title"]["en"] == "The Nativity of the Lord — Mass during the Night"
+
+    def test_dawn(self):
+        mass = {"id": "tempore.christmas.nativity-dawn",
+                "title": {"pt-BR": "Natal do Senhor", "en": "The Nativity of the Lord"}}
+        R._disambiguate_nativity_titles_in_mass(mass)
+        assert mass["title"]["pt-BR"] == "Natal do Senhor — Missa da Aurora"
+        assert mass["title"]["en"] == "The Nativity of the Lord — Mass at Dawn"
+
+    def test_day(self):
+        mass = {"id": "tempore.christmas.nativity-day",
+                "title": {"pt-BR": "Natal do Senhor", "en": "The Nativity of the Lord"}}
+        R._disambiguate_nativity_titles_in_mass(mass)
+        assert mass["title"]["pt-BR"] == "Natal do Senhor — Missa do Dia"
+        assert mass["title"]["en"] == "The Nativity of the Lord — Mass during the Day"
+
+    def test_other_masses_untouched(self):
+        mass = {"id": "tempore.easter.week-1.sunday",
+                "title": {"pt-BR": "Domingo de Páscoa", "en": "Easter Sunday"}}
+        R._disambiguate_nativity_titles_in_mass(mass)
+        assert mass["title"]["pt-BR"] == "Domingo de Páscoa"
+        assert mass["title"]["en"] == "Easter Sunday"
+
+    def test_idempotent(self):
+        mass = {"id": "tempore.christmas.nativity-night",
+                "title": {"pt-BR": "Natal do Senhor", "en": "The Nativity of the Lord"}}
+        R._disambiguate_nativity_titles_in_mass(mass)
+        R._disambiguate_nativity_titles_in_mass(mass)
+        assert mass["title"]["pt-BR"] == "Natal do Senhor — Missa da Noite"
+        assert mass["title"]["en"] == "The Nativity of the Lord — Mass during the Night"
 
 
 class TestFixDoubledAlleluia:
